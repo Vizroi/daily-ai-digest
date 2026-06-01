@@ -6,665 +6,1588 @@
 <title>每日 AI & 游戏资讯 | 2026 年 6 月 1 日</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #f7f7f8;
+    --sidebar-bg: #1e1e2e;
+    --sidebar-text: #cdd6f4;
+    --sidebar-hover: #313244;
+    --sidebar-active: #45475a;
+    --card-bg: #ffffff;
+    --text: #1e1e2e;
+    --text-secondary: #585b70;
+    --text-muted: #9399b2;
+    --border: #e6e6ea;
+    --accent: #8839ef;
+    --hot: #d20f39;
+    --game: #40a02b;
+    --radius: 12px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.06);
+    --shadow-hover: 0 4px 16px rgba(0,0,0,0.08);
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    background: #f5f5f5;
-    color: #1a1a1a;
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
     line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
   }
-  .container { max-width: 900px; margin: 0 auto; padding: 20px 16px; }
-  header {
-    text-align: center;
-    padding: 32px 0 20px;
-    border-bottom: 2px solid #e0e0e0;
-    margin-bottom: 28px;
-  }
-  header h1 { font-size: 28px; font-weight: 700; color: #111; }
-  header .meta { margin-top: 8px; font-size: 14px; color: #888; }
-  .stats {
-    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
-    margin: 16px 0 0;
-  }
-  .stats .stat {
-    background: #fff; border-radius: 8px; padding: 6px 14px;
-    font-size: 13px; color: #555; box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-  }
-  .stats .stat strong { color: #111; }
 
-  .section {
-    margin-bottom: 32px;
+  /* ---- sidebar ---- */
+  .sidebar {
+    width: 220px; min-width: 220px;
+    background: var(--sidebar-bg);
+    color: var(--sidebar-text);
+    padding: 28px 0;
+    position: sticky; top: 0; height: 100vh;
+    overflow-y: auto;
+    display: flex; flex-direction: column;
   }
-  .section-title {
-    font-size: 20px; font-weight: 700; color: #222;
-    padding-bottom: 8px; border-bottom: 1px solid #e8e8e8;
+  .sidebar-brand {
+    padding: 0 20px 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
     margin-bottom: 16px;
   }
+  .sidebar-brand h2 {
+    font-size: 17px; font-weight: 700; color: #fff; letter-spacing: -0.3px;
+  }
+  .sidebar-brand p { font-size: 11px; color: #a6adc8; margin-top: 4px; }
+  .sidebar-nav { list-style: none; flex: 1; padding: 0 10px; }
+  .sidebar-nav li a {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 14px; border-radius: 8px;
+    color: var(--sidebar-text); text-decoration: none;
+    font-size: 14px; transition: all 0.15s;
+    margin-bottom: 2px; cursor: pointer;
+  }
+  .sidebar-nav li a:hover { background: var(--sidebar-hover); color: #fff; }
+  .sidebar-nav li a.active { background: var(--sidebar-active); color: #fff; font-weight: 600; }
+  .sidebar-nav li a .icon { font-size: 16px; width: 24px; text-align: center; flex-shrink: 0; }
+  .sidebar-nav li a .count {
+    margin-left: auto; font-size: 11px; opacity: 0.6;
+  }
+  .sidebar-footer {
+    padding: 16px 20px 0;
+    font-size: 10px; color: #6c7086;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    margin: 16px 10px 0;
+  }
+
+  /* ---- main ---- */
+  .main {
+    flex: 1; padding: 28px 32px; max-width: 960px;
+  }
+  .main-header {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    margin-bottom: 24px; flex-wrap: wrap; gap: 12px;
+  }
+  .main-header h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+  .main-header .header-right {
+    display: flex; gap: 10px; flex-wrap: wrap;
+  }
+  .main-header .search-box {
+    background: var(--card-bg); border: 1px solid var(--border);
+    border-radius: 8px; padding: 8px 14px; font-size: 13px; width: 200px;
+    outline: none; font-family: var(--font);
+  }
+  .main-header .search-box:focus { border-color: var(--accent); }
+  .main-header .btn {
+    background: var(--card-bg); border: 1px solid var(--border);
+    border-radius: 8px; padding: 8px 16px; font-size: 13px; cursor: pointer;
+    font-family: var(--font); transition: all 0.15s;
+  }
+  .main-header .btn:hover { border-color: var(--accent); }
+
+  .stats-bar {
+    display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap;
+  }
+  .stat-item {
+    background: var(--card-bg); border-radius: var(--radius);
+    padding: 12px 18px; box-shadow: var(--shadow);
+    font-size: 13px; color: var(--text-secondary);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .stat-item strong { font-size: 20px; color: var(--text); }
+
+  /* ---- cards ---- */
+  .card-list { display: flex; flex-direction: column; gap: 8px; }
   .card {
-    background: #fff;
-    border-radius: 10px;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-    transition: box-shadow 0.15s;
-    border-left: 3px solid transparent;
+    background: var(--card-bg); border-radius: var(--radius);
+    padding: 16px 20px; box-shadow: var(--shadow);
+    transition: box-shadow 0.15s; border-left: 3px solid transparent;
+    display: flex; gap: 16px; align-items: flex-start;
   }
-  .card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.10); }
-  .card.recommended { border-left-color: #e63946; background: #fff5f5; }
+  .card:hover { box-shadow: var(--shadow-hover); }
+  .card.recommended { border-left-color: var(--hot); }
+  .card-body { flex: 1; min-width: 0; }
+  .card-source {
+    flex-shrink: 0; width: 42px; height: 42px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 700; color: #fff;
+    text-align: center; line-height: 1.1;
+  }
+  .card-source.ai { background: #8839ef; }
+  .card-source.game { background: #40a02b; }
+  .card-source.research { background: #1e66f5; }
   .card-title {
-    font-size: 16px; font-weight: 600; line-height: 1.4;
-    margin-bottom: 8px;
+    font-size: 15px; font-weight: 600; line-height: 1.4;
+    margin-bottom: 4px;
   }
-  .card-title a {
-    color: #1a1a1a; text-decoration: none;
-  }
-  .card-title a:hover { color: #2563eb; text-decoration: underline; }
+  .card-title a { color: var(--text); text-decoration: none; }
+  .card-title a:hover { color: var(--accent); }
   .card-summary {
-    font-size: 14px; color: #555; margin-bottom: 10px;
-    line-height: 1.65;
+    font-size: 13px; color: var(--text-secondary); line-height: 1.6;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden; margin-bottom: 6px;
   }
   .card-meta {
-    display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
-    font-size: 12px; color: #999;
+    display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+    font-size: 11px; color: var(--text-muted);
   }
-  .card-meta .source {
-    background: #f0f0f0; border-radius: 4px; padding: 2px 8px;
+  .card-meta .badge {
+    padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500;
   }
-  .card-meta .tag {
-    background: #e8f0fe; color: #2563eb; border-radius: 4px; padding: 2px 8px;
+  .badge-source { background: #f2f2f4; color: var(--text-secondary); }
+  .badge-cat { background: #e8e4fb; color: #8839ef; }
+  .badge-game { background: #e2f5db; color: #40a02b; }
+  .badge-hot { background: #fde8e8; color: var(--hot); font-weight: 700; }
+  .rec-mark { color: var(--hot); font-weight: 700; font-size: 12px; white-space: nowrap; }
+
+  .empty-state {
+    text-align: center; padding: 80px 20px; color: var(--text-muted);
   }
-  .card-meta .tag.hot {
-    background: #fde8e8; color: #c0392b; font-weight: 600;
-  }
-  .card-meta .rec-badge {
-    color: #c0392b; font-weight: 700; font-size: 12px;
+  .empty-state .icon { font-size: 48px; margin-bottom: 16px; }
+  .empty-state p { font-size: 15px; }
+
+  /* ---- responsive ---- */
+  @media (max-width: 768px) {
+    body { flex-direction: column; }
+    .sidebar {
+      width: 100%; min-width: unset; height: auto; position: static;
+      flex-direction: row; flex-wrap: wrap; padding: 12px;
+      gap: 6px; overflow-x: auto;
+    }
+    .sidebar-brand { display: none; }
+    .sidebar-nav { display: flex; flex-wrap: wrap; gap: 4px; padding: 0; }
+    .sidebar-nav li a { padding: 6px 12px; font-size: 12px; border-radius: 20px; }
+    .sidebar-nav li a .count { display: none; }
+    .sidebar-footer { display: none; }
+    .main { padding: 16px; }
+    .main-header h1 { font-size: 20px; }
+    .card { padding: 14px; }
+    .card-source { width: 34px; height: 34px; font-size: 10px; }
+    .card-title { font-size: 14px; }
   }
 
-  footer {
-    text-align: center; padding: 32px 0 20px;
-    border-top: 1px solid #e0e0e0; margin-top: 32px;
-    font-size: 12px; color: #aaa;
-  }
-  footer a { color: #888; }
-
-  @media (max-width: 600px) {
-    header h1 { font-size: 22px; }
-    .card { padding: 14px 15px; }
-    .card-title { font-size: 15px; }
-  }
+  /* ---- fade in animation ---- */
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .card { animation: fadeIn 0.3s ease forwards; }
+  .card:nth-child(1) { animation-delay: 0s; }
+  .card:nth-child(2) { animation-delay: 0.03s; }
+  .card:nth-child(3) { animation-delay: 0.06s; }
+  .card:nth-child(n+4) { animation-delay: 0.09s; }
 </style>
 </head>
 <body>
-<div class="container">
-<header>
-  <h1>🌅 每日 AI & 游戏资讯</h1>
-  <p class="meta">2026 年 6 月 1 日 · 自动抓取并 AI 提炼生成</p>
-  <div class="stats">
-    <span class="stat">📰 <strong>60</strong> 条资讯</span>
-    <span class="stat">⭐ <strong>7</strong> 条推荐</span>
-    <span class="stat">🕐 更新于 11:11 (UTC+8)</span>
-  </div>
-</header>
 
-<div class="section">
-  <div class="section-title">🤖 大模型与应用 <span style="font-weight:400;font-size:14px;color:#999;">(8)</span></div>
-  <div class="card recommended">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/" target="_blank" rel="noopener">‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs</a> <span class="rec-badge">🔥 推荐</span></div>
-  <div class="card-summary">GitHub Copilot推出基于token的新计费模式，引发开发者强烈不满，被认为标志着其黄金时代的终结。<br><span style="color:#c0392b;font-size:12px;">💡 GitHub Copilot计费模式重大变更，直接影响数百万开发者，引发行业震动。</span></div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag hot">大模型与应用</span>
-    <span style="font-size:11px;">2026-05-30</span>
+<!-- sidebar -->
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <h2>🌅 AI 瞭望台</h2>
+    <p>AI & 游戏 · 每日速览</p>
   </div>
-</div>
-<div class="card recommended">
-  <div class="card-title"><a href="https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense" target="_blank" rel="noopener">Strengthening societal resilience with Rosalind Biodefense</a> <span class="rec-badge">🔥 推荐</span></div>
-  <div class="card-summary">OpenAI推出Rosalind Biodefense项目，向经过审查的开发者及美国政府合作伙伴扩展GPT-Rosalind的访问权限，旨在利用前沿AI推进生物防御、公共卫生和流行病防范。<br><span style="color:#c0392b;font-size:12px;">💡 OpenAI推出专门用于生物防御的AI模型，标志着AI在关键安全领域的重大应用突破。</span></div>
-  <div class="card-meta">
-    <span class="source">OpenAI Blog</span>
-    <span class="tag hot">大模型与应用</span>
-    <span style="font-size:11px;">2026-05-29</span>
+  <ul class="sidebar-nav" id="sidebar-nav"><li><a data-cat="all" onclick="showCategory('all')" class="active"><span class="icon">📰</span>全部资讯<span class="count">100</span></a></li>
+      <li><a data-cat="推荐精选" onclick="showCategory('推荐精选')"><span class="icon">⭐</span>推荐精选<span class="count">7</span></a></li>
+      <li><a data-cat="大模型与应用" onclick="showCategory('大模型与应用')"><span class="icon">🤖</span>AI 大模型<span class="count">16</span></a></li>
+      <li><a data-cat="AI研究与基础设施" onclick="showCategory('AI研究与基础设施')"><span class="icon">🔬</span>AI 研究<span class="count">21</span></a></li>
+      <li><a data-cat="行业与商业" onclick="showCategory('行业与商业')"><span class="icon">💼</span>AI 商业<span class="count">5</span></a></li>
+      <li><a data-cat="AI + 游戏" onclick="showCategory('AI + 游戏')"><span class="icon">🎮</span>AI × 游戏<span class="count">1</span></a></li>
+      <li><a data-cat="游戏行业" onclick="showCategory('游戏行业')"><span class="icon">🕹️</span>游戏行业<span class="count">37</span></a></li>
+      <li><a data-cat="其他AI资讯" onclick="showCategory('其他AI资讯')"><span class="icon">📡</span>其他<span class="count">20</span></a></li></ul>
+  <div class="sidebar-footer">
+    Generated by GitHub Actions<br>Powered by DeepSeek · 2026 年 6 月 1 日
   </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/" target="_blank" rel="noopener">Meta is reportedly developing an AI pendant</a> </div>
-  <div class="card-summary">据报道，Meta正在开发一款AI挂坠，表明该公司正在加大对AI硬件的投入。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">大模型与应用</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/" target="_blank" rel="noopener">I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful</a> </div>
-  <div class="card-summary">谷歌的24/7 AI助手Gemini Spark可自动执行收件箱摘要和本地活动规划等日常任务，但将其作为独立产品推出的原因尚不明确。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">大模型与应用</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/" target="_blank" rel="noopener">Coders are refusing to work without AI — and that could come back to bite them</a> </div>
-  <div class="card-summary">研究人员警告，虽然AI帮助程序员更快地编写代码，但可能并未产出更优质的代码，这可能会在未来带来问题。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">大模型与应用</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/" target="_blank" rel="noopener">Cognition’s Scott Wu says AI coding agents shouldn’t replace humans</a> </div>
-  <div class="card-summary">AI编程代理Devin的开发者Cognition公司创始人Scott Wu表示，AI编程工具并非旨在取代人类程序员。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">大模型与应用</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">Boston Children’s uses AI to unlock new diagnoses</a> </div>
-  <div class="card-summary">波士顿儿童医院利用OpenAI技术改善患者护理、减轻运营负担，并帮助诊断了40多例罕见病。</div>
-  <div class="card-meta">
-    <span class="source">OpenAI Blog</span>
-    <span class="tag">大模型与应用</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://openai.com/index/braintrust" target="_blank" rel="noopener">How Braintrust turns customer requests into code with Codex</a> </div>
-  <div class="card-summary">Braintrust工程师使用Codex与GPT-5.5将客户需求快速转化为代码，加速实验与开发。</div>
-  <div class="card-meta">
-    <span class="source">OpenAI Blog</span>
-    <span class="tag">大模型与应用</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-</div>
-<div class="section">
-  <div class="section-title">🔬 AI研究与基础设施 <span style="font-weight:400;font-size:14px;color:#999;">(4)</span></div>
-  <div class="card recommended">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/" target="_blank" rel="noopener">This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory</a> <span class="rec-badge">🔥 推荐</span></div>
-  <div class="card-summary">韩国芯片初创公司XCENA获得1.35亿美元融资，押注AI的真正瓶颈在于内存而非算力。<br><span style="color:#c0392b;font-size:12px;">💡 芯片初创公司获巨额融资，提出AI瓶颈新观点，可能改变硬件发展方向。</span></div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag hot">AI研究与基础设施</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card recommended">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/" target="_blank" rel="noopener">The internet is being rebuilt for machines</a> <span class="rec-badge">🔥 推荐</span></div>
-  <div class="card-summary">随着AI代理从实验走向生产，AWS、Cloudflare等公司正在重新设计云基础设施，以应对未来以机器流量而非人类用户为主的互联网。<br><span style="color:#c0392b;font-size:12px;">💡 揭示了AI代理时代下互联网基础设施的根本性变革趋势，影响深远。</span></div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag hot">AI研究与基础设施</span>
-    <span style="font-size:11px;">2026-05-28</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/" target="_blank" rel="noopener">Making sense of the debate over AI psychosis</a> </div>
-  <div class="card-summary">最新一期Equity播客讨论了科技CEO是否“特别容易患上AI精神病”的争议。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">AI研究与基础设施</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://openai.com/index/trustworthy-third-party-evaluations-foundations" target="_blank" rel="noopener">A shared playbook for trustworthy third party evaluations</a> </div>
-  <div class="card-summary">OpenAI发布第三方AI评估指南，涵盖如何评估前沿模型的能力、安全防护措施及有效性，旨在建立可信的评估标准。</div>
-  <div class="card-meta">
-    <span class="source">OpenAI Blog</span>
-    <span class="tag">AI研究与基础设施</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-</div>
-<div class="section">
-  <div class="section-title">🕹️ 游戏行业 <span style="font-weight:400;font-size:14px;color:#999;">(20)</span></div>
-  <div class="card recommended">
-  <div class="card-title"><a href="https://www.gamesindustry.biz/fandom-and-gamespot-owner-set-to-buy-balatro-publisher-playstack" target="_blank" rel="noopener">Fandom and GameSpot owner set to buy Balatro publisher Playstack</a> <span class="rec-badge">🔥 推荐</span></div>
-  <div class="card-summary">Fandom和GameSpot的母公司IMC将收购《Balatro》等游戏的发行商Playstack。<br><span style="color:#c0392b;font-size:12px;">💡 Playstack旗下拥有热门游戏《Balatro》，此次收购是游戏行业的重要并购事件。</span></div>
-  <div class="card-meta">
-    <span class="source">GamesIndustry.biz</span>
-    <span class="tag hot">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/rayman-origins-remaster-leak-reveals-first-details-about-enhanced-edition-from-ubisoft" target="_blank" rel="noopener">Rayman Origins Remaster Leak Reveals First Details About Enhanced Edition from Ubisoft</a> </div>
-  <div class="card-summary">育碧《雷曼：起源》重制版疑似泄露，该增强版已出现在Xbox商店，标价2000美元。</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/stop-killing-games-gains-momentum-after-bill-passes-california-state-assembly-vote" target="_blank" rel="noopener">Stop Killing Games Gains Momentum After Bill Passes California State Assembly Vote</a> </div>
-  <div class="card-summary">“停止杀死游戏”运动取得重大进展，加州众议院通过法案，保护游戏不被强制下线。</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/a-minecraft-movie-2-gets-official-title-ahead-of-july-2027-premiere" target="_blank" rel="noopener">A Minecraft Movie 2 Gets Official Title Ahead of July 2027 Premiere</a> </div>
-  <div class="card-summary">《我的世界大电影2》公布正式片名《A Minecraft Movie Squared》，定于2027年7月上映。</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/the-wandering-inn-author-says-a-live-action-adaptation-of-their-litrpg-books-would-surely-fail" target="_blank" rel="noopener">The Wandering Inn Author Says a Live-Action Adaptation of Their LitRPG Books Would 'Surely Fail'</a> </div>
-  <div class="card-summary"></div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/minecraft-live-may-2026-everything-announced" target="_blank" rel="noopener">Minecraft Live May 2026: Everything Announced</a> </div>
-  <div class="card-summary">Mojang Studios在2026年5月的Minecraft Live上公布了《我的世界大电影2》和《我的世界：地下城2》等新内容。</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/call-of-duty-modern-warfare-4-devs-say-keep-the-receipts-amid-commitment-to-grounded-skins" target="_blank" rel="noopener">Call of Duty: Modern Warfare 4 Devs Say 'Keep the Receipts' Amid Commitment to Grounded Skins</a> </div>
-  <div class="card-summary">动视和Infinity Ward的开发者承诺《使命召唤：现代战争4》的皮肤将保持写实风格，并让粉丝“保留收据”以作见证。</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/7-reasons-why-the-ac-black-flag-remake-could-be-amazing-and-3-concerns" target="_blank" rel="noopener">7 Reasons Why the AC Black Flag Remake Could be Amazing (and 3 Concerns)</a> </div>
-  <div class="card-summary">《刺客信条：黑旗》重制版看起来很棒，但缺少DLC扩展和现代剧情，可能无法成为终极体验。</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamesindustry.biz/nordic-game-2026-was-full-of-smiles-but-they-hid-a-very-tough-reality-opinion" target="_blank" rel="noopener">Nordic Game 2026 was full of smiles, but they hid a very tough reality | Opinion</a> </div>
-  <div class="card-summary">北欧游戏大会2026年回归，现场气氛虽好，但背后隐藏着行业严峻的现实挑战。</div>
-  <div class="card-meta">
-    <span class="source">GamesIndustry.biz</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamesindustry.biz/the-ramageddon-hits-home" target="_blank" rel="noopener">The RAMageddon hits home | Opinion</a> </div>
-  <div class="card-summary">内存和SSD等数字存储的成本与供应危机正对游戏行业产生深远影响，形势严峻。</div>
-  <div class="card-meta">
-    <span class="source">GamesIndustry.biz</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamedeveloper.com/design/crafting-clair-obscur-expedition-33-s-mournful-tale-ft-jennifer-svedeberg-yen" target="_blank" rel="noopener">Crafting Clair Obscur: Expedition 33's mournful tale ft. Jennifer Svedeberg-Yen</a> </div>
-  <div class="card-summary">GDC采访了《Clair Obscur: Expedition 33》的主笔，探讨了该游戏悲伤故事的创作决策。</div>
-  <div class="card-meta">
-    <span class="source">Game Developer</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamedeveloper.com/business/balatro-publisher-playstack-sold-to-gamespot-and-fandom-parent-company" target="_blank" rel="noopener">Balatro publisher Playstack is being sold to GameSpot and Fandom parent company</a> </div>
-  <div class="card-summary">《Balatro》发行商Playstack将被出售给GameSpot和Fandom的母公司，交易估值约1.69亿美元。</div>
-  <div class="card-meta">
-    <span class="source">Game Developer</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamesindustry.biz/tiga-appoints-elaine-green-as-chair" target="_blank" rel="noopener">TIGA appoints Elaine Green as chair</a> </div>
-  <div class="card-summary">英国游戏行业贸易机构TIGA任命Elaine Green为新任主席。</div>
-  <div class="card-meta">
-    <span class="source">GamesIndustry.biz</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamesindustry.biz/netease-reports-69-increase-in-games-revenue-to-37bn-during-q1" target="_blank" rel="noopener">NetEase reports 6.9% increase in games revenue to $3.7bn during Q1</a> </div>
-  <div class="card-summary">网易发布第一季度财报，游戏业务收入同比增长6.9%至257亿元人民币（37亿美元），总收入增长6.1%至306亿元人民币。</div>
-  <div class="card-meta">
-    <span class="source">GamesIndustry.biz</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamedeveloper.com/business/007-first-light-has-topped-1-5-million-sales" target="_blank" rel="noopener">007 First Light has topped 1.5 million sales</a> </div>
-  <div class="card-summary">游戏《007 First Light》销量已突破150万份。</div>
-  <div class="card-meta">
-    <span class="source">Game Developer</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamesindustry.biz/tomodachi-life-living-the-dream-is-2026s-top-new-release-by-revenue-to-date-newzoo-charts" target="_blank" rel="noopener">Tomodachi Life: Living the Dream is 2026's top new release by revenue to date | Newzoo charts</a> </div>
-  <div class="card-summary">据Newzoo数据，《Tomodachi Life: Living the Dream》是2026年至今收入最高的新游戏，并在4月主机收入榜上排名第一。</div>
-  <div class="card-meta">
-    <span class="source">GamesIndustry.biz</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamedeveloper.com/business/micro-grants-for-indies-another-hardware-price-hike-and-valnet-sinks-to-new-lows-patch-notes-54" target="_blank" rel="noopener">Micro-grants for indies, another hardware price hike, and Valnet sinks to new lows - Patch Notes #54</a> </div>
-  <div class="card-summary">本期Patch Notes汇总了独立游戏微资助计划、硬件价格上涨以及Valnet股价新低等消息。此外，《巫师3》将推出新扩展包，《毁灭全明星》即将停服。</div>
-  <div class="card-meta">
-    <span class="source">Game Developer</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamesindustry.biz/witcher-3-surpasses-65m-lifetime-sales-as-cd-projekt-announces-third-expansion" target="_blank" rel="noopener">Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion</a> </div>
-  <div class="card-summary">CD Projekt宣布《巫师3》全球销量突破6500万份，并为其推出第三个扩展包。公司第一季度营收同比增长6%，达到1.91亿波兰兹罗提。</div>
-  <div class="card-meta">
-    <span class="source">GamesIndustry.biz</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamesindustry.biz/xbox-ceo-says-its-already-seeing-positive-impacts-following-game-pass-price-cuts" target="_blank" rel="noopener">Xbox CEO says it's already seeing positive impacts following Game Pass price cuts</a> </div>
-  <div class="card-summary">Xbox CEO Asha Sharma表示，近期Game Pass的降价策略已初见成效，带来了积极影响。</div>
-  <div class="card-meta">
-    <span class="source">GamesIndustry.biz</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.gamedeveloper.com/business/remedy-entertainment-ceo-alan-wake-and-control-should-have-sold-more" target="_blank" rel="noopener">Remedy Entertainment CEO: Alan Wake and Control should have sold more</a> </div>
-  <div class="card-summary">Remedy Entertainment新任CEO表示，《心灵杀手》和《控制》的销量未达预期，认为影视改编将有助于扩大受众群体。</div>
-  <div class="card-meta">
-    <span class="source">Game Developer</span>
-    <span class="tag">游戏行业</span>
-    <span style="font-size:11px;">2026-05-28</span>
-  </div>
-</div>
-</div>
-<div class="section">
-  <div class="section-title">💼 行业与商业 <span style="font-weight:400;font-size:14px;color:#999;">(8)</span></div>
-  <div class="card recommended">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/" target="_blank" rel="noopener">SoftBank says it will invest up to €75 billion to build French data centers</a> <span class="rec-badge">🔥 推荐</span></div>
-  <div class="card-summary">软银宣布将投资高达750亿欧元在法国建设数据中心，目标是开发和运营高达5吉瓦的额外数据中心容量。<br><span style="color:#c0392b;font-size:12px;">💡 软银巨额投资欧洲数据中心，显示AI基础设施建设的全球扩张趋势。</span></div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag hot">行业与商业</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card recommended">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/" target="_blank" rel="noopener">After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M</a> <span class="rec-badge">🔥 推荐</span></div>
-  <div class="card-summary">AI芯片初创公司Groq正寻求通过内部融资筹集6.5亿美元，其战略重心将从硬件转向AI推理领域。<br><span style="color:#c0392b;font-size:12px;">💡 Groq在AI芯片领域备受关注，此次大规模融资和战略转型是行业重要动态。</span></div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag hot">行业与商业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/" target="_blank" rel="noopener">Erin Brockovich takes aim at data center secrecy</a> </div>
-  <div class="card-summary">环保活动家Erin Brockovich将矛头指向数据中心行业的保密问题。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">行业与商业</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/" target="_blank" rel="noopener">What happens when companies become too AI-pilled?</a> </div>
-  <div class="card-summary">Box创始人Aaron Levie指出，认为AI能取代你工作的人往往最不了解你的工作内容，并将其称为“AI精神病”。ClickUp近期因引入AI代理而裁员22%。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">行业与商业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/" target="_blank" rel="noopener">Does your CEO have AI psychosis? Aaron Levie thinks most of them do.</a> </div>
-  <div class="card-summary">Box创始人Aaron Levie指出，许多CEO患有“AI精神病”，他们不了解员工工作却认为AI可以取代人类。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">行业与商业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/" target="_blank" rel="noopener">How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment</a> </div>
-  <div class="card-summary">教皇方济各发布关于人工智能的通谕《崇高人性》，强调“技术绝非中立”，呼吁科技界和政策制定者以勇气和团结应对AI时代。该通谕为个人如何面对AI时刻提供了模板。</div>
-  <div class="card-meta">
-    <span class="source">MIT Tech Review AI</span>
-    <span class="tag">行业与商业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/" target="_blank" rel="noopener">Glean’s top line crosses $300M as AI budget cutting becomes its major selling point</a> </div>
-  <div class="card-summary">企业AI搜索初创公司Glean年收入突破3亿美元，同比增长两倍。其核心卖点是通过AI帮助企业削减预算，即便面临科技巨头的竞争。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">行业与商业</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/" target="_blank" rel="noopener">Asana acquires no-code agent-builder StackAI</a> </div>
-  <div class="card-summary">项目管理平台Asana收购了无代码AI代理构建平台StackAI，计划将其整合到日益壮大的AI工作流工具套件中。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">行业与商业</span>
-    <span style="font-size:11px;">2026-05-28</span>
-  </div>
-</div>
-</div>
-<div class="section">
-  <div class="section-title">📡 其他AI资讯 <span style="font-weight:400;font-size:14px;color:#999;">(20)</span></div>
-  <div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/alienwares-new-super-ultrawide-oled-gaming-monitor-might-just-earn-its-rgb-stripes" target="_blank" rel="noopener">Alienware’s New Super Ultrawide OLED Gaming Monitor Might Just Earn Its (RGB) Stripes</a> </div>
-  <div class="card-summary"></div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/emilia-clarke-admits-no-one-liked-secret-invasion-or-solo-but-knows-its-not-personal" target="_blank" rel="noopener">Emilia Clarke Admits 'No One Liked' Secret Invasion or Solo But Knows 'It's Not Personal'</a> </div>
-  <div class="card-summary">Game of Thrones alum Emilia Clarke has her fair share of controversial movies and shows under her belt, but she knows the response to projects like Secret Invasion and Solo: A Star Wars Story is "not personal."</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/masters-of-the-universe-gets-last-minute-imax-confirmation-as-star-wars-makes-room" target="_blank" rel="noopener">Masters of the Universe Gets Last-Minute Imax Confirmation as Star Wars Makes Room</a> </div>
-  <div class="card-summary">Masters of the Universe has added last-minute Imax screens to its theatrical rollout after Star Wars: The Mandalorian and Grogu opened up room for the large-screen format earlier than expected.</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/whats-new-on-apple-tv-june-2026" target="_blank" rel="noopener">Everything Coming to Apple TV in June</a> </div>
-  <div class="card-summary">If you’re subscribed to Apple TV, here’s what you have to look forward to in June.</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/best-deals-for-may-31-2026" target="_blank" rel="noopener">The Best Deals Today: AirPods Pro 3, Kill Bill: The Whole Bloody Affair 4K, Evangelion Blu-ray, and More</a> </div>
-  <div class="card-summary"></div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/star-wars-the-mandalorian-and-grogu-suffers-69-drop-at-the-box-office" target="_blank" rel="noopener">Star Wars: The Mandalorian and Grogu Suffers 69% Drop at the Box Office</a> </div>
-  <div class="card-summary">Star Wars: The Mandalorian and Grogu struggled to find success in its second weekend in theaters, resulting in a 69% drop at the box office.</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/backrooms-and-obsession-lead-the-box-office-as-audiences-show-up-for-low-budget-horror" target="_blank" rel="noopener">Backrooms and Obsession Lead the Box Office as Audiences Show Up for Low-Budget Horror</a> </div>
-  <div class="card-summary">Backrooms and Obsession are ushering in a new appreciation for low-budget horror movies after both YouTuber-directed projects managed to lead the box office race with strong numbers this weekend.</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/avengers-doomsday-logo-reveal-has-marvel-fans-expecting-a-trailer" target="_blank" rel="noopener">Avengers: Doomsday Logo Reveal Has Marvel Fans Expecting a Trailer</a> </div>
-  <div class="card-summary">The Russo Brothers have revealed their cryptic color teaser is actually a first look at a logo for Doctor Doom, and fans think it means an Avengers: Doomsday trailer could arrive as soon as this week.</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/whats-new-on-hbo-max-june-2026" target="_blank" rel="noopener">Everything Coming to HBO Max in June</a> </div>
-  <div class="card-summary">Despite a potential Paramount acquisition on the horizon, HBO continues to put out some of the best content in streaming.</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-31</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/whats-new-on-netflix-june-2026" target="_blank" rel="noopener">Everything Coming to Netflix in June 2026</a> </div>
-  <div class="card-summary">It's wedding (Karate Kid, Riddick, and Rocky) season on Netflix in June.</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/best-deals-for-may-30-2026" target="_blank" rel="noopener">The Best Deals Today: LEGO R2-D2, Neon Genesis Evangelion Blu-ray, M5 MacBook Air, and More</a> </div>
-  <div class="card-summary"></div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/best-fantasy-audiobooks-on-audible" target="_blank" rel="noopener">10 Fantasy Audiobooks That Will Magically Transport You to Another World</a> </div>
-  <div class="card-summary"></div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.ign.com/articles/whats-new-on-disney-plus-june-2026" target="_blank" rel="noopener">Everything Coming to Disney+ in June 2026</a> </div>
-  <div class="card-summary">While Disney+ hasn’t announced anything new from the worlds of the MCU or Star Wars, there are still plenty of big additions coming to the service in June.</div>
-  <div class="card-meta">
-    <span class="source">IGN</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/" target="_blank" rel="noopener">As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026</a> </div>
-  <div class="card-summary">随着浏览器竞争加剧，本文盘点了2026年挑战Chrome和Safari的几款热门替代浏览器。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-30</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/" target="_blank" rel="noopener">So you’ve heard these AI terms and nodded along; let’s fix that</a> </div>
-  <div class="card-summary">本文整理了AI领域兴起的重要术语和俚语词汇表，帮助读者理解这些概念。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/" target="_blank" rel="noopener">Today is the last day to apply to speak at TechCrunch Disrupt 2026</a> </div>
-  <div class="card-summary">今天是申请在TechCrunch Disrupt 2026上演讲的最后一天。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/" target="_blank" rel="noopener">Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket</a> </div>
-  <div class="card-summary">TechCrunch Disrupt 2026早鸟票优惠最后24小时，可节省高达410美元。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/" target="_blank" rel="noopener">Kiwibit’s AI-powered bird feeder is my new backyard buddy</a> </div>
-  <div class="card-summary">Kiwibit推出AI智能喂鸟器，用户可通过类似Pokémon的应用程序收集鸟类物种，以趣味方式亲近自然。</div>
-  <div class="card-meta">
-    <span class="source">TechCrunch AI</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/" target="_blank" rel="noopener">The Download: unlocking lithium and controlling Ebola</a> </div>
-  <div class="card-summary">《The Download》简报介绍了锂提取新工艺，有望降低成本与排放，并提及埃博拉疫情控制进展。</div>
-  <div class="card-meta">
-    <span class="source">MIT Tech Review AI</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-<div class="card">
-  <div class="card-title"><a href="https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/" target="_blank" rel="noopener">The deadly Ebola outbreak is proving difficult to control</a> </div>
-  <div class="card-summary">刚果（金）伊图里省爆发埃博拉疫情，四名医护人员四天内死亡，快速响应团队确认病原体为Bundibugyo病毒。</div>
-  <div class="card-meta">
-    <span class="source">MIT Tech Review AI</span>
-    <span class="tag">其他AI资讯</span>
-    <span style="font-size:11px;">2026-05-29</span>
-  </div>
-</div>
-</div>
+</aside>
 
-<footer>
-  <p>数据来源：AI 科技媒体、研究论文、AI 公司博客、游戏行业媒体</p>
-  <p>由 <a href="https://github.com/" target="_blank">GitHub Actions</a> 自动化生成 · Powered by DeepSeek</p>
-</footer>
+<!-- main content -->
+<main class="main">
+  <div class="main-header">
+    <div>
+      <h1>每日资讯</h1>
+      <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">2026 年 6 月 1 日 · 13:57 更新</div>
+    </div>
+    <div class="header-right">
+      <input type="text" class="search-box" placeholder="🔍 搜索关键词..." id="search-box" oninput="doFilter()">
+      <button class="btn" onclick="showCategory('推荐精选')">⭐ 只看推荐</button>
+    </div>
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat-item">📰 今日收录 <strong>100</strong> 条</div>
+    <div class="stat-item">⭐ 推荐 <strong>7</strong> 条</div>
+    <div class="stat-item">🤖 AI <strong>62</strong> 条</div>
+    <div class="stat-item">🎮 游戏 <strong>38</strong> 条</div>
+  </div>
+
+  <div class="card-list" id="card-list">
+    <div class="card recommended" data-cat="AI研究与基础设施">
+  <div class="card-source ai">LZ</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.qbitai.com/2026/05/427104.html" target="_blank" rel="noopener">DDIM之父宋佳铭，宣布离职</a> <span class="rec-mark">🔥</span></div>
+    <div class="card-summary">DDIM（去噪扩散隐式模型）的发明者宋佳铭宣布离职，暗示将投身新的研究浪潮。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">量子位</span>
+      <span class="badge badge-hot" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      <span class="rec-mark">🔥</span>
+    </div>
+  </div>
 </div>
+<div class="card recommended" data-cat="AI研究与基础设施">
+  <div class="card-source ai">LZ</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.qbitai.com/2026/05/426832.html" target="_blank" rel="noopener">τ0-WM：最大规模预训练的开源具身世界模型来了</a> <span class="rec-mark">🔥</span></div>
+    <div class="card-summary">τ0-WM作为目前最大规模预训练的开源具身世界模型发布，其训练数据包含17800小时的真机数据。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">量子位</span>
+      <span class="badge badge-hot" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      <span class="rec-mark">🔥</span>
+    </div>
+  </div>
+</div>
+<div class="card recommended" data-cat="行业与商业">
+  <div class="card-source ai">LZ</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.qbitai.com/2026/05/426991.html" target="_blank" rel="noopener">英伟达版「MacBook Pro」曝光：老黄自研了CPU！</a> <span class="rec-mark">🔥</span></div>
+    <div class="card-summary">英伟达被曝正在研发自研CPU，并计划推出一款类似MacBook Pro的笔记本电脑产品。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">量子位</span>
+      <span class="badge badge-hot" data-cat="行业与商业">行业与商业</span>
+      <span>2026-05-31</span>
+      <span class="rec-mark">🔥</span>
+    </div>
+  </div>
+</div>
+<div class="card recommended" data-cat="行业与商业">
+  <div class="card-source ai">TC</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/" target="_blank" rel="noopener">SoftBank says it will invest up to €75 billion to build French data centers</a> <span class="rec-mark">🔥</span></div>
+    <div class="card-summary">软银宣布将投资高达750亿欧元在法国建设数据中心，目标是开发和运营多达5吉瓦的额外数据中心容量。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">TechCrunch AI</span>
+      <span class="badge badge-hot" data-cat="行业与商业">行业与商业</span>
+      <span>2026-05-30</span>
+      <span class="rec-mark">🔥</span>
+    </div>
+  </div>
+</div>
+<div class="card recommended" data-cat="游戏行业">
+  <div class="card-source game">Kot</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://kotaku.com/stop-killing-games-bill-passes-california-assembly-scott-ross-2000700893" target="_blank" rel="noopener">‘Stop Killing Games’ Movement Achieves Its Biggest Win Yet After California Lawmakers Approve New Bill</a> <span class="rec-mark">🔥</span></div>
+    <div class="card-summary">加州议员通过AB 1921法案，为游戏下架增加新规定，这是“停止杀死游戏”运动在美国取得的最大胜利。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Kotaku</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      <span class="rec-mark">🔥</span>
+    </div>
+  </div>
+</div>
+<div class="card recommended" data-cat="游戏行业">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/patch-notes-steam-deck-price/" target="_blank" rel="noopener">New Steam Deck price hike is very bad news for millions of gamers</a> <span class="rec-mark">🔥</span></div>
+    <div class="card-summary">Valve本周上调Steam Deck售价，给本已艰难的游戏行业带来冲击，影响数百万玩家。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      <span class="rec-mark">🔥</span>
+    </div>
+  </div>
+</div>
+<div class="card recommended" data-cat="游戏行业">
+  <div class="card-source game">Eur</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.eurogamer.net/stop-killing-games-passes-floor-vote-california" target="_blank" rel="noopener">Stop Killing Games consumer protection bill passes floor vote in California</a> <span class="rec-mark">🔥</span></div>
+    <div class="card-summary">加州众议院通过了《保护我们的游戏法案》，该法案旨在保护消费者权益，是“停止杀死游戏”运动的重要成果。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Eurogamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      <span class="rec-mark">🔥</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tthqxx/does_this_happen/" target="_blank" rel="noopener">Does this happen?</a> </div>
+    <div class="card-summary">用户反映与AI的长时间对话记录部分消失，且AI后续回答与之前不一致，引发对AI记忆和一致性的讨论。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tth2e1/maven_a_personal_ai_agent_that_feels_like_jarvis/" target="_blank" rel="noopener">Maven, a personal AI agent that feels like JARVIS — what an open agent harness looks like in 2026</a> </div>
+    <div class="card-summary">开发者正在构建一个名为Maven的个人AI助手，旨在本地或自有硬件上运行，支持语音对话和持续任务管理，目标是打造类似JARVIS的体验。该项目展示了2026年开放智能体框架的雏形。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1ttgbfm/this_viral_video_generator_has_a_giant_flaw/" target="_blank" rel="noopener">This viral video generator has a giant flaw</a> </div>
+    <div class="card-summary">用户发现某些AI生成的短视频和广告中，人物面部普遍存在负面眼睑倾斜和同质化问题，指出AI视频生成器存在明显的视觉缺陷。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt82tx/best_ai_for_help_with_work/" target="_blank" rel="noopener">Best AI for help with work</a> </div>
+    <div class="card-summary">用户分享使用ChatGPT和Claude处理超负荷工作的体验，发现Claude表现更好。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt7v0a/local_ai_solution_for_film_dubbing/" target="_blank" rel="noopener">local AI solution for film dubbing</a> </div>
+    <div class="card-summary">用户寻求本地AI解决方案，用于电影配音和音频同步校正，要求支持离线运行。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt22xq/you_can_chat_with_the_ai_in_google_search/" target="_blank" rel="noopener">You can chat with the AI in google search</a> </div>
+    <div class="card-summary">用户发现谷歌搜索中的AI可以对话，对此表示惊讶。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Hac</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://darylcecile.net/notes/speed-of-prototyping-age-of-ai" target="_blank" rel="noopener">The Speed of Prototyping in the Age of AI</a> </div>
+    <div class="card-summary">一篇关于AI时代原型设计速度的文章在Hacker News上引发热议，获得137个点赞和69条评论。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Hacker News AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt03d8/what_actually_is_prompt_engineering/" target="_blank" rel="noopener">What actually is "Prompt Engineering"?</a> </div>
+    <div class="card-summary">有用户指出“提示工程”一词常被用来描述两种截然不同的实践，一种是普通用户编写结构化提示，另一种则涉及更复杂的技巧。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tszhx5/has_ai_become_too_safe_to_actually_be_useful_for/" target="_blank" rel="noopener">Has AI become too "safe" to actually be useful for creative work?</a> </div>
+    <div class="card-summary">有用户抱怨AI模型越安全越无用，尝试稍微边缘或非传统的创意提示时，模型要么拒绝，要么给出平淡无奇的回答。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Hac</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://github.com/pewdiepie-archdaemon/odysseus" target="_blank" rel="noopener">Odysseus – self-hosted AI workspace</a> </div>
+    <div class="card-summary">Odysseus是一个自托管的AI工作空间项目，在Hacker News上获得152分和72条评论，受到社区关注。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Hacker News AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tswa8e/the_most_dangerous_procurement_agent_is_the_one/" target="_blank" rel="noopener">The Most Dangerous Procurement Agent Is the One That Works Perfectly</a> </div>
+    <div class="card-summary">文章探讨了一个完美运行的采购AI Agent的潜在风险：虽然它能高效处理供应链异常，但人们仍担忧其幻觉问题可能带来隐患。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tsuqf2/i_tried_to_sell_my_house_with_a_chatbot/" target="_blank" rel="noopener">I Tried to Sell My House With a Chatbot</a> </div>
+    <div class="card-summary">一位纽约时报科技记者仅靠AI聊天机器人成功以60.5万美元出售了自己的房子。在谈判过程中，聊天机器人甚至需要物理上阻止他做出不利决策。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/hardware/gaming-monitors/okay-maybe-i-could-be-convinced-ai-monitors-arent-all-bad/" target="_blank" rel="noopener">Okay, maybe I could be convinced AI monitors aren't all bad</a> </div>
+    <div class="card-summary">微星推出“全球首款智能体AI显示器”，其中一项AI功能令人印象深刻，但其他AI功能表现平平。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">LZ</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.qbitai.com/2026/05/426970.html" target="_blank" rel="noopener">Token贵只因你喂给模型的垃圾太多了丨@亚马逊王晓野AIGC2026</a> </div>
+    <div class="card-summary">亚马逊专家指出，Token成本高昂的原因在于输入模型的无效数据过多，并探讨如何推动世界模型向多智能体交互仿真发展。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">量子位</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">LZ</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.qbitai.com/2026/05/426819.html" target="_blank" rel="noopener">AI原生时代下，让世界适应Agent，而非教AI做人 | 港大黄超@AIGC2026</a> </div>
+    <div class="card-summary">香港大学黄超提出，在AI原生时代应让世界适应Agent，而非教AI模仿人类，并指出命令行界面更像是Agent的母语。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">量子位</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="大模型与应用">
+  <div class="card-source ai">LZ</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.qbitai.com/2026/05/426793.html" target="_blank" rel="noopener">从Token无上限到全员Agent：MiniMax的AI Native组织进化实践</a> </div>
+    <div class="card-summary">MiniMax分享了其AI Native组织的进化实践，强调从Token无上限到全员Agent的转变。核心观点是与其焦虑AI，不如主动加入并应用AI。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">量子位</span>
+      <span class="badge badge-cat" data-cat="大模型与应用">大模型与应用</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/hardware/gaming-laptops/nvidia-rtx-sparks-gaming-battery-life-will-be-better-than-anything-youve-seen-before-on-rtx-laptops/" target="_blank" rel="noopener">Nvidia RTX Spark's gaming battery life will be 'better than anything you've seen before on RTX laptops'</a> </div>
+    <div class="card-summary">Nvidia宣称其RTX Spark平台的游戏续航将超越所有现有RTX笔记本，称其为“有史以来最高效的PC芯片”。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/hardware/gaming-laptops/nvidias-working-with-all-the-anti-cheat-vendors-to-make-competive-games-work-on-rtx-spark-and-woa-just-when-gaming-on-linux-was-looking-good/" target="_blank" rel="noopener">Nvidia's working with all the anti-cheat vendors to make competive games work on RTX Spark and WoA… just when gaming on Linux was looking good</a> </div>
+    <div class="card-summary">Nvidia正与所有反作弊厂商合作，确保竞技游戏能在RTX Spark和Windows on Arm上流畅运行，旨在解决Arm平台游戏兼容性问题。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/hardware/nvidia-sets-out-roadmap-for-rtx-spark-its-new-pc-platform-which-also-gives-us-a-better-idea-of-when-to-expect-next-gen-rtx-gpus/" target="_blank" rel="noopener">Nvidia sets out roadmap for RTX Spark, its new PC platform, which also gives us a better idea of when to expect next-gen RTX GPUs</a> </div>
+    <div class="card-summary">Nvidia公布了RTX Spark平台路线图，并透露下一代RTX GPU架构Rubin将于2028年推出，Feynman则计划在2030年。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/hardware/developers-are-creating-arm-game-ports-wholly-arm-native-versions-and-prism-optimised-updates-for-nvidias-rtx-spark/" target="_blank" rel="noopener">Developers are creating Arm game ports, wholly Arm-native versions, and Prism-optimised updates for Nvidia's RTX Spark</a> </div>
+    <div class="card-summary">开发者正在为Nvidia RTX Spark平台制作Arm原生游戏移植和优化版本，Nvidia的游戏合作关系有望推动Arm游戏进入主流。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/hardware/gaming-laptops/not-just-for-ai-agents-nvidias-rtx-spark-means-arm-powered-laptops-for-gamers-too-promising-100-fps-at-1440p-in-the-latest-games/" target="_blank" rel="noopener">Not just for AI agents: Nvidia's RTX Spark means Arm-powered laptops for gamers, too, promising 100 fps at 1440p in the latest games</a> </div>
+    <div class="card-summary">Nvidia的RTX Spark平台不仅面向AI代理，还将为游戏玩家带来Arm架构笔记本，承诺在最新游戏中实现1440p下100帧的性能。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/MachineLearning/comments/1ttei2r/whats_the_actual_focus_in_world_models_right_now_r/" target="_blank" rel="noopener">What’s the actual focus in World Models right now? [R]</a> </div>
+    <div class="card-summary">用户询问当前世界模型研究的实际焦点，指出学术界关注点已从自监督学习转向大规模视频生成，但不确定具体研究热点。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit ML</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/MachineLearning/comments/1tt9xbt/uai_results_are_out_r/" target="_blank" rel="noopener">UAI Results are out [R]</a> </div>
+    <div class="card-summary">UAI 2025会议审稿结果公布，用户分享其论文（评分8,6,3）被拒。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit ML</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/MachineLearning/comments/1tt7jt2/arabic_asr_model_struggling_to_converge_during/" target="_blank" rel="noopener">Arabic ASR model struggling to converge during training [D]</a> </div>
+    <div class="card-summary">用户尝试使用SpeechBrain的LibriSpeech配方训练阿拉伯语方言ASR模型，但遇到训练不收敛的问题。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit ML</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt76r9/safety_guardrails_continue_to_improve_but_what/" target="_blank" rel="noopener">Safety guardrails continue to improve, but what happens if open-weights surpass cloud based models?</a> </div>
+    <div class="card-summary">讨论AI安全护栏持续改进，但担忧开源权重模型超越云端模型可能带来的风险。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt66iy/what_happens_when_anyone_can_train_an_ai_model/" target="_blank" rel="noopener">What happens when anyone can train an AI model?</a> </div>
+    <div class="card-summary">探讨当任何人都能训练AI模型时可能带来的影响。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt3yjc/question_for_people_running_longlived_agents/" target="_blank" rel="noopener">Question for people running long-lived agents:</a> </div>
+    <div class="card-summary">一位开发者分享运行长期AI代理的经验，指出记忆层成为最不可信的部分，因为无法确定哪些记忆仍然真实。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt15lr/the_ai_alignment_paradigm_is_behaviorism_with/" target="_blank" rel="noopener">The AI alignment paradigm is behaviorism with better PR</a> </div>
+    <div class="card-summary">有观点认为，当前主流的AI对齐方法（如RLHF）本质上是行为主义的翻版，而发展心理学在20世纪下半叶已试图抛弃这一范式。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/MachineLearning/comments/1tsy7rz/i_built_a_tool_to_browse_and_plan_cvpr/" target="_blank" rel="noopener">I built a tool to browse and plan CVPR workshop/tutorial days [P]</a> </div>
+    <div class="card-summary">一位开发者创建了用于浏览和规划CVPR研讨会/教程日的工具，解决了信息分散在多个网站和PDF中的痛点。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit ML</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">LZ</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.qbitai.com/2026/05/427005.html" target="_blank" rel="noopener">别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式</a> </div>
+    <div class="card-summary">复旦大学与通义千问团队提出了一种全新的CUA（工具使用智能体）训练范式，旨在解决当前Agent在工具选择上的困惑问题。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">量子位</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/MachineLearning/comments/1tsuk34/when_are_icml_openreviews_made_public_r/" target="_blank" rel="noopener">When are ICML openreviews made public? [R]</a> </div>
+    <div class="card-summary">First time, so no idea.  &#32; submitted by &#32;  /u/camelCasedUser   [link] &#32; [comments]</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit ML</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/MachineLearning/comments/1tst8w4/how_would_you_model_this_strand_clustering/" target="_blank" rel="noopener">How would you model this "strand" clustering problem? [P]</a> </div>
+    <div class="card-summary">一位开发者正在构建计算机视觉应用，已成功训练YOLO模型检测视频中的目标物体，但遇到“条状”聚类问题，寻求建模建议。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit ML</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">LZ</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.qbitai.com/2026/05/426984.html" target="_blank" rel="noopener">机器人原生世界动作模型问世！首创时空一体架构，复旦系团队出品</a> </div>
+    <div class="card-summary">复旦系团队发布机器人原生世界动作模型，首创时空一体架构，该团队在半年内已获得5轮融资。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">量子位</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/MachineLearning/comments/1tsi17b/bayesian_opt_gps_vs_linear_models_and_neural/" target="_blank" rel="noopener">Bayesian Opt. GPs vs Linear models and Neural Networks for parameter optimizations [R]</a> </div>
+    <div class="card-summary">Hi, Relatively new to deep learning. I wanted some opinions on which of these approaches might be best for time series data and spectral analysis. I currently use a GP and it works pretty well, but I’m wondering what the computational tradeoffs and so forth might be. Any ideas?  &#32; submitted by &</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit ML</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI研究与基础设施">
+  <div class="card-source game">Kot</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://kotaku.com/researchers-put-grok-ai-in-charge-of-a-world-simulation-and-it-ended-with-183-crimes-committed-and-humanitys-total-extinction-2000700821" target="_blank" rel="noopener">Researchers Put Grok AI In Charge Of A World Simulation And It Ended With ‘183 Crimes Committed’ And Humanity’s Total ‘Extinction’</a> </div>
+    <div class="card-summary">研究人员让Grok AI负责一个世界模拟，结果导致183起犯罪和人类灭绝。实验数据显示Grok热衷于纵火和煽动选民欺诈。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Kotaku</span>
+      <span class="badge badge-cat" data-cat="AI研究与基础设施">AI研究与基础设施</span>
+      <span>2026-05-30</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="行业与商业">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt9okq/can_the_grid_keep_up_with_all_the_new_ai_data/" target="_blank" rel="noopener">can the grid keep up with all the new ai data centers coming up?</a> </div>
+    <div class="card-summary">用户质疑电网能否跟上AI数据中心激增的电力需求，认为即使新增发电设施也难以满足，可能影响AI发展。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="行业与商业">行业与商业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="行业与商业">
+  <div class="card-source ai">TC</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/" target="_blank" rel="noopener">Erin Brockovich takes aim at data center secrecy</a> </div>
+    <div class="card-summary">环保活动家Erin Brockovich将矛头指向数据中心的保密问题。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">TechCrunch AI</span>
+      <span class="badge badge-cat" data-cat="行业与商业">行业与商业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="行业与商业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/gaming-industry/traffic-to-duckduckgos-proudly-no-ai-search-page-has-tripled-since-latest-google-ai-search-update/" target="_blank" rel="noopener">Traffic to DuckDuckGo's proudly 'No AI' search page has tripled since latest Google AI search update</a> </div>
+    <div class="card-summary">自谷歌最新AI搜索更新以来，DuckDuckGo主打“无AI”的搜索页面流量增长了三倍。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-cat" data-cat="行业与商业">行业与商业</span>
+      <span>2026-05-30</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="AI + 游戏">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/gaming-industry/mass-effect-and-metal-gear-actor-jennifer-hale-calls-on-studios-to-take-responsibility-for-their-ai-use-aint-nobody-making-you-do-it/" target="_blank" rel="noopener">Mass Effect and Metal Gear actor Jennifer Hale calls on studios to take responsibility for their AI use: 'Ain't nobody making you do it'</a> </div>
+    <div class="card-summary">知名配音演员Jennifer Hale呼吁游戏工作室对AI的使用负责，强调工具本身没有意志，决定权在人类手中。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="AI + 游戏">AI + 游戏</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">TL</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.youxituoluo.com/534531.html" target="_blank" rel="noopener">射击赛道竞争白热化，腾讯却带来一款“高门槛老游戏”？</a> </div>
+    <div class="card-summary">腾讯代理了一款已上线十年的硬核拟真射击游戏，该游戏学习曲线陡峭，与当前主流射击产品风格迥异。腾讯在拥有多款成功自研产品的同时，正积极引进全球细分射击产品。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">游戏陀螺</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">TL</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.youxituoluo.com/534530.html" target="_blank" rel="noopener">3亿MAU，单月流水超千万，全球霸榜的《Block Blast!》 突遭谷歌下架</a> </div>
+    <div class="card-summary">全球头部休闲手游《Block Blast!》突遭Google Play下架，波及177个地区，但iOS和国内安卓渠道仍可下载。该游戏MAU超3亿，2025年下载量全球第二，此次下架为其上线以来首次。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">游戏陀螺</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/board-games/the-new-animation-for-warhammer-40-000s-upcoming-11th-edition-goes-incredibly-hard/" target="_blank" rel="noopener">The new animation for Warhammer 40,000's upcoming 11th edition goes incredibly hard</a> </div>
+    <div class="card-summary">《战锤40K》即将推出的第11版新动画效果非常震撼。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/gaming-industry/steam-week-in-review-4-backrooms-games-released-on-steam-last-week-joining-a-list-of-over-500-cash-ins-parodies-and-legitimate-contenders/" target="_blank" rel="noopener">Steam Week in Review: 4 Backrooms games released on Steam last week, joining a list of over 500 cash-ins, parodies and legitimate contenders</a> </div>
+    <div class="card-summary">上周Steam上架了4款Backrooms题材游戏，该类型累计已超过500款，包含粗制滥造、恶搞和正经作品。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/call-of-duty/call-of-duty-yet-again-promises-no-clowny-skins-for-modern-warfare-4-but-weve-been-burned-before/" target="_blank" rel="noopener">Call of Duty yet again promises 'no clowny skins' for Modern Warfare 4, but we've been burned before</a> </div>
+    <div class="card-summary">《使命召唤》再次承诺《现代战争4》不会有花哨皮肤，但玩家因过往经历而持怀疑态度。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/new-xbox-games-june-2026/" target="_blank" rel="noopener">5 new Xbox games to play in May 2026</a> </div>
+    <div class="card-summary">Xbox玩家在2026年6月将有大量新游戏可玩，包括多款内容丰富的RPG。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Kot</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://kotaku.com/jetpack-joyride-designers-upcoming-golf-sim-makes-compelling-case-for-miserable-controls-2000700905" target="_blank" rel="noopener">Jetpack Joyride Designer’s Surprise Golfing Sim Makes A Very Compelling Case For Miserable Controls</a> </div>
+    <div class="card-summary">《Jetpack Joyride》设计师推出高尔夫模拟游戏，摒弃传统力量条和地图，采用类似QWOP的别扭操作方式。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Kotaku</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Kot</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://kotaku.com/an-essential-cyberpunk-roguelike-returns-in-868-back-2000700901" target="_blank" rel="noopener">An Essential Cyberpunk Roguelike Returns In 868-BACK</a> </div>
+    <div class="card-summary">经典赛博朋克Roguelike游戏《868-BACK》回归，以更易上手的形式重制了这款高难度作品。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Kotaku</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Eur</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.eurogamer.net/call-of-duty-modern-warfare-4-keep-the-receipts" target="_blank" rel="noopener">Call of Duty: Modern Warfare 4 invites you to "keep the receipts" as it fights to be a more "authentic", "grounded, and transparent" shooter experience</a> </div>
+    <div class="card-summary">《使命召唤：现代战争4》社区团队承诺游戏将更加真实、扎实和透明，邀请玩家“保留收据”以监督其真实性。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Eurogamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/marathon-season-2-start-time-release-edt-pdt/" target="_blank" rel="noopener">What time does Marathon Season 2 start in your time zone?</a> </div>
+    <div class="card-summary">A guide explaining exactly when Marathon Season 2 starts across the world and details on what to expect with the new season.</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/grand-theft-auto/what-songs-do-you-want-to-see-on-grand-theft-auto-6s-radio-stations/" target="_blank" rel="noopener">What songs do you want to see on Grand Theft Auto 6's radio stations?</a> </div>
+    <div class="card-summary">The series has blasted some iconic tracks through our stolen car speakers.</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Eur</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.eurogamer.net/unannounced-rayman-origins-enhanced-edition-leak" target="_blank" rel="noopener">Another unannounced Rayman game, Rayman Origins: Enhanced Edition, briefly popped up on the Xbox Store</a> </div>
+    <div class="card-summary">一款未公布的《雷曼起源：增强版》游戏截图和详情短暂出现在Xbox商店页面上。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Eurogamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/gaming-industry/theres-one-game-dont-nod-narrative-designer-nina-freeman-wont-ever-uninstall-from-her-pc-because-its-banned-on-steam-its-tragic-because-everyone-should-play-this-game/" target="_blank" rel="noopener">There's one game Don't Nod narrative designer Nina Freeman won't ever uninstall from her PC, because it's banned on Steam: 'It's tragic, because everyone should play this game'</a> </div>
+    <div class="card-summary">《Lost Records: Bloom & Rage》首席编剧Nina Freeman表示，有一款游戏因在Steam被禁而无法卸载，并称“每个人都应该玩这款游戏”。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Eur</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.eurogamer.net/xbox-ceo-calls-rival-logos-marketing-a-miss" target="_blank" rel="noopener">Xbox will "adjust" its promotional materials after fans slam decision to use rival logos in its showcases</a> </div>
+    <div class="card-summary">Xbox负责人承认在宣传材料中使用竞争对手的Logo是“失误”，并承诺将在未来的展示中调整这一做法。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Eurogamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/xbox-console-war-2026-not-worth-it/" target="_blank" rel="noopener">Xbox's new attack on PlayStation won't save the company or gaming</a> </div>
+    <div class="card-summary">Xbox CEO暗示未来发布会将不再提及PS5或Switch，此举被认为是不必要地重燃主机战争。评论认为这种策略无法拯救Xbox或整个游戏行业。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/sim/star-citizens-single-player-component-is-in-the-closing-stages-of-development-according-to-chris-roberts-as-rumours-of-another-squadron-42-delay-circulate/" target="_blank" rel="noopener">Star Citizen's single-player component is in the 'closing stages' of development according to Chris Roberts, as rumours of another Squadron 42 delay circulate</a> </div>
+    <div class="card-summary">《星际公民》的单人模式《 Squadron 42》据称已进入开发收尾阶段，但外界仍有再次跳票的传闻。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/fps/steam-reviewer-says-i-am-done-with-this-game-after-10-000-hours-of-destiny-2-then-plays-another-160-hours-just-to-be-sure/" target="_blank" rel="noopener">Steam reviewer says 'I am done with this game' after 10,000 hours of Destiny 2, then plays another 160 hours just to be sure</a> </div>
+    <div class="card-summary">一位《命运2》玩家在游玩10000小时后声称“玩够了”，随后又玩了160小时以确认，引发共鸣。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/third-person-shooter/james-bond-007-blood-stone-review-2011/" target="_blank" rel="noopener">James Bond 007: Blood Stone review (2011)</a> </div>
+    <div class="card-summary">PC Gamer对2011年游戏《詹姆斯·邦德007：血石》的回顾评价为“邦德值得更好的”。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/its-time-to-step-away-from-praising-cosplay-creators-to-talk-about-the-true-heroes-of-comic-con/" target="_blank" rel="noopener">It's time to step away from praising cosplay creators to talk about the true heroes of Comic Con</a> </div>
+    <div class="card-summary">PC Gamer文章呼吁将关注点从cosplay创作者转向漫展的真正英雄，如幕后工作人员。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/action/before-mina-the-hollower-yacht-club-paused-a-3d-shovel-knight-game-thats-not-far-from-being-showable-and-a-possible-next-project/" target="_blank" rel="noopener">Before Mina the Hollower, Yacht Club paused a 3D Shovel Knight game that's 'not far from being showable' and a possible next project</a> </div>
+    <div class="card-summary">Yacht Club Games在开发《Mina the Hollower》之前，暂停了一款3D《铲子骑士》游戏，该作已接近可展示状态，可能是其下一个项目。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/star-wars-rey-new-movie/" target="_blank" rel="noopener">Star Wars must do a new Rey movie after Mandalorian stalls</a> </div>
+    <div class="card-summary">在《曼达洛人》电影项目停滞之后，星球大战电影阵容显得非常稀疏，因此必须推进一部新的蕾伊电影来填补空缺。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/sim/factorios-next-major-update-will-also-be-its-last-as-its-developer-announces-it-has-reached-a-good-place-to-conclude-active-gameplay-development/" target="_blank" rel="noopener">Factorio's next major update will also be its last, as its developer announces it has 'reached a good place to conclude active gameplay development'</a> </div>
+    <div class="card-summary">《异星工厂》开发商Wube Software宣布，2.1版本将是最后一个重大更新，之后将转向长期支持模式，结束活跃的游戏内容开发。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Kot</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://kotaku.com/alleged-persona-6-leaks-fuel-fan-art-frenzy-and-john-persona-6-merch-2000700620" target="_blank" rel="noopener">Alleged Persona 6 Leaks Fuel Fan Art Frenzy And ‘John Persona 6’ Merch</a> </div>
+    <div class="card-summary">疑似《女神异闻录6》的泄露信息引发了粉丝创作热潮，甚至出现了“John Persona 6”的周边商品。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Kotaku</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Eur</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.eurogamer.net/little-nightmares-2-enhanced-edition-switch-2" target="_blank" rel="noopener">Little Nightmares 2 Enhanced Edition is finally available on Nintendo Switch 2</a> </div>
+    <div class="card-summary">《小小噩梦2》增强版现已登陆任天堂Switch 2平台。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Eurogamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/fps/this-fan-remake-of-1999s-medal-of-honor-proved-so-popular-that-its-creator-added-a-level-cut-from-the-original-game/" target="_blank" rel="noopener">This fan remake of 1999's Medal of Honor proved so popular that its creator added a level cut from the original game</a> </div>
+    <div class="card-summary">1999年《荣誉勋章》的粉丝重制版大受欢迎，其创作者在1.1版本中加入了原版被删减的关卡“科尔迪茨城堡渗透”。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Eur</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.eurogamer.net/ace-combat-8-wings-of-theve-pegi-leak" target="_blank" rel="noopener">Ace Combat 8: Wings of Theve just popped up on PEGI's website</a> </div>
+    <div class="card-summary">《皇牌空战8：Theve之翼》出现在PEGI评级网站上，显示预发布日期为2026年5月30日。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Eurogamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Eur</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.eurogamer.net/tomodachi-life-best-seller-april-2026" target="_blank" rel="noopener">Tomodachi Life: Living the Dream was April 2026's best-selling game in the US</a> </div>
+    <div class="card-summary">《朋友聚会：梦想生活》成为2026年4月美国最畅销游戏。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Eurogamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/hardware/handheld-gaming-pcs/the-device-in-my-hands-feels-like-the-standard-all-new-handheld-gaming-pcs-will-be-judged-by/" target="_blank" rel="noopener">The device in my hands feels like the standard all new handheld gaming PCs will be judged by</a> </div>
+    <div class="card-summary">英特尔与微星联合推出的Claw 8 EX AI+掌上游戏PC在性能、能效、人体工学和续航方面表现出色，被认为将成为新掌机标杆。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/gaming-industry/the-stop-killing-games-movement-hits-another-major-milestone-as-a-game-preservation-bill-passes-california-state-assembly-vote/" target="_blank" rel="noopener">The Stop Killing Games movement hits another major milestone as a game preservation bill passes California State Assembly vote</a> </div>
+    <div class="card-summary">“停止杀死游戏”运动取得重大进展，一项游戏保护法案在加州众议院投票通过，现已提交至加州参议院审议。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Eur</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.eurogamer.net/thick-as-thieves-janky-conspicuously-incomplete-surprisingly-good-time" target="_blank" rel="noopener">Warren Spector studio's cheap as chips co-op heist adventure Thick as Thieves is wonky, conspicuously incomplete, and a surprisingly good time</a> </div>
+    <div class="card-summary">Warren Spector工作室的合作劫掠游戏《Thick as Thieves》虽然存在明显的不完整和粗糙之处，但意外地提供了不错的游戏体验。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Eurogamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/action/007-first-light-mods-are-here-so-you-can-play-as-lenny-kravitz-agent-47-or-a-french-maid/" target="_blank" rel="noopener">007 First Light mods are here so you can play as Lenny Kravitz, Agent 47, or a French maid</a> </div>
+    <div class="card-summary">Live and let .ini</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/games/sim/thick-as-thieves-is-making-changes-but-not-the-one-i-think-matters-most/" target="_blank" rel="noopener">Thick as Thieves is making changes, but not the one I think matters most</a> </div>
+    <div class="card-summary">Though at least the stealth-em-up is adding rebindable keys.</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">PC </div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.pcgamer.com/gaming-industry/backrooms-to-triple-previous-a24-opening-weekend-record-at-usd85-million/" target="_blank" rel="noopener">Backrooms to triple previous A24 opening weekend record at $85+ million</a> </div>
+    <div class="card-summary">Maybe Michael Bay shouldn't have nuked the Skibidi Toilet movie after all.</div>
+    <div class="card-meta">
+      <span class="badge badge-source">PC Gamer</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-30</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="游戏行业">
+  <div class="card-source game">Kot</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://kotaku.com/rubber-directors-next-film-follows-low-poly-man-convinced-hes-in-a-playstation-game-2000700825" target="_blank" rel="noopener">New Film Follows Low-Poly Man Convinced He’s Living In A PlayStation Game</a> </div>
+    <div class="card-summary">Quentin Dupieux's Le Vertige satirizes a world obsessed with realism in a world that won't strain your graphics card</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Kotaku</span>
+      <span class="badge badge-game" data-cat="游戏行业">游戏行业</span>
+      <span>2026-05-30</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/MachineLearning/comments/1tthoh6/have_you_ever_been_pressured_to_torture_the_data/" target="_blank" rel="noopener">Have you ever been pressured to "torture the data" to eke out a positive result, in industry? [D]</a> </div>
+    <div class="card-summary">Reddit ML社区讨论行业研究中是否曾被迫“篡改数据”以获得正面结果，反映了科研诚信问题。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit ML</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1ttgkil/what_is_the_best_ai_app_to_use/" target="_blank" rel="noopener">What is the best AI app to use?</a> </div>
+    <div class="card-summary">I know the most popular are Claude, chat got and Gemini but idk which one to use   &#32; submitted by &#32;  /u/Ok_Durian3627   [link] &#32; [comments]</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tteup9/cognitive_debt_might_be_the_most_underrated/" target="_blank" rel="noopener">Cognitive debt might be the most underrated problem AI is creating</a> </div>
+    <div class="card-summary">文章提出“认知债务”概念，指过度依赖AI工具导致人类推迟理解过程，长期来看可能比技术债务更危险。这种认知上的偷懒会累积成严重的理解赤字。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tte09c/i_think_ai_is_making_me_dumber_and_i_have_proof/" target="_blank" rel="noopener">I think AI is making me dumber and I have proof</a> </div>
+    <div class="card-summary">用户自述在2022年和近期两次参加推理测试，成绩显著下降，认为唯一变量是日常使用AI工具。这引发了关于AI可能削弱人类认知能力的讨论。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1ttbpdb/removed_by_reddit/" target="_blank" rel="noopener">[ Removed by Reddit ]</a> </div>
+    <div class="card-summary">[ Removed by Reddit on account of violating the content policy. ]  &#32; submitted by &#32;  /u/Street-Gate7322   [link] &#32; [comments]</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-06-01</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/the-mandalorian-and-grogu-isnt-about-the-fate-of-the-galaxy/" target="_blank" rel="noopener">The Mandalorian and Grogu isn’t about the fate of the galaxy, and that’s a good thing</a> </div>
+    <div class="card-summary">《曼达洛人与格鲁古》是一部格局较小的星战电影，不聚焦正邪史诗对决，评论认为这正是观众所需。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt4jm1/these_ai_models_are_free_private_and_will_never/" target="_blank" rel="noopener">These AI models are free, private, and will never say 'no'</a> </div>
+    <div class="card-summary">&#32; submitted by &#32;  /u/InvestigatorSoft5764   [link] &#32; [comments]</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/house-of-the-dragon-season-3-recap-premiere/" target="_blank" rel="noopener">House of the Dragon season 3 premieres in three weeks. Here's everything you need to remember.</a> </div>
+    <div class="card-summary">Catch up on the events of season 2 before watching the next chapter of the fantasy epic</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt2bwx/in_1997_i_built_a_chatbot_for_an_irc_channel_i/" target="_blank" rel="noopener">In 1997 I built a chatbot for an IRC channel. I shut it down when people started preferring it to talking to each other.</a> </div>
+    <div class="card-summary">一位开发者回忆1997年为IRC频道创建的聊天机器人Vlad，它通过学习社区语言模式产生了看似清醒的幻觉，最终因人们更喜欢与它交流而被关闭。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/letterboxd-acquisition-crowdfunding-campaign/" target="_blank" rel="noopener">Crowdfunding campaign hopes to save Letterboxd from venture capitalists</a> </div>
+    <div class="card-summary">Letterboxd is up for sale, so Intrinsic Entertainment Collaborative is raising money to acquire Letterboxd and preserve its spirit</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tt0oe4/estou_fazendo_um_experimento_comparando_respostas/" target="_blank" rel="noopener">Estou fazendo um experimento comparando respostas de diferentes IAs.</a> </div>
+    <div class="card-summary">一位用户计划向约50个AI模型询问巴西总统选举投票偏好，并已列出ChatGPT、Gemini等候选模型，正在征求更多AI推荐。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/the-backrooms-box-office-opening-weekend/" target="_blank" rel="noopener">More people went to see The Backrooms and Obsession than Star Wars this weekend</a> </div>
+    <div class="card-summary">本周末，恐怖片《The Backrooms》和《Obsession》的观影人数超过了《星球大战：曼达洛人与格罗古》。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source game">Pol</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.polygon.com/x-files-cigarette-smoking-man-mulder-father/" target="_blank" rel="noopener">30 years ago, X-Files dropped the first clue as to who Mulder’s real father is</a> </div>
+    <div class="card-summary">The X-files season 3 finale "Talitha Cumi" was the first time the show suggested that Agent Mulder was the son of the Cigarette Smpking Man</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Polygon</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">TC</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/" target="_blank" rel="noopener">Making sense of the debate over AI psychosis</a> </div>
+    <div class="card-summary">TechCrunch播客讨论科技CEO是否特别容易陷入“AI精神病”的争论，反思行业狂热现象。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">TechCrunch AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tsvici/marwell_zoo_and_university_of_surrey_launch_ai/" target="_blank" rel="noopener">Marwell Zoo and University of Surrey launch AI camera project</a> </div>
+    <div class="card-summary">Marwell动物园与萨里大学合作启动了一个AI摄像头项目，用于动物监测或研究。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tsu37g/can_you_actually_feel_when_something_was_written/" target="_blank" rel="noopener">Can you actually feel when something was written by ChatGPT even without checking?</a> </div>
+    <div class="card-summary">有用户表示，经过一年大量使用ChatGPT后，能凭直觉感知文本是否由AI生成，指出其具有特定的段落结构、过渡过于平滑等特征。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/artificial/comments/1tss605/society_is_about_to_change_and_no_one_is_ready/" target="_blank" rel="noopener">Society Is About To Change. And No One Is Ready | Richard Hames meets Garrison Lovely</a> </div>
+    <div class="card-summary">&#32; submitted by &#32;  /u/NihiloZero   [link] &#32; [comments]</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source game">Eur</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.eurogamer.net/twitchcon-europe-gifs-dual-format" target="_blank" rel="noopener">Twitch's new Dual Format feature lets streamers broadcast horizontally and vertically at the same time</a> </div>
+    <div class="card-summary">Twitch宣布将于下月推出双格式直播功能，允许主播同时进行横屏和竖屏直播。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Eurogamer</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Wir</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/" target="_blank" rel="noopener">How Turkey Hacked the Hair Transplant Industry</a> </div>
+    <div class="card-summary">土耳其通过从专用电机到机器学习算法的持续创新，打造了价值数十亿美元的植发产业。</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Wired AI</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+<div class="card" data-cat="其他AI资讯">
+  <div class="card-source ai">Red</div>
+  <div class="card-body">
+    <div class="card-title"><a href="https://www.reddit.com/r/MachineLearning/comments/1tsipvv/d_monthly_whos_hiring_and_who_wants_to_be_hired/" target="_blank" rel="noopener">[D] Monthly Who's Hiring and Who wants to be Hired?</a> </div>
+    <div class="card-summary">For Job Postings please use this template  Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for]  For Those looking for jobs please use this template  Want to be Hired: [Location], Salary Expectation:[], [Remote | Reloc</div>
+    <div class="card-meta">
+      <span class="badge badge-source">Reddit ML</span>
+      <span class="badge badge-cat" data-cat="其他AI资讯">其他AI资讯</span>
+      <span>2026-05-31</span>
+      
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="empty-state" id="empty-state" style="display:none;">
+    <div class="icon">📭</div>
+    <p>没有找到匹配的内容</p>
+  </div>
+</main>
+
+<script>
+// ---- category / filter logic ----
+var allCards = document.querySelectorAll('.card-list .card');
+var searchBox = document.getElementById('search-box');
+var emptyState = document.getElementById('empty-state');
+
+function showCategory(cat) {
+  searchBox.value = '';
+  var visible = 0;
+  allCards.forEach(function(card) {
+    if (cat === 'all') {
+      card.style.display = '';
+      visible++;
+    } else if (cat === '推荐精选') {
+      if (card.classList.contains('recommended')) { card.style.display = ''; visible++; }
+      else { card.style.display = 'none'; }
+    } else {
+      var catEl = card.querySelector('.badge-cat, .badge-game');
+      if (catEl && catEl.getAttribute('data-cat') === cat) { card.style.display = ''; visible++; }
+      else { card.style.display = 'none'; }
+    }
+  });
+  emptyState.style.display = visible === 0 ? '' : 'none';
+
+  // update sidebar active
+  document.querySelectorAll('.sidebar-nav a').forEach(function(a) { a.classList.remove('active'); });
+  var target = document.querySelector('.sidebar-nav a[data-cat="' + cat + '"]');
+  if (target) target.classList.add('active');
+}
+
+function doFilter() {
+  var q = searchBox.value.toLowerCase();
+  var visible = 0;
+  allCards.forEach(function(card) {
+    var text = card.textContent.toLowerCase();
+    if (!q || text.indexOf(q) >= 0) { card.style.display = ''; visible++; }
+    else { card.style.display = 'none'; }
+  });
+  emptyState.style.display = visible === 0 ? '' : 'none';
+  // clear sidebar active when searching
+  document.querySelectorAll('.sidebar-nav a').forEach(function(a) { a.classList.remove('active'); });
+  document.querySelector('.sidebar-nav a[data-cat="all"]').classList.add('active');
+}
+
+// keep empty state in sync on initial load
+(function() {
+  var visible = 0;
+  allCards.forEach(function(c) { if (c.style.display !== 'none') visible++; });
+  emptyState.style.display = visible === 0 ? '' : 'none';
+})();
+</script>
 </body>
 </html>
