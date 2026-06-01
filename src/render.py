@@ -21,6 +21,9 @@ NAV_CATEGORIES = [
     {"id": "AI研究/前沿",   "icon": "🔬", "label": "研究/前沿", "header": "ai"},
     {"id": "AI×游戏",       "icon": "🎮", "label": "AI × 游戏", "header": "ai"},
     {"id": "GitHub热门",    "icon": "🔥", "label": "GitHub热门", "header": "ai"},
+    {"id": "",             "icon": "",   "label": "🔭 跨界", "header": "diverse"},
+    {"id": "论文速递",      "icon": "📄", "label": "论文速递", "header": "diverse"},
+    {"id": "跨界视野",      "icon": "🌍", "label": "跨界视野", "header": "diverse"},
     {"id": "其他",          "icon": "📌", "label": "其他", "header": None},
 ]
 
@@ -168,6 +171,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .card-source.engine {{ background: #166fe5; }}
   .card-source.game {{ background: #40a02b; }}
   .card-source.research {{ background: #1e66f5; }}
+  .card-source.diverse {{ background: #40a02b; }}
   .card-title {{
     font-size: 15px; font-weight: 600; line-height: 1.4;
     margin-bottom: 4px;
@@ -360,6 +364,14 @@ def _source_class(source: str) -> str:
     for kw in research_keywords:
         if kw in src_lower:
             return "research"
+
+    diverse_keywords = ["nature", "science", "nasa", "space", "economist", "bbc",
+                        "dezeen", "pitchfork", "edsurge", "stat", "grist",
+                        "smithsonian", "aeon", "quanta"]
+    for kw in diverse_keywords:
+        if kw in src_lower:
+            return "diverse"
+
     return "ai"
 
 
