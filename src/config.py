@@ -47,6 +47,21 @@ RSS_SOURCES = [
     {"name": "Eurogamer", "url": "https://www.eurogamer.net/feed", "lang": "en"},
     {"name": "IGN", "url": "https://corp.ign.com/feed", "lang": "en"},
     {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss/", "lang": "en"},
+
+    # === GDC 相关 ===
+    {"name": "GDC News", "url": "https://gdconf.com/rss.xml", "lang": "en"},
+    {"name": "GDC Vault", "url": "https://www.gdcvault.com/rss.xml", "lang": "en"},
+
+    # === 游戏开发 ===
+    {"name": "80.lv", "url": "https://80.lv/feed/", "lang": "en"},
+    {"name": "Unreal Engine Blog", "url": "https://www.unrealengine.com/en-US/blog/feed.xml", "lang": "en"},
+    {"name": "Unity Blog", "url": "https://blog.unity.com/feed", "lang": "en"},
+    {"name": "IndieDB News", "url": "https://rss.indiedb.com/news/feed.xml", "lang": "en"},
+]
+
+# 非 RSS 的自定义数据源
+CUSTOM_SOURCES = [
+    {"type": "github_trending", "name": "GitHub Trending"},
 ]
 
 # 文章过滤：忽略标题中包含以下关键词的文章
@@ -56,4 +71,4 @@ IGNORE_KEYWORDS = [
 ]
 
 # 单次处理文章数上限（按时间排序后取最新的 N 篇）
-MAX_ARTICLES = 100
+MAX_ARTICLES = 120

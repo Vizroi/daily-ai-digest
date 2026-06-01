@@ -30,6 +30,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch RSS sources
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python src/fetch_sources.py /tmp/articles_raw.json
 
       - name: Summarize with DeepSeek
