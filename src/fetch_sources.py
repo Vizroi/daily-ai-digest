@@ -101,79 +101,103 @@ def fetch_github_trending() -> list[dict]:
 
 
 def _parse_trending_html(html: str, period: str) -> list[dict]:
-    """从 GitHub Trending 页面 HTML 中解析仓库列表。"""
-    from html.parser import HTMLParser
+    """从 GitHub Trending 页面 HTML 中解析仓库列表。
 
+    GitHub Trending 实际 HTML 结构（每个仓库块）：
+      <article class="Box-row">
+        <h2 class="h3 lh-condensed">
+          <a href="/owner/repo" class="Link">  ... repo name ... </a>
+        </h2>
+        <p class="col-9 color-fg-muted my-1 tmp-pr-4">description</p>
+        <div class="f6 color-fg-muted mt-2">
+          <span itemprop="programmingLanguage">Python</span>
+          ... total stars ...
+          ... forks ...
+          <span> 1,937 stars today </span>
+        </div>
+      </article>
+    """
     articles = []
     now = datetime.now(timezone.utc).isoformat()
 
-    # GitHub Trending 页面结构：每个仓库在一个 <article class="Box-row"> 中
-    # 标题在 <h2> 内的 <a>，描述在 <p>，元数据在后面的元素
-    # 更简单的方式：用正则提取关键信息
+    # 按 </article> 分割每个仓库块
+    blocks = re.split(r'</article>', html)
 
-    # 匹配每个仓库块
-    repo_blocks = re.findall(
-        r'<article\s+class="Box-row"[^>]*>(.*?)</article>',
-        html, re.DOTALL
-    )
-
-    for block in repo_blocks:
-        # 提取仓库名 (h2 里的 a 标签，href 到仓库)
-        repo_match = re.search(
-            r'<h2[^>]*>.*?<a\s+href="(/([^/]+)/([^"]+))"[^>]*>',
-            block, re.DOTALL
-        )
-        if not repo_match:
+    for block in blocks:
+        if '<article class="Box-row">' not in block:
             continue
 
-        repo_path = repo_match.group(1)  # /owner/repo
-        owner = repo_match.group(2)
-        repo = repo_match.group(3).strip()
+        # 1. 提取仓库路径: <a href="/owner/repo" class="Link">
+        repo_m = re.search(
+            r'<a[^>]*href="(/([^/"]+)/([^/"]+))"[^>]*class="Link"',
+            block
+        )
+        if not repo_m:
+            continue
 
-        full_name = f"{owner}/{repo}"
+        repo_path = repo_m.group(1)
+        owner = repo_m.group(2)
+        repo_name = repo_m.group(3)
+        full_name = f"{owner}/{repo_name}"
         html_url = f"https://github.com{repo_path}"
 
-        # 清理仓库名中的 span 标签（如 <span class="text-normal"> / </span>）
-        # 这些已经被我们上面的正则跳过了
-
-        # 提取描述
-        desc_match = re.search(
-            r'<p\s+class="[^"]*col-9[^"]*"[^>]*>(.*?)</p>',
+        # 2. 提取描述: <p class="col-9 color-fg-muted my-1 tmp-pr-4">
+        desc_m = re.search(
+            r'<p\s+class="col-9\s+color-fg-muted\s+my-1\s+tmp-pr-4">\s*(.*?)\s*</p>',
             block, re.DOTALL
         )
         description = ""
-        if desc_match:
-            description = re.sub(r"<[^>]+>", "", desc_match.group(1)).strip()
+        if desc_m:
+            description = re.sub(r"<[^>]+>", "", desc_m.group(1)).strip()
 
-        # 提取语言
-        lang_match = re.search(
-            r'itemprop="programmingLanguage">\s*([^<\s]+)',
-            block
+        # 3. 提取语言: <span itemprop="programmingLanguage">Python</span>
+        lang_m = re.search(r'itemprop="programmingLanguage">\s*([^<\s]+)', block)
+        language = lang_m.group(1) if lang_m else ""
+
+        # 4. 提取 stars today: "... stars today" (如 "1,937 stars today")
+        stars_today = ""
+        stars_today_m = re.search(r'([\d,]+)\s+stars\s+today', block)
+        if stars_today_m:
+            stars_today = stars_today_m.group(1)
+
+        # 5. 提取 total stars: </svg> 后面跟着数字，然后是 </a>
+        total_stars = ""
+        total_stars_m = re.search(
+            r'octicon-star.*?</svg>\s*([\d,]+)\s*</a>',
+            block, re.DOTALL
         )
-        language = lang_match.group(1) if lang_match else ""
+        if total_stars_m:
+            total_stars = total_stars_m.group(1)
 
-        # 提取 stars / forks
-        stars = 0
-        forks = 0
-        stars_match = re.search(r'(\d[\d,]*)\s*stars\s+today', block, re.IGNORECASE)
-        if stars_match:
-            stars = int(stars_match.group(1).replace(",", ""))
+        # 6. 提取 forks
+        forks = ""
+        forks_m = re.search(
+            r'octicon-repo-forked.*?</svg>\s*([\d,]+)\s*</a>',
+            block, re.DOTALL
+        )
+        if forks_m:
+            forks = forks_m.group(1)
 
-        # 提取 total stars（可选）
-        total_stars_match = re.search(r'(\d[\d,]*)\s*stars', block)
-        if total_stars_match:
-            try:
-                stars = int(total_stars_match.group(1).replace(",", ""))
-            except:
-                pass
+        # 拼接标题
+        title_parts = []
+        if language:
+            title_parts.append(f"[{language}]")
+        title_parts.append(full_name)
+        title_parts.append(f"⭐{total_stars}")
+        title = " ".join(title_parts)
 
-        # 简短的 extra info
-        star_text = f"⭐{stars}" if stars else ""
-        lang_text = f"[{language}]" if language else ""
-        title = f"{lang_text} {full_name} {star_text}".strip()
-
-        topics = re.findall(r'topic-tag[^>]*>([^<]+)<', block)
-        topics_str = f" | Topics: {', '.join(topics[:5])}" if topics else ""
+        # 拼接摘要
+        summary_parts = []
+        if description:
+            summary_parts.append(description)
+        extra = []
+        if forks:
+            extra.append(f"🍴{forks}")
+        if stars_today:
+            extra.append(f"🔥{stars_today} today")
+        if extra:
+            summary_parts.append(" | ".join(extra))
+        summary = " — ".join(summary_parts) if summary_parts else f"GitHub {period} trending"
 
         articles.append({
             "title": title,
@@ -181,7 +205,7 @@ def _parse_trending_html(html: str, period: str) -> list[dict]:
             "source": "GitHub Trending",
             "lang": "en",
             "published": now,
-            "summary_raw": f"{description}{topics_str}" if description else f"GitHub {period} trending repository{topics_str}",
+            "summary_raw": summary,
         })
 
     return articles
