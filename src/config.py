@@ -48,7 +48,11 @@ RSS_SOURCES = [
     {"name": "IGN", "url": "https://corp.ign.com/feed", "lang": "en"},
     {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss/", "lang": "en"},
 
-    # === GDC 相关 ===
+    # === Reddit 游戏热帖 ===
+    {"name": "Reddit Gaming", "url": "https://www.reddit.com/r/gaming/.rss", "lang": "en"},
+    {"name": "Reddit Games", "url": "https://www.reddit.com/r/Games/.rss", "lang": "en"},
+    {"name": "Reddit gamedev", "url": "https://www.reddit.com/r/gamedev/.rss", "lang": "en"},
+    {"name": "Reddit pcgaming", "url": "https://www.reddit.com/r/pcgaming/.rss", "lang": "en"},
     {"name": "GDC News", "url": "https://gdconf.com/rss.xml", "lang": "en"},
     {"name": "GDC Vault", "url": "https://www.gdcvault.com/rss.xml", "lang": "en"},
 

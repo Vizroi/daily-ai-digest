@@ -18,34 +18,36 @@ client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 BATCH_SIZE = 10  # 每次请求处理的文章数
 
 SYSTEM_PROMPT = """你是一个资深 AI & 游戏行业资讯编辑。用户会给你一个 JSON 数组，每项格式为：
-{"id": 序号, "title": "英文标题", "source": "来源", "summary_raw": "原文摘要（可能为空）"}
+{"id": 序号, "title": "标题", "source": "来源", "summary_raw": "原文摘要（可能为空）"}
 
 请基于标题和原文摘要，对每篇文章输出：
 1. **summary_cn**: 2-4 句简洁的中文摘要（保留核心信息点，不要废话）。
-    - 如果内容不够清楚做不了摘要，则设为空字符串。
-2. **category**: 从以下分类中选择一个最合适的：
-   - "大模型与应用" (LLM、Agent、编程工具、AI新产品等)
-   - "AI研究与基础设施" (论文、芯片、训练框架、benchmark等)
-   - "行业与商业" (融资、政策、企业动态、人事变动)
-   - "GitHub热门" (开源的 AI 或 游戏 相关热门项目仓库 trending)
-   - "游戏开发" (引擎更新、开发工具、技术博客、IndieDB 等)
-   - "GDC资讯" (GDC 大会相关、开发者大会演讲、GDC Vault)
-   - "游戏行业" (游戏发售、评测、电竞、主机、手游等泛游戏新闻)
-   - "AI + 游戏" (AI在游戏中的具体应用、AI生成游戏内容)
-   - "其他资讯" (归不进上面的)
-   注意：来源是 "GitHub Trending" 的，必须选 "GitHub热门"。
-         来源是 "GDC" 或 "GDC Vault" 的，必须选 "GDC资讯"。
-         游戏引擎（Unreal/Unity）、开发工具、游戏技术选 "游戏开发"。
-3. **recommended**: true 或 false —— 如果这条是今天最重要的新闻之一，标 true。最多标 8 篇。
-4. **reason**: 如果 recommended=true，用一句中文说明为什么重要。如果是false则为空字符串。
+2. **category**: 从以下 7 个分类中选择一个最合适的：
 
-只返回一个 JSON 数组（不要 markdown 包裹，不要解释），每项保持原结构并加上新字段。
+   🎮 游戏大类：
+   - "游戏资讯" — 新游发售、评测、更新、电竞、主机、手游、行业事件
+   - "游戏开发" — 引擎技术(Unreal/Unity)、开发工具、编程、GDC相关、独立开发
+   - "Reddit游戏热帖" — 来源是 Reddit 游戏相关子版(gaming/games/gamedev/pcgaming)的热门讨论
 
-输出格式示例（只返回以下结构，不要多余内容）：
-[
-  {"id": 0, "title": "...", "source": "...", "summary_raw": "...",
-   "summary_cn": "中文摘要", "category": "大模型与应用", "recommended": true, "reason": "Anthropic发布全新旗舰模型，性能大幅超越GPT-5"}
-]
+   🤖 AI 大类：
+   - "AI大模型/应用" — LLM、Agent、编程助手、AI新产品、AI功能更新
+   - "AI研究/前沿" — 论文、芯片、训练框架、benchmark、融资、政策、企业动态
+   - "AI×游戏" — AI在游戏中的具体应用(AI NPC、AI生成内容、AI辅助开发等)
+   - "GitHub热门" — 来源是 "GitHub Trending" 的热门开源项目
+
+   注意：
+   - 来源包含 "Reddit" + 游戏相关子版 → 必选 "Reddit游戏热帖"
+   - 来源是 "GitHub Trending" → 必选 "GitHub热门"
+   - 游戏引擎博客、GDC、游戏开发工具 → 必选 "游戏开发"
+   - AI 用于游戏相关 → 选 "AI×游戏"
+   - 实在归不进上面任何一类的标 "其他"
+
+3. **recommended**: true 或 false — 如果是今天最重要的新闻，标 true。最多 8 篇。
+4. **reason**: 如果 recommended=true，用一句中文说明为什么重要。
+
+只返回一个 JSON 数组（不要 markdown 包裹），输出格式示例：
+[{"id": 0, "title": "...", "source": "...", "summary_raw": "...",
+  "summary_cn": "中文摘要", "category": "AI大模型/应用", "recommended": true, "reason": "..."}]
 """
 
 
@@ -119,7 +121,7 @@ def summarize(articles: list[dict]) -> list[dict]:
     # 确保必要字段存在
     for r in results:
         r.setdefault("summary_cn", "")
-        r.setdefault("category", "其他资讯")
+        r.setdefault("category", "其他")
         r.setdefault("recommended", False)
         r.setdefault("reason", "")
 

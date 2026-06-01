@@ -8,19 +8,20 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 TZ = timezone(timedelta(hours=8))
 
-# 侧边栏分类定义
+# 侧边栏分类定义 — key 非空的是普通分类，key 为空的为分组标题
 NAV_CATEGORIES = [
-    {"id": "all",      "icon": "📰", "label": "全部资讯"},
-    {"id": "推荐精选",  "icon": "⭐", "label": "推荐精选"},
-    {"id": "大模型与应用",    "icon": "🤖", "label": "AI 大模型"},
-    {"id": "AI研究与基础设施", "icon": "🔬", "label": "AI 研究"},
-    {"id": "行业与商业",     "icon": "💼", "label": "AI 商业"},
-    {"id": "GitHub热门",    "icon": "🔥", "label": "GitHub 热门"},
-    {"id": "游戏开发",      "icon": "🛠️", "label": "游戏开发"},
-    {"id": "GDC资讯",      "icon": "🎙️", "label": "GDC 资讯"},
-    {"id": "游戏行业",      "icon": "🕹️", "label": "游戏行业"},
-    {"id": "AI + 游戏",     "icon": "🎮", "label": "AI × 游戏"},
-    {"id": "其他资讯",     "icon": "📡", "label": "其他"},
+    {"id": "all",          "icon": "📰", "label": "全部资讯", "header": None},
+    {"id": "推荐精选",      "icon": "⭐", "label": "推荐精选", "header": None},
+    {"id": "",             "icon": "",   "label": "🎮 游戏",  "header": "game"},
+    {"id": "游戏资讯",      "icon": "📡", "label": "游戏资讯", "header": "game"},
+    {"id": "游戏开发",      "icon": "🛠️", "label": "游戏开发", "header": "game"},
+    {"id": "Reddit游戏热帖", "icon": "💬", "label": "Reddit热帖", "header": "game"},
+    {"id": "",             "icon": "",   "label": "🤖 AI",   "header": "ai"},
+    {"id": "AI大模型/应用",  "icon": "🧠", "label": "大模型/应用", "header": "ai"},
+    {"id": "AI研究/前沿",   "icon": "🔬", "label": "研究/前沿", "header": "ai"},
+    {"id": "AI×游戏",       "icon": "🎮", "label": "AI × 游戏", "header": "ai"},
+    {"id": "GitHub热门",    "icon": "🔥", "label": "GitHub热门", "header": "ai"},
+    {"id": "其他",          "icon": "📌", "label": "其他", "header": None},
 ]
 
 # 分类显示顺序（用于 "全部" 视图排序）
@@ -91,6 +92,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }}
   .sidebar-nav li a:hover {{ background: var(--sidebar-hover); color: #fff; }}
   .sidebar-nav li a.active {{ background: var(--sidebar-active); color: #fff; font-weight: 600; }}
+  .sidebar-nav li.nav-header {{
+    padding: 14px 14px 4px; font-size: 11px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    color: #a6adc8; user-select: none;
+  }}
   .sidebar-nav li a .icon {{ font-size: 16px; width: 24px; text-align: center; flex-shrink: 0; }}
   .sidebar-nav li a .count {{
     margin-left: auto; font-size: 11px; opacity: 0.6;
@@ -156,6 +162,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     text-align: center; line-height: 1.1;
   }}
   .card-source.ai {{ background: #8839ef; }}
+  .card-source.reddit {{ background: #ff4500; }}
   .card-source.gh {{ background: #24292f; }}
   .card-source.gdc {{ background: #e05d29; }}
   .card-source.engine {{ background: #166fe5; }}
@@ -323,6 +330,11 @@ def _source_class(source: str) -> str:
     """根据来源判断类别，用于色块颜色区分。"""
     src_lower = source.lower()
 
+    reddit_keywords = ["reddit"]
+    for kw in reddit_keywords:
+        if kw in src_lower:
+            return "reddit"
+
     github_keywords = ["github"]
     for kw in github_keywords:
         if kw in src_lower:
@@ -377,6 +389,10 @@ def _source_abbr(source: str) -> str:
         "Unreal Engine Blog": "UE",
         "Unity Blog": "UN",
         "IndieDB News": "IDB",
+        "Reddit Gaming": "rGam",
+        "Reddit Games": "rGms",
+        "Reddit gamedev": "rDev",
+        "Reddit pcgaming": "rPC",
     }
     return abbr_map.get(source, source[:3])
 
@@ -389,7 +405,7 @@ def _render_card(article: dict) -> str:
     url = article.get("url", "#")
     summary_cn = article.get("summary_cn", "") or article.get("summary_raw", "") or ""
     source = article.get("source", "")
-    category = article.get("category", "其他资讯")
+    category = article.get("category", "其他")
 
     source_cls = _source_class(source)
     source_label = _source_abbr(source)
@@ -425,20 +441,28 @@ def render(articles: list[dict]) -> str:
     # 统计
     total = len(articles)
     recommended_count = sum(1 for a in articles if a.get("recommended"))
-    ai_count = sum(1 for a in articles if "游戏" not in (a.get("category") or "") and "GitHub" not in (a.get("category") or ""))
-    game_count = sum(1 for a in articles if "游戏" in (a.get("category") or ""))
+    ai_count = sum(1 for a in articles if (a.get("category") or "").startswith("AI"))
+    game_count = sum(1 for a in articles if "游戏" in (a.get("category") or "") or "Reddit" in (a.get("category") or ""))
     gh_count = sum(1 for a in articles if a.get("category") == "GitHub热门")
 
     # 按分类分组统计
     cat_counts = {}
     for a in articles:
-        cat = a.get("category", "其他资讯")
+        cat = a.get("category", "其他")
         cat_counts[cat] = cat_counts.get(cat, 0) + 1
 
     # 侧边栏链接
     sidebar_links_parts = []
     for nav in NAV_CATEGORIES:
         cid = nav["id"]
+        if cid == "":
+            # 分组标题
+            header = nav.get("header", "")
+            sidebar_links_parts.append(
+                f'<li class="nav-header" data-section="{header}">'
+                f'<span>{nav["label"]}</span></li>'
+            )
+            continue
         count = cat_counts.get(cid, 0)
         if cid == "all":
             count = total
@@ -455,7 +479,7 @@ def render(articles: list[dict]) -> str:
     # 所有卡片（按分类排序：推荐在前，其余在后）
     def sort_key(a):
         rec = a.get("recommended", False)
-        cat = a.get("category", "其他资讯")
+        cat = a.get("category", "其他")
         try:
             cat_idx = CATEGORY_ORDER.index(cat)
         except ValueError:
