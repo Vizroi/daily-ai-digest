@@ -2,8 +2,10 @@ name: Daily AI Digest
 
 on:
   schedule:
-    # 每天 8:00 AM (UTC+8) = 0:00 UTC
+    # 早版：北京时间 8:00 AM = UTC 0:00
     - cron: "0 0 * * *"
+    # 晚版：北京时间 8:00 PM = UTC 12:00
+    - cron: "0 12 * * *"
   workflow_dispatch:  # 允许手动触发
   push:
     paths:
