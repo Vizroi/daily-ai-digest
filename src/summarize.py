@@ -142,8 +142,8 @@ def main():
     print(f"[INFO] 开始 AI 提炼，共 {len(articles)} 篇文章…")
     summarized = summarize(articles)
 
-    # 将原始字段 (url, published 等) 合并回提炼结果
-    fields_to_merge = ("url", "published", "lang")
+    # 将原始字段 (url, published, lang, source) 合并回提炼结果
+    fields_to_merge = ("url", "published", "lang", "source")
     for orig in articles:
         for r in summarized:
             if r.get("id") == orig.get("id"):
@@ -152,6 +152,15 @@ def main():
                     if val and not r.get(f):
                         r[f] = val
                 break
+
+    # 硬编码分类：来源决定分类，不依赖 AI 判断
+    FORCE_CATEGORY = {
+        "GitHub Trending": "GitHub热门",
+    }
+    for r in summarized:
+        src = r.get("source", "")
+        if src in FORCE_CATEGORY:
+            r["category"] = FORCE_CATEGORY[src]
 
     os.makedirs(os.path.dirname(os.path.abspath(output_file)), exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
