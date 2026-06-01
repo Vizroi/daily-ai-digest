@@ -3,43 +3,668 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>每日 AI & 游戏资讯 | 测试页面</title>
+<title>每日 AI & 游戏资讯 | 2026 年 6 月 1 日</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f5f5; color: #1a1a1a; line-height: 1.6; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: #f5f5f5;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
   .container { max-width: 900px; margin: 0 auto; padding: 20px 16px; }
-  header { text-align: center; padding: 32px 0 20px; border-bottom: 2px solid #e0e0e0; margin-bottom: 28px; }
-  header h1 { font-size: 28px; font-weight: 700; }
+  header {
+    text-align: center;
+    padding: 32px 0 20px;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 28px;
+  }
+  header h1 { font-size: 28px; font-weight: 700; color: #111; }
   header .meta { margin-top: 8px; font-size: 14px; color: #888; }
-  .section { margin-bottom: 32px; }
-  .section-title { font-size: 20px; font-weight: 700; color: #222; padding-bottom: 8px; border-bottom: 1px solid #e8e8e8; margin-bottom: 16px; }
-  .card { background: #fff; border-radius: 10px; padding: 18px 20px; margin-bottom: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
-  .card-title { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
-  .card-title a { color: #1a1a1a; text-decoration: none; }
+  .stats {
+    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+    margin: 16px 0 0;
+  }
+  .stats .stat {
+    background: #fff; border-radius: 8px; padding: 6px 14px;
+    font-size: 13px; color: #555; box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .stats .stat strong { color: #111; }
+
+  .section {
+    margin-bottom: 32px;
+  }
+  .section-title {
+    font-size: 20px; font-weight: 700; color: #222;
+    padding-bottom: 8px; border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 16px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    transition: box-shadow 0.15s;
+    border-left: 3px solid transparent;
+  }
+  .card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.10); }
+  .card.recommended { border-left-color: #e63946; background: #fff5f5; }
+  .card-title {
+    font-size: 16px; font-weight: 600; line-height: 1.4;
+    margin-bottom: 8px;
+  }
+  .card-title a {
+    color: #1a1a1a; text-decoration: none;
+  }
   .card-title a:hover { color: #2563eb; text-decoration: underline; }
-  .card-summary { font-size: 14px; color: #555; margin-bottom: 10px; }
-  .card-meta { font-size: 12px; color: #999; }
-  .source { background: #f0f0f0; border-radius: 4px; padding: 2px 8px; margin-right: 8px; }
-  footer { text-align: center; padding: 32px 0 20px; border-top: 1px solid #e0e0e0; margin-top: 32px; font-size: 12px; color: #aaa; }
+  .card-summary {
+    font-size: 14px; color: #555; margin-bottom: 10px;
+    line-height: 1.65;
+  }
+  .card-meta {
+    display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+    font-size: 12px; color: #999;
+  }
+  .card-meta .source {
+    background: #f0f0f0; border-radius: 4px; padding: 2px 8px;
+  }
+  .card-meta .tag {
+    background: #e8f0fe; color: #2563eb; border-radius: 4px; padding: 2px 8px;
+  }
+  .card-meta .tag.hot {
+    background: #fde8e8; color: #c0392b; font-weight: 600;
+  }
+  .card-meta .rec-badge {
+    color: #c0392b; font-weight: 700; font-size: 12px;
+  }
+
+  footer {
+    text-align: center; padding: 32px 0 20px;
+    border-top: 1px solid #e0e0e0; margin-top: 32px;
+    font-size: 12px; color: #aaa;
+  }
+  footer a { color: #888; }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 22px; }
+    .card { padding: 14px 15px; }
+    .card-title { font-size: 15px; }
+  }
 </style>
 </head>
 <body>
 <div class="container">
 <header>
   <h1>🌅 每日 AI & 游戏资讯</h1>
-  <p class="meta">2026 年 6 月 1 日 · 测试页面 — GitHub Pages 正常工作 ✅</p>
+  <p class="meta">2026 年 6 月 1 日 · 自动抓取并 AI 提炼生成</p>
+  <div class="stats">
+    <span class="stat">📰 <strong>60</strong> 条资讯</span>
+    <span class="stat">⭐ <strong>8</strong> 条推荐</span>
+    <span class="stat">🕐 更新于 11:04 (UTC+8)</span>
+  </div>
 </header>
 
 <div class="section">
-  <div class="section-title">🤖 大模型与应用 <span style="font-weight:400;font-size:14px;color:#999;">(1)</span></div>
-  <div class="card">
-    <div class="card-title"><a href="https://example.com" target="_blank">系统部署成功! 每日 AI 资讯将在这里显示</a></div>
-    <div class="card-summary">如果这个页面正常显示了，说明 GitHub Pages 配置正确。每日早上 8 点，GitHub Actions 将自动运行抓取和摘要流程，把真实 AI 资讯替换到这里。</div>
-    <div class="card-meta"><span class="source">系统通知</span> 2026-06-01</div>
+  <div class="section-title">🤖 大模型与应用 <span style="font-weight:400;font-size:14px;color:#999;">(6)</span></div>
+  <div class="card recommended">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs</a> <span class="rec-badge">🔥 推荐</span></div>
+  <div class="card-summary">GitHub Copilot推出基于token的新计费模式，引发开发者强烈不满，被认为标志着其黄金时代的终结。<br><span style="color:#c0392b;font-size:12px;">💡 主流AI编程工具重大商业模式变更，直接影响开发者生态。</span></div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag hot">大模型与应用</span>
+    
   </div>
 </div>
+<div class="card recommended">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Strengthening societal resilience with Rosalind Biodefense</a> <span class="rec-badge">🔥 推荐</span></div>
+  <div class="card-summary">OpenAI推出Rosalind Biodefense项目，向经过审核的开发者和美国政府合作伙伴扩展GPT-Rosalind的访问权限，用于生物防御、公共卫生和流行病防范。<br><span style="color:#c0392b;font-size:12px;">💡 OpenAI推出专门用于生物防御的AI模型，标志着AI在关键安全领域的重大应用突破。</span></div>
+  <div class="card-meta">
+    <span class="source">OpenAI Blog</span>
+    <span class="tag hot">大模型与应用</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Meta is reportedly developing an AI pendant</a> </div>
+  <div class="card-summary">据报道，Meta正在开发一款AI吊坠，表明其在AI硬件领域加大投入。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">大模型与应用</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful</a> </div>
+  <div class="card-summary">Google的24/7 AI助手Gemini Spark可自动化日常任务，如收件箱摘要和本地活动规划，但将其作为独立产品推出的原因尚不明确。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">大模型与应用</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Cognition’s Scott Wu says AI coding agents shouldn’t replace humans</a> </div>
+  <div class="card-summary">AI编程助手Devin的开发商Cognition创始人Scott Wu表示，AI编码代理不应取代人类程序员，其设计初衷是辅助而非替代。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">大模型与应用</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">How Braintrust turns customer requests into code with Codex</a> </div>
+  <div class="card-summary">Braintrust工程师利用Codex与GPT-5.5加速实验和编码，将客户需求转化为代码。</div>
+  <div class="card-meta">
+    <span class="source">OpenAI Blog</span>
+    <span class="tag">大模型与应用</span>
+    
+  </div>
+</div>
+</div>
+<div class="section">
+  <div class="section-title">🔬 AI研究与基础设施 <span style="font-weight:400;font-size:14px;color:#999;">(4)</span></div>
+  <div class="card recommended">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory</a> <span class="rec-badge">🔥 推荐</span></div>
+  <div class="card-summary">韩国芯片初创公司XCENA获得1.35亿美元融资，押注AI发展的最大瓶颈是内存而非算力。<br><span style="color:#c0392b;font-size:12px;">💡 该融资规模巨大，且其“内存瓶颈”观点可能重塑AI硬件发展方向。</span></div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag hot">AI研究与基础设施</span>
+    
+  </div>
+</div>
+<div class="card recommended">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">The internet is being rebuilt for machines</a> <span class="rec-badge">🔥 推荐</span></div>
+  <div class="card-summary">随着AI代理从实验走向生产，AWS、Cloudflare等公司正在重新设计云基础设施，以适应机器流量主导的未来互联网。<br><span style="color:#c0392b;font-size:12px;">💡 云巨头集体转向为AI代理流量重构基础设施，预示互联网底层架构的重大变革。</span></div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag hot">AI研究与基础设施</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Boston Children’s uses AI to unlock new diagnoses</a> </div>
+  <div class="card-summary">波士顿儿童医院利用OpenAI技术改善患者护理、减轻运营负担，并成功诊断了40多例罕见病。</div>
+  <div class="card-meta">
+    <span class="source">OpenAI Blog</span>
+    <span class="tag">AI研究与基础设施</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">A shared playbook for trustworthy third party evaluations</a> </div>
+  <div class="card-summary">OpenAI发布第三方AI评估指南，涵盖如何评估前沿模型的能力、安全防护和有效性。</div>
+  <div class="card-meta">
+    <span class="source">OpenAI Blog</span>
+    <span class="tag">AI研究与基础设施</span>
+    
+  </div>
+</div>
+</div>
+<div class="section">
+  <div class="section-title">🕹️ 游戏行业 <span style="font-weight:400;font-size:14px;color:#999;">(21)</span></div>
+  <div class="card recommended">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Stop Killing Games Gains Momentum After Bill Passes California State Assembly Vote</a> <span class="rec-badge">🔥 推荐</span></div>
+  <div class="card-summary">“停止杀死游戏”运动取得重大进展，加州众议院通过了一项保护游戏不被下线的法案。<br><span style="color:#c0392b;font-size:12px;">💡 该法案可能改变游戏行业数字内容存续规则，影响深远。</span></div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag hot">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card recommended">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Fandom and GameSpot owner set to buy Balatro publisher Playstack</a> <span class="rec-badge">🔥 推荐</span></div>
+  <div class="card-summary">《Balatro》等游戏的发行商Playstack将被Fandom和GameSpot的母公司IMC收购。该交易估值约1.69亿美元，是游戏行业重要的并购事件。<br><span style="color:#c0392b;font-size:12px;">💡 Playstack旗下拥有爆款游戏《Balatro》，此次收购是游戏发行领域的重要整合。</span></div>
+  <div class="card-meta">
+    <span class="source">GamesIndustry.biz</span>
+    <span class="tag hot">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Alienware’s New Super Ultrawide OLED Gaming Monitor Might Just Earn Its (RGB) Stripes</a> </div>
+  <div class="card-summary"></div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Rayman Origins Remaster Leak Reveals First Details About Enhanced Edition from Ubisoft</a> </div>
+  <div class="card-summary">《雷曼：起源》重制版疑似泄露，该增强版已出现在Xbox商店，标价2000美元。</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">A Minecraft Movie 2 Gets Official Title Ahead of July 2027 Premiere</a> </div>
+  <div class="card-summary">The cast from A Minecraft Movie 2 teamed up to release a video confirming that the sequel now has an official title: A Minecraft Movie Squared.</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">The Wandering Inn Author Says a Live-Action Adaptation of Their LitRPG Books Would 'Surely Fail'</a> </div>
+  <div class="card-summary"></div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Minecraft Live May 2026: Everything Announced</a> </div>
+  <div class="card-summary">Mojang Studios在2026年5月的Minecraft Live上公布了《我的世界大电影2》和《我的世界：地下城2》等新内容。</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Call of Duty: Modern Warfare 4 Devs Say 'Keep the Receipts' Amid Commitment to Grounded Skins</a> </div>
+  <div class="card-summary">动视和Infinity Ward的开发者承诺《使命召唤：现代战争4》的皮肤将保持写实风格，并让粉丝“保留收据”以监督。</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">7 Reasons Why the AC Black Flag Remake Could be Amazing (and 3 Concerns)</a> </div>
+  <div class="card-summary">《刺客信条：黑旗》重制版画面惊艳，但缺少DLC扩展和现代剧情，可能无法成为终极体验。</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Nordic Game 2026 was full of smiles, but they hid a very tough reality | Opinion</a> </div>
+  <div class="card-summary">2026年北欧游戏展虽表面热闹，但背后隐藏着行业严峻的现实困境。展会吸引了多国开发者参与，但乐观氛围下是艰难的市场环境。</div>
+  <div class="card-meta">
+    <span class="source">GamesIndustry.biz</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">The RAMageddon hits home | Opinion</a> </div>
+  <div class="card-summary">内存和固态硬盘等数字存储设备的成本与供应危机正对游戏行业产生深远影响。文章指出这一抽象问题已变得具体而严峻。</div>
+  <div class="card-meta">
+    <span class="source">GamesIndustry.biz</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Crafting Clair Obscur: Expedition 33's mournful tale ft. Jennifer Svedeberg-Yen</a> </div>
+  <div class="card-summary">GDC访谈中，《Clair Obscur: Expedition 33》主创分享了游戏悲伤故事的创作决策过程。</div>
+  <div class="card-meta">
+    <span class="source">Game Developer</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Balatro publisher Playstack is being sold to GameSpot and Fandom parent company</a> </div>
+  <div class="card-summary">《Balatro》发行商Playstack被GameSpot和Fandom母公司收购，交易估值约1.69亿美元。</div>
+  <div class="card-meta">
+    <span class="source">Game Developer</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">TIGA appoints Elaine Green as chair</a> </div>
+  <div class="card-summary">英国游戏行业贸易机构TIGA任命Elaine Green为新任主席。</div>
+  <div class="card-meta">
+    <span class="source">GamesIndustry.biz</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">NetEase reports 6.9% increase in games revenue to $3.7bn during Q1</a> </div>
+  <div class="card-summary">网易发布第一季度财报，游戏收入同比增长6.9%至257亿元人民币（37亿美元），总收入增长6.1%至306亿元人民币（44亿美元）。</div>
+  <div class="card-meta">
+    <span class="source">GamesIndustry.biz</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">007 First Light has topped 1.5 million sales</a> </div>
+  <div class="card-summary">游戏《007 First Light》销量已突破150万份。</div>
+  <div class="card-meta">
+    <span class="source">Game Developer</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Tomodachi Life: Living the Dream is 2026's top new release by revenue to date | Newzoo charts</a> </div>
+  <div class="card-summary">据Newzoo数据，《Tomodachi Life: Living the Dream》是2026年至今收入最高的新游戏，并在4月主机收入总榜上排名第一。</div>
+  <div class="card-meta">
+    <span class="source">GamesIndustry.biz</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Micro-grants for indies, another hardware price hike, and Valnet sinks to new lows - Patch Notes #54</a> </div>
+  <div class="card-summary">本期游戏行业周报涵盖独立游戏小额资助、硬件涨价、Valnet股价新低等动态。此外，《巫师3》将推出新资料片，《毁灭全明星》即将停服。</div>
+  <div class="card-meta">
+    <span class="source">Game Developer</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion</a> </div>
+  <div class="card-summary">CD Projekt宣布《巫师3》全球销量突破6500万份，同时公布该作第三个资料片。公司第一季度营收同比增长6%至1.91亿波兰兹罗提。</div>
+  <div class="card-meta">
+    <span class="source">GamesIndustry.biz</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Xbox CEO says it's already seeing positive impacts following Game Pass price cuts</a> </div>
+  <div class="card-summary">Xbox CEO Asha Sharma表示，近期Game Pass的降价策略已开始显现积极效果。</div>
+  <div class="card-meta">
+    <span class="source">GamesIndustry.biz</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Remedy Entertainment CEO: Alan Wake and Control should have sold more</a> </div>
+  <div class="card-summary">Remedy Entertainment新任CEO表示，《心灵杀手》和《控制》的销量未达预期，认为影视改编有助于扩大受众。</div>
+  <div class="card-meta">
+    <span class="source">Game Developer</span>
+    <span class="tag">游戏行业</span>
+    
+  </div>
+</div>
+</div>
+<div class="section">
+  <div class="section-title">💼 行业与商业 <span style="font-weight:400;font-size:14px;color:#999;">(10)</span></div>
+  <div class="card recommended">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">SoftBank says it will invest up to €75 billion to build French data centers</a> <span class="rec-badge">🔥 推荐</span></div>
+  <div class="card-summary">软银宣布将投资高达750亿欧元在法国建设数据中心，目标是开发和运营高达5吉瓦的额外数据中心容量。<br><span style="color:#c0392b;font-size:12px;">💡 巨额投资建设AI基础设施，显示全球算力竞赛加剧。</span></div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag hot">行业与商业</span>
+    
+  </div>
+</div>
+<div class="card recommended">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M</a> <span class="rec-badge">🔥 推荐</span></div>
+  <div class="card-summary">AI芯片初创公司Groq正寻求通过内部融资筹集6.5亿美元，其战略重心将从硬件转向AI推理服务。此举发生在英伟达巨额收购传闻之后。<br><span style="color:#c0392b;font-size:12px;">💡 Groq是AI芯片领域的重要玩家，其战略转型和大额融资动态对AI基础设施格局有重大影响。</span></div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag hot">行业与商业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Erin Brockovich takes aim at data center secrecy</a> </div>
+  <div class="card-summary">环保活动家Erin Brockovich将矛头指向数据中心行业的保密问题，可能涉及AI基础设施的环境影响。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">行业与商业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Making sense of the debate over AI psychosis</a> </div>
+  <div class="card-summary">TechCrunch播客节目探讨科技CEO是否特别容易陷入“AI精神病”的争论，涉及行业领导者的非理性狂热。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">行业与商业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Coders are refusing to work without AI — and that could come back to bite them</a> </div>
+  <div class="card-summary">研究人员警告，程序员拒绝在没有AI的情况下工作，虽然能更快产出代码，但可能牺牲代码质量，未来会带来问题。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">行业与商业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">What happens when companies become too AI-pilled?</a> </div>
+  <div class="card-summary">Box创始人Aaron Levie指出，认为AI能取代你工作的人往往最不了解你的工作内容，这被称为“AI精神病”。ClickUp近期因引入AI代理裁员22%。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">行业与商业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Does your CEO have AI psychosis? Aaron Levie thinks most of them do.</a> </div>
+  <div class="card-summary">Box创始人Aaron Levie指出许多CEO患有“AI精神病”，即在不真正理解工作内容的情况下决定用AI替代人类。他举例ClickUp因引入AI代理裁员22%。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">行业与商业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment</a> </div>
+  <div class="card-summary">教皇方济各发布关于人工智能的通谕《伟大的人性》，强调“技术绝非中立”，呼吁技术专家和政策制定者以勇气和团结应对AI时代。</div>
+  <div class="card-meta">
+    <span class="source">MIT Tech Review AI</span>
+    <span class="tag">行业与商业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Glean’s top line crosses $300M as AI budget cutting becomes its major selling point</a> </div>
+  <div class="card-summary">企业AI搜索初创公司Glean年收入突破3亿美元，同比增长两倍，其核心卖点是帮助企业削减AI预算。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">行业与商业</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Asana acquires no-code agent-builder StackAI</a> </div>
+  <div class="card-summary">项目管理平台Asana收购无代码AI代理构建平台StackAI，将其整合到AI工作流工具套件中。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">行业与商业</span>
+    
+  </div>
+</div>
+</div>
+<div class="section">
+  <div class="section-title">📡 其他AI资讯 <span style="font-weight:400;font-size:14px;color:#999;">(19)</span></div>
+  <div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Emilia Clarke Admits 'No One Liked' Secret Invasion or Solo But Knows 'It's Not Personal'</a> </div>
+  <div class="card-summary">Game of Thrones alum Emilia Clarke has her fair share of controversial movies and shows under her belt, but she knows the response to projects like Secret Invasion and Solo: A Star Wars Story is "not personal."</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Masters of the Universe Gets Last-Minute Imax Confirmation as Star Wars Makes Room</a> </div>
+  <div class="card-summary">Masters of the Universe has added last-minute Imax screens to its theatrical rollout after Star Wars: The Mandalorian and Grogu opened up room for the large-screen format earlier than expected.</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Everything Coming to Apple TV in June</a> </div>
+  <div class="card-summary">If you’re subscribed to Apple TV, here’s what you have to look forward to in June.</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">The Best Deals Today: AirPods Pro 3, Kill Bill: The Whole Bloody Affair 4K, Evangelion Blu-ray, and More</a> </div>
+  <div class="card-summary"></div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Star Wars: The Mandalorian and Grogu Suffers 69% Drop at the Box Office</a> </div>
+  <div class="card-summary">Star Wars: The Mandalorian and Grogu struggled to find success in its second weekend in theaters, resulting in a 69% drop at the box office.</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Backrooms and Obsession Lead the Box Office as Audiences Show Up for Low-Budget Horror</a> </div>
+  <div class="card-summary">Backrooms and Obsession are ushering in a new appreciation for low-budget horror movies after both YouTuber-directed projects managed to lead the box office race with strong numbers this weekend.</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Avengers: Doomsday Logo Reveal Has Marvel Fans Expecting a Trailer</a> </div>
+  <div class="card-summary">The Russo Brothers have revealed their cryptic color teaser is actually a first look at a logo for Doctor Doom, and fans think it means an Avengers: Doomsday trailer could arrive as soon as this week.</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Everything Coming to HBO Max in June</a> </div>
+  <div class="card-summary">Despite a potential Paramount acquisition on the horizon, HBO continues to put out some of the best content in streaming.</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Everything Coming to Netflix in June 2026</a> </div>
+  <div class="card-summary">It's wedding (Karate Kid, Riddick, and Rocky) season on Netflix in June.</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">The Best Deals Today: LEGO R2-D2, Neon Genesis Evangelion Blu-ray, M5 MacBook Air, and More</a> </div>
+  <div class="card-summary"></div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">10 Fantasy Audiobooks That Will Magically Transport You to Another World</a> </div>
+  <div class="card-summary"></div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Everything Coming to Disney+ in June 2026</a> </div>
+  <div class="card-summary">While Disney+ hasn’t announced anything new from the worlds of the MCU or Star Wars, there are still plenty of big additions coming to the service in June.</div>
+  <div class="card-meta">
+    <span class="source">IGN</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026</a> </div>
+  <div class="card-summary">浏览器竞争加剧，本文盘点了2026年挑战Chrome和Safari的几款热门替代浏览器。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">So you’ve heard these AI terms and nodded along; let’s fix that</a> </div>
+  <div class="card-summary">AI兴起带来大量新术语，本文提供了一份重要AI词汇和短语的术语表。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Today is the last day to apply to speak at TechCrunch Disrupt 2026</a> </div>
+  <div class="card-summary">Submit your session topic before today ends for a chance to speak at TechCrunch Disrupt 2026. Apply now to share your insight and help shape the conversations defining the tech industry.</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket</a> </div>
+  <div class="card-summary">You now have until tonight at 11:59 p.m. PT to lock in Early Bird savings of up to $410 for TechCrunch Disrupt 2026 before prices increase. Join 10,000+ tech leaders in October for one of the most anticipated tech events of the year. Register now.</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">Kiwibit’s AI-powered bird feeder is my new backyard buddy</a> </div>
+  <div class="card-summary">Kiwibit推出AI智能鸟食器，用户可通过类似宝可梦收集的应用识别并收集鸟类物种，提供与自然互动的趣味方式。</div>
+  <div class="card-meta">
+    <span class="source">TechCrunch AI</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">The Download: unlocking lithium and controlling Ebola</a> </div>
+  <div class="card-summary">本期《The Download》介绍了一种新型锂提取工艺，有望降低成本和排放，并探讨了埃博拉疫情的控制进展。</div>
+  <div class="card-meta">
+    <span class="source">MIT Tech Review AI</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+<div class="card">
+  <div class="card-title"><a href="#" target="_blank" rel="noopener">The deadly Ebola outbreak is proving difficult to control</a> </div>
+  <div class="card-summary">刚果（金）伊图里省爆发埃博拉疫情，四名医护人员四天内死亡，快速响应团队确认病原体为Bundibugyo病毒，疫情控制面临挑战。</div>
+  <div class="card-meta">
+    <span class="source">MIT Tech Review AI</span>
+    <span class="tag">其他AI资讯</span>
+    
+  </div>
+</div>
+</div>
 
-<footer><p>Generated by GitHub Actions · Powered by DeepSeek</p></footer>
+<footer>
+  <p>数据来源：AI 科技媒体、研究论文、AI 公司博客、游戏行业媒体</p>
+  <p>由 <a href="https://github.com/" target="_blank">GitHub Actions</a> 自动化生成 · Powered by DeepSeek</p>
+</footer>
 </div>
 </body>
 </html>
