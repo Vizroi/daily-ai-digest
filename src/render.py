@@ -15,9 +15,12 @@ NAV_CATEGORIES = [
     {"id": "大模型与应用",    "icon": "🤖", "label": "AI 大模型"},
     {"id": "AI研究与基础设施", "icon": "🔬", "label": "AI 研究"},
     {"id": "行业与商业",     "icon": "💼", "label": "AI 商业"},
-    {"id": "AI + 游戏",     "icon": "🎮", "label": "AI × 游戏"},
+    {"id": "GitHub热门",    "icon": "🔥", "label": "GitHub 热门"},
+    {"id": "游戏开发",      "icon": "🛠️", "label": "游戏开发"},
+    {"id": "GDC资讯",      "icon": "🎙️", "label": "GDC 资讯"},
     {"id": "游戏行业",      "icon": "🕹️", "label": "游戏行业"},
-    {"id": "其他AI资讯",   "icon": "📡", "label": "其他"},
+    {"id": "AI + 游戏",     "icon": "🎮", "label": "AI × 游戏"},
+    {"id": "其他资讯",     "icon": "📡", "label": "其他"},
 ]
 
 # 分类显示顺序（用于 "全部" 视图排序）
@@ -153,6 +156,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     text-align: center; line-height: 1.1;
   }}
   .card-source.ai {{ background: #8839ef; }}
+  .card-source.gh {{ background: #24292f; }}
+  .card-source.gdc {{ background: #e05d29; }}
+  .card-source.engine {{ background: #166fe5; }}
   .card-source.game {{ background: #40a02b; }}
   .card-source.research {{ background: #1e66f5; }}
   .card-title {{
@@ -246,6 +252,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <div class="stat-item">⭐ 推荐 <strong>{recommended_count}</strong> 条</div>
     <div class="stat-item">🤖 AI <strong>{ai_count}</strong> 条</div>
     <div class="stat-item">🎮 游戏 <strong>{game_count}</strong> 条</div>
+    <div class="stat-item">🔥 热门项目 <strong>{gh_count}</strong> 个</div>
   </div>
 
   <div class="card-list" id="card-list">
@@ -313,13 +320,30 @@ function doFilter() {{
 
 
 def _source_class(source: str) -> str:
-    """根据来源判断是 AI 还是游戏类，用于颜色区分。"""
-    game_keywords = ["game", "games", "kotaku", "polygon", "eurogamer", "ign", "pc gamer",
-                     "游民", "陀螺"]
+    """根据来源判断类别，用于色块颜色区分。"""
     src_lower = source.lower()
+
+    github_keywords = ["github"]
+    for kw in github_keywords:
+        if kw in src_lower:
+            return "gh"
+
+    gdc_keywords = ["gdc"]
+    for kw in gdc_keywords:
+        if kw in src_lower:
+            return "gdc"
+
+    game_keywords = ["game", "games", "kotaku", "polygon", "eurogamer", "ign", "pc gamer",
+                     "游民", "陀螺", "80.lv", "indiedb"]
     for kw in game_keywords:
         if kw in src_lower:
             return "game"
+
+    engine_keywords = ["unreal", "unity"]
+    for kw in engine_keywords:
+        if kw in src_lower:
+            return "engine"
+
     research_keywords = ["hugging", "arxiv", "paper", "marktech", "research"]
     for kw in research_keywords:
         if kw in src_lower:
@@ -346,6 +370,13 @@ def _source_abbr(source: str) -> str:
         "极客公园": "GK",
         "游民星空": "YM",
         "游戏陀螺": "TL",
+        "GitHub Trending": "GH",
+        "GDC News": "GDC",
+        "GDC Vault": "GDC",
+        "80.lv": "80",
+        "Unreal Engine Blog": "UE",
+        "Unity Blog": "UN",
+        "IndieDB News": "IDB",
     }
     return abbr_map.get(source, source[:3])
 
@@ -358,7 +389,7 @@ def _render_card(article: dict) -> str:
     url = article.get("url", "#")
     summary_cn = article.get("summary_cn", "") or article.get("summary_raw", "") or ""
     source = article.get("source", "")
-    category = article.get("category", "其他AI资讯")
+    category = article.get("category", "其他资讯")
 
     source_cls = _source_class(source)
     source_label = _source_abbr(source)
@@ -394,13 +425,14 @@ def render(articles: list[dict]) -> str:
     # 统计
     total = len(articles)
     recommended_count = sum(1 for a in articles if a.get("recommended"))
-    ai_count = sum(1 for a in articles if "游戏" not in (a.get("category") or ""))
+    ai_count = sum(1 for a in articles if "游戏" not in (a.get("category") or "") and "GitHub" not in (a.get("category") or ""))
     game_count = sum(1 for a in articles if "游戏" in (a.get("category") or ""))
+    gh_count = sum(1 for a in articles if a.get("category") == "GitHub热门")
 
     # 按分类分组统计
     cat_counts = {}
     for a in articles:
-        cat = a.get("category", "其他AI资讯")
+        cat = a.get("category", "其他资讯")
         cat_counts[cat] = cat_counts.get(cat, 0) + 1
 
     # 侧边栏链接
@@ -423,7 +455,7 @@ def render(articles: list[dict]) -> str:
     # 所有卡片（按分类排序：推荐在前，其余在后）
     def sort_key(a):
         rec = a.get("recommended", False)
-        cat = a.get("category", "其他AI资讯")
+        cat = a.get("category", "其他资讯")
         try:
             cat_idx = CATEGORY_ORDER.index(cat)
         except ValueError:
@@ -440,6 +472,7 @@ def render(articles: list[dict]) -> str:
         recommended_count=recommended_count,
         ai_count=ai_count,
         game_count=game_count,
+        gh_count=gh_count,
         sidebar_links=sidebar_links,
         cards_all=cards_all,
     )
