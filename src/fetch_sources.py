@@ -15,7 +15,7 @@ import feedparser
 import requests
 
 from config import (
-    RSS_SOURCES, CUSTOM_SOURCES, HFPAPERS_SOURCE, DIVERSE_SOURCES,
+    RSS_SOURCES, CUSTOM_SOURCES, HFPAPERS_API, DIVERSE_SOURCES,
     IGNORE_KEYWORDS, MAX_ARTICLES, MAX_PER_SOURCE, MAX_PAPERS, MAX_DIVERSE,
 )
 
@@ -90,18 +90,43 @@ def _parse_entry(entry, name: str, lang: str) -> dict | None:
 # ─── HuggingFace 论文速递 ─────────────────────────────────────
 
 def fetch_hf_papers() -> list[dict]:
-    """从 HuggingFace Daily Papers 取前 N 篇。"""
-    raw = _safe_fetch(HFPAPERS_SOURCE["url"])
-    if not raw:
-        print("[WARN] HuggingFace Papers 抓取失败")
+    """从 HuggingFace Daily Papers API 取前 N 篇（按 upvotes 排序）。"""
+    try:
+        resp = _session.get(HFPAPERS_API, timeout=20, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; DailyAIDigest/1.0)",
+            "Accept": "application/json",
+        })
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception:
+        print("[WARN] HuggingFace Papers API 请求失败")
         return []
 
-    feed = feedparser.parse(raw)
     articles = []
-    for entry in feed.entries[:MAX_PAPERS]:
-        a = _parse_entry(entry, "HuggingFace Papers", "en")
-        if a:
-            articles.append(a)
+    now = datetime.now(timezone.utc).isoformat()
+
+    for item in data[:MAX_PAPERS]:
+        paper = item.get("paper", {})
+        arxiv_id = paper.get("id", "")
+        title = paper.get("title", "").strip()
+        if not title:
+            continue
+
+        summary = paper.get("summary", "") or ""
+        upvotes = item.get("upvotes", 0)
+        authors = paper.get("authors", [])
+        author_names = ", ".join(a.get("name", "") for a in authors[:3])
+        if len(authors) > 3:
+            author_names += " et al."
+
+        articles.append({
+            "title": title,
+            "url": f"https://arxiv.org/abs/{arxiv_id}" if arxiv_id else f"https://huggingface.co/papers",
+            "source": "HuggingFace Papers",
+            "lang": "en",
+            "published": paper.get("publishedAt") or now,
+            "summary_raw": f"👍{upvotes} · {author_names} — {summary[:200]}" if summary else f"👍{upvotes} · {author_names}",
+        })
 
     print(f"[OK] 论文速递: {len(articles)} 篇")
     return articles

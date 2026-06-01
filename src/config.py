@@ -62,8 +62,8 @@ RSS_SOURCES = [
     {"name": "IndieDB News", "url": "https://rss.indiedb.com/news/feed.xml", "lang": "en"},
 ]
 
-# HuggingFace 每日论文（单独抓取，只取前 3 篇）—— 论文速递专栏
-HFPAPERS_SOURCE = {"name": "HuggingFace Papers", "url": "https://huggingface.co/papers/feed.xml", "lang": "en"}
+# HuggingFace 每日论文 API（按社区投票排序）—— 论文速递专栏
+HFPAPERS_API = "https://huggingface.co/api/daily_papers"
 
 # 跨界视野 — 随机池，每天抽 5 个源各取 1 篇，打破信息茧房
 DIVERSE_SOURCES = [
