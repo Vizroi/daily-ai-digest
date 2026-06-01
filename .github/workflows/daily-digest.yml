@@ -1,0 +1,53 @@
+name: Daily AI Digest
+
+on:
+  schedule:
+    # 每天 8:00 AM (UTC+8) = 0:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:  # 允许手动触发
+  push:
+    paths:
+      - 'src/**'
+      - '.github/workflows/daily-digest.yml'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch RSS sources
+        run: python src/fetch_sources.py docs/articles_raw.json
+
+      - name: Summarize with DeepSeek
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python src/summarize.py docs/articles_raw.json docs/articles_summarized.json
+
+      - name: Render HTML
+        run: python src/render.py docs/articles_summarized.json docs/index.html
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "📰 $(date +'%Y-%m-%d') 每日资讯更新"
+            git push
+          fi
