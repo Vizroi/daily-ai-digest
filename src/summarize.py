@@ -134,6 +134,17 @@ def main():
     print(f"[INFO] 开始 AI 提炼，共 {len(articles)} 篇文章…")
     summarized = summarize(articles)
 
+    # 将原始字段 (url, published 等) 合并回提炼结果
+    fields_to_merge = ("url", "published", "lang")
+    for orig in articles:
+        for r in summarized:
+            if r.get("id") == orig.get("id"):
+                for f in fields_to_merge:
+                    val = orig.get(f)
+                    if val and not r.get(f):
+                        r[f] = val
+                break
+
     os.makedirs(os.path.dirname(os.path.abspath(output_file)), exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(summarized, f, ensure_ascii=False, indent=2)

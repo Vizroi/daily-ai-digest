@@ -30,15 +30,15 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch RSS sources
-        run: python src/fetch_sources.py docs/articles_raw.json
+        run: python src/fetch_sources.py /tmp/articles_raw.json
 
       - name: Summarize with DeepSeek
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python src/summarize.py docs/articles_raw.json docs/articles_summarized.json
+        run: python src/summarize.py /tmp/articles_raw.json /tmp/articles_summarized.json
 
       - name: Render HTML
-        run: python src/render.py docs/articles_summarized.json docs/index.html
+        run: python src/render.py /tmp/articles_summarized.json docs/index.html
 
       - name: Commit and push
         run: |
