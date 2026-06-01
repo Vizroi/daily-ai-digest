@@ -1,7 +1,10 @@
 """HTML 渲染模块：将提炼后的文章渲染为响应式静态页面。"""
 import json
+import os
 import sys
 from datetime import datetime, timezone, timedelta
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 TZ = timezone(timedelta(hours=8))
 
@@ -216,6 +219,7 @@ def main():
         articles = json.load(f)
 
     html = render(articles)
+    os.makedirs(os.path.dirname(os.path.abspath(output_file)), exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(html)
 

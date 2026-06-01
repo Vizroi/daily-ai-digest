@@ -1,9 +1,12 @@
 """RSS 抓取模块：从多个信息源抓取文章，去重后输出 JSON。"""
 import json
 import hashlib
+import os
 import sys
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import feedparser
 import requests
@@ -117,6 +120,7 @@ def fetch_all() -> list[dict]:
 
 def main():
     output = sys.argv[1] if len(sys.argv) > 1 else "docs/articles_raw.json"
+    os.makedirs(os.path.dirname(output), exist_ok=True)
     articles = fetch_all()
     with open(output, "w", encoding="utf-8") as f:
         json.dump(articles, f, ensure_ascii=False, indent=2)

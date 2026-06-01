@@ -4,6 +4,8 @@ import os
 import sys
 import time
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from openai import OpenAI
 
 # ---- 从环境变量或 config 读取 ----
@@ -132,6 +134,7 @@ def main():
     print(f"[INFO] 开始 AI 提炼，共 {len(articles)} 篇文章…")
     summarized = summarize(articles)
 
+    os.makedirs(os.path.dirname(os.path.abspath(output_file)), exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(summarized, f, ensure_ascii=False, indent=2)
 
