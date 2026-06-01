@@ -288,7 +288,7 @@ function showCategory(cat) {{
       if (card.classList.contains('recommended')) {{ card.style.display = ''; visible++; }}
       else {{ card.style.display = 'none'; }}
     }} else {{
-      var catEl = card.querySelector('.badge-cat, .badge-game');
+      var catEl = card.querySelector('.badge-cat, .badge-game, .badge-hot');
       if (catEl && catEl.getAttribute('data-cat') === cat) {{ card.style.display = ''; visible++; }}
       else {{ card.style.display = 'none'; }}
     }}
@@ -394,6 +394,11 @@ def _source_abbr(source: str) -> str:
         "Reddit gamedev": "rDev",
         "Reddit pcgaming": "rPC",
     }
+    # 特殊处理 GitHub Trending 带周期后缀的
+    if source.startswith("GitHub Trending"):
+        if "weekly" in source:
+            return "GH(w)"
+        return "GH(d)"
     return abbr_map.get(source, source[:3])
 
 

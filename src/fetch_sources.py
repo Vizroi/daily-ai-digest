@@ -67,11 +67,10 @@ def _clean_html(text: str, max_len: int = 300) -> str:
 # ─── GitHub Trending ───────────────────────────────────────────
 
 def fetch_github_trending() -> list[dict]:
-    """爬取 https://github.com/trending?since=daily 的每日热门仓库。
-    这是按 star 增长率排名的，和 GitHub Search API 的绝对 star 数完全不同。"""
+    """爬取 https://github.com/trending 的每日 + 每周热门仓库。
+    按 star 增长率排名，和 GitHub Search API 完全不同。"""
     from html.parser import HTMLParser
 
-    # 分别抓 daily / weekly 确保不遗漏
     urls = [
         ("daily", "https://github.com/trending?since=daily"),
         ("weekly", "https://github.com/trending?since=weekly"),
@@ -202,7 +201,7 @@ def _parse_trending_html(html: str, period: str) -> list[dict]:
         articles.append({
             "title": title,
             "url": html_url,
-            "source": "GitHub Trending",
+            "source": f"GitHub Trending ({period})",
             "lang": "en",
             "published": now,
             "summary_raw": summary,

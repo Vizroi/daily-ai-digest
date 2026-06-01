@@ -154,13 +154,10 @@ def main():
                 break
 
     # 硬编码分类：来源决定分类，不依赖 AI 判断
-    FORCE_CATEGORY = {
-        "GitHub Trending": "GitHub热门",
-    }
     for r in summarized:
         src = r.get("source", "")
-        if src in FORCE_CATEGORY:
-            r["category"] = FORCE_CATEGORY[src]
+        if src.startswith("GitHub Trending"):
+            r["category"] = "GitHub热门"
 
     # 按原始 id 顺序重排（fetch_sources 中 GitHub Trending 在前，id 即 trending 排名）
     id_order = {a["id"]: i for i, a in enumerate(articles)}
@@ -170,7 +167,7 @@ def main():
     #   1. 全部归入 "GitHub热门"
     #   2. 前 3 名强制标为推荐精选，其余不标
     #   3. 排序保持与 trending 页面一致
-    gh_items = [r for r in summarized if r.get("source") == "GitHub Trending"]
+    gh_items = [r for r in summarized if (r.get("source") or "").startswith("GitHub Trending")]
     for i, r in enumerate(gh_items):
         r["category"] = "GitHub热门"
         r["recommended"] = (i < 3)
