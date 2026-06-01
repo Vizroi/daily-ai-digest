@@ -6,30 +6,47 @@ DEEPSEEK_MODEL = "deepseek-chat"
 
 # RSS 信息源列表
 RSS_SOURCES = [
-    # === AI 科技媒体 ===
+    # === 中文 AI 媒体 ===
+    {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "lang": "zh"},
+    {"name": "量子位", "url": "https://www.qbitai.com/feed", "lang": "zh"},
+    {"name": "极客公园", "url": "https://www.geekpark.net/feed", "lang": "zh"},
+
+    # === 英文 AI 科技媒体 ===
     {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "lang": "en"},
     {"name": "The Verge AI", "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml", "lang": "en"},
     {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "lang": "en"},
     {"name": "Ars Technica AI", "url": "https://feeds.arstechnica.com/arstechnica/ai", "lang": "en"},
-    {"name": "MIT Tech Review AI", "url": "https://www.technologyreview.com/feed/", "lang": "en"},
+    {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "lang": "en"},
+    {"name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "lang": "en"},
 
-    # === AI 研究 ===
-    {"name": "HuggingFace Daily", "url": "https://huggingface.co/papers/feed.xml", "lang": "en"},
+    # === AI 研究 / 论文 ===
+    {"name": "HuggingFace Papers", "url": "https://huggingface.co/papers/feed.xml", "lang": "en"},
     {"name": "MarkTechPost", "url": "https://www.marktechpost.com/feed/", "lang": "en"},
 
-    # === AI 公司 ===
+    # === AI 公司博客 ===
     {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml", "lang": "en"},
     {"name": "Google AI Blog", "url": "https://blog.research.google/feeds/posts/default", "lang": "en"},
     {"name": "Meta AI Blog", "url": "https://ai.meta.com/blog/feed/", "lang": "en"},
     {"name": "Anthropic Blog", "url": "https://www.anthropic.com/feed", "lang": "en"},
+    {"name": "DeepMind Blog", "url": "https://deepmind.google/blog/feed/", "lang": "en"},
 
-    # === AI 社区 ===
-    {"name": "Hacker News", "url": "https://hnrss.org/frontpage?q=ai+OR+ml+OR+llm+OR+gpt+OR+model", "lang": "en"},
+    # === AI 社区 / 社交媒体 ===
+    {"name": "Hacker News AI", "url": "https://hnrss.org/frontpage?q=ai+OR+ml+OR+llm+OR+gpt+OR+model", "lang": "en"},
+    {"name": "Reddit ML", "url": "https://www.reddit.com/r/MachineLearning/.rss", "lang": "en"},
+    {"name": "Reddit AI", "url": "https://www.reddit.com/r/artificial/.rss", "lang": "en"},
 
-    # === 游戏行业 ===
-    {"name": "GamesIndustry.biz", "url": "https://www.gamesindustry.biz/feed", "lang": "en"},
+    # === 中文游戏媒体 ===
+    {"name": "游民星空", "url": "https://www.gamersky.com/feed/", "lang": "zh"},
+    {"name": "游戏陀螺", "url": "https://www.youxituoluo.com/feed", "lang": "zh"},
+
+    # === 英文游戏媒体 ===
+    {"name": "GamesIndustry", "url": "https://www.gamesindustry.biz/feed", "lang": "en"},
     {"name": "Game Developer", "url": "https://www.gamedeveloper.com/rss.xml", "lang": "en"},
-    {"name": "IGN", "url": "https://feeds.feedburner.com/ign/all", "lang": "en"},
+    {"name": "Kotaku", "url": "https://kotaku.com/rss", "lang": "en"},
+    {"name": "Polygon", "url": "https://www.polygon.com/rss/index.xml", "lang": "en"},
+    {"name": "Eurogamer", "url": "https://www.eurogamer.net/feed", "lang": "en"},
+    {"name": "IGN", "url": "https://corp.ign.com/feed", "lang": "en"},
+    {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss/", "lang": "en"},
 ]
 
 # 文章过滤：忽略标题中包含以下关键词的文章
@@ -39,4 +56,4 @@ IGNORE_KEYWORDS = [
 ]
 
 # 单次处理文章数上限（按时间排序后取最新的 N 篇）
-MAX_ARTICLES = 60
+MAX_ARTICLES = 100
