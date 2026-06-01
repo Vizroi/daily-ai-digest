@@ -67,64 +67,123 @@ def _clean_html(text: str, max_len: int = 300) -> str:
 # ─── GitHub Trending ───────────────────────────────────────────
 
 def fetch_github_trending() -> list[dict]:
-    """通过 GitHub Search API 拉取近期最热项目（按 stars 排序，近 7 天创建/更新）。
-    不需要 token 也能用，但有 token 可以提升速率上限。"""
-    articles = []
+    """爬取 https://github.com/trending?since=daily 的每日热门仓库。
+    这是按 star 增长率排名的，和 GitHub Search API 的绝对 star 数完全不同。"""
+    from html.parser import HTMLParser
 
-    # 策略：搜索近 7 天创建 且 stars > 50 的仓库，按 stars 降序
-    since = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
-    queries = [
-        # AI 相关
-        f"ai+machine+learning+created:>={since}+stars:>100+fork:true",
-        # 游戏相关
-        f"game+created:>={since}+stars:>50+fork:true",
-        # 通用 trending
-        f"created:>={since}+stars:>200+fork:true",
+    # 分别抓 daily / weekly 确保不遗漏
+    urls = [
+        ("daily", "https://github.com/trending?since=daily"),
+        ("weekly", "https://github.com/trending?since=weekly"),
     ]
 
-    gh_token = os.environ.get("GITHUB_TOKEN", "")
-    headers = {"Accept": "application/vnd.github+json"}
-    if gh_token:
-        headers["Authorization"] = f"Bearer {gh_token}"
+    all_articles = []
+    seen = set()
 
-    seen_repos = set()
-
-    for q in queries:
-        url = f"https://api.github.com/search/repositories?q={q}&sort=stars&order=desc&per_page=10"
-        data = _safe_fetch_json(url, headers=headers)
-        if not data:
-            print(f"[WARN] GitHub API 请求失败: {q[:40]}...")
+    for period, url in urls:
+        html = _safe_fetch(url, timeout=25, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; DailyAIDigest/1.0; +https://github.com/daily-ai-digest)",
+            "Accept": "text/html",
+        })
+        if not html:
+            print(f"[WARN] GitHub Trending ({period}) 抓取失败")
             continue
 
-        for repo in data.get("items", []):
-            rid = repo.get("id")
-            if rid in seen_repos:
-                continue
-            seen_repos.add(rid)
+        articles = _parse_trending_html(html, period)
+        for a in articles:
+            key = a["url"]
+            if key not in seen:
+                seen.add(key)
+                all_articles.append(a)
 
-            name = repo.get("full_name", "")
-            description = repo.get("description") or ""
-            html_url = repo.get("html_url", "")
-            stars = repo.get("stargazers_count", 0)
-            lang = repo.get("language") or ""
-            created = repo.get("created_at", "")
-            topics = repo.get("topics", [])
+    print(f"[OK] GitHub Trending 抓到 {len(all_articles)} 个热门仓库 (daily+weekly)")
+    return all_articles
 
-            title = f"[{lang}] {name} — ⭐{stars}"
-            summary = description
-            if topics:
-                summary += f" | Topics: {', '.join(topics[:5])}"
 
-            articles.append({
-                "title": title,
-                "url": html_url,
-                "source": "GitHub Trending",
-                "lang": "en",
-                "published": created if created else None,
-                "summary_raw": summary,
-            })
+def _parse_trending_html(html: str, period: str) -> list[dict]:
+    """从 GitHub Trending 页面 HTML 中解析仓库列表。"""
+    from html.parser import HTMLParser
 
-    print(f"[OK] GitHub Trending 抓到 {len(articles)} 个热门仓库")
+    articles = []
+    now = datetime.now(timezone.utc).isoformat()
+
+    # GitHub Trending 页面结构：每个仓库在一个 <article class="Box-row"> 中
+    # 标题在 <h2> 内的 <a>，描述在 <p>，元数据在后面的元素
+    # 更简单的方式：用正则提取关键信息
+
+    # 匹配每个仓库块
+    repo_blocks = re.findall(
+        r'<article\s+class="Box-row"[^>]*>(.*?)</article>',
+        html, re.DOTALL
+    )
+
+    for block in repo_blocks:
+        # 提取仓库名 (h2 里的 a 标签，href 到仓库)
+        repo_match = re.search(
+            r'<h2[^>]*>.*?<a\s+href="(/([^/]+)/([^"]+))"[^>]*>',
+            block, re.DOTALL
+        )
+        if not repo_match:
+            continue
+
+        repo_path = repo_match.group(1)  # /owner/repo
+        owner = repo_match.group(2)
+        repo = repo_match.group(3).strip()
+
+        full_name = f"{owner}/{repo}"
+        html_url = f"https://github.com{repo_path}"
+
+        # 清理仓库名中的 span 标签（如 <span class="text-normal"> / </span>）
+        # 这些已经被我们上面的正则跳过了
+
+        # 提取描述
+        desc_match = re.search(
+            r'<p\s+class="[^"]*col-9[^"]*"[^>]*>(.*?)</p>',
+            block, re.DOTALL
+        )
+        description = ""
+        if desc_match:
+            description = re.sub(r"<[^>]+>", "", desc_match.group(1)).strip()
+
+        # 提取语言
+        lang_match = re.search(
+            r'itemprop="programmingLanguage">\s*([^<\s]+)',
+            block
+        )
+        language = lang_match.group(1) if lang_match else ""
+
+        # 提取 stars / forks
+        stars = 0
+        forks = 0
+        stars_match = re.search(r'(\d[\d,]*)\s*stars\s+today', block, re.IGNORECASE)
+        if stars_match:
+            stars = int(stars_match.group(1).replace(",", ""))
+
+        # 提取 total stars（可选）
+        total_stars_match = re.search(r'(\d[\d,]*)\s*stars', block)
+        if total_stars_match:
+            try:
+                stars = int(total_stars_match.group(1).replace(",", ""))
+            except:
+                pass
+
+        # 简短的 extra info
+        star_text = f"⭐{stars}" if stars else ""
+        lang_text = f"[{language}]" if language else ""
+        title = f"{lang_text} {full_name} {star_text}".strip()
+
+        topics = re.findall(r'topic-tag[^>]*>([^<]+)<', block)
+        topics_str = f" | Topics: {', '.join(topics[:5])}" if topics else ""
+
+        articles.append({
+            "title": title,
+            "url": html_url,
+            "source": "GitHub Trending",
+            "lang": "en",
+            "published": now,
+            "summary_raw": f"{description}{topics_str}" if description else f"GitHub {period} trending repository{topics_str}",
+        })
+
     return articles
 
 
@@ -186,23 +245,29 @@ def fetch_all() -> list[dict]:
             })
 
     # ── 自定义源 ──
+    trending_articles = []
     for cs in CUSTOM_SOURCES:
         if cs["type"] == "github_trending":
-            trending = fetch_github_trending()
-            for a in trending:
+            trending_articles = fetch_github_trending()
+            for a in trending_articles:
                 key = _url_key(a["url"])
-                if key in seen:
-                    continue
-                seen.add(key)
-                articles.append(a)
+                seen.add(key)  # 标记去重，RSS 不会重复
 
-    # 按发布时间降序排序
+    # 按发布时间降序排序 RSS 文章
     articles.sort(key=lambda a: a["published"] or "", reverse=True)
 
-    articles = articles[:MAX_ARTICLES]
+    # GitHub Trending 全量保留，RSS 文章填充剩余额度
+    gh_count = len(trending_articles)
+    remaining = MAX_ARTICLES - gh_count
+    if remaining < 0:
+        remaining = 0  # 极端情况：trending 超过上限也全留
+    rss_articles = articles[:remaining]
 
-    print(f"[OK] 共抓取 {len(articles)} 篇文章（去重后）")
-    return articles
+    # 合并：GitHub 热门排在前面
+    all_articles = trending_articles + rss_articles
+
+    print(f"[OK] 共抓取 {len(all_articles)} 篇文章（GitHub热门 {gh_count} + RSS {len(rss_articles)}）")
+    return all_articles
 
 
 def main():

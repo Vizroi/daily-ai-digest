@@ -75,4 +75,4 @@ IGNORE_KEYWORDS = [
 ]
 
 # 单次处理文章数上限（按时间排序后取最新的 N 篇）
-MAX_ARTICLES = 120
+MAX_ARTICLES = 200
