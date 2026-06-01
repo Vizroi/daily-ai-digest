@@ -162,6 +162,21 @@ def main():
         if src in FORCE_CATEGORY:
             r["category"] = FORCE_CATEGORY[src]
 
+    # 按原始 id 顺序重排（fetch_sources 中 GitHub Trending 在前，id 即 trending 排名）
+    id_order = {a["id"]: i for i, a in enumerate(articles)}
+    summarized.sort(key=lambda r: id_order.get(r.get("id"), 99999))
+
+    # GitHub Trending 硬规则：
+    #   1. 全部归入 "GitHub热门"
+    #   2. 前 3 名强制标为推荐精选，其余不标
+    #   3. 排序保持与 trending 页面一致
+    gh_items = [r for r in summarized if r.get("source") == "GitHub Trending"]
+    for i, r in enumerate(gh_items):
+        r["category"] = "GitHub热门"
+        r["recommended"] = (i < 3)
+        if r["recommended"]:
+            r["reason"] = f"GitHub Trending #{i+1} — 今日热门开源项目"
+
     os.makedirs(os.path.dirname(os.path.abspath(output_file)), exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(summarized, f, ensure_ascii=False, indent=2)
