@@ -1,57 +1,81 @@
 name: Daily AI Digest
 
+# v1 是 08:00 和 20:00 两个 cron 跑同一个 docs/index.html，
+# 后一次直接覆盖前一次，等于每天白跑一趟。
+# v2 一天一次，并且每次都往 docs/archive/{date}.html 存一份归档。
 on:
   schedule:
-    # 早版：北京时间 8:00 AM = UTC 0:00
-    - cron: "0 0 * * *"
-    # 晚版：北京时间 8:00 PM = UTC 12:00
-    - cron: "0 12 * * *"
-  workflow_dispatch:  # 允许手动触发
-  push:
-    paths:
-      - 'src/**'
-      - '.github/workflows/daily-digest.yml'
+    # cron 是 UTC。北京时间 08:30 = UTC 00:30
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
+    timeout-minutes: 25
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
+          cache: pip
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
-      - name: Fetch RSS sources
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python src/fetch_sources.py /tmp/articles_raw.json
+      # ① 宽召回：每源 12 篇、72 小时窗口，顺带把社区热度信号一起带回来
+      - name: 召回
+        run: python src/fetch_sources.py
 
-      - name: Summarize with DeepSeek
+      # ② 事件聚类：把讲同一件事的条目合并，跨源覆盖数是后面打分最强的信号
+      - name: 聚类
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python src/summarize.py /tmp/articles_raw.json /tmp/articles_summarized.json
+        run: python src/cluster.py
 
-      - name: Render HTML
-        run: python src/render.py /tmp/articles_summarized.json docs/index.html
+      # ③ 打分排序：纯 Python，可解释、可复现，分数和依据都会印在页面上
+      - name: 排序
+        run: python src/rank.py
 
-      - name: Commit and push
+      # ④-a 只给进深读区的十几条抓正文
+      - name: 抓正文
+        run: python src/readfull.py
+
+      # ④-b 分级摘要：深读单条调用 + 全文，速览只翻译标题
+      - name: 摘要
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python src/summarize.py
+
+      # ⑤ 渲染 + 归档
+      - name: 渲染
+        run: python src/render.py
+
+      # ⑤-b RSS：只推深读区，速览的一百多条不进阅读器
+      - name: 输出 RSS
+        run: python src/feed.py
+
+      # ⑥ 按最终发布结果写 14 天记忆（必须在降级筛选之后）
+      - name: 提交记忆
+        run: python src/commit_memory.py
+
+      - name: 提交
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # data/ 也要提交：memory.json 是跨天去重和「线索追踪」的唯一状态，
+          # 不提交的话每天都是第一天。health.json 用于页面上的零产出源警告。
+          git add docs data
           if git diff --staged --quiet; then
-            echo "No changes to commit."
+            echo "无变化，跳过提交"
           else
-            git commit -m "📰 $(date +'%Y-%m-%d') 每日资讯更新"
+            git commit -m "digest: $(date -u +%Y-%m-%d)"
             git push
           fi

@@ -1,4 +1,27 @@
-"""HTML 渲染模块：将提炼后的文章渲染为现代杂志风静态页面。"""
+"""阶段⑤渲染：少年漫分镜版式（低饱和印刷版）。
+
+设计意图
+────────
+读者是一个人，不是流量。页面的唯一任务：让他在 60 秒内决定今天什么值得看，
+并且看得见凭什么排这个序。
+
+视觉方向取自少年漫的分镜页：黑墨粗框 + 硬投影分格、集中線、伤害数字、对话气泡。
+选它的理由不是好看，是**它天生就是一套优先级语言** —— 一页漫画里哪一格重要，
+读者不用被告知，格子大小和网点密度已经说完了。日报要的正是这个。
+
+饱和度按使用者要求整体压低一档：朱红从 #D0021B 降到 #A8423A，
+高亮黄从荧光 #FFE94A 降到旧纸黄 #D8BF74，纸色用报纸灰而非亮白。
+低饱和让长文能读下去 —— 原色四色印刷适合封面，不适合每天读二十条。
+
+签名元素：标题右上角那个歪着的**伤害数字**。它就是 rank.py 算出的分数，
+底下压一条分段覆盖条（几家独立源报道了）。分数被画成打击力度，
+而不是藏在角标里 —— 排序逻辑可见 = 排序逻辑可被质疑和调整。
+
+克制的地方（Chanel 的那条建议）：集中線**只给今日必读的第一条**，
+伤害数字只出现在深读区；深水区和速览区退回安静的等宽小字。
+一页上五个爆点等于没有爆点。
+"""
+import html
 import json
 import os
 import sys
@@ -6,532 +29,588 @@ from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+from config import DEEP_READ_MIN_SCORE, COVERAGE_WEIGHT, HEALTH_ALERT_DAYS
+
 TZ = timezone(timedelta(hours=8))
 
-# 侧边栏分类定义 — key 非空的是普通分类，key 为空的为分组标题
-NAV_CATEGORIES = [
-    {"id": "all",          "icon": "📰", "label": "全部资讯", "header": None},
-    {"id": "推荐精选",      "icon": "⭐", "label": "推荐精选", "header": None},
-    {"id": "",             "icon": "",   "label": "🎮 游戏",  "header": "game"},
-    {"id": "游戏资讯",      "icon": "📡", "label": "游戏资讯", "header": "game"},
-    {"id": "游戏开发",      "icon": "🛠️", "label": "游戏开发", "header": "game"},
-    {"id": "Reddit游戏热帖", "icon": "💬", "label": "Reddit热帖", "header": "game"},
-    {"id": "",             "icon": "",   "label": "🤖 AI",   "header": "ai"},
-    {"id": "AI大模型/应用",  "icon": "🧠", "label": "大模型/应用", "header": "ai"},
-    {"id": "AI研究/前沿",   "icon": "🔬", "label": "研究/前沿", "header": "ai"},
-    {"id": "AI×游戏",       "icon": "🎮", "label": "AI × 游戏", "header": "ai"},
-    {"id": "GitHub热门",    "icon": "🔥", "label": "GitHub热门", "header": "ai"},
-    {"id": "",             "icon": "",   "label": "🔭 跨界", "header": "diverse"},
-    {"id": "论文速递",      "icon": "📄", "label": "论文速递", "header": "diverse"},
-    {"id": "跨界视野",      "icon": "🌍", "label": "跨界视野", "header": "diverse"},
-    {"id": "其他",          "icon": "📌", "label": "其他", "header": None},
-]
+WEEKDAY_CN = ["一", "二", "三", "四", "五", "六", "日"]
 
-# 分类显示顺序（用于 "全部" 视图排序）
-CATEGORY_ORDER = [c["id"] for c in NAV_CATEGORIES[2:]]  # 跳过 "全部" 和 "推荐"
+CSS = """
+:root{color-scheme:light}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
-HTML_TEMPLATE = """<!DOCTYPE html>
+:root{
+  /* 报纸灰，不是亮白也不是 AI 默认奶油色 */
+  --paper:#EDEAE1;
+  --panel:#F8F6F0;
+  --ink:#1F1C19;
+  --ink-line:#2A2622;      /* 硬投影用，比正文墨色浅一点，边界不至于糊成一团 */
+  --ink-soft:#5A554D;
+  --ink-faint:#8B8579;
+  --rule:#C9C3B6;
+  --rule-soft:#DCD7CB;
+  /* 降饱和朱红：只用于分数与优先级，绝不他用 */
+  --red:#A8423A;
+  --red-deep:#8A332C;
+  /* 旧纸黄：只用于命中徽章 */
+  --mustard:#D8BF74;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",-apple-system,system-ui,sans-serif;
+  --num:"Bangers","Noto Sans SC",var(--sans);
+}
+
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:15px;line-height:1.8;
+  font-feature-settings:"tnum";
+  padding:0 0 90px;
+}
+
+.wrap{max-width:820px;margin:0 auto;padding:0 22px}
+
+/* ── 报头 ── */
+.masthead{padding:38px 0 0}
+.masthead-top{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;
+  border-bottom:5px solid var(--ink);padding-bottom:8px}
+.masthead h1{
+  font-weight:900;font-size:42px;line-height:.95;letter-spacing:-.02em;
+  transform:skewX(-7deg);text-shadow:4px 4px 0 var(--red);
+}
+.masthead .dateline{margin-left:auto;font-family:var(--mono);font-size:11px;
+  color:var(--ink-soft);text-align:right;line-height:1.65;padding-bottom:3px}
+.masthead .dateline b{color:var(--ink);font-weight:700}
+
+/* 读数条：黑白交替的胶片格，编码今天这一期的加工量 */
+.readout{display:flex;flex-wrap:wrap;border-bottom:3px solid var(--ink)}
+.readout span{font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.02em;
+  padding:5px 11px;border-right:3px solid var(--ink);background:var(--ink);color:var(--paper)}
+.readout span:nth-child(even){background:transparent;color:var(--ink)}
+.readout span:last-child{border-right:0}
+
+/* ── 栏目名：斜切黑标签 ── */
+.section{margin-top:44px}
+.lbl{display:flex;align-items:baseline;gap:10px;
+  background:var(--ink);color:var(--paper);padding:5px 14px;
+  transform:skewX(-7deg);margin-bottom:16px}
+.lbl h2{font-weight:900;font-size:14px;letter-spacing:.3em;transform:skewX(7deg)}
+.lbl .en{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--mustard);transform:skewX(7deg)}
+.lbl .n{margin-left:auto;font-family:var(--mono);font-size:10px;transform:skewX(7deg);
+  color:#BDB6A6}
+.note{font-family:var(--mono);font-size:11px;color:var(--ink-soft);line-height:1.7;
+  margin:-6px 0 16px;padding-left:2px}
+
+/* ── 分格 ── */
+.panel{border:3px solid var(--ink);background:var(--panel);
+  box-shadow:6px 6px 0 var(--ink-line);margin-bottom:26px}
+.panel .top{position:relative;padding:22px 20px 16px}
+
+/* 集中線：只给头条一格。低饱和方案里它靠密度而不是颜色出效果 */
+.panel.hero .top::before{content:"";position:absolute;inset:-45%;pointer-events:none;
+  background:repeating-conic-gradient(from 0turn at 64% 38%,var(--ink) 0 .5deg,transparent .5deg 3.6deg);
+  -webkit-mask:radial-gradient(circle at 64% 38%,transparent 24%,#000 64%);
+  mask:radial-gradient(circle at 64% 38%,transparent 24%,#000 64%);opacity:.26}
+.panel.hero .top>*{position:relative}
+
+.panel h3{font-weight:900;font-size:26px;line-height:1.32;letter-spacing:-.005em;
+  max-width:23em;padding-right:96px}
+.panel.hero h3{font-size:30px}
+.panel h3 a{color:var(--ink);text-decoration:none;
+  border-bottom:2px solid transparent;transition:border-color .15s}
+.panel h3 a:hover,.panel h3 a:focus-visible{border-bottom-color:var(--red)}
+.panel h3 .orig{display:block;font-size:12px;font-weight:400;color:var(--ink-faint);
+  margin-top:7px;line-height:1.55;letter-spacing:0;padding-right:0}
+
+/* ── 签名元素：伤害数字 + 覆盖条 ── */
+.dmg{position:absolute;top:14px;right:16px;text-align:center;transform:rotate(8deg);z-index:2}
+.dmg b{display:block;font-family:var(--num);font-weight:400;font-size:54px;line-height:.82;
+  color:var(--red);-webkit-text-stroke:3px var(--ink);paint-order:stroke fill;letter-spacing:.02em}
+.dmg .unit{display:block;font-family:var(--mono);font-size:8.5px;font-weight:700;letter-spacing:.2em;
+  color:var(--ink-soft);margin-top:1px}
+.bars{display:flex;gap:2px;justify-content:center;margin-top:5px}
+.bar{width:7px;height:13px;background:var(--paper);border:2px solid var(--ink);
+  transform-origin:bottom;animation:rise .4s cubic-bezier(.2,.8,.2,1) backwards}
+.bar.on{background:var(--red)}
+.cov{display:block;font-family:var(--mono);font-size:9px;font-weight:700;color:var(--ink);
+  margin-top:3px;letter-spacing:.06em}
+@keyframes rise{from{transform:scaleY(.12);opacity:0}to{transform:scaleY(1);opacity:1}}
+
+/* ── 评分依据徽章 ── */
+/* 留出右上角伤害数字的地盘：标题只有一行时徽章会撞上去 */
+.why{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px;padding-right:100px}
+.why i{font-style:normal;font-family:var(--mono);font-size:10px;font-weight:700;
+  border:2px solid var(--ink);background:var(--mustard);padding:1.5px 7px;white-space:nowrap}
+.why i.rel{background:var(--ink);color:var(--paper)}
+.why i.neg{background:transparent;border-style:dashed;color:var(--ink-soft);font-weight:400}
+
+/* ── 三段式 ──
+   网点底纹只走左侧那条窄带（.segs::before）。
+   压在正文下面会明显吃掉可读性 —— 6px 的点阵和 15px 的汉字笔画同一个量级，
+   笔画和网点会互相干扰。漫画的网点本来也是铺在留白上，不是铺在对白上。 */
+.segs{position:relative;border-top:3px solid var(--ink);padding:18px 20px 8px 40px;
+  background:#FCFAF5}
+.segs::before{content:"";position:absolute;left:0;top:0;bottom:0;width:16px;
+  background-image:radial-gradient(circle at 1px 1px,var(--rule) 1.1px,transparent 1.2px);
+  background-size:6px 6px;border-right:1px solid var(--rule-soft)}
+.seg{display:grid;grid-template-columns:82px 1fr;gap:16px;padding-bottom:15px}
+.seg dt{font-weight:900;font-size:11px;letter-spacing:.06em;text-align:right;padding:4px 10px 0 0;
+  border-right:3px solid var(--ink);color:var(--ink)}
+.seg dd{font-size:15.5px;line-height:1.9;color:var(--ink)}
+.seg.hint dt{border-right-color:var(--rule);color:var(--ink-faint)}
+.seg.hint dd{font-size:13px;color:var(--ink-faint)}
+
+/* 对话气泡：只给「对你而言」。全文唯一的圆角，所以它一定被先看到 */
+.bub{position:relative;background:#fff;border:3px solid var(--ink);border-radius:20px;
+  padding:13px 18px;margin:2px 20px 24px;box-shadow:5px 5px 0 var(--red)}
+.bub::after{content:"";position:absolute;left:42px;bottom:-16px;width:0;height:0;
+  border:9px solid transparent;border-top:16px solid var(--ink)}
+.bub b{display:block;font-size:10.5px;font-weight:900;letter-spacing:.22em;
+  color:var(--red-deep);margin-bottom:4px}
+.bub p{font-size:15.5px;line-height:1.88;color:var(--ink)}
+.bub.none{box-shadow:5px 5px 0 var(--rule);border-color:var(--rule)}
+.bub.none::after{border-top-color:var(--rule)}
+.bub.none b,.bub.none p{color:var(--ink-faint)}
+
+/* ── 来源脚注 ── */
+.srcs{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);
+  padding:0 20px 15px;line-height:1.9}
+.srcs a{color:var(--ink-soft);text-decoration:none;border-bottom:1px dotted var(--rule)}
+.srcs a:hover,.srcs a:focus-visible{color:var(--red);border-bottom-color:var(--red)}
+.srcs .sep{opacity:.5;padding:0 5px}
+.fu{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);margin-top:11px}
+
+/* ── 深水区：安静的窄格，不给伤害数字 ── */
+.quiet{border:3px solid var(--ink);background:var(--panel)}
+.quiet .sub{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;background:var(--ink);color:var(--mustard);padding:4px 14px}
+.qi{padding:15px 18px;border-bottom:1px solid var(--rule-soft)}
+.qi:last-child{border-bottom:0}
+.qi h4{font-size:16px;font-weight:700;line-height:1.5}
+.qi h4 a{color:var(--ink);text-decoration:none;border-bottom:1.5px solid transparent}
+.qi h4 a:hover,.qi h4 a:focus-visible{border-bottom-color:var(--red)}
+.qi .meta{font-family:var(--mono);font-size:10px;color:var(--ink-faint);margin-top:5px}
+.qi .pitch{font-size:13.5px;color:var(--ink-soft);margin-top:6px;line-height:1.72}
+.qi .pitch b{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.1em;
+  color:var(--red-deep);margin-right:7px}
+
+/* ── 速览 ── */
+details.brief{border:3px solid var(--ink);background:var(--panel)}
+details.brief summary{font-family:var(--mono);font-size:11.5px;font-weight:700;color:var(--ink);
+  cursor:pointer;padding:11px 16px;list-style:none;display:flex;align-items:center;gap:9px}
+details.brief summary::-webkit-details-marker{display:none}
+details.brief summary::before{content:"＋";color:var(--red);font-size:13px;width:14px}
+details.brief[open] summary::before{content:"－"}
+details.brief[open] summary{border-bottom:3px solid var(--ink)}
+.brief-row{display:flex;gap:12px;align-items:baseline;padding:7px 16px;font-size:13.5px;
+  line-height:1.6;border-bottom:1px solid var(--rule-soft)}
+.brief-row:last-child{border-bottom:0}
+.brief-row .s{font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--ink-faint);
+  min-width:28px;text-align:right;flex-shrink:0}
+.brief-row a{color:var(--ink-soft);text-decoration:none;flex:1}
+.brief-row a:hover,.brief-row a:focus-visible{color:var(--red)}
+.brief-row .o{font-family:var(--mono);font-size:10px;color:var(--ink-faint);flex-shrink:0}
+
+/* ── 空区块 ── */
+.empty{border:3px dashed var(--rule);padding:20px;font-family:var(--mono);font-size:11.5px;
+  color:var(--ink-soft);line-height:1.85}
+
+/* ── 页脚 ── */
+footer{margin-top:56px;border-top:5px solid var(--ink);padding-top:13px;
+  font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);line-height:1.95}
+footer a{color:var(--ink-soft)}
+footer .health{margin-top:6px;color:#8A6A22}
+
+a:focus-visible,summary:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+
+@media (max-width:640px){
+  body{font-size:14.5px}
+  .wrap{padding:0 15px}
+  .masthead{padding:24px 0 0}
+  .masthead h1{font-size:30px}
+  .masthead .dateline{margin-left:0;text-align:left}
+  .panel{box-shadow:4px 4px 0 var(--ink-line);margin-bottom:20px}
+  .panel .top{padding:18px 15px 14px}
+  /* 伤害数字在窄屏改成标题上方的横排，不再压住标题 */
+  .dmg{position:static;transform:none;text-align:left;display:flex;align-items:flex-end;gap:10px;
+    margin-bottom:10px}
+  .dmg b{font-size:40px;-webkit-text-stroke:2.5px var(--ink)}
+  .dmg .unit{margin:0 0 6px}
+  .bars{margin:0 0 7px}
+  .cov{margin:0 0 6px}
+  .panel h3,.panel.hero h3{font-size:21px;padding-right:0}
+  .why{padding-right:0}
+  .segs{padding:15px 15px 5px 28px}
+  .segs::before{width:12px}
+  .seg{grid-template-columns:1fr;gap:1px;padding-bottom:13px}
+  .seg dt{text-align:left;border-right:0;border-left:3px solid var(--ink);padding:0 0 0 9px}
+  .bub{margin:2px 15px 20px;padding:12px 15px}
+  .srcs{padding:0 15px 13px}
+  .section{margin-top:34px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+
+@media print{
+  body{background:#fff}
+  .panel{box-shadow:none;break-inside:avoid}
+  .panel.hero .top::before,.bars,details.brief{display:none}
+}
+"""
+
+TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>每日 AI & 游戏资讯 | {date_str}</title>
-<style>
-  *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
-  :root {{
-    --bg: #f7f7f8;
-    --sidebar-bg: #1e1e2e;
-    --sidebar-text: #cdd6f4;
-    --sidebar-hover: #313244;
-    --sidebar-active: #45475a;
-    --card-bg: #ffffff;
-    --text: #1e1e2e;
-    --text-secondary: #585b70;
-    --text-muted: #9399b2;
-    --border: #e6e6ea;
-    --accent: #8839ef;
-    --hot: #d20f39;
-    --game: #40a02b;
-    --radius: 12px;
-    --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.06);
-    --shadow-hover: 0 4px 16px rgba(0,0,0,0.08);
-    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
-  }}
-  body {{
-    font-family: var(--font);
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.6;
-    display: flex;
-    min-height: 100vh;
-  }}
-
-  /* ---- sidebar ---- */
-  .sidebar {{
-    width: 220px; min-width: 220px;
-    background: var(--sidebar-bg);
-    color: var(--sidebar-text);
-    padding: 28px 0;
-    position: sticky; top: 0; height: 100vh;
-    overflow-y: auto;
-    display: flex; flex-direction: column;
-  }}
-  .sidebar-brand {{
-    padding: 0 20px 24px;
-    border-bottom: 1px solid rgba(255,255,255,0.06);
-    margin-bottom: 16px;
-  }}
-  .sidebar-brand h2 {{
-    font-size: 17px; font-weight: 700; color: #fff; letter-spacing: -0.3px;
-  }}
-  .sidebar-brand p {{ font-size: 11px; color: #a6adc8; margin-top: 4px; }}
-  .sidebar-nav {{ list-style: none; flex: 1; padding: 0 10px; }}
-  .sidebar-nav li a {{
-    display: flex; align-items: center; gap: 10px;
-    padding: 10px 14px; border-radius: 8px;
-    color: var(--sidebar-text); text-decoration: none;
-    font-size: 14px; transition: all 0.15s;
-    margin-bottom: 2px; cursor: pointer;
-  }}
-  .sidebar-nav li a:hover {{ background: var(--sidebar-hover); color: #fff; }}
-  .sidebar-nav li a.active {{ background: var(--sidebar-active); color: #fff; font-weight: 600; }}
-  .sidebar-nav li.nav-header {{
-    padding: 14px 14px 4px; font-size: 11px; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 0.5px;
-    color: #a6adc8; user-select: none;
-  }}
-  .sidebar-nav li a .icon {{ font-size: 16px; width: 24px; text-align: center; flex-shrink: 0; }}
-  .sidebar-nav li a .count {{
-    margin-left: auto; font-size: 11px; opacity: 0.6;
-  }}
-  .sidebar-footer {{
-    padding: 16px 20px 0;
-    font-size: 10px; color: #6c7086;
-    border-top: 1px solid rgba(255,255,255,0.06);
-    margin: 16px 10px 0;
-  }}
-
-  /* ---- main ---- */
-  .main {{
-    flex: 1; padding: 28px 32px; max-width: 960px;
-  }}
-  .main-header {{
-    display: flex; justify-content: space-between; align-items: flex-start;
-    margin-bottom: 24px; flex-wrap: wrap; gap: 12px;
-  }}
-  .main-header h1 {{ font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }}
-  .main-header .header-right {{
-    display: flex; gap: 10px; flex-wrap: wrap;
-  }}
-  .main-header .search-box {{
-    background: var(--card-bg); border: 1px solid var(--border);
-    border-radius: 8px; padding: 8px 14px; font-size: 13px; width: 200px;
-    outline: none; font-family: var(--font);
-  }}
-  .main-header .search-box:focus {{ border-color: var(--accent); }}
-  .main-header .btn {{
-    background: var(--card-bg); border: 1px solid var(--border);
-    border-radius: 8px; padding: 8px 16px; font-size: 13px; cursor: pointer;
-    font-family: var(--font); transition: all 0.15s;
-  }}
-  .main-header .btn:hover {{ border-color: var(--accent); }}
-
-  .stats-bar {{
-    display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap;
-  }}
-  .stat-item {{
-    background: var(--card-bg); border-radius: var(--radius);
-    padding: 12px 18px; box-shadow: var(--shadow);
-    font-size: 13px; color: var(--text-secondary);
-    display: flex; align-items: center; gap: 8px;
-  }}
-  .stat-item strong {{ font-size: 20px; color: var(--text); }}
-
-  /* ---- cards ---- */
-  .card-list {{ display: flex; flex-direction: column; gap: 8px; }}
-  .card {{
-    background: var(--card-bg); border-radius: var(--radius);
-    padding: 16px 20px; box-shadow: var(--shadow);
-    transition: box-shadow 0.15s; border-left: 3px solid transparent;
-    display: flex; gap: 16px; align-items: flex-start;
-  }}
-  .card:hover {{ box-shadow: var(--shadow-hover); }}
-  .card.recommended {{ border-left-color: var(--hot); }}
-  .card-body {{ flex: 1; min-width: 0; }}
-  .card-source {{
-    flex-shrink: 0; width: 42px; height: 42px; border-radius: 8px;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 12px; font-weight: 700; color: #fff;
-    text-align: center; line-height: 1.1;
-  }}
-  .card-source.ai {{ background: #8839ef; }}
-  .card-source.reddit {{ background: #ff4500; }}
-  .card-source.gh {{ background: #24292f; }}
-  .card-source.gdc {{ background: #e05d29; }}
-  .card-source.engine {{ background: #166fe5; }}
-  .card-source.game {{ background: #40a02b; }}
-  .card-source.research {{ background: #1e66f5; }}
-  .card-source.diverse {{ background: #40a02b; }}
-  .card-title {{
-    font-size: 15px; font-weight: 600; line-height: 1.4;
-    margin-bottom: 4px;
-  }}
-  .card-title a {{ color: var(--text); text-decoration: none; }}
-  .card-title a:hover {{ color: var(--accent); }}
-  .card-summary {{
-    font-size: 13px; color: var(--text-secondary); line-height: 1.6;
-    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
-    overflow: hidden; margin-bottom: 6px;
-  }}
-  .card-meta {{
-    display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
-    font-size: 11px; color: var(--text-muted);
-  }}
-  .card-meta .badge {{
-    padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500;
-  }}
-  .badge-source {{ background: #f2f2f4; color: var(--text-secondary); }}
-  .badge-cat {{ background: #e8e4fb; color: #8839ef; }}
-  .badge-game {{ background: #e2f5db; color: #40a02b; }}
-  .badge-hot {{ background: #fde8e8; color: var(--hot); font-weight: 700; }}
-  .rec-mark {{ color: var(--hot); font-weight: 700; font-size: 12px; white-space: nowrap; }}
-
-  .empty-state {{
-    text-align: center; padding: 80px 20px; color: var(--text-muted);
-  }}
-  .empty-state .icon {{ font-size: 48px; margin-bottom: 16px; }}
-  .empty-state p {{ font-size: 15px; }}
-
-  /* ---- responsive ---- */
-  @media (max-width: 768px) {{
-    body {{ flex-direction: column; }}
-    .sidebar {{
-      width: 100%; min-width: unset; height: auto; position: static;
-      flex-direction: row; flex-wrap: wrap; padding: 12px;
-      gap: 6px; overflow-x: auto;
-    }}
-    .sidebar-brand {{ display: none; }}
-    .sidebar-nav {{ display: flex; flex-wrap: wrap; gap: 4px; padding: 0; }}
-    .sidebar-nav li a {{ padding: 6px 12px; font-size: 12px; border-radius: 20px; }}
-    .sidebar-nav li a .count {{ display: none; }}
-    .sidebar-footer {{ display: none; }}
-    .main {{ padding: 16px; }}
-    .main-header h1 {{ font-size: 20px; }}
-    .card {{ padding: 14px; }}
-    .card-source {{ width: 34px; height: 34px; font-size: 10px; }}
-    .card-title {{ font-size: 14px; }}
-  }}
-
-  /* ---- fade in animation ---- */
-  @keyframes fadeIn {{ from {{ opacity: 0; transform: translateY(8px); }} to {{ opacity: 1; transform: translateY(0); }} }}
-  .card {{ animation: fadeIn 0.3s ease forwards; }}
-  .card:nth-child(1) {{ animation-delay: 0s; }}
-  .card:nth-child(2) {{ animation-delay: 0.03s; }}
-  .card:nth-child(3) {{ animation-delay: 0.06s; }}
-  .card:nth-child(n+4) {{ animation-delay: 0.09s; }}
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__</title>
+<meta name="description" content="__DESC__">
+<link rel="alternate" type="application/rss+xml" title="每日内参" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+SC:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>__CSS__</style>
 </head>
 <body>
+<div class="wrap">
 
-<!-- sidebar -->
-<aside class="sidebar">
-  <div class="sidebar-brand">
-    <h2>🌅 AI 瞭望台</h2>
-    <p>AI & 游戏 · 每日速览</p>
-  </div>
-  <ul class="sidebar-nav" id="sidebar-nav">{sidebar_links}</ul>
-  <div class="sidebar-footer">
-    Generated by GitHub Actions<br>Powered by DeepSeek · {date_str}
-  </div>
-</aside>
-
-<!-- main content -->
-<main class="main">
-  <div class="main-header">
-    <div>
-      <h1>每日资讯</h1>
-      <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">{date_str} · {time_str} 更新</div>
-    </div>
-    <div class="header-right">
-      <input type="text" class="search-box" placeholder="🔍 搜索关键词..." id="search-box" oninput="doFilter()">
-      <button class="btn" onclick="showCategory('推荐精选')">⭐ 只看推荐</button>
+<header class="masthead">
+  <div class="masthead-top">
+    <h1>每日内参</h1>
+    <div class="dateline">
+      <b>__DATE_CN__</b> 周__WEEKDAY__<br>__TIME__ 生成 · 第 __ISSUE__ 期
     </div>
   </div>
+  <div class="readout">__READOUT__</div>
+</header>
 
-  <div class="stats-bar">
-    <div class="stat-item">📰 今日收录 <strong>{total}</strong> 条</div>
-    <div class="stat-item">⭐ 推荐 <strong>{recommended_count}</strong> 条</div>
-    <div class="stat-item">🤖 AI <strong>{ai_count}</strong> 条</div>
-    <div class="stat-item">🎮 游戏 <strong>{game_count}</strong> 条</div>
-    <div class="stat-item">🔥 热门项目 <strong>{gh_count}</strong> 个</div>
-  </div>
+__SECTIONS__
 
-  <div class="card-list" id="card-list">
-    {cards_all}
-  </div>
-  <div class="empty-state" id="empty-state" style="display:none;">
-    <div class="icon">📭</div>
-    <p>没有找到匹配的内容</p>
-  </div>
-</main>
+<footer>
+  排序由 rank.py 计算，公式与权重见仓库 <a href="https://github.com/Vizroi/daily-ai-digest">src/rank.py</a>。<br>
+  分数 = 跨源覆盖×__COVW__ + 源权威档位 + log(社区热度) + 相关词命中 − 重复报道惩罚。<br>
+  召回 __RECALL__ 源 · 聚类 __EVENTS__ 事件 · 深读 __DEEPN__ 条抓取正文全文<br>
+  <a href="feed.xml">RSS 订阅</a>（只推深读区）<span style="opacity:.5;padding:0 6px">·</span><a href="archive/__DATE_ISO__.html">本期归档</a>__HEALTH__
+</footer>
 
-<script>
-// ---- category / filter logic ----
-var allCards = document.querySelectorAll('.card-list .card');
-var searchBox = document.getElementById('search-box');
-var emptyState = document.getElementById('empty-state');
-
-function showCategory(cat) {{
-  searchBox.value = '';
-  var visible = 0;
-  allCards.forEach(function(card) {{
-    if (cat === 'all') {{
-      card.style.display = '';
-      visible++;
-    }} else if (cat === '推荐精选') {{
-      if (card.classList.contains('recommended')) {{ card.style.display = ''; visible++; }}
-      else {{ card.style.display = 'none'; }}
-    }} else {{
-      var catEl = card.querySelector('.badge-cat, .badge-game, .badge-hot');
-      if (catEl && catEl.getAttribute('data-cat') === cat) {{ card.style.display = ''; visible++; }}
-      else {{ card.style.display = 'none'; }}
-    }}
-  }});
-  emptyState.style.display = visible === 0 ? '' : 'none';
-
-  // update sidebar active
-  document.querySelectorAll('.sidebar-nav a').forEach(function(a) {{ a.classList.remove('active'); }});
-  var target = document.querySelector('.sidebar-nav a[data-cat="' + cat + '"]');
-  if (target) target.classList.add('active');
-}}
-
-function doFilter() {{
-  var q = searchBox.value.toLowerCase();
-  var visible = 0;
-  allCards.forEach(function(card) {{
-    var text = card.textContent.toLowerCase();
-    if (!q || text.indexOf(q) >= 0) {{ card.style.display = ''; visible++; }}
-    else {{ card.style.display = 'none'; }}
-  }});
-  emptyState.style.display = visible === 0 ? '' : 'none';
-  // clear sidebar active when searching
-  document.querySelectorAll('.sidebar-nav a').forEach(function(a) {{ a.classList.remove('active'); }});
-  document.querySelector('.sidebar-nav a[data-cat="all"]').classList.add('active');
-}}
-
-// keep empty state in sync on initial load
-(function() {{
-  var visible = 0;
-  allCards.forEach(function(c) {{ if (c.style.display !== 'none') visible++; }});
-  emptyState.style.display = visible === 0 ? '' : 'none';
-}})();
-</script>
+</div>
 </body>
-</html>"""
+</html>
+"""
 
 
-def _source_class(source: str) -> str:
-    """根据来源判断类别，用于色块颜色区分。"""
-    src_lower = source.lower()
+# ─── 工具 ────────────────────────────────────────────────────
 
-    reddit_keywords = ["reddit"]
-    for kw in reddit_keywords:
-        if kw in src_lower:
-            return "reddit"
-
-    github_keywords = ["github"]
-    for kw in github_keywords:
-        if kw in src_lower:
-            return "gh"
-
-    gdc_keywords = ["gdc"]
-    for kw in gdc_keywords:
-        if kw in src_lower:
-            return "gdc"
-
-    game_keywords = ["game", "games", "kotaku", "polygon", "eurogamer", "ign", "pc gamer",
-                     "游民", "陀螺", "80.lv", "indiedb"]
-    for kw in game_keywords:
-        if kw in src_lower:
-            return "game"
-
-    engine_keywords = ["unreal", "unity"]
-    for kw in engine_keywords:
-        if kw in src_lower:
-            return "engine"
-
-    research_keywords = ["hugging", "arxiv", "paper", "marktech", "research"]
-    for kw in research_keywords:
-        if kw in src_lower:
-            return "research"
-
-    diverse_keywords = ["nature", "science", "nasa", "space", "economist", "bbc",
-                        "dezeen", "pitchfork", "edsurge", "stat", "grist",
-                        "smithsonian", "aeon", "quanta"]
-    for kw in diverse_keywords:
-        if kw in src_lower:
-            return "diverse"
-
-    return "ai"
+def esc(s) -> str:
+    return html.escape(str(s or ""), quote=True)
 
 
-def _source_abbr(source: str) -> str:
-    """来源缩写，用于色块上的文字。"""
-    abbr_map = {
-        "TechCrunch AI": "TC",
-        "The Verge AI": "Ver",
-        "VentureBeat AI": "VB",
-        "OpenAI Blog": "OAI",
-        "Google AI Blog": "GAI",
-        "Meta AI Blog": "Meta",
-        "Anthropic Blog": "Ant",
-        "DeepMind Blog": "DM",
-        "HuggingFace Papers": "HF",
-        "GamesIndustry": "GI",
-        "Game Developer": "GD",
-        "机器之心": "JQ",
-        "量子位": "LZ",
-        "极客公园": "GK",
-        "游民星空": "YM",
-        "游戏陀螺": "TL",
-        "GitHub Trending": "GH",
-        "GDC News": "GDC",
-        "GDC Vault": "GDC",
-        "80.lv": "80",
-        "Unreal Engine Blog": "UE",
-        "Unity Blog": "UN",
-        "IndieDB News": "IDB",
-        "Reddit Gaming": "rGam",
-        "Reddit Games": "rGms",
-        "Reddit gamedev": "rDev",
-        "Reddit pcgaming": "rPC",
-    }
-    # 特殊处理 GitHub Trending 带周期后缀的
-    if source.startswith("GitHub Trending"):
-        if "weekly" in source:
-            return "GH(w)"
-        return "GH(d)"
-    return abbr_map.get(source, source[:3])
+def _title_cn(ev: dict) -> str:
+    """中文标题优先，英文原标题作副标题。"""
+    if ev.get("lang") == "zh":
+        return esc(ev["title"])
+    return esc(ev.get("title_cn") or ev["title"])
 
 
-def _render_card(article: dict) -> str:
-    rec = article.get("recommended", False)
-    cls = 'card recommended' if rec else 'card'
-
-    title = article.get("title", "无标题")
-    url = article.get("url", "#")
-    summary_cn = article.get("summary_cn", "") or article.get("summary_raw", "") or ""
-    source = article.get("source", "")
-    category = article.get("category", "其他")
-
-    source_cls = _source_class(source)
-    source_label = _source_abbr(source)
-    rec_mark = '<span class="rec-mark">🔥</span>' if rec else ""
-
-    # 游戏相关分类用绿色 tag
-    is_game_cat = "游戏" in category
-    cat_cls = "badge-game" if is_game_cat else ("badge-hot" if rec else "badge-cat")
-
-    published = article.get("published", "")
-    date_str = published[:10] if published else ""
-
-    return f"""<div class="{cls}" data-cat="{category}">
-  <div class="card-source {source_cls}">{source_label}</div>
-  <div class="card-body">
-    <div class="card-title"><a href="{url}" target="_blank" rel="noopener">{title}</a> {rec_mark}</div>
-    <div class="card-summary">{summary_cn}</div>
-    <div class="card-meta">
-      <span class="badge badge-source">{source}</span>
-      <span class="badge {cat_cls}" data-cat="{category}">{category}</span>
-      <span>{date_str}</span>
-      {rec_mark if rec else ""}
-    </div>
-  </div>
-</div>"""
+def _orig_line(ev: dict) -> str:
+    if ev.get("lang") == "zh" or not ev.get("title_cn"):
+        return ""
+    return f'<span class="orig">{esc(ev["title"])}</span>'
 
 
-def render(articles: list[dict]) -> str:
-    now = datetime.now(TZ)
-    date_str = now.strftime("%Y 年 %-m 月 %-d 日")
-    time_str = now.strftime("%H:%M")
-
-    # 统计
-    total = len(articles)
-    recommended_count = sum(1 for a in articles if a.get("recommended"))
-    ai_count = sum(1 for a in articles if (a.get("category") or "").startswith("AI"))
-    game_count = sum(1 for a in articles if "游戏" in (a.get("category") or "") or "Reddit" in (a.get("category") or ""))
-    gh_count = sum(1 for a in articles if a.get("category") == "GitHub热门")
-
-    # 按分类分组统计
-    cat_counts = {}
-    for a in articles:
-        cat = a.get("category", "其他")
-        cat_counts[cat] = cat_counts.get(cat, 0) + 1
-
-    # 侧边栏链接
-    sidebar_links_parts = []
-    for nav in NAV_CATEGORIES:
-        cid = nav["id"]
-        if cid == "":
-            # 分组标题
-            header = nav.get("header", "")
-            sidebar_links_parts.append(
-                f'<li class="nav-header" data-section="{header}">'
-                f'<span>{nav["label"]}</span></li>'
-            )
-            continue
-        count = cat_counts.get(cid, 0)
-        if cid == "all":
-            count = total
-        elif cid == "推荐精选":
-            count = recommended_count
-        active_cls = ' class="active"' if cid == "all" else ""
-        sidebar_links_parts.append(
-            f'<li><a data-cat="{cid}" onclick="showCategory(\'{cid}\')"{active_cls}>'
-            f'<span class="icon">{nav["icon"]}</span>{nav["label"]}'
-            f'<span class="count">{count}</span></a></li>'
-        )
-    sidebar_links = "\n      ".join(sidebar_links_parts)
-
-    # 所有卡片（按分类排序：推荐在前，其余在后）
-    def sort_key(a):
-        rec = a.get("recommended", False)
-        cat = a.get("category", "其他")
-        try:
-            cat_idx = CATEGORY_ORDER.index(cat)
-        except ValueError:
-            cat_idx = 99
-        return (not rec, cat_idx)
-    sorted_articles = sorted(articles, key=sort_key)
-
-    cards_all = "\n".join(_render_card(a) for a in sorted_articles)
-
-    return HTML_TEMPLATE.format(
-        date_str=date_str,
-        time_str=time_str,
-        total=total,
-        recommended_count=recommended_count,
-        ai_count=ai_count,
-        game_count=game_count,
-        gh_count=gh_count,
-        sidebar_links=sidebar_links,
-        cards_all=cards_all,
+def _dmg(ev: dict) -> str:
+    """签名元素：歪着的伤害数字 + 分段覆盖条。数字就是 rank.py 的分数。"""
+    cov = min(int(ev.get("coverage", 1)), 5)
+    bars = "".join(
+        f'<span class="bar{" on" if i < cov else ""}" style="animation-delay:{i * 45}ms"></span>'
+        for i in range(5)
+    )
+    n = ev.get("coverage", 1)
+    cov_label = f"{n} 源" if n > 1 else "单源"
+    return (
+        f'<div class="dmg">'
+        f'<b>{ev.get("score", 0):g}</b><span class="unit">PTS</span>'
+        f'<span class="bars" role="img" '
+        f'aria-label="跨源覆盖 {cov_label}，计 {cov * COVERAGE_WEIGHT} 分">{bars}</span>'
+        f'<span class="cov">{esc(cov_label)}</span>'
+        f'</div>'
     )
 
 
+def _why(ev: dict) -> str:
+    """评分依据徽章。覆盖度已由读数条表达，这里不重复。"""
+    chips = []
+    for p in ev.get("score_parts", []):
+        label, val = p["label"], p["value"]
+        if label == "单源" or label.endswith("源报道"):
+            continue
+        cls = ""
+        if val < 0:
+            cls = "neg"
+        elif label.startswith("命中") or label.startswith("战斗"):
+            cls = "rel"
+        sign = "+" if val > 0 else ""
+        attr = f' class="{cls}"' if cls else ""
+        chips.append(f'<i{attr}>{esc(label)} {sign}{val:g}</i>')
+    return f'<div class="why">{"".join(chips)}</div>' if chips else ""
+
+
+def _sources(ev: dict) -> str:
+    members = ev.get("members") or []
+    if len(members) <= 1:
+        srcs = ev.get("sources") or []
+        base = (f'<a href="{esc(ev["url"])}" target="_blank" rel="noopener">'
+                f'{esc(srcs[0] if srcs else "原文")}</a>')
+    else:
+        base = '<span class="sep">/</span>'.join(
+            f'<a href="{esc(m["url"])}" target="_blank" rel="noopener">{esc(m["source"])}</a>'
+            for m in members
+        )
+    hn = ev.get("hn_url")
+    extra = (f'<span class="sep">·</span><a href="{esc(hn)}" target="_blank" '
+             f'rel="noopener">HN 讨论</a>') if hn else ""
+    return f'<div class="srcs">{base}{extra}</div>'
+
+
+def _segments(ev: dict) -> str:
+    """三段式。「对你而言」单独做成对话气泡，脱离网点格。"""
+    what, why, you = ev.get("what"), ev.get("why"), ev.get("for_you")
+    if not what:
+        raw = ev.get("summary_raw") or ""
+        if not raw:
+            return ""
+        return ('<div class="segs"><dl class="seg"><dt>原文摘要</dt>'
+                f'<dd>{esc(raw[:260])}</dd></dl></div>')
+
+    rows = [f'<dl class="seg"><dt>发生了什么</dt><dd>{esc(what)}</dd></dl>']
+    if why:
+        rows.append(f'<dl class="seg"><dt>为什么重要</dt><dd>{esc(why)}</dd></dl>')
+    if not ev.get("has_body", True):
+        rows.append('<dl class="seg hint"><dt>提示</dt>'
+                    '<dd>未取到正文，以上基于 RSS 摘要生成</dd></dl>')
+    out = f'<div class="segs">{"".join(rows)}</div>'
+
+    if you:
+        none = " none" if "无直接关系" in you else ""
+        out += (f'<div class="bub{none}"><b>对你而言</b>'
+                f'<p>{esc(you)}</p></div>')
+    return out
+
+
+def _item(ev: dict, hero: bool = False) -> str:
+    followup = ""
+    if ev.get("followup"):
+        fu = ev["followup"]
+        followup = (f'<div class="fu">↳ {esc(fu.get("first_seen", ""))} 首次报道，'
+                    f'累计出现 {fu.get("times", 1)} 次</div>')
+    cls = "panel hero" if hero else "panel"
+    return (
+        f'<article class="{cls}">'
+        f'<div class="top">{_dmg(ev)}'
+        f'<h3><a href="{esc(ev["url"])}" target="_blank" rel="noopener">{_title_cn(ev)}</a>'
+        f'{_orig_line(ev)}</h3>{_why(ev)}{followup}</div>'
+        f'{_segments(ev)}{_sources(ev)}'
+        f'</article>'
+    )
+
+
+def _section(title: str, en: str, count: str, inner: str, note: str = "") -> str:
+    note_html = f'<div class="note">{note}</div>' if note else ""
+    return (f'<section class="section"><div class="lbl">'
+            f'<h2>{esc(title)}</h2><span class="en">{esc(en)}</span>'
+            f'<span class="n">{esc(count)}</span></div>{note_html}{inner}</section>')
+
+
+def _quiet_item(ev: dict, kind: str) -> str:
+    """深水区条目：不给伤害数字，保持安静。"""
+    meta_bits = []
+    if kind == "paper":
+        up = ev.get("signals", {}).get("hf_upvotes", 0)
+        if up:
+            meta_bits.append(f"社区 ▲{up}")
+        if ev.get("authors"):
+            meta_bits.append(esc(ev["authors"]))
+    else:
+        if ev.get("repo_lang"):
+            meta_bits.append(esc(ev["repo_lang"]))
+        st = ev.get("signals", {}).get("stars_today", 0)
+        if st:
+            meta_bits.append(f"+{st}★ 今日")
+        if ev.get("repo_stars"):
+            meta_bits.append(f"{ev['repo_stars']:,} ★ 总计")
+
+    pitch = ev.get("pitch") or ev.get("what") or ev.get("summary_raw") or ""
+    pitch_html = ""
+    if pitch:
+        lead = "<b>值得读</b>" if kind == "paper" else "<b>做什么的</b>"
+        pitch_html = f'<div class="pitch">{lead}{esc(pitch[:200])}</div>'
+
+    meta_html = f'<div class="meta">{" · ".join(meta_bits)}</div>' if meta_bits else ""
+    return (f'<div class="qi">'
+            f'<h4><a href="{esc(ev["url"])}" target="_blank" rel="noopener">{_title_cn(ev)}</a></h4>'
+            f'{meta_html}{pitch_html}</div>')
+
+
+def _brief_rows(items: list[dict]) -> str:
+    rows = []
+    for ev in items:
+        srcs = ev.get("sources") or []
+        cov = f'{ev.get("coverage",1)}源' if ev.get("coverage", 1) > 1 else (srcs[0] if srcs else "")
+        rows.append(
+            f'<div class="brief-row"><span class="s">{ev.get("score",0):g}</span>'
+            f'<a href="{esc(ev["url"])}" target="_blank" rel="noopener">{_title_cn(ev)}</a>'
+            f'<span class="o">{esc(cov)}</span></div>'
+        )
+    return "".join(rows)
+
+
+# ─── 主渲染 ──────────────────────────────────────────────────
+
+def render(digest: dict, health: dict | None = None) -> str:
+    now = (datetime.fromisoformat(digest["generated_at"])
+           if digest.get("generated_at") else datetime.now(TZ))
+    lead = digest.get("lead", [])
+    relevant = digest.get("relevant", [])
+    threads = digest.get("threads", [])
+    papers = digest.get("papers", [])
+    graphics = digest.get("graphics", [])
+    repos = digest.get("repos", [])
+    diverse = digest.get("diverse", [])
+    brief = digest.get("brief", [])
+    stats = digest.get("stats", {})
+
+    secs = []
+
+    # ① 今日必读 —— 阈值制，宁可只有 2 条。第一条给集中線，其余不给
+    if lead:
+        inner = "".join(_item(e, hero=(i == 0)) for i, e in enumerate(lead))
+        secs.append(_section("今日必读", "lead", f"{len(lead)} 条", inner))
+    else:
+        secs.append(_section(
+            "今日必读", "lead", "0 条",
+            f'<div class="empty">今天没有事件达到必读阈值（{DEEP_READ_MIN_SCORE} 分）。<br>'
+            '这是阈值制的正常结果，不是抓取失败 —— 与其凑数，不如留白。</div>'))
+
+    # ② 能用上的 —— 为空则整块隐藏，不塞垃圾
+    if relevant:
+        inner = "".join(_item(e) for e in relevant)
+        secs.append(_section(
+            "能用上的", "for your work", f"{len(relevant)} 条", inner,
+            "命中 战斗设计 / UE / 动画 / 网络同步 / 性能 相关词，无论分数高低都会冒头；"
+            "战斗类词加权更高，所以排在前面。<br>社区源只算标题命中，正文里顺口提一句不算；"
+            "抓不到正文的一律退回速览。"))
+
+    # ③ 线索追踪
+    if threads:
+        inner = "".join(_item(e) for e in threads)
+        secs.append(_section("线索追踪", "follow-up", f"{len(threads)} 条", inner,
+                             "14 天内报过、今天又有新报道的事件。"))
+
+    # ④ 深水区
+    deep_inner = ""
+    if graphics:
+        deep_inner += ('<div class="sub">图形学 / 动画 · arXiv cs.GR</div>'
+                       + "".join(_quiet_item(e, "paper") for e in graphics))
+    if papers:
+        deep_inner += ('<div class="sub">AI 论文 · HuggingFace 社区票选</div>'
+                       + "".join(_quiet_item(e, "paper") for e in papers))
+    if repos:
+        deep_inner += ('<div class="sub">开源 · GitHub Trending</div>'
+                       + "".join(_quiet_item(e, "repo") for e in repos))
+    if deep_inner:
+        secs.append(_section("深水区", "papers & repos",
+                             f"{len(graphics) + len(papers)} 论文 · {len(repos)} 开源",
+                             f'<div class="quiet">{deep_inner}</div>'))
+
+    # ⑤ 跨界视野
+    if diverse:
+        secs.append(_section(
+            "跨界视野", "off-topic", "1 条",
+            f'<div class="quiet">{"".join(_quiet_item(e, "repo") for e in diverse)}</div>',
+            "固定优质池取最高分，不随机抽取。"))
+
+    # ⑥ 一行速览
+    if brief:
+        secs.append(_section(
+            "一行速览", "the rest", f"{len(brief)} 条",
+            f'<details class="brief"><summary>展开其余 {len(brief)} 条（按分数排序）</summary>'
+            f'{_brief_rows(brief)}</details>'))
+
+    readout = "".join([
+        f'<span>召回 {stats.get("events", 0)} 事件</span>',
+        f'<span>多源交叉 {stats.get("multi_source", 0)}</span>',
+        f'<span>深读 {len(lead) + len(relevant)}</span>',
+        f'<span>速览 {len(brief)}</span>',
+    ])
+
+    health_html = ""
+    if health:
+        # 只报连续零产出的源。当天 0 条不算异常 —— 官方博客本来就不天天发，
+        # 天天喊警报的结果是这行字被彻底忽略，真挂了也看不见。
+        streak = health.get("zero_streak") or {}
+        dead = sorted((v, k) for k, v in streak.items() if v >= HEALTH_ALERT_DAYS)
+        if dead:
+            items = "、".join(f"{esc(k)}（{v} 天）" for v, k in reversed(dead))
+            health_html = (f'<div class="health">⚠ 连续 {HEALTH_ALERT_DAYS} 天以上零产出，'
+                           f'建议在 config.py 里换掉：{items}</div>')
+
+    issue = (now.date() - datetime(2026, 1, 1, tzinfo=TZ).date()).days + 1
+    out = TEMPLATE
+    for k, v in {
+        "__TITLE__": f'每日内参 · {now.strftime("%Y-%m-%d")}',
+        "__DESC__": (f'今日必读 {len(lead)} 条，深读 {len(lead) + len(relevant)} 条，'
+                     f'速览 {len(brief)} 条。'),
+        "__CSS__": CSS,
+        "__DATE_CN__": f'{now.year} 年 {now.month} 月 {now.day} 日',
+        "__DATE_ISO__": digest.get("date") or now.strftime("%Y-%m-%d"),
+        "__WEEKDAY__": WEEKDAY_CN[now.weekday()],
+        "__TIME__": now.strftime("%H:%M"),
+        "__ISSUE__": str(issue),
+        "__READOUT__": readout,
+        "__SECTIONS__": "".join(secs),
+        "__COVW__": str(COVERAGE_WEIGHT),
+        "__RECALL__": str(len(set(
+            s for e in (lead + relevant + threads + brief) for s in e.get("sources", [])))),
+        "__EVENTS__": str(stats.get("events", 0)),
+        "__DEEPN__": str(sum(1 for e in lead + relevant + threads if e.get("has_body"))),
+        "__HEALTH__": health_html,
+    }.items():
+        out = out.replace(k, v)
+    return out
+
+
 def main():
-    input_file = sys.argv[1] if len(sys.argv) > 1 else "docs/articles_summarized.json"
-    output_file = sys.argv[2] if len(sys.argv) > 2 else "docs/index.html"
+    inp = sys.argv[1] if len(sys.argv) > 1 else "data/digest.json"
+    out = sys.argv[2] if len(sys.argv) > 2 else "docs/index.html"
+    # 默认就读 health.json —— 源健康度警告是设计的一部分，不该需要手动开启
+    health_path = sys.argv[3] if len(sys.argv) > 3 else "data/health.json"
 
-    with open(input_file, "r", encoding="utf-8") as f:
-        articles = json.load(f)
+    with open(inp, encoding="utf-8") as f:
+        digest = json.load(f)
 
-    html = render(articles)
-    os.makedirs(os.path.dirname(os.path.abspath(output_file)), exist_ok=True)
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write(html)
+    health = None
+    if health_path and os.path.exists(health_path):
+        with open(health_path, encoding="utf-8") as f:
+            health = json.load(f)
 
-    print(f"[OK] HTML 页面已生成 → {output_file}")
+    page = render(digest, health)
+    os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
+    with open(out, "w", encoding="utf-8") as f:
+        f.write(page)
+    print(f"[OK] 页面已生成 → {out} ({len(page) // 1024} KB)")
+
+    # 归档一份，避免早晚两版互相覆盖（v1 的 bug#7）
+    arch_dir = os.path.join(os.path.dirname(os.path.abspath(out)), "archive")
+    os.makedirs(arch_dir, exist_ok=True)
+    arch = os.path.join(arch_dir, f'{digest.get("date", "unknown")}.html')
+    # 归档页深一层目录，页脚那两个相对链接要跟着改，否则点开是 404
+    arch_page = (page.replace('href="feed.xml"', 'href="../feed.xml"')
+                     .replace('href="archive/', 'href="'))
+    with open(arch, "w", encoding="utf-8") as f:
+        f.write(arch_page)
+    print(f"[OK] 已归档 → {arch}")
 
 
 if __name__ == "__main__":

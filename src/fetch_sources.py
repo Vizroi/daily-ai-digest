@@ -1,11 +1,21 @@
-"""RSS 抓取模块：从多个信息源抓取文章，去重后输出 JSON。
-支持 RSS/Atom 源 + GitHub Trending + 论文速递 + 跨界视野。"""
+"""阶段①宽召回：并发抓取所有源，带时间窗过滤和社区热度信号。
+
+与 v1 的区别：
+  - 每源 12 篇而非 2 篇（召回求全，筛选交给 rank.py）
+  - 36 小时时间窗（v1 完全没有，源把老文章顶上来就照收）
+  - 抓 signals：HN points / HF upvotes / GitHub stars_today
+  - Hacker News 改用 Algolia API（RSS 拿不到分数）
+  - 并发抓取（v1 是串行，30 个源要几十秒）
+  - 写 health.json，让静默失效的源暴露出来
+"""
+import concurrent.futures as futures
 import hashlib
+import html
 import json
 import os
-import random
 import re
 import sys
+import time
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
 
@@ -15,295 +25,407 @@ import feedparser
 import requests
 
 from config import (
-    RSS_SOURCES, CUSTOM_SOURCES, HFPAPERS_API, DIVERSE_SOURCES,
-    IGNORE_KEYWORDS, MAX_ARTICLES, MAX_PER_SOURCE, MAX_PAPERS, MAX_DIVERSE,
+    RSS_SOURCES, DIVERSE_SOURCES, HFPAPERS_API, GITHUB_TRENDING_URLS,
+    HN_API, HN_MIN_POINTS, HN_KEYWORDS,
+    IGNORE_KEYWORDS, MAX_RECALL, MAX_PER_SOURCE, FRESH_WINDOW_HOURS,
+    POLITE_UA_DOMAINS, POLITE_UA, BROWSER_UA, HEALTH_ALERT_DAYS,
 )
 
 TZ = timezone(timedelta(hours=8))
+NOW = datetime.now(timezone.utc)
+CUTOFF = NOW - timedelta(hours=FRESH_WINDOW_HOURS)
 
 _session = requests.Session()
 _session.headers.update({
-    "User-Agent": "Mozilla/5.0 (compatible; DailyAIDigest/1.0; +https://github.com/daily-ai-digest)",
+    "User-Agent": BROWSER_UA,
     "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+    "Accept-Language": "en,zh-CN;q=0.9",
 })
 
+HEALTH: dict[str, int] = {}
 
-def _safe_fetch(url: str, timeout: int = 20, headers: dict | None = None) -> str | None:
+
+def _empty_signals() -> dict:
+    return {"hn_points": 0, "hn_comments": 0, "hf_upvotes": 0, "stars_today": 0, "rank_bonus": 0.0}
+
+
+def _fetch(url: str, timeout: int = 25) -> str | None:
+    """带域名感知 UA 的抓取。Reddit 需要描述性 UA，伪装浏览器会被 403。"""
+    headers = {}
+    if any(d in url for d in POLITE_UA_DOMAINS):
+        headers["User-Agent"] = POLITE_UA
     try:
-        resp = _session.get(url, timeout=timeout, allow_redirects=True, headers=headers)
+        resp = _session.get(url, timeout=timeout, allow_redirects=True, headers=headers or None)
         resp.raise_for_status()
         return resp.text
-    except Exception:
+    except Exception as e:
+        print(f"[WARN] 抓取失败 {url} — {type(e).__name__}")
         return None
 
 
 def _url_key(url: str) -> str:
-    parsed = urlparse(url)
-    netloc = parsed.netloc.removeprefix("www.")
-    path = parsed.path.rstrip("/")
-    key = f"{netloc}{path}{parsed.query}"
+    p = urlparse(url)
+    key = f"{p.netloc.removeprefix('www.')}{p.path.rstrip('/')}"
     return hashlib.md5(key.encode()).hexdigest()
 
 
 def _should_skip(title: str) -> bool:
-    title_lower = title.lower()
-    return any(kw in title_lower for kw in IGNORE_KEYWORDS)
+    t = title.lower()
+    return any(kw in t for kw in IGNORE_KEYWORDS)
 
 
-def _clean_html(text: str, max_len: int = 300) -> str:
-    text = re.sub(r"<[^>]+>", "", text).strip()
-    return text[:max_len] if len(text) > max_len else text
+# Reddit 的 RSS 摘要末尾固定挂一段导航文字。不清掉的话它会跟着进 LLM 的
+# 输入，也会显示在页面上 —— 实测样例：
+#   "... &#32; submitted by &#32; /u/crazymikeee [link] &#32; [comments]"
+_RSS_BOILERPLATE = re.compile(
+    r"(submitted by\s*/u/\S+|\[link\]|\[comments\]|Read more|Continue reading.*)$",
+    re.I)
 
 
-def _parse_entry(entry, name: str, lang: str) -> dict | None:
-    """解析单个 feedparser entry，返回文章 dict 或 None。"""
-    link = entry.get("link", "")
-    if not link:
+def _clean_html(text: str, max_len: int = 600) -> str:
+    text = re.sub(r"<script.*?</script>", " ", text, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    # 必须在去标签之后 unescape：先 unescape 会把 &lt;p&gt; 变成真标签再被删掉。
+    # 实测 Reddit / The Verge 的 feed 里 &#32; &quot; &#8217; 满天飞。
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    for _ in range(3):
+        new = _RSS_BOILERPLATE.sub("", text).strip(" ·-—|")
+        if new == text:
+            break
+        text = new
+    return text[:max_len]
+
+
+def _entry_time(entry) -> datetime | None:
+    for attr in ("published_parsed", "updated_parsed"):
+        val = getattr(entry, attr, None)
+        if val:
+            try:
+                return datetime(*val[:6], tzinfo=timezone.utc)
+            except (ValueError, TypeError):
+                continue
+    return None
+
+
+def _parse_entry(entry, src: dict) -> dict | None:
+    link = (entry.get("link") or "").strip()
+    # 标题也要清 HTML：Unreal Engine 官方 feed 的 <title> 里塞了 <p> 和 <em> 标签
+    title = _clean_html(entry.get("title") or "", 300)
+    if not link or not title or _should_skip(title):
         return None
 
-    title = entry.get("title", "").strip()
-    if not title or _should_skip(title):
+    published = _entry_time(entry)
+    # 时间窗过滤。没有时间戳的条目放过（很多官博不带 pubDate），
+    # 但标记 undated，rank 阶段会轻微扣分。
+    undated = published is None
+    if published and published < CUTOFF:
         return None
 
-    published = None
-    if hasattr(entry, "published_parsed") and entry.published_parsed:
-        published = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-    elif hasattr(entry, "updated_parsed") and entry.updated_parsed:
-        published = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
-
-    summary = ""
-    if hasattr(entry, "summary"):
-        summary = entry.summary
-    elif hasattr(entry, "content"):
-        summary = entry.content[0].get("value", "") if entry.content else ""
+    summary = entry.get("summary", "")
+    if not summary and entry.get("content"):
+        summary = entry["content"][0].get("value", "")
 
     return {
         "title": title,
         "url": link,
-        "source": name,
-        "lang": lang,
-        "published": published.isoformat() if published else None,
+        "source": src["name"],
+        "tier": src["tier"],
+        "lang": src["lang"],
+        "published": (published or NOW).isoformat(),
+        "undated": undated,
         "summary_raw": _clean_html(summary),
+        "signals": _empty_signals(),
+        "pool": src.get("pool", "main"),
     }
 
 
-# ─── HuggingFace 论文速递 ─────────────────────────────────────
-
-def fetch_hf_papers() -> list[dict]:
-    """从 HuggingFace Daily Papers API 取前 N 篇（按 upvotes 排序）。"""
-    try:
-        resp = _session.get(HFPAPERS_API, timeout=20, headers={
-            "User-Agent": "Mozilla/5.0 (compatible; DailyAIDigest/1.0)",
-            "Accept": "application/json",
-        })
-        resp.raise_for_status()
-        data = resp.json()
-    except Exception:
-        print("[WARN] HuggingFace Papers API 请求失败")
+def _fetch_rss(src: dict) -> list[dict]:
+    raw = _fetch(src["url"])
+    if raw is None:
+        HEALTH[src["name"]] = 0
         return []
 
-    articles = []
-    now = datetime.now(timezone.utc).isoformat()
+    feed = feedparser.parse(raw)
+    out, taken = [], 0
+    for i, entry in enumerate(feed.entries):
+        if taken >= MAX_PER_SOURCE:
+            break
+        a = _parse_entry(entry, src)
+        if not a:
+            continue
+        # Reddit 拿不到 ups，用 feed 内排位当极弱信号
+        if src["name"].startswith("r/"):
+            a["signals"]["rank_bonus"] = max(0.0, (10 - i) * 1.2)
+        out.append(a)
+        taken += 1
 
-    for item in data[:MAX_PAPERS]:
-        paper = item.get("paper", {})
-        arxiv_id = paper.get("id", "")
-        title = paper.get("title", "").strip()
+    HEALTH[src["name"]] = len(out)
+    if not out:
+        print(f"[WARN] 零产出: {src['name']}（源可能已失效，或 36h 内无新内容）")
+    return out
+
+
+# ─── Hacker News（Algolia API，带 points）─────────────────────
+
+def fetch_hn() -> list[dict]:
+    seen, out = set(), []
+    since = int(CUTOFF.timestamp())
+
+    def one(kw: str) -> list[dict]:
+        params = {
+            "query": kw,
+            "tags": "story",
+            "numericFilters": f"points>{HN_MIN_POINTS},created_at_i>{since}",
+            "hitsPerPage": 10,
+        }
+        try:
+            r = _session.get(HN_API, params=params, timeout=20)
+            r.raise_for_status()
+            return r.json().get("hits", [])
+        except Exception as e:
+            print(f"[WARN] HN 检索失败 ({kw}) — {type(e).__name__}")
+            return []
+
+    with futures.ThreadPoolExecutor(6) as ex:
+        for hits in ex.map(one, HN_KEYWORDS):
+            for h in hits:
+                oid = h.get("objectID")
+                if not oid or oid in seen:
+                    continue
+                seen.add(oid)
+                title = (h.get("title") or "").strip()
+                if not title or _should_skip(title):
+                    continue
+                url = h.get("url") or f"https://news.ycombinator.com/item?id={oid}"
+                sig = _empty_signals()
+                sig["hn_points"] = h.get("points", 0) or 0
+                sig["hn_comments"] = h.get("num_comments", 0) or 0
+                out.append({
+                    "title": title,
+                    "url": url,
+                    "source": "Hacker News",
+                    "tier": 2,
+                    "lang": "en",
+                    "published": h.get("created_at") or NOW.isoformat(),
+                    "undated": False,
+                    "summary_raw": "",
+                    "signals": sig,
+                    "hn_url": f"https://news.ycombinator.com/item?id={oid}",
+                    "pool": "main",
+                })
+
+    out.sort(key=lambda a: a["signals"]["hn_points"], reverse=True)
+    HEALTH["Hacker News"] = len(out)
+    print(f"[OK] Hacker News: {len(out)} 条 (points>{HN_MIN_POINTS})")
+    return out
+
+
+# ─── HuggingFace 每日论文 ─────────────────────────────────────
+
+def fetch_papers() -> list[dict]:
+    raw = _fetch(HFPAPERS_API, timeout=25)
+    if not raw:
+        HEALTH["HuggingFace Papers"] = 0
+        return []
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        HEALTH["HuggingFace Papers"] = 0
+        return []
+
+    out = []
+    for item in data[:20]:
+        paper = item.get("paper", {}) or {}
+        title = (paper.get("title") or "").strip()
+        aid = paper.get("id", "")
         if not title:
             continue
-
-        summary = paper.get("summary", "") or ""
-        upvotes = item.get("upvotes", 0)
-        authors = paper.get("authors", [])
-        author_names = ", ".join(a.get("name", "") for a in authors[:3])
+        authors = paper.get("authors", []) or []
+        names = ", ".join(a.get("name", "") for a in authors[:3])
         if len(authors) > 3:
-            author_names += " et al."
-
-        articles.append({
+            names += " et al."
+        sig = _empty_signals()
+        # ⚠️ upvotes 在 paper 对象里，不在顶层。取错位置会静默返回 0，
+        #    整个论文栏就退化成按抓取顺序排列。2026-08-03 实测修正。
+        sig["hf_upvotes"] = paper.get("upvotes", 0) or 0
+        sig["hn_comments"] = item.get("numComments", 0) or 0
+        out.append({
             "title": title,
-            "url": f"https://arxiv.org/abs/{arxiv_id}" if arxiv_id else f"https://huggingface.co/papers",
+            "url": f"https://arxiv.org/abs/{aid}" if aid else "https://huggingface.co/papers",
             "source": "HuggingFace Papers",
+            "tier": 1,
             "lang": "en",
-            "published": paper.get("publishedAt") or now,
-            "summary_raw": f"👍{upvotes} · {author_names} — {summary[:200]}" if summary else f"👍{upvotes} · {author_names}",
+            "published": paper.get("publishedAt") or NOW.isoformat(),
+            "undated": False,
+            "summary_raw": _clean_html(paper.get("summary") or ""),
+            "authors": names,
+            "signals": sig,
+            "pool": "paper",
         })
 
-    print(f"[OK] 论文速递: {len(articles)} 篇")
-    return articles
+    out.sort(key=lambda a: a["signals"]["hf_upvotes"], reverse=True)
+    HEALTH["HuggingFace Papers"] = len(out)
+    print(f"[OK] 论文: {len(out)} 篇")
+    return out
 
 
-# ─── 跨界视野 ─────────────────────────────────────────────────
+# ─── GitHub Trending ─────────────────────────────────────────
 
-def fetch_diverse(date_seed: str) -> list[dict]:
-    """每天从跨界池中随机抽 5 个源，各取 1 篇。
-    用日期做随机种子，同一天结果一致。"""
-    rng = random.Random(hash(date_seed))
-    selected = rng.sample(DIVERSE_SOURCES, min(MAX_DIVERSE, len(DIVERSE_SOURCES)))
-
-    articles = []
-    for src in selected:
-        raw = _safe_fetch(src["url"])
-        if not raw:
-            print(f"[WARN] 跨界源失败: {src['name']}")
-            continue
-
-        feed = feedparser.parse(raw)
-        for entry in feed.entries[:3]:  # 取前 3 条，取第一条有效的
-            a = _parse_entry(entry, src["name"], src["lang"])
-            if a:
-                articles.append(a)
-                break  # 只要 1 篇
-
-    # 保持随机顺序
-    rng.shuffle(articles)
-    print(f"[OK] 跨界视野: {len(articles)} 篇")
-    return articles
-
-
-# ─── GitHub Trending ───────────────────────────────────────────
-
-def fetch_github_trending() -> list[dict]:
-    from html.parser import HTMLParser
-
-    urls = [
-        ("daily", "https://github.com/trending?since=daily"),
-        ("weekly", "https://github.com/trending?since=weekly"),
-    ]
-
-    all_articles = []
-    seen = set()
-
-    for period, url in urls:
-        html = _safe_fetch(url, timeout=25, headers={
-            "User-Agent": "Mozilla/5.0 (compatible; DailyAIDigest/1.0; +https://github.com/daily-ai-digest)",
-            "Accept": "text/html",
-        })
+def fetch_repos() -> list[dict]:
+    out, seen = [], set()
+    for period, url in GITHUB_TRENDING_URLS:
+        html = _fetch(url, timeout=25)
         if not html:
-            print(f"[WARN] GitHub Trending ({period}) 抓取失败")
             continue
+        for a in _parse_trending(html, period):
+            if a["url"] in seen:
+                continue
+            seen.add(a["url"])
+            out.append(a)
+    HEALTH["GitHub Trending"] = len(out)
+    print(f"[OK] GitHub Trending: {len(out)} 个")
+    return out
 
-        articles = _parse_trending_html(html, period)
-        for a in articles:
-            if a["url"] not in seen:
-                seen.add(a["url"])
-                all_articles.append(a)
 
-    print(f"[OK] GitHub Trending: {len(all_articles)} 个 (daily+weekly)")
-    return all_articles
-
-
-def _parse_trending_html(html: str, period: str) -> list[dict]:
-    articles = []
-    now = datetime.now(timezone.utc).isoformat()
-    blocks = re.split(r'</article>', html)
-
-    for block in blocks:
+def _parse_trending(html: str, period: str) -> list[dict]:
+    out = []
+    for i, block in enumerate(re.split(r"</article>", html)):
         if '<article class="Box-row">' not in block:
             continue
-        repo_m = re.search(r'<a[^>]*href="(/([^/]+)/([^/"]+))"[^>]*class="Link"', block)
-        if not repo_m:
+        m = re.search(r'<a[^>]*href="(/([^/]+)/([^/"]+))"[^>]*class="Link"', block)
+        if not m:
             continue
-        repo_path = repo_m.group(1)
-        full_name = f"{repo_m.group(2)}/{repo_m.group(3)}"
-        html_url = f"https://github.com{repo_path}"
+        full_name = f"{m.group(2)}/{m.group(3)}"
 
-        desc_m = re.search(r'<p\s+class="col-9\s+color-fg-muted\s+my-1\s+tmp-pr-4">\s*(.*?)\s*</p>', block, re.DOTALL)
-        description = re.sub(r"<[^>]+>", "", desc_m.group(1)).strip() if desc_m else ""
+        dm = re.search(r'<p\s+class="col-9[^"]*">\s*(.*?)\s*</p>', block, re.S)
+        desc = re.sub(r"<[^>]+>", "", dm.group(1)).strip() if dm else ""
 
-        lang_m = re.search(r'itemprop="programmingLanguage">\s*([^<\s]+)', block)
-        language = lang_m.group(1) if lang_m else ""
+        lm = re.search(r'itemprop="programmingLanguage">\s*([^<]+)', block)
+        lang = lm.group(1).strip() if lm else ""
 
-        stars_today = ""
-        st_m = re.search(r'([\d,]+)\s+stars\s+today', block)
-        if st_m:
-            stars_today = st_m.group(1)
+        sm = re.search(r"([\d,]+)\s+stars\s+today", block)
+        stars_today = int(sm.group(1).replace(",", "")) if sm else 0
 
-        total_stars = ""
-        ts_m = re.search(r'octicon-star.*?</svg>\s*([\d,]+)\s*</a>', block, re.DOTALL)
-        if ts_m:
-            total_stars = ts_m.group(1)
+        tm = re.search(r"octicon-star.*?</svg>\s*([\d,]+)\s*</a>", block, re.S)
+        total = int(tm.group(1).replace(",", "")) if tm else 0
 
-        forks = ""
-        fk_m = re.search(r'octicon-repo-forked.*?</svg>\s*([\d,]+)\s*</a>', block, re.DOTALL)
-        if fk_m:
-            forks = fk_m.group(1)
-
-        title = f"[{language}] {full_name} ⭐{total_stars}" if language else f"{full_name} ⭐{total_stars}"
-        extra = [f"🍴{forks}" if forks else "", f"🔥{stars_today} today" if stars_today else ""]
-        extra_str = " | ".join(e for e in extra if e)
-        summary = f"{description} — {extra_str}" if extra_str else description
-
-        articles.append({
-            "title": title,
-            "url": html_url,
-            "source": f"GitHub Trending ({period})",
+        sig = _empty_signals()
+        sig["stars_today"] = stars_today
+        out.append({
+            "title": full_name,
+            "url": f"https://github.com/{full_name}",
+            "source": "GitHub Trending",
+            "tier": 1,
             "lang": "en",
-            "published": now,
-            "summary_raw": summary or f"GitHub {period} trending",
+            "published": NOW.isoformat(),
+            "undated": False,
+            "summary_raw": desc,
+            "repo_lang": lang,
+            "repo_stars": total,
+            "signals": sig,
+            "pool": "repo",
         })
+    return out
 
-    return articles
 
+# ─── 主流程 ──────────────────────────────────────────────────
 
-# ─── 主抓取 ────────────────────────────────────────────────────
+def fetch_all() -> tuple[list[dict], dict]:
+    diverse = [dict(s, pool="diverse") for s in DIVERSE_SOURCES]
+    all_srcs = list(RSS_SOURCES) + diverse
 
-def fetch_all() -> list[dict]:
-    seen = set()
-    today_str = datetime.now(TZ).strftime("%Y-%m-%d")
+    # Reddit 必须串行 + 间隔，并发请求会立刻吃 429（实测 4 个并发全挂）
+    reddit = [s for s in all_srcs if "reddit.com" in s["url"]]
+    normal = [s for s in all_srcs if "reddit.com" not in s["url"]]
 
-    # ── 1. 特殊源（全量保留）──
-    gh_articles = fetch_github_trending()
-    paper_articles = fetch_hf_papers()
-    diverse_articles = fetch_diverse(today_str)
+    articles: list[dict] = []
+    with futures.ThreadPoolExecutor(12) as ex:
+        hn_f = ex.submit(fetch_hn)
+        pf = ex.submit(fetch_papers)
+        rf = ex.submit(fetch_repos)
+        for group in ex.map(_fetch_rss, normal):
+            articles.extend(group)
+        hn, papers, repos = hn_f.result(), pf.result(), rf.result()
 
-    reserved_count = len(gh_articles) + len(paper_articles) + len(diverse_articles)
+    for i, src in enumerate(reddit):
+        if i:
+            time.sleep(3)
+        articles.extend(_fetch_rss(src))
 
-    # ── 2. RSS 源（每个源最多 2 篇）──
-    rss_articles = []
-    for src in RSS_SOURCES:
-        raw = _safe_fetch(src["url"])
-        if raw is None:
-            print(f"[WARN] 抓取失败: {src['name']}")
-            continue
+    articles.extend(hn)
 
-        feed = feedparser.parse(raw)
-        if feed.bozo:
-            print(f"[WARN] RSS 解析异常: {src['name']} — {feed.bozo_exception}")
+    # 全局 URL 去重（保留 tier 更高的那条）
+    best: dict[str, dict] = {}
+    for a in articles:
+        k = _url_key(a["url"])
+        if k not in best or a["tier"] < best[k]["tier"]:
+            best[k] = a
+    articles = list(best.values())
+    articles.sort(key=lambda a: a["published"], reverse=True)
+    articles = articles[:MAX_RECALL]
 
-        taken = 0
-        for entry in feed.entries:
-            if taken >= MAX_PER_SOURCE:
-                break
-            a = _parse_entry(entry, src["name"], src["lang"])
-            if a and _url_key(a["url"]) not in seen:
-                seen.add(_url_key(a["url"]))
-                rss_articles.append(a)
-                taken += 1
+    # 论文/开源单独成池，不参与主排序竞争
+    all_items = articles + papers + repos
+    for i, a in enumerate(all_items):
+        a["id"] = i
 
-    rss_articles.sort(key=lambda a: a["published"] or "", reverse=True)
+    pools = {}
+    for a in all_items:
+        pools[a["pool"]] = pools.get(a["pool"], 0) + 1
+    print(f"[OK] 召回 {len(all_items)} 条 — {pools}")
 
-    # ── 3. 给特殊源文章标记去重 key ──
-    for a in gh_articles + paper_articles + diverse_articles:
-        seen.add(_url_key(a["url"]))
+    dead = sorted(k for k, v in HEALTH.items() if v == 0)
+    if dead:
+        print(f"[HEALTH] 零产出源 ({len(dead)}): {', '.join(dead)}")
 
-    # ── 4. 组装：特殊源全保留，RSS 填剩余 ──
-    remaining = MAX_ARTICLES - reserved_count
-    if remaining < 0:
-        remaining = 0
-    rss_articles = rss_articles[:remaining]
-
-    all_articles = gh_articles + paper_articles + diverse_articles + rss_articles
-    print(f"[OK] 共 {len(all_articles)} 篇 (GitHub:{len(gh_articles)} 论文:{len(paper_articles)} 跨界:{len(diverse_articles)} RSS:{len(rss_articles)})")
-    return all_articles
+    return all_items, dict(HEALTH)
 
 
 def main():
-    output = sys.argv[1] if len(sys.argv) > 1 else "docs/articles_raw.json"
-    os.makedirs(os.path.dirname(output), exist_ok=True)
-    articles = fetch_all()
-    with open(output, "w", encoding="utf-8") as f:
+    out = sys.argv[1] if len(sys.argv) > 1 else "data/raw.json"
+    # 默认就写 health.json。workflow 里是不带参数调用的，
+    # 之前默认 None 等于让「零产出源告警」这个功能在线上永远不触发 ——
+    # 而源静默失效恰好是这类项目最常见的死法，警报不能靠手动开启。
+    health_out = sys.argv[2] if len(sys.argv) > 2 else "data/health.json"
+
+    os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
+    articles, health = fetch_all()
+
+    with open(out, "w", encoding="utf-8") as f:
         json.dump(articles, f, ensure_ascii=False, indent=2)
-    print(f"[OK] 已写入 {output}")
+    print(f"[OK] 已写入 {out}")
+
+    if health_out:
+        os.makedirs(os.path.dirname(os.path.abspath(health_out)), exist_ok=True)
+        today = datetime.now(TZ).strftime("%Y-%m-%d")
+
+        # 零产出天数要连续累计。单看当天 0 条分不清「源挂了」和「人家今天没发」，
+        # 而这两件事的处理方式完全不同（前者要换源，后者什么都不用做）。
+        prev = {}
+        if os.path.exists(health_out):
+            try:
+                with open(health_out, encoding="utf-8") as f:
+                    old = json.load(f)
+                # 同一天重跑不推进连续计数
+                if old.get("date") != today:
+                    prev = old.get("zero_streak") or {}
+                else:
+                    prev = {k: max(0, v - 1) if health.get(k, 0) == 0 else v
+                            for k, v in (old.get("zero_streak") or {}).items()}
+            except (json.JSONDecodeError, OSError):
+                prev = {}
+
+        streak = {name: (prev.get(name, 0) + 1 if n == 0 else 0)
+                  for name, n in health.items()}
+
+        with open(health_out, "w", encoding="utf-8") as f:
+            json.dump({"date": today, "counts": health, "zero_streak": streak}, f,
+                      ensure_ascii=False, indent=2)
+        long_dead = sorted(k for k, v in streak.items() if v >= HEALTH_ALERT_DAYS)
+        print(f"[OK] 源健康度 → {health_out}"
+              + (f"（连续 {HEALTH_ALERT_DAYS} 天以上零产出：{', '.join(long_dead)}）"
+                 if long_dead else ""))
 
 
 if __name__ == "__main__":

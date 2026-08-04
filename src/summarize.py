@@ -1,202 +1,197 @@
-"""AI 提炼模块：调用 DeepSeek API 批量生成中文摘要 + 分类标签 + 重要度标记。"""
+"""阶段④-b 分级摘要。
+
+深读（Top ~10）：每条**单独**一次调用 + 完整正文 → what / why / for_you 三段
+速览（其余）：批量调用，只做标题翻译
+
+为什么深读必须单条调用：
+  批处理会摊薄模型注意力，输出退化成模板句。v1 的 BATCH_SIZE=10 就是这个毛病。
+  单条 + 全文，质量差别非常明显，而这才十次调用。
+
+禁用词校验是质量下限的保证：套话检出即重试，重试仍失败则降级为纯标题条目，
+不让注水内容混进必读区。
+"""
 import json
 import os
+import re
 import sys
 import time
+import concurrent.futures as futures
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from openai import OpenAI
+# 套话黑名单：出现即判定为注水，触发重试
+BANNED = [
+    "据报道", "引发广泛关注", "引发关注", "值得关注", "业界普遍认为", "备受关注",
+    "标志着", "新的里程碑", "有望", "或将", "未来可期", "这一举措", "不容忽视",
+    "随着技术的不断发展", "在当今", "众所周知", "总的来说", "综上所述",
+]
 
-# ---- 从环境变量或 config 读取 ----
-API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
-BASE_URL = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
-MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
+DEEP_PROMPT = """你是一名给「UE5 武侠 PVP 项目的战斗策划」做私人情报简报的编辑。
+读者的日常工作是：GAS 技能配置、动画蓝图与 Locomotion、战斗手感、受击与位移、网络同步、性能优化。
 
-client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
+给你一篇文章的标题和正文，输出严格的 JSON：
 
-BATCH_SIZE = 10  # 每次请求处理的文章数
+{"what": "...", "why": "...", "for_you": "..."}
 
-SYSTEM_PROMPT = """你是一个资深 AI & 游戏行业资讯编辑。用户会给你一个 JSON 数组，每项格式为：
-{"id": 序号, "title": "标题", "source": "来源", "summary_raw": "原文摘要（可能为空）"}
+- what：这件事**具体**是什么。必须包含正文里的实际事实——数字、版本号、参数、
+  价格、时间、模型名。不许只是把标题换个说法。
+- why：为什么重要。放进行业上下文里说——它改变了什么、谁受影响、和之前有什么不同。
+- for_you：对上述这位读者的项目意味着什么。可以是能直接用的技术、
+  值得警惕的趋势、或者可借鉴的做法。
+  **如果这条与他的工作确实没有关系，就直接写「与你的项目无直接关系」，
+  绝对不许硬凑关联。** 硬凑比留白更糟。
 
-请基于标题和原文摘要，对每篇文章输出：
-1. **summary_cn**: 2-4 句简洁的中文摘要（保留核心信息点，不要废话）。
-2. **category**: 从以下分类中选择一个最合适的：
-
-   🎮 游戏大类：
-   - "游戏资讯" — 新游发售、评测、更新、电竞、主机、手游、行业事件
-   - "游戏开发" — 引擎技术、开发工具、编程、GDC、独立开发
-
-   🤖 AI 大类：
-   - "AI大模型/应用" — LLM、Agent、编程助手、AI新产品
-   - "AI研究/前沿" — 论文、芯片、训练框架、benchmark、融资、政策
-   - "AI×游戏" — AI在游戏中的具体应用
-
-   🔭 跨界大类：
-   - "跨界视野" — 跨界随机抓取的非 AI/游戏领域内容
-
-   注意：
-   - 来源是 "HuggingFace Papers" → 必选 "AI研究/前沿"
-   - 来源是 "GitHub Trending" → 必选 "GitHub热门"
-   - 来源是跨界源 (Nature/BBC/Economist/NASA 等) → 必选 "跨界视野"
-   - 实在归不进上面任何一类的标 "其他"
-
-3. **recommended**: true 或 false — 如果是今天最重要的新闻，标 true。最多 5 篇。
-4. **reason**: 如果 recommended=true，用一句中文说明为什么重要。
-
-只返回一个 JSON 数组（不要 markdown 包裹），输出格式示例：
-[{"id": 0, "title": "...", "source": "...", "summary_raw": "...",
-  "summary_cn": "中文摘要", "category": "AI大模型/应用", "recommended": true, "reason": "..."}]
+硬性要求：
+- 三段各不超过 60 个汉字。信息密度优先于完整性。
+- 禁止使用这些词：据报道、引发关注、值得关注、标志着、有望、或将、
+  这一举措、未来可期、总的来说、随着技术的不断发展。
+- 只返回 JSON，不要 markdown 包裹，不要任何解释。
 """
 
+BRIEF_PROMPT = """把下面每条标题翻译成简洁的中文标题（已经是中文的原样返回）。
+保留专有名词原文（模型名、公司名、仓库名、版本号）。不要加书名号，不要解释。
+输入是 JSON 数组，输出同长度的 JSON 数组：[{"id":0,"title_cn":"..."}]
+只返回 JSON。"""
 
-def _summarize_batch(articles_batch: list[dict]) -> list[dict]:
-    """对一批文章调用 DeepSeek API 进行摘要。"""
-    # 只发 id, title, source, summary_raw
-    compact = [
-        {"id": a["id"], "title": a["title"], "source": a["source"], "summary_raw": a.get("summary_raw", "")}
-        for a in articles_batch
-    ]
 
-    user_msg = json.dumps(compact, ensure_ascii=False)
+def _has_banned(text: str) -> str | None:
+    for w in BANNED:
+        if w in text:
+            return w
+    return None
 
-    max_retries = 3
-    for attempt in range(max_retries):
+
+def _has_concrete_fact(text: str) -> bool:
+    """what 段必须含至少一个具体事实：数字，或拉丁文专有名词。"""
+    if re.search(r"\d", text):
+        return True
+    return bool(re.search(r"[A-Za-z][A-Za-z0-9.\-]{2,}", text))
+
+
+def _call(client, model, system, user, max_tokens=1024, temperature=0.2):
+    resp = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
+        temperature=temperature,
+        max_tokens=max_tokens,
+    )
+    raw = resp.choices[0].message.content.strip()
+    return re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
+
+
+def deep_read_one(client, model: str, ev: dict) -> dict:
+    """单条深读。失败或校验不过 → 标记 degraded，渲染时降级展示。"""
+    body = ev.get("body") or ev.get("summary_raw") or ""
+    if not body:
+        ev["degraded"] = "no_content"
+        return ev
+
+    payload = json.dumps({
+        "title": ev["title"],
+        "sources": ev.get("sources", []),
+        "body": body[:6000],
+    }, ensure_ascii=False)
+
+    for attempt in range(2):
         try:
-            resp = client.chat.completions.create(
-                model=MODEL,
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": user_msg},
-                ],
-                temperature=0.3,
-                max_tokens=4096,
-            )
-            raw = resp.choices[0].message.content.strip()
+            raw = _call(client, model, DEEP_PROMPT, payload,
+                        max_tokens=900, temperature=0.2 + attempt * 0.2)
+            data = json.loads(raw)
+            what = (data.get("what") or "").strip()
+            why = (data.get("why") or "").strip()
+            for_you = (data.get("for_you") or "").strip()
 
-            # 尝试剥离可能的 markdown ```json 包裹
-            if raw.startswith("```"):
-                lines = raw.split("\n")
-                raw = "\n".join(lines[1:-1]) if lines[-1].strip() == "```" else "\n".join(lines[1:])
+            if not what or not why:
+                continue
+            bad = _has_banned(what) or _has_banned(why) or _has_banned(for_you)
+            if bad:
+                print(f"  [重试] 检出套话「{bad}」— {ev['title'][:32]}")
+                continue
+            if not _has_concrete_fact(what):
+                print(f"  [重试] what 段无具体事实 — {ev['title'][:32]}")
+                continue
 
-            result = json.loads(raw)
-            return result
-
+            ev["what"], ev["why"], ev["for_you"] = what, why, for_you
+            ev["degraded"] = None
+            return ev
         except json.JSONDecodeError:
-            if attempt < max_retries - 1:
-                time.sleep(2)
-                continue
-            print(f"[WARN] JSON 解析失败，第 {attempt+1} 次重试，返回原文中…")
-            return compact  # fallback
+            continue
         except Exception as e:
-            if attempt < max_retries - 1:
-                print(f"[WARN] API 调用失败: {e}，{attempt+1}/{max_retries} 重试…")
-                time.sleep(2 ** attempt)
-                continue
-            print(f"[ERROR] API 调用最终失败: {e}")
-            return compact
+            print(f"  [WARN] 深读失败 {type(e).__name__} — {ev['title'][:32]}")
+            time.sleep(1.5)
 
-    return compact
+    ev["degraded"] = "quality"
+    print(f"  [降级] 两次未达标，转为速览条目 — {ev['title'][:32]}")
+    return ev
 
 
-def summarize(articles: list[dict]) -> list[dict]:
-    """批量处理所有文章，返回带有摘要、分类、推荐标记的列表。"""
-    # 给每篇文章加一个 id
-    for i, a in enumerate(articles):
-        a["id"] = i
+def deep_read(client, model: str, events: list[dict], workers: int = 4) -> None:
+    if not events:
+        return
+    print(f"[INFO] 深读 {len(events)} 条（每条单独调用 + 完整正文）…")
+    with futures.ThreadPoolExecutor(workers) as ex:
+        list(ex.map(lambda e: deep_read_one(client, model, e), events))
+    ok = sum(1 for e in events if not e.get("degraded"))
+    print(f"[OK] 深读达标 {ok}/{len(events)}")
 
-    results = []
-    total = len(articles)
 
-    for i in range(0, total, BATCH_SIZE):
-        batch = articles[i:i + BATCH_SIZE]
-        print(f"  [进度] 处理第 {i+1}-{min(i+BATCH_SIZE, total)} 篇…")
-        summarized = _summarize_batch(batch)
-        results.extend(summarized)
-        # 稍微延迟，避免触发速率限制
-        if i + BATCH_SIZE < total:
-            time.sleep(0.5)
-
-    # 确保必要字段存在
-    for r in results:
-        r.setdefault("summary_cn", "")
-        r.setdefault("category", "其他")
-        r.setdefault("recommended", False)
-        r.setdefault("reason", "")
-
-    return results
+def translate_titles(client, model: str, events: list[dict], batch: int = 40) -> None:
+    """速览区只做标题翻译，不生成摘要 —— 摘要在这里没有信息增量。"""
+    todo = [e for e in events if e.get("lang") != "zh"]
+    if not todo:
+        return
+    for i in range(0, len(todo), batch):
+        chunk = todo[i:i + batch]
+        payload = json.dumps([{"id": j, "title": e["title"][:150]}
+                              for j, e in enumerate(chunk)], ensure_ascii=False)
+        try:
+            data = json.loads(_call(client, model, BRIEF_PROMPT, payload, max_tokens=4096, temperature=0.1))
+            for item in data:
+                idx = item.get("id")
+                if isinstance(idx, int) and 0 <= idx < len(chunk):
+                    chunk[idx]["title_cn"] = (item.get("title_cn") or "").strip()
+        except Exception as e:
+            print(f"[WARN] 标题翻译失败: {type(e).__name__}（保留原标题）")
+    print(f"[OK] 标题翻译 {len(todo)} 条")
 
 
 def main():
-    input_file = sys.argv[1] if len(sys.argv) > 1 else "docs/articles_raw.json"
-    output_file = sys.argv[2] if len(sys.argv) > 2 else "docs/articles_summarized.json"
+    inp = sys.argv[1] if len(sys.argv) > 1 else "data/ranked.json"
+    out = sys.argv[2] if len(sys.argv) > 2 else "data/digest.json"
 
-    if not API_KEY:
-        print("[ERROR] 未设置 DEEPSEEK_API_KEY 环境变量")
+    api_key = os.environ.get("DEEPSEEK_API_KEY", "")
+    if not api_key:
+        print("[ERROR] 未设置 DEEPSEEK_API_KEY")
         sys.exit(1)
 
-    with open(input_file, "r", encoding="utf-8") as f:
-        articles = json.load(f)
+    from openai import OpenAI
+    client = OpenAI(api_key=api_key,
+                    base_url=os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com"))
+    model = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
 
-    print(f"[INFO] 开始 AI 提炼，共 {len(articles)} 篇文章…")
-    summarized = summarize(articles)
+    with open(inp, encoding="utf-8") as f:
+        digest = json.load(f)
 
-    # 将原始字段 (url, published, lang, source) 合并回提炼结果
-    fields_to_merge = ("url", "published", "lang", "source")
-    for orig in articles:
-        for r in summarized:
-            if r.get("id") == orig.get("id"):
-                for f in fields_to_merge:
-                    val = orig.get(f)
-                    if val and not r.get(f):
-                        r[f] = val
-                break
+    deep = digest.get("lead", []) + digest.get("relevant", []) + digest.get("threads", [])
+    deep_read(client, model, deep)
 
-    # 硬编码分类：来源决定分类，不依赖 AI 判断
-    DIVERSE_NAMES = {s["name"] for s in [
-        {"name": "Nature Briefing"}, {"name": "Science Daily"}, {"name": "NASA News"},
-        {"name": "Space.com"}, {"name": "The Economist"}, {"name": "BBC World"},
-        {"name": "Dezeen"}, {"name": "Pitchfork"}, {"name": "EdSurge"},
-        {"name": "STAT News"}, {"name": "Grist"}, {"name": "Ars Technica"},
-        {"name": "Smithsonian"}, {"name": "Aeon"}, {"name": "Quanta Magazine"},
-    ]}
-    for r in summarized:
-        src = r.get("source", "")
-        if src.startswith("GitHub Trending"):
-            r["category"] = "GitHub热门"
-        elif src == "HuggingFace Papers":
-            r["category"] = "论文速递"
-        elif src in DIVERSE_NAMES:
-            r["category"] = "跨界视野"
+    # 深读降级的条目退回速览区，不占必读位
+    for key in ("lead", "relevant", "threads"):
+        keep, demoted = [], []
+        for e in digest.get(key, []):
+            (demoted if e.get("degraded") else keep).append(e)
+        digest[key] = keep
+        digest["brief"] = demoted + digest.get("brief", [])
 
-    # 按原始 id 顺序重排（fetch_sources 中 GitHub Trending 在前，id 即 trending 排名）
-    id_order = {a["id"]: i for i, a in enumerate(articles)}
-    summarized.sort(key=lambda r: id_order.get(r.get("id"), 99999))
+    shallow = digest.get("papers", []) + digest.get("repos", []) + digest.get("diverse", []) + digest.get("brief", [])
+    translate_titles(client, model, shallow)
 
-    # GitHub Trending 硬规则：
-    #   1. 全部归入 "GitHub热门"
-    #   2. 前 3 名强制标为推荐精选，其余不标
-    #   3. 排序保持与 trending 页面一致
-    gh_items = [r for r in summarized if (r.get("source") or "").startswith("GitHub Trending")]
-    for i, r in enumerate(gh_items):
-        r["category"] = "GitHub热门"
-        r["recommended"] = (i < 3)
-        if r["recommended"]:
-            r["reason"] = f"GitHub Trending #{i+1} — 今日热门开源项目"
+    digest["stats"]["deep_read"] = len(digest["lead"]) + len(digest["relevant"])
 
-    # 论文和跨界：不标推荐
-    for r in summarized:
-        if r.get("category") in ("论文速递", "跨界视野"):
-            r["recommended"] = False
-            r["reason"] = ""
-
-    os.makedirs(os.path.dirname(os.path.abspath(output_file)), exist_ok=True)
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(summarized, f, ensure_ascii=False, indent=2)
-
-    recommended_count = sum(1 for a in summarized if a.get("recommended"))
-    print(f"[OK] 提炼完成。推荐 {recommended_count} 篇，共写入 {output_file}")
+    os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(digest, f, ensure_ascii=False, indent=2)
+    print(f"[OK] 已写入 {out}")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,23 @@
-.vs/
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+venv/
 .env
+
+# 中间产物：每天重新生成，不值得进版本库
+data/raw.json
+data/raw.frozen.json
+data/events.json
+data/ranked.json
+
+# 但这两个必须提交，别被上面的规则误伤：
+# data/digest.json  —— 当天成稿，render.py 的唯一输入
+# data/memory.json  —— 14 天记忆，跨天去重与「线索追踪」的唯一状态
+# data/health.json  —— 源健康度，页面底部的零产出告警靠它
+!data/digest.json
+!data/memory.json
+!data/health.json
+
+# 手工调试脚本，不进仓库
+tools/
+mockups/
