@@ -4,65 +4,73 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 189 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 187 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 04 Aug 2026 10:50:11 +0800</lastBuildDate>
+<lastBuildDate>Wed, 05 Aug 2026 11:43:20 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>刚刚，阿里Qwen3.8-Max来了！冲进全球第一梯队，模型表现直逼Claude</title>
-  <link>https://www.qbitai.com/2026/08/465226.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-04-3eec498ef585</guid>
-  <pubDate>Mon, 03 Aug 2026 05:41:02 +0000</pubDate>
+  <title>Show HN: Simple algorithm and color space to generate diverse skin tones</title>
+  <link>https://toneyalexander.github.io/inclusive-color-space/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-05-027e06b45bbe</guid>
+  <pubDate>Tue, 04 Aug 2026 15:16:22 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>阿里发布 2.4 万亿参数 MoE 基座 Qwen3.8-Max，Arena 编程榜超过 Claude Opus 5；国内百万 token 输入 12 元、输出 36 元，隐式缓存命中 1.5 元。</p><p><strong>为什么重要</strong><br>第一梯队模型的价格被压到 Opus 5 的四成以下，国际价输出仅 24%。闭源厂商靠定价筑的护城河基本没了，而且这次是编程榜——最贵的那个场景。</p><p><strong>对你而言</strong><br>对你的实际影响是配表推导、行为树伪代码、GAS 逻辑草稿这类批量脏活的调用成本降一个量级。它不改动引擎侧任何东西，别期待手感相关的收益。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/465226.html">量子位</a> · <a href="https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/">MarkTechPost</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai">The Verge AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>40.3 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Hacker News 发布一个开源肤色生成算法：用球面均匀采样（确定性/拒绝采样两种）映射到 RGB，核心公式 to_rgb(t,u,v) 含 12 个常数，输出肤色范围。提供 Python 和 JS 实现，作者自述非科研、主观标注大量色样。</p><p><strong>为什么重要</strong><br>现有肤色方案断层：Unicode 5 色、化妆品 50 色、游戏全色域 1677 万色均不精准。该算法首次用数学定义“合理肤色”连续子空间，为角色创建器提供中间方案，挑战行业对肤色多样性的简化处理。</p><p><strong>对你而言</strong><br>可直接移植采样逻辑到 GAS 或捏脸系统，替代线性 RGB 滑动条，生成更自然的预设肤色。注意其局限：未考虑光照/显示差异，仅适合简化表征，不适合写实渲染。若项目已有成熟肤色库，则无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 475 +12.3 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>SQLite 的「严重漏洞」，还是 LLM 编的？</title>
-  <link>https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-04-020b519fc8ad</guid>
-  <pubDate>Mon, 03 Aug 2026 11:28:54 +0000</pubDate>
+  <title>FFmpeg 9.0</title>
+  <link>https://github.com/FFmpeg/FFmpeg/blob/n9.0/RELEASE_NOTES</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-05-9a782c4fd158</guid>
+  <pubDate>Tue, 04 Aug 2026 09:30:33 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>一个新建仓库批量提交 50 多条 SQLite CVE，NVD 与 CISA 直接判为 critical。JFrog 复核发现引用的函数在那些版本里根本不存在、PoC 跑不出崩溃，CVE-2026-51302 已从 10.0 降为 7.6。</p><p><strong>为什么重要</strong><br>漏洞库本身被 LLM 生成的假报告污染了。NVD 评分是全行业依赖扫描的输入，上游注水，下游所有告警一起失真。</p><p><strong>对你而言</strong><br>第三方库的 critical 告警不能再当行动依据。UE 里带着 SQLite、zlib、libcurl 这些库，看到高危先去官方 advisory 页面对一遍再动手升版本。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 699 +13.1 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>FFmpeg 9.0 "Lei" 发布，距 8.1 约 4 个月。GitHub 星标 62.8k，fork 14.1k。完整 Changelog 位于项目根目录，Git 历史见 git.ffmpeg.org。</p><p><strong>为什么重要</strong><br>FFmpeg 是音视频处理事实标准，9.0 迭代影响所有依赖它的编码、转码、流媒体管线。4 个月周期显示维护活跃，新版本可能引入编码器、滤镜或 API 变更，下游需适配。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若战斗录像或回放系统依赖 FFmpeg 处理视频，可关注 9.0 的编码器性能与 API 弃用，但非核心战斗逻辑。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 432 +12.1 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>大模型奖励的是专业度，不是话术</title>
-  <link>https://www.seangoedecke.com/llms-reward-expertise/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-04-6d75ac81f686</guid>
-  <pubDate>Mon, 03 Aug 2026 21:13:53 +0000</pubDate>
+  <title>DeepSeek V4 Flash on a Single AMD MI300X</title>
+  <link>https://github.com/ryanzhou/deepseek-v4-flash-mi300x</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-05-fbe24adbf4fb</guid>
+  <pubDate>Tue, 04 Aug 2026 10:00:55 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.3 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>作者拿陶哲轩与 ChatGPT 讨论 Jacobian 猜想反例的那段对话做例子：陶的提问极短、不逐条回复模型，得到的输出反而比常人精炼得多。</p><p><strong>为什么重要</strong><br>它反驳了「提示词技巧人人平等」这个流行说法。决定产出上限的是提问者的领域判断力——同一个模型在不同人手里差距很大。</p><p><strong>对你而言</strong><br>你问 RMS 位移、AnimBP 状态机、GE 叠加规则时，答案质量取决于你把问题切到多细。与其背提示词模板，不如把问题收窄到具体节点和参数名。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 458 +12.3 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>DeepSeek V4 Flash 0731（304B参数）在单张AMD MI300X（192GB HBM3）上跑通生产部署，vLLM ROCm nightly 0.26.1rc1.dev229+AITER 0.1.19，无量化无offload。实测单流168.6 tok/s，8流542 tok/s聚合，64流830 tok/s无OOM，256K上下文验证。修复了MI300X的FP8格式（fnuz vs OCP）、MoE高并发路由、因果投机验证、CPU-KV同步等。仓库含SHA-256固定版本、补丁、AITER调优表。</p><p><strong>为什么重要</strong><br>官方vLLM配方只支持NVIDIA和MI325X/MI355X，MI300X被跳过。此仓库证明单卡可跑304B模型，成本约为H100一半（2.4倍HBM容量）。FP8格式差异（fnuz vs OCP）导致kernel结果差2倍，这是AMD CDNA3独有的坑，影响所有在MI300X上跑FP8模型的团队。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来用MI300X做推理服务，FP8格式差异和CPU-KV mmap清理（/dev/shm）是必查项。DSpark投机解码（K=7）和混合KV策略（20GB GPU+96GB CPU）可参考，但战斗逻辑不涉及大模型推理。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 367 +11.8 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>手动重敲一遍，抵掉 AI 代码的认知债</title>
-  <link>https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-04-2ac71409a283</guid>
-  <pubDate>Mon, 03 Aug 2026 09:32:07 +0000</pubDate>
+  <title>Mistral's Shieldstral: 3B open-weights model for multimodal moderation</title>
+  <link>https://mistral.ai/news/shieldstral/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-05-80d3f73c29b9</guid>
+  <pubDate>Tue, 04 Aug 2026 16:36:05 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.9 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>作者不再让助手直接写进项目，而是把生成的代码手动逐行重新敲进代码库——用打字的强制减速换取对每一行的理解。</p><p><strong>为什么重要</strong><br>它替换掉的是「机器提 PR、人来 review」这条主流做法。review 是被动的、容易走神；重敲是主动的，慢，但债不累积。</p><p><strong>对你而言</strong><br>同理适用于蓝图和配表：AI 给的 GAS 逻辑，自己在编辑器里连一遍而不是复制资产，否则半年后没人说得清这条 GE 为什么这么配。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 388 +11.9 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Mistral发布3B开源多模态安全分类器Shieldstral，Apache 2.0协议。核心创新：将内容审核转为推理时策略问答，输入自然语言策略问题，输出校准安全分数。在文本安全上匹敌7倍规模模型，多模态审核SOTA。单16GB GPU可运行，LoRA微调+SLERP合并三个检查点。</p><p><strong>为什么重要</strong><br>传统护栏模型将固定危害类别编码进权重，换场景需重训。Shieldstral让策略完全存在于提示词中，一个检查点适配任意新政策，无需重训。统一文本与图像审核接口，开源权重降低定制门槛，可能改变安全审核工具链的部署范式。</p><p><strong>对你而言</strong><br>直接相关：其策略问答框架可借鉴到PVP战斗内容审核，如判断玩家输入是否含辱骂或违规描述。对比学习构造易混淆策略对的方法，可用于训练战斗内语音/文本过滤。但若你的项目无玩家生成内容审核需求，则与你的战斗手感、GAS配置工作无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 331 +11.6 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>上周 Unreal：ue6-main 822 个提交，主要在让失败可诊断</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1ve8z2u/last_week_in_unreal_822_on_ue6main_254_on_ue5main/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-04-b09f5005563d</guid>
-  <pubDate>Mon, 03 Aug 2026 09:52:16 +0000</pubDate>
+  <title>Harness engineering for self-improvement</title>
+  <link>https://lilianweng.github.io/posts/2026-07-04-harness/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-05-1f0c562e8b39</guid>
+  <pubDate>Tue, 04 Aug 2026 06:17:54 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>39.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>文章讨论AI递归自我改进（RSI），核心是harness工程：围绕基础模型的系统，含工作流自动化、文件系统持久记忆、子代理并行。引用Karpathy的autoresearch仓库，及Claude Code/Codex的稳定工具集（文件、shell、git、MCP等）。</p><p><strong>为什么重要</strong><br>harness被视为模型原始智能与真实世界价值之间的关键层，其设计模式正从提示模板转向运行时系统设计，类比操作系统。这改变了AI部署的竞争焦点，从模型权重转向外围工程，影响前沿实验室研发速度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但文件系统持久记忆和子代理并行模式，可类比战斗回放与AI行为树管理，若未来做AI对手或自动化测试，可借鉴其状态持久化与并行任务监控思路。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 306 +11.5 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>Creating a Detailed and Expressive Character Inspired by Cretan-Mycenaean Culture</title>
+  <link>https://80.lv/articles/creating-a-detailed-and-expressive-character-inspired-by-cretan-mycenaean-culture/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-05-ef7b287101d6</guid>
+  <pubDate>Tue, 04 Aug 2026 17:40:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>ue6-main 上周 822 个提交、ue5-main 254 个，绝大部分是稳定性与可诊断性：崩溃上报线程自己崩溃时现在会从内层异常过滤器写一份兜底 minidump，另外修了 teardown 死锁与卡死。</p><p><strong>为什么重要</strong><br>ue6-main 的提交量是 ue5-main 的三倍多，而且内容已经从加功能转向让失败可诊断——分支进入收敛期的典型信号。</p><p><strong>对你而言</strong><br>直接相关：排 GAS 与网络类偶发崩溃时，以后拿到的是 minidump 而不是一个 777003 退出码。同时也说明 UE6 还在修死锁，现在不是迁的时候。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「unreal」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Dmitry Bezrodniy分享Ariadne角色制作：基于MetaHuman调整比例，用ZWrap将高模包裹至低模，AI生成Nano Banana Pro笔刷（金属划痕、布料褶皱），手动拓扑分5套纹理集，Marmoset烘焙透明贴图，UE内分层智能材质实时调参。</p><p><strong>为什么重要</strong><br>展示AI辅助资产生产与MetaHuman定制流程结合，缩短角色制作周期；UE内智能材质免重导出，改变传统贴图迭代方式，影响实时渲染角色管线效率。</p><p><strong>对你而言</strong><br>AI生成笔刷和UE内材质调参可借鉴至战斗角色特效或受击贴图；但核心是角色美术流程，与GAS、动画蓝图无直接关联，仅拓扑或材质优化思路可参考。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「metahuman」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>征集「跑得通但教出面条连线」的 UE 教程</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vek4r5/weird_request_iffy_unreal_tutorials/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-04-e87aa58b5cac</guid>
-  <pubDate>Mon, 03 Aug 2026 17:32:51 +0000</pubDate>
+  <title>Game Studios Are Moving Beyond Legacy Version Control, and Here's Why</title>
+  <link>https://80.lv/articles/game-studios-are-moving-beyond-legacy-version-control-and-here-s-why/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-05-c53b712f12ab</guid>
+  <pubDate>Tue, 04 Aug 2026 16:04:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>一位主程 review 完初级脚本的蓝图后发帖，征集那些结果能跑、但教出一堆面条连线的教程链接，尤其是把逻辑全塞进 EventGraph 的那类。</p><p><strong>为什么重要</strong><br>指向的是蓝图教程生态的系统性问题：能出效果的教程不等于能教规范，代价全部转移给后面接手的人。</p><p><strong>对你而言</strong><br>带新人或接蓝图外包时可以反过来用这份清单——把「教程里学来的坏习惯」整理成蓝图规范的负面清单，比正面写规范好使。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「unreal」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Diversion推出面向UE/Unity的版本控制平台，宣称可30秒提交40万文件、5分钟克隆500万文件仓库，已有数万项目及Creatures Inc.等客户，定位替代Perforce/Git。</p><p><strong>为什么重要</strong><br>游戏资产大且二进制，Git LFS随项目膨胀变慢，Perforce运维贵。Diversion试图以Git式体验+Perforce级规模，降低分布式团队基础设施负担，改变版本控制仅限工程的传统边界。</p><p><strong>对你而言</strong><br>若你受困于Perforce服务器维护或Git LFS同步慢，可评估Diversion的锁文件与分支能力。但GAS配置、动画蓝图等二进制资产合并仍需锁机制，迁移前需验证其与UE5网络同步及构建管线的兼容性。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Overview Studio：自动生成资产总览展示场景的 UE 插件</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vej7my/i_built_an_unreal_engine_plugin_to_make_asset/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-04-de65cc8e7e11</guid>
-  <pubDate>Mon, 03 Aug 2026 17:00:07 +0000</pubDate>
+  <title>金韬创业项目《阴阳师：云图》曝光：UE5、三端互通、ARPG</title>
+  <link>https://www.youxituoluo.com/534747.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-05-c6dd17a56ffa</guid>
+  <pubDate>Tue, 04 Aug 2026 15:19:30 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>一个 UE 编辑器插件，扫描资产目录后自动生成排布、打光、带标签的总览展示场景，支持多种布局、材质预览体、灯光与后处理预设，还能校验 Fab 上架的目录规范。</p><p><strong>为什么重要</strong><br>解决的是上架资产包时的重复劳动：手摆、分组、标注、打光。这类编辑器工具的价值不在功能新，而在于把一次性手工流程固化成可复用的预设。</p><p><strong>对你而言</strong><br>技能特效、武器、蒙太奇资产同样需要一个能一眼看全的检视场景。它的做法——扫目录、按规则布场、预设化——可以照抄成你们内部的资产巡检工具。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>34 分</strong> · 游戏陀螺 · 能用上的</p><p><strong>发生了什么</strong><br>前《阴阳师》制作人金韬创业公司芥子游戏（2025年6月成立，融资数千万美元，现超60人）研发《阴阳师：云图》，UE5引擎，三端互通ARPG，含连招/弱点/韧性战斗系统与机关解谜探索，概念图延续日式志怪美学。</p><p><strong>为什么重要</strong><br>《阴阳师》IP首次以UE5跨平台ARPG形态复活，且由原制作人操盘，验证头部IP在开放世界+动作叙事赛道的商业可行性，直接影响同类二次元IP改编方向。</p><p><strong>对你而言</strong><br>其战斗策划岗位描述（连招/弱点/韧性）与你的GAS配置直接相关，可关注其韧性机制如何映射到GAS的Stagger或护盾系统；三端互通意味着输入适配与网络同步方案值得跟踪，但具体技术细节未披露，暂无法直接复用。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「ue5」 +20</small></p>]]></description>
 </item>
 </channel>
 </rss>
