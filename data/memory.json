@@ -86,14 +86,14 @@
   "c6dd17a56ffa4b2e": {
     "title": "金韬创业项目《阴阳师：云图》曝光：UE5、三端互通、ARPG",
     "first_seen": "2026-08-05",
-    "times": 1,
-    "last_seen": "2026-08-05"
+    "times": 2,
+    "last_seen": "2026-08-07"
   },
   "a99df7e6ca78993a": {
     "title": "Third-party cyber evaluations involving OpenAI models",
     "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
+    "times": 2,
+    "last_seen": "2026-08-07"
   },
   "93a57d5cae68523c": {
     "title": "突发，Jeff Dean离职创业！谷歌股价应声蒸发1.34万亿",
@@ -116,8 +116,8 @@
   "5f5499c425297688": {
     "title": "Introducing Muse Code and Muse Spark 1.2",
     "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
+    "times": 2,
+    "last_seen": "2026-08-07"
   },
   "456f3a766c7c14b9": {
     "title": "Having issues getting C++ set up in either Linux or Windows for Unreal 5.8... What am I doing wrong here?",
@@ -148,5 +148,35 @@
     "first_seen": "2026-08-06",
     "times": 1,
     "last_seen": "2026-08-06"
+  },
+  "f35c20329b6f509b": {
+    "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
+    "first_seen": "2026-08-07",
+    "times": 1,
+    "last_seen": "2026-08-07"
+  },
+  "36c241fd00a6784b": {
+    "title": "Show HN: The Channels SDK – Bring Any Agent to Any Channel (Slack, MS Teams)",
+    "first_seen": "2026-08-07",
+    "times": 1,
+    "last_seen": "2026-08-07"
+  },
+  "33634171daadf3fb": {
+    "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+    "first_seen": "2026-08-07",
+    "times": 1,
+    "last_seen": "2026-08-07"
+  },
+  "6f61bfc484d42686": {
+    "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+    "first_seen": "2026-08-07",
+    "times": 1,
+    "last_seen": "2026-08-07"
+  },
+  "f540443ef9a3d553": {
+    "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+    "first_seen": "2026-08-07",
+    "times": 1,
+    "last_seen": "2026-08-07"
   }
 }
