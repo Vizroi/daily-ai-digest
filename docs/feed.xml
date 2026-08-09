@@ -4,65 +4,65 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 196 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 172 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 08 Aug 2026 10:28:24 +0800</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 10:35:16 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users</title>
-  <link>https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-08-9eb34f6aa755</guid>
-  <pubDate>Thu, 06 Aug 2026 10:00:00 +0000</pubDate>
+  <title>都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙</title>
+  <link>https://www.qbitai.com/2026/08/468462.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-09-2d97f4409071</guid>
+  <pubDate>Fri, 07 Aug 2026 18:40:34 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>66 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI更新ChatGPT：Plus/Pro的GPT-5.6 Sol新增思考强度滑块，事实错误率较GPT-5.5 Instant降68%；Free用户默认模型升级为GPT-5.6 Luna，本周起无限文本聊天，下周开放Think按钮，文件上传等仍限。Sol仅限Chat，Work/Codex不变。</p><p><strong>为什么重要</strong><br>免费用户无限文本是里程碑，1亿周活下推理成本被摊薄，OpenAI用模型分层（Sol/Luna）区分付费与免费体验，同时统一Instant与Thinking风格，压缩了第三方AI助手生存空间。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但「滑块控制推理强度」思路可借鉴到GAS技能配置：用连续参数而非布尔开关调节连招响应速度或受击反馈深度，提升手感细腻度。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt">OpenAI</a> · <a href="https://www.qbitai.com/2026/08/467879.html">量子位</a> · <a href="https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats">The Verge AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI推迟Astra模型发布，因其在Preparedness Framework评估中可能达到「Critical」级网络能力（可自主开发零日漏洞）。内部已隔离测试环境、限制网络访问、部署思维链监控，并暂停未达标活动。此前GPT-5.6 Sol仅评「High」。Anthropic的Mythos 5曾因同样理由延迟，仅向40家合作方开放。</p><p><strong>为什么重要</strong><br>安全叙事成为前沿AI公司竞争策略，OpenAI曾批评Anthropic此举为「恐惧营销」，如今自己重蹈覆辙。这改变行业发布节奏——最强模型不再即时公开，而是先过安全审查，影响开发者获取新能力的时效。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其「安全评估分级」思路：为PVP战斗系统设定风险阈值（如位移技能强度），达到Critical级时先内部沙盒测试再上线，避免破坏平衡性。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/468462.html">量子位</a> · <a href="https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>GitHub Actions and Pages are experiencing degraded availability</title>
-  <link>https://www.githubstatus.com/incidents/qcvjkzcs7j74</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-08-8fceee135c72</guid>
-  <pubDate>Thu, 06 Aug 2026 15:49:38 +0000</pubDate>
+  <title>“Code was never the hard part” is an insult to all programmers</title>
+  <link>https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-09-7708db269386</guid>
+  <pubDate>Sat, 08 Aug 2026 14:32:33 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>2026年8月6-7日GitHub Actions与Pages故障，webhook触发降至15%吞吐，任务成功率从30-40%恢复至99%。ARC runner pod卡死需kubectl手动删除，push/PR事件丢失不可重放。修复已部署，后续版本将加入自动恢复。</p><p><strong>为什么重要</strong><br>CI/CD核心服务中断数小时，影响全球自动化构建与部署。暴露了runner分配无效作业、自托管runner失联等架构缺陷，事件丢失机制迫使开发者手动重触发，凸显依赖单一平台的风险。</p><p><strong>对你而言</strong><br>与你的UE5项目无直接关系，除非你使用GitHub Actions做自动化构建或CI。若使用，需注意事件丢失不可自动重放，建议增加本地构建备份或监控webhook触发状态。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 492 +12.4 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Hacker News文章反驳“代码从来不是难点”论调，指出编程是需技能、耐心与经验的工艺，并强调理解用户与系统构建同等重要。文章批评产品经理与程序员间的认知割裂，认为行业正经历AI引发的巨变，但软件复杂度、维护需求及用户需求模糊性不变。</p><p><strong>为什么重要</strong><br>AI生成代码能力引发对程序员价值的质疑，此讨论触及职业身份与薪酬合理性。文章挑战“需求分析比编码更难”的流行观点，为程序员辩护，并指出适应变化需同时重视技术深度与业务理解，影响行业对AI协作的定位。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。文章聚焦通用编程职业价值辩论，未涉及GAS、动画蓝图或网络同步等具体技术。若需应对AI工具，可借鉴其“双轨并重”态度：保持对战斗系统手感与性能优化的深度掌控，同时警惕过度依赖AI生成代码带来的维护风险。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 593 +12.8 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Born Against, or why hobby programming communities are against LLM usage</title>
-  <link>https://blog.fogus.me/llm/born-against.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-08-1ea7eecbc64a</guid>
-  <pubDate>Wed, 05 Aug 2026 18:37:49 +0000</pubDate>
+  <title>Assembly Hall of Shame</title>
+  <link>https://github.com/xoreaxeaxeax/asm-hall-of-shame</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-09-141b4dd391c6</guid>
+  <pubDate>Fri, 07 Aug 2026 18:01:30 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>2026.08.04，Hacker News 文章讨论棋类引擎、OSDev、EmuDev 等小众编程社区对 LLM 的敌意。共识：领域知识是苦战所得，LLM 使用被视为错过学习过程本身。社区尊重靠多年分享优雅代码和深层知识赢得，不关心代码能否运行，只关心你懂为何及如何。</p><p><strong>为什么重要</strong><br>这反映了技术社区价值观分裂：LLM 作为效率工具 vs 作为学习替代品。小众社区将过程当产品，LLM 生成成品被视为剥夺工艺，且早期实践者因缺乏深度理解遭排斥，加剧了守门现象。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的战斗手感、GAS 配置依赖精确参数和调试，LLM 无法替代对动画曲线、网络同步的深层理解。但可警惕：若团队用 LLM 生成代码，需确保成员仍能解释每帧位移和受击逻辑，否则会重蹈社区信任危机。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 427 +12.1 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Assembly Hall of Shame 榜单记录单条 x86 指令的最慢执行时间。冠军是 AMD Ryzen 7 5800H 上的 fxrstor64，通过从高延迟 MMIO 区域加载 512 字节状态并配合多核 hammer 循环饱和 PCIe 根复合体，耗时 198,002,498,236 cycles（62 秒）。榜单还包括 nop（1 cycle）、idiv（77 cycles）、cpuid（1248 cycles）、rdrand（5579 cycles）等，规则要求单指令、不可中断、无硬件修改。</p><p><strong>为什么重要</strong><br>该榜单将性能优化视角倒转，量化了指令在极端竞争和微码辅助路径下的最坏延迟。它揭示了 x86 指令集在异常输入（如非规格化浮点数、跨缓存行锁、MMIO 压力）下的性能悬崖，远超常规基准测试覆盖范围。对依赖指令延迟建模的开发者，这是对微架构边界行为的罕见实测数据。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的工作聚焦 GAS 技能配置、动画蓝图和战斗手感，不涉及单指令延迟调优。但榜单中关于 MMIO 饱和导致 CPU 停滞的案例，可提醒你注意网络同步或性能分析时，避免在高延迟 I/O 路径上放置关键逻辑，以防类似卡顿。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 411 +12 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Tripledot Studios acquires Supersonic from Unity for $40m</title>
-  <link>https://www.gamesindustry.biz/tripledot-studios-acquires-supersonic-from-unity-for-40m</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-08-1deb380907b4</guid>
-  <pubDate>Thu, 06 Aug 2026 16:17:44 +0000</pubDate>
+  <title>Hardware backdoors in some x86 CPUs</title>
+  <link>https://github.com/xoreaxeaxeax/rosenbridge</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-09-abe0092bd221</guid>
+  <pubDate>Sat, 08 Aug 2026 07:04:51 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Tripledot Studios 以 4000 万美元从 Unity 收购超休闲发行商 Supersonic。Supersonic 2022 年随 IronSource 以 44 亿美元并入 Unity，现保留原团队和特拉维夫总部，独立运营。Tripledot 去年曾以 8 亿美元收购 AppLovin 手游业务。</p><p><strong>为什么重要</strong><br>Unity 在关闭 IronSource 后剥离发行资产，聚焦引擎与 AI 广告平台 Vector。收购方 Tripledot 连续吞并发行商，整合 Supersonic 与 Lion Studios，形成规模化发行矩阵，改变中小团队发行渠道格局。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但注意 Unity 战略收缩可能影响 GAS 相关工具链投入，若依赖 Unity 生态需关注后续资源分配。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamesindustry.biz/tripledot-studios-acquires-supersonic-from-unity-for-40m">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/business/unity-sells-supersonic-publishing-biz-to-tripledot-for-40m">Game Developer</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>39.7 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>x86 CPU 硬件后门 Rosenbridge，影响 VIA C3 系列（工业、ATM、医疗及部分消费级）。Ring 3 可读写 Ring 0 数据，部分系统默认启用。GitHub 提供检测/修复工具，含 DEIS 汇编器、提权 PoC、fuzzer。仅限 C3，后续 CPU 已移除。</p><p><strong>为什么重要</strong><br>首次公开比 ME/PSP 更深的嵌入式协处理器，绕过所有内存保护。证明硬件层可存在非恶意但危险的后门，改变安全研究边界，影响嵌入式与工控设备信任模型。</p><p><strong>对你而言</strong><br>与你的 UE5 武侠 PVP 项目无直接关系。但若开发涉及 VIA C3 嵌入式设备（如街机、ATM 外设），需检查并关闭后门；否则忽略。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 350 +11.7 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
   <title>How to Create Hair and Feathers for an Owl Harpy Character</title>
   <link>https://80.lv/articles/how-to-create-hair-and-feathers-for-an-owl-harpy-character/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-08-5d9acdfc4867</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-09-5d9acdfc4867</guid>
   <pubDate>Fri, 07 Aug 2026 16:07:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Eugenia Zanina在UE5中制作Owl Harpy角色，用Maya XGen生成毛发与羽毛，自研自定义毛发着色器实现柔软蓬松效果。她将模型分为三套2K UV贴图，手动排布壳，使用Substance 3D Painter做PBR纹理。此前三次尝试游戏就绪毛发均失败，本次未限多边形数。</p><p><strong>为什么重要</strong><br>毛发制作是角色美术的公认难点，常导致项目延期或效果妥协。该案例展示从失败到成功的完整路径，强调规划与材质分配，对行业有方法论价值。</p><p><strong>对你而言</strong><br>无直接关系。你专注战斗系统，非角色资产创建。但若需优化毛发渲染性能，可参考其自定义着色器思路，不过当前项目无此需求。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「ue5」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>10 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Eugenia Zanina 用 XGen 在 Maya 中制作 Owl Harpy 角色的毛发与羽毛，使用自定义毛发着色器实现柔软蓬松效果，并在 UE5 中设置光照。项目采用三张 2K UV 贴图，手动布局 UV 壳，PBR 流程用 Substance 3D Painter 绘制纹理，未用 MetaHuman。</p><p><strong>为什么重要</strong><br>该案例展示个人作品如何系统攻克游戏就绪毛发管线，涵盖卡片、毛发、羽毛三类常见类型，强调规划与参考收集对复杂资产制作的重要性，对角色美术和战斗项目中的视觉表现有参考价值。</p><p><strong>对你而言</strong><br>与你的战斗策划工作无直接关系，但若涉及角色视觉反馈或性能优化，可借鉴其 UV 分配与毛发着色器思路，不过核心是美术流程，非战斗逻辑。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「ue5」 +20 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
   <title>Investors hate Roblox’ new direction – but a reversal may be impossible | Opinion</title>
   <link>https://www.gamesindustry.biz/investors-hate-roblox-new-direction-but-a-reversal-may-be-impossible-opinion</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-08-d99d280ab0c8</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-09-d99d280ab0c8</guid>
   <pubDate>Fri, 07 Aug 2026 14:53:37 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Roblox市值一年跌73%，财报日单日蒸发90亿美元。DAU上季度下滑，营收预期再降。欧盟将依用户数将其列为VLOP，需遵守内容审核、未成年人保护、数据开放等义务。公司主动抑制快速变现的爆款游戏，转向可持续但低短期收益的内容。</p><p><strong>为什么重要</strong><br>市场曾按科技平台而非游戏公司估值Roblox至千亿美元，现因增长逻辑破裂重估。平台依赖第三方创作者产出爆款，但监管与声誉压力迫使策略转向，与增长型估值矛盾。这动摇了‘永续游戏’叙事，影响整个游戏业对平台化模式的信心。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可警惕：若PVP项目依赖UGC或平台分成，第三方内容质量与监管合规会直接冲击估值与留存，需提前设计内容审核与创作者激励的平衡机制。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>10 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Roblox市值一年跌73%，单日蒸发90亿美元。Q1日活下滑，营收预期再降。欧盟将依用户数将其列为VLOP，需遵守内容审核、未成年人保护、数据开放等义务。公司主动抑制病毒式快变现游戏，转向可持续长线内容。</p><p><strong>为什么重要</strong><br>市场曾按科技平台估值千亿美元，现回归游戏公司逻辑。平台依赖第三方创作者产出爆款，但Roblox自身政策与监管压力正削弱短期增长引擎。这动摇了'永续游戏'叙事，也警示所有依赖UGC生态的平台：增长与合规、平台控制与创作者自由存在根本张力。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：若做UGC或平台化，需平衡创作者激励与平台治理；监管合规（如未成年人保护）可能强制改变变现设计，早期架构需预留数据透明与内容审核接口。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
-  <title>I spent the last few months building gameplay systems in Unreal Engine 5. Here's some of my favorite mechanics</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vibhqw/i_spent_the_last_few_months_building_gameplay/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-08-317448b899d7</guid>
-  <pubDate>Fri, 07 Aug 2026 20:14:57 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>36.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者用蓝图与C++在UE5数月构建玩法系统，视频展示AI行为、交互、战斗等机制，寻求社区反馈。</p><p><strong>为什么重要</strong><br>独立开发者作品反映UE5通用玩法框架趋势，社区反馈可加速迭代，影响战斗系统设计思路。</p><p><strong>对你而言</strong><br>与你的项目无直接关系，但可参考其AI与交互集成方式，用于GAS配置或动画蓝图优化。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +2.4 / 命中「unreal engine」 +20</small></p>]]></description>
+  <title>Tripledot Studios acquires Supersonic from Unity for $40m</title>
+  <link>https://www.gamesindustry.biz/tripledot-studios-acquires-supersonic-from-unity-for-40m</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-09-1deb380907b4</guid>
+  <pubDate>Thu, 06 Aug 2026 16:17:44 +0000</pubDate>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Tripledot以4000万美元从Unity收购超休闲发行商Supersonic，后者2022年随IronSource以44亿美元并入Unity。交易后Supersonic独立运营，CEO不变，总部留特拉维夫。Tripledot去年曾8亿美元收购AppLovin手游业务。</p><p><strong>为什么重要</strong><br>Unity剥离非核心发行资产，聚焦引擎与Vector广告平台，本季度创历史最佳。发行市场整合加速，AI降低开发门槛后，发行与买量能力成为小团队生死线。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注Unity出售发行部门后，引擎资源投入或更集中，GAS与动画系统迭代可能受益。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.gamesindustry.biz/tripledot-studios-acquires-supersonic-from-unity-for-40m">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/business/unity-sells-supersonic-publishing-biz-to-tripledot-for-40m">Game Developer</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
