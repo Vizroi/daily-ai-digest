@@ -206,14 +206,14 @@
   "5d9acdfc48671c0c": {
     "title": "How to Create Hair and Feathers for an Owl Harpy Character",
     "first_seen": "2026-08-08",
-    "times": 2,
-    "last_seen": "2026-08-09"
+    "times": 3,
+    "last_seen": "2026-08-10"
   },
   "d99d280ab0c82714": {
     "title": "Investors hate Roblox’ new direction – but a reversal may be impossible | Opinion",
     "first_seen": "2026-08-08",
-    "times": 2,
-    "last_seen": "2026-08-09"
+    "times": 3,
+    "last_seen": "2026-08-10"
   },
   "317448b899d7b891": {
     "title": "I spent the last few months building gameplay systems in Unreal Engine 5. Here's some of my favorite mechanics",
@@ -244,5 +244,53 @@
     "first_seen": "2026-08-09",
     "times": 1,
     "last_seen": "2026-08-09"
+  },
+  "a3222a17dc2db4cc": {
+    "title": "How I use LLMs to learn complex topics",
+    "first_seen": "2026-08-10",
+    "times": 1,
+    "last_seen": "2026-08-10"
+  },
+  "6b0313d51084c67c": {
+    "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+    "first_seen": "2026-08-10",
+    "times": 1,
+    "last_seen": "2026-08-10"
+  },
+  "feb2f200d1fc7b11": {
+    "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+    "first_seen": "2026-08-10",
+    "times": 1,
+    "last_seen": "2026-08-10"
+  },
+  "210de9e40d5f7a28": {
+    "title": "180万刀，连亚马逊都烧不起Claude了",
+    "first_seen": "2026-08-10",
+    "times": 1,
+    "last_seen": "2026-08-10"
+  },
+  "8e4a1120a30aaaab": {
+    "title": "Opus 5狂烧6.9亿token做游戏，GPT-5.6用5美元复刻了",
+    "first_seen": "2026-08-10",
+    "times": 1,
+    "last_seen": "2026-08-10"
+  },
+  "379bfcace2390aea": {
+    "title": "How to use and Subscribe Mass Signals in UE5.7?",
+    "first_seen": "2026-08-10",
+    "times": 1,
+    "last_seen": "2026-08-10"
+  },
+  "20022b0acbc53aca": {
+    "title": "Unreal indie dev developing an auto retopology tool in Blender",
+    "first_seen": "2026-08-10",
+    "times": 1,
+    "last_seen": "2026-08-10"
+  },
+  "9939ac8c5e44dbfb": {
+    "title": "UE 5.6 Lumen Hardware Ray Tracing AMD driver crash",
+    "first_seen": "2026-08-10",
+    "times": 1,
+    "last_seen": "2026-08-10"
   }
 }
