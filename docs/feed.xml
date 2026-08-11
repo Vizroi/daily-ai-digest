@@ -4,89 +4,73 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 150 个事件，只有 10 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 159 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 10 Aug 2026 10:44:19 +0800</lastBuildDate>
+<lastBuildDate>Tue, 11 Aug 2026 10:34:51 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>How I use LLMs to learn complex topics</title>
-  <link>https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-a3222a17dc2d</guid>
-  <pubDate>Sun, 09 Aug 2026 19:16:49 +0000</pubDate>
+  <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
+  <link>https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-260ea4015ac2</guid>
+  <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>作者用LLM分四步学习芯片制造：先建知识库，再自检准确性，然后生成低多边形《过山车大亨》风格模拟动画，最后部署到GitHub Pages，成品为ChipTycoon网站，展示从沙到芯片全流程。</p><p><strong>为什么重要</strong><br>传统LLM解释过于简化且易幻觉，此方法将抽象知识转化为可交互视觉模拟，提升记忆留存，为技术学习提供新范式，影响教育工具设计方向。</p><p><strong>对你而言</strong><br>可借鉴其流程：用LLM生成战斗系统的低多边形模拟，如连招或受击反馈，快速验证手感逻辑，再导入UE5细化，但需注意模拟与GAS实际参数差异，仅作原型参考。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 453 +12.2 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>99.9 分</strong> · 5 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta发布Muse Glimmer，30B稠密模型，120K上下文，单GPU 20K tokens/s，支持RTX 5090、DGX Spark/Station、Jetson，提供NIM容器及SGLang/vLLM推理方案。</p><p><strong>为什么重要</strong><br>稠密架构全参数激活，无MoE路由开销，专为长时多步agent任务设计，强调本地隐私与低延迟，挑战云端推理主导的agent部署模式。</p><p><strong>对你而言</strong><br>若你的PVP战斗需本地AI裁判或NPC决策，可借鉴其稠密模型与NIM容器化部署；但战斗系统实时性要求远高于此，直接关联有限。</p><p><small>评分依据：5 源报道 +60 / 一手源 +18 / HN 1049 +13.9 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/">NVIDIA Developer</a> · <a href="https://huggingface.co/blog/muse-glimmer">HuggingFace Blog</a> · <a href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything">Simon Willison</a> · <a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Hacker News</a> · <a href="https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/">TechCrunch AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>DeepMind's WeatherNext model achieves breakthrough forecasting cyclones</title>
-  <link>https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-6b0313d51084</guid>
-  <pubDate>Sat, 08 Aug 2026 09:18:50 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>DeepMind 开源 WeatherNext 2 与 Cyclones 模型，Nature 论文显示其 3 天预报精度等同旧模型 2 天，多出 1 天预警。模型用 28x28km 粗分辨率（比传统粗 100 倍），TPU 上 1 分钟生成 15 天预报，集合规模从 50 扩至 1000。2025 年助 NHC 预测飓风 Melissa 增强及登陆。</p><p><strong>为什么重要</strong><br>AI 预报首次在台风路径、强度、风结构上全面超越传统物理模型，且粗分辨率颠覆高分辨率主导认知。开源使全球气象机构可低成本部署，将预警时效提升约十年气象学进步，直接影响防灾决策与保险、能源行业。</p><p><strong>对你而言</strong><br>无直接关系。但 FGN 生成式集合与粗分辨率训练思路，可借鉴为战斗 AI 预测玩家行为或网络同步中不确定性建模，不过需自行评估迁移成本。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 436 +12.2 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</title>
-  <link>https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-feb2f200d1fc</guid>
+  <title>Claude Code倒计时5天默认自动模式，多花的钱A社自己掏</title>
+  <link>https://www.qbitai.com/2026/08/469500.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-d8251fb64b1c</guid>
   <pubDate>Sat, 08 Aug 2026 22:36:03 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 自2026年8月14日起，将Claude Code的Auto模式设为Pro、Max、Team计划新会话默认。内部测试1053名付费用户，仅13.6%人类拒绝危险命令，Auto模式拦截89%。第三方Trajectory Labs测试720次间接提示注入攻击，Claude Fable 5/Opus 5/Sonnet 5全部拦截。</p><p><strong>为什么重要</strong><br>默认Auto模式颠覆了人工审批范式，承认确认疲劳导致人类审查比AI更不可靠。Anthropic宣称已缓解提示注入和数据外泄风险，但独立验证缺失，恶意包如'uvx fetch-model-files'仍可能绕过。这直接影响2026年编码代理安全预测，若属实将重塑AI工具信任模型。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。但可借鉴其安全思路：若未来用AI辅助战斗逻辑或动画配置，需警惕提示注入风险，建议隔离工具权限，避免AI直接访问生产数据库或关键资产，采用最小权限原则运行自动化测试。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything">Simon Willison</a> · <a href="https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>67.2 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic宣布5天后Claude Code默认启用auto mode，分类器每次工具调用额外token成本由A社承担。人工审批同意率97%，拒绝率仅3%；1053人受控实验中人类拦截危险命令13.6%，auto mode拦89%。生产数据7分以上严重级别，人工审批6.3%出现未明确要求的有害操作，auto mode为2.4%。对抗测试后漏检率从12%降至7%。云平台渠道一个月内也要切换。</p><p><strong>为什么重要</strong><br>人工审批权限被证明是形式主义，人类在长会话中拦截率从17%跌至5%，而auto mode不随会话长度衰减。这是AI编程工具从'人审AI'转向'AI审AI'的行业分水岭，Anthropic用数据证明自动模式更安全，直接冲击所有依赖人工确认的AI编码工具设计范式。</p><p><strong>对你而言</strong><br>你的GAS技能配置和战斗逻辑若接入Claude Code，auto mode能拦截危险命令但需注意：分类器对git reset --hard等操作会先读git status，数据外泄为hard deny。建议在项目中将战斗数值调整、动画蓝图修改等高风险操作设为需人工确认，利用managed settings的defaultMode和disableAutoMode控制团队默认策略。</p><p><small>评分依据：4 源报道 +48 / 分析源 +8 / HN 276 +11.2</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/469500.html">量子位</a> · <a href="https://claude.com/blog/auto-mode-default-in-claude-code">Hacker News</a> · <a href="https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything">Simon Willison</a> · <a href="https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/">TechCrunch AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>180万刀，连亚马逊都烧不起Claude了</title>
-  <link>https://www.qbitai.com/2026/08/469010.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-210de9e40d5f</guid>
-  <pubDate>Fri, 07 Aug 2026 16:18:51 +0000</pubDate>
+  <title>Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models</title>
+  <link>https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-ad0d153e0a3b</guid>
+  <pubDate>Mon, 10 Aug 2026 14:06:22 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>亚马逊用Claude Sonnet填充作者信息，超预算860%烧掉180万美元，5个月后才被发现且未部署。Claude Sonnet公开价每百万输入3美元、输出15美元，180万最多烧6000亿token。Meta 6月对6000员工设token上限，Uber 2026年头4个月烧光全年AI预算后设每人每月1500美元上限。OpenAI内部最高个人用户月耗1000亿token。</p><p><strong>为什么重要</strong><br>AI Agent失控消耗成为行业级成本危机，从年初鼓励多用转向预算上限管控。古德哈特定律生效：KiroRank、Claudeonomics等排行榜诱导刷量，Meta 30天消耗73.7万亿token、折合月账单2.21亿美元。仅26%企业具备AI成本可见性，失控普遍且滞后发现。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可警惕：若战斗AI或测试Agent接入LLM，需设token预算与实时监控，避免死循环重试烧钱。参考Meta的AI Gateway模式，为GAS技能调试或自动化测试的AI调用设硬上限。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/469010.html">量子位</a> · <a href="https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything">Simon Willison</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>63.9 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>扎克伯格公开批评封闭AI对手，宣布Meta回归开源模型路线。FT文章正文被订阅墙遮挡，未披露具体模型名或参数。</p><p><strong>为什么重要</strong><br>Meta此前Llama系列已开源，此番表态强化开源与闭源阵营对立，直接影响开发者选型与行业标准争夺。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。若未来AI驱动NPC或动画生成，可关注Llama后续版本，但当前无落地关联。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 389 +11.9 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878">Hacker News</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision">The Verge AI</a> · <a href="https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/">TechCrunch AI</a> · <a href="https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>Opus 5狂烧6.9亿token做游戏，GPT-5.6用5美元复刻了</title>
-  <link>https://www.qbitai.com/2026/08/468766.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-8e4a1120a30a</guid>
-  <pubDate>Fri, 07 Aug 2026 19:18:09 +0000</pubDate>
+  <title>Expanding Daybreak as the Cyber Defense Window Narrows</title>
+  <link>https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-3d4c21426230</guid>
+  <pubDate>Mon, 10 Aug 2026 10:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Opus 5用单条2000字提示词、6.9亿token和423美元生成《INK TIDE》快艇竞速游戏，含完整UI、水面物理和子Agent分工。GPT-5.6 Sol在Codex中用2条提示词、5小时、5美元复刻，但画面细节粗糙。复刻版用Sol Ultra主控+Luna Max子Agent，成本为订阅额度折算。</p><p><strong>为什么重要</strong><br>AI生成游戏从demo进入工程化阶段，成本差84倍。子Agent分工和视觉评审harness对抗注意力稀释，是大型AI生成任务的关键方法论。品质上限仍取决于人的需求文档质量，而非模型本身。</p><p><strong>对你而言</strong><br>子Agent按模块拆分+截图验收循环可借鉴到GAS配置和动画蓝图调试。但AI生成游戏与UE5战斗手感、网络同步无直接关系，仅提示词工程思路可参考，不建议投入复刻。与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/468766.html">量子位</a> · <a href="https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything">Simon Willison</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-5.6-Cyber及Daybreak蓝/红双访问层级。蓝层去系统护栏，红层含专训模型，高级网络请求完成率95.0%，对比GPT-5.6 Sol的1.5%和GPT-5.5-Cyber的57.3%。</p><p><strong>为什么重要</strong><br>AI攻防窗口收窄，防御者需在攻击者规模化前获得前沿能力。OpenAI首次以产品化分层开放高危双用途能力，改变安全研究工具供给格局，迫使防御方重新评估AI辅助渗透测试与漏洞挖掘的基准线。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若涉及服务器安全或反作弊，可关注GPT-5.6-Cyber在漏洞利用链生成上的效率提升，用于评估自身系统暴露面，而非直接集成。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows">OpenAI</a> · <a href="https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands">OpenAI</a> · <a href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/">TechCrunch AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>How to use and Subscribe Mass Signals in UE5.7?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vk0v52/how_to_use_and_subscribe_mass_signals_in_ue57/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-379bfcace239</guid>
-  <pubDate>Sun, 09 Aug 2026 20:47:42 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5.7 Mass Signals 订阅与使用无官方文档，社区提问无有效回复。提问者尝试现有实现无效，具体 API 调用方式未知。</p><p><strong>为什么重要</strong><br>Mass 框架是 UE5 大规模实体模拟核心，Signals 用于实体间事件通信。缺乏文档阻碍开发者采用，影响 Mass 生态普及。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来涉及 Mass 实体系统，需自行源码调试，当前无现成方案可参考。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「ue5」 +20</small></p>]]></description>
+  <title>Unity Posts Best Quarter in Company History as Revenue Hits $546M</title>
+  <link>https://80.lv/articles/unity-posts-best-quarter-in-company-history-as-revenue-hits-usd546m/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-0d7a9a42ef02</guid>
+  <pubDate>Mon, 10 Aug 2026 13:46:23 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Unity 2026 Q2 营收5.46亿美元，同比增24%；GAAP净亏损收窄至2300万。Vector AI广告业务贡献3.89亿，同比增35%；引擎业务仅从1.54亿增至1.58亿。Unity 7定于2026年12月内测，2027 Q1正式发布。</p><p><strong>为什么重要</strong><br>引擎主业停滞，广告AI成利润引擎。股价涨17%，投行上调目标价。引擎厂商靠卖流量而非卖工具赚钱，行业重心从开发端转向买量端。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。Unity引擎业务增长乏力，但Unity 7的Vector与内购工具若影响跨平台买量生态，可能间接抬高UE武侠PVP的获客成本，建议关注其广告定价策略。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://80.lv/articles/unity-posts-best-quarter-in-company-history-as-revenue-hits-usd546m/">80.lv</a> · <a href="https://www.gamedeveloper.com/business/unity-credits-ai-advertising-platform-for-driving-its-best-quarter-ever-">Game Developer</a></small></p>]]></description>
 </item>
 <item>
-  <title>Unreal indie dev developing an auto retopology tool in Blender</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vk7dr7/unreal_indie_dev_developing_an_auto_retopology/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-20022b0acbc5</guid>
-  <pubDate>Mon, 10 Aug 2026 01:34:57 +0000</pubDate>
+  <title>ArtStation and Sketchfab Have Been Acquired by KitBash</title>
+  <link>https://80.lv/articles/artstation-and-sketchfab-have-been-acquired-by-kitbash/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-485f7cf0be81</guid>
+  <pubDate>Mon, 10 Aug 2026 23:14:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>41.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>独立开发者发布Blender自动重拓扑工具新版本，按网格类别（布料、道具）定制重网格算法，并计划开发UE资产桥接插件。</p><p><strong>为什么重要</strong><br>自动重拓扑是美术流程瓶颈，按类别优化可提升效率，UE插件将打通DCC到引擎的自动化管线，影响独立开发者的资产制作成本。</p><p><strong>对你而言</strong><br>关注其算法分类思路，若插件成熟可减少手动减面工作，但当前与战斗系统无直接关联。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +7.2 / 命中「unreal」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>KitBash从Epic收购ArtStation与Sketchfab，与KitBash3D、Greyscalegorilla合并。Epic保留Fab，聚焦UE6、Fortnite、EGS。现有作品集、订阅、工作流不变。</p><p><strong>为什么重要</strong><br>Epic五年运营后剥离艺术家平台，资源集中引擎与商店。KitBash整合资产、教学、发布全链条，改变3D内容生态入口格局。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但注意Fab归属未变，UE6资源管线不受影响，可继续依赖现有资产获取渠道。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>UE 5.6 Lumen Hardware Ray Tracing AMD driver crash</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vjmhto/ue_56_lumen_hardware_ray_tracing_amd_driver_crash/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-9939ac8c5e44</guid>
-  <pubDate>Sun, 09 Aug 2026 10:32:41 +0000</pubDate>
+  <title>Try This Box3D Integration For Unreal Engine 5</title>
+  <link>https://80.lv/articles/try-this-box3d-integration-for-unreal-engine-5/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-5e773719c397</guid>
+  <pubDate>Mon, 10 Aug 2026 14:58:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>34 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE 5.6 中 Lumen 硬件光追在 AMD 显卡上触发驱动崩溃，报错 DXGI_ERROR_DEVICE_HUNG/REMOVED，用户使用 Adrenalin 26.7.1 驱动，短时间加载大量资源时复现。</p><p><strong>为什么重要</strong><br>AMD 驱动与 UE 5.6 Lumen HWRT 兼容性缺陷，影响 AMD 用户开发与测试，迫使团队回退软件光追或旧驱动，增加迭代成本。</p><p><strong>对你而言</strong><br>若项目启用 Lumen HWRT，需在 AMD 平台验证驱动版本，并准备软件光追回退路径；否则与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「ue 5.」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Antonio Lattanzio发布免费开源插件Box3DUnreal，用Erin Catto的Box3D引擎替换UE5几乎全部物理管线。支持静态网格、Actor/Component、C++访问、调试工具及示例地图，当前版本可下载。</p><p><strong>为什么重要</strong><br>UE5默认Chaos物理重且非确定性，Box3D轻量确定性，已被Facepunch的s&amp;box采用。此插件为UE社区提供官方之外的物理替代方案，降低实验门槛，可能影响物理玩法设计趋势。</p><p><strong>对你而言</strong><br>若你的PVP战斗依赖精确可复现的受击位移或网络同步，Box3D的确定性值得测试对比Chaos。但插件早期，稳定性未知，不建议直接用于生产，可关注其碰撞与动画蓝图兼容性。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>How to Create Hair and Feathers for an Owl Harpy Character</title>
-  <link>https://80.lv/articles/how-to-create-hair-and-feathers-for-an-owl-harpy-character/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-5d9acdfc4867</guid>
-  <pubDate>Fri, 07 Aug 2026 16:07:00 +0000</pubDate>
+  <title>Move Animated Maya Scenes To Blender &amp; UE5 In One Click</title>
+  <link>https://80.lv/articles/move-animated-maya-scenes-to-blender-ue5-in-one-click/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-0994e759af3d</guid>
+  <pubDate>Mon, 10 Aug 2026 13:33:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>10 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Eugenia Zanina在UE5中制作Owl Harpy角色，用Maya XGen生成毛发和羽毛，自定义hair shader实现柔软蓬松效果。她将模型分为三张2K UV贴图，手动摆放UV壳，使用Substance 3D Painter做PBR纹理，未用MetaHuman。此前三次尝试游戏就绪毛发均失败。</p><p><strong>为什么重要</strong><br>毛发和羽毛是角色美术的难点，尤其游戏就绪管线需平衡视觉与性能。该案例展示从失败到成功的完整路径，强调技术理解、软件熟练度和引擎着色器设置三要素。对行业而言，XGen结合自定义shader是替代专用羽毛工具的可复用方案，降低工具链依赖。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你专注GAS和战斗系统，此内容属角色美术管线。但若需优化毛发渲染性能，可参考其UV布局和shader思路，不过非核心战斗逻辑。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「ue5」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Investors hate Roblox’ new direction – but a reversal may be impossible | Opinion</title>
-  <link>https://www.gamesindustry.biz/investors-hate-roblox-new-direction-but-a-reversal-may-be-impossible-opinion</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-10-d99d280ab0c8</guid>
-  <pubDate>Fri, 07 Aug 2026 14:53:37 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>10 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Roblox市值一年跌73%，财报日单日蒸发90亿美元。Q2日活环比下滑，营收预期再降。欧盟将依用户数将其列为VLOP，需遵守内容审核、未成年人保护及数据开放义务。</p><p><strong>为什么重要</strong><br>市场曾按平台型科技股给其千亿估值，但增长依赖第三方爆款内容，平台自身转向长线留存策略，与增长股逻辑冲突。监管压力使逆转更不可能，暴露UGC平台模式的结构性风险。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可警惕：若PVP项目依赖UGC或第三方内容供给，需评估内容质量波动与监管合规对留存和估值的连锁影响。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20 / 已报过 -30</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>MableLink v0.1.3，Maya 2024/2027 到 Blender 4.5/5.2 LTS 与 UE5.8 的管线桥接插件。免费版限 20 次发送与 5 次材质传输；Pro 一次性买断，5 台机器授权，支持无限材质与实时重同步。保留骨骼、动画、BlendShape、NURBS、PBR 材质，支持 GLB/GLTF 与 MagicaVoxel 体素转换。</p><p><strong>为什么重要</strong><br>传统 DCC 互导需展平场景，丢失绑定与材质参数。MableLink 保留完整数据链，且实时重同步免去重复导入，直接冲击现有动画资产跨软件工作流，尤其对多软件混合管线团队是效率变量。</p><p><strong>对你而言</strong><br>若你的战斗动画需在 Maya 调好后进 UE5 做蒙太奇，此工具可省去重导与材质修复。但实时重同步仅限 Blender/Unreal，且免费版限额，需评估 Pro 成本。与 GAS 配置、网络同步无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「ue5」 +20</small></p>]]></description>
 </item>
 </channel>
 </rss>
