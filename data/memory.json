@@ -296,8 +296,8 @@
   "260ea4015ac2e256": {
     "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
     "first_seen": "2026-08-11",
-    "times": 1,
-    "last_seen": "2026-08-11"
+    "times": 2,
+    "last_seen": "2026-08-12"
   },
   "d8251fb64b1c3e82": {
     "title": "Claude Code倒计时5天默认自动模式，多花的钱A社自己掏",
@@ -314,8 +314,8 @@
   "3d4c2142623036e5": {
     "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
     "first_seen": "2026-08-11",
-    "times": 1,
-    "last_seen": "2026-08-11"
+    "times": 2,
+    "last_seen": "2026-08-12"
   },
   "0d7a9a42ef027899": {
     "title": "Unity Posts Best Quarter in Company History as Revenue Hits $546M",
@@ -340,5 +340,35 @@
     "first_seen": "2026-08-11",
     "times": 1,
     "last_seen": "2026-08-11"
+  },
+  "4ee543b24367ddfd": {
+    "title": "Claude骂声中启动「隐形水印」：新模型全量嵌入，标记所有文字",
+    "first_seen": "2026-08-12",
+    "times": 1,
+    "last_seen": "2026-08-12"
+  },
+  "12d14cec7777a8c0": {
+    "title": "百年黎曼猜想被Claude破了新纪录！是个未公开新模型",
+    "first_seen": "2026-08-12",
+    "times": 1,
+    "last_seen": "2026-08-12"
+  },
+  "0df1f31f9afcf1e5": {
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "first_seen": "2026-08-12",
+    "times": 1,
+    "last_seen": "2026-08-12"
+  },
+  "cc87497340b1992a": {
+    "title": "France to ban unsolicited telemarketing calls",
+    "first_seen": "2026-08-12",
+    "times": 1,
+    "last_seen": "2026-08-12"
+  },
+  "fce64f9bb34ecbfc": {
+    "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+    "first_seen": "2026-08-12",
+    "times": 1,
+    "last_seen": "2026-08-12"
   }
 }

@@ -4,73 +4,65 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 159 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 188 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 11 Aug 2026 10:34:51 +0800</lastBuildDate>
+<lastBuildDate>Wed, 12 Aug 2026 11:04:28 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
+<item>
+  <title>Claude骂声中启动「隐形水印」：新模型全量嵌入，标记所有文字</title>
+  <link>https://www.qbitai.com/2026/08/470228.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-4ee543b24367</guid>
+  <pubDate>Mon, 10 Aug 2026 21:36:56 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>76.1 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 于 2026 年 8 月签署欧盟《AI 法案》透明度准则，为 2026 年 8 月 2 日后发布的所有 Claude 模型（含 API、Claude Code 等全产品线）强制加入隐形文本水印与 C2PA 签名元数据，全球生效。水印基于 Unicode 不可见字符嵌入文本，复制或轻度编辑后仍可检测，但算法细节未公开。此前 Claude Code 已被发现用 Unicode 变体字符标记中国用户。</p><p><strong>为什么重要</strong><br>这是首个主流大模型将内容溯源从元数据层下沉到文本字符层，且全球强制。它把 AI 检测从「事后概率判断」变为「事前确定性标记」，直接冲击所有依赖文本重写、翻译、摘要的 AI 工作流，并可能成为欧盟监管下的行业范本，迫使其他厂商跟进或对抗。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来 UE5 项目涉及 AI 生成剧情文本或聊天系统，需注意水印字符可能混入字符串比较、哈希或网络同步数据，导致逻辑异常；但当前战斗系统不受影响。</p><p><small>评分依据：4 源报道 +48 / 分析源 +8 / HN 424 +12.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/470228.html">量子位</a> · <a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content">Hacker News</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images">The Verge AI</a> · <a href="https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/">TechCrunch AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>百年黎曼猜想被Claude破了新纪录！是个未公开新模型</title>
+  <link>https://www.qbitai.com/2026/08/470485.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-12d14cec7777</guid>
+  <pubDate>Mon, 10 Aug 2026 17:41:13 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>55.2 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic未公开Claude研究模型将黎曼ζ函数零点比例下界从41.6%推至67.2%。动用60个子智能体、3100万Token、2400条Shell命令，耗时一天半。结果经内部数学家及外部专家审阅，并写成Lean形式化验证版本。</p><p><strong>为什么重要</strong><br>该纪录由人类数学家经数十年接力推进，AI单次实验即大幅刷新。表明AI已能自主处理开放数学问题：生成650个思路、多智能体分工、交叉审稿、查重、复现。科研流程自动化程度显著提升，冲击传统数学研究范式。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但多智能体协作、自动验证与交叉审稿的流程设计，可借鉴用于战斗AI测试或技能平衡性验证的自动化框架搭建。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 263 +11.2</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/470485.html">量子位</a> · <a href="https://www.anthropic.com/research/riemann-zeta">Hacker News</a> · <a href="https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/">TechCrunch AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
+  <link>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-0df1f31f9afc</guid>
+  <pubDate>Tue, 11 Aug 2026 13:22:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>52.5 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>2026年8月11日论文揭示：Anthropic、OpenAI、Google的加密思维链（CoT）块可被跨会话/用户/模型重放。攻击者将GPT-5.6-luna的加密推理块喂给同族弱模型（如Claude Haiku 4.5），用特定前缀提示词越狱，明文还原强模型隐藏推理。所有厂商已修复，但论文附录泄露了原始推理痕迹样本。</p><p><strong>为什么重要</strong><br>首次证明加密CoT并非安全边界，同族模型共享密钥是致命设计缺陷。这打破了对专有模型推理过程保密性的信任，暴露了提示注入的新变体：将数据外泄指令混入思维链，可诱导其他模型执行。影响所有依赖CoT加密的API服务商，迫使重新设计推理隔离机制。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：若你的GAS技能或动画蓝图涉及服务端推理（如AI对手决策），切勿假设加密或混淆是安全边界。同族共享密钥、弱模型可越狱等教训，适用于任何客户端-服务器共享逻辑的加密设计。建议审查网络同步中是否有类似可重放的加密状态块。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 522 +12.5 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything">Simon Willison</a> · <a href="https://stolen-thoughts.com/">Hacker News</a></small></p>]]></description>
+</item>
+<item>
+  <title>France to ban unsolicited telemarketing calls</title>
+  <link>https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-cc87497340b1</guid>
+  <pubDate>Tue, 11 Aug 2026 08:15:46 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>41.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>法国拟立法禁止未经同意的电话营销，违规企业面临最高37.5万欧元罚款。法案预计2025年生效，覆盖所有行业，金融与保险除外。</p><p><strong>为什么重要</strong><br>电话营销骚扰成全球公害，法国此举将重塑企业获客方式，迫使依赖外呼的行业转向短信、邮件等合规渠道，影响跨国企业欧洲市场策略。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 991 +13.8 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots</title>
+  <link>https://cactuscompute.com/needle</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-fce64f9bb34e</guid>
+  <pubDate>Mon, 10 Aug 2026 17:22:07 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Needle2 发布：45M参数、14MB二进制、28MB RAM的端侧工具调用模型。基于Simple Attention Network，CQ2-bit量化，单C++二进制运行。Pi5解码500 tok/s，Quest 3S达400-1500 tok/s，ESP32-S3可跑。预训练115B token，后训练38B。Pebble Index Ring已本地部署。</p><p><strong>为什么重要</strong><br>边缘AI从PC/Mac下沉到&lt;200美元设备（21亿IoT vs 15亿PC）。2bit量化从预训练开始而非事后，证明小模型在工具调用场景可匹敌大模型。挑战了“参数越大越好”的行业惯性，为低功耗硬件提供新范式。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。但“训练时量化”和“固定工具槽位防驱逐”的思路，可借鉴到GAS技能配置的运行时内存优化，或作为网络同步中低带宽状态压缩的参考。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 509 +12.5 / HN 头条 +8</small></p>]]></description>
+</item>
 <item>
   <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
   <link>https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-260ea4015ac2</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-260ea4015ac2</guid>
   <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>99.9 分</strong> · 5 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta发布Muse Glimmer，30B稠密模型，120K上下文，单GPU 20K tokens/s，支持RTX 5090、DGX Spark/Station、Jetson，提供NIM容器及SGLang/vLLM推理方案。</p><p><strong>为什么重要</strong><br>稠密架构全参数激活，无MoE路由开销，专为长时多步agent任务设计，强调本地隐私与低延迟，挑战云端推理主导的agent部署模式。</p><p><strong>对你而言</strong><br>若你的PVP战斗需本地AI裁判或NPC决策，可借鉴其稠密模型与NIM容器化部署；但战斗系统实时性要求远高于此，直接关联有限。</p><p><small>评分依据：5 源报道 +60 / 一手源 +18 / HN 1049 +13.9 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/">NVIDIA Developer</a> · <a href="https://huggingface.co/blog/muse-glimmer">HuggingFace Blog</a> · <a href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything">Simon Willison</a> · <a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Hacker News</a> · <a href="https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/">TechCrunch AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Claude Code倒计时5天默认自动模式，多花的钱A社自己掏</title>
-  <link>https://www.qbitai.com/2026/08/469500.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-d8251fb64b1c</guid>
-  <pubDate>Sat, 08 Aug 2026 22:36:03 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>67.2 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic宣布5天后Claude Code默认启用auto mode，分类器每次工具调用额外token成本由A社承担。人工审批同意率97%，拒绝率仅3%；1053人受控实验中人类拦截危险命令13.6%，auto mode拦89%。生产数据7分以上严重级别，人工审批6.3%出现未明确要求的有害操作，auto mode为2.4%。对抗测试后漏检率从12%降至7%。云平台渠道一个月内也要切换。</p><p><strong>为什么重要</strong><br>人工审批权限被证明是形式主义，人类在长会话中拦截率从17%跌至5%，而auto mode不随会话长度衰减。这是AI编程工具从'人审AI'转向'AI审AI'的行业分水岭，Anthropic用数据证明自动模式更安全，直接冲击所有依赖人工确认的AI编码工具设计范式。</p><p><strong>对你而言</strong><br>你的GAS技能配置和战斗逻辑若接入Claude Code，auto mode能拦截危险命令但需注意：分类器对git reset --hard等操作会先读git status，数据外泄为hard deny。建议在项目中将战斗数值调整、动画蓝图修改等高风险操作设为需人工确认，利用managed settings的defaultMode和disableAutoMode控制团队默认策略。</p><p><small>评分依据：4 源报道 +48 / 分析源 +8 / HN 276 +11.2</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/469500.html">量子位</a> · <a href="https://claude.com/blog/auto-mode-default-in-claude-code">Hacker News</a> · <a href="https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything">Simon Willison</a> · <a href="https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/">TechCrunch AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models</title>
-  <link>https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-ad0d153e0a3b</guid>
-  <pubDate>Mon, 10 Aug 2026 14:06:22 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>63.9 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>扎克伯格公开批评封闭AI对手，宣布Meta回归开源模型路线。FT文章正文被订阅墙遮挡，未披露具体模型名或参数。</p><p><strong>为什么重要</strong><br>Meta此前Llama系列已开源，此番表态强化开源与闭源阵营对立，直接影响开发者选型与行业标准争夺。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。若未来AI驱动NPC或动画生成，可关注Llama后续版本，但当前无落地关联。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 389 +11.9 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878">Hacker News</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision">The Verge AI</a> · <a href="https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/">TechCrunch AI</a> · <a href="https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble">The Verge AI</a></small></p>]]></description>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>58.2 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Meta发布Muse Glimmer，30B稠密权重模型，120K+上下文，单GPU达20K tokens/秒。支持RTX 5090（32GB VRAM）、DGX Spark、DGX Station、Jetson。提供SGLang/vLLM推理方案及NIM容器，支持SFT/LoRA微调和RL。</p><p><strong>为什么重要</strong><br>稠密架构全参数激活，无MoE路由开销，专为长时多步agent任务设计，强调指令遵循和延迟可预测。本地推理消除隐私和每token成本，改变agent部署范式。</p><p><strong>对你而言</strong><br>与你的PVP战斗项目无直接关系。但稠密模型在长上下文一致性上的优势，可参考其KV cache优化思路，用于战斗回放分析或AI对手行为树生成。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 1182 +14.2 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/">NVIDIA Developer</a> · <a href="https://huggingface.co/blog/muse-glimmer">HuggingFace Blog</a> · <a href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything">Simon Willison</a> · <a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Hacker News</a></small></p>]]></description>
 </item>
 <item>
   <title>Expanding Daybreak as the Cyber Defense Window Narrows</title>
   <link>https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-3d4c21426230</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-3d4c21426230</guid>
   <pubDate>Mon, 10 Aug 2026 10:00:00 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-5.6-Cyber及Daybreak蓝/红双访问层级。蓝层去系统护栏，红层含专训模型，高级网络请求完成率95.0%，对比GPT-5.6 Sol的1.5%和GPT-5.5-Cyber的57.3%。</p><p><strong>为什么重要</strong><br>AI攻防窗口收窄，防御者需在攻击者规模化前获得前沿能力。OpenAI首次以产品化分层开放高危双用途能力，改变安全研究工具供给格局，迫使防御方重新评估AI辅助渗透测试与漏洞挖掘的基准线。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若涉及服务器安全或反作弊，可关注GPT-5.6-Cyber在漏洞利用链生成上的效率提升，用于评估自身系统暴露面，而非直接集成。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows">OpenAI</a> · <a href="https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands">OpenAI</a> · <a href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/">TechCrunch AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Unity Posts Best Quarter in Company History as Revenue Hits $546M</title>
-  <link>https://80.lv/articles/unity-posts-best-quarter-in-company-history-as-revenue-hits-usd546m/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-0d7a9a42ef02</guid>
-  <pubDate>Mon, 10 Aug 2026 13:46:23 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Unity 2026 Q2 营收5.46亿美元，同比增24%；GAAP净亏损收窄至2300万。Vector AI广告业务贡献3.89亿，同比增35%；引擎业务仅从1.54亿增至1.58亿。Unity 7定于2026年12月内测，2027 Q1正式发布。</p><p><strong>为什么重要</strong><br>引擎主业停滞，广告AI成利润引擎。股价涨17%，投行上调目标价。引擎厂商靠卖流量而非卖工具赚钱，行业重心从开发端转向买量端。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。Unity引擎业务增长乏力，但Unity 7的Vector与内购工具若影响跨平台买量生态，可能间接抬高UE武侠PVP的获客成本，建议关注其广告定价策略。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://80.lv/articles/unity-posts-best-quarter-in-company-history-as-revenue-hits-usd546m/">80.lv</a> · <a href="https://www.gamedeveloper.com/business/unity-credits-ai-advertising-platform-for-driving-its-best-quarter-ever-">Game Developer</a></small></p>]]></description>
-</item>
-<item>
-  <title>ArtStation and Sketchfab Have Been Acquired by KitBash</title>
-  <link>https://80.lv/articles/artstation-and-sketchfab-have-been-acquired-by-kitbash/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-485f7cf0be81</guid>
-  <pubDate>Mon, 10 Aug 2026 23:14:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>KitBash从Epic收购ArtStation与Sketchfab，与KitBash3D、Greyscalegorilla合并。Epic保留Fab，聚焦UE6、Fortnite、EGS。现有作品集、订阅、工作流不变。</p><p><strong>为什么重要</strong><br>Epic五年运营后剥离艺术家平台，资源集中引擎与商店。KitBash整合资产、教学、发布全链条，改变3D内容生态入口格局。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但注意Fab归属未变，UE6资源管线不受影响，可继续依赖现有资产获取渠道。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Try This Box3D Integration For Unreal Engine 5</title>
-  <link>https://80.lv/articles/try-this-box3d-integration-for-unreal-engine-5/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-5e773719c397</guid>
-  <pubDate>Mon, 10 Aug 2026 14:58:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Antonio Lattanzio发布免费开源插件Box3DUnreal，用Erin Catto的Box3D引擎替换UE5几乎全部物理管线。支持静态网格、Actor/Component、C++访问、调试工具及示例地图，当前版本可下载。</p><p><strong>为什么重要</strong><br>UE5默认Chaos物理重且非确定性，Box3D轻量确定性，已被Facepunch的s&amp;box采用。此插件为UE社区提供官方之外的物理替代方案，降低实验门槛，可能影响物理玩法设计趋势。</p><p><strong>对你而言</strong><br>若你的PVP战斗依赖精确可复现的受击位移或网络同步，Box3D的确定性值得测试对比Chaos。但插件早期，稳定性未知，不建议直接用于生产，可关注其碰撞与动画蓝图兼容性。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Move Animated Maya Scenes To Blender &amp; UE5 In One Click</title>
-  <link>https://80.lv/articles/move-animated-maya-scenes-to-blender-ue5-in-one-click/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-11-0994e759af3d</guid>
-  <pubDate>Mon, 10 Aug 2026 13:33:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>MableLink v0.1.3，Maya 2024/2027 到 Blender 4.5/5.2 LTS 与 UE5.8 的管线桥接插件。免费版限 20 次发送与 5 次材质传输；Pro 一次性买断，5 台机器授权，支持无限材质与实时重同步。保留骨骼、动画、BlendShape、NURBS、PBR 材质，支持 GLB/GLTF 与 MagicaVoxel 体素转换。</p><p><strong>为什么重要</strong><br>传统 DCC 互导需展平场景，丢失绑定与材质参数。MableLink 保留完整数据链，且实时重同步免去重复导入，直接冲击现有动画资产跨软件工作流，尤其对多软件混合管线团队是效率变量。</p><p><strong>对你而言</strong><br>若你的战斗动画需在 Maya 调好后进 UE5 做蒙太奇，此工具可省去重导与材质修复。但实时重同步仅限 Blender/Unreal，且免费版限额，需评估 Pro 成本。与 GAS 配置、网络同步无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「ue5」 +20</small></p>]]></description>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-5.6-Cyber及Daybreak双层级访问：Blue提供GPT-5.6 Sol无护栏防御访问，Red提供专用网络模型。内部评测显示GPT-5.6-Cyber完成95.0%高级网络请求，对比GPT-5.6 Sol仅1.5%，GPT-5.5-Cyber为57.3%。</p><p><strong>为什么重要</strong><br>AI攻击自动化加速，防御窗口收窄。OpenAI首次以产品化分层（Blue/Red）平衡双用途风险与防御需求，Red层显著降低拒绝率，标志AI安全从通用护栏转向任务专用授权。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注其训练策略：针对特定任务（如漏洞利用）微调并放宽限制，类似GAS技能需针对战斗场景定制，而非通用配置。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows">OpenAI</a> · <a href="https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands">OpenAI</a> · <a href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/">TechCrunch AI</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
