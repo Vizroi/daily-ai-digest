@@ -296,8 +296,8 @@
   "260ea4015ac2e256": {
     "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
     "first_seen": "2026-08-11",
-    "times": 2,
-    "last_seen": "2026-08-12"
+    "times": 3,
+    "last_seen": "2026-08-13"
   },
   "d8251fb64b1c3e82": {
     "title": "Claude Code倒计时5天默认自动模式，多花的钱A社自己掏",
@@ -356,8 +356,8 @@
   "0df1f31f9afcf1e5": {
     "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
     "first_seen": "2026-08-12",
-    "times": 1,
-    "last_seen": "2026-08-12"
+    "times": 2,
+    "last_seen": "2026-08-13"
   },
   "cc87497340b1992a": {
     "title": "France to ban unsolicited telemarketing calls",
@@ -370,5 +370,53 @@
     "first_seen": "2026-08-12",
     "times": 1,
     "last_seen": "2026-08-12"
+  },
+  "fb547035ede0f409": {
+    "title": "How Claude marks AI-generated content",
+    "first_seen": "2026-08-13",
+    "times": 1,
+    "last_seen": "2026-08-13"
+  },
+  "fe12f0959d2d21a8": {
+    "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+    "first_seen": "2026-08-13",
+    "times": 1,
+    "last_seen": "2026-08-13"
+  },
+  "f563f0d0246d07ba": {
+    "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+    "first_seen": "2026-08-13",
+    "times": 1,
+    "last_seen": "2026-08-13"
+  },
+  "1856adbdfb35e902": {
+    "title": "llama.cpp",
+    "first_seen": "2026-08-13",
+    "times": 1,
+    "last_seen": "2026-08-13"
+  },
+  "7096b1006307fbd5": {
+    "title": "Download the latest Game Animation Sample Project—now updated for UE 5.8!",
+    "first_seen": "2026-08-13",
+    "times": 1,
+    "last_seen": "2026-08-13"
+  },
+  "09a6ce0b5633f293": {
+    "title": "CodeDev Group launches dev studio Full Spectrum Interactive",
+    "first_seen": "2026-08-13",
+    "times": 1,
+    "last_seen": "2026-08-13"
+  },
+  "2bb6417c873dbfe8": {
+    "title": "Epic Games sells ArtStation and Sketchfab to KitBash",
+    "first_seen": "2026-08-13",
+    "times": 1,
+    "last_seen": "2026-08-13"
+  },
+  "8e3d58aadd168e7e": {
+    "title": "This Night Train 3D Animation Looks Like a Scene from a Fairytale",
+    "first_seen": "2026-08-13",
+    "times": 1,
+    "last_seen": "2026-08-13"
   }
 }

@@ -4,65 +4,89 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 188 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 221 个事件，只有 10 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 12 Aug 2026 11:04:28 +0800</lastBuildDate>
+<lastBuildDate>Thu, 13 Aug 2026 11:07:53 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Claude骂声中启动「隐形水印」：新模型全量嵌入，标记所有文字</title>
-  <link>https://www.qbitai.com/2026/08/470228.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-4ee543b24367</guid>
+  <title>How Claude marks AI-generated content</title>
+  <link>https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-fb547035ede0</guid>
   <pubDate>Mon, 10 Aug 2026 21:36:56 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>76.1 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 于 2026 年 8 月签署欧盟《AI 法案》透明度准则，为 2026 年 8 月 2 日后发布的所有 Claude 模型（含 API、Claude Code 等全产品线）强制加入隐形文本水印与 C2PA 签名元数据，全球生效。水印基于 Unicode 不可见字符嵌入文本，复制或轻度编辑后仍可检测，但算法细节未公开。此前 Claude Code 已被发现用 Unicode 变体字符标记中国用户。</p><p><strong>为什么重要</strong><br>这是首个主流大模型将内容溯源从元数据层下沉到文本字符层，且全球强制。它把 AI 检测从「事后概率判断」变为「事前确定性标记」，直接冲击所有依赖文本重写、翻译、摘要的 AI 工作流，并可能成为欧盟监管下的行业范本，迫使其他厂商跟进或对抗。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来 UE5 项目涉及 AI 生成剧情文本或聊天系统，需注意水印字符可能混入字符串比较、哈希或网络同步数据，导致逻辑异常；但当前战斗系统不受影响。</p><p><small>评分依据：4 源报道 +48 / 分析源 +8 / HN 424 +12.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/470228.html">量子位</a> · <a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content">Hacker News</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images">The Verge AI</a> · <a href="https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>52.2 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic签署欧盟AI法案第50(2)条透明度行为准则，承诺2026年8月2日后发布的Claude模型在文本中嵌入不可见水印，文件附加C2PA签名元数据，覆盖API、Claude Code等全产品线，全球生效。</p><p><strong>为什么重要</strong><br>这是首个主流AI厂商将内容标记设为模型级默认功能，而非可选后处理。水印随文本复制传播，元数据可检测篡改，直接改变AI内容溯源的游戏规则，影响所有下游分发与审核流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来接入Claude生成文本或文件，需注意水印可能干扰战斗日志或配置解析，但当前UE5战斗系统不依赖此类内容。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 443 +12.2 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content">Hacker News</a> · <a href="https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/">TechCrunch AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>百年黎曼猜想被Claude破了新纪录！是个未公开新模型</title>
-  <link>https://www.qbitai.com/2026/08/470485.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-12d14cec7777</guid>
-  <pubDate>Mon, 10 Aug 2026 17:41:13 +0000</pubDate>
+  <title>NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents</title>
+  <link>https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-fe12f0959d2d</guid>
+  <pubDate>Tue, 11 Aug 2026 13:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>55.2 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic未公开Claude研究模型将黎曼ζ函数零点比例下界从41.6%推至67.2%。动用60个子智能体、3100万Token、2400条Shell命令，耗时一天半。结果经内部数学家及外部专家审阅，并写成Lean形式化验证版本。</p><p><strong>为什么重要</strong><br>该纪录由人类数学家经数十年接力推进，AI单次实验即大幅刷新。表明AI已能自主处理开放数学问题：生成650个思路、多智能体分工、交叉审稿、查重、复现。科研流程自动化程度显著提升，冲击传统数学研究范式。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但多智能体协作、自动验证与交叉审稿的流程设计，可借鉴用于战斗AI测试或技能平衡性验证的自动化框架搭建。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 263 +11.2</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/470485.html">量子位</a> · <a href="https://www.anthropic.com/research/riemann-zeta">Hacker News</a> · <a href="https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>NVIDIA发布开源30B MoE模型Nemotron 3.5 Lightning，仅3B激活参数，专为长时AI代理的高频执行层设计。支持OpenClaw/Hermes Agent，配NeMo Switchyard路由库。PinchBench达86%精度，比Qwen3.6 35B快30%，输出速度达同级4倍。权重、训练数据、配方以OpenMDW-1.1许可开源。</p><p><strong>为什么重要</strong><br>代理系统从单模型转向多模型分工：前沿模型做规划，小模型跑工具调用、结果验证等高频任务。这改变token预算分配逻辑，降低延迟和成本，使模型路由成为新基础设施层，影响所有构建自主代理的团队。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来战斗AI需实时决策，可借鉴其MoE+投机解码思路：用大模型做策略规划，小模型处理受击反馈等高频逻辑，降低服务器算力压力。NeMo Switchyard的路由思想也可用于客户端/服务端AI分层。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/">NVIDIA Developer</a> · <a href="https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/">MarkTechPost</a></small></p>]]></description>
 </item>
 <item>
-  <title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
-  <link>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-0df1f31f9afc</guid>
-  <pubDate>Tue, 11 Aug 2026 13:22:00 +0000</pubDate>
+  <title>H3-metal – Native MiniMax-H3 inference for Apple Silicon</title>
+  <link>https://github.com/antirez/h3.c</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-f563f0d0246d</guid>
+  <pubDate>Tue, 11 Aug 2026 01:22:09 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>52.5 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>2026年8月11日论文揭示：Anthropic、OpenAI、Google的加密思维链（CoT）块可被跨会话/用户/模型重放。攻击者将GPT-5.6-luna的加密推理块喂给同族弱模型（如Claude Haiku 4.5），用特定前缀提示词越狱，明文还原强模型隐藏推理。所有厂商已修复，但论文附录泄露了原始推理痕迹样本。</p><p><strong>为什么重要</strong><br>首次证明加密CoT并非安全边界，同族模型共享密钥是致命设计缺陷。这打破了对专有模型推理过程保密性的信任，暴露了提示注入的新变体：将数据外泄指令混入思维链，可诱导其他模型执行。影响所有依赖CoT加密的API服务商，迫使重新设计推理隔离机制。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：若你的GAS技能或动画蓝图涉及服务端推理（如AI对手决策），切勿假设加密或混淆是安全边界。同族共享密钥、弱模型可越狱等教训，适用于任何客户端-服务器共享逻辑的加密设计。建议审查网络同步中是否有类似可重放的加密状态块。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 522 +12.5 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything">Simon Willison</a> · <a href="https://stolen-thoughts.com/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>40.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>H3-metal 项目为 Apple Silicon 提供 MiniMax-H3 原生推理，支持 prompt 生成视频/音频及首尾帧条件。M5 Max 上 4 步去噪约 3.5 秒，SSIM 0.556；--ssd-streaming 将 DiT 存储从 36.5 GiB 降至 2.0 GiB，512 方块下速度慢 84%。支持 --layers 45、--reuse 2 等参数。</p><p><strong>为什么重要</strong><br>这是视频生成模型在端侧设备的高效落地，展示了通过 SSD 流式加载和分层推理大幅降低内存占用的可行性。它改变了视频生成依赖云端 GPU 的常态，为本地实时交互应用铺路，影响内容创作工具链和隐私敏感场景。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但 SSD 流式加载和分层推理思路可借鉴于大世界资源流送，减少内存峰值；不过其视频生成逻辑与武侠 PVP 战斗系统无交集。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 438 +12.2 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>France to ban unsolicited telemarketing calls</title>
-  <link>https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-cc87497340b1</guid>
-  <pubDate>Tue, 11 Aug 2026 08:15:46 +0000</pubDate>
+  <title>llama.cpp</title>
+  <link>https://llama.app</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-1856adbdfb35</guid>
+  <pubDate>Wed, 12 Aug 2026 04:51:59 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>法国拟立法禁止未经同意的电话营销，违规企业面临最高37.5万欧元罚款。法案预计2025年生效，覆盖所有行业，金融与保险除外。</p><p><strong>为什么重要</strong><br>电话营销骚扰成全球公害，法国此举将重塑企业获客方式，迫使依赖外呼的行业转向短信、邮件等合规渠道，影响跨国企业欧洲市场策略。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 991 +13.8 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.7 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>llama.cpp 发布新安装脚本与本地服务命令，支持 Qwen 3.6、Gemma 4、GPT-OSS 等新模型，可在无 API 密钥下本地运行，并集成 pi-llama 插件实现自动发现模型。</p><p><strong>为什么重要</strong><br>本地推理从实验走向主流，OpenAI 首次开放权重，改变云端依赖格局，降低隐私与成本门槛，推动边缘 AI 普及。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 351 +11.7 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots</title>
-  <link>https://cactuscompute.com/needle</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-fce64f9bb34e</guid>
-  <pubDate>Mon, 10 Aug 2026 17:22:07 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Needle2 发布：45M参数、14MB二进制、28MB RAM的端侧工具调用模型。基于Simple Attention Network，CQ2-bit量化，单C++二进制运行。Pi5解码500 tok/s，Quest 3S达400-1500 tok/s，ESP32-S3可跑。预训练115B token，后训练38B。Pebble Index Ring已本地部署。</p><p><strong>为什么重要</strong><br>边缘AI从PC/Mac下沉到&lt;200美元设备（21亿IoT vs 15亿PC）。2bit量化从预训练开始而非事后，证明小模型在工具调用场景可匹敌大模型。挑战了“参数越大越好”的行业惯性，为低功耗硬件提供新范式。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。但“训练时量化”和“固定工具槽位防驱逐”的思路，可借鉴到GAS技能配置的运行时内存优化，或作为网络同步中低带宽状态压缩的参考。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 509 +12.5 / HN 头条 +8</small></p>]]></description>
+  <title>Download the latest Game Animation Sample Project—now updated for UE 5.8!</title>
+  <link>https://www.unrealengine.com/tech-blog/download-the-latest-game-animation-sample-project-now-updated-for-ue-5-8</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-7096b1006307</guid>
+  <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>50 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>UE官方更新Game Animation Sample Project至5.8版。新增Physics Control Component/Asset（线性/角度马达控制物理体）、多骨骼网格体Motion Matching、Pose Search Interaction Assets（含多角色交互与Motion Warp）、Ragdoll Pawn（SandboxCharacter_Mover_Ragdoll，含摔落保护/受伤/翻滚状态及运动匹配起身）、RagdollLevel障碍赛道、实验性Additive Look-At Control Rig（非破坏性叠加）。Locomotion重构：Chooser集成Pose Match Column与Blend Spaces。Smart Object新增State Tree支持角色与长椅交互。</p><p><strong>为什么重要</strong><br>官方将物理驱动布娃娃与运动匹配结合，提供可交互的多角色物理动画方案，改变了纯动画或纯物理的割裂现状。5.8版本工具链统一了选择器、运动匹配与混合空间，降低动画状态机复杂度，为PVP战斗中的受击反馈、击飞倒地、起身动作提供官方参考实现。</p><p><strong>对你而言</strong><br>直接相关。Ragdoll Pawn的Physics Control驱动关节马达方案可借鉴到受击硬直与倒地状态，多角色交互（推搡/擒抱/摔投）覆盖全角度，适合武侠近战处决或抓取技能。Look-At Control Rig可优化战斗索敌朝向。但需注意网络同步下物理布娃娃的复制开销，建议先做原型验证。</p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>CodeDev Group launches dev studio Full Spectrum Interactive</title>
+  <link>https://www.gamesindustry.biz/codedev-group-launches-dev-studio-full-spectrum-interactive</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-09a6ce0b5633</guid>
+  <pubDate>Wed, 12 Aug 2026 13:58:09 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>CodeDev Group（The Unreal Guys）成立新工作室 Full Spectrum Interactive，由 Matt Southern 任工作室主管、Christian McKinney 任 CCO、Rob Williams 任 CTO。专注小至 AA 级游戏及原创原型，同时提供完整联合开发服务，并调用 The Unreal Guys 及优化部门 The Performance Guys 的工程、设计、技术美术人才。</p><p><strong>为什么重要</strong><br>该模式以共享集团人才池实现项目制弹性扩缩，避免裁员与知识流失，降低中小型工作室开发风险。反映行业从固定团队转向按需组队的灵活外包趋势，尤其对 UE 技术型服务商有示范意义。</p><p><strong>对你而言</strong><br>其「项目期快速招募资深人员、结束后缩编不丢人」的团队架构，可借鉴用于你项目的多版本并行开发或性能攻坚期人力调配。但与你日常 GAS 配置、动画蓝图等具体工作无直接技术关联。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Epic Games sells ArtStation and Sketchfab to KitBash</title>
+  <link>https://www.gamedeveloper.com/business/epics-sells-artstation-and-sketchfab-to-kitbash</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-2bb6417c873d</guid>
+  <pubDate>Wed, 12 Aug 2026 13:54:15 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · Game Developer · 能用上的</p><p><strong>发生了什么</strong><br>Epic将ArtStation和Sketchfab售予KitBash，金额未披露。两平台2021年被Epic收购，现为聚焦UE6、Fortnite及Epic商店而剥离。KitBash运营KitBash3D和Greyscalegorilla。交易不影响定价。此前Epic因Fortnite参与度下滑裁员超1000人，节省5亿美元。</p><p><strong>为什么重要</strong><br>Epic从内容平台扩张转向核心引擎与游戏业务，反映行业收缩期资产重组趋势。KitBash整合三大平台，可能重塑3D资产分发与创作者生态，影响独立艺术家工具链选择。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但Epic聚焦UE6意味着引擎迭代资源倾斜，需关注后续GAS或动画系统更新节奏，避免依赖被边缘化模块。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>This Night Train 3D Animation Looks Like a Scene from a Fairytale</title>
+  <link>https://80.lv/articles/this-night-train-3d-animation-looks-like-a-scene-from-a-fairytale/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-8e3d58aadd16</guid>
+  <pubDate>Wed, 12 Aug 2026 13:46:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>技术美术Seb van den Beemt用UE5 Niagara制作全运行时自组装桥梁动画，Niagara系统分四状态控制桥模块时序。辅助工具含Blender、Substance 3D Painter、Houdini，云资产经VDB导入，HDRI取自AmbientCG。</p><p><strong>为什么重要</strong><br>单Niagara系统驱动复杂场景逻辑，替代传统蓝图或C++序列，展示VFX系统在游戏玩法交互中的潜力，降低动画与逻辑耦合成本。</p><p><strong>对你而言</strong><br>Niagara四状态机可借鉴为技能特效状态管理，如受击反馈分阶段触发。VDB云资产流程适合优化场景氛围，但核心与战斗手感无直接关联。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
   <title>Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA</title>
   <link>https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-260ea4015ac2</guid>
-  <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-260ea4015ac2</guid>
+  <pubDate>Mon, 10 Aug 2026 10:10:02 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>58.2 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Meta发布Muse Glimmer，30B稠密权重模型，120K+上下文，单GPU达20K tokens/秒。支持RTX 5090（32GB VRAM）、DGX Spark、DGX Station、Jetson。提供SGLang/vLLM推理方案及NIM容器，支持SFT/LoRA微调和RL。</p><p><strong>为什么重要</strong><br>稠密架构全参数激活，无MoE路由开销，专为长时多步agent任务设计，强调指令遵循和延迟可预测。本地推理消除隐私和每token成本，改变agent部署范式。</p><p><strong>对你而言</strong><br>与你的PVP战斗项目无直接关系。但稠密模型在长上下文一致性上的优势，可参考其KV cache优化思路，用于战斗回放分析或AI对手行为树生成。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 1182 +14.2 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/">NVIDIA Developer</a> · <a href="https://huggingface.co/blog/muse-glimmer">HuggingFace Blog</a> · <a href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything">Simon Willison</a> · <a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>58.2 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Meta发布Muse Glimmer，30B稠密模型，120K上下文，单GPU 20K tokens/s，支持NVIDIA RTX 5090、DGX Spark/Station、Jetson，提供NIM容器与SGLang/vLLM推理方案，支持SFT/LoRA微调。</p><p><strong>为什么重要</strong><br>稠密架构全参数激活，无MoE路由开销，专为长时多步agent任务设计，强调隐私本地推理。改变本地AI工作流部署范式，降低企业数据外泄风险，挑战云端推理主导地位。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来需本地NPC或战斗AI推理，可参考其稠密模型与NIM容器化部署，但当前战斗系统不依赖此技术。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 1198 +14.2 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/">NVIDIA Developer</a> · <a href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/">Simon Willison</a> · <a href="https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/">MarkTechPost</a> · <a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Expanding Daybreak as the Cyber Defense Window Narrows</title>
-  <link>https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-12-3d4c21426230</guid>
-  <pubDate>Mon, 10 Aug 2026 10:00:00 +0000</pubDate>
+  <title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
+  <link>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-13-0df1f31f9afc</guid>
+  <pubDate>Tue, 11 Aug 2026 13:22:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-5.6-Cyber及Daybreak双层级访问：Blue提供GPT-5.6 Sol无护栏防御访问，Red提供专用网络模型。内部评测显示GPT-5.6-Cyber完成95.0%高级网络请求，对比GPT-5.6 Sol仅1.5%，GPT-5.5-Cyber为57.3%。</p><p><strong>为什么重要</strong><br>AI攻击自动化加速，防御窗口收窄。OpenAI首次以产品化分层（Blue/Red）平衡双用途风险与防御需求，Red层显著降低拒绝率，标志AI安全从通用护栏转向任务专用授权。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注其训练策略：针对特定任务（如漏洞利用）微调并放宽限制，类似GAS技能需针对战斗场景定制，而非通用配置。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows">OpenAI</a> · <a href="https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands">OpenAI</a> · <a href="https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>23.1 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>2026年8月11日论文揭示：Anthropic、OpenAI、Google的加密思维链（encrypted_content）可被重放攻击。同族模型共享同一加密密钥，将GPT-5.6-luna的加密块喂给弱模型（如Claude Haiku 4.5），用特定前缀提示词即可越狱还原明文推理。已修复，但附录泄露大量原始推理痕迹。</p><p><strong>为什么重要</strong><br>首次证明加密推理块可跨会话、跨模型重放破解，打破'加密即安全'假设。暴露供应商对推理链的防护仅靠混淆，且弱模型成为攻击跳板。提示注入变体利用模型对自身推理的信任，开辟数据窃取新路径。</p><p><strong>对你而言</strong><br>若你的GAS技能或动画蓝图涉及服务端推理（如AI对手决策），勿依赖加密传输。本地推理链需做完整性校验与密钥隔离。可借鉴其攻击思路，测试自家模型对'思维链内指令'的防御，防止PVP中对手注入恶意思考引导。与战斗手感、网络同步无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 684 +13.1 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/">Simon Willison</a> · <a href="https://stolen-thoughts.com/">Hacker News</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
