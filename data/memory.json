@@ -356,8 +356,8 @@
   "0df1f31f9afcf1e5": {
     "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
     "first_seen": "2026-08-12",
-    "times": 2,
-    "last_seen": "2026-08-13"
+    "times": 3,
+    "last_seen": "2026-08-14"
   },
   "cc87497340b1992a": {
     "title": "France to ban unsolicited telemarketing calls",
@@ -380,8 +380,8 @@
   "fe12f0959d2d21a8": {
     "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
     "first_seen": "2026-08-13",
-    "times": 1,
-    "last_seen": "2026-08-13"
+    "times": 2,
+    "last_seen": "2026-08-14"
   },
   "f563f0d0246d07ba": {
     "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
@@ -398,25 +398,61 @@
   "7096b1006307fbd5": {
     "title": "Download the latest Game Animation Sample Project—now updated for UE 5.8!",
     "first_seen": "2026-08-13",
-    "times": 1,
-    "last_seen": "2026-08-13"
+    "times": 2,
+    "last_seen": "2026-08-14"
   },
   "09a6ce0b5633f293": {
     "title": "CodeDev Group launches dev studio Full Spectrum Interactive",
     "first_seen": "2026-08-13",
-    "times": 1,
-    "last_seen": "2026-08-13"
+    "times": 2,
+    "last_seen": "2026-08-14"
   },
   "2bb6417c873dbfe8": {
     "title": "Epic Games sells ArtStation and Sketchfab to KitBash",
     "first_seen": "2026-08-13",
-    "times": 1,
-    "last_seen": "2026-08-13"
+    "times": 2,
+    "last_seen": "2026-08-14"
   },
   "8e3d58aadd168e7e": {
     "title": "This Night Train 3D Animation Looks Like a Scene from a Fairytale",
     "first_seen": "2026-08-13",
     "times": 1,
     "last_seen": "2026-08-13"
+  },
+  "4810778778306499": {
+    "title": "Introducing Gemini 3.7 Flash",
+    "first_seen": "2026-08-14",
+    "times": 1,
+    "last_seen": "2026-08-14"
+  },
+  "823ba822fee89993": {
+    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "first_seen": "2026-08-14",
+    "times": 1,
+    "last_seen": "2026-08-14"
+  },
+  "3647be9c499c7379": {
+    "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+    "first_seen": "2026-08-14",
+    "times": 1,
+    "last_seen": "2026-08-14"
+  },
+  "d4ca18dcbb79a642": {
+    "title": "深度体验DeepSeek Harness，我原谅它涨价了",
+    "first_seen": "2026-08-14",
+    "times": 1,
+    "last_seen": "2026-08-14"
+  },
+  "08d3dbf6aff44d67": {
+    "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+    "first_seen": "2026-08-14",
+    "times": 1,
+    "last_seen": "2026-08-14"
+  },
+  "db75aedaa8705a14": {
+    "title": "Unveiling the Pipeline Behind AAA-Quality Indie Game Characters",
+    "first_seen": "2026-08-14",
+    "times": 1,
+    "last_seen": "2026-08-14"
   }
 }
