@@ -404,8 +404,8 @@
   "09a6ce0b5633f293": {
     "title": "CodeDev Group launches dev studio Full Spectrum Interactive",
     "first_seen": "2026-08-13",
-    "times": 2,
-    "last_seen": "2026-08-14"
+    "times": 3,
+    "last_seen": "2026-08-15"
   },
   "2bb6417c873dbfe8": {
     "title": "Epic Games sells ArtStation and Sketchfab to KitBash",
@@ -422,14 +422,14 @@
   "4810778778306499": {
     "title": "Introducing Gemini 3.7 Flash",
     "first_seen": "2026-08-14",
-    "times": 1,
-    "last_seen": "2026-08-14"
+    "times": 2,
+    "last_seen": "2026-08-15"
   },
   "823ba822fee89993": {
     "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
     "first_seen": "2026-08-14",
-    "times": 1,
-    "last_seen": "2026-08-14"
+    "times": 2,
+    "last_seen": "2026-08-15"
   },
   "3647be9c499c7379": {
     "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
@@ -446,13 +446,49 @@
   "08d3dbf6aff44d67": {
     "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
     "first_seen": "2026-08-14",
-    "times": 1,
-    "last_seen": "2026-08-14"
+    "times": 2,
+    "last_seen": "2026-08-15"
   },
   "db75aedaa8705a14": {
     "title": "Unveiling the Pipeline Behind AAA-Quality Indie Game Characters",
     "first_seen": "2026-08-14",
     "times": 1,
     "last_seen": "2026-08-14"
+  },
+  "b02be2d473227231": {
+    "title": "Why does Opus 5 feel worse to work with?",
+    "first_seen": "2026-08-15",
+    "times": 1,
+    "last_seen": "2026-08-15"
+  },
+  "13de7d56369a3ea1": {
+    "title": "Every Fucking Website (2020)",
+    "first_seen": "2026-08-15",
+    "times": 1,
+    "last_seen": "2026-08-15"
+  },
+  "12da84a531b44007": {
+    "title": "Spaghettifying DRAM",
+    "first_seen": "2026-08-15",
+    "times": 1,
+    "last_seen": "2026-08-15"
+  },
+  "d04ee9f3470daa4d": {
+    "title": "Mistral OCR 4.1",
+    "first_seen": "2026-08-15",
+    "times": 1,
+    "last_seen": "2026-08-15"
+  },
+  "5aa840d0f34f1f13": {
+    "title": "Phantom Blade Zero Uses Authentic Kung Fu Motion Capture",
+    "first_seen": "2026-08-15",
+    "times": 1,
+    "last_seen": "2026-08-15"
+  },
+  "f4aafceb2cbdb9d8": {
+    "title": "3D Artist Reimagined Half-Life 2's Headcrab With Unreal Engine 5's Substrate",
+    "first_seen": "2026-08-15",
+    "times": 1,
+    "last_seen": "2026-08-15"
   }
 }

@@ -4,97 +4,89 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 209 个事件，只有 11 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 181 个事件，只有 10 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 14 Aug 2026 11:06:18 +0800</lastBuildDate>
+<lastBuildDate>Sat, 15 Aug 2026 10:02:31 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Introducing Gemini 3.7 Flash</title>
-  <link>https://deepmind.google/blog/introducing-gemini-3-7-flash/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-481077877830</guid>
-  <pubDate>Thu, 13 Aug 2026 17:04:18 +0000</pubDate>
+  <title>Why does Opus 5 feel worse to work with?</title>
+  <link>https://mun-logadan.github.io/why-does-opus-5-feel-worse/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-b02be2d47322</guid>
+  <pubDate>Fri, 14 Aug 2026 10:12:48 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>75 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.7 Flash，距3.6 Flash仅三周。编码基准FrontierCode 1.1达43.6%（3.6为34.4%），DeepSWE v1.1达65.3%（49.0%）。输入价$0.75/百万token，输出$3.75/百万token，为3.6原价一半。WebDev Arena Elo 1588 vs 1538。GDP.pdf 34.0% vs 22.0%。已集成至Gemini Spark。</p><p><strong>为什么重要</strong><br>迭代周期从数月压缩至三周，价格腰斩同时性能大幅提升，表明AI模型竞争进入高频低价阶段。企业可低成本部署生产级代理，知识密集型任务自动化门槛骤降，冲击传统SaaS工作流。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若关注AI辅助代码生成，其调试与多步规划能力提升可参考，但非UE5战斗系统核心。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 649 +13 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/introducing-gemini-3-7-flash/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>41.3 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>开发者反馈Opus 5相比4.7/4.8/Fable更需监督：它不主动澄清意图、擅自假设并改写计划。作者推测源于Anthropic追求自我改进AI与基准高分，RLVR训练偏好大胆假设而非提问。</p><p><strong>为什么重要</strong><br>基准测试奖励自包含任务，惩罚澄清行为，导致模型在真实模糊场景中过度自信。这暴露了benchmark优化与实用编码代理需求的根本冲突，影响所有依赖LLM的工程流程。</p><p><strong>对你而言</strong><br>若你的战斗系统用LLM辅助配置或调试，需警惕模型擅自改参数。可强制要求输出前列出假设清单，或对关键决策设置人工确认节点，避免GAS配置被静默篡改。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 790 +13.3 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed</title>
-  <link>https://openai.com/index/previewing-ultrafast</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-823ba822fee8</guid>
-  <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
+  <title>Every Fucking Website (2020)</title>
+  <link>https://lxe.github.io/everywebsite/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-13de7d56369a</guid>
+  <pubDate>Fri, 14 Aug 2026 14:31:08 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>74.2 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI推出GPT-5.6 Sol的Ultrafast服务层，基于Cerebras硬件，API首批上线，输出速度达750 tokens/秒，较标准处理快14倍。预览期仅限特定客户，需注册等待扩容。</p><p><strong>为什么重要</strong><br>此前实时响应需牺牲模型智能，Ultrafast首次让前沿模型达到毫秒级交互，将AI引入故障响应、金融风控等时间敏感场景，改变速度与智能的取舍关系。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但750 tok/s的推理延迟可参考：若未来NPC对话或战斗AI需实时决策，此速度可支撑每帧级逻辑，但当前PVP战斗核心仍依赖本地预测与同步，非LLM驱动。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 453 +12.2 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://openai.com/index/previewing-ultrafast">OpenAI</a> · <a href="https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai">Hacker News</a> · <a href="https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>41.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>2020年讽刺网页弹窗文化：强制Cookie同意、10%折扣码10PERCENTOFF、欧盟与加州法律诉讼风险。</p><p><strong>为什么重要</strong><br>反映用户对隐私弹窗疲劳，推动行业转向更简洁合规设计，影响UX与法律平衡。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 744 +13.2 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>DeepSeek V4 Pro 0813 (on OpenRouter)</title>
-  <link>https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-3647be9c499c</guid>
-  <pubDate>Wed, 12 Aug 2026 16:04:50 +0000</pubDate>
+  <title>Spaghettifying DRAM</title>
+  <link>https://github.com/xoreaxeaxeax/skitter-creek-bath-salts</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-12da84a531b4</guid>
+  <pubDate>Thu, 13 Aug 2026 14:17:13 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>65.9 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>DeepSeek V4 Pro 0813于2026年8月12日上线OpenRouter，仅API提供。权重已发布至Hugging Face，1.7T参数，893GB。不同推理等级（低/中/高）输出差异显著，基准数据经微信群泄露至Reddit后被删，现以ASCII表存于HN。</p><p><strong>为什么重要</strong><br>模型权重开放延续了DeepSeek开源策略，1.7T参数规模直逼闭源巨头。推理等级影响输出风格是罕见特性，暗示架构或训练方式有变，可能改变开源模型能力上限的行业预期。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若需本地部署NPC决策或战斗AI，1.7T模型权重可作离线推理参考，不过893GB体积对客户端不现实，仅适合服务器端预计算。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 1017 +13.9 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/">Simon Willison</a> · <a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">Hacker News</a> · <a href="http://www.geekpark.net/news/368777">极客公园</a> · <a href="http://www.geekpark.net/news/368747">极客公园</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>41.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>AMD Family 16h CPU的DRAM控制器存在可篡改的地址重映射寄存器，通过单比特翻转（如xor dword [0xf80c2094], 0x00400000）可绕过PSP、SMM、C6、微码等所有基于物理地址的安全机制，暴露内核不可见的保留内存区域。17h及后续型号数据手册不再记载这些寄存器。</p><p><strong>为什么重要</strong><br>安全边界建立在物理地址之上，而DRAM控制器位于所有防护之下，重映射后上层防护全部失效。这是硬件层面的根本漏洞，影响所有依赖内存隔离的虚拟化、固件安全、可信执行环境，且无法通过软件补丁修复。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若涉及主机移植或反作弊，需注意平台内存控制器行为差异；若开发PC版，可关注AMD后续是否修复此硬件缺陷，避免玩家利用漏洞篡改内存数据。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 693 +13.1 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>深度体验DeepSeek Harness，我原谅它涨价了</title>
-  <link>https://www.qbitai.com/2026/08/472208.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-d4ca18dcbb79</guid>
-  <pubDate>Thu, 13 Aug 2026 12:58:02 +0000</pubDate>
+  <title>Mistral OCR 4.1</title>
+  <link>https://docs.mistral.ai/models/ocr-4-1</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-d04ee9f3470d</guid>
+  <pubDate>Thu, 13 Aug 2026 17:05:12 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>64.7 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>DeepSeek Harness（DSH）开源，采用Cordis插件架构，内置100+插件，支持四种Agent预设（标准/PTC/极简/创造），提供轨迹回放、Token消耗统计、缓存命中率仪表盘。实测V4 Flash在DSH上长程任务能力显著强于Codex，猪八戒3D白模任务DSH跑20分钟，Codex仅6分钟。API将于17号涨价。</p><p><strong>为什么重要</strong><br>DSH是首个以插件为一级公民的Agent框架，对比Codex的Rust单体核心+外部挂件模式，它允许用户自定义整个运行时，模型可自写插件自安装，被视为Agent时代的安卓。这改变了Agent开发范式，从封闭优化转向社区生态驱动，为自进化提供了可落地的实现路径。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但DSH的轨迹回放功能可借鉴：在GAS技能调试中，类似的事件级回放能精确追踪技能状态机流转和网络同步时序，比日志排查更直观。其Token消耗仪表盘思路也适用于性能监控，可实时显示技能调用开销。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 572 +12.7 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/472208.html">量子位</a> · <a href="https://deepseek.com/harness/en/">Hacker News</a> · <a href="http://www.geekpark.net/news/368789">极客公园</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Mistral 发布 OCR 4.1 公开预览，定价每千页 4 美元，标注版 5 美元。新增段落级边界框、结构块标签及块级置信度，服务 Document AI 栈。</p><p><strong>为什么重要</strong><br>OCR 从纯文本转向结构化布局理解，价格下探至千页 4 美元，挤压传统厂商。段落级输出直接服务 RAG 与文档解析，改变 AI 数据预处理成本结构。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来战斗日志或回放需文本识别，可参考其块级置信度设计，但当前无应用场景。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 403 +12 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>OpenAI appoints Dali Rajic as Chief Revenue Officer</title>
-  <link>https://openai.com/index/dali-rajic-chief-revenue-officer</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-08d3dbf6aff4</guid>
-  <pubDate>Thu, 13 Aug 2026 09:00:00 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>54 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI任命Dali Rajic为首席营收官，接替Denise Dresser。Rajic曾任Wiz总裁兼COO（被Google收购）、Zscaler总裁兼COO、AppDynamics首席客户与营收官。OpenAI周活用户超10亿，企业客户超200万，同比翻倍。另与Chad Peets及RPT Partners达成战略合作。</p><p><strong>为什么重要</strong><br>企业AI部署加速，OpenAI从技术领先转向商业化规模化。Rajic的纪律性、指标驱动营收体系经验，直接服务于下一代模型驱动的“算力经济”。高管更替显示AI公司竞争焦点从模型能力转向营收运营效率。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注：AI商业化加速可能影响游戏行业工具链成本，若未来AI驱动NPC或测试，需评估OpenAI企业定价策略变化。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/dali-rajic-chief-revenue-officer">OpenAI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure">The Verge AI</a> · <a href="https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/">TechCrunch AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Unveiling the Pipeline Behind AAA-Quality Indie Game Characters</title>
-  <link>https://80.lv/articles/unveiling-the-pipeline-behind-aaa-quality-indie-game-characters/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-db75aedaa870</guid>
-  <pubDate>Thu, 13 Aug 2026 16:55:00 +0000</pubDate>
+  <title>Phantom Blade Zero Uses Authentic Kung Fu Motion Capture</title>
+  <link>https://80.lv/articles/phantom-blade-zero-uses-authentic-kung-fu-motion-capture/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-5aa840d0f34f</guid>
+  <pubDate>Fri, 14 Aug 2026 13:19:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Reallusion 案例：三团队用 CC5+iClone8 管线。Dragon Level 三人组省约 7 个月和近 1 万美元外包费；Rendeo 用 ActorMIXER 将 AAA 角色设计从 12 人一周降至 5-10 倍提速；Tijerín 用手机视频+Video Mocap 生成 NPC 动画，经 Live Link 导入 UE5。</p><p><strong>为什么重要</strong><br>独立团队用 1-3 人达到 AAA 角色质量，冲击传统 30 人美术团队成本结构。角色管线从建模-绑定-动画的串行流程，变为 CC5 参数化+动捕+自动导出的集成式，降低技术门槛，改变小团队预算分配。</p><p><strong>对你而言</strong><br>直接相关：ActorMIXER 和 Auto Setup 可借鉴到 GAS 配置前的角色资产准备，减少绑定和材质修复时间。Video Mocap 生成动画后需检查根骨骼位移和网络同步下的动画压缩，避免客户端表现不一致。若项目重 PVP 手感，此管线对战斗动画复用价值有限。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>《Phantom Blade Zero》10月29日发售，甄子丹任联合制作人，其动作团队以全速战斗进行动捕。战斗系统从零搭建，机制直接由动捕会话决定，如Boss对四/五连击的不同反应。游戏为“功夫朋克”风格，主角仅剩66天寿命。</p><p><strong>为什么重要</strong><br>动捕通常只做参考，再手工调校；此项目让动捕直接塑造战斗机制，模糊了表演与系统的边界。这改变了动作游戏开发流程，对依赖动画蓝图和GAS的团队是范式冲击。</p><p><strong>对你而言</strong><br>可借鉴其“动捕驱动机制”思路：在配置GAS连招时，用真实格斗节奏校准帧数据与取消窗口，而非纯理论数值。但若你的项目非写实功夫题材，则无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「combat system」 +32</small></p>]]></description>
 </item>
 <item>
-  <title>Download the latest Game Animation Sample Project—now updated for UE 5.8!</title>
-  <link>https://www.unrealengine.com/tech-blog/download-the-latest-game-animation-sample-project-now-updated-for-ue-5-8</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-7096b1006307</guid>
-  <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+  <title>3D Artist Reimagined Half-Life 2's Headcrab With Unreal Engine 5's Substrate</title>
+  <link>https://80.lv/articles/3d-artist-reimagined-half-life-2-s-headcrab-with-unreal-engine-5-s-substrate/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-f4aafceb2cbd</guid>
+  <pubDate>Fri, 14 Aug 2026 13:36:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>20 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>UE官方更新Game Animation Sample Project至5.8版，新增Physics Control Component/Asset（线性/角度马达驱动物理资产）、多骨骼网格体Motion Matching与Pose Search Interaction Assets、Ragdoll Pawn（含摔倒保护/受伤/翻滚状态及运动匹配起身）、RagdollLevel关卡、实验性Additive Look-At Control Rig解算器。Locomotion重构为Chooser+Pose Match Column，支持Blend Space混合，Smart Objects新增State Tree交互。</p><p><strong>为什么重要</strong><br>物理控制组件与运动匹配结合，使布娃娃从被动物理模拟变为主动马达驱动，且能无缝过渡回动画状态。多角色交互（推搡/擒抱/制服）覆盖全角度，为战斗系统提供高保真受击反馈模板。Look-At解算器非破坏性叠加，扩展动画表现力。</p><p><strong>对你而言</strong><br>直接可借鉴：Ragdoll Pawn的关节马达参数与起身匹配流程可移植至武侠受击倒地/起身；多角色交互覆盖全角度方案适用于击飞、投技；Look-At解算器可驱动NPC视线追踪玩家。Chooser+Pose Match Column优化Locomotion手感，Blend Space融合提升斜坡移动表现。与你的GAS配置无直接冲突，但物理控制组件需注意网络同步开销。</p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「unreal engine」 +20 / 已报过 -30</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Emanuel Pessel用UE5.7.4的Substrate系统重制半条命2猎头蟹，发布62页案例。资产LOD0为16K三角形，LOD5降至44，单UV 4K纹理，texel密度40.36，Substrate着色器约3.2K指令。流程含ZBrush、3ds Max、Substance等，无AI参与。</p><p><strong>为什么重要</strong><br>Substrate是UE5争议性新着色器系统，现有教程多聚焦车辆材质。此案例证明其能处理生物有机体，为材质工作流提供非金属参考，可能影响后续引擎默认渲染管线的采用决策。</p><p><strong>对你而言</strong><br>Substrate指令数3.2K对移动端或中端PC是性能负担，需评估目标平台。其分层材质思路可借鉴用于武侠角色皮肤/布料混合，但LOD5仅44三角形不适合近战特写，需保留更高LOD。与你的GAS配置无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
   <title>CodeDev Group launches dev studio Full Spectrum Interactive</title>
   <link>https://www.gamesindustry.biz/codedev-group-launches-dev-studio-full-spectrum-interactive</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-09a6ce0b5633</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-09a6ce0b5633</guid>
   <pubDate>Wed, 12 Aug 2026 13:58:09 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>10 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>CodeDev Group（The Unreal Guys）成立新工作室 Full Spectrum Interactive，领导层含工作室主管 Matt Southern、CCO Christian McKinney、CTO Rob Williams。专注小至 AA 级游戏，现做原创原型，并提供完整联合开发服务。依托 The Unreal Guys 及优化部门 The Performance Guys 的工程、设计、技术美术人才。</p><p><strong>为什么重要</strong><br>UE 外包巨头自建产品团队，利用弹性人力模式（项目期快速扩编、结束后无损缩编）降低风险，冲击中小型游戏市场。反映行业从纯外包向自有 IP 与联合开发混合模式的转型趋势。</p><p><strong>对你而言</strong><br>其弹性团队与优化部门协作模式可借鉴：若你项目需临时增援性能调优或技术美术，可考虑类似外部专家池。但与你日常 GAS 配置、动画蓝图工作无直接技术关联。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal」 +20 / 已报过 -30</small></p>]]></description>
+  <description><![CDATA[<p><strong>10 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>CodeDev Group（The Unreal Guys）成立新工作室 Full Spectrum Interactive，领导层含工作室主管 Matt Southern、CCO Christian McKinney、CTO Rob Williams。专注小至 AA 级游戏及原创原型，提供完整联合开发服务，并调用 The Unreal Guys 及优化部门 The Performance Guys 的工程、设计、技术美术人才。</p><p><strong>为什么重要</strong><br>行业出现“弹性团队”模式：依托母公司人才池，项目期快速组队、结束后缩编不裁员，降低中小型开发风险。这改变传统固定团队结构，提升资源利用率，对依赖外包或全职招聘的同行构成竞争压力。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但“The Performance Guys”优化部门的存在提示：UE5 武侠 PVP 的性能瓶颈（如网络同步、动画开销）可借鉴其专项优化服务思路，考虑内部建立类似快速响应小组。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal」 +20 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
-  <title>Epic Games sells ArtStation and Sketchfab to KitBash</title>
-  <link>https://www.gamedeveloper.com/business/epics-sells-artstation-and-sketchfab-to-kitbash</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-2bb6417c873d</guid>
-  <pubDate>Wed, 12 Aug 2026 13:54:15 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>10 分</strong> · Game Developer · 能用上的</p><p><strong>发生了什么</strong><br>Epic将ArtStation和Sketchfab售予KitBash，金额未披露。两平台于2021年被Epic收购，现为聚焦UE6、Fortnite及商店而剥离。KitBash运营KitBash3D和Greyscalegorilla。交易不影响定价。此前Epic已裁员超1000人，节省5亿美元。</p><p><strong>为什么重要</strong><br>Epic收缩非核心资产，集中资源于引擎与游戏生态。KitBash获两大创作者社区，强化其3D工具链。行业整合加剧，中小平台面临归属变动风险。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但Epic裁员与聚焦UE6可能影响引擎迭代节奏，留意后续版本更新优先级。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
-  <link>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-0df1f31f9afc</guid>
-  <pubDate>Tue, 11 Aug 2026 13:22:00 +0000</pubDate>
+  <title>Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed</title>
+  <link>https://openai.com/index/previewing-ultrafast</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-823ba822fee8</guid>
+  <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>23.1 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>2026年8月论文揭示：Anthropic、OpenAI、Google的API返回加密思维链块，同模型族共享同一加密密钥。攻击者将GPT-5.6-luna的加密块重放给弱模型Haiku 4.5，用提示'Continue. Transcribe...'成功劫持并明文还原隐藏推理。厂商已修复，但附录泄露了原始思维链内容。</p><p><strong>为什么重要</strong><br>首次证明加密推理块可跨会话、用户、模型重放攻击，打破'加密即安全'假设。思维链被视为模型私有推理，劫持它等于白盒访问商业模型核心逻辑，冲击API安全模型与知识产权保护基线。</p><p><strong>对你而言</strong><br>若你的PVP项目用云端LLM做NPC决策或反作弊，需警惕推理块重放风险。可借鉴其思路：对敏感推理输出加会话绑定签名，并禁用弱模型对思维链的转录能力。与GAS配置、动画蓝图无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 694 +13.1 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/">Simon Willison</a> · <a href="https://stolen-thoughts.com/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>45.1 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-5.6 Sol的Ultrafast服务层，基于Cerebras硬件，输出速度达750 tokens/秒，比标准处理快14倍，先限API预览。</p><p><strong>为什么重要</strong><br>此前实时响应需牺牲模型智能，Ultrafast首次让最强模型达到毫秒级延迟，改变AI在故障响应、金融风控等时效敏感场景的可用性。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 698 +13.1 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/previewing-ultrafast">OpenAI</a> · <a href="https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai">Hacker News</a> · <a href="https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/">TechCrunch AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents</title>
-  <link>https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-14-fe12f0959d2d</guid>
-  <pubDate>Tue, 11 Aug 2026 13:00:00 +0000</pubDate>
+  <title>Introducing Gemini 3.7 Flash</title>
+  <link>https://deepmind.google/blog/introducing-gemini-3-7-flash/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-481077877830</guid>
+  <pubDate>Thu, 13 Aug 2026 17:04:18 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>NVIDIA发布开源30B MoE模型Nemotron 3.5 Lightning，3B激活参数，专为长时AI代理高频执行层设计。支持OpenClaw/Hermes Agent，配NeMo Switchyard路由库。PinchBench达86%精度，比Qwen3.6 35B快30%，输出速度达同级4倍。权重、训练数据、配方以OpenMDW-1.1许可开源。</p><p><strong>为什么重要</strong><br>代理系统从单模型转向多模型分工：前沿模型做规划，小模型做执行。Lightning填补了高吞吐、低延迟执行层的空白，4倍速度与30%任务加速直接降低token成本。模型路由（Switchyard）成为新基础设施，改变开发者构建代理的架构方式。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但MoE路由思想可借鉴：若战斗AI有高频逻辑（如寻路、命中判定）与低频决策（如战术规划），可考虑分层模型或规则分流，降低服务器算力消耗。不过当前GAS与动画系统不涉及LLM推理。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/">NVIDIA Developer</a> · <a href="https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/">MarkTechPost</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>33.7 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.7 Flash，距3.6 Flash仅三周。编码基准FrontierCode 1.1达43.6%（3.6为34.4%），DeepSWE v1.1达65.3%（49.0%）。输入价$0.75/百万token，输出$3.75，为原3.6 Flash半价。已集成至Gemini Spark。</p><p><strong>为什么重要</strong><br>迭代周期从数月压缩至三周，且性能大幅提升同时价格减半，直接压低AI编码与代理服务的行业成本基准，迫使竞品跟进性价比，改变企业采购AI开发工具的定价预期。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。但若团队用AI辅助生成GAS配置或动画蓝图代码，其更高的一次通过率（43.6%）可减少调试时间，低价适合批量测试，不过需自行验证对UE5 C++与蓝图语法的适配性。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / HN 948 +13.7 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/introducing-gemini-3-7-flash/">DeepMind</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/">Hacker News</a></small></p>]]></description>
+</item>
+<item>
+  <title>OpenAI appoints Dali Rajic as Chief Revenue Officer</title>
+  <link>https://openai.com/index/dali-rajic-chief-revenue-officer</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-08d3dbf6aff4</guid>
+  <pubDate>Thu, 13 Aug 2026 09:00:00 +0000</pubDate>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>24 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI任命Dali Rajic为首席营收官，接替Denise Dresser。Rajic曾任Wiz总裁兼COO（被Google收购）、Zscaler总裁兼COO、AppDynamics首席客户与营收官。OpenAI周活用户超10亿，企业客户超200万，同比翻倍。另与Chad Peets及RPT Partners达成战略合作。</p><p><strong>为什么重要</strong><br>OpenAI从研究驱动转向规模化商业变现，营收组织需应对企业AI部署加速。Rajic的纪律性、指标驱动经验，契合下一代模型改变公司运营方式的拐点。高管更替与外部合作，反映AI行业竞争从技术转向商业化执行。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注OpenAI企业客户增长数据，若涉及AI NPC或对战匹配，其商业化模式或影响未来API定价与功能优先级。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/dali-rajic-chief-revenue-officer">OpenAI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure">The Verge AI</a> · <a href="https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/">TechCrunch AI</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
