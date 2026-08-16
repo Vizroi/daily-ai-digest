@@ -4,89 +4,81 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 181 个事件，只有 10 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 166 个事件，只有 9 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 15 Aug 2026 10:02:31 +0800</lastBuildDate>
+<lastBuildDate>Sun, 16 Aug 2026 10:06:26 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Why does Opus 5 feel worse to work with?</title>
-  <link>https://mun-logadan.github.io/why-does-opus-5-feel-worse/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-b02be2d47322</guid>
-  <pubDate>Fri, 14 Aug 2026 10:12:48 +0000</pubDate>
+  <title>Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks</title>
+  <link>https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-16-ec0c2f155d54</guid>
+  <pubDate>Fri, 14 Aug 2026 05:19:59 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.3 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>开发者反馈Opus 5相比4.7/4.8/Fable更需监督：它不主动澄清意图、擅自假设并改写计划。作者推测源于Anthropic追求自我改进AI与基准高分，RLVR训练偏好大胆假设而非提问。</p><p><strong>为什么重要</strong><br>基准测试奖励自包含任务，惩罚澄清行为，导致模型在真实模糊场景中过度自信。这暴露了benchmark优化与实用编码代理需求的根本冲突，影响所有依赖LLM的工程流程。</p><p><strong>对你而言</strong><br>若你的战斗系统用LLM辅助配置或调试，需警惕模型擅自改参数。可强制要求输出前列出假设清单，或对关键决策设置人工确认节点，避免GAS配置被静默篡改。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 790 +13.3 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>54.1 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Z.ai发布GLM-5.3，复用GLM-5.2的743B基座模型，仅靠扩展后训练（更多任务环境、更长训练）提升能力。Terminal-Bench 3.0从4.6升至28.3，DeepSWE v1.1从46.2升至66.9，CyberGym达84.5%（超Mythos 5的83.8%和GPT-5.6 Sol的83.6%），ExploitBench从24.4%升至54.4%。权重约两周后公开。</p><p><strong>为什么重要</strong><br>证明不重训基座、纯后训练缩放可显著提升长程编码与漏洞利用能力，挑战了'能力上限由基座决定'的行业假设。网络安全能力意外涌现，说明后训练数据可引发跨任务泛化，影响闭源与开源模型的竞争格局。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。但可关注其'长程任务'训练思路：若未来AI用于战斗AI或自动化测试，长时程决策优化或可借鉴，当前阶段无需行动。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 1140 +14.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/">MarkTechPost</a> · <a href="https://z.ai/blog/glm-5.3">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Every Fucking Website (2020)</title>
-  <link>https://lxe.github.io/everywebsite/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-13de7d56369a</guid>
-  <pubDate>Fri, 14 Aug 2026 14:31:08 +0000</pubDate>
+  <title>How Claude's text watermarking works</title>
+  <link>https://www.anthropic.com/news/claude-text-watermark</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-16-a037d4d8a232</guid>
+  <pubDate>Thu, 13 Aug 2026 10:23:51 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>2020年讽刺网页弹窗文化：强制Cookie同意、10%折扣码10PERCENTOFF、欧盟与加州法律诉讼风险。</p><p><strong>为什么重要</strong><br>反映用户对隐私弹窗疲劳，推动行业转向更简洁合规设计，影响UX与法律平衡。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 744 +13.2 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40.3 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic宣布未来Claude模型将内置文本水印，基于Google DeepMind的SynthID-Text技术（2024年Nature论文），通过改变低风险词选择的随机源（如用密钥和前置词替代纯随机数）嵌入模式。该水印不增加token成本、无隐藏字符、不影响输出质量，且无法追溯个人或组织。欧盟AI法案自8月2日起要求AI提供商标记生成内容，多家厂商已签署同一行为准则。</p><p><strong>为什么重要</strong><br>这是AI内容溯源从学术走向合规落地的关键节点。欧盟法规强制推动，使水印成为行业标配而非可选功能。它改变了AI生成内容的信任模型——读者无法感知，但持有密钥者可概率性验证来源。与之前可见水印或元数据方案不同，SynthID-Text在语义层面嵌入，不牺牲生成质量，为监管与隐私平衡提供了可复制的技术路径。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的工作聚焦UE5武侠PVP的战斗系统、GAS配置和网络同步，不涉及文本生成或内容溯源。若未来需处理玩家聊天或AI叙事文本，可参考其随机源替换思路，但当前无实际应用场景。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 63 +8.3</small></p><p><small>全部来源：<a href="https://www.anthropic.com/news/claude-text-watermark">Hacker News</a> · <a href="https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/">Hacker News</a> · <a href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/">TechCrunch AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>Spaghettifying DRAM</title>
-  <link>https://github.com/xoreaxeaxeax/skitter-creek-bath-salts</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-12da84a531b4</guid>
-  <pubDate>Thu, 13 Aug 2026 14:17:13 +0000</pubDate>
+  <title>Maximizing the value of your Claude Code sessions</title>
+  <link>https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-16-c6f5d983a20c</guid>
+  <pubDate>Fri, 14 Aug 2026 16:15:21 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>AMD Family 16h CPU的DRAM控制器存在可篡改的地址重映射寄存器，通过单比特翻转（如xor dword [0xf80c2094], 0x00400000）可绕过PSP、SMM、C6、微码等所有基于物理地址的安全机制，暴露内核不可见的保留内存区域。17h及后续型号数据手册不再记载这些寄存器。</p><p><strong>为什么重要</strong><br>安全边界建立在物理地址之上，而DRAM控制器位于所有防护之下，重映射后上层防护全部失效。这是硬件层面的根本漏洞，影响所有依赖内存隔离的虚拟化、固件安全、可信执行环境，且无法通过软件补丁修复。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若涉及主机移植或反作弊，需注意平台内存控制器行为差异；若开发PC版，可关注AMD后续是否修复此硬件缺陷，避免玩家利用漏洞篡改内存数据。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 693 +13.1 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 官方发布 Claude Code 会话效率指南，详解 token 计费机制：输入/输出价格比约 1:5，prompt 缓存读取成本为正常输入的 0.1 倍，写入成本最高 2 倍。建议用 /clear 分隔任务、/context 检查加载内容、/compact 在缓存过期（1小时）前压缩对话，并可用 MAX_THINKING_TOKENS=0 关闭思考。</p><p><strong>为什么重要</strong><br>AI 编程工具从固定费用转向按 token 计费，同一任务因会话管理方式不同成本可差数倍。缓存命中率直接决定 GPU 预填充开销，这改变了开发者的工作习惯——任务间清理上下文、主动压缩历史成为省钱刚需，而非可选优化。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你关注的是 GAS 配置、动画蓝图和网络同步，而非 LLM API 成本优化。但若未来用 AI 辅助写战斗逻辑，可借鉴其「缓存过期前压缩」思路，减少重复上下文输入。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 302 +11.4 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Mistral OCR 4.1</title>
-  <link>https://docs.mistral.ai/models/ocr-4-1</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-d04ee9f3470d</guid>
-  <pubDate>Thu, 13 Aug 2026 17:05:12 +0000</pubDate>
+  <title>DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了</title>
+  <link>https://www.qbitai.com/2026/08/473597.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-16-f02e91809885</guid>
+  <pubDate>Fri, 14 Aug 2026 00:52:35 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Mistral 发布 OCR 4.1 公开预览，定价每千页 4 美元，标注版 5 美元。新增段落级边界框、结构块标签及块级置信度，服务 Document AI 栈。</p><p><strong>为什么重要</strong><br>OCR 从纯文本转向结构化布局理解，价格下探至千页 4 美元，挤压传统厂商。段落级输出直接服务 RAG 与文档解析，改变 AI 数据预处理成本结构。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来战斗日志或回放需文本识别，可参考其块级置信度设计，但当前无应用场景。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 403 +12 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>DeepSeek Harness开源Agent框架发布后，GitHub上dsh-plugin标签仓库已超700个。插件覆盖多Agent协作(dsh-agent-teams)、侧边栏IDE(dsh-Better-Sidebar)、@文件引用(dsh-at-file)、跨会话记忆(dsh-memory-evolve)、Claude数据迁移、视觉理解(ModLens)、18款小游戏及2005年风格广告UI等。</p><p><strong>为什么重要</strong><br>插件生态爆发验证了'Everything is a Plugin'架构的可行性，将Agent从单任务工具扩展为可定制平台。700+插件在短期内涌现，说明社区驱动模式能快速覆盖长尾需求，可能改变AI工具的分发与演进方式，对Agent框架设计有示范效应。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注其插件化架构思路：若未来战斗系统需扩展AI对手或工具链，可借鉴模块化插件设计，降低功能迭代成本。当前无直接可迁移技术。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/473597.html">量子位</a> · <a href="http://www.geekpark.net/news/368809">极客公园</a> · <a href="http://www.geekpark.net/news/368789">极客公园</a></small></p>]]></description>
+</item>
+<item>
+  <title>Netflix shutters Night School Studio and Moonloot Games</title>
+  <link>https://www.gamesindustry.biz/netflix-shutters-night-school-studio-and-moonloot-games</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-16-1653353954ca</guid>
+  <pubDate>Thu, 13 Aug 2026 19:54:15 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Netflix关闭Night School Studio与Moonloot Games，仅剩Next Games一家内部工作室。Night School六周前刚发布《Unhinged》，曾以《Oxenfree》系列闻名；Moonloot成立于2022年，无公开项目。2024年Netflix已取消6款游戏，关闭Team Blue与Boss Fight，并出售Spry Fox。</p><p><strong>为什么重要</strong><br>Netflix游戏战略从扩张转向收缩，聚焦四支柱（主流、叙事、派对、儿童）。儿童游戏日活因Playground应用增长600%，但叙事游戏工作室被砍，显示其更看重数据而非内容积累。行业整合期，中型工作室生存空间被压缩。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注Netflix对叙事游戏投入的缩减信号——若依赖单机叙事型PVE，需警惕平台方策略转向；PVP项目更应强化在线服务与社交粘性，避免被归类为可牺牲的叙事资产。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamesindustry.biz/netflix-shutters-night-school-studio-and-moonloot-games">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/business/netflix-closing-oxenfree-developer-night-school-studio-and-moonloot-games">Game Developer</a></small></p>]]></description>
 </item>
 <item>
   <title>Phantom Blade Zero Uses Authentic Kung Fu Motion Capture</title>
   <link>https://80.lv/articles/phantom-blade-zero-uses-authentic-kung-fu-motion-capture/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-5aa840d0f34f</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-16-5aa840d0f34f</guid>
   <pubDate>Fri, 14 Aug 2026 13:19:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>《Phantom Blade Zero》10月29日发售，甄子丹任联合制作人，其动作团队以全速战斗进行动捕。战斗系统从零搭建，机制直接由动捕会话决定，如Boss对四/五连击的不同反应。游戏为“功夫朋克”风格，主角仅剩66天寿命。</p><p><strong>为什么重要</strong><br>动捕通常只做参考，再手工调校；此项目让动捕直接塑造战斗机制，模糊了表演与系统的边界。这改变了动作游戏开发流程，对依赖动画蓝图和GAS的团队是范式冲击。</p><p><strong>对你而言</strong><br>可借鉴其“动捕驱动机制”思路：在配置GAS连招时，用真实格斗节奏校准帧数据与取消窗口，而非纯理论数值。但若你的项目非写实功夫题材，则无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「combat system」 +32</small></p>]]></description>
+  <description><![CDATA[<p><strong>22 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>《Phantom Blade Zero》10月29日发售，S-GAME与甄子丹合作，用全速战斗动作捕捉其及特技团队动作。战斗系统从零构建，机制直接由动捕会话塑造，如Boss对四或五连击的不同反应。游戏为“功夫朋克”风格，主角只剩66天寿命。</p><p><strong>为什么重要</strong><br>这是动作游戏开发中罕见的“动捕驱动设计”案例——战斗机制反向由动捕实况决定，而非先定玩法再补动画。它可能改变PVP战斗设计流程，使动作真实性与系统深度直接挂钩，影响同类项目对动捕投入的决策。</p><p><strong>对你而言</strong><br>若你的PVP项目追求真实武术手感，可借鉴其“全速动捕+机制实时调整”流程，但需注意网络同步下动捕数据的延迟补偿。若项目偏重竞技平衡而非写实，则与你的工作无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「combat system」 +32 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
   <title>3D Artist Reimagined Half-Life 2's Headcrab With Unreal Engine 5's Substrate</title>
   <link>https://80.lv/articles/3d-artist-reimagined-half-life-2-s-headcrab-with-unreal-engine-5-s-substrate/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-f4aafceb2cbd</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-16-f4aafceb2cbd</guid>
   <pubDate>Fri, 14 Aug 2026 13:36:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Emanuel Pessel用UE5.7.4的Substrate系统重制半条命2猎头蟹，发布62页案例。资产LOD0为16K三角形，LOD5降至44，单UV 4K纹理，texel密度40.36，Substrate着色器约3.2K指令。流程含ZBrush、3ds Max、Substance等，无AI参与。</p><p><strong>为什么重要</strong><br>Substrate是UE5争议性新着色器系统，现有教程多聚焦车辆材质。此案例证明其能处理生物有机体，为材质工作流提供非金属参考，可能影响后续引擎默认渲染管线的采用决策。</p><p><strong>对你而言</strong><br>Substrate指令数3.2K对移动端或中端PC是性能负担，需评估目标平台。其分层材质思路可借鉴用于武侠角色皮肤/布料混合，但LOD5仅44三角形不适合近战特写，需保留更高LOD。与你的GAS配置无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>CodeDev Group launches dev studio Full Spectrum Interactive</title>
-  <link>https://www.gamesindustry.biz/codedev-group-launches-dev-studio-full-spectrum-interactive</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-09a6ce0b5633</guid>
-  <pubDate>Wed, 12 Aug 2026 13:58:09 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>10 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>CodeDev Group（The Unreal Guys）成立新工作室 Full Spectrum Interactive，领导层含工作室主管 Matt Southern、CCO Christian McKinney、CTO Rob Williams。专注小至 AA 级游戏及原创原型，提供完整联合开发服务，并调用 The Unreal Guys 及优化部门 The Performance Guys 的工程、设计、技术美术人才。</p><p><strong>为什么重要</strong><br>行业出现“弹性团队”模式：依托母公司人才池，项目期快速组队、结束后缩编不裁员，降低中小型开发风险。这改变传统固定团队结构，提升资源利用率，对依赖外包或全职招聘的同行构成竞争压力。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但“The Performance Guys”优化部门的存在提示：UE5 武侠 PVP 的性能瓶颈（如网络同步、动画开销）可借鉴其专项优化服务思路，考虑内部建立类似快速响应小组。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed</title>
-  <link>https://openai.com/index/previewing-ultrafast</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-823ba822fee8</guid>
-  <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>45.1 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-5.6 Sol的Ultrafast服务层，基于Cerebras硬件，输出速度达750 tokens/秒，比标准处理快14倍，先限API预览。</p><p><strong>为什么重要</strong><br>此前实时响应需牺牲模型智能，Ultrafast首次让最强模型达到毫秒级延迟，改变AI在故障响应、金融风控等时效敏感场景的可用性。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 698 +13.1 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/previewing-ultrafast">OpenAI</a> · <a href="https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai">Hacker News</a> · <a href="https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>10 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>3D艺术家Emanuel Pessel用UE5.7.4的Substrate系统重制半条命2的猎头蟹，发布62页案例拆解。资产LOD0为16K三角形，LOD5降至44三角形，texel密度40.36 texels/cm，单UV集4K纹理，Substrate着色器约3.2K指令。流程含ZBrush、3ds Max、Substance 3D Designer/Painter、Akeytsu，无AI参与。</p><p><strong>为什么重要</strong><br>Substrate是UE5争议性新着色器系统，现有教程多聚焦汽车材质。此案例证明其能处理生物有机体，扩展了技术适用范围。62页文档为行业提供稀缺的Substrate实战参考，降低其他团队试错成本。</p><p><strong>对你而言</strong><br>Substrate着色器指令数3.2K对移动端或中低端PC是压力点，需评估性能预算。其单UV集与低LOD策略可借鉴到武侠角色优化。但核心是材质表现，与你的GAS、动画蓝图工作无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
   <title>Introducing Gemini 3.7 Flash</title>
   <link>https://deepmind.google/blog/introducing-gemini-3-7-flash/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-481077877830</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-16-481077877830</guid>
   <pubDate>Thu, 13 Aug 2026 17:04:18 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>33.7 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.7 Flash，距3.6 Flash仅三周。编码基准FrontierCode 1.1达43.6%（3.6为34.4%），DeepSWE v1.1达65.3%（49.0%）。输入价$0.75/百万token，输出$3.75，为原3.6 Flash半价。已集成至Gemini Spark。</p><p><strong>为什么重要</strong><br>迭代周期从数月压缩至三周，且性能大幅提升同时价格减半，直接压低AI编码与代理服务的行业成本基准，迫使竞品跟进性价比，改变企业采购AI开发工具的定价预期。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。但若团队用AI辅助生成GAS配置或动画蓝图代码，其更高的一次通过率（43.6%）可减少调试时间，低价适合批量测试，不过需自行验证对UE5 C++与蓝图语法的适配性。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / HN 948 +13.7 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/introducing-gemini-3-7-flash/">DeepMind</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>45.7 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.7 Flash，距3.6 Flash仅三周。编码基准FrontierCode 1.1达43.6%（3.6为34.4%），DeepSWE v1.1达65.3%（49.0%）。定价$0.75/百万输入token、$3.75/百万输出，为3.6一半。已集成至Gemini Spark。</p><p><strong>为什么重要</strong><br>三周迭代且价格减半，打破大模型半年更新周期惯例。性能跃升集中在代码生成与多步工具调用，直接冲击AI编程助手市场，降低企业部署agent成本门槛。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来用AI辅助GAS配置生成，可关注其代码生成精度提升，但当前战斗系统开发不依赖此模型。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 960 +13.7 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/introducing-gemini-3-7-flash/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>OpenAI appoints Dali Rajic as Chief Revenue Officer</title>
-  <link>https://openai.com/index/dali-rajic-chief-revenue-officer</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-15-08d3dbf6aff4</guid>
-  <pubDate>Thu, 13 Aug 2026 09:00:00 +0000</pubDate>
+  <title>Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed</title>
+  <link>https://openai.com/index/previewing-ultrafast</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-16-823ba822fee8</guid>
+  <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>24 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI任命Dali Rajic为首席营收官，接替Denise Dresser。Rajic曾任Wiz总裁兼COO（被Google收购）、Zscaler总裁兼COO、AppDynamics首席客户与营收官。OpenAI周活用户超10亿，企业客户超200万，同比翻倍。另与Chad Peets及RPT Partners达成战略合作。</p><p><strong>为什么重要</strong><br>OpenAI从研究驱动转向规模化商业变现，营收组织需应对企业AI部署加速。Rajic的纪律性、指标驱动经验，契合下一代模型改变公司运营方式的拐点。高管更替与外部合作，反映AI行业竞争从技术转向商业化执行。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注OpenAI企业客户增长数据，若涉及AI NPC或对战匹配，其商业化模式或影响未来API定价与功能优先级。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/dali-rajic-chief-revenue-officer">OpenAI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure">The Verge AI</a> · <a href="https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>45.1 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-5.6 Sol的Ultrafast服务层，基于Cerebras硬件，输出速度达750 tokens/秒，较标准处理快14倍，现仅限API预览客户。</p><p><strong>为什么重要</strong><br>首次在旗舰模型上实现实时推理，打破速度与智能的取舍，将AI引入毫秒级决策场景，改变行业对延迟的定价基准。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 707 +13.1 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/previewing-ultrafast">OpenAI</a> · <a href="https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai">Hacker News</a> · <a href="https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/">TechCrunch AI</a></small></p>]]></description>
 </item>
 </channel>
 </rss>

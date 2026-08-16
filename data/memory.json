@@ -422,14 +422,14 @@
   "4810778778306499": {
     "title": "Introducing Gemini 3.7 Flash",
     "first_seen": "2026-08-14",
-    "times": 2,
-    "last_seen": "2026-08-15"
+    "times": 3,
+    "last_seen": "2026-08-16"
   },
   "823ba822fee89993": {
     "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
     "first_seen": "2026-08-14",
-    "times": 2,
-    "last_seen": "2026-08-15"
+    "times": 3,
+    "last_seen": "2026-08-16"
   },
   "3647be9c499c7379": {
     "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
@@ -482,13 +482,43 @@
   "5aa840d0f34f1f13": {
     "title": "Phantom Blade Zero Uses Authentic Kung Fu Motion Capture",
     "first_seen": "2026-08-15",
-    "times": 1,
-    "last_seen": "2026-08-15"
+    "times": 2,
+    "last_seen": "2026-08-16"
   },
   "f4aafceb2cbdb9d8": {
     "title": "3D Artist Reimagined Half-Life 2's Headcrab With Unreal Engine 5's Substrate",
     "first_seen": "2026-08-15",
+    "times": 2,
+    "last_seen": "2026-08-16"
+  },
+  "ec0c2f155d54d2cf": {
+    "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
+    "first_seen": "2026-08-16",
     "times": 1,
-    "last_seen": "2026-08-15"
+    "last_seen": "2026-08-16"
+  },
+  "a037d4d8a232fd5d": {
+    "title": "How Claude's text watermarking works",
+    "first_seen": "2026-08-16",
+    "times": 1,
+    "last_seen": "2026-08-16"
+  },
+  "c6f5d983a20cc870": {
+    "title": "Maximizing the value of your Claude Code sessions",
+    "first_seen": "2026-08-16",
+    "times": 1,
+    "last_seen": "2026-08-16"
+  },
+  "f02e91809885f4c9": {
+    "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
+    "first_seen": "2026-08-16",
+    "times": 1,
+    "last_seen": "2026-08-16"
+  },
+  "1653353954ca2f94": {
+    "title": "Netflix shutters Night School Studio and Moonloot Games",
+    "first_seen": "2026-08-16",
+    "times": 1,
+    "last_seen": "2026-08-16"
   }
 }
