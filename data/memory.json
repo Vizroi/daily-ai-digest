@@ -482,8 +482,8 @@
   "5aa840d0f34f1f13": {
     "title": "Phantom Blade Zero Uses Authentic Kung Fu Motion Capture",
     "first_seen": "2026-08-15",
-    "times": 2,
-    "last_seen": "2026-08-16"
+    "times": 3,
+    "last_seen": "2026-08-17"
   },
   "f4aafceb2cbdb9d8": {
     "title": "3D Artist Reimagined Half-Life 2's Headcrab With Unreal Engine 5's Substrate",
@@ -494,8 +494,8 @@
   "ec0c2f155d54d2cf": {
     "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
     "first_seen": "2026-08-16",
-    "times": 1,
-    "last_seen": "2026-08-16"
+    "times": 2,
+    "last_seen": "2026-08-17"
   },
   "a037d4d8a232fd5d": {
     "title": "How Claude's text watermarking works",
@@ -512,13 +512,55 @@
   "f02e91809885f4c9": {
     "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
     "first_seen": "2026-08-16",
-    "times": 1,
-    "last_seen": "2026-08-16"
+    "times": 2,
+    "last_seen": "2026-08-17"
   },
   "1653353954ca2f94": {
     "title": "Netflix shutters Night School Studio and Moonloot Games",
     "first_seen": "2026-08-16",
     "times": 1,
     "last_seen": "2026-08-16"
+  },
+  "1517695ed4c2ca5f": {
+    "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+    "first_seen": "2026-08-17",
+    "times": 1,
+    "last_seen": "2026-08-17"
+  },
+  "2b84cfe1ec0807c3": {
+    "title": "Claude: System Prompts",
+    "first_seen": "2026-08-17",
+    "times": 1,
+    "last_seen": "2026-08-17"
+  },
+  "ba90c76526b8e08b": {
+    "title": "Abdominal fat predicts heart disease risk better than BMI",
+    "first_seen": "2026-08-17",
+    "times": 1,
+    "last_seen": "2026-08-17"
+  },
+  "11fb7f70cafec601": {
+    "title": "Scabby versus Sharma, Twitch's GenAI admission, and Netflix shutters more studios - Patch Notes #65",
+    "first_seen": "2026-08-17",
+    "times": 1,
+    "last_seen": "2026-08-17"
+  },
+  "21f4d3ae112556db": {
+    "title": "C++ Files made in unreal editor gone on next launch",
+    "first_seen": "2026-08-17",
+    "times": 1,
+    "last_seen": "2026-08-17"
+  },
+  "d26765a5896ad693": {
+    "title": "weird lighting issues with Niagara VFX system?",
+    "first_seen": "2026-08-17",
+    "times": 1,
+    "last_seen": "2026-08-17"
+  },
+  "bb8f95d9573f7037": {
+    "title": "I built a system in UE5 to do 10k skier trails/footsteps per frame on Steam Deck at 30 fps, would love to share!",
+    "first_seen": "2026-08-17",
+    "times": 1,
+    "last_seen": "2026-08-17"
   }
 }
