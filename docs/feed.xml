@@ -4,89 +4,41 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 147 个事件，只有 10 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 147 个事件，只有 4 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 17 Aug 2026 10:05:15 +0800</lastBuildDate>
+<lastBuildDate>Tue, 18 Aug 2026 09:57:50 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing</title>
-  <link>https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-1517695ed4c2</guid>
-  <pubDate>Fri, 14 Aug 2026 19:15:51 +0000</pubDate>
+  <title>Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</title>
+  <link>https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-18-04f846fa1917</guid>
+  <pubDate>Mon, 17 Aug 2026 17:25:17 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 宣布所有 Claude 模型将采用语义隐写术加水印：推理时按密钥将词分为绿/红列表，偏向选绿词，文本越长检测置信度越高。官方文档自相矛盾，先称‘不改变语义’，后承认会微调词选择。</p><p><strong>为什么重要</strong><br>这是首个主流商用 LLM 强制全局文本水印，牺牲输出纯净度换取合规。改变行业对‘AI 文本可追溯性’的默认假设，引发对生成内容语义保真度的信任危机。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来 UE5 项目接入 LLM 生成剧情或对话，需警惕水印导致的措辞偏差，影响本地化或角色语气一致性。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 148 +10</small></p><p><small>全部来源：<a href="https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing">Hacker News</a> · <a href="https://www.anthropic.com/news/claude-text-watermark">Hacker News</a> · <a href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>51.5 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Qwen 3.8 27B 在 Artificial Analysis Intelligence Index 得 52 分，追平 GPT-5.6 Luna（max），仅比 GLM-5.2（753B）和 DeepSeek V4 Pro（1.6B）低 1 分。该模型参数仅 27B，远小于对比模型。评测日期 2026-08-17。</p><p><strong>为什么重要</strong><br>小参数模型达到超大模型性能，打破规模决定智能的假设。推理成本与部署门槛骤降，中小团队可本地运行顶级模型，改变 AI 服务竞争格局。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来 NPC 行为树或战斗 AI 需本地推理，此模型可作为低成本方案参考，但当前战斗手感与同步优化不受影响。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 307 +11.5 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/">Simon Willison</a> · <a href="https://artificialanalysis.ai/models/qwen3-8-27b">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Claude: System Prompts</title>
-  <link>https://platform.claude.com/docs/en/release-notes/system-prompts</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-2b84cfe1ec08</guid>
-  <pubDate>Sun, 16 Aug 2026 12:48:21 +0000</pubDate>
+  <title>Amazon, which started off selling books, is destroying rare texts to train AI</title>
+  <link>https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-18-8eae30be2742</guid>
+  <pubDate>Mon, 17 Aug 2026 15:21:29 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 公开 claude.ai 与移动端系统提示词，含当前日期注入、Markdown 代码片段强制等行为约束。提示词定期更新，但不影响 API。Claude 4.6 起每个模型 ID 为固定快照，仅单一提示词条目。</p><p><strong>为什么重要</strong><br>首次系统性披露商业 AI 产品前端提示词工程细节，揭示对话体验与 API 行为差异。影响开发者对模型能力边界的认知，提示词版本管理成为产品迭代关键环节。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来用 Claude 辅助战斗配置生成，需注意 API 与网页端行为不一致，但当前不影响 UE5 开发流程。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 546 +12.6 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>41 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>404 Media 用追踪器证实，亚马逊拉斯维加斯 VGT3 仓库（恐龙持书标志）批量购入稀有书籍，切脊扫描用于 AI 训练。亚马逊承认通过商业渠道购书以改善服务。这些书多为 2022 年前绝版文本，因无 AI 生成内容而价值极高。</p><p><strong>为什么重要</strong><br>互联网文本已被 LLM 耗尽，且 AI 生成内容引发模型崩溃风险。实体稀有书成为最后的高质量数据源，亚马逊此举将数据采集从数字世界扩展到物理世界，改变版权与文化遗产的处置方式。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但注意：若未来战斗 AI 或 NPC 对话需训练数据，避免使用 AI 生成文本，否则可能模型崩溃。可借鉴其数据稀缺性思维，但无需行动。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 91 +9</small></p><p><small>全部来源：<a href="https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/">Hacker News</a> · <a href="https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/">Simon Willison</a></small></p>]]></description>
 </item>
 <item>
-  <title>Abdominal fat predicts heart disease risk better than BMI</title>
-  <link>https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-ba90c76526b8</guid>
-  <pubDate>Sat, 15 Aug 2026 21:14:34 +0000</pubDate>
+  <title>Ask HN: Alternatives to GitHub</title>
+  <link>https://news.ycombinator.com/item?id=49331033</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-18-e33d3bb0d033</guid>
+  <pubDate>Mon, 17 Aug 2026 13:59:17 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>JACC 8月11日发布研究，26万人随访20年，发现腰围(WC)和腰臀比(WHR)比BMI更能预测9种心血管结局风险。正常BMI者中5%高WC、18%高WHR；超重者中39%高WC、40%高WHR。正常/超重但高WC/WHR者风险高15%-50%。</p><p><strong>为什么重要</strong><br>BMI长期是肥胖和心血管风险的金标准，但无法区分脂肪分布。内脏脂肪与心脏病、糖尿病强相关，皮下脂肪关联弱。该研究证明仅用BMI会错误分类风险，推动临床评估转向腰围和腰臀比，可能改变全球肥胖诊断和预防策略。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 322 +11.6 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>HN 讨论自托管 GitLab 替代 GitHub：6 年经验者称自托管 GitLab 比 GH 更稳，但需 16-32GB 内存、4 核、1-3 人维护；GitLab 曾涨价近一倍，用户转投 Gitea；有人推出基于 Hetzner 的 GitLab Runners 服务，缺 ISO 27001 认证。</p><p><strong>为什么重要</strong><br>GitHub 企业级体验被质疑，自托管 GitLab 在控制权、缓存、权限粒度上更优，但维护成本高且 GitLab 公司对中小用户支持差，涨价和漏洞频发促使社区寻找替代方案。</p><p><strong>对你而言</strong><br>与你的 UE5 战斗项目无直接关系，但若团队用 GitLab 管理代码，可参考其自托管资源需求和 runner 配置经验，避免升级踩坑。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 496 +12.4 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Scabby versus Sharma, Twitch's GenAI admission, and Netflix shutters more studios - Patch Notes #65</title>
-  <link>https://www.gamedeveloper.com/business/scabby-versus-sharma-twitch-s-genai-admission-and-netflix-shutters-more-studios-patch-notes-65</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-11fb7f70cafe</guid>
-  <pubDate>Fri, 14 Aug 2026 08:11:46 +0000</pubDate>
+  <title>AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira</title>
+  <link>https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-18-44aaae327680</guid>
+  <pubDate>Mon, 17 Aug 2026 14:18:38 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Netflix关闭Night School与Moonloot两工作室；Twitch默认将用户数据用于亚马逊GenAI训练；Xbox工会抗议裁员；Big Walk六天售百万；Supermassive三年内第三轮裁员75人。</p><p><strong>为什么重要</strong><br>行业收缩加剧：流媒体与平台方砍游戏业务，AI训练数据攫取成默认，工会对抗常态化，独立游戏仍能爆款，显示市场两极分化。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/scabby-versus-sharma-twitch-s-genai-admission-and-netflix-shutters-more-studios-patch-notes-65">Game Developer</a> · <a href="https://www.gamesindustry.biz/netflix-shutters-night-school-studio-and-moonloot-games">GamesIndustry</a></small></p>]]></description>
-</item>
-<item>
-  <title>C++ Files made in unreal editor gone on next launch</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vq5m6v/c_files_made_in_unreal_editor_gone_on_next_launch/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-21f4d3ae1125</guid>
-  <pubDate>Sun, 16 Aug 2026 19:06:25 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5用户通过Tools-&gt;New C++ Class创建类，保存后内容浏览器可见，重启后消失，但源文件仍在磁盘。原因是未在Visual Studio中重新编译，需重建项目才能让编辑器识别新类。</p><p><strong>为什么重要</strong><br>这是新手常见陷阱，反映UE5中C++类注册依赖编译步骤，编辑器启动时仅加载已编译模块。未编译则类不注册，导致内容浏览器不显示，但文件保留。</p><p><strong>对你而言</strong><br>与你的项目无直接关系，但提醒：GAS技能类若未编译就重启，同样会消失。建议在VS中构建后再启动编辑器，避免误判文件丢失。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「unreal」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>weird lighting issues with Niagara VFX system?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vqecfc/weird_lighting_issues_with_niagara_vfx_system/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-d26765a5896a</guid>
-  <pubDate>Mon, 17 Aug 2026 01:18:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户在使用Niagara VFX系统时遇到光照异常，附有Imgur链接展示问题，但未提供具体参数或版本号。</p><p><strong>为什么重要</strong><br>Niagara光照问题常见于材质设置或粒子光照通道冲突，影响视觉一致性，对VFX开发者是普遍痛点。</p><p><strong>对你而言</strong><br>与你的项目无直接关系，除非你处理Niagara粒子光照，否则无需关注。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「niagara」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>I built a system in UE5 to do 10k skier trails/footsteps per frame on Steam Deck at 30 fps, would love to share!</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vpka7h/i_built_a_system_in_ue5_to_do_10k_skier/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-bb8f95d9573f</guid>
-  <pubDate>Sun, 16 Aug 2026 01:50:37 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>36.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5滑雪游戏自研系统：每帧1万条雪痕/足迹，Steam Deck 30fps。每名游客上报位置与帧位移至GPU缓冲，单一布尔标记（滑雪/步行）决定计算着色器压印形状至雪深纹理（厘米级，影响模拟）。</p><p><strong>为什么重要</strong><br>此前雪地痕迹多用贴花或网格，数量受限且不参与物理。此方案将痕迹写入真实深度纹理，实现万级动态痕迹与模拟联动，为开放世界大规模环境交互提供新范式。</p><p><strong>对你而言</strong><br>与你的武侠PVP无直接关系。但GPU缓冲+计算着色器压印思路可借鉴：若做雪地/沙地脚印或技能地面痕迹，可低成本实现高密度持久痕迹，且深度纹理可驱动位移或碰撞。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +2.4 / 命中「ue5」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Phantom Blade Zero Uses Authentic Kung Fu Motion Capture</title>
-  <link>https://80.lv/articles/phantom-blade-zero-uses-authentic-kung-fu-motion-capture/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-5aa840d0f34f</guid>
-  <pubDate>Fri, 14 Aug 2026 13:19:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>22 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>《Phantom Blade Zero》10月29日发售，S-GAME与甄子丹合作，用全速战斗动作捕捉其及特技团队，战斗系统从零构建，机制直接由动捕会话决定，如Boss对四/五连击的不同反应。</p><p><strong>为什么重要</strong><br>传统动捕多用于参考动画，此项目将动捕作为战斗机制设计源头，改变动作游戏开发流程，使武术真实感与玩法深度绑定，影响同类PVE/动作项目。</p><p><strong>对你而言</strong><br>与你的PVP项目无直接关系，但可借鉴其动捕驱动机制设计的思路，若用于PVP需注意网络同步下全速动捕的延迟补偿与手感调优。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「combat system」 +32 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks</title>
-  <link>https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-ec0c2f155d54</guid>
-  <pubDate>Fri, 14 Aug 2026 05:19:59 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>24.1 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Z.ai发布GLM-5.3，复用GLM-5.2的743B基座模型，仅靠扩展后训练（更多任务环境、类型、时长）提升能力。Terminal-Bench 3.0从4.6升至28.3，DeepSWE v1.1从46.2升至66.9，CyberGym达84.5%（超Mythos 5的83.8%和GPT-5.6 Sol的83.6%），ExploitBench从24.4%升至54.4%。权重约两周后公开。</p><p><strong>为什么重要</strong><br>证明不重训基座、纯靠后训练缩放也能大幅提升长程编码与漏洞利用能力，挑战了'能力上限由预训练决定'的假设。安全能力意外复合增长，使开源模型在漏洞发现上逼近并部分超越闭源前沿，改变安全工具选型格局。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。但若你涉及后端或工具链，可关注其长程任务（如CI故障分类）的自动化潜力，以及权重公开后本地部署的安全审计价值。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 1152 +14.1 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/">MarkTechPost</a> · <a href="https://z.ai/blog/glm-5.3">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了</title>
-  <link>https://www.qbitai.com/2026/08/473597.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-17-f02e91809885</guid>
-  <pubDate>Fri, 14 Aug 2026 04:17:18 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>DeepSeek Harness开源Agent框架发布后，GitHub上dsh-plugin标签仓库已超700个。社区插件覆盖多Agent协作(dsh-agent-teams)、侧边栏IDE(dsh-Better-Sidebar)、@文件引用(dsh-at-file)、跨会话记忆(dsh-memory-evolve)、Claude数据迁移、视觉理解(ModLens)、18款小游戏及2005年风格广告UI等。</p><p><strong>为什么重要</strong><br>该框架以'Everything is a Plugin'为核心，将Agent能力扩展权完全交给社区，形成生态爆发。700+插件在数日内涌现，证明插件化架构能极大降低二次开发门槛，加速AI工具从单一功能向平台化演进，改变Agent工具的分发与迭代模式。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但插件化思路可借鉴：若未来做AI辅助战斗调试工具，可考虑将GAS配置检查、动画状态可视化等拆分为独立插件模块，便于团队按需组合与社区共享。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/08/473597.html">量子位</a> · <a href="http://www.geekpark.net/news/368809">极客公园</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>39.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Wiz Red Agent在Snowflake公开仓库snowflake-connector-net中发现GitHub Actions脚本注入漏洞。PR #1218于2026年6月18日合并，Copilot Autofix为共同作者，将安全的env+jq模式替换为直接字符串插值。漏洞5天内被AI代理自主发现并利用，通过构造issue标题窃取Jira凭据（qa@snowflake.net），访问Atlassian项目。6月23日修复（PR #1402），凭据已轮换。</p><p><strong>为什么重要</strong><br>首次证明AI编码助手引入漏洞、AI安全代理自主利用的闭环。GitHub AI审查未标记关键漏洞，暴露AI生成代码缺乏历史上下文（为何用env+jq防注入）。漏洞发现窗口从数月压缩至5天，安全运维需适应自动化攻防节奏。</p><p><strong>对你而言</strong><br>直接相关：GAS配置和动画蓝图虽非CI/CD，但若用Copilot辅助PR，需警惕其重写安全模式。建议为AI生成代码强制静态分析（如CodeQL），并保留关键安全模式的注释或测试锁定。对网络同步和性能优化无直接影响。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 317 +11.5 / HN 头条 +8</small></p>]]></description>
 </item>
 </channel>
 </rss>

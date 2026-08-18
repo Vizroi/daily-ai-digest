@@ -562,5 +562,29 @@
     "first_seen": "2026-08-17",
     "times": 1,
     "last_seen": "2026-08-17"
+  },
+  "04f846fa19175e68": {
+    "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+    "first_seen": "2026-08-18",
+    "times": 1,
+    "last_seen": "2026-08-18"
+  },
+  "8eae30be2742f61f": {
+    "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+    "first_seen": "2026-08-18",
+    "times": 1,
+    "last_seen": "2026-08-18"
+  },
+  "e33d3bb0d033bb8b": {
+    "title": "Ask HN: Alternatives to GitHub",
+    "first_seen": "2026-08-18",
+    "times": 1,
+    "last_seen": "2026-08-18"
+  },
+  "44aaae3276800654": {
+    "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+    "first_seen": "2026-08-18",
+    "times": 1,
+    "last_seen": "2026-08-18"
   }
 }
