@@ -1,46 +1,4 @@
 {
-  "3eec498ef585c56d": {
-    "title": "刚刚，阿里Qwen3.8-Max来了！冲进全球第一梯队，模型表现直逼Claude",
-    "first_seen": "2026-08-04",
-    "times": 1,
-    "last_seen": "2026-08-04"
-  },
-  "020b519fc8ad23e9": {
-    "title": "SQLite Critical CVEs or LLM Slop?",
-    "first_seen": "2026-08-04",
-    "times": 1,
-    "last_seen": "2026-08-04"
-  },
-  "6d75ac81f686e845": {
-    "title": "LLMs reward expertise",
-    "first_seen": "2026-08-04",
-    "times": 1,
-    "last_seen": "2026-08-04"
-  },
-  "2ac71409a2838e72": {
-    "title": "Prevent cognitive debt by manually retyping LLM-generated code",
-    "first_seen": "2026-08-04",
-    "times": 1,
-    "last_seen": "2026-08-04"
-  },
-  "b09f5005563d9174": {
-    "title": "Last Week In Unreal: 822 on ue6-main, 254 on ue5-main. Mostly stabilization, and a lot of it is about making failures diagnosable.",
-    "first_seen": "2026-08-04",
-    "times": 1,
-    "last_seen": "2026-08-04"
-  },
-  "e87aa58b5cacdf26": {
-    "title": "Weird Request: Iffy Unreal Tutorials",
-    "first_seen": "2026-08-04",
-    "times": 1,
-    "last_seen": "2026-08-04"
-  },
-  "de65cc8e7e11083d": {
-    "title": "I built an Unreal Engine plugin to make asset overview maps faster - Overview Studio!",
-    "first_seen": "2026-08-04",
-    "times": 1,
-    "last_seen": "2026-08-04"
-  },
   "027e06b45bbe23a1": {
     "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
     "first_seen": "2026-08-05",
@@ -522,10 +480,10 @@
     "last_seen": "2026-08-16"
   },
   "1517695ed4c2ca5f": {
-    "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+    "title": "Anthropic's ‘watermark’ text adulteration in Claude is a perversion of writing",
     "first_seen": "2026-08-17",
-    "times": 1,
-    "last_seen": "2026-08-17"
+    "times": 2,
+    "last_seen": "2026-08-19"
   },
   "2b84cfe1ec0807c3": {
     "title": "Claude: System Prompts",
@@ -566,14 +524,14 @@
   "04f846fa19175e68": {
     "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
     "first_seen": "2026-08-18",
-    "times": 1,
-    "last_seen": "2026-08-18"
+    "times": 2,
+    "last_seen": "2026-08-19"
   },
   "8eae30be2742f61f": {
     "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
     "first_seen": "2026-08-18",
-    "times": 1,
-    "last_seen": "2026-08-18"
+    "times": 2,
+    "last_seen": "2026-08-19"
   },
   "e33d3bb0d033bb8b": {
     "title": "Ask HN: Alternatives to GitHub",
@@ -586,5 +544,41 @@
     "first_seen": "2026-08-18",
     "times": 1,
     "last_seen": "2026-08-18"
+  },
+  "e10511c89a9c7c75": {
+    "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+    "first_seen": "2026-08-19",
+    "times": 1,
+    "last_seen": "2026-08-19"
+  },
+  "e41b8acec43f65c6": {
+    "title": "Cursor launches Origin, GitHub alternative",
+    "first_seen": "2026-08-19",
+    "times": 1,
+    "last_seen": "2026-08-19"
+  },
+  "bd6d67e11844a704": {
+    "title": "GPT-5.6 Sol Pricing Cut by 50% on OpenRouter",
+    "first_seen": "2026-08-19",
+    "times": 1,
+    "last_seen": "2026-08-19"
+  },
+  "1d1e2aff8c633258": {
+    "title": "Deus Ex director Warren Spector is retiring after nearly 45 years in game dev",
+    "first_seen": "2026-08-19",
+    "times": 1,
+    "last_seen": "2026-08-19"
+  },
+  "de72fe63f42cd8d6": {
+    "title": "Roblox being investigated by U.S. Senate after reporting 65,381 instances of suspected child abuse in 2025",
+    "first_seen": "2026-08-19",
+    "times": 1,
+    "last_seen": "2026-08-19"
+  },
+  "51f8258107eb38b2": {
+    "title": "Three Epic veterans are building an AI-powered game engine to break the industry's doom cycle",
+    "first_seen": "2026-08-19",
+    "times": 1,
+    "last_seen": "2026-08-19"
   }
 }

@@ -4,41 +4,81 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 147 个事件，只有 4 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 184 个事件，只有 9 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 18 Aug 2026 09:57:50 +0800</lastBuildDate>
+<lastBuildDate>Wed, 19 Aug 2026 09:59:24 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
+<item>
+  <title>Introducing ChatGPT for Teens: Built for learning, backed by protections</title>
+  <link>https://openai.com/index/chatgpt-for-teens</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-19-e10511c89a9c</guid>
+  <pubDate>Tue, 18 Aug 2026 11:00:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>54 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI推出ChatGPT for Teens，面向13-17岁用户自动启用。含Study Mode引导式学习、作业捷径识别重定向、Quiz与可视化、Study Hours定时专注。与CodeAI合作，提供AI教育工具。默认开启年龄适配保护，覆盖自残、暴力、饮食障碍等高风险内容。</p><p><strong>为什么重要</strong><br>AI教育市场从通用工具转向年龄分层合规产品。OpenAI以默认保护+家长控制+学习模式构建壁垒，区别于竞品仅做内容过滤。此举将推动教育AI标准升级，影响学校采购决策与监管框架。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其「默认安全+主动引导」设计思路，用于PVP对战中的青少年保护机制，如自动识别恶意行为并引导至训练模式。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/chatgpt-for-teens">OpenAI</a> · <a href="https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Cursor launches Origin, GitHub alternative</title>
+  <link>https://cursor.com/changelog/origin-code-hosting</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-19-e41b8acec43f</guid>
+  <pubDate>Mon, 17 Aug 2026 17:02:44 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>52.3 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Cursor 推出 Origin 代码托管服务，今日起向所有付费计划用户开放早期测试。支持仓库、PR、代码浏览及 GitHub 双向同步，PR 评论实时互通。集成 Vercel、Depot、Buildkite，每 PR 自动预览部署。仓库 URL 格式 cursor.com/codebase/名称。</p><p><strong>为什么重要</strong><br>AI 编辑器厂商自建托管平台，直接挑战 GitHub 地位。将代码、PR 与 AI Agent 整合在同一界面，改变开发者工作流。GitHub 同步保留其为主源，但 Origin 正逐步成为 AI 原生开发入口。</p><p><strong>对你而言</strong><br>与你的 UE5 项目无直接关系。但若团队用 Cursor 写 GAS 配置，可关注其 Agent 能力对代码审查和 CI 流程的潜在影响，目前不涉及游戏开发工具链。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 475 +12.3 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://cursor.com/changelog/origin-code-hosting">Hacker News</a> · <a href="https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/">TechCrunch AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>GPT-5.6 Sol Pricing Cut by 50% on OpenRouter</title>
+  <link>https://openrouter.ai/openai/gpt-5.6-sol</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-19-bd6d67e11844</guid>
+  <pubDate>Mon, 17 Aug 2026 21:03:18 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.9 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>OpenRouter 上 GPT-5.6 Sol 输入价降至 $2.50/M tokens，输出 $15/M，缓存读 $0.25/M，较原价降 50%。模型 1.05M 上下文，支持 128K 输出，2026-07-09 发布，知识截止 2026-02-16，由 OpenAI、Azure EU、Bedrock US 三家托管。</p><p><strong>为什么重要</strong><br>旗舰模型降价一半，直接压低复杂推理与编码任务的边际成本。多提供商路由与自动故障转移成为常态，模型即服务竞争从能力转向价格与可用性，影响所有依赖 LLM 的自动化工具链成本结构。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来用 LLM 生成战斗日志分析或 NPC 对话，可关注此价格趋势，但当前战斗系统核心不依赖此类模型。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 617 +12.9 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>Deus Ex director Warren Spector is retiring after nearly 45 years in game dev</title>
+  <link>https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-19-1d1e2aff8c63</guid>
+  <pubDate>Tue, 18 Aug 2026 12:08:03 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Warren Spector于2025年6月宣布退休，结束43年游戏生涯。他参与《System Shock》《Deus Ex》，最新作《Thick as Thieves》5月30日发售，因规模缩减仅售5美元。其工作室OtherSide裁员36人，项目Argos取消，剩余不足10人维护。</p><p><strong>为什么重要</strong><br>沉浸式模拟品类标志性人物退场，反映行业转向服务型与低成本产品。他承认游戏商业变化使其失去乐趣，老一代开发者让位，行业创新压力转向新人。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注其团队因项目缩减导致的裁员与维护困境，警惕PVP项目若定位不清易陷入类似规模失控风险。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years">Game Developer</a> · <a href="https://www.gamesindustry.biz/deus-ex-creator-warren-spector-announces-retirement-its-time-to-ride-off-into-the-sunset">GamesIndustry</a></small></p>]]></description>
+</item>
+<item>
+  <title>Roblox being investigated by U.S. Senate after reporting 65,381 instances of suspected child abuse in 2025</title>
+  <link>https://www.gamedeveloper.com/business/roblox-being-investigated-by-u-s-senate-after-reporting-65-381-instances-of-suspected-child-abuse-in-2025</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-19-de72fe63f42c</guid>
+  <pubDate>Mon, 17 Aug 2026 12:47:28 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>美国参议院司法委员会对Roblox启动调查，因其2025年向NCMEC报告65,381起疑似儿童性剥削事件，较2024年翻倍。参议员Josh Hawley致信CEO David Baszucki，要求保留所有相关记录，指控平台优先营收与参与度而非儿童安全。</p><p><strong>为什么重要</strong><br>UGC平台规模越大，监管风险越高。Roblox作为元宇宙/用户生成内容标杆，其安全机制被证伪将引发全行业对UGC审核、实时语音与虚拟交互的合规审查，直接影响依赖用户生成内容的游戏商业模式。</p><p><strong>对你而言</strong><br>与你的武侠PVP项目无直接关系。但若未来加入UGC或开放语音聊天，需提前设计举报、过滤与人工审核流程，参考Roblox教训可避免类似监管危机。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/roblox-being-investigated-by-u-s-senate-after-reporting-65-381-instances-of-suspected-child-abuse-in-2025">Game Developer</a> · <a href="https://www.gamesindustry.biz/us-senate-to-investigate-roblox-following-claims-it-prioritises-revenue-and-engagement-over-child-safety">GamesIndustry</a></small></p>]]></description>
+</item>
+<item>
+  <title>Three Epic veterans are building an AI-powered game engine to break the industry's doom cycle</title>
+  <link>https://www.gamesindustry.biz/three-epic-veterans-are-building-an-ai-powered-game-engine-to-break-the-industrys-doom-cycle</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-19-51f8258107eb</guid>
+  <pubDate>Tue, 18 Aug 2026 13:32:01 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Epic前员工Brussee、De Jong、Valient创立Immens，开发AI驱动游戏引擎，主打开放标准与可扩展架构，目标降低开发成本与团队规模。2025年Steam约70%游戏用Unity/Unreal，Immens试图打破双寡头垄断。</p><p><strong>为什么重要</strong><br>引擎市场长期被Unity/Unreal垄断，Godot增长有限。Immens以AI辅助代码扩展为核心，挑战现有引擎的封闭文件格式与固定工作流，可能改变中小团队的技术选型与开发成本结构。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若Immens落地，其AI扩展引擎思路可能影响未来引擎竞争格局，间接影响UE5的定价与功能迭代，可保持关注。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Anthropic's ‘watermark’ text adulteration in Claude is a perversion of writing</title>
+  <link>https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-19-1517695ed4c2</guid>
+  <pubDate>Sun, 16 Aug 2026 21:53:43 +0000</pubDate>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>23.4 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Anthropic宣布全球所有Claude模型将采用语义隐写水印，通过绿/红词表在推理时微调token选择概率（如51:49），文本越长检测置信度越高。仅Anthropic持密钥可检测，用户无法感知。</p><p><strong>为什么重要</strong><br>这是首个大规模商用LLM强制嵌入语义水印的案例，直接改变AI文本的可验证性与创作自由边界。欧盟法规驱动下，其他厂商或跟进，影响所有AI写作工具的输出语义纯净度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来UE5战斗日志或AI生成叙事需溯源，可参考此概率性标记思路，但当前战斗系统数值与动画逻辑不受影响。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 811 +13.4 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing">Hacker News</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system">The Verge AI</a></small></p>]]></description>
+</item>
 <item>
   <title>Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</title>
   <link>https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-18-04f846fa1917</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-19-04f846fa1917</guid>
   <pubDate>Mon, 17 Aug 2026 17:25:17 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>51.5 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Qwen 3.8 27B 在 Artificial Analysis Intelligence Index 得 52 分，追平 GPT-5.6 Luna（max），仅比 GLM-5.2（753B）和 DeepSeek V4 Pro（1.6B）低 1 分。该模型参数仅 27B，远小于对比模型。评测日期 2026-08-17。</p><p><strong>为什么重要</strong><br>小参数模型达到超大模型性能，打破规模决定智能的假设。推理成本与部署门槛骤降，中小团队可本地运行顶级模型，改变 AI 服务竞争格局。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来 NPC 行为树或战斗 AI 需本地推理，此模型可作为低成本方案参考，但当前战斗手感与同步优化不受影响。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 307 +11.5 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/">Simon Willison</a> · <a href="https://artificialanalysis.ai/models/qwen3-8-27b">Hacker News</a></small></p>]]></description>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>21.8 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>2026年8月17日，Qwen 3.8 27B在Artificial Analysis Intelligence Index得52分，追平GPT-5.6 Luna（max），仅落后GLM-5.2（753B）和DeepSeek V4 Pro（1.7T）1分。该模型参数仅27B，远小于竞品。</p><p><strong>为什么重要</strong><br>小参数模型达到超大模型性能，打破规模决定智能的假设。推理成本与部署门槛骤降，中小团队可本地运行顶级模型，改变AI服务定价与竞争格局。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来用AI生成动画曲线或NPC行为树，可关注此类小模型降低本地推理延迟，利于战斗逻辑实时响应。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 372 +11.8 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/">Simon Willison</a> · <a href="https://artificialanalysis.ai/models/qwen3-8-27b">Hacker News</a></small></p>]]></description>
 </item>
 <item>
   <title>Amazon, which started off selling books, is destroying rare texts to train AI</title>
   <link>https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-18-8eae30be2742</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-19-8eae30be2742</guid>
   <pubDate>Mon, 17 Aug 2026 15:21:29 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>41 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>404 Media 用追踪器证实，亚马逊拉斯维加斯 VGT3 仓库（恐龙持书标志）批量购入稀有书籍，切脊扫描用于 AI 训练。亚马逊承认通过商业渠道购书以改善服务。这些书多为 2022 年前绝版文本，因无 AI 生成内容而价值极高。</p><p><strong>为什么重要</strong><br>互联网文本已被 LLM 耗尽，且 AI 生成内容引发模型崩溃风险。实体稀有书成为最后的高质量数据源，亚马逊此举将数据采集从数字世界扩展到物理世界，改变版权与文化遗产的处置方式。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但注意：若未来战斗 AI 或 NPC 对话需训练数据，避免使用 AI 生成文本，否则可能模型崩溃。可借鉴其数据稀缺性思维，但无需行动。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 91 +9</small></p><p><small>全部来源：<a href="https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/">Hacker News</a> · <a href="https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/">Simon Willison</a></small></p>]]></description>
-</item>
-<item>
-  <title>Ask HN: Alternatives to GitHub</title>
-  <link>https://news.ycombinator.com/item?id=49331033</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-18-e33d3bb0d033</guid>
-  <pubDate>Mon, 17 Aug 2026 13:59:17 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>HN 讨论自托管 GitLab 替代 GitHub：6 年经验者称自托管 GitLab 比 GH 更稳，但需 16-32GB 内存、4 核、1-3 人维护；GitLab 曾涨价近一倍，用户转投 Gitea；有人推出基于 Hetzner 的 GitLab Runners 服务，缺 ISO 27001 认证。</p><p><strong>为什么重要</strong><br>GitHub 企业级体验被质疑，自托管 GitLab 在控制权、缓存、权限粒度上更优，但维护成本高且 GitLab 公司对中小用户支持差，涨价和漏洞频发促使社区寻找替代方案。</p><p><strong>对你而言</strong><br>与你的 UE5 战斗项目无直接关系，但若团队用 GitLab 管理代码，可参考其自托管资源需求和 runner 配置经验，避免升级踩坑。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 496 +12.4 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira</title>
-  <link>https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-18-44aaae327680</guid>
-  <pubDate>Mon, 17 Aug 2026 14:18:38 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Wiz Red Agent在Snowflake公开仓库snowflake-connector-net中发现GitHub Actions脚本注入漏洞。PR #1218于2026年6月18日合并，Copilot Autofix为共同作者，将安全的env+jq模式替换为直接字符串插值。漏洞5天内被AI代理自主发现并利用，通过构造issue标题窃取Jira凭据（qa@snowflake.net），访问Atlassian项目。6月23日修复（PR #1402），凭据已轮换。</p><p><strong>为什么重要</strong><br>首次证明AI编码助手引入漏洞、AI安全代理自主利用的闭环。GitHub AI审查未标记关键漏洞，暴露AI生成代码缺乏历史上下文（为何用env+jq防注入）。漏洞发现窗口从数月压缩至5天，安全运维需适应自动化攻防节奏。</p><p><strong>对你而言</strong><br>直接相关：GAS配置和动画蓝图虽非CI/CD，但若用Copilot辅助PR，需警惕其重写安全模式。建议为AI生成代码强制静态分析（如CodeQL），并保留关键安全模式的注释或测试锁定。对网络同步和性能优化无直接影响。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 317 +11.5 / HN 头条 +8</small></p>]]></description>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>11.1 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>亚马逊在拉斯维加斯VGT3设施大量购入珍稀书籍，切脊扫描用于AI训练。404 Media用追踪器证实，书籍最终抵达该设施。亚马逊承认通过商业渠道购书以改善服务。珍稀绝版书因不含2022年前AI生成内容，成为避免模型崩溃的高价值训练数据。</p><p><strong>为什么重要</strong><br>互联网文本已被LLM耗尽，且AI生成内容污染训练数据导致模型崩溃。珍稀书成为最后的高质量语料库，但此举破坏实体文化遗产，引发版权与伦理争议，改变AI训练数据获取的边界。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可警惕：若未来武侠PVP的NPC对话或剧情文本需AI生成，避免使用AI自产数据训练，防止模型崩溃影响战斗内文本交互质量。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 93 +9.1 / 已报过 -30</small></p><p><small>全部来源：<a href="https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/">Hacker News</a> · <a href="https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/">Simon Willison</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
