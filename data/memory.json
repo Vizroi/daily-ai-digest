@@ -1,46 +1,4 @@
 {
-  "027e06b45bbe23a1": {
-    "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
-    "first_seen": "2026-08-05",
-    "times": 1,
-    "last_seen": "2026-08-05"
-  },
-  "9a782c4fd1585f5e": {
-    "title": "FFmpeg 9.0",
-    "first_seen": "2026-08-05",
-    "times": 1,
-    "last_seen": "2026-08-05"
-  },
-  "fbe24adbf4fb1fb6": {
-    "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-    "first_seen": "2026-08-05",
-    "times": 1,
-    "last_seen": "2026-08-05"
-  },
-  "80d3f73c29b92562": {
-    "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-    "first_seen": "2026-08-05",
-    "times": 1,
-    "last_seen": "2026-08-05"
-  },
-  "1f0c562e8b3916f5": {
-    "title": "Harness engineering for self-improvement",
-    "first_seen": "2026-08-05",
-    "times": 1,
-    "last_seen": "2026-08-05"
-  },
-  "ef7b287101d64028": {
-    "title": "Creating a Detailed and Expressive Character Inspired by Cretan-Mycenaean Culture",
-    "first_seen": "2026-08-05",
-    "times": 1,
-    "last_seen": "2026-08-05"
-  },
-  "c53b712f12aba97b": {
-    "title": "Game Studios Are Moving Beyond Legacy Version Control, and Here's Why",
-    "first_seen": "2026-08-05",
-    "times": 1,
-    "last_seen": "2026-08-05"
-  },
   "c6dd17a56ffa4b2e": {
     "title": "金韬创业项目《阴阳师：云图》曝光：UE5、三端互通、ARPG",
     "first_seen": "2026-08-05",
@@ -524,14 +482,14 @@
   "04f846fa19175e68": {
     "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
     "first_seen": "2026-08-18",
-    "times": 2,
-    "last_seen": "2026-08-19"
+    "times": 3,
+    "last_seen": "2026-08-20"
   },
   "8eae30be2742f61f": {
     "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
     "first_seen": "2026-08-18",
-    "times": 2,
-    "last_seen": "2026-08-19"
+    "times": 3,
+    "last_seen": "2026-08-20"
   },
   "e33d3bb0d033bb8b": {
     "title": "Ask HN: Alternatives to GitHub",
@@ -548,8 +506,8 @@
   "e10511c89a9c7c75": {
     "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
     "first_seen": "2026-08-19",
-    "times": 1,
-    "last_seen": "2026-08-19"
+    "times": 2,
+    "last_seen": "2026-08-20"
   },
   "e41b8acec43f65c6": {
     "title": "Cursor launches Origin, GitHub alternative",
@@ -578,7 +536,37 @@
   "51f8258107eb38b2": {
     "title": "Three Epic veterans are building an AI-powered game engine to break the industry's doom cycle",
     "first_seen": "2026-08-19",
+    "times": 2,
+    "last_seen": "2026-08-20"
+  },
+  "2adb81714fce4c6c": {
+    "title": "Deus Ex Creator Is Retiring from Game Development",
+    "first_seen": "2026-08-20",
     "times": 1,
-    "last_seen": "2026-08-19"
+    "last_seen": "2026-08-20"
+  },
+  "56d5b8c35ec90dea": {
+    "title": "Offering Zero Data Retention for frontier models",
+    "first_seen": "2026-08-20",
+    "times": 1,
+    "last_seen": "2026-08-20"
+  },
+  "c4f589f5007bf97d": {
+    "title": "Geolocating a random island using geometry and CUDA programming",
+    "first_seen": "2026-08-20",
+    "times": 1,
+    "last_seen": "2026-08-20"
+  },
+  "3737925240fb10ef": {
+    "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
+    "first_seen": "2026-08-20",
+    "times": 1,
+    "last_seen": "2026-08-20"
+  },
+  "aa9ee9a3f6509d00": {
+    "title": "Claude Code teaching macOS to natively print to the HP Laser 1008a",
+    "first_seen": "2026-08-20",
+    "times": 1,
+    "last_seen": "2026-08-20"
   }
 }
