@@ -11,59 +11,11 @@
     "times": 2,
     "last_seen": "2026-08-07"
   },
-  "93a57d5cae68523c": {
-    "title": "突发，Jeff Dean离职创业！谷歌股价应声蒸发1.34万亿",
-    "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
-  },
-  "b9efa0b5fb7fb99a": {
-    "title": "Civilian plane crash in New Mexico tied to military GPS blocking",
-    "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
-  },
-  "2195732a313ce535": {
-    "title": "Thanks FedEx, This Is Why We Keep Getting Phished (2024)",
-    "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
-  },
   "5f5499c425297688": {
     "title": "Introducing Muse Code and Muse Spark 1.2",
     "first_seen": "2026-08-06",
     "times": 2,
     "last_seen": "2026-08-07"
-  },
-  "456f3a766c7c14b9": {
-    "title": "Having issues getting C++ set up in either Linux or Windows for Unreal 5.8... What am I doing wrong here?",
-    "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
-  },
-  "09b0ca9afc10fc89": {
-    "title": "80 Level Research: Tell Us What 3D Tools You Use & Win $100 Gift Card",
-    "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
-  },
-  "e788a974f65d182e": {
-    "title": "UE5 Packaging: Out of RAM with endless loop",
-    "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
-  },
-  "bc466b55908c5c32": {
-    "title": "3D Mesh to 2D Icon Unreal Only Pipeline",
-    "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
-  },
-  "18ab8bb0448669d6": {
-    "title": "Unreal Engine 5 - vtmb uncursed",
-    "first_seen": "2026-08-06",
-    "times": 1,
-    "last_seen": "2026-08-06"
   },
   "f35c20329b6f509b": {
     "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
@@ -568,5 +520,35 @@
     "first_seen": "2026-08-20",
     "times": 1,
     "last_seen": "2026-08-20"
+  },
+  "097cf3ab7a5668ba": {
+    "title": "Human: Fall Flat Developers Announce a New Cozy VR Puzzle Game",
+    "first_seen": "2026-08-21",
+    "times": 1,
+    "last_seen": "2026-08-21"
+  },
+  "51036e4c19820999": {
+    "title": "Ex-Dishonored 2 Creative Director Founds His Own Studio With Former Arkane Devs",
+    "first_seen": "2026-08-21",
+    "times": 1,
+    "last_seen": "2026-08-21"
+  },
+  "6316bbb49fbbf1a6": {
+    "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+    "first_seen": "2026-08-21",
+    "times": 1,
+    "last_seen": "2026-08-21"
+  },
+  "7d1edb205fc5b871": {
+    "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+    "first_seen": "2026-08-21",
+    "times": 1,
+    "last_seen": "2026-08-21"
+  },
+  "f4fe6ba01b628b1b": {
+    "title": "Mortal Shell II, Sequel To 2020's Soulslike Hit, Is Out Now",
+    "first_seen": "2026-08-21",
+    "times": 1,
+    "last_seen": "2026-08-21"
   }
 }

@@ -4,81 +4,49 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 201 个事件，只有 9 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 199 个事件，只有 5 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 20 Aug 2026 09:58:23 +0800</lastBuildDate>
+<lastBuildDate>Fri, 21 Aug 2026 10:07:00 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Deus Ex Creator Is Retiring from Game Development</title>
-  <link>https://80.lv/articles/deus-ex-creator-is-retiring-from-game-development/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-20-2adb81714fce</guid>
-  <pubDate>Tue, 18 Aug 2026 12:08:03 +0000</pubDate>
+  <title>Human: Fall Flat Developers Announce a New Cozy VR Puzzle Game</title>
+  <link>https://80.lv/articles/human-fall-flat-developers-announce-a-new-cozy-vr-puzzle-game/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-21-097cf3ab7a56</guid>
+  <pubDate>Wed, 19 Aug 2026 10:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>《杀出重围》《网络奇兵》设计师 Warren Spector 于 LinkedIn 宣布退休，结束 44 年开发生涯，共参与 17 款完整游戏及 9 个扩展包，曾带领 12 至 800 人团队。他计划写书、授课、咨询，并提及三个未竟项目（一大、一小、一未知）。</p><p><strong>为什么重要</strong><br>他是沉浸式模拟（Immersive Sim）流派奠基人，该流派强调系统交互与玩家自由度，深刻影响《耻辱》《掠食》等作品。其退休标志一个时代落幕，也反映行业转向服务型游戏与更商业化设计，传统单机叙事与系统深度面临传承断层。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注其《43 Years a Game Developer》生存策略文章，其中关于团队协作与设计哲学的经验，或对跨部门沟通有间接启发。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://80.lv/articles/deus-ex-creator-is-retiring-from-game-development/">80.lv</a> · <a href="https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years">Game Developer</a> · <a href="https://www.gamesindustry.biz/deus-ex-creator-warren-spector-announces-retirement-its-time-to-ride-off-into-the-sunset">GamesIndustry</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>No Brakes Games（《人类跌落梦境》开发商）公布VR解谜新作《Tiny Flock》，2026年发售，含21个手工场景，纯手部追踪（Steam Link）与透视支持，自定义物理系统，大提琴配乐。</p><p><strong>为什么重要</strong><br>VR解谜从硬核转向治愈系，且纯手部追踪无手柄，物理交互成为核心卖点，区别于传统VR操作范式，预示VR休闲市场细分。</p><p><strong>对你而言</strong><br>其自定义物理与手部追踪结合的手感调优思路可借鉴，但非战斗向，与你的PVP项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://80.lv/articles/human-fall-flat-developers-announce-a-new-cozy-vr-puzzle-game/">80.lv</a> · <a href="https://www.gamedeveloper.com/business/human-fall-flat-veterans-launch-new-uk-studio-pretty-cool-games">Game Developer</a> · <a href="https://www.gamesindustry.biz/human-fall-flat-veterans-launch-new-uk-studio-pretty-cool-games-with-funding-from-arknights-developer-hypergraph">GamesIndustry</a></small></p>]]></description>
 </item>
 <item>
-  <title>Offering Zero Data Retention for frontier models</title>
-  <link>https://openai.com/index/offering-zero-data-retention-for-frontier-models</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-20-56d5b8c35ec9</guid>
-  <pubDate>Wed, 19 Aug 2026 19:00:00 +0000</pubDate>
+  <title>Ex-Dishonored 2 Creative Director Founds His Own Studio With Former Arkane Devs</title>
+  <link>https://80.lv/articles/ex-dishonored-2-creative-director-founds-his-own-studio-with-former-arkane-devs/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-21-51036e4c1982</guid>
+  <pubDate>Wed, 19 Aug 2026 13:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI 推出零数据保留（ZDR）的私有安全处理（Private Safety Processing）预览，9月发布技术白皮书。该机制跨交互分析模式，内容存客户自有基础设施或OpenAI存储（客户持密钥加密），OpenAI人员无密钥访问。现有ZDR仍按法律保留CSAM图像。</p><p><strong>为什么重要</strong><br>前沿模型部署常要求客户允许供应商留存敏感内容以做安全监控，与客户安全义务冲突。此方案首次在零保留前提下实现跨会话风险识别，平衡隐私与安全，可能成为企业采用AI的合规新基准。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来使用OpenAI模型做NPC对话或内容生成，可关注其数据留存条款变化，避免合规风险。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/offering-zero-data-retention-for-frontier-models">OpenAI</a> · <a href="https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Harvey Smith（《耻辱2》创意总监）成立新工作室 Black Pony Immersive，26人团队含 Arkane、Insomniac、Epic 等前员工，专注单人第一人称动作 RPG。前执行制作人 Ben Horne 与 Ricardo Bare 加入。Arkane Austin 于2024年因《红霞岛》失败被微软关闭。</p><p><strong>为什么重要</strong><br>Arkane 系核心人员散而复聚，验证沉浸式模拟（Immersive Sim）品类仍有资本与人才号召力。在行业裁员潮中，新工作室聚焦单人游戏，与当下服务型游戏主流形成反差，可能影响第一人称动作 RPG 的设计风向。</p><p><strong>对你而言</strong><br>与你的武侠 PVP 项目无直接关系。但可关注其「涌现式系统」设计理念，若未来做 PvE 或单人模式，可借鉴其奖励探索与创造性的关卡与技能交互逻辑。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://80.lv/articles/ex-dishonored-2-creative-director-founds-his-own-studio-with-former-arkane-devs/">80.lv</a> · <a href="https://www.gamedeveloper.com/business/harvey-smith-and-fellow-arkane-austin-veterans-launch-a-new-studio">Game Developer</a> · <a href="https://www.gamesindustry.biz/we-chose-the-worst-time-in-history-harvey-smith-on-starting-his-own-studio-after-arkane">GamesIndustry</a></small></p>]]></description>
 </item>
 <item>
-  <title>Geolocating a random island using geometry and CUDA programming</title>
-  <link>https://yassa9.github.io/osint/gralhix-004/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-20-c4f589f5007b</guid>
-  <pubDate>Wed, 19 Aug 2026 12:19:52 +0000</pubDate>
+  <title>Up to 3.2x Faster Inference with LFM2.5-DSpark</title>
+  <link>https://huggingface.co/blog/LiquidAI/lfm25-dspark</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-21-6316bbb49fbb</guid>
+  <pubDate>Thu, 20 Aug 2026 16:52:57 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>作者用CUDA GPU编程和OpenStreetMap全球海岸线数据（882MB，141,131个热带多边形），通过几何指纹匹配定位随机岛屿。流程：点击GUI记录3个岛屿像素坐标→计算角度和距离比→经纬度过滤、密度过滤（5km内≤10邻居）、聚类（20km内≥3点）、生成8070万三角形→每三角形一个CUDA线程并行匹配，容差±20%。</p><p><strong>为什么重要</strong><br>这是OSINT地理定位领域罕见的纯数学解法，替代Google Lens等图像搜索。它展示了GPU并行处理在空间数据匹配中的威力——8070万候选三角形在单次内核调用中筛选，将传统CPU需数天的暴力搜索压缩到秒级。改变了地理定位的范式：从图像特征匹配转向几何拓扑匹配。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。但CUDA并行筛选思路可借鉴：若战斗系统有大量碰撞检测或寻路候选，可用类似GPU线程每候选一核的方式加速。不过你的瓶颈在GAS和网络同步，不在空间搜索，故仅作技术参考。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 409 +12 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>LiquidAI发布LFM2.5-DSpark投机解码方案，含约300M参数的5层注意力草稿模型，H100上吞吐提升最高3.18倍（428→1362 tok/s），M4 Max上最高2.87倍（136→389 tok/s），函数调用延迟平均降57%，已开源支持llama.cpp和SGLang。</p><p><strong>为什么重要</strong><br>投机解码将解码阶段从内存瓶颈转为计算并行，草稿模型+目标模型单次验证多token，显著降低DRAM到SRAM的权重流压力。DSpark结合DFlash并行骨干、马尔可夫链顺序头和置信度调度验证器，在保持贪心解码质量不变前提下，让边缘设备达到约140 tok/s交互级速度，逼近云端专有模型。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。此技术面向LLM推理加速，非UE5战斗系统。但若你负责AI行为树或寻路等逻辑，可参考其置信度调度思路：对低置信度分支提前剪枝，减少无效计算，类似战斗AI中预判玩家动作并提前终止无效技能连招。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://huggingface.co/blog/LiquidAI/lfm25-dspark">HuggingFace Blog</a> · <a href="https://www.marktechpost.com/2026/08/20/liquid-ai-releases-lfm2-5-dspark-draft-models-that-deliver-up-to-3-18x-faster-decoding/">MarkTechPost</a></small></p>]]></description>
 </item>
 <item>
-  <title>A 3D fruit fly on macOS desktop powered by the real FlyWire connectome</title>
-  <link>https://github.com/DenisSergeevitch/desktop-fly</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-20-3737925240fb</guid>
-  <pubDate>Tue, 18 Aug 2026 21:50:33 +0000</pubDate>
+  <title>Show HN: I trained a 125M model to autocomplete piano on-device</title>
+  <link>https://simedw.com/2026/08/20/midi-autocomplete/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-21-7d1edb205fc5</guid>
+  <pubDate>Thu, 20 Aug 2026 12:04:38 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>macOS桌面3D果蝇，由真实FlyWire连接组驱动：23,210个神经元胞体位置（v783共139,255个），668神经元回路含约19,000个真实突触，以1kHz LIF模拟运行。逃逸非脚本，光标逼近触发LC4/LPLC2，巨纤维细胞经约1,200个前馈抑制突触在约4ms内放电。代码MIT，数据CC BY-NC 4.0。</p><p><strong>为什么重要</strong><br>这是首个将完整成年动物连接组（Nature 2024发表）直接用于实时行为模拟的桌面应用。它证明真实神经回路可驱动复杂行为（逃逸、梳理、睡眠），无需行为树或状态机。对游戏AI设计是范式转移：从手工编写行为逻辑转向数据驱动、涌现式决策。</p><p><strong>对你而言</strong><br>直接相关：其LIF神经元模拟、突触权重（神经递质符号）、逃逸延迟（4ms）可借鉴为GAS中受击反应或AI决策的底层模型。但你的项目是武侠PVP，需实时网络同步，此单机模拟无法直接移植。可参考其"刺激-神经元放电-行为"映射表（如DNp09速率控制行走速度）设计技能触发条件，但核心战斗手感仍需传统动画驱动。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 372 +11.8 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>开发者训练125M参数Transformer模型，在iPhone 15上实时自动续写钢琴MIDI，速度108音符/秒。最终采用单token表示音符：NOTE(pitch, delta_onset, duration, velocity)，各字段独立embedding求和，模型每音符只跑一次主干，字段间用小嵌套解码器条件生成。数据预处理将延音踏板效果烘焙进duration，训练集以公有领域古典乐为主。</p><p><strong>为什么重要</strong><br>MIDI事件转token的表示方式直接决定小模型生成质量与速度。传统note-on/off易漂移，多字段分解慢。该方案用delta_onset替代TIME_SHIFT，消除静音token，每音符单步生成，兼顾语法有效性与推理效率，为端侧音乐生成提供可复现的工程范式。</p><p><strong>对你而言</strong><br>与你的武侠PVP战斗系统无直接关系。但GAS技能配置若涉及连招预测或动作序列生成，其「单token表示完整动作单元+字段独立embedding」思路可借鉴，用于压缩动作状态空间，减少推理步数。否则忽略。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 506 +12.5 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Claude Code teaching macOS to natively print to the HP Laser 1008a</title>
-  <link>https://cdn.kuber.studio/chat/hp-laser-1008a-driver</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-20-aa9ee9a3f650</guid>
-  <pubDate>Tue, 18 Aug 2026 12:22:58 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Claude Code 用约4小时逆向HP Laser 1008a的SPL3光栅语言，在Linux容器中运行HP官方编解码器，使macOS原生打印该型号。该打印机此前无Mac驱动支持。</p><p><strong>为什么重要</strong><br>这是AI代理完成硬件逆向工程的公开案例，将驱动开发从数周人工缩短至单次会话。改变了外设兼容性问题的解决路径，对依赖专有协议的设备生态有示范效应。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其方法论：用容器隔离运行厂商闭源组件，结合AI逆向协议，或可用于处理战斗回放或网络包的专有格式解析。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 311 +11.5 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://cdn.kuber.studio/chat/hp-laser-1008a-driver">Hacker News</a> · <a href="https://twitter.com/kuberwastaken/status/2089377982536388964">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>Three Epic veterans are building an AI-powered game engine to break the industry's doom cycle</title>
-  <link>https://www.gamesindustry.biz/three-epic-veterans-are-building-an-ai-powered-game-engine-to-break-the-industrys-doom-cycle</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-20-51f8258107eb</guid>
-  <pubDate>Tue, 18 Aug 2026 13:32:01 +0000</pubDate>
+  <title>Mortal Shell II, Sequel To 2020's Soulslike Hit, Is Out Now</title>
+  <link>https://80.lv/articles/mortal-shell-ii-sequel-to-2020-s-soulslike-hit-is-out-now/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-21-f4fe6ba01b62</guid>
+  <pubDate>Thu, 20 Aug 2026 14:22:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>10 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>三位Epic前员工（Arjan Brussee、Sjoerd De Jong、Michal Valient）创立Immens，开发AI驱动游戏引擎。2025年Steam约70%游戏用Unity/Unreal，Immens主打AI辅助编程、开放标准、可扩展架构，支持用户自定义工具与工作流，目标降低开发成本与团队规模。</p><p><strong>为什么重要</strong><br>引擎市场被Unity/Unreal垄断，行业成本高企、裁员频发。Immens提出AI原生引擎替代传统单体架构，强调用户控制AI而非提示词生成，可能改变中小团队开发范式，挑战现有引擎霸主地位。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注其AI辅助扩展代码库的思路，若未来开放，或可借鉴其AI可控性设计，优化GAS配置或动画蓝图生成流程。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</title>
-  <link>https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-20-04f846fa1917</guid>
-  <pubDate>Mon, 17 Aug 2026 17:25:17 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>21.9 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Qwen 3.8 27B 在 Artificial Analysis Intelligence Index 得 52 分，追平 GPT-5.6 Luna (max)，仅比 GLM-5.2 (753B) 和 DeepSeek V4 Pro (1.7T) 低 1 分。该模型参数仅 27B，远小于竞品。</p><p><strong>为什么重要</strong><br>小参数模型达到超大模型性能，颠覆了「规模决定智能」的行业假设。推理成本与部署门槛将大幅下降，中小团队也能拥有顶级 AI 能力，竞争格局被改写。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来用 AI 生成动画曲线或战斗策略，此模型可本地部署，低延迟推理，适合客户端实时决策，值得留意。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 375 +11.9 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/">Simon Willison</a> · <a href="https://artificialanalysis.ai/models/qwen3-8-27b">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>Introducing ChatGPT for Teens: Built for learning, backed by protections</title>
-  <link>https://openai.com/index/chatgpt-for-teens</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-20-e10511c89a9c</guid>
-  <pubDate>Tue, 18 Aug 2026 11:00:00 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI推出ChatGPT for Teens，13-17岁用户自动进入。内置Study Mode引导式提问、作业捷径识别重定向、Quiz与可视化、Study Hours定时专注。与CodeAI合作，提供AI教育工具。默认开启年龄保护，限制自残、暴力、色情等高风险内容。</p><p><strong>为什么重要</strong><br>AI教育市场从通用工具转向年龄分层合规产品。OpenAI以默认保护+家长控制+学习模式构建壁垒，回应监管压力，同时抢占K12教育入口，影响Google、Anthropic等竞品策略。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其「默认安全+模式切换」设计思路，若未来做青少年向游戏或教育类玩法，可参考其年龄预测与内容分级机制。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/chatgpt-for-teens">OpenAI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode">The Verge AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Amazon, which started off selling books, is destroying rare texts to train AI</title>
-  <link>https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-20-8eae30be2742</guid>
-  <pubDate>Mon, 17 Aug 2026 15:21:29 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>11.1 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>亚马逊在拉斯维加斯VGT3仓库批量购入珍稀书籍，切脊扫描用于AI训练。404 Media用追踪器证实，书籍最终抵达该仓库。亚马逊承认通过商业渠道购书以改善产品服务。珍稀绝版书因未受LLM污染，成为训练数据新来源。</p><p><strong>为什么重要</strong><br>互联网文本已被LLM耗尽，且AI生成内容导致模型崩溃风险。珍稀书成为高质量数据金矿，但破坏实体文化遗产换取AI进步，引发行业伦理争议。此前Anthropic已因盗版书籍被诉，亚马逊此举将版权与数据获取矛盾推向新高度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可警惕：若武侠PVP项目涉及AI生成NPC对话或剧情，需确保训练数据来源合法，避免使用可能引发版权纠纷的文本库。模型崩溃问题也提示，战斗AI训练应避免过度依赖AI生成数据。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 93 +9.1 / 已报过 -30</small></p><p><small>全部来源：<a href="https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/">Hacker News</a> · <a href="https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/">Simon Willison</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Cold Symmetry 于8月20日发售《Mortal Shell II》，基于UE5，支持Lumen与光追反射，PC端适配DLSS 4.5超分与多帧生成。核心改动：彻底移除耐力条，改为命中积累黄色Resolve资源；新增霰弹枪等远程武器；保留换壳系统，可切换8具尸体能力。</p><p><strong>为什么重要</strong><br>这是主流魂like首次完全放弃耐力条，直接挑战品类核心循环。UE5+DLSS 4.5表明中型团队已能驾驭最新渲染与帧生成技术，性能模式成主机标配。</p><p><strong>对你而言</strong><br>耐力条移除与Resolve资源设计可作GAS技能消耗模型参考，观察其网络同步与手感反馈。UE5光照与DLSS 4.5配置参数值得抄作业，但战斗节奏差异大，需自行验证。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「soulslike」 +32</small></p>]]></description>
 </item>
 </channel>
 </rss>
