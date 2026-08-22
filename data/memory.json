@@ -1,52 +1,4 @@
 {
-  "c6dd17a56ffa4b2e": {
-    "title": "金韬创业项目《阴阳师：云图》曝光：UE5、三端互通、ARPG",
-    "first_seen": "2026-08-05",
-    "times": 2,
-    "last_seen": "2026-08-07"
-  },
-  "a99df7e6ca78993a": {
-    "title": "Third-party cyber evaluations involving OpenAI models",
-    "first_seen": "2026-08-06",
-    "times": 2,
-    "last_seen": "2026-08-07"
-  },
-  "5f5499c425297688": {
-    "title": "Introducing Muse Code and Muse Spark 1.2",
-    "first_seen": "2026-08-06",
-    "times": 2,
-    "last_seen": "2026-08-07"
-  },
-  "f35c20329b6f509b": {
-    "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
-    "first_seen": "2026-08-07",
-    "times": 1,
-    "last_seen": "2026-08-07"
-  },
-  "36c241fd00a6784b": {
-    "title": "Show HN: The Channels SDK – Bring Any Agent to Any Channel (Slack, MS Teams)",
-    "first_seen": "2026-08-07",
-    "times": 1,
-    "last_seen": "2026-08-07"
-  },
-  "33634171daadf3fb": {
-    "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-    "first_seen": "2026-08-07",
-    "times": 1,
-    "last_seen": "2026-08-07"
-  },
-  "6f61bfc484d42686": {
-    "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
-    "first_seen": "2026-08-07",
-    "times": 1,
-    "last_seen": "2026-08-07"
-  },
-  "f540443ef9a3d553": {
-    "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
-    "first_seen": "2026-08-07",
-    "times": 1,
-    "last_seen": "2026-08-07"
-  },
   "9eb34f6aa755493c": {
     "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
     "first_seen": "2026-08-08",
@@ -550,5 +502,47 @@
     "first_seen": "2026-08-21",
     "times": 1,
     "last_seen": "2026-08-21"
+  },
+  "0f02ad6f883aca82": {
+    "title": "The August 17 outage",
+    "first_seen": "2026-08-22",
+    "times": 1,
+    "last_seen": "2026-08-22"
+  },
+  "14e92e661cd80dbb": {
+    "title": "Kobo can run apps now",
+    "first_seen": "2026-08-22",
+    "times": 1,
+    "last_seen": "2026-08-22"
+  },
+  "e71ae4ca191ef9fd": {
+    "title": "Show HN: Huzzah – a novel approach to coding with AI",
+    "first_seen": "2026-08-22",
+    "times": 1,
+    "last_seen": "2026-08-22"
+  },
+  "7098b4e00d43c48d": {
+    "title": "Feature Request: Support AGENTS.md",
+    "first_seen": "2026-08-22",
+    "times": 1,
+    "last_seen": "2026-08-22"
+  },
+  "971a6bacd938b1cc": {
+    "title": "Report: Take-Two subpoenas Microsoft and Discord in bid to halt extensive Grand Theft Auto VI leak",
+    "first_seen": "2026-08-22",
+    "times": 1,
+    "last_seen": "2026-08-22"
+  },
+  "8ba15a640a558a78": {
+    "title": "This First-Person Sword Fighting Game's Combat is 100% Physics-Based",
+    "first_seen": "2026-08-22",
+    "times": 1,
+    "last_seen": "2026-08-22"
+  },
+  "c9d820952c2082e0": {
+    "title": "Riot Games sunsets active development on 2XKO as it costs \"substantially more to operate than it brings in\"",
+    "first_seen": "2026-08-22",
+    "times": 1,
+    "last_seen": "2026-08-22"
   }
 }
