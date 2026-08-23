@@ -4,65 +4,73 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 194 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 191 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 22 Aug 2026 10:00:39 +0800</lastBuildDate>
+<lastBuildDate>Sun, 23 Aug 2026 10:09:06 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>The August 17 outage</title>
-  <link>https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-22-0f02ad6f883a</guid>
-  <pubDate>Thu, 20 Aug 2026 19:22:24 +0000</pubDate>
+  <title>There's no reason for software to be slow anymore</title>
+  <link>https://danluu.com/perf-opt/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-010c4a92fb75</guid>
+  <pubDate>Sat, 22 Aug 2026 01:06:17 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.9 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>8月17日GitHub宕机7小时47分，波及github.com、认证、Actions、API、PR、Issues和Copilot。根因是美中数据中心关键组件未随流量峰值扩容，属容量故障而非代码变更。4月以来月提交量从14亿增至29亿。已新增300万+CPU核、120PB存储，Azure负载占比从5月12%升至58%。</p><p><strong>为什么重要</strong><br>GitHub是全球开发者基础设施，7小时中断直接阻断软件交付。两次8月事故暴露其容量规划滞后于2倍月提交增长，迫使平台加速Azure迁移和架构改造。对依赖GitHub的团队，这是供应链风险警示。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其事后措施：服务间调用统一重试上限、预算和可变超时，防止重试风暴；审查低优先级CPU/内存告警，识别突发流量下可能失效的组件。这些对GAS技能网络同步的容错设计有参考价值。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 627 +12.9 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40.9 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>AI代理用一个月在rebar基准上优化正则引擎FRE，过度拟合后经提示泛化。实测对长查询AOT编译提速2-4倍，代表性holdout查询约7%。作者用几分钟指令让代理实现JIT编译并切回，成本极低。</p><p><strong>为什么重要</strong><br>性能优化从稀缺技能变为可即时生成，动态定制软件成为可能。JIT编译器、数据库等曾因难度被回避的优化，现在门槛大降，改变软件构建的性价比曲线。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：AI代理能快速生成针对特定工作负载的优化代码，未来或可用于GAS技能热路径或动画蓝图性能调优，需警惕过度拟合风险。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 620 +12.9 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Kobo can run apps now</title>
-  <link>https://bandarlabs.github.io/Cobalt/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-22-14e92e661cd8</guid>
-  <pubDate>Fri, 21 Aug 2026 16:25:25 +0000</pubDate>
+  <title>Rust Glancer: Rust LSP using 100x less RAM</title>
+  <link>https://rust-glancer.github.io/blog/hello-world/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-d0935b6c5fcc</guid>
+  <pubDate>Fri, 21 Aug 2026 19:51:54 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Cobalt 是 Kobo 电子阅读器的开源应用平台，含启动器、签名应用商店、Rust SDK 和沙箱运行时。应用以无特权 ARM 静态二进制运行，首次 USB 安装后，后续应用通过 Wi-Fi 安装更新，重启恢复原系统。仅 Clara BW 型号经硬件测试，商店目录存于 GitHub release，签名验证后启动。</p><p><strong>为什么重要</strong><br>封闭硬件生态首次获得类 iOS 的签名应用分发与沙箱隔离，且不破坏原系统。它证明 e-ink 设备可承载现代应用模型，为低功耗硬件上的安全应用生态提供参考，冲击 Kindle 等封闭阅读器的功能边界。</p><p><strong>对你而言</strong><br>与你的 UE5 武侠 PVP 项目无直接关系。但 Rust SDK 的声明式 UI 与能力门控设计，可借鉴为战斗系统的技能配置或调试工具链的模块化思路，非核心关联。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 440 +12.2 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Rust Glancer 是作者用 4 个月开发的 Rust LSP 替代实现，目标内存 &lt;100MB。实测 M4 Max 上基础索引 5 秒、全量 8 秒，比 rust-analyzer 快 1-5 秒；M1 8GB 上全量 9 秒 vs 14 秒。核心策略是放弃增量分析，改为保存时冻结索引并落盘，查询时按需加载。支持跳转、悬停、补全，但新代码需保存后才索引。</p><p><strong>为什么重要</strong><br>rust-analyzer 用 salsa 和 rowan 实现增量与局部失效，但内存碎片化严重。Rust Glancer 证明牺牲实时索引换取低内存和重启免重建是可行路线，为 LSP 设计提供新权衡维度，尤其惠及 8GB 老设备用户。</p><p><strong>对你而言</strong><br>与你的 UE5 项目无直接关系。但若你未来用 Rust 写工具链，可借鉴其「冻结索引+落盘」思路降低常驻内存；不过其保存后索引的延迟不适合战斗调试的即时反馈需求。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 397 +12 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Show HN: Huzzah – a novel approach to coding with AI</title>
-  <link>https://www.danielvaughn.dev/posts/huzzah/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-22-e71ae4ca191e</guid>
-  <pubDate>Thu, 20 Aug 2026 19:05:36 +0000</pubDate>
+  <title>Claudette: Make Claude stop talking like a BuzzFeed article</title>
+  <link>https://github.com/adnanakil/nobuzz/blob/main/README.md</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-3f58f864fb74</guid>
+  <pubDate>Fri, 21 Aug 2026 14:31:52 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Huzzah 编辑器：用伪代码文件替代长对话，保存时 diff 作为 LLM 提示词，自动生成代码。示例：fizz_buzz.hz 写 loop 100 / modulo 3 ? "fizz"，改 n 即改 diff。支持购物车、Todo 等声明式描述。2026年8月实验阶段，源码已公开。</p><p><strong>为什么重要</strong><br>AI 编程从聊天式命令转向文件化、持久化的意图表达。解决提示词丢弃、重复 token 消耗、自然语言冗余三大痛点。伪代码即文档，可跨语言复用，是编码范式从命令到声明的转变。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但伪代码声明式驱动 LLM 的思路，可借鉴到技能配置或动画蓝图的可视化脚本中，减少长文本描述，提升配置可读性与版本管理效率。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 361 +11.8 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.7 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>开源Claude Code技能/debuzz，调用Google Antigravity CLI（agy）将Claude回复转成三种风格：colleague（保留代码路径）、manager（删代码缩至1/3）、director（3-5句摘要）。安装命令curl/irm，MIT协议。</p><p><strong>为什么重要</strong><br>承认提示词无法根治模型文风，改用第二模型做翻译层。打破单一模型输出垄断，为LLM工作流引入跨模型后处理范式，影响所有依赖AI生成技术文档的团队。</p><p><strong>对你而言</strong><br>战斗日志或代码评审若被AI文风污染，可借鉴此思路：用agy或本地小模型做风格转换，保留技术细节。但你的核心是GAS参数与动画帧率，此工具与项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 347 +11.7 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Feature Request: Support AGENTS.md</title>
-  <link>https://github.com/anthropics/claude-code/issues/6235</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-22-7098b4e00d43</guid>
-  <pubDate>Wed, 19 Aug 2026 21:19:50 +0000</pubDate>
+  <title>Vomit: Clean up Claude 5's token output with a separate LLM</title>
+  <link>https://github.com/zachahn/vomit</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-fc8123219e33</guid>
+  <pubDate>Thu, 20 Aug 2026 15:26:02 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Codex、Amp、Cursor 等工具开始统一采用 AGENTS.md 标准，替代 Claude Code 专属的 CLAUDE.md，作为编码代理理解代码库的通用 Markdown 配置文件。</p><p><strong>为什么重要</strong><br>多工具生态碎片化阻碍协作，AGENTS.md 提供跨平台共享上下文，降低切换成本，推动代理配置标准化，影响所有 AI 编程工具用户。</p><p><strong>对你而言</strong><br>与你的项目无直接关系，除非你使用 AI 编码代理辅助 GAS 配置，可考虑在仓库根目录添加 AGENTS.md 以统一代理行为。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 370 +11.8 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Vomit 工具将 Claude 5 的 token 输出通过本地 LLM 翻译为英文，完全本地运行，无遥测和外部依赖。安装命令：go install github.com/zachahn/vomit@latest，支持 scrub、list、tail 等子命令，推荐搭配 Llama.app 和 GPT-OSS 20B 模型，GPLv3 许可。</p><p><strong>为什么重要</strong><br>Claude 5 的 token 输出对开发者不友好，Vomit 用独立 LLM 做翻译层，改变了调试 AI 输出的工作流。它强调本地隐私和零依赖，但速度慢且可能漏译，需借助 AgentsView 回查原始消息，反映了 AI 工具链中可观测性需求的增长。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的战斗系统依赖 GAS 和网络同步，不涉及 LLM 输出处理。但可借鉴其本地化、无遥测的设计思路，用于战斗日志或回放系统的隐私保护，不过核心战斗逻辑无需此类翻译层。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 302 +11.4 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Report: Take-Two subpoenas Microsoft and Discord in bid to halt extensive Grand Theft Auto VI leak</title>
-  <link>https://www.gamedeveloper.com/business/rockstar-subpoenas-microsoft-and-discord-in-bid-to-halt-extensive-grand-theft-auto-vi-leak</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-22-971a6bacd938</guid>
-  <pubDate>Thu, 20 Aug 2026 11:09:56 +0000</pubDate>
+  <title>Makers Fund expands game industry footprint through $250 million investment round</title>
+  <link>https://www.gamedeveloper.com/business/makers-fund-expands-game-industry-footprint-after-closing-250-million-investment-round</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-692432e88c47</guid>
+  <pubDate>Thu, 20 Aug 2026 13:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Take-Two 已向微软和 Discord 发出传票，要求9月4日前交出与泄露者“Cyberleek”相关的内部调查记录、GitHub 仓库关联数据、Discord 用户及服务器信息、OneDrive 账户资料。泄露内容为 GTA VI 旧版本开发素材，Cyberleek 还威胁将攻击不遵守其“戒律”（涉及预购、首日 DLC、在线游戏保存）的其他大型发行商。</p><p><strong>为什么重要</strong><br>这是游戏行业罕见的大规模法律追查，波及平台方（微软、Discord）而非仅泄密源头。Rockstar 二次遭重大泄露，此前已强制全员返岗仍未能防住，暴露传统安全策略失效。Cyberleek 的公开威胁将单个游戏泄露升级为针对全行业的行动，迫使发行商重新评估内部安全与法律响应流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：若未来项目遭泄露，需提前准备与平台方的法律协作流程，并警惕内部安全策略（如强制返岗）可能引发员工抵触而非提升防护。对 GAS 配置和网络同步无技术启示。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/rockstar-subpoenas-microsoft-and-discord-in-bid-to-halt-extensive-grand-theft-auto-vi-leak">Game Developer</a> · <a href="https://www.gamesindustry.biz/rockstar-hit-with-more-leaks-as-gta-6-gameplay-and-assets-appear-to-circulate-on-social-media">GamesIndustry</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>风投Makers Fund完成第四轮募资2.5亿美元，总管理资产达15亿美元。此前投资过Bossa Studios、TinyBuild等游戏公司，近年扩展至消费应用与创作平台。</p><p><strong>为什么重要</strong><br>游戏行业投资热度回升，大额基金持续加码。资金流向创作者经济与新技术，预示行业重心从纯游戏向跨领域互动娱乐转移。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注其投资标的的技术方向，如用户行为变化或新分发模式，或间接影响行业人才流动。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/makers-fund-expands-game-industry-footprint-after-closing-250-million-investment-round">Game Developer</a> · <a href="https://www.gamesindustry.biz/makers-fund-raises-250m-in-fourth-round-to-support-interactive-entertainment-startups">GamesIndustry</a></small></p>]]></description>
 </item>
 <item>
   <title>This First-Person Sword Fighting Game's Combat is 100% Physics-Based</title>
   <link>https://80.lv/articles/this-first-person-sword-fighting-game-s-combat-is-100-physics-based/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-22-8ba15a640a55</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-8ba15a640a55</guid>
   <pubDate>Fri, 21 Aug 2026 23:32:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>《Bloodfall: The First Temple》由独立开发者Hayk Amirbekyan制作，战斗系统100%物理驱动。玩家按住鼠标移动直接控制剑的位置，剑可置于屏幕任意处，超出边缘则带动角色与镜头旋转。武器与环境和物体实时碰撞，基于Harmonic Resonance Model模拟刚度、弹性、能量耗散，产生反弹、振动、互锁。格挡非状态触发，招架非动画窗口，剑格也能参与碰撞。目标2026年PC发售，Steam试玩已开放。</p><p><strong>为什么重要</strong><br>传统动作游戏用动画蒙太奇和判定框模拟打击感，物理模拟常因手感笨拙被弃用。此作将物理模拟与第一人称鼠标精度结合，让武器几何形状成为战斗决策核心，可能开辟物理战斗的新范式，影响独立与AAA项目的战斗设计思路。</p><p><strong>对你而言</strong><br>若你的PVP项目追求真实刀剑交互，可研究其鼠标直接控剑与碰撞后稳定化处理，但网络同步下物理模拟的延迟补偿是巨大挑战。若项目是传统GAS技能驱动，此设计与你无直接关系，仅作灵感参考。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「fighting game」 +32</small></p>]]></description>
+  <description><![CDATA[<p><strong>22 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>独立开发者HyperMad的《Bloodfall: The First Temple》采用100%物理驱动近战：按住鼠标移动直接控制剑位，剑与环境实时碰撞、反弹、卡锁。其Harmonic Resonance Model模拟刚度、弹性、能量耗散，剑格也能参与格挡偏转。目标2026年PC发售，Steam试玩已开放。</p><p><strong>为什么重要</strong><br>传统动作游戏用动画蒙皮表现打击，物理仅作反馈。此作将物理模拟前置为输入核心，牺牲可控性换取几何交互深度，挑战了「手感=动画调参」的行业共识，可能开辟硬核PVP新赛道。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的GAS与动画蓝图体系依赖确定性帧数据，纯物理驱动会破坏网络同步与手感一致性。但可借鉴其「武器几何参与判定」思路，在现有动画框架内加入局部物理碰撞体，提升格挡与招架的临场感。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「fighting game」 +32 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
   <title>Riot Games sunsets active development on 2XKO as it costs "substantially more to operate than it brings in"</title>
   <link>https://www.gamesindustry.biz/riot-games-sunsets-active-development-on-2xko-as-it-costs-substantially-more-to-operate-than-it-brings-in</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-22-c9d820952c20</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-c9d820952c20</guid>
   <pubDate>Fri, 21 Aug 2026 08:06:41 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>52 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Riot 于 2026 年 12 月停止 2XKO 主动开发，服务器维持至 2026 年后。8 月 20 日停售 KO Points 并退款，9 月 8 日补丁 1.3.1 解锁全部角色，10 月 1.3.3 推出最终角色 Samira，12 月 1.3.5 仅修 Bug。运营成本远超收入，玩家参与度持平。</p><p><strong>为什么重要</strong><br>免费格斗游戏商业模式受挫，Riot 评估降团队、改补丁、换商业模式均无解。行业显示格斗品类留存难，内容更新无法扭转经济模型，大厂也止损。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「fighting game」 +32</small></p>]]></description>
+  <description><![CDATA[<p><strong>22 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Riot于12月停止2XKO积极开发，服务器维持至2026年后。8月20日停售KO点并退款，9月8日1.3.1补丁解锁全部角色，10月1.3.3加入最终角色Samira，12月1.3.5仅修bug。终极捆绑包定价$39.99。此前已裁减80个开发岗位。</p><p><strong>为什么重要</strong><br>免费格斗游戏运营成本远超收入，大更新未提升留存，Riot选择止损。这反映格斗品类在服务型模式下难持续，即便大厂IP也难逃关停，行业对格斗游戏长线运营模式产生质疑。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「fighting game」 +32 / 已报过 -30</small></p>]]></description>
+</item>
+<item>
+  <title>Up to 3.2x Faster Inference with LFM2.5-DSpark</title>
+  <link>https://huggingface.co/blog/LiquidAI/lfm25-dspark</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-6316bbb49fbb</guid>
+  <pubDate>Thu, 20 Aug 2026 16:52:57 +0000</pubDate>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>LiquidAI发布LFM2.5-DSpark投机解码方案，含约300M参数的5层注意力草稿模型，在H100上最高3.18x吞吐提升（428→1362 tok/s），M4 Max上最高2.87x（136→389 tok/s），函数调用延迟平均降57%。已开源支持llama.cpp和SGLang。</p><p><strong>为什么重要</strong><br>投机解码将解码阶段从内存带宽瓶颈中解放，用草稿模型生成候选token再由目标模型单次前向验证。DSpark结合DFlash并行主干、马尔可夫链顺序头和置信度调度验证器，在保持贪心解码输出不变的前提下显著提速，推动端侧agentic推理实用化。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来NPC对话或AI裁判需本地推理，可参考其草稿模型训练选epoch策略（按接受率而非loss）及llama.cpp/SGLang集成方式，但战斗系统核心的GAS和网络同步不受影响。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://huggingface.co/blog/LiquidAI/lfm25-dspark">HuggingFace Blog</a> · <a href="https://www.marktechpost.com/2026/08/20/liquid-ai-releases-lfm2-5-dspark-draft-models-that-deliver-up-to-3-18x-faster-decoding/">MarkTechPost</a></small></p>]]></description>
 </item>
 </channel>
 </rss>

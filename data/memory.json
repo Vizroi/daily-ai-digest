@@ -1,22 +1,4 @@
 {
-  "9eb34f6aa755493c": {
-    "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-    "first_seen": "2026-08-08",
-    "times": 1,
-    "last_seen": "2026-08-08"
-  },
-  "8fceee135c729987": {
-    "title": "GitHub Actions and Pages are experiencing degraded availability",
-    "first_seen": "2026-08-08",
-    "times": 1,
-    "last_seen": "2026-08-08"
-  },
-  "1ea7eecbc64a78d2": {
-    "title": "Born Against, or why hobby programming communities are against LLM usage",
-    "first_seen": "2026-08-08",
-    "times": 1,
-    "last_seen": "2026-08-08"
-  },
   "1deb380907b40c58": {
     "title": "Tripledot Studios acquires Supersonic from Unity for $40m",
     "first_seen": "2026-08-08",
@@ -34,12 +16,6 @@
     "first_seen": "2026-08-08",
     "times": 3,
     "last_seen": "2026-08-10"
-  },
-  "317448b899d7b891": {
-    "title": "I spent the last few months building gameplay systems in Unreal Engine 5. Here's some of my favorite mechanics",
-    "first_seen": "2026-08-08",
-    "times": 1,
-    "last_seen": "2026-08-08"
   },
   "2d97f4409071a64d": {
     "title": "都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙",
@@ -488,8 +464,8 @@
   "6316bbb49fbbf1a6": {
     "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
     "first_seen": "2026-08-21",
-    "times": 1,
-    "last_seen": "2026-08-21"
+    "times": 2,
+    "last_seen": "2026-08-23"
   },
   "7d1edb205fc5b871": {
     "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
@@ -536,13 +512,43 @@
   "8ba15a640a558a78": {
     "title": "This First-Person Sword Fighting Game's Combat is 100% Physics-Based",
     "first_seen": "2026-08-22",
-    "times": 1,
-    "last_seen": "2026-08-22"
+    "times": 2,
+    "last_seen": "2026-08-23"
   },
   "c9d820952c2082e0": {
     "title": "Riot Games sunsets active development on 2XKO as it costs \"substantially more to operate than it brings in\"",
     "first_seen": "2026-08-22",
+    "times": 2,
+    "last_seen": "2026-08-23"
+  },
+  "010c4a92fb75bca7": {
+    "title": "There's no reason for software to be slow anymore",
+    "first_seen": "2026-08-23",
     "times": 1,
-    "last_seen": "2026-08-22"
+    "last_seen": "2026-08-23"
+  },
+  "d0935b6c5fcc8629": {
+    "title": "Rust Glancer: Rust LSP using 100x less RAM",
+    "first_seen": "2026-08-23",
+    "times": 1,
+    "last_seen": "2026-08-23"
+  },
+  "3f58f864fb74ac7c": {
+    "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+    "first_seen": "2026-08-23",
+    "times": 1,
+    "last_seen": "2026-08-23"
+  },
+  "fc8123219e33f9ad": {
+    "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+    "first_seen": "2026-08-23",
+    "times": 1,
+    "last_seen": "2026-08-23"
+  },
+  "692432e88c47ab10": {
+    "title": "Makers Fund expands game industry footprint through $250 million investment round",
+    "first_seen": "2026-08-23",
+    "times": 1,
+    "last_seen": "2026-08-23"
   }
 }
