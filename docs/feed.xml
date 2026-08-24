@@ -4,73 +4,57 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 191 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 166 个事件，只有 6 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 23 Aug 2026 10:09:06 +0800</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 10:06:58 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>There's no reason for software to be slow anymore</title>
-  <link>https://danluu.com/perf-opt/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-010c4a92fb75</guid>
-  <pubDate>Sat, 22 Aug 2026 01:06:17 +0000</pubDate>
+  <title>Why your local LLM feels dumber than it is</title>
+  <link>https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-9260d8b94485</guid>
+  <pubDate>Sat, 22 Aug 2026 18:14:16 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.9 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>AI代理用一个月在rebar基准上优化正则引擎FRE，过度拟合后经提示泛化。实测对长查询AOT编译提速2-4倍，代表性holdout查询约7%。作者用几分钟指令让代理实现JIT编译并切回，成本极低。</p><p><strong>为什么重要</strong><br>性能优化从稀缺技能变为可即时生成，动态定制软件成为可能。JIT编译器、数据库等曾因难度被回避的优化，现在门槛大降，改变软件构建的性价比曲线。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：AI代理能快速生成针对特定工作负载的优化代码，未来或可用于GAS技能热路径或动画蓝图性能调优，需警惕过度拟合风险。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 620 +12.9 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Qwen3.6-27B BF16在RTX PRO 6000上，vllm nightly容器含734个包，对比不同attention后端（如flash-attention、eager）的prefill精度与速度，KV cache为BF16，禁用CUDA graphs和MTP，2k chunked prefill。</p><p><strong>为什么重要</strong><br>同一权重因软件栈差异导致logits分布偏移（KLD），本地模型感觉变笨是推理实现差异而非模型本身。这打破“同权重同性能”假设，影响基准复现和模型比较可信度。</p><p><strong>对你而言</strong><br>战斗技能数值与动画状态机类似，不同硬件/驱动/引擎版本会改变GAS执行顺序和物理模拟精度。建议在目标平台矩阵上跑固定输入回归测试，记录KLD或技能伤害偏差，别只看单机表现。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 417 +12.1 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Rust Glancer: Rust LSP using 100x less RAM</title>
-  <link>https://rust-glancer.github.io/blog/hello-world/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-d0935b6c5fcc</guid>
-  <pubDate>Fri, 21 Aug 2026 19:51:54 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Rust Glancer 是作者用 4 个月开发的 Rust LSP 替代实现，目标内存 &lt;100MB。实测 M4 Max 上基础索引 5 秒、全量 8 秒，比 rust-analyzer 快 1-5 秒；M1 8GB 上全量 9 秒 vs 14 秒。核心策略是放弃增量分析，改为保存时冻结索引并落盘，查询时按需加载。支持跳转、悬停、补全，但新代码需保存后才索引。</p><p><strong>为什么重要</strong><br>rust-analyzer 用 salsa 和 rowan 实现增量与局部失效，但内存碎片化严重。Rust Glancer 证明牺牲实时索引换取低内存和重启免重建是可行路线，为 LSP 设计提供新权衡维度，尤其惠及 8GB 老设备用户。</p><p><strong>对你而言</strong><br>与你的 UE5 项目无直接关系。但若你未来用 Rust 写工具链，可借鉴其「冻结索引+落盘」思路降低常驻内存；不过其保存后索引的延迟不适合战斗调试的即时反馈需求。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 397 +12 / HN 头条 +8</small></p>]]></description>
+  <title>Creating and removing Gameplay Effects in C++</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1vwj63e/creating_and_removing_gameplay_effects_in_c/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-0fc43dc838d8</guid>
+  <pubDate>Sun, 23 Aug 2026 21:12:33 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>52 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者询问在C++中应用和移除Gameplay Effect（GE）的流程，其Player State持有ASC和属性集，目标是实现无限GE持续回血，待满血后移除。BP中操作直观，但C++需手动管理句柄和生命周期。</p><p><strong>为什么重要</strong><br>GAS的C++接口比BP更底层，涉及FActiveGameplayEffectHandle、委托绑定和条件判断，常见于复杂战斗逻辑。此问题反映C++与BP在GAS使用上的门槛差异，影响团队技术选型和开发效率。</p><p><strong>对你而言</strong><br>若项目用C++配置GAS，需封装GE应用/移除的辅助函数，并利用OnInhibitionChange或属性变化回调自动处理移除条件，避免手动轮询。可参考此案例优化你的技能系统代码结构。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 战斗「gameplay effect」 +32</small></p>]]></description>
 </item>
 <item>
-  <title>Claudette: Make Claude stop talking like a BuzzFeed article</title>
-  <link>https://github.com/adnanakil/nobuzz/blob/main/README.md</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-3f58f864fb74</guid>
-  <pubDate>Fri, 21 Aug 2026 14:31:52 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.7 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>开源Claude Code技能/debuzz，调用Google Antigravity CLI（agy）将Claude回复转成三种风格：colleague（保留代码路径）、manager（删代码缩至1/3）、director（3-5句摘要）。安装命令curl/irm，MIT协议。</p><p><strong>为什么重要</strong><br>承认提示词无法根治模型文风，改用第二模型做翻译层。打破单一模型输出垄断，为LLM工作流引入跨模型后处理范式，影响所有依赖AI生成技术文档的团队。</p><p><strong>对你而言</strong><br>战斗日志或代码评审若被AI文风污染，可借鉴此思路：用agy或本地小模型做风格转换，保留技术细节。但你的核心是GAS参数与动画帧率，此工具与项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 347 +11.7 / HN 头条 +8</small></p>]]></description>
+  <title>Why does my cloth assets not actually work with Metahuman Wardrobe Items?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1vwgp7c/why_does_my_cloth_assets_not_actually_work_with/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-3e4a4225ba29</guid>
+  <pubDate>Sun, 23 Aug 2026 19:36:33 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户反馈：Metahuman Wardrobe Items 使用 cloth asset 后，在 Metahuman Creator 中无布料物理，仅生成 SKM，无 cloth asset。权重图与模拟预览正常，但组装后失效。</p><p><strong>为什么重要</strong><br>Metahuman 工作流中 cloth asset 与 wardrobe 集成存在断层，影响角色服装物理表现，导致开发者需额外处理或放弃物理效果。</p><p><strong>对你而言</strong><br>若项目依赖 Metahuman 服装物理，需验证 wardrobe 流程是否支持 cloth asset，或考虑自定义布料组件替代。与你的 GAS 战斗系统无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「metahuman」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Vomit: Clean up Claude 5's token output with a separate LLM</title>
-  <link>https://github.com/zachahn/vomit</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-fc8123219e33</guid>
-  <pubDate>Thu, 20 Aug 2026 15:26:02 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Vomit 工具将 Claude 5 的 token 输出通过本地 LLM 翻译为英文，完全本地运行，无遥测和外部依赖。安装命令：go install github.com/zachahn/vomit@latest，支持 scrub、list、tail 等子命令，推荐搭配 Llama.app 和 GPT-OSS 20B 模型，GPLv3 许可。</p><p><strong>为什么重要</strong><br>Claude 5 的 token 输出对开发者不友好，Vomit 用独立 LLM 做翻译层，改变了调试 AI 输出的工作流。它强调本地隐私和零依赖，但速度慢且可能漏译，需借助 AgentsView 回查原始消息，反映了 AI 工具链中可观测性需求的增长。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的战斗系统依赖 GAS 和网络同步，不涉及 LLM 输出处理。但可借鉴其本地化、无遥测的设计思路，用于战斗日志或回放系统的隐私保护，不过核心战斗逻辑无需此类翻译层。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 302 +11.4 / HN 头条 +8</small></p>]]></description>
+  <title>What do UE5 developers do when making an FPS game with a thirdperson body?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1vw7gwb/what_do_ue5_developers_do_when_making_an_fps_game/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-49426c295799</guid>
+  <pubDate>Sun, 23 Aug 2026 13:38:59 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit r/unrealengine 讨论 UE5 第一人称带第三人称身体的做法：常见方案是分离手臂与身体网格，手臂用独立动画蓝图绑定相机，身体用 Locomotion 动画，通过 IK 或弹簧臂同步旋转，或用 Control Rig 驱动。</p><p><strong>为什么重要</strong><br>这涉及 FPS 手感与第三人称表现的核心矛盾：相机视角与身体动画脱节。方案选择直接影响瞄准精度、网络同步和动画性能，是战斗手感调优的关键分水岭。</p><p><strong>对你而言</strong><br>与你的武侠 PVP 项目直接相关：若做近战或远程技能，需评估是否拆分武器与身体网格，用 GAS 触发动画蒙太奇时注意 IK 与相机偏移，避免网络下手臂抖动。可参考社区方案做原型测试。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「ue5」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Makers Fund expands game industry footprint through $250 million investment round</title>
-  <link>https://www.gamedeveloper.com/business/makers-fund-expands-game-industry-footprint-after-closing-250-million-investment-round</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-692432e88c47</guid>
-  <pubDate>Thu, 20 Aug 2026 13:00:00 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>风投Makers Fund完成第四轮募资2.5亿美元，总管理资产达15亿美元。此前投资过Bossa Studios、TinyBuild等游戏公司，近年扩展至消费应用与创作平台。</p><p><strong>为什么重要</strong><br>游戏行业投资热度回升，大额基金持续加码。资金流向创作者经济与新技术，预示行业重心从纯游戏向跨领域互动娱乐转移。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注其投资标的的技术方向，如用户行为变化或新分发模式，或间接影响行业人才流动。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/makers-fund-expands-game-industry-footprint-after-closing-250-million-investment-round">Game Developer</a> · <a href="https://www.gamesindustry.biz/makers-fund-raises-250m-in-fourth-round-to-support-interactive-entertainment-startups">GamesIndustry</a></small></p>]]></description>
+  <title>What is your experience with thge Unreal Engine MCP?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1vw9mus/what_is_your_experience_with_thge_unreal_engine/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-ba664351dfad</guid>
+  <pubDate>Sun, 23 Aug 2026 15:07:44 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>34 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit r/unrealengine 用户讨论 Unreal Engine MCP（模型上下文协议）体验，询问哪些 AI 代理有效、哪些无效。无具体版本或参数，属社区经验汇总。</p><p><strong>为什么重要</strong><br>MCP 正成为 UE 开发中 AI 集成的新接口，社区反馈直接影响工具链选择。早期采用者的成败案例，比官方文档更能预示实际落地风险。</p><p><strong>对你而言</strong><br>若你正评估 AI 辅助战斗配置或动画蓝图，MCP 代理的社区口碑可作参考。但无具体技术细节，与你的 GAS 或 Locomotion 工作无直接关系。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
   <title>This First-Person Sword Fighting Game's Combat is 100% Physics-Based</title>
   <link>https://80.lv/articles/this-first-person-sword-fighting-game-s-combat-is-100-physics-based/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-8ba15a640a55</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-8ba15a640a55</guid>
   <pubDate>Fri, 21 Aug 2026 23:32:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>22 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>独立开发者HyperMad的《Bloodfall: The First Temple》采用100%物理驱动近战：按住鼠标移动直接控制剑位，剑与环境实时碰撞、反弹、卡锁。其Harmonic Resonance Model模拟刚度、弹性、能量耗散，剑格也能参与格挡偏转。目标2026年PC发售，Steam试玩已开放。</p><p><strong>为什么重要</strong><br>传统动作游戏用动画蒙皮表现打击，物理仅作反馈。此作将物理模拟前置为输入核心，牺牲可控性换取几何交互深度，挑战了「手感=动画调参」的行业共识，可能开辟硬核PVP新赛道。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的GAS与动画蓝图体系依赖确定性帧数据，纯物理驱动会破坏网络同步与手感一致性。但可借鉴其「武器几何参与判定」思路，在现有动画框架内加入局部物理碰撞体，提升格挡与招架的临场感。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「fighting game」 +32 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Riot Games sunsets active development on 2XKO as it costs "substantially more to operate than it brings in"</title>
-  <link>https://www.gamesindustry.biz/riot-games-sunsets-active-development-on-2xko-as-it-costs-substantially-more-to-operate-than-it-brings-in</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-c9d820952c20</guid>
-  <pubDate>Fri, 21 Aug 2026 08:06:41 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>22 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Riot于12月停止2XKO积极开发，服务器维持至2026年后。8月20日停售KO点并退款，9月8日1.3.1补丁解锁全部角色，10月1.3.3加入最终角色Samira，12月1.3.5仅修bug。终极捆绑包定价$39.99。此前已裁减80个开发岗位。</p><p><strong>为什么重要</strong><br>免费格斗游戏运营成本远超收入，大更新未提升留存，Riot选择止损。这反映格斗品类在服务型模式下难持续，即便大厂IP也难逃关停，行业对格斗游戏长线运营模式产生质疑。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「fighting game」 +32 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Up to 3.2x Faster Inference with LFM2.5-DSpark</title>
-  <link>https://huggingface.co/blog/LiquidAI/lfm25-dspark</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-23-6316bbb49fbb</guid>
-  <pubDate>Thu, 20 Aug 2026 16:52:57 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>LiquidAI发布LFM2.5-DSpark投机解码方案，含约300M参数的5层注意力草稿模型，在H100上最高3.18x吞吐提升（428→1362 tok/s），M4 Max上最高2.87x（136→389 tok/s），函数调用延迟平均降57%。已开源支持llama.cpp和SGLang。</p><p><strong>为什么重要</strong><br>投机解码将解码阶段从内存带宽瓶颈中解放，用草稿模型生成候选token再由目标模型单次前向验证。DSpark结合DFlash并行主干、马尔可夫链顺序头和置信度调度验证器，在保持贪心解码输出不变的前提下显著提速，推动端侧agentic推理实用化。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来NPC对话或AI裁判需本地推理，可参考其草稿模型训练选epoch策略（按接受率而非loss）及llama.cpp/SGLang集成方式，但战斗系统核心的GAS和网络同步不受影响。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://huggingface.co/blog/LiquidAI/lfm25-dspark">HuggingFace Blog</a> · <a href="https://www.marktechpost.com/2026/08/20/liquid-ai-releases-lfm2-5-dspark-draft-models-that-deliver-up-to-3-18x-faster-decoding/">MarkTechPost</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>22 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>《Bloodfall: The First Temple》采用100%物理驱动近战，鼠标按住并移动直接控制剑的位置，剑可置于屏幕任意处，超出边缘则带动角色与镜头旋转。武器与环境实时碰撞、反弹、卡锁，Harmonic Resonance Model模拟刚度、弹性、能量耗散。格挡非状态，招架非动画窗口，剑格也能参与格挡。Steam试玩已开放，目标2026年PC发售。</p><p><strong>为什么重要</strong><br>传统动作游戏用动画蒙皮物理，物理仅作表现层。此作将物理模拟直接作为玩法核心，碰撞结果即战斗决策，颠覆了「输入-动画-判定」的经典链路。若成立，可能催生新的近战交互范式，影响动作游戏设计语言。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的GAS与动画蓝图体系依赖确定性判定和网络同步，纯物理模拟在PVP中会产生不可预测结果，且同步成本极高。可关注其碰撞响应与手感调优思路，但不宜直接套用。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「fighting game」 +32 / 已报过 -30</small></p>]]></description>
 </item>
 </channel>
 </rss>

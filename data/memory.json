@@ -1,10 +1,4 @@
 {
-  "1deb380907b40c58": {
-    "title": "Tripledot Studios acquires Supersonic from Unity for $40m",
-    "first_seen": "2026-08-08",
-    "times": 2,
-    "last_seen": "2026-08-09"
-  },
   "5d9acdfc48671c0c": {
     "title": "How to Create Hair and Feathers for an Owl Harpy Character",
     "first_seen": "2026-08-08",
@@ -16,30 +10,6 @@
     "first_seen": "2026-08-08",
     "times": 3,
     "last_seen": "2026-08-10"
-  },
-  "2d97f4409071a64d": {
-    "title": "都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙",
-    "first_seen": "2026-08-09",
-    "times": 1,
-    "last_seen": "2026-08-09"
-  },
-  "7708db269386d136": {
-    "title": "“Code was never the hard part” is an insult to all programmers",
-    "first_seen": "2026-08-09",
-    "times": 1,
-    "last_seen": "2026-08-09"
-  },
-  "141b4dd391c63e30": {
-    "title": "Assembly Hall of Shame",
-    "first_seen": "2026-08-09",
-    "times": 1,
-    "last_seen": "2026-08-09"
-  },
-  "abe0092bd221d590": {
-    "title": "Hardware backdoors in some x86 CPUs",
-    "first_seen": "2026-08-09",
-    "times": 1,
-    "last_seen": "2026-08-09"
   },
   "a3222a17dc2db4cc": {
     "title": "How I use LLMs to learn complex topics",
@@ -512,8 +482,8 @@
   "8ba15a640a558a78": {
     "title": "This First-Person Sword Fighting Game's Combat is 100% Physics-Based",
     "first_seen": "2026-08-22",
-    "times": 2,
-    "last_seen": "2026-08-23"
+    "times": 3,
+    "last_seen": "2026-08-24"
   },
   "c9d820952c2082e0": {
     "title": "Riot Games sunsets active development on 2XKO as it costs \"substantially more to operate than it brings in\"",
@@ -550,5 +520,35 @@
     "first_seen": "2026-08-23",
     "times": 1,
     "last_seen": "2026-08-23"
+  },
+  "9260d8b944853789": {
+    "title": "Why your local LLM feels dumber than it is",
+    "first_seen": "2026-08-24",
+    "times": 1,
+    "last_seen": "2026-08-24"
+  },
+  "0fc43dc838d87e4f": {
+    "title": "Creating and removing Gameplay Effects in C++",
+    "first_seen": "2026-08-24",
+    "times": 1,
+    "last_seen": "2026-08-24"
+  },
+  "3e4a4225ba2982ed": {
+    "title": "Why does my cloth assets not actually work with Metahuman Wardrobe Items?",
+    "first_seen": "2026-08-24",
+    "times": 1,
+    "last_seen": "2026-08-24"
+  },
+  "49426c295799a958": {
+    "title": "What do UE5 developers do when making an FPS game with a thirdperson body?",
+    "first_seen": "2026-08-24",
+    "times": 1,
+    "last_seen": "2026-08-24"
+  },
+  "ba664351dfadc2f7": {
+    "title": "What is your experience with thge Unreal Engine MCP?",
+    "first_seen": "2026-08-24",
+    "times": 1,
+    "last_seen": "2026-08-24"
   }
 }
