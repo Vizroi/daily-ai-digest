@@ -1,64 +1,4 @@
 {
-  "5d9acdfc48671c0c": {
-    "title": "How to Create Hair and Feathers for an Owl Harpy Character",
-    "first_seen": "2026-08-08",
-    "times": 3,
-    "last_seen": "2026-08-10"
-  },
-  "d99d280ab0c82714": {
-    "title": "Investors hate Roblox’ new direction – but a reversal may be impossible | Opinion",
-    "first_seen": "2026-08-08",
-    "times": 3,
-    "last_seen": "2026-08-10"
-  },
-  "a3222a17dc2db4cc": {
-    "title": "How I use LLMs to learn complex topics",
-    "first_seen": "2026-08-10",
-    "times": 1,
-    "last_seen": "2026-08-10"
-  },
-  "6b0313d51084c67c": {
-    "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
-    "first_seen": "2026-08-10",
-    "times": 1,
-    "last_seen": "2026-08-10"
-  },
-  "feb2f200d1fc7b11": {
-    "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
-    "first_seen": "2026-08-10",
-    "times": 1,
-    "last_seen": "2026-08-10"
-  },
-  "210de9e40d5f7a28": {
-    "title": "180万刀，连亚马逊都烧不起Claude了",
-    "first_seen": "2026-08-10",
-    "times": 1,
-    "last_seen": "2026-08-10"
-  },
-  "8e4a1120a30aaaab": {
-    "title": "Opus 5狂烧6.9亿token做游戏，GPT-5.6用5美元复刻了",
-    "first_seen": "2026-08-10",
-    "times": 1,
-    "last_seen": "2026-08-10"
-  },
-  "379bfcace2390aea": {
-    "title": "How to use and Subscribe Mass Signals in UE5.7?",
-    "first_seen": "2026-08-10",
-    "times": 1,
-    "last_seen": "2026-08-10"
-  },
-  "20022b0acbc53aca": {
-    "title": "Unreal indie dev developing an auto retopology tool in Blender",
-    "first_seen": "2026-08-10",
-    "times": 1,
-    "last_seen": "2026-08-10"
-  },
-  "9939ac8c5e44dbfb": {
-    "title": "UE 5.6 Lumen Hardware Ray Tracing AMD driver crash",
-    "first_seen": "2026-08-10",
-    "times": 1,
-    "last_seen": "2026-08-10"
-  },
   "260ea4015ac2e256": {
     "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
     "first_seen": "2026-08-11",
@@ -550,5 +490,53 @@
     "first_seen": "2026-08-24",
     "times": 1,
     "last_seen": "2026-08-24"
+  },
+  "3281ee7361321e9b": {
+    "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+    "first_seen": "2026-08-25",
+    "times": 1,
+    "last_seen": "2026-08-25"
+  },
+  "7e2fb79060fc539d": {
+    "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+    "first_seen": "2026-08-25",
+    "times": 1,
+    "last_seen": "2026-08-25"
+  },
+  "859282f9836ca6f0": {
+    "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+    "first_seen": "2026-08-25",
+    "times": 1,
+    "last_seen": "2026-08-25"
+  },
+  "cc16c82768359f0b": {
+    "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
+    "first_seen": "2026-08-25",
+    "times": 1,
+    "last_seen": "2026-08-25"
+  },
+  "086e615feb143584": {
+    "title": "I were 17, I'd learn how to build LLMs from scratch",
+    "first_seen": "2026-08-25",
+    "times": 1,
+    "last_seen": "2026-08-25"
+  },
+  "9e5971a3e5ff8a94": {
+    "title": "This Dark Fantasy Soulslike Lets You Play as a Dog Saving His Master",
+    "first_seen": "2026-08-25",
+    "times": 1,
+    "last_seen": "2026-08-25"
+  },
+  "a083a2b2551914f1": {
+    "title": "How I Optimize Lighting & Shadows in UE5 (using a real game 'Far Far West')",
+    "first_seen": "2026-08-25",
+    "times": 1,
+    "last_seen": "2026-08-25"
+  },
+  "0632e37e5f8bd235": {
+    "title": "LWIU: 960 commits on ue6-main; 172 on ue5-main | Infrastructure-heavy week across build tooling, storage, and rendering, with two notable pieces of new tech",
+    "first_seen": "2026-08-25",
+    "times": 1,
+    "last_seen": "2026-08-25"
   }
 }

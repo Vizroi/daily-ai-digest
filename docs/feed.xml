@@ -4,57 +4,73 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 166 个事件，只有 6 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 173 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 24 Aug 2026 10:06:58 +0800</lastBuildDate>
+<lastBuildDate>Tue, 25 Aug 2026 09:59:49 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Why your local LLM feels dumber than it is</title>
-  <link>https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-9260d8b94485</guid>
-  <pubDate>Sat, 22 Aug 2026 18:14:16 +0000</pubDate>
+  <title>Advancing price-performance for developers with GPT‑5.6 in Kiro</title>
+  <link>https://openai.com/index/gpt-5-6-in-kiro</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-3281ee736132</guid>
+  <pubDate>Sat, 22 Aug 2026 04:33:06 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Qwen3.6-27B BF16在RTX PRO 6000上，vllm nightly容器含734个包，对比不同attention后端（如flash-attention、eager）的prefill精度与速度，KV cache为BF16，禁用CUDA graphs和MTP，2k chunked prefill。</p><p><strong>为什么重要</strong><br>同一权重因软件栈差异导致logits分布偏移（KLD），本地模型感觉变笨是推理实现差异而非模型本身。这打破“同权重同性能”假设，影响基准复现和模型比较可信度。</p><p><strong>对你而言</strong><br>战斗技能数值与动画状态机类似，不同硬件/驱动/引擎版本会改变GAS执行顺序和物理模拟精度。建议在目标平台矩阵上跑固定输入回归测试，记录KLD或技能伤害偏差，别只看单机表现。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 417 +12.1 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>53.4 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-5.6系列（Sol、Terra、Luna），集成至Kiro开发代理。Terra在Terminal-Bench 2.1测试中成本降低约82%，支持规格驱动开发与属性测试。</p><p><strong>为什么重要</strong><br>AI编程从单次代码生成转向长任务结构化执行。82%成本降幅证明规格上下文能显著减少试错，改变AI编码性价比基准。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但规格驱动+属性测试思路可借鉴到GAS配置校验，减少技能参数错误迭代。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / HN 297 +11.4</small></p><p><small>全部来源：<a href="https://openai.com/index/gpt-5-6-in-kiro">OpenAI</a> · <a href="https://developers.openai.com/api/docs/pricing">Hacker News</a> · <a href="https://developers.openai.com/api/docs/models/gpt-5.6-sol">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Creating and removing Gameplay Effects in C++</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vwj63e/creating_and_removing_gameplay_effects_in_c/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-0fc43dc838d8</guid>
-  <pubDate>Sun, 23 Aug 2026 21:12:33 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>52 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者询问在C++中应用和移除Gameplay Effect（GE）的流程，其Player State持有ASC和属性集，目标是实现无限GE持续回血，待满血后移除。BP中操作直观，但C++需手动管理句柄和生命周期。</p><p><strong>为什么重要</strong><br>GAS的C++接口比BP更底层，涉及FActiveGameplayEffectHandle、委托绑定和条件判断，常见于复杂战斗逻辑。此问题反映C++与BP在GAS使用上的门槛差异，影响团队技术选型和开发效率。</p><p><strong>对你而言</strong><br>若项目用C++配置GAS，需封装GE应用/移除的辅助函数，并利用OnInhibitionChange或属性变化回调自动处理移除条件，避免手动轮询。可参考此案例优化你的技能系统代码结构。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 战斗「gameplay effect」 +32</small></p>]]></description>
+  <title>Anthropic’s best AI model struggles to attract users as cheaper tools thrive</title>
+  <link>https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-7e2fb79060fc</guid>
+  <pubDate>Sun, 23 Aug 2026 18:16:37 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>53.3 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 7月年化收入65亿美元，较5月47亿增长；Q3预计盈利，6千客户年消费超10万。但Opus 5（7月24日发布）仅占模型支出3.5%，Fable 5占8%，Opus 4.8占28%。OpenAI年化收入超400亿，季度增35%，GPT 5.6带动。Ramp AI指数基于7万公司账单。</p><p><strong>为什么重要</strong><br>最强模型不赚钱，性价比模型主导市场。Anthropic收入靠旧模型Opus 4.8，新旗舰Opus 5因成本高采用率低，颠覆“旗舰驱动增长”逻辑。OpenAI靠GPT 5.6扭转颓势，显示版本迭代对商业表现直接冲击。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可参考：模型成本影响采用率，类似GAS技能若耗蓝过高会被玩家弃用。关注Ramp指数方法论，或可用于分析玩家付费行为数据。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 766 +13.3 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/">Simon Willison</a> · <a href="https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Why does my cloth assets not actually work with Metahuman Wardrobe Items?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vwgp7c/why_does_my_cloth_assets_not_actually_work_with/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-3e4a4225ba29</guid>
-  <pubDate>Sun, 23 Aug 2026 19:36:33 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户反馈：Metahuman Wardrobe Items 使用 cloth asset 后，在 Metahuman Creator 中无布料物理，仅生成 SKM，无 cloth asset。权重图与模拟预览正常，但组装后失效。</p><p><strong>为什么重要</strong><br>Metahuman 工作流中 cloth asset 与 wardrobe 集成存在断层，影响角色服装物理表现，导致开发者需额外处理或放弃物理效果。</p><p><strong>对你而言</strong><br>若项目依赖 Metahuman 服装物理，需验证 wardrobe 流程是否支持 cloth asset，或考虑自定义布料组件替代。与你的 GAS 战斗系统无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「metahuman」 +20</small></p>]]></description>
+  <title>Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded</title>
+  <link>https://twitter.com/lemire/status/2091894299289874926</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-859282f9836c</guid>
+  <pubDate>Mon, 24 Aug 2026 15:08:17 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>41.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>小米新CPU Xring O3，单核Geekbench 3945分追平苹果，多核15221分大幅领先。总缓存44MB超多数笔记本，C1-Ultra大核支持SME2/SVE2，21个执行端口含6个128位SIMD，超Intel/AMD。</p><p><strong>为什么重要</strong><br>ARM芯片执行端口数量首次超越x86，缓存容量向PC看齐。算力重心从频率转向并行执行单元与缓存，移动端AI/矩阵运算能力逼近桌面，改变手机游戏性能天花板。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来UE5移植ARM，多核与SIMD宽度提升可改善物理与动画并行计算，但当前主机/PC仍是主要目标平台。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 724 +13.2 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>What do UE5 developers do when making an FPS game with a thirdperson body?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vw7gwb/what_do_ue5_developers_do_when_making_an_fps_game/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-49426c295799</guid>
-  <pubDate>Sun, 23 Aug 2026 13:38:59 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit r/unrealengine 讨论 UE5 第一人称带第三人称身体的做法：常见方案是分离手臂与身体网格，手臂用独立动画蓝图绑定相机，身体用 Locomotion 动画，通过 IK 或弹簧臂同步旋转，或用 Control Rig 驱动。</p><p><strong>为什么重要</strong><br>这涉及 FPS 手感与第三人称表现的核心矛盾：相机视角与身体动画脱节。方案选择直接影响瞄准精度、网络同步和动画性能，是战斗手感调优的关键分水岭。</p><p><strong>对你而言</strong><br>与你的武侠 PVP 项目直接相关：若做近战或远程技能，需评估是否拆分武器与身体网格，用 GAS 触发动画蒙太奇时注意 IK 与相机偏移，避免网络下手臂抖动。可参考社区方案做原型测试。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「ue5」 +20</small></p>]]></description>
+  <title>GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost</title>
+  <link>https://reinvently.co.uk/tools/ed-o-meter/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-cc16c8276835</guid>
+  <pubDate>Sun, 23 Aug 2026 14:23:09 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>41.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>GLM-5.3开源权重模型在第三方真实任务基准中五项全绿（编码/数据/真实世界/安全/工具调用均100%），综合评分9.3，单次任务成本$0.28，但首token延迟16.3秒。对比gpt-5.5同安全100%但真实世界89%、成本$1.43。fable-5和opus-5因供应商分类器拦截4个调试任务导致编码分43-79%。gpt-5.6系列在12个越狱测试中11个触发canary，安全通过率仅33-50%。deepseek-v4-pro成本$0.0029/任务但TTFT 40秒。</p><p><strong>为什么重要</strong><br>开源模型首次在综合任务上超越闭源旗舰，成本仅为1/5，打破OpenAI/Anthropic性能垄断。同时暴露闭源模型的安全过滤器误伤正常任务（编码调试被拦截），以及gpt-5.6系列严重越狱漏洞——安全性与可用性成为新竞争维度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来将LLM用于战斗AI或测试自动化，可关注GLM-5.3的性价比与gpt-5.6的安全风险，但当前武侠PVP的GAS/动画/同步工作不受影响。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 683 +13.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://reinvently.co.uk/tools/ed-o-meter/">Hacker News</a> · <a href="https://ericpardee.github.io/fire-hd-ownership/">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>What is your experience with thge Unreal Engine MCP?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vw9mus/what_is_your_experience_with_thge_unreal_engine/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-ba664351dfad</guid>
-  <pubDate>Sun, 23 Aug 2026 15:07:44 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>34 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit r/unrealengine 用户讨论 Unreal Engine MCP（模型上下文协议）体验，询问哪些 AI 代理有效、哪些无效。无具体版本或参数，属社区经验汇总。</p><p><strong>为什么重要</strong><br>MCP 正成为 UE 开发中 AI 集成的新接口，社区反馈直接影响工具链选择。早期采用者的成败案例，比官方文档更能预示实际落地风险。</p><p><strong>对你而言</strong><br>若你正评估 AI 辅助战斗配置或动画蓝图，MCP 代理的社区口碑可作参考。但无具体技术细节，与你的 GAS 或 Locomotion 工作无直接关系。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「unreal engine」 +20</small></p>]]></description>
+  <title>I were 17, I'd learn how to build LLMs from scratch</title>
+  <link>https://twitter.com/paulg/status/2091544343589060625</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-086e615feb14</guid>
+  <pubDate>Sun, 23 Aug 2026 20:38:09 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Paul Graham 在 X 上建议 17 岁者从零构建 LLM，用可获取硬件训练最强模型，而非创业。他主张先深研 LLM 原理，再在本科/研究生阶段研究物理世界学习问题，探索超越 LLM 的架构。</p><p><strong>为什么重要</strong><br>PG 将 AI 学习重心从应用创业转向底层原理，强调深度理解才能催生更好创业点。这反映行业对 LLM 黑盒化担忧，推动从调参转向架构创新，影响教育路径与研发方向。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其思路：理解 GAS 与动画底层机制，而非仅配置，有助于突破战斗手感瓶颈。探索超越传统 Locomotion 的物理学习架构，或为武侠 PVP 带来新交互可能。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 508 +12.5 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>This First-Person Sword Fighting Game's Combat is 100% Physics-Based</title>
-  <link>https://80.lv/articles/this-first-person-sword-fighting-game-s-combat-is-100-physics-based/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-24-8ba15a640a55</guid>
-  <pubDate>Fri, 21 Aug 2026 23:32:00 +0000</pubDate>
+  <title>This Dark Fantasy Soulslike Lets You Play as a Dog Saving His Master</title>
+  <link>https://80.lv/articles/this-dark-fantasy-soulslike-lets-you-play-as-a-dog-saving-his-master/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-9e5971a3e5ff</guid>
+  <pubDate>Mon, 24 Aug 2026 12:29:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>22 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>《Bloodfall: The First Temple》采用100%物理驱动近战，鼠标按住并移动直接控制剑的位置，剑可置于屏幕任意处，超出边缘则带动角色与镜头旋转。武器与环境实时碰撞、反弹、卡锁，Harmonic Resonance Model模拟刚度、弹性、能量耗散。格挡非状态，招架非动画窗口，剑格也能参与格挡。Steam试玩已开放，目标2026年PC发售。</p><p><strong>为什么重要</strong><br>传统动作游戏用动画蒙皮物理，物理仅作表现层。此作将物理模拟直接作为玩法核心，碰撞结果即战斗决策，颠覆了「输入-动画-判定」的经典链路。若成立，可能催生新的近战交互范式，影响动作游戏设计语言。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的GAS与动画蓝图体系依赖确定性判定和网络同步，纯物理模拟在PVP中会产生不可预测结果，且同步成本极高。可关注其碰撞响应与手感调优思路，但不宜直接套用。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「fighting game」 +32 / 已报过 -30</small></p>]]></description>
+  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Parry Frames Studio 公布《Stray Dog: nobody cares》，玩家扮演被贬骑士的狗，用嘴叼剑战斗，含 Sekiro 式拼刀与特殊战技。Steam 已开放愿望单，公布后 X 平台爆红。</p><p><strong>为什么重要</strong><br>魂系叙事首次以犬类为主视角，颠覆传统宠物跟随设定，将弱势角色与高难度战斗结合，为暗黑奇幻题材提供差异化叙事模板，引发独立游戏圈讨论。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可参考其「非人主角+魂系战斗」的差异化定位，以及利用社交媒体预热引爆流量的宣发节奏。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「soulslike」 +32</small></p>]]></description>
+</item>
+<item>
+  <title>How I Optimize Lighting &amp; Shadows in UE5 (using a real game 'Far Far West')</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1vx4yi3/how_i_optimize_lighting_shadows_in_ue5_using_a/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-a083a2b25519</guid>
+  <pubDate>Mon, 24 Aug 2026 14:49:30 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5实战项目'Far Far West'中，作者与Epic的Ari Arnbjörnsson合作，分享了光照与阴影优化流程：调整光投影开销、修复VSM（虚拟阴影贴图）失效、设置光绘制距离、应用可扩展性、使用Light Mixer审计工具及Shadow Casters视图模式，并包含性能剖析技巧。</p><p><strong>为什么重要</strong><br>VSM失效是UE5.1+常见性能杀手，此案例提供真实项目中的修复路径，而非教程示例。它展示了如何系统化审计光照成本，对依赖动态光照的PVP战斗场景（如技能特效、位移阴影）有直接参考价值，能减少帧率波动。</p><p><strong>对你而言</strong><br>直接相关。可借鉴其VSM失效修复流程和Light Mixer审计方法，用于你的武侠PVP项目，优化技能释放时的阴影更新开销。Shadow Casters视图模式可快速定位无效阴影源，提升战斗场景性能稳定性。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「ue5」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>LWIU: 960 commits on ue6-main; 172 on ue5-main | Infrastructure-heavy week across build tooling, storage, and rendering, with two notable pieces of new tech</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1vwykda/lwiu_960_commits_on_ue6main_172_on_ue5main/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-0632e37e5f8b</guid>
+  <pubDate>Mon, 24 Aug 2026 10:08:02 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>LWIU仓库上周960次提交于ue6-main分支，172次于ue5-main。两次回滚的元数据引用的CL号与原始提交实际CL号接近但不一致，疑似Perforce shelve与submit差异。基础设施工作集中在构建工具、存储和渲染。</p><p><strong>为什么重要</strong><br>提交量级显示引擎开发重心在ue6，回滚元数据异常暗示内部版本管理流程可能存在非标准操作，影响外部对提交历史的信任度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若你依赖LWIU的提交历史做参考，需注意CL号不一致可能影响追溯准确性。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「ue5」 +20</small></p>]]></description>
 </item>
 </channel>
 </rss>
