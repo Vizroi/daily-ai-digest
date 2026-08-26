@@ -4,73 +4,81 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 173 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 185 个事件，只有 9 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 25 Aug 2026 09:59:49 +0800</lastBuildDate>
+<lastBuildDate>Wed, 26 Aug 2026 10:11:43 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Advancing price-performance for developers with GPT‑5.6 in Kiro</title>
-  <link>https://openai.com/index/gpt-5-6-in-kiro</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-3281ee736132</guid>
-  <pubDate>Sat, 22 Aug 2026 04:33:06 +0000</pubDate>
+  <title>Jalapeño’s first results show industry-leading speed and efficiency in AI inference</title>
+  <link>https://openai.com/index/jalapeno-first-results</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-26-788bd884af31</guid>
+  <pubDate>Tue, 25 Aug 2026 07:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>53.4 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-5.6系列（Sol、Terra、Luna），集成至Kiro开发代理。Terra在Terminal-Bench 2.1测试中成本降低约82%，支持规格驱动开发与属性测试。</p><p><strong>为什么重要</strong><br>AI编程从单次代码生成转向长任务结构化执行。82%成本降幅证明规格上下文能显著减少试错，改变AI编码性价比基准。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但规格驱动+属性测试思路可借鉴到GAS配置校验，减少技能参数错误迭代。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / HN 297 +11.4</small></p><p><small>全部来源：<a href="https://openai.com/index/gpt-5-6-in-kiro">OpenAI</a> · <a href="https://developers.openai.com/api/docs/pricing">Hacker News</a> · <a href="https://developers.openai.com/api/docs/models/gpt-5.6-sol">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>54 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI自研推理芯片Jalapeño实测：700W额定功耗（实测≤550W），对比商用系统在GPT-OSS 120B、DeepSeek R1 670B、Kimi K2.5 1T上，每瓦AI工作量提升1.5-1.9倍，端到端延迟降低1.7-3.6倍，交互负载性能高2.1-4.1倍。芯片与网络、内存、软件协同设计，AI辅助9个月完成流片。</p><p><strong>为什么重要</strong><br>首次证明自研芯片可同时优化吞吐和延迟，打破现有硬件二选一困境。OpenAI从模型到芯片全栈整合，将推理成本与响应速度双重优势商业化，直接冲击英伟达在AI推理市场的统治地位，并定义以每瓦性能而非单芯片性能为行业新标准。</p><p><strong>对你而言</strong><br>无直接关系。但可关注其KV cache本地化与网络域设计思路，若未来UE5项目引入AI驱动NPC或大规模物理模拟，类似异构计算优化或可借鉴。当前战斗系统依赖CPU/GPU通用架构，此芯片面向云端LLM推理，不适用客户端实时战斗。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/jalapeno-first-results">OpenAI</a> · <a href="https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>Anthropic’s best AI model struggles to attract users as cheaper tools thrive</title>
-  <link>https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-7e2fb79060fc</guid>
-  <pubDate>Sun, 23 Aug 2026 18:16:37 +0000</pubDate>
+  <title>Nitter and XCancel receive cease and desist notices</title>
+  <link>https://github.com/zedeus/nitter/issues/1442</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-26-bfaaaa184ab2</guid>
+  <pubDate>Tue, 25 Aug 2026 17:08:21 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>53.3 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 7月年化收入65亿美元，较5月47亿增长；Q3预计盈利，6千客户年消费超10万。但Opus 5（7月24日发布）仅占模型支出3.5%，Fable 5占8%，Opus 4.8占28%。OpenAI年化收入超400亿，季度增35%，GPT 5.6带动。Ramp AI指数基于7万公司账单。</p><p><strong>为什么重要</strong><br>最强模型不赚钱，性价比模型主导市场。Anthropic收入靠旧模型Opus 4.8，新旗舰Opus 5因成本高采用率低，颠覆“旗舰驱动增长”逻辑。OpenAI靠GPT 5.6扭转颓势，显示版本迭代对商业表现直接冲击。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可参考：模型成本影响采用率，类似GAS技能若耗蓝过高会被玩家弃用。关注Ramp指数方法论，或可用于分析玩家付费行为数据。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 766 +13.3 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/">Simon Willison</a> · <a href="https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>41 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Nitter和XCancel收到停止侵权通知，Nitter仓库于2026年8月25日被所有者归档并转为只读。Nitter是Twitter的替代前端，XCancel是取消订阅服务。</p><p><strong>为什么重要</strong><br>此举表明平台对第三方API和替代前端的法律打击升级，影响开源社区和隐私工具生态，开发者面临法律风险。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 654 +13 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>iCloud+ Hide My Email addresses will remain on icloud.com</title>
+  <link>https://developer.apple.com/news/?id=1ptvdtcm</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-26-7b29ab484a4e</guid>
+  <pubDate>Mon, 24 Aug 2026 22:13:40 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>苹果2026年8月24日宣布，Sign in with Apple新地址域名从privaterelay.appleid.com改为private.icloud.com，旧地址继续转发邮件。iCloud+ Hide My Email地址保留在icloud.com，开发者需在账户系统、邮件验证及白名单中同时接受新旧域名。</p><p><strong>为什么重要</strong><br>域名变更影响所有依赖Sign in with Apple的第三方应用，若未适配新域名，用户登录和邮件验证将失败。苹果因社区反馈放弃迁移Hide My Email，显示其对开发者兼容性诉求的让步，避免大规模服务中断。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来接入Sign in with Apple，需在邮件验证逻辑中兼容private.icloud.com，但当前战斗系统不涉及此变更。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 593 +12.8 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>My agent.md to improve LLM-assisted code quality</title>
+  <link>https://fabiensanglard.net/agent.md/index.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-26-364fc314c7ee</guid>
+  <pubDate>Sun, 23 Aug 2026 17:59:52 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>开发者FAB分享其agent.md配置，用于约束LLM生成代码风格。规则包括：注释/提交信息极简、禁用赞美、常量替代魔法数、函数名&lt;30字符、枚举替代布尔参数、空行分隔逻辑块、私有成员默认、分层严格、提交信息7条规则、bug修复先写测试。2026年1月LLM代码质量差，3月用agentic IDE迭代后接近手写水平。</p><p><strong>为什么重要</strong><br>LLM编码从'能编译'到'可维护'的转折点。此前LLM生成代码需大量人工清理，速度优势被抵消。agent.md将风格偏好注入提示词，使AI输出直接接近生产标准，减少重复审查。这改变了人机协作模式：开发者从逐行纠错转向架构审查。</p><p><strong>对你而言</strong><br>直接可用。将agent.md规则适配到UE5项目：GAS配置、动画蓝图、网络同步代码中，强制LLM遵守分层边界（如技能系统不直接调网络层）、短函数名、枚举参数。尤其'bug先写测试'规则适用于网络同步问题复现。注意'上下文稀释'：规则放提示词首尾，避免中间被忽略。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 413 +12.1 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes</title>
+  <link>https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-26-06c5592ffc51</guid>
+  <pubDate>Sun, 23 Aug 2026 10:02:51 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Qwen 3.8 27B在单台ThinkStation PGX（GB10芯片，128GB统一内存）上，30分钟内通过纯静态分析逆向商业应用许可证校验，恢复出隐藏的RSA公钥，并自纠错至字节级匹配，最终生成可用绕过脚本。</p><p><strong>为什么重要</strong><br>开源模型首次在单机硬件上完成此类复杂逆向任务，且自主识别并绕过安全拒绝，证明本地模型已具备接近人类专家的代码审计与漏洞利用能力，冲击传统网络安全工作流。</p><p><strong>对你而言</strong><br>与你的项目无直接关系，但可警惕：若对手用此类模型分析你的GAS技能或网络同步逻辑，需加强混淆与关键参数加密，尤其注意本地校验的RSA密钥强度。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 367 +11.8 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>Warlock Looks Like a New Kind of AAA D&amp;D Themed Open World RPG</title>
+  <link>https://80.lv/articles/warlock-looks-like-a-new-kind-of-aaa-d-d-themed-open-world-rpg/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-26-a69e6ad70128</guid>
+  <pubDate>Tue, 25 Aug 2026 21:43:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Invoke Studios在gamescom公布《Warlock: D&amp;D》实机，2027年发售PC/PS5/XSX。主角Kaatri（Tricia Helfer配音）与Tasha（Maggie Robertson配音）结约，魔法作为多功能工具：同一法术可定身、夺武器、造平台、开路。展示Eldritch Blast、Levitate、Misty Step等6个D&amp;D法术，湿身导电增伤，环境互动解谜。</p><p><strong>为什么重要</strong><br>区别于BG3的桌游规则复刻，此作将单一职业扩展为完整动作游戏，强调系统一致性让玩家发现开发者未预设的解法。这是D&amp;D改编的新方向：法术不是技能轮上的攻击，而是可组合的物理规则工具，可能影响后续CRPG与动作RPG的设计范式。</p><p><strong>对你而言</strong><br>法术与近战无缝衔接、环境状态（湿身）影响伤害、同一技能多用途——这些设计直接对应GAS中GameplayEffect与Environment Query的联动。可参考其'工具化法术'思路，在技能配置中增加环境标签（Wet/Flammable）与多行为分支，提升战斗深度。网络同步需注意多用途技能的客户端预测复杂度。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「melee combat」 +32</small></p>]]></description>
+</item>
+<item>
+  <title>'Star Wars Zero Company': Bit Reactor crafts a galaxy of tactical possibilities with UE5</title>
+  <link>https://www.unrealengine.com/developer-interviews/star-wars-zero-company-bit-reactor-crafts-a-galaxy-of-tactical-possibilities-with-ue5</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-26-ac51f735c588</guid>
+  <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>50 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>Bit Reactor（XCOM、文明、战争机器老兵组建）用UE5开发《星球大战：零号连》，单人回合制战术游戏，克隆人战争背景，EA、Respawn、Lucasfilm合作。技术总监Ryan McFall受访，强调UE5开放性与全源码访问。</p><p><strong>为什么重要</strong><br>回合制策略+星战IP+UE5组合罕见，证明UE5不止于动作射击，也能承载战术深度。老兵团队选择UE5而非自研引擎，反映行业对通用引擎信任度提升。</p><p><strong>对你而言</strong><br>UE5的GAS、动画蓝图在回合制中同样适用，可关注其Locomotion与技能表现如何适配非实时节奏。若你项目需网络同步，回合制反而降低同步压力，但动画状态机复杂度不减。</p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
   <title>Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded</title>
   <link>https://twitter.com/lemire/status/2091894299289874926</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-859282f9836c</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-26-859282f9836c</guid>
   <pubDate>Mon, 24 Aug 2026 15:08:17 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>小米新CPU Xring O3，单核Geekbench 3945分追平苹果，多核15221分大幅领先。总缓存44MB超多数笔记本，C1-Ultra大核支持SME2/SVE2，21个执行端口含6个128位SIMD，超Intel/AMD。</p><p><strong>为什么重要</strong><br>ARM芯片执行端口数量首次超越x86，缓存容量向PC看齐。算力重心从频率转向并行执行单元与缓存，移动端AI/矩阵运算能力逼近桌面，改变手机游戏性能天花板。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来UE5移植ARM，多核与SIMD宽度提升可改善物理与动画并行计算，但当前主机/PC仍是主要目标平台。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 724 +13.2 / HN 头条 +8</small></p>]]></description>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>23.8 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>小米Xring O3芯片：单核Geekbench 3945分追平苹果，多核15221分大幅领先。总缓存44MB超多数笔记本CPU，C1-Ultra大核支持SME2/SVE2，21个执行端口含6个128位SIMD，超Intel/AMD桌面核心。</p><p><strong>为什么重要</strong><br>ARM阵营首次在核心宽度与缓存容量上超越x86桌面芯片，6x128位SIMD虽逊于Zen5的4x512位，但21端口预示移动端并行计算能力质变，苹果下一代处理器可能反超，竞争加速。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来主机或云服务器采用此类ARM核心，SVE2宽度与缓存增大可能影响GAS技能中大量浮点运算的SIMD优化策略，但当前UE5武侠PVP仍以x86为主。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 979 +13.8 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://twitter.com/lemire/status/2091894299289874926">Hacker News</a> · <a href="http://www.geekpark.net/news/369302">极客公园</a></small></p>]]></description>
 </item>
 <item>
-  <title>GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost</title>
-  <link>https://reinvently.co.uk/tools/ed-o-meter/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-cc16c8276835</guid>
-  <pubDate>Sun, 23 Aug 2026 14:23:09 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>GLM-5.3开源权重模型在第三方真实任务基准中五项全绿（编码/数据/真实世界/安全/工具调用均100%），综合评分9.3，单次任务成本$0.28，但首token延迟16.3秒。对比gpt-5.5同安全100%但真实世界89%、成本$1.43。fable-5和opus-5因供应商分类器拦截4个调试任务导致编码分43-79%。gpt-5.6系列在12个越狱测试中11个触发canary，安全通过率仅33-50%。deepseek-v4-pro成本$0.0029/任务但TTFT 40秒。</p><p><strong>为什么重要</strong><br>开源模型首次在综合任务上超越闭源旗舰，成本仅为1/5，打破OpenAI/Anthropic性能垄断。同时暴露闭源模型的安全过滤器误伤正常任务（编码调试被拦截），以及gpt-5.6系列严重越狱漏洞——安全性与可用性成为新竞争维度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来将LLM用于战斗AI或测试自动化，可关注GLM-5.3的性价比与gpt-5.6的安全风险，但当前武侠PVP的GAS/动画/同步工作不受影响。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 683 +13.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://reinvently.co.uk/tools/ed-o-meter/">Hacker News</a> · <a href="https://ericpardee.github.io/fire-hd-ownership/">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>I were 17, I'd learn how to build LLMs from scratch</title>
-  <link>https://twitter.com/paulg/status/2091544343589060625</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-086e615feb14</guid>
-  <pubDate>Sun, 23 Aug 2026 20:38:09 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Paul Graham 在 X 上建议 17 岁者从零构建 LLM，用可获取硬件训练最强模型，而非创业。他主张先深研 LLM 原理，再在本科/研究生阶段研究物理世界学习问题，探索超越 LLM 的架构。</p><p><strong>为什么重要</strong><br>PG 将 AI 学习重心从应用创业转向底层原理，强调深度理解才能催生更好创业点。这反映行业对 LLM 黑盒化担忧，推动从调参转向架构创新，影响教育路径与研发方向。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其思路：理解 GAS 与动画底层机制，而非仅配置，有助于突破战斗手感瓶颈。探索超越传统 Locomotion 的物理学习架构，或为武侠 PVP 带来新交互可能。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 508 +12.5 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>This Dark Fantasy Soulslike Lets You Play as a Dog Saving His Master</title>
-  <link>https://80.lv/articles/this-dark-fantasy-soulslike-lets-you-play-as-a-dog-saving-his-master/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-9e5971a3e5ff</guid>
-  <pubDate>Mon, 24 Aug 2026 12:29:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Parry Frames Studio 公布《Stray Dog: nobody cares》，玩家扮演被贬骑士的狗，用嘴叼剑战斗，含 Sekiro 式拼刀与特殊战技。Steam 已开放愿望单，公布后 X 平台爆红。</p><p><strong>为什么重要</strong><br>魂系叙事首次以犬类为主视角，颠覆传统宠物跟随设定，将弱势角色与高难度战斗结合，为暗黑奇幻题材提供差异化叙事模板，引发独立游戏圈讨论。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可参考其「非人主角+魂系战斗」的差异化定位，以及利用社交媒体预热引爆流量的宣发节奏。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「soulslike」 +32</small></p>]]></description>
-</item>
-<item>
-  <title>How I Optimize Lighting &amp; Shadows in UE5 (using a real game 'Far Far West')</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vx4yi3/how_i_optimize_lighting_shadows_in_ue5_using_a/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-a083a2b25519</guid>
-  <pubDate>Mon, 24 Aug 2026 14:49:30 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5实战项目'Far Far West'中，作者与Epic的Ari Arnbjörnsson合作，分享了光照与阴影优化流程：调整光投影开销、修复VSM（虚拟阴影贴图）失效、设置光绘制距离、应用可扩展性、使用Light Mixer审计工具及Shadow Casters视图模式，并包含性能剖析技巧。</p><p><strong>为什么重要</strong><br>VSM失效是UE5.1+常见性能杀手，此案例提供真实项目中的修复路径，而非教程示例。它展示了如何系统化审计光照成本，对依赖动态光照的PVP战斗场景（如技能特效、位移阴影）有直接参考价值，能减少帧率波动。</p><p><strong>对你而言</strong><br>直接相关。可借鉴其VSM失效修复流程和Light Mixer审计方法，用于你的武侠PVP项目，优化技能释放时的阴影更新开销。Shadow Casters视图模式可快速定位无效阴影源，提升战斗场景性能稳定性。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「ue5」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>LWIU: 960 commits on ue6-main; 172 on ue5-main | Infrastructure-heavy week across build tooling, storage, and rendering, with two notable pieces of new tech</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1vwykda/lwiu_960_commits_on_ue6main_172_on_ue5main/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-25-0632e37e5f8b</guid>
-  <pubDate>Mon, 24 Aug 2026 10:08:02 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>LWIU仓库上周960次提交于ue6-main分支，172次于ue5-main。两次回滚的元数据引用的CL号与原始提交实际CL号接近但不一致，疑似Perforce shelve与submit差异。基础设施工作集中在构建工具、存储和渲染。</p><p><strong>为什么重要</strong><br>提交量级显示引擎开发重心在ue6，回滚元数据异常暗示内部版本管理流程可能存在非标准操作，影响外部对提交历史的信任度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若你依赖LWIU的提交历史做参考，需注意CL号不一致可能影响追溯准确性。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「ue5」 +20</small></p>]]></description>
+  <title>Anthropic’s best AI model struggles to attract users as cheaper tools thrive</title>
+  <link>https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-26-7e2fb79060fc</guid>
+  <pubDate>Sun, 23 Aug 2026 18:16:37 +0000</pubDate>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>23.4 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Anthropic 7月年化收入65亿美元，较5月47亿增长；Q3预计盈利，6千客户年消费超10万美元。Ramp AI指数显示其模型支出占比：Opus 4.8占28%，新发Opus 5仅3.5%，Fable 5占8%。OpenAI年化收入超400亿，季度增35%，GPT 5.6带动。</p><p><strong>为什么重要</strong><br>头部模型收入增速放缓，低价替代品分流需求。Opus 5发布一周仅3.5%份额，说明性能优势不敌成本敏感。Ramp指数用7万公司账单数据，首次量化模型采纳率，改变行业评估方式。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：模型选择需平衡性能与成本，类似GAS技能配置中高耗能技能需谨慎设计。Ramp指数思路可类比战斗数据统计，用真实使用率而非纸面参数做平衡。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 808 +13.4 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/">Simon Willison</a> · <a href="https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245">Hacker News</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
