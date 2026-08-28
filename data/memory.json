@@ -1,39 +1,15 @@
 {
-  "260ea4015ac2e256": {
-    "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
-    "first_seen": "2026-08-11",
-    "times": 3,
-    "last_seen": "2026-08-13"
-  },
   "0df1f31f9afcf1e5": {
     "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
     "first_seen": "2026-08-12",
     "times": 3,
     "last_seen": "2026-08-14"
   },
-  "fb547035ede0f409": {
-    "title": "How Claude marks AI-generated content",
-    "first_seen": "2026-08-13",
-    "times": 1,
-    "last_seen": "2026-08-13"
-  },
   "fe12f0959d2d21a8": {
     "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
     "first_seen": "2026-08-13",
     "times": 2,
     "last_seen": "2026-08-14"
-  },
-  "f563f0d0246d07ba": {
-    "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
-    "first_seen": "2026-08-13",
-    "times": 1,
-    "last_seen": "2026-08-13"
-  },
-  "1856adbdfb35e902": {
-    "title": "llama.cpp",
-    "first_seen": "2026-08-13",
-    "times": 1,
-    "last_seen": "2026-08-13"
   },
   "7096b1006307fbd5": {
     "title": "Download the latest Game Animation Sample Project—now updated for UE 5.8!",
@@ -52,12 +28,6 @@
     "first_seen": "2026-08-13",
     "times": 2,
     "last_seen": "2026-08-14"
-  },
-  "8e3d58aadd168e7e": {
-    "title": "This Night Train 3D Animation Looks Like a Scene from a Fairytale",
-    "first_seen": "2026-08-13",
-    "times": 1,
-    "last_seen": "2026-08-13"
   },
   "4810778778306499": {
     "title": "Introducing Gemini 3.7 Flash",
@@ -542,7 +512,61 @@
   "9cfd64032e51b636": {
     "title": "The Hugging Face incident and the road ahead",
     "first_seen": "2026-08-27",
+    "times": 2,
+    "last_seen": "2026-08-28"
+  },
+  "c4907f6d0652fd4f": {
+    "title": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding",
+    "first_seen": "2026-08-28",
     "times": 1,
-    "last_seen": "2026-08-27"
+    "last_seen": "2026-08-28"
+  },
+  "3a5861a212c5a497": {
+    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "first_seen": "2026-08-28",
+    "times": 1,
+    "last_seen": "2026-08-28"
+  },
+  "b9255bccd5b890ec": {
+    "title": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
+    "first_seen": "2026-08-28",
+    "times": 1,
+    "last_seen": "2026-08-28"
+  },
+  "789c9df811b8a9f2": {
+    "title": "Gemini Omni 1.1 Flash lets you build with more control",
+    "first_seen": "2026-08-28",
+    "times": 1,
+    "last_seen": "2026-08-28"
+  },
+  "391c2cb26e07a393": {
+    "title": "Rockstar formed a new LA-based team to develop more realistic NPCs for Grand Theft Auto 6",
+    "first_seen": "2026-08-28",
+    "times": 1,
+    "last_seen": "2026-08-28"
+  },
+  "4e0d3d7fbccaf588": {
+    "title": "Oddly Satisfying Deforming Pillow In Soulslike 3D Platformer",
+    "first_seen": "2026-08-28",
+    "times": 1,
+    "last_seen": "2026-08-28"
+  },
+  "4cf952bfdb733b80": {
+    "title": "City Sample gets a major update with PCG and Unreal MCP workflows",
+    "first_seen": "2026-08-28",
+    "times": 1,
+    "last_seen": "2026-08-28"
+  },
+  "fc85e64ab863342a": {
+    "title": "POM Shader That Achieves Nanite-Like Displacement At Lower Cost",
+    "first_seen": "2026-08-28",
+    "times": 1,
+    "last_seen": "2026-08-28"
+  },
+  "930ee8fffc61dbd0": {
+    "title": "Building a Procedural Shell Grotto with Substance 3D Designer & Unreal Engine",
+    "first_seen": "2026-08-28",
+    "times": 1,
+    "last_seen": "2026-08-28"
   }
 }
