@@ -1,33 +1,9 @@
 {
-  "0df1f31f9afcf1e5": {
-    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-    "first_seen": "2026-08-12",
-    "times": 3,
-    "last_seen": "2026-08-14"
-  },
-  "fe12f0959d2d21a8": {
-    "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
-    "first_seen": "2026-08-13",
-    "times": 2,
-    "last_seen": "2026-08-14"
-  },
-  "7096b1006307fbd5": {
-    "title": "Download the latest Game Animation Sample Project—now updated for UE 5.8!",
-    "first_seen": "2026-08-13",
-    "times": 2,
-    "last_seen": "2026-08-14"
-  },
   "09a6ce0b5633f293": {
     "title": "CodeDev Group launches dev studio Full Spectrum Interactive",
     "first_seen": "2026-08-13",
     "times": 3,
     "last_seen": "2026-08-15"
-  },
-  "2bb6417c873dbfe8": {
-    "title": "Epic Games sells ArtStation and Sketchfab to KitBash",
-    "first_seen": "2026-08-13",
-    "times": 2,
-    "last_seen": "2026-08-14"
   },
   "4810778778306499": {
     "title": "Introducing Gemini 3.7 Flash",
@@ -41,29 +17,11 @@
     "times": 3,
     "last_seen": "2026-08-16"
   },
-  "3647be9c499c7379": {
-    "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-    "first_seen": "2026-08-14",
-    "times": 1,
-    "last_seen": "2026-08-14"
-  },
-  "d4ca18dcbb79a642": {
-    "title": "深度体验DeepSeek Harness，我原谅它涨价了",
-    "first_seen": "2026-08-14",
-    "times": 1,
-    "last_seen": "2026-08-14"
-  },
   "08d3dbf6aff44d67": {
     "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
     "first_seen": "2026-08-14",
     "times": 2,
     "last_seen": "2026-08-15"
-  },
-  "db75aedaa8705a14": {
-    "title": "Unveiling the Pipeline Behind AAA-Quality Indie Game Characters",
-    "first_seen": "2026-08-14",
-    "times": 1,
-    "last_seen": "2026-08-14"
   },
   "b02be2d473227231": {
     "title": "Why does Opus 5 feel worse to work with?",
@@ -506,8 +464,8 @@
   "2d573c144c03a633": {
     "title": "GlucoFM: Foundation model for continuous glucose monitoring",
     "first_seen": "2026-08-27",
-    "times": 1,
-    "last_seen": "2026-08-27"
+    "times": 2,
+    "last_seen": "2026-08-29"
   },
   "9cfd64032e51b636": {
     "title": "The Hugging Face incident and the road ahead",
@@ -524,8 +482,8 @@
   "3a5861a212c5a497": {
     "title": "Intelligent transcription with Gemini 3.5 Transcribe",
     "first_seen": "2026-08-28",
-    "times": 1,
-    "last_seen": "2026-08-28"
+    "times": 2,
+    "last_seen": "2026-08-29"
   },
   "b9255bccd5b890ec": {
     "title": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
@@ -536,8 +494,8 @@
   "789c9df811b8a9f2": {
     "title": "Gemini Omni 1.1 Flash lets you build with more control",
     "first_seen": "2026-08-28",
-    "times": 1,
-    "last_seen": "2026-08-28"
+    "times": 2,
+    "last_seen": "2026-08-29"
   },
   "391c2cb26e07a393": {
     "title": "Rockstar formed a new LA-based team to develop more realistic NPCs for Grand Theft Auto 6",
@@ -554,8 +512,8 @@
   "4cf952bfdb733b80": {
     "title": "City Sample gets a major update with PCG and Unreal MCP workflows",
     "first_seen": "2026-08-28",
-    "times": 1,
-    "last_seen": "2026-08-28"
+    "times": 2,
+    "last_seen": "2026-08-29"
   },
   "fc85e64ab863342a": {
     "title": "POM Shader That Achieves Nanite-Like Displacement At Lower Cost",
@@ -568,5 +526,47 @@
     "first_seen": "2026-08-28",
     "times": 1,
     "last_seen": "2026-08-28"
+  },
+  "11d61a2dd6f2274f": {
+    "title": "Qwen3.8-Flash-Next",
+    "first_seen": "2026-08-29",
+    "times": 1,
+    "last_seen": "2026-08-29"
+  },
+  "a3dacaf4d7384522": {
+    "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+    "first_seen": "2026-08-29",
+    "times": 1,
+    "last_seen": "2026-08-29"
+  },
+  "46535e43f915e56c": {
+    "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+    "first_seen": "2026-08-29",
+    "times": 1,
+    "last_seen": "2026-08-29"
+  },
+  "4faa986e015ed72d": {
+    "title": "GLM-5.3 is now open-weight",
+    "first_seen": "2026-08-29",
+    "times": 1,
+    "last_seen": "2026-08-29"
+  },
+  "0b36c07848fe14cc": {
+    "title": "Get your Windows license refund",
+    "first_seen": "2026-08-29",
+    "times": 1,
+    "last_seen": "2026-08-29"
+  },
+  "fbbc9d0686c81522": {
+    "title": "Interview: How Mistfall Hunter Blends Soulslike Combat with Dark Fantasy RPG Extraction Mechanics",
+    "first_seen": "2026-08-29",
+    "times": 1,
+    "last_seen": "2026-08-29"
+  },
+  "cae5d1c115b26fe3": {
+    "title": "High-Performance Fog & VFX Toolset For UE5",
+    "first_seen": "2026-08-29",
+    "times": 1,
+    "last_seen": "2026-08-29"
   }
 }
