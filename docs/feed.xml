@@ -4,97 +4,73 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 199 个事件，只有 11 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 179 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 29 Aug 2026 15:15:45 +0800</lastBuildDate>
+<lastBuildDate>Sun, 30 Aug 2026 13:42:05 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Qwen3.8-Flash-Next</title>
-  <link>https://simonwillison.net/2026/Aug/26/qwen38-flash-next/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-11d61a2dd6f2</guid>
-  <pubDate>Wed, 26 Aug 2026 12:52:12 +0000</pubDate>
+  <title>Introducing Hy4 Preview</title>
+  <link>https://simonwillison.net/2026/Aug/29/hy4/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-28263fb9db83</guid>
+  <pubDate>Sat, 29 Aug 2026 05:58:53 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>65.1 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Qwen发布开源多模态MoE模型Qwen3.8-Flash-Next，125B总参数仅6B激活，是Qwen4架构预览。Simon Willison在DGX Spark上用Unsloth量化版测试，含72.5GB UD-IQ1_S和78.9GB UD-Q2_K_XL，后者配合xhigh推理效果最佳。</p><p><strong>为什么重要</strong><br>6B激活参数实现125B模型性能，大幅降低推理成本，使高端多模态模型可在消费级硬件运行。这是MoE架构实用化的重要一步，预示Qwen4将延续此路线，改变开源模型部署门槛。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。此模型面向多模态推理，非游戏战斗逻辑或网络同步场景。但MoE稀疏激活思路可借鉴用于GAS技能系统的条件分支优化，不过收益有限，不建议投入。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 696 +13.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/26/qwen38-flash-next/">Simon Willison</a> · <a href="https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture/">MarkTechPost</a> · <a href="https://qwen.ai/blog?id=qwen3.8-flash-next">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>53.6 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>腾讯发布Hy4预览版，770B总参/49B激活，1M上下文，1.56TB权重。相比7月Hy3（295B/21B/256K/598GB）规模大增。模板显示仅两种推理档：high（默认）和no_think（禁用推理）。实测推理轨迹用截断英文，省token。</p><p><strong>为什么重要</strong><br>开源模型规模竞赛再升级，腾讯以1.56TB体量对标国际前沿。推理档位二元化简化用户控制，但默认high可能引发过度思考，与Qwen 3.8问题类似。上下文翻4倍至1M，冲击长文档处理场景。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若需本地部署辅助工具（如技能文案生成），注意1.56TB存储和显存需求极高，性价比不如小模型。可关注其推理轨迹截断策略，对游戏内AI对话系统有参考价值。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / 社区置顶 +9.6</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/29/hy4/">Simon Willison</a> · <a href="http://www.geekpark.net/news/369550">极客公园</a> · <a href="https://www.reddit.com/r/LocalLLaMA/comments/1w1o324/tencent_compressed_hy4preview_from_15tb_to_about/">r/LocalLLaMA</a></small></p>]]></description>
 </item>
 <item>
-  <title>GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture</title>
-  <link>https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-a3dacaf4d738</guid>
-  <pubDate>Wed, 26 Aug 2026 14:08:50 +0000</pubDate>
+  <title>Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages</title>
+  <link>https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-1ef7274c09ed</guid>
+  <pubDate>Thu, 27 Aug 2026 18:03:42 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>54.1 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Z.ai发布GLM-5.3-Flash（320B参数、18B激活、MIT协议、30T多模态语料、1M上下文、$0.15/$0.50每百万token），阿里发布Qwen3.8-Flash-Next（125B+51B n-gram表、6B激活、262K原生上下文、训练算力约为Qwen3.7-Plus九分之一）。两者独立收敛于相同架构：3:1线性/全注意力混合、2048 token压缩索引、4分支残差流、Muon优化器（融合矩阵拆分正交化）。分歧仅在RoPE：GLM用NoPE，Qwen保留。</p><p><strong>为什么重要</strong><br>两大中国实验室独立设计却产出近乎相同的配置，表明线性注意力+稀疏检索+多残差流的混合架构已成为开源MoE的收敛标准。这验证了该路线在长上下文下的效率优势（Qwen报告1M token下预填充7.6x、解码4.9x加速），并推动推理成本下降一个数量级，改变中小团队部署前沿模型的可行性。</p><p><strong>对你而言</strong><br>直接相关。3:1线性/全注意力比例、2048 token检索上限、4分支残差流均可作为GAS技能系统中长时战斗状态追踪的参考——线性层固定状态适合持续buff/debuff，稀疏检索适合精确回溯关键事件。Muon优化器与FP8残差存储的稳定性经验可迁移至网络同步下的训练模拟。若项目用UE5实现AI对手，此架构的固定计算量特性利于帧率稳定。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 1124 +14.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/">MarkTechPost</a> · <a href="https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context/">MarkTechPost</a> · <a href="https://z.ai/blog/glm-5.3-flash">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>51.8 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Google 发布 Gemini 3.5 Transcribe 语音转文字模型，API-only 无开源权重。双端点：非流式 Interactions API（WER 2.6%，支持说话人分离、词级时间戳、1000词热词，音频上限1小时/开启分离后30分钟）与流式 Live API（WER 4.0%，亚秒延迟，100ms PCM 16kHz 块，10分钟会话上限，无分离无时间戳）。verbatim/smart 双模式互斥，smart 不可配时间戳。成本约 $0.005/min 批处理、$0.009/min 实时。较 Chirp 3 最终转录时间提升70%，覆盖85+语言。</p><p><strong>为什么重要</strong><br>语音转写从单模型走向双端点产品化，流式与离线功能集彻底分家。Google 用价格和硬限制明确划分实时交互与离线分析场景，迫使开发者按延迟/功能取舍而非仅看 WER。对战斗语音指令、观战解说等实时场景，4% WER 与10分钟上限是硬约束；对赛后复盘分析，1小时与分离能力是另一套成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来做语音控制招式或观战语音转字幕，可参考其双端点设计：实时流牺牲分离换延迟，离线批处理保功能。但 GAS 配置、动画蓝图、网络同步均不涉及语音转写，无需跟进。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 360 +11.8 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning</title>
-  <link>https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-46535e43f915</guid>
-  <pubDate>Thu, 27 Aug 2026 13:44:00 +0000</pubDate>
+  <title>Boot a Virtual iPhone via Apple's Virtualization.framework</title>
+  <link>https://github.com/Lakr233/vphone-cli</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-3bfb42ddf065</guid>
+  <pubDate>Fri, 28 Aug 2026 23:02:21 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Hugging Face旗下Pollen Robotics开放Microduck双足机器人预购，售价399美元，高25cm重800g，15电机，RK3566芯片，1GB RAM，含LiDAR、双IMU、NFC等传感器。7种预训练动作（走、踢、滑冰、自恢复等）基于PPO在MuJoCo Warp的mjlab中训练，4096并行环境约1-2小时生成步态，策略导出ONNX，Rust运行时50Hz控制。软件Apache-2.0开源，硬件图纸不开源。预购8月27日开启，圣诞前交付。</p><p><strong>为什么重要</strong><br>这是首个将完整sim-to-real训练闭环（奖励函数、域随机化、执行器模型）随硬件低价开源的消费级机器人，把训练数据而非演示视频作为产品核心，降低双足机器人研发门槛，可能推动RL在实体机器人领域的普及范式。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。但其中BAM执行器模型（电压、摩擦、±1°背隙随机化）和共享61维观测契约（零填充而非丢弃）的思路，可类比用于战斗动画状态机的鲁棒性设计，值得参考。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/">MarkTechPost</a> · <a href="https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/">TechCrunch AI</a> · <a href="https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot">The Verge AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>vphone-cli 工具利用 Apple Virtualization.framework 在 Apple Silicon Mac 上启动虚拟 iPhone，支持 iOS 26.1 至 27.0 版本，提供 5 种补丁变体（less 至 exp），jb 变体含 113 个补丁并自动安装 Sileo 和 TrollStore，需禁用 SIP/AMFI。</p><p><strong>为什么重要</strong><br>这是首个公开的端到端 iPhone 虚拟化方案，将 iOS 安全研究从物理设备迁移至可脚本化的 VM，大幅降低测试门槛，可能改变 iOS 安全测试和逆向工程的行业实践。</p><p><strong>对你而言</strong><br>与你的 UE5 武侠 PVP 项目无直接关系，但若涉及 iOS 平台兼容性测试，此工具可模拟多版本系统环境，辅助验证网络同步和性能表现。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 394 +12 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>GLM-5.3 is now open-weight</title>
-  <link>https://huggingface.co/zai-org/GLM-5.3</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-4faa986e015e</guid>
-  <pubDate>Fri, 28 Aug 2026 15:20:13 +0000</pubDate>
+  <title>Good Culture Is the Biggest Productivity Hack, Not AI</title>
+  <link>https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-950919426295</guid>
+  <pubDate>Sat, 29 Aug 2026 17:19:47 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>41 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>智谱发布GLM-5.3开源权重模型，与GLM-5.2同基座，仅靠后训练提升。Terminal Bench 3.0从4.6升至28.3，ExploitGym 6h从39升至130，支持vLLM/SGLang/Ascend NPU部署，上下文300K，推理参数含reasoning_effort三档。</p><p><strong>为什么重要</strong><br>开源模型在长程任务与安全攻防上逼近闭源顶尖（如GPT-5.6 Sol），后训练路线证明可大幅提升复杂编码能力，改变开源/闭源性能格局，降低企业自部署门槛。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若需AI辅助生成战斗逻辑或NPC行为，可关注其代码生成能力，但非核心战斗系统依赖。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 668 +13 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>Get your Windows license refund</title>
-  <link>https://en.refund4freedom.org/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-0b36c07848fe</guid>
-  <pubDate>Fri, 28 Aug 2026 13:42:40 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>41 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>FSFE与Linux.it发起Windows授权退款行动，记录意大利用户向联想、宏碁、MSI等厂商追讨预装Windows授权费的真实案例，退款金额40至129欧元不等，部分经司法调解获赔，最高判赔含2万欧元惩罚性赔偿。</p><p><strong>为什么重要</strong><br>欧盟消费者权益实践中，预装系统授权费可被追回，厂商拒绝退款将面临法律风险。此行动推动硬件与软件解绑，影响OEM定价模式，为全球消费者维权提供范本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若涉及游戏内购或平台分成争议，可参考其维权路径与证据留存策略，但非战斗系统范畴。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 676 +13 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>一篇2026年文章主张：好文化比AI工具更能提升生产力。作者13年经验，引康威定律，指CEO常被10x AI效率宣传误导（多为营销），AI会放大现有文化优劣。建议审视言论背后的激励。</p><p><strong>为什么重要</strong><br>行业过度聚焦AI工具，忽视组织环境。坏文化导致心理安全感下降、互相指责，使AI加速错误方向。此观点挑战主流叙事，提醒管理者效率提升的根基是协作与信任，而非工具本身。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你专注GAS、动画、网络同步等技术细节，本文属管理文化范畴。但可警惕：若团队因AI焦虑而压缩人力或流程，可能影响战斗系统迭代质量与协作效率。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 321 +11.5 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
   <title>Interview: How Mistfall Hunter Blends Soulslike Combat with Dark Fantasy RPG Extraction Mechanics</title>
   <link>https://80.lv/articles/interview-how-mistfall-hunter-blends-soulslike-combat-with-dark-fantasy-rpg-extraction-mechanics/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-fbbc9d0686c8</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-fbbc9d0686c8</guid>
   <pubDate>Fri, 28 Aug 2026 17:25:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Bellring Games《Mistfall Hunter》将类魂近战动作与Arc Raiders式撤离玩法结合，已吸引超100万玩家。总监Hao Zhang称最大挑战是近战撤离压力曲线与PvP心理博弈，为此减少锁定、强调手动瞄准与站位，并用PvE维持压力基线。视觉以北欧神话为基，采用10-11世纪织物与金属工艺风格。</p><p><strong>为什么重要</strong><br>撤离玩法长期被射击品类垄断，本作证明近战动作+撤离的可行性，为PVPvE设计提供新范式。其PvE与PvP共用危险语言、VFX尺寸/亮度受控等原则，直接回应了混合玩法中可读性这一核心痛点，影响同类项目设计基准。</p><p><strong>对你而言</strong><br>可借鉴其PvE/PvP危险信号统一语言（颜色/时机/声音区分）、攻击三阶段（蓄力-激活-恢复）设计，以及VFX不遮挡角色动作的硬性控制。对GAS技能配置与受击反馈有直接参考价值，尤其近战锁定弱化后的瞄准补偿方案值得深挖。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「soulslike」 +32</small></p>]]></description>
-</item>
-<item>
-  <title>High-Performance Fog &amp; VFX Toolset For UE5</title>
-  <link>https://80.lv/articles/high-performance-fog-vfx-toolset-for-ue5/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-cae5d1c115b2</guid>
-  <pubDate>Fri, 28 Aug 2026 13:13:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Apex Volumetrics 将于9月1日发布，是UE5动态3D体积VFX工具，支持手放置雾点，可调形状、噪声、颜色、风向、阴影、高度、密度，支持昼夜变化、玩家路径/子弹/手雷清雾，雾点可堆叠无overdraw，无需距离场，含视锥/距离/遮挡剔除，有地形贴合雾、可调光轴、龙卷风涡旋模式，提供两个演示。</p><p><strong>为什么重要</strong><br>体积雾在UE5中常因性能开销大而受限，此工具宣称低性能影响且支持游戏交互清雾，填补了动态体积特效与玩法结合的空缺，可能改变战斗场景中烟雾遮挡与视线机制的实现方式。</p><p><strong>对你而言</strong><br>若你的PVP项目需要烟雾弹、环境雾或视线遮挡机制，此工具可低成本实现动态体积雾并支持子弹/手雷清雾，适合战斗交互设计。但若已用Niagara自建，需评估兼容性。与Locomotion、GAS配置无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「ue5」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>City Sample gets a major update with PCG and Unreal MCP workflows</title>
-  <link>https://www.unrealengine.com/learning/city-sample-gets-a-major-update-with-pcg-and-unreal-mcp-workflows</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-4cf952bfdb73</guid>
-  <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>20 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>UE5.8的City Sample大更新，新增两个PCG构建的完整城市关卡，含PCG Primitives插件、5种Quixel Megaplants植被、形状语法建筑道路资产。支持Claude等LLM通过Unreal MCP服务器驱动PCG生成，全程可编辑。免费下载于Fab。</p><p><strong>为什么重要</strong><br>这是首个完全在UE内用PCG+LLM构建的官方大型城市示例，替代了原Houdini外部流程。它定义了LLM作为空间语言的新工作流，PCG Primitives成为可扩展的通用框架，直接影响程序化世界构建的行业标准。</p><p><strong>对你而言</strong><br>PCG Primitives的路线图与形状语法资产可直接参考，用于战斗场景的快速地形与掩体生成。但LLM驱动PCG与战斗手感、GAS配置无直接关联，重点应关注其性能开销与网络同步下的PCG运行时表现。</p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「unreal engine」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Intelligent transcription with Gemini 3.5 Transcribe</title>
-  <link>https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-3a5861a212c5</guid>
-  <pubDate>Wed, 26 Aug 2026 17:01:00 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>43.7 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Google发布Gemini 3.5 Transcribe语音转文本模型，流式WER 4.0%，非流式2.6%，较Chirp 3延迟改善70%。支持85种语言、3说话人识别、自定义词汇、函数调用。提供Live API（实时流式）和Interactions API（预录音频）双接口，现于AI Studio公开预览。</p><p><strong>为什么重要</strong><br>语音转写从'听清'升级为'理解'，自动清理口误和填充词，直接输出格式化文本。4.0%流式WER接近人类水平，将改变语音交互产品标准，挤压传统ASR厂商空间，并推动语音Agent从demo走向生产。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来做语音控制战斗指令或观战语音转字幕，其函数调用和低延迟流式能力可参考，当前战斗系统无需跟进。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 355 +11.7 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>22 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Bellring Games《Mistfall Hunter》将类魂近战与Arc Raiders式撤离玩法融合，已获超100万玩家。总监Hao Zhang称最大挑战是近战撤离压力曲线，为此减少锁定、强调手动瞄准与站位，并用PvE维持压力基线、分层空间强化对峙。视觉定调「废墟、神秘、野性」，参考10-11世纪北欧织物与金属工艺，VFX低饱和不遮视野。</p><p><strong>为什么重要</strong><br>撤离玩法长期被射击品类垄断，本作证明近战动作游戏也能承载高风险高回报结构。其PvE/PvP互不干扰的平衡方案（AI仇恨重定向、临时封锁区）为混合玩法提供新范式，百万玩家验证了市场接受度，可能推动更多动作团队尝试撤离框架。</p><p><strong>对你而言</strong><br>可直接借鉴其「PvE与PvP共用危险语言」设计：攻击前摇/判定/恢复三阶段标准化，VFX尺寸颜色亮度上限控制，以及用临时封锁区隔离战斗区域。这些对GAS技能配置和受击反馈有直接参考价值，尤其近战锁定弱化后的手动瞄准手感调优值得深挖。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「soulslike」 +32 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
   <title>Gemini Omni 1.1 Flash lets you build with more control</title>
   <link>https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-789c9df811b8</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-789c9df811b8</guid>
   <pubDate>Thu, 27 Aug 2026 16:11:32 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>23.4 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Google发布Gemini Omni 1.1 Flash，新增场景延长（分析10秒前文，10秒增量至40秒）、首尾帧指定、360p预览（比720p快60%、成本1/3）、4K放大、3秒视频参考输入。API在AI Studio开放，企业走Agent Platform。</p><p><strong>为什么重要</strong><br>生成视频从实验转向生产工具，控制精度和成本首次对齐专业工作流。10秒上下文解决长镜头一致性痛点，360p预览降低迭代门槛，直接冲击传统影视预可视化与广告制作流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来需生成战斗演示或宣传片，可关注其场景延长与关键帧控制，但当前GAS、动画、网络同步工作不受影响。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / HN 296 +11.4 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/">DeepMind</a> · <a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>35.4 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Google发布Gemini Omni 1.1 Flash，新增场景扩展（可分析10秒前文，按10秒增量延长至40秒总长）、首尾帧指定、360p草稿（比720p快60%、成本降1/3）、4K放大、3秒视频参考输入。API在AI Studio与Agent Platform开放。</p><p><strong>为什么重要</strong><br>生成视频从单次生成转向可控生产工具，10秒上下文解决长镜头一致性痛点，360p草稿模式降低迭代成本，直接冲击影视预可视化与广告工作流。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 296 +11.4 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>GlucoFM: Foundation model for continuous glucose monitoring</title>
-  <link>https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-29-2d573c144c03</guid>
-  <pubDate>Wed, 26 Aug 2026 18:42:43 +0000</pubDate>
+  <title>GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture</title>
+  <link>https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-a3dacaf4d738</guid>
+  <pubDate>Fri, 28 Aug 2026 19:12:21 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Google Research于2026年8月26日发布GlucoFM，一个轻量级自监督CGM基础模型。它采用双流编码器，分离慢速血糖趋势与短期偏差，并在109,066小时未标注CGM数据上预训练。在7项临床任务、14项队列-任务评估中，其PR-AUC平均比最强基线GluFormer高5.8个百分点（58.8 vs 54.7），并在PPGR预测中达到最低MAE 21.88 mg/dL。</p><p><strong>为什么重要</strong><br>现有CGM基础模型（如CGMformer、GluFormer）用单流处理血糖数据，忽略了其慢基线+快波动的本质。GlucoFM通过显式分离双流和潜在预测预训练，在稀疏标签下大幅提升糖尿病风险、胰岛素抵抗等任务的预测精度，证明结构先验比单纯扩大模型更有效，可能推动可穿戴健康基础模型的设计范式转变。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但双流编码思想（分离慢速状态与快速事件）可类比于战斗中的基础移动与受击/技能响应，若未来做玩家生理状态或疲劳度系统，此架构可借鉴。当前GAS和动画蓝图工作不受影响。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/">Google Research</a> · <a href="https://www.marktechpost.com/2026/08/26/google-research-introduces-glucofm-a-0-72m-parameter-dual-stream-foundation-model-for-continuous-glucose-monitoring/">MarkTechPost</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>9.2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Z.ai发布GLM-5.3-Flash（320B MoE，18B激活，MIT许可，30T多模态语料，1M上下文，$0.15/$0.50每百万token）与阿里Qwen3.8-Flash-Next（125B+51B n-gram表，6B激活，262K原生上下文，训练算力仅为Qwen3.7-Plus的1/9）。两者独立收敛于同一架构：3:1线性/全注意力混合、2048 token压缩索引、4分支残差流、Muon优化器（融合矩阵拆分正交化）。分歧仅在RoPE：GLM用NoPE，Qwen保留。</p><p><strong>为什么重要</strong><br>两大中国实验室同日发布，架构高度趋同，证明线性注意力+稀疏检索混合已成为长上下文开源模型的主流范式。Qwen报告训练算力降9倍，GLM价格降10倍，直接冲击闭源API定价。架构收敛意味着行业标准正在形成，后续工具链、推理优化将围绕此设计展开。</p><p><strong>对你而言</strong><br>直接相关。3:1线性注意力配比、2048 token索引上限、4分支残差流均可作为GAS技能配置中长距离位移/受击回溯的参考。Muon优化器与FP8残差存储可借鉴到网络同步的压缩策略。若项目涉及AI对手或NPC，此架构的推理成本优势值得跟踪。若纯PVP无AI，则仅关注线性注意力对位移预测的潜在加速。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 社区置顶 +7.2 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/">MarkTechPost</a> · <a href="https://www.reddit.com/r/LocalLLaMA/comments/1w28alw/an_unscientific_qwen_38_flash_next_and_glm_53/">r/LocalLLaMA</a></small></p>]]></description>
+</item>
+<item>
+  <title>Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning</title>
+  <link>https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-46535e43f915</guid>
+  <pubDate>Thu, 27 Aug 2026 13:44:00 +0000</pubDate>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Hugging Face旗下Pollen Robotics开放Microduck双足机器人预购，售价399美元，高25cm，15电机，RK3566芯片，1GB RAM，含LiDAR、双IMU、NFC。7种预训练动作，PPO在MuJoCo Warp训练，4096并行环境约1-2小时出步态，ONNX导出，Apache-2.0软件开源。预购2026年8月27日开启。</p><p><strong>为什么重要</strong><br>首次将完整sim-to-real训练闭环（含BAM执行器模型、±1°齿轮间隙随机化）以399美元开源，打破机器人行业依赖演示视频的惯例，让强化学习策略训练从实验室走向消费级硬件，可能重塑低成本机器人研发范式。</p><p><strong>对你而言</strong><br>与你的PVP战斗项目无直接关系。但BAM执行器模型和域随机化思路，可借鉴用于GAS中受击位移的物理真实性校准；61维共享观测契约的hot-swap设计，对技能切换时的动画状态同步有参考价值。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/">MarkTechPost</a> · <a href="https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot">The Verge AI</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
