@@ -4,73 +4,65 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 179 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 157 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 30 Aug 2026 13:42:05 +0800</lastBuildDate>
+<lastBuildDate>Mon, 31 Aug 2026 13:53:40 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Introducing Hy4 Preview</title>
-  <link>https://simonwillison.net/2026/Aug/29/hy4/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-28263fb9db83</guid>
-  <pubDate>Sat, 29 Aug 2026 05:58:53 +0000</pubDate>
+  <title>California lawmakers unanimously pass Linux exemption from age-verification law</title>
+  <link>https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-64a3d1a7cbe0</guid>
+  <pubDate>Sun, 30 Aug 2026 03:15:36 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>53.6 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>腾讯发布Hy4预览版，770B总参/49B激活，1M上下文，1.56TB权重。相比7月Hy3（295B/21B/256K/598GB）规模大增。模板显示仅两种推理档：high（默认）和no_think（禁用推理）。实测推理轨迹用截断英文，省token。</p><p><strong>为什么重要</strong><br>开源模型规模竞赛再升级，腾讯以1.56TB体量对标国际前沿。推理档位二元化简化用户控制，但默认high可能引发过度思考，与Qwen 3.8问题类似。上下文翻4倍至1M，冲击长文档处理场景。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若需本地部署辅助工具（如技能文案生成），注意1.56TB存储和显存需求极高，性价比不如小模型。可关注其推理轨迹截断策略，对游戏内AI对话系统有参考价值。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / 社区置顶 +9.6</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/29/hy4/">Simon Willison</a> · <a href="http://www.geekpark.net/news/369550">极客公园</a> · <a href="https://www.reddit.com/r/LocalLLaMA/comments/1w1o324/tencent_compressed_hy4preview_from_15tb_to_about/">r/LocalLLaMA</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>41.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>加州AB 1856法案豁免GPL/MIT/BSD/Apache许可的开源操作系统于2027年1月1日生效的《数字年龄保证法》。参议院8月26日39-0通过，众议院次日同意。Windows/macOS/iOS/Android仍须在账户设置时收集年龄信号。SteamOS因含专有客户端状态不明，GrapheneOS完全豁免。新增条款禁止非法律要求下请求年龄信号，并提供善意安全港。</p><p><strong>为什么重要</strong><br>这是首个大型司法辖区明确将开源OS排除在年龄验证之外，直接改变Linux发行版和SteamOS的合规成本。此前所有设备所有者被定义为儿童的技术缺陷被修正。该豁免可能成为其他州和国家的立法模板，影响全球数字身份验证框架的默认假设。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的PVP战斗逻辑不涉及年龄验证或OS分发。但若未来游戏上架SteamOS，需关注Valve是否因专有客户端被纳入范围，可能影响账户创建流程的UI和网络请求设计。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 729 +13.2 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages</title>
-  <link>https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-1ef7274c09ed</guid>
-  <pubDate>Thu, 27 Aug 2026 18:03:42 +0000</pubDate>
+  <title>I accidentally turned LLM memory into program analysis</title>
+  <link>https://pwning.systems/posts/llm-memory-program-analysis/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-27949aa51f34</guid>
+  <pubDate>Fri, 28 Aug 2026 23:27:45 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>51.8 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Google 发布 Gemini 3.5 Transcribe 语音转文字模型，API-only 无开源权重。双端点：非流式 Interactions API（WER 2.6%，支持说话人分离、词级时间戳、1000词热词，音频上限1小时/开启分离后30分钟）与流式 Live API（WER 4.0%，亚秒延迟，100ms PCM 16kHz 块，10分钟会话上限，无分离无时间戳）。verbatim/smart 双模式互斥，smart 不可配时间戳。成本约 $0.005/min 批处理、$0.009/min 实时。较 Chirp 3 最终转录时间提升70%，覆盖85+语言。</p><p><strong>为什么重要</strong><br>语音转写从单模型走向双端点产品化，流式与离线功能集彻底分家。Google 用价格和硬限制明确划分实时交互与离线分析场景，迫使开发者按延迟/功能取舍而非仅看 WER。对战斗语音指令、观战解说等实时场景，4% WER 与10分钟上限是硬约束；对赛后复盘分析，1小时与分离能力是另一套成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来做语音控制招式或观战语音转字幕，可参考其双端点设计：实时流牺牲分离换延迟，离线批处理保功能。但 GAS 配置、动画蓝图、网络同步均不涉及语音转写，无需跟进。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 360 +11.8 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>39.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>作者开发Lemmalog，将LLM记忆转为Datalog引擎。LLM负责将自然语言转为结构化事实，Datalog负责推导与自动失效。支持事实撤回，如a、b推导c，删a时c仍由b成立。</p><p><strong>为什么重要</strong><br>传统RAG记忆只存旧对话，无法处理事实变更后的结论失效。Datalog的增量更新与依赖追踪，让LLM在数小时漏洞研究中不再重复推理或幻觉。</p><p><strong>对你而言</strong><br>与你的GAS战斗项目无直接关系。但若未来做AI驱动测试或战斗日志分析，可借鉴其事实-规则分离思路，避免LLM状态漂移。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 300 +11.4 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Boot a Virtual iPhone via Apple's Virtualization.framework</title>
-  <link>https://github.com/Lakr233/vphone-cli</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-3bfb42ddf065</guid>
-  <pubDate>Fri, 28 Aug 2026 23:02:21 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>vphone-cli 工具利用 Apple Virtualization.framework 在 Apple Silicon Mac 上启动虚拟 iPhone，支持 iOS 26.1 至 27.0 版本，提供 5 种补丁变体（less 至 exp），jb 变体含 113 个补丁并自动安装 Sileo 和 TrollStore，需禁用 SIP/AMFI。</p><p><strong>为什么重要</strong><br>这是首个公开的端到端 iPhone 虚拟化方案，将 iOS 安全研究从物理设备迁移至可脚本化的 VM，大幅降低测试门槛，可能改变 iOS 安全测试和逆向工程的行业实践。</p><p><strong>对你而言</strong><br>与你的 UE5 武侠 PVP 项目无直接关系，但若涉及 iOS 平台兼容性测试，此工具可模拟多版本系统环境，辅助验证网络同步和性能表现。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 394 +12 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>Good Culture Is the Biggest Productivity Hack, Not AI</title>
-  <link>https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-950919426295</guid>
-  <pubDate>Sat, 29 Aug 2026 17:19:47 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>一篇2026年文章主张：好文化比AI工具更能提升生产力。作者13年经验，引康威定律，指CEO常被10x AI效率宣传误导（多为营销），AI会放大现有文化优劣。建议审视言论背后的激励。</p><p><strong>为什么重要</strong><br>行业过度聚焦AI工具，忽视组织环境。坏文化导致心理安全感下降、互相指责，使AI加速错误方向。此观点挑战主流叙事，提醒管理者效率提升的根基是协作与信任，而非工具本身。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你专注GAS、动画、网络同步等技术细节，本文属管理文化范畴。但可警惕：若团队因AI焦虑而压缩人力或流程，可能影响战斗系统迭代质量与协作效率。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 321 +11.5 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>Interview: How Mistfall Hunter Blends Soulslike Combat with Dark Fantasy RPG Extraction Mechanics</title>
-  <link>https://80.lv/articles/interview-how-mistfall-hunter-blends-soulslike-combat-with-dark-fantasy-rpg-extraction-mechanics/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-fbbc9d0686c8</guid>
-  <pubDate>Fri, 28 Aug 2026 17:25:00 +0000</pubDate>
+  <title>What UE5 performance checks do you run before adding more content?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1w2ia7n/what_ue5_performance_checks_do_you_run_before/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-fcdb11ed0438</guid>
+  <pubDate>Sun, 30 Aug 2026 13:58:05 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>22 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Bellring Games《Mistfall Hunter》将类魂近战与Arc Raiders式撤离玩法融合，已获超100万玩家。总监Hao Zhang称最大挑战是近战撤离压力曲线，为此减少锁定、强调手动瞄准与站位，并用PvE维持压力基线、分层空间强化对峙。视觉定调「废墟、神秘、野性」，参考10-11世纪北欧织物与金属工艺，VFX低饱和不遮视野。</p><p><strong>为什么重要</strong><br>撤离玩法长期被射击品类垄断，本作证明近战动作游戏也能承载高风险高回报结构。其PvE/PvP互不干扰的平衡方案（AI仇恨重定向、临时封锁区）为混合玩法提供新范式，百万玩家验证了市场接受度，可能推动更多动作团队尝试撤离框架。</p><p><strong>对你而言</strong><br>可直接借鉴其「PvE与PvP共用危险语言」设计：攻击前摇/判定/恢复三阶段标准化，VFX尺寸颜色亮度上限控制，以及用临时封锁区隔离战斗区域。这些对GAS技能配置和受击反馈有直接参考价值，尤其近战锁定弱化后的手动瞄准手感调优值得深挖。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「soulslike」 +32 / 已报过 -30</small></p>]]></description>
+  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit r/unrealengine 讨论：UE5 项目在添加新内容前应运行的性能检查清单，涵盖帧时间分解、着色器复杂度、Nanite 使用、Lumen 开销、虚拟阴影贴图、纹理内存、Overdraw、可扩展性设置及硬件测试。开发者被问及是否从初期就维护性能预算，还是事后分析。</p><p><strong>为什么重要</strong><br>UE5 视觉质量提升快，但性能问题常滞后暴露，场景复杂后修复成本高。此讨论反映行业对前期性能预算的重视，区别于传统事后优化，影响内容迭代节奏与团队协作方式。</p><p><strong>对你而言</strong><br>直接相关：建议在项目初期建立帧时间预算（如主机 33ms、PC 16ms），每次内容提交前运行固定检查（如 stat GPU、ProfileGPU、Nanite 三角形计数），并记录基线数据。可借鉴社区常用工具：Unreal Insights 分析帧、RenderDoc 查 Overdraw，避免后期大规模返工。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「ue5」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Gemini Omni 1.1 Flash lets you build with more control</title>
-  <link>https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-789c9df811b8</guid>
-  <pubDate>Thu, 27 Aug 2026 16:11:32 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>35.4 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Google发布Gemini Omni 1.1 Flash，新增场景扩展（可分析10秒前文，按10秒增量延长至40秒总长）、首尾帧指定、360p草稿（比720p快60%、成本降1/3）、4K放大、3秒视频参考输入。API在AI Studio与Agent Platform开放。</p><p><strong>为什么重要</strong><br>生成视频从单次生成转向可控生产工具，10秒上下文解决长镜头一致性痛点，360p草稿模式降低迭代成本，直接冲击影视预可视化与广告工作流。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 296 +11.4 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/">Hacker News</a></small></p>]]></description>
+  <title>My foliage looking too dark ( speedtree to unreal 5.6 )</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1w31uw1/my_foliage_looking_too_dark_speedtree_to_unreal_56/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-cf84f5262cc2</guid>
+  <pubDate>Mon, 31 Aug 2026 03:19:05 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>SpeedTree 导出的棕榈树在 UE5.6 中因 AO 过强且无 SSS 而显暗，用户尝试 AO 值 1、9 或关闭均无效，但 FAB 包的小绿植正常。</p><p><strong>为什么重要</strong><br>SpeedTree 的 AO 烘焙可能写入顶点色或材质属性，UE5.6 导入时默认叠加，且 SSS 未自动映射，导致同资产在不同引擎表现差异，影响植被视觉一致性。</p><p><strong>对你而言</strong><br>检查 SpeedTree 导出选项中的 AO 通道映射，确认是否覆盖到 UE 的顶点色或材质参数；若无效，可在材质中手动降低 AO 强度或添加 SSS 节点，并对比 FAB 包的材质设置。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture</title>
-  <link>https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-a3dacaf4d738</guid>
-  <pubDate>Fri, 28 Aug 2026 19:12:21 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>9.2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Z.ai发布GLM-5.3-Flash（320B MoE，18B激活，MIT许可，30T多模态语料，1M上下文，$0.15/$0.50每百万token）与阿里Qwen3.8-Flash-Next（125B+51B n-gram表，6B激活，262K原生上下文，训练算力仅为Qwen3.7-Plus的1/9）。两者独立收敛于同一架构：3:1线性/全注意力混合、2048 token压缩索引、4分支残差流、Muon优化器（融合矩阵拆分正交化）。分歧仅在RoPE：GLM用NoPE，Qwen保留。</p><p><strong>为什么重要</strong><br>两大中国实验室同日发布，架构高度趋同，证明线性注意力+稀疏检索混合已成为长上下文开源模型的主流范式。Qwen报告训练算力降9倍，GLM价格降10倍，直接冲击闭源API定价。架构收敛意味着行业标准正在形成，后续工具链、推理优化将围绕此设计展开。</p><p><strong>对你而言</strong><br>直接相关。3:1线性注意力配比、2048 token索引上限、4分支残差流均可作为GAS技能配置中长距离位移/受击回溯的参考。Muon优化器与FP8残差存储可借鉴到网络同步的压缩策略。若项目涉及AI对手或NPC，此架构的推理成本优势值得跟踪。若纯PVP无AI，则仅关注线性注意力对位移预测的潜在加速。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 社区置顶 +7.2 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/">MarkTechPost</a> · <a href="https://www.reddit.com/r/LocalLLaMA/comments/1w28alw/an_unscientific_qwen_38_flash_next_and_glm_53/">r/LocalLLaMA</a></small></p>]]></description>
+  <title>Would it be feasible/possible to build a multiplayer game (dedicated servers) in UE3?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1w2y1a5/would_it_be_feasiblepossible_to_build_a/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-18b2b4da0282</guid>
+  <pubDate>Mon, 31 Aug 2026 00:21:15 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>38.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit 用户询问 UE3 构建专用服务器多人游戏的可行性，排除劝阻性回答，要求技术细节。UE3 已停止官方支持，但源码可用，多人网络层（基于 UDP 的 NetDriver）仍可运行，需自行处理 Steam 等平台集成。</p><p><strong>为什么重要</strong><br>UE3 是 GAS 前身 GameplaySkills 的起源，其网络架构影响 UE4/5。此问题反映老引擎在独立开发中的复活趋势，但平台服务（如 EOS）已不兼容，需自建匹配和反作弊。</p><p><strong>对你而言</strong><br>与你的 UE5 项目无直接关系。但可借鉴其网络同步教训：UE3 的 RPC 和属性复制在低带宽下更脆弱，UE5 的 GAS 已优化，无需回退。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +4.8 / 命中「dedicated server」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning</title>
-  <link>https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-30-46535e43f915</guid>
-  <pubDate>Thu, 27 Aug 2026 13:44:00 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Hugging Face旗下Pollen Robotics开放Microduck双足机器人预购，售价399美元，高25cm，15电机，RK3566芯片，1GB RAM，含LiDAR、双IMU、NFC。7种预训练动作，PPO在MuJoCo Warp训练，4096并行环境约1-2小时出步态，ONNX导出，Apache-2.0软件开源。预购2026年8月27日开启。</p><p><strong>为什么重要</strong><br>首次将完整sim-to-real训练闭环（含BAM执行器模型、±1°齿轮间隙随机化）以399美元开源，打破机器人行业依赖演示视频的惯例，让强化学习策略训练从实验室走向消费级硬件，可能重塑低成本机器人研发范式。</p><p><strong>对你而言</strong><br>与你的PVP战斗项目无直接关系。但BAM执行器模型和域随机化思路，可借鉴用于GAS中受击位移的物理真实性校准；61维共享观测契约的hot-swap设计，对技能切换时的动画状态同步有参考价值。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/">MarkTechPost</a> · <a href="https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot">The Verge AI</a></small></p>]]></description>
+  <title>Open-source Linux webcam capture + CUDA MetaHuman face solving for Unreal Engine 5.8</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1w2ejwl/opensource_linux_webcam_capture_cuda_metahuman/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-c57ac10fb911</guid>
+  <pubDate>Sun, 30 Aug 2026 11:00:44 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者发布两个UE5.8开源插件：Linux V4L2媒体框架插件（支持YUYV/YUY2捕获、格式枚举、分辨率帧率选择、暂停恢复，URL格式v4l2:///dev/video0）和NNE ONNX Runtime CUDA插件，实现Linux下网络摄像头采集与MetaHuman面部解算。</p><p><strong>为什么重要</strong><br>此前MetaHuman面部捕捉依赖Windows或特定采集卡，Linux工作流缺失。该方案打通V4L2到Unreal Media Framework及Live Link链路，降低Linux开发者面部捕捉门槛，推动跨平台虚拟制片普及。</p><p><strong>对你而言</strong><br>若项目需Linux端面部捕捉或MetaHuman驱动，可直接复用这两个插件，省去自研V4L2接入与ONNX推理集成。注意YUYV未压缩格式带宽占用高，需评估网络同步与性能影响。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Coin Flip [2 Methods] - Unreal Engine Minigame Tutorial</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1w2r7zc/coin_flip_2_methods_unreal_engine_minigame/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-8a75971ce889</guid>
+  <pubDate>Sun, 30 Aug 2026 19:41:28 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>34 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5 小游戏教程：抛硬币两种实现。方法一用物理模拟（刚体+碰撞），方法二用动画序列（蒙太奇/蓝图驱动）。无版本号，r/unrealengine 社区帖。</p><p><strong>为什么重要</strong><br>物理与动画是战斗反馈两条路线：物理真实但难控手感，动画可控但缺随机性。社区对比展示取舍，影响受击/位移设计选择。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。抛硬币非战斗核心，且两种方法均为基础实现，无网络同步或性能优化参考。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 </channel>
 </rss>
