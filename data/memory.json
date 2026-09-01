@@ -1,63 +1,9 @@
 {
-  "5aa840d0f34f1f13": {
-    "title": "Phantom Blade Zero Uses Authentic Kung Fu Motion Capture",
-    "first_seen": "2026-08-15",
-    "times": 3,
-    "last_seen": "2026-08-17"
-  },
-  "ec0c2f155d54d2cf": {
-    "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
-    "first_seen": "2026-08-16",
-    "times": 2,
-    "last_seen": "2026-08-17"
-  },
-  "f02e91809885f4c9": {
-    "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
-    "first_seen": "2026-08-16",
-    "times": 2,
-    "last_seen": "2026-08-17"
-  },
   "1517695ed4c2ca5f": {
     "title": "Anthropic's ‘watermark’ text adulteration in Claude is a perversion of writing",
     "first_seen": "2026-08-17",
     "times": 2,
     "last_seen": "2026-08-19"
-  },
-  "2b84cfe1ec0807c3": {
-    "title": "Claude: System Prompts",
-    "first_seen": "2026-08-17",
-    "times": 1,
-    "last_seen": "2026-08-17"
-  },
-  "ba90c76526b8e08b": {
-    "title": "Abdominal fat predicts heart disease risk better than BMI",
-    "first_seen": "2026-08-17",
-    "times": 1,
-    "last_seen": "2026-08-17"
-  },
-  "11fb7f70cafec601": {
-    "title": "Scabby versus Sharma, Twitch's GenAI admission, and Netflix shutters more studios - Patch Notes #65",
-    "first_seen": "2026-08-17",
-    "times": 1,
-    "last_seen": "2026-08-17"
-  },
-  "21f4d3ae112556db": {
-    "title": "C++ Files made in unreal editor gone on next launch",
-    "first_seen": "2026-08-17",
-    "times": 1,
-    "last_seen": "2026-08-17"
-  },
-  "d26765a5896ad693": {
-    "title": "weird lighting issues with Niagara VFX system?",
-    "first_seen": "2026-08-17",
-    "times": 1,
-    "last_seen": "2026-08-17"
-  },
-  "bb8f95d9573f7037": {
-    "title": "I built a system in UE5 to do 10k skier trails/footsteps per frame on Steam Deck at 30 fps, would love to share!",
-    "first_seen": "2026-08-17",
-    "times": 1,
-    "last_seen": "2026-08-17"
   },
   "04f846fa19175e68": {
     "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
@@ -500,8 +446,8 @@
   "28263fb9db830ad7": {
     "title": "Introducing Hy4 Preview",
     "first_seen": "2026-08-30",
-    "times": 1,
-    "last_seen": "2026-08-30"
+    "times": 2,
+    "last_seen": "2026-09-01"
   },
   "1ef7274c09edb1ad": {
     "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
@@ -562,5 +508,47 @@
     "first_seen": "2026-08-31",
     "times": 1,
     "last_seen": "2026-08-31"
+  },
+  "b88ea2c3411fc5b5": {
+    "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+    "first_seen": "2026-09-01",
+    "times": 1,
+    "last_seen": "2026-09-01"
+  },
+  "a64e38a62cca88d4": {
+    "title": "Breaking Claude Code Opus 5 Auto Mode",
+    "first_seen": "2026-09-01",
+    "times": 1,
+    "last_seen": "2026-09-01"
+  },
+  "907b05ed892468ad": {
+    "title": "OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元",
+    "first_seen": "2026-09-01",
+    "times": 1,
+    "last_seen": "2026-09-01"
+  },
+  "224c0e7a8ea9b6c4": {
+    "title": "Last Week In Unreal: Aug 24 to 30 | 918 commits on ue6-main and 174 on ue5-main | Same bug fix with two different outcomes?",
+    "first_seen": "2026-09-01",
+    "times": 1,
+    "last_seen": "2026-09-01"
+  },
+  "32312345e50abd07": {
+    "title": "Cup Shuffle / Find the Ball - Unreal Engine Minigame Tutorial",
+    "first_seen": "2026-09-01",
+    "times": 1,
+    "last_seen": "2026-09-01"
+  },
+  "729416bfaee0f56b": {
+    "title": "California Coastal Environment & Landscape Pack in UE5",
+    "first_seen": "2026-09-01",
+    "times": 1,
+    "last_seen": "2026-09-01"
+  },
+  "4f216e60ecbda917": {
+    "title": "How to handle Epic Games Launcher being sooooo slow?",
+    "first_seen": "2026-09-01",
+    "times": 1,
+    "last_seen": "2026-09-01"
   }
 }

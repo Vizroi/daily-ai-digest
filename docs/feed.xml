@@ -4,65 +4,73 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 157 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 178 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 31 Aug 2026 13:53:40 +0800</lastBuildDate>
+<lastBuildDate>Tue, 01 Sep 2026 13:30:14 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>California lawmakers unanimously pass Linux exemption from age-verification law</title>
-  <link>https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-64a3d1a7cbe0</guid>
-  <pubDate>Sun, 30 Aug 2026 03:15:36 +0000</pubDate>
+  <title>TimesFM-3: A zero-shot foundation model for multivariate forecasting</title>
+  <link>https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-b88ea2c3411f</guid>
+  <pubDate>Mon, 31 Aug 2026 17:19:40 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>加州AB 1856法案豁免GPL/MIT/BSD/Apache许可的开源操作系统于2027年1月1日生效的《数字年龄保证法》。参议院8月26日39-0通过，众议院次日同意。Windows/macOS/iOS/Android仍须在账户设置时收集年龄信号。SteamOS因含专有客户端状态不明，GrapheneOS完全豁免。新增条款禁止非法律要求下请求年龄信号，并提供善意安全港。</p><p><strong>为什么重要</strong><br>这是首个大型司法辖区明确将开源OS排除在年龄验证之外，直接改变Linux发行版和SteamOS的合规成本。此前所有设备所有者被定义为儿童的技术缺陷被修正。该豁免可能成为其他州和国家的立法模板，影响全球数字身份验证框架的默认假设。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你的PVP战斗逻辑不涉及年龄验证或OS分发。但若未来游戏上架SteamOS，需关注Valve是否因专有客户端被纳入范围，可能影响账户创建流程的UI和网络请求设计。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 729 +13.2 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Google发布TimesFM-3，3.3亿参数，预训练超1万亿时间点，原生支持多变量零样本预测。单次前向生成全预测区间，输出9个分位数。在Gift-Eval、FEV-Bench、Time三大基准上排名第一，超越Chronos-2和Toto 2.0。采用32步patch和Contiguous Patch Masking，支持past-future协变量lookahead。</p><p><strong>为什么重要</strong><br>时序基础模型从单变量跨入多变量时代，零样本直接处理多序列依赖和外部特征，无需微调。这改变了预测工作流，零售、金融等场景可即时获得更准预测，如促销日销量提升20%的案例。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若战斗系统涉及网络延迟预测或玩家行为时序分析，其patch+masking单次前向思路可借鉴，减少迭代推理开销。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/">Google Research</a> · <a href="https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/">MarkTechPost</a></small></p>]]></description>
 </item>
 <item>
-  <title>I accidentally turned LLM memory into program analysis</title>
-  <link>https://pwning.systems/posts/llm-memory-program-analysis/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-27949aa51f34</guid>
-  <pubDate>Fri, 28 Aug 2026 23:27:45 +0000</pubDate>
+  <title>Breaking Claude Code Opus 5 Auto Mode</title>
+  <link>https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-a64e38a62cca</guid>
+  <pubDate>Mon, 31 Aug 2026 07:49:18 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>作者开发Lemmalog，将LLM记忆转为Datalog引擎。LLM负责将自然语言转为结构化事实，Datalog负责推导与自动失效。支持事实撤回，如a、b推导c，删a时c仍由b成立。</p><p><strong>为什么重要</strong><br>传统RAG记忆只存旧对话，无法处理事实变更后的结论失效。Datalog的增量更新与依赖追踪，让LLM在数小时漏洞研究中不再重复推理或幻觉。</p><p><strong>对你而言</strong><br>与你的GAS战斗项目无直接关系。但若未来做AI驱动测试或战斗日志分析，可借鉴其事实-规则分离思路，避免LLM状态漂移。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 300 +11.4 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic委托第三方测试显示Opus 5 Auto Mode间接提示注入成功率0.00%，但实际攻击链通过诱导Claude从WebFetch改用curl下载ZIP，利用Python模块遮蔽（struct.py）实现代码执行，小样本攻击成功率60-80%。Auto Mode自8月中旬起为Claude Code默认模式。</p><p><strong>为什么重要</strong><br>第三方基准测试与真实攻击结果差异巨大，说明安全评估存在盲区。Auto Mode用分类器替代人工审批，但分层防御（模型训练、输入探测、意图分类）未能阻止针对性攻击链，暴露了AI Agent在工具切换和文件系统操作中的系统性漏洞。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：AI Agent安全测试需覆盖工具切换路径和依赖劫持场景，而非仅依赖官方基准。若未来使用AI辅助战斗配置生成，需警惕类似模块遮蔽风险。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 359 +11.8 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>What UE5 performance checks do you run before adding more content?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1w2ia7n/what_ue5_performance_checks_do_you_run_before/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-fcdb11ed0438</guid>
-  <pubDate>Sun, 30 Aug 2026 13:58:05 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit r/unrealengine 讨论：UE5 项目在添加新内容前应运行的性能检查清单，涵盖帧时间分解、着色器复杂度、Nanite 使用、Lumen 开销、虚拟阴影贴图、纹理内存、Overdraw、可扩展性设置及硬件测试。开发者被问及是否从初期就维护性能预算，还是事后分析。</p><p><strong>为什么重要</strong><br>UE5 视觉质量提升快，但性能问题常滞后暴露，场景复杂后修复成本高。此讨论反映行业对前期性能预算的重视，区别于传统事后优化，影响内容迭代节奏与团队协作方式。</p><p><strong>对你而言</strong><br>直接相关：建议在项目初期建立帧时间预算（如主机 33ms、PC 16ms），每次内容提交前运行固定检查（如 stat GPU、ProfileGPU、Nanite 三角形计数），并记录基线数据。可借鉴社区常用工具：Unreal Insights 分析帧、RenderDoc 查 Overdraw，避免后期大规模返工。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「ue5」 +20</small></p>]]></description>
+  <title>OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元</title>
+  <link>http://www.geekpark.net/news/369551</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-907b05ed8924</guid>
+  <pubDate>Sat, 29 Aug 2026 18:19:53 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>38 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI 以信任为由终止向 SpaceX 旗下 Cursor 提供模型，11月12日停访问；索尼与华纳起诉 Anthropic 侵权，单部最高赔15万美元，总额或达数十亿美元；韩国推全民免费 AI 服务，9月 Beta 测试，配512块 B200。</p><p><strong>为什么重要</strong><br>AI 编程工具与模型供应商的信任裂痕，预示上游模型授权将成竞争筹码；版权诉讼升级至个人被告，AI 训练数据合规成本陡增；韩国政府主导 AI 普惠，改变商业 AI 服务定价模式。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 聚合源 +2</small></p><p><small>全部来源：<a href="http://www.geekpark.net/news/369551">极客公园</a> · <a href="https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>My foliage looking too dark ( speedtree to unreal 5.6 )</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1w31uw1/my_foliage_looking_too_dark_speedtree_to_unreal_56/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-cf84f5262cc2</guid>
-  <pubDate>Mon, 31 Aug 2026 03:19:05 +0000</pubDate>
+  <title>Last Week In Unreal: Aug 24 to 30 | 918 commits on ue6-main and 174 on ue5-main | Same bug fix with two different outcomes?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1w396z6/last_week_in_unreal_aug_24_to_30_918_commits_on/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-224c0e7a8ea9</guid>
+  <pubDate>Mon, 31 Aug 2026 09:57:13 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>SpeedTree 导出的棕榈树在 UE5.6 中因 AO 过强且无 SSS 而显暗，用户尝试 AO 值 1、9 或关闭均无效，但 FAB 包的小绿植正常。</p><p><strong>为什么重要</strong><br>SpeedTree 的 AO 烘焙可能写入顶点色或材质属性，UE5.6 导入时默认叠加，且 SSS 未自动映射，导致同资产在不同引擎表现差异，影响植被视觉一致性。</p><p><strong>对你而言</strong><br>检查 SpeedTree 导出选项中的 AO 通道映射，确认是否覆盖到 UE 的顶点色或材质参数；若无效，可在材质中手动降低 AO 强度或添加 SSS 节点，并对比 FAB 包的材质设置。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>8月24-30日，ue6-main有918次提交，ue5-main有174次。Sequencer相机抖动预览在world teardown时泄漏的修复，在ue5-main被回退一次后落地，在ue6-main被提交两次并回退两次。FScene到光线追踪重构达到稳定信号，一个头文件失去UE_INTERNAL标记。</p><p><strong>为什么重要</strong><br>ue6-main提交量是ue5-main的5倍多，显示Epic重心转向UE6。同一修复在两分支命运不同，暴露ue6-main的CI或合并流程不稳定，可能影响未来引擎迭代节奏。</p><p><strong>对你而言</strong><br>若你的项目基于UE5，ue6-main的频繁回退提示其API未冻结，暂不宜迁移。Sequencer修复在ue5-main已落地，可检查你的相机抖动预览在关卡卸载时是否泄漏，直接应用该修复。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「unreal」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Would it be feasible/possible to build a multiplayer game (dedicated servers) in UE3?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1w2y1a5/would_it_be_feasiblepossible_to_build_a/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-18b2b4da0282</guid>
-  <pubDate>Mon, 31 Aug 2026 00:21:15 +0000</pubDate>
+  <title>Cup Shuffle / Find the Ball - Unreal Engine Minigame Tutorial</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1w3z0s5/cup_shuffle_find_the_ball_unreal_engine_minigame/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-32312345e50a</guid>
+  <pubDate>Tue, 01 Sep 2026 02:28:57 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>38.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit 用户询问 UE3 构建专用服务器多人游戏的可行性，排除劝阻性回答，要求技术细节。UE3 已停止官方支持，但源码可用，多人网络层（基于 UDP 的 NetDriver）仍可运行，需自行处理 Steam 等平台集成。</p><p><strong>为什么重要</strong><br>UE3 是 GAS 前身 GameplaySkills 的起源，其网络架构影响 UE4/5。此问题反映老引擎在独立开发中的复活趋势，但平台服务（如 EOS）已不兼容，需自建匹配和反作弊。</p><p><strong>对你而言</strong><br>与你的 UE5 项目无直接关系。但可借鉴其网络同步教训：UE3 的 RPC 和属性复制在低带宽下更脆弱，UE5 的 GAS 已优化，无需回退。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +4.8 / 命中「dedicated server」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5 迷你游戏教程：三杯猜球（Cup Shuffle）。核心是洗牌逻辑（shuffling logic）与胜负判定（选中正确杯子即赢）。教程发布于 r/unrealengine，未提版本号或具体参数。</p><p><strong>为什么重要</strong><br>此类教程展示纯逻辑玩法在 UE5 中的实现，对战斗策划无直接冲击，但反映社区对轻量交互原型的需求，可能影响工具链或玩法验证流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若需快速验证战斗机制，可借鉴其洗牌随机算法用于技能触发概率测试，但非核心关联。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Open-source Linux webcam capture + CUDA MetaHuman face solving for Unreal Engine 5.8</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1w2ejwl/opensource_linux_webcam_capture_cuda_metahuman/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-c57ac10fb911</guid>
-  <pubDate>Sun, 30 Aug 2026 11:00:44 +0000</pubDate>
+  <title>California Coastal Environment &amp; Landscape Pack in UE5</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1w3euuq/california_coastal_environment_landscape_pack_in/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-729416bfaee0</guid>
+  <pubDate>Mon, 31 Aug 2026 14:07:05 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者发布两个UE5.8开源插件：Linux V4L2媒体框架插件（支持YUYV/YUY2捕获、格式枚举、分辨率帧率选择、暂停恢复，URL格式v4l2:///dev/video0）和NNE ONNX Runtime CUDA插件，实现Linux下网络摄像头采集与MetaHuman面部解算。</p><p><strong>为什么重要</strong><br>此前MetaHuman面部捕捉依赖Windows或特定采集卡，Linux工作流缺失。该方案打通V4L2到Unreal Media Framework及Live Link链路，降低Linux开发者面部捕捉门槛，推动跨平台虚拟制片普及。</p><p><strong>对你而言</strong><br>若项目需Linux端面部捕捉或MetaHuman驱动，可直接复用这两个插件，省去自研V4L2接入与ONNX推理集成。注意YUYV未压缩格式带宽占用高，需评估网络同步与性能影响。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>37.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5 16km²加州海岸环境包发布，含完整电影级视频，链接在YouTube。</p><p><strong>为什么重要</strong><br>16km²大世界资产包验证UE5大尺度地形与植被性能，影响开放世界项目资产选型。</p><p><strong>对你而言</strong><br>与你的武侠PVP项目无直接关系，除非需参考大世界性能优化。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +3.6 / 命中「ue5」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Coin Flip [2 Methods] - Unreal Engine Minigame Tutorial</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1w2r7zc/coin_flip_2_methods_unreal_engine_minigame/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-08-31-8a75971ce889</guid>
-  <pubDate>Sun, 30 Aug 2026 19:41:28 +0000</pubDate>
+  <title>How to handle Epic Games Launcher being sooooo slow?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1w3b3aj/how_to_handle_epic_games_launcher_being_sooooo/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-4f216e60ecbd</guid>
+  <pubDate>Mon, 31 Aug 2026 11:32:34 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>34 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5 小游戏教程：抛硬币两种实现。方法一用物理模拟（刚体+碰撞），方法二用动画序列（蒙太奇/蓝图驱动）。无版本号，r/unrealengine 社区帖。</p><p><strong>为什么重要</strong><br>物理与动画是战斗反馈两条路线：物理真实但难控手感，动画可控但缺随机性。社区对比展示取舍，影响受击/位移设计选择。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。抛硬币非战斗核心，且两种方法均为基础实现，无网络同步或性能优化参考。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户抱怨Epic Games Launcher启动需数分钟，安装插件亦极慢，询问彻底清理或加速方法。无具体版本或参数，仅描述体验。</p><p><strong>为什么重要</strong><br>Launcher性能问题长期困扰UE开发者，影响插件安装与引擎管理效率，但非引擎核心功能，社区无官方解决方案，多靠本地缓存清理或网络优化。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若遇类似问题，可尝试清理Launcher缓存或检查网络，但非战斗系统技术范畴。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「epic games」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Introducing Hy4 Preview</title>
+  <link>https://simonwillison.net/2026/Aug/29/hy4/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-28263fb9db83</guid>
+  <pubDate>Sat, 29 Aug 2026 05:58:53 +0000</pubDate>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>腾讯发布Hy4预览版，770B总参数、49B激活、1M上下文，权重开源，Hugging Face体积1.56TB。较7月Hy3（295B/21B/256K/598GB）大幅提升。推理模式仅high与no_think两档，默认high。实测推理轨迹用截断英文，省token。</p><p><strong>为什么重要</strong><br>开源模型参数与上下文翻倍，逼近闭源旗舰。推理轨迹语言非完整语法，揭示隐藏推理可牺牲可读性换效率。腾讯连续迭代，挤压中小开源模型生存空间，影响API定价与本地部署门槛。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。若未来用LLM驱动NPC对话或战斗AI，可关注其1M上下文对长程行为记忆的潜力，但当前无落地接口。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/29/hy4/">Simon Willison</a> · <a href="http://www.geekpark.net/news/369550">极客公园</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
