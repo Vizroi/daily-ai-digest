@@ -17,18 +17,6 @@
     "times": 3,
     "last_seen": "2026-08-20"
   },
-  "e33d3bb0d033bb8b": {
-    "title": "Ask HN: Alternatives to GitHub",
-    "first_seen": "2026-08-18",
-    "times": 1,
-    "last_seen": "2026-08-18"
-  },
-  "44aaae3276800654": {
-    "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-    "first_seen": "2026-08-18",
-    "times": 1,
-    "last_seen": "2026-08-18"
-  },
   "e10511c89a9c7c75": {
     "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
     "first_seen": "2026-08-19",
@@ -512,8 +500,8 @@
   "b88ea2c3411fc5b5": {
     "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
     "first_seen": "2026-09-01",
-    "times": 1,
-    "last_seen": "2026-09-01"
+    "times": 2,
+    "last_seen": "2026-09-02"
   },
   "a64e38a62cca88d4": {
     "title": "Breaking Claude Code Opus 5 Auto Mode",
@@ -550,5 +538,35 @@
     "first_seen": "2026-09-01",
     "times": 1,
     "last_seen": "2026-09-01"
+  },
+  "d9248274550ab1b0": {
+    "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
+    "first_seen": "2026-09-02",
+    "times": 1,
+    "last_seen": "2026-09-02"
+  },
+  "e285558904c8122c": {
+    "title": "李飞飞发布：全球首个多模态世界模型",
+    "first_seen": "2026-09-02",
+    "times": 1,
+    "last_seen": "2026-09-02"
+  },
+  "21c149f358fe69f5": {
+    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+    "first_seen": "2026-09-02",
+    "times": 1,
+    "last_seen": "2026-09-02"
+  },
+  "f6bd4290d87d454f": {
+    "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+    "first_seen": "2026-09-02",
+    "times": 1,
+    "last_seen": "2026-09-02"
+  },
+  "987b071c8bdbbdc9": {
+    "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+    "first_seen": "2026-09-02",
+    "times": 1,
+    "last_seen": "2026-09-02"
   }
 }

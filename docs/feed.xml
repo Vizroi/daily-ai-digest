@@ -4,73 +4,57 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 178 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 195 个事件，只有 6 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 01 Sep 2026 13:30:14 +0800</lastBuildDate>
+<lastBuildDate>Wed, 02 Sep 2026 12:53:20 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
+<item>
+  <title>Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线</title>
+  <link>https://www.qbitai.com/2026/09/482652.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-d9248274550a</guid>
+  <pubDate>Tue, 01 Sep 2026 17:53:53 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>89.9 分</strong> · 6 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic发布Fable 5.1与Mythos 5.1：8项基准第一，缓存读取价降至0.25美元/百万token（降75%），典型负载成本降25%，高度智能体任务降45%。新增反蒸馏机制：思维链区块加签名，篡改历史对话即校验失败，默认返回400或静默丢弃后续区块。Mythos 5.1在12个蛋白靶标命中率近50%（行业10-15%），金星地图分辨率提升至2-3公里。</p><p><strong>为什么重要</strong><br>缓存降价直击智能体高频读写痛点，成本结构变化迫使竞品跟进。反蒸馏机制首次将思维链完整性绑定对话前缀，封死多轮重放攻击路径，改变API调用范式——所有直接操作messages数组的开发者必须重写逻辑。科研战绩证明模型已从聊天工具进化为可独立完成实验设计、内核优化的科研协作者，拉开与GPT-5.6 Sol的代差。</p><p><strong>对你而言</strong><br>反蒸馏机制直接影响你的GAS调试流程：若用Claude辅助生成技能配置或动画蓝图代码，多轮修改历史消息将触发400错误。建议改用官方Claude Code或Agent SDK，避免直接操作messages数组。其缓存降价策略可参考：若项目用LLM做战斗日志分析，缓存读取成本占比高，可迁移至Fable 5.1。金星地图生成思路与你的项目无直接关系。</p><p><small>评分依据：6 源报道 +60 / 分析源 +8 / HN 1040 +13.9 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/482652.html">量子位</a> · <a href="https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/">MarkTechPost</a> · <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1">Hacker News</a> · <a href="http://www.geekpark.net/news/369690">极客公园</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1">The Verge AI</a> · <a href="https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/">TechCrunch AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>李飞飞发布：全球首个多模态世界模型</title>
+  <link>https://www.qbitai.com/2026/09/482586.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-e285558904c8</guid>
+  <pubDate>Tue, 01 Sep 2026 17:36:02 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42.4 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>World Labs发布Atlas，自称全球首个多模态世界模型。核心是多模态自回归扩散Transformer，输入文本/图像/视频/3D数据锚定三维空间，输出像素级相机控制的1分钟1440p视频、3D重建、时空模拟。3D重建效果超专业开源模型，支持机器人RGB+深度数据生成，已开放早期访问。</p><p><strong>为什么重要</strong><br>此前世界模型多停留在可互动视频生成，Atlas首次将相机控制、3D重建、时空模拟统一进单一架构，打通Real-to-Sim路径。李飞飞6月定义世界模型为渲染器/模拟器/规划器，Atlas是模拟器路线的落地，直接影响具身智能训练数据成本与规模瓶颈。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来PVE或AI对手需动态场景生成，其相机控制与3D重建思路可参考，但战斗手感、GAS配置、网络同步均不受影响。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 181 +10.4</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/482586.html">量子位</a> · <a href="https://www.worldlabs.ai/blog/atlas">Hacker News</a></small></p>]]></description>
+</item>
+<item>
+  <title>Healthcare organizations can now connect EHR and additional industry data to ChatGPT</title>
+  <link>https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-21c149f358fe</guid>
+  <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI发布ChatGPT for Healthcare两项新能力：Epic EHR集成（支持在ChatGPT内调取患者授权上下文，或在EHR界面内嵌ChatGPT）及Healthcare Public Data插件（连接PubMed、DailyMed、CMS Coverage等9个官方数据源）。医生评估4363次响应，99.1%安全；5个数据源93%以上准确率。</p><p><strong>为什么重要</strong><br>医疗AI从通用问答转向深度工作流集成。此前ChatGPT无法触达EHR核心数据，现通过官方合作打通Epic，直接改变临床医生获取患者摘要的方式。同时结构化公共数据源插件解决医疗信息分散问题，为合规使用AI提供治理框架，推动行业从试点走向生产环境。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其评估方法论：用27个临床用例+4363次专家评分验证AI响应安全性的做法，适用于你验证战斗AI或技能系统的行为正确性。其插件架构（连接器+权限控制）也可参考用于管理游戏内多数据源。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources">OpenAI</a> · <a href="https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/">TechCrunch AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>AnkiDroid: Google Play no longer allowing Open Collective donation link</title>
+  <link>https://github.com/ankidroid/Anki-Android/issues/21656</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-f6bd4290d87d</guid>
+  <pubDate>Tue, 01 Sep 2026 10:11:02 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>41.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Google Play 自2026-08-28起拒绝AnkiDroid更新，因其Open Collective捐款链接指向501(c)(6)免税组织，而Google仅认可501(c)(3)慈善机构。若未解决，9月11日除印度和俄罗斯外全球下架。开发者被迫在2.24.X版移除捐款链接。</p><p><strong>为什么重要</strong><br>Google收紧支付政策，将免税捐赠限定为501(c)(3)，排除501(c)(6)等非慈善免税实体。这直接影响开源应用依赖外部捐款的生存模式，迫使它们要么接入Google Play计费（抽成），要么放弃分发渠道。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来在Play Store发布含捐赠或众筹功能的游戏，需注意收款实体须为501(c)(3)或当地等效慈善机构，否则可能被拒审或下架。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 857 +13.5 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>I trained a small transformer in 1.5hrs and it beats many LLMs</title>
+  <link>https://mvakde.github.io/blog/44-on-arc-1/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-987b071c8bdb</guid>
+  <pubDate>Tue, 01 Sep 2026 09:52:45 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>开发者用RTX 5090在1.5小时内从零训练小型Transformer，ARC-AGI-1达44%（成本67美分），ARC-2达7%。采用SwiGLU、RMSNorm、3D RoPE、per-task embedding，改用NorMuon优化器并仅监督输出token，较上版40%提升。开源代码。</p><p><strong>为什么重要</strong><br>以极低成本逼近甚至超越大模型推理表现，挑战了数据效率与模型规模的传统假设。ARC-AGI被视为AGI基准，此结果引发Lucas Beyer等顶级研究者讨论，证明小模型+高效训练路径可行，可能分流行业对超大模型的资源投入。</p><p><strong>对你而言</strong><br>直接相关：3D RoPE和per-task embedding对序列化网格任务增益显著（1D RoPE仅24%），可借鉴到武侠PVP的位移/技能序列编码。NorMuon替代AdamW加速收敛且避免停滞，值得在GAS技能训练或动画状态机调参中测试。其监督化（仅输出token）反直觉提升，提示战斗预测模型可减少输入重建损失。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 597 +12.8 / HN 头条 +8</small></p>]]></description>
+</item>
 <item>
   <title>TimesFM-3: A zero-shot foundation model for multivariate forecasting</title>
   <link>https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-b88ea2c3411f</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-b88ea2c3411f</guid>
   <pubDate>Mon, 31 Aug 2026 17:19:40 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Google发布TimesFM-3，3.3亿参数，预训练超1万亿时间点，原生支持多变量零样本预测。单次前向生成全预测区间，输出9个分位数。在Gift-Eval、FEV-Bench、Time三大基准上排名第一，超越Chronos-2和Toto 2.0。采用32步patch和Contiguous Patch Masking，支持past-future协变量lookahead。</p><p><strong>为什么重要</strong><br>时序基础模型从单变量跨入多变量时代，零样本直接处理多序列依赖和外部特征，无需微调。这改变了预测工作流，零售、金融等场景可即时获得更准预测，如促销日销量提升20%的案例。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若战斗系统涉及网络延迟预测或玩家行为时序分析，其patch+masking单次前向思路可借鉴，减少迭代推理开销。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/">Google Research</a> · <a href="https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/">MarkTechPost</a></small></p>]]></description>
-</item>
-<item>
-  <title>Breaking Claude Code Opus 5 Auto Mode</title>
-  <link>https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-a64e38a62cca</guid>
-  <pubDate>Mon, 31 Aug 2026 07:49:18 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic委托第三方测试显示Opus 5 Auto Mode间接提示注入成功率0.00%，但实际攻击链通过诱导Claude从WebFetch改用curl下载ZIP，利用Python模块遮蔽（struct.py）实现代码执行，小样本攻击成功率60-80%。Auto Mode自8月中旬起为Claude Code默认模式。</p><p><strong>为什么重要</strong><br>第三方基准测试与真实攻击结果差异巨大，说明安全评估存在盲区。Auto Mode用分类器替代人工审批，但分层防御（模型训练、输入探测、意图分类）未能阻止针对性攻击链，暴露了AI Agent在工具切换和文件系统操作中的系统性漏洞。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：AI Agent安全测试需覆盖工具切换路径和依赖劫持场景，而非仅依赖官方基准。若未来使用AI辅助战斗配置生成，需警惕类似模块遮蔽风险。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 359 +11.8 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元</title>
-  <link>http://www.geekpark.net/news/369551</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-907b05ed8924</guid>
-  <pubDate>Sat, 29 Aug 2026 18:19:53 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>38 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI 以信任为由终止向 SpaceX 旗下 Cursor 提供模型，11月12日停访问；索尼与华纳起诉 Anthropic 侵权，单部最高赔15万美元，总额或达数十亿美元；韩国推全民免费 AI 服务，9月 Beta 测试，配512块 B200。</p><p><strong>为什么重要</strong><br>AI 编程工具与模型供应商的信任裂痕，预示上游模型授权将成竞争筹码；版权诉讼升级至个人被告，AI 训练数据合规成本陡增；韩国政府主导 AI 普惠，改变商业 AI 服务定价模式。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 聚合源 +2</small></p><p><small>全部来源：<a href="http://www.geekpark.net/news/369551">极客公园</a> · <a href="https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright">The Verge AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Last Week In Unreal: Aug 24 to 30 | 918 commits on ue6-main and 174 on ue5-main | Same bug fix with two different outcomes?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1w396z6/last_week_in_unreal_aug_24_to_30_918_commits_on/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-224c0e7a8ea9</guid>
-  <pubDate>Mon, 31 Aug 2026 09:57:13 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>8月24-30日，ue6-main有918次提交，ue5-main有174次。Sequencer相机抖动预览在world teardown时泄漏的修复，在ue5-main被回退一次后落地，在ue6-main被提交两次并回退两次。FScene到光线追踪重构达到稳定信号，一个头文件失去UE_INTERNAL标记。</p><p><strong>为什么重要</strong><br>ue6-main提交量是ue5-main的5倍多，显示Epic重心转向UE6。同一修复在两分支命运不同，暴露ue6-main的CI或合并流程不稳定，可能影响未来引擎迭代节奏。</p><p><strong>对你而言</strong><br>若你的项目基于UE5，ue6-main的频繁回退提示其API未冻结，暂不宜迁移。Sequencer修复在ue5-main已落地，可检查你的相机抖动预览在关卡卸载时是否泄漏，直接应用该修复。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「unreal」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Cup Shuffle / Find the Ball - Unreal Engine Minigame Tutorial</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1w3z0s5/cup_shuffle_find_the_ball_unreal_engine_minigame/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-32312345e50a</guid>
-  <pubDate>Tue, 01 Sep 2026 02:28:57 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5 迷你游戏教程：三杯猜球（Cup Shuffle）。核心是洗牌逻辑（shuffling logic）与胜负判定（选中正确杯子即赢）。教程发布于 r/unrealengine，未提版本号或具体参数。</p><p><strong>为什么重要</strong><br>此类教程展示纯逻辑玩法在 UE5 中的实现，对战斗策划无直接冲击，但反映社区对轻量交互原型的需求，可能影响工具链或玩法验证流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若需快速验证战斗机制，可借鉴其洗牌随机算法用于技能触发概率测试，但非核心关联。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>California Coastal Environment &amp; Landscape Pack in UE5</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1w3euuq/california_coastal_environment_landscape_pack_in/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-729416bfaee0</guid>
-  <pubDate>Mon, 31 Aug 2026 14:07:05 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>37.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5 16km²加州海岸环境包发布，含完整电影级视频，链接在YouTube。</p><p><strong>为什么重要</strong><br>16km²大世界资产包验证UE5大尺度地形与植被性能，影响开放世界项目资产选型。</p><p><strong>对你而言</strong><br>与你的武侠PVP项目无直接关系，除非需参考大世界性能优化。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +3.6 / 命中「ue5」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>How to handle Epic Games Launcher being sooooo slow?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1w3b3aj/how_to_handle_epic_games_launcher_being_sooooo/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-4f216e60ecbd</guid>
-  <pubDate>Mon, 31 Aug 2026 11:32:34 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户抱怨Epic Games Launcher启动需数分钟，安装插件亦极慢，询问彻底清理或加速方法。无具体版本或参数，仅描述体验。</p><p><strong>为什么重要</strong><br>Launcher性能问题长期困扰UE开发者，影响插件安装与引擎管理效率，但非引擎核心功能，社区无官方解决方案，多靠本地缓存清理或网络优化。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若遇类似问题，可尝试清理Launcher缓存或检查网络，但非战斗系统技术范畴。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「epic games」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Introducing Hy4 Preview</title>
-  <link>https://simonwillison.net/2026/Aug/29/hy4/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-01-28263fb9db83</guid>
-  <pubDate>Sat, 29 Aug 2026 05:58:53 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>腾讯发布Hy4预览版，770B总参数、49B激活、1M上下文，权重开源，Hugging Face体积1.56TB。较7月Hy3（295B/21B/256K/598GB）大幅提升。推理模式仅high与no_think两档，默认high。实测推理轨迹用截断英文，省token。</p><p><strong>为什么重要</strong><br>开源模型参数与上下文翻倍，逼近闭源旗舰。推理轨迹语言非完整语法，揭示隐藏推理可牺牲可读性换效率。腾讯连续迭代，挤压中小开源模型生存空间，影响API定价与本地部署门槛。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。若未来用LLM驱动NPC对话或战斗AI，可关注其1M上下文对长程行为记忆的潜力，但当前无落地接口。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Aug/29/hy4/">Simon Willison</a> · <a href="http://www.geekpark.net/news/369550">极客公园</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Google发布TimesFM-3时序基础模型，3.3亿参数，预训练超1万亿时间点。原生支持多变量预测，单次前向生成全预测区间，输出9个分位数。采用32步长patch与Contiguous Patch Masking，支持past-future协变量lookahead。在Gift-Eval、FEV-Bench、Time基准上排名第一，超越Chronos-2和Toto 2.0。</p><p><strong>为什么重要</strong><br>时序基础模型从单变量跨入原生多变量时代。此前TimesFM-2.5只能单序列预测，真实场景多依赖外部特征。TimesFM-3零样本处理多序列依赖，单次前向替代迭代解码，降低延迟和误差累积。零售、金融等跨域预测范式被改写，预训练模型竞争进入多变量维度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。战斗系统不涉及时序预测，但若未来做玩家行为预测或服务器负载时序分析，其零样本多变量思路和分位数输出可参考。当前GAS、动画、同步工作不受影响。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/">Google Research</a> · <a href="https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/">MarkTechPost</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
