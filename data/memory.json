@@ -1,10 +1,4 @@
 {
-  "1517695ed4c2ca5f": {
-    "title": "Anthropic's ‘watermark’ text adulteration in Claude is a perversion of writing",
-    "first_seen": "2026-08-17",
-    "times": 2,
-    "last_seen": "2026-08-19"
-  },
   "04f846fa19175e68": {
     "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
     "first_seen": "2026-08-18",
@@ -22,30 +16,6 @@
     "first_seen": "2026-08-19",
     "times": 2,
     "last_seen": "2026-08-20"
-  },
-  "e41b8acec43f65c6": {
-    "title": "Cursor launches Origin, GitHub alternative",
-    "first_seen": "2026-08-19",
-    "times": 1,
-    "last_seen": "2026-08-19"
-  },
-  "bd6d67e11844a704": {
-    "title": "GPT-5.6 Sol Pricing Cut by 50% on OpenRouter",
-    "first_seen": "2026-08-19",
-    "times": 1,
-    "last_seen": "2026-08-19"
-  },
-  "1d1e2aff8c633258": {
-    "title": "Deus Ex director Warren Spector is retiring after nearly 45 years in game dev",
-    "first_seen": "2026-08-19",
-    "times": 1,
-    "last_seen": "2026-08-19"
-  },
-  "de72fe63f42cd8d6": {
-    "title": "Roblox being investigated by U.S. Senate after reporting 65,381 instances of suspected child abuse in 2025",
-    "first_seen": "2026-08-19",
-    "times": 1,
-    "last_seen": "2026-08-19"
   },
   "51f8258107eb38b2": {
     "title": "Three Epic veterans are building an AI-powered game engine to break the industry's doom cycle",
@@ -542,8 +512,8 @@
   "d9248274550ab1b0": {
     "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
     "first_seen": "2026-09-02",
-    "times": 1,
-    "last_seen": "2026-09-02"
+    "times": 2,
+    "last_seen": "2026-09-03"
   },
   "e285558904c8122c": {
     "title": "李飞飞发布：全球首个多模态世界模型",
@@ -568,5 +538,35 @@
     "first_seen": "2026-09-02",
     "times": 1,
     "last_seen": "2026-09-02"
+  },
+  "5c76adef4abda66e": {
+    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "first_seen": "2026-09-03",
+    "times": 1,
+    "last_seen": "2026-09-03"
+  },
+  "dc52c6d462651785": {
+    "title": "Nexus Mods Owner Acquires SteamDB After Co-Founder Struggled With Burnout",
+    "first_seen": "2026-09-03",
+    "times": 1,
+    "last_seen": "2026-09-03"
+  },
+  "c2c66d94ce89c2c5": {
+    "title": "Can I opt out of my input or output data being used for training?",
+    "first_seen": "2026-09-03",
+    "times": 1,
+    "last_seen": "2026-09-03"
+  },
+  "679daeff7439e080": {
+    "title": "True Rate of Unemployment",
+    "first_seen": "2026-09-03",
+    "times": 1,
+    "last_seen": "2026-09-03"
+  },
+  "2d2841a39643ee7f": {
+    "title": "Here’s why Rebel Wolves chose UE5 to power its ambitious, large scale, open world RPG The Blood of Dawnwalker",
+    "first_seen": "2026-09-03",
+    "times": 1,
+    "last_seen": "2026-09-03"
   }
 }

@@ -4,57 +4,57 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 195 个事件，只有 6 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 219 个事件，只有 6 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 02 Sep 2026 12:53:20 +0800</lastBuildDate>
+<lastBuildDate>Thu, 03 Sep 2026 12:51:04 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
+<item>
+  <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber</title>
+  <link>https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-03-5c76adef4abd</guid>
+  <pubDate>Wed, 02 Sep 2026 15:12:40 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>87.6 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Google发布Gemini 3.8 Flash与3.8 Flash Cyber，距3.7 Flash仅三周，六周内第三次Flash更新。3.8 Flash定价不变（输入$0.75/百万token，输出$3.75/百万token），HLE-Verified得分54.9%。Cyber版在CyberGym基准超越3.5 Flash Cyber，内部20语言漏洞发现成功率超70%，CWE-Bench pass@1为47.2%（对比前沿模型47.8%）。Chrome安全团队报告其补丁正确率是其他商业模型的2.6倍。</p><p><strong>为什么重要</strong><br>Flash系列迭代速度从季度压缩至三周，且性能逼近高价前沿模型，成本不变。Cyber版聚焦防御性自动补丁而非攻击利用，并仅通过Fairwind项目向可信防御者开放，体现AI安全与商业化平衡的新模式。这改变了大模型在代码安全领域的竞争格局——小模型+低延迟+专项训练即可达到或超越巨型模型的实战效果。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来将AI用于游戏代码审计或反作弊逻辑生成，可关注其低token成本下的漏洞发现能力（70%成功率）作为参考基线。当前战斗系统、GAS配置与网络同步优化不涉及此类模型应用。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 903 +13.6 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">Hacker News</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Nexus Mods Owner Acquires SteamDB After Co-Founder Struggled With Burnout</title>
+  <link>https://80.lv/articles/nexus-mods-owner-acquires-steamdb-after-co-founder-struggled-with-burnout/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-03-dc52c6d46265</guid>
+  <pubDate>Wed, 02 Sep 2026 17:27:45 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Nexus Mods母公司Chosen收购SteamDB，金额未披露。SteamDB由xPaw和Marlamin于2013年创立，xPaw因疫情和AI冲击产生倦怠，独自维护数年。收购后SteamDB保留名称、品牌、免费功能，xPaw协助过渡数月。Chosen将投入团队和基础设施，并计划利用其历史版本数据帮助识别不兼容mod。</p><p><strong>为什么重要</strong><br>第三方数据平台被商业公司收购，社区担忧免费功能付费化。但Nexus承诺保持独立和免费，缓解了恐慌。此举整合了mod生态与游戏版本追踪数据，可能改变玩家管理mod的方式，减少更新导致的mod失效问题。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其版本历史数据思路：若你的PVP项目有频繁平衡性更新，可考虑记录构建版本与技能配置的对应关系，帮助玩家排查因版本更新导致的技能表现异常，提升社区反馈效率。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://80.lv/articles/nexus-mods-owner-acquires-steamdb-after-co-founder-struggled-with-burnout/">80.lv</a> · <a href="https://www.gamesindustry.biz/nexus-mods-acquires-steamdb">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/business/nexus-mods-is-acquiring-database-and-analytics-site-steamdb">Game Developer</a></small></p>]]></description>
+</item>
+<item>
+  <title>Can I opt out of my input or output data being used for training?</title>
+  <link>https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-03-c2c66d94ce89</guid>
+  <pubDate>Wed, 02 Sep 2026 12:30:39 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Mistral 允许用户退出数据训练：Vibe 默认未退出，企业版默认退出；API/Studio 需在 Admin 面板 Privacy 菜单关闭 Anonymous improvement data 开关。移动端 iOS/Android 在 Settings &gt; Data &amp; Account Controls 取消 Enable data sharing。Vibe 与 API 退出开关相互独立。</p><p><strong>为什么重要</strong><br>AI 服务商在数据使用透明度上分化：Mistral 提供细粒度控制，区别于默认训练模式。企业客户对数据合规要求高，此设计影响采购决策，也迫使竞品跟进隐私选项。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若涉及 AI 辅助工具选型，可关注数据退出机制是否影响团队内部代码或文档泄露风险。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 401 +12 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>True Rate of Unemployment</title>
+  <link>https://www.lisep.org/tru</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-03-679daeff7439</guid>
+  <pubDate>Wed, 02 Sep 2026 02:21:10 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>39.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>LISEP发布True Rate of Unemployment，基于BLS数据，统计无全职工作（每周35+小时）、失业或年收入低于26000美元（2025年美元）的劳动力占比。</p><p><strong>为什么重要</strong><br>官方失业率低估经济困境，此指标纳入工资门槛，改变政策制定者对就业健康的判断基准，影响财政分配与福利设计。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 302 +11.4 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>Here’s why Rebel Wolves chose UE5 to power its ambitious, large scale, open world RPG The Blood of Dawnwalker</title>
+  <link>https://www.unrealengine.com/developer-interviews/heres-why-rebel-wolves-chose-ue5-to-power-its-ambitious-large-scale-open-world-rpg-the-blood-of-dawnwalker</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-03-2d2841a39643</guid>
+  <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>50 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>Rebel Wolves首作《The Blood of Dawnwalker》采用UE5开发，主角Coen昼夜双形态：白天持剑+符文暗术，夜晚变吸血鬼获得攀墙、短距传送及爪牙攻击。游戏设定在喀尔巴阡山脉的Vale Sangora，灵感源自中东欧民间传说与希腊罗马神话。团队强调UE5源码访问权对开发至关重要，并持续使用其性能分析工具优化。</p><p><strong>为什么重要</strong><br>这是前《巫师3》总监Konrad Tomaszkiewicz创立的新工作室首作，其昼夜机制直接影响战斗与探索玩法，而非单纯叙事装饰。UE5源码开放使团队能深度定制引擎，满足大型开放世界RPG的独特需求，反映高端项目对引擎底层控制力的依赖日益增强。</p><p><strong>对你而言</strong><br>昼夜双形态切换可借鉴为GAS中不同战斗姿态的切换逻辑，注意网络同步下形态变化时的技能冷却与位移处理。UE5源码访问与持续性能分析流程值得参考，尤其针对开放世界大场景的加载与战斗帧率优化。若项目不涉及昼夜循环或源码级定制，则与你的工作无直接关系。</p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
 <item>
   <title>Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线</title>
   <link>https://www.qbitai.com/2026/09/482652.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-d9248274550a</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-03-d9248274550a</guid>
   <pubDate>Tue, 01 Sep 2026 17:53:53 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>89.9 分</strong> · 6 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic发布Fable 5.1与Mythos 5.1：8项基准第一，缓存读取价降至0.25美元/百万token（降75%），典型负载成本降25%，高度智能体任务降45%。新增反蒸馏机制：思维链区块加签名，篡改历史对话即校验失败，默认返回400或静默丢弃后续区块。Mythos 5.1在12个蛋白靶标命中率近50%（行业10-15%），金星地图分辨率提升至2-3公里。</p><p><strong>为什么重要</strong><br>缓存降价直击智能体高频读写痛点，成本结构变化迫使竞品跟进。反蒸馏机制首次将思维链完整性绑定对话前缀，封死多轮重放攻击路径，改变API调用范式——所有直接操作messages数组的开发者必须重写逻辑。科研战绩证明模型已从聊天工具进化为可独立完成实验设计、内核优化的科研协作者，拉开与GPT-5.6 Sol的代差。</p><p><strong>对你而言</strong><br>反蒸馏机制直接影响你的GAS调试流程：若用Claude辅助生成技能配置或动画蓝图代码，多轮修改历史消息将触发400错误。建议改用官方Claude Code或Agent SDK，避免直接操作messages数组。其缓存降价策略可参考：若项目用LLM做战斗日志分析，缓存读取成本占比高，可迁移至Fable 5.1。金星地图生成思路与你的项目无直接关系。</p><p><small>评分依据：6 源报道 +60 / 分析源 +8 / HN 1040 +13.9 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/482652.html">量子位</a> · <a href="https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/">MarkTechPost</a> · <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1">Hacker News</a> · <a href="http://www.geekpark.net/news/369690">极客公园</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1">The Verge AI</a> · <a href="https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/">TechCrunch AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>李飞飞发布：全球首个多模态世界模型</title>
-  <link>https://www.qbitai.com/2026/09/482586.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-e285558904c8</guid>
-  <pubDate>Tue, 01 Sep 2026 17:36:02 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>World Labs发布Atlas，自称全球首个多模态世界模型。核心是多模态自回归扩散Transformer，输入文本/图像/视频/3D数据锚定三维空间，输出像素级相机控制的1分钟1440p视频、3D重建、时空模拟。3D重建效果超专业开源模型，支持机器人RGB+深度数据生成，已开放早期访问。</p><p><strong>为什么重要</strong><br>此前世界模型多停留在可互动视频生成，Atlas首次将相机控制、3D重建、时空模拟统一进单一架构，打通Real-to-Sim路径。李飞飞6月定义世界模型为渲染器/模拟器/规划器，Atlas是模拟器路线的落地，直接影响具身智能训练数据成本与规模瓶颈。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来PVE或AI对手需动态场景生成，其相机控制与3D重建思路可参考，但战斗手感、GAS配置、网络同步均不受影响。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 181 +10.4</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/482586.html">量子位</a> · <a href="https://www.worldlabs.ai/blog/atlas">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>Healthcare organizations can now connect EHR and additional industry data to ChatGPT</title>
-  <link>https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-21c149f358fe</guid>
-  <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI发布ChatGPT for Healthcare两项新能力：Epic EHR集成（支持在ChatGPT内调取患者授权上下文，或在EHR界面内嵌ChatGPT）及Healthcare Public Data插件（连接PubMed、DailyMed、CMS Coverage等9个官方数据源）。医生评估4363次响应，99.1%安全；5个数据源93%以上准确率。</p><p><strong>为什么重要</strong><br>医疗AI从通用问答转向深度工作流集成。此前ChatGPT无法触达EHR核心数据，现通过官方合作打通Epic，直接改变临床医生获取患者摘要的方式。同时结构化公共数据源插件解决医疗信息分散问题，为合规使用AI提供治理框架，推动行业从试点走向生产环境。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴其评估方法论：用27个临床用例+4363次专家评分验证AI响应安全性的做法，适用于你验证战斗AI或技能系统的行为正确性。其插件架构（连接器+权限控制）也可参考用于管理游戏内多数据源。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources">OpenAI</a> · <a href="https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/">TechCrunch AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>AnkiDroid: Google Play no longer allowing Open Collective donation link</title>
-  <link>https://github.com/ankidroid/Anki-Android/issues/21656</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-f6bd4290d87d</guid>
-  <pubDate>Tue, 01 Sep 2026 10:11:02 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Google Play 自2026-08-28起拒绝AnkiDroid更新，因其Open Collective捐款链接指向501(c)(6)免税组织，而Google仅认可501(c)(3)慈善机构。若未解决，9月11日除印度和俄罗斯外全球下架。开发者被迫在2.24.X版移除捐款链接。</p><p><strong>为什么重要</strong><br>Google收紧支付政策，将免税捐赠限定为501(c)(3)，排除501(c)(6)等非慈善免税实体。这直接影响开源应用依赖外部捐款的生存模式，迫使它们要么接入Google Play计费（抽成），要么放弃分发渠道。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若未来在Play Store发布含捐赠或众筹功能的游戏，需注意收款实体须为501(c)(3)或当地等效慈善机构，否则可能被拒审或下架。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 857 +13.5 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>I trained a small transformer in 1.5hrs and it beats many LLMs</title>
-  <link>https://mvakde.github.io/blog/44-on-arc-1/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-987b071c8bdb</guid>
-  <pubDate>Tue, 01 Sep 2026 09:52:45 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>开发者用RTX 5090在1.5小时内从零训练小型Transformer，ARC-AGI-1达44%（成本67美分），ARC-2达7%。采用SwiGLU、RMSNorm、3D RoPE、per-task embedding，改用NorMuon优化器并仅监督输出token，较上版40%提升。开源代码。</p><p><strong>为什么重要</strong><br>以极低成本逼近甚至超越大模型推理表现，挑战了数据效率与模型规模的传统假设。ARC-AGI被视为AGI基准，此结果引发Lucas Beyer等顶级研究者讨论，证明小模型+高效训练路径可行，可能分流行业对超大模型的资源投入。</p><p><strong>对你而言</strong><br>直接相关：3D RoPE和per-task embedding对序列化网格任务增益显著（1D RoPE仅24%），可借鉴到武侠PVP的位移/技能序列编码。NorMuon替代AdamW加速收敛且避免停滞，值得在GAS技能训练或动画状态机调参中测试。其监督化（仅输出token）反直觉提升，提示战斗预测模型可减少输入重建损失。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 597 +12.8 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>TimesFM-3: A zero-shot foundation model for multivariate forecasting</title>
-  <link>https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-02-b88ea2c3411f</guid>
-  <pubDate>Mon, 31 Aug 2026 17:19:40 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Google发布TimesFM-3时序基础模型，3.3亿参数，预训练超1万亿时间点。原生支持多变量预测，单次前向生成全预测区间，输出9个分位数。采用32步长patch与Contiguous Patch Masking，支持past-future协变量lookahead。在Gift-Eval、FEV-Bench、Time基准上排名第一，超越Chronos-2和Toto 2.0。</p><p><strong>为什么重要</strong><br>时序基础模型从单变量跨入原生多变量时代。此前TimesFM-2.5只能单序列预测，真实场景多依赖外部特征。TimesFM-3零样本处理多序列依赖，单次前向替代迭代解码，降低延迟和误差累积。零售、金融等跨域预测范式被改写，预训练模型竞争进入多变量维度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。战斗系统不涉及时序预测，但若未来做玩家行为预测或服务器负载时序分析，其零样本多变量思路和分位数输出可参考。当前GAS、动画、同步工作不受影响。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/">Google Research</a> · <a href="https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/">MarkTechPost</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>48.5 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Anthropic发布Fable 5.1与Mythos 5.1。8项基准第一，缓存读取价降至$0.25/百万token（降75%），典型负载成本降25%，高度智能体任务省45%。新增反蒸馏机制：思维链区块加签名，篡改历史即校验失败，默认返回400或静默丢弃。Mythos 5.1仅限受信机构。</p><p><strong>为什么重要</strong><br>缓存降价直击智能体成本大头，推理成本结构改变。反蒸馏机制封死多轮对话中篡改上下文重放思维链的蒸馏路径，是头部模型商首次对推理过程做链式完整性签名，影响所有直接调API的开发者。</p><p><strong>对你而言</strong><br>反蒸馏的prefix_mismatch_behavior与链式校验设计，对GAS技能多段判定或连招状态同步的防篡改有参考价值。缓存降价利好频繁调用LLM做战斗日志分析的场景。其余与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 分析源 +8 / HN 1383 +14.5 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/482652.html">量子位</a> · <a href="https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/">MarkTechPost</a> · <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1">Hacker News</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1">The Verge AI</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
