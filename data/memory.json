@@ -1,58 +1,4 @@
 {
-  "04f846fa19175e68": {
-    "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-    "first_seen": "2026-08-18",
-    "times": 3,
-    "last_seen": "2026-08-20"
-  },
-  "8eae30be2742f61f": {
-    "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-    "first_seen": "2026-08-18",
-    "times": 3,
-    "last_seen": "2026-08-20"
-  },
-  "e10511c89a9c7c75": {
-    "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-    "first_seen": "2026-08-19",
-    "times": 2,
-    "last_seen": "2026-08-20"
-  },
-  "51f8258107eb38b2": {
-    "title": "Three Epic veterans are building an AI-powered game engine to break the industry's doom cycle",
-    "first_seen": "2026-08-19",
-    "times": 2,
-    "last_seen": "2026-08-20"
-  },
-  "2adb81714fce4c6c": {
-    "title": "Deus Ex Creator Is Retiring from Game Development",
-    "first_seen": "2026-08-20",
-    "times": 1,
-    "last_seen": "2026-08-20"
-  },
-  "56d5b8c35ec90dea": {
-    "title": "Offering Zero Data Retention for frontier models",
-    "first_seen": "2026-08-20",
-    "times": 1,
-    "last_seen": "2026-08-20"
-  },
-  "c4f589f5007bf97d": {
-    "title": "Geolocating a random island using geometry and CUDA programming",
-    "first_seen": "2026-08-20",
-    "times": 1,
-    "last_seen": "2026-08-20"
-  },
-  "3737925240fb10ef": {
-    "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
-    "first_seen": "2026-08-20",
-    "times": 1,
-    "last_seen": "2026-08-20"
-  },
-  "aa9ee9a3f6509d00": {
-    "title": "Claude Code teaching macOS to natively print to the HP Laser 1008a",
-    "first_seen": "2026-08-20",
-    "times": 1,
-    "last_seen": "2026-08-20"
-  },
   "097cf3ab7a5668ba": {
     "title": "Human: Fall Flat Developers Announce a New Cozy VR Puzzle Game",
     "first_seen": "2026-08-21",
@@ -542,8 +488,8 @@
   "5c76adef4abda66e": {
     "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
     "first_seen": "2026-09-03",
-    "times": 1,
-    "last_seen": "2026-09-03"
+    "times": 2,
+    "last_seen": "2026-09-04"
   },
   "dc52c6d462651785": {
     "title": "Nexus Mods Owner Acquires SteamDB After Co-Founder Struggled With Burnout",
@@ -568,5 +514,65 @@
     "first_seen": "2026-09-03",
     "times": 1,
     "last_seen": "2026-09-03"
+  },
+  "bb81b442aaddf860": {
+    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
+  },
+  "cd30d6bc2b962d7f": {
+    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
+  },
+  "079b08dfd8edfd8b": {
+    "title": "Nvidia to acquire Hugging Face",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
+  },
+  "3fdb0b5172b4c667": {
+    "title": "Claude Fable 5.1 made me a really nice animated pelican",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
+  },
+  "715f9b5dc75cd680": {
+    "title": "Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Muse Spark 1.2",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
+  },
+  "74c2649ad062e970": {
+    "title": "Interview: Crimson Moon is a Dark Fantasy Co-Op Soulslike Revitalizing the AA Market",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
+  },
+  "60cf306f953d4b7a": {
+    "title": "Stepping inside a retro anime-inspired game: a look into the rendering of Orbitals",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
+  },
+  "4eaf085f57f04942": {
+    "title": "EMEA Dev Days | Unreal Engine",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
+  },
+  "d1b42be993fd90c1": {
+    "title": "This UE5 Tool Can Deform Any Static Mesh At Runtime",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
+  },
+  "216141cf32a7eeba": {
+    "title": "\"This is the worst crash we've seen since the 1980s,\" says Tim Sweeney",
+    "first_seen": "2026-09-04",
+    "times": 1,
+    "last_seen": "2026-09-04"
   }
 }
