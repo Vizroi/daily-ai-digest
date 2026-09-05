@@ -1,33 +1,9 @@
 {
-  "097cf3ab7a5668ba": {
-    "title": "Human: Fall Flat Developers Announce a New Cozy VR Puzzle Game",
-    "first_seen": "2026-08-21",
-    "times": 1,
-    "last_seen": "2026-08-21"
-  },
-  "51036e4c19820999": {
-    "title": "Ex-Dishonored 2 Creative Director Founds His Own Studio With Former Arkane Devs",
-    "first_seen": "2026-08-21",
-    "times": 1,
-    "last_seen": "2026-08-21"
-  },
   "6316bbb49fbbf1a6": {
     "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
     "first_seen": "2026-08-21",
     "times": 2,
     "last_seen": "2026-08-23"
-  },
-  "7d1edb205fc5b871": {
-    "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-    "first_seen": "2026-08-21",
-    "times": 1,
-    "last_seen": "2026-08-21"
-  },
-  "f4fe6ba01b628b1b": {
-    "title": "Mortal Shell II, Sequel To 2020's Soulslike Hit, Is Out Now",
-    "first_seen": "2026-08-21",
-    "times": 1,
-    "last_seen": "2026-08-21"
   },
   "0f02ad6f883aca82": {
     "title": "The August 17 outage",
@@ -488,8 +464,8 @@
   "5c76adef4abda66e": {
     "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
     "first_seen": "2026-09-03",
-    "times": 2,
-    "last_seen": "2026-09-04"
+    "times": 3,
+    "last_seen": "2026-09-05"
   },
   "dc52c6d462651785": {
     "title": "Nexus Mods Owner Acquires SteamDB After Co-Founder Struggled With Burnout",
@@ -554,14 +530,14 @@
   "60cf306f953d4b7a": {
     "title": "Stepping inside a retro anime-inspired game: a look into the rendering of Orbitals",
     "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
+    "times": 2,
+    "last_seen": "2026-09-05"
   },
   "4eaf085f57f04942": {
     "title": "EMEA Dev Days | Unreal Engine",
     "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
+    "times": 2,
+    "last_seen": "2026-09-05"
   },
   "d1b42be993fd90c1": {
     "title": "This UE5 Tool Can Deform Any Static Mesh At Runtime",
@@ -574,5 +550,41 @@
     "first_seen": "2026-09-04",
     "times": 1,
     "last_seen": "2026-09-04"
+  },
+  "e22d5cf3429cd90a": {
+    "title": "GPT-6 Astra: A new generation of intelligence",
+    "first_seen": "2026-09-05",
+    "times": 1,
+    "last_seen": "2026-09-05"
+  },
+  "4cef70d98128e0d3": {
+    "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+    "first_seen": "2026-09-05",
+    "times": 1,
+    "last_seen": "2026-09-05"
+  },
+  "798b9493ef2f6f45": {
+    "title": "Nvidia acquires open-source AI platform Hugging Face for $12.9bn",
+    "first_seen": "2026-09-05",
+    "times": 1,
+    "last_seen": "2026-09-05"
+  },
+  "5e506b6c7d263256": {
+    "title": "Xbox Puts Monthly Limits On Cloud Gaming For Game Pass Subscribers",
+    "first_seen": "2026-09-05",
+    "times": 1,
+    "last_seen": "2026-09-05"
+  },
+  "98da763eae8aa548": {
+    "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
+    "first_seen": "2026-09-05",
+    "times": 1,
+    "last_seen": "2026-09-05"
+  },
+  "dd87e7709317037d": {
+    "title": "Interview: How War for Westeros Turns Game of Thrones Into an Epic RTS",
+    "first_seen": "2026-09-05",
+    "times": 1,
+    "last_seen": "2026-09-05"
   }
 }
