@@ -5,36 +5,6 @@
     "times": 2,
     "last_seen": "2026-08-23"
   },
-  "0f02ad6f883aca82": {
-    "title": "The August 17 outage",
-    "first_seen": "2026-08-22",
-    "times": 1,
-    "last_seen": "2026-08-22"
-  },
-  "14e92e661cd80dbb": {
-    "title": "Kobo can run apps now",
-    "first_seen": "2026-08-22",
-    "times": 1,
-    "last_seen": "2026-08-22"
-  },
-  "e71ae4ca191ef9fd": {
-    "title": "Show HN: Huzzah – a novel approach to coding with AI",
-    "first_seen": "2026-08-22",
-    "times": 1,
-    "last_seen": "2026-08-22"
-  },
-  "7098b4e00d43c48d": {
-    "title": "Feature Request: Support AGENTS.md",
-    "first_seen": "2026-08-22",
-    "times": 1,
-    "last_seen": "2026-08-22"
-  },
-  "971a6bacd938b1cc": {
-    "title": "Report: Take-Two subpoenas Microsoft and Discord in bid to halt extensive Grand Theft Auto VI leak",
-    "first_seen": "2026-08-22",
-    "times": 1,
-    "last_seen": "2026-08-22"
-  },
   "8ba15a640a558a78": {
     "title": "This First-Person Sword Fighting Game's Combat is 100% Physics-Based",
     "first_seen": "2026-08-22",
@@ -554,20 +524,20 @@
   "e22d5cf3429cd90a": {
     "title": "GPT-6 Astra: A new generation of intelligence",
     "first_seen": "2026-09-05",
-    "times": 1,
-    "last_seen": "2026-09-05"
+    "times": 2,
+    "last_seen": "2026-09-06"
   },
   "4cef70d98128e0d3": {
     "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
     "first_seen": "2026-09-05",
-    "times": 1,
-    "last_seen": "2026-09-05"
+    "times": 2,
+    "last_seen": "2026-09-06"
   },
   "798b9493ef2f6f45": {
     "title": "Nvidia acquires open-source AI platform Hugging Face for $12.9bn",
     "first_seen": "2026-09-05",
-    "times": 1,
-    "last_seen": "2026-09-05"
+    "times": 2,
+    "last_seen": "2026-09-06"
   },
   "5e506b6c7d263256": {
     "title": "Xbox Puts Monthly Limits On Cloud Gaming For Game Pass Subscribers",
@@ -584,7 +554,37 @@
   "dd87e7709317037d": {
     "title": "Interview: How War for Westeros Turns Game of Thrones Into an Epic RTS",
     "first_seen": "2026-09-05",
+    "times": 2,
+    "last_seen": "2026-09-06"
+  },
+  "86d524a8e1ad8dbe": {
+    "title": "姚班校友主导，Claude攻克费马大定理首个完整形式化证明",
+    "first_seen": "2026-09-06",
     "times": 1,
-    "last_seen": "2026-09-05"
+    "last_seen": "2026-09-06"
+  },
+  "06c1a1148cedbeac": {
+    "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+    "first_seen": "2026-09-06",
+    "times": 1,
+    "last_seen": "2026-09-06"
+  },
+  "ff3bfc9b3d190dd3": {
+    "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+    "first_seen": "2026-09-06",
+    "times": 1,
+    "last_seen": "2026-09-06"
+  },
+  "53c4cdfc8f2e3e24": {
+    "title": "ChatGPT, Claude, and Grok Are Down",
+    "first_seen": "2026-09-06",
+    "times": 1,
+    "last_seen": "2026-09-06"
+  },
+  "41c0fc5f2e31f0da": {
+    "title": "Show HN: Open-Source eInk Bike Computer",
+    "first_seen": "2026-09-06",
+    "times": 1,
+    "last_seen": "2026-09-06"
   }
 }
