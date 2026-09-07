@@ -1,51 +1,9 @@
 {
-  "6316bbb49fbbf1a6": {
-    "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-    "first_seen": "2026-08-21",
-    "times": 2,
-    "last_seen": "2026-08-23"
-  },
   "8ba15a640a558a78": {
     "title": "This First-Person Sword Fighting Game's Combat is 100% Physics-Based",
     "first_seen": "2026-08-22",
     "times": 3,
     "last_seen": "2026-08-24"
-  },
-  "c9d820952c2082e0": {
-    "title": "Riot Games sunsets active development on 2XKO as it costs \"substantially more to operate than it brings in\"",
-    "first_seen": "2026-08-22",
-    "times": 2,
-    "last_seen": "2026-08-23"
-  },
-  "010c4a92fb75bca7": {
-    "title": "There's no reason for software to be slow anymore",
-    "first_seen": "2026-08-23",
-    "times": 1,
-    "last_seen": "2026-08-23"
-  },
-  "d0935b6c5fcc8629": {
-    "title": "Rust Glancer: Rust LSP using 100x less RAM",
-    "first_seen": "2026-08-23",
-    "times": 1,
-    "last_seen": "2026-08-23"
-  },
-  "3f58f864fb74ac7c": {
-    "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-    "first_seen": "2026-08-23",
-    "times": 1,
-    "last_seen": "2026-08-23"
-  },
-  "fc8123219e33f9ad": {
-    "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
-    "first_seen": "2026-08-23",
-    "times": 1,
-    "last_seen": "2026-08-23"
-  },
-  "692432e88c47ab10": {
-    "title": "Makers Fund expands game industry footprint through $250 million investment round",
-    "first_seen": "2026-08-23",
-    "times": 1,
-    "last_seen": "2026-08-23"
   },
   "9260d8b944853789": {
     "title": "Why your local LLM feels dumber than it is",
@@ -530,8 +488,8 @@
   "4cef70d98128e0d3": {
     "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
     "first_seen": "2026-09-05",
-    "times": 2,
-    "last_seen": "2026-09-06"
+    "times": 3,
+    "last_seen": "2026-09-07"
   },
   "798b9493ef2f6f45": {
     "title": "Nvidia acquires open-source AI platform Hugging Face for $12.9bn",
@@ -542,8 +500,8 @@
   "5e506b6c7d263256": {
     "title": "Xbox Puts Monthly Limits On Cloud Gaming For Game Pass Subscribers",
     "first_seen": "2026-09-05",
-    "times": 1,
-    "last_seen": "2026-09-05"
+    "times": 2,
+    "last_seen": "2026-09-07"
   },
   "98da763eae8aa548": {
     "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
@@ -554,8 +512,8 @@
   "dd87e7709317037d": {
     "title": "Interview: How War for Westeros Turns Game of Thrones Into an Epic RTS",
     "first_seen": "2026-09-05",
-    "times": 2,
-    "last_seen": "2026-09-06"
+    "times": 3,
+    "last_seen": "2026-09-07"
   },
   "86d524a8e1ad8dbe": {
     "title": "姚班校友主导，Claude攻克费马大定理首个完整形式化证明",
@@ -586,5 +544,35 @@
     "first_seen": "2026-09-06",
     "times": 1,
     "last_seen": "2026-09-06"
+  },
+  "848d2a2fe2a909bc": {
+    "title": "GPT-6 Astra on robot arms",
+    "first_seen": "2026-09-07",
+    "times": 1,
+    "last_seen": "2026-09-07"
+  },
+  "a8f46e76a4720c05": {
+    "title": "Research acceleration: The view inside OpenAI",
+    "first_seen": "2026-09-07",
+    "times": 1,
+    "last_seen": "2026-09-07"
+  },
+  "60003940963499c2": {
+    "title": "There's No Limit to How Bad Code Can Get",
+    "first_seen": "2026-09-07",
+    "times": 1,
+    "last_seen": "2026-09-07"
+  },
+  "f49b4058f8cccbca": {
+    "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+    "first_seen": "2026-09-07",
+    "times": 1,
+    "last_seen": "2026-09-07"
+  },
+  "8a3b4f655be5b69d": {
+    "title": "Following legal advice, the Nitter project will continue",
+    "first_seen": "2026-09-07",
+    "times": 1,
+    "last_seen": "2026-09-07"
   }
 }
