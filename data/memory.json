@@ -1,40 +1,4 @@
 {
-  "8ba15a640a558a78": {
-    "title": "This First-Person Sword Fighting Game's Combat is 100% Physics-Based",
-    "first_seen": "2026-08-22",
-    "times": 3,
-    "last_seen": "2026-08-24"
-  },
-  "9260d8b944853789": {
-    "title": "Why your local LLM feels dumber than it is",
-    "first_seen": "2026-08-24",
-    "times": 1,
-    "last_seen": "2026-08-24"
-  },
-  "0fc43dc838d87e4f": {
-    "title": "Creating and removing Gameplay Effects in C++",
-    "first_seen": "2026-08-24",
-    "times": 1,
-    "last_seen": "2026-08-24"
-  },
-  "3e4a4225ba2982ed": {
-    "title": "Why does my cloth assets not actually work with Metahuman Wardrobe Items?",
-    "first_seen": "2026-08-24",
-    "times": 1,
-    "last_seen": "2026-08-24"
-  },
-  "49426c295799a958": {
-    "title": "What do UE5 developers do when making an FPS game with a thirdperson body?",
-    "first_seen": "2026-08-24",
-    "times": 1,
-    "last_seen": "2026-08-24"
-  },
-  "ba664351dfadc2f7": {
-    "title": "What is your experience with thge Unreal Engine MCP?",
-    "first_seen": "2026-08-24",
-    "times": 1,
-    "last_seen": "2026-08-24"
-  },
   "3281ee7361321e9b": {
     "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
     "first_seen": "2026-08-25",
@@ -554,14 +518,14 @@
   "a8f46e76a4720c05": {
     "title": "Research acceleration: The view inside OpenAI",
     "first_seen": "2026-09-07",
-    "times": 1,
-    "last_seen": "2026-09-07"
+    "times": 2,
+    "last_seen": "2026-09-08"
   },
   "60003940963499c2": {
     "title": "There's No Limit to How Bad Code Can Get",
     "first_seen": "2026-09-07",
-    "times": 1,
-    "last_seen": "2026-09-07"
+    "times": 2,
+    "last_seen": "2026-09-08"
   },
   "f49b4058f8cccbca": {
     "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
@@ -574,5 +538,41 @@
     "first_seen": "2026-09-07",
     "times": 1,
     "last_seen": "2026-09-07"
+  },
+  "3c39862e1cb005ec": {
+    "title": "Nitter and XCancel resume service after legal advice",
+    "first_seen": "2026-09-08",
+    "times": 1,
+    "last_seen": "2026-09-08"
+  },
+  "c0741f22a0092ac7": {
+    "title": "bzip3",
+    "first_seen": "2026-09-08",
+    "times": 1,
+    "last_seen": "2026-09-08"
+  },
+  "8b84bd58227d3be8": {
+    "title": "LLMs as a Cognitive Virus",
+    "first_seen": "2026-09-08",
+    "times": 1,
+    "last_seen": "2026-09-08"
+  },
+  "d2ff0caa53c8735b": {
+    "title": "Bill Gates tries to install MovieMaker (2003)",
+    "first_seen": "2026-09-08",
+    "times": 1,
+    "last_seen": "2026-09-08"
+  },
+  "6726e2f3eb105f0f": {
+    "title": "Global warming will exceed 1.5-degree limit, UN says",
+    "first_seen": "2026-09-08",
+    "times": 1,
+    "last_seen": "2026-09-08"
+  },
+  "e9a51ec00869aae5": {
+    "title": "Epic Games CEO：游戏行业面临80年代以来最严重危机",
+    "first_seen": "2026-09-08",
+    "times": 1,
+    "last_seen": "2026-09-08"
   }
 }
