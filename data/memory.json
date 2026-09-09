@@ -1,10 +1,4 @@
 {
-  "3281ee7361321e9b": {
-    "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-    "first_seen": "2026-08-25",
-    "times": 1,
-    "last_seen": "2026-08-25"
-  },
   "7e2fb79060fc539d": {
     "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
     "first_seen": "2026-08-25",
@@ -16,36 +10,6 @@
     "first_seen": "2026-08-25",
     "times": 3,
     "last_seen": "2026-08-27"
-  },
-  "cc16c82768359f0b": {
-    "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-    "first_seen": "2026-08-25",
-    "times": 1,
-    "last_seen": "2026-08-25"
-  },
-  "086e615feb143584": {
-    "title": "I were 17, I'd learn how to build LLMs from scratch",
-    "first_seen": "2026-08-25",
-    "times": 1,
-    "last_seen": "2026-08-25"
-  },
-  "9e5971a3e5ff8a94": {
-    "title": "This Dark Fantasy Soulslike Lets You Play as a Dog Saving His Master",
-    "first_seen": "2026-08-25",
-    "times": 1,
-    "last_seen": "2026-08-25"
-  },
-  "a083a2b2551914f1": {
-    "title": "How I Optimize Lighting & Shadows in UE5 (using a real game 'Far Far West')",
-    "first_seen": "2026-08-25",
-    "times": 1,
-    "last_seen": "2026-08-25"
-  },
-  "0632e37e5f8bd235": {
-    "title": "LWIU: 960 commits on ue6-main; 172 on ue5-main | Infrastructure-heavy week across build tooling, storage, and rendering, with two notable pieces of new tech",
-    "first_seen": "2026-08-25",
-    "times": 1,
-    "last_seen": "2026-08-25"
   },
   "788bd884af3110bb": {
     "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
@@ -518,8 +482,8 @@
   "a8f46e76a4720c05": {
     "title": "Research acceleration: The view inside OpenAI",
     "first_seen": "2026-09-07",
-    "times": 2,
-    "last_seen": "2026-09-08"
+    "times": 3,
+    "last_seen": "2026-09-09"
   },
   "60003940963499c2": {
     "title": "There's No Limit to How Bad Code Can Get",
@@ -574,5 +538,35 @@
     "first_seen": "2026-09-08",
     "times": 1,
     "last_seen": "2026-09-08"
+  },
+  "55ea7e35824aa683": {
+    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "first_seen": "2026-09-09",
+    "times": 1,
+    "last_seen": "2026-09-09"
+  },
+  "329ae70effdec785": {
+    "title": "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
+    "first_seen": "2026-09-09",
+    "times": 1,
+    "last_seen": "2026-09-09"
+  },
+  "2992c80e675782f6": {
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "first_seen": "2026-09-09",
+    "times": 1,
+    "last_seen": "2026-09-09"
+  },
+  "d5bb809ff407deb4": {
+    "title": "Introducing ChatGPT Images 2.5",
+    "first_seen": "2026-09-09",
+    "times": 1,
+    "last_seen": "2026-09-09"
+  },
+  "5cdbccaccc9ee683": {
+    "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+    "first_seen": "2026-09-09",
+    "times": 1,
+    "last_seen": "2026-09-09"
   }
 }

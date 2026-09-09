@@ -4,73 +4,57 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 141 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 177 个事件，只有 6 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 08 Sep 2026 12:59:43 +0800</lastBuildDate>
+<lastBuildDate>Wed, 09 Sep 2026 13:02:03 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Nitter and XCancel resume service after legal advice</title>
-  <link>https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-08-3c39862e1cb0</guid>
-  <pubDate>Sun, 06 Sep 2026 17:49:47 +0000</pubDate>
+  <title>AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome</title>
+  <link>https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-09-55ea7e35824a</guid>
+  <pubDate>Tue, 08 Sep 2026 14:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>X Corp于2026年8月24日向Nitter项目发送停止并函，要求永久下架所有实例及仓库。项目方经法律咨询后决定继续运营，具体细节待公布。Nitter为无JS、零广告的Twitter替代前端，流量仅60KB对比官方784KB，基于AGPLv3许可。</p><p><strong>为什么重要</strong><br>X Corp对开源隐私工具的施压升级，从API限制转为直接法律威胁。Nitter的存活与否影响所有依赖其匿名访问Twitter的用户与开发者，也测试开源社区对抗平台封禁的法律边界。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 900 +13.6 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>86.5 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>DeepMind发布AlphaGenome Atlas，含90亿单核苷酸变异预测，数据量1PB，为AlphaFold DB的30倍。提供AVI评分整合AlphaGenome与AlphaMissense，覆盖编码区与非编码区，免费开放网页、API及Antigravity技能。</p><p><strong>为什么重要</strong><br>此前变异解读依赖实验室或单模型，现预计算全基因组图谱，使无编程经验研究者可大规模排序变异。AVI统一编码与非编码区评分，填补非编码区98%基因组的功能预测空白，加速罕见病与群体遗传学研究。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来涉及生物信息或程序化生成，可参考其大规模预计算与统一评分设计思路，但当前战斗系统无需此技术。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 519 +12.5 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/09/08/google-deepmind-releases-alphagenome-atlas-with-precomputed-molecular-effect-predictions-and-avi-scores-for-9-billion-human-dna-variants/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/">Hacker News</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>bzip3</title>
-  <link>https://github.com/iczelia/bzip3</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-08-c0741f22a009</guid>
-  <pubDate>Mon, 07 Sep 2026 13:35:13 +0000</pubDate>
+  <title>Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer</title>
+  <link>https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-09-329ae70effde</guid>
+  <pubDate>Tue, 08 Sep 2026 19:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>bzip3 是 bzip2 的继任者，采用 order-0 上下文混合熵编码器、基于后缀数组的快速 BWT 及 LZP 预处理器。实测压缩 262 个 Perl5 版本 tar 包，bzip3 -b 511 达 546MB，优于 xz 的 2.05GB 和 zstd 的 3.07GB；解压 4分06秒，接近 zstd 的 3分51秒。与 lrzip 联用压缩至 60MB，优于 lzma 的 64MB。LGPLv3 许可，支持多架构。</p><p><strong>为什么重要</strong><br>压缩率大幅超越 xz 与 zstd，且解压速度相当，挑战现有压缩工具格局。对存储与传输密集型行业，如游戏资源分发或版本管理，可能降低带宽与磁盘成本。但高内存占用（b -b 511 需 12GB）限制其应用场景。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若需压缩构建产物或日志，可关注其高压缩率特性，但内存开销与 LGPLv3 许可需评估。不建议用于运行时资源加载，因解压速度未显著优于 zstd。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 394 +12 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta发布个人AI代理Muse，基于Muse Spark 1.3模型，每用户独占云端VM（Muse Secure VM），由Sentinel代理审批所有网络与连接器动作，凭据用代理令牌替换，eBPF追踪数据污染。美国iOS/Android/muse.ai上线，免费+付费。模型API可用，开源权重在路线图。</p><p><strong>为什么重要</strong><br>这是首个将安全隔离作为核心架构的消费级代理：凭据不可见、审批独立、浏览器子代理仅见可访问性树。改变了代理安全范式，从依赖模型拒毒转向结构性防泄漏，影响所有做代理或多智能体系统的团队。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但Sentinel审批模式与eBPF污染追踪可借鉴到PVP反作弊或服务器权威校验设计，若未来做AI NPC或托管对战逻辑可参考其隔离思路。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/">MarkTechPost</a> · <a href="https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>LLMs as a Cognitive Virus</title>
-  <link>https://arxiv.org/abs/2609.03344</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-08-8b84bd58227d</guid>
-  <pubDate>Sat, 05 Sep 2026 20:02:35 +0000</pubDate>
+  <title>On the Navier–Stokes Millennium Prize Problem</title>
+  <link>https://openai.com/index/navier-stokes-solution</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-09-2992c80e6757</guid>
+  <pubDate>Tue, 08 Sep 2026 10:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.9 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>arXiv 2026年9月3日论文，将LLM扩散类比病毒，建模用户从不耦合到耦合再到持续依赖的转变，指出越过临界点后小增长可引发群体性认知能力骤降，并提出降低传播与增强可逆性的认知免疫条件。</p><p><strong>为什么重要</strong><br>该模型首次将LLM采纳视为非线性集体转变，挑战了技术扩散线性增长假设，提示AI依赖可能不可逆，影响社会认知自主性与政策制定。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 392 +11.9 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI内部系统证明Navier-Stokes方程可在有限时间形成奇点，推翻光滑性猜想，解决千禧年问题。使用约10,000并发代理，模型强于GPT-6 Astra，自8月28日训练。Lean形式化验证，能量有限，外力平滑。</p><p><strong>为什么重要</strong><br>90年未解数学难题被AI攻克，显示AI超越人类数学直觉。改变数学研究范式，代理协作可处理超长推理链。对流体力学理论是颠覆，但物理真实性待验。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但AI代理协作模式可借鉴于复杂战斗AI或技能平衡测试，如万级代理模拟对战寻bug。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/navier-stokes-solution">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/8/on-navier-stokes/">Simon Willison</a></small></p>]]></description>
 </item>
 <item>
-  <title>Bill Gates tries to install MovieMaker (2003)</title>
-  <link>https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-08-d2ff0caa53c8</guid>
-  <pubDate>Mon, 07 Sep 2026 15:27:03 +0000</pubDate>
+  <title>Introducing ChatGPT Images 2.5</title>
+  <link>https://openai.com/index/introducing-chatgpt-images-2-5</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-09-d5bb809ff407</guid>
+  <pubDate>Tue, 08 Sep 2026 11:30:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>2003年1月15日，比尔·盖茨邮件投诉Windows可用性：下载MovieMaker需访问5个页面，超时5次，搜索"moviemaker"无果，改搜"movie maker"才找到。Windows Update强制下载17MB补丁，安装耗时6分钟，要求重启，最终程序列表被测试包污染，MovieMaker未安装成功。</p><p><strong>为什么重要</strong><br>这是微软最高决策者亲历的产品失败案例，暴露了2003年Windows生态中下载、更新、安装流程的割裂。它证明即使巨头也会因流程复杂、命名混乱、缺乏状态同步而毁掉用户体验，直接推动了后续对安装器与更新机制的简化改革。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可借鉴：技能配置与下载流程同理，需保证搜索、安装、状态反馈的一致性，避免玩家因命名歧义或步骤冗余而放弃。你的GAS配置应确保技能名、描述、图标在UI与数据层完全同步。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 371 +11.8 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI发布ChatGPT Images 2.5，周生成超30亿张图。延迟较2.0降50%，支持多轮编辑一致性、参考图保真。API新增Flare与Sunburst两模型，后者精度更高但耗时更长。新增Sketch手绘引导、模板、图内评论及提示词共享功能。全平台可用。</p><p><strong>为什么重要</strong><br>图像生成从单次出图转向多轮精确编辑工作流，参考图保真与品牌一致性成为API商用核心。50%延迟降幅直接改变实时交互产品可行性，Sketch与模板降低非专业用户创作门槛，推动AI图像从工具向协作平台演进。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。若未来需生成角色概念图或UI素材，可关注其多轮编辑一致性以维持风格统一，但非战斗系统核心需求。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-chatgpt-images-2-5">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">Simon Willison</a></small></p>]]></description>
 </item>
 <item>
-  <title>Global warming will exceed 1.5-degree limit, UN says</title>
-  <link>https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-08-6726e2f3eb10</guid>
-  <pubDate>Sat, 05 Sep 2026 13:02:14 +0000</pubDate>
+  <title>Introducing CUDA Rust: Two Tracks for Writing GPU Kernels</title>
+  <link>https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-09-5cdbccaccc9e</guid>
+  <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.7 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>UNEP于2026年9月3日发布报告，承认全球变暖将突破2015年巴黎协定1.5°C阈值，当前已升温1.4°C。最乐观情景下峰值达1.8°C（本世纪中叶），现行政策则至2100年升温2.6°C。报告提出“过冲”策略：先超限后降温，目标本世纪末回到1.5°C以下，需停止化石燃料并发展碳捕集技术。</p><p><strong>为什么重要</strong><br>这是联合国首次官方放弃“防止超限”目标，转向“管理超限”路径。改变了气候谈判基准，承认未来数十年灾害、海平面上升和物种灭绝不可避免，政策重心从减排转向适应与恢复，影响全球能源转型节奏和气候资金分配。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若游戏涉及气候主题叙事，可参考“过冲”概念设计世界观冲突，或利用极端天气事件作为PVP场景动态元素，但非核心战斗机制关联。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 338 +11.7 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>Epic Games CEO：游戏行业面临80年代以来最严重危机</title>
-  <link>https://www.youxituoluo.com/534861.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-08-e9a51ec00869</guid>
-  <pubDate>Mon, 07 Sep 2026 14:34:05 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>34 分</strong> · 游戏陀螺 · 能用上的</p><p><strong>发生了什么</strong><br>Epic CEO斯威尼称游戏业正经历1983年以来最严重衰退。3A预算已膨胀至2.5-4亿美元，内存存储芯片价格涨至四倍且未来三年持续紧张。前PlayStation负责人莱登建议压低预算至5000万美元量级，科斯特验证开发成本每十年增十倍。裁员潮重创欧美3A工作室。</p><p><strong>为什么重要</strong><br>AI产业高价截胡算力与存储资源，直接冲击游戏硬件成本与产能。开发成本指数级膨胀与外部供应链危机叠加，迫使行业重新评估商业模式与团队规模，中型团队从50-60人压缩至20人、400人缩至100人成为趋势。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但需警惕：若UE5项目依赖高性能硬件与存储，芯片涨价可能影响开发设备采购成本；AI工具压缩团队规模的做法需谨慎验证产出，避免盲目裁员后返工。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「epic games」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>NVIDIA于2026年9月发布CUDA Rust双轨方案：cuda-oxide（SIMT，自定义rustc后端，经MIR/Pliron/LLVM生成PTX，需Linux+CC8.0+CUDA12.x+nightly-2026-04-03）与Tile IR（新模型，编译器自动映射架构）。示例为1024浮点向量加法，单文件编译运行。</p><p><strong>为什么重要</strong><br>Rust已渗透NVIDIA系统层（Nova驱动、Dynamo、NVTX），但GPU kernel长期只能用C++/Python。CUDA Rust让kernel原生编译为PTX，消除跨语言边界，使Rust内存安全覆盖到计算核心，改变AI基础设施栈的构建方式。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。若未来涉及服务器端AI推理或物理模拟的Rust化，可关注其DisjointSlice安全并发模式，但当前战斗系统GAS与动画逻辑不适用。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/">MarkTechPost</a></small></p>]]></description>
 </item>
 <item>
   <title>Research acceleration: The view inside OpenAI</title>
   <link>https://openai.com/index/research-acceleration-view-inside-openai</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-08-a8f46e76a472</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-09-a8f46e76a472</guid>
   <pubDate>Sun, 06 Sep 2026 08:00:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI 称已达成2025年秋目标：9月前实现自动化研究实习生，即能完成需熟练研究员数天的明确定义任务。计划2028年3月前造出自动化AI研究员。内部数据：8月中旬，研究员人均每日用超600美元API推理，90分位用超7000美元token；总agent运行时长超人类劳动，每1人日对应3.1 agent工作日；4个以上并发agent的用户增多。Hugging Face事件后，暂停部署模型RL训练，强化监控。</p><p><strong>为什么重要</strong><br>这是前沿实验室首次量化agent对研究进程的加速，显示AI研究正从辅助转向主导实验执行。它改变了对AI发展速度的预期，也暴露安全对齐滞后风险，推动行业需公开RSI进展并建立测量标准。</p><p><strong>对你而言</strong><br>无直接关系。但可借鉴其量化agent效率的方法：用API成本、并发数、agent/人力比追踪工具对战斗系统开发（如AI行为树调试）的加速效果，警惕过度依赖导致安全验证不足。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/research-acceleration-view-inside-openai">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/">Simon Willison</a></small></p>]]></description>
-</item>
-<item>
-  <title>There's No Limit to How Bad Code Can Get</title>
-  <link>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-08-600039409634</guid>
-  <pubDate>Sat, 05 Sep 2026 14:13:22 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>11.3 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Simon Willison 于 2026-09-06 发文，基于经验反对用重写（greenfield）解决技术债。他描述旧系统仍在迭代、新团队低估范围，最终导致双系统并行、新系统 80% 代码闲置。他推荐 Will Larson 的《Migrations》一文，并建议优先用自动化测试加固旧系统，再做定向重构。</p><p><strong>为什么重要</strong><br>技术债重写是行业常见陷阱，常导致资源浪费与项目失败。此文点明重写失败的结构性原因：旧系统是移动靶、新团队缺乏完整认知。这改变了团队对'推倒重来'的浪漫幻想，推动更务实的渐进式迁移策略，影响所有面临大型遗留系统的技术管理者。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。你处理的是 UE5 武侠 PVP 的 GAS 与动画蓝图，非长期演进的业务系统。但若未来战斗模块因迭代失控，可借鉴其思路：优先补测试与局部重构，而非冒险重写核心战斗框架。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 106 +9.3 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/">Simon Willison</a> · <a href="https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI 于2025年9月实现自动研究实习生目标，计划2028年3月实现自动AI研究员。内部数据显示，截至8月中旬，研究员日均使用超600美元推理token，90分位用户日耗7000美元token。研究组织总agent运行时长已超人类劳动，每1个人类工作日对应3.1个agent工作日，31%研究员并发运行4个以上agent。Hugging Face事件后，OpenAI暂停RL训练并强化安全监控。</p><p><strong>为什么重要</strong><br>这是首个前沿实验室公开量化AI agent对自身研究流程的加速数据，证明agent已从辅助工具变为研究主力。它改变了行业对AI研发效率的认知基准，迫使其他实验室重新评估自身agent投入与安全策略，并推动RSI进展公开透明的行业规范形成。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但可关注其agent并发工作流与安全暂停机制，若未来战斗AI或自动化测试引入agent，可参考其监控与红队策略。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/research-acceleration-view-inside-openai">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/">Simon Willison</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
