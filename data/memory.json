@@ -1,10 +1,4 @@
 {
-  "7e2fb79060fc539d": {
-    "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-    "first_seen": "2026-08-25",
-    "times": 2,
-    "last_seen": "2026-08-26"
-  },
   "859282f9836ca6f0": {
     "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
     "first_seen": "2026-08-25",
@@ -16,36 +10,6 @@
     "first_seen": "2026-08-26",
     "times": 2,
     "last_seen": "2026-08-27"
-  },
-  "bfaaaa184ab2cbd9": {
-    "title": "Nitter and XCancel receive cease and desist notices",
-    "first_seen": "2026-08-26",
-    "times": 1,
-    "last_seen": "2026-08-26"
-  },
-  "7b29ab484a4eed98": {
-    "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
-    "first_seen": "2026-08-26",
-    "times": 1,
-    "last_seen": "2026-08-26"
-  },
-  "364fc314c7eea19d": {
-    "title": "My agent.md to improve LLM-assisted code quality",
-    "first_seen": "2026-08-26",
-    "times": 1,
-    "last_seen": "2026-08-26"
-  },
-  "06c5592ffc5186c9": {
-    "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
-    "first_seen": "2026-08-26",
-    "times": 1,
-    "last_seen": "2026-08-26"
-  },
-  "a69e6ad701287b38": {
-    "title": "Warlock Looks Like a New Kind of AAA D&D Themed Open World RPG",
-    "first_seen": "2026-08-26",
-    "times": 1,
-    "last_seen": "2026-08-26"
   },
   "ac51f735c58872bd": {
     "title": "'Star Wars Zero Company': Bit Reactor crafts a galaxy of tactical possibilities with UE5",
@@ -542,8 +506,8 @@
   "55ea7e35824aa683": {
     "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
     "first_seen": "2026-09-09",
-    "times": 1,
-    "last_seen": "2026-09-09"
+    "times": 2,
+    "last_seen": "2026-09-10"
   },
   "329ae70effdec785": {
     "title": "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
@@ -560,13 +524,67 @@
   "d5bb809ff407deb4": {
     "title": "Introducing ChatGPT Images 2.5",
     "first_seen": "2026-09-09",
-    "times": 1,
-    "last_seen": "2026-09-09"
+    "times": 2,
+    "last_seen": "2026-09-10"
   },
   "5cdbccaccc9ee683": {
     "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
     "first_seen": "2026-09-09",
+    "times": 2,
+    "last_seen": "2026-09-10"
+  },
+  "a7dace9245e93cde": {
+    "title": "刚刚，苹果首款折叠屏发布！15999元起，AI参与设计",
+    "first_seen": "2026-09-10",
     "times": 1,
-    "last_seen": "2026-09-09"
+    "last_seen": "2026-09-10"
+  },
+  "74b92c506903288a": {
+    "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+    "first_seen": "2026-09-10",
+    "times": 1,
+    "last_seen": "2026-09-10"
+  },
+  "f0e16fc229cb4157": {
+    "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+    "first_seen": "2026-09-10",
+    "times": 1,
+    "last_seen": "2026-09-10"
+  },
+  "2b2fb3772090ff22": {
+    "title": "No Man's Sky Cosmos",
+    "first_seen": "2026-09-10",
+    "times": 1,
+    "last_seen": "2026-09-10"
+  },
+  "b0a3a5f96b6a0fc5": {
+    "title": "Quick Unreal Engine check on my Swamp Airboat.",
+    "first_seen": "2026-09-10",
+    "times": 1,
+    "last_seen": "2026-09-10"
+  },
+  "b5dca12dad068ae0": {
+    "title": "UE 5.6 texture more bright when been imported?",
+    "first_seen": "2026-09-10",
+    "times": 1,
+    "last_seen": "2026-09-10"
+  },
+  "338c04b6cd26a483": {
+    "title": "Epic Games Store to introduce age checks for R18+ games in Australia",
+    "first_seen": "2026-09-10",
+    "times": 1,
+    "last_seen": "2026-09-10"
+  },
+  "2fd3ebf36d9c5918": {
+    "title": "Fab Flash Sale – Up to 50% Off My Unreal Engine Tools",
+    "first_seen": "2026-09-10",
+    "times": 1,
+    "last_seen": "2026-09-10"
+  },
+  "f04b409218dd297d": {
+    "title": "I made a DND inspired animation in UE5 - here is my project breakdown video",
+    "first_seen": "2026-09-10",
+    "times": 1,
+    "last_seen": "2026-09-10"
   }
 }
