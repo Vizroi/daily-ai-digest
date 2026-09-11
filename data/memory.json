@@ -1,40 +1,4 @@
 {
-  "859282f9836ca6f0": {
-    "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-    "first_seen": "2026-08-25",
-    "times": 3,
-    "last_seen": "2026-08-27"
-  },
-  "788bd884af3110bb": {
-    "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-    "first_seen": "2026-08-26",
-    "times": 2,
-    "last_seen": "2026-08-27"
-  },
-  "ac51f735c58872bd": {
-    "title": "'Star Wars Zero Company': Bit Reactor crafts a galaxy of tactical possibilities with UE5",
-    "first_seen": "2026-08-26",
-    "times": 2,
-    "last_seen": "2026-08-27"
-  },
-  "650bb2ab27b98f12": {
-    "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
-    "first_seen": "2026-08-27",
-    "times": 1,
-    "last_seen": "2026-08-27"
-  },
-  "4c48f3d195bccb50": {
-    "title": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡",
-    "first_seen": "2026-08-27",
-    "times": 1,
-    "last_seen": "2026-08-27"
-  },
-  "634516059d806ea6": {
-    "title": "Z.ai Releases GLM-5.3-Flash: A 320B-A18B Natively Multimodal MoE With a 1M-Token Context",
-    "first_seen": "2026-08-27",
-    "times": 1,
-    "last_seen": "2026-08-27"
-  },
   "2d573c144c03a633": {
     "title": "GlucoFM: Foundation model for continuous glucose monitoring",
     "first_seen": "2026-08-27",
@@ -506,8 +470,8 @@
   "55ea7e35824aa683": {
     "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
     "first_seen": "2026-09-09",
-    "times": 2,
-    "last_seen": "2026-09-10"
+    "times": 3,
+    "last_seen": "2026-09-11"
   },
   "329ae70effdec785": {
     "title": "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
@@ -524,8 +488,8 @@
   "d5bb809ff407deb4": {
     "title": "Introducing ChatGPT Images 2.5",
     "first_seen": "2026-09-09",
-    "times": 2,
-    "last_seen": "2026-09-10"
+    "times": 3,
+    "last_seen": "2026-09-11"
   },
   "5cdbccaccc9ee683": {
     "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
@@ -572,8 +536,8 @@
   "338c04b6cd26a483": {
     "title": "Epic Games Store to introduce age checks for R18+ games in Australia",
     "first_seen": "2026-09-10",
-    "times": 1,
-    "last_seen": "2026-09-10"
+    "times": 2,
+    "last_seen": "2026-09-11"
   },
   "2fd3ebf36d9c5918": {
     "title": "Fab Flash Sale – Up to 50% Off My Unreal Engine Tools",
@@ -586,5 +550,35 @@
     "first_seen": "2026-09-10",
     "times": 1,
     "last_seen": "2026-09-10"
+  },
+  "2c3fbf9fdc31109b": {
+    "title": "Paul Christiano joins OpenAI Foundation Board",
+    "first_seen": "2026-09-11",
+    "times": 1,
+    "last_seen": "2026-09-11"
+  },
+  "ad113e76ca6b6b38": {
+    "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+    "first_seen": "2026-09-11",
+    "times": 1,
+    "last_seen": "2026-09-11"
+  },
+  "4b38da6636546ef2": {
+    "title": "3万台无人车之后，这家公司盯上了城市级物理AI",
+    "first_seen": "2026-09-11",
+    "times": 1,
+    "last_seen": "2026-09-11"
+  },
+  "598f83d26dc06cc5": {
+    "title": "OpenAI这是拿千禧年难题当Benchmark刷啊。。。",
+    "first_seen": "2026-09-11",
+    "times": 1,
+    "last_seen": "2026-09-11"
+  },
+  "ab63f001271c5973": {
+    "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
+    "first_seen": "2026-09-11",
+    "times": 1,
+    "last_seen": "2026-09-11"
   }
 }

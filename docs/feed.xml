@@ -4,105 +4,73 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 207 个事件，只有 12 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 208 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 10 Sep 2026 13:01:52 +0800</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 12:58:14 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>刚刚，苹果首款折叠屏发布！15999元起，AI参与设计</title>
-  <link>https://www.qbitai.com/2026/09/486450.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-a7dace9245e9</guid>
-  <pubDate>Wed, 09 Sep 2026 17:36:05 +0000</pubDate>
+  <title>Paul Christiano joins OpenAI Foundation Board</title>
+  <link>https://openai.com/index/paul-christiano-joins-openai-foundation-board</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-2c3fbf9fdc31</guid>
+  <pubDate>Wed, 09 Sep 2026 17:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>苹果发首款折叠屏iPhone Duo，5.4/7.6寸OLED，锆基非晶钛合金铰链，A20 Pro 2nm，国行15999元起，2T版26499元。</p><p><strong>为什么重要</strong><br>安卓折叠屏做了8年后苹果入场，铰链用AI辅助设计，端侧AI成核心卖点，标准版iPhone十年来首次缺席。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/486450.html">量子位</a> · <a href="http://www.geekpark.net/news/370088">极客公园</a> · <a href="https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/">TechCrunch AI</a> · <a href="https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/">TechCrunch AI</a> · <a href="https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/">TechCrunch AI</a> · <a href="https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/">TechCrunch AI</a> · <a href="https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Paul Christiano加入OpenAI基金会董事会，任无投票权观察员，并进安全与安全委员会，与主席Zico Kolter共事。他曾在NIST的CAISI任高级技术顾问，2017-2021在OpenAI领导对齐研究，是RLHF奠基人之一。</p><p><strong>为什么重要</strong><br>OpenAI 2025年10月重组后，基金会控制PBC，SSC统管全公司安全治理。Christiano以独立批评者身份进入，强化外部制衡，回应加州与特拉华州总检察长一年审查的承诺。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/paul-christiano-joins-openai-foundation-board">OpenAI</a> · <a href="https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/">TechCrunch AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>I-have-ADHD: A skill to stop coding agents from burying the answer</title>
-  <link>https://github.com/ayghri/i-have-adhd</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-74b92c506903</guid>
-  <pubDate>Tue, 08 Sep 2026 14:13:26 +0000</pubDate>
+  <title>Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra</title>
+  <link>https://cognition.com/blog/swe-2</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-ad113e76ca6b</guid>
+  <pubDate>Thu, 10 Sep 2026 15:29:47 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>i-have-adhd 是 Claude Code 插件，10 条规则：先给动作、编号步骤、每轮重述状态、给分钟级时间估计、禁寒暄收尾。MIT 协议，可 fork 改 SKILL.md。</p><p><strong>为什么重要</strong><br>LLM 输出普遍先铺垫后结论，浪费阅读时间。此插件把「行动优先」变成可安装的提示规范，说明提示工程正从个人技巧转为可分发插件。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 527 +12.5 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.9 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Cognition发布SWE-2编码模型，基于2.8T参数Kimi K33后训练，FrontierCode 1.1得50.0%，比Fable 5.1便宜64%，首次将RL扩展到万亿参数级。</p><p><strong>为什么重要</strong><br>编码模型竞争转向成本-性能帕累托前沿，单次RL训练覆盖全部推理档位，SWE-2 medium比SWE-1.7少58%轮次、省81%成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 382 +11.9 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>GPT-6 Astra, looped transformers, and hidden reasoning</title>
-  <link>https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-f0e16fc229cb</guid>
-  <pubDate>Wed, 09 Sep 2026 14:37:47 +0000</pubDate>
+  <title>3万台无人车之后，这家公司盯上了城市级物理AI</title>
+  <link>https://www.qbitai.com/2026/09/487163.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-4b38da663654</guid>
+  <pubDate>Thu, 10 Sep 2026 11:41:33 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.9 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>GPT-6 Astra发布，ARC-AGI-3达99.9%（GPT-5.6仅7.8%），3D渲染与动画能力突出，可经Codex操控鼠标操作GUI软件。</p><p><strong>为什么重要</strong><br>模型从文本/CLI转向图形界面操作，独立评测显示编码优势有限；旧AGENTS.md、SKILL.md提示文件可能反而限制新模型。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 376 +11.9 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>九识9月10日在广州发布城市级物理AI战略，推出九识租车小程序，开放无人运力加盟。其RoboVan车队超3万台，覆盖300多城，运营2.5亿公里。</p><p><strong>为什么重要</strong><br>无人车从卖车转向卖运力，商业模式从设备销售变为按日/月/年租赁。行业竞争焦点从单车智驾能力转向城市级调度与运营平台。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/487163.html">量子位</a> · <a href="http://www.geekpark.net/news/370150">极客公园</a></small></p>]]></description>
 </item>
 <item>
-  <title>No Man's Sky Cosmos</title>
-  <link>https://www.nomanssky.com/cosmos-update/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-2b2fb3772090</guid>
-  <pubDate>Wed, 09 Sep 2026 15:47:42 +0000</pubDate>
+  <title>OpenAI这是拿千禧年难题当Benchmark刷啊。。。</title>
+  <link>https://www.qbitai.com/2026/09/487092.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-598f83d26dc0</guid>
+  <pubDate>Wed, 09 Sep 2026 21:16:34 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>《无人深空》更新Cosmos：星系加入前哨站、废弃货船、小行星带、异常点，固定坐标可重复访问；新增Infested Outposts生物恐怖玩法，需用Gravitino Coil清除病毒团块；拆解太空废船需保持残骸完整，避免连锁反应。</p><p><strong>为什么重要</strong><br>Hello Games用八年持续更新把随机生成改为固定可重访兴趣点，提升探索确定性；生物恐怖与精密拆解玩法向硬核生存倾斜，与近期《星空》等太空游戏竞争。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 329 +11.6 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI用约1万并行Agent、88小时攻克纳维-斯托克斯，耗1300亿输出Token；GPT-6 Astra再花17小时做Lean形式化。下一目标传为霍奇猜想，模型或名Aeon，8月28日起训。</p><p><strong>为什么重要</strong><br>AI公司把千禧年难题当Benchmark刷，与数学家抢优先权。Anthropic员工参与被要求除名，学术合作与公司竞争的边界被打破。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/487092.html">量子位</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>Quick Unreal Engine check on my Swamp Airboat.</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wc5juu/quick_unreal_engine_check_on_my_swamp_airboat/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-b0a3a5f96b6a</guid>
-  <pubDate>Thu, 10 Sep 2026 02:00:43 +0000</pubDate>
+  <title>Xbox to publish Kojima Productions' Physint after PlayStation ditches project</title>
+  <link>https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-ab63f001271c</guid>
+  <pubDate>Thu, 10 Sep 2026 07:34:19 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户展示沼泽气垫船资产：12K三角面，4K主贴图，512px trim sheet，5套皮肤，30种变体，在UE中测试模块化、材质和简单自发光控制。</p><p><strong>为什么重要</strong><br>模块化加trim sheet是中小团队控制资产量产的常见做法，30种变体靠材质参数切换而非独立模型，能压低包体和Draw Call。</p><p><strong>对你而言</strong><br>可借鉴其模块化+材质变体思路做武器/载具皮肤，但12K面加4K贴图对PVP同屏多单位偏重，需按LOD和实例化预算裁剪。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>UE 5.6 texture more bright when been imported?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wc7uij/ue_56_texture_more_bright_when_been_imported/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-b5dca12dad06</guid>
-  <pubDate>Thu, 10 Sep 2026 03:45:28 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5.6导入贴图后偏亮，用户发现需把Encoding Override改为sRGB，且每张贴图都要手动改。</p><p><strong>为什么重要</strong><br>默认编码与源文件色彩空间不匹配，批量导入流程被打断，影响所有美术资源入库效率。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「ue 5.」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>64 分</strong> · 3 家独立源报道 · 能用上的</p><p><strong>发生了什么</strong><br>PlayStation取消发行小岛秀夫谍战游戏Physint，Xbox接手。小岛团队花三个月找新伙伴，Xbox将同时支持Physint和OD-Knock，合作还延伸至影视。</p><p><strong>为什么重要</strong><br>Xbox本财年裁员3200人、砍掉IO Interactive的Project Fantasy等项目，却接手索尼弃掉的3A。发行方更替让独占格局生变。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / 命中「epic games」 +20</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project">Game Developer</a> · <a href="https://www.gamesindustry.biz/xbox-to-publish-kojima-productions-physint-after-it-unexpectedly-received-notice-from-playstation-that-it-would-cancel-the-project">GamesIndustry</a> · <a href="https://www.youxituoluo.com/534873.html">游戏陀螺</a></small></p>]]></description>
 </item>
 <item>
   <title>Epic Games Store to introduce age checks for R18+ games in Australia</title>
   <link>https://www.gamesindustry.biz/epic-games-store-to-introduce-age-checks-for-r18-games-in-australia</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-338c04b6cd26</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-338c04b6cd26</guid>
   <pubDate>Wed, 09 Sep 2026 17:24:25 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Epic商店9月9日起对澳玩家R18+游戏做年龄验证，走Kids Web Services，可选Yoti自拍、Stripe信用卡、Veriff证件，9月晚些加ConnectID银行验证。</p><p><strong>为什么重要</strong><br>澳在线安全法规迫使平台落地年龄门槛，Xbox上月已跟进，微软7月因英国OSA先行，Valve也为Steam英国加验证，合规成发行前置条件。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Fab Flash Sale – Up to 50% Off My Unreal Engine Tools</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wbr6ux/fab_flash_sale_up_to_50_off_my_unreal_engine_tools/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-2fd3ebf36d9c</guid>
-  <pubDate>Wed, 09 Sep 2026 16:54:37 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Fab闪购：Ali Shantia三款UE工具打折，SPA Material Baker V3降30%，Procedural Material Layers与UI Widget Builder各降50%。</p><p><strong>为什么重要</strong><br>材质烘焙与程序化分层工具降价，独立开发者和小团队可低成本补齐材质管线；UI工具打通PS到UMG流程。</p><p><strong>对你而言</strong><br>UI Widget Builder可省UMG搭建时间，但战斗HUD多为动态绑定，需评估其生成结构是否适配GAS属性驱动。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>I made a DND inspired animation in UE5 - here is my project breakdown video</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wbrddd/i_made_a_dnd_inspired_animation_in_ue5_here_is_my/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-f04b409218dd</guid>
-  <pubDate>Wed, 09 Sep 2026 17:01:02 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>36.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>作者在UE5里做了一段DND风格动画，一个月前发过短片，现发布完整制作解析视频。</p><p><strong>为什么重要</strong><br>个人动画流程公开，展示UE5在非游戏短片中的动画与渲染用法，对独立创作者有参考价值。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +2.4 / 命中「ue5」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>10 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Epic商店9月9日起对澳玩家R18+游戏做年龄验证，走KWS系统，可选Yoti自拍、Stripe信用卡、Veriff证件，9月晚些加ConnectID银行验证。</p><p><strong>为什么重要</strong><br>澳在线安全法规迫使平台落地年龄门槛，Xbox上月已跟进，微软7月英国、Valve英国也已实施，平台合规从英国扩至澳洲。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
   <title>AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome</title>
   <link>https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-55ea7e35824a</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-55ea7e35824a</guid>
   <pubDate>Tue, 08 Sep 2026 14:00:15 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>DeepMind发布AlphaGenome Atlas，含90亿单核苷酸变异预测，1PB数据，超AlphaFold库30倍，免费学术网站，含AVI评分和2500+DNA基序。</p><p><strong>为什么重要</strong><br>基因组变异解读从逐个实验转向全量预计算，罕见病与群体遗传研究获新工具，非编码区98%变异首次可大规模排序。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 592 +12.8 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/09/08/google-deepmind-releases-alphagenome-atlas-with-precomputed-molecular-effect-predictions-and-avi-scores-for-9-billion-human-dna-variants/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>32.8 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>DeepMind发布AlphaGenome Atlas，含90亿单核苷酸变异预测，1PB数据，是AlphaFold库30倍，免费学术门户，附AVI评分。</p><p><strong>为什么重要</strong><br>基因组变异解读从逐个实验转向全量预计算，非编码区98%也覆盖，罕见病与性状研究可直接排序候选变异。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / HN 598 +12.8 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/">DeepMind</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/">Hacker News</a></small></p>]]></description>
 </item>
 <item>
   <title>Introducing ChatGPT Images 2.5</title>
   <link>https://openai.com/index/introducing-chatgpt-images-2-5</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-d5bb809ff407</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-d5bb809ff407</guid>
   <pubDate>Tue, 08 Sep 2026 11:30:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布ChatGPT Images 2.5，延迟较2.0降低最多50%，API推出GPT-Image-2.5 Flare与Sunburst两模型，新增Sketch手绘参考、模板、图片评论功能。</p><p><strong>为什么重要</strong><br>图像生成进入多轮精修阶段，编辑一致性和参考图保真度成竞争点，3亿周生成量说明创作工作流已被大规模采用。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-chatgpt-images-2-5">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">Simon Willison</a></small></p>]]></description>
-</item>
-<item>
-  <title>Introducing CUDA Rust: Two Tracks for Writing GPU Kernels</title>
-  <link>https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-10-5cdbccaccc9e</guid>
-  <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>英伟达2026年9月推出CUDA Rust，两条路线：SIMT沿用CUDA C++模型，Tile由Tile IR编译器自动映射架构。cuda-oxide是rustc自定义codegen后端，经Rust MIR、Pliron IR、LLVM IR编译到PTX，需Linux、算力8.0+、CUDA 12.x+、nightly-2026-04-03。</p><p><strong>为什么重要</strong><br>此前Rust只能启动kernel，kernel本身须用C++或Python写。现在kernel可原生编译到PTX，且Tile路线不把架构选择写进源码。Nova驱动、Dynamo、NVTX已用Rust，GPU kernel是最后缺口。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS、动画蓝图、网络同步、性能优化都在CPU侧，不涉及GPU kernel编写。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/">MarkTechPost</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>24 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布ChatGPT Images 2.5，延迟较2.0降低50%，周生成超30亿张。API新增Flare与Sunburst两模型，支持多轮编辑一致性与透明背景。</p><p><strong>为什么重要</strong><br>图像生成进入多轮编辑保真阶段，参考图与局部修改更可靠。设计、营销、电商素材生产流程被压缩，API工作流可替代部分人工修图。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-chatgpt-images-2-5">OpenAI</a> · <a href="https://www.qbitai.com/2026/09/486684.html">量子位</a> · <a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">Simon Willison</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
