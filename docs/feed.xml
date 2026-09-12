@@ -4,73 +4,81 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 208 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 219 个事件，只有 9 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 11 Sep 2026 12:58:14 +0800</lastBuildDate>
+<lastBuildDate>Sat, 12 Sep 2026 12:50:59 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Paul Christiano joins OpenAI Foundation Board</title>
-  <link>https://openai.com/index/paul-christiano-joins-openai-foundation-board</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-2c3fbf9fdc31</guid>
-  <pubDate>Wed, 09 Sep 2026 17:00:00 +0000</pubDate>
+  <title>Ask HN: Can we please limit the AI news flood?</title>
+  <link>https://news.ycombinator.com/item?id=49657850</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-12-19bc040bbfd8</guid>
+  <pubDate>Fri, 11 Sep 2026 13:11:04 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Paul Christiano加入OpenAI基金会董事会，任无投票权观察员，并进安全与安全委员会，与主席Zico Kolter共事。他曾在NIST的CAISI任高级技术顾问，2017-2021在OpenAI领导对齐研究，是RLHF奠基人之一。</p><p><strong>为什么重要</strong><br>OpenAI 2025年10月重组后，基金会控制PBC，SSC统管全公司安全治理。Christiano以独立批评者身份进入，强化外部制衡，回应加州与特拉华州总检察长一年审查的承诺。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/paul-christiano-joins-openai-foundation-board">OpenAI</a> · <a href="https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>41.3 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>HN用户抱怨近两月首页几乎全是AI新闻，非AI硬核内容零曝光。举例联想固态风冷笔记本、Brax开源Home Assistant墙屏被淹没。建议YC加标签过滤或人工加权。</p><p><strong>为什么重要</strong><br>技术社区信息流被AI话题垄断，非AI创新项目失去讨论土壤。HN作为行业风向标，其内容失衡反映AI资本与注意力虹吸效应。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 761 +13.3 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra</title>
-  <link>https://cognition.com/blog/swe-2</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-ad113e76ca6b</guid>
-  <pubDate>Thu, 10 Sep 2026 15:29:47 +0000</pubDate>
+  <title>Claude is only available to people over 18 years</title>
+  <link>https://support.claude.com/en/articles/15171100-age-assurance-on-claude</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-12-691c97ea37af</guid>
+  <pubDate>Fri, 11 Sep 2026 10:48:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.9 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Cognition发布SWE-2编码模型，基于2.8T参数Kimi K33后训练，FrontierCode 1.1得50.0%，比Fable 5.1便宜64%，首次将RL扩展到万亿参数级。</p><p><strong>为什么重要</strong><br>编码模型竞争转向成本-性能帕累托前沿，单次RL训练覆盖全部推理档位，SWE-2 medium比SWE-1.7少58%轮次、省81%成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 382 +11.9 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 规定 Claude 消费端仅限 18 岁以上，注册需确认年龄；系统检测到未成年迹象会停用账号，用户可通过 Yoti 做面部年龄估计、证件核验或数字 ID 验证，Anthropic 只收到通过/不通过结果。</p><p><strong>为什么重要</strong><br>AI 消费产品首次大规模引入第三方年龄验证闸门，Yoti 按 SOC2 审计、验证后即删自拍与证件，合规成本转嫁给身份验证服务商，其他 AI 助手可能跟进。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 604 +12.8 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>3万台无人车之后，这家公司盯上了城市级物理AI</title>
-  <link>https://www.qbitai.com/2026/09/487163.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-4b38da663654</guid>
-  <pubDate>Thu, 10 Sep 2026 11:41:33 +0000</pubDate>
+  <title>Making a Recreation of Dr. Doom Using Unreal Engine and ZBrush</title>
+  <link>https://80.lv/articles/making-a-recreation-of-dr-doom-using-unreal-engine-and-zbrush/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-12-e7c638d1107a</guid>
+  <pubDate>Fri, 11 Sep 2026 19:39:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>九识9月10日在广州发布城市级物理AI战略，推出九识租车小程序，开放无人运力加盟。其RoboVan车队超3万台，覆盖300多城，运营2.5亿公里。</p><p><strong>为什么重要</strong><br>无人车从卖车转向卖运力，商业模式从设备销售变为按日/月/年租赁。行业竞争焦点从单车智驾能力转向城市级调度与运营平台。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/487163.html">量子位</a> · <a href="http://www.geekpark.net/news/370150">极客公园</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 今日必读</p><p><strong>发生了什么</strong><br>Rocksteady高级角色师用MetaHuman做脸、ZBrush+Marvelous Designer做服装、Substance 3D Painter做材质，重建毁灭博士。</p><p><strong>为什么重要</strong><br>展示MetaHuman可导入ZBrush改形再回写，布料分层与磨损叙事成为角色写实新标准。</p><p><strong>对你而言</strong><br>可借鉴MetaHuman与ZBrush往返流程做受击面部变形，服装分层与磨损思路用于角色皮肤材质。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>OpenAI这是拿千禧年难题当Benchmark刷啊。。。</title>
-  <link>https://www.qbitai.com/2026/09/487092.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-598f83d26dc0</guid>
-  <pubDate>Wed, 09 Sep 2026 21:16:34 +0000</pubDate>
+  <title>After months of fighting with Unreal's editor, my C++ camera animation system is finally live on Fab! (Phantom Camera Motion)</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wdm4h7/after_months_of_fighting_with_unreals_editor_my_c/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-12-7ce03d2710c6</guid>
+  <pubDate>Fri, 11 Sep 2026 17:04:47 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI用约1万并行Agent、88小时攻克纳维-斯托克斯，耗1300亿输出Token；GPT-6 Astra再花17小时做Lean形式化。下一目标传为霍奇猜想，模型或名Aeon，8月28日起训。</p><p><strong>为什么重要</strong><br>AI公司把千禧年难题当Benchmark刷，与数学家抢优先权。Anthropic员工参与被要求除名，学术合作与公司竞争的边界被打破。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/487092.html">量子位</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes">The Verge AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 今日必读</p><p><strong>发生了什么</strong><br>UE5 自定义相机动画系统 Phantom Camera Motion 上架 Fab，含自定义编辑器、自定义 Sequencer 轨道与配套工具，作者称编辑器部分耗时数月。</p><p><strong>为什么重要</strong><br>相机动画长期靠手写 C++ 或第三方插件，Sequencer 原生轨道对相机控制有限；独立开发者把编辑器工具做成商品，说明 UE 工具链生态在细化。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「unreal」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Unreal Asset Manager</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wdzmv4/unreal_asset_manager/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-12-2d6ac1bfea53</guid>
+  <pubDate>Sat, 12 Sep 2026 02:01:58 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>AssetHoard桌面工具新增UE支持，可索引.uasset文件，支持80+格式，本地运行无需账号云同步。</p><p><strong>为什么重要</strong><br>解决UE资产在磁盘上不透明的问题，无需启动编辑器即可查看旧项目或市场包内容。</p><p><strong>对你而言</strong><br>可快速盘点项目资产，省去开编辑器查资源的时间，适合管理大量技能动画资产。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「unreal」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>I spent nearly a year building a complete skateboarding framework in Unreal Engine. It's finally finished!</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wdrhpn/i_spent_nearly_a_year_building_a_complete/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-12-3b955b6b0ee9</guid>
+  <pubDate>Fri, 11 Sep 2026 20:17:35 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>一位有22年滑板经验的开发者，用近一年在UE里做出完整滑板框架。从磨杆系统起步，扩展到过渡几何、重力方向切换、空中跟坡、落地对齐。</p><p><strong>为什么重要</strong><br>滑板系统罕见，因涉及非标准重力与复杂地形交互。该框架公开了这些难题的实现路径，对做特殊移动机制的人有参考价值。</p><p><strong>对你而言</strong><br>重力方向切换与落地对齐可借鉴到武侠的轻功、壁走、空中连招。过渡几何处理思路适合斜坡与屋檐战斗的位移同步。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>From Java to Unreal</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wdkacf/from_java_to_unreal/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-12-bb9a64739f09</guid>
+  <pubDate>Fri, 11 Sep 2026 15:58:57 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者把 Java 手机游戏《Nowhere》的代码逻辑完整移植到 Unreal，并重建原版场景。</p><p><strong>为什么重要</strong><br>J2ME 时代作品靠逆向与重写进入现代引擎，说明老逻辑可脱离原平台复用。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>DLSS 5 Plugin for UE5</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1we0l9c/dlss_5_plugin_for_ue5/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-12-077c0fd85ad8</guid>
+  <pubDate>Sat, 12 Sep 2026 02:47:51 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者发布UE5用DLSS 5插件，GitHub开源，标注实验性，作者praveenkumarappu，邀测试反馈。</p><p><strong>为什么重要</strong><br>DLSS 5上UE5尚无官方集成，社区插件先行，降低试用门槛，但实验版稳定性未知。</p><p><strong>对你而言</strong><br>可评估其超分与帧生成对PVP帧率与延迟的影响，注意网络同步下画面插帧可能加剧手感偏差。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「ue5」 +20</small></p>]]></description>
 </item>
 <item>
   <title>Xbox to publish Kojima Productions' Physint after PlayStation ditches project</title>
   <link>https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-ab63f001271c</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-12-ab63f001271c</guid>
   <pubDate>Thu, 10 Sep 2026 07:34:19 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>64 分</strong> · 3 家独立源报道 · 能用上的</p><p><strong>发生了什么</strong><br>PlayStation取消发行小岛秀夫谍战游戏Physint，Xbox接手。小岛团队花三个月找新伙伴，Xbox将同时支持Physint和OD-Knock，合作还延伸至影视。</p><p><strong>为什么重要</strong><br>Xbox本财年裁员3200人、砍掉IO Interactive的Project Fantasy等项目，却接手索尼弃掉的3A。发行方更替让独占格局生变。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / 命中「epic games」 +20</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project">Game Developer</a> · <a href="https://www.gamesindustry.biz/xbox-to-publish-kojima-productions-physint-after-it-unexpectedly-received-notice-from-playstation-that-it-would-cancel-the-project">GamesIndustry</a> · <a href="https://www.youxituoluo.com/534873.html">游戏陀螺</a></small></p>]]></description>
-</item>
-<item>
-  <title>Epic Games Store to introduce age checks for R18+ games in Australia</title>
-  <link>https://www.gamesindustry.biz/epic-games-store-to-introduce-age-checks-for-r18-games-in-australia</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-338c04b6cd26</guid>
-  <pubDate>Wed, 09 Sep 2026 17:24:25 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>10 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>Epic商店9月9日起对澳玩家R18+游戏做年龄验证，走KWS系统，可选Yoti自拍、Stripe信用卡、Veriff证件，9月晚些加ConnectID银行验证。</p><p><strong>为什么重要</strong><br>澳在线安全法规迫使平台落地年龄门槛，Xbox上月已跟进，微软7月英国、Valve英国也已实施，平台合规从英国扩至澳洲。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome</title>
-  <link>https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-55ea7e35824a</guid>
-  <pubDate>Tue, 08 Sep 2026 14:00:15 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>32.8 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>DeepMind发布AlphaGenome Atlas，含90亿单核苷酸变异预测，1PB数据，是AlphaFold库30倍，免费学术门户，附AVI评分。</p><p><strong>为什么重要</strong><br>基因组变异解读从逐个实验转向全量预计算，非编码区98%也覆盖，罕见病与性状研究可直接排序候选变异。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / HN 598 +12.8 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/">DeepMind</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>Introducing ChatGPT Images 2.5</title>
-  <link>https://openai.com/index/introducing-chatgpt-images-2-5</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-11-d5bb809ff407</guid>
-  <pubDate>Tue, 08 Sep 2026 11:30:00 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>24 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布ChatGPT Images 2.5，延迟较2.0降低50%，周生成超30亿张。API新增Flare与Sunburst两模型，支持多轮编辑一致性与透明背景。</p><p><strong>为什么重要</strong><br>图像生成进入多轮编辑保真阶段，参考图与局部修改更可靠。设计、营销、电商素材生产流程被压缩，API工作流可替代部分人工修图。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-chatgpt-images-2-5">OpenAI</a> · <a href="https://www.qbitai.com/2026/09/486684.html">量子位</a> · <a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">Simon Willison</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>PlayStation取消发行小岛工作室Physint，Xbox接手。小岛称三个月内寻找新伙伴，Xbox将同时支持Physint和OD-Knock，并拓展影视合作。</p><p><strong>为什么重要</strong><br>Xbox本财年裁员3200人、砍项目，却接手被PS放弃的3A。发行方更替反映平台收缩与创作者议价权变化。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project">Game Developer</a> · <a href="https://www.gamesindustry.biz/xbox-to-publish-kojima-productions-physint-after-it-unexpectedly-received-notice-from-playstation-that-it-would-cancel-the-project">GamesIndustry</a></small></p>]]></description>
 </item>
 </channel>
 </rss>

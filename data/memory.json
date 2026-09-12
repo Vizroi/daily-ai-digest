@@ -5,29 +5,11 @@
     "times": 2,
     "last_seen": "2026-08-29"
   },
-  "9cfd64032e51b636": {
-    "title": "The Hugging Face incident and the road ahead",
-    "first_seen": "2026-08-27",
-    "times": 2,
-    "last_seen": "2026-08-28"
-  },
-  "c4907f6d0652fd4f": {
-    "title": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding",
-    "first_seen": "2026-08-28",
-    "times": 1,
-    "last_seen": "2026-08-28"
-  },
   "3a5861a212c5a497": {
     "title": "Intelligent transcription with Gemini 3.5 Transcribe",
     "first_seen": "2026-08-28",
     "times": 2,
     "last_seen": "2026-08-29"
-  },
-  "b9255bccd5b890ec": {
-    "title": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
-    "first_seen": "2026-08-28",
-    "times": 1,
-    "last_seen": "2026-08-28"
   },
   "789c9df811b8a9f2": {
     "title": "Gemini Omni 1.1 Flash lets you build with more control",
@@ -35,35 +17,11 @@
     "times": 3,
     "last_seen": "2026-08-30"
   },
-  "391c2cb26e07a393": {
-    "title": "Rockstar formed a new LA-based team to develop more realistic NPCs for Grand Theft Auto 6",
-    "first_seen": "2026-08-28",
-    "times": 1,
-    "last_seen": "2026-08-28"
-  },
-  "4e0d3d7fbccaf588": {
-    "title": "Oddly Satisfying Deforming Pillow In Soulslike 3D Platformer",
-    "first_seen": "2026-08-28",
-    "times": 1,
-    "last_seen": "2026-08-28"
-  },
   "4cf952bfdb733b80": {
     "title": "City Sample gets a major update with PCG and Unreal MCP workflows",
     "first_seen": "2026-08-28",
     "times": 2,
     "last_seen": "2026-08-29"
-  },
-  "fc85e64ab863342a": {
-    "title": "POM Shader That Achieves Nanite-Like Displacement At Lower Cost",
-    "first_seen": "2026-08-28",
-    "times": 1,
-    "last_seen": "2026-08-28"
-  },
-  "930ee8fffc61dbd0": {
-    "title": "Building a Procedural Shell Grotto with Substance 3D Designer & Unreal Engine",
-    "first_seen": "2026-08-28",
-    "times": 1,
-    "last_seen": "2026-08-28"
   },
   "11d61a2dd6f2274f": {
     "title": "Qwen3.8-Flash-Next",
@@ -578,7 +536,55 @@
   "ab63f001271c5973": {
     "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
     "first_seen": "2026-09-11",
+    "times": 2,
+    "last_seen": "2026-09-12"
+  },
+  "19bc040bbfd85537": {
+    "title": "Ask HN: Can we please limit the AI news flood?",
+    "first_seen": "2026-09-12",
     "times": 1,
-    "last_seen": "2026-09-11"
+    "last_seen": "2026-09-12"
+  },
+  "691c97ea37af7a9a": {
+    "title": "Claude is only available to people over 18 years",
+    "first_seen": "2026-09-12",
+    "times": 1,
+    "last_seen": "2026-09-12"
+  },
+  "e7c638d1107adefe": {
+    "title": "Making a Recreation of Dr. Doom Using Unreal Engine and ZBrush",
+    "first_seen": "2026-09-12",
+    "times": 1,
+    "last_seen": "2026-09-12"
+  },
+  "7ce03d2710c65ef5": {
+    "title": "After months of fighting with Unreal's editor, my C++ camera animation system is finally live on Fab! (Phantom Camera Motion)",
+    "first_seen": "2026-09-12",
+    "times": 1,
+    "last_seen": "2026-09-12"
+  },
+  "2d6ac1bfea53dc55": {
+    "title": "Unreal Asset Manager",
+    "first_seen": "2026-09-12",
+    "times": 1,
+    "last_seen": "2026-09-12"
+  },
+  "3b955b6b0ee96d8c": {
+    "title": "I spent nearly a year building a complete skateboarding framework in Unreal Engine. It's finally finished!",
+    "first_seen": "2026-09-12",
+    "times": 1,
+    "last_seen": "2026-09-12"
+  },
+  "bb9a64739f090f18": {
+    "title": "From Java to Unreal",
+    "first_seen": "2026-09-12",
+    "times": 1,
+    "last_seen": "2026-09-12"
+  },
+  "077c0fd85ad80476": {
+    "title": "DLSS 5 Plugin for UE5",
+    "first_seen": "2026-09-12",
+    "times": 1,
+    "last_seen": "2026-09-12"
   }
 }
