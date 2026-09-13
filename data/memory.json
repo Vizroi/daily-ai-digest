@@ -1,33 +1,9 @@
 {
-  "2d573c144c03a633": {
-    "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-    "first_seen": "2026-08-27",
-    "times": 2,
-    "last_seen": "2026-08-29"
-  },
-  "3a5861a212c5a497": {
-    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-    "first_seen": "2026-08-28",
-    "times": 2,
-    "last_seen": "2026-08-29"
-  },
   "789c9df811b8a9f2": {
     "title": "Gemini Omni 1.1 Flash lets you build with more control",
     "first_seen": "2026-08-28",
     "times": 3,
     "last_seen": "2026-08-30"
-  },
-  "4cf952bfdb733b80": {
-    "title": "City Sample gets a major update with PCG and Unreal MCP workflows",
-    "first_seen": "2026-08-28",
-    "times": 2,
-    "last_seen": "2026-08-29"
-  },
-  "11d61a2dd6f2274f": {
-    "title": "Qwen3.8-Flash-Next",
-    "first_seen": "2026-08-29",
-    "times": 1,
-    "last_seen": "2026-08-29"
   },
   "a3dacaf4d7384522": {
     "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
@@ -41,29 +17,11 @@
     "times": 2,
     "last_seen": "2026-08-30"
   },
-  "4faa986e015ed72d": {
-    "title": "GLM-5.3 is now open-weight",
-    "first_seen": "2026-08-29",
-    "times": 1,
-    "last_seen": "2026-08-29"
-  },
-  "0b36c07848fe14cc": {
-    "title": "Get your Windows license refund",
-    "first_seen": "2026-08-29",
-    "times": 1,
-    "last_seen": "2026-08-29"
-  },
   "fbbc9d0686c81522": {
     "title": "Interview: How Mistfall Hunter Blends Soulslike Combat with Dark Fantasy RPG Extraction Mechanics",
     "first_seen": "2026-08-29",
     "times": 2,
     "last_seen": "2026-08-30"
-  },
-  "cae5d1c115b26fe3": {
-    "title": "High-Performance Fog & VFX Toolset For UE5",
-    "first_seen": "2026-08-29",
-    "times": 1,
-    "last_seen": "2026-08-29"
   },
   "28263fb9db830ad7": {
     "title": "Introducing Hy4 Preview",
@@ -536,8 +494,8 @@
   "ab63f001271c5973": {
     "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
     "first_seen": "2026-09-11",
-    "times": 2,
-    "last_seen": "2026-09-12"
+    "times": 3,
+    "last_seen": "2026-09-13"
   },
   "19bc040bbfd85537": {
     "title": "Ask HN: Can we please limit the AI news flood?",
@@ -566,8 +524,8 @@
   "2d6ac1bfea53dc55": {
     "title": "Unreal Asset Manager",
     "first_seen": "2026-09-12",
-    "times": 1,
-    "last_seen": "2026-09-12"
+    "times": 2,
+    "last_seen": "2026-09-13"
   },
   "3b955b6b0ee96d8c": {
     "title": "I spent nearly a year building a complete skateboarding framework in Unreal Engine. It's finally finished!",
@@ -586,5 +544,53 @@
     "first_seen": "2026-09-12",
     "times": 1,
     "last_seen": "2026-09-12"
+  },
+  "13ce17e3e1ccb6f0": {
+    "title": "OpenAI年内不上市了！奥特曼支持对手Dario呼吁：AI该踩刹车了",
+    "first_seen": "2026-09-13",
+    "times": 1,
+    "last_seen": "2026-09-13"
+  },
+  "2c5c930f203f58c2": {
+    "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+    "first_seen": "2026-09-13",
+    "times": 1,
+    "last_seen": "2026-09-13"
+  },
+  "f4945d88f444224f": {
+    "title": "Rockstar and fired GTA developers outline core arguments during union busting tribunal",
+    "first_seen": "2026-09-13",
+    "times": 1,
+    "last_seen": "2026-09-13"
+  },
+  "1374d41637268187": {
+    "title": "google.com/goto: Google's anti-scraping update",
+    "first_seen": "2026-09-13",
+    "times": 1,
+    "last_seen": "2026-09-13"
+  },
+  "78d537e49dcf861d": {
+    "title": "Cognition Releases SWE-2: A Kimi K3 Post-Trained Coding Model That Matches Fable 5.1 on FrontierCode at 64% Lower Cost",
+    "first_seen": "2026-09-13",
+    "times": 1,
+    "last_seen": "2026-09-13"
+  },
+  "f64439a46ad24d96": {
+    "title": "Optimization question for programmers - engineers - tech artists that have shipped UE5 projects.",
+    "first_seen": "2026-09-13",
+    "times": 1,
+    "last_seen": "2026-09-13"
+  },
+  "f5c723a446f1f240": {
+    "title": "Unreal 5.8 - Materials Masterclass - Chapter 7: Material Instances & Custom Nodes",
+    "first_seen": "2026-09-13",
+    "times": 1,
+    "last_seen": "2026-09-13"
+  },
+  "2b00fb08bc57f61d": {
+    "title": "Retargeting metahuman to ALS community version",
+    "first_seen": "2026-09-13",
+    "times": 1,
+    "last_seen": "2026-09-13"
   }
 }
