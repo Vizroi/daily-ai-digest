@@ -1,51 +1,9 @@
 {
-  "789c9df811b8a9f2": {
-    "title": "Gemini Omni 1.1 Flash lets you build with more control",
-    "first_seen": "2026-08-28",
-    "times": 3,
-    "last_seen": "2026-08-30"
-  },
-  "a3dacaf4d7384522": {
-    "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
-    "first_seen": "2026-08-29",
-    "times": 2,
-    "last_seen": "2026-08-30"
-  },
-  "46535e43f915e56c": {
-    "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
-    "first_seen": "2026-08-29",
-    "times": 2,
-    "last_seen": "2026-08-30"
-  },
-  "fbbc9d0686c81522": {
-    "title": "Interview: How Mistfall Hunter Blends Soulslike Combat with Dark Fantasy RPG Extraction Mechanics",
-    "first_seen": "2026-08-29",
-    "times": 2,
-    "last_seen": "2026-08-30"
-  },
   "28263fb9db830ad7": {
     "title": "Introducing Hy4 Preview",
     "first_seen": "2026-08-30",
     "times": 2,
     "last_seen": "2026-09-01"
-  },
-  "1ef7274c09edb1ad": {
-    "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
-    "first_seen": "2026-08-30",
-    "times": 1,
-    "last_seen": "2026-08-30"
-  },
-  "3bfb42ddf065866b": {
-    "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
-    "first_seen": "2026-08-30",
-    "times": 1,
-    "last_seen": "2026-08-30"
-  },
-  "950919426295d639": {
-    "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
-    "first_seen": "2026-08-30",
-    "times": 1,
-    "last_seen": "2026-08-30"
   },
   "64a3d1a7cbe07c53": {
     "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
@@ -512,8 +470,8 @@
   "e7c638d1107adefe": {
     "title": "Making a Recreation of Dr. Doom Using Unreal Engine and ZBrush",
     "first_seen": "2026-09-12",
-    "times": 1,
-    "last_seen": "2026-09-12"
+    "times": 2,
+    "last_seen": "2026-09-14"
   },
   "7ce03d2710c65ef5": {
     "title": "After months of fighting with Unreal's editor, my C++ camera animation system is finally live on Fab! (Phantom Camera Motion)",
@@ -592,5 +550,35 @@
     "first_seen": "2026-09-13",
     "times": 1,
     "last_seen": "2026-09-13"
+  },
+  "501a5d208cf31831": {
+    "title": "奥特曼被骗！A社一脚油门冲刺IPO，募资叫板SpaceX",
+    "first_seen": "2026-09-14",
+    "times": 1,
+    "last_seen": "2026-09-14"
+  },
+  "68c1e79e8a0f471f": {
+    "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
+    "first_seen": "2026-09-14",
+    "times": 1,
+    "last_seen": "2026-09-14"
+  },
+  "8246555b2b4092fa": {
+    "title": "Make your first edit to OpenStreetMap",
+    "first_seen": "2026-09-14",
+    "times": 1,
+    "last_seen": "2026-09-14"
+  },
+  "8ec585cb348fb191": {
+    "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+    "first_seen": "2026-09-14",
+    "times": 1,
+    "last_seen": "2026-09-14"
+  },
+  "15bc1ddf5606da0f": {
+    "title": "GrapheneOS' rewritten Messages app is released",
+    "first_seen": "2026-09-14",
+    "times": 1,
+    "last_seen": "2026-09-14"
   }
 }
