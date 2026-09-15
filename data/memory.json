@@ -5,48 +5,6 @@
     "times": 2,
     "last_seen": "2026-09-01"
   },
-  "64a3d1a7cbe07c53": {
-    "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
-    "first_seen": "2026-08-31",
-    "times": 1,
-    "last_seen": "2026-08-31"
-  },
-  "27949aa51f343273": {
-    "title": "I accidentally turned LLM memory into program analysis",
-    "first_seen": "2026-08-31",
-    "times": 1,
-    "last_seen": "2026-08-31"
-  },
-  "fcdb11ed04384957": {
-    "title": "What UE5 performance checks do you run before adding more content?",
-    "first_seen": "2026-08-31",
-    "times": 1,
-    "last_seen": "2026-08-31"
-  },
-  "cf84f5262cc25ec8": {
-    "title": "My foliage looking too dark ( speedtree to unreal 5.6 )",
-    "first_seen": "2026-08-31",
-    "times": 1,
-    "last_seen": "2026-08-31"
-  },
-  "18b2b4da02823485": {
-    "title": "Would it be feasible/possible to build a multiplayer game (dedicated servers) in UE3?",
-    "first_seen": "2026-08-31",
-    "times": 1,
-    "last_seen": "2026-08-31"
-  },
-  "c57ac10fb9119ca9": {
-    "title": "Open-source Linux webcam capture + CUDA MetaHuman face solving for Unreal Engine 5.8",
-    "first_seen": "2026-08-31",
-    "times": 1,
-    "last_seen": "2026-08-31"
-  },
-  "8a75971ce8893a39": {
-    "title": "Coin Flip [2 Methods] - Unreal Engine Minigame Tutorial",
-    "first_seen": "2026-08-31",
-    "times": 1,
-    "last_seen": "2026-08-31"
-  },
   "b88ea2c3411fc5b5": {
     "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
     "first_seen": "2026-09-01",
@@ -560,8 +518,8 @@
   "68c1e79e8a0f471f": {
     "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
     "first_seen": "2026-09-14",
-    "times": 1,
-    "last_seen": "2026-09-14"
+    "times": 2,
+    "last_seen": "2026-09-15"
   },
   "8246555b2b4092fa": {
     "title": "Make your first edit to OpenStreetMap",
@@ -580,5 +538,59 @@
     "first_seen": "2026-09-14",
     "times": 1,
     "last_seen": "2026-09-14"
+  },
+  "1963ade51d6f6dd2": {
+    "title": "Rockstar and IWGB outline arguments at start of tribunal",
+    "first_seen": "2026-09-15",
+    "times": 1,
+    "last_seen": "2026-09-15"
+  },
+  "d80e71d820d0602d": {
+    "title": "Valve's Steam Frame pricing starts at $1,059",
+    "first_seen": "2026-09-15",
+    "times": 1,
+    "last_seen": "2026-09-15"
+  },
+  "dfbbdbdb283518af": {
+    "title": "New StarCraft title to launch in 2030, will be an open-world FPS",
+    "first_seen": "2026-09-15",
+    "times": 1,
+    "last_seen": "2026-09-15"
+  },
+  "b7270cb4e4af125c": {
+    "title": "Moss developer Polyarc has shut down",
+    "first_seen": "2026-09-15",
+    "times": 1,
+    "last_seen": "2026-09-15"
+  },
+  "d216c8704d161f9d": {
+    "title": "Reminder: If anyone messages you from the Unreal Engine discord out of the blue presenting themselves as looking for work, they’re 100% scammers.",
+    "first_seen": "2026-09-15",
+    "times": 1,
+    "last_seen": "2026-09-15"
+  },
+  "20a08a841609a1cb": {
+    "title": "Any good channels to watch for Unreal Animation/Sequencer How-To's outside of Documentation?",
+    "first_seen": "2026-09-15",
+    "times": 1,
+    "last_seen": "2026-09-15"
+  },
+  "25c8208776553d5c": {
+    "title": "Steam Integration for Unreal Engine - now with Multiplayer and Voice Chat",
+    "first_seen": "2026-09-15",
+    "times": 1,
+    "last_seen": "2026-09-15"
+  },
+  "e39fd99f427bc96c": {
+    "title": "Last Week In Unreal: 727 commits on ue6-main; 127 on ue5-main | Two cache invalidations hiding in plain sight",
+    "first_seen": "2026-09-15",
+    "times": 1,
+    "last_seen": "2026-09-15"
+  },
+  "f59eebe808cfd66c": {
+    "title": "I made Nine Slicing in Unreal easier to reason about",
+    "first_seen": "2026-09-15",
+    "times": 1,
+    "last_seen": "2026-09-15"
   }
 }
