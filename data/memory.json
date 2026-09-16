@@ -1,51 +1,9 @@
 {
-  "28263fb9db830ad7": {
-    "title": "Introducing Hy4 Preview",
-    "first_seen": "2026-08-30",
-    "times": 2,
-    "last_seen": "2026-09-01"
-  },
   "b88ea2c3411fc5b5": {
     "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
     "first_seen": "2026-09-01",
     "times": 2,
     "last_seen": "2026-09-02"
-  },
-  "a64e38a62cca88d4": {
-    "title": "Breaking Claude Code Opus 5 Auto Mode",
-    "first_seen": "2026-09-01",
-    "times": 1,
-    "last_seen": "2026-09-01"
-  },
-  "907b05ed892468ad": {
-    "title": "OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元",
-    "first_seen": "2026-09-01",
-    "times": 1,
-    "last_seen": "2026-09-01"
-  },
-  "224c0e7a8ea9b6c4": {
-    "title": "Last Week In Unreal: Aug 24 to 30 | 918 commits on ue6-main and 174 on ue5-main | Same bug fix with two different outcomes?",
-    "first_seen": "2026-09-01",
-    "times": 1,
-    "last_seen": "2026-09-01"
-  },
-  "32312345e50abd07": {
-    "title": "Cup Shuffle / Find the Ball - Unreal Engine Minigame Tutorial",
-    "first_seen": "2026-09-01",
-    "times": 1,
-    "last_seen": "2026-09-01"
-  },
-  "729416bfaee0f56b": {
-    "title": "California Coastal Environment & Landscape Pack in UE5",
-    "first_seen": "2026-09-01",
-    "times": 1,
-    "last_seen": "2026-09-01"
-  },
-  "4f216e60ecbda917": {
-    "title": "How to handle Epic Games Launcher being sooooo slow?",
-    "first_seen": "2026-09-01",
-    "times": 1,
-    "last_seen": "2026-09-01"
   },
   "d9248274550ab1b0": {
     "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
@@ -548,8 +506,8 @@
   "d80e71d820d0602d": {
     "title": "Valve's Steam Frame pricing starts at $1,059",
     "first_seen": "2026-09-15",
-    "times": 1,
-    "last_seen": "2026-09-15"
+    "times": 2,
+    "last_seen": "2026-09-16"
   },
   "dfbbdbdb283518af": {
     "title": "New StarCraft title to launch in 2030, will be an open-world FPS",
@@ -592,5 +550,41 @@
     "first_seen": "2026-09-15",
     "times": 1,
     "last_seen": "2026-09-15"
+  },
+  "7d4a63590061c18a": {
+    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "first_seen": "2026-09-16",
+    "times": 1,
+    "last_seen": "2026-09-16"
+  },
+  "d9a7646de0f36e33": {
+    "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+    "first_seen": "2026-09-16",
+    "times": 1,
+    "last_seen": "2026-09-16"
+  },
+  "04a6a8cf0f0ab732": {
+    "title": "Introducing System One Models and Jev",
+    "first_seen": "2026-09-16",
+    "times": 1,
+    "last_seen": "2026-09-16"
+  },
+  "80716586e99b4100": {
+    "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+    "first_seen": "2026-09-16",
+    "times": 1,
+    "last_seen": "2026-09-16"
+  },
+  "4cadc57cb839f6df": {
+    "title": "Roblox will allow devs to release games as standalone apps on other stores",
+    "first_seen": "2026-09-16",
+    "times": 1,
+    "last_seen": "2026-09-16"
+  },
+  "664755a154ce5e68": {
+    "title": "Solo Developer on Recreating the Late-'90s Console Shooter Enemy AI for an FPS",
+    "first_seen": "2026-09-16",
+    "times": 1,
+    "last_seen": "2026-09-16"
   }
 }
