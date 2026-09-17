@@ -1,39 +1,9 @@
 {
-  "b88ea2c3411fc5b5": {
-    "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
-    "first_seen": "2026-09-01",
-    "times": 2,
-    "last_seen": "2026-09-02"
-  },
   "d9248274550ab1b0": {
     "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
     "first_seen": "2026-09-02",
     "times": 2,
     "last_seen": "2026-09-03"
-  },
-  "e285558904c8122c": {
-    "title": "李飞飞发布：全球首个多模态世界模型",
-    "first_seen": "2026-09-02",
-    "times": 1,
-    "last_seen": "2026-09-02"
-  },
-  "21c149f358fe69f5": {
-    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-    "first_seen": "2026-09-02",
-    "times": 1,
-    "last_seen": "2026-09-02"
-  },
-  "f6bd4290d87d454f": {
-    "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
-    "first_seen": "2026-09-02",
-    "times": 1,
-    "last_seen": "2026-09-02"
-  },
-  "987b071c8bdbbdc9": {
-    "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
-    "first_seen": "2026-09-02",
-    "times": 1,
-    "last_seen": "2026-09-02"
   },
   "5c76adef4abda66e": {
     "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
@@ -554,8 +524,8 @@
   "7d4a63590061c18a": {
     "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
     "first_seen": "2026-09-16",
-    "times": 1,
-    "last_seen": "2026-09-16"
+    "times": 2,
+    "last_seen": "2026-09-17"
   },
   "d9a7646de0f36e33": {
     "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
@@ -586,5 +556,59 @@
     "first_seen": "2026-09-16",
     "times": 1,
     "last_seen": "2026-09-16"
+  },
+  "8b402ea3e51b086f": {
+    "title": "Claude Cowork and chat are now one Claude",
+    "first_seen": "2026-09-17",
+    "times": 1,
+    "last_seen": "2026-09-17"
+  },
+  "a7cb8a6455532cf2": {
+    "title": "Hackers Got Inside a Flock Camera",
+    "first_seen": "2026-09-17",
+    "times": 1,
+    "last_seen": "2026-09-17"
+  },
+  "843aa8eef8629885": {
+    "title": "Nvidia announces native GPU programming in Rust",
+    "first_seen": "2026-09-17",
+    "times": 1,
+    "last_seen": "2026-09-17"
+  },
+  "a5704f1f01e2c065": {
+    "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+    "first_seen": "2026-09-17",
+    "times": 1,
+    "last_seen": "2026-09-17"
+  },
+  "dd6aac1d1651bf17": {
+    "title": "I made a free open-source UE 5.8 plugin for generating transparent PNG thumbnails from Static & Skeletal Meshes",
+    "first_seen": "2026-09-17",
+    "times": 1,
+    "last_seen": "2026-09-17"
+  },
+  "71240cafde63f7ea": {
+    "title": "ParallelFlow got a big update (high performance Blueprint nodes for UE 5.2 to 5.8), here is what changed and what should we add next",
+    "first_seen": "2026-09-17",
+    "times": 1,
+    "last_seen": "2026-09-17"
+  },
+  "4fa8a6ebbdedc081": {
+    "title": "texLab: Packing PBR Maps Inside UE5 Without Lying About the Preview",
+    "first_seen": "2026-09-17",
+    "times": 1,
+    "last_seen": "2026-09-17"
+  },
+  "91db9b39ae3ea499": {
+    "title": "Been working on this dark fantasy Unreal environment for a while - Arcane Chamber",
+    "first_seen": "2026-09-17",
+    "times": 1,
+    "last_seen": "2026-09-17"
+  },
+  "5dd5572f37ea2728": {
+    "title": "Radiant Cataclysm, a stylized AoE spell VFX created with Niagara",
+    "first_seen": "2026-09-17",
+    "times": 1,
+    "last_seen": "2026-09-17"
   }
 }
