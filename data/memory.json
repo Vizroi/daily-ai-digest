@@ -1,39 +1,9 @@
 {
-  "d9248274550ab1b0": {
-    "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
-    "first_seen": "2026-09-02",
-    "times": 2,
-    "last_seen": "2026-09-03"
-  },
   "5c76adef4abda66e": {
     "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
     "first_seen": "2026-09-03",
     "times": 3,
     "last_seen": "2026-09-05"
-  },
-  "dc52c6d462651785": {
-    "title": "Nexus Mods Owner Acquires SteamDB After Co-Founder Struggled With Burnout",
-    "first_seen": "2026-09-03",
-    "times": 1,
-    "last_seen": "2026-09-03"
-  },
-  "c2c66d94ce89c2c5": {
-    "title": "Can I opt out of my input or output data being used for training?",
-    "first_seen": "2026-09-03",
-    "times": 1,
-    "last_seen": "2026-09-03"
-  },
-  "679daeff7439e080": {
-    "title": "True Rate of Unemployment",
-    "first_seen": "2026-09-03",
-    "times": 1,
-    "last_seen": "2026-09-03"
-  },
-  "2d2841a39643ee7f": {
-    "title": "Here’s why Rebel Wolves chose UE5 to power its ambitious, large scale, open world RPG The Blood of Dawnwalker",
-    "first_seen": "2026-09-03",
-    "times": 1,
-    "last_seen": "2026-09-03"
   },
   "bb81b442aaddf860": {
     "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
@@ -524,8 +494,8 @@
   "7d4a63590061c18a": {
     "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
     "first_seen": "2026-09-16",
-    "times": 2,
-    "last_seen": "2026-09-17"
+    "times": 3,
+    "last_seen": "2026-09-18"
   },
   "d9a7646de0f36e33": {
     "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
@@ -610,5 +580,59 @@
     "first_seen": "2026-09-17",
     "times": 1,
     "last_seen": "2026-09-17"
+  },
+  "0af5549db5466d16": {
+    "title": "Claude双入口合并，原生Office上线！硅谷AI办公大战也开始了",
+    "first_seen": "2026-09-18",
+    "times": 1,
+    "last_seen": "2026-09-18"
+  },
+  "d297cda731f2dc4d": {
+    "title": "Our framework for reporting model misalignment",
+    "first_seen": "2026-09-18",
+    "times": 1,
+    "last_seen": "2026-09-18"
+  },
+  "8309d5e77da22fea": {
+    "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+    "first_seen": "2026-09-18",
+    "times": 1,
+    "last_seen": "2026-09-18"
+  },
+  "40922c663ff1a86d": {
+    "title": "How To Write With An LLM",
+    "first_seen": "2026-09-18",
+    "times": 1,
+    "last_seen": "2026-09-18"
+  },
+  "173c4569a050ef1b": {
+    "title": "Hister: A private search engine for the pages you visit and the files you keep",
+    "first_seen": "2026-09-18",
+    "times": 1,
+    "last_seen": "2026-09-18"
+  },
+  "fa2cd26d4c9efa22": {
+    "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
+    "first_seen": "2026-09-18",
+    "times": 1,
+    "last_seen": "2026-09-18"
+  },
+  "152d2b8f27ecae1d": {
+    "title": "3D Environment – The Floating Village of Yunhai - UE5 Showcase",
+    "first_seen": "2026-09-18",
+    "times": 1,
+    "last_seen": "2026-09-18"
+  },
+  "1ebd1f7321ec97dd": {
+    "title": "I want to achieve high quality reflections using lumen for a room with a lot of mirror-like metals. Whats the best way to do this without killing performance?",
+    "first_seen": "2026-09-18",
+    "times": 1,
+    "last_seen": "2026-09-18"
+  },
+  "b02a9715d7c8e46d": {
+    "title": "How useful is material baking for optimizing complex environment assets in UE5?",
+    "first_seen": "2026-09-18",
+    "times": 1,
+    "last_seen": "2026-09-18"
   }
 }
