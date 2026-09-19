@@ -5,42 +5,6 @@
     "times": 3,
     "last_seen": "2026-09-05"
   },
-  "bb81b442aaddf860": {
-    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-    "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
-  },
-  "cd30d6bc2b962d7f": {
-    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-    "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
-  },
-  "079b08dfd8edfd8b": {
-    "title": "Nvidia to acquire Hugging Face",
-    "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
-  },
-  "3fdb0b5172b4c667": {
-    "title": "Claude Fable 5.1 made me a really nice animated pelican",
-    "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
-  },
-  "715f9b5dc75cd680": {
-    "title": "Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Muse Spark 1.2",
-    "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
-  },
-  "74c2649ad062e970": {
-    "title": "Interview: Crimson Moon is a Dark Fantasy Co-Op Soulslike Revitalizing the AA Market",
-    "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
-  },
   "60cf306f953d4b7a": {
     "title": "Stepping inside a retro anime-inspired game: a look into the rendering of Orbitals",
     "first_seen": "2026-09-04",
@@ -52,18 +16,6 @@
     "first_seen": "2026-09-04",
     "times": 2,
     "last_seen": "2026-09-05"
-  },
-  "d1b42be993fd90c1": {
-    "title": "This UE5 Tool Can Deform Any Static Mesh At Runtime",
-    "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
-  },
-  "216141cf32a7eeba": {
-    "title": "\"This is the worst crash we've seen since the 1980s,\" says Tim Sweeney",
-    "first_seen": "2026-09-04",
-    "times": 1,
-    "last_seen": "2026-09-04"
   },
   "e22d5cf3429cd90a": {
     "title": "GPT-6 Astra: A new generation of intelligence",
@@ -530,8 +482,8 @@
   "8b402ea3e51b086f": {
     "title": "Claude Cowork and chat are now one Claude",
     "first_seen": "2026-09-17",
-    "times": 1,
-    "last_seen": "2026-09-17"
+    "times": 2,
+    "last_seen": "2026-09-19"
   },
   "a7cb8a6455532cf2": {
     "title": "Hackers Got Inside a Flock Camera",
@@ -602,8 +554,8 @@
   "40922c663ff1a86d": {
     "title": "How To Write With An LLM",
     "first_seen": "2026-09-18",
-    "times": 1,
-    "last_seen": "2026-09-18"
+    "times": 2,
+    "last_seen": "2026-09-19"
   },
   "173c4569a050ef1b": {
     "title": "Hister: A private search engine for the pages you visit and the files you keep",
@@ -614,8 +566,8 @@
   "fa2cd26d4c9efa22": {
     "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
     "first_seen": "2026-09-18",
-    "times": 1,
-    "last_seen": "2026-09-18"
+    "times": 2,
+    "last_seen": "2026-09-19"
   },
   "152d2b8f27ecae1d": {
     "title": "3D Environment – The Floating Village of Yunhai - UE5 Showcase",
@@ -632,7 +584,49 @@
   "b02a9715d7c8e46d": {
     "title": "How useful is material baking for optimizing complex environment assets in UE5?",
     "first_seen": "2026-09-18",
+    "times": 2,
+    "last_seen": "2026-09-19"
+  },
+  "8f09beccea7f7f41": {
+    "title": "Bend – a language that blocks AI mistakes via proof and runs on GPUs",
+    "first_seen": "2026-09-19",
     "times": 1,
-    "last_seen": "2026-09-18"
+    "last_seen": "2026-09-19"
+  },
+  "2c583b45a70ca52e": {
+    "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+    "first_seen": "2026-09-19",
+    "times": 1,
+    "last_seen": "2026-09-19"
+  },
+  "9d3615d1fc8e837d": {
+    "title": "Jemalloc 5.4.0",
+    "first_seen": "2026-09-19",
+    "times": 1,
+    "last_seen": "2026-09-19"
+  },
+  "9a55e5d999d4e0b7": {
+    "title": "King workers call strike after collective agreement negotiations stall",
+    "first_seen": "2026-09-19",
+    "times": 1,
+    "last_seen": "2026-09-19"
+  },
+  "c497b42a1339d817": {
+    "title": "Strauss Zelnick stresses a well-known franchise like GTA still needs marketing: \"You always have to go out and create enthusiasm\"",
+    "first_seen": "2026-09-19",
+    "times": 1,
+    "last_seen": "2026-09-19"
+  },
+  "0de981d61dd24986": {
+    "title": "Control Resonant Is a Fantastic Evolution of Remedy’s Formula",
+    "first_seen": "2026-09-19",
+    "times": 1,
+    "last_seen": "2026-09-19"
+  },
+  "20530bffbf9df90c": {
+    "title": "Soulslike RPG Valor Mortis Will Launch at Lower Price",
+    "first_seen": "2026-09-19",
+    "times": 1,
+    "last_seen": "2026-09-19"
   }
 }
