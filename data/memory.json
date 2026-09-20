@@ -1,22 +1,4 @@
 {
-  "5c76adef4abda66e": {
-    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-    "first_seen": "2026-09-03",
-    "times": 3,
-    "last_seen": "2026-09-05"
-  },
-  "60cf306f953d4b7a": {
-    "title": "Stepping inside a retro anime-inspired game: a look into the rendering of Orbitals",
-    "first_seen": "2026-09-04",
-    "times": 2,
-    "last_seen": "2026-09-05"
-  },
-  "4eaf085f57f04942": {
-    "title": "EMEA Dev Days | Unreal Engine",
-    "first_seen": "2026-09-04",
-    "times": 2,
-    "last_seen": "2026-09-05"
-  },
   "e22d5cf3429cd90a": {
     "title": "GPT-6 Astra: A new generation of intelligence",
     "first_seen": "2026-09-05",
@@ -40,12 +22,6 @@
     "first_seen": "2026-09-05",
     "times": 2,
     "last_seen": "2026-09-07"
-  },
-  "98da763eae8aa548": {
-    "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
-    "first_seen": "2026-09-05",
-    "times": 1,
-    "last_seen": "2026-09-05"
   },
   "dd87e7709317037d": {
     "title": "Interview: How War for Westeros Turns Game of Thrones Into an Epic RTS",
@@ -554,8 +530,8 @@
   "40922c663ff1a86d": {
     "title": "How To Write With An LLM",
     "first_seen": "2026-09-18",
-    "times": 2,
-    "last_seen": "2026-09-19"
+    "times": 3,
+    "last_seen": "2026-09-20"
   },
   "173c4569a050ef1b": {
     "title": "Hister: A private search engine for the pages you visit and the files you keep",
@@ -566,8 +542,8 @@
   "fa2cd26d4c9efa22": {
     "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
     "first_seen": "2026-09-18",
-    "times": 2,
-    "last_seen": "2026-09-19"
+    "times": 3,
+    "last_seen": "2026-09-20"
   },
   "152d2b8f27ecae1d": {
     "title": "3D Environment – The Floating Village of Yunhai - UE5 Showcase",
@@ -608,8 +584,8 @@
   "9a55e5d999d4e0b7": {
     "title": "King workers call strike after collective agreement negotiations stall",
     "first_seen": "2026-09-19",
-    "times": 1,
-    "last_seen": "2026-09-19"
+    "times": 2,
+    "last_seen": "2026-09-20"
   },
   "c497b42a1339d817": {
     "title": "Strauss Zelnick stresses a well-known franchise like GTA still needs marketing: \"You always have to go out and create enthusiasm\"",
@@ -620,13 +596,37 @@
   "0de981d61dd24986": {
     "title": "Control Resonant Is a Fantastic Evolution of Remedy’s Formula",
     "first_seen": "2026-09-19",
-    "times": 1,
-    "last_seen": "2026-09-19"
+    "times": 2,
+    "last_seen": "2026-09-20"
   },
   "20530bffbf9df90c": {
     "title": "Soulslike RPG Valor Mortis Will Launch at Lower Price",
     "first_seen": "2026-09-19",
+    "times": 2,
+    "last_seen": "2026-09-20"
+  },
+  "819c225ad1f7d333": {
+    "title": "Gemini hacked three companies in first known breakout by Google's AI",
+    "first_seen": "2026-09-20",
     "times": 1,
-    "last_seen": "2026-09-19"
+    "last_seen": "2026-09-20"
+  },
+  "61e82caaf7e188c2": {
+    "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+    "first_seen": "2026-09-20",
+    "times": 1,
+    "last_seen": "2026-09-20"
+  },
+  "b1311c581b3b0fa1": {
+    "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+    "first_seen": "2026-09-20",
+    "times": 1,
+    "last_seen": "2026-09-20"
+  },
+  "966920104b3f2183": {
+    "title": "Nex Playground maker secures over $150 million to expand globally",
+    "first_seen": "2026-09-20",
+    "times": 1,
+    "last_seen": "2026-09-20"
   }
 }
