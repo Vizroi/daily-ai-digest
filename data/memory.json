@@ -1,21 +1,9 @@
 {
-  "e22d5cf3429cd90a": {
-    "title": "GPT-6 Astra: A new generation of intelligence",
-    "first_seen": "2026-09-05",
-    "times": 2,
-    "last_seen": "2026-09-06"
-  },
   "4cef70d98128e0d3": {
     "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
     "first_seen": "2026-09-05",
     "times": 3,
     "last_seen": "2026-09-07"
-  },
-  "798b9493ef2f6f45": {
-    "title": "Nvidia acquires open-source AI platform Hugging Face for $12.9bn",
-    "first_seen": "2026-09-05",
-    "times": 2,
-    "last_seen": "2026-09-06"
   },
   "5e506b6c7d263256": {
     "title": "Xbox Puts Monthly Limits On Cloud Gaming For Game Pass Subscribers",
@@ -28,36 +16,6 @@
     "first_seen": "2026-09-05",
     "times": 3,
     "last_seen": "2026-09-07"
-  },
-  "86d524a8e1ad8dbe": {
-    "title": "姚班校友主导，Claude攻克费马大定理首个完整形式化证明",
-    "first_seen": "2026-09-06",
-    "times": 1,
-    "last_seen": "2026-09-06"
-  },
-  "06c1a1148cedbeac": {
-    "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
-    "first_seen": "2026-09-06",
-    "times": 1,
-    "last_seen": "2026-09-06"
-  },
-  "ff3bfc9b3d190dd3": {
-    "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
-    "first_seen": "2026-09-06",
-    "times": 1,
-    "last_seen": "2026-09-06"
-  },
-  "53c4cdfc8f2e3e24": {
-    "title": "ChatGPT, Claude, and Grok Are Down",
-    "first_seen": "2026-09-06",
-    "times": 1,
-    "last_seen": "2026-09-06"
-  },
-  "41c0fc5f2e31f0da": {
-    "title": "Show HN: Open-Source eInk Bike Computer",
-    "first_seen": "2026-09-06",
-    "times": 1,
-    "last_seen": "2026-09-06"
   },
   "848d2a2fe2a909bc": {
     "title": "GPT-6 Astra on robot arms",
@@ -584,8 +542,8 @@
   "9a55e5d999d4e0b7": {
     "title": "King workers call strike after collective agreement negotiations stall",
     "first_seen": "2026-09-19",
-    "times": 2,
-    "last_seen": "2026-09-20"
+    "times": 3,
+    "last_seen": "2026-09-21"
   },
   "c497b42a1339d817": {
     "title": "Strauss Zelnick stresses a well-known franchise like GTA still needs marketing: \"You always have to go out and create enthusiasm\"",
@@ -596,14 +554,14 @@
   "0de981d61dd24986": {
     "title": "Control Resonant Is a Fantastic Evolution of Remedy’s Formula",
     "first_seen": "2026-09-19",
-    "times": 2,
-    "last_seen": "2026-09-20"
+    "times": 3,
+    "last_seen": "2026-09-21"
   },
   "20530bffbf9df90c": {
     "title": "Soulslike RPG Valor Mortis Will Launch at Lower Price",
     "first_seen": "2026-09-19",
-    "times": 2,
-    "last_seen": "2026-09-20"
+    "times": 3,
+    "last_seen": "2026-09-21"
   },
   "819c225ad1f7d333": {
     "title": "Gemini hacked three companies in first known breakout by Google's AI",
@@ -628,5 +586,47 @@
     "first_seen": "2026-09-20",
     "times": 1,
     "last_seen": "2026-09-20"
+  },
+  "b87303537713d068": {
+    "title": "谷歌AI首次“越狱”：竟然自己破解密码入侵三家公司！",
+    "first_seen": "2026-09-21",
+    "times": 1,
+    "last_seen": "2026-09-21"
+  },
+  "1184ab4ae4e79dd6": {
+    "title": "ChatGPT now knows what you do on other websites via ad collector",
+    "first_seen": "2026-09-21",
+    "times": 1,
+    "last_seen": "2026-09-21"
+  },
+  "060f1b6920473462": {
+    "title": "Pirate Face Rescues LLM Models from Deletion",
+    "first_seen": "2026-09-21",
+    "times": 1,
+    "last_seen": "2026-09-21"
+  },
+  "b13cb63d627031a9": {
+    "title": "APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策",
+    "first_seen": "2026-09-21",
+    "times": 1,
+    "last_seen": "2026-09-21"
+  },
+  "201607c0e60c5a71": {
+    "title": "Interactive Crow VFX System – UE5 Niagara & VAT",
+    "first_seen": "2026-09-21",
+    "times": 1,
+    "last_seen": "2026-09-21"
+  },
+  "70ea35a4984a52dd": {
+    "title": "HOPE ALIVE —| Open-World Zombie Survival Game UE5",
+    "first_seen": "2026-09-21",
+    "times": 1,
+    "last_seen": "2026-09-21"
+  },
+  "a7cb22c900404c11": {
+    "title": "Radial Menu Free Asset Explanation - Unreal Engine Tutorial",
+    "first_seen": "2026-09-21",
+    "times": 1,
+    "last_seen": "2026-09-21"
   }
 }
