@@ -1,28 +1,4 @@
 {
-  "4cef70d98128e0d3": {
-    "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-    "first_seen": "2026-09-05",
-    "times": 3,
-    "last_seen": "2026-09-07"
-  },
-  "5e506b6c7d263256": {
-    "title": "Xbox Puts Monthly Limits On Cloud Gaming For Game Pass Subscribers",
-    "first_seen": "2026-09-05",
-    "times": 2,
-    "last_seen": "2026-09-07"
-  },
-  "dd87e7709317037d": {
-    "title": "Interview: How War for Westeros Turns Game of Thrones Into an Epic RTS",
-    "first_seen": "2026-09-05",
-    "times": 3,
-    "last_seen": "2026-09-07"
-  },
-  "848d2a2fe2a909bc": {
-    "title": "GPT-6 Astra on robot arms",
-    "first_seen": "2026-09-07",
-    "times": 1,
-    "last_seen": "2026-09-07"
-  },
   "a8f46e76a4720c05": {
     "title": "Research acceleration: The view inside OpenAI",
     "first_seen": "2026-09-07",
@@ -34,18 +10,6 @@
     "first_seen": "2026-09-07",
     "times": 2,
     "last_seen": "2026-09-08"
-  },
-  "f49b4058f8cccbca": {
-    "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
-    "first_seen": "2026-09-07",
-    "times": 1,
-    "last_seen": "2026-09-07"
-  },
-  "8a3b4f655be5b69d": {
-    "title": "Following legal advice, the Nitter project will continue",
-    "first_seen": "2026-09-07",
-    "times": 1,
-    "last_seen": "2026-09-07"
   },
   "3c39862e1cb005ec": {
     "title": "Nitter and XCancel resume service after legal advice",
@@ -628,5 +592,53 @@
     "first_seen": "2026-09-21",
     "times": 1,
     "last_seen": "2026-09-21"
+  },
+  "b516036d4fbd8f86": {
+    "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+    "first_seen": "2026-09-22",
+    "times": 1,
+    "last_seen": "2026-09-22"
+  },
+  "d5feed8d7ce9ea34": {
+    "title": "Advisory Group on Mathematics and Artificial Intelligence",
+    "first_seen": "2026-09-22",
+    "times": 1,
+    "last_seen": "2026-09-22"
+  },
+  "b9ab38f3ddc591b4": {
+    "title": "What Sun got wrong",
+    "first_seen": "2026-09-22",
+    "times": 1,
+    "last_seen": "2026-09-22"
+  },
+  "3cdba0a7cb639408": {
+    "title": "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了",
+    "first_seen": "2026-09-22",
+    "times": 1,
+    "last_seen": "2026-09-22"
+  },
+  "266cf104ca034326": {
+    "title": "TT Games brings Gotham City to life in LEGO Batman: Legacy of the Dark Knight",
+    "first_seen": "2026-09-22",
+    "times": 1,
+    "last_seen": "2026-09-22"
+  },
+  "0620613efe2141de": {
+    "title": "Last Week In Unreal: 963 commits on ue6-main; 172 on ue5-main | Epic made the UE5 global package version physically unextendable",
+    "first_seen": "2026-09-22",
+    "times": 1,
+    "last_seen": "2026-09-22"
+  },
+  "5c74755841531489": {
+    "title": "How to learn unreal the best way?",
+    "first_seen": "2026-09-22",
+    "times": 1,
+    "last_seen": "2026-09-22"
+  },
+  "807f2d2e67244381": {
+    "title": "Unreal Engine should have a web-playable build option for game jams/portfolios",
+    "first_seen": "2026-09-22",
+    "times": 1,
+    "last_seen": "2026-09-22"
   }
 }
