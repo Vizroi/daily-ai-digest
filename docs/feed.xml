@@ -4,73 +4,81 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 198 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 229 个事件，只有 9 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 22 Sep 2026 13:14:25 +0800</lastBuildDate>
+<lastBuildDate>Wed, 23 Sep 2026 12:59:02 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Jev introduces a new shape of LLM - System One, aka Decision Models</title>
-  <link>https://simonwillison.net/2026/Sep/21/jev/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-22-b516036d4fbd</guid>
-  <pubDate>Sat, 19 Sep 2026 15:52:51 +0000</pubDate>
+  <title>Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5</title>
+  <link>https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-23-9abf15401a2f</guid>
+  <pubDate>Tue, 22 Sep 2026 16:29:05 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>64.1 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>TypeSafe AI发布Jev决策模型：文本输入，输出0-1置信度、选项概率分布或评分。仅收输入费，$0.042/百万token，比GPT-5 Nano的$0.05更便宜，输出免费。</p><p><strong>为什么重要</strong><br>LLM输出从文本转向类型化概率决策，适合分类、排序、重排任务。黑盒程度加深，无解释输出，偏见更难排查。开源复刻Kev已用Qwen 3.5做出0.8B/4B/9B版本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS技能、动画蓝图、网络同步均不涉及此类决策模型。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 422 +12.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Sep/21/jev/">Simon Willison</a> · <a href="https://github.com/f/jev-leftpad">Hacker News</a> · <a href="https://github.com/jaredpalmer/kev/tree/main">Hacker News</a> · <a href="https://github.com/kyle-pena-nlp/jevchat/">Hacker News</a> · <a href="https://github.com/trycua/cua">Hacker News</a> · <a href="http://www.geekpark.net/news/370758">极客公园</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>78.4 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic发布Claude Opus 5.5，API定价$4/$20每百万token，缓存读取降60%至$0.20，典型负载成本降40%，输出快30%。仅托管API，不开源权重。</p><p><strong>为什么重要</strong><br>闭源模型以成本换市场，Opus 5.5在Terminal-Bench 4.0达66.4%，超Fable 5.1与GPT-6 Astra。自托管路线进一步被挤压，团队选型更依赖API。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：4 源报道 +48 / 分析源 +8 / HN 1353 +14.4 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/">MarkTechPost</a> · <a href="https://www.anthropic.com/claude-opus-5-5">Hacker News</a> · <a href="https://artificialanalysis.ai/models/claude-opus-5-5">Hacker News</a> · <a href="https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>Advisory Group on Mathematics and Artificial Intelligence</title>
-  <link>https://openai.com/index/advisory-group-on-mathematics-and-ai</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-22-d5feed8d7ce9</guid>
-  <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
+  <title>Introducing GPT-6 Sol and Luna</title>
+  <link>https://openai.com/index/introducing-gpt-6-sol-and-luna</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-23-875d7b11861e</guid>
+  <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI 8月28日起训练内部模型，称已解决超100个数学开放问题及Navier-Stokes千禧难题，并成立独立数学顾问组，成员含Witten、Gowers等9人，不领薪。</p><p><strong>为什么重要</strong><br>AI首次宣称攻克千禧级难题，数学界发公开信质疑以解题为基准的负面效应，OpenAI被迫让出评审与传播话语权。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/advisory-group-on-mathematics-and-ai">OpenAI</a> · <a href="https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>66 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-6 Sol与Luna，API价格较GPT-5.6促销价降50%，缓存输入token折扣90%。Sol在AutomationBench以Opus 5的9%成本超越其最高分，DeepSWE得分68.8%。</p><p><strong>为什么重要</strong><br>前沿模型能力下放到低价档，Claude Opus 5、Fable 5.1同任务成本被压到1/10量级。AI编码代理的持续调用成本大幅下降，团队可更激进地让代理跑长任务。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS、动画蓝图、网络同步与手感调优不依赖LLM API；若你用AI辅助写技能配置或调试代码，可关注其缓存与推理档位控制。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-gpt-6-sol-and-luna">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/">Simon Willison</a> · <a href="http://www.geekpark.net/news/370829">极客公园</a> · <a href="https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/">TechCrunch AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>What Sun got wrong</title>
-  <link>https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-22-b9ab38f3ddc5</guid>
-  <pubDate>Mon, 21 Sep 2026 14:03:18 +0000</pubDate>
+  <title>Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day</title>
+  <link>https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-23-8bbbefe1915c</guid>
+  <pubDate>Mon, 21 Sep 2026 22:24:38 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Oxide团队在年度OxCon上推出致敬Sun等已倒闭电脑公司的T恤。作者回忆2005年一家用OpenSolaris的初创公司想买Sun硬件，Sun不接电话还推错产品；Dell的销售Steve半夜收到表单，次日回电，两周内完成服务器部署和租赁。Sun因厌倦经营细节而失败。</p><p><strong>为什么重要</strong><br>Sun并非败于战略，而是败于销售与运营执行。Dell靠一个本地销售两周拿下客户，说明企业级硬件竞争里响应速度和销售体验能直接决定生死，对今天的B2B基础设施公司仍是警示。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。这是企业销售与公司战略层面的复盘，不涉及GAS、动画蓝图、战斗手感、网络同步或性能优化。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 543 +12.6 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta的Muse助手存在0-day：本地任意应用或终端命令可改未公开设置，把转录端点从Meta服务器换成攻击者地址，窃取账户token。仅macOS版，亚马逊已封禁。</p><p><strong>为什么重要</strong><br>Muse主打隐私安全，却让本地进程绕过macOS权限直接接管账户。AI代理权限模型与系统沙箱的冲突首次被公开利用，影响所有本地AI助手。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若未来做AI辅助工具链，注意本地进程可篡改配置端点这类信任边界问题。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/">Ars Technica</a> · <a href="https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/">TechCrunch AI</a> · <a href="https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了</title>
-  <link>http://www.geekpark.net/news/370797</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-22-3cdba0a7cb63</guid>
-  <pubDate>Mon, 21 Sep 2026 09:21:47 +0000</pubDate>
+  <title>Bungie Is "Not Done with Destiny": Vaulted Content Will Be Back &amp; Game Updates Are Coming</title>
+  <link>https://80.lv/articles/bungie-is-not-done-with-destiny-vaulted-content-will-be-back-game-updates-are-coming/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-23-9b78788c14fa</guid>
+  <pubDate>Mon, 21 Sep 2026 20:30:57 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>38 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta Muse 9月8日上线，13天下载250万次，能代用户下单。Amazon 9月21日以违反条款弹窗封禁，因其不标识AI身份、存登录凭证。</p><p><strong>为什么重要</strong><br>平台靠广告变现，Agent跳过浏览直接结账，广告失效。Shopify 反向接入 Muse，UCP 协议已获20多家零售商与支付网络背书。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 聚合源 +2</small></p><p><small>全部来源：<a href="http://www.geekpark.net/news/370797">极客公园</a> · <a href="https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/">TechCrunch AI</a> · <a href="https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping">The Verge AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Bungie宣布恢复《命运2》已下架内容，含Red War、Curse of Osiris、Forsaken等资料片与突袭，对所有玩家开放，疑似免费。2025年Renegades与The Edge of Fate口碑差，6月发布最后大更新后裁员。</p><p><strong>为什么重要</strong><br>付费内容下架曾重创玩家信任，Bungie承认失去信任与同事。此举是服务型游戏内容退役策略的罕见回撤，影响留存与付费模式判断。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://80.lv/articles/bungie-is-not-done-with-destiny-vaulted-content-will-be-back-game-updates-are-coming/">80.lv</a> · <a href="https://www.gamesindustry.biz/bungie-says-its-not-done-with-destiny-aims-to-earn-back-player-trust-by-restoring-archived-destiny-2-content">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future">Game Developer</a></small></p>]]></description>
 </item>
 <item>
-  <title>TT Games brings Gotham City to life in LEGO Batman: Legacy of the Dark Knight</title>
-  <link>https://www.unrealengine.com/developer-interviews/tt-games-brings-gotham-city-to-life-in-lego-batman-legacy-of-the-dark-knight</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-22-266cf104ca03</guid>
-  <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>62 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>TT Games用UE5做《LEGO蝙蝠侠：暗夜骑士遗产》，开放世界哥谭市，采用World Partition和Gameplay Ability System。</p><p><strong>为什么重要</strong><br>3A开放世界项目公开确认GAS用于非传统动作游戏，验证其在大规模场景与多样能力系统中的通用性。</p><p><strong>对你而言</strong><br>GAS在开放世界+World Partition下的实践可参考，尤其技能与流式加载的配合、能力配置的扩展性。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 一手源 +18 / 战斗「gameplay ability system」 +32</small></p>]]></description>
+  <title>OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005</title>
+  <link>https://www.cryptocellar.org/bgac/the-mvueh-break.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-23-7965188bc31e</guid>
+  <pubDate>Tue, 22 Sep 2026 13:52:15 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>GPT-6 Astra 自主破译1941年恩尼格玛密文MVUEH：82字母，密钥轮序253，左轮第72字母翻转，用ROSENOW crib，两天完成。</p><p><strong>为什么重要</strong><br>此前2005年起无人破解，人类专家需数周至数月；AI自行写Python/C++模拟器与Bombe，还检索到德国联邦档案馆RS 3-3/20a等档案。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 608 +12.8 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Last Week In Unreal: 963 commits on ue6-main; 172 on ue5-main | Epic made the UE5 global package version physically unextendable</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wm8ek5/last_week_in_unreal_963_commits_on_ue6main_172_on/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-22-0620613efe21</guid>
-  <pubDate>Mon, 21 Sep 2026 09:57:09 +0000</pubDate>
+  <title>Unreal Agent</title>
+  <link>https://unreallabs.ai/blog/unreal-agent/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-23-daa27398d529</guid>
+  <pubDate>Tue, 22 Sep 2026 18:15:53 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Epic冻结UE5对象版本枚举，新增项无法编译，全局包版本改由UE6/Main推进；UE5-only变更需借用UE4枚举槽位。ue6-main周提交963次，ue5-main 172次。</p><p><strong>为什么重要</strong><br>维护自定义对象版本分支的团队会遭遇不明编译失败。UE6开发明显加速，UE5进入维护期，引擎版本迁移窗口正在打开。</p><p><strong>对你而言</strong><br>若你的分支追加过自定义ObjectVersion，需迁移到UE4槽位或UE6，否则升级即断。纯GAS/动画/同步工作暂不受影响。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「unreal」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>50 分</strong> · Hacker News · 能用上的</p><p><strong>发生了什么</strong><br>Unreal Labs 发布 Unreal Agent，异步管理工具调用，在 Terminal-Bench 4.0 等基准上比 Codex 省最多 40% 成本、比 Pi 省 20%，用 GPT-6 Astra xhigh 测试。</p><p><strong>为什么重要</strong><br>它把工具调用从模型同步等待中剥离，减少轮次与输入 token，说明 harness 设计本身成为独立研究方向，影响所有自建 agent 产品的团队。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 150 +10 / 命中「unreal」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>How to learn unreal the best way?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wmzg12/how_to_learn_unreal_the_best_way/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-22-5c7475584153</guid>
-  <pubDate>Tue, 22 Sep 2026 04:24:29 +0000</pubDate>
+  <title>Audio Reactive Toolkit for Unreal Engine</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wng46f/audio_reactive_toolkit_for_unreal_engine/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-23-75469639504c</guid>
+  <pubDate>Tue, 22 Sep 2026 17:34:09 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>38.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Blender 3D产品动画师Vinay，用i7+4060 8GB，想学UE做F1赛道级大场景、动画、贴图与产品可视化，认为Bad Decisions教程像甜甜圈教程学不到东西。</p><p><strong>为什么重要</strong><br>反映UE入门教程普遍停留在演示级，缺乏大场景与产品级管线；硬件8GB显存也限制Nanite/Lumen大场景实践。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +4.8 / 命中「unreal」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>41.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>ARTK 音频响应工具包发布，作者为 UE 制作了预告片，在 r/unrealengine 分享。</p><p><strong>为什么重要</strong><br>音频驱动视觉在 UE 生态长期缺现成方案，独立工具填补空白，降低 VFX 与音频联动门槛。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +7.2 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Unreal Engine should have a web-playable build option for game jams/portfolios</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wm6fim/unreal_engine_should_have_a_webplayable_build/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-22-807f2d2e6724</guid>
-  <pubDate>Mon, 21 Sep 2026 08:00:28 +0000</pubDate>
+  <title>MetaHumans for cinematic cutscenes only for a game</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wns4el/metahumans_for_cinematic_cutscenes_only_for_a_game/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-23-9aca007fd71b</guid>
+  <pubDate>Wed, 23 Sep 2026 01:23:58 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>34 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5 无官方 Web 可玩构建，开发者上周参加 Game Jam 时无法像 Unity、Godot 那样导出到 itch.io。</p><p><strong>为什么重要</strong><br>Unity 和 Godot 原生支持 WebGL 导出，UE 缺失让 Jam 与作品集场景流失用户，招聘方也不愿下载大包。</p><p><strong>对你而言</strong><br>与你的项目无直接关系，PVP 战斗与 GAS 同步不走 Web 路线。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>37.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>玩家问RTX 4050 6GB显存+i5-12代笔记本能否用UE5 MetaHuman做点选游戏过场，单场景最多5个，需靠LOD和发丝优化。</p><p><strong>为什么重要</strong><br>MetaHuman默认高面数、发丝与骨骼开销大，6GB显存是硬门槛；社区共识是过场可用、实时多角色需重度优化。</p><p><strong>对你而言</strong><br>若项目用过场MetaHuman，注意发丝转发片、LOD与骨骼降频；PVP实时多角色同屏不可照搬此方案。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +3.6 / 命中「metahuman」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Dynamic Radial Menu Wheel - Unreal Engine Tutorial</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wna5hm/dynamic_radial_menu_wheel_unreal_engine_tutorial/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-23-1a87c4a973e7</guid>
+  <pubDate>Tue, 22 Sep 2026 13:54:09 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>36.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户发布UE动态径向菜单轮教程，含免费资产，可省去从零搭建。</p><p><strong>为什么重要</strong><br>径向菜单是PVP选技能常用UI，社区免费方案降低原型门槛。</p><p><strong>对你而言</strong><br>可参考其输入映射与UI动画实现，但GAS技能触发需自行对接。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +2.4 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 </channel>
 </rss>

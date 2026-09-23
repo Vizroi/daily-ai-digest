@@ -5,48 +5,6 @@
     "times": 3,
     "last_seen": "2026-09-09"
   },
-  "60003940963499c2": {
-    "title": "There's No Limit to How Bad Code Can Get",
-    "first_seen": "2026-09-07",
-    "times": 2,
-    "last_seen": "2026-09-08"
-  },
-  "3c39862e1cb005ec": {
-    "title": "Nitter and XCancel resume service after legal advice",
-    "first_seen": "2026-09-08",
-    "times": 1,
-    "last_seen": "2026-09-08"
-  },
-  "c0741f22a0092ac7": {
-    "title": "bzip3",
-    "first_seen": "2026-09-08",
-    "times": 1,
-    "last_seen": "2026-09-08"
-  },
-  "8b84bd58227d3be8": {
-    "title": "LLMs as a Cognitive Virus",
-    "first_seen": "2026-09-08",
-    "times": 1,
-    "last_seen": "2026-09-08"
-  },
-  "d2ff0caa53c8735b": {
-    "title": "Bill Gates tries to install MovieMaker (2003)",
-    "first_seen": "2026-09-08",
-    "times": 1,
-    "last_seen": "2026-09-08"
-  },
-  "6726e2f3eb105f0f": {
-    "title": "Global warming will exceed 1.5-degree limit, UN says",
-    "first_seen": "2026-09-08",
-    "times": 1,
-    "last_seen": "2026-09-08"
-  },
-  "e9a51ec00869aae5": {
-    "title": "Epic Games CEO：游戏行业面临80年代以来最严重危机",
-    "first_seen": "2026-09-08",
-    "times": 1,
-    "last_seen": "2026-09-08"
-  },
   "55ea7e35824aa683": {
     "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
     "first_seen": "2026-09-09",
@@ -640,5 +598,59 @@
     "first_seen": "2026-09-22",
     "times": 1,
     "last_seen": "2026-09-22"
+  },
+  "9abf15401a2fa658": {
+    "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
+    "first_seen": "2026-09-23",
+    "times": 1,
+    "last_seen": "2026-09-23"
+  },
+  "875d7b11861eb673": {
+    "title": "Introducing GPT-6 Sol and Luna",
+    "first_seen": "2026-09-23",
+    "times": 1,
+    "last_seen": "2026-09-23"
+  },
+  "8bbbefe1915ca801": {
+    "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+    "first_seen": "2026-09-23",
+    "times": 1,
+    "last_seen": "2026-09-23"
+  },
+  "9b78788c14fafd5b": {
+    "title": "Bungie Is \"Not Done with Destiny\": Vaulted Content Will Be Back & Game Updates Are Coming",
+    "first_seen": "2026-09-23",
+    "times": 1,
+    "last_seen": "2026-09-23"
+  },
+  "7965188bc31e1279": {
+    "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+    "first_seen": "2026-09-23",
+    "times": 1,
+    "last_seen": "2026-09-23"
+  },
+  "daa27398d5291ef4": {
+    "title": "Unreal Agent",
+    "first_seen": "2026-09-23",
+    "times": 1,
+    "last_seen": "2026-09-23"
+  },
+  "75469639504c3c09": {
+    "title": "Audio Reactive Toolkit for Unreal Engine",
+    "first_seen": "2026-09-23",
+    "times": 1,
+    "last_seen": "2026-09-23"
+  },
+  "9aca007fd71b5910": {
+    "title": "MetaHumans for cinematic cutscenes only for a game",
+    "first_seen": "2026-09-23",
+    "times": 1,
+    "last_seen": "2026-09-23"
+  },
+  "1a87c4a973e755b2": {
+    "title": "Dynamic Radial Menu Wheel - Unreal Engine Tutorial",
+    "first_seen": "2026-09-23",
+    "times": 1,
+    "last_seen": "2026-09-23"
   }
 }
