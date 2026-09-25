@@ -4,89 +4,113 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 228 个事件，只有 10 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 236 个事件，只有 13 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 24 Sep 2026 13:09:35 +0800</lastBuildDate>
+<lastBuildDate>Fri, 25 Sep 2026 13:11:31 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
+<item>
+  <title>Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)</title>
+  <link>https://artificialanalysis.ai/models/claude-opus-5-5</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-f89df3808757</guid>
+  <pubDate>Tue, 22 Sep 2026 16:29:05 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>43 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 2026年9月22日发布Claude Opus 5.5推理模型，智能指数58（中位26），1M上下文，输入$4/输出$20每百万token，单任务评测成本$5.98。</p><p><strong>为什么重要</strong><br>推理模型输出token量达260M，远超中位88M，成本结构向输出倾斜；高价高智能定位挤压中端模型空间。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 1792 +15 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://artificialanalysis.ai/models/claude-opus-5-5">Hacker News</a> · <a href="https://www.anthropic.com/claude-opus-5-5">Hacker News</a></small></p>]]></description>
+</item>
+<item>
+  <title>Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev</title>
+  <link>https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-63b3f1fff337</guid>
+  <pubDate>Thu, 24 Sep 2026 04:20:59 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42.2 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Contrastive-LM发布CLM-8B，Apache-2.0，75MB头，单GPU部署。冻结Qwen3-8B加20M投影头，双向InfoNCE训练。T-Rex任务16.5ms对Jev 149.8ms，约9倍。</p><p><strong>为什么重要</strong><br>System One模型用打分替代生成，Jev走闭源。CLM开源同接口，微调头在DeepSWE达81.6%，超pass@1。验证器与工具路由的延迟门槛被拉低。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS技能、动画蓝图、网络同步不涉及LLM动作打分。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 160 +10.2</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/">MarkTechPost</a> · <a href="https://contrastive-lm.notion.site/">Hacker News</a></small></p>]]></description>
+</item>
+<item>
+  <title>Introducing Gemini 3.8 Live with Live Avatar</title>
+  <link>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-614b78f192d5</guid>
+  <pubDate>Thu, 24 Sep 2026 16:20:39 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.8 Live with Live Avatar，在Gemini Enterprise上线。近实时视频生成配语音，支持97种语言无缝切换口型表情，异步工具调用不打断对话，SynthID水印，自定义形象需企业白名单。</p><p><strong>为什么重要</strong><br>多模态实时对话从纯语音走向带视觉形象，企业客服、导览场景可直接替换真人视频。97语言同步口型是工程难点，异步工具调用把对话与后台任务解耦，行业交互范式被推高。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS、动画蓝图、网络同步、战斗手感均不涉及云端对话式虚拟人，无需为此调整技术栈。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/">DeepMind</a> · <a href="https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Meta VR Glasses are coming. Build with Unity from day one.</title>
+  <link>https://unity.com/blog/build-for-meta-vr-glasses-with-unity</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-0452e33b692e</guid>
+  <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta VR Glasses约100克，5K屏，手眼输入为主，2027春发售。Unity 6.6起支持，OpenXR 2.6.1，XRI 1.9.0+，AR Foundation 6.6.2+。</p><p><strong>为什么重要</strong><br>Quest项目可低成本迁移，手眼交互成主流输入。轻量设备扩大VR用户盘，开发者需重审UI与交互设计。</p><p><strong>对你而言</strong><br>GAS技能需适配手眼输入触发，动画蓝图加注视与手势层。Quad Views降GPU开销，可提场景复杂度。XRI模拟器可无设备调试。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://unity.com/blog/build-for-meta-vr-glasses-with-unity">Unity</a> · <a href="https://www.gamedeveloper.com/business/meta-announces-new-vr-glasses-that-weight-about-100-grams-and-cost-1-300">Game Developer</a></small></p>]]></description>
+</item>
+<item>
+  <title>Google’s Project Suncatcher to put ML infrastructure in space</title>
+  <link>https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-08fe30d5bf1d</guid>
+  <pubDate>Thu, 24 Sep 2026 13:53:29 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>谷歌Project Suncatcher首颗原型卫星随SpaceX Transporter-18发射，验证Trillium TPU在轨表现。TPU需承受50-100g振动、抗5年辐射剂量，用热管加散热器真空散热，2027年发两颗星测激光互联。</p><p><strong>为什么重要</strong><br>把ML算力搬上近地轨道，太阳能可达地面8倍。若成立，数据中心选址逻辑从电网、水冷转向轨道与散热，云厂商算力竞争多一个维度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 148 +10</small></p><p><small>全部来源：<a href="https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/">Hacker News</a> · <a href="https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Unreal Engine 5 Realtime GI IBLs realtime GI for free</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wpb2d6/unreal_engine_5_realtime_gi_ibls_realtime_gi_for/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-0dcd68c20cdb</guid>
+  <pubDate>Thu, 24 Sep 2026 19:25:45 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者Hevedy在UE 5.8分支实现IBL实时GI，用反射捕获伪实时非阻塞更新，不依赖光追和屏幕空间，双旧显卡稳定120FPS。</p><p><strong>为什么重要</strong><br>传统实时GI依赖Lumen或光追，硬件门槛高。此方案用反射捕获低成本模拟，旧GPU也能跑，适合低配多人竞技场景。</p><p><strong>对你而言</strong><br>PVP竞技场若用Lumen吃性能，可参考此反射捕获方案降GI开销，保120FPS手感；需自行编译5.8分支验证。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Perforce =&gt; Diversion for Unreal Version Control. Looking for real life experience</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wp3j9u/perforce_diversion_for_unreal_version_control/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-f71212d22536</guid>
+  <pubDate>Thu, 24 Sep 2026 14:42:49 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>41.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户询问从Perforce迁移到Diversion的实际经验，涉及迁移过程、程序员与美术工作流变化。Diversion是UE版本控制工具，帖中无具体版本号或参数。</p><p><strong>为什么重要</strong><br>Perforce长期主导UE大项目版本控制，Diversion以云原生和易用性切入。若迁移可行，中小团队可降低运维成本，改变资产锁与分支习惯。</p><p><strong>对你而言</strong><br>与你的GAS、动画蓝图、网络同步工作无直接关系；但版本控制影响二进制资产协作，若团队换工具需重估锁策略与提交粒度。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +7.2 / 命中「unreal」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Dutch consumer group files lawsuit against Epic for misleading young players on Fortnite, seeking more than €100m in compensation</title>
+  <link>https://www.gamesindustry.biz/dutch-consumer-group-files-lawsuit-against-epic-for-misleading-young-players-on-fortnite-seeking-more-than-100m-in-compensation</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-b05fbd4dfc87</guid>
+  <pubDate>Thu, 24 Sep 2026 13:48:19 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>荷兰SMC对Epic发起集体诉讼，代表21岁前玩Fortnite的玩家索赔超1亿欧元。ACM曾罚Epic 112.5万欧元：限时倒计时与"立即购买"文案各罚56.25万，2026年1月鹿特丹法院维持。</p><p><strong>为什么重要</strong><br>监管开始把商店UI的倒计时、催促文案认定为对未成年人的不公平商业设计。Epic辩称荷兰18岁以下玩家看不到48小时内下架商品。付费设计合规风险从抽卡扩展到限时促销。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若做内购商店，限时倒计时与催促文案在欧盟有法律风险，可参考Epic的48小时可见性限制与两步确认。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Get Hundreds of Striking Production-Ready Assets with This Unreal Engine Environment Bundle</title>
+  <link>https://80.lv/articles/get-hundreds-of-striking-production-ready-assets-with-this-unreal-engine-environment-bundle/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-1442cd15fd87</guid>
+  <pubDate>Thu, 24 Sep 2026 13:34:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Meshingun Studio发布UE环境资产包，含哥特家具、亚洲寺庙场景、风格化植被等20余个包，共数百个生产级资产。</p><p><strong>为什么重要</strong><br>环境美术资产打包售卖降低场景搭建门槛，独立团队可快速填充关卡，但同质化风险上升。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>I’m a videographer who learned Unreal Engine to make a music video. Here’s where I landed.</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wpi2tl/im_a_videographer_who_learned_unreal_engine_to/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-b3620dc5f450</guid>
+  <pubDate>Fri, 25 Sep 2026 00:22:07 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>38.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>一名摄像师自学UE，为歌曲《On the Mend》做音乐视频：从未来地球倒放穿越核灾与人类史，最终转实拍，全片伪一镜到底。</p><p><strong>为什么重要</strong><br>非游戏从业者用UE完成影视级一镜到底，说明引擎门槛已降到个人创作者可独立完成整片。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +4.8 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
 <item>
   <title>Gemini 3.8 text-to-speech says hello</title>
   <link>https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-904e07875e79</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-904e07875e79</guid>
   <pubDate>Wed, 23 Sep 2026 15:25:14 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>77.3 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.8 Flash TTS与Flash-Lite TTS，支持自然语言生成音色、30秒样本复刻、2000+预置音色、100+语言，Hume基准71.4分居首。</p><p><strong>为什么重要</strong><br>语音生成从固定预设变为可逐行导演的创作工具，配音、播客、有声书与语音Agent成本下降，配音演员与本地化行业受冲击。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 278 +11.3</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/">MarkTechPost</a> · <a href="https://simonwillison.net/2026/Sep/23/gemini-tts-playground/">Simon Willison</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT</title>
-  <link>https://www.qbitai.com/2026/09/496647.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-a7ede18e93a3</guid>
-  <pubDate>Mon, 21 Sep 2026 22:24:38 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>56 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta自研个人Agent「Muse」上线13天登顶美区App Store，增速超ChatGPT首发；股价单日涨11%。可代打电话砍保费、网费，实测省85.3美元/月、1920美元/24个月。亚马逊以违反用户协议全面拦截其代购，Shopify则宣布接入。</p><p><strong>为什么重要</strong><br>Agent从极客终端走向35亿普通用户，入口价值被华尔街定价：Truist估2030年增收285亿美元。平台生态开始分裂——电商封杀、独立站拥抱，Agent触达权限成新战场。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若做移动端Agent交互，可参考其电话菜单穿透与三方通话的流程设计。</p><p><small>评分依据：4 源报道 +48 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/496647.html">量子位</a> · <a href="https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/">Ars Technica</a> · <a href="https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/">TechCrunch AI</a> · <a href="https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/">TechCrunch AI</a> · <a href="https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware">The Verge AI</a> · <a href="https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features">The Verge AI</a> · <a href="https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026">The Verge AI</a> · <a href="https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements">The Verge AI</a> · <a href="https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote">The Verge AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping">The Verge AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Discord re-introduces age verification policy based on 'account signal' methodology</title>
-  <link>https://www.gamedeveloper.com/business/discord-re-introduces-age-verification-policy-with-new-methods</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-75b90aef8cc2</guid>
-  <pubDate>Wed, 23 Sep 2026 10:11:43 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Discord二次推年龄验证，用账号时长和支付方式等信号估算年龄，称90%老用户免验证；新增信用卡、App Store、Google Play、AgeKey等非证件方式，13-17岁归为青少年组。</p><p><strong>为什么重要</strong><br>首次因沟通不清被误认为全员要人脸/证件而翻车；现借账号信号+多验证渠道抢在立法前自定标准，同时应对多州诉讼。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/discord-re-introduces-age-verification-policy-with-new-methods">Game Developer</a> · <a href="https://80.lv/articles/discord-rolls-out-new-way-to-check-users-ages/">80.lv</a> · <a href="https://www.gamesindustry.biz/discord-re-launches-age-verification-following-backlash-over-privacy-concerns">GamesIndustry</a></small></p>]]></description>
-</item>
-<item>
-  <title>Bungie says it's "not done with Destiny", aims to earn back player trust by restoring archived Destiny 2 content</title>
-  <link>https://www.gamesindustry.biz/bungie-says-its-not-done-with-destiny-aims-to-earn-back-player-trust-by-restoring-archived-destiny-2-content</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-e9acbe8000a5</guid>
-  <pubDate>Mon, 21 Sep 2026 20:30:57 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Bungie宣布恢复《命运2》已封存内容，含战役、突袭、目的地；因Beyond Light后光照、遭遇、战斗单位需重做。今年裁员292人，Marathon未达预期。</p><p><strong>为什么重要</strong><br>内容封存策略被官方否定，长线运营游戏开始为删内容付技术债。Bungie承诺四项重建信任，承认Marathon不替代命运。</p><p><strong>对你而言</strong><br>若做长线PVP，删旧地图/模式会积累回归成本；恢复需重调光照与战斗单位，可参考其内容版本化与资产回迁流程。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamesindustry.biz/bungie-says-its-not-done-with-destiny-aims-to-earn-back-player-trust-by-restoring-archived-destiny-2-content">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future">Game Developer</a> · <a href="https://www.youxituoluo.com/534907.html">游戏陀螺</a></small></p>]]></description>
-</item>
-<item>
-  <title>2D Pseudo-3D Dice Roll UI Material in Unreal Engine</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wo7nu5/2d_pseudo3d_dice_roll_ui_material_in_unreal_engine/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-6968746ebe4c</guid>
-  <pubDate>Wed, 23 Sep 2026 14:32:24 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者用单个UI Material加预烘焙渲染缓冲，在Slate/Widget管线内做2D伪3D骰子动画，蓝图运行时决定点数，材质动态映射骰面，无需为每种组合预烘视频。</p><p><strong>为什么重要</strong><br>绕开UI里渲染3D网格或Viewport Actor的常规做法，省去逐组合视频资源，实时可调光照阴影反射，适合移动端低开销UI动效。</p><p><strong>对你而言</strong><br>与你的战斗PVP项目无直接关系；但若做抽奖、开箱、结算等UI演出，可借鉴用材质数学替代3D视口渲染降开销。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>if an unreal engine 4 dosent support Daynamic resoultion from in game settings can the user add it via Engine.ini tweak?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wojv58/if_an_unreal_engine_4_dosent_support_daynamic/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-e142c2b0ae00</guid>
-  <pubDate>Wed, 23 Sep 2026 22:10:22 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>41.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>玩家问 UE4 能否靠 Engine.ini 的 [SystemSettings] 段开启动态分辨率：写入 r.DynamicRes.OperationMode=1、r.SceneRenderTargetResizeMethod=2、ForceOverride=1、Min/MaxScreenPercentage 50/100、TargetFrameTime=16.66。</p><p><strong>为什么重要</strong><br>这些 CVar 只在引擎编译时启用且被游戏代码读取才生效，多数成品游戏已裁剪该模块，改 ini 通常无效；UE5 已把动态分辨率并入主渲染管线。</p><p><strong>对你而言</strong><br>若你项目用动态分辨率保帧，别只依赖 CVar，需在 GAS/GameUserSettings 暴露开关并验证 SceneRenderTargetResizeMethod 与后处理、TSR 的兼容。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +7.2 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Unreal Agent</title>
-  <link>https://unreallabs.ai/blog/unreal-agent/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-daa27398d529</guid>
-  <pubDate>Tue, 22 Sep 2026 18:15:53 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>21 分</strong> · Hacker News · 能用上的</p><p><strong>发生了什么</strong><br>Unreal Labs发布Unreal Agent，异步管理工具调用，比Codex省40%成本、比Pi省20%，用GPT-6 Astra xhigh测试，Terminal-Bench 4.0通过率57.9%持平Codex。</p><p><strong>为什么重要</strong><br>AI agent成本瓶颈在工具调用轮次与token开销，异步harness减少轮次和输入token，对做agent产品的团队是降本路径。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 238 +11 / 命中「unreal」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Audio Reactive Toolkit for Unreal Engine</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wng46f/audio_reactive_toolkit_for_unreal_engine/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-75469639504c</guid>
-  <pubDate>Tue, 22 Sep 2026 17:34:09 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>6.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>ARTK音频响应工具包登陆虚幻引擎，作者发布预告片。</p><p><strong>为什么重要</strong><br>音频驱动视觉在UE生态少见，独立工具填补空白。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +2.4 / 命中「unreal engine」 +20 / 已报过 -30</small></p>]]></description>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>55.6 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.8 Flash TTS与Flash-Lite TTS，支持自然语言生成音色、30秒样本克隆、2000+预置音色、100+语言，Hume基准71.4分居首。</p><p><strong>为什么重要</strong><br>语音生成从固定预设转向可逐行导演的创作工具，配音、播客、有声书与语音Agent成本下降，配音演员与音频外包受冲击。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 328 +11.6 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/">MarkTechPost</a> · <a href="https://simonwillison.net/2026/Sep/23/gemini-tts-playground/">Simon Willison</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/">Hacker News</a></small></p>]]></description>
 </item>
 <item>
   <title>Introducing GPT-6 Sol and Luna</title>
   <link>https://openai.com/index/introducing-gpt-6-sol-and-luna</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-875d7b11861e</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-875d7b11861e</guid>
   <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>36 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-6 Sol与Luna，API价格较GPT-5.6促销价降50%，缓存输入读取折扣90%。Sol在AutomationBench以Opus 5的9%成本超越其最高分，DeepSWE得分68.8%。</p><p><strong>为什么重要</strong><br>前沿模型能力下放到低成本层，编码与Agent任务单次成本降80%-96%。竞争焦点从模型能力转向单位任务成本，Claude同价位产品承压。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-gpt-6-sol-and-luna">OpenAI</a> · <a href="https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks/">MarkTechPost</a> · <a href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/">Simon Willison</a> · <a href="http://www.geekpark.net/news/370829">极客公园</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-6 Sol与Luna，API价格较GPT-5.6促销价降50%，缓存输入读取折扣90%。Sol在AutomationBench以Opus 5的9%成本超越其最高分，DeepSWE得分68.8%。</p><p><strong>为什么重要</strong><br>前沿模型能力下放到低成本层，编码与Agent任务成本骤降。Claude Opus 5、Fable 5.1在同等任务上成本高出10倍以上，价格战重塑开发者模型选型。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-gpt-6-sol-and-luna">OpenAI</a> · <a href="https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks/">MarkTechPost</a></small></p>]]></description>
 </item>
 <item>
-  <title>Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5</title>
-  <link>https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-24-9abf15401a2f</guid>
-  <pubDate>Tue, 22 Sep 2026 16:29:05 +0000</pubDate>
+  <title>Discord re-introduces age verification policy based on 'account signal' methodology</title>
+  <link>https://www.gamedeveloper.com/business/discord-re-introduces-age-verification-policy-with-new-methods</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-75b90aef8cc2</guid>
+  <pubDate>Wed, 23 Sep 2026 10:11:43 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>25 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Anthropic发布Claude Opus 5.5，API定价输入$4/输出$20每百万token，缓存读取降60%至$0.20，典型负载成本降40%，输出快30%。</p><p><strong>为什么重要</strong><br>闭源托管模型，权重不开放。Terminal-Bench 4.0达66.4%，超Fable 5.1和GPT-6 Astra。思考不可关闭，输出带水印。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 1772 +15 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/">MarkTechPost</a> · <a href="https://artificialanalysis.ai/models/claude-opus-5-5">Hacker News</a> · <a href="https://www.anthropic.com/claude-opus-5-5">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Discord二次推年龄验证：用账号存续时长、支付方式等信号估算年龄，称90%老用户免验证；新增信用卡、App Store、Google Play、AgeKey等非人脸/证件方式，13-17岁归青少年组。</p><p><strong>为什么重要</strong><br>首次因沟通不清被骂到回炉，且面临多州诉讼。平台改用账号信号替代生物识别，为全球合规抢跑，可能成为社交产品年龄门槛的默认做法。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/discord-re-introduces-age-verification-policy-with-new-methods">Game Developer</a> · <a href="https://www.gamesindustry.biz/discord-re-launches-age-verification-following-backlash-over-privacy-concerns">GamesIndustry</a></small></p>]]></description>
 </item>
 </channel>
 </rss>

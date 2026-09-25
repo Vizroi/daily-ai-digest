@@ -11,65 +11,11 @@
     "times": 3,
     "last_seen": "2026-09-11"
   },
-  "5cdbccaccc9ee683": {
-    "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
-    "first_seen": "2026-09-09",
-    "times": 2,
-    "last_seen": "2026-09-10"
-  },
-  "a7dace9245e93cde": {
-    "title": "刚刚，苹果首款折叠屏发布！15999元起，AI参与设计",
-    "first_seen": "2026-09-10",
-    "times": 1,
-    "last_seen": "2026-09-10"
-  },
-  "74b92c506903288a": {
-    "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
-    "first_seen": "2026-09-10",
-    "times": 1,
-    "last_seen": "2026-09-10"
-  },
-  "f0e16fc229cb4157": {
-    "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-    "first_seen": "2026-09-10",
-    "times": 1,
-    "last_seen": "2026-09-10"
-  },
-  "2b2fb3772090ff22": {
-    "title": "No Man's Sky Cosmos",
-    "first_seen": "2026-09-10",
-    "times": 1,
-    "last_seen": "2026-09-10"
-  },
-  "b0a3a5f96b6a0fc5": {
-    "title": "Quick Unreal Engine check on my Swamp Airboat.",
-    "first_seen": "2026-09-10",
-    "times": 1,
-    "last_seen": "2026-09-10"
-  },
-  "b5dca12dad068ae0": {
-    "title": "UE 5.6 texture more bright when been imported?",
-    "first_seen": "2026-09-10",
-    "times": 1,
-    "last_seen": "2026-09-10"
-  },
   "338c04b6cd26a483": {
     "title": "Epic Games Store to introduce age checks for R18+ games in Australia",
     "first_seen": "2026-09-10",
     "times": 2,
     "last_seen": "2026-09-11"
-  },
-  "2fd3ebf36d9c5918": {
-    "title": "Fab Flash Sale – Up to 50% Off My Unreal Engine Tools",
-    "first_seen": "2026-09-10",
-    "times": 1,
-    "last_seen": "2026-09-10"
-  },
-  "f04b409218dd297d": {
-    "title": "I made a DND inspired animation in UE5 - here is my project breakdown video",
-    "first_seen": "2026-09-10",
-    "times": 1,
-    "last_seen": "2026-09-10"
   },
   "2c3fbf9fdc31109b": {
     "title": "Paul Christiano joins OpenAI Foundation Board",
@@ -590,8 +536,8 @@
   "875d7b11861eb673": {
     "title": "Introducing GPT-6 Sol and Luna",
     "first_seen": "2026-09-23",
-    "times": 2,
-    "last_seen": "2026-09-24"
+    "times": 3,
+    "last_seen": "2026-09-25"
   },
   "8bbbefe1915ca801": {
     "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
@@ -638,8 +584,8 @@
   "904e07875e79e070": {
     "title": "Gemini 3.8 text-to-speech says hello",
     "first_seen": "2026-09-24",
-    "times": 1,
-    "last_seen": "2026-09-24"
+    "times": 2,
+    "last_seen": "2026-09-25"
   },
   "a7ede18e93a38d65": {
     "title": "Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT",
@@ -650,8 +596,8 @@
   "75b90aef8cc23c17": {
     "title": "Discord re-introduces age verification policy based on 'account signal' methodology",
     "first_seen": "2026-09-24",
-    "times": 1,
-    "last_seen": "2026-09-24"
+    "times": 2,
+    "last_seen": "2026-09-25"
   },
   "e9acbe8000a59f94": {
     "title": "Bungie says it's \"not done with Destiny\", aims to earn back player trust by restoring archived Destiny 2 content",
@@ -670,5 +616,65 @@
     "first_seen": "2026-09-24",
     "times": 1,
     "last_seen": "2026-09-24"
+  },
+  "f89df38087578c1e": {
+    "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
+  },
+  "63b3f1fff337b18e": {
+    "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
+  },
+  "614b78f192d5ad8a": {
+    "title": "Introducing Gemini 3.8 Live with Live Avatar",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
+  },
+  "0452e33b692eda09": {
+    "title": "Meta VR Glasses are coming. Build with Unity from day one.",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
+  },
+  "08fe30d5bf1de8c3": {
+    "title": "Google’s Project Suncatcher to put ML infrastructure in space",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
+  },
+  "0dcd68c20cdbd982": {
+    "title": "Unreal Engine 5 Realtime GI IBLs realtime GI for free",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
+  },
+  "f71212d22536ef25": {
+    "title": "Perforce => Diversion for Unreal Version Control. Looking for real life experience",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
+  },
+  "b05fbd4dfc872ef1": {
+    "title": "Dutch consumer group files lawsuit against Epic for misleading young players on Fortnite, seeking more than €100m in compensation",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
+  },
+  "1442cd15fd872108": {
+    "title": "Get Hundreds of Striking Production-Ready Assets with This Unreal Engine Environment Bundle",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
+  },
+  "b3620dc5f450b388": {
+    "title": "I’m a videographer who learned Unreal Engine to make a music video. Here’s where I landed.",
+    "first_seen": "2026-09-25",
+    "times": 1,
+    "last_seen": "2026-09-25"
   }
 }
