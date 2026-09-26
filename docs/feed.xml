@@ -4,113 +4,105 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 236 个事件，只有 13 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 209 个事件，只有 12 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 25 Sep 2026 13:11:31 +0800</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 13:17:00 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)</title>
-  <link>https://artificialanalysis.ai/models/claude-opus-5-5</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-f89df3808757</guid>
-  <pubDate>Tue, 22 Sep 2026 16:29:05 +0000</pubDate>
+  <title>Claude discovers a novel enzyme system with CRISPR-like repeats</title>
+  <link>https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-06c2eacce4e6</guid>
+  <pubDate>Wed, 23 Sep 2026 18:06:47 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>43 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic 2026年9月22日发布Claude Opus 5.5推理模型，智能指数58（中位26），1M上下文，输入$4/输出$20每百万token，单任务评测成本$5.98。</p><p><strong>为什么重要</strong><br>推理模型输出token量达260M，远超中位88M，成本结构向输出倾斜；高价高智能定位挤压中端模型空间。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 1792 +15 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://artificialanalysis.ai/models/claude-opus-5-5">Hacker News</a> · <a href="https://www.anthropic.com/claude-opus-5-5">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>41.3 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic组建生命科学团队，用约950个Claude智能体、2.1亿token搜索DNA数据库21小时，发现新型酶系统ART：逆转录酶旁的非编码重复序列阵列。</p><p><strong>为什么重要</strong><br>CRISPR当年也只是细菌里的异常重复序列。AI首次自主识别出可编程DNA操作系统的候选，Feng Zhang已公开评价。生物发现的门槛从实验室前移到算力与提示词。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 774 +13.3 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev</title>
-  <link>https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-63b3f1fff337</guid>
-  <pubDate>Thu, 24 Sep 2026 04:20:59 +0000</pubDate>
+  <title>Claude Code reads AGENTS.md only when telemetry is on [fixed]</title>
+  <link>https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-a72d8abe3fbc</guid>
+  <pubDate>Wed, 23 Sep 2026 12:15:33 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>42.2 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Contrastive-LM发布CLM-8B，Apache-2.0，75MB头，单GPU部署。冻结Qwen3-8B加20M投影头，双向InfoNCE训练。T-Rex任务16.5ms对Jev 149.8ms，约9倍。</p><p><strong>为什么重要</strong><br>System One模型用打分替代生成，Jev走闭源。CLM开源同接口，微调头在DeepSWE达81.6%，超pass@1。验证器与工具路由的延迟门槛被拉低。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS技能、动画蓝图、网络同步不涉及LLM动作打分。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 160 +10.2</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/">MarkTechPost</a> · <a href="https://contrastive-lm.notion.site/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>40.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Claude Code 2.1.277 的 AGENTS.md 加载器藏在远程开关 tengu_agents_md_mod 后，默认 false。关掉遥测或非必要流量后文件静默跳过，无警告。</p><p><strong>为什么重要</strong><br>本地文件读取依赖服务端开关，Bedrock、Vertex 和第三方网关用户同样受影响。隐私设置意外关闭无关功能，且无提示，用户会误判为模型忽略指令。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 481 +12.4 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Introducing Gemini 3.8 Live with Live Avatar</title>
-  <link>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-614b78f192d5</guid>
-  <pubDate>Thu, 24 Sep 2026 16:20:39 +0000</pubDate>
+  <title>Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design</title>
+  <link>https://github.com/devdotfast/whiteboard</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-cdec0f560d85</guid>
+  <pubDate>Thu, 24 Sep 2026 17:21:36 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.8 Live with Live Avatar，在Gemini Enterprise上线。近实时视频生成配语音，支持97种语言无缝切换口型表情，异步工具调用不打断对话，SynthID水印，自定义形象需企业白名单。</p><p><strong>为什么重要</strong><br>多模态实时对话从纯语音走向带视觉形象，企业客服、导览场景可直接替换真人视频。97语言同步口型是工程难点，异步工具调用把对话与后台任务解耦，行业交互范式被推高。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS、动画蓝图、网络同步、战斗手感均不涉及云端对话式虚拟人，无需为此调整技术栈。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/">DeepMind</a> · <a href="https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face">The Verge AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Whiteboard 是 MIT 许可的开源桌面 IDE，基于 Code OSS 分支，用 Rust 写 AST 语义 diff，WASM 插件系统，接入 Claude Code、Codex，画布可跳转代码。</p><p><strong>为什么重要</strong><br>编码代理普及后，逐行 diff 审查成瓶颈；它把代理轨迹、序列图、ER 图与代码双向链接，替代纯 HTML 工具，团队托管版在计划中。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 399 +12 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Meta VR Glasses are coming. Build with Unity from day one.</title>
-  <link>https://unity.com/blog/build-for-meta-vr-glasses-with-unity</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-0452e33b692e</guid>
-  <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+  <title>Git-bug: Distributed, offline-first bug tracker embedded in Git</title>
+  <link>https://github.com/git-bug/git-bug</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-12320472461f</guid>
+  <pubDate>Fri, 25 Sep 2026 11:38:31 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta VR Glasses约100克，5K屏，手眼输入为主，2027春发售。Unity 6.6起支持，OpenXR 2.6.1，XRI 1.9.0+，AR Foundation 6.6.2+。</p><p><strong>为什么重要</strong><br>Quest项目可低成本迁移，手眼交互成主流输入。轻量设备扩大VR用户盘，开发者需重审UI与交互设计。</p><p><strong>对你而言</strong><br>GAS技能需适配手眼输入触发，动画蓝图加注视与手势层。Quad Views降GPU开销，可提场景复杂度。XRI模拟器可无设备调试。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://unity.com/blog/build-for-meta-vr-glasses-with-unity">Unity</a> · <a href="https://www.gamedeveloper.com/business/meta-announces-new-vr-glasses-that-weight-about-100-grams-and-cost-1-300">Game Developer</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>39.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>git-bug 把 bug 追踪器嵌入 Git 仓库，用 git bug push/pull 同步，离线可用，毫秒级列表，支持 CLI、termui、webui 和 GraphQL API，可桥接 GitHub、GitLab、Jira、Launchpad，GPLv3。</p><p><strong>为什么重要</strong><br>它把 issue 变成 Git 对象，去中心化、无厂商锁定，与 Jira 等 SaaS 追踪器路线相反，适合小团队和开源项目自托管协作。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 324 +11.6 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Google’s Project Suncatcher to put ML infrastructure in space</title>
-  <link>https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-08fe30d5bf1d</guid>
-  <pubDate>Thu, 24 Sep 2026 13:53:29 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>谷歌Project Suncatcher首颗原型卫星随SpaceX Transporter-18发射，验证Trillium TPU在轨表现。TPU需承受50-100g振动、抗5年辐射剂量，用热管加散热器真空散热，2027年发两颗星测激光互联。</p><p><strong>为什么重要</strong><br>把ML算力搬上近地轨道，太阳能可达地面8倍。若成立，数据中心选址逻辑从电网、水冷转向轨道与散热，云厂商算力竞争多一个维度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 148 +10</small></p><p><small>全部来源：<a href="https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/">Hacker News</a> · <a href="https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher">The Verge AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Unreal Engine 5 Realtime GI IBLs realtime GI for free</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wpb2d6/unreal_engine_5_realtime_gi_ibls_realtime_gi_for/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-0dcd68c20cdb</guid>
-  <pubDate>Thu, 24 Sep 2026 19:25:45 +0000</pubDate>
+  <title>I made an MCP server that lets Claude work in Unreal Engine and Blender, and it checks the editor after every change</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wqi115/i_made_an_mcp_server_that_lets_claude_work_in/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-c06fe0fe8106</guid>
+  <pubDate>Sat, 26 Sep 2026 05:15:03 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者Hevedy在UE 5.8分支实现IBL实时GI，用反射捕获伪实时非阻塞更新，不依赖光追和屏幕空间，双旧显卡稳定120FPS。</p><p><strong>为什么重要</strong><br>传统实时GI依赖Lumen或光追，硬件门槛高。此方案用反射捕获低成本模拟，旧GPU也能跑，适合低配多人竞技场景。</p><p><strong>对你而言</strong><br>PVP竞技场若用Lumen吃性能，可参考此反射捕获方案降GI开销，保120FPS手感；需自行编译5.8分支验证。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>MifBridge 是 MCP 服务器，含 UE 插件（5.3-5.8）与 Blender 插件，1.0.0 版有 458 条 UE 命令、189 条 Blender 命令、669 个 MCP 工具，默认权限禁止保存、PIE 和控制台命令。</p><p><strong>为什么重要</strong><br>AI 客户端可直接操作引擎并回读编辑器状态验证结果，把「生成代码」变成「改完即验」，降低人工核对成本，改变工具链自动化方式。</p><p><strong>对你而言</strong><br>可参考其写后回读校验与分级权限设计，用于 GAS 技能批量配置、动画蓝图节点生成等重复劳动，但需防 AI 误改资产。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Perforce =&gt; Diversion for Unreal Version Control. Looking for real life experience</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wp3j9u/perforce_diversion_for_unreal_version_control/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-f71212d22536</guid>
-  <pubDate>Thu, 24 Sep 2026 14:42:49 +0000</pubDate>
+  <title>Vertex paint on modeled assets in Unreal Engine 5.6</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wq4dp7/vertex_paint_on_modeled_assets_in_unreal_engine_56/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-771e18ee5c8d</guid>
+  <pubDate>Fri, 25 Sep 2026 18:45:11 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>41.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户询问从Perforce迁移到Diversion的实际经验，涉及迁移过程、程序员与美术工作流变化。Diversion是UE版本控制工具，帖中无具体版本号或参数。</p><p><strong>为什么重要</strong><br>Perforce长期主导UE大项目版本控制，Diversion以云原生和易用性切入。若迁移可行，中小团队可降低运维成本，改变资产锁与分支习惯。</p><p><strong>对你而言</strong><br>与你的GAS、动画蓝图、网络同步工作无直接关系；但版本控制影响二进制资产协作，若团队换工具需重估锁策略与提交粒度。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +7.2 / 命中「unreal」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5.6 内置建模工具含 Paint Vertex Colors 笔刷，用户给土堆模型涂顶点色无反应，想不借助外部软件在网格边缘涂透明度消除硬边。</p><p><strong>为什么重要</strong><br>顶点色绘制在引擎内完成可省去来回导出，但该功能依赖材质节点采样与网格是否含顶点色通道，社区反馈常卡在设置环节。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Dutch consumer group files lawsuit against Epic for misleading young players on Fortnite, seeking more than €100m in compensation</title>
-  <link>https://www.gamesindustry.biz/dutch-consumer-group-files-lawsuit-against-epic-for-misleading-young-players-on-fortnite-seeking-more-than-100m-in-compensation</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-b05fbd4dfc87</guid>
-  <pubDate>Thu, 24 Sep 2026 13:48:19 +0000</pubDate>
+  <title>Developer Behind the Scenes | Replacements | Band of Brothers in Unreal Engine 5.7</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wprstc/developer_behind_the_scenes_replacements_band_of/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-47317d4d1dd0</guid>
+  <pubDate>Fri, 25 Sep 2026 09:30:05 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · GamesIndustry · 能用上的</p><p><strong>发生了什么</strong><br>荷兰SMC对Epic发起集体诉讼，代表21岁前玩Fortnite的玩家索赔超1亿欧元。ACM曾罚Epic 112.5万欧元：限时倒计时与"立即购买"文案各罚56.25万，2026年1月鹿特丹法院维持。</p><p><strong>为什么重要</strong><br>监管开始把商店UI的倒计时、催促文案认定为对未成年人的不公平商业设计。Epic辩称荷兰18岁以下玩家看不到48小时内下架商品。付费设计合规风险从抽卡扩展到限时促销。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若做内购商店，限时倒计时与催促文案在欧盟有法律风险，可参考Epic的48小时可见性限制与两步确认。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「epic games」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>41.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者用UE5.7制作《兄弟连》剧集「Replacements」致敬场景，耗时数月，涉及过场动画、灯光、材质等非其主攻领域。</p><p><strong>为什么重要</strong><br>UE5.7被个人开发者用于影视级写实场景，说明引擎版本迭代降低高保真叙事门槛，独立创作者可挑战复杂项目。</p><p><strong>对你而言</strong><br>与你的PVP战斗、GAS、网络同步工作无直接关系，但可参考其灯光材质流程用于技能特效预览。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +7.2 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Get Hundreds of Striking Production-Ready Assets with This Unreal Engine Environment Bundle</title>
-  <link>https://80.lv/articles/get-hundreds-of-striking-production-ready-assets-with-this-unreal-engine-environment-bundle/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-1442cd15fd87</guid>
-  <pubDate>Thu, 24 Sep 2026 13:34:00 +0000</pubDate>
+  <title>How to Create Futuristic Hovercraft Flight Simulator Inspired by Matrix</title>
+  <link>https://80.lv/articles/how-to-create-futuristic-hovercraft-flight-simulator-inspired-by-matrix/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-f2714cf2585b</guid>
+  <pubDate>Fri, 25 Sep 2026 18:37:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Meshingun Studio发布UE环境资产包，含哥特家具、亚洲寺庙场景、风格化植被等20余个包，共数百个生产级资产。</p><p><strong>为什么重要</strong><br>环境美术资产打包售卖降低场景搭建门槛，独立团队可快速填充关卡，但同质化风险上升。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>环境概念师Volodymyr Donchenko用UE5做《黑客帝国》悬浮艇飞行模拟，基于2021年12月9日发布的The Matrix Awakens演示；用Nanite、Lumen、World Partition、LUT、MegaLights、Ultra Dynamic Sky、EasyFog，RTX 4090笔记本，自制散热系统。</p><p><strong>为什么重要</strong><br>展示Nanite+Lumen在密集开放城市中处理数十亿多边形的实际效果，World Partition成为大世界标配，个人开发者靠模板与商城资产也能做出电影级场景。</p><p><strong>对你而言</strong><br>可参考其World Partition分区与蓝图散布资产的优化思路，以及LUT调色、EasyFog控氛围的做法；但飞行模拟与GAS战斗、动画蓝图、网络同步无关。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>I’m a videographer who learned Unreal Engine to make a music video. Here’s where I landed.</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wpi2tl/im_a_videographer_who_learned_unreal_engine_to/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-b3620dc5f450</guid>
-  <pubDate>Fri, 25 Sep 2026 00:22:07 +0000</pubDate>
+  <title>Does Mutable assist with skinning clothes to a metahuman?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wpw08d/does_mutable_assist_with_skinning_clothes_to_a/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-688ccdff277a</guid>
+  <pubDate>Fri, 25 Sep 2026 13:12:36 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>38.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>一名摄像师自学UE，为歌曲《On the Mend》做音乐视频：从未来地球倒放穿越核灾与人类史，最终转实拍，全片伪一镜到底。</p><p><strong>为什么重要</strong><br>非游戏从业者用UE完成影视级一镜到底，说明引擎门槛已降到个人创作者可独立完成整片。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +4.8 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户问UE5 Mutable能否把衣服蒙皮到MetaHuman，并隐藏被衣服完全遮住的皮肤区域。</p><p><strong>为什么重要</strong><br>Mutable是UE5程序化网格生成插件，社区在探索它替代传统骨骼网格换装流程的可能。</p><p><strong>对你而言</strong><br>若项目用MetaHuman做PVP角色，可研究Mutable动态生成换装网格，但需验证GAS与动画蓝图兼容性。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「metahuman」 +20</small></p>]]></description>
 </item>
 <item>
   <title>Gemini 3.8 text-to-speech says hello</title>
   <link>https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-904e07875e79</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-904e07875e79</guid>
   <pubDate>Wed, 23 Sep 2026 15:25:14 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>55.6 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.8 Flash TTS与Flash-Lite TTS，支持自然语言生成音色、30秒样本克隆、2000+预置音色、100+语言，Hume基准71.4分居首。</p><p><strong>为什么重要</strong><br>语音生成从固定预设转向可逐行导演的创作工具，配音、播客、有声书与语音Agent成本下降，配音演员与音频外包受冲击。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 328 +11.6 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/">MarkTechPost</a> · <a href="https://simonwillison.net/2026/Sep/23/gemini-tts-playground/">Simon Willison</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>43.6 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.8 Flash TTS与Flash-Lite TTS，支持自然语言生成音色、30秒样本克隆、2000+语音库、100+语言，Hume基准71.4分居首。</p><p><strong>为什么重要</strong><br>语音生成从固定预设变为可提示设计的创作工具，配音、播客、有声书成本骤降，真人配音与语音演员市场受挤压。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 330 +11.6 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/">DeepMind</a> · <a href="https://simonwillison.net/2026/Sep/23/gemini-tts-playground/">Simon Willison</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Introducing GPT-6 Sol and Luna</title>
-  <link>https://openai.com/index/introducing-gpt-6-sol-and-luna</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-875d7b11861e</guid>
-  <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
+  <title>Introducing Gemini 3.8 Live with Live Avatar</title>
+  <link>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-614b78f192d5</guid>
+  <pubDate>Thu, 24 Sep 2026 16:20:39 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-6 Sol与Luna，API价格较GPT-5.6促销价降50%，缓存输入读取折扣90%。Sol在AutomationBench以Opus 5的9%成本超越其最高分，DeepSWE得分68.8%。</p><p><strong>为什么重要</strong><br>前沿模型能力下放到低成本层，编码与Agent任务成本骤降。Claude Opus 5、Fable 5.1在同等任务上成本高出10倍以上，价格战重塑开发者模型选型。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-gpt-6-sol-and-luna">OpenAI</a> · <a href="https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks/">MarkTechPost</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 3.8 Live with Live Avatar，在Gemini Enterprise上线。近实时视频生成加语音，精确口型、自然表情、流畅轮替；支持97种语言无缝切换，异步工具调用后台取数不打断对话；自定义Avatar需企业白名单，输出全部嵌入SynthID水印。</p><p><strong>为什么重要</strong><br>多模态实时对话从纯语音走向带视觉人格的实时音视频，企业客服与虚拟导览的交互形态被改写。异步工具调用让对话与任务并行，97语言原生同步降低出海门槛，SynthID水印成AI内容合规基线。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS、动画蓝图、网络同步、战斗手感均不涉及云端对话Avatar，无需为此调整技术栈。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/">DeepMind</a> · <a href="https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>Discord re-introduces age verification policy based on 'account signal' methodology</title>
-  <link>https://www.gamedeveloper.com/business/discord-re-introduces-age-verification-policy-with-new-methods</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-25-75b90aef8cc2</guid>
-  <pubDate>Wed, 23 Sep 2026 10:11:43 +0000</pubDate>
+  <title>Meta VR Glasses are coming. Build with Unity from day one.</title>
+  <link>https://unity.com/blog/build-for-meta-vr-glasses-with-unity</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-26-0452e33b692e</guid>
+  <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Discord二次推年龄验证：用账号存续时长、支付方式等信号估算年龄，称90%老用户免验证；新增信用卡、App Store、Google Play、AgeKey等非人脸/证件方式，13-17岁归青少年组。</p><p><strong>为什么重要</strong><br>首次因沟通不清被骂到回炉，且面临多州诉讼。平台改用账号信号替代生物识别，为全球合规抢跑，可能成为社交产品年龄门槛的默认做法。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/discord-re-introduces-age-verification-policy-with-new-methods">Game Developer</a> · <a href="https://www.gamesindustry.biz/discord-re-launches-age-verification-following-backlash-over-privacy-concerns">GamesIndustry</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Meta VR Glasses约100克，5K Infinite Display，主打手眼输入，2027春发售。Unity 6.6起支持，OpenXR 2.6.1、XRI 1.9.0+，Quest项目可低成本迁移。</p><p><strong>为什么重要</strong><br>Quest生态延续，轻量头显把手眼交互推为主流。开发者需重审UI与输入设计，控制器优先项目面临改造。</p><p><strong>对你而言</strong><br>若用UE5做Quest移植，需自建OpenXR手眼输入与注视点渲染；Quad Views省GPU、7.1.4空间音频可借鉴到VR战斗表现。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://unity.com/blog/build-for-meta-vr-glasses-with-unity">Unity</a> · <a href="https://www.gamedeveloper.com/business/meta-announces-new-vr-glasses-that-weight-about-100-grams-and-cost-1-300">Game Developer</a></small></p>]]></description>
 </item>
 </channel>
 </rss>

@@ -1,46 +1,4 @@
 {
-  "55ea7e35824aa683": {
-    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-    "first_seen": "2026-09-09",
-    "times": 3,
-    "last_seen": "2026-09-11"
-  },
-  "d5bb809ff407deb4": {
-    "title": "Introducing ChatGPT Images 2.5",
-    "first_seen": "2026-09-09",
-    "times": 3,
-    "last_seen": "2026-09-11"
-  },
-  "338c04b6cd26a483": {
-    "title": "Epic Games Store to introduce age checks for R18+ games in Australia",
-    "first_seen": "2026-09-10",
-    "times": 2,
-    "last_seen": "2026-09-11"
-  },
-  "2c3fbf9fdc31109b": {
-    "title": "Paul Christiano joins OpenAI Foundation Board",
-    "first_seen": "2026-09-11",
-    "times": 1,
-    "last_seen": "2026-09-11"
-  },
-  "ad113e76ca6b6b38": {
-    "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-    "first_seen": "2026-09-11",
-    "times": 1,
-    "last_seen": "2026-09-11"
-  },
-  "4b38da6636546ef2": {
-    "title": "3万台无人车之后，这家公司盯上了城市级物理AI",
-    "first_seen": "2026-09-11",
-    "times": 1,
-    "last_seen": "2026-09-11"
-  },
-  "598f83d26dc06cc5": {
-    "title": "OpenAI这是拿千禧年难题当Benchmark刷啊。。。",
-    "first_seen": "2026-09-11",
-    "times": 1,
-    "last_seen": "2026-09-11"
-  },
   "ab63f001271c5973": {
     "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
     "first_seen": "2026-09-11",
@@ -584,8 +542,8 @@
   "904e07875e79e070": {
     "title": "Gemini 3.8 text-to-speech says hello",
     "first_seen": "2026-09-24",
-    "times": 2,
-    "last_seen": "2026-09-25"
+    "times": 3,
+    "last_seen": "2026-09-26"
   },
   "a7ede18e93a38d65": {
     "title": "Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT",
@@ -632,14 +590,14 @@
   "614b78f192d5ad8a": {
     "title": "Introducing Gemini 3.8 Live with Live Avatar",
     "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
+    "times": 2,
+    "last_seen": "2026-09-26"
   },
   "0452e33b692eda09": {
     "title": "Meta VR Glasses are coming. Build with Unity from day one.",
     "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
+    "times": 2,
+    "last_seen": "2026-09-26"
   },
   "08fe30d5bf1de8c3": {
     "title": "Google’s Project Suncatcher to put ML infrastructure in space",
@@ -676,5 +634,59 @@
     "first_seen": "2026-09-25",
     "times": 1,
     "last_seen": "2026-09-25"
+  },
+  "06c2eacce4e63ea8": {
+    "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+    "first_seen": "2026-09-26",
+    "times": 1,
+    "last_seen": "2026-09-26"
+  },
+  "a72d8abe3fbc7592": {
+    "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+    "first_seen": "2026-09-26",
+    "times": 1,
+    "last_seen": "2026-09-26"
+  },
+  "cdec0f560d852f16": {
+    "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+    "first_seen": "2026-09-26",
+    "times": 1,
+    "last_seen": "2026-09-26"
+  },
+  "12320472461fecea": {
+    "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+    "first_seen": "2026-09-26",
+    "times": 1,
+    "last_seen": "2026-09-26"
+  },
+  "c06fe0fe81067872": {
+    "title": "I made an MCP server that lets Claude work in Unreal Engine and Blender, and it checks the editor after every change",
+    "first_seen": "2026-09-26",
+    "times": 1,
+    "last_seen": "2026-09-26"
+  },
+  "771e18ee5c8d2a4d": {
+    "title": "Vertex paint on modeled assets in Unreal Engine 5.6",
+    "first_seen": "2026-09-26",
+    "times": 1,
+    "last_seen": "2026-09-26"
+  },
+  "47317d4d1dd05701": {
+    "title": "Developer Behind the Scenes | Replacements | Band of Brothers in Unreal Engine 5.7",
+    "first_seen": "2026-09-26",
+    "times": 1,
+    "last_seen": "2026-09-26"
+  },
+  "f2714cf2585beb97": {
+    "title": "How to Create Futuristic Hovercraft Flight Simulator Inspired by Matrix",
+    "first_seen": "2026-09-26",
+    "times": 1,
+    "last_seen": "2026-09-26"
+  },
+  "688ccdff277a3d3d": {
+    "title": "Does Mutable assist with skinning clothes to a metahuman?",
+    "first_seen": "2026-09-26",
+    "times": 1,
+    "last_seen": "2026-09-26"
   }
 }
