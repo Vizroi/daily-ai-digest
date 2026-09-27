@@ -5,53 +5,17 @@
     "times": 3,
     "last_seen": "2026-09-13"
   },
-  "19bc040bbfd85537": {
-    "title": "Ask HN: Can we please limit the AI news flood?",
-    "first_seen": "2026-09-12",
-    "times": 1,
-    "last_seen": "2026-09-12"
-  },
-  "691c97ea37af7a9a": {
-    "title": "Claude is only available to people over 18 years",
-    "first_seen": "2026-09-12",
-    "times": 1,
-    "last_seen": "2026-09-12"
-  },
   "e7c638d1107adefe": {
     "title": "Making a Recreation of Dr. Doom Using Unreal Engine and ZBrush",
     "first_seen": "2026-09-12",
     "times": 2,
     "last_seen": "2026-09-14"
   },
-  "7ce03d2710c65ef5": {
-    "title": "After months of fighting with Unreal's editor, my C++ camera animation system is finally live on Fab! (Phantom Camera Motion)",
-    "first_seen": "2026-09-12",
-    "times": 1,
-    "last_seen": "2026-09-12"
-  },
   "2d6ac1bfea53dc55": {
     "title": "Unreal Asset Manager",
     "first_seen": "2026-09-12",
     "times": 2,
     "last_seen": "2026-09-13"
-  },
-  "3b955b6b0ee96d8c": {
-    "title": "I spent nearly a year building a complete skateboarding framework in Unreal Engine. It's finally finished!",
-    "first_seen": "2026-09-12",
-    "times": 1,
-    "last_seen": "2026-09-12"
-  },
-  "bb9a64739f090f18": {
-    "title": "From Java to Unreal",
-    "first_seen": "2026-09-12",
-    "times": 1,
-    "last_seen": "2026-09-12"
-  },
-  "077c0fd85ad80476": {
-    "title": "DLSS 5 Plugin for UE5",
-    "first_seen": "2026-09-12",
-    "times": 1,
-    "last_seen": "2026-09-12"
   },
   "13ce17e3e1ccb6f0": {
     "title": "OpenAI年内不上市了！奥特曼支持对手Dario呼吁：AI该踩刹车了",
@@ -590,8 +554,8 @@
   "614b78f192d5ad8a": {
     "title": "Introducing Gemini 3.8 Live with Live Avatar",
     "first_seen": "2026-09-25",
-    "times": 2,
-    "last_seen": "2026-09-26"
+    "times": 3,
+    "last_seen": "2026-09-27"
   },
   "0452e33b692eda09": {
     "title": "Meta VR Glasses are coming. Build with Unity from day one.",
@@ -680,13 +644,67 @@
   "f2714cf2585beb97": {
     "title": "How to Create Futuristic Hovercraft Flight Simulator Inspired by Matrix",
     "first_seen": "2026-09-26",
-    "times": 1,
-    "last_seen": "2026-09-26"
+    "times": 2,
+    "last_seen": "2026-09-27"
   },
   "688ccdff277a3d3d": {
     "title": "Does Mutable assist with skinning clothes to a metahuman?",
     "first_seen": "2026-09-26",
     "times": 1,
     "last_seen": "2026-09-26"
+  },
+  "d86f3ea7709f4573": {
+    "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+    "first_seen": "2026-09-27",
+    "times": 1,
+    "last_seen": "2026-09-27"
+  },
+  "574562eebc44bd9f": {
+    "title": "Meta unveils AI-powered game tools for mobile devices and browsers; announces VR Glasses with day-one Unity support",
+    "first_seen": "2026-09-27",
+    "times": 1,
+    "last_seen": "2026-09-27"
+  },
+  "023697e369f7017d": {
+    "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+    "first_seen": "2026-09-27",
+    "times": 1,
+    "last_seen": "2026-09-27"
+  },
+  "097de2895c64cb2d": {
+    "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+    "first_seen": "2026-09-27",
+    "times": 1,
+    "last_seen": "2026-09-27"
+  },
+  "8b0d908bf61e72f2": {
+    "title": "'This shows the power that comes from employees joining forces:' King signs collective bargaining agreement with union workers",
+    "first_seen": "2026-09-27",
+    "times": 1,
+    "last_seen": "2026-09-27"
+  },
+  "8f3d828fbfe3db5f": {
+    "title": "Unreal 5.8 - Materials Masterclass - Chapter 8: Time, animation and Video (Part 1)",
+    "first_seen": "2026-09-27",
+    "times": 1,
+    "last_seen": "2026-09-27"
+  },
+  "8566aed86947a5c3": {
+    "title": "Vertex Color Driven Niagara!",
+    "first_seen": "2026-09-27",
+    "times": 1,
+    "last_seen": "2026-09-27"
+  },
+  "c5610c40d84d98d1": {
+    "title": "Creating clothes for MetaHumans",
+    "first_seen": "2026-09-27",
+    "times": 1,
+    "last_seen": "2026-09-27"
+  },
+  "58befd16d58874f2": {
+    "title": "UE5: Red Dot material produces double outlines when dlss is aktiv.",
+    "first_seen": "2026-09-27",
+    "times": 1,
+    "last_seen": "2026-09-27"
   }
 }
