@@ -1,69 +1,9 @@
 {
-  "ab63f001271c5973": {
-    "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
-    "first_seen": "2026-09-11",
-    "times": 3,
-    "last_seen": "2026-09-13"
-  },
   "e7c638d1107adefe": {
     "title": "Making a Recreation of Dr. Doom Using Unreal Engine and ZBrush",
     "first_seen": "2026-09-12",
     "times": 2,
     "last_seen": "2026-09-14"
-  },
-  "2d6ac1bfea53dc55": {
-    "title": "Unreal Asset Manager",
-    "first_seen": "2026-09-12",
-    "times": 2,
-    "last_seen": "2026-09-13"
-  },
-  "13ce17e3e1ccb6f0": {
-    "title": "OpenAI年内不上市了！奥特曼支持对手Dario呼吁：AI该踩刹车了",
-    "first_seen": "2026-09-13",
-    "times": 1,
-    "last_seen": "2026-09-13"
-  },
-  "2c5c930f203f58c2": {
-    "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
-    "first_seen": "2026-09-13",
-    "times": 1,
-    "last_seen": "2026-09-13"
-  },
-  "f4945d88f444224f": {
-    "title": "Rockstar and fired GTA developers outline core arguments during union busting tribunal",
-    "first_seen": "2026-09-13",
-    "times": 1,
-    "last_seen": "2026-09-13"
-  },
-  "1374d41637268187": {
-    "title": "google.com/goto: Google's anti-scraping update",
-    "first_seen": "2026-09-13",
-    "times": 1,
-    "last_seen": "2026-09-13"
-  },
-  "78d537e49dcf861d": {
-    "title": "Cognition Releases SWE-2: A Kimi K3 Post-Trained Coding Model That Matches Fable 5.1 on FrontierCode at 64% Lower Cost",
-    "first_seen": "2026-09-13",
-    "times": 1,
-    "last_seen": "2026-09-13"
-  },
-  "f64439a46ad24d96": {
-    "title": "Optimization question for programmers - engineers - tech artists that have shipped UE5 projects.",
-    "first_seen": "2026-09-13",
-    "times": 1,
-    "last_seen": "2026-09-13"
-  },
-  "f5c723a446f1f240": {
-    "title": "Unreal 5.8 - Materials Masterclass - Chapter 7: Material Instances & Custom Nodes",
-    "first_seen": "2026-09-13",
-    "times": 1,
-    "last_seen": "2026-09-13"
-  },
-  "2b00fb08bc57f61d": {
-    "title": "Retargeting metahuman to ALS community version",
-    "first_seen": "2026-09-13",
-    "times": 1,
-    "last_seen": "2026-09-13"
   },
   "501a5d208cf31831": {
     "title": "奥特曼被骗！A社一脚油门冲刺IPO，募资叫板SpaceX",
@@ -644,8 +584,8 @@
   "f2714cf2585beb97": {
     "title": "How to Create Futuristic Hovercraft Flight Simulator Inspired by Matrix",
     "first_seen": "2026-09-26",
-    "times": 2,
-    "last_seen": "2026-09-27"
+    "times": 3,
+    "last_seen": "2026-09-28"
   },
   "688ccdff277a3d3d": {
     "title": "Does Mutable assist with skinning clothes to a metahuman?",
@@ -680,20 +620,20 @@
   "8b0d908bf61e72f2": {
     "title": "'This shows the power that comes from employees joining forces:' King signs collective bargaining agreement with union workers",
     "first_seen": "2026-09-27",
-    "times": 1,
-    "last_seen": "2026-09-27"
+    "times": 2,
+    "last_seen": "2026-09-28"
   },
   "8f3d828fbfe3db5f": {
     "title": "Unreal 5.8 - Materials Masterclass - Chapter 8: Time, animation and Video (Part 1)",
     "first_seen": "2026-09-27",
-    "times": 1,
-    "last_seen": "2026-09-27"
+    "times": 2,
+    "last_seen": "2026-09-28"
   },
   "8566aed86947a5c3": {
     "title": "Vertex Color Driven Niagara!",
     "first_seen": "2026-09-27",
-    "times": 1,
-    "last_seen": "2026-09-27"
+    "times": 2,
+    "last_seen": "2026-09-28"
   },
   "c5610c40d84d98d1": {
     "title": "Creating clothes for MetaHumans",
@@ -706,5 +646,23 @@
     "first_seen": "2026-09-27",
     "times": 1,
     "last_seen": "2026-09-27"
+  },
+  "6ae964d10f7b019d": {
+    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+    "first_seen": "2026-09-28",
+    "times": 1,
+    "last_seen": "2026-09-28"
+  },
+  "38b63cca2bf6da86": {
+    "title": "How to keep enjoying programming in a world of LLMs",
+    "first_seen": "2026-09-28",
+    "times": 1,
+    "last_seen": "2026-09-28"
+  },
+  "21bc7885e9cb2250": {
+    "title": "Chivalry/Mordhau inspired Combat System",
+    "first_seen": "2026-09-28",
+    "times": 1,
+    "last_seen": "2026-09-28"
   }
 }
