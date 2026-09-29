@@ -1,39 +1,9 @@
 {
-  "e7c638d1107adefe": {
-    "title": "Making a Recreation of Dr. Doom Using Unreal Engine and ZBrush",
-    "first_seen": "2026-09-12",
-    "times": 2,
-    "last_seen": "2026-09-14"
-  },
-  "501a5d208cf31831": {
-    "title": "奥特曼被骗！A社一脚油门冲刺IPO，募资叫板SpaceX",
-    "first_seen": "2026-09-14",
-    "times": 1,
-    "last_seen": "2026-09-14"
-  },
   "68c1e79e8a0f471f": {
     "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
     "first_seen": "2026-09-14",
     "times": 2,
     "last_seen": "2026-09-15"
-  },
-  "8246555b2b4092fa": {
-    "title": "Make your first edit to OpenStreetMap",
-    "first_seen": "2026-09-14",
-    "times": 1,
-    "last_seen": "2026-09-14"
-  },
-  "8ec585cb348fb191": {
-    "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
-    "first_seen": "2026-09-14",
-    "times": 1,
-    "last_seen": "2026-09-14"
-  },
-  "15bc1ddf5606da0f": {
-    "title": "GrapheneOS' rewritten Messages app is released",
-    "first_seen": "2026-09-14",
-    "times": 1,
-    "last_seen": "2026-09-14"
   },
   "1963ade51d6f6dd2": {
     "title": "Rockstar and IWGB outline arguments at start of tribunal",
@@ -664,5 +634,59 @@
     "first_seen": "2026-09-28",
     "times": 1,
     "last_seen": "2026-09-28"
+  },
+  "7463fbc60b826e5c": {
+    "title": "Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price",
+    "first_seen": "2026-09-29",
+    "times": 1,
+    "last_seen": "2026-09-29"
+  },
+  "7e438715f330a4f1": {
+    "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
+    "first_seen": "2026-09-29",
+    "times": 1,
+    "last_seen": "2026-09-29"
+  },
+  "c0de3311e910fef3": {
+    "title": "李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地",
+    "first_seen": "2026-09-29",
+    "times": 1,
+    "last_seen": "2026-09-29"
+  },
+  "7b7e93a019b07067": {
+    "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+    "first_seen": "2026-09-29",
+    "times": 1,
+    "last_seen": "2026-09-29"
+  },
+  "bd5860832e5d381a": {
+    "title": "I need help with dragging in Unreal Engine.",
+    "first_seen": "2026-09-29",
+    "times": 1,
+    "last_seen": "2026-09-29"
+  },
+  "53c0878335e09f22": {
+    "title": "Bones and Anims from Blender to Unreal (slightly confused)",
+    "first_seen": "2026-09-29",
+    "times": 1,
+    "last_seen": "2026-09-29"
+  },
+  "19eeb75a95397bb1": {
+    "title": "Last Week In Unreal: 1,072 commits on ue6-main; 196 on ue5-main | MSVC static analysis may have been analyzing nothing",
+    "first_seen": "2026-09-29",
+    "times": 1,
+    "last_seen": "2026-09-29"
+  },
+  "1b5dc7c5bd82045b": {
+    "title": "Epic Games Launcher is super laggy and crashing my other applications in Windows.",
+    "first_seen": "2026-09-29",
+    "times": 1,
+    "last_seen": "2026-09-29"
+  },
+  "7e383167ebc3867a": {
+    "title": "UNREAL 5.8 Light Radius/Angle Does Not Soften Shadows.",
+    "first_seen": "2026-09-29",
+    "times": 1,
+    "last_seen": "2026-09-29"
   }
 }
