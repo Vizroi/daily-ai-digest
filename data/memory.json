@@ -1,63 +1,9 @@
 {
-  "68c1e79e8a0f471f": {
-    "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
-    "first_seen": "2026-09-14",
-    "times": 2,
-    "last_seen": "2026-09-15"
-  },
-  "1963ade51d6f6dd2": {
-    "title": "Rockstar and IWGB outline arguments at start of tribunal",
-    "first_seen": "2026-09-15",
-    "times": 1,
-    "last_seen": "2026-09-15"
-  },
   "d80e71d820d0602d": {
     "title": "Valve's Steam Frame pricing starts at $1,059",
     "first_seen": "2026-09-15",
     "times": 2,
     "last_seen": "2026-09-16"
-  },
-  "dfbbdbdb283518af": {
-    "title": "New StarCraft title to launch in 2030, will be an open-world FPS",
-    "first_seen": "2026-09-15",
-    "times": 1,
-    "last_seen": "2026-09-15"
-  },
-  "b7270cb4e4af125c": {
-    "title": "Moss developer Polyarc has shut down",
-    "first_seen": "2026-09-15",
-    "times": 1,
-    "last_seen": "2026-09-15"
-  },
-  "d216c8704d161f9d": {
-    "title": "Reminder: If anyone messages you from the Unreal Engine discord out of the blue presenting themselves as looking for work, they’re 100% scammers.",
-    "first_seen": "2026-09-15",
-    "times": 1,
-    "last_seen": "2026-09-15"
-  },
-  "20a08a841609a1cb": {
-    "title": "Any good channels to watch for Unreal Animation/Sequencer How-To's outside of Documentation?",
-    "first_seen": "2026-09-15",
-    "times": 1,
-    "last_seen": "2026-09-15"
-  },
-  "25c8208776553d5c": {
-    "title": "Steam Integration for Unreal Engine - now with Multiplayer and Voice Chat",
-    "first_seen": "2026-09-15",
-    "times": 1,
-    "last_seen": "2026-09-15"
-  },
-  "e39fd99f427bc96c": {
-    "title": "Last Week In Unreal: 727 commits on ue6-main; 127 on ue5-main | Two cache invalidations hiding in plain sight",
-    "first_seen": "2026-09-15",
-    "times": 1,
-    "last_seen": "2026-09-15"
-  },
-  "f59eebe808cfd66c": {
-    "title": "I made Nine Slicing in Unreal easier to reason about",
-    "first_seen": "2026-09-15",
-    "times": 1,
-    "last_seen": "2026-09-15"
   },
   "7d4a63590061c18a": {
     "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
@@ -638,20 +584,20 @@
   "7463fbc60b826e5c": {
     "title": "Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price",
     "first_seen": "2026-09-29",
-    "times": 1,
-    "last_seen": "2026-09-29"
+    "times": 2,
+    "last_seen": "2026-09-30"
   },
   "7e438715f330a4f1": {
     "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
     "first_seen": "2026-09-29",
-    "times": 1,
-    "last_seen": "2026-09-29"
+    "times": 2,
+    "last_seen": "2026-09-30"
   },
   "c0de3311e910fef3": {
     "title": "李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地",
     "first_seen": "2026-09-29",
-    "times": 1,
-    "last_seen": "2026-09-29"
+    "times": 2,
+    "last_seen": "2026-09-30"
   },
   "7b7e93a019b07067": {
     "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
@@ -688,5 +634,59 @@
     "first_seen": "2026-09-29",
     "times": 1,
     "last_seen": "2026-09-29"
+  },
+  "6ce9939aee45a77e": {
+    "title": "Introducing GPT-6.1 Sol",
+    "first_seen": "2026-09-30",
+    "times": 1,
+    "last_seen": "2026-09-30"
+  },
+  "8571e7c506f6b2a3": {
+    "title": "Introducing dots",
+    "first_seen": "2026-09-30",
+    "times": 1,
+    "last_seen": "2026-09-30"
+  },
+  "a618cce109412b18": {
+    "title": "DevDay 2026 Recap",
+    "first_seen": "2026-09-30",
+    "times": 1,
+    "last_seen": "2026-09-30"
+  },
+  "eabe08ef617a3a7c": {
+    "title": "Holo4: powering generalist computer-use agents",
+    "first_seen": "2026-09-30",
+    "times": 1,
+    "last_seen": "2026-09-30"
+  },
+  "09464518c6ab390f": {
+    "title": "macOS Golden Gate Is a Buggy Mess",
+    "first_seen": "2026-09-30",
+    "times": 1,
+    "last_seen": "2026-09-30"
+  },
+  "d16a73ed7a6e641a": {
+    "title": "This Old Disney-Style Action Game Feels Like Cuphead Meets Hollow Knight",
+    "first_seen": "2026-09-30",
+    "times": 1,
+    "last_seen": "2026-09-30"
+  },
+  "32e61526fba200f8": {
+    "title": "Rant: People who jump on the UE5 hate bandwagon all have two things in common; older hardware and computer illiteracy.",
+    "first_seen": "2026-09-30",
+    "times": 1,
+    "last_seen": "2026-09-30"
+  },
+  "f8e6abdf18530f0b": {
+    "title": "Does UE 5.8 not support morph weights with nanite?",
+    "first_seen": "2026-09-30",
+    "times": 1,
+    "last_seen": "2026-09-30"
+  },
+  "1218a70d915548d4": {
+    "title": "I got tired of UE's default gizmo, so I brought Blender's transform workflow into Unreal",
+    "first_seen": "2026-09-30",
+    "times": 1,
+    "last_seen": "2026-09-30"
   }
 }

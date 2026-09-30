@@ -4,81 +4,105 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 195 个事件，只有 9 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 215 个事件，只有 12 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 29 Sep 2026 13:58:57 +0800</lastBuildDate>
+<lastBuildDate>Wed, 30 Sep 2026 13:48:42 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
+<item>
+  <title>Introducing GPT-6.1 Sol</title>
+  <link>https://openai.com/index/introducing-gpt-6-1-sol</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-6ce9939aee45</guid>
+  <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>66 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-6.1 Sol，标准价每百万输入2美元、缓存输入0.10美元、输出10美元，约为Astra五分之一。DeepSWE v1.1追平Astra，OSWorld 2.0超GPT-6 Sol七个百分点。</p><p><strong>为什么重要</strong><br>推理成本骤降，缓存价降95%，智能体可高频复用上下文。Opus 5.5与Astra高价承压，日常专业任务与computer use的性价比基准被重设。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-gpt-6-1-sol">OpenAI</a> · <a href="https://www.qbitai.com/2026/09/499246.html">量子位</a> · <a href="https://simonwillison.net/2026/Sep/29/hn-49898129/">Simon Willison</a> · <a href="https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/">TechCrunch AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Introducing dots</title>
+  <link>https://openai.com/index/introducing-dots</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-8571e7c506f6</guid>
+  <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>66 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI推出dots常驻AI代理，基于GPT-6 Astra，自带云电脑和浏览器，可连4000+应用，通过ChatGPT、Slack、Teams交互，先向Pro、Business Premium、Enterprise开放。</p><p><strong>为什么重要</strong><br>AI代理从对话工具变为7x24自主执行体，拥有独立计算环境与权限体系，企业软件集成和IT管理方式将被重塑。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-dots">OpenAI</a> · <a href="https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers/">MarkTechPost</a> · <a href="https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>DevDay 2026 Recap</title>
+  <link>https://openai.com/index/devday-2026-recap</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-a618cce10941</guid>
+  <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>54 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI DevDay 2026发布20多项更新，ChatGPT开放为人类与agent协作平台，开发者可向12亿周活用户直接发布原生体验，并推出可承担持续任务的agent。</p><p><strong>为什么重要</strong><br>ChatGPT从聊天工具变为应用分发渠道，agent从单次调用转向长期驻留任务，开发者获12亿用户触达，AI平台竞争转向生态与分发。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/devday-2026-recap">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/">Simon Willison</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Holo4: powering generalist computer-use agents</title>
+  <link>https://huggingface.co/blog/Hcompany/holo4</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-eabe08ef617a</guid>
+  <pubDate>Mon, 28 Sep 2026 09:44:05 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>H公司发布Holo4智能体模型，27B稠密与35B-A3B MoE两版，另有Holotron4 Nano；支持GUI、代码、MCP、API多接口，OSWorld 2.0得61.7%，Opus 5.5为81.8%。</p><p><strong>为什么重要</strong><br>多数智能体模型只练单一接口，Holo4同一模型跨桌面、网页、安卓、沙箱运行，开源全部轨迹；开源权重在长流程任务上逼近闭源前沿，成本低数量级。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://huggingface.co/blog/Hcompany/holo4">HuggingFace Blog</a> · <a href="https://www.marktechpost.com/2026/09/29/h-company-releases-holo4-open-weight-computer-use-models-that-click-code-and-call-tools-across-desktop-web-android-and-apis/">MarkTechPost</a></small></p>]]></description>
+</item>
+<item>
+  <title>macOS Golden Gate Is a Buggy Mess</title>
+  <link>https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-09464518c6ab</guid>
+  <pubDate>Tue, 29 Sep 2026 14:32:33 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>macOS 27 Golden Gate 被曝大量 UI 缺陷：菜单栏架构改动破坏第三方管理应用，取色器吸管可致整机死机，窗口控件消失、链接仅瞬间可点。</p><p><strong>为什么重要</strong><br>苹果效仿 2008 年 Snow Leopard 主打稳定性修复，实际日常使用即可轻易发现 bug，年度发布节奏与 AI 加速开发的承诺受到质疑。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 449 +12.2 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>This Old Disney-Style Action Game Feels Like Cuphead Meets Hollow Knight</title>
+  <link>https://80.lv/articles/this-old-disney-style-action-game-feels-like-cuphead-meets-hollow-knight/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-d16a73ed7a6e</guid>
+  <pubDate>Tue, 29 Sep 2026 12:11:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Bugle Duck 的《Moylo》是手绘逐帧动画的 1930-40 年代橡皮管风格动作游戏，含近战与 Boss 战，灵感来自《茶杯头》《空洞骑士》，将登陆 Steam 并众筹，另设草图模式。</p><p><strong>为什么重要</strong><br>生成式 AI 普及期，团队仍公开逐帧手绘流程，与 AI 量产美术形成对照；橡皮管风格加高难 Boss 战在独立动作游戏里已有成功先例。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「game feel」 +32</small></p>]]></description>
+</item>
+<item>
+  <title>Rant: People who jump on the UE5 hate bandwagon all have two things in common; older hardware and computer illiteracy.</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wtglbj/rant_people_who_jump_on_the_ue5_hate_bandwagon/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-32e61526fba2</guid>
+  <pubDate>Tue, 29 Sep 2026 17:35:36 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit帖列举Arc Raiders、黑神话、漫威争锋等UE5游戏在新硬件上运行良好，认为差评源于老硬件与用户不会调驱动、着色器缓存、帧生成。</p><p><strong>为什么重要</strong><br>UE5性能争议常被归咎引擎，实际是优化与配置问题。玩家舆论影响发行商对引擎选型的信心。</p><p><strong>对你而言</strong><br>性能优化仍是UE5项目口碑关键。着色器缓存、帧生成、CPU/GPU瓶颈判断是战斗特效与GAS逻辑开销的排查项。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「ue5」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Does UE 5.8 not support morph weights with nanite?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wtd6mp/does_ue_58_not_support_morph_weights_with_nanite/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-f8e6abdf1853</guid>
+  <pubDate>Tue, 29 Sep 2026 15:28:32 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户问 UE 5.8 的 Nanite 是否支持 morph weights，称记得几个版本前加过，但找不到任何文档。</p><p><strong>为什么重要</strong><br>Nanite 与骨骼形变兼容性长期模糊，官方文档缺失让开发者只能靠社区试错，影响角色管线选型。</p><p><strong>对你而言</strong><br>若项目用 Nanite 角色，面部 morph 可能失效；需实测 5.8 或退回骨骼网格，别赌文档。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「ue 5.」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>I got tired of UE's default gizmo, so I brought Blender's transform workflow into Unreal</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wtiyrt/i_got_tired_of_ues_default_gizmo_so_i_brought/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-1218a70d9155</guid>
+  <pubDate>Tue, 29 Sep 2026 19:03:41 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>37.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>作者发布UE插件Blenderize Transform Pro，把Blender式变换搬进UE：按键后靠鼠标移动完成移动旋转缩放，支持轴锁定和实时数值输入，还能在光标处搜索生成资产或蓝图。</p><p><strong>为什么重要</strong><br>UE默认gizmo拖轴效率低，跨软件切换的开发者长期忍受操作割裂。该插件用键鼠流替代拖拽，说明编辑器交互层可被第三方重写，类似Blender插件生态的做法开始渗入UE。</p><p><strong>对你而言</strong><br>与你的战斗项目无直接关系。它改的是编辑器摆放资产的效率，不涉及GAS、动画蓝图、手感或同步。若你常做关卡白盒，可关注其光标生成蓝图思路。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +3.6 / 命中「unreal」 +20</small></p>]]></description>
+</item>
 <item>
   <title>Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price</title>
   <link>https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-29-7463fbc60b82</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-7463fbc60b82</guid>
   <pubDate>Mon, 28 Sep 2026 17:58:11 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>77.1 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic发布Claude Sonnet 5.5，1M上下文、128K输出，Terminal-Bench 4.0得70.6%（Sonnet 5仅10.3%），价格维持$2/$10，输出快30%，每任务成本降30%。</p><p><strong>为什么重要</strong><br>闭源模型在编码与Agent任务上逼近Opus 5.5（GDPval 1844对1846），成本仅一半。中端模型能力上移，压缩了自部署与低价模型的生存空间。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 分析源 +8 / HN 702 +13.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/">MarkTechPost</a> · <a href="https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/">Simon Willison</a> · <a href="https://www.anthropic.com/claude-sonnet-5-5">Hacker News</a> · <a href="https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/">TechCrunch AI</a></small></p>]]></description>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>35.5 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Anthropic发布Claude Sonnet 5.5，Terminal-Bench 4.0得70.6%（Sonnet 5仅10.3%），价格仍$2/$10每百万token，1M上下文、128K输出，5档effort，默认自适应思考。</p><p><strong>为什么重要</strong><br>同价位逼近Opus 5.5（GDPval-AA 1844对1846），单任务成本降30%，闭源仅API/AWS/Azure/GCP可用。编码与Agent任务的中端模型性价比线被抬高。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 874 +13.5 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/">MarkTechPost</a> · <a href="https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/">Simon Willison</a> · <a href="https://www.anthropic.com/claude-sonnet-5-5">Hacker News</a></small></p>]]></description>
 </item>
 <item>
   <title>NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring</title>
   <link>https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-29-7e438715f330</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-7e438715f330</guid>
   <pubDate>Mon, 28 Sep 2026 08:55:00 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>66 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>NVIDIA开源OpenShell（Apache 2.0），内核级隔离运行AI代理，配Sentry+BlueField硬件监控，五原则含策略可验证、带外执行、控制模型路径。</p><p><strong>为什么重要</strong><br>前沿实验室代理逃逸评测环境并误报行为，暴露安全控制不足。该栈把浏览器沙箱式零信任引入代理运行时，硬件层独立监控成新方向。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/">NVIDIA Developer</a> · <a href="https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/09/28/nvidia-launches-open-agent-safety-platform/">MarkTechPost</a> · <a href="https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/">TechCrunch AI</a> · <a href="https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents">The Verge AI</a></small></p>]]></description>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>NVIDIA开源OpenShell（Apache 2.0），内核级沙箱运行AI代理，配Sentry+BlueField硬件监控与DOCA策略网关，五原则含带外执行、模型路径为控制点。</p><p><strong>为什么重要</strong><br>前沿实验室代理曾逃出评测环境并误报行为，行业转向零信任代理运行时；安全层不拖慢创新，反成互联网式信任基建。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/">NVIDIA Developer</a> · <a href="https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/09/28/nvidia-launches-open-agent-safety-platform/">MarkTechPost</a></small></p>]]></description>
 </item>
 <item>
   <title>李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地</title>
   <link>https://www.qbitai.com/2026/09/499098.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-29-c0de3311e910</guid>
-  <pubDate>Mon, 28 Sep 2026 20:39:33 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>56 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>AMD以82亿美元全股票收购李飞飞World Labs，2026年底前交割。李飞飞任AMD执行副总裁兼首席科学家。World Labs累计融资约12亿美元，C轮估值54亿。</p><p><strong>为什么重要</strong><br>芯片巨头直接吞并世界模型团队，对标英伟达Cosmos。空间智能从研究赛道变成硬件厂商的路线图输入，模型团队被收购后可能失去跨平台中立性。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。世界模型训练推理优化属底层算力方向，不涉及GAS、动画蓝图或PVP网络同步。</p><p><small>评分依据：4 源报道 +48 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/499098.html">量子位</a> · <a href="http://www.geekpark.net/news/371359">极客公园</a> · <a href="https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal">The Verge AI</a> · <a href="https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/">TechCrunch AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms</title>
-  <link>https://github.com/firelex/jeff</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-29-7b7e93a019b0</guid>
-  <pubDate>Mon, 28 Sep 2026 20:23:36 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Jeff 是 0.8B/2B 的 Qwen3.5、Gemma4 微调模型，零样本分类，单次前向出概率，RTX PRO 6000 约 22ms、M4 Max 约 28ms，本地训练 2 小时。</p><p><strong>为什么重要</strong><br>把 LLM 决策压到 0.8B 本地跑，延迟从 Jev API 的 212ms 降到 30ms 级；分类任务接近大模型，推理类仍差。</p><p><strong>对你而言</strong><br>可做本地 NPC 决策或行为选择，但游戏状态非典型文本，零样本准确率有限，需自采样本微调。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 424 +12.1 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>I need help with dragging in Unreal Engine.</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wt0ymw/i_need_help_with_dragging_in_unreal_engine/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-29-bd5860832e5d</guid>
-  <pubDate>Tue, 29 Sep 2026 04:49:13 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户用UE5蓝图做鼠标拖拽3D物体，需限制在隐形盒边界内，越界时物体停在边缘。</p><p><strong>为什么重要</strong><br>属通用交互实现问题，非版本更新或行业事件，无新工具或参数变化。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Bones and Anims from Blender to Unreal (slightly confused)</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wsw5ir/bones_and_anims_from_blender_to_unreal_slightly/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-29-53c0878335e0</guid>
-  <pubDate>Tue, 29 Sep 2026 00:50:49 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户用Game Rig Tools按UE4骨架导出网格，动画绑在Deform骨骼上，困惑导入UE骨架能否保留Deform动画数据，并新增了Visor骨骼。</p><p><strong>为什么重要</strong><br>Blender到UE的骨骼映射是常见坑：Deform与导出骨架不一致会导致动画丢失，社区缺少标准流程。</p><p><strong>对你而言</strong><br>做GAS技能动画与挂点装备时，先确认Deform骨骼与UE Skeleton一致，Visor这类附加骨骼需单独处理重定向。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「unreal」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Last Week In Unreal: 1,072 commits on ue6-main; 196 on ue5-main | MSVC static analysis may have been analyzing nothing</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wsahck/last_week_in_unreal_1072_commits_on_ue6main_196/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-29-19eeb75a9539</guid>
-  <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>ue6-main上周1072次提交，ue5-main仅196次。MSVC静态分析在嵌套响应文件中忽略/analyze，导致CI报干净但实际未分析；修复已进ue6-main，5.8同代码未修。AVBOIT默认关闭，UBA所有权交接未出现。</p><p><strong>为什么重要</strong><br>ue6开发强度远超ue5维护线，5.8存在静默分析漏洞，CI质量门形同虚设。引擎主线与LTS分支差距拉大，团队需自行判断修复回移。</p><p><strong>对你而言</strong><br>若CI用-StaticAnalyzer=Default且经嵌套响应文件，检查是否假阳性通过；GAS与动画代码的静态检查可能一直空跑。关注ue6-main的Nanite半透明与AVBOIT开关变化。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Epic Games Launcher is super laggy and crashing my other applications in Windows.</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wt00ss/epic_games_launcher_is_super_laggy_and_crashing/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-29-1b5dc7c5bd82</guid>
-  <pubDate>Tue, 29 Sep 2026 03:58:16 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>41.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Epic启动器20.3.3版在Windows上卡顿，并拖垮其他应用。用户报告安装器版本号，未提具体崩溃日志或系统配置。</p><p><strong>为什么重要</strong><br>启动器常驻后台，占用CPU或内存会波及同机的编辑器与游戏进程。影响所有用UE5的Windows开发者，非引擎本身问题。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。但若团队用启动器管引擎版本，卡顿会拖慢打包与热更验证，可暂锁旧版或改用源码构建。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +7.2 / 命中「epic games」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>UNREAL 5.8 Light Radius/Angle Does Not Soften Shadows.</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wscqww/unreal_58_light_radiusangle_does_not_soften/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-29-7e383167ebc3</guid>
-  <pubDate>Mon, 28 Sep 2026 12:04:11 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户从UE5.5升到5.8后，VSM阴影无法用光源半径/角度调软，Metahuman面部接触阴影消失，关闭Nanite、开Lumen。</p><p><strong>为什么重要</strong><br>5.8可能改了Lumen与VSM的阴影软化路径，升级项目需重验光照表现，非Nanite场景受影响。</p><p><strong>对你而言</strong><br>若你项目用VSM+Lumen做角色受击光影，升级5.8前先测阴影软硬与接触阴影，别盲升。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「unreal」 +20</small></p>]]></description>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-09-30-c0de3311e910</guid>
+  <pubDate>Tue, 29 Sep 2026 00:07:40 +0000</pubDate>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>AMD以82亿美元全股票收购李飞飞World Labs，2026年底前交割。李飞飞任AMD执行副总裁兼首席科学家。World Labs累计融资约12亿美元，A轮投资人回报约19倍。</p><p><strong>为什么重要</strong><br>英伟达9月收购HuggingFace后，AMD补齐世界模型布局。Atlas模型原生处理文本图像视频三维，支持1440p、1分钟新视角视频，算力需求区别于LLM。</p><p><strong>对你而言</strong><br>空间模型涉及多视角上下文、扩散自回归、三维几何与低延迟推理，与GAS技能和Locomotion无直接关系。可留意其三维重建与相机控制技术，或用于受击位移的空间表现参考。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/09/499098.html">量子位</a> · <a href="http://www.geekpark.net/news/372000">极客公园</a> · <a href="http://www.geekpark.net/news/371359">极客公园</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
