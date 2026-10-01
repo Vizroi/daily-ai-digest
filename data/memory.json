@@ -1,45 +1,9 @@
 {
-  "d80e71d820d0602d": {
-    "title": "Valve's Steam Frame pricing starts at $1,059",
-    "first_seen": "2026-09-15",
-    "times": 2,
-    "last_seen": "2026-09-16"
-  },
   "7d4a63590061c18a": {
     "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
     "first_seen": "2026-09-16",
     "times": 3,
     "last_seen": "2026-09-18"
-  },
-  "d9a7646de0f36e33": {
-    "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
-    "first_seen": "2026-09-16",
-    "times": 1,
-    "last_seen": "2026-09-16"
-  },
-  "04a6a8cf0f0ab732": {
-    "title": "Introducing System One Models and Jev",
-    "first_seen": "2026-09-16",
-    "times": 1,
-    "last_seen": "2026-09-16"
-  },
-  "80716586e99b4100": {
-    "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
-    "first_seen": "2026-09-16",
-    "times": 1,
-    "last_seen": "2026-09-16"
-  },
-  "4cadc57cb839f6df": {
-    "title": "Roblox will allow devs to release games as standalone apps on other stores",
-    "first_seen": "2026-09-16",
-    "times": 1,
-    "last_seen": "2026-09-16"
-  },
-  "664755a154ce5e68": {
-    "title": "Solo Developer on Recreating the Late-'90s Console Shooter Enemy AI for an FPS",
-    "first_seen": "2026-09-16",
-    "times": 1,
-    "last_seen": "2026-09-16"
   },
   "8b402ea3e51b086f": {
     "title": "Claude Cowork and chat are now one Claude",
@@ -638,8 +602,8 @@
   "6ce9939aee45a77e": {
     "title": "Introducing GPT-6.1 Sol",
     "first_seen": "2026-09-30",
-    "times": 1,
-    "last_seen": "2026-09-30"
+    "times": 2,
+    "last_seen": "2026-10-01"
   },
   "8571e7c506f6b2a3": {
     "title": "Introducing dots",
@@ -650,8 +614,8 @@
   "a618cce109412b18": {
     "title": "DevDay 2026 Recap",
     "first_seen": "2026-09-30",
-    "times": 1,
-    "last_seen": "2026-09-30"
+    "times": 2,
+    "last_seen": "2026-10-01"
   },
   "eabe08ef617a3a7c": {
     "title": "Holo4: powering generalist computer-use agents",
@@ -688,5 +652,59 @@
     "first_seen": "2026-09-30",
     "times": 1,
     "last_seen": "2026-09-30"
+  },
+  "2c0570766fdc427e": {
+    "title": "Gemini 4 Argon: our next era of frontier intelligence",
+    "first_seen": "2026-10-01",
+    "times": 1,
+    "last_seen": "2026-10-01"
+  },
+  "6956877091fa84a7": {
+    "title": "Claude Sonnet 5.5",
+    "first_seen": "2026-10-01",
+    "times": 1,
+    "last_seen": "2026-10-01"
+  },
+  "a09986afd9c4952d": {
+    "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+    "first_seen": "2026-10-01",
+    "times": 1,
+    "last_seen": "2026-10-01"
+  },
+  "9a093f09e06b8cdc": {
+    "title": "AI companies in race to demonstrate their model most threatening to humanity",
+    "first_seen": "2026-10-01",
+    "times": 1,
+    "last_seen": "2026-10-01"
+  },
+  "16ecd0afd32cc79a": {
+    "title": "UE5 solo-dev lessons from updating my horror demo after creator playtests",
+    "first_seen": "2026-10-01",
+    "times": 1,
+    "last_seen": "2026-10-01"
+  },
+  "bacc9a3b639ec102": {
+    "title": "September’s Epic learning content: MetaHumans, physics, animation, and more",
+    "first_seen": "2026-10-01",
+    "times": 1,
+    "last_seen": "2026-10-01"
+  },
+  "c074da5b12afcf1e": {
+    "title": "Trying to do clean UE5.8 build - total nightmare",
+    "first_seen": "2026-10-01",
+    "times": 1,
+    "last_seen": "2026-10-01"
+  },
+  "7868ba22254e76cd": {
+    "title": "Crawling Insects Niagara Particles - Unreal Engine VFX Tutorial",
+    "first_seen": "2026-10-01",
+    "times": 1,
+    "last_seen": "2026-10-01"
+  },
+  "9d5b7a7b1d2628aa": {
+    "title": "Random question. Any UCF masters program students who use Unreal on here?",
+    "first_seen": "2026-10-01",
+    "times": 1,
+    "last_seen": "2026-10-01"
   }
 }
