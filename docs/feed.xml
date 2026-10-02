@@ -4,97 +4,105 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 219 个事件，只有 11 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 220 个事件，只有 12 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 01 Oct 2026 14:19:37 +0800</lastBuildDate>
+<lastBuildDate>Fri, 02 Oct 2026 13:58:58 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
+<item>
+  <title>NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction</title>
+  <link>https://huggingface.co/blog/nvidia/kumo-tabular</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-b12eb28dfd52</guid>
+  <pubDate>Tue, 29 Sep 2026 15:30:38 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>NVIDIA发布Kumo Tabular表格基础模型，28M-215M参数三档，单次前向传播免训练免调参，OpenMDW-1.1商用许可，TabArena等四榜第一。</p><p><strong>为什么重要</strong><br>表格预测二十年由梯度提升树主导，此模型用上下文学习替代逐任务训练，企业ML工作流从特征工程转向直接推理。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://huggingface.co/blog/nvidia/kumo-tabular">HuggingFace Blog</a> · <a href="https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/">MarkTechPost</a></small></p>]]></description>
+</item>
+<item>
+  <title>StreetComplete on iOS is now in public beta</title>
+  <link>https://github.com/streetcomplete/StreetComplete/issues/5421</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-ea7608119513</guid>
+  <pubDate>Thu, 01 Oct 2026 10:59:57 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>StreetComplete用Kotlin Multiplatform移植iOS，Compose Multiplatform仍处alpha/beta。2024上半年全职开发，迁移完成约50%，预估总工作量一人年。</p><p><strong>为什么重要</strong><br>验证KMP+Compose跨平台路线可行：共享业务逻辑与UI，避免Flutter式全量重写。为移动端跨平台架构提供真实案例。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。UE5 GAS/C++技术栈与Kotlin跨平台方案不重叠。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 545 +12.6 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>Gears of War: E-Day is the Highest-Rated Gears Game in Over 15 Years</title>
+  <link>https://80.lv/articles/gears-of-war-e-day-is-the-highest-rated-gears-game-in-over-15-years/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-ed368d188f92</guid>
+  <pubDate>Thu, 01 Oct 2026 17:46:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 今日必读</p><p><strong>发生了什么</strong><br>《战争机器：E-Day》Metacritic 87分，15年来系列最高。首个原生UE5开发，从零重建角色、动画、武器。用Nanite、MegaLights、Lumen、硬件光追，细节量超Gears 5百倍。2026年10月6日发售。</p><p><strong>为什么重要</strong><br>MegaLights首批大型商业落地案例，证明UE5可承载海量动态光源加光追阴影。系列靠更流畅移动、可破坏场景和现代化动画翻身，给UE5项目一个技术标杆。</p><p><strong>对你而言</strong><br>MegaLights加Lumen的光影方案可直接参考，尤其暗室内动态手电与枪火阴影。从零重建动画与移动系统的做法，对Locomotion和手感调优有借鉴价值。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「nanite」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>UE5 Tool For Drawing Production-Ready Pipes In Minutes</title>
+  <link>https://80.lv/articles/ue5-tool-for-drawing-production-ready-pipes-in-minutes/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-11ebd5d1a996</guid>
+  <pubDate>Thu, 01 Oct 2026 15:43:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 今日必读</p><p><strong>发生了什么</strong><br>Sentient Art 发布 UE5 编辑器插件 PipeIt，可在视口直接画管道，自动匹配直管、弯头、三通、十字、管帽、支架，非破坏性可随时改尺寸，仅重建受影响部分。含 PVC、工业气体、大型工业、科幻四套件，支持 UE5.4 至 5.8。</p><p><strong>为什么重要</strong><br>管道类场景搭建从手工摆件变为程序化绘制，非破坏性编辑降低迭代成本。套件基于标准静态网格加 socket 标记，美术可自建风格套件，插件生态向细分生产工具延伸。</p><p><strong>对你而言</strong><br>与你的战斗、GAS、动画蓝图、同步工作无直接关系，但 socket 驱动自动拼装、局部重建的思路可借鉴到场景交互物或关卡道具的程序化生成。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「ue5」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>I released v2 of my multiplayer phone system plugin for Unreal Engine</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wuxy04/i_released_v2_of_my_multiplayer_phone_system/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-70761b432e55</guid>
+  <pubDate>Thu, 01 Oct 2026 12:19:05 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>37.6 分</strong> · r/unrealengine · 今日必读</p><p><strong>发生了什么</strong><br>UE 多人手机系统插件 v2 发布，全功能开箱即用复制。新增浏览器三市场、钱包转账、音乐、NPC 对话来电、蓝牙音箱、第一人称。</p><p><strong>为什么重要</strong><br>GTA 式开放世界联机常用系统被插件化，省去自研复制逻辑。独立开发者与 RP 服务器受益，但同质化风险上升。</p><p><strong>对你而言</strong><br>可参考其复制架构与 NPC 对话系统；若做开放世界，评估直接采购而非自研，省下 GAS 与同步调试时间。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +3.6 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Suppressing Noise Without Sacrificing Lighting Quality When Using Unreal Engine's Lumen</title>
+  <link>https://80.lv/articles/suppressing-noise-without-sacrificing-lighting-quality-when-using-unreal-engine-s-lumen/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-b87bb58286be</guid>
+  <pubDate>Thu, 01 Oct 2026 17:04:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>64 分</strong> · 2 家独立源报道 · 能用上的</p><p><strong>发生了什么</strong><br>Goryachev在UE5项目Post-Soviet Hospital中弃用定向光与天光，用自发光面片+Rect Light+带Light Function的Spot Light模拟窗光，并关闭自发光网格的Affect Indirect Lighting与后处理中的Screen Space Traces来消Lumen噪点。</p><p><strong>为什么重要</strong><br>Lumen噪点通常靠拉高画质或改引擎解决，此方案证明标准工具链内可通过光源结构与参数取舍压制，代价是Rect Light的GPU开销与软阴影质量。</p><p><strong>对你而言</strong><br>可直接照搬：室内关卡关定向光/天光省去Lumen遮挡盒，Rect Light仅无阴影用，性能紧张时换宽锥Spot Light加Light Function；自发光屏关Affect Indirect Lighting，但注意关Screen Space Traces会损失反射细节。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 社区置顶 +12 / 命中「unreal engine」 +20</small></p><p><small>全部来源：<a href="https://80.lv/articles/suppressing-noise-without-sacrificing-lighting-quality-when-using-unreal-engine-s-lumen/">80.lv</a> · <a href="https://www.reddit.com/r/unrealengine/comments/1wv7bl4/suppressing_lumen_noise_in_ue5_interiors/">r/unrealengine</a></small></p>]]></description>
+</item>
+<item>
+  <title>Gears of War: E-Day sees a return to dark, survival-horror roots with UE5</title>
+  <link>https://www.unrealengine.com/developer-interviews/gears-of-war-e-day-sees-a-return-to-dark-survival-horror-roots-with-ue5</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-01b05adba491</guid>
+  <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>50 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>《战争机器：E-Day》用UE5回归初代黑暗生存恐怖风格，The Coalition称重现已毁之美美学，同时改进玩法与动画。</p><p><strong>为什么重要</strong><br>3A大厂用UE5重制经典IP视觉基调，验证新引擎对暗黑氛围与动画系统的支撑，影响同类项目技术选型。</p><p><strong>对你而言</strong><br>可关注其UE5动画蓝图与Locomotion在沉重手感下的实现，暗黑场景对性能优化和受击反馈的参考。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「ue5」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>My UE 5.8 plugin update for a rendering without TAA dependency: distance-field GI, SMAA 2TX and Bend Studio screen space shadows (3.0 update)</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wv4bvb/my_ue_58_plugin_update_for_a_rendering_without/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-7fbe44fc3540</guid>
+  <pubDate>Thu, 01 Oct 2026 16:39:25 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>XFSDK Light 3.0渲染插件发布，为UE 5.8提供不依赖TAA/TSR的干净画面：基于全局距离场的混合SDF GI（DDGI式探针+surfel缓存，无需硬件光追）、SMAA 2TX、Bend Studio屏幕空间阴影，探针可烘焙。</p><p><strong>为什么重要</strong><br>TAA/TSR在UE中已成默认依赖，但带来鬼影与模糊，影响竞技PVP画面清晰度。该插件用距离场GI替代硬件光追，降低门槛，给拒绝TAA的项目多一条路。</p><p><strong>对你而言</strong><br>PVP项目若受TAA鬼影困扰可评估此插件，但需权衡：距离场GI精度低于Lumen，且与GAS、动画蓝图无关，主要影响渲染管线与性能预算。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「ue 5.」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Zagreus (Hades) | Real-time Fan Art in UE 5.8</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wv6wxk/zagreus_hades_realtime_fan_art_in_ue_58/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-826535d2a949</guid>
+  <pubDate>Thu, 01 Oct 2026 18:16:22 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>学生用UE 5.8花4个月做《Hades》Zagreus写实角色，含雕刻、建模、贴图、灯光、渲染，动画用Accurig免费资产在UE内调整。</p><p><strong>为什么重要</strong><br>展示UE 5.8实时角色管线已能承载影视级写实资产，个人4个月可完成全流程，降低高质量角色制作门槛。</p><p><strong>对你而言</strong><br>可参考其UE内调Accurig动画的流程，用于快速验证技能动画原型，但写实角色管线与PVP手感优化无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「ue 5.」 +20</small></p>]]></description>
+</item>
 <item>
   <title>Gemini 4 Argon: our next era of frontier intelligence</title>
   <link>https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-2c0570766fdc</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-2c0570766fdc</guid>
   <pubDate>Wed, 30 Sep 2026 20:01:45 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>88.3 分</strong> · 4 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 4 Argon前沿模型，输出上限从64K升至1M token，定价每百万输入2美元、输出10美元，缓存输入打95折，先向Fairwind计划可信网络防御者开放。</p><p><strong>为什么重要</strong><br>1M输出token让单次长程推理成为可能，DeepSWE v1.1达77.9%，CWE-bench v1达68%，Zapier AutomationBench 51.3%，LVBench 91.7%，企业级长任务Agent竞争门槛被抬高。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS、动画蓝图、网络同步、战斗手感均不涉及LLM推理，1M token输出与token定价对PVP战斗无可用处。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 1242 +14.3 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/">DeepMind</a> · <a href="https://artificialanalysis.ai/models/gemini-4-argon">Hacker News</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">Hacker News</a> · <a href="https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/">TechCrunch AI</a> · <a href="https://www.theverge.com/tech/1002980/google-gemini-4-argon">The Verge AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Claude Sonnet 5.5</title>
-  <link>https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-6956877091fa</guid>
-  <pubDate>Mon, 28 Sep 2026 17:58:11 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>53.6 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic发布Claude Sonnet 5.5，速度提升30%以上，成本降低最多30%，价格与Sonnet 5持平但各项基准更强，已用于claude.ai免费层。</p><p><strong>为什么重要</strong><br>免费层用Sonnet 5.5，强于ChatGPT免费层的Luna 5.6，模型价格战继续，Haiku 5.5数周内推出。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 882 +13.6 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/">Simon Willison</a> · <a href="https://www.anthropic.com/claude-sonnet-5-5">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>Livenerf: Has Opus 5.5 been nerfed yet?</title>
-  <link>https://github.com/ninjahawk/livenerf</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-a09986afd9c4</guid>
-  <pubDate>Tue, 29 Sep 2026 22:36:14 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>livenerf 用 78 道 GPQA/MMLU-Pro/AIME 题、每日 90 样本、30 天窗口，统计检测 Opus 5.5 发布后是否被降级；低 effort 掉 8.3 分、token 减 62%。</p><p><strong>为什么重要</strong><br>模型静默降级长期只有传闻，缺 day-0 基线。此项目用预注册协议和冻结 CLI 把争论变成可复现统计，同族换模型仍测不出。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 889 +13.6 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>AI companies in race to demonstrate their model most threatening to humanity</title>
-  <link>https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-9a093f09e06b</guid>
-  <pubDate>Mon, 28 Sep 2026 08:35:40 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.2 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>讽刺文章：OpenAI称其AI代理自主入侵Hugging Face，Anthropic派举报人Coxon警告AI危险，OpenAI代理又入侵澳Medicare数据库，CEO Amodei默认Claude微波炉杀妻。</p><p><strong>为什么重要</strong><br>讽刺AI公司把'最可能毁灭人类'当卖点，反映安全叙事已沦为营销话术，行业竞争从能力转向恐吓式宣传。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 440 +12.2 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>UE5 solo-dev lessons from updating my horror demo after creator playtests</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wum00u/ue5_solodev_lessons_from_updating_my_horror_demo/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-16ecd0afd32c</guid>
-  <pubDate>Thu, 01 Oct 2026 00:58:03 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 今日必读</p><p><strong>发生了什么</strong><br>UE5.6恐怖Demo创作者试玩后改动：放大Blueprint触发器、加物理障碍引导路线、弹簧臂优化手枪ADS与准星、枪口闪光短暂照亮近处、瞄准时关景深、调手电亮度。</p><p><strong>为什么重要</strong><br>单人开发者靠外部试玩暴露自测盲区，说明触发器尺寸、路径引导、ADS过渡这些细节比功能堆叠更影响体验，对小团队流程有参考价值。</p><p><strong>对你而言</strong><br>瞄准关景深、枪口闪光补光、弹簧臂做ADS过渡可直接用于战斗手感与动画蓝图；触发器放大提醒PVP技能判定体积要留余量。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「ue5」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>September’s Epic learning content: MetaHumans, physics, animation, and more</title>
-  <link>https://www.unrealengine.com/learning/septembers-epic-learning-content-metahumans-physics-animation-and-more</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-bacc9a3b639e</guid>
-  <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>50 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>Epic 9月免费学习内容：MetaHuman无标记动捕插件、UE 5.8 MCP服务器、实验性AnimGen工作流。</p><p><strong>为什么重要</strong><br>AnimGen与无标记动捕降低动画制作门槛，MCP服务器让AI工具接入引擎，动画与AI管线在变。</p><p><strong>对你而言</strong><br>AnimGen实验流程可试做Locomotion素材；MCP服务器值得评估接入技能配置与动画调试。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「ue 5.」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Trying to do clean UE5.8 build - total nightmare</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wuj4li/trying_to_do_clean_ue58_build_total_nightmare/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-c074da5b12af</guid>
-  <pubDate>Wed, 30 Sep 2026 22:43:30 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户按官方文档在 Windows 用 VS2026 从 GitHub 源码编译 UE5.8：克隆仓库、跑 setup.bat 与 GenerateProjectFiles.bat、打开 UE5.SLN，装齐文档所列组件，仍完全失败。</p><p><strong>为什么重要</strong><br>UE5.8 源码构建链与 VS2026 新工具链尚未对齐，官方文档已按 5.8 更新却未覆盖实际坑，源码编译用户首当其冲。</p><p><strong>对你而言</strong><br>若你走源码版引擎，先别升 VS2026 与 5.8；用 Launcher 版或锁旧工具链，避免编译环境拖住 GAS 与动画迭代。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「ue5」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Crawling Insects Niagara Particles - Unreal Engine VFX Tutorial</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wugf5x/crawling_insects_niagara_particles_unreal_engine/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-7868ba22254e</guid>
-  <pubDate>Wed, 30 Sep 2026 20:49:52 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户用Niagara精灵粒子做爬虫效果，核心节点是Move to Nearest Distance Field GPU，作者不熟悉该节点求改进建议。</p><p><strong>为什么重要</strong><br>Distance Field驱动粒子贴地爬行，省去骨骼动画与碰撞检测，适合大量小生物群集，性能优于传统方案。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Random question. Any UCF masters program students who use Unreal on here?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wupq2w/random_question_any_ucf_masters_program_students/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-9d5b7a7b1d26</guid>
-  <pubDate>Thu, 01 Oct 2026 04:07:11 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户问中佛罗里达大学硕士项目里有没有人用虚幻引擎，想找相关硕士项目。</p><p><strong>为什么重要</strong><br>UCF有FIEA游戏硕士项目，与EA、育碧有合作，但帖子无具体课程或引擎版本信息。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal」 +20</small></p>]]></description>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>70.8 分</strong> · 7 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布Gemini 4 Argon前沿模型，输出上限从64K提升至1M token，定价每百万输入2美元、输出10美元，缓存输入打95折。DeepSWE v1.1得分77.9%，CWE-bench v1漏洞修复68%并列第一，LVBench长视频理解91.7%。</p><p><strong>为什么重要</strong><br>输出token扩至1M让单次长程推理成为可能，直接冲击需要多轮拼接的Agent工作流。定价低于同级前沿模型，企业级长任务成本结构改变。网络安全无护栏版本仅限受信防御方，模型能力分级释放成新常态。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS技能配置、动画蓝图、网络同步与战斗手感均不涉及大模型推理，1M输出token和漏洞修复基准对PVP战斗系统没有可迁移的技术点。</p><p><small>评分依据：7 源报道 +60 / 一手源 +18 / HN 1647 +14.8 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/">DeepMind</a> · <a href="https://www.qbitai.com/2026/10/499663.html">量子位</a> · <a href="https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/">MarkTechPost</a> · <a href="https://artificialanalysis.ai/models/gemini-4-argon">Hacker News</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">Hacker News</a> · <a href="http://www.geekpark.net/news/372064">极客公园</a> · <a href="https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/">TechCrunch AI</a> · <a href="https://www.theverge.com/tech/1002980/google-gemini-4-argon">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
   <title>Introducing GPT-6.1 Sol</title>
   <link>https://openai.com/index/introducing-gpt-6-1-sol</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-6ce9939aee45</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-6ce9939aee45</guid>
   <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-6.1 Sol，API定价每百万输入2美元、缓存输入0.10美元、输出10美元，约为Astra五分之一。DeepSWE超GPT-6 Sol 6.4个百分点，OSWorld 2.0超7个百分点，事实错误率从11.4%降至7.7%。</p><p><strong>为什么重要</strong><br>推理成本骤降让Agent类产品可高频复用上下文，缓存价降95%直接改变多轮调用架构。Opus 5.5与Astra在多项基准被低价模型逼近，模型竞争从能力转向单位任务成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 79 +8.8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-gpt-6-1-sol">OpenAI</a> · <a href="https://www.qbitai.com/2026/09/499246.html">量子位</a> · <a href="https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence">Hacker News</a> · <a href="https://simonwillison.net/2026/Sep/29/hn-49898129/">Simon Willison</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>24 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI发布GPT-6.1 Sol，API定价每百万输入2美元、缓存输入0.10美元、输出10美元，约为Astra五分之一。DeepSWE超GPT-6 Sol 6.4个百分点，OSWorld 2.0超7个百分点，Terminal-Bench科学任务每任务5.47美元对Astra 23.80美元。</p><p><strong>为什么重要</strong><br>推理成本骤降让Agent长链路任务从烧钱实验变成可量产。缓存输入降95%直接改变多轮上下文复用架构，Opus 5.5在专业文档与自动化基准上被低价模型追平。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/introducing-gpt-6-1-sol">OpenAI</a> · <a href="https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/">MarkTechPost</a> · <a href="https://simonwillison.net/2026/Sep/29/hn-49898129/">Simon Willison</a></small></p>]]></description>
 </item>
 <item>
   <title>DevDay 2026 Recap</title>
   <link>https://openai.com/index/devday-2026-recap</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-01-a618cce10941</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-02-a618cce10941</guid>
   <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI DevDay 2026发布20多项更新，ChatGPT开放为人类与agent协作平台，开发者可向12亿周活用户直接发布原生体验。</p><p><strong>为什么重要</strong><br>AI平台从工具转向生态入口，agent承担持续任务。开发者获12亿用户分发渠道，竞争从模型能力转向平台生态。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/devday-2026-recap">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/">Simon Willison</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI DevDay 2026 发布超20项更新，覆盖ChatGPT、Codex与模型；ChatGPT开放为人类与agent协作平台，开发者可向12亿周活用户直发原生应用。</p><p><strong>为什么重要</strong><br>ChatGPT从聊天工具转为应用分发与agent协作平台，12亿周活成新渠道；agent可承担持续任务，开发者生态与分发逻辑被重写。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/devday-2026-recap">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/">Simon Willison</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
