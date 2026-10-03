@@ -1,33 +1,9 @@
 {
-  "7d4a63590061c18a": {
-    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-    "first_seen": "2026-09-16",
-    "times": 3,
-    "last_seen": "2026-09-18"
-  },
   "8b402ea3e51b086f": {
     "title": "Claude Cowork and chat are now one Claude",
     "first_seen": "2026-09-17",
     "times": 2,
     "last_seen": "2026-09-19"
-  },
-  "0af5549db5466d16": {
-    "title": "Claude双入口合并，原生Office上线！硅谷AI办公大战也开始了",
-    "first_seen": "2026-09-18",
-    "times": 1,
-    "last_seen": "2026-09-18"
-  },
-  "d297cda731f2dc4d": {
-    "title": "Our framework for reporting model misalignment",
-    "first_seen": "2026-09-18",
-    "times": 1,
-    "last_seen": "2026-09-18"
-  },
-  "8309d5e77da22fea": {
-    "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
-    "first_seen": "2026-09-18",
-    "times": 1,
-    "last_seen": "2026-09-18"
   },
   "40922c663ff1a86d": {
     "title": "How To Write With An LLM",
@@ -35,29 +11,11 @@
     "times": 3,
     "last_seen": "2026-09-20"
   },
-  "173c4569a050ef1b": {
-    "title": "Hister: A private search engine for the pages you visit and the files you keep",
-    "first_seen": "2026-09-18",
-    "times": 1,
-    "last_seen": "2026-09-18"
-  },
   "fa2cd26d4c9efa22": {
     "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
     "first_seen": "2026-09-18",
     "times": 3,
     "last_seen": "2026-09-20"
-  },
-  "152d2b8f27ecae1d": {
-    "title": "3D Environment – The Floating Village of Yunhai - UE5 Showcase",
-    "first_seen": "2026-09-18",
-    "times": 1,
-    "last_seen": "2026-09-18"
-  },
-  "1ebd1f7321ec97dd": {
-    "title": "I want to achieve high quality reflections using lumen for a room with a lot of mirror-like metals. Whats the best way to do this without killing performance?",
-    "first_seen": "2026-09-18",
-    "times": 1,
-    "last_seen": "2026-09-18"
   },
   "b02a9715d7c8e46d": {
     "title": "How useful is material baking for optimizing complex environment assets in UE5?",
@@ -608,8 +566,8 @@
   "2c0570766fdc427e": {
     "title": "Gemini 4 Argon: our next era of frontier intelligence",
     "first_seen": "2026-10-01",
-    "times": 2,
-    "last_seen": "2026-10-02"
+    "times": 3,
+    "last_seen": "2026-10-03"
   },
   "6956877091fa84a7": {
     "title": "Claude Sonnet 5.5",
@@ -698,8 +656,8 @@
   "01b05adba491a9d7": {
     "title": "Gears of War: E-Day sees a return to dark, survival-horror roots with UE5",
     "first_seen": "2026-10-02",
-    "times": 1,
-    "last_seen": "2026-10-02"
+    "times": 2,
+    "last_seen": "2026-10-03"
   },
   "7fbe44fc3540f35f": {
     "title": "My UE 5.8 plugin update for a rendering without TAA dependency: distance-field GI, SMAA 2TX and Bend Studio screen space shadows (3.0 update)",
@@ -712,5 +670,47 @@
     "first_seen": "2026-10-02",
     "times": 1,
     "last_seen": "2026-10-02"
+  },
+  "e8138f164adc8a89": {
+    "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+    "first_seen": "2026-10-03",
+    "times": 1,
+    "last_seen": "2026-10-03"
+  },
+  "9445f67b75347c5e": {
+    "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+    "first_seen": "2026-10-03",
+    "times": 1,
+    "last_seen": "2026-10-03"
+  },
+  "cacbc1fb2332bf73": {
+    "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+    "first_seen": "2026-10-03",
+    "times": 1,
+    "last_seen": "2026-10-03"
+  },
+  "6deace862fe8757a": {
+    "title": "FLUX 3 Image",
+    "first_seen": "2026-10-03",
+    "times": 1,
+    "last_seen": "2026-10-03"
+  },
+  "c7bf9f400bf0b90d": {
+    "title": "Reigns developer Nerial enters 'hibernation mode,' lays off staff",
+    "first_seen": "2026-10-03",
+    "times": 1,
+    "last_seen": "2026-10-03"
+  },
+  "bf4254f5ff6ab198": {
+    "title": "Any good ue5 courses that are c++ coding based without blueprint",
+    "first_seen": "2026-10-03",
+    "times": 1,
+    "last_seen": "2026-10-03"
+  },
+  "8d0680c120ee2840": {
+    "title": "UE5 Tips & Tricks - MVVM Primer",
+    "first_seen": "2026-10-03",
+    "times": 1,
+    "last_seen": "2026-10-03"
   }
 }
