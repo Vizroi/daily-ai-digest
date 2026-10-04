@@ -1,10 +1,4 @@
 {
-  "8b402ea3e51b086f": {
-    "title": "Claude Cowork and chat are now one Claude",
-    "first_seen": "2026-09-17",
-    "times": 2,
-    "last_seen": "2026-09-19"
-  },
   "40922c663ff1a86d": {
     "title": "How To Write With An LLM",
     "first_seen": "2026-09-18",
@@ -17,41 +11,11 @@
     "times": 3,
     "last_seen": "2026-09-20"
   },
-  "b02a9715d7c8e46d": {
-    "title": "How useful is material baking for optimizing complex environment assets in UE5?",
-    "first_seen": "2026-09-18",
-    "times": 2,
-    "last_seen": "2026-09-19"
-  },
-  "8f09beccea7f7f41": {
-    "title": "Bend – a language that blocks AI mistakes via proof and runs on GPUs",
-    "first_seen": "2026-09-19",
-    "times": 1,
-    "last_seen": "2026-09-19"
-  },
-  "2c583b45a70ca52e": {
-    "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
-    "first_seen": "2026-09-19",
-    "times": 1,
-    "last_seen": "2026-09-19"
-  },
-  "9d3615d1fc8e837d": {
-    "title": "Jemalloc 5.4.0",
-    "first_seen": "2026-09-19",
-    "times": 1,
-    "last_seen": "2026-09-19"
-  },
   "9a55e5d999d4e0b7": {
     "title": "King workers call strike after collective agreement negotiations stall",
     "first_seen": "2026-09-19",
     "times": 3,
     "last_seen": "2026-09-21"
-  },
-  "c497b42a1339d817": {
-    "title": "Strauss Zelnick stresses a well-known franchise like GTA still needs marketing: \"You always have to go out and create enthusiasm\"",
-    "first_seen": "2026-09-19",
-    "times": 1,
-    "last_seen": "2026-09-19"
   },
   "0de981d61dd24986": {
     "title": "Control Resonant Is a Fantastic Evolution of Remedy’s Formula",
@@ -674,14 +638,14 @@
   "e8138f164adc8a89": {
     "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
     "first_seen": "2026-10-03",
-    "times": 1,
-    "last_seen": "2026-10-03"
+    "times": 2,
+    "last_seen": "2026-10-04"
   },
   "9445f67b75347c5e": {
     "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
     "first_seen": "2026-10-03",
-    "times": 1,
-    "last_seen": "2026-10-03"
+    "times": 2,
+    "last_seen": "2026-10-04"
   },
   "cacbc1fb2332bf73": {
     "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
@@ -698,8 +662,8 @@
   "c7bf9f400bf0b90d": {
     "title": "Reigns developer Nerial enters 'hibernation mode,' lays off staff",
     "first_seen": "2026-10-03",
-    "times": 1,
-    "last_seen": "2026-10-03"
+    "times": 2,
+    "last_seen": "2026-10-04"
   },
   "bf4254f5ff6ab198": {
     "title": "Any good ue5 courses that are c++ coding based without blueprint",
@@ -712,5 +676,47 @@
     "first_seen": "2026-10-03",
     "times": 1,
     "last_seen": "2026-10-03"
+  },
+  "0e1a260e2ca14d0d": {
+    "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
+    "first_seen": "2026-10-04",
+    "times": 1,
+    "last_seen": "2026-10-04"
+  },
+  "a7ee8b9055023853": {
+    "title": "From the creator of Redis; run LLM locally with ds4",
+    "first_seen": "2026-10-04",
+    "times": 1,
+    "last_seen": "2026-10-04"
+  },
+  "034f716ab6b2cbdd": {
+    "title": "Final Fantasy 7 Remake Combat System Tutorials",
+    "first_seen": "2026-10-04",
+    "times": 1,
+    "last_seen": "2026-10-04"
+  },
+  "07729f06632683ce": {
+    "title": "We’re using Unreal Engine to turn our book series into an animated series. What we consider our Big Bang, and start, was actually the cataclysmic end to a war in The Old Universe!!!",
+    "first_seen": "2026-10-04",
+    "times": 1,
+    "last_seen": "2026-10-04"
+  },
+  "5d4f4a3067123364": {
+    "title": "Can i export a lower triangle version of a Mesh that uses Nanite?",
+    "first_seen": "2026-10-04",
+    "times": 1,
+    "last_seen": "2026-10-04"
+  },
+  "3167251161ada4c9": {
+    "title": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
+    "first_seen": "2026-10-04",
+    "times": 1,
+    "last_seen": "2026-10-04"
+  },
+  "40ba135ddfdc9ffc": {
+    "title": "Unreal 5.8 - Radial Blur (Photoshop filter) Post Process effect",
+    "first_seen": "2026-10-04",
+    "times": 1,
+    "last_seen": "2026-10-04"
   }
 }
