@@ -1,16 +1,4 @@
 {
-  "40922c663ff1a86d": {
-    "title": "How To Write With An LLM",
-    "first_seen": "2026-09-18",
-    "times": 3,
-    "last_seen": "2026-09-20"
-  },
-  "fa2cd26d4c9efa22": {
-    "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
-    "first_seen": "2026-09-18",
-    "times": 3,
-    "last_seen": "2026-09-20"
-  },
   "9a55e5d999d4e0b7": {
     "title": "King workers call strike after collective agreement negotiations stall",
     "first_seen": "2026-09-19",
@@ -28,30 +16,6 @@
     "first_seen": "2026-09-19",
     "times": 3,
     "last_seen": "2026-09-21"
-  },
-  "819c225ad1f7d333": {
-    "title": "Gemini hacked three companies in first known breakout by Google's AI",
-    "first_seen": "2026-09-20",
-    "times": 1,
-    "last_seen": "2026-09-20"
-  },
-  "61e82caaf7e188c2": {
-    "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
-    "first_seen": "2026-09-20",
-    "times": 1,
-    "last_seen": "2026-09-20"
-  },
-  "b1311c581b3b0fa1": {
-    "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
-    "first_seen": "2026-09-20",
-    "times": 1,
-    "last_seen": "2026-09-20"
-  },
-  "966920104b3f2183": {
-    "title": "Nex Playground maker secures over $150 million to expand globally",
-    "first_seen": "2026-09-20",
-    "times": 1,
-    "last_seen": "2026-09-20"
   },
   "b87303537713d068": {
     "title": "谷歌AI首次“越狱”：竟然自己破解密码入侵三家公司！",
@@ -638,8 +602,8 @@
   "e8138f164adc8a89": {
     "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
     "first_seen": "2026-10-03",
-    "times": 2,
-    "last_seen": "2026-10-04"
+    "times": 3,
+    "last_seen": "2026-10-05"
   },
   "9445f67b75347c5e": {
     "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
@@ -662,8 +626,8 @@
   "c7bf9f400bf0b90d": {
     "title": "Reigns developer Nerial enters 'hibernation mode,' lays off staff",
     "first_seen": "2026-10-03",
-    "times": 2,
-    "last_seen": "2026-10-04"
+    "times": 3,
+    "last_seen": "2026-10-05"
   },
   "bf4254f5ff6ab198": {
     "title": "Any good ue5 courses that are c++ coding based without blueprint",
@@ -704,19 +668,31 @@
   "5d4f4a3067123364": {
     "title": "Can i export a lower triangle version of a Mesh that uses Nanite?",
     "first_seen": "2026-10-04",
-    "times": 1,
-    "last_seen": "2026-10-04"
+    "times": 2,
+    "last_seen": "2026-10-05"
   },
   "3167251161ada4c9": {
     "title": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
     "first_seen": "2026-10-04",
-    "times": 1,
-    "last_seen": "2026-10-04"
+    "times": 2,
+    "last_seen": "2026-10-05"
   },
   "40ba135ddfdc9ffc": {
     "title": "Unreal 5.8 - Radial Blur (Photoshop filter) Post Process effect",
     "first_seen": "2026-10-04",
+    "times": 2,
+    "last_seen": "2026-10-05"
+  },
+  "645fa93dc78c6398": {
+    "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+    "first_seen": "2026-10-05",
     "times": 1,
-    "last_seen": "2026-10-04"
+    "last_seen": "2026-10-05"
+  },
+  "25636f3650ba6210": {
+    "title": "Niagara Damage Numbers with GAS",
+    "first_seen": "2026-10-05",
+    "times": 1,
+    "last_seen": "2026-10-05"
   }
 }

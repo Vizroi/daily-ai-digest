@@ -1,30 +1,36 @@
 {
-  "generated_at": "2026-10-04T14:11:16.818923+08:00",
-  "date": "2026-10-04",
+  "generated_at": "2026-10-05T14:01:49.144099+08:00",
+  "date": "2026-10-05",
   "lead": [
     {
-      "key": "0e1a260e2ca14d0d",
-      "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
-      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "key": "645fa93dc78c6398",
+      "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+      "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
       "hn_url": "https://news.ycombinator.com/item?id=49943034",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
-      "coverage": 1,
+      "coverage": 2,
       "sources": [
+        "MarkTechPost",
         "Hacker News"
       ],
       "published": "2026-10-03T10:43:51Z",
       "undated": false,
-      "summary_raw": "",
+      "summary_raw": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a 1M-token context and per-request reasoning effort, and its Apache 2.0 FP8 weights run on a single B200 or H200. The post Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters appeared first on MarkTechPost .",
       "signals": {
-        "hn_points": 410,
-        "hn_comments": 11,
+        "hn_points": 417,
+        "hn_comments": 12,
         "hf_upvotes": 0,
         "stars_today": 0,
         "rank_bonus": 0.0
       },
       "members": [
+        {
+          "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+          "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
+          "source": "MarkTechPost"
+        },
         {
           "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
           "url": "https://tej.as/blog/aleph-alpha-kolibri",
@@ -32,19 +38,19 @@
         }
       ],
       "pool": "main",
-      "score": 40.0,
+      "score": 52.1,
       "score_parts": [
         {
-          "label": "单源",
-          "value": 12
+          "label": "2 源报道",
+          "value": 24
         },
         {
           "label": "分析源",
           "value": 8
         },
         {
-          "label": "HN 410",
-          "value": 12.0
+          "label": "HN 417",
+          "value": 12.1
         },
         {
           "label": "HN 头条",
@@ -56,80 +62,19 @@
       "is_combat": false,
       "followup": null,
       "section": "lead",
-      "body": "Aleph Alpha Kolibri: How the Sovereign German LLM Works\nKolibri is an open-weight large language model (LLM) from Aleph Alpha for German and English: a mixture of experts with 78 billion parameters that only uses about 3.5 billion of them for each token it reads or writes. It came out on 3 October 2026 under the Apache 2.0 license, the weights are on Hugging Face, and it was trained from scratch on infrastructure in Germany and Finland. (Kolibri is German for hummingbird, which is cute for a model whose whole trick is being light.)\nI live in Germany, and at SmashingConf New York in 2024 I told the room what I’d heard in the US when I said where I’m based: “you regulate, you don’t innovate.” It hurt to hear, and what I wished for on that stage was the middle, “the right balance between innovation and regulation around data privacy, data stewardship, environmental constraints and energy requirements.” Kolibri is a pretty direct answer to that: a German team built it with the EU AI Act in mind “from the ground up”, and in Aleph Alpha’s own evaluation it scores above every compared model of its size in both languages.\nHuge congrats to everyone at Aleph Alpha who built it, my good friend Michael Hofmann among them!\nThis post is about how Kolibri works, where it’s strong, where it isn’t, how to run it, and when it’s the right pick. Everything here comes from Aleph Alpha’s 189 page technical report, the model card and their launch post, plus one experiment I ran on its tokenizer.\nWhat is Kolibri?\n| Kolibri 1 | |\n|---|---|\n| Parameters | 78.1 billion in total, 3.46 billion per token (4.4%) |\n| Languages | German and English |\n| Context | 262,144 tokens natively, tested up to 1,048,576 |\n| License | Apache 2.0 for the weights and configuration files (Aleph Alpha keeps the rights to its training code and methods) |\n| Memory | about 78 GB of weights in 8-bit floating point (FP8) |\n| Reasoning | 4 levels: none, low, medium and high |\n| Tool calling | Yes |\n| Knowledge cutoff | 18 June 2026 |\n| Training | about 24 trillion tokens, more than a fifth of them German, on 768 NVIDIA B200 graphics processing units (GPUs) |\nAleph Alpha calls Kolibri sovereign, and in their launch post that means 2 things. The first is how it was built: “teams built the model in Germany, trained it on infrastructure in Germany and Finland, under European and German law, with no foreign control.” The second is what customers get: “full freedom of deployment and intellectual-property safety, so compliance comes as an inherited property.” In plain words, a ministry or a car supplier can run it on its own servers, with its data never leaving the building, and nobody can change or switch off the model under them. Aleph Alpha has also signed the European Union’s General-Purpose AI (GPAI) Code of Practice.\nSovereign doesn’t mean that nothing from outside Europe went in, and the model card says so itself: English web text was rephrased with Google’s Gemma 4, German with Mistral-NeMo, and Qwen3-32B labeled data for the quality filters. They then filtered the training data for the political bias such models can have, which they’ve measured in Chinese open models themselves.\nHow Kolibri works\nKolibri is 6 ideas stacked on top of each other, and each one is there to make German cheaper, longer or more honest.\n1. 384 specialists, and each token sees 6\nIn a normal (dense) model, every token goes through every parameter. In a mixture of experts (MoE), each layer has a crowd of small sub-networks called experts and a router that picks a few of them for each token. Kolibri has 50 layers, each with 384 experts plus 1 shared expert that every token goes through, and its router sends each token to 6 of the 384. That’s how 78.1 billion parameters turn into 3.46 billion of actual work per token.\nIn 2024 I gave a talk called Why Small Language Models are the future, and I argued for “smaller language models with fewer parameters and fewer places things can go wrong that require lesser compute.” My analogy was a doctor who has read every medical book in the world against a specialist in hematology: go to the first one with a blood condition and “they may not get it right cuz they know too much.” A mixture of experts puts a hospital full of specialists inside one model, and the router is the receptionist who sends each token to the right 6.\nThe analogy breaks in 2 places though. The experts aren’t neat topics like “German law”: when researchers look inside MoE models they mostly find experts for patterns of tokens, like punctuation or proper nouns, not subjects a person would pick. And the hospital has to keep all 384 specialists on staff even if you only see 6, so Kolibri computes like a 3.5 billion parameter model but needs the memory of a 78 billion parameter one. The model card says it plainly: “the full model must be held in memory even though only part of it is active at any time.”\n2. A tokenizer that reads long German words\nA model doesn’t read letters or words, it reads tokens: chunks of text from a fixed vocabulary, picked when the tokenizer is trained. German glues words together into long compound words, and a tokenizer that learned mostly from English chops them into pieces. Here’s the German name of the Federal Constitutional Court, split by the tokenizer GPT-4o and GPT-5 use (o200k_base\n, through OpenAI’s tiktoken), and by Kolibri’s:\no200k_base (GPT-5): Bund | es | ver | fass | ungs | gericht 6 tokens\nKolibri: Bundes | verfassungsgericht 2 tokens\nKolibri’s tokenizer has 128,000 tokens, trained with a new algorithm Aleph Alpha calls UniBPE: it keeps the bottom-up merging of byte-pair encoding (BPE) and picks each merge with a different scoring rule (the Unigram objective), which respects how German builds words. The report says it needs 11.2% fewer tokens for German text than GPT-5’s tokenizer, the best of the 9 others they measured.\nI wanted to see that for myself, so I ran 6 tokenizers over all of the Basic Law for the Federal Republi",
+      "body": "Aleph Alpha has released Kolibri, an open-weight Mixture-of-Experts (MoE) language model built for German and English. Kolibri has 78.1B total parameters but activates only 3.46B, or 4.4%, per token. It accepts up to 1,048,576 tokens of context, lets users set reasoning effort per request, and ships under the Apache 2.0 license on Hugging Face. The target is sovereign deployment in regulated sectors such as public administration, industry and aerospace.\nIs it deployable? Yes. The FP8 checkpoint is about 78GB and runs on a single B200, B300 or H200, or on 2 H100 SXM5 GPUs, served through vLLM with dedicated Kolibri reasoning and tool-call parsers.\nWhat is Kolibri?\nKolibri (Kolibri-1) is a bilingual English-German MoE transformer developed end to end by teams in Germany. According to the technical research report, Aleph Alpha team controlled the full pipeline: data, architecture, training infrastructure, post-training and evaluation. Training ran on infrastructure in Germany and Finland. The design targets the EU General-Purpose AI Code of Practice, the EU AI Act and GDPR. Aleph Alpha is a signatory of that Code, and its data pipeline redacts personal data before training.\nArchitecture: Sparse Experts and Hybrid Attention\nKolibri stacks 50 transformer blocks with a model width of 2,560. Every MoE layer scores all 384 routed experts with a sigmoid router, sends each token to the top 6, and always runs 1 shared expert. Expert load is balanced with Exact Quantile Balancing and Load-Error Injection.\nAttention uses grouped-query attention with 48 query heads and 4 KV heads. Every fifth block uses full attention without positional encoding. The other 40 blocks use sliding-window attention over the 512 preceding tokens, with RoPE. Sliding-window layers hold a fixed-size KV cache, so only 10 layers grow with context length. At matched compute, Aleph Alpha team reports the hybrid supports sequences 4 times longer than a full-attention model.\nA Tokenizer Built for German\nThe 128,000-token vocabulary is trained with UniBPE, which builds merges like BPE but scores each merge by Unigram loss. On German text it reaches 4.90 bytes per token, versus 4.35 for the GPT-5 tokenizer. That means 11.2% fewer tokens on German web text. In English, Kolibri reaches 4.58 bytes per token against 4.67 for GPT-5.\nTraining: 24T Tokens, Then SFT and RL\nPre-training covered 20T tokens on 768 NVIDIA B200 GPUs, followed by 3.44T mid-training tokens at 65,536 sequence length. A 201B-token long-context stage then trained on 262,144-token sequences. Aleph Alpha added more than 2T German tokens it curated from the web or generated synthetically. Post-training combined supervised fine-tuning, mixed with MergeMix, with reinforcement learning on more than 1.2M internal tasks. The Merlin-Arthur protocol trains the model to abstain when retrieved context does not support an answer.\nInteractive Explainer: How Kolibri Works\nBenchmarks\nAleph Alpha team evaluated every model with the same eval-framework setup. In English, Kolibri leads GPQA Diamond (84.3), AIME 2025 (96.9) and AIME 2026 (96.0). It ties Qwen3.5 35B-A3B on the English agentic average at 63.4. It trails on BFCL v4, scoring 61.4 against 70.5 for Qwen3.5. The dense Qwen3.8 27B scores higher overall (80.2 EN, 79.9 DE), but activates about 8 times more parameters per token. Against its internal predecessor Kolibri Origin, Kolibri decodes about 2.7 times more text per GPU while scoring 21.4 points higher in English.\nKolibri vs Closest Competitors\n| Feature | Kolibri-1 | Qwen3.6 35B-A3B | Nemotron 3 Super | Mistral Small 4 |\n|---|---|---|---|---|\n| Developer | Aleph Alpha (Germany) | Alibaba Qwen | NVIDIA | Mistral AI (France) |\n| Total / active params | 78.1B / 3.46B | ~35B / 3B | 120B / 12B | 119B / 6.5B |\n| Architecture | MoE, sliding-window + full attention | MoE, Gated DeltaNet hybrid | Mamba-2 + MoE + attention | MoE |\n| Max context | 1,048,576 tokens | 262,144 native, ~1M with YaRN | 1M tokens | 256k tokens |\n| Reasoning control | none / low / medium / high | Thinking on / off | On / off, low-effort mode | none / high |\n| License | Apache 2.0 | Apache 2.0 | NVIDIA Nemotron Open Model License | Apache 2.0 |\n| Overall score (EN / DE) | 75.5 / 70.8 | 71.4 / 67.3 | 73.0 / 67.9 | 63.1 / 61.4 |\n| Agentic avg (EN) | 63.4 | 62.1 | 54.9 | 40.7 |\n| Industry RAG avg (DE) | 67.5 | 65.8 | 57.6 | 53.4 |\n| Code avg (EN) | 89.3 | 87.7 | 88.3 | 82.0 |\nSpecs: model cards for Kolibri-1, Qwen3.6-35B-A3B, Nemotron 3 Super and Mistral Small 4.\nHow to Deploy Kolibri\nInstall the aleph-alpha-inference package, then serve with vLLM:\npip install 'aleph-alpha-inference>=1'\nvllm serve Aleph-Alpha/Kolibri-1 --kv-cache-dtype fp8 \\\n--reasoning-parser kolibri1 --tool-call-parser kolibri1 \\\n--enable-auto-tool-choice\nThe default context is 262,144 tokens. Pass --max-model-len 1048576\nwith a max_position_embeddings\noverride for the full 1M window. Set reasoning_effort\nthrough chat_template_kwargs\n. Aleph Alpha recommends temperature 1.0, top-p 0.97 and top-k 128.\nKey Takeaways\n- 78.1B total, 3.46B active: each token uses 6 of 384 routed experts plus 1 shared expert.\n- 40 sliding-window and 10 full-attention layers keep a 1M-token context affordable.\n- Trained on 24T tokens, with German above 20% of the mix.\n- Top Overall score in English (75.5) and German (70.8) among the 12 MoE models Aleph Alpha compared.\n- Apache 2.0 FP8 weights, serveable on a single B200 or H200 via vLLM.\nCheck out the Model Weights and Technical Report. All credit goes to the researcher of this project. Also, feel free to follow us on Twitter and don’t forget to join our 150k+ML SubReddit and Subscribe to our Newsletter. Wait! are you on telegram? now you can join us on telegram as well.\nNeed to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.? Connect with us\nAsif Razzaq is the CEO of Marktechpost AI Media Inc.. As a visionary entrepreneur and engineer, Asif is committed to harnes",
       "has_body": true,
-      "what": "Aleph Alpha发布Kolibri，Apache 2.0开源权重，78B参数MoE每token仅激活3.46B，50层每层384专家选6，原生262K上下文，24T token训练，768块B200，FP8约78GB。",
-      "why": "欧洲主权LLM落地：德国芬兰基础设施训练，规避美国云依赖，对标EU AI Act合规。MoE稀疏化让大模型推理成本逼近3.5B小模型，但显存仍需78B。",
-      "for_you": "MoE路由与专家粒度可参考：384专家选6、共享专家设计。但78GB显存门槛对PVP客户端无意义，仅适合服务端NPC对话或本地化文本处理。",
-      "degraded": null
-    },
-    {
-      "key": "a7ee8b9055023853",
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "url": "https://dwarfstar.sh/",
-      "hn_url": "https://news.ycombinator.com/item?id=49936575",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-02T18:01:16Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 345,
-        "hn_comments": 98,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "From the creator of Redis; run LLM locally with ds4",
-          "url": "https://dwarfstar.sh/",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 39.7,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 345",
-          "value": 11.7
-        },
-        {
-          "label": "HN 头条",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "section": "lead",
-      "body": "CORE 01\nAsymmetric 2-bit quantization\nCompress the routed experts, keep critical shared paths precise. That is how the supported routed-MoE builds fit their target machines.\nDS4 · LOCAL FRONTIER INFERENCE\nDwarfStar 4 is a narrow C inference engine for high-memory Mac, CUDA and ROCm machines. It supports DeepSeek V4 and V4.1 Flash, GLM 5.x and Qwen3.8 Flash Next, with text and vision models, local APIs, a CLI and a native agent in one stack.\nSUPPORTED: DEEPSEEK V4 / V4.1 + GLM 5.x + QWEN3.8 · MIT LICENSE · C / METAL / CUDA / ROCM · QWEN ON 64GB\nPRINCIPLE · LOCAL MODEL STACK\nPHASE 1 · THE GIANT\nDeepSeek V4 Flash is a large mixture-of-experts model. The usual path is remote serving; ds4 starts from the opposite constraint.\nPHASE 2 · THE COLLAPSE\nAsymmetric quantization targets the routed experts while preserving critical paths. The model becomes practical on high-memory machines.\nPHASE 3 · THE DWARF STAR\nThe local engine exposes a CLI, HTTP APIs and a native agent, all sharing the same model state and cache.\nHow the collapse works →SCROLL ▾\nDESIGN CHOICES\nNot a generic GGUF runner. ds4 follows a small, opportunistic set of model families and validates each supported layout end to end.\nCORE 01\nCompress the routed experts, keep critical shared paths precise. That is how the supported routed-MoE builds fit their target machines.\nCORE 02\nSave long prefixes to SSD and resume by prompt hash. Restarts do not have to mean full re-prefill.\nCORE 03\nUse ./ds4\nfor chat, ./ds4-server\nfor local\nAPIs and ./ds4-agent\nfor persistent coding sessions.\nARCHITECTURE\nProject GGUFs, a self-contained engine and agent-facing interfaces, checked against official model outputs.\nRUN IT\nDownload the project GGUF, build for your backend, then start the CLI or server. Generic GGUF files are not the target.\nSTEP 1 · FETCH THE WEIGHTS\nSTEP 2 · BUILD FOR YOUR BACKEND\nSTEP 3 · TALK TO IT\nFIT CHECK\nPick your platform and memory: get a conservative starting path and understand which execution modes apply.\n✓ Runs well\nV4 Flash Q2 is the baseline. At 128 GB, GLM 5.3 Q2 and Qwen Q4 also fit; V4.1 Q2 streams from SSD.\n./download_model.sh ds4f-q2 && make\nREF · M5 MAX 128GB · 32K CTX: 34.4 T/S GEN · 557 T/S PREFILL\nEstimates from the ds4 benchmark table. Full guide in Hardware and Installation.\nBENCHMARKS\nReference rows from upstream. Read prefill and generation separately, especially for long-context agent workloads.\n| Machine | Context | Prefill t/s | Generation t/s |\n|---|---|---|---|\n| M5 Max, 128 GB | q2 · 2,048 tok | 790.2 | 39.4 |\n| M5 Max, 128 GB | q2 · 65,536 tok | 398.5 | 27.6 |\n| DGX Spark, 128 GB | q2 · 2,048 tok | 825.8 | 18.1 |\n| DGX Spark, 128 GB | q2 · 65,536 tok | 823.0 | 13.8 |\nAPI & AGENTS\nds4-server speaks OpenAI and Anthropic-style APIs, so local coding agents can connect to your own machine with a base URL.\nStart with the quickstart, check the hardware matrix, then connect your editor, agent or API client to the local server.",
-      "has_body": true,
-      "what": "Redis作者发布DwarfStar 4（ds4），C/Metal/CUDA/ROCm本地推理引擎，MIT许可。支持DeepSeek V4/V4.1 Flash、GLM 5.x、Qwen3.8 Flash Next。非对称2-bit量化压缩路由专家，保留共享路径精度。M5 Max 128GB跑32K上下文：34.4 T/S生成、557 T/S预填。",
-      "why": "本地跑MoE大模型从不可能变为可行。128GB Mac即可跑V4 Flash Q2，DGX Spark预填823 T/S。云端推理成本被绕过，隐私敏感和离线场景不再依赖API。GGUF通用运行器被专用引擎替代。",
-      "for_you": "与你的项目无直接关系。GAS、动画蓝图、网络同步、战斗手感均不涉及LLM本地推理。",
+      "what": "Aleph Alpha发布Kolibri，78.1B总参、3.46B激活的英德MoE，Apache 2.0，FP8约78GB，单张B200/H200或2张H100可跑，vLLM部署，上下文1M。",
+      "why": "开源权重模型开始主打主权部署与合规，德国团队全流程自研，24T token训练，德语token效率比GPT-5高11.2%，欧洲受监管行业有了本地替代。",
+      "for_you": "与你的项目无直接关系。",
       "degraded": null
     }
   ],
   "relevant": [
     {
-      "key": "034f716ab6b2cbdd",
-      "title": "Final Fantasy 7 Remake Combat System Tutorials",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wwttgd/final_fantasy_7_remake_combat_system_tutorials/",
+      "key": "25636f3650ba6210",
+      "title": "Niagara Damage Numbers with GAS",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wxig2m/niagara_damage_numbers_with_gas/",
       "hn_url": null,
       "lang": "en",
       "tier": 3,
@@ -138,25 +83,25 @@
       "sources": [
         "r/unrealengine"
       ],
-      "published": "2026-10-03T18:09:03+00:00",
+      "published": "2026-10-04T15:29:35+00:00",
       "undated": false,
-      "summary_raw": "Has anyone been able to recreate the FF7 Remake series' hybrid tactical combat system in Unreal Engine or seen any tutorials on how to recreate it? I got a decent way through it when I took a jab at a year ago with a hack and slash base combat and GAS(Gameplay ability system) for skills, but ran into issues. I had a hack and slash base combat with time dilation for the tactical menu for skills and spells, but I couldn't get the camera to smoothly transitioning between pawn possessions when switching characters like in the actual game. I eventually paused the project, but would like to attempt ",
+      "summary_raw": "I'm looking to use the Niagara system to spawn damage numbers, since its more efficient than UMG, but I'm not managing to make it work with the Gameplay Cue of the GAS. In my case, I need the particle system to spawn multi-digit numbers or sometimes texts like status effects and in most tutorials that I've found, there is some custom logic that needs to be calculated to spawn the digits using Niagara. But I've struggled to make it work within Gameplay Cues, because I keep running into errors that relates to running these functions or the changing variables within them. So I'm stuck on how to m",
       "signals": {
         "hn_points": 0,
         "hn_comments": 0,
         "hf_upvotes": 0,
         "stars_today": 0,
-        "rank_bonus": 2.4
+        "rank_bonus": 10.799999999999999
       },
       "members": [
         {
-          "title": "Final Fantasy 7 Remake Combat System Tutorials",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wwttgd/final_fantasy_7_remake_combat_system_tutorials/",
+          "title": "Niagara Damage Numbers with GAS",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wxig2m/niagara_damage_numbers_with_gas/",
           "source": "r/unrealengine"
         }
       ],
       "pool": "main",
-      "score": 48.4,
+      "score": 44.8,
       "score_parts": [
         {
           "label": "单源",
@@ -168,152 +113,25 @@
         },
         {
           "label": "社区置顶",
-          "value": 2.4
+          "value": 10.8
         },
         {
-          "label": "战斗「combat system」",
-          "value": 32
-        }
-      ],
-      "relevant_hits": [
-        "combat system"
-      ],
-      "is_relevant": true,
-      "is_combat": true,
-      "followup": null,
-      "section": "relevant",
-      "body": "Has anyone been able to recreate the FF7 Remake series' hybrid tactical combat system in Unreal Engine or seen any tutorials on how to recreate it? I got a decent way through it when I took a jab at a year ago with a hack and slash base combat and GAS(Gameplay ability system) for skills, but ran into issues. I had a hack and slash base combat with time dilation for the tactical menu for skills and spells, but I couldn't get the camera to smoothly transitioning between pawn possessions when switching characters like in the actual game. I eventually paused the project, but would like to attempt",
-      "has_body": true,
-      "what": "Reddit用户用UE的GAS做FF7重制版混合战斗，平砍基底加时间膨胀战术菜单，卡在切换角色时Pawn占有间的相机平滑过渡，项目暂停。",
-      "why": "GAS做技能、时间膨胀做战术暂停是常见组合，但多角色切换的相机混合是UE老大难，社区缺现成教程。",
-      "for_you": "若做多角色切换，提前设计相机混合与Pawn占有过渡，别等GAS技能堆完再补，否则返工。",
-      "degraded": null
-    },
-    {
-      "key": "07729f06632683ce",
-      "title": "We’re using Unreal Engine to turn our book series into an animated series. What we consider our Big Bang, and start, was actually the cataclysmic end to a war in The Old Universe!!!",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wx362f/were_using_unreal_engine_to_turn_our_book_series/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 3,
-      "tier_weight": 2,
-      "coverage": 1,
-      "sources": [
-        "r/unrealengine"
-      ],
-      "published": "2026-10-04T01:19:03+00:00",
-      "undated": false,
-      "summary_raw": "We’re using Unreal Engine to turn our book series into an animated series. What we consider our Big Bang, and start, was actually the cataclysmic end to a war in The Old Universe!!!",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 9.6
-      },
-      "members": [
-        {
-          "title": "We’re using Unreal Engine to turn our book series into an animated series. What we consider our Big Bang, and start, was actually the cataclysmic end to a war in The Old Universe!!!",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wx362f/were_using_unreal_engine_to_turn_our_book_series/",
-          "source": "r/unrealengine"
-        }
-      ],
-      "pool": "main",
-      "score": 43.6,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "聚合源",
-          "value": 2
-        },
-        {
-          "label": "社区置顶",
-          "value": 9.6
-        },
-        {
-          "label": "命中「unreal engine」",
+          "label": "命中「niagara」",
           "value": 20
         }
       ],
       "relevant_hits": [
-        "unreal engine",
-        "unreal"
+        "niagara"
       ],
       "is_relevant": true,
       "is_combat": false,
       "followup": null,
       "section": "relevant",
-      "body": "",
-      "has_body": false,
-      "what": "Reddit用户用UE把自家小说改成动画剧集，世界观起点实为旧宇宙战争毁灭性终局。",
-      "why": "个人创作者借UE做完整动画，影视流程门槛下降，传统动画管线受挤压。",
-      "for_you": "与你的项目无直接关系",
-      "degraded": null
-    },
-    {
-      "key": "5d4f4a3067123364",
-      "title": "Can i export a lower triangle version of a Mesh that uses Nanite?",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wwvgfc/can_i_export_a_lower_triangle_version_of_a_mesh/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 3,
-      "tier_weight": 2,
-      "coverage": 1,
-      "sources": [
-        "r/unrealengine"
-      ],
-      "published": "2026-10-03T19:17:06+00:00",
-      "undated": false,
-      "summary_raw": "I want to buy some assets from fab that don't include LODs as they say, but they are using Unreal's Nanite. The only format they offer is unreal's, no fbx or anything else. Can i export them in fbx in lower triangle versions from Unreal?",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 8.4
-      },
-      "members": [
-        {
-          "title": "Can i export a lower triangle version of a Mesh that uses Nanite?",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wwvgfc/can_i_export_a_lower_triangle_version_of_a_mesh/",
-          "source": "r/unrealengine"
-        }
-      ],
-      "pool": "main",
-      "score": 42.4,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "聚合源",
-          "value": 2
-        },
-        {
-          "label": "社区置顶",
-          "value": 8.4
-        },
-        {
-          "label": "命中「nanite」",
-          "value": 20
-        }
-      ],
-      "relevant_hits": [
-        "nanite"
-      ],
-      "is_relevant": true,
-      "is_combat": false,
-      "followup": null,
-      "section": "relevant",
-      "body": "I want to buy some assets from fab that don't include LODs as they say, but they are using Unreal's Nanite. The only format they offer is unreal's, no fbx or anything else. Can i export them in fbx in lower triangle versions from Unreal?",
+      "body": "I'm looking to use the Niagara system to spawn damage numbers, since its more efficient than UMG, but I'm not managing to make it work with the Gameplay Cue of the GAS. In my case, I need the particle system to spawn multi-digit numbers or sometimes texts like status effects and in most tutorials that I've found, there is some custom logic that needs to be calculated to spawn the digits using Niagara. But I've struggled to make it work within Gameplay Cues, because I keep running into errors that relates to running these functions or the changing variables within them. So I'm stuck on how to m",
       "has_body": true,
-      "what": "用户在 r/unrealengine 问：Fab 买的资产只给 UE 格式、无 FBX、无 LOD，靠 Nanite 撑面数，能否在 UE 里导出低模 FBX。",
-      "why": "Nanite 资产常不烘焙传统 LOD，跨引擎或移动端复用时无法直接降面，暴露了资产交付格式的锁定问题。",
-      "for_you": "与你的项目无直接关系；但若团队买 Fab 资产，需确认能否在 UE 内重建 LOD 或减面，别指望源文件。",
+      "what": "开发者想在GAS的GameplayCue里用Niagara生成伤害数字，替代UMG。需处理多位数和状态文字，但自定义数字拆分逻辑在Cue中报错，变量修改和函数调用失败。",
+      "why": "Niagara比UMG高效，但GAS的Cue执行环境限制自定义逻辑，社区教程未覆盖此集成。伤害数字是PVP反馈核心，方案卡住影响手感迭代。",
+      "for_you": "可尝试把数字拆分放到Cue外的Ability或AttributeSet中，Cue只传参给Niagara；或改用Niagara的DataChannel传文本。注意Cue的线程限制。",
       "degraded": null
     },
     {
@@ -346,7 +164,7 @@
         }
       ],
       "pool": "main",
-      "score": 40,
+      "score": 10,
       "score_parts": [
         {
           "label": "单源",
@@ -359,6 +177,10 @@
         {
           "label": "命中「retarget」",
           "value": 20
+        },
+        {
+          "label": "已报过",
+          "value": -30
         }
       ],
       "relevant_hits": [
@@ -366,13 +188,86 @@
       ],
       "is_relevant": true,
       "is_combat": false,
-      "followup": null,
+      "followup": {
+        "title": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
+        "first_seen": "2026-10-04",
+        "times": 1,
+        "last_seen": "2026-10-04"
+      },
       "section": "relevant",
       "body": "In this tutorial, we work through the retargeting engine at the core of NVIDIA IsaacTeleop, the framework that turns XR hand tracking and motion-controller input into commands for simulated and real robots. Rather than plugging in a headset, we build every input ourselves in NumPy, so each step runs on a plain Colab CPU and prints what it computes. We start with the type system every node speaks, generate synthetic hand and controller data, write our own retargeter with live-tunable parameters, and then drive the built-in gripper and SE(3) retargeters with it. From there, we compose a full graph that emits one action vector per step, apply a world-frame transform, step through the run, pause and kill the state machine, and finish with a controller-to-dexterous-hand mapping and parameter tuning that persists across restarts.\nimport os\nimport sys\nimport json\nimport math\nimport tempfile\nimport traceback\nimport subprocess\nimport numpy as np\nRESULTS = {}\ndef banner(title):\nprint(\"\\n\" + \"=\" * 78)\nprint(title)\nprint(\"=\" * 78)\ndef section(name):\ndef wrap(fn):\ndef run(*a, **kw):\nbanner(name)\ntry:\nout = fn(*a, **kw)\nRESULTS[name] = out if isinstance(out, str) else \"ok\"\nreturn out\nexcept Exception as e:\nRESULTS[name] = f\"SKIPPED / FAILED -> {type(e).__name__}: {e}\"\nprint(f\"\\n[!] {name} did not complete: {type(e).__name__}: {e}\")\ntraceback.print_exc(limit=3)\nreturn None\nreturn run\nreturn wrap\nbanner(\"0. Install isaacteleop and check the environment\")\nsubprocess.run(\n[sys.executable, \"-m\", \"pip\", \"install\", \"-q\", \"isaacteleop[retargeters-lite]==1.4.145\"],\ncheck=True,\n)\nimport pkgutil\nimport isaacteleop\nfrom isaacteleop import schema\nprint(f\" isaacteleop {isaacteleop.__version__} | Python {sys.version.split()[0]} | numpy {np.__version__}\")\nprint(\" top-level modules :\", \", \".join(sorted(m.name for m in pkgutil.iter_modules(isaacteleop.__path__))))\nmessage_types = [n for n in dir(schema) if n[0].isupper()]\nprint(f\" schema message types: {len(message_types)}, e.g. {', '.join(message_types[:6])}\")\nprint(\" no headset, no OpenXR runtime, no simulator is used anywhere below.\")\nWe install the stable isaacteleop wheel from PyPI with the retargeters-lite extra, which adds only SciPy, and report the version, interpreter, and NumPy build. The package splits into device I/O modules that wrap OpenXR and CloudXR, a schema module holding the FlatBuffer message types every tracker emits, and the pure-Python retargeting engine we work with here. Listing the schema types shows the vocabulary of the data layer, but nothing below opens a headset session; from here on, every input is a tensor we build by hand.\nfrom isaacteleop.retargeting_engine.interface import (\nTensorGroup,\nOptionalTensorGroup,\nTensorGroupType,\nOptionalType,\n)\nfrom isaacteleop.retargeting_engine.tensor_types import (\nHandInput,\nControllerInput,\nHandInputIndex,\nControllerInputIndex,\nHandJointIndex,\n)\n@section(\"1. The type contract: TensorGroupType, TensorGroup, Optional\")\ndef type_contract():\nhand_t = HandInput()\nctrl_t = ControllerInput()\nprint(\" HandInput :\", hand_t)\nprint(\" slot index :\", \", \".join(f\"{m.name}={m.value}\" for m in HandInputIndex))\nprint(f\" ControllerInput: {len(ctrl_t)} slots ->\",\n\", \".join(t.name.replace(\"controller_\", \"\") for t in ctrl_t.types))\nprint(f\" OpenXR hand joints: {len(HandJointIndex)} \"\nf\"(WRIST={int(HandJointIndex.WRIST)}, THUMB_TIP={int(HandJointIndex.THUMB_TIP)}, \"\nf\"INDEX_TIP={int(HandJointIndex.INDEX_TIP)})\")\nhand = TensorGroup(hand_t)\nhand[HandInputIndex.JOINT_POSITIONS] = np.zeros((26, 3), dtype=np.float32)\nprint(\"\\n wrote a (26, 3) float32 array into JOINT_POSITIONS ->\", hand)\ntry:\nhand[HandInputIndex.JOINT_POSITIONS] = np.zeros((26, 3))\nexcept TypeError as e:\nprint(\" float64 rejected at write time :\", str(e)[:110])\ntry:\n_ = hand[HandInputIndex.JOINT_VALID]\nexcept ValueError as e:\nprint(\" reading a slot nobody wrote :\", e)\nmaybe = OptionalTensorGroup(OptionalType(ctrl_t))\nprint(f\"\\n Optional group starts absent : is_none={maybe.is_none} {maybe}\")\nmaybe[ControllerInputIndex.TRIGGER_VALUE] = 0.0\nprint(f\" one write flips it to present : is_none={maybe.is_none} {maybe}\")\nreturn f\"{len(hand_t)} hand slots, {len(ctrl_t)} controller slots\"\ntype_contract()\nThe engine’s contract is a TensorGroupType, an ordered list of typed slots, and a TensorGroup, the runtime container that holds one value per slot and validates each write. HandInput carries four NumPy arrays for the 26 OpenXR hand joints, and ControllerInput carries fourteen slots for poses, buttons, and axes, addressed through generated IntEnum indices rather than magic numbers. Writing a float64 array where float32 is declared fails at the write, and reading a slot nobody wrote raises instead of returning stale data. OptionalType marks inputs a tracker may not deliver; the matching OptionalTensorGroup starts absent and becomes present on its first write, which is how every downstream node learns that a hand has left the tracking volume.\nJ = HandJointIndex\nC = ControllerInputIndex\nRIGHT_WRIST = np.array([0.30, 1.05, -0.45], dtype=np.float32) # OpenXR: x right, y up, z back\ndef make_hand(pinch_m, wrist=RIGHT_WRIST, quat=(0.0, 0.0, 0.0, 1.0)):\n\"\"\"A synthetic right hand in HandInput layout: 26 joints in OpenXR order.\"\"\"\npos = np.zeros((26, 3), dtype=np.float32)\npos[J.WRIST] = wrist\npos[J.PALM] = wrist + [0.0, 0.0, -0.06]\nfingers = [(J.INDEX_METACARPAL, 0.03), (J.MIDDLE_METACARPAL, 0.01),\n(J.RING_METACARPAL, -0.01), (J.LITTLE_METACARPAL, -0.03)]\nfor base, x_off in fingers: # metacarpal .. tip, five joints each\nfor k in range(5):\npos[base + k] = wrist + [x_off, 0.0, -0.05 - 0.02 * k]\nfor k in range(4): # thumb: metacarpal .. tip, four joints\npos[J.THUMB_METACARPAL + k] = wrist + [0.05, -0.01, -0.02 - 0.015 * k]\npos[J.THUMB_TIP] = pos[J.INDEX_TIP] + [pinch_m, 0.0, 0.0]\ng = TensorGroup(HandInput())\ng[HandInputIndex.JOINT_POSITIONS] = pos\ng[HandInputIndex.JOINT_ORIENTATIONS] = np.tile(np.asarray(quat, dtype=np.float32), (26, 1))\ng[HandInputIndex.JOINT_RADII] = np.full(26, 0.01,",
       "has_body": true,
-      "what": "NVIDIA IsaacTeleop 教程：用 NumPy 在 Colab CPU 上自建 XR 手部与手柄输入，走纯 Python 重定向引擎，装 isaacteleop[retargeters-lite]==1.4.145。",
-      "why": "把 XR 手追踪到机器人动作的重定向拆成可离线跑的图节点，不依赖头显、OpenXR 运行时或仿真器，降低机器人遥操作门槛。",
+      "what": "NVIDIA IsaacTeleop 教程：用 NumPy 在 Colab CPU 上自建 XR 手部/手柄输入，经图式重定向引擎输出机器人动作向量。装 isaacteleop[retargeters-lite]==1.4.145，26 个 OpenXR 手关节、14 个手柄槽位。",
+      "why": "XR 输入到机器人动作的重定向被拆成可组合的纯 Python 图节点，无需头显或 OpenXR 运行时。降低了遥操作与动作生成的门槛，影响机器人学习与 XR 交互工具链。",
       "for_you": "与你的项目无直接关系。",
+      "degraded": null
+    },
+    {
+      "key": "5d4f4a3067123364",
+      "title": "Can i export a lower triangle version of a Mesh that uses Nanite?",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wwvgfc/can_i_export_a_lower_triangle_version_of_a_mesh/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "r/unrealengine"
+      ],
+      "published": "2026-10-03T19:17:06+00:00",
+      "undated": false,
+      "summary_raw": "I want to buy some assets from fab that don't include LODs as they say, but they are using Unreal's Nanite. The only format they offer is unreal's, no fbx or anything else. Can i export them in fbx in lower triangle versions from Unreal?",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Can i export a lower triangle version of a Mesh that uses Nanite?",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wwvgfc/can_i_export_a_lower_triangle_version_of_a_mesh/",
+          "source": "r/unrealengine"
+        }
+      ],
+      "pool": "main",
+      "score": 4,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        },
+        {
+          "label": "命中「nanite」",
+          "value": 20
+        },
+        {
+          "label": "已报过",
+          "value": -30
+        }
+      ],
+      "relevant_hits": [
+        "nanite"
+      ],
+      "is_relevant": true,
+      "is_combat": false,
+      "followup": {
+        "title": "Can i export a lower triangle version of a Mesh that uses Nanite?",
+        "first_seen": "2026-10-04",
+        "times": 1,
+        "last_seen": "2026-10-04"
+      },
+      "section": "relevant",
+      "body": "I want to buy some assets from fab that don't include LODs as they say, but they are using Unreal's Nanite. The only format they offer is unreal's, no fbx or anything else. Can i export them in fbx in lower triangle versions from Unreal?",
+      "has_body": true,
+      "what": "用户在 r/unrealengine 问：Fab 买的资产只给 UE 格式、无 FBX、无 LOD，靠 Nanite 撑面数，能否在 UE 里导出低模 FBX。",
+      "why": "Nanite 资产常不烘焙 LOD，跨引擎或移动端复用时无法直接降面，暴露了资产交付格式的锁定问题。",
+      "for_you": "与你的项目无直接关系；但若团队买 Fab 资产，需确认能否导出低模供移动端或 LOD 用。",
       "degraded": null
     },
     {
@@ -395,7 +290,7 @@
         "hn_comments": 0,
         "hf_upvotes": 0,
         "stars_today": 0,
-        "rank_bonus": 6.0
+        "rank_bonus": 0.0
       },
       "members": [
         {
@@ -405,7 +300,7 @@
         }
       ],
       "pool": "main",
-      "score": 40.0,
+      "score": 4,
       "score_parts": [
         {
           "label": "单源",
@@ -416,12 +311,12 @@
           "value": 2
         },
         {
-          "label": "社区置顶",
-          "value": 6.0
-        },
-        {
           "label": "命中「unreal」",
           "value": 20
+        },
+        {
+          "label": "已报过",
+          "value": -30
         }
       ],
       "relevant_hits": [
@@ -429,13 +324,18 @@
       ],
       "is_relevant": true,
       "is_combat": false,
-      "followup": null,
+      "followup": {
+        "title": "Unreal 5.8 - Radial Blur (Photoshop filter) Post Process effect",
+        "first_seen": "2026-10-04",
+        "times": 1,
+        "last_seen": "2026-10-04"
+      },
       "section": "relevant",
       "body": "In this video I'll show you a full step-by-step guide of how to make a cool and versatile radial blur post process effect, which will give an extra sense of speed to your games that sometimes a regular (and more expensive) per-object motion blur cannot give you.",
       "has_body": true,
-      "what": "教程演示在 UE5.8 用后处理材质做径向模糊，模拟 Photoshop 滤镜，替代逐对象运动模糊。",
-      "why": "逐对象运动模糊开销高，径向模糊按屏幕空间算，成本低，适合高速移动的视觉强化。",
-      "for_you": "冲刺、闪避、受击位移时可用它做速度感，比逐对象运动模糊省性能，注意别影响 PVP 可读性。",
+      "what": "教程演示在 UE5.8 用后处理做径向模糊，模仿 Photoshop 滤镜，比逐对象运动模糊更省，用于强化速度感。",
+      "why": "逐对象运动模糊开销高，径向模糊是屏幕空间近似，低成本补速度感，适合高速移动或冲刺表现。",
+      "for_you": "冲刺、闪避、受击位移时可用它做速度线，比调运动模糊便宜，注意别和 GAS 位移同步冲突。",
       "degraded": null
     }
   ],
@@ -503,86 +403,14 @@
       "followup": {
         "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
         "first_seen": "2026-10-03",
-        "times": 1,
-        "last_seen": "2026-10-03"
+        "times": 2,
+        "last_seen": "2026-10-04"
       },
       "section": "thread",
       "body": "Apple says it is changing its macOS privacy settings to stop third-party app developers from misusing them to access message histories.\nFriday’s announcement comes two weeks after tech columnist Jason Aten said that Meta’s new general-purpose AI agent Muse sent him an unsolicited notification referencing a thread between him and a co-worker over Apple Messages. Aten said he never granted Muse permissions to read his messages and had assumed they were off-limits. Social media last week blew up with masses of people who agreed and said the incident showed that AI assistants given access to calendars, emails, messages, shopping accounts, and other resources are akin to a skill saw or other power tool. While potentially useful, they can do real damage if not used carefully.\nHe said/she said\nMeta CTO David Singleton joined the fray with a rebuttal that appeared solid. For Muse to access Apple Messages, a user must manually give it two privileges. One is full-disk access, a macOS system-level permission. The other is to enable a Messages connector setting in Muse.\n“The Messages integration in the Muse Mac app is opt in,” Singleton said. “Your Muse can only read Messages content if macOS system-level Full Disk Access is granted and the Messages connector is enabled.”\nSingleton’s implication was clear. Muse could have read Aten’s Messages communications only if he had enabled both settings, and if so, the columnist had only himself—and certainly not Meta—to blame.\nEarlier this week, I spoke to macOS security expert Patrick Wardle, who questioned Singleton’s denial. His reasoning: “From a technical point of view, with FDA (full-disk access), any (non-root file), is readable, browsing history, browser cookies, chats, etc etc etc.” I asked Meta how Muse couldn’t read messages when the app had full disk access, while every other app with that privilege could. Meta PR’s only response was to requote Singleton saying: “The Messages integration in the Muse Mac App is opt-in. Your Muse can only read Messages content if macOS system-level Full Disk Access is granted and the Messages connector is enabled.”",
       "has_body": true,
-      "what": "苹果改macOS隐私设置，限制第三方应用借全盘访问权限读取信息。Meta的AI代理Muse被指未经许可读取用户Messages聊天，Meta称需手动开启全盘访问和Messages连接器两项权限。",
-      "why": "全盘访问权限可读任意非root文件、浏览记录、Cookie、聊天。AI代理获此权限后，隐私边界被放大，苹果被迫收紧系统级授权。",
-      "for_you": "与你的项目无直接关系",
-      "degraded": null
-    },
-    {
-      "key": "9445f67b75347c5e",
-      "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
-      "url": "https://www.qbitai.com/2026/10/499958.html",
-      "hn_url": "https://news.ycombinator.com/item?id=49926512",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 2,
-      "sources": [
-        "量子位",
-        "Hacker News"
-      ],
-      "published": "2026-10-01T20:12:15Z",
-      "undated": false,
-      "summary_raw": "换区也没用",
-      "signals": {
-        "hn_points": 146,
-        "hn_comments": 75,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
-          "url": "https://www.qbitai.com/2026/10/499958.html",
-          "source": "量子位"
-        },
-        {
-          "title": "ArXiv's Updated Rate Limit Policy",
-          "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 12.0,
-      "score_parts": [
-        {
-          "label": "2 源报道",
-          "value": 24
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 146",
-          "value": 10.0
-        },
-        {
-          "label": "已报过",
-          "value": -30
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": {
-        "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
-        "first_seen": "2026-10-03",
-        "times": 1,
-        "last_seen": "2026-10-03"
-      },
-      "section": "thread",
-      "body": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度\n换区也没用\n闻乐 发自 凹非寺\n量子位 | 公众号 QbitAI\n论文现在也开始限流了……\n刚刚，arXiv给所有投稿人上了一道新规：\n每人每月，最多提交两篇论文。\n而且不是只卡最近论文爆炸的AI领域，所有作者、所有分类，一视同仁。\n两篇用完怎么办——\n下个月再来。\n更狠的是，这里算的还是“提交次数”，不是最后成功挂到arXiv上的论文数量。\n也就是说，一篇论文交上去之后哪怕被拒了，这个月的一次额度照样没了。\n如果两篇都被拒……\n恭喜，本月arXiv投稿进度已完成100%。\n除此之外，arXiv还保留了从2024年开始实行的另一道限制：\n任何时候，最多只能有3篇处于active状态的投稿。\n新规已经从2026年10月1日开始执行。\n至于为什么突然开始卡投稿量，arXiv文章标题就直接把一个关键词摆了出来：\nAI。\n论文，实在太多了。\n两年翻一倍，AI区直接涨超6倍\n2016年9月，arXiv一个月收到9869篇投稿。\n2024年9月，这个数字已经来到20569篇。\n而刚刚过去的2026年9月，40363篇。\n十年翻了4倍多。\n更夸张的是，最近这次翻倍只用了两年。\n40363篇投稿背后，还顺手给arXiv工作人员和审核员制造了将近9000张support ticket。\n而在不同研究领域里，AI显然是涨得最猛的那一批。\narXiv专门拉出了计算机科学下面的cs.AI分类。\n从2024年到2026年，这个分类的投稿量增长了超过6倍。\n其他arXiv分类同期也在增长，但整体大约是翻倍。\n论文越来越多本身当然不是坏事。\n问题在于，arXiv发现一起涌进来的，还有越来越多……质量不太行的论文。\n官方直接点名了几种。\n一种是范围很窄、内容很薄的thin papers。\n还有一种叫“salami papers”，名字很形象——\n切香肠。原本可以组成一项完整工作的研究，被切成好几小片，然后分别投稿。\n除此之外，还有越来越多高度依赖AI写作、文字密度很高的论文。\narXiv认为，先进AI工具确实正在让研究的一些环节变得更快、更容易，他们也没有禁止研究者使用AI。\n按照现有规则，只要作者进行披露，并且研究本身符合arXiv对学术价值和领域推进的要求，用AI辅助研究没有问题。\n问题是，AI同样大幅降低了生产低价值论文的门槛。\n以前一个研究者能写多少篇论文，至少还受到时间和精力的物理限制。\narXiv在这次公告里甚至专门提到了这个变化：\nAI出现以前，一个人能够独立生产多少投稿，实际上存在一个比较容易判断的现实上限。\n现在，这个上限越来越不好判断了。\n今年2月，《Nature》其实就关注过同样的问题。\n当时人机交互研究者Raphael Wimmer用AI工具Prism，只花了54秒，就把一个自己根本没有真正做过的实验写成了论文。\n他随后感叹：\n写论文从未如此容易，堵塞科学出版流程也从未如此容易。\n这也是arXiv现在面对的麻烦。\n论文生成速度开始Scaling了，但负责把关的人没有。\nAI写得动，审核员审不动了\narXiv并不是传统意义上的学术期刊。\n论文提交之后，不需要先经历完整同行评审才能公开。\n但这也不意味着随便生成一篇PDF就能直接挂上去。\narXiv仍然需要审核投稿是否符合相应分类、基本学术标准和学术兴趣要求。\n而这套系统很重要的一部分，靠的是志愿审核员。\n现在投稿量一涨，这里最先开始吃不消。\narXiv编辑顾问委员会主席、俄勒冈州立大学荣休教授Thomas Dietterich提到：\n目前只是一小部分作者，就提交了大量低质量论文，却消耗了不成比例的审核时间。\n结果不只是审核员工作量增加。\n其他正常投稿的论文，也可能因此被拖延数天甚至数周。\n所以arXiv这次干脆从入口限流。\n从10月1日起：每个submitter，每个自然月最多提交2篇论文。\n这里有几个细节还挺关键。\n首先，限制跟论文最终有没有通过没关系。\n只要提交进入审核流程，就会消耗审核员时间，所以即便最后被拒，也照样占掉一次当月额度。\n其次，换分类也没用。\n两篇额度是整个arXiv共用，并不是cs.AI两篇、cs.LG再来两篇——\n所有分类加起来就是两篇。\n还有一个比较重要的细节：\n限制的是submitter，也就是实际提交论文的人，不是论文所有共同作者。\n比如一篇论文有5名作者，其中A负责提交，那么这篇论文只占A的一次额度，不会把另外4个人的额度一起扣掉。\n所以arXiv也提醒共同作者，需要协调好到底由谁负责投稿。\n至于有人可能想到的操作——\n“我先提交，发现不对再删掉呢？”\n这个倒不会浪费额度。\n如果论文在正式announce之前由提交者主动删除，那么这次提交不会计入每月两篇的限制，也不会占用3篇active submissions的名额。\n而对于赶会议deadline，或者手上刚好积压了一批论文的人，arXiv目前也没准备开特殊通道。\n官方给出的建议基本就是：提前规划投稿。\n不过arXiv也明确说了，这次新规目前更像是一道临时限速措施。\n他们需要时间重新判断：\n当越来越先进的AI工具进入科研之后，作者合理的论文生产速度到底应该是多少？\n与此同时，arXiv也需要升级自己的审核工具和流程，再决定长期应该采用什么规则。\n所以这次“一月两篇”，多少有点AI时代的特殊意味。\n过去限制科研产出的，很大一部分是研究、实验、写作本身需要的时间。\n现在AI正在快速压缩其中一些环节，论文生产速度突然被往上推了一截。\n结果最先撞上物理极限的，反而变成了另一头——\n人类审核员一天还是只有24小时。\n论文可以Scaling，审核员暂时还不行……\n参考链接：\n[1]https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/\n[2]https://x.com/SemiAnalysis_/status/2105130561530421342?s=20\n- DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师2026-10-03\n- 首个AIGC长片大赛！RunningHub单项大奖100万，科幻IP免费改编2026-09-15\n- 吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞2026-09-11\n- 新版GPT Image 2.5已经能伪造GPT-6发布会了2026-09-04",
-      "has_body": true,
-      "what": "arXiv自2026年10月1日起限投：每人每自然月最多提交2篇，拒稿不退额度，换分类不叠加，另保留最多3篇active投稿限制。",
-      "why": "AI让论文产能脱离人力上限，cs.AI两年投稿涨超6倍，月投稿破4万，审核员成瓶颈，学术预印本首次按人头限流。",
+      "what": "苹果改macOS隐私设置，限制第三方应用借全盘访问权限读取信息。Meta AI代理Muse被指未经许可读取用户Messages，Meta称需手动开全盘访问和Messages连接器。",
+      "why": "全盘访问权限过宽，AI代理可读聊天、浏览记录、Cookie。苹果收紧权限，第三方AI工具访问系统数据受限，开发者需重新设计授权流程。",
       "for_you": "与你的项目无直接关系。",
       "degraded": null
     },
@@ -643,23 +471,23 @@
       "followup": {
         "title": "Reigns developer Nerial enters 'hibernation mode,' lays off staff",
         "first_seen": "2026-10-03",
-        "times": 1,
-        "last_seen": "2026-10-03"
+        "times": 2,
+        "last_seen": "2026-10-04"
       },
       "section": "thread",
       "body": "Nerial, the celebrated British game studio behind the Reigns franchise, Card Shark, and The Crush House has announced it is entering 'hibernation mode,' ending development and laying off its remaining employees. The studio shared the news in a post on social media authored by co-founders François and Tamara Alliot, marking an end to its 13-year journey of making innovative and unusual games.\n\"Oh no, another one of those studio announcements with text on a somber background color?\" it begins, in an allusion to the many posts that have accompanied dozens of layoff announcements that have hit the game industry since late 2022. \"Unfortunately, yes, another one. Nerial is entering hibernation mode. After 13 years and 11 published games, we have decided together with our partners at Devolver to end development at the studio.\"\n\"It's been an incredible adventure,\" wrote the co-founders, saying they launched Nerial with \"no expectations or ambitions.\" They urged other studios to hire the studio's \"fabulous\", crew of employees, heaping praise on each of them in a series of follow-up posts.\nAdditionally, they thanked the studio's many collaborators at Devolver Digital (which acquired the studio in 2021 and laid off 40 percent of studio employees in 2024) and other organizations that partnered with them on licensed titles like Reigns: Game of Thrones and Reigns: The Witcher.\nFrançois and Tamara said that it's \"not the end of game dev\" for them, but they need to take a break before \"going back to their roots.\"\n\"We need to take a break and reflect on everything that's happened before coming back with a new perspective,\" they concluded.\nDevelopers looking to commemorate the studio's legacy and learn more about the titles that gave it a distinct identity should be sure to read the developer-authored Deep Dives on the making of the complex systems powering Reigns and The Crush House.\nRead more about:",
       "has_body": true,
       "what": "英国工作室Nerial进入休眠模式，停止开发并裁掉剩余员工。13年发行11款游戏，2021年被Devolver收购，2024年已裁40%。",
-      "why": "Devolver旗下再少一个做创新机制的工作室。2022年底以来行业裁员潮延续，中型独立团队生存空间继续收窄。",
+      "why": "Devolver旗下再少一个做创新系统的小团队。2022年底以来行业裁员潮延续，中型独立工作室生存空间继续收窄。",
       "for_you": "与你的项目无直接关系",
       "degraded": null
     }
   ],
   "papers": [
     {
-      "key": "ccab6db756edce4b",
-      "title": "OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport",
-      "url": "https://arxiv.org/abs/2609.36602",
+      "key": "f750e8f9d4db6dfa",
+      "title": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+      "url": "https://arxiv.org/abs/2609.38879",
       "hn_url": null,
       "lang": "en",
       "tier": 1,
@@ -668,22 +496,22 @@
       "sources": [
         "HuggingFace Papers"
       ],
-      "published": "2026-09-29T00:00:00.000Z",
+      "published": "2026-09-30T00:00:00.000Z",
       "undated": false,
-      "summary_raw": "Transferring human motion to humanoid robots requires adapting the demonstrated motion to the robot morphology while preserving interactions with the environment. This is particularly challenging for loco-manipulation tasks, where contacts with the ground and manipulated objects must remain consistent despite differences in body proportions. Yet, skeletal motion alone does not fully describe these interactions, and fixing object trajectories limits the adaptation to a new embodiment. In this paper, we introduce OTR ETARGET, a unified approach to jointly retarget robot and multi-object motion f",
+      "summary_raw": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and structural logic behind them. Protein folding is a natural testbed, because one solved structure yields thousands of exactly checkable spatial and topological statements. We ask: can learning to fold proteins teach general models reusable reasoning capabilities? To answer this, we build FoldingCorpus, a protein-derived question-answer dataset, and Fold2Reason, a recipe that post-trains on it through two complementary signals: discrete structural answers predicted via the model's na",
       "signals": {
         "hn_points": 0,
         "hn_comments": 2,
-        "hf_upvotes": 7,
+        "hf_upvotes": 32,
         "stars_today": 0,
         "rank_bonus": 0.0
       },
       "members": [],
       "pool": "paper",
-      "authors": "Guillaume Besset, Erwann Carn, Timothée Carecchio et al.",
+      "authors": "Yong Liu, Zhanpeng Shi, Yizhou Dang et al.",
       "repo_lang": null,
       "repo_stars": null,
-      "score": 58.3,
+      "score": 44.0,
       "score_parts": [
         {
           "label": "单源",
@@ -694,62 +522,8 @@
           "value": 18
         },
         {
-          "label": "HF ▲7",
-          "value": 8.3
-        },
-        {
-          "label": "命中「retarget」",
-          "value": 20
-        }
-      ],
-      "relevant_hits": [
-        "retarget"
-      ],
-      "is_relevant": true,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "180cbe3a929551f2",
-      "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
-      "url": "https://arxiv.org/abs/2609.35259",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "HuggingFace Papers"
-      ],
-      "published": "2026-09-28T00:00:00.000Z",
-      "undated": false,
-      "summary_raw": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation. However, existing comparisons between supervised fine-tuning and reinforcement learning vary many factors simultaneously, making the contribution of rollout policy difficult to isolate. We study the effect of rollout policy in a controlled strong-to-weak distillation setting, by independently varying rollout policy, token-level KL direction, and learning rate across the Llama3 and Qwen2.5 model families and reasoning tasks spanning scientific, medical, and arithm",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 2,
-        "hf_upvotes": 154,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [],
-      "pool": "paper",
-      "authors": "Julianna Piskorz, Antonin Berthon, Mihaela van der Schaar",
-      "repo_lang": null,
-      "repo_stars": null,
-      "score": 50.2,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        },
-        {
-          "label": "HF ▲154",
-          "value": 20.2
+          "label": "HF ▲32",
+          "value": 14.0
         }
       ],
       "relevant_hits": [],
@@ -759,9 +533,9 @@
       "title_cn": ""
     },
     {
-      "key": "dc0d323829d03bff",
-      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
-      "url": "https://arxiv.org/abs/2609.36585",
+      "key": "7c1a3627f643e485",
+      "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+      "url": "https://arxiv.org/abs/2609.38839",
       "hn_url": null,
       "lang": "en",
       "tier": 1,
@@ -770,22 +544,22 @@
       "sources": [
         "HuggingFace Papers"
       ],
-      "published": "2026-09-29T00:00:00.000Z",
+      "published": "2026-09-30T00:00:00.000Z",
       "undated": false,
-      "summary_raw": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B reaches 60 lines after four loops and at least 160 after eight. The LoRA starts a relay: program lines pass on their chain identity through a short range of middle layers. Frozen heads read progressi",
+      "summary_raw": "Long-horizon video generation requires models to effectively leverage an increasingly long generation history. As the generated history grows, retaining all previous content becomes increasingly expensive and redundant, making effective historical selection essential. Existing approaches often determine historical relevance based on the current content. However, information relevant to the present is not necessarily useful for future generation, while seemingly less relevant history may become important later. Our key insight is that historical information should be selected according to its r",
       "signals": {
         "hn_points": 0,
-        "hn_comments": 2,
-        "hf_upvotes": 62,
+        "hn_comments": 1,
+        "hf_upvotes": 17,
         "stars_today": 0,
         "rank_bonus": 0.0
       },
       "members": [],
       "pool": "paper",
-      "authors": "Zehao Jin, Ruixuan Deng, Junran Wang",
+      "authors": "Bo Yin, Xiaobin Hu, Jiaqi Zhao et al.",
       "repo_lang": null,
       "repo_stars": null,
-      "score": 46.6,
+      "score": 41.6,
       "score_parts": [
         {
           "label": "单源",
@@ -796,8 +570,56 @@
           "value": 18
         },
         {
-          "label": "HF ▲62",
-          "value": 16.6
+          "label": "HF ▲17",
+          "value": 11.6
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "39ca6a07f72193dd",
+      "title": "Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It",
+      "url": "https://arxiv.org/abs/2610.03195",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "HuggingFace Papers"
+      ],
+      "published": "2026-10-02T00:00:00.000Z",
+      "undated": false,
+      "summary_raw": "As LLM agents decide on users' behalf which product to buy, which hotel to book, or which paper to cite, a preference for items from certain sources (the sites or services they come from) shapes what users receive and which sources are selected. We study source preference in end-to-end search with 12 agent models across three domains. Comparing items from different sources that satisfy the same requirements at the same position, we find that each model prefers some sources and avoids others in every domain, largely agreeing on which. This preference can outweigh how well items satisfy the requ",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 1,
+        "hf_upvotes": 12,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [],
+      "pool": "paper",
+      "authors": "Jonghyun Song, Haewon Park, Jeonghoon Shim et al.",
+      "repo_lang": null,
+      "repo_stars": null,
+      "score": 40.3,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "一手源",
+          "value": 18
+        },
+        {
+          "label": "HF ▲12",
+          "value": 10.3
         }
       ],
       "relevant_hits": [],
@@ -807,169 +629,22 @@
       "title_cn": ""
     }
   ],
-  "graphics": [],
-  "repos": [
+  "graphics": [
     {
-      "key": "05c61659abf00e42",
-      "title": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
+      "key": "02f32445c3cbbb0b",
+      "title": "Windfoil: Closed-Form Coverage for Real-Time and Differentiable Vector Graphics",
+      "url": "https://arxiv.org/abs/2610.02468",
       "hn_url": null,
       "lang": "en",
       "tier": 1,
       "tier_weight": 18,
       "coverage": 1,
       "sources": [
-        "GitHub Trending"
+        "arXiv cs.GR"
       ],
-      "published": "2026-10-04T06:10:56.402790+00:00",
+      "published": "2026-10-05T04:00:00+00:00",
       "undated": false,
-      "summary_raw": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 1696,
-        "rank_bonus": 0.0
-      },
-      "members": [],
-      "pool": "repo",
-      "authors": null,
-      "repo_lang": "Python",
-      "repo_stars": 90025,
-      "score": 44.9,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        },
-        {
-          "label": "+1696★/日",
-          "value": 14.9
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "f7d5d05b39a20864",
-      "title": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "GitHub Trending"
-      ],
-      "published": "2026-10-04T06:10:56.402790+00:00",
-      "undated": false,
-      "summary_raw": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 1281,
-        "rank_bonus": 0.0
-      },
-      "members": [],
-      "pool": "repo",
-      "authors": null,
-      "repo_lang": "JavaScript",
-      "repo_stars": 153734,
-      "score": 44.3,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        },
-        {
-          "label": "+1281★/日",
-          "value": 14.3
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "a65564782265fb92",
-      "title": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "GitHub Trending"
-      ],
-      "published": "2026-10-04T06:10:56.402790+00:00",
-      "undated": false,
-      "summary_raw": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 897,
-        "rank_bonus": 0.0
-      },
-      "members": [],
-      "pool": "repo",
-      "authors": null,
-      "repo_lang": "JavaScript",
-      "repo_stars": 272398,
-      "score": 43.6,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        },
-        {
-          "label": "+897★/日",
-          "value": 13.6
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    }
-  ],
-  "diverse": [
-    {
-      "key": "1cab4459e38d776d",
-      "title": "Location, location, location: how to edit genes only in the cells you want",
-      "url": "https://www.nature.com/articles/d41586-026-03037-8",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "Nature"
-      ],
-      "published": "2026-10-02T00:00:00+00:00",
-      "undated": false,
-      "summary_raw": "Nature, Published online: 02 October 2026; doi:10.1038/d41586-026-03037-8 Gene-editing CRISPR enzymes controlled by light and sound target tissues of interest.",
+      "summary_raw": "arXiv:2610.02468v1 Announce Type: new Abstract: We present Windfoil, a GPU-friendly algorithm that treats rasterisation and differentiable vector graphics as two sides of the same problem by evaluating the box-filtered winding number of quadratic B\\'ezier contours in closed form. We implement this in WebGPU, allowing it to run across a range of environments, including a web browser on a consumer laptop, and apply the system to real-time 2D rendering, high-resolution rasterisation for print media, and a differentiable renderer. We compare our renderer against Skia, a production-grade engine, an",
       "signals": {
         "hn_points": 0,
         "hn_comments": 0,
@@ -978,7 +653,7 @@
         "rank_bonus": 0.0
       },
       "members": [],
-      "pool": "diverse",
+      "pool": "graphics",
       "authors": null,
       "repo_lang": null,
       "repo_stars": null,
@@ -996,170 +671,357 @@
       "relevant_hits": [],
       "is_relevant": false,
       "is_combat": false,
+      "followup": null
+    },
+    {
+      "key": "ed91a517a40cf5ce",
+      "title": "Budgeted-GS: Real-Time Large-Scale Gaussian Splatting via Factoring LOD",
+      "url": "https://arxiv.org/abs/2610.03162",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "arXiv cs.GR"
+      ],
+      "published": "2026-10-05T04:00:00+00:00",
+      "undated": false,
+      "summary_raw": "arXiv:2610.03162v1 Announce Type: new Abstract: 3D Gaussian Splatting achieves excellent visual quality with real-time rendering, but at the scale of entire cities it does not fit: a trained model carries millions of primitives and gigabytes of memory, and real-time rendering at high quality on a consumer GPU remains out of reach. We introduce Budgeted-GS, a post-hoc method that turns any trained 3DGS model into a factoring tree, a multi-resolution hierarchy of moment-matched aggregates. After a construction pass of a few seconds, a single quality parameter selects, for each view, the level of",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [],
+      "pool": "graphics",
+      "authors": null,
+      "repo_lang": null,
+      "repo_stars": null,
+      "score": 30,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "一手源",
+          "value": 18
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null
+    },
+    {
+      "key": "647e64513935336d",
+      "title": "A Kinetic Theory of the Gated Self-Evolving LLM Agent",
+      "url": "https://arxiv.org/abs/2610.03243",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "arXiv cs.GR"
+      ],
+      "published": "2026-10-05T04:00:00+00:00",
+      "undated": false,
+      "summary_raw": "arXiv:2610.03243v1 Announce Type: new Abstract: We find traces of fluid dynamics in the self-evolution of an LLM agent, and give the kinetic theory that predicts them. Gated self-evolution is the loop in which an agent rewrites its own skills under a validation gate. Self-evolution research has treated the agent as the unit; we study instead the individual instances inside it. Here the agent is DSH-plugin-based: it runs in production on DeepSeek Harness (DSH), and its plugins satisfy four architectural properties (permutation symmetry, reversibility, acyclicity, typed contracts), which license",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [],
+      "pool": "graphics",
+      "authors": null,
+      "repo_lang": null,
+      "repo_stars": null,
+      "score": 30,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "一手源",
+          "value": 18
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null
+    }
+  ],
+  "repos": [
+    {
+      "key": "f7d5d05b39a20864",
+      "title": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "GitHub Trending"
+      ],
+      "published": "2026-10-05T06:01:28.209549+00:00",
+      "undated": false,
+      "summary_raw": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 1894,
+        "rank_bonus": 0.0
+      },
+      "members": [],
+      "pool": "repo",
+      "authors": null,
+      "repo_lang": "JavaScript",
+      "repo_stars": 155149,
+      "score": 45.1,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "一手源",
+          "value": 18
+        },
+        {
+          "label": "+1894★/日",
+          "value": 15.1
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "416b878fd05df40d",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "GitHub Trending"
+      ],
+      "published": "2026-10-05T06:01:28.209549+00:00",
+      "undated": false,
+      "summary_raw": "The design language that makes your AI harness better at design.",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 1171,
+        "rank_bonus": 0.0
+      },
+      "members": [],
+      "pool": "repo",
+      "authors": null,
+      "repo_lang": "JavaScript",
+      "repo_stars": 76479,
+      "score": 44.1,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "一手源",
+          "value": 18
+        },
+        {
+          "label": "+1171★/日",
+          "value": 14.1
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "05c61659abf00e42",
+      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "GitHub Trending"
+      ],
+      "published": "2026-10-05T06:01:28.209549+00:00",
+      "undated": false,
+      "summary_raw": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 980,
+        "rank_bonus": 0.0
+      },
+      "members": [],
+      "pool": "repo",
+      "authors": null,
+      "repo_lang": "Python",
+      "repo_stars": 91132,
+      "score": 43.8,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "一手源",
+          "value": 18
+        },
+        {
+          "label": "+980★/日",
+          "value": 13.8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    }
+  ],
+  "diverse": [
+    {
+      "key": "848ece6180c6890c",
+      "title": "The world is facing an almighty LNG crunch",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/04/the-world-is-facing-an-almighty-lng-crunch",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "The Economist"
+      ],
+      "published": "2026-10-04T17:11:12+00:00",
+      "undated": false,
+      "summary_raw": "In time it could bring about an equally disruptive glut",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [],
+      "pool": "diverse",
+      "authors": null,
+      "repo_lang": null,
+      "repo_stars": null,
+      "score": 20,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
       "followup": null,
       "title_cn": ""
     }
   ],
   "brief": [
     {
-      "key": "be9cec8aa2d1a42b",
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-      "hn_url": "https://news.ycombinator.com/item?id=49929391",
+      "key": "07729f06632683ce",
+      "title": "We’re using Unreal Engine to turn our book series into an animated series. What we consider our Big Bang, and start, was actually the cataclysmic end to a war in The Old Universe!!!",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wx362f/were_using_unreal_engine_to_turn_our_book_series/",
+      "hn_url": null,
       "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
+      "tier": 3,
+      "tier_weight": 2,
       "coverage": 1,
       "sources": [
-        "Hacker News"
+        "r/unrealengine"
       ],
-      "published": "2026-10-02T02:51:27Z",
+      "published": "2026-10-04T01:19:03+00:00",
       "undated": false,
-      "summary_raw": "",
+      "summary_raw": "We’re using Unreal Engine to turn our book series into an animated series. What we consider our Big Bang, and start, was actually the cataclysmic end to a war in The Old Universe!!!",
       "signals": {
-        "hn_points": 328,
-        "hn_comments": 118,
+        "hn_points": 0,
+        "hn_comments": 0,
         "hf_upvotes": 0,
         "stars_today": 0,
-        "rank_bonus": 0.0
+        "rank_bonus": 2.4
       },
       "members": [
         {
-          "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-          "source": "Hacker News"
+          "title": "We’re using Unreal Engine to turn our book series into an animated series. What we consider our Big Bang, and start, was actually the cataclysmic end to a war in The Old Universe!!!",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wx362f/were_using_unreal_engine_to_turn_our_book_series/",
+          "source": "r/unrealengine"
         }
       ],
       "pool": "main",
-      "score": 39.6,
+      "score": 6.4,
       "score_parts": [
         {
           "label": "单源",
           "value": 12
         },
         {
-          "label": "分析源",
-          "value": 8
+          "label": "聚合源",
+          "value": 2
         },
         {
-          "label": "HN 328",
-          "value": 11.6
+          "label": "社区置顶",
+          "value": 2.4
         },
         {
-          "label": "HN 头条",
-          "value": 8
+          "label": "命中「unreal engine」",
+          "value": 20
+        },
+        {
+          "label": "已报过",
+          "value": -30
         }
       ],
-      "relevant_hits": [],
-      "is_relevant": false,
+      "relevant_hits": [
+        "unreal engine",
+        "unreal"
+      ],
+      "is_relevant": true,
       "is_combat": false,
-      "followup": null,
-      "section": "lead",
+      "followup": {
+        "title": "We’re using Unreal Engine to turn our book series into an animated series. What we consider our Big Bang, and start, was actually the cataclysmic end to a war in The Old Universe!!!",
+        "first_seen": "2026-10-04",
+        "times": 1,
+        "last_seen": "2026-10-04"
+      },
+      "section": "relevant",
       "body": "",
       "has_body": false,
-      "degraded": "no_content",
-      "title_cn": ""
-    },
-    {
-      "key": "def91008bb6c752c",
-      "title": "One month coding with GLM 5.3 Flash",
-      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
-      "hn_url": "https://news.ycombinator.com/item?id=49934620",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-02T15:29:15Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 222,
-        "hn_comments": 179,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "One month coding with GLM 5.3 Flash",
-          "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 30.8,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 222",
-          "value": 10.8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "987377c28b128365",
-      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
-      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-      "hn_url": "https://news.ycombinator.com/item?id=49946895",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-03T19:14:48Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 211,
-        "hn_comments": 25,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
-          "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 30.7,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 211",
-          "value": 10.7
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
+      "degraded": "quality",
       "title_cn": ""
     },
     {
@@ -1178,8 +1040,8 @@
       "undated": false,
       "summary_raw": "",
       "signals": {
-        "hn_points": 202,
-        "hn_comments": 139,
+        "hn_points": 233,
+        "hn_comments": 157,
         "hf_upvotes": 0,
         "stars_today": 0,
         "rank_bonus": 0.0
@@ -1192,7 +1054,7 @@
         }
       ],
       "pool": "main",
-      "score": 30.6,
+      "score": 30.9,
       "score_parts": [
         {
           "label": "单源",
@@ -1203,8 +1065,8 @@
           "value": 8
         },
         {
-          "label": "HN 202",
-          "value": 10.6
+          "label": "HN 233",
+          "value": 10.9
         }
       ],
       "relevant_hits": [],
@@ -1214,10 +1076,10 @@
       "title_cn": ""
     },
     {
-      "key": "87acbedcf2b3f8e2",
-      "title": "Cloudflare OHTTP gateway",
-      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-      "hn_url": "https://news.ycombinator.com/item?id=49941091",
+      "key": "def91008bb6c752c",
+      "title": "One month coding with GLM 5.3 Flash",
+      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+      "hn_url": "https://news.ycombinator.com/item?id=49934620",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -1225,25 +1087,25 @@
       "sources": [
         "Hacker News"
       ],
-      "published": "2026-10-03T03:15:05Z",
+      "published": "2026-10-02T15:29:15Z",
       "undated": false,
       "summary_raw": "",
       "signals": {
-        "hn_points": 191,
-        "hn_comments": 91,
+        "hn_points": 228,
+        "hn_comments": 180,
         "hf_upvotes": 0,
         "stars_today": 0,
         "rank_bonus": 0.0
       },
       "members": [
         {
-          "title": "Cloudflare OHTTP gateway",
-          "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+          "title": "One month coding with GLM 5.3 Flash",
+          "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
           "source": "Hacker News"
         }
       ],
       "pool": "main",
-      "score": 30.5,
+      "score": 30.9,
       "score_parts": [
         {
           "label": "单源",
@@ -1254,8 +1116,8 @@
           "value": 8
         },
         {
-          "label": "HN 191",
-          "value": 10.5
+          "label": "HN 228",
+          "value": 10.9
         }
       ],
       "relevant_hits": [],
@@ -1265,10 +1127,10 @@
       "title_cn": ""
     },
     {
-      "key": "ade9c0e6fd34df58",
-      "title": "FTL: A new operating system for clouds",
-      "url": "https://ftl-os.org/",
-      "hn_url": "https://news.ycombinator.com/item?id=49944912",
+      "key": "371889fc9dee2180",
+      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+      "hn_url": "https://news.ycombinator.com/item?id=49959869",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -1276,20 +1138,20 @@
       "sources": [
         "Hacker News"
       ],
-      "published": "2026-10-03T15:02:36Z",
+      "published": "2026-10-05T01:54:08Z",
       "undated": false,
       "summary_raw": "",
       "signals": {
         "hn_points": 163,
-        "hn_comments": 65,
+        "hn_comments": 95,
         "hf_upvotes": 0,
         "stars_today": 0,
         "rank_bonus": 0.0
       },
       "members": [
         {
-          "title": "FTL: A new operating system for clouds",
-          "url": "https://ftl-os.org/",
+          "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+          "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
           "source": "Hacker News"
         }
       ],
@@ -1307,6 +1169,108 @@
         {
           "label": "HN 163",
           "value": 10.2
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "f69be0123dde1159",
+      "title": "Religious scholars met with Anthropic",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "hn_url": "https://news.ycombinator.com/item?id=49950052",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "Hacker News"
+      ],
+      "published": "2026-10-04T02:34:22Z",
+      "undated": false,
+      "summary_raw": "",
+      "signals": {
+        "hn_points": 159,
+        "hn_comments": 409,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Religious scholars met with Anthropic",
+          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+          "source": "Hacker News"
+        }
+      ],
+      "pool": "main",
+      "score": 30.2,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        },
+        {
+          "label": "HN 159",
+          "value": 10.2
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "f8a873e1754f6008",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "hn_url": "https://news.ycombinator.com/item?id=49937916",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "Hacker News"
+      ],
+      "published": "2026-10-02T20:00:15Z",
+      "undated": false,
+      "summary_raw": "",
+      "signals": {
+        "hn_points": 154,
+        "hn_comments": 50,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Show HN: Made an open-source Lego AI generator",
+          "url": "https://github.com/anteloc/ldraw-nova",
+          "source": "Hacker News"
+        }
+      ],
+      "pool": "main",
+      "score": 30.1,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        },
+        {
+          "label": "HN 154",
+          "value": 10.1
         }
       ],
       "relevant_hits": [],
@@ -1354,57 +1318,6 @@
         {
           "label": "一手源",
           "value": 18
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "f8a873e1754f6008",
-      "title": "Show HN: Made an open-source Lego AI generator",
-      "url": "https://github.com/anteloc/ldraw-nova",
-      "hn_url": "https://news.ycombinator.com/item?id=49937916",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-02T20:00:15Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 145,
-        "hn_comments": 49,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Show HN: Made an open-source Lego AI generator",
-          "url": "https://github.com/anteloc/ldraw-nova",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 30.0,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 145",
-          "value": 10.0
         }
       ],
       "relevant_hits": [],
@@ -1555,339 +1468,10 @@
       "title_cn": ""
     },
     {
-      "key": "233d53b331a6f96f",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "HuggingFace Blog"
-      ],
-      "published": "2026-10-02T04:01:31+00:00",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-          "source": "HuggingFace Blog"
-        }
-      ],
-      "pool": "main",
-      "score": 30,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "b16075432c723908",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "OpenAI"
-      ],
-      "published": "2026-10-02T00:00:00+00:00",
-      "undated": false,
-      "summary_raw": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Chatham scales its capital markets expertise with OpenAI",
-          "url": "https://openai.com/index/chatham-financial",
-          "source": "OpenAI"
-        }
-      ],
-      "pool": "main",
-      "score": 30,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "188493e27a69a62c",
-      "title": "From attention to action: why the state of play matters for marketers",
-      "url": "https://unity.com/blog/mobile-gaming-attention-economy-driving-marketing-performance",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "Unity"
-      ],
-      "published": "2026-10-02T00:00:00+00:00",
-      "undated": false,
-      "summary_raw": "In a fragmented media landscape, the state of play matters. Learn how mobile gaming captures high-quality attention to drive measurable marketing action",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "From attention to action: why the state of play matters for marketers",
-          "url": "https://unity.com/blog/mobile-gaming-attention-economy-driving-marketing-performance",
-          "source": "Unity"
-        }
-      ],
-      "pool": "main",
-      "score": 30,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "4ae95175fb408843",
-      "title": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
-      "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "NVIDIA Developer"
-      ],
-      "published": "2026-10-01T18:13:29+00:00",
-      "undated": false,
-      "summary_raw": "AI agents are becoming a standard part of development workflows, but general-purpose agents weren't built with specialized infrastructure software such as...",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
-          "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
-          "source": "NVIDIA Developer"
-        }
-      ],
-      "pool": "main",
-      "score": 30,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "09f92a51621443a8",
-      "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
-      "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "NVIDIA Developer"
-      ],
-      "published": "2026-10-01T17:59:27+00:00",
-      "undated": false,
-      "summary_raw": "Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now...",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
-          "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
-          "source": "NVIDIA Developer"
-        }
-      ],
-      "pool": "main",
-      "score": 30,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "2858c91264bb2fd7",
-      "title": "The eternal complement",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "OpenAI"
-      ],
-      "published": "2026-10-01T17:00:00+00:00",
-      "undated": false,
-      "summary_raw": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "The eternal complement",
-          "url": "https://openai.com/index/the-eternal-complement",
-          "source": "OpenAI"
-        }
-      ],
-      "pool": "main",
-      "score": 30,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "40e308bdc50eb350",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
-      "coverage": 1,
-      "sources": [
-        "OpenAI"
-      ],
-      "published": "2026-10-01T16:00:00+00:00",
-      "undated": false,
-      "summary_raw": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "How Albertsons Companies is reimagining retail from the inside out",
-          "url": "https://openai.com/index/albertsons-reimagining-retail",
-          "source": "OpenAI"
-        }
-      ],
-      "pool": "main",
-      "score": 30,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "一手源",
-          "value": 18
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "e91e483dc0da1b2e",
-      "title": "City building games have a Soul Problem pt.2",
-      "url": "https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2",
-      "hn_url": "https://news.ycombinator.com/item?id=49945323",
+      "key": "2bcdf33327c51d4d",
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "url": "https://pipod.dev/",
+      "hn_url": "https://news.ycombinator.com/item?id=49937304",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -1895,71 +1479,20 @@
       "sources": [
         "Hacker News"
       ],
-      "published": "2026-10-03T15:52:07Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 129,
-        "hn_comments": 125,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "City building games have a Soul Problem pt.2",
-          "url": "https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 29.7,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 129",
-          "value": 9.7
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "9406a928c5ef7645",
-      "title": "We want you to build the next Git platform on Cloudflare",
-      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-      "hn_url": "https://news.ycombinator.com/item?id=49947051",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-03T19:33:16Z",
+      "published": "2026-10-02T19:10:38Z",
       "undated": false,
       "summary_raw": "",
       "signals": {
         "hn_points": 114,
-        "hn_comments": 107,
+        "hn_comments": 47,
         "hf_upvotes": 0,
         "stars_today": 0,
         "rank_bonus": 0.0
       },
       "members": [
         {
-          "title": "We want you to build the next Git platform on Cloudflare",
-          "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+          "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+          "url": "https://pipod.dev/",
           "source": "Hacker News"
         }
       ],
@@ -1986,10 +1519,10 @@
       "title_cn": ""
     },
     {
-      "key": "ced1f8f0ec0bd78e",
-      "title": "Show HN: Pyxel – A Python retro game engine with built-in art and sound editors",
-      "url": "https://github.com/kitao/pyxel",
-      "hn_url": "https://news.ycombinator.com/item?id=49928215",
+      "key": "582866569a58e322",
+      "title": "Show HN: Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
+      "url": "https://thoreaubasic.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=49942103",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -1997,20 +1530,20 @@
       "sources": [
         "Hacker News"
       ],
-      "published": "2026-10-01T23:26:35Z",
+      "published": "2026-10-03T07:28:54Z",
       "undated": false,
       "summary_raw": "",
       "signals": {
-        "hn_points": 95,
-        "hn_comments": 8,
+        "hn_points": 92,
+        "hn_comments": 53,
         "hf_upvotes": 0,
         "stars_today": 0,
         "rank_bonus": 0.0
       },
       "members": [
         {
-          "title": "Show HN: Pyxel – A Python retro game engine with built-in art and sound editors",
-          "url": "https://github.com/kitao/pyxel",
+          "title": "Show HN: Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
+          "url": "https://thoreaubasic.com/",
           "source": "Hacker News"
         }
       ],
@@ -2026,7 +1559,7 @@
           "value": 8
         },
         {
-          "label": "HN 95",
+          "label": "HN 92",
           "value": 9.1
         }
       ],
@@ -2037,10 +1570,10 @@
       "title_cn": ""
     },
     {
-      "key": "2bcdf33327c51d4d",
-      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-      "url": "https://pipod.dev/",
-      "hn_url": "https://news.ycombinator.com/item?id=49937304",
+      "key": "37b0f61856b66238",
+      "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
+      "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
+      "hn_url": "https://news.ycombinator.com/item?id=49931993",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -2048,20 +1581,20 @@
       "sources": [
         "Hacker News"
       ],
-      "published": "2026-10-02T19:10:38Z",
+      "published": "2026-10-02T10:40:31Z",
       "undated": false,
       "summary_raw": "",
       "signals": {
-        "hn_points": 87,
-        "hn_comments": 32,
+        "hn_points": 90,
+        "hn_comments": 29,
         "hf_upvotes": 0,
         "stars_today": 0,
         "rank_bonus": 0.0
       },
       "members": [
         {
-          "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-          "url": "https://pipod.dev/",
+          "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
+          "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
           "source": "Hacker News"
         }
       ],
@@ -2077,58 +1610,7 @@
           "value": 8
         },
         {
-          "label": "HN 87",
-          "value": 9.0
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "309aa5cd689045ec",
-      "title": "Blogging with Gleam, Org-Mode and Pandoc",
-      "url": "https://byzantine-systems.github.io/blogging-with-gleam-org-mode-and-pandoc/",
-      "hn_url": "https://news.ycombinator.com/item?id=49932340",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-02T11:34:28Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 91,
-        "hn_comments": 19,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Blogging with Gleam, Org-Mode and Pandoc",
-          "url": "https://byzantine-systems.github.io/blogging-with-gleam-org-mode-and-pandoc/",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 29.0,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 91",
+          "label": "HN 90",
           "value": 9.0
         }
       ],
@@ -2154,8 +1636,8 @@
       "undated": false,
       "summary_raw": "",
       "signals": {
-        "hn_points": 79,
-        "hn_comments": 75,
+        "hn_points": 80,
+        "hn_comments": 76,
         "hf_upvotes": 0,
         "stars_today": 0,
         "rank_bonus": 0.0
@@ -2179,8 +1661,59 @@
           "value": 8
         },
         {
-          "label": "HN 79",
+          "label": "HN 80",
           "value": 8.8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "dd29a0560b7b3ee8",
+      "title": "Show HN: Offrun – manage every coding agent from one workspace",
+      "url": "https://offrun.dev/",
+      "hn_url": "https://news.ycombinator.com/item?id=49942434",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "Hacker News"
+      ],
+      "published": "2026-10-03T08:40:17Z",
+      "undated": false,
+      "summary_raw": "",
+      "signals": {
+        "hn_points": 76,
+        "hn_comments": 64,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Show HN: Offrun – manage every coding agent from one workspace",
+          "url": "https://offrun.dev/",
+          "source": "Hacker News"
+        }
+      ],
+      "pool": "main",
+      "score": 28.7,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        },
+        {
+          "label": "HN 76",
+          "value": 8.7
         }
       ],
       "relevant_hits": [],
@@ -2256,7 +1789,7 @@
       "undated": false,
       "summary_raw": "",
       "signals": {
-        "hn_points": 75,
+        "hn_points": 76,
         "hn_comments": 59,
         "hf_upvotes": 0,
         "stars_today": 0,
@@ -2281,7 +1814,7 @@
           "value": 8
         },
         {
-          "label": "HN 75",
+          "label": "HN 76",
           "value": 8.7
         }
       ],
@@ -2292,213 +1825,9 @@
       "title_cn": ""
     },
     {
-      "key": "fa0256e14080a094",
-      "title": "GitHub's new dashboard experience now the default",
-      "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
-      "hn_url": "https://news.ycombinator.com/item?id=49942818",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-03T09:59:01Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 73,
-        "hn_comments": 89,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "GitHub's new dashboard experience now the default",
-          "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 28.6,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 73",
-          "value": 8.6
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "dd29a0560b7b3ee8",
-      "title": "Show HN: Offrun – manage every coding agent from one workspace",
-      "url": "https://offrun.dev/",
-      "hn_url": "https://news.ycombinator.com/item?id=49942434",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-03T08:40:17Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 74,
-        "hn_comments": 61,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Show HN: Offrun – manage every coding agent from one workspace",
-          "url": "https://offrun.dev/",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 28.6,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 74",
-          "value": 8.6
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "37b0f61856b66238",
-      "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
-      "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
-      "hn_url": "https://news.ycombinator.com/item?id=49931993",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-02T10:40:31Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 74,
-        "hn_comments": 28,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
-          "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 28.6,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 74",
-          "value": 8.6
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "0b91ceec75b9b16d",
-      "title": "Show HN: Rhun, an open-source code editor written in assembly",
-      "url": "https://rhun.app/",
-      "hn_url": "https://news.ycombinator.com/item?id=49926726",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Hacker News"
-      ],
-      "published": "2026-10-01T20:32:18Z",
-      "undated": false,
-      "summary_raw": "",
-      "signals": {
-        "hn_points": 62,
-        "hn_comments": 49,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Show HN: Rhun, an open-source code editor written in assembly",
-          "url": "https://rhun.app/",
-          "source": "Hacker News"
-        }
-      ],
-      "pool": "main",
-      "score": 28.3,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        },
-        {
-          "label": "HN 62",
-          "value": 8.3
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "a8dd8b2bf1ba731e",
-      "title": "No longer have access to Megascans?",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wwvidy/no_longer_have_access_to_megascans/",
+      "key": "1af77b53f234f5d9",
+      "title": "Easy Waterscape or Waterline Pro?",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wxobm3/easy_waterscape_or_waterline_pro/",
       "hn_url": null,
       "lang": "en",
       "tier": 3,
@@ -2507,9 +1836,9 @@
       "sources": [
         "r/unrealengine"
       ],
-      "published": "2026-10-03T19:19:24+00:00",
+      "published": "2026-10-04T19:30:46+00:00",
       "undated": false,
-      "summary_raw": "I did claim them all, and even used them recently a few months ago. Today when I browse them on fab, all of them cost money, when I visit the old https://quixel.com/megascans/ I still have access to all of them but obviously can't download them. Did UE5 remove them recently?",
+      "summary_raw": "Hi guys! Which one do you prefer for bringing water to your scenes, and why? (Alternatives at a similar prices)",
       "signals": {
         "hn_points": 0,
         "hn_comments": 0,
@@ -2519,8 +1848,8 @@
       },
       "members": [
         {
-          "title": "No longer have access to Megascans?",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wwvidy/no_longer_have_access_to_megascans/",
+          "title": "Easy Waterscape or Waterline Pro?",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wxobm3/easy_waterscape_or_waterline_pro/",
           "source": "r/unrealengine"
         }
       ],
@@ -2653,9 +1982,9 @@
       "title_cn": ""
     },
     {
-      "key": "0817f31d9a1f83ea",
-      "title": "Fake Volumetric Clouds Using WPO and Pixel Depth Offset",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wwieq8/fake_volumetric_clouds_using_wpo_and_pixel_depth/",
+      "key": "bc0ce1ed0bfb4ffd",
+      "title": "Height Map?",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wxnd7p/height_map/",
       "hn_url": null,
       "lang": "en",
       "tier": 3,
@@ -2664,25 +1993,25 @@
       "sources": [
         "r/unrealengine"
       ],
-      "published": "2026-10-03T08:51:34+00:00",
+      "published": "2026-10-04T18:52:11+00:00",
       "undated": false,
-      "summary_raw": "Fake volumetric cloud effects created using WPO and pixel depth offset, along with cloud fade in/out height using camera position.",
+      "summary_raw": "Hey; trying to render an object and I am applying my textures from substance painter; I desperately need my height map to make my textures pop but I can’t for the life of me figure out where to plug it in at! Any help would be much appreciated!!",
       "signals": {
         "hn_points": 0,
         "hn_comments": 0,
         "hf_upvotes": 0,
         "stars_today": 0,
-        "rank_bonus": 10.799999999999999
+        "rank_bonus": 9.6
       },
       "members": [
         {
-          "title": "Fake Volumetric Clouds Using WPO and Pixel Depth Offset",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wwieq8/fake_volumetric_clouds_using_wpo_and_pixel_depth/",
+          "title": "Height Map?",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wxnd7p/height_map/",
           "source": "r/unrealengine"
         }
       ],
       "pool": "main",
-      "score": 24.8,
+      "score": 23.6,
       "score_parts": [
         {
           "label": "单源",
@@ -2694,7 +2023,7 @@
         },
         {
           "label": "社区置顶",
-          "value": 10.8
+          "value": 9.6
         }
       ],
       "relevant_hits": [],
@@ -2704,9 +2033,9 @@
       "title_cn": ""
     },
     {
-      "key": "325739bc4fee097f",
-      "title": "How do I clean my project of VS code files? huge project size",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wwzuhs/how_do_i_clean_my_project_of_vs_code_files_huge/",
+      "key": "eb7af048370d970f",
+      "title": "Can't modify Class variable in blueprint",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wxctyq/cant_modify_class_variable_in_blueprint/",
       "hn_url": null,
       "lang": "en",
       "tier": 3,
@@ -2715,9 +2044,60 @@
       "sources": [
         "r/unrealengine"
       ],
-      "published": "2026-10-03T22:30:13+00:00",
+      "published": "2026-10-04T10:53:46+00:00",
       "undated": false,
-      "summary_raw": "hi - my vs folder is like ~6.61 GB Mostly taken up by Browse.VC.db and the ipch/ directory. how do I like, clean my unreal project folder?",
+      "summary_raw": "I'm currently following a tutorial on Youtube about making a weapon system, and I'm currently trying to modify the class reference to its child blueprints. But for some reason, every time I go to change them, its stuck on none. I made a timestamp on the video. On my end, inside the Data asset, when I try to change the class reference it stays stuck on None. Is there a fix to this? Please help.",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 8.4
+      },
+      "members": [
+        {
+          "title": "Can't modify Class variable in blueprint",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wxctyq/cant_modify_class_variable_in_blueprint/",
+          "source": "r/unrealengine"
+        }
+      ],
+      "pool": "main",
+      "score": 22.4,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        },
+        {
+          "label": "社区置顶",
+          "value": 8.4
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "733d9a4216aa4cf3",
+      "title": "[UE4.27] Hardware mouse cursor keeps reappearing when an EditableTextBox gets keyboard focus inside a 3D WidgetComponent — nothing I try actually suppresses it",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wxchfr/ue427_hardware_mouse_cursor_keeps_reappearing/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "r/unrealengine"
+      ],
+      "published": "2026-10-04T10:32:12+00:00",
+      "undated": false,
+      "summary_raw": "SETUP: I made an interactive in-world \"computer\" (monitor) built entirely in UMG, rendered via a 3D WidgetComponenton an Actor. Input is driven by a Widget Interaction Component (WIC) on the player character — I don't use bReceiveHardwareInput on the WidgetComponent (that breaks dragging windows, see below), I use a WIC ray trace instead. I draw my own virtual cursor (a UMG Image) that follows the WIC's hit location every 0.02s via a looping timer (RefreshMouse). This works perfectly for buttons, dragging draggable windows, clicking menus, etc. bShowMouseCursor is False and Input Mode is Game ",
       "signals": {
         "hn_points": 0,
         "hn_comments": 0,
@@ -2727,8 +2107,8 @@
       },
       "members": [
         {
-          "title": "How do I clean my project of VS code files? huge project size",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wwzuhs/how_do_i_clean_my_project_of_vs_code_files_huge/",
+          "title": "[UE4.27] Hardware mouse cursor keeps reappearing when an EditableTextBox gets keyboard focus inside a 3D WidgetComponent — nothing I try actually suppresses it",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wxchfr/ue427_hardware_mouse_cursor_keeps_reappearing/",
           "source": "r/unrealengine"
         }
       ],
@@ -3084,6 +2464,53 @@
       "title_cn": ""
     },
     {
+      "key": "5262cf8b3482df6b",
+      "title": "London Games Festival",
+      "url": "https://www.gamedeveloper.comgames.london",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "Game Developer"
+      ],
+      "published": "2027-04-12T07:00:00+00:00",
+      "undated": false,
+      "summary_raw": "",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "London Games Festival",
+          "url": "https://www.gamedeveloper.comgames.london",
+          "source": "Game Developer"
+        }
+      ],
+      "pool": "main",
+      "score": 20,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
       "key": "d57b6bfd4ceda0a8",
       "title": "The Game Awards",
       "url": "https://www.gamedeveloper.comthegameawards.com",
@@ -3223,6 +2650,332 @@
       "is_combat": false,
       "followup": null,
       "title_cn": ""
+    },
+    {
+      "key": "13ec9fa7e577a48d",
+      "title": "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
+      "url": "https://www.marktechpost.com/2026/10/04/the-story-of-qwen-alibabas-ai-models-from-7b-to-2-4t/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "MarkTechPost"
+      ],
+      "published": "2026-10-05T04:10:34+00:00",
+      "undated": false,
+      "summary_raw": "Alibaba's Qwen went from an invite-only chatbot in April 2023 to a 2.4-trillion-parameter open-weight model in August 2026. This is the full story, release by release: every major model, its key feature, and how its license changed. Each claim links to its source. The post The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T appeared first on MarkTechPost .",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
+          "url": "https://www.marktechpost.com/2026/10/04/the-story-of-qwen-alibabas-ai-models-from-7b-to-2-4t/",
+          "source": "MarkTechPost"
+        }
+      ],
+      "pool": "main",
+      "score": 20,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "967e41ca444dd8dc",
+      "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
+      "url": "https://www.qbitai.com/2026/10/501700.html",
+      "hn_url": null,
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "量子位"
+      ],
+      "published": "2026-10-05T02:50:46+00:00",
+      "undated": false,
+      "summary_raw": "有改进就体验，没改进就重置，横竖不亏。",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
+          "url": "https://www.qbitai.com/2026/10/501700.html",
+          "source": "量子位"
+        }
+      ],
+      "pool": "main",
+      "score": 20,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null
+    },
+    {
+      "key": "46d071cdffadae31",
+      "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
+      "url": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "MarkTechPost"
+      ],
+      "published": "2026-10-05T01:47:28+00:00",
+      "undated": false,
+      "summary_raw": "Cantina Security, with Yeta Labs, has released apex-flash-1, an open-weights model trained specifically for vulnerability research. It is a reinforcement learning fine-tune of Z.ai’s GLM-5.3-Flash, released on Hugging Face under the MIT license. Is it deployable? Yes, the MIT weights serve on vLLM, SGLang or Transformers, but BF16 needs roughly 640 GB of GPU memory. […] The post Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks appeared first on MarkTechPost .",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
+          "url": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
+          "source": "MarkTechPost"
+        }
+      ],
+      "pool": "main",
+      "score": 20,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "c6108f0d750cdef9",
+      "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
+      "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "MarkTechPost"
+      ],
+      "published": "2026-10-04T20:59:56+00:00",
+      "undated": false,
+      "summary_raw": "Astra leads computer use, Argon leads legal and finance work, and Sol wins on price for coding agents. The post GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job appeared first on MarkTechPost .",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
+          "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
+          "source": "MarkTechPost"
+        }
+      ],
+      "pool": "main",
+      "score": 20,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "ee4095253ef24dca",
+      "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
+      "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "MarkTechPost"
+      ],
+      "published": "2026-10-04T07:29:59+00:00",
+      "undated": false,
+      "summary_raw": "Google Research has unveiled a federated learning system that moves gradient computation from phones into attested server-side TEEs. Access policies are published to Sigstore's Rekor log and the binaries are reproducibly buildable, so central differential privacy can be checked externally. Gboard already uses it for English and Japanese next-word prediction. The post Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy appeared first on MarkTechPost .",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
+          "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
+          "source": "MarkTechPost"
+        }
+      ],
+      "pool": "main",
+      "score": 20,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "6989cdf3a8875f04",
+      "title": "AI算力硬合作，马斯克还是更相信中国制造",
+      "url": "https://www.qbitai.com/2026/10/501605.html",
+      "hn_url": null,
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "量子位"
+      ],
+      "published": "2026-10-04T06:12:22+00:00",
+      "undated": false,
+      "summary_raw": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "AI算力硬合作，马斯克还是更相信中国制造",
+          "url": "https://www.qbitai.com/2026/10/501605.html",
+          "source": "量子位"
+        }
+      ],
+      "pool": "main",
+      "score": 20,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null
+    },
+    {
+      "key": "a405363d22395c48",
+      "title": "最火AI岗位FDE：月薪5万，都干这些…",
+      "url": "https://www.qbitai.com/2026/10/501506.html",
+      "hn_url": null,
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "量子位"
+      ],
+      "published": "2026-10-04T06:05:35+00:00",
+      "undated": false,
+      "summary_raw": "什么是FDE？它会一直存在吗？",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "最火AI岗位FDE：月薪5万，都干这些…",
+          "url": "https://www.qbitai.com/2026/10/501506.html",
+          "source": "量子位"
+        }
+      ],
+      "pool": "main",
+      "score": 20,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null
     },
     {
       "key": "266988ac760bd8d5",
@@ -3403,6 +3156,57 @@
         {
           "label": "分析源",
           "value": 8
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "a8dd8b2bf1ba731e",
+      "title": "No longer have access to Megascans?",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wwvidy/no_longer_have_access_to_megascans/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "r/unrealengine"
+      ],
+      "published": "2026-10-03T19:19:24+00:00",
+      "undated": false,
+      "summary_raw": "I did claim them all, and even used them recently a few months ago. Today when I browse them on fab, all of them cost money, when I visit the old https://quixel.com/megascans/ I still have access to all of them but obviously can't download them. Did UE5 remove them recently? Fixed it: So the issue was \"Show products in My Library\" was off when I clicked on the quixel on my library. It would take me to the store and having that filter off would not show my owned assets. .",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 6.0
+      },
+      "members": [
+        {
+          "title": "No longer have access to Megascans?",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wwvidy/no_longer_have_access_to_megascans/",
+          "source": "r/unrealengine"
+        }
+      ],
+      "pool": "main",
+      "score": 20.0,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        },
+        {
+          "label": "社区置顶",
+          "value": 6.0
         }
       ],
       "relevant_hits": [],
@@ -3693,53 +3497,6 @@
       "title_cn": ""
     },
     {
-      "key": "2f58d051d5d74aaa",
-      "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
-      "url": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "MarkTechPost"
-      ],
-      "published": "2026-10-03T05:09:53+00:00",
-      "undated": false,
-      "summary_raw": "Microsoft AI has released MAI-Transcribe-2-Streaming, its first real-time speech-to-text model. It ranks #1 of 38 models on Artificial Analysis AA-WER Streaming. It scores 2.5% WER at 0.13s on final transcripts and 2.5% at 0.12s on first partials. It covers 60 languages with continuous language detection and costs $0.54 per hour during the introductory period. It is available now in public preview on Microsoft Foundry. The post Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis appeared first on MarkTechPost .",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
-          "url": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
-          "source": "MarkTechPost"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
       "key": "6820f5e3f481a795",
       "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
       "url": "https://www.qbitai.com/2026/10/501368.html",
@@ -3784,53 +3541,6 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null
-    },
-    {
-      "key": "93e6f4ebe0d4a0f8",
-      "title": "Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide and Open-Source Competitors",
-      "url": "https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "MarkTechPost"
-      ],
-      "published": "2026-10-03T03:31:15+00:00",
-      "undated": false,
-      "summary_raw": "Decision AI models answer typed questions with calibrated probabilities instead of generated text. TypeSafe's Jev costs $0.042 per million input tokens and returns responses in 70 to 500 milliseconds. We break down how it works and its benchmarks, then compare it with Fastino's GLiDE, GLiNER2.5-Decide and 4 open-source rivals. The post Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide and Open-Source Competitors appeared first on MarkTechPost .",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide and Open-Source Competitors",
-          "url": "https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/",
-          "source": "MarkTechPost"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
     },
     {
       "key": "e854502df8eba0b9",
@@ -4067,53 +3777,6 @@
       "title_cn": ""
     },
     {
-      "key": "0fee887a3c36ea7d",
-      "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
-      "url": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "MarkTechPost"
-      ],
-      "published": "2026-10-02T18:04:56+00:00",
-      "undated": false,
-      "summary_raw": "NVIDIA announced a new 64GB configuration of DGX Spark — from Acer, ASUS, Dell, Gigabyte, HP and MSI — its GB10-powered desktop AI system. It gives developers a way to start with one system for local models and agents, then cluster two 64GB units for 128GB of memory across the cluster and more compute when […] The post NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference appeared first on MarkTechPost .",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
-          "url": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
-          "source": "MarkTechPost"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
       "key": "b806382d3fdda7df",
       "title": "Recreating Armenia's Natural Monument Made up of Basalt Columns in 3D",
       "url": "https://80.lv/articles/recreating-armenia-s-natural-monument-made-up-of-basalt-columns-in-3d/",
@@ -4234,53 +3897,6 @@
           "title": "Grand Theft Auto 6: What We Know about Rockstar's Anticipated Game",
           "url": "https://80.lv/articles/grand-theft-auto-6-what-we-know-about-rockstar-s-anticipated-game/",
           "source": "80.lv"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "a6fea931cafb3477",
-      "title": "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks",
-      "url": "https://www.marktechpost.com/2026/10/02/datalab-introduces-omniextractbench-to-fix-bias-and-opacity-in-extraction-benchmarks/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "MarkTechPost"
-      ],
-      "published": "2026-10-02T15:23:35+00:00",
-      "undated": false,
-      "summary_raw": "Content-based row matching, 6 per-value verdicts and a null rule make OmniExtractBench an extraction benchmark anyone can audit. The post Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks appeared first on MarkTechPost .",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks",
-          "url": "https://www.marktechpost.com/2026/10/02/datalab-introduces-omniextractbench-to-fix-bias-and-opacity-in-extraction-benchmarks/",
-          "source": "MarkTechPost"
         }
       ],
       "pool": "main",
@@ -4775,524 +4391,9 @@
       "followup": null
     },
     {
-      "key": "7e565349073af231",
-      "title": "AWS Strands Labs Releases Strands Decider 2B: An Open Source Decision Model That Picks Options in About 115 ms",
-      "url": "https://www.marktechpost.com/2026/10/01/aws-strands-labs-releases-strands-decider-2b/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "MarkTechPost"
-      ],
-      "published": "2026-10-02T06:35:00+00:00",
-      "undated": false,
-      "summary_raw": "AWS's Strands Agents team released Strands Decider 2B, an Apache-2.0 decision model built on Qwen3.5-2B-Base. It returns choices, yes/no probabilities and scores with calibrated confidence in one forward pass, never text. It runs at a 115 ms median on an RTX 3090 and scores 0.723 on the JevBench public set, which makes it a fast local option for routing, tool selection and guardrails in AI agents. The post AWS Strands Labs Releases Strands Decider 2B: An Open Source Decision Model That Picks Options in About 115 ms appeared first on MarkTechPost .",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "AWS Strands Labs Releases Strands Decider 2B: An Open Source Decision Model That Picks Options in About 115 ms",
-          "url": "https://www.marktechpost.com/2026/10/01/aws-strands-labs-releases-strands-decider-2b/",
-          "source": "MarkTechPost"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": ""
-    },
-    {
-      "key": "6ee1e06af676c7b8",
-      "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
-      "url": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Ars Technica"
-      ],
-      "published": "2026-10-01T20:28:45+00:00",
-      "undated": false,
-      "summary_raw": "It has been a bad month for federal government cybersecurity.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
-          "url": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
-          "source": "Ars Technica"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "一个月内两家联邦机构遭黑客攻击，大量敏感数据泄露"
-    },
-    {
-      "key": "2fe66c130cab18c2",
-      "title": "'Xbox is not for sale,' CEO Asha Sharma says",
-      "url": "https://www.gamedeveloper.com/business/-xbox-is-not-for-sale-ceo-asha-sharma-says",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Game Developer"
-      ],
-      "published": "2026-10-01T18:37:27+00:00",
-      "undated": false,
-      "summary_raw": "The new CEO said made a particular proclamation while speaking with New York Times.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "'Xbox is not for sale,' CEO Asha Sharma says",
-          "url": "https://www.gamedeveloper.com/business/-xbox-is-not-for-sale-ceo-asha-sharma-says",
-          "source": "Game Developer"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "CEO Asha Sharma 表示“Xbox 不出售”"
-    },
-    {
-      "key": "b765f72359e696ca",
-      "title": "Memory executives expect RAM shortage to continue through 2028",
-      "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Ars Technica"
-      ],
-      "published": "2026-10-01T17:49:56+00:00",
-      "undated": false,
-      "summary_raw": "Prices for memory sold for 2027 \"are much higher than 2026 prices.\"",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Memory executives expect RAM shortage to continue through 2028",
-          "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
-          "source": "Ars Technica"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "内存高管预计 RAM 短缺将持续到 2028 年"
-    },
-    {
-      "key": "0f89e352ba79b75a",
-      "title": "何恺明团队新作：看猫片就能学会ARC挑战",
-      "url": "https://www.qbitai.com/2026/10/499812.html",
-      "hn_url": null,
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "量子位"
-      ],
-      "published": "2026-10-01T15:06:30+00:00",
-      "undated": false,
-      "summary_raw": "用ImageNet训练encoder",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "何恺明团队新作：看猫片就能学会ARC挑战",
-          "url": "https://www.qbitai.com/2026/10/499812.html",
-          "source": "量子位"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null
-    },
-    {
-      "key": "bfb654d9d73110ed",
-      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-      "url": "https://www.qbitai.com/2026/10/499663.html",
-      "hn_url": null,
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "量子位"
-      ],
-      "published": "2026-10-01T15:02:14+00:00",
-      "undated": false,
-      "summary_raw": "价格只有Astra一半",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-          "url": "https://www.qbitai.com/2026/10/499663.html",
-          "source": "量子位"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null
-    },
-    {
-      "key": "acdc4d38263bb71c",
-      "title": "Consumer Protection Cooperation Network launches coordinated actions against nine companies on in-game currency | Opinion",
-      "url": "https://www.gamesindustry.biz/consumer-protection-cooperation-network-launches-coordinated-actions-against-nine-companies-on-in-game-currency",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-10-01T14:15:37+00:00",
-      "undated": false,
-      "summary_raw": "On 30 September 2026, the Consumer Protection Cooperation (CPC) Network launched coordinated actions against nine video games companies.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Consumer Protection Cooperation Network launches coordinated actions against nine companies on in-game currency | Opinion",
-          "url": "https://www.gamesindustry.biz/consumer-protection-cooperation-network-launches-coordinated-actions-against-nine-companies-on-in-game-currency",
-          "source": "GamesIndustry"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "消费者保护合作网络针对九家公司的游戏内货币发起协调行动 | 观点"
-    },
-    {
-      "key": "6ef670c7c87985dc",
-      "title": "Ubisoft Workers of Montreal Union petition to \"preserve hybrid work\" secures over 300 signatures",
-      "url": "https://www.gamesindustry.biz/ubisoft-workers-of-montreal-union-petition-to-preserve-hybrid-work-secures-over-300-signatures",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-10-01T13:28:21+00:00",
-      "undated": false,
-      "summary_raw": "The Ubisoft Workers of Montreal Union have launched a petition to \"preserve hybrid work\" , which has reached more than 300 signatures .",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Ubisoft Workers of Montreal Union petition to \"preserve hybrid work\" secures over 300 signatures",
-          "url": "https://www.gamesindustry.biz/ubisoft-workers-of-montreal-union-petition-to-preserve-hybrid-work-secures-over-300-signatures",
-          "source": "GamesIndustry"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "Ubisoft Workers of Montreal Union 请愿“保留混合办公”获超 300 个签名"
-    },
-    {
-      "key": "5ec85ef9ef9f1ef9",
-      "title": "Jobs roundup: October | Code Wizards Group appoints Catherine Bygrave as head of commercial",
-      "url": "https://www.gamesindustry.biz/jobs-roundup-october-code-wizards-group-appoints-catherine-bygrave-as-head-of-commercial",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-10-01T09:26:54+00:00",
-      "undated": false,
-      "summary_raw": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Jobs roundup: October | Code Wizards Group appoints Catherine Bygrave as head of commercial",
-          "url": "https://www.gamesindustry.biz/jobs-roundup-october-code-wizards-group-appoints-catherine-bygrave-as-head-of-commercial",
-          "source": "GamesIndustry"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "招聘汇总：10 月 | Code Wizards Group 任命 Catherine Bygrave 为商务主管"
-    },
-    {
-      "key": "17e98d232672b9a7",
-      "title": "PC and console revenue charts led by new releases in August | Newzoo charts",
-      "url": "https://www.gamesindustry.biz/pc-and-console-revenue-charts-led-by-new-releases-in-august-newzoo-charts",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-10-01T08:25:00+00:00",
-      "undated": false,
-      "summary_raw": "Several new releases entered Newzoo's Top 20 revenue charts in August, with EA Sports Madden NFL 27 debuting at No. 2 on console and House House's co-op title Big Walk ranking No. 3 on PC.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "PC and console revenue charts led by new releases in August | Newzoo charts",
-          "url": "https://www.gamesindustry.biz/pc-and-console-revenue-charts-led-by-new-releases-in-august-newzoo-charts",
-          "source": "GamesIndustry"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "8 月 PC 和主机收入榜由新作领跑 | Newzoo 榜单"
-    },
-    {
-      "key": "8c10a89fcb80382f",
-      "title": "Quoting Matthew Green",
-      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Simon Willison"
-      ],
-      "published": "2026-10-01T06:29:01+00:00",
-      "undated": false,
-      "summary_raw": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs. — Matthew Gr",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Quoting Matthew Green",
-          "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
-          "source": "Simon Willison"
-        }
-      ],
-      "pool": "main",
-      "score": 20,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "分析源",
-          "value": 8
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "引用 Matthew Green"
-    },
-    {
-      "key": "09e3b19012690f23",
-      "title": "Can't install UE on my Macbok Pro M5 with 500Gb free. Getting \"There is not enough space at/\" with the error code \"\"SU-DS01\".",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wx3vnj/cant_install_ue_on_my_macbok_pro_m5_with_500gb/",
+      "key": "0817f31d9a1f83ea",
+      "title": "Fake Volumetric Clouds Using WPO and Pixel Depth Offset",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wwieq8/fake_volumetric_clouds_using_wpo_and_pixel_depth/",
       "hn_url": null,
       "lang": "en",
       "tier": 3,
@@ -5301,9 +4402,9 @@
       "sources": [
         "r/unrealengine"
       ],
-      "published": "2026-10-04T01:56:56+00:00",
+      "published": "2026-10-03T08:51:34+00:00",
       "undated": false,
-      "summary_raw": "I've been through several iterations of deleting Epic directories in the Caches, Users and Application Support folders. Also used Terminal to do various things. Has anyone else had this problem?",
+      "summary_raw": "Fake volumetric cloud effects created using WPO and pixel depth offset, along with cloud fade in/out height using camera position.",
       "signals": {
         "hn_points": 0,
         "hn_comments": 0,
@@ -5313,8 +4414,8 @@
       },
       "members": [
         {
-          "title": "Can't install UE on my Macbok Pro M5 with 500Gb free. Getting \"There is not enough space at/\" with the error code \"\"SU-DS01\".",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wx3vnj/cant_install_ue_on_my_macbok_pro_m5_with_500gb/",
+          "title": "Fake Volumetric Clouds Using WPO and Pixel Depth Offset",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wwieq8/fake_volumetric_clouds_using_wpo_and_pixel_depth/",
           "source": "r/unrealengine"
         }
       ],
@@ -5338,12 +4439,12 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "无法在我的 Macbok Pro M5 上安装 UE，有 500Gb 可用空间。出现“There is not enough space at/”，错误代码为“SU-DS01”。"
+      "title_cn": ""
     },
     {
-      "key": "65aaad2d8aec52b9",
-      "title": "PCG Issue, Pathing help",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wwu3d1/pcg_issue_pathing_help/",
+      "key": "fb79528e41a0da91",
+      "title": "Is my use of AI ethical?",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wxe2bs/is_my_use_of_ai_ethical/",
       "hn_url": null,
       "lang": "en",
       "tier": 3,
@@ -5352,9 +4453,9 @@
       "sources": [
         "r/unrealengine"
       ],
-      "published": "2026-10-03T18:20:31+00:00",
+      "published": "2026-10-04T12:04:16+00:00",
       "undated": false,
-      "summary_raw": "Using PCG and I am trying to make a dirt path. The issue is (shown in the vid) idk how to make it LOOK like a nice dirt path, the dirt path overlaps itself on turns and makes it look all jagged.",
+      "summary_raw": "I am making my first asset pack for FAB. Everything is hand modeled by me but I’ve been going back and forth with ChatGPT on how to set up some node systems on various programs in my pipeline along with walking me through the steps of fixing up textures in Affinity Photo. None of the models or textures are AI generated. I’m basically using AI as a teacher to walk me through things I’m not knowledgeable enough about yet.",
       "signals": {
         "hn_points": 0,
         "hn_comments": 0,
@@ -5364,8 +4465,8 @@
       },
       "members": [
         {
-          "title": "PCG Issue, Pathing help",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wwu3d1/pcg_issue_pathing_help/",
+          "title": "Is my use of AI ethical?",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wxe2bs/is_my_use_of_ai_ethical/",
           "source": "r/unrealengine"
         }
       ],
@@ -5389,12 +4490,12 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "PCG 问题，寻路求助"
+      "title_cn": ""
     },
     {
-      "key": "51cb9cf350993aca",
-      "title": "WIP footage of my online FPS game's PVE mode",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wwob53/wip_footage_of_my_online_fps_games_pve_mode/",
+      "key": "65aaad2d8aec52b9",
+      "title": "PCG Issue, Pathing help",
+      "url": "https://www.reddit.com/r/unrealengine/comments/1wwu3d1/pcg_issue_pathing_help/",
       "hn_url": null,
       "lang": "en",
       "tier": 3,
@@ -5403,9 +4504,9 @@
       "sources": [
         "r/unrealengine"
       ],
-      "published": "2026-10-03T14:15:00+00:00",
+      "published": "2026-10-03T18:20:31+00:00",
       "undated": false,
-      "summary_raw": "There's still more to be done but so far I think it's looking pretty good. Big thanks to my friend for creating the map and helping me record the co-op gameplay.",
+      "summary_raw": "Using PCG and I am trying to make a dirt path. The issue is (shown in the vid) idk how to make it LOOK like a nice dirt path, the dirt path overlaps itself on turns and makes it look all jagged.",
       "signals": {
         "hn_points": 0,
         "hn_comments": 0,
@@ -5415,8 +4516,8 @@
       },
       "members": [
         {
-          "title": "WIP footage of my online FPS game's PVE mode",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wwob53/wip_footage_of_my_online_fps_games_pve_mode/",
+          "title": "PCG Issue, Pathing help",
+          "url": "https://www.reddit.com/r/unrealengine/comments/1wwu3d1/pcg_issue_pathing_help/",
           "source": "r/unrealengine"
         }
       ],
@@ -5440,7 +4541,334 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "我的在线 FPS 游戏 PVE 模式 WIP 片段"
+      "title_cn": ""
+    },
+    {
+      "key": "849f5ff13969ee84",
+      "title": "马斯克将旗下人工智能业务更名为 SpaceXSI；Altman 称 AI 发展应容忍一定风险；小米 Vision GT 将入驻《GT7》游戏｜极客早知道",
+      "url": "http://www.geekpark.net/news/372082",
+      "hn_url": null,
+      "lang": "zh",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "极客公园"
+      ],
+      "published": "2026-10-05T00:36:34+00:00",
+      "undated": false,
+      "summary_raw": "马斯克拟将 SpaceXAI 更名为 SpaceXSI 为「超级智能」概念背书 美国总统特朗普推动以「超级智能」（Super Intelligence，简称 SI）取代「人工智能」（AI）的举措正在迅速影响科技行业。特斯拉和 SpaceX 首席执行官埃隆·马斯克日前表示，旗下人工智能业务品牌 SpaceXAI 有意更名为 SpaceXSI，并公开宣称「SpaceX 是一家超级智能公司」。 这一表态源于特朗普政府近期推动的一项新政策。9 月 22 日，特朗普宣布以「超级智能」取代「人工智能」这一术语，并呼吁美国联邦政府在相关文件和机构中采用新的表述。此后，美国政府开始围绕「超级智能」建立新的政策框架和产业沟通机制。 在回应社交平台用户关于「SpaceXAI 是否会更名为 SpaceXSI」的提问时，马斯克明确表示「是的，我们会做出改变」。随后，他进一步发文称，SpaceX 本质上是一家「超级智能公司」。 此次更名若最终落实，将是该业务板块在短时间内再次调整品牌身份。此前，由马斯克创立的 xAI 于今年 2 月被 SpaceX 收购，并在 7 月正式完成品牌重组，更名为 SpaceXAI，将 Grok 及其他人工智能产品统一纳入 SpaceX 体系。如今，随着「超级智能」概念被推向台前，该品牌可能再次迎来名称调整。（来源：CnBeta） 余承东：华为半导体已在手机、AI、智能汽车等领域",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "马斯克将旗下人工智能业务更名为 SpaceXSI；Altman 称 AI 发展应容忍一定风险；小米 Vision GT 将入驻《GT7》游戏｜极客早知道",
+          "url": "http://www.geekpark.net/news/372082",
+          "source": "极客公园"
+        }
+      ],
+      "pool": "main",
+      "score": 14,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null
+    },
+    {
+      "key": "670761d69122c6c0",
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "published": "2026-10-04T20:31:07+00:00",
+      "undated": false,
+      "summary_raw": "AI slop seems to be overwhelming bug bounty programs.",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+          "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "pool": "main",
+      "score": 14,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "dc619671aca2a0e7",
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "published": "2026-10-04T20:08:34+00:00",
+      "undated": false,
+      "summary_raw": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+          "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "pool": "main",
+      "score": 14,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "cfc1a74ddc8d7ae0",
+      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "The Verge AI"
+      ],
+      "published": "2026-10-04T16:16:04+00:00",
+      "undated": false,
+      "summary_raw": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview on NJ […]",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+          "source": "The Verge AI"
+        }
+      ],
+      "pool": "main",
+      "score": 14,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "76f718028be279b7",
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "The Verge AI"
+      ],
+      "published": "2026-10-04T15:21:59+00:00",
+      "undated": false,
+      "summary_raw": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, […]",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+          "source": "The Verge AI"
+        }
+      ],
+      "pool": "main",
+      "score": 14,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "c0b0d57d72f2cbd7",
+      "title": "Trump unveils his new Super Intelligence Force",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "hn_url": null,
+      "lang": "en",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "published": "2026-10-04T15:15:10+00:00",
+      "undated": false,
+      "summary_raw": "This new task force is Trump's latest response to the debate over AI safety.",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Trump unveils his new Super Intelligence Force",
+          "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+          "source": "TechCrunch AI"
+        }
+      ],
+      "pool": "main",
+      "score": 14,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null,
+      "title_cn": ""
+    },
+    {
+      "key": "2228423951d4f97e",
+      "title": "Jev 之后，中国团队开始深挖 AI 的「直觉层」",
+      "url": "http://www.geekpark.net/news/372081",
+      "hn_url": null,
+      "lang": "zh",
+      "tier": 3,
+      "tier_weight": 2,
+      "coverage": 1,
+      "sources": [
+        "极客公园"
+      ],
+      "published": "2026-10-04T11:41:48+00:00",
+      "undated": false,
+      "summary_raw": "作者｜桦林舞王 编辑｜靖宇 9 月 15 日，前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布了 Jev。这款模型不写一个字，只做判断。 两周之后，整个行业都在做同一件事。OpenAI 在开发者日上推出 Decisions API，Cloudflare 在 10 月 1 日开源了 Clef，亚马逊也放出了 Strands Decider。 国内同样没闲着，上海人工智能实验室开源了多模态决策模型 Intern-Decision。 9 月 30 日，一家成立不到五个月的上海公司 StartLux（原点星辉）发布了开源的 StartLux-Decision，并宣称在公开评测中超过 Jev。 一个新品类在两周内从「首发」走到「群战」，这种速度在大模型行业也不多见。 而 StartLux 背后的掌舵人，是盛大网络联合创始人陈大年。 被 Jev 点燃的「直觉」 要理解这轮热潮，得先说清楚决策模型到底在干什么。 TypeSafe 把 Jev 称为「System One 模型」，名字取自卡尼曼的《思考，快与慢》。系统一是人快速、直觉的那部分思维，系统二负责慢思考。过去两年的大模型，几乎都在往系统二的方向卷，推理链更长，思考更深。 但 Agent 真正跑起来之后，情况不太一样。一个 Agent 任务里，密集发生的往往不是深度推理，而是大量琐碎判断。这张工单该",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Jev 之后，中国团队开始深挖 AI 的「直觉层」",
+          "url": "http://www.geekpark.net/news/372081",
+          "source": "极客公园"
+        }
+      ],
+      "pool": "main",
+      "score": 14,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "聚合源",
+          "value": 2
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": null
     },
     {
       "key": "97158f143deec767",
@@ -5581,53 +5009,6 @@
       "followup": null
     },
     {
-      "key": "a977b34fc8c61373",
-      "title": "What’s a good ability for an advanced player mod",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wwxr35/whats_a_good_ability_for_an_advanced_player_mod/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 3,
-      "tier_weight": 2,
-      "coverage": 1,
-      "sources": [
-        "r/unrealengine"
-      ],
-      "published": "2026-10-03T20:54:46+00:00",
-      "undated": false,
-      "summary_raw": "A taunt ability An ability to knock down doors An ability to emote Expressive head and eye movements Also I just wanted to know if anyone here is into the same things as me, I’m 14 and I feel like I’m the only 14 year old who knows how to use unreal engine and such, I don’t know though, I just wanna talk to some people",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "What’s a good ability for an advanced player mod",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wwxr35/whats_a_good_ability_for_an_advanced_player_mod/",
-          "source": "r/unrealengine"
-        }
-      ],
-      "pool": "main",
-      "score": 14,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "聚合源",
-          "value": 2
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "高级玩家 mod 有什么好能力"
-    },
-    {
       "key": "06fdbf70389acfd9",
       "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
       "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
@@ -5672,7 +5053,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "Amazon 回应数据中心反弹，称不再使用 NDA"
+      "title_cn": ""
     },
     {
       "key": "6ed7c734094b3cf9",
@@ -5719,7 +5100,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "Capcom 正在为“与 AI 共同创造游戏的未来”做准备"
+      "title_cn": ""
     },
     {
       "key": "1d2f9bc4aadb0741",
@@ -5766,7 +5147,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "Splice CEO Kakul Srivastava 认为 AI 邮件正在扼杀对话"
+      "title_cn": ""
     },
     {
       "key": "41f9591cfbe8faef",
@@ -5813,54 +5194,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "所有能住在你短信里的 AI 代理"
-    },
-    {
-      "key": "5a8b33fef6d6d226",
-      "title": "Other Fab sellers: do you get decent sales but barely any reviews?",
-      "url": "https://www.reddit.com/r/unrealengine/comments/1wweazx/other_fab_sellers_do_you_get_decent_sales_but/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 3,
-      "tier_weight": 2,
-      "coverage": 1,
-      "sources": [
-        "r/unrealengine"
-      ],
-      "published": "2026-10-03T04:40:16+00:00",
-      "undated": false,
-      "summary_raw": "I've noticed that even when sales are going well, very few buyers leave a rating or any feedback. Does anyone else experience this? I don’t expect everyone to leave a review, but as a creator, it’s hard to know how people are getting on with the product. Is it working well? Is something confusing? What could be improved? For other sellers, have you found a way to encourage honest feedback without being pushy? And for buyers, what usually makes you decide to leave a review? I’d be interested to hear both sides.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Other Fab sellers: do you get decent sales but barely any reviews?",
-          "url": "https://www.reddit.com/r/unrealengine/comments/1wweazx/other_fab_sellers_do_you_get_decent_sales_but/",
-          "source": "r/unrealengine"
-        }
-      ],
-      "pool": "main",
-      "score": 14,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "聚合源",
-          "value": 2
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "其他 Fab 卖家：你们销量不错但几乎没评论吗？"
+      "title_cn": "所有能存在于你短信中的AI代理"
     },
     {
       "key": "03838efc3672671d",
@@ -5953,7 +5287,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "Sean Parker 正围绕音乐重建 Stability AI"
+      "title_cn": "Sean Parker正围绕音乐重建Stability AI"
     },
     {
       "key": "65eadbd5456d4a11",
@@ -6000,7 +5334,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "受裁员影响？别错过这个 75 美元的 TechCrunch Disrupt 2026 Expo+ Pass 优惠"
+      "title_cn": "受裁员影响？别错过TechCrunch Disrupt 2026 Expo+ Pass的75美元优惠"
     },
     {
       "key": "6a2978db23fbd817",
@@ -6047,7 +5381,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "OpenAI 的 Dot 代理是还能帮你点晚餐的企业软件"
+      "title_cn": "OpenAI的Dot代理是一款还能帮你订晚餐的企业软件"
     },
     {
       "key": "f89959398f93f95b",
@@ -6094,7 +5428,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "叫它 AI，叫它超级智能，只有 2% 的消费者在买单"
+      "title_cn": "叫它AI也好，叫它超级智能也罢，只有2%的消费者在买单"
     },
     {
       "key": "ea40ccd0ecde716d",
@@ -6141,7 +5475,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "这不再是 AI，而是“超级智能”（据白宫所说）"
+      "title_cn": "它不再是AI，而是‘超级智能’（据白宫所说）"
     },
     {
       "key": "663c9d4bc16c6a66",
@@ -6188,148 +5522,7 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "与 Elon Musk 分手很难做到"
-    },
-    {
-      "key": "ce047c2c52766534",
-      "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 3,
-      "tier_weight": 2,
-      "coverage": 1,
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "published": "2026-10-02T17:32:05+00:00",
-      "undated": false,
-      "summary_raw": "Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
-          "source": "TechCrunch AI"
-        }
-      ],
-      "pool": "main",
-      "score": 14,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "聚合源",
-          "value": 2
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "TechCrunch Disrupt 2026：Blackstone 的 Jas Khaira 谈打造下一代 AI 巨头"
-    },
-    {
-      "key": "e20225d316692884",
-      "title": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
-      "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 3,
-      "tier_weight": 2,
-      "coverage": 1,
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "published": "2026-10-02T17:00:00+00:00",
-      "undated": false,
-      "summary_raw": "With all the talk about how AI might one day kill us all, it's easy to forget that AI has already harmed some people psychologically. Circuit Breaker Labs has created \"crash-test dummies\" to solve that.",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
-          "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
-          "source": "TechCrunch AI"
-        }
-      ],
-      "pool": "main",
-      "score": 14,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "聚合源",
-          "value": 2
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "Circuit Breaker Labs 希望让 AI 对你的孩子（和你）更安全"
-    },
-    {
-      "key": "d72e4bc9798e4065",
-      "title": "Pope Leo XIV is not a fan of AI-generated art",
-      "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 3,
-      "tier_weight": 2,
-      "coverage": 1,
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "published": "2026-10-02T15:39:41+00:00",
-      "undated": false,
-      "summary_raw": "\"There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,\" the pope wrote. \"Algorithms lack the spark of humanity.\"",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Pope Leo XIV is not a fan of AI-generated art",
-          "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
-          "source": "TechCrunch AI"
-        }
-      ],
-      "pool": "main",
-      "score": 14,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "聚合源",
-          "value": 2
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "Pope Leo XIV 不喜欢 AI 生成艺术"
+      "title_cn": "与Elon Musk分手很难做到"
     },
     {
       "key": "f3cada9b1cc58ae8",
@@ -6376,111 +5569,13 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": null,
-      "title_cn": "AI 幻觉让自以为是的客户变得更糟"
+      "title_cn": "AI幻觉让自以为是的客户变得更糟"
     },
     {
-      "key": "647e812479b5433d",
-      "title": "If a data center is camouflaged in the woods, will anyone hate it?",
-      "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
-      "hn_url": null,
-      "lang": "en",
-      "tier": 3,
-      "tier_weight": 2,
-      "coverage": 1,
-      "sources": [
-        "The Verge AI"
-      ],
-      "published": "2026-10-02T11:52:20+00:00",
-      "undated": false,
-      "summary_raw": "San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that's changed in recent years, as data centers have grown into massive \"hyperscale\" facilities spanning millions of square feet and housing the physical infrastructure for AI. There are now more […]",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "If a data center is camouflaged in the woods, will anyone hate it?",
-          "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
-          "source": "The Verge AI"
-        },
-        {
-          "title": "Amazon writes scary blog warning communities not to block data centers",
-          "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
-          "source": "The Verge AI"
-        }
-      ],
-      "pool": "main",
-      "score": 14,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "聚合源",
-          "value": 2
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null,
-      "title_cn": "如果数据中心伪装在树林里，还会有人讨厌它吗？"
-    },
-    {
-      "key": "24b930d7eee344a5",
-      "title": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
-      "url": "http://www.geekpark.net/news/372069",
-      "hn_url": null,
-      "lang": "zh",
-      "tier": 3,
-      "tier_weight": 2,
-      "coverage": 1,
-      "sources": [
-        "极客公园"
-      ],
-      "published": "2026-10-02T00:28:26+00:00",
-      "undated": false,
-      "summary_raw": "华为 Mate90 系列发布，售价 5999 元起 10 月 1 日， 华为 Mate90 系列手机正式发布。华为 Mate90 售价 5999 元起，华为 Mate90 Pro 售价 6999 元起，华为 Mate90 Pro Max 售价 9499 元起，华为 Mate90 Pro Max 典藏版售价 10999 元起，华为 Mate90 RS 非凡大师售价 12999 元起。 影像系统是本次迭代的核心亮点。华为 Mate90 系列全系搭载第三代红枫原色摄像头，标配红外光学镀膜技术，有效提升夜景画面纯净度与通透感。新机新增烟花人像、柔光人像、星芒特效等多元拍摄风格，依托原生原片直出的优质画质，既满足日常随手拍需求，也为后期创作预留充足空间。同时，全新华为光变巨炮睿影 Z10 专业影像模块正式登场，区别于传统增距镜设备，其内置 1 英寸大底传感器，支持 1-10 倍连续光学变焦，大幅拓展移动端专业拍摄边界。（来源：36 氪） 苹果首款 OLED 触屏 MacBook Pro 或最快本月发布 苹果首款配备 OLED 显示屏的 MacBook Pro 正在逐渐接近发布。彭博社记者马克·古尔曼最新表示，苹果有望在 2026 年 10 月或 11 月推出这款经过大幅重新设计的 MacBook 产品。这意味着此前传闻已久的 OLED MacBook Pro 最快可能在本月正式亮相，不过具体",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
-          "url": "http://www.geekpark.net/news/372069",
-          "source": "极客公园"
-        }
-      ],
-      "pool": "main",
-      "score": 14,
-      "score_parts": [
-        {
-          "label": "单源",
-          "value": 12
-        },
-        {
-          "label": "聚合源",
-          "value": 2
-        }
-      ],
-      "relevant_hits": [],
-      "is_relevant": false,
-      "is_combat": false,
-      "followup": null
-    },
-    {
-      "key": "6deace862fe8757a",
-      "title": "FLUX 3 Image",
-      "url": "https://bfl.ai/models/flux-3-image",
-      "hn_url": "https://news.ycombinator.com/item?id=49925974",
+      "key": "a7ee8b9055023853",
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "hn_url": "https://news.ycombinator.com/item?id=49936575",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -6488,25 +5583,25 @@
       "sources": [
         "Hacker News"
       ],
-      "published": "2026-10-01T19:24:29Z",
+      "published": "2026-10-02T18:01:16Z",
       "undated": false,
       "summary_raw": "",
       "signals": {
-        "hn_points": 428,
-        "hn_comments": 96,
+        "hn_points": 359,
+        "hn_comments": 102,
         "hf_upvotes": 0,
         "stars_today": 0,
         "rank_bonus": 0.0
       },
       "members": [
         {
-          "title": "FLUX 3 Image",
-          "url": "https://bfl.ai/models/flux-3-image",
+          "title": "From the creator of Redis; run LLM locally with ds4",
+          "url": "https://dwarfstar.sh/",
           "source": "Hacker News"
         }
       ],
       "pool": "main",
-      "score": 10.1,
+      "score": 9.8,
       "score_parts": [
         {
           "label": "单源",
@@ -6517,8 +5612,8 @@
           "value": 8
         },
         {
-          "label": "HN 428",
-          "value": 12.1
+          "label": "HN 359",
+          "value": 11.8
         },
         {
           "label": "HN 头条",
@@ -6533,18 +5628,73 @@
       "is_relevant": false,
       "is_combat": false,
       "followup": {
-        "title": "FLUX 3 Image",
-        "first_seen": "2026-10-03",
+        "title": "From the creator of Redis; run LLM locally with ds4",
+        "first_seen": "2026-10-04",
         "times": 1,
-        "last_seen": "2026-10-03"
+        "last_seen": "2026-10-04"
       },
-      "title_cn": "FLUX 3 Image"
+      "title_cn": "来自Redis的创造者；用ds4在本地运行LLM"
+    },
+    {
+      "key": "9445f67b75347c5e",
+      "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+      "url": "https://www.qbitai.com/2026/10/499958.html",
+      "hn_url": null,
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "量子位"
+      ],
+      "published": "2026-10-02T06:46:32+00:00",
+      "undated": false,
+      "summary_raw": "换区也没用",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+          "url": "https://www.qbitai.com/2026/10/499958.html",
+          "source": "量子位"
+        }
+      ],
+      "pool": "main",
+      "score": -10,
+      "score_parts": [
+        {
+          "label": "单源",
+          "value": 12
+        },
+        {
+          "label": "分析源",
+          "value": 8
+        },
+        {
+          "label": "已报过",
+          "value": -30
+        }
+      ],
+      "relevant_hits": [],
+      "is_relevant": false,
+      "is_combat": false,
+      "followup": {
+        "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+        "first_seen": "2026-10-03",
+        "times": 2,
+        "last_seen": "2026-10-04"
+      }
     }
   ],
   "stats": {
-    "events": 190,
-    "main_events": 125,
+    "events": 166,
+    "main_events": 105,
     "multi_source": 5,
-    "deep_read": 7
+    "deep_read": 5
   }
 }

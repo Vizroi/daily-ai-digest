@@ -4,89 +4,65 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 190 个事件，只有 10 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 166 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 04 Oct 2026 14:11:16 +0800</lastBuildDate>
+<lastBuildDate>Mon, 05 Oct 2026 14:01:49 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Aleph Alpha Kolibri: How the sovereign German LLM works</title>
-  <link>https://tej.as/blog/aleph-alpha-kolibri</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-0e1a260e2ca1</guid>
+  <title>Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters</title>
+  <link>https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-645fa93dc78c</guid>
   <pubDate>Sat, 03 Oct 2026 10:43:51 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Aleph Alpha发布Kolibri，Apache 2.0开源权重，78B参数MoE每token仅激活3.46B，50层每层384专家选6，原生262K上下文，24T token训练，768块B200，FP8约78GB。</p><p><strong>为什么重要</strong><br>欧洲主权LLM落地：德国芬兰基础设施训练，规避美国云依赖，对标EU AI Act合规。MoE稀疏化让大模型推理成本逼近3.5B小模型，但显存仍需78B。</p><p><strong>对你而言</strong><br>MoE路由与专家粒度可参考：384专家选6、共享专家设计。但78GB显存门槛对PVP客户端无意义，仅适合服务端NPC对话或本地化文本处理。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 410 +12 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>52.1 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Aleph Alpha发布Kolibri，78.1B总参、3.46B激活的英德MoE，Apache 2.0，FP8约78GB，单张B200/H200或2张H100可跑，vLLM部署，上下文1M。</p><p><strong>为什么重要</strong><br>开源权重模型开始主打主权部署与合规，德国团队全流程自研，24T token训练，德语token效率比GPT-5高11.2%，欧洲受监管行业有了本地替代。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 417 +12.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/">MarkTechPost</a> · <a href="https://tej.as/blog/aleph-alpha-kolibri">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>From the creator of Redis; run LLM locally with ds4</title>
-  <link>https://dwarfstar.sh/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-a7ee8b905502</guid>
-  <pubDate>Fri, 02 Oct 2026 18:01:16 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.7 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Redis作者发布DwarfStar 4（ds4），C/Metal/CUDA/ROCm本地推理引擎，MIT许可。支持DeepSeek V4/V4.1 Flash、GLM 5.x、Qwen3.8 Flash Next。非对称2-bit量化压缩路由专家，保留共享路径精度。M5 Max 128GB跑32K上下文：34.4 T/S生成、557 T/S预填。</p><p><strong>为什么重要</strong><br>本地跑MoE大模型从不可能变为可行。128GB Mac即可跑V4 Flash Q2，DGX Spark预填823 T/S。云端推理成本被绕过，隐私敏感和离线场景不再依赖API。GGUF通用运行器被专用引擎替代。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS、动画蓝图、网络同步、战斗手感均不涉及LLM本地推理。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 345 +11.7 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>Final Fantasy 7 Remake Combat System Tutorials</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wwttgd/final_fantasy_7_remake_combat_system_tutorials/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-034f716ab6b2</guid>
-  <pubDate>Sat, 03 Oct 2026 18:09:03 +0000</pubDate>
+  <title>Niagara Damage Numbers with GAS</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wxig2m/niagara_damage_numbers_with_gas/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-25636f3650ba</guid>
+  <pubDate>Sun, 04 Oct 2026 15:29:35 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>48.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户用UE的GAS做FF7重制版混合战斗，平砍基底加时间膨胀战术菜单，卡在切换角色时Pawn占有间的相机平滑过渡，项目暂停。</p><p><strong>为什么重要</strong><br>GAS做技能、时间膨胀做战术暂停是常见组合，但多角色切换的相机混合是UE老大难，社区缺现成教程。</p><p><strong>对你而言</strong><br>若做多角色切换，提前设计相机混合与Pawn占有过渡，别等GAS技能堆完再补，否则返工。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +2.4 / 战斗「combat system」 +32</small></p>]]></description>
-</item>
-<item>
-  <title>We’re using Unreal Engine to turn our book series into an animated series. What we consider our Big Bang, and start, was actually the cataclysmic end to a war in The Old Universe!!!</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wx362f/were_using_unreal_engine_to_turn_our_book_series/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-07729f066326</guid>
-  <pubDate>Sun, 04 Oct 2026 01:19:03 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户用UE把自家小说改成动画剧集，世界观起点实为旧宇宙战争毁灭性终局。</p><p><strong>为什么重要</strong><br>个人创作者借UE做完整动画，影视流程门槛下降，传统动画管线受挤压。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Can i export a lower triangle version of a Mesh that uses Nanite?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wwvgfc/can_i_export_a_lower_triangle_version_of_a_mesh/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-5d4f4a306712</guid>
-  <pubDate>Sat, 03 Oct 2026 19:17:06 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户在 r/unrealengine 问：Fab 买的资产只给 UE 格式、无 FBX、无 LOD，靠 Nanite 撑面数，能否在 UE 里导出低模 FBX。</p><p><strong>为什么重要</strong><br>Nanite 资产常不烘焙传统 LOD，跨引擎或移动端复用时无法直接降面，暴露了资产交付格式的锁定问题。</p><p><strong>对你而言</strong><br>与你的项目无直接关系；但若团队买 Fab 资产，需确认能否在 UE 内重建 LOD 或减面，别指望源文件。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「nanite」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者想在GAS的GameplayCue里用Niagara生成伤害数字，替代UMG。需处理多位数和状态文字，但自定义数字拆分逻辑在Cue中报错，变量修改和函数调用失败。</p><p><strong>为什么重要</strong><br>Niagara比UMG高效，但GAS的Cue执行环境限制自定义逻辑，社区教程未覆盖此集成。伤害数字是PVP反馈核心，方案卡住影响手感迭代。</p><p><strong>对你而言</strong><br>可尝试把数字拆分放到Cue外的Ability或AttributeSet中，Cue只传参给Niagara；或改用Niagara的DataChannel传文本。注意Cue的线程限制。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「niagara」 +20</small></p>]]></description>
 </item>
 <item>
   <title>Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine</title>
   <link>https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-3167251161ad</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-3167251161ad</guid>
   <pubDate>Sun, 04 Oct 2026 00:19:38 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · MarkTechPost · 能用上的</p><p><strong>发生了什么</strong><br>NVIDIA IsaacTeleop 教程：用 NumPy 在 Colab CPU 上自建 XR 手部与手柄输入，走纯 Python 重定向引擎，装 isaacteleop[retargeters-lite]==1.4.145。</p><p><strong>为什么重要</strong><br>把 XR 手追踪到机器人动作的重定向拆成可离线跑的图节点，不依赖头显、OpenXR 运行时或仿真器，降低机器人遥操作门槛。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「retarget」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>10 分</strong> · MarkTechPost · 能用上的</p><p><strong>发生了什么</strong><br>NVIDIA IsaacTeleop 教程：用 NumPy 在 Colab CPU 上自建 XR 手部/手柄输入，经图式重定向引擎输出机器人动作向量。装 isaacteleop[retargeters-lite]==1.4.145，26 个 OpenXR 手关节、14 个手柄槽位。</p><p><strong>为什么重要</strong><br>XR 输入到机器人动作的重定向被拆成可组合的纯 Python 图节点，无需头显或 OpenXR 运行时。降低了遥操作与动作生成的门槛，影响机器人学习与 XR 交互工具链。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「retarget」 +20 / 已报过 -30</small></p>]]></description>
+</item>
+<item>
+  <title>Can i export a lower triangle version of a Mesh that uses Nanite?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wwvgfc/can_i_export_a_lower_triangle_version_of_a_mesh/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-5d4f4a306712</guid>
+  <pubDate>Sat, 03 Oct 2026 19:17:06 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户在 r/unrealengine 问：Fab 买的资产只给 UE 格式、无 FBX、无 LOD，靠 Nanite 撑面数，能否在 UE 里导出低模 FBX。</p><p><strong>为什么重要</strong><br>Nanite 资产常不烘焙 LOD，跨引擎或移动端复用时无法直接降面，暴露了资产交付格式的锁定问题。</p><p><strong>对你而言</strong><br>与你的项目无直接关系；但若团队买 Fab 资产，需确认能否导出低模供移动端或 LOD 用。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「nanite」 +20 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
   <title>Unreal 5.8 - Radial Blur (Photoshop filter) Post Process effect</title>
   <link>https://www.reddit.com/r/unrealengine/comments/1wwrh92/unreal_58_radial_blur_photoshop_filter_post/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-40ba135ddfdc</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-40ba135ddfdc</guid>
   <pubDate>Sat, 03 Oct 2026 16:30:40 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>教程演示在 UE5.8 用后处理材质做径向模糊，模拟 Photoshop 滤镜，替代逐对象运动模糊。</p><p><strong>为什么重要</strong><br>逐对象运动模糊开销高，径向模糊按屏幕空间算，成本低，适合高速移动的视觉强化。</p><p><strong>对你而言</strong><br>冲刺、闪避、受击位移时可用它做速度感，比逐对象运动模糊省性能，注意别影响 PVP 可读性。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「unreal」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>教程演示在 UE5.8 用后处理做径向模糊，模仿 Photoshop 滤镜，比逐对象运动模糊更省，用于强化速度感。</p><p><strong>为什么重要</strong><br>逐对象运动模糊开销高，径向模糊是屏幕空间近似，低成本补速度感，适合高速移动或冲刺表现。</p><p><strong>对你而言</strong><br>冲刺、闪避、受击位移时可用它做速度线，比调运动模糊便宜，注意别和 GAS 位移同步冲突。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「unreal」 +20 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
   <title>Apple changes full-disk access permissions to curb abuse from AI agents</title>
   <link>https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-e8138f164adc</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-e8138f164adc</guid>
   <pubDate>Fri, 02 Oct 2026 18:11:27 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>14 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>苹果改macOS隐私设置，限制第三方应用借全盘访问权限读取信息。Meta的AI代理Muse被指未经许可读取用户Messages聊天，Meta称需手动开启全盘访问和Messages连接器两项权限。</p><p><strong>为什么重要</strong><br>全盘访问权限可读任意非root文件、浏览记录、Cookie、聊天。AI代理获此权限后，隐私边界被放大，苹果被迫收紧系统级授权。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/">Ars Technica</a> · <a href="https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents">The Verge AI</a> · <a href="https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/">TechCrunch AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>arXiv最严新规！每人每月最多提交2篇，拒稿不退额度</title>
-  <link>https://www.qbitai.com/2026/10/499958.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-9445f67b7534</guid>
-  <pubDate>Thu, 01 Oct 2026 20:12:15 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>arXiv自2026年10月1日起限投：每人每自然月最多提交2篇，拒稿不退额度，换分类不叠加，另保留最多3篇active投稿限制。</p><p><strong>为什么重要</strong><br>AI让论文产能脱离人力上限，cs.AI两年投稿涨超6倍，月投稿破4万，审核员成瓶颈，学术预印本首次按人头限流。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 146 +10 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/10/499958.html">量子位</a> · <a href="https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>14 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>苹果改macOS隐私设置，限制第三方应用借全盘访问权限读取信息。Meta AI代理Muse被指未经许可读取用户Messages，Meta称需手动开全盘访问和Messages连接器。</p><p><strong>为什么重要</strong><br>全盘访问权限过宽，AI代理可读聊天、浏览记录、Cookie。苹果收紧权限，第三方AI工具访问系统数据受限，开发者需重新设计授权流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/">Ars Technica</a> · <a href="https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents">The Verge AI</a> · <a href="https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/">TechCrunch AI</a></small></p>]]></description>
 </item>
 <item>
   <title>Reigns developer Nerial enters 'hibernation mode,' lays off staff</title>
   <link>https://www.gamedeveloper.com/business/nerial-to-enter-hibernation-mode-and-lay-off-developers</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-04-c7bf9f400bf0</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-c7bf9f400bf0</guid>
   <pubDate>Fri, 02 Oct 2026 11:19:13 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>英国工作室Nerial进入休眠模式，停止开发并裁掉剩余员工。13年发行11款游戏，2021年被Devolver收购，2024年已裁40%。</p><p><strong>为什么重要</strong><br>Devolver旗下再少一个做创新机制的工作室。2022年底以来行业裁员潮延续，中型独立团队生存空间继续收窄。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/nerial-to-enter-hibernation-mode-and-lay-off-developers">Game Developer</a> · <a href="https://www.gamesindustry.biz/reigns-developer-nerial-closes-following-significant-trading-losses-over-past-two-years">GamesIndustry</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>英国工作室Nerial进入休眠模式，停止开发并裁掉剩余员工。13年发行11款游戏，2021年被Devolver收购，2024年已裁40%。</p><p><strong>为什么重要</strong><br>Devolver旗下再少一个做创新系统的小团队。2022年底以来行业裁员潮延续，中型独立工作室生存空间继续收窄。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/nerial-to-enter-hibernation-mode-and-lay-off-developers">Game Developer</a> · <a href="https://www.gamesindustry.biz/reigns-developer-nerial-closes-following-significant-trading-losses-over-past-two-years">GamesIndustry</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
