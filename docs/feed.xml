@@ -4,65 +4,97 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 166 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 171 个事件，只有 11 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 05 Oct 2026 14:01:49 +0800</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 14:40:31 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
+<item>
+  <title>Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads</title>
+  <link>https://www.marktechpost.com/2026/10/05/reflection-ai-introduces-beam-a-501b-open-weight-moe-model-with-23b-active-parameters-for-coding-and-agentic-workloads/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-80b94b021b2f</guid>
+  <pubDate>Mon, 05 Oct 2026 19:16:35 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>64 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Reflection AI发布Beam，501B总参/23B激活MoE，23.8T token预训练，6144块GB300跑4周，RL用10.5K GPU产1亿rollout，SWE-bench 80.9，Apache 2.0权重10月放出。</p><p><strong>为什么重要</strong><br>开源权重前沿从中国模型转向美国厂商，23B激活逼近GLM 5.2，推理算力省3-4倍，企业自托管多一个低成本选项。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 395 +12 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/10/05/reflection-ai-introduces-beam-a-501b-open-weight-moe-model-with-23b-active-parameters-for-coding-and-agentic-workloads/">MarkTechPost</a> · <a href="https://reflection.ai/blog/introducing-beam">Hacker News</a> · <a href="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/">TechCrunch AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Our approach to EU text provenance rules</title>
+  <link>https://openai.com/index/eu-text-provenance</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-afaee41fd649</guid>
+  <pubDate>Mon, 05 Oct 2026 15:00:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>54 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI 发布文本水印方案 textGrain，响应 EU AI Act。API 客户可自愿开启，未来数周在欧盟 ChatGPT 和 Codex 默认加隐形水印。检测器仅限审核研究者。200 token 检出率约 80%，400 token 约 95%；替换 10% 同义词降至 66%，25% 降至 17%。</p><p><strong>为什么重要</strong><br>EU AI Act 要求生成文本机器可读标识，首个大厂落地文本水印。检测脆弱、易被改写绕过，且仅限欧盟区域默认，暴露合规与可用性矛盾。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若做玩家聊天或 AI 生成文本审核，可留意水印易被同义改写破坏，不能作为可靠溯源手段。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/eu-text-provenance">OpenAI</a> · <a href="https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Building advertising for the way people use AI</title>
+  <link>https://openai.com/index/new-chatgpt-ads-format-and-measurement</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-3350a2857c8c</guid>
+  <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>54 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>ChatGPT周活12亿，本月起在美测试图像生成中的视觉广告，广告与生成图分离并标注。接入Hightouch、LiveRamp等转化回传与DV、IAS品牌安全评估。</p><p><strong>为什么重要</strong><br>AI原生平台首次把广告嵌入生成流程，测量生态向AppsFlyer、Triple Whale等归因体系开放，广告位从搜索页转向对话与图像场景。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/new-chatgpt-ads-format-and-measurement">OpenAI</a> · <a href="https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/">TechCrunch AI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Turn off Apple Intelligence on macOS 27 and get its disk space back</title>
+  <link>https://github.com/omlahore/RemoveMacAI</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-0fe85358c895</guid>
+  <pubDate>Sun, 04 Oct 2026 19:42:25 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>53.3 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>RemoveMacAI 工具针对 macOS 27，关闭 Apple Intelligence 并删除本地模型，支持 --keep 保留指定功能、revert 回滚，用配置描述文件屏蔽模型重新下载。</p><p><strong>为什么重要</strong><br>macOS 27 取消单一开关且模型关功能后仍占磁盘，该工具用 Apple 资产服务与限制键清理，反映端侧大模型占用与用户控制权矛盾。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 758 +13.3 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://github.com/omlahore/RemoveMacAI">Hacker News</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s</title>
+  <link>https://github.com/Niko1221/Strata</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-c281f7d9d6ad</guid>
+  <pubDate>Sun, 04 Oct 2026 12:51:53 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>41.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Strata 开源工具在 RTX 5070 12GB 上跑 Qwen3.8-Flash-Next 125B，60 token/s；RTX 3090 24GB 预计 100-140 token/s。需 32GB 内存、80GB 磁盘，模型约 70GB。</p><p><strong>为什么重要</strong><br>消费级显卡本地跑百亿级大模型成为现实，量化到 IQ2_XS/IQ3_S 级别。云端推理成本与隐私顾虑被绕过，独立开发者和小团队可本地部署编码助手。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 911 +13.6 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>Downtown Memphis Virtual Twin Progress | UE5 Devlog 1.3 | One Building At A Time NO AI</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wyuxut/downtown_memphis_virtual_twin_progress_ue5_devlog/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-bee3db665fab</guid>
+  <pubDate>Tue, 06 Oct 2026 05:55:09 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>个人开发者用UE5手工搭建孟菲斯市中心数字孪生，更新到Devlog 1.3，逐栋添加建筑、logo与灯光，明确不用AI生成。</p><p><strong>为什么重要</strong><br>数字孪生通常靠扫描或程序化生成，手工逐栋建模成本高但可控，适合小团队验证城市级场景流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「ue5」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>How do I get a non-photorealistic, "classic game" lighting look in UE5.7 while keeping fully dynamic lighting?</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1wytzuv/how_do_i_get_a_nonphotorealistic_classic_game/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-cf1cd2c0d312</guid>
+  <pubDate>Tue, 06 Oct 2026 04:58:41 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5.7多人游戏求非写实复古光照，需全动态昼夜循环、运行时开关灯、角色动态阴影，拒绝烘焙。</p><p><strong>为什么重要</strong><br>UE5默认Lumen与后处理让画面高度写实，想保留动态光照又做旧世代观感，社区缺少可复用方案。</p><p><strong>对你而言</strong><br>可试关Lumen、降GI强度、调低阴影分辨率与色彩分级，在动态光照下压出2000年代观感。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「ue5」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Ace Combat 8 is The Highest-Reviewed Game in the Series Since the PS2</title>
+  <link>https://80.lv/articles/ace-combat-8-is-the-highest-reviewed-game-in-the-series-since-the-ps2/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-fc88dcf4ebb4</guid>
+  <pubDate>Mon, 05 Oct 2026 21:48:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>《皇牌空战8》Metacritic 88分、OpenCritic 89分，为系列25年来最高；Steam峰值52694人。用UE5加自研云引擎Cloudly，战机4K贴图、面数约6倍，地图1:1约1万平方公里。</p><p><strong>为什么重要</strong><br>证明UE5加自研中间件可兼顾画质与街机手感，云层被当作速度与战术信息载体，而非纯背景。厂商深度参与建模，成为3A航空题材新标杆。</p><p><strong>对你而言</strong><br>云层做速度感与高度反馈的思路可直接用于空战或大世界Locomotion；1:1地图与6倍面数提醒你提前规划LOD、Nanite与网络同步带宽。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Bethesda’s Most Ambitious RPG Nearly Collapsed the Entire Studio in the ’90s</title>
+  <link>https://80.lv/articles/bethesda-s-most-ambitious-rpg-nearly-collapsed-the-entire-studio-in-the-90s/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-6835485e650b</guid>
+  <pubDate>Mon, 05 Oct 2026 21:17:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>《匕首雨》1996年发售，用程序生成约15000个地点，实际三年工期被压到约一年半，加班超一年，QA极少，主任务有致命bug。</p><p><strong>为什么重要</strong><br>它确立技能成长、阵营、道德模糊等《上古卷轴》设计基因，也成失控范围与压榨开发的经典反面案例。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Jagex Unveils Fourth RuneScape MMO Powered by Unreal Engine</title>
+  <link>https://80.lv/articles/jagex-unveils-fourth-runescape-mmo-powered-by-unreal-engine/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-fe66d0378e4b</guid>
+  <pubDate>Mon, 05 Oct 2026 10:44:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Jagex公布第四款RuneScape MMO，用虚幻引擎，代号RuneScape 4，尚处早期开发，距发售还有数年。背景设在Gielinor第六纪元Ashenfall。</p><p><strong>为什么重要</strong><br>老牌MMO厂商转向UE，并称要沿用Dragonwilds积累的技术与社区共创经验。25年IP重启，面向新世代玩家。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。仅可留意其社区共创与长线运营思路，技术细节未公开。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
 <item>
   <title>Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters</title>
   <link>https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-645fa93dc78c</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-06-645fa93dc78c</guid>
   <pubDate>Sat, 03 Oct 2026 10:43:51 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>52.1 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Aleph Alpha发布Kolibri，78.1B总参、3.46B激活的英德MoE，Apache 2.0，FP8约78GB，单张B200/H200或2张H100可跑，vLLM部署，上下文1M。</p><p><strong>为什么重要</strong><br>开源权重模型开始主打主权部署与合规，德国团队全流程自研，24T token训练，德语token效率比GPT-5高11.2%，欧洲受监管行业有了本地替代。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 417 +12.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/">MarkTechPost</a> · <a href="https://tej.as/blog/aleph-alpha-kolibri">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>Niagara Damage Numbers with GAS</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wxig2m/niagara_damage_numbers_with_gas/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-25636f3650ba</guid>
-  <pubDate>Sun, 04 Oct 2026 15:29:35 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者想在GAS的GameplayCue里用Niagara生成伤害数字，替代UMG。需处理多位数和状态文字，但自定义数字拆分逻辑在Cue中报错，变量修改和函数调用失败。</p><p><strong>为什么重要</strong><br>Niagara比UMG高效，但GAS的Cue执行环境限制自定义逻辑，社区教程未覆盖此集成。伤害数字是PVP反馈核心，方案卡住影响手感迭代。</p><p><strong>对你而言</strong><br>可尝试把数字拆分放到Cue外的Ability或AttributeSet中，Cue只传参给Niagara；或改用Niagara的DataChannel传文本。注意Cue的线程限制。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「niagara」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine</title>
-  <link>https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-3167251161ad</guid>
-  <pubDate>Sun, 04 Oct 2026 00:19:38 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>10 分</strong> · MarkTechPost · 能用上的</p><p><strong>发生了什么</strong><br>NVIDIA IsaacTeleop 教程：用 NumPy 在 Colab CPU 上自建 XR 手部/手柄输入，经图式重定向引擎输出机器人动作向量。装 isaacteleop[retargeters-lite]==1.4.145，26 个 OpenXR 手关节、14 个手柄槽位。</p><p><strong>为什么重要</strong><br>XR 输入到机器人动作的重定向被拆成可组合的纯 Python 图节点，无需头显或 OpenXR 运行时。降低了遥操作与动作生成的门槛，影响机器人学习与 XR 交互工具链。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「retarget」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Can i export a lower triangle version of a Mesh that uses Nanite?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wwvgfc/can_i_export_a_lower_triangle_version_of_a_mesh/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-5d4f4a306712</guid>
-  <pubDate>Sat, 03 Oct 2026 19:17:06 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户在 r/unrealengine 问：Fab 买的资产只给 UE 格式、无 FBX、无 LOD，靠 Nanite 撑面数，能否在 UE 里导出低模 FBX。</p><p><strong>为什么重要</strong><br>Nanite 资产常不烘焙 LOD，跨引擎或移动端复用时无法直接降面，暴露了资产交付格式的锁定问题。</p><p><strong>对你而言</strong><br>与你的项目无直接关系；但若团队买 Fab 资产，需确认能否导出低模供移动端或 LOD 用。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「nanite」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Unreal 5.8 - Radial Blur (Photoshop filter) Post Process effect</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1wwrh92/unreal_58_radial_blur_photoshop_filter_post/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-40ba135ddfdc</guid>
-  <pubDate>Sat, 03 Oct 2026 16:30:40 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>教程演示在 UE5.8 用后处理做径向模糊，模仿 Photoshop 滤镜，比逐对象运动模糊更省，用于强化速度感。</p><p><strong>为什么重要</strong><br>逐对象运动模糊开销高，径向模糊是屏幕空间近似，低成本补速度感，适合高速移动或冲刺表现。</p><p><strong>对你而言</strong><br>冲刺、闪避、受击位移时可用它做速度线，比调运动模糊便宜，注意别和 GAS 位移同步冲突。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「unreal」 +20 / 已报过 -30</small></p>]]></description>
-</item>
-<item>
-  <title>Apple changes full-disk access permissions to curb abuse from AI agents</title>
-  <link>https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-e8138f164adc</guid>
-  <pubDate>Fri, 02 Oct 2026 18:11:27 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>14 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>苹果改macOS隐私设置，限制第三方应用借全盘访问权限读取信息。Meta AI代理Muse被指未经许可读取用户Messages，Meta称需手动开全盘访问和Messages连接器。</p><p><strong>为什么重要</strong><br>全盘访问权限过宽，AI代理可读聊天、浏览记录、Cookie。苹果收紧权限，第三方AI工具访问系统数据受限，开发者需重新设计授权流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/">Ars Technica</a> · <a href="https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents">The Verge AI</a> · <a href="https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/">TechCrunch AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>Reigns developer Nerial enters 'hibernation mode,' lays off staff</title>
-  <link>https://www.gamedeveloper.com/business/nerial-to-enter-hibernation-mode-and-lay-off-developers</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-05-c7bf9f400bf0</guid>
-  <pubDate>Fri, 02 Oct 2026 11:19:13 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>英国工作室Nerial进入休眠模式，停止开发并裁掉剩余员工。13年发行11款游戏，2021年被Devolver收购，2024年已裁40%。</p><p><strong>为什么重要</strong><br>Devolver旗下再少一个做创新系统的小团队。2022年底以来行业裁员潮延续，中型独立工作室生存空间继续收窄。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.gamedeveloper.com/business/nerial-to-enter-hibernation-mode-and-lay-off-developers">Game Developer</a> · <a href="https://www.gamesindustry.biz/reigns-developer-nerial-closes-following-significant-trading-losses-over-past-two-years">GamesIndustry</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>22.1 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Aleph Alpha发布Kolibri，78.1B总参数MoE，每token仅激活3.46B（6/384专家+1共享），Apache 2.0，FP8约78GB，单张B200/H200或2张H100可跑，vLLM部署，上下文1M。</p><p><strong>为什么重要</strong><br>开源权重模型开始主打主权部署与合规：德国训练、GDPR脱敏、对齐EU AI Act，德语token效率比GPT-5高11.2%，小激活量换低推理成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 420 +12.1 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/">MarkTechPost</a> · <a href="https://tej.as/blog/aleph-alpha-kolibri">Hacker News</a></small></p>]]></description>
 </item>
 </channel>
 </rss>
