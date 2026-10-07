@@ -1,52 +1,4 @@
 {
-  "b516036d4fbd8f86": {
-    "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-    "first_seen": "2026-09-22",
-    "times": 1,
-    "last_seen": "2026-09-22"
-  },
-  "d5feed8d7ce9ea34": {
-    "title": "Advisory Group on Mathematics and Artificial Intelligence",
-    "first_seen": "2026-09-22",
-    "times": 1,
-    "last_seen": "2026-09-22"
-  },
-  "b9ab38f3ddc591b4": {
-    "title": "What Sun got wrong",
-    "first_seen": "2026-09-22",
-    "times": 1,
-    "last_seen": "2026-09-22"
-  },
-  "3cdba0a7cb639408": {
-    "title": "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了",
-    "first_seen": "2026-09-22",
-    "times": 1,
-    "last_seen": "2026-09-22"
-  },
-  "266cf104ca034326": {
-    "title": "TT Games brings Gotham City to life in LEGO Batman: Legacy of the Dark Knight",
-    "first_seen": "2026-09-22",
-    "times": 1,
-    "last_seen": "2026-09-22"
-  },
-  "0620613efe2141de": {
-    "title": "Last Week In Unreal: 963 commits on ue6-main; 172 on ue5-main | Epic made the UE5 global package version physically unextendable",
-    "first_seen": "2026-09-22",
-    "times": 1,
-    "last_seen": "2026-09-22"
-  },
-  "5c74755841531489": {
-    "title": "How to learn unreal the best way?",
-    "first_seen": "2026-09-22",
-    "times": 1,
-    "last_seen": "2026-09-22"
-  },
-  "807f2d2e67244381": {
-    "title": "Unreal Engine should have a web-playable build option for game jams/portfolios",
-    "first_seen": "2026-09-22",
-    "times": 1,
-    "last_seen": "2026-09-22"
-  },
   "9abf15401a2fa658": {
     "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
     "first_seen": "2026-09-23",
@@ -638,14 +590,14 @@
   "80b94b021b2f4092": {
     "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
     "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
+    "times": 2,
+    "last_seen": "2026-10-07"
   },
   "afaee41fd649f004": {
     "title": "Our approach to EU text provenance rules",
     "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
+    "times": 2,
+    "last_seen": "2026-10-07"
   },
   "3350a2857c8c152d": {
     "title": "Building advertising for the way people use AI",
@@ -674,8 +626,8 @@
   "cf1cd2c0d3121230": {
     "title": "How do I get a non-photorealistic, \"classic game\" lighting look in UE5.7 while keeping fully dynamic lighting?",
     "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
+    "times": 2,
+    "last_seen": "2026-10-07"
   },
   "fc88dcf4ebb4de3f": {
     "title": "Ace Combat 8 is The Highest-Reviewed Game in the Series Since the PS2",
@@ -694,5 +646,59 @@
     "first_seen": "2026-10-06",
     "times": 1,
     "last_seen": "2026-10-06"
+  },
+  "110baf0b06eced0a": {
+    "title": "Introducing Mistral Large 4: Le chonk",
+    "first_seen": "2026-10-07",
+    "times": 1,
+    "last_seen": "2026-10-07"
+  },
+  "40b33394b9737622": {
+    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+    "first_seen": "2026-10-07",
+    "times": 1,
+    "last_seen": "2026-10-07"
+  },
+  "ea41ae0491d5058a": {
+    "title": "Sharing AI progress in mathematics",
+    "first_seen": "2026-10-07",
+    "times": 1,
+    "last_seen": "2026-10-07"
+  },
+  "9b8b5398e78ebcd3": {
+    "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+    "first_seen": "2026-10-07",
+    "times": 1,
+    "last_seen": "2026-10-07"
+  },
+  "a60ea573186730f6": {
+    "title": "Anthropic reported diary entry to police, woman faces felony charge",
+    "first_seen": "2026-10-07",
+    "times": 1,
+    "last_seen": "2026-10-07"
+  },
+  "48affb1294e69ac8": {
+    "title": "How do I get MetaHuman’s eyes on my characters?",
+    "first_seen": "2026-10-07",
+    "times": 1,
+    "last_seen": "2026-10-07"
+  },
+  "083472ba9586aaff": {
+    "title": "Artist Develops Unreal Engine Plug-In for Real-Time Light & Shadow Painting",
+    "first_seen": "2026-10-07",
+    "times": 1,
+    "last_seen": "2026-10-07"
+  },
+  "14cdc56a16c3fee2": {
+    "title": "Last Week In Unreal: 1,065 commits on ue6-main; 123 on ue5-main | MSVC 14.51 got preferred, then banned",
+    "first_seen": "2026-10-07",
+    "times": 1,
+    "last_seen": "2026-10-07"
+  },
+  "c98b6e006ace4c88": {
+    "title": "Need help with metahuman running on android",
+    "first_seen": "2026-10-07",
+    "times": 1,
+    "last_seen": "2026-10-07"
   }
 }
