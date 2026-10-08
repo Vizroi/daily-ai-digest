@@ -11,24 +11,6 @@
     "times": 3,
     "last_seen": "2026-09-25"
   },
-  "8bbbefe1915ca801": {
-    "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-    "first_seen": "2026-09-23",
-    "times": 1,
-    "last_seen": "2026-09-23"
-  },
-  "9b78788c14fafd5b": {
-    "title": "Bungie Is \"Not Done with Destiny\": Vaulted Content Will Be Back & Game Updates Are Coming",
-    "first_seen": "2026-09-23",
-    "times": 1,
-    "last_seen": "2026-09-23"
-  },
-  "7965188bc31e1279": {
-    "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-    "first_seen": "2026-09-23",
-    "times": 1,
-    "last_seen": "2026-09-23"
-  },
   "daa27398d5291ef4": {
     "title": "Unreal Agent",
     "first_seen": "2026-09-23",
@@ -40,18 +22,6 @@
     "first_seen": "2026-09-23",
     "times": 2,
     "last_seen": "2026-09-24"
-  },
-  "9aca007fd71b5910": {
-    "title": "MetaHumans for cinematic cutscenes only for a game",
-    "first_seen": "2026-09-23",
-    "times": 1,
-    "last_seen": "2026-09-23"
-  },
-  "1a87c4a973e755b2": {
-    "title": "Dynamic Radial Menu Wheel - Unreal Engine Tutorial",
-    "first_seen": "2026-09-23",
-    "times": 1,
-    "last_seen": "2026-09-23"
   },
   "904e07875e79e070": {
     "title": "Gemini 3.8 text-to-speech says hello",
@@ -650,20 +620,20 @@
   "110baf0b06eced0a": {
     "title": "Introducing Mistral Large 4: Le chonk",
     "first_seen": "2026-10-07",
-    "times": 1,
-    "last_seen": "2026-10-07"
+    "times": 2,
+    "last_seen": "2026-10-08"
   },
   "40b33394b9737622": {
     "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
     "first_seen": "2026-10-07",
-    "times": 1,
-    "last_seen": "2026-10-07"
+    "times": 2,
+    "last_seen": "2026-10-08"
   },
   "ea41ae0491d5058a": {
     "title": "Sharing AI progress in mathematics",
     "first_seen": "2026-10-07",
-    "times": 1,
-    "last_seen": "2026-10-07"
+    "times": 2,
+    "last_seen": "2026-10-08"
   },
   "9b8b5398e78ebcd3": {
     "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
@@ -700,5 +670,41 @@
     "first_seen": "2026-10-07",
     "times": 1,
     "last_seen": "2026-10-07"
+  },
+  "1f6f69d53a55b429": {
+    "title": "Why we built Unity Spark",
+    "first_seen": "2026-10-08",
+    "times": 1,
+    "last_seen": "2026-10-08"
+  },
+  "637671cbca0bc909": {
+    "title": "Claude Haiku 5.5",
+    "first_seen": "2026-10-08",
+    "times": 1,
+    "last_seen": "2026-10-08"
+  },
+  "926f0400c4cb0bd6": {
+    "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+    "first_seen": "2026-10-08",
+    "times": 1,
+    "last_seen": "2026-10-08"
+  },
+  "db12c103e078455a": {
+    "title": "Multimodal open d1 decision models for the edge",
+    "first_seen": "2026-10-08",
+    "times": 1,
+    "last_seen": "2026-10-08"
+  },
+  "3e3591c18feb4a8a": {
+    "title": "Helping teens learn, plan, and shape the future of AI",
+    "first_seen": "2026-10-08",
+    "times": 1,
+    "last_seen": "2026-10-08"
+  },
+  "355933bb8fd95097": {
+    "title": "My first Unreal Engine game. I made a trailer!",
+    "first_seen": "2026-10-08",
+    "times": 1,
+    "last_seen": "2026-10-08"
   }
 }
