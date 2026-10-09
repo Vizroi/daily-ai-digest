@@ -4,81 +4,73 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 212 个事件，只有 9 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 218 个事件，只有 8 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 08 Oct 2026 14:26:55 +0800</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 14:27:52 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Why we built Unity Spark</title>
-  <link>https://unity.com/blog/why-we-built-unity-spark</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-08-1f6f69d53a55</guid>
-  <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+  <title>Tell HN: I've been paying for a rural Tanzanian's education for 10 years</title>
+  <link>https://news.ycombinator.com/item?id=50006366</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-09-e03ca35700b8</guid>
+  <pubDate>Thu, 08 Oct 2026 14:39:47 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>54 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Unity与Google发布Unity Spark，浏览器内做游戏，无需Unity经验，直连Asset Store用数千美术资产。</p><p><strong>为什么重要</strong><br>3亿人月玩Unity游戏却几乎无人做游戏，此举降低创作门槛，冲击传统引擎学习路径。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18</small></p><p><small>全部来源：<a href="https://unity.com/blog/why-we-built-unity-spark">Unity</a> · <a href="https://www.gamedeveloper.com/programming/unity-unveils-unity-spark-an-prompt-based-tool-for-google-s-ai-games-platform">Game Developer</a> · <a href="https://www.gamesindustry.biz/unity-unveils-a-web-based-ai-game-creation-platform">GamesIndustry</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>41.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>一美国人10年前在坦桑尼亚Ibumila村资助女孩Anwarite，今年她达累斯萨拉姆大学语言研究本科毕业，被斯瓦希里语硕士录取，18个月总费用3,060,000坦先令约1161美元。项目2021年注册501(c)(3)，现支持5名学生。</p><p><strong>为什么重要</strong><br>Njombe地区仅约2%人口完成大学学位。个人小额资助十年后转为正式非营利组织，展示草根教育援助的长期复利效应，与游戏行业无关。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 687 +13.1 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Claude Haiku 5.5</title>
-  <link>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-08-637671cbca0b</guid>
-  <pubDate>Wed, 07 Oct 2026 18:01:32 +0000</pubDate>
+  <title>Star Wars Zero Company developer Bit Reactor begins bringing furloughed staff back</title>
+  <link>https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-begins-bringing-furloughed-staff-back</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-09-d4c576166e72</guid>
+  <pubDate>Wed, 07 Oct 2026 18:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>53.4 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic发布Claude Haiku 5.5，定价$0.10/$0.50每百万token（10万token内），超10万涨5倍；新分词器使同提示token数增1.25倍；Max订阅每月送$100-$500 API额度。</p><p><strong>为什么重要</strong><br>Haiku 4.5价格是GPT-6 Luna的10倍，新模型价格对齐但超长上下文更贵；订阅送等额API额度，缩小与OpenAI Codex订阅的差距。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 800 +13.4 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/">Simon Willison</a> · <a href="https://www.anthropic.com/claude-haiku-5-5">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>《星球大战：零连》开发商Bit Reactor让超半数被停职员工返岗。此前游戏发售前80%员工无薪无福利停职，仅留骨干修bug。</p><p><strong>为什么重要</strong><br>发售前停职八成员工属极端保命操作，反映中型工作室在发行商压力下的脆弱。返岗过半说明首发表现尚可，但其余人仍无薪。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-begins-bringing-furloughed-staff-back">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/business/star-wars-zero-company-developer-bit-reactor-brings-back-over-half-of-furloughed-staff">Game Developer</a></small></p>]]></description>
 </item>
 <item>
-  <title>Meta and Microsoft take steps to reduce employee usage of Claude AI</title>
-  <link>https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-08-926f0400c4cb</guid>
-  <pubDate>Wed, 07 Oct 2026 00:39:21 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>51.6 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta的Claude Code用户从年初约6万降至约3万，转向自研MetaCode（超3万用户）和Muse Code（超6千用户）。微软将员工月AI预算从10万美元砍至约1万美元，内部Claude年支出预估从超10亿降三分之一。</p><p><strong>为什么重要</strong><br>大厂从买外部AI转向自研工具，预算收紧与竞争并存。Anthropic年化收入仍达650亿美元，客户侧用量未减。AI编码助手市场从通用采购转向巨头自建生态。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 333 +11.6 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/">Hacker News</a> · <a href="http://www.geekpark.net/news/372089">极客公园</a></small></p>]]></description>
+  <title>Screen Space Raymarched Displacement in Unreal (The Crimson Desert Technique) - Free Plugin</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x0yx24/screen_space_raymarched_displacement_in_unreal/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-09-a7ab643d5e72</guid>
+  <pubDate>Thu, 08 Oct 2026 18:37:40 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>作者花一个月复刻《红色沙漠》的屏幕空间光线步进位移，做成免费UE插件，附演示视频与Patreon下载。</p><p><strong>为什么重要</strong><br>屏幕空间位移可绕过传统曲面细分开销，在低模上做出高细节表面，对开放世界与PVP场景性能友好。</p><p><strong>对你而言</strong><br>可评估用于地形、盔甲、受击凹陷等细节，但屏幕空间方案在快速位移和网络同步下易露馅，需谨慎。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「unreal」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Multimodal open d1 decision models for the edge</title>
-  <link>https://huggingface.co/blog/LiquidAI/open-d1</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-08-db12c103e078</guid>
-  <pubDate>Wed, 07 Oct 2026 16:54:33 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Liquid AI发布d1-3B与d1-omni-600M决策模型，单次前向出结果。d1-3B在Jetson AGX Thor上16ms，RTX 4090上8ms，Decision Index 0.2.1得48.57，超Decider 35B-A3B。</p><p><strong>为什么重要</strong><br>决策模型不走token生成，延迟压到10ms级，边缘设备可跑3B多模态。小模型在分类、意图、毒性检测上反超大模型，端侧AI交互形态可能改变。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS技能、动画蓝图、网络同步不涉及LLM推理；若做NPC意图分类可参考其单次前向低延迟思路。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://huggingface.co/blog/LiquidAI/open-d1">HuggingFace Blog</a> · <a href="https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens/">MarkTechPost</a></small></p>]]></description>
-</item>
-<item>
-  <title>Helping teens learn, plan, and shape the future of AI</title>
-  <link>https://openai.com/index/teens-learn-and-plan</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-08-3e3591c18feb</guid>
-  <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>OpenAI为18岁以下账号默认启用ChatGPT for Teens，新增College Planner，覆盖10-12年级美高四年制大学申请；一周内近120万青少年用学习可视化，18万用Study Mode，日均使用不足15分钟。</p><p><strong>为什么重要</strong><br>AI学习工具正式进入K-12与升学场景，OpenAI以1.2亿用户规模切入教育，并资助College Advising Corps与波士顿儿童医院数字健康实验室，教育AI竞争从通用问答转向垂直流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://openai.com/index/teens-learn-and-plan">OpenAI</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards">The Verge AI</a></small></p>]]></description>
+  <title>Master Character Animation with UE5 &amp; Maya with This Gnomon Workshop</title>
+  <link>https://80.lv/articles/master-character-animation-with-ue5-maya-with-this-gnomon-workshop/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-09-904dbeda6425</guid>
+  <pubDate>Thu, 08 Oct 2026 11:58:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Gnomon推出5小时14课UE5+Maya技术动画课，Respawn高级技术动画师Taylor Whitsett主讲，含FBX模型与贴图工程文件。</p><p><strong>为什么重要</strong><br>课程覆盖动画蓝图、混合空间、瞄准偏移、蒙太奇、根运动、Notify连招、IK重定向与增强输入，是少见的完整游戏向管线教学。</p><p><strong>对你而言</strong><br>可直接对照其数据驱动动画系统与IK Rig重定向做法，排查自身动画蓝图与连招Notify的调试盲区。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「ue5」 +20</small></p>]]></description>
 </item>
 <item>
   <title>My first Unreal Engine game. I made a trailer!</title>
   <link>https://www.reddit.com/r/unrealengine/comments/1x0c4s7/my_first_unreal_engine_game_i_made_a_trailer/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-08-355933bb8fd9</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-09-355933bb8fd9</guid>
   <pubDate>Wed, 07 Oct 2026 23:48:47 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>一位开发者在 r/unrealengine 发布首个 UE 项目概念 demo 预告片，用于作品集展示。</p><p><strong>为什么重要</strong><br>个人作品集 demo 是 UE 开发者求职的常见敲门砖，反映社区入门项目活跃。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>8.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>一位开发者在 r/unrealengine 发布首个 UE 项目预告片，定位为作品集概念演示。</p><p><strong>为什么重要</strong><br>个人作品集演示增多，反映 UE 入门门槛降低，招聘方更看重可玩概念而非完整产品。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +4.8 / 命中「unreal engine」 +20 / 已报过 -30</small></p>]]></description>
 </item>
 <item>
   <title>EmbeddingGemma 2: an open, lightweight multimodal embedding model</title>
   <link>https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-08-40b33394b973</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-09-40b33394b973</guid>
   <pubDate>Tue, 06 Oct 2026 16:03:49 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>56.1 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布EmbeddingGemma 2，740M参数多模态嵌入模型，Apache 2.0开源。文本仅需270M，视觉170M、音频300M可选。MRL支持768维截断至128维，省6倍存储。8K上下文，Pixel 11 Pro上文本约191MB内存，全模态约567MB。</p><p><strong>为什么重要</strong><br>上代下载超2000万次。这代统一代码、图像、视频、音频嵌入空间，MTEB Code从68.76升至78.68。亚1B模型可本地跑多模态检索，隐私与延迟优势明显，冲击云端嵌入API。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS、动画蓝图、战斗手感、网络同步均不涉及嵌入检索。若做战斗日志语义检索或本地代码索引可留意，但非当前工作范畴。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 420 +12.1 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/">DeepMind</a> · <a href="https://simonwillison.net/2026/Oct/6/hn-49983751/">Simon Willison</a> · <a href="https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/">MarkTechPost</a> · <a href="https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>44.1 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>谷歌发布EmbeddingGemma 2，740M参数多模态嵌入模型，Apache 2.0开源，文本仅需270M，视觉170M、音频300M可选，支持768至128维MRL截断，8K上下文，Pixel 11 Pro上文本约191MB内存。</p><p><strong>为什么重要</strong><br>上代下载超2000万次。多模态嵌入统一代码、图像、视频、音频，MTEB代码分从68.76升至78.68，端侧RAG与跨模态检索门槛大幅降低。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 431 +12.1 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/">DeepMind</a> · <a href="https://simonwillison.net/2026/Oct/6/hn-49983751/">Simon Willison</a> · <a href="https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Introducing Mistral Large 4: Le chonk</title>
-  <link>https://simonwillison.net/2026/Oct/6/le-chonk/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-08-110baf0b06ec</guid>
-  <pubDate>Tue, 06 Oct 2026 13:15:49 +0000</pubDate>
+  <title>Claude Haiku 5.5</title>
+  <link>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-09-637671cbca0b</guid>
+  <pubDate>Wed, 07 Oct 2026 18:01:32 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>37.2 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Mistral发布Large 4预览版：1万亿参数、490亿激活，用3800块Grace Blackwell训练，AA得分38，仅API可用，月底开源权重。</p><p><strong>为什么重要</strong><br>较去年Large 3的AA 9分大幅回升，但仍落后DeepSeek 4.1 Flash，约落后前沿6个月，Mistral重回竞争。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 2009 +15.2 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Oct/6/le-chonk/">Simon Willison</a> · <a href="https://simonwillison.net/2026/Oct/6/hn-49982139/">Simon Willison</a> · <a href="https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/">MarkTechPost</a> · <a href="https://mistral.ai/news/mistral-large-4/\">Hacker News</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>35.9 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Anthropic发布Claude Haiku 5.5，定价$0.10/$0.50每百万token（10万token内），超10万涨5倍；新分词器使同提示词token数增1.25倍。</p><p><strong>为什么重要</strong><br>与GPT-6 Luna同价但10万token以上更贵，Luna仅涨至$0.20/$0.75；Sonnet 5.5缓存读取降价一半，Max订阅每月赠$100-$200 API额度。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 1036 +13.9 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/">Simon Willison</a> · <a href="https://www.marktechpost.com/2026/10/07/anthropic-releases-claude-haiku-5-5-a-small-model-with-1m-context-priced-at-0-10-per-million-input-tokens/">MarkTechPost</a> · <a href="https://www.anthropic.com/claude-haiku-5-5">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Sharing AI progress in mathematics</title>
-  <link>https://openai.com/index/sharing-ai-progress-in-mathematics</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-08-ea41ae0491d5</guid>
-  <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+  <title>Multimodal open d1 decision models for the edge</title>
+  <link>https://huggingface.co/blog/LiquidAI/open-d1</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-09-db12c103e078</guid>
+  <pubDate>Wed, 07 Oct 2026 16:54:33 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>24 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>OpenAI用内部前沿模型产出数学结果，在GitHub发布论文与Lean形式化证明，公开10份推理摘要、算力统计，平均一题约等于ChatGPT Pro思考3小时。</p><p><strong>为什么重要</strong><br>AI开始直接产出可被Lean机器验证的新数学证明，并公开算力与推理过程，学术出版与同行评审的规则被推到台前。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://openai.com/index/sharing-ai-progress-in-mathematics">OpenAI</a> · <a href="https://www.qbitai.com/2026/10/501749.html">量子位</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github">The Verge AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Liquid AI开源d1-3B与d1-omni-600M决策模型，单次前向输出结构化答案。d1-3B在Jetson AGX Thor上16ms，RTX 4090上8ms，Decision Index 48.57超Decider 35B。</p><p><strong>为什么重要</strong><br>决策模型不走token生成，边缘延迟压到10ms级。小模型在分类、意图、医疗QA上反超4B-35B，端侧实时判断的性价比被重写。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS技能与战斗手感不依赖此类文本/图像决策模型。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://huggingface.co/blog/LiquidAI/open-d1">HuggingFace Blog</a> · <a href="https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens/">MarkTechPost</a></small></p>]]></description>
 </item>
 </channel>
 </rss>

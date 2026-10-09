@@ -1,27 +1,9 @@
 {
-  "9abf15401a2fa658": {
-    "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
-    "first_seen": "2026-09-23",
-    "times": 2,
-    "last_seen": "2026-09-24"
-  },
   "875d7b11861eb673": {
     "title": "Introducing GPT-6 Sol and Luna",
     "first_seen": "2026-09-23",
     "times": 3,
     "last_seen": "2026-09-25"
-  },
-  "daa27398d5291ef4": {
-    "title": "Unreal Agent",
-    "first_seen": "2026-09-23",
-    "times": 2,
-    "last_seen": "2026-09-24"
-  },
-  "75469639504c3c09": {
-    "title": "Audio Reactive Toolkit for Unreal Engine",
-    "first_seen": "2026-09-23",
-    "times": 2,
-    "last_seen": "2026-09-24"
   },
   "904e07875e79e070": {
     "title": "Gemini 3.8 text-to-speech says hello",
@@ -29,35 +11,11 @@
     "times": 3,
     "last_seen": "2026-09-26"
   },
-  "a7ede18e93a38d65": {
-    "title": "Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT",
-    "first_seen": "2026-09-24",
-    "times": 1,
-    "last_seen": "2026-09-24"
-  },
   "75b90aef8cc23c17": {
     "title": "Discord re-introduces age verification policy based on 'account signal' methodology",
     "first_seen": "2026-09-24",
     "times": 2,
     "last_seen": "2026-09-25"
-  },
-  "e9acbe8000a59f94": {
-    "title": "Bungie says it's \"not done with Destiny\", aims to earn back player trust by restoring archived Destiny 2 content",
-    "first_seen": "2026-09-24",
-    "times": 1,
-    "last_seen": "2026-09-24"
-  },
-  "6968746ebe4c9149": {
-    "title": "2D Pseudo-3D Dice Roll UI Material in Unreal Engine",
-    "first_seen": "2026-09-24",
-    "times": 1,
-    "last_seen": "2026-09-24"
-  },
-  "e142c2b0ae00838a": {
-    "title": "if an unreal engine 4 dosent support Daynamic resoultion from in game settings can the user add it via Engine.ini tweak?",
-    "first_seen": "2026-09-24",
-    "times": 1,
-    "last_seen": "2026-09-24"
   },
   "f89df38087578c1e": {
     "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
@@ -626,8 +584,8 @@
   "40b33394b9737622": {
     "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
     "first_seen": "2026-10-07",
-    "times": 2,
-    "last_seen": "2026-10-08"
+    "times": 3,
+    "last_seen": "2026-10-09"
   },
   "ea41ae0491d5058a": {
     "title": "Sharing AI progress in mathematics",
@@ -680,8 +638,8 @@
   "637671cbca0bc909": {
     "title": "Claude Haiku 5.5",
     "first_seen": "2026-10-08",
-    "times": 1,
-    "last_seen": "2026-10-08"
+    "times": 2,
+    "last_seen": "2026-10-09"
   },
   "926f0400c4cb0bd6": {
     "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
@@ -692,8 +650,8 @@
   "db12c103e078455a": {
     "title": "Multimodal open d1 decision models for the edge",
     "first_seen": "2026-10-08",
-    "times": 1,
-    "last_seen": "2026-10-08"
+    "times": 2,
+    "last_seen": "2026-10-09"
   },
   "3e3591c18feb4a8a": {
     "title": "Helping teens learn, plan, and shape the future of AI",
@@ -704,7 +662,31 @@
   "355933bb8fd95097": {
     "title": "My first Unreal Engine game. I made a trailer!",
     "first_seen": "2026-10-08",
+    "times": 2,
+    "last_seen": "2026-10-09"
+  },
+  "e03ca35700b8ba9c": {
+    "title": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
+    "first_seen": "2026-10-09",
     "times": 1,
-    "last_seen": "2026-10-08"
+    "last_seen": "2026-10-09"
+  },
+  "d4c576166e7264c7": {
+    "title": "Star Wars Zero Company developer Bit Reactor begins bringing furloughed staff back",
+    "first_seen": "2026-10-09",
+    "times": 1,
+    "last_seen": "2026-10-09"
+  },
+  "a7ab643d5e726b93": {
+    "title": "Screen Space Raymarched Displacement in Unreal (The Crimson Desert Technique) - Free Plugin",
+    "first_seen": "2026-10-09",
+    "times": 1,
+    "last_seen": "2026-10-09"
+  },
+  "904dbeda64256ca1": {
+    "title": "Master Character Animation with UE5 & Maya with This Gnomon Workshop",
+    "first_seen": "2026-10-09",
+    "times": 1,
+    "last_seen": "2026-10-09"
   }
 }
