@@ -1,33 +1,9 @@
 {
-  "875d7b11861eb673": {
-    "title": "Introducing GPT-6 Sol and Luna",
-    "first_seen": "2026-09-23",
-    "times": 3,
-    "last_seen": "2026-09-25"
-  },
   "904e07875e79e070": {
     "title": "Gemini 3.8 text-to-speech says hello",
     "first_seen": "2026-09-24",
     "times": 3,
     "last_seen": "2026-09-26"
-  },
-  "75b90aef8cc23c17": {
-    "title": "Discord re-introduces age verification policy based on 'account signal' methodology",
-    "first_seen": "2026-09-24",
-    "times": 2,
-    "last_seen": "2026-09-25"
-  },
-  "f89df38087578c1e": {
-    "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
-    "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
-  },
-  "63b3f1fff337b18e": {
-    "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
-    "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
   },
   "614b78f192d5ad8a": {
     "title": "Introducing Gemini 3.8 Live with Live Avatar",
@@ -40,42 +16,6 @@
     "first_seen": "2026-09-25",
     "times": 2,
     "last_seen": "2026-09-26"
-  },
-  "08fe30d5bf1de8c3": {
-    "title": "Google’s Project Suncatcher to put ML infrastructure in space",
-    "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
-  },
-  "0dcd68c20cdbd982": {
-    "title": "Unreal Engine 5 Realtime GI IBLs realtime GI for free",
-    "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
-  },
-  "f71212d22536ef25": {
-    "title": "Perforce => Diversion for Unreal Version Control. Looking for real life experience",
-    "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
-  },
-  "b05fbd4dfc872ef1": {
-    "title": "Dutch consumer group files lawsuit against Epic for misleading young players on Fortnite, seeking more than €100m in compensation",
-    "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
-  },
-  "1442cd15fd872108": {
-    "title": "Get Hundreds of Striking Production-Ready Assets with This Unreal Engine Environment Bundle",
-    "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
-  },
-  "b3620dc5f450b388": {
-    "title": "I’m a videographer who learned Unreal Engine to make a music video. Here’s where I landed.",
-    "first_seen": "2026-09-25",
-    "times": 1,
-    "last_seen": "2026-09-25"
   },
   "06c2eacce4e63ea8": {
     "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
@@ -638,8 +578,8 @@
   "637671cbca0bc909": {
     "title": "Claude Haiku 5.5",
     "first_seen": "2026-10-08",
-    "times": 2,
-    "last_seen": "2026-10-09"
+    "times": 3,
+    "last_seen": "2026-10-10"
   },
   "926f0400c4cb0bd6": {
     "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
@@ -680,13 +620,55 @@
   "a7ab643d5e726b93": {
     "title": "Screen Space Raymarched Displacement in Unreal (The Crimson Desert Technique) - Free Plugin",
     "first_seen": "2026-10-09",
-    "times": 1,
-    "last_seen": "2026-10-09"
+    "times": 2,
+    "last_seen": "2026-10-10"
   },
   "904dbeda64256ca1": {
     "title": "Master Character Animation with UE5 & Maya with This Gnomon Workshop",
     "first_seen": "2026-10-09",
     "times": 1,
     "last_seen": "2026-10-09"
+  },
+  "263d61e8178a891a": {
+    "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+    "first_seen": "2026-10-10",
+    "times": 1,
+    "last_seen": "2026-10-10"
+  },
+  "3c38c47d07b08704": {
+    "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+    "first_seen": "2026-10-10",
+    "times": 1,
+    "last_seen": "2026-10-10"
+  },
+  "94ab8f6efe2fc319": {
+    "title": "OpenAI withdraws three mathematical results",
+    "first_seen": "2026-10-10",
+    "times": 1,
+    "last_seen": "2026-10-10"
+  },
+  "30f5083eaa3fe9ff": {
+    "title": "Ubisoft to sunset Rainbow Six Mobile just seven months after launch",
+    "first_seen": "2026-10-10",
+    "times": 1,
+    "last_seen": "2026-10-10"
+  },
+  "68250398d5f3e67d": {
+    "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
+    "first_seen": "2026-10-10",
+    "times": 1,
+    "last_seen": "2026-10-10"
+  },
+  "a4293c992e5455d4": {
+    "title": "Looking for honest feedback on my Unreal Engine 5 teaser",
+    "first_seen": "2026-10-10",
+    "times": 1,
+    "last_seen": "2026-10-10"
+  },
+  "3c28ef38559b0403": {
+    "title": "Beyond the Dark: Nightwatch, UE5 Switch 2 game using Gameshare tech is up on the Eshop",
+    "first_seen": "2026-10-10",
+    "times": 1,
+    "last_seen": "2026-10-10"
   }
 }
