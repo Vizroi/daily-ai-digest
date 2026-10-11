@@ -1,75 +1,15 @@
 {
-  "904e07875e79e070": {
-    "title": "Gemini 3.8 text-to-speech says hello",
-    "first_seen": "2026-09-24",
-    "times": 3,
-    "last_seen": "2026-09-26"
-  },
   "614b78f192d5ad8a": {
     "title": "Introducing Gemini 3.8 Live with Live Avatar",
     "first_seen": "2026-09-25",
     "times": 3,
     "last_seen": "2026-09-27"
   },
-  "0452e33b692eda09": {
-    "title": "Meta VR Glasses are coming. Build with Unity from day one.",
-    "first_seen": "2026-09-25",
-    "times": 2,
-    "last_seen": "2026-09-26"
-  },
-  "06c2eacce4e63ea8": {
-    "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-    "first_seen": "2026-09-26",
-    "times": 1,
-    "last_seen": "2026-09-26"
-  },
-  "a72d8abe3fbc7592": {
-    "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
-    "first_seen": "2026-09-26",
-    "times": 1,
-    "last_seen": "2026-09-26"
-  },
-  "cdec0f560d852f16": {
-    "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-    "first_seen": "2026-09-26",
-    "times": 1,
-    "last_seen": "2026-09-26"
-  },
-  "12320472461fecea": {
-    "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
-    "first_seen": "2026-09-26",
-    "times": 1,
-    "last_seen": "2026-09-26"
-  },
-  "c06fe0fe81067872": {
-    "title": "I made an MCP server that lets Claude work in Unreal Engine and Blender, and it checks the editor after every change",
-    "first_seen": "2026-09-26",
-    "times": 1,
-    "last_seen": "2026-09-26"
-  },
-  "771e18ee5c8d2a4d": {
-    "title": "Vertex paint on modeled assets in Unreal Engine 5.6",
-    "first_seen": "2026-09-26",
-    "times": 1,
-    "last_seen": "2026-09-26"
-  },
-  "47317d4d1dd05701": {
-    "title": "Developer Behind the Scenes | Replacements | Band of Brothers in Unreal Engine 5.7",
-    "first_seen": "2026-09-26",
-    "times": 1,
-    "last_seen": "2026-09-26"
-  },
   "f2714cf2585beb97": {
     "title": "How to Create Futuristic Hovercraft Flight Simulator Inspired by Matrix",
     "first_seen": "2026-09-26",
     "times": 3,
     "last_seen": "2026-09-28"
-  },
-  "688ccdff277a3d3d": {
-    "title": "Does Mutable assist with skinning clothes to a metahuman?",
-    "first_seen": "2026-09-26",
-    "times": 1,
-    "last_seen": "2026-09-26"
   },
   "d86f3ea7709f4573": {
     "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
@@ -650,14 +590,14 @@
   "30f5083eaa3fe9ff": {
     "title": "Ubisoft to sunset Rainbow Six Mobile just seven months after launch",
     "first_seen": "2026-10-10",
-    "times": 1,
-    "last_seen": "2026-10-10"
+    "times": 2,
+    "last_seen": "2026-10-11"
   },
   "68250398d5f3e67d": {
     "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
     "first_seen": "2026-10-10",
-    "times": 1,
-    "last_seen": "2026-10-10"
+    "times": 2,
+    "last_seen": "2026-10-11"
   },
   "a4293c992e5455d4": {
     "title": "Looking for honest feedback on my Unreal Engine 5 teaser",
@@ -670,5 +610,53 @@
     "first_seen": "2026-10-10",
     "times": 1,
     "last_seen": "2026-10-10"
+  },
+  "fb2e8981d3180675": {
+    "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+    "first_seen": "2026-10-11",
+    "times": 1,
+    "last_seen": "2026-10-11"
+  },
+  "635985e2b8517ffb": {
+    "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+    "first_seen": "2026-10-11",
+    "times": 1,
+    "last_seen": "2026-10-11"
+  },
+  "2939308aa187e0e9": {
+    "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+    "first_seen": "2026-10-11",
+    "times": 1,
+    "last_seen": "2026-10-11"
+  },
+  "c285dd9fe43a8195": {
+    "title": "Xbox CEO unveils 'new Xbox division' for game-adjacent ventures named 'XP'",
+    "first_seen": "2026-10-11",
+    "times": 1,
+    "last_seen": "2026-10-11"
+  },
+  "4dd012a5c0fb3f22": {
+    "title": "Unreal 5.8 - Materials Masterclass - Chapter 9: Animation using gradients",
+    "first_seen": "2026-10-11",
+    "times": 1,
+    "last_seen": "2026-10-11"
+  },
+  "90f4173fffac9129": {
+    "title": "Free - [Humble Bumble] Unreal Engine Real-Time Simulation & FX Suite",
+    "first_seen": "2026-10-11",
+    "times": 1,
+    "last_seen": "2026-10-11"
+  },
+  "e61eeba92377e98b": {
+    "title": "Our indie team is making a dark fantasy co-op roguelike in Unreal Engine — here's our new teaser!",
+    "first_seen": "2026-10-11",
+    "times": 1,
+    "last_seen": "2026-10-11"
+  },
+  "e82823995483c2dd": {
+    "title": "Cover combat in UE 5.8 with Lyra and GAS, and the two bugs that bit me",
+    "first_seen": "2026-10-11",
+    "times": 1,
+    "last_seen": "2026-10-11"
   }
 }
