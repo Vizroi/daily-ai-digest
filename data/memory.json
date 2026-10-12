@@ -1,39 +1,9 @@
 {
-  "614b78f192d5ad8a": {
-    "title": "Introducing Gemini 3.8 Live with Live Avatar",
-    "first_seen": "2026-09-25",
-    "times": 3,
-    "last_seen": "2026-09-27"
-  },
   "f2714cf2585beb97": {
     "title": "How to Create Futuristic Hovercraft Flight Simulator Inspired by Matrix",
     "first_seen": "2026-09-26",
     "times": 3,
     "last_seen": "2026-09-28"
-  },
-  "d86f3ea7709f4573": {
-    "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
-    "first_seen": "2026-09-27",
-    "times": 1,
-    "last_seen": "2026-09-27"
-  },
-  "574562eebc44bd9f": {
-    "title": "Meta unveils AI-powered game tools for mobile devices and browsers; announces VR Glasses with day-one Unity support",
-    "first_seen": "2026-09-27",
-    "times": 1,
-    "last_seen": "2026-09-27"
-  },
-  "023697e369f7017d": {
-    "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-    "first_seen": "2026-09-27",
-    "times": 1,
-    "last_seen": "2026-09-27"
-  },
-  "097de2895c64cb2d": {
-    "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
-    "first_seen": "2026-09-27",
-    "times": 1,
-    "last_seen": "2026-09-27"
   },
   "8b0d908bf61e72f2": {
     "title": "'This shows the power that comes from employees joining forces:' King signs collective bargaining agreement with union workers",
@@ -52,18 +22,6 @@
     "first_seen": "2026-09-27",
     "times": 2,
     "last_seen": "2026-09-28"
-  },
-  "c5610c40d84d98d1": {
-    "title": "Creating clothes for MetaHumans",
-    "first_seen": "2026-09-27",
-    "times": 1,
-    "last_seen": "2026-09-27"
-  },
-  "58befd16d58874f2": {
-    "title": "UE5: Red Dot material produces double outlines when dlss is aktiv.",
-    "first_seen": "2026-09-27",
-    "times": 1,
-    "last_seen": "2026-09-27"
   },
   "6ae964d10f7b019d": {
     "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
@@ -590,8 +548,8 @@
   "30f5083eaa3fe9ff": {
     "title": "Ubisoft to sunset Rainbow Six Mobile just seven months after launch",
     "first_seen": "2026-10-10",
-    "times": 2,
-    "last_seen": "2026-10-11"
+    "times": 3,
+    "last_seen": "2026-10-12"
   },
   "68250398d5f3e67d": {
     "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
@@ -614,8 +572,8 @@
   "fb2e8981d3180675": {
     "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
     "first_seen": "2026-10-11",
-    "times": 1,
-    "last_seen": "2026-10-11"
+    "times": 2,
+    "last_seen": "2026-10-12"
   },
   "635985e2b8517ffb": {
     "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
@@ -638,8 +596,8 @@
   "4dd012a5c0fb3f22": {
     "title": "Unreal 5.8 - Materials Masterclass - Chapter 9: Animation using gradients",
     "first_seen": "2026-10-11",
-    "times": 1,
-    "last_seen": "2026-10-11"
+    "times": 2,
+    "last_seen": "2026-10-12"
   },
   "90f4173fffac9129": {
     "title": "Free - [Humble Bumble] Unreal Engine Real-Time Simulation & FX Suite",
@@ -650,13 +608,49 @@
   "e61eeba92377e98b": {
     "title": "Our indie team is making a dark fantasy co-op roguelike in Unreal Engine — here's our new teaser!",
     "first_seen": "2026-10-11",
-    "times": 1,
-    "last_seen": "2026-10-11"
+    "times": 2,
+    "last_seen": "2026-10-12"
   },
   "e82823995483c2dd": {
     "title": "Cover combat in UE 5.8 with Lyra and GAS, and the two bugs that bit me",
     "first_seen": "2026-10-11",
+    "times": 2,
+    "last_seen": "2026-10-12"
+  },
+  "1c5caa0caf9d233e": {
+    "title": "The gap in shared understanding of LLM capability is widening",
+    "first_seen": "2026-10-12",
     "times": 1,
-    "last_seen": "2026-10-11"
+    "last_seen": "2026-10-12"
+  },
+  "e8449d026fef5d20": {
+    "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+    "first_seen": "2026-10-12",
+    "times": 1,
+    "last_seen": "2026-10-12"
+  },
+  "0a771370fc5ee9dd": {
+    "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
+    "first_seen": "2026-10-12",
+    "times": 1,
+    "last_seen": "2026-10-12"
+  },
+  "ce53ceb81a5e4ef9": {
+    "title": "Nano Banana终于2.1了！4K直出，中文进步太明显",
+    "first_seen": "2026-10-12",
+    "times": 1,
+    "last_seen": "2026-10-12"
+  },
+  "89d0ad54f54b5bc9": {
+    "title": "Unreal Engine Minigames Collection - Available on FAB",
+    "first_seen": "2026-10-12",
+    "times": 1,
+    "last_seen": "2026-10-12"
+  },
+  "0ee6076a6d262e69": {
+    "title": "Laptop for simple UE5 blueprinting and experimenting",
+    "first_seen": "2026-10-12",
+    "times": 1,
+    "last_seen": "2026-10-12"
   }
 }
