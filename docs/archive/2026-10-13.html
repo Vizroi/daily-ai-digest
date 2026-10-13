@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>每日内参 · 2026-10-13</title>
+<meta name="description" content="今日必读 3 条，深读 7 条，速览 98 条。">
+<link rel="alternate" type="application/rss+xml" title="每日内参" href="../feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+SC:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  /* 报纸灰，不是亮白也不是 AI 默认奶油色 */
+  --paper:#EDEAE1;
+  --panel:#F8F6F0;
+  --ink:#1F1C19;
+  --ink-line:#2A2622;      /* 硬投影用，比正文墨色浅一点，边界不至于糊成一团 */
+  --ink-soft:#5A554D;
+  --ink-faint:#8B8579;
+  --rule:#C9C3B6;
+  --rule-soft:#DCD7CB;
+  /* 降饱和朱红：只用于分数与优先级，绝不他用 */
+  --red:#A8423A;
+  --red-deep:#8A332C;
+  /* 旧纸黄：只用于命中徽章 */
+  --mustard:#D8BF74;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",-apple-system,system-ui,sans-serif;
+  --num:"Bangers","Noto Sans SC",var(--sans);
+}
+
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:15px;line-height:1.8;
+  font-feature-settings:"tnum";
+  padding:0 0 90px;
+}
+
+.wrap{max-width:820px;margin:0 auto;padding:0 22px}
+
+/* ── 报头 ── */
+.masthead{padding:38px 0 0}
+.masthead-top{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;
+  border-bottom:5px solid var(--ink);padding-bottom:8px}
+.masthead h1{
+  font-weight:900;font-size:42px;line-height:.95;letter-spacing:-.02em;
+  transform:skewX(-7deg);text-shadow:4px 4px 0 var(--red);
+}
+.masthead .dateline{margin-left:auto;font-family:var(--mono);font-size:11px;
+  color:var(--ink-soft);text-align:right;line-height:1.65;padding-bottom:3px}
+.masthead .dateline b{color:var(--ink);font-weight:700}
+
+/* 读数条：黑白交替的胶片格，编码今天这一期的加工量 */
+.readout{display:flex;flex-wrap:wrap;border-bottom:3px solid var(--ink)}
+.readout span{font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.02em;
+  padding:5px 11px;border-right:3px solid var(--ink);background:var(--ink);color:var(--paper)}
+.readout span:nth-child(even){background:transparent;color:var(--ink)}
+.readout span:last-child{border-right:0}
+
+/* ── 栏目名：斜切黑标签 ── */
+.section{margin-top:44px}
+.lbl{display:flex;align-items:baseline;gap:10px;
+  background:var(--ink);color:var(--paper);padding:5px 14px;
+  transform:skewX(-7deg);margin-bottom:16px}
+.lbl h2{font-weight:900;font-size:14px;letter-spacing:.3em;transform:skewX(7deg)}
+.lbl .en{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--mustard);transform:skewX(7deg)}
+.lbl .n{margin-left:auto;font-family:var(--mono);font-size:10px;transform:skewX(7deg);
+  color:#BDB6A6}
+.note{font-family:var(--mono);font-size:11px;color:var(--ink-soft);line-height:1.7;
+  margin:-6px 0 16px;padding-left:2px}
+
+/* ── 分格 ── */
+.panel{border:3px solid var(--ink);background:var(--panel);
+  box-shadow:6px 6px 0 var(--ink-line);margin-bottom:26px}
+.panel .top{position:relative;padding:22px 20px 16px}
+
+/* 集中線：只给头条一格。低饱和方案里它靠密度而不是颜色出效果 */
+.panel.hero .top::before{content:"";position:absolute;inset:-45%;pointer-events:none;
+  background:repeating-conic-gradient(from 0turn at 64% 38%,var(--ink) 0 .5deg,transparent .5deg 3.6deg);
+  -webkit-mask:radial-gradient(circle at 64% 38%,transparent 24%,#000 64%);
+  mask:radial-gradient(circle at 64% 38%,transparent 24%,#000 64%);opacity:.26}
+.panel.hero .top>*{position:relative}
+
+.panel h3{font-weight:900;font-size:26px;line-height:1.32;letter-spacing:-.005em;
+  max-width:23em;padding-right:96px}
+.panel.hero h3{font-size:30px}
+.panel h3 a{color:var(--ink);text-decoration:none;
+  border-bottom:2px solid transparent;transition:border-color .15s}
+.panel h3 a:hover,.panel h3 a:focus-visible{border-bottom-color:var(--red)}
+.panel h3 .orig{display:block;font-size:12px;font-weight:400;color:var(--ink-faint);
+  margin-top:7px;line-height:1.55;letter-spacing:0;padding-right:0}
+
+/* ── 签名元素：伤害数字 + 覆盖条 ── */
+.dmg{position:absolute;top:14px;right:16px;text-align:center;transform:rotate(8deg);z-index:2}
+.dmg b{display:block;font-family:var(--num);font-weight:400;font-size:54px;line-height:.82;
+  color:var(--red);-webkit-text-stroke:3px var(--ink);paint-order:stroke fill;letter-spacing:.02em}
+.dmg .unit{display:block;font-family:var(--mono);font-size:8.5px;font-weight:700;letter-spacing:.2em;
+  color:var(--ink-soft);margin-top:1px}
+.bars{display:flex;gap:2px;justify-content:center;margin-top:5px}
+.bar{width:7px;height:13px;background:var(--paper);border:2px solid var(--ink);
+  transform-origin:bottom;animation:rise .4s cubic-bezier(.2,.8,.2,1) backwards}
+.bar.on{background:var(--red)}
+.cov{display:block;font-family:var(--mono);font-size:9px;font-weight:700;color:var(--ink);
+  margin-top:3px;letter-spacing:.06em}
+@keyframes rise{from{transform:scaleY(.12);opacity:0}to{transform:scaleY(1);opacity:1}}
+
+/* ── 评分依据徽章 ── */
+/* 留出右上角伤害数字的地盘：标题只有一行时徽章会撞上去 */
+.why{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px;padding-right:100px}
+.why i{font-style:normal;font-family:var(--mono);font-size:10px;font-weight:700;
+  border:2px solid var(--ink);background:var(--mustard);padding:1.5px 7px;white-space:nowrap}
+.why i.rel{background:var(--ink);color:var(--paper)}
+.why i.neg{background:transparent;border-style:dashed;color:var(--ink-soft);font-weight:400}
+
+/* ── 三段式 ──
+   网点底纹只走左侧那条窄带（.segs::before）。
+   压在正文下面会明显吃掉可读性 —— 6px 的点阵和 15px 的汉字笔画同一个量级，
+   笔画和网点会互相干扰。漫画的网点本来也是铺在留白上，不是铺在对白上。 */
+.segs{position:relative;border-top:3px solid var(--ink);padding:18px 20px 8px 40px;
+  background:#FCFAF5}
+.segs::before{content:"";position:absolute;left:0;top:0;bottom:0;width:16px;
+  background-image:radial-gradient(circle at 1px 1px,var(--rule) 1.1px,transparent 1.2px);
+  background-size:6px 6px;border-right:1px solid var(--rule-soft)}
+.seg{display:grid;grid-template-columns:82px 1fr;gap:16px;padding-bottom:15px}
+.seg dt{font-weight:900;font-size:11px;letter-spacing:.06em;text-align:right;padding:4px 10px 0 0;
+  border-right:3px solid var(--ink);color:var(--ink)}
+.seg dd{font-size:15.5px;line-height:1.9;color:var(--ink)}
+.seg.hint dt{border-right-color:var(--rule);color:var(--ink-faint)}
+.seg.hint dd{font-size:13px;color:var(--ink-faint)}
+
+/* 对话气泡：只给「对你而言」。全文唯一的圆角，所以它一定被先看到 */
+.bub{position:relative;background:#fff;border:3px solid var(--ink);border-radius:20px;
+  padding:13px 18px;margin:2px 20px 24px;box-shadow:5px 5px 0 var(--red)}
+.bub::after{content:"";position:absolute;left:42px;bottom:-16px;width:0;height:0;
+  border:9px solid transparent;border-top:16px solid var(--ink)}
+.bub b{display:block;font-size:10.5px;font-weight:900;letter-spacing:.22em;
+  color:var(--red-deep);margin-bottom:4px}
+.bub p{font-size:15.5px;line-height:1.88;color:var(--ink)}
+.bub.none{box-shadow:5px 5px 0 var(--rule);border-color:var(--rule)}
+.bub.none::after{border-top-color:var(--rule)}
+.bub.none b,.bub.none p{color:var(--ink-faint)}
+
+/* ── 来源脚注 ── */
+.srcs{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);
+  padding:0 20px 15px;line-height:1.9}
+.srcs a{color:var(--ink-soft);text-decoration:none;border-bottom:1px dotted var(--rule)}
+.srcs a:hover,.srcs a:focus-visible{color:var(--red);border-bottom-color:var(--red)}
+.srcs .sep{opacity:.5;padding:0 5px}
+.fu{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);margin-top:11px}
+
+/* ── 深水区：安静的窄格，不给伤害数字 ── */
+.quiet{border:3px solid var(--ink);background:var(--panel)}
+.quiet .sub{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;background:var(--ink);color:var(--mustard);padding:4px 14px}
+.qi{padding:15px 18px;border-bottom:1px solid var(--rule-soft)}
+.qi:last-child{border-bottom:0}
+.qi h4{font-size:16px;font-weight:700;line-height:1.5}
+.qi h4 a{color:var(--ink);text-decoration:none;border-bottom:1.5px solid transparent}
+.qi h4 a:hover,.qi h4 a:focus-visible{border-bottom-color:var(--red)}
+.qi .meta{font-family:var(--mono);font-size:10px;color:var(--ink-faint);margin-top:5px}
+.qi .pitch{font-size:13.5px;color:var(--ink-soft);margin-top:6px;line-height:1.72}
+.qi .pitch b{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.1em;
+  color:var(--red-deep);margin-right:7px}
+
+/* ── 速览 ── */
+details.brief{border:3px solid var(--ink);background:var(--panel)}
+details.brief summary{font-family:var(--mono);font-size:11.5px;font-weight:700;color:var(--ink);
+  cursor:pointer;padding:11px 16px;list-style:none;display:flex;align-items:center;gap:9px}
+details.brief summary::-webkit-details-marker{display:none}
+details.brief summary::before{content:"＋";color:var(--red);font-size:13px;width:14px}
+details.brief[open] summary::before{content:"－"}
+details.brief[open] summary{border-bottom:3px solid var(--ink)}
+.brief-row{display:flex;gap:12px;align-items:baseline;padding:7px 16px;font-size:13.5px;
+  line-height:1.6;border-bottom:1px solid var(--rule-soft)}
+.brief-row:last-child{border-bottom:0}
+.brief-row .s{font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--ink-faint);
+  min-width:28px;text-align:right;flex-shrink:0}
+.brief-row a{color:var(--ink-soft);text-decoration:none;flex:1}
+.brief-row a:hover,.brief-row a:focus-visible{color:var(--red)}
+.brief-row .o{font-family:var(--mono);font-size:10px;color:var(--ink-faint);flex-shrink:0}
+
+/* ── 空区块 ── */
+.empty{border:3px dashed var(--rule);padding:20px;font-family:var(--mono);font-size:11.5px;
+  color:var(--ink-soft);line-height:1.85}
+
+/* ── 页脚 ── */
+footer{margin-top:56px;border-top:5px solid var(--ink);padding-top:13px;
+  font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);line-height:1.95}
+footer a{color:var(--ink-soft)}
+footer .health{margin-top:6px;color:#8A6A22}
+
+a:focus-visible,summary:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+
+@media (max-width:640px){
+  body{font-size:14.5px}
+  .wrap{padding:0 15px}
+  .masthead{padding:24px 0 0}
+  .masthead h1{font-size:30px}
+  .masthead .dateline{margin-left:0;text-align:left}
+  .panel{box-shadow:4px 4px 0 var(--ink-line);margin-bottom:20px}
+  .panel .top{padding:18px 15px 14px}
+  /* 伤害数字在窄屏改成标题上方的横排，不再压住标题 */
+  .dmg{position:static;transform:none;text-align:left;display:flex;align-items:flex-end;gap:10px;
+    margin-bottom:10px}
+  .dmg b{font-size:40px;-webkit-text-stroke:2.5px var(--ink)}
+  .dmg .unit{margin:0 0 6px}
+  .bars{margin:0 0 7px}
+  .cov{margin:0 0 6px}
+  .panel h3,.panel.hero h3{font-size:21px;padding-right:0}
+  .why{padding-right:0}
+  .segs{padding:15px 15px 5px 28px}
+  .segs::before{width:12px}
+  .seg{grid-template-columns:1fr;gap:1px;padding-bottom:13px}
+  .seg dt{text-align:left;border-right:0;border-left:3px solid var(--ink);padding:0 0 0 9px}
+  .bub{margin:2px 15px 20px;padding:12px 15px}
+  .srcs{padding:0 15px 13px}
+  .section{margin-top:34px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+
+@media print{
+  body{background:#fff}
+  .panel{box-shadow:none;break-inside:avoid}
+  .panel.hero .top::before,.bars,details.brief{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <div class="masthead-top">
+    <h1>每日内参</h1>
+    <div class="dateline">
+      <b>2026 年 10 月 13 日</b> 周二<br>14:57 生成 · 第 286 期
+    </div>
+  </div>
+  <div class="readout"><span>召回 160 事件</span><span>多源交叉 3</span><span>深读 7</span><span>速览 98</span></div>
+</header>
+
+<section class="section"><div class="lbl"><h2>今日必读</h2><span class="en">lead</span><span class="n">3 条</span></div><article class="panel hero"><div class="top"><div class="dmg"><b>40.8</b><span class="unit">PTS</span><span class="bars" role="img" aria-label="跨源覆盖 单源，计 12 分"><span class="bar on" style="animation-delay:0ms"></span><span class="bar" style="animation-delay:45ms"></span><span class="bar" style="animation-delay:90ms"></span><span class="bar" style="animation-delay:135ms"></span><span class="bar" style="animation-delay:180ms"></span></span><span class="cov">单源</span></div><h3><a href="https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident" target="_blank" rel="noopener">Hackers activate automatic defrosting in supermarket fridges across Europe</a></h3><div class="why"><i>分析源 +8</i><i>HN 604 +12.8</i><i>HN 头条 +8</i></div></div><div class="segs"><dl class="seg"><dt>发生了什么</dt><dd>欧洲超市制冷系统遭攻击，丹佛斯控制器被强制设为50°C连续化霜，正常仅2小时/天。法比荷Intermarché、Leclerc等受影响，损失近30万欧元，电子价签与配送也瘫痪。</dd></dl><dl class="seg"><dt>为什么重要</dt><dd>物联网工控设备远程控制面被滥用，攻击从数据窃取转向物理破坏。暴露了为远程运维而联网的代价，零售与冷链行业需重新评估设备联网边界。</dd></dl></div><div class="bub none"><b>对你而言</b><p>与你的项目无直接关系</p></div><div class="srcs"><a href="https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident" target="_blank" rel="noopener">Hacker News</a><span class="sep">·</span><a href="https://news.ycombinator.com/item?id=50055304" target="_blank" rel="noopener">HN 讨论</a></div></article><article class="panel"><div class="top"><div class="dmg"><b>40.6</b><span class="unit">PTS</span><span class="bars" role="img" aria-label="跨源覆盖 单源，计 12 分"><span class="bar on" style="animation-delay:0ms"></span><span class="bar" style="animation-delay:45ms"></span><span class="bar" style="animation-delay:90ms"></span><span class="bar" style="animation-delay:135ms"></span><span class="bar" style="animation-delay:180ms"></span></span><span class="cov">单源</span></div><h3><a href="https://github.com/openai/codex/issues/48195" target="_blank" rel="noopener">Codex CLI installs a persistent, self-updating background daemon by default</a></h3><div class="why"><i>分析源 +8</i><i>HN 535 +12.6</i><i>HN 头条 +8</i></div></div><div class="segs"><dl class="seg"><dt>发生了什么</dt><dd>Codex CLI 0.157.0 起默认启动常驻自更新守护进程，把 374MB 平台包复制到 ~/.codex/packages，脱离包管理器版本，每小时检查更新并重启后端。</dd></dl><dl class="seg"><dt>为什么重要</dt><dd>CLI 后端与安装版本解耦，npm/brew/pacman 更新失效，Arch 包必须加 --no-daemon；用户需手动 disable daemon_auto_start 并 pkill 更新循环。</dd></dl></div><div class="bub none"><b>对你而言</b><p>与你的项目无直接关系；但可借鉴其教训：本地工具链的后台进程不要默认常驻自更新，否则版本与调试环境失控。</p></div><div class="srcs"><a href="https://github.com/openai/codex/issues/48195" target="_blank" rel="noopener">Hacker News</a><span class="sep">·</span><a href="https://news.ycombinator.com/item?id=50060694" target="_blank" rel="noopener">HN 讨论</a></div></article><article class="panel"><div class="top"><div class="dmg"><b>39.5</b><span class="unit">PTS</span><span class="bars" role="img" aria-label="跨源覆盖 单源，计 12 分"><span class="bar on" style="animation-delay:0ms"></span><span class="bar" style="animation-delay:45ms"></span><span class="bar" style="animation-delay:90ms"></span><span class="bar" style="animation-delay:135ms"></span><span class="bar" style="animation-delay:180ms"></span></span><span class="cov">单源</span></div><h3><a href="https://github.com/h0m3us3r/w1700k-sdr" target="_blank" rel="noopener">Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver</a></h3><div class="why"><i>分析源 +8</i><i>HN 318 +11.5</i><i>HN 头条 +8</i></div></div><div class="segs"><dl class="seg"><dt>发生了什么</dt><dd>Gemtek W1700K Wi-Fi 7路由器被改造成SDR接收机：MT7996射频输出14位IQ，最高320Msps，经AN7581 SoC的10GbE口零拷贝UDP流到Linux主机，浏览器显示262144点FFT、100帧/秒频谱瀑布。</dd></dl><dl class="seg"><dt>为什么重要</dt><dd>消费级Wi-Fi 7芯片的原始IQ此前被厂商固件锁死。该项目用自写ROM补丁和WM/WA固件替换MediaTek代码，把路由器变成2.4/5/6GHz全频段宽带接收机，成本远低于USRP等专业SDR。</dd></dl></div><div class="bub none"><b>对你而言</b><p>与你的项目无直接关系。</p></div><div class="srcs"><a href="https://github.com/h0m3us3r/w1700k-sdr" target="_blank" rel="noopener">Hacker News</a><span class="sep">·</span><a href="https://news.ycombinator.com/item?id=50055593" target="_blank" rel="noopener">HN 讨论</a></div></article></section><section class="section"><div class="lbl"><h2>能用上的</h2><span class="en">for your work</span><span class="n">4 条</span></div><div class="note">命中 战斗设计 / UE / 动画 / 网络同步 / 性能 相关词，无论分数高低都会冒头；战斗类词加权更高，所以排在前面。<br>社区源只算标题命中，正文里顺口提一句不算；抓不到正文的一律退回速览。</div><article class="panel"><div class="top"><div class="dmg"><b>72.8</b><span class="unit">PTS</span><span class="bars" role="img" aria-label="跨源覆盖 3 源，计 36 分"><span class="bar on" style="animation-delay:0ms"></span><span class="bar on" style="animation-delay:45ms"></span><span class="bar on" style="animation-delay:90ms"></span><span class="bar" style="animation-delay:135ms"></span><span class="bar" style="animation-delay:180ms"></span></span><span class="cov">3 源</span></div><h3><a href="https://80.lv/articles/epic-games-tells-devs-no-more-hand-written-code-to-adopt-an-ai-first-production-model/" target="_blank" rel="noopener">Epic Games Tells Devs &quot;No More Hand-Written Code&quot; to Adopt an &quot;AI-First&quot; Production Model</a></h3><div class="why"><i>分析源 +8</i><i>HN 82 +8.8</i><i class="rel">命中「epic games」 +20</i></div></div><div class="segs"><dl class="seg"><dt>发生了什么</dt><dd>Epic内部要求&quot;不再手写代码&quot;，改用Claude等AI代理编辑代码与美术；一款漫威+星战射击游戏原定2027年3月发售，已延期且未给新日期。</dd></dl><dl class="seg"><dt>为什么重要</dt><dd>Epic裁员超1000人（约20%）后推AI优先，UE5.8已实验MCP接入LLM，UE6将AI辅助列为重点；索尼则只用于QA与工程支持。</dd></dl></div><div class="bub"><b>对你而言</b><p>GAS技能、动画蓝图等手写逻辑可能转向AI代理生成，需提前适应MCP式编辑器工作流，并警惕生成代码在同步与性能上的可维护性。</p></div><div class="srcs"><a href="https://80.lv/articles/epic-games-tells-devs-no-more-hand-written-code-to-adopt-an-ai-first-production-model/" target="_blank" rel="noopener">80.lv</a><span class="sep">/</span><a href="https://www.avclub.com/epic-games-disney-ai-delay" target="_blank" rel="noopener">Hacker News</a><span class="sep">/</span><a href="https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first" target="_blank" rel="noopener">GamesIndustry</a><span class="sep">·</span><a href="https://news.ycombinator.com/item?id=50062237" target="_blank" rel="noopener">HN 讨论</a></div></article><article class="panel"><div class="top"><div class="dmg"><b>44.8</b><span class="unit">PTS</span><span class="bars" role="img" aria-label="跨源覆盖 单源，计 12 分"><span class="bar on" style="animation-delay:0ms"></span><span class="bar" style="animation-delay:45ms"></span><span class="bar" style="animation-delay:90ms"></span><span class="bar" style="animation-delay:135ms"></span><span class="bar" style="animation-delay:180ms"></span></span><span class="cov">单源</span></div><h3><a href="https://www.reddit.com/r/unrealengine/comments/1x3xqs7/last_week_in_unreal_1168_commits_on_ue6main_92_on/" target="_blank" rel="noopener">Last Week in Unreal: 1,168 commits on ue6-main; 92 on ue5-main; 113 on 5.8 | 5.8.4 candidate takes shape</a></h3><div class="why"><i>聚合源 +2</i><i>社区置顶 +10.8</i><i class="rel">命中「unreal」 +20</i></div></div><div class="segs"><dl class="seg"><dt>发生了什么</dt><dd>UE6主分支单周1168次提交，含渲染默认值、Lumen、Nanite剔除改动；5.8分支108个修复进入5.8.4候选版，D3D12驻留追踪器四天内从可选变默认。</dd></dl><dl class="seg"><dt>为什么重要</dt><dd>UE6开发明显提速，渲染与剔除底层在动；5.8.4仍是候选版无正式tag，D3D12显存管理默认化会改变PC端表现。</dd></dl></div><div class="bub"><b>对你而言</b><p>Nanite剔除与Lumen改动影响场景性能预算；D3D12驻留默认化需在PC端验证显存与卡顿，5.8.4升级前先测热修。</p></div><div class="srcs"><a href="https://www.reddit.com/r/unrealengine/comments/1x3xqs7/last_week_in_unreal_1168_commits_on_ue6main_92_on/" target="_blank" rel="noopener">r/unrealengine</a></div></article><article class="panel"><div class="top"><div class="dmg"><b>5.2</b><span class="unit">PTS</span><span class="bars" role="img" aria-label="跨源覆盖 单源，计 12 分"><span class="bar on" style="animation-delay:0ms"></span><span class="bar" style="animation-delay:45ms"></span><span class="bar" style="animation-delay:90ms"></span><span class="bar" style="animation-delay:135ms"></span><span class="bar" style="animation-delay:180ms"></span></span><span class="cov">单源</span></div><h3><a href="https://www.reddit.com/r/unrealengine/comments/1x3gbe5/unreal_engine_minigames_collection_available_on/" target="_blank" rel="noopener">Unreal Engine Minigames Collection - Available on FAB</a></h3><div class="why"><i>聚合源 +2</i><i>社区置顶 +1.2</i><i class="rel">命中「unreal engine」 +20</i><i class="neg">已报过 -30</i></div><div class="fu">↳ 2026-10-12 首次报道，累计出现 1 次</div></div><div class="segs"><dl class="seg"><dt>发生了什么</dt><dd>开发者 Mayuresh Koli 在 FAB 发布 10 个 UE5 小游戏合集，年收入低于 10 万美元的用户可免费获取，并附从零制作的教学视频。</dd></dl><dl class="seg"><dt>为什么重要</dt><dd>FAB 整合原 UE 商城后，个人开发者用免费加教程的方式分发资源，降低小团队学习与原型成本，也加剧资源市场竞争。</dd></dl></div><div class="bub"><b>对你而言</b><p>可拆解其中受击、位移、动画状态机等小游戏逻辑，作为 GAS 与 Locomotion 原型的参考实现，省去从零搭建测试场景。</p></div><div class="srcs"><a href="https://www.reddit.com/r/unrealengine/comments/1x3gbe5/unreal_engine_minigames_collection_available_on/" target="_blank" rel="noopener">r/unrealengine</a></div></article><article class="panel"><div class="top"><div class="dmg"><b>4</b><span class="unit">PTS</span><span class="bars" role="img" aria-label="跨源覆盖 单源，计 12 分"><span class="bar on" style="animation-delay:0ms"></span><span class="bar" style="animation-delay:45ms"></span><span class="bar" style="animation-delay:90ms"></span><span class="bar" style="animation-delay:135ms"></span><span class="bar" style="animation-delay:180ms"></span></span><span class="cov">单源</span></div><h3><a href="https://www.reddit.com/r/unrealengine/comments/1x35erq/laptop_for_simple_ue5_blueprinting_and/" target="_blank" rel="noopener">Laptop for simple UE5 blueprinting and experimenting</a></h3><div class="why"><i>聚合源 +2</i><i class="rel">命中「ue5」 +20</i><i class="neg">已报过 -30</i></div><div class="fu">↳ 2026-10-12 首次报道，累计出现 1 次</div></div><div class="segs"><dl class="seg"><dt>发生了什么</dt><dd>Reddit用户问通勤用笔记本跑UE5，仅做蓝图实验和低画质，不追求性能，求配置建议。</dd></dl><dl class="seg"><dt>为什么重要</dt><dd>UE5编辑器对CPU单核、内存和SSD要求高，低端本跑蓝图也易卡；社区常低估编辑器开销。</dd></dl></div><div class="bub none"><b>对你而言</b><p>与你的项目无直接关系。</p></div><div class="srcs"><a href="https://www.reddit.com/r/unrealengine/comments/1x35erq/laptop_for_simple_ue5_blueprinting_and/" target="_blank" rel="noopener">r/unrealengine</a></div></article></section><section class="section"><div class="lbl"><h2>深水区</h2><span class="en">papers &amp; repos</span><span class="n">3 论文 · 3 开源</span></div><div class="quiet"><div class="sub">AI 论文 · HuggingFace 社区票选</div><div class="qi"><h4><a href="https://arxiv.org/abs/2610.13166" target="_blank" rel="noopener">为长时程终端智能扩展代理数据</a></h4><div class="meta">社区 ▲64 · Shun Zou, Ziyu Ma, Yi Zou et al.</div><div class="pitch"><b>值得读</b>Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents ac</div></div><div class="qi"><h4><a href="https://arxiv.org/abs/2609.39601" target="_blank" rel="noopener">GroundingPI：面向物理智能的视觉基元基础模型</a></h4><div class="meta">社区 ▲54 · Qize Yu, Lianrui Fan, Boyu Chen et al.</div><div class="pitch"><b>值得读</b>Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-lang</div></div><div class="qi"><h4><a href="https://arxiv.org/abs/2610.13630" target="_blank" rel="noopener">多流注意力残差</a></h4><div class="meta">社区 ▲30 · Xiaohan Qin, Xiangdong Zhang, Tuo Dai et al.</div><div class="pitch"><b>值得读</b>Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head</div></div><div class="sub">开源 · GitHub Trending</div><div class="qi"><h4><a href="https://github.com/morluto/rea" target="_blank" rel="noopener">morluto/rea</a></h4><div class="meta">TypeScript · +45327★ 今日 · 173,837 ★ 总计</div><div class="pitch"><b>做什么的</b>Reverse engineer anything with agents, from app behavior down to native binaries.</div></div><div class="qi"><h4><a href="https://github.com/storytold/artcraft" target="_blank" rel="noopener">storytold/artcraft</a></h4><div class="meta">Rust · +4095★ 今日 · 23,107 ★ 总计</div><div class="pitch"><b>做什么的</b>ArtCraft is an intentional crafting engine for artists, designers, and filmmakers</div></div><div class="qi"><h4><a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noopener">cathrynlavery/diagram-design</a></h4><div class="meta">HTML · +2081★ 今日 · 53,057 ★ 总计</div><div class="pitch"><b>做什么的</b>Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.</div></div></div></section><section class="section"><div class="lbl"><h2>跨界视野</h2><span class="en">off-topic</span><span class="n">1 条</span></div><div class="note">固定优质池取最高分，不随机抽取。</div><div class="quiet"><div class="qi"><h4><a href="https://www.economist.com/europe/2026/10/12/russian-men-are-fleeing-before-the-army-can-grab-them" target="_blank" rel="noopener">俄罗斯男性在军队抓人前纷纷逃离</a></h4><div class="pitch"><b>做什么的</b>Vladimir Putin looks poised for a huge wave of forced inductions</div></div></div></section><section class="section"><div class="lbl"><h2>一行速览</h2><span class="en">the rest</span><span class="n">98 条</span></div><details class="brief"><summary>展开其余 98 条（按分数排序）</summary><div class="brief-row"><span class="s">40.5</span><a href="https://z.ai/blog/glm-legal" target="_blank" rel="noopener">GLM-Legal</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">31.1</span><a href="https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e" target="_blank" rel="noopener">Rich Hickey：&#x27;AI&#x27; 不是工具</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">30.4</span><a href="https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a" target="_blank" rel="noopener">Nvidia 洽谈收购美国&#x27;开放&#x27;模型初创公司 Reflection AI</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">30.3</span><a href="https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/" target="_blank" rel="noopener">联邦探员获令使用伪基站追踪 Don Lemon 的制作人</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">30.2</span><a href="https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html" target="_blank" rel="noopener">Intel D270 GPU AI 加速器——最高 480 GB LPDDR5X</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">30</span><a href="https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/" target="_blank" rel="noopener">ReplaySSM：重新思考状态存储以加速混合模型解码</a><span class="o">NVIDIA Developer</span></div><div class="brief-row"><span class="s">29.9</span><a href="https://arxiv.org/abs/2610.13928" target="_blank" rel="noopener">AI 模型可证明地隐藏任意能力</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">29.9</span><a href="https://doi.org/10.1111/acel.70751" target="_blank" rel="noopener">80 岁供体的血细胞变为分子年龄低于 20 岁的干细胞</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">29.9</span><a href="https://nirajrajgor.com/blog/kindle-photo-frame-with-ai" target="_blank" rel="noopener">我用 GPT-6 Astra 把闲置 Kindle 变成了相框</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">29.9</span><a href="https://news.ycombinator.com/item?id=50039291" target="_blank" rel="noopener">Ask HN：你想要一台预装 DD-WRT 的路由器吗？</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">29.3</span><a href="https://github.com/prabanta-dev/janas" target="_blank" rel="noopener">Janas：通过从 SSD 流式加载专家运行大于内存的 LLM</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">29.1</span><a href="https://github.com/SaarthurR/atticus-mac" target="_blank" rel="noopener">Show HN：Atticus——运行在 Claude -p 上的 macOS 按住说话语音助手</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">29.1</span><a href="https://github.com/Geramy/LemonSeed-Studio" target="_blank" rel="noopener">在 iPad 上运行未修改的 Linux amdgpu 驱动</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">29</span><a href="https://github.com/morluto/rea" target="_blank" rel="noopener">用代理逆向工程任何东西，从应用行为到原生二进制</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">28.9</span><a href="https://www.anthropic.com/research/self-replicating-ai" target="_blank" rel="noopener">AI 模型或可在无数据中心访问的情况下自我复制</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">28.5</span><a href="https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6" target="_blank" rel="noopener">Anthropic 禁止虐待 Claude，但仍不愿说明它保护什么</a><span class="o">Hacker News</span></div><div class="brief-row"><span class="s">26</span><a href="https://www.reddit.com/r/unrealengine/comments/1x4ovwt/lights_in_58/" target="_blank" rel="noopener">5.8 中的灯光</a><span class="o">r/unrealengine</span></div><div class="brief-row"><span class="s">26</span><a href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/" target="_blank" rel="noopener">Meta 发布其首个前沿模型 Muse Wonder</a><span class="o">2源</span></div><div class="brief-row"><span class="s">26</span><a href="https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised" target="_blank" rel="noopener">Satya Nadella 称我们应假设所有 AI 模型都已&#x27;被攻陷&#x27;</a><span class="o">2源</span></div><div class="brief-row"><span class="s">23.6</span><a href="https://www.reddit.com/r/unrealengine/comments/1x4d3mi/converting_blueprint_into_static_mesh_loses/" target="_blank" rel="noopener">将蓝图转换为静态网格会丢失几何体</a><span class="o">r/unrealengine</span></div><div class="brief-row"><span class="s">22.4</span><a href="https://www.reddit.com/r/unrealengine/comments/1x3wuta/has_anyone_tried_p4_one_seems_like_a_free_version/" target="_blank" rel="noopener">有人试过 P4 One 吗？看起来像是面向美术师的免费版 Perforce？</a><span class="o">r/unrealengine</span></div><div class="brief-row"><span class="s">21.2</span><a href="https://www.reddit.com/r/unrealengine/comments/1x4d8gx/trials_of_mary_snowy_path_environment/" target="_blank" rel="noopener">Mary 的试炼——雪径环境</a><span class="o">r/unrealengine</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamedeveloper.com/keyword/-event-gamescom" target="_blank" rel="noopener">gamescom</a><span class="o">Game Developer</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamedeveloper.comwww.gameconferencemx.com" target="_blank" rel="noopener">Game Conference MX (GCMX)</a><span class="o">Game Developer</span></div><div class="brief-row"><span class="s">20</span><a href="https://80.lv/articles/this-soft-body-simulation-can-cut-peel-break-objects-in-real-time/" target="_blank" rel="noopener">这个软体模拟可以实时切割、剥离和破坏物体</a><span class="o">80.lv</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/" target="_blank" rel="noopener">Alibaba Qwen 推出 QwenGyre：面向超长时程代理的弹性强化学习 RL</a><span class="o">MarkTechPost</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamesindustry.biz/dragon-quest-creator-yuji-horii-releases-game-he-says-he-made-with-ai-in-about-30-minutes" target="_blank" rel="noopener">Dragon Quest 创作者 Yuji Horii 发布他称用 AI 约 30 分钟做出的游戏</a><span class="o">GamesIndustry</span></div><div class="brief-row"><span class="s">20</span><a href="https://simonwillison.net/2026/Oct/12/python-3-15/" target="_blank" rel="noopener">你好 Python 3.15，再见 3.10，现在我可以使用 3.11 了</a><span class="o">Simon Willison</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamesindustry.biz/nintendos-latin-america-vp-says-there-are-no-plans-to-ditch-physical-games" target="_blank" rel="noopener">Nintendo 拉丁美洲副总裁称没有放弃实体游戏的计划</a><span class="o">GamesIndustry</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamesindustry.biz/nvidia-reportedly-ends-geforce-rtx-5090-graphics-card-production" target="_blank" rel="noopener">据报道 Nvidia 结束 GeForce RTX 5090 显卡生产</a><span class="o">GamesIndustry</span></div><div class="brief-row"><span class="s">20</span><a href="https://80.lv/articles/creating-a-thriller-animated-series-with-hand-drawn-textures-in-blender/" target="_blank" rel="noopener">在 Blender 中用手绘纹理创作惊悚动画剧集</a><span class="o">80.lv</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamesindustry.biz/aream-co-games-industry-ma-generates-578-bn-in-q3-including-eas-55bn-leveraged-buyout" target="_blank" rel="noopener">Aream &amp; Co：游戏行业第三季度并购产生 578 亿美元，包括 EA 的 550 亿美元杠杆收购</a><span class="o">GamesIndustry</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamesindustry.biz/game-developer-veteran-chris-kerr-launches-vertical-slice-a-games-publication-giving-workers-a-voice-and-holding-power-to-account" target="_blank" rel="noopener">游戏开发者资深人士 Chris Kerr 推出 Vertical Slice，一家&#x27;为工作者发声并让权力负责&#x27;的游戏出版物</a><span class="o">GamesIndustry</span></div><div class="brief-row"><span class="s">20</span><a href="https://simonwillison.net/2026/Oct/12/web-edit/" target="_blank" rel="noopener">web-edit 0.1a0</a><span class="o">Simon Willison</span></div><div class="brief-row"><span class="s">20</span><a href="https://80.lv/articles/this-platformer-lets-you-use-shadows-of-real-life-objects-to-play/" target="_blank" rel="noopener">This Platformer Lets You Use Shadows of Real-Life Objects to Play</a><span class="o">80.lv</span></div><div class="brief-row"><span class="s">20</span><a href="https://80.lv/articles/turn-photos-3d-renders-into-paintings-with-this-blender-filter/" target="_blank" rel="noopener">Turn Photos &amp; 3D Renders into Paintings with This Blender Filter</a><span class="o">80.lv</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamesindustry.biz/the-happiest-man-in-gaming-hates-generative-ai" target="_blank" rel="noopener">The happiest man in gaming hates generative AI</a><span class="o">GamesIndustry</span></div><div class="brief-row"><span class="s">20</span><a href="https://80.lv/articles/how-to-create-realistic-waterfall-vfx-in-houdini/" target="_blank" rel="noopener">How to Create Realistic Waterfall VFX in Houdini</a><span class="o">80.lv</span></div><div class="brief-row"><span class="s">20</span><a href="https://80.lv/articles/this-game-where-you-replace-an-entire-city-with-shiny-parking-lots-is-out-in-early-access/" target="_blank" rel="noopener">This Game Where You Replace an Entire City with Shiny Parking Lots Is Out in Early Access</a><span class="o">80.lv</span></div><div class="brief-row"><span class="s">20</span><a href="https://80.lv/articles/srochet-your-own-cozy-isometric-city-with-cotton-in-this-cute-game/" target="_blank" rel="noopener">Crochet Your Own Cozy Isometric City with Cotton in This Cute Game</a><span class="o">80.lv</span></div><div class="brief-row"><span class="s">20</span><a href="https://80.lv/articles/bulkhead-wants-to-draw-more-players-to-blue-team-in-wardogs-season-2/" target="_blank" rel="noopener">Bulkhead Wants to Draw More Players to Blue Team in Wardogs Season 2</a><span class="o">80.lv</span></div><div class="brief-row"><span class="s">20</span><a href="https://80.lv/articles/silent-hill-producer-says-konami-plans-second-and-third-waves-of-games/" target="_blank" rel="noopener">Silent Hill Producer Says Konami Plans &quot;Second and Third&quot; Waves of Games</a><span class="o">80.lv</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamesindustry.biz/group-behind-gta-6-leaks-threatens-to-release-alleged-full-build-of-game-including-story-mode" target="_blank" rel="noopener">Group behind GTA 6 leaks threatens to release alleged full build of game including story mode</a><span class="o">GamesIndustry</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.marktechpost.com/2026/10/12/top-12-ai-live-translation-tools-2026/" target="_blank" rel="noopener">Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing</a><span class="o">MarkTechPost</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.gamesindustry.biz/bafta-awards-over-270000-to-112-recipients-in-uk-and-us-to-support-career-growth-in-games-film-and-tv" target="_blank" rel="noopener">BAFTA awards over £270,000 to 112 recipients in UK and US to support career growth in games, film, and TV</a><span class="o">GamesIndustry</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502654.html" target="_blank" rel="noopener">华为AI靠RSI通关25款游戏！操作次数比人类少56%</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">20</span><a href="https://simonwillison.net/2026/Oct/12/datasette-ports/" target="_blank" rel="noopener">datasette-ports 0.4</a><span class="o">Simon Willison</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/" target="_blank" rel="noopener">TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER</a><span class="o">MarkTechPost</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502649.html" target="_blank" rel="noopener">智谱新模型，490 tokens/s！</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/" target="_blank" rel="noopener">Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text</a><span class="o">MarkTechPost</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/" target="_blank" rel="noopener">What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models</a><span class="o">MarkTechPost</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502644.html" target="_blank" rel="noopener">用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502628.html" target="_blank" rel="noopener">何恺明团队发布多模态Harness框架</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502594.html" target="_blank" rel="noopener">陶哲轩：数学2.0时代已至！</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/" target="_blank" rel="noopener">OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context</a><span class="o">MarkTechPost</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502584.html" target="_blank" rel="noopener">王的猜想，刚刚扩展到四维</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502585.html" target="_blank" rel="noopener">硅谷AI现状：谁有算力谁是爹</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502550.html" target="_blank" rel="noopener">下架8个月，GPT-4o的拯救行动居然还在继续</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502544.html" target="_blank" rel="noopener">DeepSeek Bot来了！民间版，DSH装个插件就能用</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">20</span><a href="https://simonwillison.net/2026/Oct/11/dwarf-fortress/" target="_blank" rel="noopener">Dwarf Fortress uses version control now</a><span class="o">Simon Willison</span></div><div class="brief-row"><span class="s">20</span><a href="https://simonwillison.net/2026/Oct/10/python-actions/" target="_blank" rel="noopener">Python 3.15.0 added to actions/python-versions</a><span class="o">Simon Willison</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/" target="_blank" rel="noopener">Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors</a><span class="o">MarkTechPost</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/" target="_blank" rel="noopener">When the Safety Test Became the Threat: The Machine That Found Its Own Way Out</a><span class="o">MarkTechPost</span></div><div class="brief-row"><span class="s">20</span><a href="https://www.qbitai.com/2026/10/502541.html" target="_blank" rel="noopener">西门子将亮相2026工博会：以软硬协同的工业全栈能力，推动物理AI加速落地</a><span class="o">量子位</span></div><div class="brief-row"><span class="s">18.8</span><a href="https://www.reddit.com/r/unrealengine/comments/1x3h1hs/last_version_quixel_mixer/" target="_blank" rel="noopener">Last version quixel mixer</a><span class="o">r/unrealengine</span></div><div class="brief-row"><span class="s">17.6</span><a href="https://www.reddit.com/r/unrealengine/comments/1x3ke3p/ladder_system_with_ik/" target="_blank" rel="noopener">Ladder System With IK</a><span class="o">r/unrealengine</span></div><div class="brief-row"><span class="s">16.4</span><a href="https://www.reddit.com/r/unrealengine/comments/1x3oz06/why_do_my_editor_and_debug_mode_have_such_a/" target="_blank" rel="noopener">Why do my editor and debug mode have such a vastly different lighting situation?</a><span class="o">r/unrealengine</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.youxituoluo.com/534950.html" target="_blank" rel="noopener">AI漫剧之后最大风口：零基础，6人爆肝4个月，做出赛道No.1产品</a><span class="o">游戏陀螺</span></div><div class="brief-row"><span class="s">14</span><a href="http://www.geekpark.net/news/372284" target="_blank" rel="noopener">上线九个月下载破亿，字节在海外再造「红果」</a><span class="o">极客公园</span></div><div class="brief-row"><span class="s">14</span><a href="http://www.geekpark.net/news/372278" target="_blank" rel="noopener">复旦邱锡鹏团队获超 10 亿融资，成立两年，让模型感知、理解、响应变化的世界</a><span class="o">极客公园</span></div><div class="brief-row"><span class="s">14</span><a href="http://www.geekpark.net/news/372264" target="_blank" rel="noopener">曝梁文锋密集见机器人创业者；影石出货量累计突破1000万台；Meta发布Muse Wonder模型｜极客早知道</a><span class="o">极客公园</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/" target="_blank" rel="noopener">WindBorne wins a hefty US Air Force contract for its balloon data</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/" target="_blank" rel="noopener">Honeyjar offers AI tools to improve PR and comms at every company</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/" target="_blank" rel="noopener">Microsoft president says UK is best placed to drive AI regulation</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/" target="_blank" rel="noopener">This AI startup says it can generate permit-ready blueprints in minutes</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.youxituoluo.com/534948.html" target="_blank" rel="noopener">在上海旧船厂，小红书和游戏厂商想做一个“开放世界冒险岛”</a><span class="o">游戏陀螺</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/" target="_blank" rel="noopener">TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout" target="_blank" rel="noopener">Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs</a><span class="o">The Verge AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/" target="_blank" rel="noopener">Former Plaud exec raises $26M for AI app that listens to you in the background</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="http://www.geekpark.net/news/372263" target="_blank" rel="noopener">一周 10 万星，AI「逆向一切」，但大家不要过于兴奋</a><span class="o">极客公园</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.youxituoluo.com/534947.html" target="_blank" rel="noopener">谷歌入局AI游戏开发，人人都在追的“一句话做游戏”，到底怎么样了？</a><span class="o">游戏陀螺</span></div><div class="brief-row"><span class="s">14</span><a href="http://www.geekpark.net/news/372218" target="_blank" rel="noopener">尊界：11 月起陆续升级踏板；iPhone 折叠屏国内预约超 200 万；6 个月，超千万 Claude 账户被封杀｜极客早知道</a><span class="o">极客公园</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.reddit.com/r/unrealengine/comments/1x3k40m/issues_with_landscape_materials/" target="_blank" rel="noopener">Issues with Landscape Materials</a><span class="o">r/unrealengine</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/" target="_blank" rel="noopener">Will the HomeView be Apple’s first smart home success?</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/" target="_blank" rel="noopener">48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai" target="_blank" rel="noopener">Silicon Valley is falling in line with Trump’s attempt to rename AI</a><span class="o">The Verge AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/" target="_blank" rel="noopener">Can the AI industry persuade data center opponents by getting rid of NDAs?</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/" target="_blank" rel="noopener">These execs think voice AI hasn’t reached its ChatGPT moment yet</a><span class="o">TechCrunch AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress" target="_blank" rel="noopener">Learning to use local AI is exciting, overwhelming, and frustrating</a><span class="o">The Verge AI</span></div><div class="brief-row"><span class="s">14</span><a href="http://www.geekpark.net/news/372213" target="_blank" rel="noopener">12 分钟订单破万，吉利银河战舰 700，要订下新能源越野的新标准</a><span class="o">极客公园</span></div><div class="brief-row"><span class="s">14</span><a href="http://www.geekpark.net/news/372216" target="_blank" rel="noopener">马斯克豪言 SpaceX 估值将超1000万亿美元，遭拉表打脸；传腾讯字节加速个人智能体研发；四部门拟禁止汽车采用全隐藏式门把手</a><span class="o">极客公园</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit" target="_blank" rel="noopener">DistroKid has been quietly taking down songs in response to UMG lawsuit</a><span class="o">The Verge AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.youxituoluo.com/534946.html" target="_blank" rel="noopener">明星老兵断粮，微软第一方卖身失败：资本不再偏爱大作</a><span class="o">游戏陀螺</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet" target="_blank" rel="noopener">Anthropic is cutting off its internal evaluations from the internet</a><span class="o">The Verge AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.youxituoluo.com/534945.html" target="_blank" rel="noopener">独游开发者复盘：Steam 56万美元总流水，最终仅到手7.3万美元</a><span class="o">游戏陀螺</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots" target="_blank" rel="noopener">AI agent 制造商承诺隐私——他们会兑现吗？</a><span class="o">The Verge AI</span></div><div class="brief-row"><span class="s">14</span><a href="https://www.youxituoluo.com/534944.html" target="_blank" rel="noopener">10月新游清单来了！《剑侠世界4》《影之刃零》《霓虹深渊2》你选谁？</a><span class="o">游戏陀螺</span></div><div class="brief-row"><span class="s">11.1</span><a href="https://twitter.com/karpathy/status/2109361546505966046" target="_blank" rel="noopener">对 LLM 能力的共识差距正在扩大</a><span class="o">Hacker News</span></div></details></section>
+
+<footer>
+  排序由 rank.py 计算，公式与权重见仓库 <a href="https://github.com/Vizroi/daily-ai-digest">src/rank.py</a>。<br>
+  分数 = 跨源覆盖×12 + 源权威档位 + log(社区热度) + 相关词命中 − 重复报道惩罚。<br>
+  召回 13 源 · 聚类 160 事件 · 深读 7 条抓取正文全文<br>
+  <a href="../feed.xml">RSS 订阅</a>（只推深读区）<span style="opacity:.5;padding:0 6px">·</span><a href="2026-10-13.html">本期归档</a><div class="health">⚠ 连续 7 天以上零产出，建议在 config.py 里换掉：r/gamedesign（70 天）、r/MachineLearning（67 天）、VentureBeat AI（44 天）、GameFromScratch（44 天）、r/gamedev（30 天）、r/LocalLLaMA（10 天）、Unreal Engine（10 天）</div>
+</footer>
+
+</div>
+</body>
+</html>

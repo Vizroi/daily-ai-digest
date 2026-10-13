@@ -1,46 +1,4 @@
 {
-  "f2714cf2585beb97": {
-    "title": "How to Create Futuristic Hovercraft Flight Simulator Inspired by Matrix",
-    "first_seen": "2026-09-26",
-    "times": 3,
-    "last_seen": "2026-09-28"
-  },
-  "8b0d908bf61e72f2": {
-    "title": "'This shows the power that comes from employees joining forces:' King signs collective bargaining agreement with union workers",
-    "first_seen": "2026-09-27",
-    "times": 2,
-    "last_seen": "2026-09-28"
-  },
-  "8f3d828fbfe3db5f": {
-    "title": "Unreal 5.8 - Materials Masterclass - Chapter 8: Time, animation and Video (Part 1)",
-    "first_seen": "2026-09-27",
-    "times": 2,
-    "last_seen": "2026-09-28"
-  },
-  "8566aed86947a5c3": {
-    "title": "Vertex Color Driven Niagara!",
-    "first_seen": "2026-09-27",
-    "times": 2,
-    "last_seen": "2026-09-28"
-  },
-  "6ae964d10f7b019d": {
-    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
-    "first_seen": "2026-09-28",
-    "times": 1,
-    "last_seen": "2026-09-28"
-  },
-  "38b63cca2bf6da86": {
-    "title": "How to keep enjoying programming in a world of LLMs",
-    "first_seen": "2026-09-28",
-    "times": 1,
-    "last_seen": "2026-09-28"
-  },
-  "21bc7885e9cb2250": {
-    "title": "Chivalry/Mordhau inspired Combat System",
-    "first_seen": "2026-09-28",
-    "times": 1,
-    "last_seen": "2026-09-28"
-  },
   "7463fbc60b826e5c": {
     "title": "Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price",
     "first_seen": "2026-09-29",
@@ -644,13 +602,43 @@
   "89d0ad54f54b5bc9": {
     "title": "Unreal Engine Minigames Collection - Available on FAB",
     "first_seen": "2026-10-12",
-    "times": 1,
-    "last_seen": "2026-10-12"
+    "times": 2,
+    "last_seen": "2026-10-13"
   },
   "0ee6076a6d262e69": {
     "title": "Laptop for simple UE5 blueprinting and experimenting",
     "first_seen": "2026-10-12",
+    "times": 2,
+    "last_seen": "2026-10-13"
+  },
+  "d1e005dacc2387c8": {
+    "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+    "first_seen": "2026-10-13",
     "times": 1,
-    "last_seen": "2026-10-12"
+    "last_seen": "2026-10-13"
+  },
+  "f0ceabd9c67a7348": {
+    "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+    "first_seen": "2026-10-13",
+    "times": 1,
+    "last_seen": "2026-10-13"
+  },
+  "481f74d3521a3838": {
+    "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+    "first_seen": "2026-10-13",
+    "times": 1,
+    "last_seen": "2026-10-13"
+  },
+  "8305717d6a31f60c": {
+    "title": "Epic Games Tells Devs \"No More Hand-Written Code\" to Adopt an \"AI-First\" Production Model",
+    "first_seen": "2026-10-13",
+    "times": 1,
+    "last_seen": "2026-10-13"
+  },
+  "95c24f04e45ae7d7": {
+    "title": "Last Week in Unreal: 1,168 commits on ue6-main; 92 on ue5-main; 113 on 5.8 | 5.8.4 candidate takes shape",
+    "first_seen": "2026-10-13",
+    "times": 1,
+    "last_seen": "2026-10-13"
   }
 }
