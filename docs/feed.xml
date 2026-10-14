@@ -4,65 +4,89 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 160 个事件，只有 7 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 182 个事件，只有 10 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 13 Oct 2026 14:57:45 +0800</lastBuildDate>
+<lastBuildDate>Wed, 14 Oct 2026 13:10:29 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Hackers activate automatic defrosting in supermarket fridges across Europe</title>
-  <link>https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-13-d1e005dacc23</guid>
-  <pubDate>Mon, 12 Oct 2026 12:16:42 +0000</pubDate>
+  <title>Developing Gemini 4 Argon responsibly and safely</title>
+  <link>https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-4dce59e1d6b5</guid>
+  <pubDate>Tue, 13 Oct 2026 16:00:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>欧洲超市制冷系统遭攻击，丹佛斯控制器被强制设为50°C连续化霜，正常仅2小时/天。法比荷Intermarché、Leclerc等受影响，损失近30万欧元，电子价签与配送也瘫痪。</p><p><strong>为什么重要</strong><br>物联网工控设备远程控制面被滥用，攻击从数据窃取转向物理破坏。暴露了为远程运维而联网的代价，零售与冷链行业需重新评估设备联网边界。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 604 +12.8 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>100.1 分</strong> · 5 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Gemini 4 Argon 发布，端到端模拟网络攻击场景解决数从上一代5个升至12个；违规率降近两倍；编码基准作弊率降至2%；外部生物越狱红队仅解锁不到1%子任务。</p><p><strong>为什么重要</strong><br>前沿模型安全从单层过滤转向输入筛查、激活探针、实时监控三层防护，并新增自动化错位监控读取思维链。高能力模型开放给防御方，攻防门槛同步抬升。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：5 源报道 +60 / 一手源 +18 / HN 1137 +14.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/">DeepMind</a> · <a href="https://deepmind.google/blog/gemini-4-argon-for-robotics/">DeepMind</a> · <a href="https://deepmind.google/blog/introducing-gemini-4-argon/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/10/13/google-gemini-4-argon-api-release/">MarkTechPost</a> · <a href="https://developers.googleblog.com/gemini-4-argon-for-robotics/">Hacker News</a> · <a href="https://deepmind.google/models/gemini/">Hacker News</a> · <a href="http://www.geekpark.net/news/372304">极客公园</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>Codex CLI installs a persistent, self-updating background daemon by default</title>
-  <link>https://github.com/openai/codex/issues/48195</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-13-f0ceabd9c67a</guid>
-  <pubDate>Mon, 12 Oct 2026 18:29:04 +0000</pubDate>
+  <title>Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB</title>
+  <link>https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-c44f472b1a66</guid>
+  <pubDate>Mon, 12 Oct 2026 16:11:45 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Codex CLI 0.157.0 起默认启动常驻自更新守护进程，把 374MB 平台包复制到 ~/.codex/packages，脱离包管理器版本，每小时检查更新并重启后端。</p><p><strong>为什么重要</strong><br>CLI 后端与安装版本解耦，npm/brew/pacman 更新失效，Arch 包必须加 --no-daemon；用户需手动 disable daemon_auto_start 并 pkill 更新循环。</p><p><strong>对你而言</strong><br>与你的项目无直接关系；但可借鉴其教训：本地工具链的后台进程不要默认常驻自更新，否则版本与调试环境失控。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 535 +12.6 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>53 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Z.ai发布GLM-Legal，基于320B/18B MoE的GLM-5.3-Flash，1M上下文。Harvey LAB全通过率19.17%，基础模型6.67%，每测试$0.15，仅申请制API。</p><p><strong>为什么重要</strong><br>法律Agent基准显示领域微调可3倍提升，成本仅Claude Fable 5的1/128。但无权重、无定价、单任务1h12m，慢于对手。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。可留意其训练中harness与模型协同迭代的思路，对GAS技能调试流程有参考。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / HN 667 +13 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/">MarkTechPost</a> · <a href="https://z.ai/blog/glm-legal">Hacker News</a></small></p>]]></description>
 </item>
 <item>
-  <title>Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver</title>
-  <link>https://github.com/h0m3us3r/w1700k-sdr</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-13-481f74d3521a</guid>
-  <pubDate>Mon, 12 Oct 2026 12:41:58 +0000</pubDate>
+  <title>11 year old unsoundness bugs found in Rust borrow checker</title>
+  <link>https://github.com/rust-lang/rust/issues/164250</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-d7bbec20cee1</guid>
+  <pubDate>Tue, 13 Oct 2026 10:27:00 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.5 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Gemtek W1700K Wi-Fi 7路由器被改造成SDR接收机：MT7996射频输出14位IQ，最高320Msps，经AN7581 SoC的10GbE口零拷贝UDP流到Linux主机，浏览器显示262144点FFT、100帧/秒频谱瀑布。</p><p><strong>为什么重要</strong><br>消费级Wi-Fi 7芯片的原始IQ此前被厂商固件锁死。该项目用自写ROM补丁和WM/WA固件替换MediaTek代码，把路由器变成2.4/5/6GHz全频段宽带接收机，成本远低于USRP等专业SDR。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 318 +11.5 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>41.1 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Rust 借用检查器存在 11 年的健全性漏洞：通过协变字段赋值绕过 T:'static 约束，1.85.0 及更早版本可编译，ASan 报 stack-use-after-scope。</p><p><strong>为什么重要</strong><br>类型系统本应保证内存安全，此洞需恶意 Drop 实现才能触发，被标为 P-high 而非 P-critical。影响所有 Rust 版本，官方正推进下一代 trait solver 与 Project Zero 修复。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 696 +13.1 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Epic Games Tells Devs "No More Hand-Written Code" to Adopt an "AI-First" Production Model</title>
-  <link>https://80.lv/articles/epic-games-tells-devs-no-more-hand-written-code-to-adopt-an-ai-first-production-model/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-13-8305717d6a31</guid>
+  <title>Tutorial: string synthesis in UE5 Metasounds - Karplus Strong Modal</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x4tmr7/tutorial_string_synthesis_in_ue5_metasounds/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-21e2ca618a44</guid>
+  <pubDate>Tue, 13 Oct 2026 11:01:50 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>35.2 分</strong> · r/unrealengine · 今日必读</p><p><strong>发生了什么</strong><br>UE5 MetaSounds 教程，用 Karplus-Strong 算法做弦乐合成，面向程序化音乐新手。</p><p><strong>为什么重要</strong><br>MetaSounds 是 UE5 音频新管线，社区教程少，降低程序化音效入门门槛。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「ue5」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It</title>
+  <link>https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-a03772e74ee7</guid>
+  <pubDate>Tue, 13 Oct 2026 00:27:49 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta发布Muse Wonder与Muse Wonder Full，1M上下文，支持文本图像视频音频输入，API价$4/$20每百万token，Full仅限$50/$200订阅。</p><p><strong>为什么重要</strong><br>前沿模型竞争转向长任务agent与记忆能力，MemoryBench 85.6领先，但ProgramBench 50.0落后Claude Opus 5.5的70.5。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/">MarkTechPost</a> · <a href="http://www.geekpark.net/news/372264">极客公园</a></small></p>]]></description>
+</item>
+<item>
+  <title>Epic Games delays Disney game and tells developers to go "AI first"</title>
+  <link>https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-8572da7082da</guid>
   <pubDate>Mon, 12 Oct 2026 19:54:58 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>72.8 分</strong> · 3 家独立源报道 · 能用上的</p><p><strong>发生了什么</strong><br>Epic内部要求"不再手写代码"，改用Claude等AI代理编辑代码与美术；一款漫威+星战射击游戏原定2027年3月发售，已延期且未给新日期。</p><p><strong>为什么重要</strong><br>Epic裁员超1000人（约20%）后推AI优先，UE5.8已实验MCP接入LLM，UE6将AI辅助列为重点；索尼则只用于QA与工程支持。</p><p><strong>对你而言</strong><br>GAS技能、动画蓝图等手写逻辑可能转向AI代理生成，需提前适应MCP式编辑器工作流，并警惕生成代码在同步与性能上的可维护性。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8 / HN 82 +8.8 / 命中「epic games」 +20</small></p><p><small>全部来源：<a href="https://80.lv/articles/epic-games-tells-devs-no-more-hand-written-code-to-adopt-an-ai-first-production-model/">80.lv</a> · <a href="https://www.avclub.com/epic-games-disney-ai-delay">Hacker News</a> · <a href="https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first">GamesIndustry</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>52 分</strong> · 2 家独立源报道 · 能用上的</p><p><strong>发生了什么</strong><br>Epic把漫威星战射击游戏从3月延期，要求团队用Claude等AI工具做全AI美术，主管称不再手写代码。</p><p><strong>为什么重要</strong><br>迪士尼2024年投15亿美元后首个合作项目，Epic裁员1000人背景下首个大厂全AI制作游戏，GDC调查超1/3开发者用AI但过半认为有害。</p><p><strong>对你而言</strong><br>与你的项目无直接关系，但若团队引入AI生成动画或技能逻辑，需警惕其产出无法直接接入GAS与动画蓝图的手感调校流程。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 命中「epic games」 +20</small></p><p><small>全部来源：<a href="https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first">GamesIndustry</a> · <a href="https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>Last Week in Unreal: 1,168 commits on ue6-main; 92 on ue5-main; 113 on 5.8 | 5.8.4 candidate takes shape</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x3xqs7/last_week_in_unreal_1168_commits_on_ue6main_92_on/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-13-95c24f04e45a</guid>
-  <pubDate>Mon, 12 Oct 2026 09:53:38 +0000</pubDate>
+  <title>Fuse Games uses UE5 to make a fast and authentic Star Wars ™ racing game</title>
+  <link>https://www.unrealengine.com/developer-interviews/fuse-games-uses-ue5-to-make-a-fast-and-authentic-star-wars-racing-game</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-57321e45f4df</guid>
+  <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE6主分支单周1168次提交，含渲染默认值、Lumen、Nanite剔除改动；5.8分支108个修复进入5.8.4候选版，D3D12驻留追踪器四天内从可选变默认。</p><p><strong>为什么重要</strong><br>UE6开发明显提速，渲染与剔除底层在动；5.8.4仍是候选版无正式tag，D3D12显存管理默认化会改变PC端表现。</p><p><strong>对你而言</strong><br>Nanite剔除与Lumen改动影响场景性能预算；D3D12驻留默认化需在PC端验证显存与卡顿，5.8.4升级前先测热修。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「unreal」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>50 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>Fuse Games用UE5开发《星球大战：银河赛车》，融合高速竞速与Roguelite玩法，采用Lumen、Nanite和World Partition实现画面。</p><p><strong>为什么重要</strong><br>Lumen与Nanite在高速载具场景的落地案例，World Partition支撑大世界流送，为竞速类UE5项目提供性能与画质平衡参考。</p><p><strong>对你而言</strong><br>可参考其Nanite与World Partition在高速位移下的流送策略，Lumen动态光照对竞速场景的性能开销值得在GAS技能特效与Locomotion中警惕。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「unreal engine」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Unreal Engine Minigames Collection - Available on FAB</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x3gbe5/unreal_engine_minigames_collection_available_on/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-13-89d0ad54f54b</guid>
-  <pubDate>Sun, 11 Oct 2026 18:56:42 +0000</pubDate>
+  <title>I've been maintaining a UE 5.8 fork for D3D12 / deferred / classic shadows: hardware tessellation is back, UE6 backports, RE:Dox and more. Sharing in case it's useful to anyone</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x4zk53/ive_been_maintaining_a_ue_58_fork_for_d3d12/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-69c6cf6a262e</guid>
+  <pubDate>Tue, 13 Oct 2026 15:23:02 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>5.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者 Mayuresh Koli 在 FAB 发布 10 个 UE5 小游戏合集，年收入低于 10 万美元的用户可免费获取，并附从零制作的教学视频。</p><p><strong>为什么重要</strong><br>FAB 整合原 UE 商城后，个人开发者用免费加教程的方式分发资源，降低小团队学习与原型成本，也加剧资源市场竞争。</p><p><strong>对你而言</strong><br>可拆解其中受击、位移、动画状态机等小游戏逻辑，作为 GAS 与 Locomotion 原型的参考实现，省去从零搭建测试场景。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +1.2 / 命中「unreal engine」 +20 / 已报过 -30</small></p>]]></description>
+  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>开发者维护基于UE 5.8.3的D3D12延迟渲染分支，恢复硬件曲面细分，加入UE6回移功能，可彻底关闭Nanite、Lumen、虚拟阴影贴图等系统，默认不改变原版行为。</p><p><strong>为什么重要</strong><br>原版UE 5.8关闭这些特性后仍有残留开销，该分支让不用新渲染特性的项目真正减负，对锁定旧管线或自研渲染的团队有参考价值。</p><p><strong>对你而言</strong><br>若你的PVP项目为帧率关闭Nanite/Lumen，可参考其彻底剥离方案，但需评估与GAS、动画蓝图及网络同步的兼容成本。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「ue 5.」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Laptop for simple UE5 blueprinting and experimenting</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x35erq/laptop_for_simple_ue5_blueprinting_and/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-13-0ee6076a6d26</guid>
-  <pubDate>Sun, 11 Oct 2026 11:03:07 +0000</pubDate>
+  <title>How This Painterly Animated Short Was Rigged &amp; Animated Entirely in Unreal Engine</title>
+  <link>https://80.lv/articles/how-this-painterly-animated-short-was-rigged-animated-entirely-in-unreal-engine/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-9090a1871bb6</guid>
+  <pubDate>Tue, 13 Oct 2026 23:50:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户问通勤用笔记本跑UE5，仅做蓝图实验和低画质，不追求性能，求配置建议。</p><p><strong>为什么重要</strong><br>UE5编辑器对CPU单核、内存和SSD要求高，低端本跑蓝图也易卡；社区常低估编辑器开销。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 命中「ue5」 +20 / 已报过 -30</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Dardo Studios用UE5的Control Rig和Sequencer完成整部短片Ghost Stride的绑定与动画，未走Maya到引擎的传统管线，还叠加了60多张手绘关键帧和2D特效，配合Lumen渲染。</p><p><strong>为什么重要</strong><br>验证了全流程在引擎内闭环的可行性，小团队可省去DCC往返环节。对动画外包与影视化预演的成本结构有直接影响。</p><p><strong>对你而言</strong><br>可参考其Control Rig+Sequencer直出动画的做法，评估把技能动画或过场预览搬进引擎内迭代，减少Maya往返，但需注意手绘叠加层与实时渲染的同步开销。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Gridline Blueprints now supports Material graphs, and it's 50% off for the Fab October Flash Sale [UE 5.6/5.7/5.8]</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x576om/gridline_blueprints_now_supports_material_graphs/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-14-5f93e33f151e</guid>
+  <pubDate>Tue, 13 Oct 2026 20:04:10 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Gridline Blueprints 更新支持材质与材质函数图表，连线自动正交绕行节点、重叠线自动散开，默认开启。Fab 十月闪购五折，兼容 UE 5.6/5.7/5.8。</p><p><strong>为什么重要</strong><br>蓝图连线杂乱是 UE 老问题，此前插件只覆盖蓝图，材质图同样易成面条。补齐后材质编辑效率提升，折扣降低试用门槛。</p><p><strong>对你而言</strong><br>材质图整理属美术向，与 GAS、动画蓝图、网络同步无关。若你常改材质参数，可省连线时间；否则与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「ue 5.」 +20</small></p>]]></description>
 </item>
 </channel>
 </rss>

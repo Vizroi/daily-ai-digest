@@ -17,42 +17,6 @@
     "times": 2,
     "last_seen": "2026-09-30"
   },
-  "7b7e93a019b07067": {
-    "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
-    "first_seen": "2026-09-29",
-    "times": 1,
-    "last_seen": "2026-09-29"
-  },
-  "bd5860832e5d381a": {
-    "title": "I need help with dragging in Unreal Engine.",
-    "first_seen": "2026-09-29",
-    "times": 1,
-    "last_seen": "2026-09-29"
-  },
-  "53c0878335e09f22": {
-    "title": "Bones and Anims from Blender to Unreal (slightly confused)",
-    "first_seen": "2026-09-29",
-    "times": 1,
-    "last_seen": "2026-09-29"
-  },
-  "19eeb75a95397bb1": {
-    "title": "Last Week In Unreal: 1,072 commits on ue6-main; 196 on ue5-main | MSVC static analysis may have been analyzing nothing",
-    "first_seen": "2026-09-29",
-    "times": 1,
-    "last_seen": "2026-09-29"
-  },
-  "1b5dc7c5bd82045b": {
-    "title": "Epic Games Launcher is super laggy and crashing my other applications in Windows.",
-    "first_seen": "2026-09-29",
-    "times": 1,
-    "last_seen": "2026-09-29"
-  },
-  "7e383167ebc3867a": {
-    "title": "UNREAL 5.8 Light Radius/Angle Does Not Soften Shadows.",
-    "first_seen": "2026-09-29",
-    "times": 1,
-    "last_seen": "2026-09-29"
-  },
   "6ce9939aee45a77e": {
     "title": "Introducing GPT-6.1 Sol",
     "first_seen": "2026-09-30",
@@ -640,5 +604,65 @@
     "first_seen": "2026-10-13",
     "times": 1,
     "last_seen": "2026-10-13"
+  },
+  "4dce59e1d6b5d825": {
+    "title": "Developing Gemini 4 Argon responsibly and safely",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
+  },
+  "c44f472b1a66b9e4": {
+    "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
+  },
+  "d7bbec20cee11d59": {
+    "title": "11 year old unsoundness bugs found in Rust borrow checker",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
+  },
+  "21e2ca618a443154": {
+    "title": "Tutorial: string synthesis in UE5 Metasounds - Karplus Strong Modal",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
+  },
+  "a03772e74ee72eef": {
+    "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
+  },
+  "8572da7082da41c3": {
+    "title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
+  },
+  "57321e45f4dfc16b": {
+    "title": "Fuse Games uses UE5 to make a fast and authentic Star Wars ™ racing game",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
+  },
+  "69c6cf6a262e4f84": {
+    "title": "I've been maintaining a UE 5.8 fork for D3D12 / deferred / classic shadows: hardware tessellation is back, UE6 backports, RE:Dox and more. Sharing in case it's useful to anyone",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
+  },
+  "9090a1871bb6af9c": {
+    "title": "How This Painterly Animated Short Was Rigged & Animated Entirely in Unreal Engine",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
+  },
+  "5f93e33f151e41aa": {
+    "title": "Gridline Blueprints now supports Material graphs, and it's 50% off for the Fab October Flash Sale [UE 5.6/5.7/5.8]",
+    "first_seen": "2026-10-14",
+    "times": 1,
+    "last_seen": "2026-10-14"
   }
 }
