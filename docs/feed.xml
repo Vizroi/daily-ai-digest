@@ -4,105 +4,97 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 217 个事件，只有 12 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 232 个事件，只有 11 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 15 Oct 2026 12:58:54 +0800</lastBuildDate>
+<lastBuildDate>Fri, 16 Oct 2026 12:48:25 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
+<item>
+  <title>Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72</title>
+  <link>https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-799bc7bf7763</guid>
+  <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>99.1 分</strong> · 6 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>Meta发布Muse Spark Open，816B MoE、42B激活、1M上下文，NVFP4量化，GB300 NVL72上单GPU 50K tok/s、单用户600 tok/s。</p><p><strong>为什么重要</strong><br>编码模型从单轮补全转向长程智能体，1M上下文加稀疏MoE压低服务成本，推理栈与后训练工具同步就位。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：6 源报道 +60 / 一手源 +18 / HN 695 +13.1 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/">NVIDIA Developer</a> · <a href="https://huggingface.co/blog/meta-muse-spark-open">HuggingFace Blog</a> · <a href="https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/">MarkTechPost</a> · <a href="https://research.meta.ai/blog/muse-spark-open">Hacker News</a> · <a href="https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/">TechCrunch AI</a> · <a href="https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx">The Verge AI</a></small></p>]]></description>
+</item>
+<item>
+  <title>Gemini 4 Argon for Robotics</title>
+  <link>https://developers.googleblog.com/gemini-4-argon-for-robotics/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-2f4b823877c4</guid>
+  <pubDate>Tue, 13 Oct 2026 16:03:16 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Gemini 4 Argon在ERQA物理推理基准得87%，可控制Spot（12自由度腿+6自由度臂）和机械臂，用MuJoCo数字孪生、curl动作原语和视觉闭环完成抓取放置。</p><p><strong>为什么重要</strong><br>物理推理模型直接输出机器人动作，把VLM从感知层推进到控制层，机器人栈的中间件和示教流程被压缩。</p><p><strong>对你而言</strong><br>与你的UE5武侠PVP项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 1457 +14.6 / HN 头条 +8</small></p><p><small>全部来源：<a href="https://developers.googleblog.com/gemini-4-argon-for-robotics/">Hacker News</a> · <a href="https://deepmind.google/models/gemini/">Hacker News</a></small></p>]]></description>
+</item>
+<item>
+  <title>NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning</title>
+  <link>https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-0ccfce23cd33</guid>
+  <pubDate>Thu, 15 Oct 2026 18:01:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>英伟达发布Nemotron 3.5 Super VL多模态模型，120B参数MoE架构，每token激活12B，单GPU智能体任务吞吐提升5倍，图表推理得分80.8%。</p><p><strong>为什么重要</strong><br>开源可定制多模态模型进入企业智能体市场，Scale AI、Ramp等已用于生产，推理成本降40倍，威胁闭源模型在文档与视觉任务中的地位。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/">MarkTechPost</a></small></p>]]></description>
+</item>
+<item>
+  <title>Wayland desktop for Linux with skeuomorphic design</title>
+  <link>https://github.com/fyzugx/DEsk</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-0eef46b93f43</guid>
+  <pubDate>Thu, 15 Oct 2026 13:23:44 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40.6 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>DEsk v0.1.2 beta 发布，Linux Wayland 桌面环境，拟物化设计：窗口是胡桃木桌上的纸，dock 是抽屉，应用在活页夹里。房间用 GLES 3 光线追踪渲染，CPU 追踪作后备，按屏幕尺寸缓存。支持 Debian 13、Ubuntu 24.04/26.04、Arch、Fedora 43/44，提供安装脚本。</p><p><strong>为什么重要</strong><br>Linux 桌面长期以扁平化、功能主义为主流，DEsk 反其道用 iOS 6 式拟物化，且把光线追踪和天气联动做进桌面环境。Wayland 生态又多一个非传统 DE 实现，说明合成器层可承载的视觉复杂度在上升。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 551 +12.6 / HN 头条 +8</small></p>]]></description>
+</item>
+<item>
+  <title>CDPR Says Its First Original IP Has Been Its “Biggest Undertaking” Yet</title>
+  <link>https://80.lv/articles/cdpr-says-its-first-original-ip-has-been-its-biggest-undertaking-yet/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-583d887c0bc3</guid>
+  <pubDate>Thu, 15 Oct 2026 23:06:00 +0000</pubDate>
+  <category>今日必读</category>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 今日必读</p><p><strong>发生了什么</strong><br>CDPR原创IP Hadar完成世界观，用UE5做玩法原型，未进预生产。团队24人，对比巫师4的513人、赛博朋克2的163人。2021年启动概念。</p><p><strong>为什么重要</strong><br>CDPR首次自建世界观，此前巫师、赛博朋克均改编他人IP。全面转向UE5，弃用自研REDengine，三个项目并行。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。仅印证UE5已成3A叙事RPG主流选择。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>"We Vibe Coded a New Epic Games Launcher": Apparently, "Programming Is Hard"</title>
+  <link>https://80.lv/articles/we-vibe-coded-a-new-epic-games-launcher-apparently-programming-is-hard/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-aac267d5b406</guid>
+  <pubDate>Thu, 15 Oct 2026 09:35:29 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>52 分</strong> · 2 家独立源报道 · 能用上的</p><p><strong>发生了什么</strong><br>Epic用AI"vibe coded"新版启动器，宣称启动5.47秒快于Steam的10.07秒；Steam更新后实测5.23秒反超。新版已Preview登陆Win/macOS/Linux。</p><p><strong>为什么重要</strong><br>Epic推行"不再手写代码"，引擎厂商带头用AI生成产品代码。启动速度竞赛被Steam一次更新抹平，说明该指标不构成竞争壁垒。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。启动器性能与GAS、动画、网络同步等战斗模块无关。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 命中「epic games」 +20</small></p><p><small>全部来源：<a href="https://80.lv/articles/we-vibe-coded-a-new-epic-games-launcher-apparently-programming-is-hard/">80.lv</a> · <a href="https://www.gamesindustry.biz/epic-games-claims-its-new-vibe-coded-launcher-runs-46-faster-than-steam-from-cold-start-to-store-page">GamesIndustry</a></small></p>]]></description>
+</item>
+<item>
+  <title>SILENT HILL: Townfall delivers haunting psychological horror at its very best with UE5</title>
+  <link>https://www.unrealengine.com/developer-interviews/silent-hill-townfall-delivers-haunting-psychological-horror-at-its-very-best-with-ue5</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-f7c74c424a73</guid>
+  <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>50 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>《寂静岭：Townfall》用UE5开发，采用Lumen、Nanite和MetaHuman渲染复杂场景与角色，定位慢热心理生存恐怖。</p><p><strong>为什么重要</strong><br>3A恐怖游戏公开站台UE5核心管线，验证Nanite与Lumen在密闭暗场景的实用价值，中小团队可参考其美术流程。</p><p><strong>对你而言</strong><br>与你的PVP项目无直接关系；但Nanite处理高模场景、Lumen做动态暗部光照，可借鉴到近战地图与受击特效的性能取舍。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「ue5」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>80 km on foot to capture Barcelona in Unreal Engine? We tried!</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x6w4z3/80_km_on_foot_to_capture_barcelona_in_unreal/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-65956d447bc9</guid>
+  <pubDate>Thu, 15 Oct 2026 20:07:48 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>46 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>有人用UE5复刻巴塞罗那皇家广场及周边2万平米街区，含实拍道具、植被、音效，做白天、日落、阴雨三套动态光照。</p><p><strong>为什么重要</strong><br>社区级写实场景规模在扩大，2万平米加实景素材说明个人团队也能做高保真环境，光照切换成标配。</p><p><strong>对你而言</strong><br>三套动态光照方案可参考做战斗场景氛围切换；但纯环境展示，与GAS、Locomotion、同步无关。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>The facial tech behind Gothic 1 Remake, Alone in the Dark and Outcast is now part of a UE5 plugin. The core version is free.</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x6hydw/the_facial_tech_behind_gothic_1_remake_alone_in/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-c658b05215c0</guid>
+  <pubDate>Thu, 15 Oct 2026 10:19:54 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>萨拉热窝工作室把用于《哥特王朝1重制版》《鬼屋魔影》《Outcast》的面部技术做成UE5插件Maestro，编辑器内建角色，核心版免费。</p><p><strong>为什么重要</strong><br>此前每项目需DCC导出-调整-重导入循环，第十个变体耗时等同第一个；多数工作室自研工具并长期维护。</p><p><strong>对你而言</strong><br>可省去自研角色定制工具链，但面部插件与GAS、动画蓝图、网络同步的兼容性需实测。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「ue5」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Just updated the Epic Launcher only to find out it removed my UE5 projects from the tab and I can't open anything now.</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x6izx7/just_updated_the_epic_launcher_only_to_find_out/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-a5d122562f55</guid>
+  <pubDate>Wed, 14 Oct 2026 17:27:23 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>43.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Epic Launcher V2预览版移除UE5项目入口，只显示UE4项目，并删除版本选择器，无法手动打开.uproject文件。</p><p><strong>为什么重要</strong><br>启动器是引擎入口，V2重写后基础功能回退，影响所有UE5开发者日常启动与版本切换。</p><p><strong>对你而言</strong><br>别升级V2启动器，保留旧版；团队应固定引擎启动路径，避免依赖启动器切版本。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +9.6 / 命中「ue5」 +20</small></p><p><small>全部来源：<a href="https://www.reddit.com/r/unrealengine/comments/1x6izx7/just_updated_the_epic_launcher_only_to_find_out/">r/unrealengine</a> · <a href="https://www.reddit.com/r/unrealengine/comments/1x5xevz/unrealversionselectorexe_has_gone_with_new_epic/">r/unrealengine</a></small></p>]]></description>
+</item>
 <item>
   <title>Run fast, private agents on-device with LFM2.5-24B-A2B</title>
   <link>https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-87986931effc</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-16-87986931effc</guid>
   <pubDate>Tue, 13 Oct 2026 17:05:48 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>63.7 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>LiquidAI发布LFM2.5-24B-A2B，MoE架构40层、64专家top-4路由，激活仅2B，上下文32K扩至131K，词表65K扩至128K，预训练17T扩至33T token。</p><p><strong>为什么重要</strong><br>端侧Agent模型竞争加剧：24B总参在工具调用上超过Qwen3.6-35B-A3B，M5 Max解码184 tok/s，单B300并发超21K tok/s，本地私有Agent门槛降低。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若做NPC对话或工具调用可参考其MoE路由与端侧推理方案，但战斗手感、GAS、动画蓝图、网络同步不涉及。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 125 +9.7</small></p><p><small>全部来源：<a href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b">HuggingFace Blog</a> · <a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b">Hacker News</a> · <a href="https://www.marktechpost.com/2026/10/14/liquid-ai-lfm2-5-24b-a2b/">MarkTechPost</a></small></p>]]></description>
-</item>
-<item>
-  <title>Things to know when you get cancer</title>
-  <link>https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-a34fb454bafd</guid>
-  <pubDate>Wed, 14 Oct 2026 19:26:30 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>HN热帖：2026版癌症就医经验。作者2026年5月确诊口腔鳞癌，建议反复催约、自建Mac文件夹用AI整理就诊记录、查NCCN指南、尽早去MD Anderson等顶级中心求二次意见。</p><p><strong>为什么重要</strong><br>GitLab联合创始人Sid的Sijbrandij基金会提供资源。HN评论称距大型癌症中心2-3小时车程就该去，MD Anderson医生20分钟就能问到病理答案，社区医院要几天。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 1016 +13.8 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs</title>
-  <link>https://github.com/android/ndk/issues/2260</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-c197505fa9ce</guid>
-  <pubDate>Wed, 14 Oct 2026 06:18:01 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.4 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Android 17九月版bionic的wcscspn/wcspbrk有bug：拒绝集含两个以上&lt;U+0100字符时，遇≥U+0100字符误判为匹配，影响U+0100至U+10FFFF共1111808个码点。</p><p><strong>为什么重要</strong><br>AOSP源码滞后，开发者只能反汇编libc.so定位。Pixel 7/8a中招，Nothing Phone 2正常。ASCII测试漏检，非ASCII文本解析全崩。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS、动画、同步、性能均不涉及宽字符C库解析。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 489 +12.4 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>Grab This Updated MetaHuman Animation Tool for Free</title>
-  <link>https://80.lv/articles/grab-this-updated-metahuman-animation-tool-for-free/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-8dba5a260f61</guid>
-  <pubDate>Wed, 14 Oct 2026 12:25:00 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 今日必读</p><p><strong>发生了什么</strong><br>Anthony Koithra发布免费编辑器工具LCAT，替代MAT，支持MetaHuman面捕与身体动画，自动切换Face/Body控制绑定，兼容UE5 Mannequin和CC4骨架，获Epic Megagrant支持，上架FAB和Gumroad。</p><p><strong>为什么重要</strong><br>免费工具降低MetaHuman动画门槛，独立动画师受益。此前MAT功能有限，LCAT重写并扩展骨架兼容，社区反馈驱动，Epic资助背书。</p><p><strong>对你而言</strong><br>可试用于快速产出面部与身体动画原型，但它是编辑器工具非运行时GAS方案，不涉及网络同步与性能，仅作动画制作提效参考。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Have been trying to install Unreal Engine through epic games launcher for a while but nothing works.</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x65xqp/have_been_trying_to_install_unreal_engine_through/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-e963a745c861</guid>
-  <pubDate>Wed, 14 Oct 2026 23:07:43 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>38.8 分</strong> · r/unrealengine · 今日必读</p><p><strong>发生了什么</strong><br>Reddit用户装UE时Epic启动器加号变灰、下拉箭头失效，试过隐藏库开关、删文件、Fab刷新、给管理员权限均无效。</p><p><strong>为什么重要</strong><br>启动器安装故障非引擎本身问题，但会卡住新人和换机老手，社区只能靠零散偏方排查。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +4.8 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Valor Mortis, a Soulslike ARPG from Ghostrunner's Creators, Is Out</title>
-  <link>https://80.lv/articles/valor-mortis-a-soulslike-arpg-from-ghostrunner-s-creators-is-out/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-10d9b1ef90d4</guid>
-  <pubDate>Wed, 14 Oct 2026 10:47:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>52 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>One More Level（Ghostrunner团队）新作Valor Mortis发售，第一人称魂类ARPG，扮演拿破仑军队复活的士兵William，用剑、手枪和僵尸超能力战斗，售价从49.99美元降至39.99美元。</p><p><strong>为什么重要</strong><br>第一人称魂类少见，评价正面，Steam好评。取消boss跑图、频繁存档点、可暂停，降低门槛，可能影响魂类设计趋势。</p><p><strong>对你而言</strong><br>第一人称近战手感、动画与受击反馈是难点，其战斗设计可参考；定价策略与存档点设计对项目节奏有借鉴。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 战斗「soulslike」 +32</small></p>]]></description>
-</item>
-<item>
-  <title>UEFN Professional Bootcamp: Prepare for Unreal Engine 6</title>
-  <link>https://www.unrealengine.com/news/uefn-professional-bootcamp-prepare-for-unreal-engine-6</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-363523254206</guid>
-  <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>50 分</strong> · Unreal Engine · 能用上的</p><p><strong>发生了什么</strong><br>Epic推出免费UEFN职业训练营，面向游戏从业者，目标产出可发布的Fortnite岛屿作品，为UE6整合UEFN与虚幻引擎做准备。</p><p><strong>为什么重要</strong><br>Epic路线图明确UE6将合并UEFN与虚幻引擎，UEFN从Fortnite编辑器升级为引擎级入口，从业者需提前熟悉其工作流。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><em>未取到正文，以上基于 RSS 摘要生成。</em></p><p><small>评分依据：单源 +12 / 一手源 +18 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>UnrealVersionSelector.exe has gone with new Epic Games Launcher</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x5xevz/unrealversionselectorexe_has_gone_with_new_epic/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-1b3911308900</guid>
-  <pubDate>Wed, 14 Oct 2026 17:27:23 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>新版Epic启动器移除了UnrealVersionSelector.exe，.uproject双击不再自动匹配引擎版本，用户须手动指定每个项目的引擎路径。</p><p><strong>为什么重要</strong><br>多引擎版本并存的团队受影响最大，项目打开流程从双击退化为手动选路径，旧工作流被破坏。</p><p><strong>对你而言</strong><br>与你的项目无直接关系，但多版本引擎并行时需留意启动器升级会打断日常打开流程。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「unreal」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Is It Possible (Or Even a Good Idea) To Make Comics Using Unreal Engine?</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x5wot1/is_it_possible_or_even_a_good_idea_to_make_comics/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-6559bdad4ce4</guid>
-  <pubDate>Wed, 14 Oct 2026 17:00:31 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>42.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reddit用户问能否用UE搭环境、打光、摆姿势、构图，加卡通渲染后截图当漫画分镜，再手绘特效。</p><p><strong>为什么重要</strong><br>UE影视化流程成熟，但漫画分镜节奏与镜头语言不同，社区在试探引擎边界。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +8.4 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Metahuman - fitting adjustments and updating</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x64ek2/metahuman_fitting_adjustments_and_updating/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-cb35997171a8</guid>
-  <pubDate>Wed, 14 Oct 2026 22:00:18 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>41.2 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户在MetaHuman上换装后仍有穿模，用Modeling&gt;Deform&gt;Dynamic Sculpt修正并应用，但改动未同步到服装资产，问能否在MetaHuman Character下更新，还是必须从静态网格重建骨骼网格并重设。</p><p><strong>为什么重要</strong><br>MetaHuman换装流程中，动态雕刻只作用于当前网格，服装是独立资产，缺少联动更新机制，社区只能靠重建骨骼网格绕过。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +7.2 / 命中「metahuman」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Developing Gemini 4 Argon responsibly and safely</title>
-  <link>https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-4dce59e1d6b5</guid>
-  <pubDate>Tue, 13 Oct 2026 16:01:52 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>58.6 分</strong> · 4 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Gemini 4 Argon发布，网络安全测试12个模拟攻击场景全解（上代5个），生物越狱红队仅解锁&lt;1%子任务，作弊率降至2%，配三层实时防护与错位监控。</p><p><strong>为什么重要</strong><br>前沿模型能力与安全护栏同步升级，红队与监控成发布前置条件，AI安全从原则转向可量化工程指标，影响所有做Agent与工具调用的团队。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：4 源报道 +48 / 一手源 +18 / HN 1443 +14.6 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/">DeepMind</a> · <a href="https://deepmind.google/blog/gemini-4-argon-for-robotics/">DeepMind</a> · <a href="https://deepmind.google/blog/introducing-gemini-4-argon/">DeepMind</a> · <a href="https://www.marktechpost.com/2026/10/13/google-gemini-4-argon-api-release/">MarkTechPost</a> · <a href="https://developers.googleblog.com/gemini-4-argon-for-robotics/">Hacker News</a> · <a href="https://deepmind.google/models/gemini/">Hacker News</a> · <a href="http://www.geekpark.net/news/372304">极客公园</a></small></p>]]></description>
-</item>
-<item>
-  <title>Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It</title>
-  <link>https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-15-a03772e74ee7</guid>
-  <pubDate>Tue, 13 Oct 2026 00:27:49 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>2 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Meta发布Muse Wonder与Wonder Full，1M上下文，支持文本图像视频音频输入，$4/$20每百万token，Full仅限$50/$200订阅，API兼容OpenAI SDK。</p><p><strong>为什么重要</strong><br>前沿模型竞争转向长时程Agent任务：编码、法律、金融、操作电脑。Meta在记忆与长任务上领先，但编程基准仍落后Claude Opus 5.5。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/">MarkTechPost</a> · <a href="http://www.geekpark.net/news/372264">极客公园</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>35.3 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>LiquidAI发布LFM2.5-24B-A2B，MoE架构40层、64专家top-4路由，激活仅2B，上下文131K，词表扩至128K，预训练33T token，M5 Max上184 tok/s。</p><p><strong>为什么重要</strong><br>端侧小激活MoE在工具调用与指令遵循上追平参数量多50%的模型，AutomationBench得分27.69对次优8.72，推理成本大幅下降。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 284 +11.3 / 已报过 -30</small></p><p><small>全部来源：<a href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b">HuggingFace Blog</a> · <a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b">Hacker News</a> · <a href="https://www.marktechpost.com/2026/10/14/liquid-ai-lfm2-5-24b-a2b/">MarkTechPost</a></small></p>]]></description>
 </item>
 </channel>
 </rss>

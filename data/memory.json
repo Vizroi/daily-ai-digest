@@ -17,54 +17,6 @@
     "times": 3,
     "last_seen": "2026-10-03"
   },
-  "6956877091fa84a7": {
-    "title": "Claude Sonnet 5.5",
-    "first_seen": "2026-10-01",
-    "times": 1,
-    "last_seen": "2026-10-01"
-  },
-  "a09986afd9c4952d": {
-    "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
-    "first_seen": "2026-10-01",
-    "times": 1,
-    "last_seen": "2026-10-01"
-  },
-  "9a093f09e06b8cdc": {
-    "title": "AI companies in race to demonstrate their model most threatening to humanity",
-    "first_seen": "2026-10-01",
-    "times": 1,
-    "last_seen": "2026-10-01"
-  },
-  "16ecd0afd32cc79a": {
-    "title": "UE5 solo-dev lessons from updating my horror demo after creator playtests",
-    "first_seen": "2026-10-01",
-    "times": 1,
-    "last_seen": "2026-10-01"
-  },
-  "bacc9a3b639ec102": {
-    "title": "September’s Epic learning content: MetaHumans, physics, animation, and more",
-    "first_seen": "2026-10-01",
-    "times": 1,
-    "last_seen": "2026-10-01"
-  },
-  "c074da5b12afcf1e": {
-    "title": "Trying to do clean UE5.8 build - total nightmare",
-    "first_seen": "2026-10-01",
-    "times": 1,
-    "last_seen": "2026-10-01"
-  },
-  "7868ba22254e76cd": {
-    "title": "Crawling Insects Niagara Particles - Unreal Engine VFX Tutorial",
-    "first_seen": "2026-10-01",
-    "times": 1,
-    "last_seen": "2026-10-01"
-  },
-  "9d5b7a7b1d2628aa": {
-    "title": "Random question. Any UCF masters program students who use Unreal on here?",
-    "first_seen": "2026-10-01",
-    "times": 1,
-    "last_seen": "2026-10-01"
-  },
   "b12eb28dfd52217b": {
     "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
     "first_seen": "2026-10-02",
@@ -608,8 +560,8 @@
   "87986931effc83c7": {
     "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
     "first_seen": "2026-10-15",
-    "times": 1,
-    "last_seen": "2026-10-15"
+    "times": 2,
+    "last_seen": "2026-10-16"
   },
   "a34fb454bafdc677": {
     "title": "Things to know when you get cancer",
@@ -664,5 +616,65 @@
     "first_seen": "2026-10-15",
     "times": 1,
     "last_seen": "2026-10-15"
+  },
+  "799bc7bf7763a923": {
+    "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
+  },
+  "2f4b823877c4e074": {
+    "title": "Gemini 4 Argon for Robotics",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
+  },
+  "0ccfce23cd33c8db": {
+    "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
+  },
+  "0eef46b93f435e15": {
+    "title": "Wayland desktop for Linux with skeuomorphic design",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
+  },
+  "583d887c0bc33162": {
+    "title": "CDPR Says Its First Original IP Has Been Its “Biggest Undertaking” Yet",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
+  },
+  "aac267d5b406067a": {
+    "title": "\"We Vibe Coded a New Epic Games Launcher\": Apparently, \"Programming Is Hard\"",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
+  },
+  "f7c74c424a73a339": {
+    "title": "SILENT HILL: Townfall delivers haunting psychological horror at its very best with UE5",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
+  },
+  "65956d447bc971f8": {
+    "title": "80 km on foot to capture Barcelona in Unreal Engine? We tried!",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
+  },
+  "c658b05215c022cf": {
+    "title": "The facial tech behind Gothic 1 Remake, Alone in the Dark and Outcast is now part of a UE5 plugin. The core version is free.",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
+  },
+  "a5d122562f5597d2": {
+    "title": "Just updated the Epic Launcher only to find out it removed my UE5 projects from the tab and I can't open anything now.",
+    "first_seen": "2026-10-16",
+    "times": 1,
+    "last_seen": "2026-10-16"
   }
 }
