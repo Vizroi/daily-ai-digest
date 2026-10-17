@@ -1,75 +1,15 @@
 {
-  "6ce9939aee45a77e": {
-    "title": "Introducing GPT-6.1 Sol",
-    "first_seen": "2026-09-30",
-    "times": 3,
-    "last_seen": "2026-10-02"
-  },
-  "a618cce109412b18": {
-    "title": "DevDay 2026 Recap",
-    "first_seen": "2026-09-30",
-    "times": 3,
-    "last_seen": "2026-10-02"
-  },
   "2c0570766fdc427e": {
     "title": "Gemini 4 Argon: our next era of frontier intelligence",
     "first_seen": "2026-10-01",
     "times": 3,
     "last_seen": "2026-10-03"
   },
-  "b12eb28dfd52217b": {
-    "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-    "first_seen": "2026-10-02",
-    "times": 1,
-    "last_seen": "2026-10-02"
-  },
-  "ea7608119513779a": {
-    "title": "StreetComplete on iOS is now in public beta",
-    "first_seen": "2026-10-02",
-    "times": 1,
-    "last_seen": "2026-10-02"
-  },
-  "ed368d188f92da14": {
-    "title": "Gears of War: E-Day is the Highest-Rated Gears Game in Over 15 Years",
-    "first_seen": "2026-10-02",
-    "times": 1,
-    "last_seen": "2026-10-02"
-  },
-  "11ebd5d1a9962217": {
-    "title": "UE5 Tool For Drawing Production-Ready Pipes In Minutes",
-    "first_seen": "2026-10-02",
-    "times": 1,
-    "last_seen": "2026-10-02"
-  },
-  "70761b432e55091a": {
-    "title": "I released v2 of my multiplayer phone system plugin for Unreal Engine",
-    "first_seen": "2026-10-02",
-    "times": 1,
-    "last_seen": "2026-10-02"
-  },
-  "b87bb58286bebdf5": {
-    "title": "Suppressing Noise Without Sacrificing Lighting Quality When Using Unreal Engine's Lumen",
-    "first_seen": "2026-10-02",
-    "times": 1,
-    "last_seen": "2026-10-02"
-  },
   "01b05adba491a9d7": {
     "title": "Gears of War: E-Day sees a return to dark, survival-horror roots with UE5",
     "first_seen": "2026-10-02",
     "times": 2,
     "last_seen": "2026-10-03"
-  },
-  "7fbe44fc3540f35f": {
-    "title": "My UE 5.8 plugin update for a rendering without TAA dependency: distance-field GI, SMAA 2TX and Bend Studio screen space shadows (3.0 update)",
-    "first_seen": "2026-10-02",
-    "times": 1,
-    "last_seen": "2026-10-02"
-  },
-  "826535d2a949a280": {
-    "title": "Zagreus (Hades) | Real-time Fan Art in UE 5.8",
-    "first_seen": "2026-10-02",
-    "times": 1,
-    "last_seen": "2026-10-02"
   },
   "e8138f164adc8a89": {
     "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
@@ -620,8 +560,8 @@
   "799bc7bf7763a923": {
     "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
     "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
+    "times": 2,
+    "last_seen": "2026-10-17"
   },
   "2f4b823877c4e074": {
     "title": "Gemini 4 Argon for Robotics",
@@ -632,8 +572,8 @@
   "0ccfce23cd33c8db": {
     "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
     "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
+    "times": 2,
+    "last_seen": "2026-10-17"
   },
   "0eef46b93f435e15": {
     "title": "Wayland desktop for Linux with skeuomorphic design",
@@ -676,5 +616,59 @@
     "first_seen": "2026-10-16",
     "times": 1,
     "last_seen": "2026-10-16"
+  },
+  "059d26b633aef451": {
+    "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
+    "first_seen": "2026-10-17",
+    "times": 1,
+    "last_seen": "2026-10-17"
+  },
+  "1340db7c16b61ed6": {
+    "title": "Claude reveals ECDSA curve origins",
+    "first_seen": "2026-10-17",
+    "times": 1,
+    "last_seen": "2026-10-17"
+  },
+  "3d860c820f54a6b0": {
+    "title": "Krea 3 – An image model built for editing at scale",
+    "first_seen": "2026-10-17",
+    "times": 1,
+    "last_seen": "2026-10-17"
+  },
+  "4169f6a4c67ec1b0": {
+    "title": "TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context",
+    "first_seen": "2026-10-17",
+    "times": 1,
+    "last_seen": "2026-10-17"
+  },
+  "32bab911fad76c80": {
+    "title": "DayZ Creator Presents BRUTAL, a Free Open-Source Development Framework",
+    "first_seen": "2026-10-17",
+    "times": 1,
+    "last_seen": "2026-10-17"
+  },
+  "4d15a073d53976aa": {
+    "title": "Epic Games claims its new \"vibe coded\" launcher runs 46% faster than Steam from cold start to store page",
+    "first_seen": "2026-10-17",
+    "times": 1,
+    "last_seen": "2026-10-17"
+  },
+  "0d32c82992049d40": {
+    "title": "Sculpting Scales & Simulating Clothes for Creature Chef in ZBrush & Marvelous Designer",
+    "first_seen": "2026-10-17",
+    "times": 1,
+    "last_seen": "2026-10-17"
+  },
+  "8358ea1c5409edb3": {
+    "title": "Survey: the hardest UE5 multiplayer / GAS problem you hit in the last 90 days (2 min)",
+    "first_seen": "2026-10-17",
+    "times": 1,
+    "last_seen": "2026-10-17"
+  },
+  "3e69c3cd530dcfee": {
+    "title": "Modular control rig: legs \"frozen\"",
+    "first_seen": "2026-10-17",
+    "times": 1,
+    "last_seen": "2026-10-17"
   }
 }
