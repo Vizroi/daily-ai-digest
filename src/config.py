@@ -1,4 +1,4 @@
-"""游戏日报配置：游戏动态为主，策划精选与少量 AI 为辅。
+"""游戏日报与独立 AI 页配置：两页各自保留快讯和精选配额。
 
 category 是内容入口而非质量证明；tier 区分一手实践、编辑分析和社区。
 慢更新设计站使用 30 天窗口，旧文精选由显式阅读库负责，不伪装成新闻。
@@ -11,9 +11,11 @@ COVERAGE_WEIGHT = 12
 
 NEWS_MAX = 16
 FEATURES_MAX = 3
-AI_MAX = 2
+AI_MAX = 8
+AI_FEATURES_MAX = 2
 FRESH_WINDOW_HOURS = 72
 DESIGN_WINDOW_HOURS = 30 * 24
+AI_FEATURE_WINDOW_HOURS = 30 * 24
 MAX_PER_SOURCE = 20
 MAX_RECALL = 1200
 # 多个平台扩大候选；最终版面仍保持原有栏目配额。
@@ -31,11 +33,11 @@ RSS_SOURCES = [
     {"name": "触乐", "url": "https://www.chuapp.com/feed", "tier": 2, "lang": "zh", "category": "games"},
     {"name": "Dan Felder", "url": "https://danfelder.net/feed/", "tier": 1, "lang": "en", "category": "design", "window_hours": DESIGN_WINDOW_HOURS},
     {"name": "GDKeys", "url": "https://gdkeys.com/feed/", "tier": 1, "lang": "en", "category": "design", "window_hours": DESIGN_WINDOW_HOURS},
-    {"name": "OpenAI", "url": "https://openai.com/news/rss.xml", "tier": 1, "lang": "en", "category": "ai"},
-    {"name": "DeepMind", "url": "https://deepmind.google/blog/rss.xml", "tier": 1, "lang": "en", "category": "ai"},
-    {"name": "HuggingFace Blog", "url": "https://huggingface.co/blog/feed.xml", "tier": 1, "lang": "en", "category": "ai"},
-    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "tier": 2, "lang": "en", "category": "ai"},
-    {"name": "量子位", "url": "https://www.qbitai.com/feed", "tier": 2, "lang": "zh", "category": "ai"},
+    {"name": "OpenAI", "url": "https://openai.com/news/rss.xml", "tier": 1, "lang": "en", "category": "ai", "window_hours": AI_FEATURE_WINDOW_HOURS},
+    {"name": "DeepMind", "url": "https://deepmind.google/blog/rss.xml", "tier": 1, "lang": "en", "category": "ai", "window_hours": AI_FEATURE_WINDOW_HOURS},
+    {"name": "HuggingFace Blog", "url": "https://huggingface.co/blog/feed.xml", "tier": 1, "lang": "en", "category": "ai", "window_hours": AI_FEATURE_WINDOW_HOURS},
+    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "tier": 2, "lang": "en", "category": "ai", "window_hours": AI_FEATURE_WINDOW_HOURS},
+    {"name": "量子位", "url": "https://www.qbitai.com/feed", "tier": 2, "lang": "zh", "category": "ai", "window_hours": AI_FEATURE_WINDOW_HOURS},
 ]
 
 # indienova 未发现站内声明的 feed：读公开列表与详情页，不猜测 RSS 路径。

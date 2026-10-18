@@ -1,4 +1,4 @@
-"""游戏日报、策划精选、AI 精华各自筛选，来源热度不再决定版面。"""
+"""游戏与 AI 分页筛选；各自保留快讯和正文精选。"""
 import json
 import os
 import re
@@ -8,7 +8,7 @@ import config
 from cluster import canonical_url, _event_key
 
 TZ = timezone(timedelta(hours=8))
-SECTIONS = ("news", "features", "ai")
+SECTIONS = ("news", "features", "ai", "ai_features")
 TOPICS = {
     "战斗设计": ["combat", "战斗", "打击感", "boss", "招式"],
     "关卡设计": ["level design", "关卡", "open world", "开放世界", "blockout"],
@@ -24,6 +24,9 @@ NOISE = ["抽奖", "优惠码", "购买指南", "招聘", "求助", "首席营�
 GAME_CHANGES = ["dlc", "patch", "expansion", "early access", "demo", "gameplay", "试玩", "版本", "更新", "新作", "玩法", "关卡"]
 AI_USEFUL = ["release", "launch", "introduc", "available", "workflow", "tool", "coding", "agent",
              "发布", "上线", "开放", "编程", "工具", "工作流", "原型", "研究", "更新"]
+AI_ANALYSIS = ["case study", "tutorial", "guide", "evaluation", "evaluating", "benchmark",
+               "how to", "how we", "lessons", "workflow", "deep dive", "explained",
+               "复盘", "拆解", "分析", "实测", "评测", "教程", "实践", "工作流", "方法", "经验"]
 
 
 def parse_date(value):
@@ -173,21 +176,33 @@ def build_digest(events, memory, now):
     news = diverse_pick([e for e in game if e["key"] not in used and not e.get("library")
                          and not e.get("undated") and e["age_hours"] is not None
                          and 0 <= e["age_hours"] <= config.FRESH_WINDOW_HOURS], config.NEWS_MAX)
-    # A large model-release day cannot take over a small game issue.
-    ai_limit = min(config.AI_MAX, (len(news) + len(features)) // 6)
-    ai = diverse_pick([e for e in candidates if e.get("category") == "ai"
+    ai_pool = [e for e in candidates if e.get("category") == "ai"]
+    ai_feature_pool = [e for e in ai_pool
+                       if (e["is_analysis"] or any(word in e.get("title", "").lower() for word in AI_ANALYSIS))
+                       and (e.get("has_body") or e.get("rss_content") or len(e.get("summary_raw", "")) >= 80)
+                       and (e.get("library") or (e["age_hours"] is not None
+                            and 0 <= e["age_hours"] <= config.AI_FEATURE_WINDOW_HOURS))]
+    ai_features = diverse_pick(ai_feature_pool, config.AI_FEATURES_MAX, 1)
+    ai_used = {e["key"] for e in ai_features}
+    ai_reserves = diverse_pick([e for e in ai_feature_pool if e["key"] not in ai_used],
+                              config.AI_FEATURES_MAX, 1)
+    ai_used.update(e["key"] for e in ai_reserves)
+    # The AI page has its own quota, even on days with no selected game news.
+    ai = diverse_pick([e for e in ai_pool if e["key"] not in ai_used
                        and not e.get("undated") and e["age_hours"] is not None
                        and 0 <= e["age_hours"] <= config.FRESH_WINDOW_HOURS
-                       and any(word in relevant_text(e) for word in AI_USEFUL)], ai_limit, 1)
-    for name, entries in (("news", news), ("features", features), ("ai", ai)):
+                       and any(word in relevant_text(e) for word in AI_USEFUL)], config.AI_MAX, 2)
+    for name, entries in (("news", news), ("features", features), ("ai", ai), ("ai_features", ai_features)):
         for entry in entries:
             entry["section"] = name
     return {"schema_version": 3, "date": today, "generated_at": now.astimezone(TZ).isoformat(),
             "news": news, "features": features, "feature_candidates": reserves, "ai": ai,
+            "ai_features": ai_features, "ai_feature_candidates": ai_reserves,
             "review_queue": review_queue,
             "stats": {"events": len(events), "news": len(news), "features": len(features), "ai": len(ai),
+                      "ai_features": len(ai_features),
                       "review_candidates": len(review_queue),
-                      "multi_source": sum(e.get("coverage", 1) > 1 for e in news + features + ai)}}
+                      "multi_source": sum(e.get("coverage", 1) > 1 for e in news + features + ai + ai_features)}}
 
 
 def load_library(path):
@@ -197,7 +212,7 @@ def load_library(path):
     except OSError:
         return []
     for entry in entries:
-        entry.update(key=_event_key(entry["title"]), pool="main", category="design", library=True,
+        entry.update(key=_event_key(entry["title"]), pool="main", category=entry.get("category", "design"), library=True,
                      coverage=1, tier=1, tier_weight=18, undated=not bool(entry.get("published")))
     return entries
 
@@ -217,7 +232,7 @@ def main():
     queue_path = os.path.join(os.path.dirname(os.path.abspath(out)), "review_queue.json")
     with open(queue_path, "w", encoding="utf-8") as handle:
         json.dump(digest["review_queue"], handle, ensure_ascii=False, indent=2)
-    print(f"[OK] 日报 {len(digest['news'])} · 精选 {len(digest['features'])} · AI {len(digest['ai'])} → {out}")
+    print(f"[OK] 日报 {len(digest['news'])} · 精选 {len(digest['features'])} · AI 快讯 {len(digest['ai'])} · AI 精选 {len(digest['ai_features'])} → {out}")
 
 
 if __name__ == "__main__":

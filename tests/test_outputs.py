@@ -29,7 +29,7 @@ class OutputTests(unittest.TestCase):
         with open(os.path.join(ROOT, "data", "preview_digest.json"), encoding="utf-8") as handle:
             self.digest = json.load(handle)
 
-    def test_preview_has_three_sections_and_valid_deep_links(self):
+    def test_game_daily_has_its_own_sections_and_valid_deep_links(self):
         page = render.render(self.digest)
         parser = Links()
         parser.feed(page)
@@ -40,19 +40,34 @@ class OutputTests(unittest.TestCase):
         self.assertNotIn('<script', page)
         self.assertEqual(page.count('class="news-item"'), len(self.digest["news"]))
         self.assertIn("策划精选", page)
+        self.assertIn('href="ai.html"', page)
+        self.assertNotIn('href="#ai"', page)
+        self.assertNotIn('class="ai-item"', page)
+        for event in self.digest["ai"]:
+            self.assertNotIn(render._anchor(event, "ai", 1), page)
 
-    def test_feed_contains_all_three_sections_with_unique_ids(self):
+    def test_feed_contains_all_sections_with_unique_ids(self):
+        ai = self.digest["ai"][0]
+        self.digest["ai"] = [dict(ai, key=f"brief-{i}", url=f"https://example.com/brief/{i}") for i in range(8)]
+        self.digest["ai_features"] = [dict(ai, key="ai-feature", url="https://example.com/feature")]
         tree = ET.fromstring(feed.build(self.digest))
         items = tree.findall("./channel/item")
-        expected = sum(len(self.digest[section]) for section in ("news", "features", "ai"))
+        expected = sum(len(self.digest[section]) for section in ("news", "features", "ai", "ai_features"))
         self.assertEqual(len(items), expected)
         self.assertEqual(len({e.findtext("guid") for e in items}), expected)
-        self.assertEqual({e.findtext("category") for e in items}, {"今日游戏日报", "策划精选", "AI 精华"})
+        self.assertEqual({e.findtext("category") for e in items}, {"今日游戏日报", "策划精选", "AI 快讯", "AI 精选"})
+        self.assertEqual([e.findtext("link") for e in items if e.findtext("category") == "AI 精选"],
+                         ["https://example.com/feature"])
 
     def test_unknown_and_day_precision_dates_do_not_invent_timestamps(self):
         self.assertEqual(feed._pubdate({"published": None, "undated": True}), "")
         self.assertEqual(feed._pubdate({"published": "2026-10-17", "published_precision": "day"}), "")
         self.assertIn("2026.10.17", render._published({"published": "2026-10-16T16:00:00+00:00"}, full=True))
+
+    def test_site_feed_build_date_includes_later_ai_update(self):
+        self.digest.update(generated_at="2026-10-18T19:00:00+08:00", ai_generated_at="2026-10-18T21:00:00+08:00")
+        tree = ET.fromstring(feed.build(self.digest))
+        self.assertIn("21:00:00 +0800", tree.findtext("./channel/lastBuildDate"))
 
     def test_untrusted_text_and_unsafe_links_are_escaped(self):
         self.digest["news"][0].update(title_cn="<script>alert(1)</script>", url="javascript:alert(1)")

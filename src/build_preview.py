@@ -5,6 +5,7 @@ from pathlib import Path
 
 import feed
 import render
+from ai_render import render_ai
 from market_render import render_market
 from source_directory import render_directory
 from source_registry import catalog
@@ -28,6 +29,7 @@ def main():
     market_path = ROOT / "data/market.json"
     market = json.loads(market_path.read_text(encoding="utf-8")) if market_path.exists() else {}
     (output / "index.html").write_text(render.render(digest, archive_dates=dates, market=market), encoding="utf-8")
+    (output / "ai.html").write_text(render_ai(digest), encoding="utf-8")
     (output / "market.html").write_text(render_market(market), encoding="utf-8")
     feed.SITE = args.base_url.rstrip("/")
     (output / "feed.xml").write_text(feed.build(digest), encoding="utf-8")

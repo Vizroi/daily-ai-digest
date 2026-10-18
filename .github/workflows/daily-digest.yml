@@ -92,7 +92,7 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python src/cluster.py
 
-      # ③ 游戏日报、策划精选、AI 精华各自筛选并限制配额
+      # ③ 游戏日报、策划精选、AI 快讯与精选各自筛选
       - name: 排序
         run: python src/rank.py
 
@@ -116,10 +116,13 @@ jobs:
       - name: 渲染
         run: python src/render.py
 
+      - name: 渲染 AI 快讯与精选并归档
+        run: python src/ai_render.py
+
       - name: 来源目录与本轮状态
         run: python src/source_directory.py data/source_report.json docs/sources.html
 
-      # ⑤-b RSS：与本期三个栏目保持一致
+      # ⑤-b RSS：汇总游戏与 AI 两页的本期内容
       - name: 输出 RSS
         run: python src/feed.py
 

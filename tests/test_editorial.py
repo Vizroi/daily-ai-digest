@@ -9,6 +9,7 @@ from unittest.mock import patch
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
 import cluster
+import commit_memory
 import rank
 import readfull
 import summarize
@@ -30,13 +31,86 @@ def event(index, category="games", **overrides):
 
 
 class EditorialRules(unittest.TestCase):
-    def test_ai_release_wave_cannot_dominate_game_daily(self):
+    def test_ai_briefs_have_an_independent_quota_and_stay_out_of_game_daily(self):
         events = [event(i) for i in range(15)]
         events += [event(i + 100, "ai", title=f"Launch new coding tool {i}", tier=1, coverage=100) for i in range(40)]
         digest = rank.build_digest(events, {}, NOW)
         self.assertEqual(len(digest["news"]), 15)
-        self.assertLessEqual(len(digest["ai"]), 2)
+        self.assertEqual(len(digest["ai"]), 8)
         self.assertTrue(all(e["category"] != "ai" for e in digest["news"] + digest["features"]))
+        ai_only = rank.build_digest(events[15:], {}, NOW)
+        summarize.process_digest(ai_only)
+        self.assertEqual(len(ai_only["ai"]), 8)
+        self.assertFalse(ai_only["news"] or ai_only["features"])
+
+    def test_ai_feature_can_be_older_but_old_brief_cannot_become_news(self):
+        old = (NOW - timedelta(days=8)).isoformat()
+        entries = [event(1, "ai", title="Evaluation guide for coding agents", published=old),
+                   event(2, "ai", title="Launch new coding tool", published=old),
+                   event(3, "ai", title="Launch another coding tool")]
+        digest = rank.build_digest(entries, {}, NOW)
+        self.assertEqual([e["key"] for e in digest["ai_features"]], ["event-1"])
+        self.assertEqual([e["key"] for e in digest["ai"]], ["event-3"])
+
+    def test_ai_features_need_body_and_do_not_repeat_as_briefs(self):
+        entries = [event(1, "ai", title="Evaluation guide for coding agents", has_body=True,
+                         body="Verified article about evaluation methods."),
+                   event(2, "ai", title="Tutorial for a new coding workflow", has_body=False),
+                   event(3, "ai", title="Earlier workflow analysis", has_body=False,
+                         published=(NOW - timedelta(days=8)).isoformat())]
+        digest = rank.build_digest(entries, {}, NOW)
+        response = {"suitable": True, "title_cn": "代理评估的方法与条件", "what": "作者比较代理评估的方法。",
+                    "why": "原文列出评估条件与限制。", "for_you": "有哪些场景未纳入评估？"}
+        with patch("summarize._call", return_value=response):
+            summarize.process_digest(digest, object())
+        self.assertEqual([e["key"] for e in digest["ai_features"]], ["event-1"])
+        self.assertEqual([e["key"] for e in digest["ai"]], ["event-2"])
+        self.assertEqual(digest["ai"][0]["why"], "")
+        self.assertEqual(digest["ai"][0]["for_you"], "")
+        self.assertNotIn("ai_feature_candidates", digest)
+
+    def test_ai_briefs_remain_short_even_with_full_text(self):
+        entry = event(1, "ai", section="ai", has_body=True, body="Verified article body.")
+        response = {"suitable": True, "title_cn": "编程工具发布新功能", "what": "官方发布新的编程工具功能。",
+                    "why": "Long analysis", "for_you": "Unrequested reading exercise"}
+        with patch("summarize._call", return_value=response):
+            result = summarize.summarize_one(object(), "mock", entry)
+        self.assertEqual(result["what"], response["what"])
+        self.assertEqual(result["why"], "")
+        self.assertEqual(result["for_you"], "")
+
+    def test_ai_article_cannot_repeat_in_both_sections_under_a_different_key(self):
+        feature = event(1, "ai", has_body=True, body="Verified evaluation methods.")
+        duplicate = event(2, "ai", url=feature["url"] + "?utm_source=another-feed")
+        digest = {"schema_version": 3, "generated_at": NOW.isoformat(),
+                  "ai_features": [feature], "ai": [duplicate]}
+        response = {"suitable": True, "title_cn": "代理评估的方法", "what": "作者比较了评估方法。",
+                    "why": "原文列出测试条件。", "for_you": "测试条件是否具有代表性？"}
+        with patch("summarize._call", return_value=response):
+            summarize.process_digest(digest, object())
+        self.assertEqual(len(digest["ai_features"]), 1)
+        self.assertEqual(digest["ai"], [])
+
+    def test_ai_feature_full_text_and_memory_include_new_section(self):
+        with tempfile.TemporaryDirectory() as directory:
+            ranked_path = os.path.join(directory, "ranked.json")
+            memory_path = os.path.join(directory, "memory.json")
+            digest = {"schema_version": 3, "date": "2026-10-18", "ai_features": [event(1, "ai")],
+                      "ai_feature_candidates": [event(2, "ai")]}
+            with open(ranked_path, "w", encoding="utf-8") as handle:
+                json.dump(digest, handle)
+            with patch("sys.argv", ["readfull.py", ranked_path]), patch("readfull.extract", return_value="Verified body." * 40):
+                readfull.main()
+            with open(ranked_path, encoding="utf-8") as handle:
+                enriched = json.load(handle)
+            self.assertTrue(enriched["ai_features"][0]["has_body"])
+            self.assertTrue(enriched["ai_feature_candidates"][0]["has_body"])
+            with patch("sys.argv", ["commit_memory.py", ranked_path, memory_path]):
+                commit_memory.main()
+            with open(memory_path, encoding="utf-8") as handle:
+                memory = json.load(handle)
+            self.assertIn("event-1", memory)
+            self.assertNotIn("event-2", memory)
 
     def test_missing_old_and_future_dates_never_become_news(self):
         events = [event(1, published=None, undated=True),

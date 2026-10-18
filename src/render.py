@@ -25,7 +25,7 @@ CSS = r"""
 .masthead{padding-top:27px}.masthead-top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-bottom:13px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.09em;color:var(--soft)}.top-links{display:flex;gap:22px;flex-wrap:wrap}.top-links a{text-decoration:none}.brand-row{display:flex;justify-content:space-between;align-items:center;gap:30px;padding:30px 0 26px}.brand{min-width:0}.brand h1{font:900 clamp(42px,5.8vw,72px)/1.2 var(--serif);letter-spacing:.06em}.brand-en{margin-top:10px;font:12px var(--mono);letter-spacing:.29em;color:var(--soft)}.edition{text-align:right;flex-shrink:0}.edition-date{font:27px/1.3 var(--serif);letter-spacing:.02em}.edition-day{margin-top:6px;font-size:11px;color:var(--soft);letter-spacing:.06em}.edition-status{display:inline-block;margin-top:10px;padding:2px 9px;border:1px solid var(--sage);color:var(--sage);font-size:10px;letter-spacing:.1em}.edition-status.preview{border-color:var(--rust);color:var(--rust)}.strapline{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:10px 0;border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);font-size:12px;color:var(--soft)}.strapline strong{font-weight:500;color:var(--ink)}.edition-count{font:10px var(--mono);white-space:nowrap}.nav{display:flex;gap:28px;flex-wrap:wrap;padding:14px 0;border-bottom:1px solid var(--line)}.nav a{text-decoration:none;font-size:12px;font-weight:600}.nav small{font:10px var(--mono);color:var(--muted);margin-left:5px}.preview-note{margin-top:20px;padding:12px 16px;border-left:3px solid var(--rust);background:#eee2d6;color:#754235;font-size:12px}.preview-note strong{margin-right:8px}
 .edition-grid{display:grid;grid-template-columns:minmax(0,1fr) 258px;gap:48px;align-items:start;margin-top:44px}.main-column,.sidebar{min-width:0}.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding-bottom:18px;border-bottom:2px solid var(--ink)}.section-kicker{display:block;margin-bottom:7px;font:10px var(--mono);letter-spacing:.16em;color:var(--sage)}.section-head h2{font:700 29px/1.35 var(--serif);letter-spacing:.02em}.section-subtitle{margin-top:8px;font-size:12px;color:var(--soft)}.section-count{flex-shrink:0;font-size:11px;color:var(--soft);white-space:nowrap}.section-count b{font:24px/1 var(--serif);color:var(--ink);margin-right:4px}
 .news-list{list-style:none;padding:0;margin:0}.news-item{padding:23px 0 24px;border-bottom:1px solid var(--line);scroll-margin-top:24px}.story-topline{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:10px;line-height:1.5;color:var(--soft)}.story-number{font:11px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}.topic{color:var(--sage);font-size:10px;letter-spacing:.04em}.topic::before{content:"";display:inline-block;width:5px;height:5px;margin:0 7px 1px 0;background:var(--sage)}.story-date{margin-left:auto;font:10px var(--mono);color:var(--soft);white-space:nowrap}.permalink{text-decoration:none;color:var(--muted);font:12px var(--mono);padding:1px 4px}.news-title{font:700 22px/1.55 var(--serif);letter-spacing:.005em}.news-title a,.feature-title a,.ai-title a{text-decoration:none}.news-list>li:first-child .news-title{font-size:29px;line-height:1.5}.original-title{display:block;margin-top:5px;font:400 11px/1.65 var(--sans);color:var(--muted);letter-spacing:0;text-wrap:wrap}.story-summary{font-size:13px;color:var(--soft);line-height:1.95;margin-top:11px}.planner-note{margin-top:12px;font-size:12px;line-height:1.85;color:var(--soft)}.planner-note span{font-size:10px;font-weight:700;color:var(--sage);margin-right:8px}.story-background{margin-top:10px;font-size:12px;color:var(--soft)}.story-background summary{width:fit-content;cursor:pointer;color:var(--sage);font-size:10px}.story-background p{padding-top:7px;line-height:1.85}.source-line{display:flex;flex-wrap:wrap;align-items:baseline;gap:5px 10px;margin-top:13px;font-size:10px;line-height:1.75;color:var(--muted)}.source-line a{color:var(--soft);text-decoration:none;border-bottom:1px solid #c9cbbb}.source-line a:hover{color:var(--rust);border-color:var(--rust)}.source-line .lang-label{font:9px var(--mono);letter-spacing:.04em;color:var(--sage)}.source-note{font-size:10px;color:var(--muted);margin-top:6px}.no-content{padding:30px 0;font-size:13px;color:var(--soft)}
-.sidebar{border-top:2px solid var(--ink);padding-top:16px}.sidebar h2{font:700 20px/1.4 var(--serif)}.sidebar-deck{font-size:12px;color:var(--soft);line-height:1.9;margin-top:10px}.issue-totals{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:21px;padding-bottom:23px;border-bottom:1px solid var(--line)}.issue-totals div{border-right:1px solid var(--line);padding-right:8px}.issue-totals div:last-child{border-right:0}.issue-totals b{display:block;font:28px/1.2 var(--serif)}.issue-totals span{display:block;margin-top:7px;font-size:10px;color:var(--soft)}.guide-title{font-size:10px;font-weight:600;color:var(--sage);letter-spacing:.12em;margin-top:22px}.guide-list{list-style:none;padding:0;margin:8px 0 0}.guide-list li{padding:13px 0;border-bottom:1px solid var(--line)}.guide-list small{font:9px var(--mono);color:var(--muted);letter-spacing:.1em}.guide-list a{display:block;margin-top:4px;text-decoration:none;font:14px/1.7 var(--serif)}.sidebar-quote{margin-top:28px;padding-top:18px;border-top:3px double var(--line);font:16px/1.85 var(--serif);color:var(--sage)}.sidebar-caption{font-size:10px;color:var(--soft);line-height:1.85;margin-top:8px}.source-mix{margin-top:22px;font-size:10px;color:var(--muted);line-height:1.9}
+.sidebar{border-top:2px solid var(--ink);padding-top:16px}.sidebar h2{font:700 20px/1.4 var(--serif)}.sidebar-deck{font-size:12px;color:var(--soft);line-height:1.9;margin-top:10px}.issue-totals{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:21px;padding-bottom:23px;border-bottom:1px solid var(--line)}.issue-totals div{border-right:1px solid var(--line);padding-right:8px}.issue-totals div:last-child{border-right:0}.issue-totals b{display:block;font:28px/1.2 var(--serif)}.issue-totals span{display:block;margin-top:7px;font-size:10px;color:var(--soft)}.guide-title{font-size:10px;font-weight:600;color:var(--sage);letter-spacing:.12em;margin-top:22px}.guide-list{list-style:none;padding:0;margin:8px 0 0}.guide-list li{padding:13px 0;border-bottom:1px solid var(--line)}.guide-list small{font:9px var(--mono);color:var(--muted);letter-spacing:.1em}.guide-list a{display:block;margin-top:4px;text-decoration:none;font:14px/1.7 var(--serif)}.sidebar-quote{margin-top:28px;padding-top:18px;border-top:3px double var(--line);font:16px/1.85 var(--serif);color:var(--sage)}.sidebar-caption{font-size:10px;color:var(--soft);line-height:1.85;margin-top:8px}.source-mix{margin-top:22px;font-size:10px;color:var(--muted);line-height:1.9}
 .features-section{margin-top:56px}.feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:24px;border:1px solid var(--line);background:var(--panel)}.feature-card{min-width:0;padding:25px 24px 26px;border-right:1px solid var(--line);scroll-margin-top:24px}.feature-card:last-child{border-right:0}.feature-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.feature-mark{font:11px var(--mono);letter-spacing:.1em;color:var(--rust)}.feature-kind{font-size:10px;color:var(--sage)}.feature-title{font:700 22px/1.55 var(--serif)}.feature-summary{font-size:13px;color:var(--soft);line-height:1.95;margin-top:16px}.feature-notes{margin-top:20px;border-top:1px solid var(--line)}.feature-note{padding-top:16px}.feature-note dt{font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--sage);margin-bottom:5px}.feature-note dd{font-size:12px;line-height:1.95;color:var(--soft)}.feature-note.takeaway{margin-top:16px;padding:14px;background:var(--wash)}.feature-meta{margin-top:20px;font:9px/1.8 var(--mono);color:var(--muted)}.feature-card .source-line{margin-top:8px}.section-empty{padding:24px 0;font-size:13px;color:var(--soft);border-bottom:1px solid var(--line)}
 .ai-section{margin-top:49px;padding-top:24px;border-top:3px double var(--ink)}.ai-section .section-head{padding-bottom:15px;border-bottom:1px solid var(--line)}.ai-section .section-head h2{font-size:23px}.ai-section .section-kicker{font-size:9px}.ai-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;padding-top:21px}.ai-item{min-width:0;scroll-margin-top:24px}.ai-title{font:700 18px/1.6 var(--serif)}.ai-item .story-summary{font-size:12px;margin-top:10px}.ai-top{display:flex;gap:8px;align-items:baseline;margin-bottom:8px;color:var(--sage);font-size:10px}.ai-top .permalink{margin-left:auto}.ai-item .planner-note{font-size:11px}
 .archive-section{margin-top:49px;padding-top:22px;border-top:1px solid var(--line)}.archive-section h2{font:700 20px var(--serif)}.archive-deck{margin-top:6px;color:var(--soft);font-size:11px}.archive-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;list-style:none;padding:0}.archive-list a{display:block;font:10px var(--mono);padding:7px 11px;border:1px solid var(--line);text-decoration:none}.archive-list a:hover{border-color:var(--sage);background:var(--wash);color:var(--sage)}.archive-list [aria-current=date]{border-color:var(--sage);color:var(--sage)}.archive-more summary{font-size:11px;color:var(--soft);cursor:pointer;width:fit-content}.footer{margin-top:37px;padding:20px 0 33px;border-top:2px solid var(--ink);display:flex;justify-content:space-between;align-items:flex-start;gap:24px;font-size:10px;line-height:1.9;color:var(--muted)}.footer-brand{font:700 15px var(--serif);color:var(--ink);letter-spacing:.07em}.footer-copy{margin-top:6px;max-width:670px}.footer-links{display:flex;gap:19px;flex-wrap:wrap;justify-content:flex-end;flex-shrink:0}.footer-links a{text-decoration:none}.news-title,.feature-title,.ai-title,.original-title,.story-summary,.feature-summary,.feature-note dd,.guide-list a,.planner-note,.source-line{overflow-wrap:anywhere}article:target{outline:2px solid var(--sage);outline-offset:8px;background:#eef0e6}
@@ -89,14 +89,12 @@ def _unique(items) -> list[dict]:
     return out
 
 
-def _sections(digest: dict) -> tuple[list[dict], list[dict], list[dict]]:
+def _sections(digest: dict) -> tuple[list[dict], list[dict]]:
     if digest.get("schema_version") == 3 or any(key in digest for key in ("news", "features", "ai")):
-        return (_unique(digest.get("news") or [])[:16], _unique(digest.get("features") or [])[:3],
-                _unique(digest.get("ai") or [])[:2])
+        return _unique(digest.get("news") or [])[:16], _unique(digest.get("features") or [])[:3]
     news = _unique((digest.get("lead") or []) + (digest.get("threads") or []) + (digest.get("brief") or []))[:16]
     features = _unique((digest.get("relevant") or []) + (digest.get("graphics") or []))[:3]
-    ai = _unique((digest.get("papers") or []) + (digest.get("repos") or []))[:2]
-    return news, features, ai
+    return news, features
 
 
 TOPIC_CN = {"news": "游戏动态", "game_news": "游戏动态", "industry": "行业动态", "business": "行业动态",
@@ -243,28 +241,20 @@ def _feature_item(ev: dict, index: int) -> str:
             f'{_sources(ev)}{_summary_note(ev)}</article>')
 
 
-def _ai_item(ev: dict, index: int) -> str:
-    anchor = _anchor(ev, "ai", index)
-    planner = f'<p class="planner-note"><span>可以留意</span>{esc(_insight(ev))}</p>' if _insight(ev) else ""
-    return (f'<article class="ai-item" id="{anchor}"><div class="ai-top"><span>{_published(ev, full=True)}</span>{_permalink(anchor)}</div>'
-            f'<h3 class="ai-title">{_title_link(ev)}</h3><p class="story-summary">{esc(_summary(ev))}</p>'
-            f'{planner}{_sources(ev)}{_summary_note(ev)}</article>')
-
-
 def _section_head(number: str, title: str, en: str, subtitle: str, count: int, unit: str = "条") -> str:
     return (f'<div class="section-head"><div><span class="section-kicker">{number} / {esc(en)}</span>'
             f'<h2>{esc(title)}</h2><p class="section-subtitle">{esc(subtitle)}</p></div>'
             f'<span class="section-count"><b>{count}</b>{esc(unit)}</span></div>')
 
 
-def _sidebar(news: list[dict], features: list[dict], ai: list[dict], source_count: int) -> str:
+def _sidebar(news: list[dict], features: list[dict], source_count: int) -> str:
     guide = ''.join(f'<li><small>精选 {index:02d}</small><a href="#{_anchor(event, "feature", index)}">{_title_cn(event)}</a></li>'
                     for index, event in enumerate(features, 1))
     guide_html = f'<p class="guide-title">本期精选文章</p><ol class="guide-list">{guide}</ol>' if guide else ""
     totals = ''.join(f'<div><b>{count:02d}</b><span>{label}</span></div>' for count, label in
-                     ((len(news), "游戏动态"), (len(features), "策划精选"), (len(ai), "AI 精华")))
+                     ((len(news), "游戏动态"), (len(features), "策划精选")))
     return ('<aside class="sidebar" aria-labelledby="guide-title"><span class="overline">IN THIS EDITION</span><h2 id="guide-title">本期导读</h2>'
-            '<p class="sidebar-deck">本期游戏动态、策划精选与 AI 精华。</p>'
+            '<p class="sidebar-deck">本期游戏动态与策划精选。</p>'
             f'<div class="issue-totals">{totals}</div>{guide_html}'
             '<p class="sidebar-caption">精选包含近期文章与往期文章，保留原始发布日期。</p>'
             f'<p class="source-mix">本期汇集 {source_count} 个来源。<br>中文摘要 · 原文直达 · 保留英文标题</p></aside>')
@@ -301,12 +291,12 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
     except (ValueError, TypeError):
         issue_date = now.date()
     date_iso, preview = issue_date.isoformat(), bool(digest.get("preview"))
-    news, features, ai = _sections(digest)
-    names = {name for event in news + features + ai for name in _source_names(event)}
-    languages = {_lang(event) for event in news + features + ai}
+    news, features = _sections(digest)
+    names = {name for event in news + features for name in _source_names(event)}
+    languages = {_lang(event) for event in news + features}
     language_label = "中英来源" if {"zh", "en"} <= languages else ("英文来源" if "en" in languages else "多方来源")
     title = f'策划日报 · {date_iso}' + (' · 试刊' if preview else '')
-    desc = f'游戏动态 {len(news)} 条，策划精选 {len(features)} 篇，AI 精华 {len(ai)} 条。游戏资讯、设计分析与开发实践。'
+    desc = f'游戏动态 {len(news)} 条，策划精选 {len(features)} 篇。游戏资讯、设计分析与开发实践。'
     prefix = "../" if archive_page else ""
     market_html = ""
     if market:
@@ -317,8 +307,6 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
     news_html = ''.join(_news_item(event, i) for i, event in enumerate(news, 1)) or '<li class="no-content">本期暂未收录游戏动态。</li>'
     features_html = ('<div class="feature-grid">' + ''.join(_feature_item(event, i) for i, event in enumerate(features, 1)) + '</div>'
                      if features else '<p class="section-empty">本期暂未收录策划精选。</p>')
-    ai_html = ('<div class="ai-list">' + ''.join(_ai_item(event, i) for i, event in enumerate(ai, 1)) + '</div>'
-               if ai else '<p class="section-empty">本期暂未收录 AI 精华。</p>')
     dates = list(archive_dates or [])
     if not preview and date_iso not in dates:
         dates.append(date_iso)
@@ -330,12 +318,11 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
 {render_site_navigation("daily", prefix, archive_page=archive_page)}
 <header class="masthead"><div class="masthead-top"><span>中英文游戏资讯与开发文章</span><div class="top-links"><a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅 ↗</a></div></div>
 <div class="brand-row"><div class="brand"><h1>策划日报</h1><p class="brand-en" lang="en">GAME DESIGN DAILY</p></div><div class="edition"><p class="edition-date"><time datetime="{date_iso}">{issue_date:%Y.%m.%d}</time></p><p class="edition-day">星期{WEEKDAY_CN[issue_date.weekday()]} · {now:%H:%M} 整理</p><span class="edition-status{' preview' if preview else ''}">{'试刊 · PREVIEW' if preview else '每日一读 · DAILY EDITION'}</span></div></div>
-<nav class="edition-contents" aria-label="本期目录"><span class="contents-label">本期目录</span><a href="#news">游戏日报<small>{len(news)} 条</small></a><a href="#features">策划精选<small>{len(features)} 篇</small></a><a href="#ai">AI 精华<small>{len(ai)} 条</small></a><span class="contents-language">{language_label}</span></nav></header>{preview_html}
+<nav class="edition-contents" aria-label="本期目录"><span class="contents-label">本期目录</span><a href="#news">游戏日报<small>{len(news)} 条</small></a><a href="#features">策划精选<small>{len(features)} 篇</small></a><span class="contents-language">{language_label}</span></nav></header>{preview_html}
 <main><div class="edition-grid"><div class="main-column"><section id="news" aria-label="今日游戏日报">
 {_section_head('01', '今日游戏日报', 'THE DAILY', '游戏发售、版本更新、行业与开发动态。', len(news))}
-<ol class="news-list">{news_html}</ol></section></div>{_sidebar(news, features, ai, len(names))}</div>
+<ol class="news-list">{news_html}</ol></section></div>{_sidebar(news, features, len(names))}</div>
 <section class="features-section" id="features" aria-label="策划精选">{_section_head('02', '策划精选', 'THE DESIGN DESK', '游戏机制、设计分析与开发复盘。', len(features), '篇')}{features_html}</section>
-<section class="ai-section" id="ai" aria-label="AI 精华">{_section_head('03', 'AI 精华', 'ON THE SIDE', 'AI 工具、模型与开发应用。', len(ai))}{ai_html}</section>
 {market_html}{_archive(dates, date_iso, archive_page, preview, digest.get("earlier_editions"))}</main>
 <footer class="footer"><div><p class="footer-brand">策划日报</p><p class="footer-copy">收录游戏资讯、开发实践与设计文章。中文摘要与策划视角是阅读导引，完整语境以原文为准；常青阅读保留原始日期。{'本页为试刊预览。' if preview else ''}</p></div><div class="footer-links">{'<a href="../index.html">最新一期</a>' if archive_page else ''}<a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅</a><a href="https://github.com/Vizroi/daily-ai-digest" target="_blank" rel="noopener noreferrer">关于与源码 ↗</a><a href="#top">↑ 页首</a></div></footer>
 </div></body></html>'''

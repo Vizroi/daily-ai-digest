@@ -842,5 +842,42 @@
     "urls": [
       "https://claude.dev/blog/solving-code-review-at-anthropic"
     ]
+  },
+  "ai-deepseek-20261017": {
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "title": "开放自研搜索 API；DeepSeek-V4.1-Flash-1017 更新",
+    "last_seen": "2026-10-18",
+    "urls": [
+      "https://api-docs.deepseek.com/guides/search",
+      "https://api-docs.deepseek.com/zh-cn/updates"
+    ]
+  },
+  "ai-ecdsa-20261016": {
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "title": "Claude reveals ECDSA curve origins",
+    "last_seen": "2026-10-18",
+    "urls": [
+      "https://www.anthropic.com/research/ecdsa-curve-origins"
+    ]
+  },
+  "ai-krea-20261015": {
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "title": "Introducing Krea 3",
+    "last_seen": "2026-10-18",
+    "urls": [
+      "https://www.krea.ai/blog/introducing-krea-3"
+    ]
+  },
+  "ai-chirp-pong-20261015": {
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "title": "Tool: Chirp Pong",
+    "last_seen": "2026-10-18",
+    "urls": [
+      "https://simonwillison.net/2026/Oct/15/chirp-pong"
+    ]
   }
 }

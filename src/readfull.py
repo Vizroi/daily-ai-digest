@@ -56,7 +56,7 @@ def main():
     out = sys.argv[2] if len(sys.argv) > 2 else inp
     with open(inp, encoding="utf-8") as handle:
         digest = json.load(handle)
-    sections = ("news", "features", "feature_candidates", "ai") if digest.get("schema_version") == 3 else ("lead", "relevant", "threads")
+    sections = ("news", "features", "feature_candidates", "ai", "ai_features", "ai_feature_candidates") if digest.get("schema_version") == 3 else ("lead", "relevant", "threads")
     enrich([e for section in sections for e in digest.get(section, [])])
     with open(out, "w", encoding="utf-8") as handle:
         json.dump(digest, handle, ensure_ascii=False, indent=2)

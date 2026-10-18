@@ -2,7 +2,7 @@
   "schema_version": 3,
   "date": "2026-10-18",
   "generated_at": "2026-10-18T19:00:03+08:00",
-  "editorial_note": "策划日报首期：游戏资讯、策划精选与少量 AI 实践。中英文文章配中文摘要；精选保留原始发布日期，策划视角为编辑整理。",
+  "editorial_note": "游戏日报与策划精选；AI 快讯与精选独立成页。中英文文章配中文摘要，保留原始发布日期与原文入口。",
   "news": [
     {
       "key": "fd853ec5",
@@ -536,57 +536,206 @@
   ],
   "ai": [
     {
-      "key": "2a01353c",
-      "title": "How the Claude Code team does code review",
-      "title_cn": "Claude Code 团队分享：给 AI 写出的代码建立可验证的检查流程",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "lang": "en",
+      "key": "ai-deepseek-20261017",
+      "title": "开放自研搜索 API；DeepSeek-V4.1-Flash-1017 更新",
+      "title_cn": "DeepSeek 更新 Flash 模型，同时开放网页搜索与抓取 API",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/",
+      "lang": "zh",
       "sources": [
-        "Claude Code 官方博客"
+        "DeepSeek 官方文档"
       ],
-      "published": "2026-10-15",
-      "undated": false,
+      "published": "2026-10-17",
       "published_precision": "day",
+      "undated": false,
       "category": "ai",
-      "topic": "开发动态",
-      "content_type": "开发复盘",
-      "what": "Claude Code 团队公开内部审查流程：提交前运行测试与构建，结合独立上下文审查、自动检查和按风险安排的人工审核，并保留快速回滚能力。文章还讨论如何限制反复审查，避免代理在修复循环中消耗时间。",
-      "why": "文中效果数据来自团队自身实践；可借鉴的是让代理提供可运行的验证证据，并明确人工负责的决策。",
-      "for_you": "阅读角度：做玩法原型或策划小工具时，把测试方式、验收结果和回退方法写清楚，再判断 AI 产出是否可用。",
+      "topic": "模型更新",
+      "content_type": "官方更新",
+      "what": "DeepSeek 将网页、App 和 API 的 Flash 模型升级至 V4.1-Flash-1017，模型调用名称与价格保持不变。同日开放 Search 与 Fetch API，分别返回网页搜索结果和指定页面的 Markdown 内容。",
+      "why": "",
+      "for_you": "",
       "has_body": true,
       "content_kind": "full_text",
       "summary_raw": "",
+      "evergreen": false,
+      "section": "ai",
       "members": [
         {
-          "title": "How the Claude Code team does code review",
-          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-          "source": "Claude Code 官方博客"
+          "title": "更新日志 · 2026-10-17",
+          "url": "https://api-docs.deepseek.com/zh-cn/updates/",
+          "source": "DeepSeek 官方文档",
+          "lang": "zh",
+          "published": "2026-10-17"
+        },
+        {
+          "title": "Search & Fetch",
+          "url": "https://api-docs.deepseek.com/guides/search/",
+          "source": "DeepSeek 官方文档",
+          "lang": "en"
         }
+      ]
+    },
+    {
+      "key": "ai-ecdsa-20261016",
+      "title": "Claude reveals ECDSA curve origins",
+      "title_cn": "Anthropic 公布 Claude 追溯部分 ECDSA 曲线参数的研究",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "lang": "en",
+      "sources": [
+        "Anthropic"
       ],
+      "published": "2026-10-16",
+      "published_precision": "day",
+      "undated": false,
+      "category": "ai",
+      "topic": "研究动态",
+      "content_type": "研究报告",
+      "what": "Anthropic 报告称，内部研究模型将多条标准椭圆曲线的种子追溯到由时间戳初始化的旧式随机数生成器，并公开复现代码。这项结果解释的是参数来源，不是破解 ECDSA；部分种子和基点来源仍未解释。",
+      "why": "",
+      "for_you": "",
+      "has_body": true,
+      "content_kind": "full_text",
+      "summary_raw": "",
       "evergreen": false,
-      "reading_minutes": 14,
-      "section": "ai"
+      "section": "ai",
+      "members": [
+        {
+          "title": "Claude reveals ECDSA curve origins",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+          "source": "Anthropic",
+          "lang": "en",
+          "published": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "key": "ai-krea-20261015",
+      "title": "Introducing Krea 3",
+      "title_cn": "Krea 3 发布：图像编辑支持最多六张参考图",
+      "url": "https://www.krea.ai/blog/introducing-krea-3",
+      "lang": "en",
+      "sources": [
+        "Krea"
+      ],
+      "published": "2026-10-15",
+      "published_precision": "day",
+      "undated": false,
+      "category": "ai",
+      "topic": "图像工具",
+      "content_type": "产品发布",
+      "what": "Krea 发布图像编辑模型 Krea 3，支持原生 2K 输出和最多六张参考图，用于更换场景、材质和服装等编辑。官方称多数编辑在八秒内完成，并强调产品与角色的一致性；这些速度与效果描述来自厂商测试。",
+      "why": "",
+      "for_you": "",
+      "has_body": true,
+      "content_kind": "full_text",
+      "summary_raw": "",
+      "evergreen": false,
+      "reading_minutes": 5,
+      "section": "ai",
+      "members": [
+        {
+          "title": "Introducing Krea 3",
+          "url": "https://www.krea.ai/blog/introducing-krea-3",
+          "source": "Krea",
+          "lang": "en",
+          "published": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "key": "ai-chirp-pong-20261015",
+      "title": "Tool: Chirp Pong",
+      "title_cn": "Chirp Pong 实验：用手机声音传递双人游戏状态",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+      "lang": "en",
+      "sources": [
+        "Simon Willison"
+      ],
+      "published": "2026-10-15",
+      "published_precision": "day",
+      "undated": false,
+      "category": "ai",
+      "topic": "开发实践",
+      "content_type": "作者实验",
+      "what": "Simon Willison 分享用 Claude Code 制作的双人 Pong 原型：两部相邻手机运行静态 HTML，通过声音与麦克风传递游戏状态。作者公开了提示词和试玩入口，当前展示的是个人实验，尚未提供稳定性测试。",
+      "why": "",
+      "for_you": "",
+      "has_body": true,
+      "content_kind": "full_text",
+      "summary_raw": "",
+      "evergreen": false,
+      "section": "ai",
+      "members": [
+        {
+          "title": "Tool: Chirp Pong",
+          "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+          "source": "Simon Willison",
+          "lang": "en",
+          "published": "2026-10-15"
+        }
+      ]
     }
   ],
   "stats": {
-    "events": 17,
+    "events": 21,
     "news": 13,
     "features": 3,
-    "ai": 1,
-    "sources": 13,
-    "zh": 6,
-    "en": 11
+    "ai": 4,
+    "sources": 17,
+    "zh": 7,
+    "en": 14,
+    "ai_features": 1
   },
   "source_window": {
     "news_from": "2026-10-15",
     "news_to": "2026-10-17",
     "features_from": "2026-10-10",
-    "features_to": "2026-10-16"
+    "features_to": "2026-10-16",
+    "ai_from": "2026-10-15",
+    "ai_to": "2026-10-17",
+    "ai_features_from": "2026-10-15",
+    "ai_features_to": "2026-10-15"
   },
   "earlier_editions": [
     {
       "file": "2026-10-18-ai.html",
       "label": "2026-10-18 · AI 日报（改版前）"
     }
-  ]
+  ],
+  "ai_features": [
+    {
+      "key": "2a01353c",
+      "title": "How the Claude Code team does code review",
+      "title_cn": "Claude Code 团队复盘：自动检查、人工审查与回滚如何配合",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "lang": "en",
+      "sources": [
+        "Claude Code 官方博客"
+      ],
+      "published": "2026-10-15",
+      "published_precision": "day",
+      "undated": false,
+      "category": "ai",
+      "topic": "开发实践",
+      "content_type": "开发复盘",
+      "what": "Claude Code 团队公开内部代码审查流程：提交前要求测试、构建或界面截图等验证结果，再用独立上下文检查改动；合并前结合自动检查和按风险安排的人工审核。",
+      "why": "文章还记录了代理反复审查同一问题的情况，以及限制审查轮数、只检查新增改动、保留快速回滚等调整。流程与成效来自团队自身实践，原文同时说明仍由人负责的架构、产品方向和高风险变更。",
+      "for_you": "",
+      "has_body": true,
+      "content_kind": "full_text",
+      "summary_raw": "",
+      "evergreen": false,
+      "reading_minutes": 14,
+      "section": "ai_features",
+      "members": [
+        {
+          "title": "How the Claude Code team does code review",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+          "source": "Claude Code 官方博客",
+          "lang": "en",
+          "published": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "ai_generated_at": "2026-10-18T21:53:18+08:00"
 }

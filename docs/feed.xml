@@ -4,9 +4,9 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 13 条，策划精选 3 篇，AI 精华 1 条。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 13 条，策划精选 3 篇，AI 快讯 4 条，AI 精选 1 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 18 Oct 2026 19:00:03 +0800</lastBuildDate>
+<lastBuildDate>Sun, 18 Oct 2026 21:53:18 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
   <title>《CLUTCH》访谈：用固定主角与双赛事推进赛车叙事</title>
@@ -129,11 +129,39 @@
   <description><![CDATA[<p><strong>策划精选</strong></p><p>余田结合《大巴扎》等案例，区分预先锁定流派的线性构筑与随局势调整的网状构筑。文章讨论记忆负担、关键组件出现时机及转型成本，并提出从输出目标和触发循环反推组件关系的方法。</p><p><strong>设计选择</strong><br>作者强调有效选择比名义上的组合数量更重要，同时承认线性路线利于新手入门。网状构筑需要允许组件承担不同角色，也要避免用复杂效果堆叠来制造所谓多用途。</p><p><strong>策划视角</strong><br>阅读角度：检查玩家何时锁定流派、哪些组件能连接不同路线，以及已经投入的资源是否让转型只存在于纸面。这是作者的设计观点，需要结合项目验证。</p><p><small>来源：<a href="https://www.gameres.com/901203146.html">GameRes · 余田</a></small></p><p><small>原文发布：2026-10-10 08:48（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Claude Code 团队分享：给 AI 写出的代码建立可验证的检查流程</title>
+  <title>DeepSeek 更新 Flash 模型，同时开放网页搜索与抓取 API</title>
+  <link>https://api-docs.deepseek.com/zh-cn/updates/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d0e42f0616644bd67e22897a</guid>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>DeepSeek 将网页、App 和 API 的 Flash 模型升级至 V4.1-Flash-1017，模型调用名称与价格保持不变。同日开放 Search 与 Fetch API，分别返回网页搜索结果和指定页面的 Markdown 内容。</p><p><small>来源：<a href="https://api-docs.deepseek.com/zh-cn/updates/">DeepSeek 官方文档</a> · <a href="https://api-docs.deepseek.com/guides/search/">DeepSeek 官方文档</a></small></p><p><small>原文发布：2026-10-17</small></p>]]></description>
+</item>
+<item>
+  <title>Anthropic 公布 Claude 追溯部分 ECDSA 曲线参数的研究</title>
+  <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1358bb3b92a33cc5024b43c5</guid>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Claude reveals ECDSA curve origins</small></p><p>Anthropic 报告称，内部研究模型将多条标准椭圆曲线的种子追溯到由时间戳初始化的旧式随机数生成器，并公开复现代码。这项结果解释的是参数来源，不是破解 ECDSA；部分种子和基点来源仍未解释。</p><p><small>来源：<a href="https://www.anthropic.com/research/ecdsa-curve-origins">Anthropic</a></small></p><p><small>原文发布：2026-10-16</small></p>]]></description>
+</item>
+<item>
+  <title>Krea 3 发布：图像编辑支持最多六张参考图</title>
+  <link>https://www.krea.ai/blog/introducing-krea-3</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d96cbb9025192be8d707537f</guid>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing Krea 3</small></p><p>Krea 发布图像编辑模型 Krea 3，支持原生 2K 输出和最多六张参考图，用于更换场景、材质和服装等编辑。官方称多数编辑在八秒内完成，并强调产品与角色的一致性；这些速度与效果描述来自厂商测试。</p><p><small>来源：<a href="https://www.krea.ai/blog/introducing-krea-3">Krea</a></small></p><p><small>原文发布：2026-10-15</small></p>]]></description>
+</item>
+<item>
+  <title>Chirp Pong 实验：用手机声音传递双人游戏状态</title>
+  <link>https://simonwillison.net/2026/Oct/15/chirp-pong/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-162f452464644c632a671196</guid>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Tool: Chirp Pong</small></p><p>Simon Willison 分享用 Claude Code 制作的双人 Pong 原型：两部相邻手机运行静态 HTML，通过声音与麦克风传递游戏状态。作者公开了提示词和试玩入口，当前展示的是个人实验，尚未提供稳定性测试。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/15/chirp-pong/">Simon Willison</a></small></p><p><small>原文发布：2026-10-15</small></p>]]></description>
+</item>
+<item>
+  <title>Claude Code 团队复盘：自动检查、人工审查与回滚如何配合</title>
   <link>https://claude.dev/blog/solving-code-review-at-anthropic/</link>
   <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fefc2bc897687364b47fa2fb</guid>
-  <category>AI 精华</category>
-  <description><![CDATA[<p><strong>AI 精华</strong></p><p><small>原标题：How the Claude Code team does code review</small></p><p>Claude Code 团队公开内部审查流程：提交前运行测试与构建，结合独立上下文审查、自动检查和按风险安排的人工审核，并保留快速回滚能力。文章还讨论如何限制反复审查，避免代理在修复循环中消耗时间。</p><p><strong>背景与变化</strong><br>文中效果数据来自团队自身实践；可借鉴的是让代理提供可运行的验证证据，并明确人工负责的决策。</p><p><strong>策划视角</strong><br>阅读角度：做玩法原型或策划小工具时，把测试方式、验收结果和回退方法写清楚，再判断 AI 产出是否可用。</p><p><small>来源：<a href="https://claude.dev/blog/solving-code-review-at-anthropic/">Claude Code 官方博客</a></small></p><p><small>原文发布：2026-10-15</small></p>]]></description>
+  <category>AI 精选</category>
+  <description><![CDATA[<p><strong>AI 精选</strong></p><p><small>原标题：How the Claude Code team does code review</small></p><p>Claude Code 团队公开内部代码审查流程：提交前要求测试、构建或界面截图等验证结果，再用独立上下文检查改动；合并前结合自动检查和按风险安排的人工审核。</p><p><strong>背景与变化</strong><br>文章还记录了代理反复审查同一问题的情况，以及限制审查轮数、只检查新增改动、保留快速回滚等调整。流程与成效来自团队自身实践，原文同时说明仍由人负责的架构、产品方向和高风险变更。</p><p><small>来源：<a href="https://claude.dev/blog/solving-code-review-at-anthropic/">Claude Code 官方博客</a></small></p><p><small>原文发布：2026-10-15</small></p>]]></description>
 </item>
 </channel>
 </rss>

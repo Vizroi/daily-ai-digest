@@ -10,6 +10,7 @@ SITE_NAV_CSS = r'''
 .site-nav a:hover{color:#292d27;border-bottom-color:#b4bcae}.site-nav a[aria-current]{color:#3f5847;border-bottom-color:#4c6152;font-weight:700}
 .site-header a:focus-visible{outline:3px solid #9b493b;outline-offset:4px}
 @media(max-width:600px){.site-header{display:block;padding-top:15px}.site-home{display:inline-block;font-size:14px;padding-bottom:8px}.site-nav{gap:25px}.site-nav a{font-size:13px;padding:7px 1px 11px}}
+@media(max-width:360px){.site-nav{gap:19px}.site-nav a{font-size:12px}}
 @media print{.site-header{display:none!important}}
 '''
 
@@ -19,6 +20,7 @@ def render_site_navigation(current, prefix="", *, archive_page=False):
     for key, filename, label in (
         ("daily", "index.html", "日报"),
         ("market", "market.html", "Steam 市场"),
+        ("ai", "ai.html", "AI"),
         ("sources", "sources.html", "信息来源"),
     ):
         marker = (' aria-current="true"' if archive_page else ' aria-current="page"') if key == current else ''

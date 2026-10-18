@@ -1,4 +1,4 @@
-"""RSS for game news, design features and a small AI selection.
+"""One site RSS for game news, design features, AI briefs and AI features.
 
 Original publication dates are preserved. Undated articles omit pubDate instead
 of pretending their generation time is a new publication. Legacy JSON is accepted.
@@ -12,11 +12,12 @@ import sys
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
 from urllib.parse import urlparse
+import config
 
 TZ = timezone(timedelta(hours=8))
 SITE = os.environ.get("DIGEST_SITE", "https://vizroi.github.io/daily-ai-digest").rstrip("/")
 REPO = "https://github.com/Vizroi/daily-ai-digest"
-SECTION_CN = {"news": "今日游戏日报", "features": "策划精选", "ai": "AI 精华",
+SECTION_CN = {"news": "今日游戏日报", "features": "策划精选", "ai": "AI 快讯", "ai_features": "AI 精选",
               "lead": "今日必读", "relevant": "能用上的", "threads": "线索追踪"}
 
 
@@ -70,7 +71,8 @@ def _description(ev: dict, section: str) -> str:
         rows.append(f'<p><strong>{label}</strong><br>{esc(ev["why"])}</p>')
     insight = str(ev.get("for_you") or "")
     if insight and "无直接关系" not in insight:
-        rows.append(f'<p><strong>策划视角</strong><br>{esc(insight)}</p>')
+        label = "阅读问题" if section == "ai_features" else "策划视角"
+        rows.append(f'<p><strong>{label}</strong><br>{esc(insight)}</p>')
     if ev.get("has_body") is False or ev.get("content_kind") in ("rss_summary", "rss_content", "page_excerpt"):
         rows.append('<p><small>来源摘要 · 细节请参见原文。</small></p>')
     links, seen = [], set()
@@ -101,8 +103,9 @@ def _description(ev: dict, section: str) -> str:
 
 
 def _entries(digest: dict):
-    sections = ((("news", 16), ("features", 3), ("ai", 2))
-                if digest.get("schema_version") == 3 or any(key in digest for key in ("news", "features", "ai"))
+    sections = ((("news", config.NEWS_MAX), ("features", config.FEATURES_MAX),
+                 ("ai", config.AI_MAX), ("ai_features", config.AI_FEATURES_MAX))
+                if digest.get("schema_version") == 3 or any(key in digest for key in ("news", "features", "ai", "ai_features"))
                 else (("lead", 5), ("relevant", 5), ("threads", 3)))
     seen = set()
     for section, maximum in sections:
@@ -121,9 +124,10 @@ def _entries(digest: dict):
 
 
 def build(digest: dict) -> str:
-    now = _datetime(digest.get("generated_at")) or datetime.now(TZ)
+    updated = [_datetime(digest.get(key)) for key in ("generated_at", "ai_generated_at")]
+    now = max((value for value in updated if value), default=None) or datetime.now(TZ)
     preview = bool(digest.get("preview"))
-    items, counts = [], {"news": 0, "features": 0, "ai": 0}
+    items, counts = [], {"news": 0, "features": 0, "ai": 0, "ai_features": 0}
     for section, event, key in _entries(digest):
         counts[section] = counts.get(section, 0) + 1
         event_id = hashlib.sha256(key.encode("utf-8")).hexdigest()[:24]
@@ -139,8 +143,9 @@ def build(digest: dict) -> str:
                      f'  <category>{esc(SECTION_CN.get(section, section))}</category>\n'
                      f'  <description><![CDATA[{description}]]></description>\n' '</item>')
     desc = (f'游戏资讯、设计分析与开发实践。游戏动态 {counts.get("news", 0)} 条，'
-            f'策划精选 {counts.get("features", 0)} 篇，AI 精华 {counts.get("ai", 0)} 条。')
-    if not any(key in digest for key in ("news", "features", "ai")):
+            f'策划精选 {counts.get("features", 0)} 篇，AI 快讯 {counts.get("ai", 0)} 条，'
+            f'AI 精选 {counts.get("ai_features", 0)} 篇。')
+    if not any(key in digest for key in ("news", "features", "ai", "ai_features")):
         desc = '游戏与开发阅读精选，保留原文来源和发布时间。'
     if preview:
         desc = '试刊预览，非正式发布。' + desc

@@ -1,6 +1,7 @@
 """Market output contract: honest histories, source links and safe HTML."""
 import copy
 import os
+import re
 import sys
 import unittest
 from html.parser import HTMLParser
@@ -16,18 +17,32 @@ class Page(HTMLParser):
         self.anchors = []
         self.game_articles = []
         self.trend_panels = []
+        self.market_groups = {}
+        self._section_stack = []
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "section":
+            group = attrs.get("data-market-group")
+            self._section_stack.append(group)
+            if group:
+                self.market_groups[group] = []
         if attrs.get("id"):
             self.ids.append(attrs["id"])
         if tag == "a" and attrs.get("href", "").startswith("#"):
             self.anchors.append(attrs["href"][1:])
         if tag == "article" and "data-game" in attrs:
             self.game_articles.append(attrs)
+            group = next((group for group in reversed(self._section_stack) if group), None)
+            if group:
+                self.market_groups[group].append(attrs)
         if "data-trend" in attrs:
             self.trend_panels.append(attrs)
+
+    def handle_endtag(self, tag):
+        if tag == "section" and self._section_stack:
+            self._section_stack.pop()
 
 
 def fixture():
@@ -50,6 +65,63 @@ def fixture():
 
 
 class MarketRenderTests(unittest.TestCase):
+    def test_action_and_other_groups_are_disjoint_and_keep_all_games(self):
+        data = fixture()
+        other = copy.deepcopy(data["games"][0])
+        other.update(appid=200, name="Factory", is_action=False, genres=["Simulation"])
+        data["games"].append(other)
+        page = market_render.render_market(data)
+        parsed = Page(page)
+        self.assertEqual([item["id"] for item in parsed.market_groups["action"]], ["game-100"])
+        self.assertEqual([item["id"] for item in parsed.market_groups["other"]], ["game-200"])
+        self.assertEqual(len(parsed.game_articles), 2)
+        self.assertEqual(len(parsed.ids), len(set(parsed.ids)))
+        self.assertIn('href="#action-observation"', page)
+        self.assertIn('href="#other-observation"', page)
+        self.assertIn("动作游戏观察", page)
+        self.assertIn("其他类型观察", page)
+        self.assertGreater(page.index('id="market-overview"'), page.index('id="other-observation"'))
+
+    def test_group_summary_never_uses_another_groups_coverage_or_leader(self):
+        data = fixture()
+        data["coverage"]["history_days"] = 99
+        action = data["games"][0]
+        action["history"] = [{"date": "2026-10-18", "samples": 1}]
+        other = copy.deepcopy(action)
+        other.update(appid=200, name="Other group leader", is_action=False, current_players=999999)
+        other["history"] = [{"date": "2026-10-16", "samples": 2}, {"date": "2026-10-17", "samples": 2}]
+        other["windows"]["7"] = {"status": "ready", "previous": 100, "current": 300, "absolute_change": 200, "percent_change": 200}
+        data["games"].append(other)
+        action_summary = market_render._group_summary(data, [action])
+        other_summary = market_render._group_summary(data, [other])
+        self.assertIn("组内已有记录涉及 1 个自然日", action_summary)
+        self.assertIn("7 天窗口：0 / 1 款", action_summary)
+        self.assertNotIn("Other group leader", action_summary)
+        self.assertNotIn("99 个自然日", action_summary)
+        self.assertIn("组内已有记录涉及 3 个自然日", other_summary)
+        self.assertIn("7 天窗口：1 / 1 款", other_summary)
+        self.assertIn("本组可比作品中 1 款上涨、0 款下降", other_summary)
+        self.assertNotIn("Arena &lt;One&gt;", other_summary)
+
+    def test_group_summaries_match_each_window_and_handle_zero_base(self):
+        data = fixture()
+        game = data["games"][0]
+        game.update(players_status="stale", current_players=99999)
+        game["windows"]["1"] = {"status": "no_baseline", "previous": 0, "current": 100, "absolute_change": 100, "percent_change": None}
+        game["windows"]["30"] = {"status": "ready", "previous": 100, "current": 70, "absolute_change": -30, "percent_change": -30}
+        summary = market_render._group_summary(data, [game])
+        one = re.search(r'<p data-group-summary="1" hidden>(.*?)</p>', summary).group(1)
+        seven = re.search(r'<p data-group-summary="7">(.*?)</p>', summary).group(1)
+        thirty = re.search(r'<p data-group-summary="30" hidden>(.*?)</p>', summary).group(1)
+        self.assertIn("基数为零，不计算百分比", one)
+        self.assertNotIn("%", one)
+        self.assertNotIn("当前在线最高", one)
+        self.assertIn("7 天窗口：0 / 1 款", seven)
+        self.assertIn("暂不能判断本组上涨或下降", seven)
+        self.assertIn("0 款上涨、1 款下降", thirty)
+        self.assertIn("-30.0%", thirty)
+        self.assertIn("本组尚未取得", market_render._group_summary(data, []))
+
     def test_summary_explains_cold_start_without_inventing_growth(self):
         data = fixture()
         summary = market_render._market_summary(data, data["games"])

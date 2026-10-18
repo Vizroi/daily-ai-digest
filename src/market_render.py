@@ -161,6 +161,74 @@ def _market_summary(data, games):
     return f'<section class="daily-summary" aria-labelledby="daily-summary-title"><h2 id="daily-summary-title">数据摘要</h2><p>{text}</p></section>'
 
 
+def _group_history_days(games, today):
+    """Count evidenced dates within this group, never the whole pool's age."""
+    dates = set()
+    for game in games:
+        for point in _list(game.get("history")):
+            if isinstance(point, dict):
+                day = _day(point.get("date"))
+                if day and (today is None or day <= today):
+                    dates.add(day)
+        observed = _dt(game.get("players_observed_at") or game.get("observed_at"))
+        if observed and (today is None or observed.date() <= today):
+            dates.add(observed.date())
+    return len(dates)
+
+
+def _group_summary(data, games):
+    """Three pre-rendered group-only summaries; the selected window is visible."""
+    generated = _dt(data.get("generated_at"))
+    today = generated.date() if generated else None
+    fresh = [game for game in games if _fresh_players(game)]
+    base = [f"本组 {len(games)} 款游戏，本轮取得 {len(fresh)}/{len(games)} 款在线快照。"]
+    if fresh:
+        highest = max(fresh, key=lambda game: game["current_players"])
+        tied = sum(game["current_players"] == highest["current_players"] for game in fresh)
+        tie = f"等 {tied} 款并列" if tied > 1 else ""
+        link = f'<a href="#game-{esc(highest["appid"])}">{esc(highest["name"])}</a>'
+        base.append(f"本组有效快照中，{link}{tie}当前在线最高，为 {_number(highest['current_players'])} 人。")
+    elif games:
+        base.append("本轮在线采集未成功，旧快照不参与当前在线比较。")
+    history_days = _group_history_days(games, today)
+    history = f"组内已有记录涉及 {history_days} 个自然日。" if history_days else "组内历史日期尚未取得。"
+    panels = []
+    for days in (1, 7, 30):
+        hidden = ' hidden' if days != 7 else ''
+        if not games:
+            text = "本组尚未取得可展示的游戏样本，暂无在线人数与涨跌摘要。"
+        else:
+            cohort = [game for game in games if _window_ready(game, days)]
+            sentences = base + [history, f"{days} 天窗口：{len(cohort)} / {len(games)} 款具备完整可比记录。"]
+            if not cohort:
+                sentences.append("暂不能判断本组上涨或下降。")
+            else:
+                up = sum(_window(game, days)["absolute_change"] > 0 for game in cohort)
+                down = sum(_window(game, days)["absolute_change"] < 0 for game in cohort)
+                sentences.append(f"本组可比作品中 {up} 款上涨、{down} 款下降、{len(cohort) - up - down} 款持平。")
+                strongest = max(cohort, key=lambda game: abs(_window(game, days)["absolute_change"]))
+                window = _window(strongest, days)
+                if window["absolute_change"] != 0:
+                    link = f'<a href="#game-{esc(strongest["appid"])}">{esc(strongest["name"])}</a>'
+                    pct = _number(window.get("percent_change"), 1, True)
+                    relative = f"，{pct}%" if window["previous"] > 0 and pct != "—" else ""
+                    caution = "，此前基数为零，不计算百分比" if window["previous"] == 0 else "，基数较低" if window.get("low_base") else ""
+                    sentences.append(f"按采样在线均值的绝对变化，{link}变化最大：{_number(window['previous'], 1)} → {_number(window['current'], 1)} 人（{_number(window['absolute_change'], 1, True)} 人{relative}{caution}）。")
+            text = ''.join(sentences)
+        panels.append(f'<p data-group-summary="{days}"{hidden}>{text}</p>')
+    return '<div class="daily-summary group-summary">' + ''.join(panels) + '</div>'
+
+
+def _group_section(data, games, today, kind):
+    title = "动作游戏观察" if kind == "action" else "其他类型观察"
+    anchor = f"{kind}-observation"
+    empty = '<p class="group-empty">本组暂时没有已收录的游戏。</p>' if not games else ''
+    return (f'<section class="observation-group" id="{anchor}" data-market-group="{kind}" aria-labelledby="{anchor}-title">'
+            f'<div class="section-top"><h2 id="{anchor}-title">{title}</h2><p>{len(games)} 款 · 本组单独统计</p></div>'
+            f'{_group_summary(data, games)}<div class="games">' + ''.join(_card(game, today) for game in games) +
+            f'</div>{empty}</section>')
+
+
 def _trend(game, days):
     window = _window(game, days)
     hidden = ' hidden' if days != 7 else ''
@@ -287,6 +355,12 @@ CSS = r'''
 CSS += SITE_NAV_CSS
 
 
+CSS += r'''
+.observation-directory{display:flex;gap:10px 24px;flex-wrap:wrap;font-size:13px}.observation-directory a{text-decoration:none;color:var(--sage);border-bottom:1px solid var(--line);padding:4px 0}.observation-directory small{font-size:10px;color:var(--muted);margin-left:5px}.observation-group{scroll-margin-top:20px}.observation-group+.observation-group{margin-top:32px;padding-top:24px;border-top:2px solid var(--line)}.group-summary{padding:9px 0 14px}.group-summary p{font-size:12px;line-height:1.85}.group-empty{font-size:12px;color:var(--muted);padding:16px 0}.observations-toolbar{margin-bottom:12px}.observations-toolbar .window-note{margin-bottom:0}
+@media(max-width:650px){.observations-toolbar>.section-top{align-items:flex-start;flex-direction:column;gap:12px}.observation-directory{gap:10px 19px}.observation-group>.section-top{gap:10px}.observation-group>.section-top h2{font-size:22px}.observation-group>.section-top p{font-size:10px}.group-summary p{font-size:12px}}
+'''
+
+
 SCRIPT = r'''
 (() => {
   document.querySelectorAll('.game-cover img').forEach(image => {
@@ -299,16 +373,15 @@ SCRIPT = r'''
   const params = new URLSearchParams(location.search);
   let days = ['1', '7', '30'].includes(params.get('days')) ? params.get('days') : '7';
   function apply() {
-    let comparable = 0;
     cards.forEach(card => {
       card.querySelectorAll('[data-trend]').forEach(panel => { panel.hidden = panel.dataset.trend !== days; });
       card.querySelector('[data-window-label]').textContent = `${days} 天变化`;
-      if (!card.querySelector(`[data-trend="${days}"]`).classList.contains('trend-pending')) comparable++;
     });
     buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.days === days)));
     document.querySelectorAll('[data-segment-trend]').forEach(panel => { panel.hidden = panel.dataset.segmentTrend !== days; });
+    document.querySelectorAll('[data-group-summary]').forEach(panel => { panel.hidden = panel.dataset.groupSummary !== days; });
     document.getElementById('scope-window-label').textContent = `当前快照与 ${days} 天变化`;
-    document.getElementById('window-note').textContent = `${days} 天窗口：${comparable} / ${cards.length} 款具备完整可比记录。比较最近 ${days} 个完整日与此前 ${days} 日；历史不足时暂不显示涨跌。`;
+    document.getElementById('window-note').textContent = `两组统一查看 ${days} 天窗口，分别统计可比覆盖。比较最近 ${days} 个完整日与此前 ${days} 日；当前在线规模不代表涨幅。`;
     const url = new URL(location.href);
     ['scope', 'q', 'genre', 'mode', 'view'].forEach(key => url.searchParams.delete(key));
     if (days === '7') url.searchParams.delete('days'); else url.searchParams.set('days', days);
@@ -413,7 +486,8 @@ def render_market(data: dict) -> str:
     coverage = data.get("coverage") or {}
     history_start = coverage.get("history_start") or "尚未开始"
     scope_note = coverage.get("scope_note") or "精选作品与公开发现样本，不代表 Steam 全站；分类之间可能重叠。"
-    ready = sum(_window_ready(game, 7) for game in games)
+    action_games = [game for game in games if game.get("is_action")]
+    other_games = [game for game in games if not game.get("is_action")]
     methods = []
     for method in _list(data.get("methodology")):
         text = method.get("text") or method.get("note") or method.get("description") if isinstance(method, dict) else method
@@ -423,13 +497,12 @@ def render_market(data: dict) -> str:
     empty = '' if games else '<div class="empty-state"><h3>正在建立第一批市场记录</h3><p>还没有可展示的游戏数据。下方保留 Steam 官方发现入口，采集成功后会显示真实快照。</p></div>'
     return f'''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="策划日报的 Steam 市场观察：全局样本与动作游戏，持续记录在线变化、玩家声音、官方事件和新作。"><title>Steam 市场观察 · 策划日报</title><style>{CSS}</style></head><body>
 <a class="skip" href="#observations">跳到游戏观察</a><div class="wrap">{render_site_navigation("market")}<header class="masthead"><div class="brand-row"><div><h1>Steam 市场观察</h1></div><div class="edition"><b>{esc(generated.strftime('%Y.%m.%d') if generated else '记录建立中')}</b>本轮采集 {_time(data.get('generated_at'), False)} · 北京时间</div></div></header>
-<main>{_market_summary(data, games)}
-<p class="coverage-note">样本数据，不代表 Steam 全市场。历史起点 {esc(history_start)}；当前在线为采样时的人数。<a href="#methodology">数据口径</a></p>
-<details class="scope-section" id="market-overview"><summary>全局分类概览 <span class="overview-summary"><span id="scope-window-label">当前快照与 7 天变化</span><span class="disclosure-symbol" aria-hidden="true">＋</span></span></summary>{_segments(games)}<p class="scope-caveat">{esc(scope_note)} 分类之间可重叠，合计不可相加。变化仅比较两段都有完整记录的同一批游戏；当前在线合计来自各作品最近一次采样，并非同一时刻的人数。</p></details>
-<section class="observation" id="observations"><div class="section-top"><h2>游戏列表</h2><div class="window-controls" hidden><span>变化窗口</span><div class="button-group" role="group" aria-label="时间窗口"><button type="button" data-days="1" aria-pressed="false">1 天</button><button type="button" data-days="7" aria-pressed="true">7 天</button><button type="button" data-days="30" aria-pressed="false">30 天</button></div></div></div>
+<main><p class="coverage-note">动作与其他类型分组观察，每款游戏只列入一组。样本不代表 Steam 全市场。<a href="#methodology">数据口径</a></p>
+<section class="observation" id="observations"><div class="observations-toolbar"><div class="section-top"><nav class="observation-directory" aria-label="市场观察分区"><a href="#action-observation">动作游戏观察<small>{len(action_games)} 款</small></a><a href="#other-observation">其他类型观察<small>{len(other_games)} 款</small></a></nav><div class="window-controls" hidden><span>变化窗口</span><div class="button-group" role="group" aria-label="时间窗口"><button type="button" data-days="1" aria-pressed="false">1 天</button><button type="button" data-days="7" aria-pressed="true">7 天</button><button type="button" data-days="30" aria-pressed="false">30 天</button></div></div></div>
 <noscript><p>当前显示 7 天窗口；启用 JavaScript 后可以切换时间窗口。</p></noscript>
-<p class="window-note" id="window-note" aria-live="polite">7 天窗口：{ready} / {len(games)} 款具备完整可比记录。历史不足时暂不显示涨跌。</p>
-<div class="games">{''.join(_card(game, today) for game in games)}</div>{empty}</section>
+<p class="window-note" id="window-note" aria-live="polite">两组统一查看 7 天窗口，分别统计可比覆盖。比较最近 7 个完整日与此前 7 日；当前在线规模不代表涨幅。</p></div>
+{_group_section(data, action_games, today, 'action')}{_group_section(data, other_games, today, 'other')}{empty}</section>
+<details class="scope-section" id="market-overview"><summary>全部样本的分类概览 <span class="overview-summary"><span id="scope-window-label">当前快照与 7 天变化</span><span class="disclosure-symbol" aria-hidden="true">＋</span></span></summary>{_segments(games)}<p class="scope-caveat">{esc(scope_note)} 此处汇总动作与其他类型全部样本，不是其他类型的分组摘要。分类之间可重叠，合计不可相加。变化仅比较两段都有完整记录的同一批游戏；当前在线合计来自各作品最近一次采样，并非同一时刻的人数。</p></details>
 
 {_discovery(data, games, today)}
 <details class="methodology" id="methodology"><summary>数据口径与来源</summary><div class="method-grid"><div><h3>记录边界与比较方式</h3><p>观察池由固定跟踪作品和自动发现作品组成。自动发现读取 Steam 新发行、即将推出、热销与热门游戏榜，覆盖各类游戏；动作标记来自 Steam 标签及维护名单。发现线索需确认游戏资料并有空余观察名额，才加入持续采样。</p><ol><li>1 / 7 / 30 天窗口分别比较最近完整日与此前等长窗口。每一天先汇总当天采样值，再比较两个窗口；尚未完整积累时不显示趋势。</li><li>当前在线是采样时连接 Steam 的玩家数。采样在线均值不等于全天真实平均在线、日活、销量、收入或玩家留存。</li><li>评价比例是接口返回范围内的累计推荐比例，评论样本仅用于阅读线索。不能将评论增量直接换算为销量。</li><li>官方事件保留来源与日期；事件和在线变化在时间上相邻，不构成因果证据。</li><li>样本包含新作、长线运营、免费与付费作品，游戏类型之间可能重叠。</li><li>来源失败时保留明确标记的历史快照，缺失数据不会记为零。价格、语言与地区以来源记录和 Steam 商店实际显示为准。</li></ol>{method_extra}</div><div><h3>来源与更新时间</h3>{_sources(data)}<p>本轮采集运行于 {_time(data.get('generated_at'))}（北京时间）。单款游戏的快照时间显示在各自卡片上。</p><p>全局概览使用可取得的本轮在线值，排除已标记过期的快照；观察池会随新作发现与编辑维护扩展。</p></div></div></details></main><footer class="footer"><div><strong>策划日报 / 市场观察</strong><p>数据来源：Steam 公开接口与商店。</p></div><nav aria-label="页尾导航"><a href="index.html">回到日报</a><a href="sources.html">信息来源</a><a href="#observations">观察窗口 ↑</a></nav></footer></div><script>{SCRIPT}</script></body></html>'''
