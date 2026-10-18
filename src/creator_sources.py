@@ -253,7 +253,7 @@ def _tencent_news(src, now):
     if not recognized:
         raise SourceError("error", "官网资讯列表未找到可核验的标题与发布日期，需检查页面结构")
     out.sort(key=lambda item: item["published"], reverse=True)
-    detail = "官网资讯列表的标题、发布日期与摘要；正文待后续读取，不代表 B 站视频已恢复"
+    detail = "官网资讯列表的标题、发布日期与摘要；正文待后续读取，进入日报前需编辑审核"
     if latest:
         detail += f"；列表最新日期 {latest.astimezone(timezone(timedelta(hours=8))).date()}"
     return out[:src["max_per_source"]], detail

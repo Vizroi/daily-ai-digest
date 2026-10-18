@@ -14,11 +14,11 @@
 @media(max-width:360px){.site-nav{gap:19px}.site-nav a{font-size:12px}}
 @media print{.site-header{display:none!important}}
 :root{--paper:#f1ede3;--ink:#292d27;--line:#d1d0c1;--green:#4c6152;--muted:#74796d}.wrap{width:min(1180px,calc(100% - 64px))}header{padding:26px 0 22px}h1{font-family:Georgia,"Songti SC",SimSun,serif;font-size:36px;letter-spacing:0;margin:0 0 12px}.intro{font-size:13px}.eyebrow{display:none}.health-summary{display:flex;gap:10px 22px;flex-wrap:wrap;padding:0 0 22px;font-size:12px}.health-item{color:var(--muted)}.health-item strong{margin-left:3px;color:var(--ink)}.status.empty{background:#e1edde;color:#225d3c}.status.degraded{background:#f4e6d8;color:#8b532b}.source-result{max-width:160px}@media(max-width:640px){.wrap{width:calc(100% - 28px)}header{padding-top:22px}h1{font-size:29px}.source-result{max-width:112px}.health-summary{gap:8px 18px}}</style></head><body><div class="wrap"><div class="site-header"><a class="site-home" href="index.html">策划日报</a><nav class="site-nav" aria-label="站点导航"><a href="index.html">日报</a><a href="market.html">Steam 市场</a><a href="ai.html">AI</a><a href="sources.html" aria-current="page">信息来源</a></nav></div>
-<header><div class="eyebrow">SOURCES &amp; EDITORIAL</div><h1>信息来源</h1><p class="intro">日报与 AI 页的来源登记、最近一次采集状态和候选数量。已登记的来源中，部分仍待接入或需要手动收录。</p><p class="checked"><a href="market.html#methodology">Steam 市场的数据口径与来源</a></p><div class="checked">最近检查：2026-10-18 23:18（北京时间）</div></header>
-<section class="metrics" aria-label="采集统计"><div class="metric"><strong>177</strong><span>本轮读取</span></div><div class="metric"><strong>177</strong><span>链接去重后</span></div><div class="metric"><strong>177</strong><span>本轮保留</span></div><div class="metric"><strong>50</strong><span>外部来源 · 含待接入</span></div></section>
-<section class="health-summary" aria-label="入口状态汇总"><span class="health-item normal">正常读取 <strong>38</strong></span><span class="health-item degraded">部分读取 <strong>1</strong></span><span class="health-item blocked">访问受限 <strong>2</strong></span><span class="health-item needs_auth">待接入 / 待授权 <strong>6</strong></span><span class="health-item manual">手动入口 <strong>4</strong></span></section>
-<section class="guide" aria-label="状态说明"><div><strong>无新内容：读取成功</strong><p>来源可以访问，本轮没有符合时间窗口的候选。新闻通常看近 72 小时，慢更新设计源看近 30 天。</p></div><div><strong>部分读取 / 访问受限：查看原因</strong><p>部分读取表示只取到了标题或部分文章；访问受限、读取异常表示本轮未完成采集。读取失败或待接入时，以「—」代替 0。</p></div><div><strong>待接入 / 手动收录：尚非自动来源</strong><p>Reddit、Discord 需要配置获准的访问权限；公众号通过单篇公开链接手动收录。</p></div></section>
-<div class="filters" role="search"><label>平台<select id="platform"><option value="">全部平台</option><option value="Bilibili">Bilibili</option><option value="Discord">Discord</option><option value="Reddit">Reddit</option><option value="Steam">Steam</option><option value="YouTube">YouTube</option><option value="developer_blog">developer_blog</option><option value="itch">itch</option><option value="作者网站">作者网站</option><option value="开发者社区">开发者社区</option><option value="微信公众号">微信公众号</option><option value="手动收录">手动收录</option><option value="网站 / RSS">网站 / RSS</option></select></label><label>访问状态<select id="state"><option value="">全部状态</option><option value="ok">读取正常</option><option value="empty">读取正常 · 无新内容</option><option value="degraded">部分读取</option><option value="blocked">平台访问限制</option><option value="needs_auth">待接入 / 待授权</option><option value="manual">手动收录</option></select></label><label class="search">搜索来源<input id="query" type="search" placeholder="来源名称、语言或关键词" autocomplete="off"></label><span id="visible-count" aria-live="polite">51 个入口</span></div>
+<header><div class="eyebrow">SOURCES &amp; EDITORIAL</div><h1>信息来源</h1><p class="intro">日报与 AI 页正在使用的来源、最近一次采集状态和候选数量。公众号单篇链接通过手动入口补充。</p><p class="checked"><a href="market.html#methodology">Steam 市场的数据口径与来源</a></p><div class="checked">最近检查：2026-10-18 23:18（北京时间）</div></header>
+<section class="metrics" aria-label="采集统计"><div class="metric"><strong>177</strong><span>本轮读取</span></div><div class="metric"><strong>177</strong><span>链接去重后</span></div><div class="metric"><strong>177</strong><span>本轮保留</span></div><div class="metric"><strong>42</strong><span>外部来源 · 含手动收录</span></div></section>
+<section class="health-summary" aria-label="入口状态汇总"><span class="health-item normal">正常读取 <strong>38</strong></span><span class="health-item degraded">部分读取 <strong>1</strong></span><span class="health-item manual">手动入口 <strong>4</strong></span></section>
+<section class="guide" aria-label="状态说明"><div><strong>无新内容：读取成功</strong><p>来源可以访问，本轮没有符合时间窗口的候选。新闻通常看近 72 小时，慢更新设计源看近 30 天。</p></div><div><strong>部分读取 / 访问受限：查看原因</strong><p>部分读取表示只取到了标题或部分文章；访问受限、读取异常表示本轮未完成采集。读取失败或待接入时，以「—」代替 0。</p></div><div><strong>手动收录：单篇链接</strong><p>公众号、知乎等单篇公开文章可手动补充，核验正文与日期后再筛选。作者个人网站与平台主页会分别注明。</p></div></section>
+<div class="filters" role="search"><label>平台<select id="platform"><option value="">全部平台</option><option value="Steam">Steam</option><option value="YouTube">YouTube</option><option value="developer_blog">developer_blog</option><option value="itch">itch</option><option value="作者网站">作者网站</option><option value="开发者社区">开发者社区</option><option value="微信公众号">微信公众号</option><option value="手动收录">手动收录</option><option value="网站 / RSS">网站 / RSS</option></select></label><label>访问状态<select id="state"><option value="">全部状态</option><option value="ok">读取正常</option><option value="empty">读取正常 · 无新内容</option><option value="degraded">部分读取</option><option value="manual">手动收录</option></select></label><label class="search">搜索来源<input id="query" type="search" placeholder="来源名称、语言或关键词" autocomplete="off"></label><span id="visible-count" aria-live="polite">43 个入口</span></div>
 <main id="sources"><article class="source" data-platform="网站 / RSS" data-state="empty">
   <div class="source-main"><div class="source-platform">网站 / RSS</div><h2><a href="https://www.gamedeveloper.com/rss.xml" target="_blank" rel="noopener noreferrer">Game Developer <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">英文</span></div><p>读取 50 条订阅记录；72 小时时间窗内取得 0 条候选</p></div>
   <div class="source-result"><span class="status empty">读取正常 · 无新内容</span><div class="source-count"><strong>0</strong><span>条候选</span></div></div>
@@ -163,17 +163,9 @@
   <div class="source-main"><div class="source-platform">YouTube</div><h2><a href="https://www.youtube.com/@sora_sakurai_en" target="_blank" rel="noopener noreferrer">Masahiro Sakurai on Creating Games <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">英文</span><span class="tag">视频待看</span><span class="tag">经典阅读候选</span></div><p>官方 Atom 元数据；未获取字幕，需观看后再编入精选</p></div>
   <div class="source-result"><span class="status ok">读取正常</span><div class="source-count"><strong>4</strong><span>条候选</span></div></div>
 </article>
-<article class="source" data-platform="Bilibili" data-state="blocked">
-  <div class="source-main"><div class="source-platform">Bilibili</div><h2><a href="https://space.bilibili.com/425475475" target="_blank" rel="noopener noreferrer">腾讯游戏学堂 <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">中文</span><span class="tag">视频待看</span></div><p>平台访问限制（接口代码 -799）；未尝试绕过验证</p><p class="alternative">同一机构另有公开网站：<a href="https://gameinstitute.qq.com/news" target="_blank" rel="noopener noreferrer">腾讯游戏学堂 · 官网资讯 ↗</a>（独立来源）</p></div>
-  <div class="source-result"><span class="status blocked">平台访问限制</span><div class="source-count"><strong>—</strong><span>条候选</span></div></div>
-</article>
 <article class="source" data-platform="作者网站" data-state="empty">
   <div class="source-main"><div class="source-platform">作者网站</div><h2><a href="https://gameinstitute.qq.com/news" target="_blank" rel="noopener noreferrer">腾讯游戏学堂 · 官网资讯 <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">中文</span><span class="tag">需编辑审核</span></div><p>官网资讯列表的标题、发布日期与摘要；正文待后续读取，不代表 B 站视频已恢复；列表最新日期 2026-08-26</p></div>
   <div class="source-result"><span class="status empty">读取正常 · 无新内容</span><div class="source-count"><strong>0</strong><span>条候选</span></div></div>
-</article>
-<article class="source" data-platform="Bilibili" data-state="blocked">
-  <div class="source-main"><div class="source-platform">Bilibili</div><h2><a href="https://space.bilibili.com/536066324" target="_blank" rel="noopener noreferrer">游戏葡萄君 <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">中文</span><span class="tag">视频待看</span></div><p>平台访问限制（接口代码 -799）；未尝试绕过验证</p></div>
-  <div class="source-result"><span class="status blocked">平台访问限制</span><div class="source-count"><strong>—</strong><span>条候选</span></div></div>
 </article>
 <article class="source" data-platform="微信公众号" data-state="manual">
   <div class="source-main"><div class="source-platform">微信公众号</div><h2><a href="https://mp.weixin.qq.com/" target="_blank" rel="noopener noreferrer">鱼塘游戏制作工坊 <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">中文</span></div><p>公众号暂无已核验的稳定公开列表；通过人工收录的单篇公开链接核验内容</p></div>
@@ -188,36 +180,12 @@
   <div class="source-result"><span class="status manual">手动收录</span><div class="source-count"><strong>0</strong><span>条候选</span></div></div>
 </article>
 <article class="source" data-platform="作者网站" data-state="ok">
-  <div class="source-main"><div class="source-platform">作者网站</div><h2><a href="https://docs.xpaidia.com/portfolio" target="_blank" rel="noopener noreferrer">叶梓涛 · 落日间 <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">中文</span><span class="tag">经典阅读候选</span></div><p>作者公开 Markdown 正文；原始发布日期未核验，作为经典阅读候选</p></div>
+  <div class="source-main"><div class="source-platform">作者网站</div><h2><a href="https://docs.xpaidia.com/portfolio" target="_blank" rel="noopener noreferrer">叶梓涛 · 落日间 <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">中文</span><span class="tag">经典阅读候选</span></div><p>作者公开 Markdown 正文；原始发布日期未核验，作为经典阅读候选</p><p class="profiles">作者其他主页：<a href="https://www.zhihu.com/people/xie-mo-zhe" target="_blank" rel="noopener noreferrer">知乎主页 ↗</a>。本来源采集作者个人网站文章。</p></div>
   <div class="source-result"><span class="status ok">读取正常</span><div class="source-count"><strong>5</strong><span>条候选</span></div></div>
 </article>
 <article class="source" data-platform="开发者社区" data-state="ok">
   <div class="source-main"><div class="source-platform">开发者社区</div><h2><a href="https://indienova.com/blogs/all" target="_blank" rel="noopener noreferrer">indienova 会员日志 <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">中文</span><span class="tag">需编辑审核</span></div><p>公开会员日志候选；作者身份、经验与论证需编辑审核</p></div>
   <div class="source-result"><span class="status ok">读取正常</span><div class="source-count"><strong>6</strong><span>条候选</span></div></div>
-</article>
-<article class="source" data-platform="Reddit" data-state="needs_auth">
-  <div class="source-main"><div class="source-platform">Reddit</div><h2><a href="https://www.reddit.com/r/gamedesign/" target="_blank" rel="noopener noreferrer">r/gamedesign <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">英文</span><span class="tag">需编辑审核</span></div><p>尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。</p></div>
-  <div class="source-result"><span class="status needs_auth">待接入 / 待授权</span><div class="source-count"><strong>—</strong><span>条候选</span></div></div>
-</article>
-<article class="source" data-platform="Reddit" data-state="needs_auth">
-  <div class="source-main"><div class="source-platform">Reddit</div><h2><a href="https://www.reddit.com/r/gamedev/" target="_blank" rel="noopener noreferrer">r/gamedev <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">英文</span><span class="tag">需编辑审核</span></div><p>尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。</p></div>
-  <div class="source-result"><span class="status needs_auth">待接入 / 待授权</span><div class="source-count"><strong>—</strong><span>条候选</span></div></div>
-</article>
-<article class="source" data-platform="Reddit" data-state="needs_auth">
-  <div class="source-main"><div class="source-platform">Reddit</div><h2><a href="https://www.reddit.com/r/leveldesign/" target="_blank" rel="noopener noreferrer">r/leveldesign <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">英文</span><span class="tag">需编辑审核</span></div><p>尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。</p></div>
-  <div class="source-result"><span class="status needs_auth">待接入 / 待授权</span><div class="source-count"><strong>—</strong><span>条候选</span></div></div>
-</article>
-<article class="source" data-platform="Discord" data-state="needs_auth">
-  <div class="source-main"><div class="source-platform">Discord</div><h2><a href="https://discord.com/invite/unity" target="_blank" rel="noopener noreferrer">Unity 官方 Discord <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">英文</span><span class="tag">需编辑审核</span><span class="tag">不对外发布</span></div><p>尚未配置获服务器授权的机器人。公开邀请链接只能作为社区入口，本轮未读取频道消息。</p></div>
-  <div class="source-result"><span class="status needs_auth">待接入 / 待授权</span><div class="source-count"><strong>—</strong><span>条候选</span></div></div>
-</article>
-<article class="source" data-platform="Discord" data-state="needs_auth">
-  <div class="source-main"><div class="source-platform">Discord</div><h2><a href="https://discord.com/invite/godotengine" target="_blank" rel="noopener noreferrer">Godot 官方 Discord <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">英文</span><span class="tag">需编辑审核</span><span class="tag">不对外发布</span></div><p>尚未配置获服务器授权的机器人。公开邀请链接只能作为社区入口，本轮未读取频道消息。</p></div>
-  <div class="source-result"><span class="status needs_auth">待接入 / 待授权</span><div class="source-count"><strong>—</strong><span>条候选</span></div></div>
-</article>
-<article class="source" data-platform="Discord" data-state="needs_auth">
-  <div class="source-main"><div class="source-platform">Discord</div><h2><a href="https://discord.unrealsource.com/" target="_blank" rel="noopener noreferrer">Unreal Source 独立社区 <span aria-hidden="true">↗</span></a></h2><div class="tags"><span class="tag">英文</span><span class="tag">需编辑审核</span><span class="tag">不对外发布</span></div><p>尚未配置获服务器授权的机器人。公开邀请链接只能作为社区入口，本轮未读取频道消息。</p></div>
-  <div class="source-result"><span class="status needs_auth">待接入 / 待授权</span><div class="source-count"><strong>—</strong><span>条候选</span></div></div>
 </article>
 <article class="source" data-platform="手动收录" data-state="manual">
   <div class="source-main"><div class="source-platform">手动收录</div><h2>人工线索收件箱</h2><div class="tags"></div><p>可补充公众号、知乎或其他公开原文链接</p></div>

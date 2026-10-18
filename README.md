@@ -65,21 +65,21 @@ AI 来源包括官方博客与实践型作者，候选保留 30 天以供精选�
 多平台来源单独登记，采集上限为每源通常20条、合并后最多1200条；游戏日报最多16条、精选3篇，AI 页面最多8条快讯、2篇精选。目录：
 
 - data/public_sources.json：10款不同类型游戏的 Steam 官方公告、Factorio Friday Facts、Riot 开发文章、itch.io 项目日志。
-- data/creator_sources.json：YouTube / B站创作者、中文作者文章、公众号及知乎线索。
-- data/community_sources.json：r/gamedesign、r/gamedev、r/leveldesign；Unity、Godot、Unreal Source 的 Discord 入口。
+- data/creator_sources.json：YouTube 创作者、中文作者网站、腾讯游戏学堂官网及手动公众号线索。
+- data/community_sources.json：当前为空。Reddit、Discord 已退出采集流程；B站的两个受限来源也已移除。
 - docs/sources.html：来源目录、本轮采集数量、空窗、访问失败、待授权和手动收录状态。空窗不等于连接失败；登记也不等于已经采到内容。
 
 来源页将正常读取（含窗口内无新内容）、部分读取、访问受限、读取异常、待接入和手动入口分别统计。部分文章详情失败、视频仅回退到频道页标题时标记“部分读取”；失败或尚未接入的来源不显示成“已读取 0 条”。Steam 公告等低频来源保留原时间窗口，报告会注明排除原因与本轮最新原文日期。网站 / RSS 请求对超时与部分 5xx 最多重试一次。Steam 公告与市场 API 共用线程独立的连接池，API 并发最多 2 路，明确的 TLS 提前断开也最多重试一次；保留环境代理和证书校验，权限限制、限流及证书错误不重试。
 
 只检查来源、刷新来源页而不重新生成日报，可运行 `python src/fetch_sources.py` 和 `python src/source_directory.py`；候选、健康报告随检查更新，已发布文章不改变。来源页的检查时间独立于市场快照时间。
 
-Steam 单期至多4条、Reddit至多2条，同一来源通常至多3条；热度不作为可信度。扩充候选不扩大日报版面。来源配额不会强迫填满栏目。
+Steam 单期至多4条，同一来源通常至多3条；热度不作为可信度。扩充候选不扩大日报版面。来源配额不会强迫填满栏目。
 
 视频标题/简介保留为待看线索，无字幕时不生成视频分析；缺日期不冒充今天。社区完整的公开文章或自述还需通过正文相关性检查；提问、只有外链、上下文不全的聊天保留在 ranked.json 的 review_queue，不进入成稿。跨语言去重以120条一批执行，跨批次仍可能有同事件重报，URL/完全相同标题会先全局去重。
 
-**可选社区连接**：Reddit使用经平台批准的OAuth access token（REDDIT_ACCESS_TOKEN，可选REDDIT_USER_AGENT）。目前不自动刷新短期token。Discord使用获准Bot的DISCORD_BOT_TOKEN与明确的DISCORD_CHANNELS_JSON，例如 {"discord_unity":["频道ID"]}；只读指定服务器频道，不加入服务器、不发送消息。凭据通过环境变量或GitHub Actions Secrets配置，不写入仓库或聊天。
+**已退出的来源**：Reddit、Discord 与 B站不再列为当前来源，也不会在定时任务中采集。对应解析器保留但未启用；工作流不再读取社区访问凭据。移除来源后，旧报告也不会把入口重新带回来源页。
 
-Discord消息默认restricted：只计数，不写入抓取JSON、不发给模型、不公开发布。阅读权限与发布授权分别设置；只有频道配置同时声明publication_scope为public且public_publication_authorized为true，才进入公开线索审阅队列。频道列表为空或凭据缺失就跳过。B站等遇平台限制只报告状态，不绕过验证。
+**知乎相关内容**：目前没有直接自动采集知乎。已接入知乎作者叶梓涛的公开个人网站「落日间」，来源页提供经作者主页核验的知乎个人页链接。网站中的无准确日期长文作为经典阅读候选，不冒充当日新闻。
 
 **手动补充线索**：复制 data/source_inbox.example.json 为 data/source_inbox.json（已忽略提交），填写公开链接对象列表，可含url、title、source、source_id、platform、published、lang。文件仅收集线索，标题或日期不会被当作已核验正文；review_queue中再核验。私密消息不要放进公共来源列表。
 
@@ -120,7 +120,7 @@ data/reading_library.json 保存从收藏与研究中挑选的常青备选：GDK
 
 各入口共用同一并发组，避免同时发布。写入任务从最新 main 检出，推送前 rebase；冲突会阻止发布，不强制覆盖。生成任务取得 contents:write；独立部署任务只取得 pages:write 和 id-token:write。工作流直接部署 Pages 产物，不依赖机器人提交再次触发构建。
 
-仓库需要启用 GitHub Pages。建议在 Settings → Pages → Build and deployment 中将 Source 设为 GitHub Actions；若保留分支发布，来源分支必须为 main，目录为 /docs，且 github-pages 环境规则允许 main 部署。详情见 [GitHub 官方部署说明](https://github.com/actions/deploy-pages#security-considerations)。仓库 Actions Secrets 需配置 DEEPSEEK_API_KEY；Reddit 和 Discord 凭据仍为可选。
+仓库需要启用 GitHub Pages。建议在 Settings → Pages → Build and deployment 中将 Source 设为 GitHub Actions；若保留分支发布，来源分支必须为 main，目录为 /docs，且 github-pages 环境规则允许 main 部署。详情见 [GitHub 官方部署说明](https://github.com/actions/deploy-pages#security-considerations)。生成日报摘要需在仓库 Actions Secrets 配置 DEEPSEEK_API_KEY；单独检查来源无需模型密钥。
 
 工作流文件通过本地检查不代表部署已经完成。发布后应查看 Actions 的 deploy 结果，再核对线上首页、来源目录和 RSS；新内容管线也需要一次实际运行验证。
 

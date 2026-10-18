@@ -12,6 +12,12 @@ from source_directory import render_directory, _time
 
 NOW = datetime(2026, 10, 18, 12, tzinfo=timezone.utc)
 CATALOG = json.loads(cs.CATALOG_PATH.read_text(encoding="utf-8"))
+# Exercise the retained adapter without registering an inaccessible live source.
+BILIBILI_FIXTURE = {
+    "id": "bilibili-test", "name": "Bilibili fixture", "url": "https://space.bilibili.com/123",
+    "platform": "Bilibili", "adapter": "bilibili", "uid": "123", "tier": 2,
+    "lang": "zh", "category": "games", "window_hours": 168, "max_per_source": 5,
+}
 
 
 class CreatorSourcesTests(unittest.TestCase):
@@ -92,7 +98,7 @@ class CreatorSourcesTests(unittest.TestCase):
         for code in (-352, -799):
             with self.subTest(code=code):
                 with patch.object(cs, "_get", return_value=json.dumps({"code": code, "message": "access restricted"})) as get:
-                    items, status = cs._fetch_one(self.source("bilibili-youxiputao"), NOW)
+                    items, status = cs._fetch_one(BILIBILI_FIXTURE, NOW)
                 self.assertEqual(get.call_count, 1)
                 self.assertEqual(items, [])
                 self.assertEqual(status["state"], "blocked")
@@ -138,7 +144,7 @@ class CreatorSourcesTests(unittest.TestCase):
                  {"bvid": "BVfuture", "title": "Future", "created": NOW.timestamp() + 86400},
                  {"bvid": "BVmissing", "title": "Undated", "description": "Metadata only"}]
         with patch.object(cs, "_get", return_value=json.dumps({"code": 0, "data": {"list": {"vlist": vlist}}})):
-            items, _ = cs._bilibili(self.source("bilibili-youxiputao"), NOW)
+            items, _ = cs._bilibili(BILIBILI_FIXTURE, NOW)
         self.assertEqual([i["title"] for i in items], ["Fresh", "Undated"])
         self.assertTrue(items[1]["undated"])
         self.assertFalse(items[1]["has_body"])
@@ -218,7 +224,7 @@ class SourceDirectoryTests(unittest.TestCase):
 
     def test_untrusted_titles_and_urls_cannot_execute(self):
         report = {"sources": [{"id": "custom", "name": "<script>bad</script>", "platform": "Discord", "url": "javascript:bad()", "state": "needs_auth", "count": 0, "detail": "缺少DISCORD_BOT_TOKEN。 Bearer never-show-me"}]}
-        text = render_directory(report, [])
+        text = render_directory(report, report["sources"])
         self.assertNotIn('<script>bad</script>', text)
         self.assertNotIn('javascript:bad()', text)
         self.assertNotIn('never-show-me', text)
@@ -227,7 +233,7 @@ class SourceDirectoryTests(unittest.TestCase):
 
     def test_private_channel_payload_is_not_rendered(self):
         report = {"sources": [{"id": "custom", "name": "Community", "platform": "Discord", "state": "ok", "count": 2, "detail": "公开采集状态", "channels": [{"messages": "private message contents"}]}], "counts": {"restricted_withheld": 2}}
-        text = render_directory(report, [])
+        text = render_directory(report, report["sources"])
         self.assertNotIn('private message contents', text)
         self.assertIn('2 条受限内容', text)
 

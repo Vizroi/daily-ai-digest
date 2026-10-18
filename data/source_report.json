@@ -137,60 +137,6 @@
       "detail": "读取正常，共检查 3 条，收录 0 条；早于最近 720 小时 3 条；本轮最新原文日期 2022-11-25（北京时间）"
     },
     {
-      "id": "reddit_gamedesign",
-      "name": "r/gamedesign",
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/gamedesign/",
-      "state": "needs_auth",
-      "count": 0,
-      "detail": "尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。"
-    },
-    {
-      "id": "reddit_gamedev",
-      "name": "r/gamedev",
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/gamedev/",
-      "state": "needs_auth",
-      "count": 0,
-      "detail": "尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。"
-    },
-    {
-      "id": "reddit_leveldesign",
-      "name": "r/leveldesign",
-      "platform": "reddit",
-      "url": "https://www.reddit.com/r/leveldesign/",
-      "state": "needs_auth",
-      "count": 0,
-      "detail": "尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。"
-    },
-    {
-      "id": "discord_unity",
-      "name": "Unity 官方 Discord",
-      "platform": "discord",
-      "url": "https://discord.com/invite/unity",
-      "state": "needs_auth",
-      "count": 0,
-      "detail": "尚未配置获服务器授权的机器人。公开邀请链接只能作为社区入口，本轮未读取频道消息。"
-    },
-    {
-      "id": "discord_godot",
-      "name": "Godot 官方 Discord",
-      "platform": "discord",
-      "url": "https://discord.com/invite/godotengine",
-      "state": "needs_auth",
-      "count": 0,
-      "detail": "尚未配置获服务器授权的机器人。公开邀请链接只能作为社区入口，本轮未读取频道消息。"
-    },
-    {
-      "id": "discord_unrealsource",
-      "name": "Unreal Source 独立社区",
-      "platform": "discord",
-      "url": "https://discord.unrealsource.com/",
-      "state": "needs_auth",
-      "count": 0,
-      "detail": "尚未配置获服务器授权的机器人。公开邀请链接只能作为社区入口，本轮未读取频道消息。"
-    },
-    {
       "id": "youtube-gmtk",
       "name": "Game Maker’s Toolkit",
       "platform": "YouTube",
@@ -218,15 +164,6 @@
       "detail": "官方 Atom 元数据；未获取字幕，需观看后再编入精选"
     },
     {
-      "id": "bilibili-tencent-institute",
-      "name": "腾讯游戏学堂",
-      "platform": "Bilibili",
-      "url": "https://space.bilibili.com/425475475",
-      "state": "blocked",
-      "count": 0,
-      "detail": "平台访问限制（接口代码 -799）；未尝试绕过验证"
-    },
-    {
       "id": "website-tencent-institute",
       "name": "腾讯游戏学堂 · 官网资讯",
       "platform": "作者网站",
@@ -234,15 +171,6 @@
       "state": "empty",
       "count": 0,
       "detail": "官网资讯列表的标题、发布日期与摘要；正文待后续读取，不代表 B 站视频已恢复；列表最新日期 2026-08-26"
-    },
-    {
-      "id": "bilibili-youxiputao",
-      "name": "游戏葡萄君",
-      "platform": "Bilibili",
-      "url": "https://space.bilibili.com/536066324",
-      "state": "blocked",
-      "count": 0,
-      "detail": "平台访问限制（接口代码 -799）；未尝试绕过验证"
     },
     {
       "id": "wechat-yutang",

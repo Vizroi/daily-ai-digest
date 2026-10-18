@@ -32,8 +32,8 @@ class SourceRows(HTMLParser):
 
 class SourceStatusTests(unittest.TestCase):
     def page(self, entries):
-        return render_directory({"sources": [dict(id=state, name=state, state=state, count=count)
-                                             for state, count in entries]}, [])
+        sources = [dict(id=state, name=state, state=state, count=count) for state, count in entries]
+        return render_directory({"sources": sources}, sources)
 
     def test_zero_new_items_are_not_reported_as_fetch_failure(self):
         page = self.page([("empty", 0), ("error", 0), ("blocked", 0), ("needs_auth", 0)])
@@ -62,6 +62,27 @@ class SourceStatusTests(unittest.TestCase):
         page = render_directory({}, [{"id": "registered", "name": "Registered source"}])
         self.assertIn('尚未检查 <strong>1</strong>', page)
         self.assertNotIn('正常读取 <strong>', page)
+
+    def test_old_report_cannot_restore_removed_sources(self):
+        report = {"sources": [
+            {"id": "reddit_retired", "name": "Removed Reddit source", "state": "needs_auth", "count": 0},
+            {"id": "bilibili_retired", "name": "Removed Bilibili source", "state": "blocked", "count": 0},
+            {"id": "manual-inbox", "name": "人工线索收件箱", "state": "manual", "count": 0},
+        ]}
+        page = render_directory(report, [{"id": "active", "name": "Active website"}])
+        self.assertNotIn("Removed Reddit source", page)
+        self.assertNotIn("Removed Bilibili source", page)
+        self.assertIn("人工线索收件箱", page)
+        self.assertIn("Active website", page)
+        self.assertEqual(page.count('class="source"'), 2)
+
+    def test_author_profile_link_is_distinct_from_the_collected_site(self):
+        page = render_directory({}, [{"id": "author", "name": "Author site", "url": "https://author.example/",
+            "profile_links": [{"label": "知乎主页", "url": "https://www.zhihu.com/people/example"},
+                              {"label": "unsafe", "url": "javascript:alert(1)"}]}])
+        self.assertIn('href="https://www.zhihu.com/people/example"', page)
+        self.assertIn("本来源采集作者个人网站文章", page)
+        self.assertNotIn("javascript:", page)
 
 
 if __name__ == "__main__":

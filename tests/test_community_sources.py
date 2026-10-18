@@ -65,13 +65,13 @@ class CommunitySourceTests(unittest.TestCase):
             articles, statuses = community.fetch_sources(NOW)
         return articles, statuses, get
 
-    def test_catalog_registers_three_reddit_and_three_discord_sources(self):
-        sources = community.load_catalog()
-        self.assertEqual({source["subreddit"] for source in sources if source["platform"] == "reddit"},
-                         {"gamedesign", "gamedev", "leveldesign"})
-        discord = [source for source in sources if source["platform"] == "discord"]
-        self.assertEqual(len(discord), 3)
-        self.assertTrue(all(not source["channel_ids"] and source["publication_scope"] == "restricted" for source in discord))
+    def test_empty_active_catalog_makes_no_requests_even_with_old_credentials(self):
+        self.assertEqual(community.load_catalog(), [])
+        env = {"REDDIT_ACCESS_TOKEN": "old-token", "DISCORD_BOT_TOKEN": "old-bot",
+               "DISCORD_CHANNELS_JSON": '{"discord_unity":["' + CHANNEL + '"]}'}
+        with patch.dict(os.environ, env, clear=True), patch.object(community.requests, "get") as get:
+            self.assertEqual(community.fetch_sources(NOW), ([], []))
+        get.assert_not_called()
 
     def test_no_credentials_does_not_attempt_anonymous_or_personal_access(self):
         articles, statuses, get = self.run_fetch([REDDIT, DISCORD])

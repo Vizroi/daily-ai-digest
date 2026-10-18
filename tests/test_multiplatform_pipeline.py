@@ -1,6 +1,7 @@
 """Cross-adapter evidence boundaries and final edition diversity."""
 import sys
 from pathlib import Path
+from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -9,6 +10,7 @@ import fetch_sources
 import rank
 import readfull
 import summarize
+import source_registry
 from test_editorial import event, NOW
 
 
@@ -17,6 +19,17 @@ class MultiPlatformTests(unittest.TestCase):
         result = event(index, **kwargs)
         result.update(id=index, source="Source " + str(index))
         return result
+
+    def test_removed_community_sources_are_not_active_or_scheduled(self):
+        self.assertFalse(any(source.get("platform") in {"reddit", "discord"}
+                             for source in source_registry.catalog()))
+        adapter = SimpleNamespace(fetch_sources=lambda **kwargs: ([], []))
+        with patch.object(fetch_sources, "RSS_SOURCES", []), patch.object(fetch_sources, "PAGE_SOURCES", []), \
+                patch("importlib.import_module", return_value=adapter) as load, \
+                patch.object(source_registry, "inbox_articles", return_value=([], {"id": "manual-inbox", "state": "manual"})):
+            articles, _ = fetch_sources.fetch_all()
+        self.assertEqual(articles, [])
+        self.assertEqual(sorted(call.args[0] for call in load.call_args_list), ["creator_sources", "public_sources"])
 
     def test_youtube_videos_are_not_merged_by_watch_path(self):
         items = [self.raw(1, url="https://www.youtube.com/watch?v=one"),

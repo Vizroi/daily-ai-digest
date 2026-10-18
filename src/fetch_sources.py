@@ -407,7 +407,7 @@ def fetch_all() -> tuple[list[dict], dict]:
     with futures.ThreadPoolExecutor(8) as executor:
         pending = {executor.submit(fetcher, src): src for src, fetcher in tasks}
         adapters = {executor.submit(import_module(name).fetch_sources, now=NOW): name
-                    for name in ("public_sources", "creator_sources", "community_sources")}
+                    for name in ("public_sources", "creator_sources")}
         for future in futures.as_completed(pending):
             src = pending[future]
             try:

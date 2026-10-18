@@ -77,13 +77,8 @@ jobs:
       - name: 检查栏目与内容规则
         run: python -m unittest discover -s tests -v
 
-      # ① 多平台候选：新闻72小时、设计30天，未授权来源清楚标记并跳过。
+      # ① 公开来源候选：新闻72小时、设计30天。
       - name: 召回
-        env:
-          REDDIT_ACCESS_TOKEN: ${{ secrets.REDDIT_ACCESS_TOKEN }}
-          REDDIT_USER_AGENT: ${{ vars.REDDIT_USER_AGENT }}
-          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
-          DISCORD_CHANNELS_JSON: ${{ secrets.DISCORD_CHANNELS_JSON }}
         run: python src/fetch_sources.py
 
       # ② 合并同一事件的中英文报道
@@ -219,11 +214,6 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: 检查信息来源
-        env:
-          REDDIT_ACCESS_TOKEN: ${{ secrets.REDDIT_ACCESS_TOKEN }}
-          REDDIT_USER_AGENT: ${{ vars.REDDIT_USER_AGENT }}
-          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
-          DISCORD_CHANNELS_JSON: ${{ secrets.DISCORD_CHANNELS_JSON }}
         run: python src/fetch_sources.py
 
       - name: 更新来源目录
