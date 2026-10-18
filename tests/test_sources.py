@@ -6,6 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import feedparser
+import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import config
@@ -20,6 +21,92 @@ class SourceIntegrityTests(unittest.TestCase):
         self.addCleanup(self.clock.stop)
         self.source = {"name": "Example", "url": "https://example.com/feed", "tier": 2,
                        "lang": "en", "category": "games"}
+        fetch.FETCH_ERRORS.clear()
+        fetch.HEALTH.clear()
+        fetch.SOURCE_DETAILS.clear()
+
+    @staticmethod
+    def response(code=200, text="content"):
+        response = requests.Response()
+        response.status_code = code
+        response.url = "https://example.com/feed"
+        response.encoding = "utf-8"
+        response._content = text.encode("utf-8")
+        response._content_consumed = True
+        return response
+
+    def test_transient_failure_recovers_with_one_retry(self):
+        for failure in (requests.ReadTimeout(), self.response(503)):
+            with self.subTest(failure=type(failure).__name__), \
+                    patch.object(fetch._session, "get", side_effect=[failure, self.response()]) as get, \
+                    patch.object(fetch.time, "sleep"):
+                fetch.FETCH_ERRORS[self.source["url"]] = "PreviousFailure"
+                self.assertEqual(fetch._fetch(self.source["url"]), "content")
+                self.assertEqual(get.call_count, 2)
+                self.assertNotIn(self.source["url"], fetch.FETCH_ERRORS)
+
+    def test_transient_failure_has_a_bounded_retry(self):
+        with patch.object(fetch._session, "get", side_effect=requests.ReadTimeout()) as get, \
+                patch.object(fetch.time, "sleep"):
+            self.assertIsNone(fetch._fetch(self.source["url"]))
+        self.assertEqual(get.call_count, 2)
+        status = fetch._source_status(self.source)
+        self.assertEqual(status["state"], "error")
+        self.assertIn("超时", status["detail"])
+
+    def test_access_restrictions_are_not_retried_or_reported_as_parser_errors(self):
+        for code in (401, 403, 412, 429):
+            with self.subTest(code=code), \
+                    patch.object(fetch._session, "get", return_value=self.response(code)) as get, \
+                    patch.object(fetch.time, "sleep") as sleep:
+                self.assertIsNone(fetch._fetch(self.source["url"]))
+                self.assertEqual(get.call_count, 1)
+                sleep.assert_not_called()
+                status = fetch._source_status(self.source)
+                self.assertEqual(status["state"], "blocked")
+                self.assertIn(str(code), status["detail"])
+
+    def test_missing_feed_is_reported_with_http_status_without_retry(self):
+        with patch.object(fetch._session, "get", return_value=self.response(404)) as get:
+            self.assertIsNone(fetch._fetch(self.source["url"]))
+        self.assertEqual(get.call_count, 1)
+        self.assertIn("HTTP 404", fetch._source_status(self.source)["detail"])
+
+    def test_old_feed_is_empty_rather_than_a_fetch_failure(self):
+        xml = ('<rss version="2.0"><channel><item><title>Old update</title>'
+               '<link>https://example.com/a</link><pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>'
+               '</item></channel></rss>')
+        with patch.object(fetch, "_fetch", return_value=xml):
+            self.assertEqual(fetch._fetch_rss(self.source), [])
+        status = fetch._source_status(self.source)
+        self.assertEqual(status["state"], "empty")
+        self.assertIn("读取 1 条订阅记录", status["detail"])
+
+    def test_empty_or_html_feed_response_is_a_format_error_not_no_recent_content(self):
+        for raw in ("", "<html><h1>Page unavailable</h1></html>"):
+            with self.subTest(raw=raw), patch.object(fetch, "_fetch", return_value=raw):
+                self.assertEqual(fetch._fetch_rss(self.source), [])
+                status = fetch._source_status(self.source)
+                self.assertEqual(status["state"], "error")
+                self.assertIn("RSS / Atom", status["detail"])
+
+    def test_partial_detail_failures_remain_visible_alongside_candidates(self):
+        source = dict(self.source, link_pattern=r"^/articles/\d+$")
+        listing = '<a href="/articles/1">one</a><a href="/articles/2">two</a>'
+        article = '<h1>Design notes</h1><meta property="article:published_time" content="2026-10-17T12:00:00Z">'
+
+        def reply(url, **kwargs):
+            if url == source["url"]:
+                return self.response(text=listing)
+            return self.response(text=article) if url.endswith("/1") else self.response(403)
+
+        with patch.object(fetch._session, "get", side_effect=reply):
+            items = fetch._fetch_page_source(source)
+        self.assertEqual(len(items), 1)
+        status = fetch._source_status(source)
+        self.assertEqual(status["state"], "degraded")
+        self.assertEqual(status["count"], 1)
+        self.assertIn("1 篇未能读取（HTTP 403）", status["detail"])
 
     def test_missing_publication_date_is_not_replaced_with_fetch_time(self):
         entry = feedparser.FeedParserDict(title="Game update", link="https://example.com/a",

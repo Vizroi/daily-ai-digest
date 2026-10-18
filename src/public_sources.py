@@ -16,6 +16,8 @@ from urllib.parse import urljoin, urlparse
 import feedparser
 import requests
 
+from source_http import failure_reason, get_response
+
 SOURCE_FILE = Path(__file__).resolve().parents[1] / "data" / "public_sources.json"
 STEAM_API = "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/"
 STEAM_OFFICIAL_FEED = "steam_community_announcements"
@@ -39,14 +41,22 @@ def load_catalog():
 
 def _get(url, *, params=None):
     try:
-        response = requests.get(url, params=params, timeout=REQUEST_TIMEOUT,
+        response = get_response(url, params=params, timeout=REQUEST_TIMEOUT,
                                 headers={"User-Agent": USER_AGENT})
     except requests.RequestException as exc:
-        raise SourceFailure("error", f"请求失败：{type(exc).__name__}") from exc
+        details = {
+            "tls_eof": "TLS 连接被中途断开；有限重试后仍失败",
+            "tls_certificate": "TLS 证书校验失败；已停止请求",
+            "timeout": "网络请求超时；有限重试后仍失败",
+        }
+        detail = details.get(failure_reason(exc), f"请求失败：{type(exc).__name__}")
+        raise SourceFailure("error", detail) from exc
     if response.status_code == 401:
         raise SourceFailure("needs_auth", "HTTP 401：入口要求身份验证；未尝试登录")
-    if response.status_code == 403:
-        raise SourceFailure("error", "HTTP 403：公开入口访问受限；未尝试登录或绕过")
+    if response.status_code in (403, 412):
+        raise SourceFailure("blocked", f"HTTP {response.status_code}：公开入口访问受限；未尝试登录或绕过")
+    if response.status_code == 429:
+        raise SourceFailure("blocked", "HTTP 429：平台限制请求频率，等待后续采集")
     if response.status_code >= 400:
         raise SourceFailure("error", f"HTTP {response.status_code}")
     return response
@@ -108,6 +118,33 @@ def _in_window(stamp, source, now):
     return stamp is None or now - timedelta(hours=source.get("window_hours", 72)) <= stamp <= now
 
 
+def _date_exclusion(stamp, source, now):
+    if stamp is not None and stamp > now:
+        return "future"
+    if not _in_window(stamp, source, now):
+        return "old"
+    return None
+
+
+def _read_detail(total, rows, excluded, dates, source, now, *, partial=False):
+    """Describe successful reads separately from why candidates were not retained."""
+    if total and excluded.get("invalid", 0) == total:
+        raise SourceFailure("error", f"入口有响应，但 {total} 条候选均缺少有效标题或链接；需检查内容格式")
+    outcome = "部分读取成功" if partial else "读取正常"
+    parts = [f"{outcome}，共检查 {total} 条，收录 {len(rows)} 条"]
+    labels = {"old": f"早于最近 {source.get('window_hours', 72)} 小时",
+              "future": "发布时间在未来", "source": "不符合来源规则", "invalid": "标题或链接无效"}
+    parts.extend(f"{label} {excluded[reason]} 条" for reason, label in labels.items() if excluded.get(reason))
+    known_dates = [stamp for stamp in dates if stamp is not None and stamp <= now]
+    if known_dates:
+        latest = max(known_dates).astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+        parts.append(f"本轮最新原文日期 {latest}（北京时间）")
+    unknown_dates = sum(row["undated"] for row in rows)
+    if unknown_dates:
+        parts.append(f"{unknown_dates} 条原文日期未知，需核验后才能作为新消息")
+    return "；".join(parts)
+
+
 def _limit(source):
     return max(0, min(20, int(source.get("max_per_source", 20))))
 
@@ -138,7 +175,7 @@ def _status(source, state, count, detail):
             "state": state, "count": count, "detail": detail}
 
 
-def _steam(source, now):
+def _steam(source, now, *, diagnostics=None):
     appid = int(source["appid"])
     response = _get(source.get("endpoint", STEAM_API), params={
         "appid": appid, "count": _limit(source), "maxlength": 0,
@@ -150,21 +187,26 @@ def _steam(source, now):
     entries = payload.get("newsitems")
     if not isinstance(entries, list):
         raise SourceFailure("error", "Steam 响应缺少 newsitems 数组")
-    rows, excluded = [], 0
+    rows, excluded, dates = [], {}, []
     for entry in entries:
+        if not isinstance(entry, dict):
+            excluded["invalid"] = excluded.get("invalid", 0) + 1
+            continue
         # is_external_url can be true even for Steam's own Akamai announcement links.
         # Publisher feedname + matching AppID provide the source boundary, not this flag.
         if (entry.get("feedname") != STEAM_OFFICIAL_FEED
                 or entry.get("appid", appid) != appid):
-            excluded += 1
+            excluded["source"] = excluded.get("source", 0) + 1
             continue
         stamp = _date(entry.get("date"))
         url, title = entry.get("url") or "", entry.get("title") or ""
         if not title or urlparse(url).scheme not in ("https", "http"):
-            excluded += 1
+            excluded["invalid"] = excluded.get("invalid", 0) + 1
             continue
-        if not _in_window(stamp, source, now):
-            excluded += 1
+        dates.append(stamp)
+        reason = _date_exclusion(stamp, source, now)
+        if reason:
+            excluded[reason] = excluded.get(reason, 0) + 1
             continue
         content = entry.get("contents") or ""
         row = _article(source, title, url, stamp, content=content, kind="api_content",
@@ -172,7 +214,11 @@ def _steam(source, now):
         row["appid"] = appid
         row["announcement_id"] = entry.get("gid")
         rows.append(row)
-    return rows[:_limit(source)], f"读取 {len(entries)} 条官方公告候选，窗口/来源/格式排除 {excluded} 条"
+    rows = rows[:_limit(source)]
+    partial = bool(excluded.get("invalid"))
+    if partial and diagnostics is not None:
+        diagnostics["state"] = "degraded"
+    return rows, _read_detail(len(entries), rows, excluded, dates, source, now, partial=partial)
 
 
 class _PageParser(HTMLParser):
@@ -263,20 +309,21 @@ def _html(response):
     return response.text
 
 
-def _rss(source, now):
+def _rss(source, now, *, diagnostics=None):
     response = _get(source["url"])
     feed = feedparser.parse(response.content)
     if not feed.version and not feed.entries:
         raise SourceFailure("error", "HTTP 成功但不是可识别的 RSS/Atom；不能视作没有新稿")
-    rows, excluded, date_failures = [], 0, 0
+    rows, excluded, dates, date_failures = [], {}, [], 0
     entries = feed.entries[:_limit(source)]
 
     def one(entry):
         title, url = entry.get("title") or "", entry.get("link") or ""
-        if (not title or urlparse(url).scheme not in ("http", "https")
-                or (source.get("include_url_pattern")
-                    and not re.search(source["include_url_pattern"], url))):
-            return None, False
+        if not title or urlparse(url).scheme not in ("http", "https"):
+            return None, False, "invalid", None
+        if (source.get("include_url_pattern")
+                and not re.search(source["include_url_pattern"], url)):
+            return None, False, "source", None
         stamp = _feed_date(entry)
         precision = "timestamp"
         failed = False
@@ -284,10 +331,12 @@ def _rss(source, now):
             try:
                 info, _ = _page_info(_html(_get(url)), factorio=True)
                 stamp, precision = info["published"], info["precision"]
+                failed = stamp is None
             except SourceFailure:
                 failed = True
-        if not _in_window(stamp, source, now):
-            return None, failed
+        reason = _date_exclusion(stamp, source, now)
+        if reason:
+            return None, failed, reason, stamp
         content = "\n".join(c.get("value") or "" for c in entry.get("content", []) if isinstance(c, dict))
         row = _article(source, title, url, stamp, entry.get("summary") or content,
                        content=content, kind="rss_content" if content else "rss_summary",
@@ -295,22 +344,26 @@ def _rss(source, now):
         updated = _feed_date(entry, "updated")
         if updated:
             row["updated"] = updated.isoformat()
-        return row, failed
+        return row, failed, None, stamp
 
     with futures.ThreadPoolExecutor(4) as executor:
-        for row, failed in executor.map(one, entries):
+        for row, failed, reason, stamp in executor.map(one, entries):
             date_failures += int(failed)
+            dates.append(stamp)
             if row:
                 rows.append(row)
-            else:
-                excluded += 1
-    detail = f"读取 {len(entries)} 条，窗口/格式排除 {excluded} 条"
+            elif reason:
+                excluded[reason] = excluded.get(reason, 0) + 1
+    partial = bool(date_failures or excluded.get("invalid"))
+    if partial and diagnostics is not None:
+        diagnostics["state"] = "degraded"
+    detail = _read_detail(len(entries), rows, excluded, dates, source, now, partial=partial)
     if date_failures:
         detail += f"；{date_failures} 条详情日期读取失败，未知日期保持 null"
     return rows, detail
 
 
-def _official_listing(source, now):
+def _official_listing(source, now, *, diagnostics=None):
     raw = _html(_get(source["url"]))
     parser = _PageParser()
     parser.feed(raw)
@@ -332,26 +385,34 @@ def _official_listing(source, now):
     def one(url):
         try:
             info, _ = _page_info(_html(_get(url)))
-            if not info["title"] or not _in_window(info["published"], source, now):
-                return None, None
+            if not info["title"]:
+                return None, None, "invalid", None
+            reason = _date_exclusion(info["published"], source, now)
+            if reason:
+                return None, None, reason, info["published"]
             return _article(source, info["title"], url, info["published"], info["summary"],
                             kind="page_excerpt", author=info["author"],
-                            precision=info["precision"]), None
+                            precision=info["precision"]), None, None, info["published"]
         except SourceFailure as exc:
-            return None, exc
+            return None, exc, None, None
 
-    rows, failures, examined = [], [], urls[:_limit(source)]
+    rows, failures, excluded, dates, examined = [], [], {}, [], urls[:_limit(source)]
     with futures.ThreadPoolExecutor(4) as executor:
-        for row, failure in executor.map(one, examined):
+        for row, failure, reason, stamp in executor.map(one, examined):
+            dates.append(stamp)
             if row:
                 rows.append(row)
             if failure:
                 failures.append(failure)
+            if reason:
+                excluded[reason] = excluded.get(reason, 0) + 1
     if not rows and failures:
         raise SourceFailure(failures[0].state,
                             f"详情读取失败 {len(failures)}/{len(examined)}；{failures[0].detail}")
-    unknown_dates = sum(row["undated"] for row in rows)
-    detail = f"读取 {len(examined)} 篇公开文章，收录 {len(rows)} 篇（未知日期 {unknown_dates} 篇）"
+    partial = bool(failures or excluded.get("invalid"))
+    if partial and diagnostics is not None:
+        diagnostics["state"] = "degraded"
+    detail = _read_detail(len(examined), rows, excluded, dates, source, now, partial=partial)
     if failures:
         detail += f"；{len(failures)} 篇详情读取失败"
     return rows, detail
@@ -365,8 +426,10 @@ def _run(source, now):
     if adapter is None:
         return [], _status(source, "error", 0, "未知采集适配器")
     try:
-        rows, detail = adapter(source, now)
-        return rows, _status(source, "ok" if rows else "empty", len(rows), detail)
+        diagnostics = {}
+        rows, detail = adapter(source, now, diagnostics=diagnostics)
+        state = diagnostics.get("state") or ("ok" if rows else "empty")
+        return rows, _status(source, state, len(rows), detail)
     except SourceFailure as exc:
         return [], _status(source, exc.state, 0, exc.detail)
     except (ValueError, TypeError, KeyError, OverflowError) as exc:

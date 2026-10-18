@@ -53,12 +53,84 @@ class CreatorSourcesTests(unittest.TestCase):
         self.assertEqual(articles, [])
         self.assertEqual(status["state"], "blocked")
 
+    def test_official_atom_accepts_unprefixed_channel_id_and_exact_date(self):
+        xml = '''<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015">
+        <yt:channelId>qJ-Xo29CKyLTjn6z2XwYAw</yt:channelId>
+        <author><uri>https://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw</uri></author>
+        <entry><yt:videoId>abcdefghijk</yt:videoId><title>Design talk</title><published>2026-10-17T10:00:00Z</published></entry></feed>'''
+        with patch.object(cs, "_get", return_value=xml) as get:
+            items, status = cs._fetch_one(self.source("youtube-gmtk"), NOW)
+        self.assertEqual(get.call_count, 1)
+        self.assertEqual(status["state"], "ok")
+        self.assertEqual(items[0]["published"], "2026-10-17T10:00:00+00:00")
+        self.assertEqual(items[0]["collection_method"], "official_atom")
+
+    def test_youtube_identity_mismatch_is_not_hidden_by_fallback(self):
+        for identity in ('<yt:channelId>wrong-channel</yt:channelId>',
+                         '<yt:channelId>qJ-Xo29CKyLTjn6z2XwYAw</yt:channelId><author><uri>https://www.youtube.com/channel/UCwrong</uri></author>'):
+            with self.subTest(identity=identity):
+                xml = '<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015">' + identity + '</feed>'
+                with patch.object(cs, "_get", return_value=xml) as get:
+                    items, status = cs._fetch_one(self.source("youtube-gmtk"), NOW)
+                self.assertEqual(get.call_count, 1)
+                self.assertEqual(items, [])
+                self.assertEqual(status["state"], "error")
+
+    def test_youtube_title_fallback_is_degraded_not_healthy(self):
+        data = {"contents": {"tabs": [{"tabRenderer": {"selected": True, "content": {
+            "videoRenderer": {"videoId": "abcdefghijk", "title": {"simpleText": "Design talk"},
+                              "publishedTimeText": {"simpleText": "2 months ago"}}
+        }}}]}}
+        with patch.object(cs, "_get", side_effect=[cs.SourceError("error", "HTTP 404"), "var ytInitialData = " + json.dumps(data)]):
+            items, status = cs._fetch_one(self.source("youtube-gmtk"), NOW)
+        self.assertEqual(status["state"], "degraded")
+        self.assertEqual(status["count"], 1)
+        self.assertTrue(items[0]["discovery_only"])
+        self.assertIsNone(items[0]["published"])
+
     def test_bilibili_risk_code_is_blocked(self):
-        with patch.object(cs, "_get", return_value='{"code":-352,"message":"risk control"}'):
-            items, status = cs._fetch_one(self.source("bilibili-youxiputao"), NOW)
+        for code in (-352, -799):
+            with self.subTest(code=code):
+                with patch.object(cs, "_get", return_value=json.dumps({"code": code, "message": "access restricted"})) as get:
+                    items, status = cs._fetch_one(self.source("bilibili-youxiputao"), NOW)
+                self.assertEqual(get.call_count, 1)
+                self.assertEqual(items, [])
+                self.assertEqual(status["state"], "blocked")
+                self.assertEqual(status["count"], 0)
+
+    def test_tencent_official_news_uses_dated_same_host_cards(self):
+        def card(url, title, date):
+            return f'<a href="{url}"><h3 class="m-thumbnail2__title">{title}</h3><p class="m-thumbnail2__desc">官方列表摘要</p><span class="data__text">{date}</span></a>'
+        raw = ''.join((card('/news/detail/325', '新文章', '2026.10.17'),
+                       card('/news/detail/324', '旧文章', '2020.10.17'),
+                       card('/news/detail/323', '未来文章', '2027.10.17'),
+                       card('https://other.example/news/detail/325', '外站', '2026.10.17'),
+                       card('/news/detail/322', '缺日期文章', '未知')))
+        with patch.object(cs, "_get", return_value=raw):
+            items, status = cs._fetch_one(self.source("website-tencent-institute"), NOW)
+        self.assertEqual(status["state"], "ok")
+        self.assertEqual([item["title"] for item in items], ['新文章'])
+        self.assertEqual(items[0]["url"], 'https://gameinstitute.qq.com/news/detail/325')
+        self.assertEqual(items[0]["published"], '2026-10-16T16:00:00+00:00')
+        self.assertEqual(items[0]["published_precision"], 'day')
+        self.assertEqual(items[0]["summary_raw"], '官方列表摘要')
+        self.assertEqual(items[0]["source_id"], 'website-tencent-institute')
+        self.assertFalse(items[0]["has_body"])
+        self.assertTrue(items[0]["requires_review"])
+
+    def test_tencent_old_articles_show_empty_with_latest_real_date(self):
+        raw = '<a href="/news/detail/325"><h3 class="m-thumbnail2__title">开发访谈</h3><span class="data__text">2026.08.26</span></a>'
+        with patch.object(cs, "_get", return_value=raw):
+            items, status = cs._fetch_one(self.source("website-tencent-institute"), NOW)
         self.assertEqual(items, [])
-        self.assertEqual(status["state"], "blocked")
-        self.assertEqual(status["count"], 0)
+        self.assertEqual(status["state"], "empty")
+        self.assertIn('2026-08-26', status["detail"])
+
+    def test_tencent_missing_list_is_error_not_no_updates(self):
+        with patch.object(cs, "_get", return_value='<html><h1>Page changed</h1></html>'):
+            items, status = cs._fetch_one(self.source("website-tencent-institute"), NOW)
+        self.assertEqual(items, [])
+        self.assertEqual(status["state"], "error")
 
     def test_bilibili_filters_old_and_future_but_keeps_missing_date_explicit(self):
         vlist = [{"bvid": "BV123", "title": "Fresh", "created": NOW.timestamp() - 3600},

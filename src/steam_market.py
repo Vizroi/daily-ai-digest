@@ -17,6 +17,7 @@ from pathlib import Path
 import re
 
 import requests
+from source_http import failure_reason, get_response
 
 ROOT = Path(__file__).resolve().parents[1]
 TZ = timezone(timedelta(hours=8))
@@ -55,7 +56,7 @@ def write_json(path, value, compact=False):
 
 
 def request_json(url, params=None):
-    response = requests.get(url, params=params, headers=HEADERS, timeout=(5, 12))
+    response = get_response(url, params=params, headers=HEADERS, timeout=(5, 12))
     response.raise_for_status()
     result = response.json()
     if not isinstance(result, dict):
@@ -81,6 +82,11 @@ def safe_error(error):
     # Do not serialize request URLs/headers or unrelated environment details.
     if isinstance(error, requests.HTTPError):
         return f"HTTP {error.response.status_code}"
+    reason = failure_reason(error)
+    if reason == "tls_eof":
+        return "TLS 连接提前关闭（EOF）"
+    if reason == "tls_certificate":
+        return "TLS 证书验证失败（未关闭验证）"
     return type(error).__name__
 
 

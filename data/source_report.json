@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T06:04:22.740685+00:00",
+  "checked_at": "2026-10-18T15:12:23.065094+00:00",
   "sources": [
     {
       "id": "reddit_gamedesign",
@@ -8,7 +8,7 @@
       "url": "https://www.reddit.com/r/gamedesign/",
       "state": "needs_auth",
       "count": 0,
-      "detail": "缺少已获批准的REDDIT_ACCESS_TOKEN；未尝试匿名抓取。"
+      "detail": "尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。"
     },
     {
       "id": "reddit_gamedev",
@@ -17,7 +17,7 @@
       "url": "https://www.reddit.com/r/gamedev/",
       "state": "needs_auth",
       "count": 0,
-      "detail": "缺少已获批准的REDDIT_ACCESS_TOKEN；未尝试匿名抓取。"
+      "detail": "尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。"
     },
     {
       "id": "reddit_leveldesign",
@@ -26,7 +26,7 @@
       "url": "https://www.reddit.com/r/leveldesign/",
       "state": "needs_auth",
       "count": 0,
-      "detail": "缺少已获批准的REDDIT_ACCESS_TOKEN；未尝试匿名抓取。"
+      "detail": "尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。"
     },
     {
       "id": "discord_unity",
@@ -35,7 +35,7 @@
       "url": "https://discord.com/invite/unity",
       "state": "needs_auth",
       "count": 0,
-      "detail": "缺少DISCORD_BOT_TOKEN。公开邀请链接不提供历史读取权限；未加入服务器。"
+      "detail": "尚未配置获服务器授权的机器人。公开邀请链接只能作为社区入口，本轮未读取频道消息。"
     },
     {
       "id": "discord_godot",
@@ -44,7 +44,7 @@
       "url": "https://discord.com/invite/godotengine",
       "state": "needs_auth",
       "count": 0,
-      "detail": "缺少DISCORD_BOT_TOKEN。公开邀请链接不提供历史读取权限；未加入服务器。"
+      "detail": "尚未配置获服务器授权的机器人。公开邀请链接只能作为社区入口，本轮未读取频道消息。"
     },
     {
       "id": "discord_unrealsource",
@@ -53,7 +53,7 @@
       "url": "https://discord.unrealsource.com/",
       "state": "needs_auth",
       "count": 0,
-      "detail": "缺少DISCORD_BOT_TOKEN。公开邀请链接不提供历史读取权限；未加入服务器。"
+      "detail": "尚未配置获服务器授权的机器人。公开邀请链接只能作为社区入口，本轮未读取频道消息。"
     },
     {
       "id": "youtube-gmtk",
@@ -61,8 +61,8 @@
       "platform": "YouTube",
       "url": "https://www.youtube.com/@GMTK",
       "state": "ok",
-      "count": 4,
-      "detail": "公开入口返回 HTTP 404；使用公开频道页标题候选，精确发布日期未知，未获取字幕"
+      "count": 1,
+      "detail": "官方 Atom 元数据；未获取字幕，需观看后再编入精选"
     },
     {
       "id": "youtube-gdc",
@@ -71,7 +71,7 @@
       "url": "https://www.youtube.com/channel/UC0JB7TSe49lg56u6qH8y_MQ",
       "state": "ok",
       "count": 5,
-      "detail": "公开入口返回 HTTP 404；使用公开频道页标题候选，精确发布日期未知，未获取字幕"
+      "detail": "官方 Atom 元数据；未获取字幕，需观看后再编入精选"
     },
     {
       "id": "youtube-sakurai",
@@ -80,7 +80,7 @@
       "url": "https://www.youtube.com/@sora_sakurai_en",
       "state": "ok",
       "count": 4,
-      "detail": "公开入口返回 HTTP 404；使用公开频道页标题候选，精确发布日期未知，未获取字幕"
+      "detail": "官方 Atom 元数据；未获取字幕，需观看后再编入精选"
     },
     {
       "id": "bilibili-tencent-institute",
@@ -89,16 +89,25 @@
       "url": "https://space.bilibili.com/425475475",
       "state": "blocked",
       "count": 0,
-      "detail": "平台访问限制（HTTP 412）；未尝试绕过验证"
+      "detail": "平台访问限制（接口代码 -799）；未尝试绕过验证"
+    },
+    {
+      "id": "website-tencent-institute",
+      "name": "腾讯游戏学堂 · 官网资讯",
+      "platform": "作者网站",
+      "url": "https://gameinstitute.qq.com/news",
+      "state": "empty",
+      "count": 0,
+      "detail": "官网资讯列表的标题、发布日期与摘要；正文待后续读取，不代表 B 站视频已恢复；列表最新日期 2026-08-26"
     },
     {
       "id": "bilibili-youxiputao",
       "name": "游戏葡萄君",
       "platform": "Bilibili",
       "url": "https://space.bilibili.com/536066324",
-      "state": "error",
+      "state": "blocked",
       "count": 0,
-      "detail": "公开接口返回错误（代码 -799）"
+      "detail": "平台访问限制（HTTP 412）；未尝试绕过验证"
     },
     {
       "id": "wechat-yutang",
@@ -152,7 +161,7 @@
       "url": "https://store.steampowered.com/news/app/427520/",
       "state": "empty",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-09（北京时间）"
     },
     {
       "id": "steam-rimworld",
@@ -161,43 +170,43 @@
       "url": "https://store.steampowered.com/news/app/294100/",
       "state": "empty",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-13（北京时间）"
     },
     {
       "id": "steam-hades",
       "name": "Steam · Hades",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/1145360/",
-      "state": "empty",
+      "state": "error",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "网络请求超时；有限重试后仍失败"
     },
     {
       "id": "steam-slay-the-spire",
       "name": "Steam · Slay the Spire",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/646570/",
-      "state": "empty",
+      "state": "error",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "请求失败：ConnectionError"
     },
     {
       "id": "steam-dead-cells",
       "name": "Steam · Dead Cells",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/588650/",
-      "state": "empty",
+      "state": "error",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "请求失败：ConnectionError"
     },
     {
       "id": "steam-balatro",
       "name": "Steam · Balatro",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/2379780/",
-      "state": "empty",
+      "state": "error",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "网络请求超时；有限重试后仍失败"
     },
     {
       "id": "steam-stardew-valley",
@@ -206,7 +215,7 @@
       "url": "https://store.steampowered.com/news/app/413150/",
       "state": "empty",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-02-27（北京时间）"
     },
     {
       "id": "steam-civilization-vi",
@@ -215,7 +224,7 @@
       "url": "https://store.steampowered.com/news/app/289070/",
       "state": "empty",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-02（北京时间）"
     },
     {
       "id": "steam-dwarf-fortress",
@@ -224,7 +233,7 @@
       "url": "https://store.steampowered.com/news/app/975370/",
       "state": "empty",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-08-05（北京时间）"
     },
     {
       "id": "steam-no-mans-sky",
@@ -233,7 +242,7 @@
       "url": "https://store.steampowered.com/news/app/275850/",
       "state": "empty",
       "count": 0,
-      "detail": "读取 20 条官方公告候选，窗口/来源/格式排除 20 条"
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-12（北京时间）"
     },
     {
       "id": "factorio-friday-facts",
@@ -242,7 +251,7 @@
       "url": "https://factorio.com/blog/rss",
       "state": "ok",
       "count": 2,
-      "detail": "读取 10 条，窗口/格式排除 8 条"
+      "detail": "读取正常，共检查 10 条，收录 2 条；早于最近 720 小时 7 条；不符合来源规则 1 条；本轮最新原文日期 2026-10-09（北京时间）"
     },
     {
       "id": "riot-tech-blog",
@@ -251,7 +260,7 @@
       "url": "https://www.riotgames.com/en/news?q=tech%20blog",
       "state": "empty",
       "count": 0,
-      "detail": "读取 8 篇公开文章，收录 0 篇（未知日期 0 篇）"
+      "detail": "读取正常，共检查 8 条，收录 0 条；早于最近 720 小时 8 条；本轮最新原文日期 2025-10-16（北京时间）"
     },
     {
       "id": "riot-league-design",
@@ -260,16 +269,16 @@
       "url": "https://www.leagueoflegends.com/en-us/news/dev/",
       "state": "ok",
       "count": 1,
-      "detail": "读取 7 篇公开文章，收录 1 篇（未知日期 0 篇）"
+      "detail": "读取正常，共检查 7 条，收录 1 条；早于最近 720 小时 6 条；本轮最新原文日期 2026-10-15（北京时间）"
     },
     {
       "id": "itch-kenney-shape",
       "name": "itch.io · Kenney Shape",
       "platform": "itch",
       "url": "https://kenney.itch.io/kenney-shape/devlog.rss",
-      "state": "ok",
-      "count": 1,
-      "detail": "读取 10 条，窗口/格式排除 9 条"
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 10 条，收录 0 条；早于最近 72 小时 10 条；本轮最新原文日期 2026-10-15（北京时间）"
     },
     {
       "id": "itch-gmtk-platformer-toolkit",
@@ -278,16 +287,16 @@
       "url": "https://gmtk.itch.io/platformer-toolkit/devlog.rss",
       "state": "empty",
       "count": 0,
-      "detail": "读取 3 条，窗口/格式排除 3 条"
+      "detail": "读取正常，共检查 3 条，收录 0 条；早于最近 720 小时 3 条；本轮最新原文日期 2022-11-25（北京时间）"
     },
     {
       "id": "web-b8285cb6e3",
       "name": "Game Developer",
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
-      "state": "ok",
-      "count": 1,
-      "detail": "已取得候选"
+      "state": "empty",
+      "count": 0,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 0 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -295,8 +304,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 13,
-      "detail": "已取得候选"
+      "count": 7,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 7 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -305,7 +314,7 @@
       "url": "https://80.lv/feed",
       "state": "ok",
       "count": 10,
-      "detail": "已取得候选"
+      "detail": "读取 10 条订阅记录；72 小时时间窗内取得 10 条候选"
     },
     {
       "id": "web-bddf7f0158",
@@ -314,7 +323,7 @@
       "url": "https://www.unrealengine.com/rss/news?lang=en-US",
       "state": "ok",
       "count": 1,
-      "detail": "已取得候选"
+      "detail": "读取 10 条订阅记录；72 小时时间窗内取得 1 条候选"
     },
     {
       "id": "web-531f01f744",
@@ -323,7 +332,7 @@
       "url": "https://unity.com/blog/rss",
       "state": "ok",
       "count": 1,
-      "detail": "已取得候选"
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 1 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -331,8 +340,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/rss.xml",
       "state": "ok",
-      "count": 14,
-      "detail": "已取得候选"
+      "count": 13,
+      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 13 条候选"
     },
     {
       "id": "web-be9919cef9",
@@ -341,7 +350,7 @@
       "url": "https://www.gcores.com/rss",
       "state": "ok",
       "count": 16,
-      "detail": "已取得候选"
+      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 16 条候选"
     },
     {
       "id": "web-68554a31d0",
@@ -349,8 +358,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 6,
-      "detail": "已取得候选"
+      "count": 4,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 4 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -359,7 +368,7 @@
       "url": "https://danfelder.net/feed/",
       "state": "ok",
       "count": 6,
-      "detail": "已取得候选"
+      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 6 条候选"
     },
     {
       "id": "web-e9d4bd9534",
@@ -368,7 +377,7 @@
       "url": "https://gdkeys.com/feed/",
       "state": "ok",
       "count": 1,
-      "detail": "已取得候选"
+      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 1 条候选"
     },
     {
       "id": "web-3ae57466b5",
@@ -376,8 +385,8 @@
       "platform": "网站 / RSS",
       "url": "https://openai.com/news/rss.xml",
       "state": "ok",
-      "count": 5,
-      "detail": "已取得候选"
+      "count": 20,
+      "detail": "读取 1299 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-0ea3c11e0b",
@@ -385,8 +394,8 @@
       "platform": "网站 / RSS",
       "url": "https://deepmind.google/blog/rss.xml",
       "state": "ok",
-      "count": 1,
-      "detail": "已取得候选"
+      "count": 11,
+      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 11 条候选"
     },
     {
       "id": "web-33e649875b",
@@ -394,8 +403,8 @@
       "platform": "网站 / RSS",
       "url": "https://huggingface.co/blog/feed.xml",
       "state": "ok",
-      "count": 3,
-      "detail": "已取得候选"
+      "count": 19,
+      "detail": "读取 880 条订阅记录；720 小时时间窗内取得 19 条候选"
     },
     {
       "id": "web-d1c587ecba",
@@ -403,8 +412,8 @@
       "platform": "网站 / RSS",
       "url": "https://simonwillison.net/atom/everything/",
       "state": "ok",
-      "count": 5,
-      "detail": "已取得候选"
+      "count": 20,
+      "detail": "读取 30 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-5590904e33",
@@ -413,7 +422,7 @@
       "url": "https://www.qbitai.com/feed",
       "state": "ok",
       "count": 10,
-      "detail": "已取得候选"
+      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 10 条候选"
     },
     {
       "id": "web-a8c0ed683c",
@@ -421,8 +430,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/list/25",
       "state": "ok",
-      "count": 6,
-      "detail": "已取得候选"
+      "count": 5,
+      "detail": "读取 10 篇文章页面；720 小时时间窗内取得 5 条候选"
     },
     {
       "id": "web-2c4b61fbd7",
@@ -431,7 +440,7 @@
       "url": "https://indienova.com/indie-game-development/",
       "state": "ok",
       "count": 5,
-      "detail": "已取得候选"
+      "detail": "读取 16 篇文章页面；720 小时时间窗内取得 5 条候选"
     },
     {
       "id": "web-5be5c101f0",
@@ -440,7 +449,7 @@
       "url": "https://indienova.com/indie-game-news/",
       "state": "ok",
       "count": 5,
-      "detail": "已取得候选"
+      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 5 条候选"
     },
     {
       "id": "manual-inbox",
@@ -453,9 +462,9 @@
     }
   ],
   "counts": {
-    "raw": 137,
-    "deduplicated": 137,
-    "retained": 137,
+    "raw": 178,
+    "deduplicated": 178,
+    "retained": 178,
     "restricted_withheld": 0
   }
 }

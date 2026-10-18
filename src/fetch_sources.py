@@ -6,6 +6,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
@@ -33,6 +34,9 @@ _session.headers.update({
 HEALTH: dict[str, int] = {}
 SOURCE_REPORT = {}
 FETCH_ERRORS = {}
+SOURCE_DETAILS = {}
+_ACCESS_HTTP_CODES = {401, 403, 412, 429}
+_TRANSIENT_HTTP_CODES = {500, 502, 503, 504}
 
 
 def _empty_signals() -> dict:
@@ -43,17 +47,56 @@ def _fetch(url: str, timeout: int = 25) -> str | None:
     headers = {}
     if any(d in urlparse(url).netloc for d in POLITE_UA_DOMAINS):
         headers["User-Agent"] = POLITE_UA
-    try:
-        resp = _session.get(url, timeout=timeout, allow_redirects=True, headers=headers or None)
-        resp.raise_for_status()
-        # requests 对不含 charset 的 text/html 默认猜 ISO-8859-1，不能据此解中文页面。
-        if not resp.encoding or resp.encoding.lower() == "iso-8859-1":
-            resp.encoding = resp.apparent_encoding or "utf-8"
-        return resp.text
-    except requests.RequestException as exc:
-        FETCH_ERRORS[url] = type(exc).__name__
-        print(f"[WARN] 抓取失败 {url} — {type(exc).__name__}")
-        return None
+    for attempt in range(2):
+        try:
+            resp = _session.get(url, timeout=timeout, allow_redirects=True, headers=headers or None)
+            resp.raise_for_status()
+            # requests 对不含 charset 的 text/html 默认猜 ISO-8859-1，不能据此解中文页面。
+            if not resp.encoding or resp.encoding.lower() == "iso-8859-1":
+                resp.encoding = resp.apparent_encoding or "utf-8"
+            FETCH_ERRORS.pop(url, None)
+            return resp.text
+        except requests.RequestException as exc:
+            response = getattr(exc, "response", None)
+            status = response.status_code if response is not None else None
+            error = f"HTTP {status}" if status is not None else type(exc).__name__
+            transient = isinstance(exc, requests.Timeout) or status in _TRANSIENT_HTTP_CODES
+            if attempt == 0 and transient:
+                if response is not None:
+                    response.close()
+                time.sleep(0.5)
+                continue
+            FETCH_ERRORS[url] = error
+            print(f"[WARN] 抓取失败 {url} — {error}")
+            return None
+
+
+def _failure_status(error: str) -> tuple[str, str]:
+    if error.startswith("HTTP "):
+        code = error.removeprefix("HTTP ")
+        if code.isdigit() and int(code) in _ACCESS_HTTP_CODES:
+            return "blocked", f"平台访问限制（HTTP {code}）；未重试或绕过验证"
+        suffix = "；重试后仍失败" if code.isdigit() and int(code) in _TRANSIENT_HTTP_CODES else ""
+        return "error", f"来源返回 HTTP {code}{suffix}"
+    if error in {"Timeout", "ConnectTimeout", "ReadTimeout"}:
+        return "error", "网络请求超时；重试后仍失败"
+    details = {"InvalidFeed": "响应不是可识别的 RSS / Atom 订阅",
+               "NoArticleLinks": "已读取列表，但未识别出文章链接；需要检查页面结构"}
+    return "error", details.get(error, f"读取异常（{error}）")
+
+
+def _source_status(src: dict) -> dict:
+    count = HEALTH.get(src["name"], 0)
+    detail = SOURCE_DETAILS.get(src["url"], {})
+    state = "ok" if count else "empty"
+    message = detail.get("detail", "已取得候选" if count else "时间窗内未取得可用候选")
+    if src["url"] in FETCH_ERRORS:
+        state, message = _failure_status(FETCH_ERRORS[src["url"]])
+    elif detail.get("state"):
+        state = detail["state"]
+    return {"id": "web-" + hashlib.sha1(src["url"].encode()).hexdigest()[:10],
+            "name": src["name"], "url": src["url"], "platform": "网站 / RSS",
+            "state": state, "count": count, "detail": message}
 
 
 def _url_key(url: str) -> str:
@@ -166,7 +209,7 @@ def _parse_entry(entry, src: dict) -> dict | None:
 
 def _fetch_rss(src: dict) -> list[dict]:
     raw = _fetch(src["url"])
-    if not raw:
+    if raw is None:
         HEALTH[src["name"]] = 0
         return []
     feed = feedparser.parse(raw)
@@ -180,8 +223,11 @@ def _fetch_rss(src: dict) -> list[dict]:
         if len(out) >= src.get("max_per_source", MAX_PER_SOURCE):
             break
     HEALTH[src["name"]] = len(out)
+    SOURCE_DETAILS[src["url"]] = {"detail":
+        f"读取 {len(feed.entries)} 条订阅记录；{src.get('window_hours', FRESH_WINDOW_HOURS)} 小时时间窗内取得 {len(out)} 条候选"}
     if not out:
-        print(f"[WARN] 零产出: {src['name']}（请求/解析失败或时间窗内无新稿）")
+        status = _source_status(src)
+        print(f"[{'INFO' if status['state'] == 'empty' else 'WARN'}] 零产出: {src['name']}（{status['detail']}）")
     return out
 
 
@@ -287,7 +333,7 @@ def _parse_page_article(raw: str, link: str, src: dict) -> dict | None:
 
 def _fetch_page_source(src: dict) -> list[dict]:
     raw = _fetch(src["url"])
-    if not raw:
+    if raw is None:
         HEALTH[src["name"]] = 0
         return []
     listing = _ListingParser(src)
@@ -302,11 +348,25 @@ def _fetch_page_source(src: dict) -> list[dict]:
 
     # 热门推荐可能在新稿前面，适度多看一些候选，但不扫描整个网站。
     with futures.ThreadPoolExecutor(4) as executor:
-        out = [item for item in executor.map(one, listing.urls[:limit * 2]) if item]
+        attempted = listing.urls[:limit * 2]
+        out = [item for item in executor.map(one, attempted) if item]
     out = out[:limit]
     HEALTH[src["name"]] = len(out)
+    errors = [FETCH_ERRORS[url] for url in attempted if url in FETCH_ERRORS]
+    detail = f"读取 {len(attempted)} 篇文章页面；{src.get('window_hours', FRESH_WINDOW_HOURS)} 小时时间窗内取得 {len(out)} 条候选"
+    if errors:
+        reasons = "、".join(sorted(set(errors)))
+        detail += f"；其中 {len(errors)} 篇未能读取（{reasons}）"
+    SOURCE_DETAILS[src["url"]] = {"detail": detail}
+    if errors:
+        if len(errors) < len(attempted):
+            SOURCE_DETAILS[src["url"]]["state"] = "degraded"
+        else:
+            SOURCE_DETAILS[src["url"]]["state"] = (
+                "blocked" if all(_failure_status(error)[0] == "blocked" for error in errors) else "error")
     if not out:
-        print(f"[WARN] 零产出: {src['name']}（公开列表无可用文章或时间窗内无新稿）")
+        status = _source_status(src)
+        print(f"[{'INFO' if status['state'] == 'empty' else 'WARN'}] 零产出: {src['name']}（{status['detail']}）")
     return out
 
 
@@ -338,6 +398,7 @@ def _deduplicate(articles: list[dict]) -> list[dict]:
 def fetch_all() -> tuple[list[dict], dict]:
     HEALTH.clear()
     FETCH_ERRORS.clear()
+    SOURCE_DETAILS.clear()
     SOURCE_REPORT.clear()
     tasks = [(src, _fetch_rss) for src in RSS_SOURCES]
     tasks += [(src, _fetch_page_source) for src in PAGE_SOURCES]
@@ -371,12 +432,7 @@ def fetch_all() -> tuple[list[dict], dict]:
                         statuses.append({**src, "state": "error", "count": 0,
                                          "detail": "本轮适配器异常，未取得候选"})
     for src, _ in tasks:
-        count = HEALTH.get(src["name"], 0)
-        failed = src["url"] in FETCH_ERRORS
-        statuses.append({"id": "web-" + hashlib.sha1(src["url"].encode()).hexdigest()[:10],
-                         "name": src["name"], "url": src["url"], "platform": "网站 / RSS",
-                         "state": "error" if failed else "ok" if count else "empty", "count": count,
-                         "detail": "本轮请求失败" if failed else "已取得候选" if count else "时间窗内未取得可用候选"})
+        statuses.append(_source_status(src))
     from source_registry import inbox_articles
     manual, inbox_status = inbox_articles(NOW)
     articles.extend(manual)

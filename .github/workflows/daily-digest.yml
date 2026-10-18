@@ -15,7 +15,7 @@ on:
         description: 更新内容
         type: choice
         default: daily
-        options: [daily, market, publish]
+        options: [daily, market, sources, publish]
 
 permissions: {}
 
@@ -195,12 +195,62 @@ jobs:
         with:
           path: docs
 
+  source_check:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      github.event_name == 'workflow_dispatch' && inputs.mode == 'sources'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 检查来源与内容规则
+        run: python -m unittest discover -s tests -v
+
+      - name: 检查信息来源
+        env:
+          REDDIT_ACCESS_TOKEN: ${{ secrets.REDDIT_ACCESS_TOKEN }}
+          REDDIT_USER_AGENT: ${{ vars.REDDIT_USER_AGENT }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNELS_JSON: ${{ secrets.DISCORD_CHANNELS_JSON }}
+        run: python src/fetch_sources.py
+
+      - name: 更新来源目录
+        run: python src/source_directory.py data/source_report.json docs/sources.html
+
+      - name: 提交来源状态
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/health.json data/source_report.json docs/sources.html
+          if ! git diff --staged --quiet; then
+            git commit -m "sources: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: 上传站点
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
   deploy:
-    needs: [publish_existing, build, market_sample]
-    # 三条准备路径互斥；只部署成功上传的产物。
+    needs: [publish_existing, build, market_sample, source_check]
+    # 四条准备路径互斥；只部署成功上传的产物。
     if: >-
       ${{ always() && !cancelled() && github.ref == 'refs/heads/main' &&
-          (needs.publish_existing.result == 'success' || needs.build.result == 'success' || needs.market_sample.result == 'success') }}
+          (needs.publish_existing.result == 'success' || needs.build.result == 'success' || needs.market_sample.result == 'success' || needs.source_check.result == 'success') }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:

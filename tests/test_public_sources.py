@@ -1,5 +1,6 @@
 """Public-source boundaries: official provenance, publication dates and failures."""
 import json
+import ssl
 import sys
 import unittest
 from datetime import datetime, timedelta, timezone
@@ -83,6 +84,31 @@ class PublicSourceTests(unittest.TestCase):
         self.assertFalse(rows)
         self.assertEqual(status["state"], "empty")
         self.assertEqual(status["count"], 0)
+        self.assertIn("读取正常", status["detail"])
+        self.assertIn("早于最近 72 小时 1 条", status["detail"])
+        self.assertIn("2026-09-28", status["detail"])
+
+    def test_steam_exclusions_explain_freshness_separately_from_source_and_format(self):
+        entries = [self.announcement(feedname="PCGamer"), self.announcement(title=""),
+                   self.announcement(date=int((self.now - timedelta(days=20)).timestamp())),
+                   self.announcement(date=int((self.now + timedelta(days=1)).timestamp()))]
+        payload = {"appnews": {"appid": 427520, "newsitems": entries}}
+        with patch.object(public, "_get", return_value=Response(payload=payload)):
+            rows, status = public._run(self.steam, self.now)
+        self.assertFalse(rows)
+        self.assertEqual(status["state"], "degraded")
+        for reason in ("不符合来源规则 1 条", "标题或链接无效 1 条", "早于最近 72 小时 1 条", "发布时间在未来 1 条"):
+            self.assertIn(reason, status["detail"])
+        self.assertNotIn("2026-10-19", status["detail"])
+
+    def test_all_malformed_candidates_are_error_not_no_new_content(self):
+        steam_payload = {"appnews": {"appid": 427520, "newsitems": [None, self.announcement(title="")]}}
+        rss = '<rss version="2.0"><channel><title>Devlog</title><item><title>Missing link</title></item></channel></rss>'
+        for source, response in [(self.steam, Response(payload=steam_payload)), (self.source, Response(rss))]:
+            with self.subTest(adapter=source["adapter"]), patch.object(public, "_get", return_value=response):
+                rows, status = public._run(source, self.now)
+            self.assertFalse(rows)
+            self.assertEqual(status["state"], "error")
 
     def test_valid_empty_feed_is_different_from_html_or_invalid_json(self):
         empty = '<rss version="2.0"><channel><title>Devlog</title></channel></rss>'
@@ -107,6 +133,9 @@ class PublicSourceTests(unittest.TestCase):
             rows, status = public._run(source, self.now)
         self.assertEqual(rows, [])
         self.assertEqual(status["state"], "empty")
+        self.assertIn("早于最近 720 小时 1 条", status["detail"])
+        self.assertIn("2013-01-01", status["detail"])
+        self.assertNotIn("2026-10-17", status["detail"])
 
     def test_page_metadata_reads_article_date_not_related_content_or_modification(self):
         data = {"@graph": [{"@type": "Organization", "datePublished": "2026-10-18"},
@@ -118,15 +147,42 @@ class PublicSourceTests(unittest.TestCase):
         info, _ = public._page_info(raw)
         self.assertEqual(info["published"], datetime(2026, 10, 1, 12, tzinfo=timezone.utc))
 
+    def test_rss_date_fallback_failure_keeps_candidate_but_reports_degraded(self):
+        atom = ('<feed xmlns="http://www.w3.org/2005/Atom"><title>Factorio</title>'
+                '<entry><title>Friday Facts</title><id>https://factorio.com/blog/post/fff-1</id>'
+                '<link href="https://factorio.com/blog/post/fff-1"/>'
+                '<updated>2026-10-17T00:00:00Z</updated></entry></feed>')
+        source = dict(self.source, article_date_fallback="factorio_posted")
+        for result in (public.SourceFailure("error", "timeout"), Response("<h1>No publication date</h1>")):
+            with self.subTest(result=type(result).__name__), patch.object(public, "_get", side_effect=[Response(atom), result]):
+                rows, status = public._run(source, self.now)
+            self.assertEqual(len(rows), 1)
+            self.assertIsNone(rows[0]["published"])
+            self.assertEqual(status["state"], "degraded")
+            self.assertIn("日期读取失败", status["detail"])
+            self.assertNotIn("读取正常", status["detail"])
+
     def test_source_http_and_timeout_failures_are_explicit(self):
-        for code, expected in [(401, "needs_auth"), (403, "error"), (429, "error"), (500, "error")]:
-            with self.subTest(code=code), patch.object(public.requests, "get", return_value=Response(status=code)):
+        for code, expected in [(401, "needs_auth"), (403, "blocked"), (412, "blocked"), (429, "blocked"), (500, "error")]:
+            with self.subTest(code=code), patch.object(public, "get_response", return_value=Response(status=code)):
                 _, status = public._run(self.source, self.now)
                 self.assertEqual(status["state"], expected)
-        with patch.object(public.requests, "get", side_effect=requests.Timeout("test")) as get:
+        with patch.object(public, "get_response", side_effect=requests.Timeout("test")) as get:
             _, status = public._run(self.source, self.now)
         self.assertEqual(status["state"], "error")
         self.assertEqual(get.call_args.kwargs["timeout"], (5, 20))
+        self.assertIn("重试后仍失败", status["detail"])
+
+    def test_tls_transport_and_certificate_failures_have_safe_distinct_diagnostics(self):
+        errors = [(ssl.SSLEOFError(8, "unexpected EOF"), "TLS 连接被中途断开"),
+                  (ssl.SSLCertVerificationError(1, "certificate verify failed"), "TLS 证书校验失败")]
+        for nested, expected in errors:
+            error = requests.exceptions.SSLError(nested)
+            with self.subTest(error=type(nested).__name__), patch.object(public, "get_response", side_effect=error):
+                rows, status = public._run(self.steam, self.now)
+            self.assertFalse(rows)
+            self.assertEqual(status["state"], "error")
+            self.assertIn(expected, status["detail"])
 
     def test_riot_legacy_header_date_is_not_replaced_by_related_card_date(self):
         raw = ('<h1>Swarm technology</h1><ul class="article-header__detail-list list--inline">'
@@ -167,6 +223,42 @@ class PublicSourceTests(unittest.TestCase):
         with patch.object(public, "_get", return_value=Response('<a href="https://other.com/news/a">Other site</a>')):
             _, status = public._run(source, self.now)
         self.assertEqual(status["state"], "error")
+
+    def test_listing_empty_reports_latest_verified_original_date(self):
+        source = dict(self.source, adapter="official_listing", link_pattern=r"^/news/[^/]+/?$")
+        listing = '<a href="/news/old">Old article</a>'
+        article = '<h1>Old article</h1><meta property="article:published_time" content="2026-01-01T10:00:00Z">'
+        with patch.object(public, "_get", side_effect=[Response(listing), Response(article)]):
+            rows, status = public._run(source, self.now)
+        self.assertFalse(rows)
+        self.assertEqual(status["state"], "empty")
+        self.assertIn("早于最近 720 小时 1 条", status["detail"])
+        self.assertIn("2026-01-01", status["detail"])
+
+    def test_listing_all_unreadable_articles_are_error_not_empty(self):
+        source = dict(self.source, adapter="official_listing", link_pattern=r"^/news/[^/]+/?$")
+        listing = '<a href="/news/missing">Article</a>'
+        with patch.object(public, "_get", side_effect=[Response(listing), Response("<html>Not an article</html>")]):
+            rows, status = public._run(source, self.now)
+        self.assertFalse(rows)
+        self.assertEqual(status["state"], "error")
+
+    def test_listing_partial_detail_failure_retains_good_article_but_reports_degraded(self):
+        source = dict(self.source, adapter="official_listing", link_pattern=r"^/news/[^/]+/?$")
+        listing = '<a href="/news/good">Good</a><a href="/news/bad">Bad</a>'
+        article = '<h1>Good article</h1><meta property="article:published_time" content="2026-10-17T10:00:00Z">'
+        def request(url):
+            if url == source["url"]:
+                return Response(listing)
+            if url.endswith("/good"):
+                return Response(article)
+            raise public.SourceFailure("error", "timeout")
+        with patch.object(public, "_get", side_effect=request):
+            rows, status = public._run(source, self.now)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(status["state"], "degraded")
+        self.assertIn("1 篇详情读取失败", status["detail"])
+        self.assertNotIn("读取正常", status["detail"])
 
 
 if __name__ == "__main__":

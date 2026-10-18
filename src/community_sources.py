@@ -367,7 +367,7 @@ def fetch_sources(now: datetime | None = None) -> tuple[list[dict], list[dict]]:
         try:
             if platform == "reddit" and source.get("adapter") == "reddit_oauth":
                 if not reddit_token:
-                    statuses.append(_status(source, "needs_auth", 0, "缺少已获批准的REDDIT_ACCESS_TOKEN；未尝试匿名抓取。"))
+                    statuses.append(_status(source, "needs_auth", 0, "尚未配置经 Reddit 批准的 API 访问授权；本轮未发起采集请求。"))
                     continue
                 items = _reddit(source, now, reddit_token)
                 articles.extend(items)
@@ -377,8 +377,8 @@ def fetch_sources(now: datetime | None = None) -> tuple[list[dict], list[dict]]:
                     raise allow_error
                 channels = _channels(source, allowed)
                 if not discord_token or not channels:
-                    detail = "缺少DISCORD_BOT_TOKEN。" if not discord_token else "未明确配置获准频道ID。"
-                    statuses.append(_status(source, "needs_auth", 0, detail + "公开邀请链接不提供历史读取权限；未加入服务器。"))
+                    detail = "尚未配置获服务器授权的机器人。" if not discord_token else "尚未指定机器人获准读取的频道。"
+                    statuses.append(_status(source, "needs_auth", 0, detail + "公开邀请链接只能作为社区入口，本轮未读取频道消息。"))
                     continue
                 items, channel_statuses, code = _discord(source, now, discord_token, channels)
                 articles.extend(items)

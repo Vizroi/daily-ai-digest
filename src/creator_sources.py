@@ -77,7 +77,7 @@ def _record(src, title, url, published, now, *, summary="", body="", evidence="d
         "body": body, "has_body": bool(body), "body_truncated": False,
         "content_kind": "article_body" if body else "source_excerpt",
         "evidence_kind": evidence, "requires_transcript": video, "publication_scope": "public",
-        "discovery_only": video, "requires_review": community,
+        "discovery_only": video, "requires_review": community or bool(src.get("requires_review")),
         "classic_discovery": bool(src.get("classic_discovery")),
         "signals": {"hn_points": 0, "hn_comments": 0, "hf_upvotes": 0, "stars_today": 0, "rank_bonus": 0.0},
     }
@@ -132,6 +132,7 @@ def _youtube_html(raw, src, now):
         seen.add(video_id)
         item = _record(src, title, f"https://www.youtube.com/watch?v={video_id}", None, now, evidence="video_metadata")
         item["published_text"] = relative  # Rounded relative dates are not exact publication dates.
+        item["collection_method"] = "channel_page"
         out.append(item)
         if len(out) >= src["max_per_source"]:
             break
@@ -142,9 +143,32 @@ def _youtube(src, now):
     try:
         raw = _get(src["feed_url"])
         root = ET.fromstring(raw)
+        if root.tag != "{" + NS["a"] + "}feed":
+            raise SourceError("error", "官方 Atom 未返回有效订阅内容")
+    except SourceError as exc:
+        if exc.state in ("blocked", "needs_auth"):
+            raise
+        reason = exc.detail
+    except ET.ParseError:
+        reason = "官方 Atom 未返回有效 XML"
+    else:
+        # YouTube's official Atom channelId can omit the UC prefix even though
+        # the author/alternate channel URL uses the canonical prefixed ID.
+        # Check identity outside the fallback handler: a different channel is
+        # not a temporary feed outage and must never be silently accepted.
         declared = root.findtext("yt:channelId", namespaces=NS)
-        if declared and declared != src["channel_id"]:
+        expected = src["channel_id"]
+        allowed_ids = {expected, expected[2:]} if expected.startswith("UC") else {expected}
+        if declared and declared not in allowed_ids:
             raise SourceError("error", "频道标识与已核验的官方频道不符")
+        identity_urls = [root.findtext("a:author/a:uri", default="", namespaces=NS)]
+        identity_urls.extend(link.get("href", "") for link in root.findall("a:link", NS)
+                             if link.get("rel") == "alternate")
+        for url in identity_urls:
+            parsed = urlparse(url)
+            if parsed.hostname in ("youtube.com", "www.youtube.com") and parsed.path.startswith("/channel/"):
+                if parsed.path.rstrip("/").split("/")[-1] != expected:
+                    raise SourceError("error", "频道链接与已核验的官方频道不符")
         out = []
         for entry in root.findall("a:entry", NS):
             video_id = entry.findtext("yt:videoId", namespaces=NS)
@@ -155,19 +179,16 @@ def _youtube(src, now):
                 continue
             summary = entry.findtext("m:group/m:description", default="", namespaces=NS)
             item = _record(src, title, f"https://www.youtube.com/watch?v={video_id}", published, now, summary=summary, evidence="video_metadata")
+            item["collection_method"] = "official_atom"
             if published and re.fullmatch(r"\d{4}-\d{2}-\d{2}", published_raw or ""):
                 item["published_precision"] = "day"
             out.append(item)
         return out[:src["max_per_source"]], "官方 Atom 元数据；未获取字幕，需观看后再编入精选"
-    except SourceError as exc:
-        if exc.state in ("blocked", "needs_auth"):
-            raise
-        reason = exc.detail
-    except ET.ParseError:
-        reason = "官方 Atom 未返回有效 XML"
     # Read the ordinary public channel page when its declared feed is unavailable.
     # This is never attempted after an authentication/challenge response.
     out = _youtube_html(_get(src["videos_url"]), src, now)
+    if not out:
+        raise SourceError("degraded", f"{reason}；公开频道页也未取得可识别的视频候选")
     return out, f"{reason}；使用公开频道页标题候选，精确发布日期未知，未获取字幕"
 
 
@@ -178,7 +199,7 @@ def _bilibili(src, now):
     except ValueError as exc:
         raise SourceError("error", "公开接口未返回 JSON") from exc
     code = payload.get("code")
-    if code in (-352, -412, -509, -403):
+    if code in (-352, -412, -509, -403, -799):
         raise SourceError("blocked", f"平台访问限制（接口代码 {code}）；未尝试绕过验证")
     if code in (-101, -111):
         raise SourceError("needs_auth", f"接口要求登录（代码 {code}）")
@@ -198,6 +219,44 @@ def _bilibili(src, now):
         out.append(_record(src, title, f"https://www.bilibili.com/video/{bvid}", published, now,
                            summary=video.get("description", ""), evidence="video_metadata"))
     return out[:src["max_per_source"]], "公开接口的视频元数据；未获取字幕，需观看后再编入精选"
+
+
+def _tencent_news(src, now):
+    """Read the publisher's public, dated news cards, not its video platform."""
+    raw = _get(src["url"])
+    out, seen, recognized, latest = [], set(), 0, None
+    for match in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', raw, re.S | re.I):
+        url = urljoin(src["url"], unescape(match.group(1)))
+        parsed = urlparse(url)
+        if parsed.hostname != "gameinstitute.qq.com" or not re.fullmatch(r"/news/detail/\d+", parsed.path):
+            continue
+        card = match.group(2)
+        title = re.search(r'<h3\b[^>]*class=["\'][^"\']*\bm-thumbnail2__title\b[^"\']*["\'][^>]*>(.*?)</h3>', card, re.S | re.I)
+        date = re.search(r'<span\b[^>]*class=["\'][^"\']*\bdata__text\b[^"\']*["\'][^>]*>\s*(\d{4}\.\d{2}\.\d{2})\s*</span>', card, re.S | re.I)
+        if not title or not date:
+            continue
+        published = _date(date.group(1).replace(".", "-") + "T00:00:00+08:00")
+        if published is None:
+            continue
+        recognized += 1
+        if published <= now:
+            latest = max(latest, published) if latest else published
+        if url in seen or not _in_window(published, src, now):
+            continue
+        seen.add(url)
+        summary = re.search(r'<p\b[^>]*class=["\'][^"\']*\bm-thumbnail2__desc\b[^"\']*["\'][^>]*>(.*?)</p>', card, re.S | re.I)
+        item = _record(src, title.group(1), url, published, now, summary=summary.group(1) if summary else "")
+        item["published_precision"] = "day"
+        item["published_text"] = date.group(1)
+        item["collection_method"] = "official_news_listing"
+        out.append(item)
+    if not recognized:
+        raise SourceError("error", "官网资讯列表未找到可核验的标题与发布日期，需检查页面结构")
+    out.sort(key=lambda item: item["published"], reverse=True)
+    detail = "官网资讯列表的标题、发布日期与摘要；正文待后续读取，不代表 B 站视频已恢复"
+    if latest:
+        detail += f"；列表最新日期 {latest.astimezone(timezone(timedelta(hours=8))).date()}"
+    return out[:src["max_per_source"]], detail
 
 
 def _markdown_body(raw):
@@ -318,9 +377,13 @@ def _fetch_one(src, now):
     if src.get("adapter") == "manual":
         return [], dict(status, state="manual", count=0, detail=src.get("manual_reason", "接受人工单篇链接投递"))
     try:
-        adapter = {"youtube": _youtube, "bilibili": _bilibili, "xpaidia": _author, "indienova_members": _community}[src["adapter"]]
+        adapter = {"youtube": _youtube, "bilibili": _bilibili, "tencent_news": _tencent_news,
+                   "xpaidia": _author, "indienova_members": _community}[src["adapter"]]
         articles, detail = adapter(src, now)
-        return articles, dict(status, state="ok" if articles else "empty", count=len(articles), detail=detail)
+        state = "ok" if articles else "empty"
+        if any(item.get("collection_method") == "channel_page" for item in articles):
+            state = "degraded"
+        return articles, dict(status, state=state, count=len(articles), detail=detail)
     except SourceError as exc:
         return [], dict(status, state=exc.state, count=0, detail=exc.detail)
     except Exception as exc:
