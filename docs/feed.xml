@@ -4,97 +4,105 @@
 <title>每日内参 · AI 与游戏开发</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 205 个事件，只有 11 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>每天一期。召回 177 个事件，只有 12 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 17 Oct 2026 12:48:41 +0800</lastBuildDate>
+<lastBuildDate>Sun, 18 Oct 2026 12:54:23 +0800</lastBuildDate>
 <generator>daily-ai-digest v2</generator>
 <item>
-  <title>Code, Test, and Deploy on One Machine with NVIDIA RTX Spark</title>
-  <link>https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-059d26b633ae</guid>
-  <pubDate>Thu, 15 Oct 2026 14:30:00 +0000</pubDate>
+  <title>突发！DeepSeek新模型发布，超级性价比斩杀一切</title>
+  <link>https://www.qbitai.com/2026/10/504067.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-4826fd3bcaec</guid>
+  <pubDate>Sat, 17 Oct 2026 08:53:58 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>42 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>NVIDIA RTX Spark搭载GB10芯片，最高128GB统一内存、1 PFLOPS FP4算力，可本地跑编码代理；对比Intel Panther Lake 12Xe，代理快4.6倍、微调2.7倍、编译1.8倍。</p><p><strong>为什么重要</strong><br>开发负载从CPU转向GPU，本地代理加混合提示路由减少云端token消耗，Windows on Arm补齐PyTorch-CUDA与Python 3.15原生支持。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/">NVIDIA Developer</a> · <a href="https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions">The Verge AI</a> · <a href="https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad">The Verge AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>DeepSeek发布V4.1-Flash-1017，针对Harness 0.2.1专项优化，代码与Agent基准提升，同时压缩运行时长和输出token；开放Search/Fetch搜索API，每千次5元，11月1日前免费。</p><p><strong>为什么重要</strong><br>模型侧开始做「性能—费用帕累托改进」，Agent跑得更快更省；自研搜索API把联网检索纳入自家计费，压低Agent工具链成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/10/504067.html">量子位</a> · <a href="https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/">MarkTechPost</a> · <a href="http://www.geekpark.net/news/372512">极客公园</a></small></p>]]></description>
 </item>
 <item>
-  <title>Claude reveals ECDSA curve origins</title>
-  <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-1340db7c16b6</guid>
-  <pubDate>Fri, 16 Oct 2026 18:55:59 +0000</pubDate>
+  <title>How the Claude Code team does code review</title>
+  <link>https://claude.dev/blog/solving-code-review-at-anthropic/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-388dc1849114</guid>
+  <pubDate>Fri, 16 Oct 2026 19:04:47 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>41.3 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Anthropic员工让Claude查NIST曲线种子来源，半小时内破解P-192/224/256/384/521：种子非哈希，而是C库lrand48以Unix时间戳为种子生成，P-256需1842次迭代。</p><p><strong>为什么重要</strong><br>NIST 2000年FIPS 186-2曲线种子由NSA提供且无说明，长期被疑有后门；现证实为弱PRNG时钟种子，可复现，降低蓄意植入可能。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 767 +13.3 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>40.3 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Claude Code团队90%代码由AI写，5-9月合并PR翻倍、回滚率降40%。Anthropic单仓日变更从2500涨到3万。评审改为持续进行，PR前由子代理审diff，PR后Claude全仓审，多代理投票验证发现。</p><p><strong>为什么重要</strong><br>代码评审从人工逐行把关转为机器为主、人只处理高层问题。衡量指标变成每PR人工批准数、评论数、等待时长，回滚率作护栏。行业评审流程与人力分配被重定义。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS配置、动画蓝图、手感调优靠试玩与数值验证，非代码评审流程可迁移。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 457 +12.3 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>Krea 3 – An image model built for editing at scale</title>
-  <link>https://www.krea.ai/krea-3</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-3d860c820f54</guid>
-  <pubDate>Thu, 15 Oct 2026 16:04:05 +0000</pubDate>
+  <title>Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console</title>
+  <link>https://github.com/cobanov/PS5LM</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-e8baeb3f29e1</guid>
+  <pubDate>Fri, 16 Oct 2026 18:32:35 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.7 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Krea 3 图像编辑模型：只重绘框选区域，原生 2K，单次编辑 8 秒，比 Nano Banana Pro 的 26.8 秒、GPT Image 2.5 的 39.9 秒快，支持 8 张参考图与十六进制色值锁定。</p><p><strong>为什么重要</strong><br>编辑型模型把算力集中在改动区域，速度和成本压到生产可用，批量改图、换产品、换场景的工作流被重构，设计外包与素材迭代节奏受冲击。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 342 +11.7 / HN 头条 +8</small></p>]]></description>
+  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>越狱PS5（固件7.00-13.60）跑llama.cpp Vulkan后端，用RDNA 2 GPU与11.4GB共享内存；Qwen3.5 9B Q4_K_M达55 tok/s，27B约20 tok/s、64k上下文。</p><p><strong>为什么重要</strong><br>主机GPU被改造成本地推理服务器，暴露OpenAI/Anthropic兼容API；说明RDNA 2共享内存与Vulkan后端已能承载大模型，边缘设备推理门槛下移。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 367 +11.8 / HN 头条 +8</small></p>]]></description>
 </item>
 <item>
-  <title>TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context</title>
-  <link>https://www.marktechpost.com/2026/10/14/typesafe-ai-jev-1-14-images-box-long-context/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-4169f6a4c67e</guid>
-  <pubDate>Thu, 15 Oct 2026 05:45:03 +0000</pubDate>
+  <title>Sega and Creative Assembly remove Total War: Shogun 2 remaster from sale as it "falls short of both your expectations and our own standards"</title>
+  <link>https://www.gamesindustry.biz/sega-and-creative-assembly-remove-total-war-shogun-2-remaster-from-sale-as-it-falls-short-of-both-your-expectations-and-our-own-standards</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-21d1af53abe0</guid>
+  <pubDate>Thu, 15 Oct 2026 22:35:55 +0000</pubDate>
   <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>TypeSafe AI 发布 Jev 1.14 决策模型，新增图像输入、Box 边界框类型和 262k 长上下文，均为实验性功能，需加 danger-zone 请求头。输入 $0.042/百万 token，输出免费。</p><p><strong>为什么重要</strong><br>决策模型从纯文本转向视觉定位，Box 返回归一化坐标和置信度，但无「未找到」答案。定价远低于通用 LLM，可能影响战斗判定类 AI 的选型。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS 技能判定和网络同步不依赖此类托管决策 API，且其图像与 Box 功能未达生产可用。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.marktechpost.com/2026/10/14/typesafe-ai-jev-1-14-images-box-long-context/">MarkTechPost</a> · <a href="https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/">TechCrunch AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>《幕府将军2：完全版》10月13日发售后Steam差评如潮，玩家指出单位卡牌、过场动画有AI生成痕迹（多手指、盔甲融进身体）及性能问题。世嘉与Creative Assembly已联合致歉，正与平台方协作暂时下架并恢复原版，已购玩家仍可游玩。</p><p><strong>为什么重要</strong><br>大厂用AI放大贴图与素材翻新，质量失控后被迫回滚下架。此前《疯狂出租车：世界巡回》也因生成式AI受批评，说明AI辅助资产流程缺少人工审核会直接反噬品牌。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若团队用AI生成贴图或动画资产，需在导入UE前加人工审核与性能预算检查，避免重蹈覆辙。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamesindustry.biz/sega-and-creative-assembly-remove-total-war-shogun-2-remaster-from-sale-as-it-falls-short-of-both-your-expectations-and-our-own-standards">GamesIndustry</a> · <a href="https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
-  <title>DayZ Creator Presents BRUTAL, a Free Open-Source Development Framework</title>
-  <link>https://80.lv/articles/dayz-creator-presents-brutal-a-free-open-source-development-framework/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-32bab911fad7</guid>
-  <pubDate>Thu, 15 Oct 2026 14:31:28 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>DayZ作者Dean Hall开源BRUTAL框架，开发四年，C#+Vulkan，跑Windows/Linux，含数学、内存、任务调度等库，商用免费需署名。</p><p><strong>为什么重要</strong><br>回应开发者对Unity、UE依赖，RimWorld团队已用它做Waylith引擎，Kitten Space Agency亦基于此。</p><p><strong>对你而言</strong><br>与你的项目无直接关系：UE5 GAS与动画管线不涉及C#/Vulkan自研框架。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://80.lv/articles/dayz-creator-presents-brutal-a-free-open-source-development-framework/">80.lv</a> · <a href="https://www.gamesindustry.biz/dayz-creator-dean-hall-releases-open-source-game-development-framework-brutal">GamesIndustry</a></small></p>]]></description>
-</item>
-<item>
-  <title>Epic Games claims its new "vibe coded" launcher runs 46% faster than Steam from cold start to store page</title>
-  <link>https://www.gamesindustry.biz/epic-games-claims-its-new-vibe-coded-launcher-runs-46-faster-than-steam-from-cold-start-to-store-page</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-4d15a073d539</guid>
-  <pubDate>Thu, 15 Oct 2026 09:35:29 +0000</pubDate>
+  <title>After months of development, I've finally released my first Medieval Combat System for Unreal Engine 5!</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x8aj1p/after_months_of_development_ive_finally_released/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-1cebe9fd96c4</guid>
+  <pubDate>Sat, 17 Oct 2026 13:40:25 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>55.6 分</strong> · 2 家独立源报道 · 能用上的</p><p><strong>发生了什么</strong><br>Epic新版启动器预览版重写全栈，冷启动到商店页比Steam快46%，托盘恢复快14%，库加载快30倍，启动快2倍，体积仅300MB，支持Win/Mac，将出Linux版。</p><p><strong>为什么重要</strong><br>Epic转向AI优先开发，小团队重写代码库；迪士尼合作射击项目因此延期，内部要求不再手写代码、美术全AI流程。</p><p><strong>对你而言</strong><br>与你的项目无直接关系；但Epic AI优先策略或影响UE5工具链与团队协作方式，需留意后续版本。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8 / 社区置顶 +3.6 / 命中「epic games」 +20</small></p><p><small>全部来源：<a href="https://www.gamesindustry.biz/epic-games-claims-its-new-vibe-coded-launcher-runs-46-faster-than-steam-from-cold-start-to-store-page">GamesIndustry</a> · <a href="https://www.reddit.com/r/unrealengine/comments/1x7vs25/epics_launcher_revamped/">r/unrealengine</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>58 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>个人开发者在Fab上架UE5中世纪战斗包：可玩骑士、5种骷髅敌人、125条动画、近战远程、同步处决、模块化蓝图系统，另提供免费Demo。</p><p><strong>为什么重要</strong><br>Fab上个人级战斗模板增多，中小团队可低成本获取动画与蓝图底子，缩短原型周期，但同质化风险上升。</p><p><strong>对你而言</strong><br>可拆包参考其同步处决的动画衔接与蓝图结构；125条动画可作手感调参对照，勿直接用于PVP平衡。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 战斗「combat system」 +32</small></p>]]></description>
 </item>
 <item>
-  <title>Sculpting Scales &amp; Simulating Clothes for Creature Chef in ZBrush &amp; Marvelous Designer</title>
-  <link>https://80.lv/articles/sculpting-scales-simulating-clothes-for-creature-chef-in-zbrush-marvelous-designer/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-0d32c8299204</guid>
-  <pubDate>Fri, 16 Oct 2026 13:01:00 +0000</pubDate>
+  <title>Unreal 5.8 - Materials Masterclass - Chapter 10: World Position Offset effects</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x8e2vx/unreal_58_materials_masterclass_chapter_10_world/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-5fe344b3a319</guid>
+  <pubDate>Sat, 17 Oct 2026 16:10:57 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>3D艺术家Yuriy Barchuk用ZBrush雕鳞片、Marvelous Designer模拟非人角色服装，在UE5.7渲染《Breakfast-Chef Extraordinaire》，参考博德之门3狗头人与鬃狮蜥。</p><p><strong>为什么重要</strong><br>非人角色服装模拟是Marvelous Designer的盲区，尾巴和腿让传统版型失效，内裙需换软件制作，这套绕行流程对生物类角色有参考价值。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5.8材质大师课第10章讲World Position Offset材质参数，做脉动熔岩块和朝向相机的billboard两个效果。</p><p><strong>为什么重要</strong><br>WPO在顶点着色器阶段位移几何体，不依赖骨骼和动画蓝图，是低成本动态形变手段，社区教程把它系统化。</p><p><strong>对你而言</strong><br>受击鼓包、刀光扭曲、位移残影可用WPO做，省GAS与动画开销；但WPO不参与碰撞，PVP判定仍走胶囊体。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「unreal」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Survey: the hardest UE5 multiplayer / GAS problem you hit in the last 90 days (2 min)</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x7a647/survey_the_hardest_ue5_multiplayer_gas_problem/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-8358ea1c5409</guid>
-  <pubDate>Fri, 16 Oct 2026 07:54:10 +0000</pubDate>
+  <title>UE5: Pawn Possess Camera</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x8edo5/ue5_pawn_possess_camera/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-3261073aa1fa</guid>
+  <pubDate>Sat, 17 Oct 2026 16:23:04 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>38.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>Reignance Studios 发起匿名问卷，征集近90天UE5联机/GAS最耗时问题：不同步、预测、专用服务器、性能；约3周后汇总发布。</p><p><strong>为什么重要</strong><br>社区缺少公开的联机与GAS实战痛点数据，结果可反映团队时间实际花在哪类同步与预测问题上。</p><p><strong>对你而言</strong><br>可提交你项目在GAS预测与位移同步上的真实案例，换取横向对比，判断自身难点是否普遍。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +4.8 / 命中「ue5」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5 中 Possess 切换 Pawn 时，Set View Target With Blend 会回到新 Pawn 的相机/弹簧臂默认朝向；发帖人已存下 Control Rotation，但不知如何让相机保持原朝向。</p><p><strong>为什么重要</strong><br>这是载具、分身、观战等切换视角的常见问题；默认混合只处理位置过渡，不继承朝向，玩家会感到镜头被拽回。</p><p><strong>对你而言</strong><br>可参考：切换前缓存 Control Rotation，混合完成后用其覆盖新 Pawn 的控制器旋转；或改用自定义 Camera Manager 混合，避免弹簧臂默认值干扰。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「ue5」 +20</small></p>]]></description>
 </item>
 <item>
-  <title>Modular control rig: legs "frozen"</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x7cs4l/modular_control_rig_legs_frozen/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-3e69c3cd530d</guid>
-  <pubDate>Fri, 16 Oct 2026 10:37:20 +0000</pubDate>
+  <title>This Tool Speeds Up Texturing Workflow Between Painter &amp; UE5</title>
+  <link>https://80.lv/articles/this-tool-speeds-up-texturing-workflow-between-painter-ue5/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-67558372a4f9</guid>
+  <pubDate>Sat, 17 Oct 2026 14:30:00 +0000</pubDate>
   <category>能用上的</category>
-  <description><![CDATA[<p><strong>36.4 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5模块化Control Rig在打包后Level Sequence中下半身冻结：编辑器与资产内正常，仅打包运行时腿部停在基础姿势，上半身动画正常。</p><p><strong>为什么重要</strong><br>Control Rig分层模式在打包后求值异常，属Sequencer与运行时绑定差异，影响过场与技能演示动画的发布可靠性。</p><p><strong>对你而言</strong><br>技能或过场若用Control Rig分层，需在打包版验证下半身求值；可改用动画蓝图或烘焙规避。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +2.4 / 命中「control rig」 +20</small></p>]]></description>
+  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Moss3D 的 TexBridge 打通 Substance 3D Painter 与 UE5：一键导出导入贴图，按贴图类型自动设压缩与 sRGB，法线做 OpenGL 转 DirectX，每套贴图生成材质实例并可指派给静态网格，配置可存为共享 profile。</p><p><strong>为什么重要</strong><br>省去美术手工重导贴图、重建材质连线的重复劳动，贴图迭代周期缩短；对独立团队和外包协作流程影响直接，但只覆盖静态网格管线。</p><p><strong>对你而言</strong><br>静态场景与道具的贴图迭代可提速；但角色 PVP 资产走骨骼网格与 GAS 材质参数集，需确认其材质实例能否挂到角色材质上，法线转换规则也可借鉴到自研导入脚本。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
+</item>
+<item>
+  <title>Submitting UE4 dedicated server build to Playfab always gets unhealthy region.</title>
+  <link>https://www.reddit.com/r/unrealengine/comments/1x84omy/submitting_ue4_dedicated_server_build_to_playfab/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-a5b9cc3126c7</guid>
+  <pubDate>Sat, 17 Oct 2026 08:07:45 +0000</pubDate>
+  <category>能用上的</category>
+  <description><![CDATA[<p><strong>37.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户按教程把UE4专用服务器构建提交到PlayFab，状态始终为unhealthy，服务器区报Too many restarts，日志只有PF_ConsoleLogs.txt，无DS自身日志；本地LocalMultiplayerAgent运行正常。</p><p><strong>为什么重要</strong><br>PlayFab托管DS的常见坑：容器内启动参数、端口或日志路径不符即被判不健康，与构建本身无关，影响中小团队自建PVP后端。</p><p><strong>对你而言</strong><br>若走PlayFab托管，需核对容器启动命令与端口配置，并让DS把日志写到PlayFab可采集路径，便于定位重启原因。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +3.6 / 命中「dedicated server」 +20</small></p>]]></description>
 </item>
 <item>
   <title>Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72</title>
   <link>https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-799bc7bf7763</guid>
-  <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-799bc7bf7763</guid>
+  <pubDate>Thu, 15 Oct 2026 17:47:39 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>69.6 分</strong> · 6 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Meta开源Muse Spark Open：816B总参、42B激活的MoE编码模型，1M上下文，NVFP4权重，GB300 NVL72单GPU 50K tok/s、单用户600 tok/s。</p><p><strong>为什么重要</strong><br>编码模型从单次补全转向长程多步智能体：规划重构、跑测试、调子智能体。开源权重加NVFP4，把前沿智能体能力压到可自托管成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：6 源报道 +60 / 一手源 +18 / HN 902 +13.6 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/">NVIDIA Developer</a> · <a href="https://huggingface.co/blog/meta-muse-spark-open">HuggingFace Blog</a> · <a href="https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/">MarkTechPost</a> · <a href="https://research.meta.ai/blog/muse-spark-open">Hacker News</a> · <a href="https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/">TechCrunch AI</a> · <a href="https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx">The Verge AI</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>45.6 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Meta发布Muse Spark Open：816B MoE、42B激活、1M上下文，NVFP4权重，GB300 NVL72上单GPU 50K tok/s、单用户600 tok/s。</p><p><strong>为什么重要</strong><br>编码模型从单次补全转向长程智能体工作流，1M上下文与工具调用可靠性成为新竞争点，稀疏MoE加FP4压低服务成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 914 +13.6 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/">MarkTechPost</a> · <a href="https://research.meta.ai/blog/muse-spark-open">Hacker News</a></small></p>]]></description>
+</item>
+<item>
+  <title>Code, Test, and Deploy on One Machine with NVIDIA RTX Spark</title>
+  <link>https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-059d26b633ae</guid>
+  <pubDate>Fri, 16 Oct 2026 15:00:00 +0000</pubDate>
+  <category>线索追踪</category>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>英伟达RTX Spark搭载GB10芯片，最高128GB统一内存、1 PFLOPS FP4算力，可本地跑编码智能体；对比Panther Lake 12Xe，编码智能体快4.6倍、微调快2.7倍、编译快1.8倍。</p><p><strong>为什么重要</strong><br>开发负载从CPU转向GPU，本地推理替代云端token消耗。Windows on Arm补齐PyTorch-CUDA、Python 3.15原生、2000+ Conda包，Arm生态缺口收窄。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/">NVIDIA Developer</a> · <a href="https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions">The Verge AI</a></small></p>]]></description>
 </item>
 <item>
   <title>NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning</title>
   <link>https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-17-0ccfce23cd33</guid>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-0ccfce23cd33</guid>
   <pubDate>Thu, 15 Oct 2026 18:01:00 +0000</pubDate>
   <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>英伟达发布Nemotron 3.5 Super VL开源多模态模型，120B参数MoE架构，每token激活12B，单GPU智能体任务吞吐提升至5倍，CharXiv图表推理得分80.8%。</p><p><strong>为什么重要</strong><br>开源可后训练的多模态智能体基座，把文本、图像、文档、视频理解合进一个模型，企业可替代分离的文本与视觉模型组合，降低推理成本与上下文传递开销。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/">MarkTechPost</a></small></p>]]></description>
+  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>英伟达发布Nemotron 3.5 Super VL开源多模态模型，120B参数MoE架构，每token激活12B，单GPU智能体任务吞吐量达同类开源模型5倍，CharXiv图表推理得分80.8%。</p><p><strong>为什么重要</strong><br>开源权重可后训练，企业能用自有数据定制专用智能体；Scale AI、Ramp等已落地，推理成本降40倍、延迟降5倍，专用小模型替代前沿大模型的路径成形。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/">MarkTechPost</a></small></p>]]></description>
 </item>
 </channel>
 </rss>

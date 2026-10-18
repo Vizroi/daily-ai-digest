@@ -1,16 +1,4 @@
 {
-  "2c0570766fdc427e": {
-    "title": "Gemini 4 Argon: our next era of frontier intelligence",
-    "first_seen": "2026-10-01",
-    "times": 3,
-    "last_seen": "2026-10-03"
-  },
-  "01b05adba491a9d7": {
-    "title": "Gears of War: E-Day sees a return to dark, survival-horror roots with UE5",
-    "first_seen": "2026-10-02",
-    "times": 2,
-    "last_seen": "2026-10-03"
-  },
   "e8138f164adc8a89": {
     "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
     "first_seen": "2026-10-03",
@@ -23,35 +11,11 @@
     "times": 2,
     "last_seen": "2026-10-04"
   },
-  "cacbc1fb2332bf73": {
-    "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
-    "first_seen": "2026-10-03",
-    "times": 1,
-    "last_seen": "2026-10-03"
-  },
-  "6deace862fe8757a": {
-    "title": "FLUX 3 Image",
-    "first_seen": "2026-10-03",
-    "times": 1,
-    "last_seen": "2026-10-03"
-  },
   "c7bf9f400bf0b90d": {
     "title": "Reigns developer Nerial enters 'hibernation mode,' lays off staff",
     "first_seen": "2026-10-03",
     "times": 3,
     "last_seen": "2026-10-05"
-  },
-  "bf4254f5ff6ab198": {
-    "title": "Any good ue5 courses that are c++ coding based without blueprint",
-    "first_seen": "2026-10-03",
-    "times": 1,
-    "last_seen": "2026-10-03"
-  },
-  "8d0680c120ee2840": {
-    "title": "UE5 Tips & Tricks - MVVM Primer",
-    "first_seen": "2026-10-03",
-    "times": 1,
-    "last_seen": "2026-10-03"
   },
   "0e1a260e2ca14d0d": {
     "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
@@ -560,8 +524,8 @@
   "799bc7bf7763a923": {
     "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
     "first_seen": "2026-10-16",
-    "times": 2,
-    "last_seen": "2026-10-17"
+    "times": 3,
+    "last_seen": "2026-10-18"
   },
   "2f4b823877c4e074": {
     "title": "Gemini 4 Argon for Robotics",
@@ -572,8 +536,8 @@
   "0ccfce23cd33c8db": {
     "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
     "first_seen": "2026-10-16",
-    "times": 2,
-    "last_seen": "2026-10-17"
+    "times": 3,
+    "last_seen": "2026-10-18"
   },
   "0eef46b93f435e15": {
     "title": "Wayland desktop for Linux with skeuomorphic design",
@@ -620,8 +584,8 @@
   "059d26b633aef451": {
     "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
     "first_seen": "2026-10-17",
-    "times": 1,
-    "last_seen": "2026-10-17"
+    "times": 2,
+    "last_seen": "2026-10-18"
   },
   "1340db7c16b61ed6": {
     "title": "Claude reveals ECDSA curve origins",
@@ -670,5 +634,59 @@
     "first_seen": "2026-10-17",
     "times": 1,
     "last_seen": "2026-10-17"
+  },
+  "4826fd3bcaec21cd": {
+    "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "last_seen": "2026-10-18"
+  },
+  "388dc1849114c9f5": {
+    "title": "How the Claude Code team does code review",
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "last_seen": "2026-10-18"
+  },
+  "e8baeb3f29e1eb39": {
+    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "last_seen": "2026-10-18"
+  },
+  "21d1af53abe02afe": {
+    "title": "Sega and Creative Assembly remove Total War: Shogun 2 remaster from sale as it \"falls short of both your expectations and our own standards\"",
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "last_seen": "2026-10-18"
+  },
+  "1cebe9fd96c4220e": {
+    "title": "After months of development, I've finally released my first Medieval Combat System for Unreal Engine 5!",
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "last_seen": "2026-10-18"
+  },
+  "5fe344b3a319f53a": {
+    "title": "Unreal 5.8 - Materials Masterclass - Chapter 10: World Position Offset effects",
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "last_seen": "2026-10-18"
+  },
+  "3261073aa1fa7063": {
+    "title": "UE5: Pawn Possess Camera",
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "last_seen": "2026-10-18"
+  },
+  "67558372a4f9eebd": {
+    "title": "This Tool Speeds Up Texturing Workflow Between Painter & UE5",
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "last_seen": "2026-10-18"
+  },
+  "a5b9cc3126c7fc61": {
+    "title": "Submitting UE4 dedicated server build to Playfab always gets unhealthy region.",
+    "first_seen": "2026-10-18",
+    "times": 1,
+    "last_seen": "2026-10-18"
   }
 }
