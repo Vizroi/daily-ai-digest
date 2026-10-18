@@ -139,7 +139,7 @@ class MarketRenderTests(unittest.TestCase):
         self.assertIn("正在建立第一批市场记录", page)
         self.assertIn("Steam 最新发行", page)
         self.assertIn("Steam Demo", page)
-        self.assertIn("这些数据怎样看", page)
+        self.assertIn('<details class="methodology" id="methodology">', page)
         self.assertNotIn("1970", page)
 
     def test_daily_brief_has_its_own_timestamp_and_max_three_entries(self):

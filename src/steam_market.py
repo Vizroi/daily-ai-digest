@@ -95,6 +95,21 @@ def parse_release(value):
     return None
 
 
+def store_asset_url(asset_format, filename):
+    """Steam Store Browse uses paths relative to the store_item_assets root."""
+    if not isinstance(asset_format, str) or not isinstance(filename, str) or not asset_format or not filename:
+        return None
+    path = asset_format.replace("${FILENAME}", filename)
+    if path.startswith(("https://", "http://")):
+        return path
+    if path.startswith("//"):
+        return "https:" + path
+    path = path.lstrip("/")
+    if not path.startswith("store_item_assets/"):
+        path = "store_item_assets/" + path
+    return "https://shared.fastly.steamstatic.com/" + path
+
+
 def metadata_from_browse(item, tag_names, now, country="CN"):
     if item.get("success") != 1 or not item.get("name"):
         raise ValueError("store item unavailable")
@@ -105,14 +120,14 @@ def metadata_from_browse(item, tag_names, now, country="CN"):
     release_date = parse_release(release.get("steam_release_date"))
     price = item.get("best_purchase_option", {})
     assets = item.get("assets", {})
-    image = assets.get("asset_url_format", "").replace("${FILENAME}", assets.get("header", ""))
+    image = store_asset_url(assets.get("asset_url_format"), assets.get("header"))
     tags = [tag_names[str(t)] for t in item.get("tagids", []) if str(t) in tag_names]
     modes = item.get("categories", {}).get("supported_player_categoryids", [])
     demos = item.get("related_items", {}).get("demo_appid", [])
     if isinstance(demos, int):
         demos = [demos]
     return {
-        "name": item["name"], "header_image": "https://shared.fastly.steamstatic.com/" + image if image else None,
+        "name": item["name"], "header_image": image,
         "tags": tags, "genres": [t for t in tags if t in {"Action", "RPG", "Strategy", "Simulation", "Adventure", "Casual", "Racing", "Sports"}],
         "player_modes": [MODES[m] for m in modes if m in MODES], "is_action": 19 in item.get("tagids", []),
         "release_date": release_date, "release_label": release.get("custom_release_date_message") or release_date or "待确认",

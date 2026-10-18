@@ -23,6 +23,25 @@ class MarketTests(unittest.TestCase):
             rows[dt.date().isoformat()] = {"samples": [[int(dt.timestamp()), value], [int((dt + timedelta(hours=12)).timestamp()), value]]}
         return rows
 
+    def test_store_asset_path_has_exactly_one_asset_root(self):
+        expected = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1"
+        for prefix in ("", "/", "store_item_assets/", "/store_item_assets/"):
+            result = market.store_asset_url(prefix + "steam/apps/1145360/${FILENAME}?t=1", "header.jpg")
+            self.assertEqual(result, expected)
+
+    def test_absolute_store_asset_urls_are_preserved(self):
+        absolute = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1/${FILENAME}?t=2"
+        self.assertEqual(market.store_asset_url(absolute, "abc/header.jpg"), absolute.replace("${FILENAME}", "abc/header.jpg"))
+        relative_scheme = "//shared.fastly.steamstatic.com/store_item_assets/steam/apps/1/${FILENAME}"
+        self.assertEqual(market.store_asset_url(relative_scheme, "header.jpg"), "https:" + relative_scheme.replace("${FILENAME}", "header.jpg"))
+
+    def test_metadata_uses_valid_asset_root_and_missing_header_is_none(self):
+        item = {"success": 1, "name": "Hades", "assets": {"asset_url_format": "steam/apps/1145360/${FILENAME}?t=1", "header": "header.jpg"}}
+        result = market.metadata_from_browse(item, {}, self.now)
+        self.assertEqual(result["header_image"], "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1")
+        del item["assets"]["header"]
+        self.assertIsNone(market.metadata_from_browse(item, {}, self.now)["header_image"])
+
     def test_cold_start_never_fakes_change(self):
         result = market.compare_window({}, self.now, 30, market.stamp(self.now))
         self.assertEqual(result["status"], "insufficient_history")
