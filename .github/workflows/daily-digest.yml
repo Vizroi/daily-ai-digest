@@ -1,13 +1,21 @@
 name: Game Design Daily
 
-# 推送只发布已生成的 docs；定时和手动执行才生成新刊期。
+# 日报与市场采样共用串行发布队列，避免相互覆盖。
 on:
   push:
     branches: [main]
   schedule:
     # cron 是 UTC。北京时间 08:30 = UTC 00:30
     - cron: "30 0 * * *"
+    # 市场快照：北京时间 01:15 / 07:15 / 13:15 / 19:15。
+    - cron: "15 5,11,17,23 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 更新内容
+        type: choice
+        default: daily
+        options: [daily, market, publish]
 
 permissions: {}
 
@@ -17,7 +25,9 @@ concurrency:
 
 jobs:
   publish_existing:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'publish'))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
@@ -25,6 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           persist-credentials: false
 
       - uses: actions/setup-python@v5
@@ -43,13 +54,18 @@ jobs:
           path: docs
 
   build:
-    if: github.event_name != 'push' && github.ref == 'refs/heads/main'
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      ((github.event_name == 'schedule' && github.event.schedule == '30 0 * * *') ||
+       (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily'))
     runs-on: ubuntu-latest
     timeout-minutes: 25
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -90,7 +106,13 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python src/summarize.py
 
-      # ⑤ 渲染 + 归档
+      - name: 更新 Steam 市场快照
+        run: python src/steam_market.py
+
+      - name: 渲染 Steam 市场观察页
+        run: python src/market_render.py
+
+      # ⑤ 渲染 + 归档；新刊保存当次市场摘要，旧刊不回填。
       - name: 渲染
         run: python src/render.py
 
@@ -115,6 +137,7 @@ jobs:
             echo "无变化，跳过提交"
           else
             git commit -m "digest: $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
             git push
           fi
 
@@ -123,12 +146,60 @@ jobs:
         with:
           path: docs
 
+  market_sample:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      ((github.event_name == 'schedule' && github.event.schedule == '15 5,11,17,23 * * *') ||
+       (github.event_name == 'workflow_dispatch' && inputs.mode == 'market'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 检查数据和页面规则
+        run: python -m unittest discover -s tests -v
+
+      - name: 采集市场快照与历史
+        run: python src/steam_market.py
+
+      - name: 更新市场页与首页市场摘要
+        run: |
+          python src/market_render.py
+          python src/render.py --no-archive
+
+      - name: 提交市场记录
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market.json data/market_history.json docs/market.html docs/index.html
+          if ! git diff --staged --quiet; then
+            git commit -m "market: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: 上传站点
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
   deploy:
-    needs: [publish_existing, build]
-    # 两条准备路径互斥，其中一条会被跳过；只部署成功上传的产物。
+    needs: [publish_existing, build, market_sample]
+    # 三条准备路径互斥；只部署成功上传的产物。
     if: >-
       ${{ always() && !cancelled() && github.ref == 'refs/heads/main' &&
-          (needs.publish_existing.result == 'success' || needs.build.result == 'success') }}
+          (needs.publish_existing.result == 'success' || needs.build.result == 'success' || needs.market_sample.result == 'success') }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:

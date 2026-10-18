@@ -5,6 +5,7 @@ from pathlib import Path
 
 import feed
 import render
+from market_render import render_market
 from source_directory import render_directory
 from source_registry import catalog
 
@@ -24,7 +25,10 @@ def main():
     dates = [p.stem for p in (ROOT / "docs/archive").glob("*.html")]
     output = Path(args.output).resolve()
     output.mkdir(parents=True, exist_ok=True)
-    (output / "index.html").write_text(render.render(digest, archive_dates=dates), encoding="utf-8")
+    market_path = ROOT / "data/market.json"
+    market = json.loads(market_path.read_text(encoding="utf-8")) if market_path.exists() else {}
+    (output / "index.html").write_text(render.render(digest, archive_dates=dates, market=market), encoding="utf-8")
+    (output / "market.html").write_text(render_market(market), encoding="utf-8")
     feed.SITE = args.base_url.rstrip("/")
     (output / "feed.xml").write_text(feed.build(digest), encoding="utf-8")
     (output / "sources.html").write_text(render_directory(report, catalog()), encoding="utf-8")

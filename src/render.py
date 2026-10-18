@@ -3,6 +3,7 @@
 Public render(digest, health=None) and CLI arguments remain compatible. Diagnostics
 stay in logs, previews are marked, and existing historical HTML is never replaced.
 """
+import argparse
 import hashlib
 import html
 import json
@@ -354,7 +355,7 @@ def _archive(dates: list[str], current: str, archive_page: bool, preview: bool,
 
 
 def render(digest: dict, health: dict | None = None, *, archive_dates: list[str] | None = None,
-           archive_page: bool = False) -> str:
+           archive_page: bool = False, market: dict | None = None) -> str:
     """Render v3 or legacy JSON; ``health`` is accepted without leaking diagnostics."""
     now = _edition_time(digest)
     try:
@@ -369,6 +370,10 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
     title = f'策划日报 · {date_iso}' + (' · 试刊' if preview else '')
     desc = f'游戏动态 {len(news)} 条，策划精选 {len(features)} 篇，AI 精华 {len(ai)} 条。游戏资讯、设计分析与开发实践。'
     prefix = "../" if archive_page else ""
+    market_html = ""
+    if market:
+        from market_render import render_market_brief
+        market_html = render_market_brief(market, href=prefix + "market.html")
     preview_message = _text(digest.get("editorial_note")) or "这是新栏目结构的预览，内容与编排仍在调整，不计入正式归档。"
     preview_html = (f'<div class="preview-note" role="note"><strong>试刊</strong>{esc(preview_message)}</div>' if preview else '')
     news_html = ''.join(_news_item(event, i) for i, event in enumerate(news, 1)) or '<li class="no-content">本期暂未收录游戏动态，稍后再来看看。</li>'
@@ -387,8 +392,8 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
 <header class="masthead"><div class="masthead-top"><span>给游戏策划的每日阅读</span><div class="top-links"><a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅 ↗</a></div></div>
 <div class="brand-row"><div class="brand"><h1>策划日报</h1><p class="brand-en" lang="en">GAME DESIGN DAILY</p></div><div class="edition"><p class="edition-date"><time datetime="{date_iso}">{issue_date:%Y.%m.%d}</time></p><p class="edition-day">星期{WEEKDAY_CN[issue_date.weekday()]} · {now:%H:%M} 整理</p><span class="edition-status{' preview' if preview else ''}">{'试刊 · PREVIEW' if preview else '每日一读 · DAILY EDITION'}</span></div></div>
 <div class="strapline"><strong>看游戏，也看游戏如何被做出来。</strong><span class="edition-count">{language_label} / {len(news):02d} 条动态 · {len(features):02d} 篇精选 · {len(ai):02d} 条 AI</span></div>
-<nav class="nav" aria-label="本期栏目"><a href="#news">今日游戏日报<small>{len(news):02d}</small></a><a href="#features">策划精选<small>{len(features):02d}</small></a><a href="#ai">AI 精华<small>{len(ai):02d}</small></a><a href="{prefix}sources.html">信息来源 ↗</a></nav></header>{preview_html}
-<main><div class="edition-grid"><div class="main-column"><section id="news" aria-label="今日游戏日报">
+<nav class="nav" aria-label="本期栏目"><a href="#news">今日游戏日报<small>{len(news):02d}</small></a><a href="{prefix}market.html">Steam 市场 ↗</a><a href="#features">策划精选<small>{len(features):02d}</small></a><a href="#ai">AI 精华<small>{len(ai):02d}</small></a><a href="{prefix}sources.html">信息来源 ↗</a></nav></header>{preview_html}
+<main>{market_html}<div class="edition-grid"><div class="main-column"><section id="news" aria-label="今日游戏日报">
 {_section_head('01', '今日游戏日报', 'THE DAILY', '新作、更新、行业与开发现场。先把今天值得知道的看完。', len(news))}
 {_filters(news) if news else ''}<ol class="news-list">{news_html}</ol></section></div>{_sidebar(news, features, ai, len(names))}</div>
 <section class="features-section" id="features" aria-label="策划精选">{_section_head('02', '策划精选', 'THE DESIGN DESK', '拆机制，读复盘，看看别人如何做选择。新文章与常青好文，一起读。', len(features), '篇')}{features_html}</section>
@@ -399,20 +404,37 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
 
 
 def main():
-    inp = sys.argv[1] if len(sys.argv) > 1 else "data/digest.json"
-    out = sys.argv[2] if len(sys.argv) > 2 else "docs/index.html"
-    # The optional third CLI argument (health path) remains accepted for old jobs.
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("input", nargs="?", default="data/digest.json")
+    parser.add_argument("output", nargs="?", default="docs/index.html")
+    parser.add_argument("health", nargs="?", help="Compatibility argument for older jobs")
+    parser.add_argument("--market", default="data/market.json")
+    parser.add_argument("--no-archive", action="store_true", help="Refresh the homepage without creating or changing an edition archive")
+    args = parser.parse_args()
+    inp, out = args.input, args.output
     with open(inp, encoding="utf-8") as handle:
         digest = json.load(handle)
     output_dir = os.path.dirname(os.path.abspath(out))
     archive_dir = os.path.join(output_dir, "archive")
     dates = [name[:-5] for name in os.listdir(archive_dir)
              if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.html", name)] if os.path.isdir(archive_dir) else []
-    page = render(digest, archive_dates=dates)
+    market = None
+    if os.path.isfile(args.market):
+        try:
+            with open(args.market, encoding="utf-8") as handle:
+                market = json.load(handle)
+            if not isinstance(market, dict):
+                market = None
+        except (OSError, ValueError):
+            print("[WARN] 市场数据暂不可读，日报仍可生成")
+    page = render(digest, archive_dates=dates, market=market)
     os.makedirs(output_dir, exist_ok=True)
     with open(out, "w", encoding="utf-8") as handle:
         handle.write(page)
     print(f"[OK] 页面已生成 → {out} ({len(page.encode('utf-8')) // 1024} KB)")
+    if args.no_archive:
+        print("[OK] 仅更新首页，日报内容和历史归档保持原样")
+        return
     if digest.get("preview"):
         print("[OK] 试刊预览不写入正式归档")
         return
@@ -427,7 +449,7 @@ def main():
         return
     os.makedirs(archive_dir, exist_ok=True)
     with open(archive_path, "w", encoding="utf-8") as handle:
-        handle.write(render(digest, archive_dates=dates + [day], archive_page=True))
+        handle.write(render(digest, archive_dates=dates + [day], archive_page=True, market=market))
     print(f"[OK] 已归档 → {archive_path}")
 
 
