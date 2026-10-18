@@ -185,10 +185,10 @@
       "id": "wechat-youxiputao",
       "name": "游戏葡萄",
       "platform": "微信公众号",
-      "url": "https://mp.weixin.qq.com/",
+      "url": "https://youxiputao.com/",
       "state": "manual",
       "count": 0,
-      "detail": "公众号暂无已核验的稳定公开列表；通过人工收录的单篇公开链接核验内容"
+      "detail": "已核验公众号「游戏葡萄」（微信号：youxiputao）。点击名称进入官网扫码，或在微信搜索公众号名称。尚未接通自动采集，单篇文章需手动补充。"
     },
     {
       "id": "wechat-tencent-institute",
