@@ -1,146 +1,108 @@
-# daily-ai-digest
+# 策划日报 · Game Design Daily
 
-每天一期的 AI 与游戏开发内参。给一个做 UE5 战斗系统的策划看，不是给流量看。
+面向游戏策划的中英文游戏日报，附策划精选与少量 AI 精华。每天快速了解游戏动态，再选择值得深入阅读的设计文章。
 
-页面：<https://vizroi.github.io/daily-ai-digest> · RSS：`docs/feed.xml`（只推深读区）
+## 内容与版面
 
----
+- **今日游戏日报**：近 72 小时尚未报道的游戏、新版本、产品观察、开发与行业动态，最多 16 条。日期缺失、未来日期不进入日报。
+- **策划精选**：最多 3 篇机制、战斗、系统、关卡、玩家体验与开发复盘。允许较早文章，保留原始日期；深读需要实际取得正文。
+- **AI 精华**：最多 2 条，且不超过每 6 条游戏内容配 1 条 AI。没有合适内容可以为空。
+- 中文摘要与英文原标题并列，保留来源、发布日期、类型、原文入口。新闻可按主题、语言筛选和搜索。
+- 选源并不等于证明每篇文章优质；先按来源、类型与时间筛选，再依据正文判断相关性和信息量。
+- 同一事件的中英文报道尝试合并。语义去重失败时降级为 URL/同语言标题去重，并在运行日志记录限制。
 
-## 它和普通 RSS 聚合器的区别
+## 正式版与本地预览
 
-聚合器的默认失败方式是「什么都收进来，然后按时间排」。这样产出的东西，进不进日报取决于发得早不早，而不是值不值得看；摘要因为只拿到 RSS 里那两百个字符，只能同义改写标题。
+正式刊期保存在 data/digest.json，生成 docs/index.html、docs/feed.xml 与按日归档。首期使用已经人工查阅和审核的内容；后续刊期由每日管线生成。是否已上线以 GitHub Actions 的部署结果和线上页面为准。
 
-v2 的做法是**把钱和注意力集中花在少数几条上**：召回四百条，但只有分数过线的七八条会被抓正文、单条调用大模型深读，其余一百多条压成一行放进折叠区。宁缺毋滥——某天只有两条够格，那天就只放两条。
+data/preview_digest.json 保留审核时的试刊样本，与正式成稿、发布记忆和历史归档分开。预览页面显示“试刊”。
 
-排序不交给大模型。它没有全局视野，也不可复现。用一条纯 Python 的可解释公式，并且**把分数和评分依据直接印在页面上**：排序逻辑可见，才可被质疑和调整。
+无模型密钥也可生成这份预览：
 
----
+    python src/build_preview.py docs/preview-site
+    python -m http.server 8765 --bind 127.0.0.1 --directory docs/preview-site
 
-## 五阶段流水线
+打开 http://127.0.0.1:8765/，即可查看完整试刊、来源目录和试刊 RSS。这个构建只使用已审核的试刊内容，不需要模型密钥，也不改正式刊期或发布记忆。
 
-```
-① 宽召回     26 个 RSS 源 + HN Algolia + HF Papers + GitHub Trending
-                每源 12 篇、72 小时窗口，顺带带回社区热度信号
-      ↓ ~400 条
-② 事件聚类   一次 LLM 调用，跨语言把讲同一件事的条目合并成 event
-                「OpenAI 发布 X」和「OpenAI unveils X」字面重叠为零，
-                字符串相似度在这里必然失效，所以用模型
-      ↓ ~190 个 event
-③ 打分排序   纯 Python 可解释公式，见下
-      ↓
-④ 分级精读   过线的抓正文全文 → 每条单独一次 LLM 调用 → 三段式
-                其余批量一句话 / 只翻译标题
-      ↓
-⑤ 分层渲染   六个区块 + RSS 输出 + 按日归档
-```
+只更新仓库里的单页预览时：
 
-| 文件 | 职责 |
-|---|---|
-| `src/config.py` | 源分档、权重、阈值、关键词表——所有可调参数都在这里 |
-| `src/fetch_sources.py` | 宽召回 + 社区信号 + 源健康度统计 |
-| `src/cluster.py` | LLM 跨语言事件聚类，失败则降级为「每条各自成组」 |
-| `src/rank.py` | 打分、分区、配额池、跨天新颖度惩罚 |
-| `src/readfull.py` | 只对深读区抓正文（trafilatura，线程池并发） |
-| `src/summarize.py` | 分级摘要 + 禁用词校验重试 + 降级 |
-| `src/render.py` | 页面渲染（少年漫分镜版式）+ 归档 |
-| `src/feed.py` | `docs/feed.xml` |
-| `src/commit_memory.py` | 按最终发布结果写 14 天记忆（必须在降级筛选之后） |
+    python src/render.py data/preview_digest.json docs/preview.html
+    python src/feed.py data/preview_digest.json docs/preview-feed.xml
 
----
+试刊不会写入正式按日归档或发布记忆。
 
-## 打分公式
+## 来源
 
-```python
-score  = min(coverage, 5) * 12                   # 跨源覆盖，最强信号
-       + max(TIER_WEIGHT[s] for s in sources)    # 源权威 1/2/3 档 = 18/8/2
-       + log1p(hn_points)   * 2.0                # HN 是唯一可靠的公开分数源
-       + 8 if hn_points >= 300 else 0            # HN 头条 ≈ 一次群体投票
-       + log1p(hf_upvotes)  * 4.0
-       + log1p(stars_today) * 2.0
-       + 32 if 命中 COMBAT_KEYWORDS else         # 战斗策划核心词（103 个）
-         20 if 命中 OTHER_KEYWORDS  else 0       # 引擎/动画/网络/性能（50 个）
-       - 30 if 14 天内报过 else 0                # 并标记为「线索追踪」
-```
+主要入口包括 GameRes、机核、触乐、indienova、Game Developer、GamesIndustry、80.lv、Dan Felder、Unreal Engine 与 Unity。
+少量 AI 来源为官方博客与实践型作者。源配置详见 src/config.py。
 
-`DEEP_READ_MIN_SCORE = 32`。这套取值让**「至少两家独立源报道过」成为进必读区的实际门槛**。
+多平台来源现在单独登记，采集上限扩大到每源通常20条、合并后最多1200条；日报仍最多16条、精选3篇、AI至多2条。新增目录：
 
-> 权重是用真实数据校准的，不是拍的。初版 `coverage×8 + log1p(hn)×3.0` 会让一条 222 分的 Show HN 玩具帖压过「阿里发布 2.4 万亿参数模型，三家独立源报道」——排序目标整个反了；同时 45 分的必读阈值在那套权重下数学上不可达（上限约 43）。**改权重之后一定要用真实数据重跑一遍再看排序**，单元测试抓不到这类缺陷。
+- data/public_sources.json：10款不同类型游戏的 Steam 官方公告、Factorio Friday Facts、Riot 开发文章、itch.io 项目日志。
+- data/creator_sources.json：YouTube / B站创作者、中文作者文章、公众号及知乎线索。
+- data/community_sources.json：r/gamedesign、r/gamedev、r/leveldesign；Unity、Godot、Unreal Source 的 Discord 入口。
+- docs/sources.html：来源目录、本轮采集数量、空窗、访问失败、待授权和手动收录状态。空窗不等于连接失败；登记也不等于已经采到内容。
 
-关键词匹配范围按源分档区别对待：tier1/tier2 匹配标题 + 摘要（官方与媒体标题常是市场化措辞），**tier3 社区源只匹配标题**——标题是发帖人自己的主题声明，用正文匹配等于让「提到过」冒充「讲的是」。抓不到正文的条目一律退回速览区。
+Steam 单期至多4条、Reddit至多2条，同一来源通常至多3条；热度不作为可信度。扩充候选不扩大日报版面。来源配额不会强迫填满栏目。
 
-### 改关键词表时的裸词陷阱
+视频标题/简介保留为待看线索，无字幕时不生成视频分析；缺日期不冒充今天。社区完整的公开文章或自述还需通过正文相关性检查；提问、只有外链、上下文不全的聊天保留在 ranked.json 的 review_queue，不进入成稿。跨语言去重以120条一批执行，跨批次仍可能有同事件重报，URL/完全相同标题会先全局去重。
 
-都是真会命中的，别加回来：
+**可选社区连接**：Reddit使用经平台批准的OAuth access token（REDDIT_ACCESS_TOKEN，可选REDDIT_USER_AGENT）。目前不自动刷新短期token。Discord使用获准Bot的DISCORD_BOT_TOKEN与明确的DISCORD_CHANNELS_JSON，例如 {"discord_unity":["频道ID"]}；只读指定服务器频道，不加入服务器、不发送消息。凭据通过环境变量或GitHub Actions Secrets配置，不写入仓库或聊天。
 
-| 裸词 | 会误命中 |
-|---|---|
-| `i-frame` | 视频编码的关键帧，NVIDIA / 编解码类文章一抓一把 |
-| `ability system` | 字面包含在 `capability system` 里，拉进一堆能力安全模型文章 |
-| `gas ` | 天然气、油气、gas fee |
-| `soft lock` | 消费向媒体里指卡关 bug，不是软锁定 |
-| `stagger` | 分批灰度发布 |
-| `lod` | cloud / global / flood |
-| `optimization` | 命中过一篇铁路排班论文 |
+Discord消息默认restricted：只计数，不写入抓取JSON、不发给模型、不公开发布。阅读权限与发布授权分别设置；只有频道配置同时声明publication_scope为public且public_publication_authorized为true，才进入公开线索审阅队列。频道列表为空或凭据缺失就跳过。B站等遇平台限制只报告状态，不绕过验证。
 
-另外，**词表堆得再厚也变不出源里没有的东西**。2026-08-04 实测：193 条召回里战斗词命中数为 0——词表本身是对的（13 条合成样例全部正确分级），是当天的源里确实没人聊战斗设计。缺内容要从源那头补，不是从词表这头补。
+**手动补充线索**：复制 data/source_inbox.example.json 为 data/source_inbox.json（已忽略提交），填写公开链接对象列表，可含url、title、source、source_id、platform、published、lang。文件仅收集线索，标题或日期不会被当作已核验正文；review_queue中再核验。私密消息不要放进公共来源列表。
 
----
+RSS 和公开文章列表分开处理；不会猜测不存在的 feed。设计源可使用 30 天窗口，新闻默认 72 小时。
+data/reading_library.json 保存从收藏与研究中挑选的常青备选：GDKeys、Game Design Skills、The Level Design Book 等。
+经典文章只有在近期精选不足、取得正文且未近期报道时才可能入选。演讲如果只有简介、没有字幕，不能冒充完整精读。
 
-## 页面
+## 管线
 
-版式取自少年漫的分镜页：黑墨粗框 + 硬投影分格、集中線、伤害数字、对话气泡。选它不是因为好看，是因为**它天生就是一套优先级语言**——一页漫画里哪一格重要，读者不用被告知。
+    python -m venv .venv
+    pip install -r requirements.txt
 
-签名元素是标题右上角那个歪着的伤害数字：它就是 rank.py 算出的分数，底下压一条分段覆盖条（几家独立源报道了）。
+设置 DEEPSEEK_API_KEY 后依次运行：
 
-克制的地方：集中線只给必读区第一条，伤害数字只出现在深读的分格里，圆角全页只有「对你而言」那个气泡有。一页上五个爆点等于没有爆点。饱和度整体压过一档（朱红 `#A8423A`、旧纸黄 `#D8BF74`、报纸灰底 `#EDEAE1`），原色四色印刷适合封面，不适合每天读二十条。
+    python src/fetch_sources.py
+    python src/cluster.py
+    python src/rank.py
+    python src/readfull.py
+    python src/summarize.py
+    python src/render.py
+    python src/source_directory.py data/source_report.json docs/sources.html
+    python src/feed.py
+    python src/commit_memory.py
 
-| 区块 | 规则 |
-|---|---|
-| 今日必读 | 阈值制，宁可只有 2 条；为空则显示留白说明，不凑数 |
-| 能用上的 | 命中相关词就冒头，战斗词排前面；**为空则整块隐藏** |
-| 线索追踪 | 14 天内报过、今天又有新报道的 |
-| 深水区 | 3 图形学论文 + 3 AI 论文 + 3 开源，独立配额池不参与主排序竞争 |
-| 跨界视野 | 固定优质池取最高分，不随机 |
-| 一行速览 | 其余全部，`<details>` 折叠 |
+模型用于跨语言去重、标题翻译、摘要与正文相关性检查。排序和栏目配额由代码控制。
+没有密钥时，可以显式运行 summarize.py --offline 验证管线；只保留来源摘要，不生成翻译/深读，不写正式发布记忆。
 
----
+## GitHub Pages 发布
 
-## 本地跑
+现有地址保持不变：[策划日报](https://vizroi.github.io/daily-ai-digest/)。工作流有两条入口：
 
-```bash
-pip install -r requirements.txt
-export DEEPSEEK_API_KEY=sk-...
+- **推送到 main**：运行测试，然后直接上传并部署仓库中的 docs。首次推送不会重新抓取或调用模型，因此保留已审核的首期内容。
+- **定时或手动执行**：只在 main 运行抓取、筛选、摘要、渲染、RSS 和记忆更新，提交生成结果后，直接上传并部署同一份 docs。每日计划为北京时间 08:30；GitHub 排队可能导致延迟。手动执行会生成新结果，需在 Actions 中选择 main。
 
-python src/fetch_sources.py     # → data/raw.json, data/health.json
-python src/cluster.py           # → data/events.json      （用 API）
-python src/rank.py              # → data/ranked.json
-python src/readfull.py          # → 就地补 body 字段
-python src/summarize.py         # → data/digest.json      （用 API）
-python src/render.py            # → docs/index.html + docs/archive/
-python src/feed.py              # → docs/feed.xml
-python src/commit_memory.py     # → data/memory.json
-```
+两条入口共用同一并发组，避免同时发布。生成任务取得 contents:write；独立部署任务只取得 pages:write 和 id-token:write。工作流直接部署 Pages 产物，不依赖机器人提交再次触发构建。
 
-只调版式不想烧 API：留着 `data/digest.json`，反复跑 `render.py` 就行。
+仓库需要启用 GitHub Pages。建议在 Settings → Pages → Build and deployment 中将 Source 设为 GitHub Actions；若保留分支发布，来源分支必须为 main，目录为 /docs，且 github-pages 环境规则允许 main 部署。详情见 [GitHub 官方部署说明](https://github.com/actions/deploy-pages#security-considerations)。仓库 Actions Secrets 需配置 DEEPSEEK_API_KEY；Reddit 和 Discord 凭据仍为可选。
 
-`data/memory.json` 是跨天去重和「线索追踪」的唯一状态，**必须提交进仓库**，否则每天都是第一天。调试时如果被 −30 的重复惩罚干扰，把它清成 `{}` 再跑。
+工作流文件通过本地检查不代表部署已经完成。发布后应查看 Actions 的 deploy 结果，再核对线上首页、来源目录和 RSS；新内容管线也需要一次实际运行验证。
 
----
+## 证据边界
 
-## 配置
+- 原始发布日期和 updated 分开；抓取时间不是发布日期。
+- RSS 摘要、RSS 内容字段、网页正文分别保存，不按摘要长度冒充全文。
+- 取得正文失败的近期精选退回日报简述；旧文不会被补成当天新闻。
+- 只依据实际材料归纳。作者观点与编辑阅读角度明确区分；缺失事实不补写。
+- 转载数量不自动证明独立验证；页面不展示伪精确的质量分数。
+- 30 天发布记忆记录事件 key 与原文链接；同一天重跑不重复计数。
+- 没有合适内容就展示真实空状态，不用热门仓库、泛 AI 论文或求助帖填满版面。
 
-仓库 Settings → Secrets → Actions 里加 `DEEPSEEK_API_KEY`。只有聚类和摘要两步用到它，别的步骤不需要。
+## 验证
 
-Settings → Pages → Source 选默认分支（`main`）的 `/docs` 目录。
+    python -m unittest discover -s tests -v
 
-Actions 每天 UTC 00:30（北京 08:30）跑一次，产物提交 `docs/` 和 `data/`。
-
-## 成本
-
-13 次调用、约 8 万 input token / 天。DeepSeek 现价下大约 ¥0.1–0.2 一天，一年不到 70 块。运行 4–6 分钟。
-
-## 已知会慢性衰退的地方
-
-RSS 源静默失效是这类项目最常见的死法：路径改了、站点关了，`_safe_fetch` 只打一行 WARN，日报悄悄变薄。所以 `data/health.json` 记录每个源的产出条数和**连续零产出天数**，连续超过 `HEALTH_ALERT_DAYS`（默认 7 天）才在页面底部告警。
-
-不按当天零产出告警，是因为当天 0 条完全可能是正常的：DeepMind、Unreal Engine 官博本来就不天天发，72 小时窗口里空手而归是常态。当天就报警等于每天喊狼来了，喊几次之后这行字会被彻底忽略——那时候真挂了也看不见。
+测试覆盖时间窗口、来源解析、分类隔离、AI 配额、去重、发布记忆、摘要降级，以及 HTML/RSS 输出。
+更换源或权重后，还应抓取一轮真实数据检查；固定样例不能证明所有站点一直可用。

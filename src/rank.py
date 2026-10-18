@@ -1,242 +1,223 @@
-"""阶段③打分排序：可解释、可复现、免费。
-
-为什么不让 LLM 决定重要性：
-  它没有全局视野（批处理时只能看到 10 条），而且结果不可复现、不可调试。
-  v1 的「今日精选」就是这么坏掉的：BATCH_SIZE=10 配「最多选 5 篇」
-  = 100 篇能选出 50 篇「精选」。
-
-这里的分数会直接显示在页面上，附带评分依据。
-排序逻辑可见 = 排序逻辑可被质疑和调整。
-"""
+"""游戏日报、策划精选、AI 精华各自筛选，来源热度不再决定版面。"""
 import json
-import math
 import os
+import re
 import sys
 from datetime import datetime, timezone, timedelta
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from config import (
-    RELEVANT_KEYWORDS, RELEVANT_BONUS, COMBAT_KEYWORDS, COMBAT_BONUS,
-    DEEP_READ_TOP, DEEP_READ_RELEVANT,
-    DEEP_READ_MIN_SCORE, MAX_PAPERS, MAX_REPOS, MAX_DIVERSE, MAX_GRAPHICS,
-    MEMORY_DAYS, REPEAT_PENALTY,
-    COVERAGE_WEIGHT, HN_FACTOR, HF_FACTOR, STAR_FACTOR,
-    HN_FRONTPAGE, HN_FRONTPAGE_BONUS,
-)
+import config
+from cluster import canonical_url, _event_key
 
 TZ = timezone(timedelta(hours=8))
-COMBAT_SET = frozenset(COMBAT_KEYWORDS)
+SECTIONS = ("news", "features", "ai")
+TOPICS = {
+    "战斗设计": ["combat", "战斗", "打击感", "boss", "招式"],
+    "关卡设计": ["level design", "关卡", "open world", "开放世界", "blockout"],
+    "系统设计": ["game design", "mechanic", "system design", "系统设计", "机制", "构筑", "数值"],
+    "玩家体验": ["onboarding", "accessibility", "player experience", "玩家体验", "引导", "无障碍"],
+    "开发动态": ["engine", "unreal", "unity", "godot", "开发工具", "制作流程", "原型"],
+    "行业动态": ["acquisition", "layoff", "sales", "裁员", "收购", "销量", "市场"],
+}
+ANALYSIS = ["postmortem", "design decisions", "designing", "lessons", "interview", "behind the",
+            "how we", "复盘", "拆解", "分析", "设计思路", "专访", "访谈", "经验", "设计方法"]
+NOISE = ["抽奖", "优惠码", "购买指南", "招聘", "求助", "首席营销官", "出任首席", "广告变现",
+         "help me", "how do i", "hiring", "giveaway", "chief marketing officer"]
+GAME_CHANGES = ["dlc", "patch", "expansion", "early access", "demo", "gameplay", "试玩", "版本", "更新", "新作", "玩法", "关卡"]
+AI_USEFUL = ["release", "launch", "introduc", "available", "workflow", "tool", "coding", "agent",
+             "发布", "上线", "开放", "编程", "工具", "工作流", "原型", "研究", "更新"]
 
 
-def match_relevant(text: str) -> list[str]:
-    """返回命中的相关词。命中不叠加计分，但全部展示（让人看到为什么被选中）。
-
-    返回顺序沿用 RELEVANT_KEYWORDS 的顺序，而战斗词排在词表最前，
-    所以 hits[0] 永远优先是战斗词 —— 页面徽章显示的就是它。
-    """
-    low = text.lower()
-    return [kw for kw in RELEVANT_KEYWORDS if kw in low]
-
-
-def relevant_text(ev: dict) -> str:
-    """决定拿什么文本去撞关键词表。
-
-    tier3（聚合/社区源）只看标题，不看正文 —— 这是「宁缺毋滥」。
-    实测 2026-08-04：r/unrealengine 的求助帖正文里随口提一句 "unreal university
-    video"，就能拿满 +20 分挤进「能用上的」，而它对读者没有任何增量。
-    标题是发帖人自己做的主题声明，正文只是上下文；用正文匹配等于让「提到过」
-    冒充「讲的是」。
-    一手源和分析源保留正文匹配：它们的标题常是市场化措辞，
-    真正的技术关键词往往在正文里（例如 NVIDIA 博客标题不提 Nanite）。
-    """
-    if ev.get("tier", 2) >= 3:
-        return ev.get("title", "")
-    return f"{ev.get('title', '')} {ev.get('summary_raw', '')}"
-
-
-def score_event(ev: dict, memory: dict, now: datetime) -> dict:
-    sig = ev.get("signals", {})
-    parts = []
-
-    # ① 跨源覆盖 —— 最强信号。多家独立报道同一件事，说明它真的发生了且重要。
-    cov = min(ev.get("coverage", 1), 5)
-    cov_score = cov * COVERAGE_WEIGHT
-    if ev.get("coverage", 1) > 1:
-        parts.append((f"{ev['coverage']} 源报道", cov_score))
-    else:
-        parts.append(("单源", cov_score))
-
-    # ② 源权威档位
-    tw = ev.get("tier_weight", 2)
-    tier_name = {18: "一手源", 8: "分析源", 2: "聚合源"}.get(tw, "源")
-    parts.append((tier_name, tw))
-
-    # ③ 社区热度
-    hn = sig.get("hn_points", 0)
-    if hn:
-        s = math.log1p(hn) * HN_FACTOR
-        parts.append((f"HN {hn}", s))
-        if hn >= HN_FRONTPAGE:
-            parts.append(("HN 头条", HN_FRONTPAGE_BONUS))
-    hf = sig.get("hf_upvotes", 0)
-    if hf:
-        s = math.log1p(hf) * HF_FACTOR
-        parts.append((f"HF ▲{hf}", s))
-    st = sig.get("stars_today", 0)
-    if st:
-        s = math.log1p(st) * STAR_FACTOR
-        parts.append((f"+{st}★/日", s))
-    rb = sig.get("rank_bonus", 0.0)
-    if rb:
-        parts.append(("社区置顶", rb))
-
-    # ④ 个人相关度 —— 「能用上的」栏目的唯一机制。
-    #    战斗策划核心词给 32 分而不是 20：栏目内部按分数排序，
-    #    这个差额保证「战斗手感/GAS/帧数据」类条目排在「引擎版本更新」之前。
-    hits = match_relevant(relevant_text(ev))
-    is_combat = any(h in COMBAT_SET for h in hits)
-    if hits:
-        bonus = COMBAT_BONUS if is_combat else RELEVANT_BONUS
-        label = f"战斗「{hits[0]}」" if is_combat else f"命中「{hits[0]}」"
-        parts.append((label, bonus))
-
-    # ⑤ 新颖度惩罚：14 天内报过 → 扣分，但标记为后续追踪
-    followup = None
-    mem = memory.get(ev["key"])
-    if mem:
-        parts.append(("已报过", -REPEAT_PENALTY))
-        followup = mem
-
-    # ⑥ 无时间戳轻微扣分（无法确认新鲜度）
-    if ev.get("undated"):
-        parts.append(("无日期", -4))
-
-    total = sum(v for _, v in parts)
-
-    ev["score"] = round(total, 1)
-    ev["score_parts"] = [{"label": k, "value": round(v, 1)} for k, v in parts]
-    ev["relevant_hits"] = hits
-    ev["is_relevant"] = bool(hits)
-    ev["is_combat"] = is_combat
-    ev["followup"] = followup
-    return ev
-
-
-def load_memory(path: str, now: datetime) -> dict:
-    if not os.path.exists(path):
-        return {}
+def parse_date(value):
+    if not value:
+        return None
     try:
-        with open(path, encoding="utf-8") as f:
-            raw = json.load(f)
-    except (json.JSONDecodeError, OSError):
+        date = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        return date.replace(tzinfo=timezone.utc) if date.tzinfo is None else date
+    except (ValueError, TypeError):
+        return None
+
+
+def relevant_text(event):
+    return f"{event.get('title', '')} {event.get('summary_raw', '')}".lower()
+
+
+def match_relevant(text):
+    return [word for words in TOPICS.values() for word in words if word in text.lower()]
+
+
+def event_urls(event):
+    return {canonical_url(url) for url in [event.get("url")] +
+            [m.get("url") for m in event.get("members", [])] if url}
+
+
+def load_memory(path, now):
+    try:
+        with open(path, encoding="utf-8") as handle:
+            raw = json.load(handle)
+        cutoff = (now - timedelta(days=config.MEMORY_DAYS)).strftime("%Y-%m-%d")
+        return {k: v for k, v in raw.items() if v.get("last_seen", "") >= cutoff}
+    except (OSError, ValueError):
         return {}
-    cutoff = (now - timedelta(days=MEMORY_DAYS)).strftime("%Y-%m-%d")
-    return {k: v for k, v in raw.items() if v.get("last_seen", "") >= cutoff}
 
 
-def save_memory(path: str, memory: dict, published: list[dict], today: str) -> None:
-    for ev in published:
-        m = memory.get(ev["key"], {"title": ev["title"], "first_seen": today, "times": 0})
-        m["title"] = ev["title"]
-        # 同一天重跑不重复计数。workflow_dispatch 手动重跑、或失败后重试都会
-        # 走到这里，times 被叠加的话「累计出现 N 次」就成了假数据。
-        if m.get("last_seen") != today:
-            m["times"] = m.get("times", 0) + 1
-        m["last_seen"] = today
-        memory[ev["key"]] = m
+def save_memory(path, memory, published, today):
+    for event in published:
+        old = memory.get(event["key"], {"first_seen": today, "times": 0})
+        if old.get("last_seen") != today:
+            old["times"] = old.get("times", 0) + 1
+        old.update(title=event["title"], last_seen=today,
+                   urls=sorted(set(old.get("urls", [])) | event_urls(event)))
+        memory[event["key"]] = old
     os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(memory, f, ensure_ascii=False, indent=2)
+    with open(path, "w", encoding="utf-8") as handle:
+        json.dump(memory, handle, ensure_ascii=False, indent=2)
 
 
-def build_digest(events: list[dict], memory: dict, now: datetime) -> dict:
-    for ev in events:
-        score_event(ev, memory, now)
+def score_event(event, memory, now):
+    text = relevant_text(event)
+    category = event.get("category", "games")
+    published = parse_date(event.get("published"))
+    hours = (now - published).total_seconds() / 3600 if published else None
+    analysis_words = list(getattr(config, "ANALYSIS_KEYWORDS", [])) + ANALYSIS
+    analysis = category == "design" or any(word.lower() in event.get("title", "").lower() for word in analysis_words)
+    topic = next((name for name, words in TOPICS.items() if any(w in text for w in words)),
+                 "开发动态" if category == "development" else "产品观察" if analysis else "新游动态")
+    parts = [{"label": "来源", "value": {1: 18, 2: 12, 3: 2}.get(event.get("tier", 2), 2)},
+             {"label": "游戏与玩法变化", "value": 8 if category != "ai" and any(word in event.get("title", "").lower() for word in GAME_CHANGES) else 0},
+             {"label": "近期", "value": 10 if hours is not None and 0 <= hours <= 24 else 5 if hours is not None and 0 <= hours <= 72 else 0},
+             {"label": "分析与方法", "value": 12 if analysis else 0},
+             {"label": "多源", "value": min(max(event.get("coverage", 1) - 1, 0), 2) * 3}]
+    event.update(score=sum(p["value"] for p in parts), score_parts=parts,
+                 topic=topic, is_analysis=analysis, age_hours=hours,
+                 evergreen=bool(event.get("library") or event.get("classic_discovery")),
+                 content_type="经典阅读" if event.get("library") or event.get("classic_discovery") else "分析" if analysis else "新闻")
+    return event
 
-    main = sorted((e for e in events if e["pool"] == "main"),
-                  key=lambda e: e["score"], reverse=True)
-    papers = sorted((e for e in events if e["pool"] == "paper"),
-                    key=lambda e: e["score"], reverse=True)[:MAX_PAPERS]
-    graphics = sorted((e for e in events if e["pool"] == "graphics"),
-                      key=lambda e: e["score"], reverse=True)[:MAX_GRAPHICS]
-    repos = sorted((e for e in events if e["pool"] == "repo"),
-                   key=lambda e: e["score"], reverse=True)[:MAX_REPOS]
-    diverse = sorted((e for e in events if e["pool"] == "diverse"),
-                     key=lambda e: e["score"], reverse=True)[:MAX_DIVERSE]
 
-    used = set()
+def diverse_pick(events, limit, max_per_source=3):
+    """Quality ordering with a source cap; no forced 50/50 language quota."""
+    if limit <= 0:
+        return []
+    picked, counts, platforms = [], {}, {}
+    for event in sorted(events, key=lambda e: (e["score"], e.get("published") or ""), reverse=True):
+        source = (event.get("sources") or [""])[0]
+        platform = event.get("platform", "")
+        if counts.get(source, 0) >= max_per_source:
+            continue
+        if platforms.get(platform, 0) >= config.PLATFORM_CAPS.get(platform, limit):
+            continue
+        picked.append(event)
+        counts[source] = counts.get(source, 0) + 1
+        platforms[platform] = platforms.get(platform, 0) + 1
+        if len(picked) >= limit:
+            break
+    return picked
 
-    # 「线索追踪」：14 天内报过、今天又有新报道的事件
-    threads = [e for e in main if e.get("followup") and e["coverage"] >= 2][:3]
-    used.update(id(e) for e in threads)
 
-    # 「能用上的」先挑 —— 顺序很重要。
-    # 如果先挑必读，命中相关词的条目（+20 分）会因为分高被必读区吸走，
-    # 专属栏目反而只剩边角料。这个栏目的存在意义就是无条件优先。
-    relevant = [e for e in main if id(e) not in used and e["is_relevant"]][:DEEP_READ_RELEVANT]
-    used.update(id(e) for e in relevant)
+def build_digest(events, memory, now):
+    today = now.astimezone(TZ).strftime("%Y-%m-%d")
+    # Re-running today's issue is idempotent; prior days' published links are excluded.
+    previous = {k: v for k, v in memory.items() if v.get("last_seen") != today}
+    reported_urls = {u for value in previous.values() for u in value.get("urls", [])}
+    candidates, review_queue, seen_urls, seen_keys = [], [], set(), set()
+    for source_event in events:
+        event = dict(source_event)
+        if event.get("publication_scope", "public") != "public":
+            continue
+        urls = event_urls(event)
+        if (event["key"] in previous or urls & reported_urls or urls & seen_urls
+                or event["key"] in seen_keys):
+            continue
+        score_event(event, memory, now)
+        if event["age_hours"] is not None and event["age_hours"] < 0:
+            continue
+        reason = None
+        community = event.get("requires_review") or str(event.get("evidence_kind", "")).startswith("community")
+        title = event.get("title", "").lower()
+        if community and (re.search(r"\b(?:how|what|where|which) (?:can|could|should|do) i\b|\bhelp me\b", title)
+                          or any(word in title for word in ("求助", "请问", "求推荐"))):
+            event["is_question"] = True
+        if event.get("requires_transcript") or event.get("discovery_only"):
+            reason = "待字幕或正文核验" if event.get("requires_transcript") else "待核验公开原文"
+        elif event.get("is_question"):
+            reason = "社区提问，尚不能作为分析结论"
+        elif event.get("requires_review") or event.get("tier", 2) > 2:
+            text = event.get("body") or event.get("rss_content") or ""
+            reviewable = (event.get("platform") != "discord" and event.get("is_analysis")
+                          and len(text) >= 500 and (event.get("has_body")
+                          or event.get("content_kind") == "community_selftext"))
+            if not event.get("reviewed") and not reviewable:
+                reason = "社区线索待核验正文与上下文"
+        if reason:
+            review_queue.append({key: event.get(key) for key in
+                                 ("key", "title", "url", "sources", "source_id", "platform", "published",
+                                  "original_url", "discovery_url", "evidence_kind", "content_kind", "is_question")}
+                                | {"reason": reason})
+            continue
+        if any(word in relevant_text(event) for word in NOISE):
+            continue
+        candidates.append(event)
+        seen_urls |= urls
+        seen_keys.add(event["key"])
 
-    # 「今日必读」：分数阈值制 —— 宁可当天只有 2 条，也不凑数
-    lead = [e for e in main if id(e) not in used and e["score"] >= DEEP_READ_MIN_SCORE][:DEEP_READ_TOP]
-    used.update(id(e) for e in lead)
+    game = [e for e in candidates if e.get("category", "games") in {"games", "design", "development"}]
+    feature_pool = [e for e in game if e["is_analysis"] and
+                    (e.get("category") == "design" or e.get("library")
+                     or len(e.get("summary_raw", "")) >= 80 or e.get("rss_content"))]
+    features = diverse_pick([e for e in feature_pool if not e.get("library")], config.FEATURES_MAX, 1)
+    if len(features) < config.FEATURES_MAX:
+        features.extend(diverse_pick([e for e in feature_pool if e.get("library")],
+                                     config.FEATURES_MAX - len(features), 1))
+    used = {e["key"] for e in features}
+    reserves = diverse_pick([e for e in feature_pool if e["key"] not in used], config.FEATURES_MAX, 1)
+    used.update(e["key"] for e in reserves)
+    news = diverse_pick([e for e in game if e["key"] not in used and not e.get("library")
+                         and not e.get("undated") and e["age_hours"] is not None
+                         and 0 <= e["age_hours"] <= config.FRESH_WINDOW_HOURS], config.NEWS_MAX)
+    # A large model-release day cannot take over a small game issue.
+    ai_limit = min(config.AI_MAX, (len(news) + len(features)) // 6)
+    ai = diverse_pick([e for e in candidates if e.get("category") == "ai"
+                       and not e.get("undated") and e["age_hours"] is not None
+                       and 0 <= e["age_hours"] <= config.FRESH_WINDOW_HOURS
+                       and any(word in relevant_text(e) for word in AI_USEFUL)], ai_limit, 1)
+    for name, entries in (("news", news), ("features", features), ("ai", ai)):
+        for entry in entries:
+            entry["section"] = name
+    return {"schema_version": 3, "date": today, "generated_at": now.astimezone(TZ).isoformat(),
+            "news": news, "features": features, "feature_candidates": reserves, "ai": ai,
+            "review_queue": review_queue,
+            "stats": {"events": len(events), "news": len(news), "features": len(features), "ai": len(ai),
+                      "review_candidates": len(review_queue),
+                      "multi_source": sum(e.get("coverage", 1) > 1 for e in news + features + ai)}}
 
-    used.update(id(e) for e in papers + graphics + repos + diverse)
-    brief = [e for e in main if id(e) not in used]
 
-    for e in lead:
-        e["section"] = "lead"
-    for e in relevant:
-        e["section"] = "relevant"
-    for e in threads:
-        e["section"] = "thread"
-
-    return {
-        "generated_at": now.astimezone(TZ).isoformat(),
-        "date": now.astimezone(TZ).strftime("%Y-%m-%d"),
-        "lead": lead,
-        "relevant": relevant,
-        "threads": threads,
-        "papers": papers,
-        "graphics": graphics,
-        "repos": repos,
-        "diverse": diverse,
-        "brief": brief,
-        "stats": {
-            "events": len(events),
-            "main_events": len(main),
-            "multi_source": sum(1 for e in main if e["coverage"] > 1),
-            "deep_read": len(lead) + len(relevant),
-        },
-    }
+def load_library(path):
+    try:
+        with open(path, encoding="utf-8") as handle:
+            entries = json.load(handle)
+    except OSError:
+        return []
+    for entry in entries:
+        entry.update(key=_event_key(entry["title"]), pool="main", category="design", library=True,
+                     coverage=1, tier=1, tier_weight=18, undated=not bool(entry.get("published")))
+    return entries
 
 
 def main():
     inp = sys.argv[1] if len(sys.argv) > 1 else "data/events.json"
     out = sys.argv[2] if len(sys.argv) > 2 else "data/ranked.json"
     mem_path = sys.argv[3] if len(sys.argv) > 3 else "data/memory.json"
-
+    with open(inp, encoding="utf-8") as handle:
+        events = json.load(handle)
+    events += load_library(os.path.join(os.path.dirname(__file__), "..", "data", "reading_library.json"))
     now = datetime.now(timezone.utc)
-    with open(inp, encoding="utf-8") as f:
-        events = json.load(f)
-
-    memory = load_memory(mem_path, now.astimezone(TZ))
-    digest = build_digest(events, memory, now)
-
+    digest = build_digest(events, load_memory(mem_path, now.astimezone(TZ)), now)
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
-    with open(out, "w", encoding="utf-8") as f:
-        json.dump(digest, f, ensure_ascii=False, indent=2)
-
-    s = digest["stats"]
-    print(f"[OK] 必读 {len(digest['lead'])} · 能用上 {len(digest['relevant'])} · "
-          f"追踪 {len(digest['threads'])} · 论文 {len(digest['papers'])} · "
-          f"图形 {len(digest['graphics'])} · 开源 {len(digest['repos'])} · 速览 {len(digest['brief'])}")
-    print(f"[OK] {s['main_events']} 个主事件，其中 {s['multi_source']} 个多源报道 → {out}")
-
-    # 注意：这里**不**写 memory.json。
-    # 深读阶段还会把不达标的条目降级踢回速览区，如果在这里就记进记忆，
-    # 那些条目明天会被扣 30 分「已报过」，等于永久沉底 —— 它们其实从没露过面。
-    # 记忆由 commit_memory.py 在流水线最后一步、按最终发布结果写入。
+    with open(out, "w", encoding="utf-8") as handle:
+        json.dump(digest, handle, ensure_ascii=False, indent=2)
+    queue_path = os.path.join(os.path.dirname(os.path.abspath(out)), "review_queue.json")
+    with open(queue_path, "w", encoding="utf-8") as handle:
+        json.dump(digest["review_queue"], handle, ensure_ascii=False, indent=2)
+    print(f"[OK] 日报 {len(digest['news'])} · 精选 {len(digest['features'])} · AI {len(digest['ai'])} → {out}")
 
 
 if __name__ == "__main__":

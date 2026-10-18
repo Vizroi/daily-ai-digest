@@ -1,82 +1,65 @@
-"""阶段④-a 抓正文：只对进入深读区的十几条抓全文。
-
-这是「摘要没信息量」的正面解药。
-v1 给 LLM 的输入是 300 字符的 RSS 摘要 —— 它不可能产出比标题更多的信息。
-"""
+"""读取本期候选原文；RSS 摘要永远不会被标成已获取正文。"""
 import concurrent.futures as futures
 import json
 import os
 import sys
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-MAX_CHARS = 6000
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/121.0 Safari/537.36")
+MAX_CHARS = 10000
 
 
-def extract(url: str) -> str | None:
-    """抓正文。trafilagura 专为此设计，比 readability 干净得多。"""
+def extract(url):
     try:
+        import requests
         import trafilatura
-    except ImportError:
-        print("[WARN] 未安装 trafilatura，跳过正文抓取")
-        return None
-    try:
-        downloaded = trafilatura.fetch_url(url)
-        if not downloaded:
+        response = requests.get(url, timeout=(8, 20), headers={
+            "User-Agent": "GameDesignDaily/3.0 (+https://github.com/Vizroi/daily-ai-digest)"})
+        response.raise_for_status()
+        if len(response.content) > 6_000_000:
             return None
-        text = trafilatura.extract(
-            downloaded,
-            include_comments=False,
-            include_tables=True,
-            no_fallback=False,
-        )
-        if not text:
+        # Pass bytes so trafilatura can determine the site's encoding.
+        text = trafilatura.extract(response.content, include_comments=False, include_tables=True)
+        if not text or len(text.strip()) < 400:
             return None
-        text = text.strip()
-        return text[:MAX_CHARS] if len(text) > 200 else None
+        return text.strip()
     except Exception:
         return None
 
 
-def enrich(events: list[dict], workers: int = 6) -> list[dict]:
-    """给每个 event 加 body 字段。抓不到就留空，summarize 会降级并诚实标注。"""
-    targets = [e for e in events if e.get("url")]
-
-    def one(ev: dict) -> tuple[dict, str | None]:
-        # Reddit 自帖：trafilatura 抓不到（页面是 JS 渲染的），但 RSS 摘要本身
-        # 就是完整帖子正文，不是截断的导语 —— 直接采用，不算「未取到正文」。
-        if "reddit.com" in ev["url"]:
-            body = (ev.get("summary_raw") or "").strip()
-            return ev, (body if len(body) > 200 else None)
-        return ev, extract(ev["url"])
-
-    ok = 0
-    with futures.ThreadPoolExecutor(workers) as ex:
-        for ev, body in ex.map(one, targets):
-            ev["body"] = body or ""
-            ev["has_body"] = bool(body)
-            if body:
-                ok += 1
-
-    print(f"[OK] 正文抓取: {ok}/{len(targets)} 成功")
+def enrich(events, workers=6):
+    def one(event):
+        if event.get("publication_scope", "public") != "public" or event.get("requires_transcript"):
+            return event, None
+        if event.get("has_body") and event.get("body"):
+            return event, event["body"]
+        if event.get("content_kind") in {"api_content", "community_selftext"} and event.get("rss_content"):
+            return event, event["rss_content"]
+        # An excerpt of a question is not a solved problem or full post.
+        if "reddit.com" in event.get("url", ""):
+            return event, None
+        return event, extract(event["url"])
+    targets = [event for event in events if event.get("url")]
+    with futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        for event, body in executor.map(one, targets):
+            event["body"] = (body or "")[:MAX_CHARS]
+            event["has_body"] = bool(body)
+            event["body_truncated"] = bool(event.get("body_truncated") or (body and len(body) > MAX_CHARS))
+            kind = event.get("content_kind", "source_excerpt")
+            event["content_kind"] = ("community_body" if kind == "community_selftext" else
+                                     "official_announcement_body" if kind == "api_content" else
+                                     "article_body") if body else kind
+    print(f"[OK] 原文读取 {sum(bool(e.get('has_body')) for e in targets)}/{len(targets)}")
     return events
 
 
 def main():
     inp = sys.argv[1] if len(sys.argv) > 1 else "data/ranked.json"
-    out = sys.argv[2] if len(sys.argv) > 2 else "data/ranked.json"
-
-    with open(inp, encoding="utf-8") as f:
-        digest = json.load(f)
-
-    deep = digest.get("lead", []) + digest.get("relevant", []) + digest.get("threads", [])
-    enrich(deep)
-
-    with open(out, "w", encoding="utf-8") as f:
-        json.dump(digest, f, ensure_ascii=False, indent=2)
-    print(f"[OK] 已写入 {out}")
+    out = sys.argv[2] if len(sys.argv) > 2 else inp
+    with open(inp, encoding="utf-8") as handle:
+        digest = json.load(handle)
+    sections = ("news", "features", "feature_candidates", "ai") if digest.get("schema_version") == 3 else ("lead", "relevant", "threads")
+    enrich([e for section in sections for e in digest.get(section, [])])
+    with open(out, "w", encoding="utf-8") as handle:
+        json.dump(digest, handle, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":

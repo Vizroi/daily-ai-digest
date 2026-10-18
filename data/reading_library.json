@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Keys to Combat Design: Anatomy of an Attack",
+    "title_cn": "攻击动作的结构：从预备到恢复",
+    "url": "https://gdkeys.com/keys-to-combat-design-1-anatomy-of-an-attack/",
+    "lang": "en",
+    "sources": [
+      "GDKeys"
+    ],
+    "published": "2020-04-25",
+    "published_precision": "day",
+    "summary_raw": "",
+    "editor_note": "来自现有收藏；讨论攻击动作的分段与战斗设计。"
+  },
+  {
+    "title": "Combat Design: How to Design Satisfying Combat Systems",
+    "title_cn": "战斗设计：机制、系统与体验",
+    "url": "https://gamedesignskills.com/game-design/combat-design/",
+    "lang": "en",
+    "sources": [
+      "Game Design Skills"
+    ],
+    "published": null,
+    "summary_raw": "",
+    "editor_note": "来自现有收藏；未确认原始发布日期，阅读时应保留作者观点和案例条件。"
+  },
+  {
+    "title": "How to make a level",
+    "title_cn": "关卡制作：从前期规划到灰盒与试玩",
+    "url": "https://book.leveldesignbook.com/process/overview",
+    "lang": "en",
+    "sources": [
+      "The Level Design Book"
+    ],
+    "published": null,
+    "summary_raw": "",
+    "editor_note": "补充的常青设计参考；按项目调整制作流程。"
+  },
+  {
+    "title": "Designing Without a Pitch — FTL Postmortem",
+    "title_cn": "《FTL》开发复盘：围绕目标体验迭代",
+    "url": "https://www.gdcvault.com/play/1019036/Designing-Without-a-Pitch-FTL",
+    "lang": "en",
+    "sources": [
+      "GDC Vault"
+    ],
+    "published": null,
+    "original_year": 2013,
+    "summary_raw": "",
+    "editor_note": "GDC 2013 演讲；只有演讲介绍时不能生成深读摘要。",
+    "requires_transcript": true
+  }
+]

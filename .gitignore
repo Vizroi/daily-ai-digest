@@ -9,6 +9,9 @@ data/raw.json
 data/raw.frozen.json
 data/events.json
 data/ranked.json
+data/source_inbox.json
+data/review_queue.json
+docs/preview-site/
 
 # 但这两个必须提交，别被上面的规则误伤：
 # data/digest.json  —— 当天成稿，render.py 的唯一输入

@@ -1,616 +1,434 @@
-"""阶段⑤渲染：少年漫分镜版式（低饱和印刷版）。
+"""A self-contained newspaper reader for the v3 game-design daily.
 
-设计意图
-────────
-读者是一个人，不是流量。页面的唯一任务：让他在 60 秒内决定今天什么值得看，
-并且看得见凭什么排这个序。
-
-视觉方向取自少年漫的分镜页：黑墨粗框 + 硬投影分格、集中線、伤害数字、对话气泡。
-选它的理由不是好看，是**它天生就是一套优先级语言** —— 一页漫画里哪一格重要，
-读者不用被告知，格子大小和网点密度已经说完了。日报要的正是这个。
-
-饱和度按使用者要求整体压低一档：朱红从 #D0021B 降到 #A8423A，
-高亮黄从荧光 #FFE94A 降到旧纸黄 #D8BF74，纸色用报纸灰而非亮白。
-低饱和让长文能读下去 —— 原色四色印刷适合封面，不适合每天读二十条。
-
-签名元素：标题右上角那个歪着的**伤害数字**。它就是 rank.py 算出的分数，
-底下压一条分段覆盖条（几家独立源报道了）。分数被画成打击力度，
-而不是藏在角标里 —— 排序逻辑可见 = 排序逻辑可被质疑和调整。
-
-克制的地方（Chanel 的那条建议）：集中線**只给今日必读的第一条**，
-伤害数字只出现在深读区；深水区和速览区退回安静的等宽小字。
-一页上五个爆点等于没有爆点。
+Public render(digest, health=None) and CLI arguments remain compatible. Diagnostics
+stay in logs, previews are marked, and existing historical HTML is never replaced.
 """
+import hashlib
 import html
 import json
 import os
+import re
 import sys
-from datetime import datetime, timezone, timedelta
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from config import DEEP_READ_MIN_SCORE, COVERAGE_WEIGHT, HEALTH_ALERT_DAYS
+from datetime import date, datetime, timezone, timedelta
+from urllib.parse import urlparse
 
 TZ = timezone(timedelta(hours=8))
-
+SITE = os.environ.get("DIGEST_SITE", "https://vizroi.github.io/daily-ai-digest").rstrip("/")
 WEEKDAY_CN = ["一", "二", "三", "四", "五", "六", "日"]
 
-CSS = """
-:root{color-scheme:light}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-
-:root{
-  /* 报纸灰，不是亮白也不是 AI 默认奶油色 */
-  --paper:#EDEAE1;
-  --panel:#F8F6F0;
-  --ink:#1F1C19;
-  --ink-line:#2A2622;      /* 硬投影用，比正文墨色浅一点，边界不至于糊成一团 */
-  --ink-soft:#5A554D;
-  --ink-faint:#8B8579;
-  --rule:#C9C3B6;
-  --rule-soft:#DCD7CB;
-  /* 降饱和朱红：只用于分数与优先级，绝不他用 */
-  --red:#A8423A;
-  --red-deep:#8A332C;
-  /* 旧纸黄：只用于命中徽章 */
-  --mustard:#D8BF74;
-  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  --sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",-apple-system,system-ui,sans-serif;
-  --num:"Bangers","Noto Sans SC",var(--sans);
-}
-
-html{-webkit-text-size-adjust:100%}
-body{
-  background:var(--paper);color:var(--ink);
-  font-family:var(--sans);font-size:15px;line-height:1.8;
-  font-feature-settings:"tnum";
-  padding:0 0 90px;
-}
-
-.wrap{max-width:820px;margin:0 auto;padding:0 22px}
-
-/* ── 报头 ── */
-.masthead{padding:38px 0 0}
-.masthead-top{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;
-  border-bottom:5px solid var(--ink);padding-bottom:8px}
-.masthead h1{
-  font-weight:900;font-size:42px;line-height:.95;letter-spacing:-.02em;
-  transform:skewX(-7deg);text-shadow:4px 4px 0 var(--red);
-}
-.masthead .dateline{margin-left:auto;font-family:var(--mono);font-size:11px;
-  color:var(--ink-soft);text-align:right;line-height:1.65;padding-bottom:3px}
-.masthead .dateline b{color:var(--ink);font-weight:700}
-
-/* 读数条：黑白交替的胶片格，编码今天这一期的加工量 */
-.readout{display:flex;flex-wrap:wrap;border-bottom:3px solid var(--ink)}
-.readout span{font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.02em;
-  padding:5px 11px;border-right:3px solid var(--ink);background:var(--ink);color:var(--paper)}
-.readout span:nth-child(even){background:transparent;color:var(--ink)}
-.readout span:last-child{border-right:0}
-
-/* ── 栏目名：斜切黑标签 ── */
-.section{margin-top:44px}
-.lbl{display:flex;align-items:baseline;gap:10px;
-  background:var(--ink);color:var(--paper);padding:5px 14px;
-  transform:skewX(-7deg);margin-bottom:16px}
-.lbl h2{font-weight:900;font-size:14px;letter-spacing:.3em;transform:skewX(7deg)}
-.lbl .en{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--mustard);transform:skewX(7deg)}
-.lbl .n{margin-left:auto;font-family:var(--mono);font-size:10px;transform:skewX(7deg);
-  color:#BDB6A6}
-.note{font-family:var(--mono);font-size:11px;color:var(--ink-soft);line-height:1.7;
-  margin:-6px 0 16px;padding-left:2px}
-
-/* ── 分格 ── */
-.panel{border:3px solid var(--ink);background:var(--panel);
-  box-shadow:6px 6px 0 var(--ink-line);margin-bottom:26px}
-.panel .top{position:relative;padding:22px 20px 16px}
-
-/* 集中線：只给头条一格。低饱和方案里它靠密度而不是颜色出效果 */
-.panel.hero .top::before{content:"";position:absolute;inset:-45%;pointer-events:none;
-  background:repeating-conic-gradient(from 0turn at 64% 38%,var(--ink) 0 .5deg,transparent .5deg 3.6deg);
-  -webkit-mask:radial-gradient(circle at 64% 38%,transparent 24%,#000 64%);
-  mask:radial-gradient(circle at 64% 38%,transparent 24%,#000 64%);opacity:.26}
-.panel.hero .top>*{position:relative}
-
-.panel h3{font-weight:900;font-size:26px;line-height:1.32;letter-spacing:-.005em;
-  max-width:23em;padding-right:96px}
-.panel.hero h3{font-size:30px}
-.panel h3 a{color:var(--ink);text-decoration:none;
-  border-bottom:2px solid transparent;transition:border-color .15s}
-.panel h3 a:hover,.panel h3 a:focus-visible{border-bottom-color:var(--red)}
-.panel h3 .orig{display:block;font-size:12px;font-weight:400;color:var(--ink-faint);
-  margin-top:7px;line-height:1.55;letter-spacing:0;padding-right:0}
-
-/* ── 签名元素：伤害数字 + 覆盖条 ── */
-.dmg{position:absolute;top:14px;right:16px;text-align:center;transform:rotate(8deg);z-index:2}
-.dmg b{display:block;font-family:var(--num);font-weight:400;font-size:54px;line-height:.82;
-  color:var(--red);-webkit-text-stroke:3px var(--ink);paint-order:stroke fill;letter-spacing:.02em}
-.dmg .unit{display:block;font-family:var(--mono);font-size:8.5px;font-weight:700;letter-spacing:.2em;
-  color:var(--ink-soft);margin-top:1px}
-.bars{display:flex;gap:2px;justify-content:center;margin-top:5px}
-.bar{width:7px;height:13px;background:var(--paper);border:2px solid var(--ink);
-  transform-origin:bottom;animation:rise .4s cubic-bezier(.2,.8,.2,1) backwards}
-.bar.on{background:var(--red)}
-.cov{display:block;font-family:var(--mono);font-size:9px;font-weight:700;color:var(--ink);
-  margin-top:3px;letter-spacing:.06em}
-@keyframes rise{from{transform:scaleY(.12);opacity:0}to{transform:scaleY(1);opacity:1}}
-
-/* ── 评分依据徽章 ── */
-/* 留出右上角伤害数字的地盘：标题只有一行时徽章会撞上去 */
-.why{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px;padding-right:100px}
-.why i{font-style:normal;font-family:var(--mono);font-size:10px;font-weight:700;
-  border:2px solid var(--ink);background:var(--mustard);padding:1.5px 7px;white-space:nowrap}
-.why i.rel{background:var(--ink);color:var(--paper)}
-.why i.neg{background:transparent;border-style:dashed;color:var(--ink-soft);font-weight:400}
-
-/* ── 三段式 ──
-   网点底纹只走左侧那条窄带（.segs::before）。
-   压在正文下面会明显吃掉可读性 —— 6px 的点阵和 15px 的汉字笔画同一个量级，
-   笔画和网点会互相干扰。漫画的网点本来也是铺在留白上，不是铺在对白上。 */
-.segs{position:relative;border-top:3px solid var(--ink);padding:18px 20px 8px 40px;
-  background:#FCFAF5}
-.segs::before{content:"";position:absolute;left:0;top:0;bottom:0;width:16px;
-  background-image:radial-gradient(circle at 1px 1px,var(--rule) 1.1px,transparent 1.2px);
-  background-size:6px 6px;border-right:1px solid var(--rule-soft)}
-.seg{display:grid;grid-template-columns:82px 1fr;gap:16px;padding-bottom:15px}
-.seg dt{font-weight:900;font-size:11px;letter-spacing:.06em;text-align:right;padding:4px 10px 0 0;
-  border-right:3px solid var(--ink);color:var(--ink)}
-.seg dd{font-size:15.5px;line-height:1.9;color:var(--ink)}
-.seg.hint dt{border-right-color:var(--rule);color:var(--ink-faint)}
-.seg.hint dd{font-size:13px;color:var(--ink-faint)}
-
-/* 对话气泡：只给「对你而言」。全文唯一的圆角，所以它一定被先看到 */
-.bub{position:relative;background:#fff;border:3px solid var(--ink);border-radius:20px;
-  padding:13px 18px;margin:2px 20px 24px;box-shadow:5px 5px 0 var(--red)}
-.bub::after{content:"";position:absolute;left:42px;bottom:-16px;width:0;height:0;
-  border:9px solid transparent;border-top:16px solid var(--ink)}
-.bub b{display:block;font-size:10.5px;font-weight:900;letter-spacing:.22em;
-  color:var(--red-deep);margin-bottom:4px}
-.bub p{font-size:15.5px;line-height:1.88;color:var(--ink)}
-.bub.none{box-shadow:5px 5px 0 var(--rule);border-color:var(--rule)}
-.bub.none::after{border-top-color:var(--rule)}
-.bub.none b,.bub.none p{color:var(--ink-faint)}
-
-/* ── 来源脚注 ── */
-.srcs{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);
-  padding:0 20px 15px;line-height:1.9}
-.srcs a{color:var(--ink-soft);text-decoration:none;border-bottom:1px dotted var(--rule)}
-.srcs a:hover,.srcs a:focus-visible{color:var(--red);border-bottom-color:var(--red)}
-.srcs .sep{opacity:.5;padding:0 5px}
-.fu{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);margin-top:11px}
-
-/* ── 深水区：安静的窄格，不给伤害数字 ── */
-.quiet{border:3px solid var(--ink);background:var(--panel)}
-.quiet .sub{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.14em;
-  text-transform:uppercase;background:var(--ink);color:var(--mustard);padding:4px 14px}
-.qi{padding:15px 18px;border-bottom:1px solid var(--rule-soft)}
-.qi:last-child{border-bottom:0}
-.qi h4{font-size:16px;font-weight:700;line-height:1.5}
-.qi h4 a{color:var(--ink);text-decoration:none;border-bottom:1.5px solid transparent}
-.qi h4 a:hover,.qi h4 a:focus-visible{border-bottom-color:var(--red)}
-.qi .meta{font-family:var(--mono);font-size:10px;color:var(--ink-faint);margin-top:5px}
-.qi .pitch{font-size:13.5px;color:var(--ink-soft);margin-top:6px;line-height:1.72}
-.qi .pitch b{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.1em;
-  color:var(--red-deep);margin-right:7px}
-
-/* ── 速览 ── */
-details.brief{border:3px solid var(--ink);background:var(--panel)}
-details.brief summary{font-family:var(--mono);font-size:11.5px;font-weight:700;color:var(--ink);
-  cursor:pointer;padding:11px 16px;list-style:none;display:flex;align-items:center;gap:9px}
-details.brief summary::-webkit-details-marker{display:none}
-details.brief summary::before{content:"＋";color:var(--red);font-size:13px;width:14px}
-details.brief[open] summary::before{content:"－"}
-details.brief[open] summary{border-bottom:3px solid var(--ink)}
-.brief-row{display:flex;gap:12px;align-items:baseline;padding:7px 16px;font-size:13.5px;
-  line-height:1.6;border-bottom:1px solid var(--rule-soft)}
-.brief-row:last-child{border-bottom:0}
-.brief-row .s{font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--ink-faint);
-  min-width:28px;text-align:right;flex-shrink:0}
-.brief-row a{color:var(--ink-soft);text-decoration:none;flex:1}
-.brief-row a:hover,.brief-row a:focus-visible{color:var(--red)}
-.brief-row .o{font-family:var(--mono);font-size:10px;color:var(--ink-faint);flex-shrink:0}
-
-/* ── 空区块 ── */
-.empty{border:3px dashed var(--rule);padding:20px;font-family:var(--mono);font-size:11.5px;
-  color:var(--ink-soft);line-height:1.85}
-
-/* ── 页脚 ── */
-footer{margin-top:56px;border-top:5px solid var(--ink);padding-top:13px;
-  font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);line-height:1.95}
-footer a{color:var(--ink-soft)}
-footer .health{margin-top:6px;color:#8A6A22}
-
-a:focus-visible,summary:focus-visible{outline:3px solid var(--red);outline-offset:2px}
-
-@media (max-width:640px){
-  body{font-size:14.5px}
-  .wrap{padding:0 15px}
-  .masthead{padding:24px 0 0}
-  .masthead h1{font-size:30px}
-  .masthead .dateline{margin-left:0;text-align:left}
-  .panel{box-shadow:4px 4px 0 var(--ink-line);margin-bottom:20px}
-  .panel .top{padding:18px 15px 14px}
-  /* 伤害数字在窄屏改成标题上方的横排，不再压住标题 */
-  .dmg{position:static;transform:none;text-align:left;display:flex;align-items:flex-end;gap:10px;
-    margin-bottom:10px}
-  .dmg b{font-size:40px;-webkit-text-stroke:2.5px var(--ink)}
-  .dmg .unit{margin:0 0 6px}
-  .bars{margin:0 0 7px}
-  .cov{margin:0 0 6px}
-  .panel h3,.panel.hero h3{font-size:21px;padding-right:0}
-  .why{padding-right:0}
-  .segs{padding:15px 15px 5px 28px}
-  .segs::before{width:12px}
-  .seg{grid-template-columns:1fr;gap:1px;padding-bottom:13px}
-  .seg dt{text-align:left;border-right:0;border-left:3px solid var(--ink);padding:0 0 0 9px}
-  .bub{margin:2px 15px 20px;padding:12px 15px}
-  .srcs{padding:0 15px 13px}
-  .section{margin-top:34px}
-}
-
-@media (prefers-reduced-motion:reduce){
-  *{animation:none!important;transition:none!important}
-}
-
-@media print{
-  body{background:#fff}
-  .panel{box-shadow:none;break-inside:avoid}
-  .panel.hero .top::before,.bars,details.brief{display:none}
-}
+CSS = r"""
+:root{color-scheme:light;--paper:#f1ede3;--panel:#faf8f1;--ink:#292d27;--soft:#5e635a;--muted:#74796d;--line:#d1d0c1;--rust:#9b493b;--sage:#4c6152;--wash:#e7eadf;--serif:Georgia,"Noto Serif SC","Source Han Serif SC","Songti SC",SimSun,serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;--mono:ui-monospace,SFMono-Regular,Consolas,monospace}
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px;-webkit-text-size-adjust:100%}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.85 var(--sans)}a{color:inherit;text-underline-offset:4px;text-decoration-thickness:1px}a:hover{color:var(--rust)}button,input,select{font:inherit}button,select{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--rust);outline-offset:4px}h1,h2,h3,p,dl,dd{margin:0}h1,h2,h3{text-wrap:balance}p{text-wrap:pretty}[hidden]{display:none!important}.wrap{width:min(1180px,100% - 88px);margin-inline:auto}.skip-link{position:fixed;top:10px;left:12px;z-index:20;padding:8px 16px;background:var(--ink);color:var(--panel);transform:translateY(-180%)}.skip-link:focus{transform:translateY(0)}.overline{font:10px var(--mono);letter-spacing:.17em;color:var(--sage)}
+.masthead{padding-top:27px}.masthead-top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-bottom:13px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.09em;color:var(--soft)}.top-links{display:flex;gap:22px;flex-wrap:wrap}.top-links a{text-decoration:none}.brand-row{display:flex;justify-content:space-between;align-items:center;gap:30px;padding:30px 0 26px}.brand{min-width:0}.brand h1{font:900 clamp(42px,5.8vw,72px)/1.2 var(--serif);letter-spacing:.06em}.brand-en{margin-top:10px;font:12px var(--mono);letter-spacing:.29em;color:var(--soft)}.edition{text-align:right;flex-shrink:0}.edition-date{font:27px/1.3 var(--serif);letter-spacing:.02em}.edition-day{margin-top:6px;font-size:11px;color:var(--soft);letter-spacing:.06em}.edition-status{display:inline-block;margin-top:10px;padding:2px 9px;border:1px solid var(--sage);color:var(--sage);font-size:10px;letter-spacing:.1em}.edition-status.preview{border-color:var(--rust);color:var(--rust)}.strapline{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:10px 0;border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);font-size:12px;color:var(--soft)}.strapline strong{font-weight:500;color:var(--ink)}.edition-count{font:10px var(--mono);white-space:nowrap}.nav{display:flex;gap:28px;flex-wrap:wrap;padding:14px 0;border-bottom:1px solid var(--line)}.nav a{text-decoration:none;font-size:12px;font-weight:600}.nav small{font:10px var(--mono);color:var(--muted);margin-left:5px}.preview-note{margin-top:20px;padding:12px 16px;border-left:3px solid var(--rust);background:#eee2d6;color:#754235;font-size:12px}.preview-note strong{margin-right:8px}
+.edition-grid{display:grid;grid-template-columns:minmax(0,1fr) 258px;gap:48px;align-items:start;margin-top:44px}.main-column,.sidebar{min-width:0}.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding-bottom:18px;border-bottom:2px solid var(--ink)}.section-kicker{display:block;margin-bottom:7px;font:10px var(--mono);letter-spacing:.16em;color:var(--sage)}.section-head h2{font:700 29px/1.35 var(--serif);letter-spacing:.02em}.section-subtitle{margin-top:8px;font-size:12px;color:var(--soft)}.section-count{flex-shrink:0;font-size:11px;color:var(--soft);white-space:nowrap}.section-count b{font:24px/1 var(--serif);color:var(--ink);margin-right:4px}
+.filter-panel{padding:17px 0 13px;border-bottom:1px solid var(--line)}.filter-fields{display:grid;grid-template-columns:minmax(180px,1fr) minmax(105px,145px) minmax(90px,116px);gap:10px}.field{display:block;min-width:0}.field span{display:block;margin-bottom:5px;font-size:10px;color:var(--soft);letter-spacing:.07em}.field input,.field select{width:100%;min-width:0;height:39px;border:1px solid #b9bdaf;border-radius:0;background:var(--panel);padding:0 11px;color:var(--ink);font-size:12px}.field input::placeholder{color:var(--muted)}.field input:focus,.field select:focus{border-color:var(--sage)}.filter-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px;font-size:10px;color:var(--soft)}.text-button{border:0;padding:3px 0;background:transparent;color:var(--sage);font-size:11px;text-decoration:underline;text-underline-offset:3px}.filter-empty{padding:42px 22px;border-bottom:1px solid var(--line);text-align:center}.filter-empty h3{font:21px var(--serif);margin-bottom:8px}.filter-empty p{font-size:12px;color:var(--soft);margin-bottom:14px}
+.news-list{list-style:none;padding:0;margin:0}.news-item{padding:23px 0 24px;border-bottom:1px solid var(--line);scroll-margin-top:24px}.story-topline{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:10px;line-height:1.5;color:var(--soft)}.story-number{font:11px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}.topic{color:var(--sage);font-size:10px;letter-spacing:.04em}.topic::before{content:"";display:inline-block;width:5px;height:5px;margin:0 7px 1px 0;background:var(--sage)}.story-date{margin-left:auto;font:10px var(--mono);color:var(--soft);white-space:nowrap}.permalink{text-decoration:none;color:var(--muted);font:12px var(--mono);padding:1px 4px}.news-title{font:700 22px/1.55 var(--serif);letter-spacing:.005em}.news-title a,.feature-title a,.ai-title a{text-decoration:none}.news-list>li:first-child .news-title{font-size:29px;line-height:1.5}.original-title{display:block;margin-top:5px;font:400 11px/1.65 var(--sans);color:var(--muted);letter-spacing:0;text-wrap:wrap}.story-summary{font-size:13px;color:var(--soft);line-height:1.95;margin-top:11px}.planner-note{margin-top:12px;font-size:12px;line-height:1.85;color:var(--soft)}.planner-note span{font-size:10px;font-weight:700;color:var(--sage);margin-right:8px}.story-background{margin-top:10px;font-size:12px;color:var(--soft)}.story-background summary{width:fit-content;cursor:pointer;color:var(--sage);font-size:10px}.story-background p{padding-top:7px;line-height:1.85}.source-line{display:flex;flex-wrap:wrap;align-items:baseline;gap:5px 10px;margin-top:13px;font-size:10px;line-height:1.75;color:var(--muted)}.source-line a{color:var(--soft);text-decoration:none;border-bottom:1px solid #c9cbbb}.source-line a:hover{color:var(--rust);border-color:var(--rust)}.source-line .lang-label{font:9px var(--mono);letter-spacing:.04em;color:var(--sage)}.source-note{font-size:10px;color:var(--muted);margin-top:6px}.no-content{padding:30px 0;font-size:13px;color:var(--soft)}
+.sidebar{border-top:2px solid var(--ink);padding-top:16px}.sidebar h2{font:700 20px/1.4 var(--serif)}.sidebar-deck{font-size:12px;color:var(--soft);line-height:1.9;margin-top:10px}.issue-totals{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:21px;padding-bottom:23px;border-bottom:1px solid var(--line)}.issue-totals div{border-right:1px solid var(--line);padding-right:8px}.issue-totals div:last-child{border-right:0}.issue-totals b{display:block;font:28px/1.2 var(--serif)}.issue-totals span{display:block;margin-top:7px;font-size:10px;color:var(--soft)}.guide-title{font-size:10px;font-weight:600;color:var(--sage);letter-spacing:.12em;margin-top:22px}.guide-list{list-style:none;padding:0;margin:8px 0 0}.guide-list li{padding:13px 0;border-bottom:1px solid var(--line)}.guide-list small{font:9px var(--mono);color:var(--muted);letter-spacing:.1em}.guide-list a{display:block;margin-top:4px;text-decoration:none;font:14px/1.7 var(--serif)}.sidebar-quote{margin-top:28px;padding-top:18px;border-top:3px double var(--line);font:16px/1.85 var(--serif);color:var(--sage)}.sidebar-caption{font-size:10px;color:var(--soft);line-height:1.85;margin-top:8px}.source-mix{margin-top:22px;font-size:10px;color:var(--muted);line-height:1.9}
+.features-section{margin-top:56px}.feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:24px;border:1px solid var(--line);background:var(--panel)}.feature-card{min-width:0;padding:25px 24px 26px;border-right:1px solid var(--line);scroll-margin-top:24px}.feature-card:last-child{border-right:0}.feature-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.feature-mark{font:11px var(--mono);letter-spacing:.1em;color:var(--rust)}.feature-kind{font-size:10px;color:var(--sage)}.feature-title{font:700 22px/1.55 var(--serif)}.feature-summary{font-size:13px;color:var(--soft);line-height:1.95;margin-top:16px}.feature-notes{margin-top:20px;border-top:1px solid var(--line)}.feature-note{padding-top:16px}.feature-note dt{font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--sage);margin-bottom:5px}.feature-note dd{font-size:12px;line-height:1.95;color:var(--soft)}.feature-note.takeaway{margin-top:16px;padding:14px;background:var(--wash)}.feature-meta{margin-top:20px;font:9px/1.8 var(--mono);color:var(--muted)}.feature-card .source-line{margin-top:8px}.section-empty{padding:24px 0;font-size:13px;color:var(--soft);border-bottom:1px solid var(--line)}
+.ai-section{margin-top:49px;padding-top:24px;border-top:3px double var(--ink)}.ai-section .section-head{padding-bottom:15px;border-bottom:1px solid var(--line)}.ai-section .section-head h2{font-size:23px}.ai-section .section-kicker{font-size:9px}.ai-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;padding-top:21px}.ai-item{min-width:0;scroll-margin-top:24px}.ai-title{font:700 18px/1.6 var(--serif)}.ai-item .story-summary{font-size:12px;margin-top:10px}.ai-top{display:flex;gap:8px;align-items:baseline;margin-bottom:8px;color:var(--sage);font-size:10px}.ai-top .permalink{margin-left:auto}.ai-item .planner-note{font-size:11px}
+.archive-section{margin-top:49px;padding-top:22px;border-top:1px solid var(--line)}.archive-section h2{font:700 20px var(--serif)}.archive-deck{margin-top:6px;color:var(--soft);font-size:11px}.archive-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;list-style:none;padding:0}.archive-list a{display:block;font:10px var(--mono);padding:7px 11px;border:1px solid var(--line);text-decoration:none}.archive-list a:hover{border-color:var(--sage);background:var(--wash);color:var(--sage)}.archive-list [aria-current=date]{border-color:var(--sage);color:var(--sage)}.archive-more summary{font-size:11px;color:var(--soft);cursor:pointer;width:fit-content}.footer{margin-top:37px;padding:20px 0 33px;border-top:2px solid var(--ink);display:flex;justify-content:space-between;align-items:flex-start;gap:24px;font-size:10px;line-height:1.9;color:var(--muted)}.footer-brand{font:700 15px var(--serif);color:var(--ink);letter-spacing:.07em}.footer-copy{margin-top:6px;max-width:670px}.footer-links{display:flex;gap:19px;flex-wrap:wrap;justify-content:flex-end;flex-shrink:0}.footer-links a{text-decoration:none}.news-title,.feature-title,.ai-title,.original-title,.story-summary,.feature-summary,.feature-note dd,.guide-list a,.planner-note,.source-line{overflow-wrap:anywhere}article:target{outline:2px solid var(--sage);outline-offset:8px;background:#eef0e6}
+@media(min-width:1100px){.sidebar{position:sticky;top:24px}}
+@media(max-width:960px){.wrap{width:calc(100% - 48px)}.edition-grid{grid-template-columns:minmax(0,1fr) 216px;gap:30px}.feature-card{padding:22px 18px}.feature-title{font-size:20px}.filter-fields{grid-template-columns:minmax(0,1fr) 112px 90px;gap:7px}.news-title{font-size:21px}.news-list>li:first-child .news-title{font-size:26px}}
+@media(max-width:760px){.wrap{width:calc(100% - 36px)}.masthead{padding-top:18px}.masthead-top{font-size:10px}.top-links{gap:15px}.brand-row{gap:15px;padding:25px 0 23px}.brand h1{font-size:45px;letter-spacing:.04em}.brand-en{font-size:9px;letter-spacing:.2em;margin-top:8px}.edition-date{font-size:21px}.edition-day{font-size:10px}.edition-status{font-size:9px;margin-top:7px}.strapline{align-items:flex-start;gap:9px;flex-direction:column;font-size:11px}.edition-count{font-size:9px}.nav{gap:12px 22px;padding:12px 0}.nav a{font-size:11px}.edition-grid{display:block;margin-top:31px}.sidebar{display:none}.section-head{padding-bottom:14px}.section-head h2{font-size:27px}.section-subtitle{font-size:11px}.section-count b{font-size:23px}.filter-fields{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:9px}.field.search-field{grid-column:1/-1}.field input,.field select{height:41px}.news-item{padding:20px 0}.news-title{font-size:22px}.news-list>li:first-child .news-title{font-size:26px}.features-section{margin-top:39px}.feature-grid{grid-template-columns:1fr;margin-top:19px}.feature-card{padding:23px 22px 25px;border-right:0;border-bottom:1px solid var(--line)}.feature-card:last-child{border-bottom:0}.feature-title{font-size:24px}.feature-notes{display:grid;grid-template-columns:1fr 1fr;gap:18px}.feature-note.takeaway{margin-top:14px;padding:13px}.feature-meta{margin-top:19px}.ai-section{margin-top:36px}.ai-list{grid-template-columns:1fr;gap:24px}.ai-item+.ai-item{border-top:1px solid var(--line);padding-top:21px}.ai-title{font-size:20px}.archive-section{margin-top:34px}.footer{display:block;padding-bottom:27px}.footer-links{justify-content:flex-start;margin-top:15px}.preview-note{font-size:11px;padding:11px 13px}}
+@media(max-width:390px){.wrap{width:calc(100% - 28px)}.brand h1{font-size:38px}.brand-en{font-size:8px;letter-spacing:.13em}.edition-date{font-size:18px}.edition-day{font-size:9px}.masthead-top{font-size:9px}.section-head h2{font-size:24px}.section-subtitle{font-size:10px}.feature-notes{display:block}.feature-note.takeaway{margin-top:17px}.story-topline{gap:7px}.story-date{font-size:9px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+@media print{body{background:#fff;color:#111;font-size:11px}.wrap{width:100%;max-width:none}.top-links,.nav,.filter-panel,.filter-empty,.sidebar,.permalink,.footer-links{display:none!important}.edition-grid{display:block}.news-item,.feature-card,.ai-item{break-inside:avoid}.feature-grid,.ai-list{display:block}.feature-card{border-right:0;border-bottom:1px solid #aaa}.news-list>li[hidden]{display:block!important}.footer{margin-top:20px}.brand h1{font-size:40px}}
 """
 
-TEMPLATE = """<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>__TITLE__</title>
-<meta name="description" content="__DESC__">
-<link rel="alternate" type="application/rss+xml" title="每日内参" href="feed.xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+SC:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-<style>__CSS__</style>
-</head>
-<body>
-<div class="wrap">
-
-<header class="masthead">
-  <div class="masthead-top">
-    <h1>每日内参</h1>
-    <div class="dateline">
-      <b>__DATE_CN__</b> 周__WEEKDAY__<br>__TIME__ 生成 · 第 __ISSUE__ 期
-    </div>
-  </div>
-  <div class="readout">__READOUT__</div>
-</header>
-
-__SECTIONS__
-
-<footer>
-  排序由 rank.py 计算，公式与权重见仓库 <a href="https://github.com/Vizroi/daily-ai-digest">src/rank.py</a>。<br>
-  分数 = 跨源覆盖×__COVW__ + 源权威档位 + log(社区热度) + 相关词命中 − 重复报道惩罚。<br>
-  召回 __RECALL__ 源 · 聚类 __EVENTS__ 事件 · 深读 __DEEPN__ 条抓取正文全文<br>
-  <a href="feed.xml">RSS 订阅</a>（只推深读区）<span style="opacity:.5;padding:0 6px">·</span><a href="archive/__DATE_ISO__.html">本期归档</a>__HEALTH__
-</footer>
-
-</div>
-</body>
-</html>
+SCRIPT = r"""
+(() => {
+  const form = document.getElementById('news-filters');
+  if (!form) return;
+  const search = document.getElementById('news-search');
+  const topic = document.getElementById('news-topic');
+  const language = document.getElementById('news-language');
+  const items = Array.from(document.querySelectorAll('[data-news-item]'));
+  const status = document.getElementById('filter-status');
+  const empty = document.getElementById('filter-empty');
+  const normalise = text => text.normalize('NFKC').toLocaleLowerCase().trim();
+  const initial = new URLSearchParams(location.search);
+  search.value = initial.get('q') || '';
+  if (Array.from(topic.options).some(option => option.value === initial.get('topic'))) topic.value = initial.get('topic');
+  if (Array.from(language.options).some(option => option.value === initial.get('lang'))) language.value = initial.get('lang');
+  function apply() {
+    const terms = normalise(search.value).split(/\s+/).filter(Boolean);
+    let visible = 0;
+    items.forEach(item => {
+      const matches = terms.every(term => normalise(item.dataset.search).includes(term))
+        && (!topic.value || item.dataset.topic === topic.value)
+        && (!language.value || item.dataset.lang === language.value);
+      item.hidden = !matches;
+      if (matches) visible += 1;
+    });
+    status.textContent = visible === items.length ? `本期 ${items.length} 条游戏动态` : `显示 ${visible} / ${items.length} 条游戏动态`;
+    empty.hidden = visible !== 0;
+    const url = new URL(location.href);
+    [['q', search.value.trim()], ['topic', topic.value], ['lang', language.value]].forEach(([key, value]) => {
+      if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
+    });
+    try { history.replaceState(null, '', url.pathname + url.search + url.hash); } catch (_) {}
+  }
+  function reset() { form.reset(); apply(); search.focus(); }
+  form.addEventListener('submit', event => { event.preventDefault(); apply(); });
+  search.addEventListener('input', apply);
+  topic.addEventListener('change', apply);
+  language.addEventListener('change', apply);
+  document.querySelectorAll('[data-reset-filters]').forEach(button => button.addEventListener('click', reset));
+  document.addEventListener('keydown', event => {
+    const target = event.target;
+    if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey
+      && !(target instanceof HTMLElement && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName)))) {
+      event.preventDefault(); search.focus();
+    }
+  });
+  form.hidden = false;
+  apply();
+})();
 """
 
 
-# ─── 工具 ────────────────────────────────────────────────────
+def esc(value) -> str:
+    return html.escape(str(value or ""), quote=True)
 
-def esc(s) -> str:
-    return html.escape(str(s or ""), quote=True)
+
+def _text(value) -> str:
+    return str(value or "").strip()
+
+
+def _url(value) -> str:
+    value = _text(value)
+    parsed = urlparse(value)
+    return value if parsed.scheme.lower() in ("http", "https") and parsed.netloc else ""
+
+
+def _datetime(value) -> datetime | None:
+    try:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        return parsed.replace(tzinfo=timezone.utc) if parsed.tzinfo is None else parsed
+    except (ValueError, TypeError):
+        return None
+
+
+def _edition_time(digest: dict) -> datetime:
+    parsed = _datetime(digest.get("generated_at"))
+    if parsed:
+        return parsed.astimezone(TZ)
+    try:
+        return datetime.combine(date.fromisoformat(str(digest.get("date"))), datetime.min.time(), TZ)
+    except (ValueError, TypeError):
+        return datetime.now(TZ)
+
+
+def _unique(items) -> list[dict]:
+    out, seen = [], set()
+    for event in items:
+        if not isinstance(event, dict) or not _text(event.get("title")):
+            continue
+        key = _text(event.get("key") or event.get("url") or event.get("title"))
+        if key not in seen:
+            seen.add(key)
+            out.append(event)
+    return out
+
+
+def _sections(digest: dict) -> tuple[list[dict], list[dict], list[dict]]:
+    if digest.get("schema_version") == 3 or any(key in digest for key in ("news", "features", "ai")):
+        return (_unique(digest.get("news") or [])[:16], _unique(digest.get("features") or [])[:3],
+                _unique(digest.get("ai") or [])[:2])
+    news = _unique((digest.get("lead") or []) + (digest.get("threads") or []) + (digest.get("brief") or []))[:16]
+    features = _unique((digest.get("relevant") or []) + (digest.get("graphics") or []))[:3]
+    ai = _unique((digest.get("papers") or []) + (digest.get("repos") or []))[:2]
+    return news, features, ai
+
+
+TOPIC_CN = {"news": "游戏动态", "game_news": "游戏动态", "industry": "行业动态", "business": "行业动态",
+            "release": "新作与更新", "releases": "新作与更新", "update": "新作与更新", "updates": "新作与更新",
+            "design": "设计与机制", "combat": "战斗与机制", "development": "开发实践", "dev": "开发实践",
+            "technology": "开发技术", "technical": "开发技术", "tools": "开发工具", "tool": "开发工具",
+            "level_design": "关卡与世界", "ai": "AI 动态"}
+
+
+def _topic(ev: dict, fallback: str = "游戏动态") -> str:
+    value = ev.get("topic") or ev.get("category") or fallback
+    if isinstance(value, list):
+        value = value[0] if value else fallback
+    value = _text(value)
+    return TOPIC_CN.get(value.lower(), value or fallback)
+
+
+def _lang(ev: dict) -> str:
+    value = _text(ev.get("lang")).lower()
+    return "zh" if value.startswith("zh") else ("en" if value.startswith("en") else "other")
+
+
+def _language(ev: dict) -> str:
+    return {"zh": "中文原文", "en": "英文原文", "other": "原文"}[_lang(ev)]
 
 
 def _title_cn(ev: dict) -> str:
-    """中文标题优先，英文原标题作副标题。"""
-    if ev.get("lang") == "zh":
-        return esc(ev["title"])
-    return esc(ev.get("title_cn") or ev["title"])
+    return esc(ev.get("title_cn") or ev.get("title") or "未命名文章")
 
 
 def _orig_line(ev: dict) -> str:
-    if ev.get("lang") == "zh" or not ev.get("title_cn"):
+    original, translated = _text(ev.get("title")), _text(ev.get("title_cn"))
+    if _lang(ev) == "zh" or not translated or translated == original:
         return ""
-    return f'<span class="orig">{esc(ev["title"])}</span>'
+    lang = ' lang="en"' if _lang(ev) == "en" else ""
+    return f'<span class="original-title"{lang}>{esc(original)}</span>'
 
 
-def _dmg(ev: dict) -> str:
-    """签名元素：歪着的伤害数字 + 分段覆盖条。数字就是 rank.py 的分数。"""
-    cov = min(int(ev.get("coverage", 1)), 5)
-    bars = "".join(
-        f'<span class="bar{" on" if i < cov else ""}" style="animation-delay:{i * 45}ms"></span>'
-        for i in range(5)
-    )
-    n = ev.get("coverage", 1)
-    cov_label = f"{n} 源" if n > 1 else "单源"
-    return (
-        f'<div class="dmg">'
-        f'<b>{ev.get("score", 0):g}</b><span class="unit">PTS</span>'
-        f'<span class="bars" role="img" '
-        f'aria-label="跨源覆盖 {cov_label}，计 {cov * COVERAGE_WEIGHT} 分">{bars}</span>'
-        f'<span class="cov">{esc(cov_label)}</span>'
-        f'</div>'
-    )
+def _title_link(ev: dict) -> str:
+    title, url = _title_cn(ev), _url(ev.get("url"))
+    if url:
+        title = f'<a href="{esc(url)}" target="_blank" rel="noopener noreferrer">{title}</a>'
+    return title + _orig_line(ev)
 
 
-def _why(ev: dict) -> str:
-    """评分依据徽章。覆盖度已由读数条表达，这里不重复。"""
-    chips = []
-    for p in ev.get("score_parts", []):
-        label, val = p["label"], p["value"]
-        if label == "单源" or label.endswith("源报道"):
-            continue
-        cls = ""
-        if val < 0:
-            cls = "neg"
-        elif label.startswith("命中") or label.startswith("战斗"):
-            cls = "rel"
-        sign = "+" if val > 0 else ""
-        attr = f' class="{cls}"' if cls else ""
-        chips.append(f'<i{attr}>{esc(label)} {sign}{val:g}</i>')
-    return f'<div class="why">{"".join(chips)}</div>' if chips else ""
+def _anchor(ev: dict, section: str, index: int) -> str:
+    key = _text(ev.get("key") or ev.get("url") or ev.get("title"))
+    return f'{section}-{hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]}'
+
+
+def _permalink(anchor: str) -> str:
+    return f'<a class="permalink" href="#{esc(anchor)}" aria-label="本条的页内链接" title="本条的页内链接">#</a>'
+
+
+def _published(ev: dict, *, full: bool = False) -> str:
+    parsed = None if ev.get("undated") else _datetime(ev.get("published"))
+    if not parsed:
+        return "原文日期未标"
+    local = parsed.astimezone(TZ)
+    label = local.strftime("%Y.%m.%d" if full else "%m.%d")
+    day_only = ev.get("published_precision") == "day" or re.fullmatch(r"\d{4}-\d{2}-\d{2}", _text(ev.get("published")))
+    machine_date = local.date().isoformat() if day_only else parsed.isoformat()
+    return f'<time datetime="{esc(machine_date)}">{label}</time>'
+
+
+def _source_names(ev: dict) -> list[str]:
+    values = ev.get("sources") or ([ev["source"]] if ev.get("source") else [])
+    if isinstance(values, str):
+        values = [values]
+    return list(dict.fromkeys(_text(name) for name in values if _text(name)))
 
 
 def _sources(ev: dict) -> str:
-    members = ev.get("members") or []
-    if len(members) <= 1:
-        srcs = ev.get("sources") or []
-        base = (f'<a href="{esc(ev["url"])}" target="_blank" rel="noopener">'
-                f'{esc(srcs[0] if srcs else "原文")}</a>')
-    else:
-        base = '<span class="sep">/</span>'.join(
-            f'<a href="{esc(m["url"])}" target="_blank" rel="noopener">{esc(m["source"])}</a>'
-            for m in members
-        )
-    hn = ev.get("hn_url")
-    extra = (f'<span class="sep">·</span><a href="{esc(hn)}" target="_blank" '
-             f'rel="noopener">HN 讨论</a>') if hn else ""
-    return f'<div class="srcs">{base}{extra}</div>'
+    links, seen = [], set()
+    primary, names = _url(ev.get("url")), _source_names(ev)
+    if primary:
+        links.append(f'<a href="{esc(primary)}" target="_blank" rel="noopener noreferrer">{esc(names[0] if names else "阅读原文")} ↗</a>')
+        seen.add(primary)
+    for member in ev.get("members") or []:
+        if not isinstance(member, dict):
+            continue
+        url = _url(member.get("url"))
+        if url and url not in seen:
+            seen.add(url)
+            links.append(f'<a href="{esc(url)}" target="_blank" rel="noopener noreferrer">{esc(member.get("source") or "其他来源")}</a>')
+    if not links:
+        links = [esc(name) for name in names]
+    return f'<div class="source-line"><span class="lang-label">{_language(ev)}</span>{"".join(links)}</div>'
 
 
-def _segments(ev: dict) -> str:
-    """三段式。「对你而言」单独做成对话气泡，脱离网点格。"""
-    what, why, you = ev.get("what"), ev.get("why"), ev.get("for_you")
-    if not what:
-        raw = ev.get("summary_raw") or ""
-        if not raw:
-            return ""
-        return ('<div class="segs"><dl class="seg"><dt>原文摘要</dt>'
-                f'<dd>{esc(raw[:260])}</dd></dl></div>')
-
-    rows = [f'<dl class="seg"><dt>发生了什么</dt><dd>{esc(what)}</dd></dl>']
-    if why:
-        rows.append(f'<dl class="seg"><dt>为什么重要</dt><dd>{esc(why)}</dd></dl>')
-    if not ev.get("has_body", True):
-        rows.append('<dl class="seg hint"><dt>提示</dt>'
-                    '<dd>未取到正文，以上基于 RSS 摘要生成</dd></dl>')
-    out = f'<div class="segs">{"".join(rows)}</div>'
-
-    if you:
-        none = " none" if "无直接关系" in you else ""
-        out += (f'<div class="bub{none}"><b>对你而言</b>'
-                f'<p>{esc(you)}</p></div>')
-    return out
+def _summary(ev: dict) -> str:
+    return _text(ev.get("what") or ev.get("pitch") or ev.get("summary_raw"))
 
 
-def _item(ev: dict, hero: bool = False) -> str:
-    followup = ""
-    if ev.get("followup"):
-        fu = ev["followup"]
-        followup = (f'<div class="fu">↳ {esc(fu.get("first_seen", ""))} 首次报道，'
-                    f'累计出现 {fu.get("times", 1)} 次</div>')
-    cls = "panel hero" if hero else "panel"
-    return (
-        f'<article class="{cls}">'
-        f'<div class="top">{_dmg(ev)}'
-        f'<h3><a href="{esc(ev["url"])}" target="_blank" rel="noopener">{_title_cn(ev)}</a>'
-        f'{_orig_line(ev)}</h3>{_why(ev)}{followup}</div>'
-        f'{_segments(ev)}{_sources(ev)}'
-        f'</article>'
-    )
+def _insight(ev: dict) -> str:
+    value = _text(ev.get("for_you"))
+    return "" if "无直接关系" in value else value
 
 
-def _section(title: str, en: str, count: str, inner: str, note: str = "") -> str:
-    note_html = f'<div class="note">{note}</div>' if note else ""
-    return (f'<section class="section"><div class="lbl">'
-            f'<h2>{esc(title)}</h2><span class="en">{esc(en)}</span>'
-            f'<span class="n">{esc(count)}</span></div>{note_html}{inner}</section>')
+def _summary_note(ev: dict) -> str:
+    is_summary = ev.get("has_body") is False or ev.get("content_kind") in ("rss_summary", "rss_content", "page_excerpt")
+    return '<p class="source-note">来源摘要 · 细节请参见原文。</p>' if is_summary else ""
 
 
-def _quiet_item(ev: dict, kind: str) -> str:
-    """深水区条目：不给伤害数字，保持安静。"""
-    meta_bits = []
-    if kind == "paper":
-        up = ev.get("signals", {}).get("hf_upvotes", 0)
-        if up:
-            meta_bits.append(f"社区 ▲{up}")
-        if ev.get("authors"):
-            meta_bits.append(esc(ev["authors"]))
-    else:
-        if ev.get("repo_lang"):
-            meta_bits.append(esc(ev["repo_lang"]))
-        st = ev.get("signals", {}).get("stars_today", 0)
-        if st:
-            meta_bits.append(f"+{st}★ 今日")
-        if ev.get("repo_stars"):
-            meta_bits.append(f"{ev['repo_stars']:,} ★ 总计")
-
-    pitch = ev.get("pitch") or ev.get("what") or ev.get("summary_raw") or ""
-    pitch_html = ""
-    if pitch:
-        lead = "<b>值得读</b>" if kind == "paper" else "<b>做什么的</b>"
-        pitch_html = f'<div class="pitch">{lead}{esc(pitch[:200])}</div>'
-
-    meta_html = f'<div class="meta">{" · ".join(meta_bits)}</div>' if meta_bits else ""
-    return (f'<div class="qi">'
-            f'<h4><a href="{esc(ev["url"])}" target="_blank" rel="noopener">{_title_cn(ev)}</a></h4>'
-            f'{meta_html}{pitch_html}</div>')
+def _news_item(ev: dict, index: int) -> str:
+    anchor, topic = _anchor(ev, "news", index), _topic(ev)
+    search = " ".join(_text(ev.get(key)) for key in ("title", "title_cn", "what", "why", "for_you", "summary_raw"))
+    search += " " + " ".join(_source_names(ev)) + " " + topic
+    summary = f'<p class="story-summary">{esc(_summary(ev))}</p>' if _summary(ev) else ""
+    planner = f'<p class="planner-note"><span>策划视角</span>{esc(_insight(ev))}</p>' if _insight(ev) else ""
+    why = _text(ev.get("why"))
+    background = (f'<details class="story-background"><summary>背景与变化</summary><p>{esc(why)}</p></details>'
+                  if why and why != _summary(ev) else "")
+    return (f'<li data-news-item data-topic="{esc(topic)}" data-lang="{_lang(ev)}" data-search="{esc(search)}">'
+            f'<article class="news-item" id="{anchor}"><div class="story-topline"><span class="story-number">{index:02d}</span>'
+            f'<span class="topic">{esc(topic)}</span><span class="story-date">{_published(ev)}</span>{_permalink(anchor)}</div>'
+            f'<h3 class="news-title">{_title_link(ev)}</h3>{summary}{planner}{background}{_sources(ev)}{_summary_note(ev)}</article></li>')
 
 
-def _brief_rows(items: list[dict]) -> str:
-    rows = []
-    for ev in items:
-        srcs = ev.get("sources") or []
-        cov = f'{ev.get("coverage",1)}源' if ev.get("coverage", 1) > 1 else (srcs[0] if srcs else "")
-        rows.append(
-            f'<div class="brief-row"><span class="s">{ev.get("score",0):g}</span>'
-            f'<a href="{esc(ev["url"])}" target="_blank" rel="noopener">{_title_cn(ev)}</a>'
-            f'<span class="o">{esc(cov)}</span></div>'
-        )
-    return "".join(rows)
+def _reading_minutes(ev: dict) -> str:
+    try:
+        value = int(ev.get("reading_minutes") or 0)
+        return f"约 {value} 分钟" if 0 < value <= 240 else ""
+    except (ValueError, TypeError):
+        return ""
 
 
-# ─── 主渲染 ──────────────────────────────────────────────────
+def _feature_item(ev: dict, index: int) -> str:
+    anchor = _anchor(ev, "feature", index)
+    kinds = {"analysis": "设计分析", "design": "设计分析", "technical": "开发实践", "tutorial": "开发实践",
+             "interview": "开发者访谈", "postmortem": "制作复盘", "video": "设计视频", "evergreen": "设计方法"}
+    kind = _text(ev.get("content_type"))
+    kind = kinds.get(kind.lower(), kind) or _topic(ev, "设计阅读")
+    notes = []
+    if ev.get("why"):
+        notes.append(f'<div class="feature-note"><dt>设计选择</dt><dd>{esc(ev["why"])}</dd></div>')
+    if _insight(ev):
+        notes.append(f'<div class="feature-note takeaway"><dt>策划视角</dt><dd>{esc(_insight(ev))}</dd></div>')
+    notes_html = f'<dl class="feature-notes">{"".join(notes)}</dl>' if notes else ""
+    bits = ["常青阅读" if ev.get("evergreen") else "设计阅读", "原文 " + _published(ev, full=True)]
+    if _reading_minutes(ev):
+        bits.append(_reading_minutes(ev))
+    return (f'<article class="feature-card" id="{anchor}"><div class="feature-top"><span class="feature-mark">精选 {index:02d}</span>'
+            f'<span class="feature-kind">{esc(kind)}</span>{_permalink(anchor)}</div><h3 class="feature-title">{_title_link(ev)}</h3>'
+            f'<p class="feature-summary">{esc(_summary(ev))}</p>{notes_html}<div class="feature-meta">{" · ".join(bits)}</div>'
+            f'{_sources(ev)}{_summary_note(ev)}</article>')
 
-def render(digest: dict, health: dict | None = None) -> str:
-    now = (datetime.fromisoformat(digest["generated_at"])
-           if digest.get("generated_at") else datetime.now(TZ))
-    lead = digest.get("lead", [])
-    relevant = digest.get("relevant", [])
-    threads = digest.get("threads", [])
-    papers = digest.get("papers", [])
-    graphics = digest.get("graphics", [])
-    repos = digest.get("repos", [])
-    diverse = digest.get("diverse", [])
-    brief = digest.get("brief", [])
-    stats = digest.get("stats", {})
 
-    secs = []
+def _ai_item(ev: dict, index: int) -> str:
+    anchor = _anchor(ev, "ai", index)
+    planner = f'<p class="planner-note"><span>可以留意</span>{esc(_insight(ev))}</p>' if _insight(ev) else ""
+    return (f'<article class="ai-item" id="{anchor}"><div class="ai-top"><span>{_published(ev, full=True)}</span>{_permalink(anchor)}</div>'
+            f'<h3 class="ai-title">{_title_link(ev)}</h3><p class="story-summary">{esc(_summary(ev))}</p>'
+            f'{planner}{_sources(ev)}{_summary_note(ev)}</article>')
 
-    # ① 今日必读 —— 阈值制，宁可只有 2 条。第一条给集中線，其余不给
-    if lead:
-        inner = "".join(_item(e, hero=(i == 0)) for i, e in enumerate(lead))
-        secs.append(_section("今日必读", "lead", f"{len(lead)} 条", inner))
-    else:
-        secs.append(_section(
-            "今日必读", "lead", "0 条",
-            f'<div class="empty">今天没有事件达到必读阈值（{DEEP_READ_MIN_SCORE} 分）。<br>'
-            '这是阈值制的正常结果，不是抓取失败 —— 与其凑数，不如留白。</div>'))
 
-    # ② 能用上的 —— 为空则整块隐藏，不塞垃圾
-    if relevant:
-        inner = "".join(_item(e) for e in relevant)
-        secs.append(_section(
-            "能用上的", "for your work", f"{len(relevant)} 条", inner,
-            "命中 战斗设计 / UE / 动画 / 网络同步 / 性能 相关词，无论分数高低都会冒头；"
-            "战斗类词加权更高，所以排在前面。<br>社区源只算标题命中，正文里顺口提一句不算；"
-            "抓不到正文的一律退回速览。"))
+def _section_head(number: str, title: str, en: str, subtitle: str, count: int, unit: str = "条") -> str:
+    return (f'<div class="section-head"><div><span class="section-kicker">{number} / {esc(en)}</span>'
+            f'<h2>{esc(title)}</h2><p class="section-subtitle">{esc(subtitle)}</p></div>'
+            f'<span class="section-count"><b>{count}</b>{esc(unit)}</span></div>')
 
-    # ③ 线索追踪
-    if threads:
-        inner = "".join(_item(e) for e in threads)
-        secs.append(_section("线索追踪", "follow-up", f"{len(threads)} 条", inner,
-                             "14 天内报过、今天又有新报道的事件。"))
 
-    # ④ 深水区
-    deep_inner = ""
-    if graphics:
-        deep_inner += ('<div class="sub">图形学 / 动画 · arXiv cs.GR</div>'
-                       + "".join(_quiet_item(e, "paper") for e in graphics))
-    if papers:
-        deep_inner += ('<div class="sub">AI 论文 · HuggingFace 社区票选</div>'
-                       + "".join(_quiet_item(e, "paper") for e in papers))
-    if repos:
-        deep_inner += ('<div class="sub">开源 · GitHub Trending</div>'
-                       + "".join(_quiet_item(e, "repo") for e in repos))
-    if deep_inner:
-        secs.append(_section("深水区", "papers & repos",
-                             f"{len(graphics) + len(papers)} 论文 · {len(repos)} 开源",
-                             f'<div class="quiet">{deep_inner}</div>'))
+def _filters(news: list[dict]) -> str:
+    topics = list(dict.fromkeys(_topic(event) for event in news))
+    options = ''.join(f'<option value="{esc(topic)}">{esc(topic)}</option>' for topic in topics)
+    available = {_lang(event) for event in news}
+    langs = ''.join(f'<option value="{key}">{label}</option>' for key, label in
+                    (("zh", "中文原文"), ("en", "英文原文"), ("other", "其他语言")) if key in available)
+    return ('<form class="filter-panel" id="news-filters" role="search" aria-label="筛选本期游戏日报" hidden>'
+            '<div class="filter-fields"><label class="field search-field" for="news-search"><span>搜索本期</span>'
+            '<input type="search" id="news-search" name="q" placeholder="游戏、机制、开发者或来源" autocomplete="off" aria-keyshortcuts="/"></label>'
+            f'<label class="field" for="news-topic"><span>主题</span><select id="news-topic" name="topic"><option value="">全部主题</option>{options}</select></label>'
+            f'<label class="field" for="news-language"><span>原文语言</span><select id="news-language" name="lang"><option value="">全部语言</option>{langs}</select></label></div>'
+            f'<div class="filter-footer"><p id="filter-status" role="status" aria-live="polite">本期 {len(news)} 条游戏动态</p>'
+            '<button class="text-button" type="button" data-reset-filters>清除筛选</button></div></form>'
+            '<div class="filter-empty" id="filter-empty" hidden><h3>没有找到相关动态</h3><p>换个关键词，或清除主题与语言筛选。</p>'
+            '<button class="text-button" type="button" data-reset-filters>查看本期全部动态</button></div>')
 
-    # ⑤ 跨界视野
-    if diverse:
-        secs.append(_section(
-            "跨界视野", "off-topic", "1 条",
-            f'<div class="quiet">{"".join(_quiet_item(e, "repo") for e in diverse)}</div>',
-            "固定优质池取最高分，不随机抽取。"))
 
-    # ⑥ 一行速览
-    if brief:
-        secs.append(_section(
-            "一行速览", "the rest", f"{len(brief)} 条",
-            f'<details class="brief"><summary>展开其余 {len(brief)} 条（按分数排序）</summary>'
-            f'{_brief_rows(brief)}</details>'))
+def _sidebar(news: list[dict], features: list[dict], ai: list[dict], source_count: int) -> str:
+    guide = ''.join(f'<li><small>精选 {index:02d}</small><a href="#{_anchor(event, "feature", index)}">{_title_cn(event)}</a></li>'
+                    for index, event in enumerate(features, 1))
+    guide_html = f'<p class="guide-title">本期精选 · 先看目录</p><ol class="guide-list">{guide}</ol>' if guide else ""
+    totals = ''.join(f'<div><b>{count:02d}</b><span>{label}</span></div>' for count, label in
+                     ((len(news), "游戏动态"), (len(features), "策划精选"), (len(ai), "AI 精华")))
+    return ('<aside class="sidebar" aria-labelledby="guide-title"><span class="overline">IN THIS EDITION</span><h2 id="guide-title">本期导读</h2>'
+            '<p class="sidebar-deck">先扫游戏动态，再挑一篇设计文章细读。让今天看到的，成为下次做决策的参照。</p>'
+            f'<div class="issue-totals">{totals}</div>{guide_html}<p class="sidebar-quote">看见设计选择，<br>也看见它的代价。</p>'
+            '<p class="sidebar-caption">精选既收录新文章，也重读仍有参考价值的旧文；原始日期随文保留。</p>'
+            f'<p class="source-mix">本期汇集 {source_count} 个来源。<br>中文摘要 · 原文直达 · 保留英文标题</p></aside>')
 
-    readout = "".join([
-        f'<span>召回 {stats.get("events", 0)} 事件</span>',
-        f'<span>多源交叉 {stats.get("multi_source", 0)}</span>',
-        f'<span>深读 {len(lead) + len(relevant)}</span>',
-        f'<span>速览 {len(brief)}</span>',
-    ])
 
-    health_html = ""
-    if health:
-        # 只报连续零产出的源。当天 0 条不算异常 —— 官方博客本来就不天天发，
-        # 天天喊警报的结果是这行字被彻底忽略，真挂了也看不见。
-        streak = health.get("zero_streak") or {}
-        dead = sorted((v, k) for k, v in streak.items() if v >= HEALTH_ALERT_DAYS)
-        if dead:
-            items = "、".join(f"{esc(k)}（{v} 天）" for v, k in reversed(dead))
-            health_html = (f'<div class="health">⚠ 连续 {HEALTH_ALERT_DAYS} 天以上零产出，'
-                           f'建议在 config.py 里换掉：{items}</div>')
+def _archive(dates: list[str], current: str, archive_page: bool, preview: bool,
+             earlier_editions: list[dict] | None = None) -> str:
+    prefix = SITE + "/archive/" if preview else ("" if archive_page else "archive/")
+    dates = sorted({day for day in dates if re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(day))}, reverse=True)
+    def links(values):
+        return '<ul class="archive-list">' + ''.join(
+            f'<li><a href="{prefix}{day}.html"' + (' aria-current="date"' if day == current and not preview else '') + f'>{day}</a></li>'
+            for day in values) + '</ul>'
+    content = links(dates[:8]) if dates else '<p class="archive-deck">正式刊期将保存在这里。</p>'
+    if len(dates) > 8:
+        content += f'<details class="archive-more"><summary>查看更早的 {len(dates) - 8} 期</summary>{links(dates[8:])}</details>'
+    earlier_links = []
+    for edition in earlier_editions or []:
+        filename = str(edition.get("file") or "")
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}-[a-z0-9-]+\.html", filename):
+            earlier_links.append(f'<a href="{prefix}{filename}">{esc(edition.get("label") or filename)}</a>')
+    if earlier_links:
+        content += '<p class="archive-deck">同日较早刊期：' + ' · '.join(earlier_links) + '</p>'
+    return ('<section class="archive-section" id="archive" aria-labelledby="archive-title"><h2 id="archive-title">往期归档</h2>'
+            '<p class="archive-deck">按日期翻阅，让值得重读的内容留下来。</p>' + content + '</section>')
 
-    issue = (now.date() - datetime(2026, 1, 1, tzinfo=TZ).date()).days + 1
-    out = TEMPLATE
-    for k, v in {
-        "__TITLE__": f'每日内参 · {now.strftime("%Y-%m-%d")}',
-        "__DESC__": (f'今日必读 {len(lead)} 条，深读 {len(lead) + len(relevant)} 条，'
-                     f'速览 {len(brief)} 条。'),
-        "__CSS__": CSS,
-        "__DATE_CN__": f'{now.year} 年 {now.month} 月 {now.day} 日',
-        "__DATE_ISO__": digest.get("date") or now.strftime("%Y-%m-%d"),
-        "__WEEKDAY__": WEEKDAY_CN[now.weekday()],
-        "__TIME__": now.strftime("%H:%M"),
-        "__ISSUE__": str(issue),
-        "__READOUT__": readout,
-        "__SECTIONS__": "".join(secs),
-        "__COVW__": str(COVERAGE_WEIGHT),
-        "__RECALL__": str(len(set(
-            s for e in (lead + relevant + threads + brief) for s in e.get("sources", [])))),
-        "__EVENTS__": str(stats.get("events", 0)),
-        "__DEEPN__": str(sum(1 for e in lead + relevant + threads if e.get("has_body"))),
-        "__HEALTH__": health_html,
-    }.items():
-        out = out.replace(k, v)
-    return out
+
+def render(digest: dict, health: dict | None = None, *, archive_dates: list[str] | None = None,
+           archive_page: bool = False) -> str:
+    """Render v3 or legacy JSON; ``health`` is accepted without leaking diagnostics."""
+    now = _edition_time(digest)
+    try:
+        issue_date = date.fromisoformat(str(digest.get("date")))
+    except (ValueError, TypeError):
+        issue_date = now.date()
+    date_iso, preview = issue_date.isoformat(), bool(digest.get("preview"))
+    news, features, ai = _sections(digest)
+    names = {name for event in news + features + ai for name in _source_names(event)}
+    languages = {_lang(event) for event in news + features + ai}
+    language_label = "中英来源" if {"zh", "en"} <= languages else ("英文来源" if "en" in languages else "多方来源")
+    title = f'策划日报 · {date_iso}' + (' · 试刊' if preview else '')
+    desc = f'游戏动态 {len(news)} 条，策划精选 {len(features)} 篇，AI 精华 {len(ai)} 条。游戏资讯、设计分析与开发实践。'
+    prefix = "../" if archive_page else ""
+    preview_message = _text(digest.get("editorial_note")) or "这是新栏目结构的预览，内容与编排仍在调整，不计入正式归档。"
+    preview_html = (f'<div class="preview-note" role="note"><strong>试刊</strong>{esc(preview_message)}</div>' if preview else '')
+    news_html = ''.join(_news_item(event, i) for i, event in enumerate(news, 1)) or '<li class="no-content">本期暂未收录游戏动态，稍后再来看看。</li>'
+    features_html = ('<div class="feature-grid">' + ''.join(_feature_item(event, i) for i, event in enumerate(features, 1)) + '</div>'
+                     if features else '<p class="section-empty">本期暂未收录策划精选。好的设计文章值得留点时间挑选。</p>')
+    ai_html = ('<div class="ai-list">' + ''.join(_ai_item(event, i) for i, event in enumerate(ai, 1)) + '</div>'
+               if ai else '<p class="section-empty">本期暂无收录。下次有值得留意的变化，再一起看。</p>')
+    dates = list(archive_dates or [])
+    if not preview and date_iso not in dates:
+        dates.append(date_iso)
+    return f'''<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}">
+<link rel="alternate" type="application/rss+xml" title="策划日报" href="{prefix}feed.xml"><style>{CSS}</style></head>
+<body id="top"><a class="skip-link" href="#news">跳到今日游戏日报</a><div class="wrap">
+<header class="masthead"><div class="masthead-top"><span>给游戏策划的每日阅读</span><div class="top-links"><a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅 ↗</a></div></div>
+<div class="brand-row"><div class="brand"><h1>策划日报</h1><p class="brand-en" lang="en">GAME DESIGN DAILY</p></div><div class="edition"><p class="edition-date"><time datetime="{date_iso}">{issue_date:%Y.%m.%d}</time></p><p class="edition-day">星期{WEEKDAY_CN[issue_date.weekday()]} · {now:%H:%M} 整理</p><span class="edition-status{' preview' if preview else ''}">{'试刊 · PREVIEW' if preview else '每日一读 · DAILY EDITION'}</span></div></div>
+<div class="strapline"><strong>看游戏，也看游戏如何被做出来。</strong><span class="edition-count">{language_label} / {len(news):02d} 条动态 · {len(features):02d} 篇精选 · {len(ai):02d} 条 AI</span></div>
+<nav class="nav" aria-label="本期栏目"><a href="#news">今日游戏日报<small>{len(news):02d}</small></a><a href="#features">策划精选<small>{len(features):02d}</small></a><a href="#ai">AI 精华<small>{len(ai):02d}</small></a><a href="{prefix}sources.html">信息来源 ↗</a></nav></header>{preview_html}
+<main><div class="edition-grid"><div class="main-column"><section id="news" aria-label="今日游戏日报">
+{_section_head('01', '今日游戏日报', 'THE DAILY', '新作、更新、行业与开发现场。先把今天值得知道的看完。', len(news))}
+{_filters(news) if news else ''}<ol class="news-list">{news_html}</ol></section></div>{_sidebar(news, features, ai, len(names))}</div>
+<section class="features-section" id="features" aria-label="策划精选">{_section_head('02', '策划精选', 'THE DESIGN DESK', '拆机制，读复盘，看看别人如何做选择。新文章与常青好文，一起读。', len(features), '篇')}{features_html}</section>
+<section class="ai-section" id="ai" aria-label="AI 精华">{_section_head('03', 'AI 精华', 'ON THE SIDE', '只留值得知道的变化，给游戏之外留一点视野。', len(ai))}{ai_html}</section>
+{_archive(dates, date_iso, archive_page, preview, digest.get("earlier_editions"))}</main>
+<footer class="footer"><div><p class="footer-brand">策划日报</p><p class="footer-copy">收录游戏资讯、开发实践与设计文章。中文摘要与策划视角是阅读导引，完整语境以原文为准；常青阅读保留原始日期。{'本页为试刊预览。' if preview else ''}</p></div><div class="footer-links">{'<a href="../index.html">最新一期</a>' if archive_page else ''}<a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅</a><a href="https://github.com/Vizroi/daily-ai-digest" target="_blank" rel="noopener noreferrer">关于与源码 ↗</a><a href="#top">↑ 页首</a></div></footer>
+</div><script>{SCRIPT}</script></body></html>'''
 
 
 def main():
     inp = sys.argv[1] if len(sys.argv) > 1 else "data/digest.json"
     out = sys.argv[2] if len(sys.argv) > 2 else "docs/index.html"
-    # 默认就读 health.json —— 源健康度警告是设计的一部分，不该需要手动开启
-    health_path = sys.argv[3] if len(sys.argv) > 3 else "data/health.json"
-
-    with open(inp, encoding="utf-8") as f:
-        digest = json.load(f)
-
-    health = None
-    if health_path and os.path.exists(health_path):
-        with open(health_path, encoding="utf-8") as f:
-            health = json.load(f)
-
-    page = render(digest, health)
-    os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
-    with open(out, "w", encoding="utf-8") as f:
-        f.write(page)
-    print(f"[OK] 页面已生成 → {out} ({len(page) // 1024} KB)")
-
-    # 归档一份，避免早晚两版互相覆盖（v1 的 bug#7）
-    arch_dir = os.path.join(os.path.dirname(os.path.abspath(out)), "archive")
-    os.makedirs(arch_dir, exist_ok=True)
-    arch = os.path.join(arch_dir, f'{digest.get("date", "unknown")}.html')
-    # 归档页深一层目录，页脚那两个相对链接要跟着改，否则点开是 404
-    arch_page = (page.replace('href="feed.xml"', 'href="../feed.xml"')
-                     .replace('href="archive/', 'href="'))
-    with open(arch, "w", encoding="utf-8") as f:
-        f.write(arch_page)
-    print(f"[OK] 已归档 → {arch}")
+    # The optional third CLI argument (health path) remains accepted for old jobs.
+    with open(inp, encoding="utf-8") as handle:
+        digest = json.load(handle)
+    output_dir = os.path.dirname(os.path.abspath(out))
+    archive_dir = os.path.join(output_dir, "archive")
+    dates = [name[:-5] for name in os.listdir(archive_dir)
+             if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.html", name)] if os.path.isdir(archive_dir) else []
+    page = render(digest, archive_dates=dates)
+    os.makedirs(output_dir, exist_ok=True)
+    with open(out, "w", encoding="utf-8") as handle:
+        handle.write(page)
+    print(f"[OK] 页面已生成 → {out} ({len(page.encode('utf-8')) // 1024} KB)")
+    if digest.get("preview"):
+        print("[OK] 试刊预览不写入正式归档")
+        return
+    day = _edition_time(digest).date().isoformat()
+    try:
+        day = date.fromisoformat(str(digest.get("date"))).isoformat()
+    except (ValueError, TypeError):
+        pass
+    archive_path = os.path.join(archive_dir, day + ".html")
+    if os.path.exists(archive_path):
+        print(f"[OK] 保留已有归档 → {archive_path}")
+        return
+    os.makedirs(archive_dir, exist_ok=True)
+    with open(archive_path, "w", encoding="utf-8") as handle:
+        handle.write(render(digest, archive_dates=dates + [day], archive_page=True))
+    print(f"[OK] 已归档 → {archive_path}")
 
 
 if __name__ == "__main__":

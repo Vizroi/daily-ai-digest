@@ -1,108 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>每日内参 · AI 与游戏开发</title>
+<title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>每天一期。召回 177 个事件，只有 12 条进深读区。排序公式与权重公开在 https://github.com/Vizroi/daily-ai-digest。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 13 条，策划精选 3 篇，AI 精华 1 条。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 18 Oct 2026 12:54:23 +0800</lastBuildDate>
-<generator>daily-ai-digest v2</generator>
+<lastBuildDate>Sun, 18 Oct 2026 19:00:03 +0800</lastBuildDate>
+<generator>daily-ai-digest v3</generator>
 <item>
-  <title>突发！DeepSeek新模型发布，超级性价比斩杀一切</title>
-  <link>https://www.qbitai.com/2026/10/504067.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-4826fd3bcaec</guid>
-  <pubDate>Sat, 17 Oct 2026 08:53:58 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>44 分</strong> · 3 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>DeepSeek发布V4.1-Flash-1017，针对Harness 0.2.1专项优化，代码与Agent基准提升，同时压缩运行时长和输出token；开放Search/Fetch搜索API，每千次5元，11月1日前免费。</p><p><strong>为什么重要</strong><br>模型侧开始做「性能—费用帕累托改进」，Agent跑得更快更省；自研搜索API把联网检索纳入自家计费，压低Agent工具链成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.qbitai.com/2026/10/504067.html">量子位</a> · <a href="https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/">MarkTechPost</a> · <a href="http://www.geekpark.net/news/372512">极客公园</a></small></p>]]></description>
+  <title>《CLUTCH》访谈：用固定主角与双赛事推进赛车叙事</title>
+  <link>https://www.gcores.com/articles/221055</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-62b4d69e980002aa8c68ab82</guid>
+  <pubDate>Sat, 17 Oct 2026 20:53:14 +0800</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核采访 Maverick Games 主创。团队介绍了《CLUTCH》的固定兄妹主角、职业赛与地下赛两套氛围，以及让驾驶表现和个性表达获得奖励的设计，并谈到两支三人队伍与 AI 争夺目标的模式。</p><p><strong>策划视角</strong><br>阅读角度：固定角色如何支撑叙事，以及同一驾驶系统怎样服务不同的奖励目标。这里记录的是主创介绍，实际体验仍需后续验证。</p><p><small>来源：<a href="https://www.gcores.com/articles/221055">机核</a></small></p><p><small>原文发布：2026-10-17 20:53（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>How the Claude Code team does code review</title>
+  <title>《Foxy Dumplings》开发分享：把多平台限制提前写进设计</title>
+  <link>https://unity.com/blog/foxy-dumplings-cross-platform-development</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9238b1bdf528cee20808e60a</guid>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How Soft Crunch Games built Foxy Dumplings for every platform</small></p><p>Unity 采访《Foxy Dumplings》开发团队。四人核心团队选择共享代码与存档格式，提前设计触屏、鼠标和手柄操作，并舍弃输入文字等会增加适配成本的功能；文章也回顾了真机测试和跨平台存档中的问题。</p><p><strong>策划视角</strong><br>阅读角度：把输入方式、平台认证与团队规模作为设计约束，哪些玩法与功能需要更早取舍。文中效率与测试数据来自团队自述。</p><p><small>来源：<a href="https://unity.com/blog/foxy-dumplings-cross-platform-development">Unity</a></small></p><p><small>原文发布：2026-10-16</small></p>]]></description>
+</item>
+<item>
+  <title>《Rain98》公开约三小时 Demo，从故事开篇展示叙事与探索</title>
+  <link>https://www.gcores.com/articles/221050</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1a19cf98ccc17de57f1df242</guid>
+  <pubDate>Sat, 17 Oct 2026 16:30:00 +0800</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《Rain98》于 10 月 17 日推出 Steam 体验版，内容覆盖开篇至第二章前半段，包含文字叙事、角色互动、街头探索与小游戏。相比此前展会版本，这次试玩从故事起点展开，并扩大了探索区域。</p><p><strong>策划视角</strong><br>阅读角度：剧情游戏的 Demo 如何选择起点，以及怎样同时呈现叙事氛围与可操作内容。</p><p><small>来源：<a href="https://www.gcores.com/articles/221050">机核</a></small></p><p><small>原文发布：2026-10-17 16:30（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《The Land Forgotten》把语言与数字系统做成解谜线索</title>
+  <link>https://80.lv/articles/this-language-based-puzzle-game-is-hand-painted-in-watercolor</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1d6a602ac401a6bccd541a8b</guid>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This Language-Based Puzzle Game Is Hand-Painted in Watercolor</small></p><p>80 Level 介绍开发中的点击解谜游戏《The Land Forgotten》。谜题借用真实语言和数字系统，将其藏进钥匙、咒语与药剂材料；画面则由实体水彩绘制，角色采用逐帧动画，围绕翻译神秘手稿展开探索。</p><p><strong>策划视角</strong><br>阅读角度：现实知识怎样转化成玩家能够观察、推理和验证的游戏规则。</p><p><small>来源：<a href="https://80.lv/articles/this-language-based-puzzle-game-is-hand-painted-in-watercolor">80 Level</a></small></p><p><small>原文发布：2026-10-17</small></p>]]></description>
+</item>
+<item>
+  <title>《竹泉记》推出 Demo，把种田经营连接到屯田与三路战斗</title>
+  <link>https://www.gameres.com/901203229.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a62fc1a521f2449d95d61f13</guid>
+  <pubDate>Fri, 16 Oct 2026 12:04:00 +0800</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《竹泉记》Steam Demo 已上线。根据发行介绍，玩家在春秋背景下经营田地、打造装备并招募乡勇，在三条兵线上部署兵种；夺回城池又能获得资源、设施与人物。制作和修复古乐器，还会逐步改变场景配乐。</p><p><strong>策划视角</strong><br>阅读角度：经营产出如何服务战斗，战斗进展又怎样回馈经营与叙事。本条依据发行介绍整理，尚未验证实际循环节奏。</p><p><small>来源：<a href="https://www.gameres.com/901203229.html">GameRes</a></small></p><p><small>原文发布：2026-10-16 12:04（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《杯杯倒满》进入 1.0，补齐八章并扩展合作经营流程</title>
+  <link>https://www.gcores.com/articles/220998</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-48cc2d42f0bc4b4fa846d4a2</guid>
+  <pubDate>Fri, 16 Oct 2026 18:34:00 +0800</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《杯杯倒满》结束抢先体验并推出 1.0，包含八章、32 个关卡和八名角色。新增酒吧街关卡将泡沫要求、杯具回收与清洗串入制作流程；地铁站模式提供每日固定挑战和每次重新生成的随机挑战。</p><p><strong>策划视角</strong><br>阅读角度：新增工序如何改变合作分工，固定每日挑战与随机关卡又分别支持什么复玩动机。</p><p><small>来源：<a href="https://www.gcores.com/articles/220998">机核</a></small></p><p><small>原文发布：2026-10-16 18:34（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《Red Rooster》以实体设定书展示叙事、角色与工作室构想</title>
+  <link>http://www.chuapp.com/article/291691.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d38cdc5cd0ae5105e98a5050</guid>
+  <pubDate>Fri, 16 Oct 2026 11:50:20 +0800</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐介绍了 Summer Eternal 寄来的五百页《选集》，内容包括访谈、团队成立经过和新作设定。该团队于十月十四日公布《Red Rooster》；书中展示的叙事设计让主人公的精神世界、人格倾向与现实行动相互影响。</p><p><strong>策划视角</strong><br>阅读角度：开发团队怎样用角色、界面和可游玩的精神空间表达叙事主题。报道展示的是设定与制作构想，游戏尚待实际体验。</p><p><small>来源：<a href="http://www.chuapp.com/article/291691.html">触乐</a></small></p><p><small>原文发布：2026-10-16 11:50（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《Star Wars: Galactic Racer》团队谈协作：按模块边界组织外部开发</title>
+  <link>https://www.gamesindustry.biz/how-star-wars-galactic-racer-kept-the-core-team-small-and-sustainable-through-distributed-development</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-186a50df67c7f8b3ce63dc53</guid>
+  <pubDate>Fri, 16 Oct 2026 14:30:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How Star Wars: Galactic Racer kept the core team small and sustainable through &quot;distributed development&quot;</small></p><p>GamesIndustry 采访 Fuse Games 负责人。团队将外部合作分成素材制作、独立功能开发和深度联合开发三层，拍照模式由外部团队完整制作。负责人也提醒，增加合作伙伴会带来额外管理负担，协作方式需在立项时规划。</p><p><strong>策划视角</strong><br>阅读角度：哪些功能能独立交付，哪些需要高频沟通；小核心团队并不意味着项目总投入更小，文章未给出总成本对照。</p><p><small>来源：<a href="https://www.gamesindustry.biz/how-star-wars-galactic-racer-kept-the-core-team-small-and-sustainable-through-distributed-development">GamesIndustry.biz</a></small></p><p><small>原文发布：2026-10-16 22:30（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《Flipping Is Hard》发售：同一攀爬玩法提供不同挫败强度</title>
+  <link>https://80.lv/articles/getting-over-it-meets-nokia-nostalgia-in-new-indie-game-flipping-is-hard</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0af59e1381934c623e03f042</guid>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Getting Over It Meets Nokia Nostalgia in New Indie Game Flipping Is Hard</small></p><p>《Flipping Is Hard》是一款物理攀爬游戏，玩家操纵手机翻转、跳跃，最多支持 16 人联机。标准模式没有检查点，Chill 模式允许收集检查点；多人救援同时会给施救者增加操作干扰。</p><p><strong>策划视角</strong><br>阅读角度：检查点选择如何调整失败成本，以及合作救援的代价怎样制造风险和趣味。</p><p><small>来源：<a href="https://80.lv/articles/getting-over-it-meets-nokia-nostalgia-in-new-indie-game-flipping-is-hard">80 Level</a></small></p><p><small>原文发布：2026-10-16</small></p>]]></description>
+</item>
+<item>
+  <title>UEFN 训练营公布学生作品，提供可直接试玩的机制样本</title>
+  <link>https://www.unrealengine.com/learning/check-out-the-top-fortnite-islands-from-the-uefn-student-bootcamp</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7ff236aec1ac1103ccd18086</guid>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Check out the top Fortnite islands from the UEFN Student Bootcamp</small></p><p>Epic 公布 UEFN 学生训练营作品与岛屿代码。据官方介绍，三百多名学生先学习五天，再用两周制作项目。入选案例包括将宾果目标与战斗结合的对局、限时记忆积木的派对玩法，以及随机积木搭路的闯关玩法。</p><p><strong>策划视角</strong><br>阅读角度：围绕一条易于理解的规则，观察短周期原型怎样加入竞争、记忆或资源选择。页面介绍来自主办方，体验效果可通过岛屿代码自行验证。</p><p><small>来源：<a href="https://www.unrealengine.com/learning/check-out-the-top-fortnite-islands-from-the-uefn-student-bootcamp">Unreal Engine</a></small></p><p><small>原文发布：2026-10-16</small></p>]]></description>
+</item>
+<item>
+  <title>《HeroQuest》公布数字版，加入四对一与任务编辑器</title>
+  <link>https://80.lv/articles/classic-tabletop-adventure-heroquest-is-coming-to-pc</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2ad456058379baf07584e4d8</guid>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Classic Tabletop Adventure HeroQuest Is Coming to PC</small></p><p>Nomad Games 与 Balor Games 宣布《HeroQuest》数字版计划于 2027 年登陆 PC。游戏支持单人控制队伍或四对一联机，并计划提供任务编辑器与 mod.io 社区内容集成。</p><p><strong>策划视角</strong><br>阅读角度：桌游主持人的职责如何转化为非对称多人玩法，以及自制任务如何进入内容循环。</p><p><small>来源：<a href="https://80.lv/articles/classic-tabletop-adventure-heroquest-is-coming-to-pc">80 Level</a></small></p><p><small>原文发布：2026-10-16</small></p>]]></description>
+</item>
+<item>
+  <title>《Caves of Qud》新 DLC 选择抢先体验，延续社区参与开发</title>
+  <link>https://www.gamedeveloper.com/pc/caves-of-qud-diaspora-breaks-new-ground-by-being-the-first-early-access-dlc-release-on-steam</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-58a68a57178f4fdf19fe3602</guid>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Caves of Qud: Diaspora breaks new ground by being the first early access DLC release on Steam</small></p><p>Game Developer 采访发行方，介绍《Caves of Qud》DLC《Diaspora》采用抢先体验的计划。开发团队称，新扩展会增加复杂系统，希望继续让社区参与压力测试，并让开发节奏与质量目标相匹配。</p><p><strong>策划视角</strong><br>阅读角度：系统耦合较多的扩展内容，如何延续测试反馈与迭代习惯；该做法的效果仍待观察。</p><p><small>来源：<a href="https://www.gamedeveloper.com/pc/caves-of-qud-diaspora-breaks-new-ground-by-being-the-first-early-access-dlc-release-on-steam">Game Developer</a></small></p><p><small>原文发布：2026-10-15</small></p>]]></description>
+</item>
+<item>
+  <title>Kenney Shape 转为免费，并发布最后一次更新</title>
+  <link>https://kenney.itch.io/kenney-shape/devlog/1708644/kenney-shape-is-now-free-forever-</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9eeaf9b2146ef5c0fe353b14</guid>
+  <pubDate>Thu, 15 Oct 2026 11:22:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Kenney Shape is now free, forever! ✨</small></p><p>Kenney 宣布 Kenney Shape 免费开放，并修复使用色彩图或展开方式导出时的正反面问题。这也是作者计划中的最后一次更新。工具支持 Windows 与 Linux，可把像素图转换成三维模型。</p><p><strong>策划视角</strong><br>阅读角度：适合制作简单原型素材；工具页标明最大画布 64×64、最多 16 色，挤出模型两面外观相同，需按这些限制选用。</p><p><small>来源：<a href="https://kenney.itch.io/kenney-shape/devlog/1708644/kenney-shape-is-now-free-forever-">Kenney 开发日志</a> · <a href="https://kenney.itch.io/kenney-shape">Kenney 工具说明</a></small></p><p><small>原文发布：2026-10-15 19:22（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>开放世界城市设计：先验证道路与行程，再投入环境制作</title>
+  <link>https://80.lv/articles/hidden-design-decisions-behind-believable-open-world-cities</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4fd6bfb84b1306c40c3ba68b</guid>
+  <category>策划精选</category>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Hidden Design Decisions Behind Believable Open-World Cities</small></p><p>Nathan Cheever 以《黑手党3》的 New Bordeaux 为例，说明城市设计如何从项目愿景进入布局与局部细节。文中覆盖道路层级、地标、高差、基础设施与世界状态，并回顾超过 30 次主要布局迭代。</p><p><strong>设计选择</strong><br>作者主张先用简易三维布局验证行程与视线，再交给环境制作。铁路等设想最终因交通、物理和 NPC 边界情况的成本被移除，说明可信世界也要服从项目优先级。</p><p><strong>策划视角</strong><br>阅读角度：怎样让路网帮助玩家辨向；怎样把想实现的世界功能、制作成本和最终保留内容放在同一张规划图里。</p><p><small>来源：<a href="https://80.lv/articles/hidden-design-decisions-behind-believable-open-world-cities">80 Level · Nathan Cheever</a></small></p><p><small>原文发布：2026-10-16</small></p>]]></description>
+</item>
+<item>
+  <title>八小时设计战斗系统：先做三个方案，再比较取舍</title>
+  <link>https://danfelder.net/2026/10/15/i-had-just-8-hours-to-design-a-combat-system/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-29f80976466e8d8f0c1a8fe0</guid>
+  <category>策划精选</category>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：I had just 8 hours to design a combat system</small></p><p>Dan Felder 分享一次限时设计任务：先用两小时研究，再用六小时整理三个满足核心目标、各有取舍的方案。他认为并行提出多个选择，可以减少对单个点子的纠结，也让提案讨论更容易聚焦比较。</p><p><strong>设计选择</strong><br>这是作者对方案探索与评审的经验总结，没有公开完整战斗规则或上线效果；可借鉴的是形成选项的工作方法，而非一套已经验证的战斗系统。</p><p><strong>策划视角</strong><br>阅读角度：评审前是否能拿出目标一致、代价不同的几个方案，让讨论从喜欢与否转向条件与取舍。</p><p><small>来源：<a href="https://danfelder.net/2026/10/15/i-had-just-8-hours-to-design-a-combat-system/">Dan Felder</a></small></p><p><small>原文发布：2026-10-15</small></p>]]></description>
+</item>
+<item>
+  <title>构筑设计：如何让玩家在过程中有理由转向</title>
+  <link>https://www.gameres.com/901203146.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bf3ac4aa0f736fba41c21b5f</guid>
+  <pubDate>Sat, 10 Oct 2026 00:48:00 +0000</pubDate>
+  <category>策划精选</category>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>余田结合《大巴扎》等案例，区分预先锁定流派的线性构筑与随局势调整的网状构筑。文章讨论记忆负担、关键组件出现时机及转型成本，并提出从输出目标和触发循环反推组件关系的方法。</p><p><strong>设计选择</strong><br>作者强调有效选择比名义上的组合数量更重要，同时承认线性路线利于新手入门。网状构筑需要允许组件承担不同角色，也要避免用复杂效果堆叠来制造所谓多用途。</p><p><strong>策划视角</strong><br>阅读角度：检查玩家何时锁定流派、哪些组件能连接不同路线，以及已经投入的资源是否让转型只存在于纸面。这是作者的设计观点，需要结合项目验证。</p><p><small>来源：<a href="https://www.gameres.com/901203146.html">GameRes · 余田</a></small></p><p><small>原文发布：2026-10-10 08:48（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Claude Code 团队分享：给 AI 写出的代码建立可验证的检查流程</title>
   <link>https://claude.dev/blog/solving-code-review-at-anthropic/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-388dc1849114</guid>
-  <pubDate>Fri, 16 Oct 2026 19:04:47 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>40.3 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>Claude Code团队90%代码由AI写，5-9月合并PR翻倍、回滚率降40%。Anthropic单仓日变更从2500涨到3万。评审改为持续进行，PR前由子代理审diff，PR后Claude全仓审，多代理投票验证发现。</p><p><strong>为什么重要</strong><br>代码评审从人工逐行把关转为机器为主、人只处理高层问题。衡量指标变成每PR人工批准数、评论数、等待时长，回滚率作护栏。行业评审流程与人力分配被重定义。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。GAS配置、动画蓝图、手感调优靠试玩与数值验证，非代码评审流程可迁移。</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 457 +12.3 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console</title>
-  <link>https://github.com/cobanov/PS5LM</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-e8baeb3f29e1</guid>
-  <pubDate>Fri, 16 Oct 2026 18:32:35 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>39.8 分</strong> · Hacker News · 今日必读</p><p><strong>发生了什么</strong><br>越狱PS5（固件7.00-13.60）跑llama.cpp Vulkan后端，用RDNA 2 GPU与11.4GB共享内存；Qwen3.5 9B Q4_K_M达55 tok/s，27B约20 tok/s、64k上下文。</p><p><strong>为什么重要</strong><br>主机GPU被改造成本地推理服务器，暴露OpenAI/Anthropic兼容API；说明RDNA 2共享内存与Vulkan后端已能承载大模型，边缘设备推理门槛下移。</p><p><strong>对你而言</strong><br>与你的项目无直接关系</p><p><small>评分依据：单源 +12 / 分析源 +8 / HN 367 +11.8 / HN 头条 +8</small></p>]]></description>
-</item>
-<item>
-  <title>Sega and Creative Assembly remove Total War: Shogun 2 remaster from sale as it "falls short of both your expectations and our own standards"</title>
-  <link>https://www.gamesindustry.biz/sega-and-creative-assembly-remove-total-war-shogun-2-remaster-from-sale-as-it-falls-short-of-both-your-expectations-and-our-own-standards</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-21d1af53abe0</guid>
-  <pubDate>Thu, 15 Oct 2026 22:35:55 +0000</pubDate>
-  <category>今日必读</category>
-  <description><![CDATA[<p><strong>32 分</strong> · 2 家独立源报道 · 今日必读</p><p><strong>发生了什么</strong><br>《幕府将军2：完全版》10月13日发售后Steam差评如潮，玩家指出单位卡牌、过场动画有AI生成痕迹（多手指、盔甲融进身体）及性能问题。世嘉与Creative Assembly已联合致歉，正与平台方协作暂时下架并恢复原版，已购玩家仍可游玩。</p><p><strong>为什么重要</strong><br>大厂用AI放大贴图与素材翻新，质量失控后被迫回滚下架。此前《疯狂出租车：世界巡回》也因生成式AI受批评，说明AI辅助资产流程缺少人工审核会直接反噬品牌。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。若团队用AI生成贴图或动画资产，需在导入UE前加人工审核与性能预算检查，避免重蹈覆辙。</p><p><small>评分依据：2 源报道 +24 / 分析源 +8</small></p><p><small>全部来源：<a href="https://www.gamesindustry.biz/sega-and-creative-assembly-remove-total-war-shogun-2-remaster-from-sale-as-it-falls-short-of-both-your-expectations-and-our-own-standards">GamesIndustry</a> · <a href="https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled">The Verge AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>After months of development, I've finally released my first Medieval Combat System for Unreal Engine 5!</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x8aj1p/after_months_of_development_ive_finally_released/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-1cebe9fd96c4</guid>
-  <pubDate>Sat, 17 Oct 2026 13:40:25 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>58 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>个人开发者在Fab上架UE5中世纪战斗包：可玩骑士、5种骷髅敌人、125条动画、近战远程、同步处决、模块化蓝图系统，另提供免费Demo。</p><p><strong>为什么重要</strong><br>Fab上个人级战斗模板增多，中小团队可低成本获取动画与蓝图底子，缩短原型周期，但同质化风险上升。</p><p><strong>对你而言</strong><br>可拆包参考其同步处决的动画衔接与蓝图结构；125条动画可作手感调参对照，勿直接用于PVP平衡。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +12 / 战斗「combat system」 +32</small></p>]]></description>
-</item>
-<item>
-  <title>Unreal 5.8 - Materials Masterclass - Chapter 10: World Position Offset effects</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x8e2vx/unreal_58_materials_masterclass_chapter_10_world/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-5fe344b3a319</guid>
-  <pubDate>Sat, 17 Oct 2026 16:10:57 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>44.8 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5.8材质大师课第10章讲World Position Offset材质参数，做脉动熔岩块和朝向相机的billboard两个效果。</p><p><strong>为什么重要</strong><br>WPO在顶点着色器阶段位移几何体，不依赖骨骼和动画蓝图，是低成本动态形变手段，社区教程把它系统化。</p><p><strong>对你而言</strong><br>受击鼓包、刀光扭曲、位移残影可用WPO做，省GAS与动画开销；但WPO不参与碰撞，PVP判定仍走胶囊体。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +10.8 / 命中「unreal」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>UE5: Pawn Possess Camera</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x8edo5/ue5_pawn_possess_camera/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-3261073aa1fa</guid>
-  <pubDate>Sat, 17 Oct 2026 16:23:04 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>UE5 中 Possess 切换 Pawn 时，Set View Target With Blend 会回到新 Pawn 的相机/弹簧臂默认朝向；发帖人已存下 Control Rotation，但不知如何让相机保持原朝向。</p><p><strong>为什么重要</strong><br>这是载具、分身、观战等切换视角的常见问题；默认混合只处理位置过渡，不继承朝向，玩家会感到镜头被拽回。</p><p><strong>对你而言</strong><br>可参考：切换前缓存 Control Rotation，混合完成后用其覆盖新 Pawn 的控制器旋转；或改用自定义 Camera Manager 混合，避免弹簧臂默认值干扰。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +6 / 命中「ue5」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>This Tool Speeds Up Texturing Workflow Between Painter &amp; UE5</title>
-  <link>https://80.lv/articles/this-tool-speeds-up-texturing-workflow-between-painter-ue5/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-67558372a4f9</guid>
-  <pubDate>Sat, 17 Oct 2026 14:30:00 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>40 分</strong> · 80.lv · 能用上的</p><p><strong>发生了什么</strong><br>Moss3D 的 TexBridge 打通 Substance 3D Painter 与 UE5：一键导出导入贴图，按贴图类型自动设压缩与 sRGB，法线做 OpenGL 转 DirectX，每套贴图生成材质实例并可指派给静态网格，配置可存为共享 profile。</p><p><strong>为什么重要</strong><br>省去美术手工重导贴图、重建材质连线的重复劳动，贴图迭代周期缩短；对独立团队和外包协作流程影响直接，但只覆盖静态网格管线。</p><p><strong>对你而言</strong><br>静态场景与道具的贴图迭代可提速；但角色 PVP 资产走骨骼网格与 GAS 材质参数集，需确认其材质实例能否挂到角色材质上，法线转换规则也可借鉴到自研导入脚本。</p><p><small>评分依据：单源 +12 / 分析源 +8 / 命中「unreal engine」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Submitting UE4 dedicated server build to Playfab always gets unhealthy region.</title>
-  <link>https://www.reddit.com/r/unrealengine/comments/1x84omy/submitting_ue4_dedicated_server_build_to_playfab/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-a5b9cc3126c7</guid>
-  <pubDate>Sat, 17 Oct 2026 08:07:45 +0000</pubDate>
-  <category>能用上的</category>
-  <description><![CDATA[<p><strong>37.6 分</strong> · r/unrealengine · 能用上的</p><p><strong>发生了什么</strong><br>用户按教程把UE4专用服务器构建提交到PlayFab，状态始终为unhealthy，服务器区报Too many restarts，日志只有PF_ConsoleLogs.txt，无DS自身日志；本地LocalMultiplayerAgent运行正常。</p><p><strong>为什么重要</strong><br>PlayFab托管DS的常见坑：容器内启动参数、端口或日志路径不符即被判不健康，与构建本身无关，影响中小团队自建PVP后端。</p><p><strong>对你而言</strong><br>若走PlayFab托管，需核对容器启动命令与端口配置，并让DS把日志写到PlayFab可采集路径，便于定位重启原因。</p><p><small>评分依据：单源 +12 / 聚合源 +2 / 社区置顶 +3.6 / 命中「dedicated server」 +20</small></p>]]></description>
-</item>
-<item>
-  <title>Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72</title>
-  <link>https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-799bc7bf7763</guid>
-  <pubDate>Thu, 15 Oct 2026 17:47:39 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>45.6 分</strong> · 3 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>Meta发布Muse Spark Open：816B MoE、42B激活、1M上下文，NVFP4权重，GB300 NVL72上单GPU 50K tok/s、单用户600 tok/s。</p><p><strong>为什么重要</strong><br>编码模型从单次补全转向长程智能体工作流，1M上下文与工具调用可靠性成为新竞争点，稀疏MoE加FP4压低服务成本。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：3 源报道 +36 / 一手源 +18 / HN 914 +13.6 / HN 头条 +8 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/">MarkTechPost</a> · <a href="https://research.meta.ai/blog/muse-spark-open">Hacker News</a></small></p>]]></description>
-</item>
-<item>
-  <title>Code, Test, and Deploy on One Machine with NVIDIA RTX Spark</title>
-  <link>https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-059d26b633ae</guid>
-  <pubDate>Fri, 16 Oct 2026 15:00:00 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>英伟达RTX Spark搭载GB10芯片，最高128GB统一内存、1 PFLOPS FP4算力，可本地跑编码智能体；对比Panther Lake 12Xe，编码智能体快4.6倍、微调快2.7倍、编译快1.8倍。</p><p><strong>为什么重要</strong><br>开发负载从CPU转向GPU，本地推理替代云端token消耗。Windows on Arm补齐PyTorch-CUDA、Python 3.15原生、2000+ Conda包，Arm生态缺口收窄。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/">NVIDIA Developer</a> · <a href="https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions">The Verge AI</a></small></p>]]></description>
-</item>
-<item>
-  <title>NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning</title>
-  <link>https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#2026-10-18-0ccfce23cd33</guid>
-  <pubDate>Thu, 15 Oct 2026 18:01:00 +0000</pubDate>
-  <category>线索追踪</category>
-  <description><![CDATA[<p><strong>12 分</strong> · 2 家独立源报道 · 线索追踪</p><p><strong>发生了什么</strong><br>英伟达发布Nemotron 3.5 Super VL开源多模态模型，120B参数MoE架构，每token激活12B，单GPU智能体任务吞吐量达同类开源模型5倍，CharXiv图表推理得分80.8%。</p><p><strong>为什么重要</strong><br>开源权重可后训练，企业能用自有数据定制专用智能体；Scale AI、Ramp等已落地，推理成本降40倍、延迟降5倍，专用小模型替代前沿大模型的路径成形。</p><p><strong>对你而言</strong><br>与你的项目无直接关系。</p><p><small>评分依据：2 源报道 +24 / 一手源 +18 / 已报过 -30</small></p><p><small>全部来源：<a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/">NVIDIA Developer</a> · <a href="https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/">MarkTechPost</a></small></p>]]></description>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fefc2bc897687364b47fa2fb</guid>
+  <category>AI 精华</category>
+  <description><![CDATA[<p><strong>AI 精华</strong></p><p><small>原标题：How the Claude Code team does code review</small></p><p>Claude Code 团队公开内部审查流程：提交前运行测试与构建，结合独立上下文审查、自动检查和按风险安排的人工审核，并保留快速回滚能力。文章还讨论如何限制反复审查，避免代理在修复循环中消耗时间。</p><p><strong>背景与变化</strong><br>文中效果数据来自团队自身实践；可借鉴的是让代理提供可运行的验证证据，并明确人工负责的决策。</p><p><strong>策划视角</strong><br>阅读角度：做玩法原型或策划小工具时，把测试方式、验收结果和回退方法写清楚，再判断 AI 产出是否可用。</p><p><small>来源：<a href="https://claude.dev/blog/solving-code-review-at-anthropic/">Claude Code 官方博客</a></small></p><p><small>原文发布：2026-10-15</small></p>]]></description>
 </item>
 </channel>
 </rss>

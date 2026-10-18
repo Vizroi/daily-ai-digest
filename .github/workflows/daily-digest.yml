@@ -1,25 +1,53 @@
-name: Daily AI Digest
+name: Game Design Daily
 
-# v1 是 08:00 和 20:00 两个 cron 跑同一个 docs/index.html，
-# 后一次直接覆盖前一次，等于每天白跑一趟。
-# v2 一天一次，并且每次都往 docs/archive/{date}.html 存一份归档。
+# 推送只发布已生成的 docs；定时和手动执行才生成新刊期。
 on:
+  push:
+    branches: [main]
   schedule:
     # cron 是 UTC。北京时间 08:30 = UTC 00:30
     - cron: "30 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: daily-digest
   cancel-in-progress: false
 
 jobs:
+  publish_existing:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 检查栏目与内容规则
+        run: python -m unittest discover -s tests -v
+
+      - name: 上传已审核的站点
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
   build:
+    if: github.event_name != 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -30,25 +58,33 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # ① 宽召回：每源 12 篇、72 小时窗口，顺带把社区热度信号一起带回来
+      - name: 检查栏目与内容规则
+        run: python -m unittest discover -s tests -v
+
+      # ① 多平台候选：新闻72小时、设计30天，未授权来源清楚标记并跳过。
       - name: 召回
+        env:
+          REDDIT_ACCESS_TOKEN: ${{ secrets.REDDIT_ACCESS_TOKEN }}
+          REDDIT_USER_AGENT: ${{ vars.REDDIT_USER_AGENT }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNELS_JSON: ${{ secrets.DISCORD_CHANNELS_JSON }}
         run: python src/fetch_sources.py
 
-      # ② 事件聚类：把讲同一件事的条目合并，跨源覆盖数是后面打分最强的信号
+      # ② 合并同一事件的中英文报道
       - name: 聚类
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python src/cluster.py
 
-      # ③ 打分排序：纯 Python，可解释、可复现，分数和依据都会印在页面上
+      # ③ 游戏日报、策划精选、AI 精华各自筛选并限制配额
       - name: 排序
         run: python src/rank.py
 
-      # ④-a 只给进深读区的十几条抓正文
+      # ④-a 读取本期候选正文，摘要与正文分别标记
       - name: 抓正文
         run: python src/readfull.py
 
-      # ④-b 分级摘要：深读单条调用 + 全文，速览只翻译标题
+      # ④-b 中英文标题、日报短摘要与策划精读
       - name: 摘要
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -58,11 +94,14 @@ jobs:
       - name: 渲染
         run: python src/render.py
 
-      # ⑤-b RSS：只推深读区，速览的一百多条不进阅读器
+      - name: 来源目录与本轮状态
+        run: python src/source_directory.py data/source_report.json docs/sources.html
+
+      # ⑤-b RSS：与本期三个栏目保持一致
       - name: 输出 RSS
         run: python src/feed.py
 
-      # ⑥ 按最终发布结果写 14 天记忆（必须在降级筛选之后）
+      # ⑥ 按最终发布结果写30天记忆（必须在降级筛选之后）
       - name: 提交记忆
         run: python src/commit_memory.py
 
@@ -70,8 +109,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # data/ 也要提交：memory.json 是跨天去重和「线索追踪」的唯一状态，
-          # 不提交的话每天都是第一天。health.json 用于页面上的零产出源警告。
+          # 保留发布记忆和采集状态，供下次筛选及来源目录使用。
           git add docs data
           if git diff --staged --quiet; then
             echo "无变化，跳过提交"
@@ -79,3 +117,27 @@ jobs:
             git commit -m "digest: $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      - name: 上传本期站点
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  deploy:
+    needs: [publish_existing, build]
+    # 两条准备路径互斥，其中一条会被跳过；只部署成功上传的产物。
+    if: >-
+      ${{ always() && !cancelled() && github.ref == 'refs/heads/main' &&
+          (needs.publish_existing.result == 'success' || needs.build.result == 'success') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

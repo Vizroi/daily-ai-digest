@@ -1,4 +1,4 @@
-"""流水线最后一步：把**最终真正发布**到必读/能用上/追踪区的事件写进 14 天记忆。
+"""流水线最后一步：把最终发布到日报、精选与 AI 栏目的事件写进 30 天记忆。
 
 单独一步而不是塞在 rank.py 里，是因为 rank 之后还有一次降级筛选。
 按 rank 的结果记忆会让降级条目被永久扣分沉底。
@@ -22,7 +22,11 @@ def main():
     now = datetime.now(timezone.utc).astimezone(TZ)
     memory = load_memory(mem_path, now)
 
-    published = digest.get("lead", []) + digest.get("relevant", []) + digest.get("threads", [])
+    if digest.get("preview") or digest.get("offline"):
+        print("[OK] 试刊/离线检查不写入正式发布记忆")
+        return
+    sections = ("news", "features", "ai") if digest.get("schema_version") == 3 else ("lead", "relevant", "threads")
+    published = [event for section in sections for event in digest.get(section, [])]
     save_memory(mem_path, memory, published, digest["date"])
     print(f"[OK] 记忆已更新：本次记入 {len(published)} 条，库内共 {len(memory)} 条")
 
