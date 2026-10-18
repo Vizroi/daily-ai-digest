@@ -13,6 +13,8 @@ import sys
 from datetime import date, datetime, timezone, timedelta
 from urllib.parse import urlparse
 
+from site_navigation import SITE_NAV_CSS, render_site_navigation
+
 TZ = timezone(timedelta(hours=8))
 SITE = os.environ.get("DIGEST_SITE", "https://vizroi.github.io/daily-ai-digest").rstrip("/")
 WEEKDAY_CN = ["一", "二", "三", "四", "五", "六", "日"]
@@ -34,6 +36,14 @@ CSS = r"""
 @media(max-width:390px){.wrap{width:calc(100% - 28px)}.brand h1{font-size:38px}.brand-en{font-size:8px;letter-spacing:.13em}.edition-date{font-size:18px}.edition-day{font-size:9px}.masthead-top{font-size:9px}.section-head h2{font-size:24px}.section-subtitle{font-size:10px}.feature-notes{display:block}.feature-note.takeaway{margin-top:17px}.story-topline{gap:7px}.story-date{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 @media print{body{background:#fff;color:#111;font-size:11px}.wrap{width:100%;max-width:none}.top-links,.nav,.filter-panel,.filter-empty,.sidebar,.permalink,.footer-links{display:none!important}.edition-grid{display:block}.news-item,.feature-card,.ai-item{break-inside:avoid}.feature-grid,.ai-list{display:block}.feature-card{border-right:0;border-bottom:1px solid #aaa}.news-list>li[hidden]{display:block!important}.footer{margin-top:20px}.brand h1{font-size:40px}}
+"""
+
+CSS += SITE_NAV_CSS + r"""
+.edition-contents{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px 22px;padding:14px 0;border-bottom:1px solid var(--line);font-size:12px;color:var(--soft)}
+.contents-label{font-size:11px;color:var(--muted);margin-right:2px}.edition-contents a{font-size:12px;text-decoration:underline;text-decoration-color:#b2b9aa;text-underline-offset:4px;font-weight:400}.edition-contents small{font-size:10px;color:var(--muted);margin-left:6px}.contents-language{margin-left:auto;font-size:10px;color:var(--muted)}
+.masthead{padding-top:15px}.masthead-top{border:0;padding-bottom:0;font-size:10px}.brand-row{padding:20px 0}.brand h1{font-size:44px}.brand-en{font-size:10px;letter-spacing:.18em}.edition-date{font-size:23px}.edition-status{margin-top:6px}.edition-grid{margin-top:32px}
+@media(max-width:760px){.wrap{width:calc(100% - 28px)}.brand h1{font-size:35px}.brand-row{padding:18px 0}.brand-en{font-size:8px}.edition-date{font-size:19px}.edition-contents{gap:8px 16px;padding:12px 0}.contents-label{flex-basis:100%}.contents-language{display:none}.masthead-top{gap:10px}.top-links{gap:12px}}
+@media print{.edition-contents{display:none}}
 """
 
 SCRIPT = r"""
@@ -322,13 +332,13 @@ def _filters(news: list[dict]) -> str:
 def _sidebar(news: list[dict], features: list[dict], ai: list[dict], source_count: int) -> str:
     guide = ''.join(f'<li><small>精选 {index:02d}</small><a href="#{_anchor(event, "feature", index)}">{_title_cn(event)}</a></li>'
                     for index, event in enumerate(features, 1))
-    guide_html = f'<p class="guide-title">本期精选 · 先看目录</p><ol class="guide-list">{guide}</ol>' if guide else ""
+    guide_html = f'<p class="guide-title">本期精选文章</p><ol class="guide-list">{guide}</ol>' if guide else ""
     totals = ''.join(f'<div><b>{count:02d}</b><span>{label}</span></div>' for count, label in
                      ((len(news), "游戏动态"), (len(features), "策划精选"), (len(ai), "AI 精华")))
     return ('<aside class="sidebar" aria-labelledby="guide-title"><span class="overline">IN THIS EDITION</span><h2 id="guide-title">本期导读</h2>'
-            '<p class="sidebar-deck">先扫游戏动态，再挑一篇设计文章细读。让今天看到的，成为下次做决策的参照。</p>'
-            f'<div class="issue-totals">{totals}</div>{guide_html}<p class="sidebar-quote">看见设计选择，<br>也看见它的代价。</p>'
-            '<p class="sidebar-caption">精选既收录新文章，也重读仍有参考价值的旧文；原始日期随文保留。</p>'
+            '<p class="sidebar-deck">本期游戏动态、策划精选与 AI 精华。</p>'
+            f'<div class="issue-totals">{totals}</div>{guide_html}'
+            '<p class="sidebar-caption">精选包含近期文章与往期文章，保留原始发布日期。</p>'
             f'<p class="source-mix">本期汇集 {source_count} 个来源。<br>中文摘要 · 原文直达 · 保留英文标题</p></aside>')
 
 
@@ -351,7 +361,7 @@ def _archive(dates: list[str], current: str, archive_page: bool, preview: bool,
     if earlier_links:
         content += '<p class="archive-deck">同日较早刊期：' + ' · '.join(earlier_links) + '</p>'
     return ('<section class="archive-section" id="archive" aria-labelledby="archive-title"><h2 id="archive-title">往期归档</h2>'
-            '<p class="archive-deck">按日期翻阅，让值得重读的内容留下来。</p>' + content + '</section>')
+            '<p class="archive-deck">已发布刊期，按日期排列。</p>' + content + '</section>')
 
 
 def render(digest: dict, health: dict | None = None, *, archive_dates: list[str] | None = None,
@@ -376,11 +386,11 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
         market_html = render_market_brief(market, href=prefix + "market.html")
     preview_message = _text(digest.get("editorial_note")) or "这是新栏目结构的预览，内容与编排仍在调整，不计入正式归档。"
     preview_html = (f'<div class="preview-note" role="note"><strong>试刊</strong>{esc(preview_message)}</div>' if preview else '')
-    news_html = ''.join(_news_item(event, i) for i, event in enumerate(news, 1)) or '<li class="no-content">本期暂未收录游戏动态，稍后再来看看。</li>'
+    news_html = ''.join(_news_item(event, i) for i, event in enumerate(news, 1)) or '<li class="no-content">本期暂未收录游戏动态。</li>'
     features_html = ('<div class="feature-grid">' + ''.join(_feature_item(event, i) for i, event in enumerate(features, 1)) + '</div>'
-                     if features else '<p class="section-empty">本期暂未收录策划精选。好的设计文章值得留点时间挑选。</p>')
+                     if features else '<p class="section-empty">本期暂未收录策划精选。</p>')
     ai_html = ('<div class="ai-list">' + ''.join(_ai_item(event, i) for i, event in enumerate(ai, 1)) + '</div>'
-               if ai else '<p class="section-empty">本期暂无收录。下次有值得留意的变化，再一起看。</p>')
+               if ai else '<p class="section-empty">本期暂未收录 AI 精华。</p>')
     dates = list(archive_dates or [])
     if not preview and date_iso not in dates:
         dates.append(date_iso)
@@ -389,16 +399,16 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
 <meta name="color-scheme" content="light"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}">
 <link rel="alternate" type="application/rss+xml" title="策划日报" href="{prefix}feed.xml"><style>{CSS}</style></head>
 <body id="top"><a class="skip-link" href="#news">跳到今日游戏日报</a><div class="wrap">
-<header class="masthead"><div class="masthead-top"><span>给游戏策划的每日阅读</span><div class="top-links"><a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅 ↗</a></div></div>
+{render_site_navigation("daily", prefix, archive_page=archive_page)}
+<header class="masthead"><div class="masthead-top"><span>中英文游戏资讯与开发文章</span><div class="top-links"><a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅 ↗</a></div></div>
 <div class="brand-row"><div class="brand"><h1>策划日报</h1><p class="brand-en" lang="en">GAME DESIGN DAILY</p></div><div class="edition"><p class="edition-date"><time datetime="{date_iso}">{issue_date:%Y.%m.%d}</time></p><p class="edition-day">星期{WEEKDAY_CN[issue_date.weekday()]} · {now:%H:%M} 整理</p><span class="edition-status{' preview' if preview else ''}">{'试刊 · PREVIEW' if preview else '每日一读 · DAILY EDITION'}</span></div></div>
-<div class="strapline"><strong>看游戏，也看游戏如何被做出来。</strong><span class="edition-count">{language_label} / {len(news):02d} 条动态 · {len(features):02d} 篇精选 · {len(ai):02d} 条 AI</span></div>
-<nav class="nav" aria-label="本期栏目"><a href="#news">今日游戏日报<small>{len(news):02d}</small></a><a href="{prefix}market.html">Steam 市场 ↗</a><a href="#features">策划精选<small>{len(features):02d}</small></a><a href="#ai">AI 精华<small>{len(ai):02d}</small></a><a href="{prefix}sources.html">信息来源 ↗</a></nav></header>{preview_html}
-<main>{market_html}<div class="edition-grid"><div class="main-column"><section id="news" aria-label="今日游戏日报">
-{_section_head('01', '今日游戏日报', 'THE DAILY', '新作、更新、行业与开发现场。先把今天值得知道的看完。', len(news))}
+<nav class="edition-contents" aria-label="本期目录"><span class="contents-label">本期目录</span><a href="#news">游戏日报<small>{len(news)} 条</small></a><a href="#features">策划精选<small>{len(features)} 篇</small></a><a href="#ai">AI 精华<small>{len(ai)} 条</small></a><span class="contents-language">{language_label}</span></nav></header>{preview_html}
+<main><div class="edition-grid"><div class="main-column"><section id="news" aria-label="今日游戏日报">
+{_section_head('01', '今日游戏日报', 'THE DAILY', '游戏发售、版本更新、行业与开发动态。', len(news))}
 {_filters(news) if news else ''}<ol class="news-list">{news_html}</ol></section></div>{_sidebar(news, features, ai, len(names))}</div>
-<section class="features-section" id="features" aria-label="策划精选">{_section_head('02', '策划精选', 'THE DESIGN DESK', '拆机制，读复盘，看看别人如何做选择。新文章与常青好文，一起读。', len(features), '篇')}{features_html}</section>
-<section class="ai-section" id="ai" aria-label="AI 精华">{_section_head('03', 'AI 精华', 'ON THE SIDE', '只留值得知道的变化，给游戏之外留一点视野。', len(ai))}{ai_html}</section>
-{_archive(dates, date_iso, archive_page, preview, digest.get("earlier_editions"))}</main>
+<section class="features-section" id="features" aria-label="策划精选">{_section_head('02', '策划精选', 'THE DESIGN DESK', '游戏机制、设计分析与开发复盘。', len(features), '篇')}{features_html}</section>
+<section class="ai-section" id="ai" aria-label="AI 精华">{_section_head('03', 'AI 精华', 'ON THE SIDE', 'AI 工具、模型与开发应用。', len(ai))}{ai_html}</section>
+{market_html}{_archive(dates, date_iso, archive_page, preview, digest.get("earlier_editions"))}</main>
 <footer class="footer"><div><p class="footer-brand">策划日报</p><p class="footer-copy">收录游戏资讯、开发实践与设计文章。中文摘要与策划视角是阅读导引，完整语境以原文为准；常青阅读保留原始日期。{'本页为试刊预览。' if preview else ''}</p></div><div class="footer-links">{'<a href="../index.html">最新一期</a>' if archive_page else ''}<a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅</a><a href="https://github.com/Vizroi/daily-ai-digest" target="_blank" rel="noopener noreferrer">关于与源码 ↗</a><a href="#top">↑ 页首</a></div></footer>
 </div><script>{SCRIPT}</script></body></html>'''
 

@@ -14,6 +14,8 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
+from site_navigation import SITE_NAV_CSS, render_site_navigation
+
 TZ = timezone(timedelta(hours=8))
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -235,6 +237,9 @@ CSS = r'''
 '''
 
 
+CSS += SITE_NAV_CSS
+
+
 SCRIPT = r'''
 (() => {
   document.querySelectorAll('.game-cover img').forEach(image => {
@@ -373,7 +378,7 @@ def render_market(data: dict) -> str:
     method_extra = '<ul>' + ''.join(methods) + '</ul>' if methods else ''
     empty = '' if games else '<div class="empty-state"><h3>正在建立第一批市场记录</h3><p>还没有可展示的游戏数据。下方保留 Steam 官方发现入口，采集成功后会显示真实快照。</p></div>'
     return f'''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="策划日报的 Steam 市场观察：全局样本与动作游戏，持续记录在线变化、玩家声音、官方事件和新作。"><title>Steam 市场观察 · 策划日报</title><style>{CSS}</style></head><body>
-<a class="skip" href="#observations">跳到游戏观察</a><div class="wrap"><header class="masthead"><div class="masthead-top"><a href="index.html">策划日报 · GAME DESIGN DAILY</a><span>STEAM MARKET DATA</span></div><div class="brand-row"><div><h1>Steam 市场观察</h1></div><div class="edition"><b>{esc(generated.strftime('%Y.%m.%d') if generated else '记录建立中')}</b>本轮采集 {_time(data.get('generated_at'), False)} · 北京时间</div></div><nav class="nav" aria-label="主导航"><a href="index.html">日报</a><a href="market.html" aria-current="page">Steam 市场</a><a href="sources.html">信息来源</a><a href="#methodology">数据与方法</a></nav></header>
+<a class="skip" href="#observations">跳到游戏观察</a><div class="wrap">{render_site_navigation("market")}<header class="masthead"><div class="brand-row"><div><h1>Steam 市场观察</h1></div><div class="edition"><b>{esc(generated.strftime('%Y.%m.%d') if generated else '记录建立中')}</b>本轮采集 {_time(data.get('generated_at'), False)} · 北京时间</div></div></header>
 <main><div class="summary-bar"><span><b>{len(games)}</b> 款游戏</span><span><b>{action_count}</b> 款动作游戏</span><span><b>{esc(history_days)}</b> 天记录</span><span>本轮在线采集 <b>{fresh_count}/{len(games)}</b></span></div>
 <p class="coverage-note">样本数据，不代表 Steam 全市场。历史起点 {esc(history_start)}；当前在线为采样时的人数。<a href="#methodology">数据口径</a></p>
 <details class="scope-section" id="market-overview"><summary>全局分类概览 <span class="overview-summary"><span id="scope-window-label">当前快照与 7 天变化</span><span class="disclosure-symbol" aria-hidden="true">＋</span></span></summary>{_segments(games)}<p class="scope-caveat">{esc(scope_note)} 分类之间可重叠，合计不可相加。变化仅比较两段都有完整记录的同一批游戏；当前在线合计来自各作品最近一次采样，并非同一时刻的人数。</p></details>
@@ -432,7 +437,7 @@ def render_market_brief(data: dict, href="market.html") -> str:
         game = demo_games[0]
         entries.append(("Demo", game["name"], "已收录 Steam Demo 链接。", f"{href}#game-{game['appid']}"))
     rows = ''.join(f'<article class="sm-brief-item"><span>{esc(label)}</span><h3><a href="{esc(url)}">{esc(title)}</a></h3><p>{esc(description)}</p></article>' for label, title, description, url in entries[:3])
-    return f'''<style>.sm-brief{{margin-top:39px;padding-top:23px;border-top:3px double #292d27}}.sm-brief-head{{display:flex;justify-content:space-between;align-items:baseline;gap:15px}}.sm-brief-head h2{{font:700 25px/1.4 Georgia,"Noto Serif SC","Songti SC",SimSun,serif;margin:0}}.sm-brief-head>a{{font-size:11px;color:#4c6152}}.sm-brief-date{{font-size:10px;color:#74796d;margin:7px 0 0}}.sm-brief-grid{{display:grid;grid-template-columns:repeat({len(entries[:3])},minmax(0,1fr));gap:25px;margin-top:19px}}.sm-brief-item{{min-width:0}}.sm-brief-item>span{{font-size:10px;color:#4c6152}}.sm-brief-item h3{{font:700 19px/1.6 Georgia,"Noto Serif SC","Songti SC",SimSun,serif;margin:7px 0}}.sm-brief-item h3 a{{text-decoration:none;color:inherit}}.sm-brief-item p{{font-size:12px;line-height:1.9;color:#5e635a;margin:0;overflow-wrap:anywhere}}@media(max-width:760px){{.sm-brief-grid{{grid-template-columns:1fr;gap:20px}}.sm-brief-head h2{{font-size:23px}}.sm-brief-item+.sm-brief-item{{padding-top:16px;border-top:1px solid #d1d0c1}}}}</style><section class="sm-brief" id="steam-market-brief" aria-labelledby="steam-market-brief-heading"><div class="sm-brief-head"><h2 id="steam-market-brief-heading">Steam 市场观察</h2><a href="{esc(href)}">进入观察窗口 →</a></div><p class="sm-brief-date">市场本轮采集：{_time(data.get('generated_at'))}（北京时间） · 全局样本 / 动作游戏<br>{collection_note}</p><div class="sm-brief-grid">{rows}</div></section>'''
+    return f'''<style>.sm-brief{{margin-top:39px;padding-top:23px;border-top:3px double #292d27}}.sm-brief-head{{display:flex;justify-content:space-between;align-items:baseline;gap:15px}}.sm-brief-head h2{{font:700 25px/1.4 Georgia,"Noto Serif SC","Songti SC",SimSun,serif;margin:0}}.sm-brief-head>a{{font-size:11px;color:#4c6152}}.sm-brief-date{{font-size:10px;color:#74796d;margin:7px 0 0}}.sm-brief-grid{{display:grid;grid-template-columns:repeat({len(entries[:3])},minmax(0,1fr));gap:25px;margin-top:19px}}.sm-brief-item{{min-width:0}}.sm-brief-item>span{{font-size:10px;color:#4c6152}}.sm-brief-item h3{{font:700 19px/1.6 Georgia,"Noto Serif SC","Songti SC",SimSun,serif;margin:7px 0}}.sm-brief-item h3 a{{text-decoration:none;color:inherit}}.sm-brief-item p{{font-size:12px;line-height:1.9;color:#5e635a;margin:0;overflow-wrap:anywhere}}@media(max-width:760px){{.sm-brief-grid{{grid-template-columns:1fr;gap:20px}}.sm-brief-head h2{{font-size:23px}}.sm-brief-item+.sm-brief-item{{padding-top:16px;border-top:1px solid #d1d0c1}}}}</style><section class="sm-brief" id="steam-market-brief" aria-labelledby="steam-market-brief-heading"><div class="sm-brief-head"><h2 id="steam-market-brief-heading">Steam 市场摘要</h2><a href="{esc(href)}">查看市场页 →</a></div><p class="sm-brief-date">市场本轮采集：{_time(data.get('generated_at'))}（北京时间） · 全局样本 / 动作游戏<br>{collection_note}</p><div class="sm-brief-grid">{rows}</div></section>'''
 
 
 def main():
