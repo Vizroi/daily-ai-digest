@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T20:36:56+08:00",
-  "observed_at": "2026-10-18T20:31:33+08:00",
+  "generated_at": "2026-10-18T20:40:17+08:00",
+  "observed_at": "2026-10-18T20:40:17+08:00",
   "timezone": "Asia/Shanghai",
   "status": "partial",
   "coverage": {
@@ -33,7 +33,7 @@
     {
       "name": "Steam 商店资料与新作入口",
       "url": "https://store.steampowered.com/explore/new/",
-      "note": "Steam公开商店端点（非稳定性承诺API），中国区价格；不可用时保留旧值并显示状态。"
+      "note": "Steam公开商店端点（非稳定性承诺API），优先中国区，缺失时美国区且保留币种；不可用时标示旧值。"
     },
     {
       "name": "Steam 热门游戏发现",
@@ -246,10 +246,8 @@
       "events": [],
       "store_url": "https://store.steampowered.com/app/1145360/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1145360/header.jpg?t=1758127023",
       "release_date": "2020-09-17",
       "release_label": "2020-09-17",
@@ -268,8 +266,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 5109,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 5189,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 213422,
@@ -290,7 +288,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -347,11 +345,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 5109.0,
+          "sample_mean": 5189.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1145350,
@@ -431,10 +429,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/1145350/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg?t=1779901265",
       "release_date": "2025-09-26",
       "release_label": "2025-09-26",
@@ -453,8 +449,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 5052,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 5080,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 86761,
@@ -475,7 +471,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -532,11 +528,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 5052.0,
+          "sample_mean": 5080.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 588650,
@@ -614,7 +610,7 @@
       "store_url": "https://store.steampowered.com/app/588650/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/588650/header.jpg?t=1779086887",
       "release_date": "2018-08-07",
       "release_label": "2018-08-07",
@@ -634,7 +630,7 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 3996,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 118053,
@@ -716,7 +712,7 @@
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 367520,
@@ -781,10 +777,8 @@
       "events": [],
       "store_url": "https://store.steampowered.com/app/367520/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
       "release_date": "2017-02-25",
       "release_label": "2017-02-25",
@@ -804,7 +798,7 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 8821,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 335420,
@@ -825,7 +819,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -886,7 +880,7 @@
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1030300,
@@ -935,10 +929,8 @@
       "events": [],
       "store_url": "https://store.steampowered.com/app/1030300/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736",
       "release_date": "2025-09-04",
       "release_label": "2025-09-04",
@@ -957,8 +949,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 8726,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 8923,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 262734,
@@ -979,7 +971,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -1036,11 +1028,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 8726.0,
+          "sample_mean": 8923.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1809540,
@@ -1118,7 +1110,7 @@
       "store_url": "https://store.steampowered.com/app/1809540/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1809540/header.jpg?t=1782464830",
       "release_date": "2024-05-29",
       "release_label": "2024-05-29",
@@ -1137,9 +1129,9 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 1026,
-      "observed_at": "2026-10-18T20:31:33+08:00",
-      "players_observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 1018,
+      "observed_at": "2026-10-18T20:40:17+08:00",
+      "players_observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 27890,
@@ -1217,7 +1209,7 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 1026.0,
+          "sample_mean": 1018.0,
           "samples": 1
         }
       ]
@@ -1290,10 +1282,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/2138710/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/2138710/header.jpg?t=1782742326",
       "release_date": "2023-03-28",
       "release_label": "2023-03-28",
@@ -1312,8 +1302,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 1157,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 1155,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 19024,
@@ -1334,7 +1324,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -1391,11 +1381,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 1157.0,
+          "sample_mean": 1155.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 814380,
@@ -1474,7 +1464,7 @@
       "store_url": "https://store.steampowered.com/app/814380/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/814380/header.jpg?t=1762888662",
       "release_date": "2019-03-22",
       "release_label": "2019-03-22",
@@ -1493,8 +1483,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 8786,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 9006,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 274128,
@@ -1572,11 +1562,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 8786.0,
+          "sample_mean": 9006.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1245620,
@@ -1680,7 +1670,7 @@
       "store_url": "https://store.steampowered.com/app/1245620/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1245620/header.jpg?t=1790290043",
       "release_date": "2022-02-25",
       "release_label": "2022-02-25",
@@ -1699,8 +1689,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 34191,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 35158,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 824757,
@@ -1778,11 +1768,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 34191.0,
+          "sample_mean": 35158.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 2358720,
@@ -1831,10 +1821,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/2358720/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/2358720/header.jpg?t=1760601605",
       "release_date": "2024-08-20",
       "release_label": "2024-08-20",
@@ -1853,8 +1841,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 16463,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 16768,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 1144914,
@@ -1875,7 +1863,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -1932,11 +1920,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 16463.0,
+          "sample_mean": 16768.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 2073850,
@@ -2039,10 +2027,10 @@
       "store_url": "https://store.steampowered.com/app/2073850/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "metadata_status": "fresh",
-      "current_players": 10568,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 10918,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 184956,
@@ -2120,7 +2108,7 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 10568.0,
+          "sample_mean": 10918.0,
           "samples": 1
         }
       ],
@@ -2141,7 +2129,7 @@
       },
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1364780,
@@ -2217,10 +2205,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/1364780/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1364780/header.jpg?t=1791866175",
       "release_date": "2023-06-02",
       "release_label": "2023-06-02",
@@ -2240,7 +2226,7 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 35800,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 57544,
@@ -2261,7 +2247,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -2322,7 +2308,7 @@
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1384160,
@@ -2426,7 +2412,7 @@
       "store_url": "https://store.steampowered.com/app/1384160/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1384160/23a7b8f8c96b47ab7ef5f22f33b572a63aaf9fab/header.jpg?t=1788400087",
       "release_date": "2021-06-11",
       "release_label": "2021-06-11",
@@ -2445,8 +2431,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 1634,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 1698,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 52016,
@@ -2524,11 +2510,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 1634.0,
+          "sample_mean": 1698.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 2217000,
@@ -2630,7 +2616,7 @@
       "store_url": "https://store.steampowered.com/app/2217000/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/2217000/2b910bb921e54b7d84473618e3247d759de37541/header.jpg?t=1790763301",
       "release_date": "2024-10-24",
       "release_label": "2024-10-24",
@@ -2649,8 +2635,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 185,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 189,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 9056,
@@ -2728,11 +2714,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 185.0,
+          "sample_mean": 189.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 94400,
@@ -2825,10 +2811,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/94400/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/94400/header.jpg?t=1792087217",
       "release_date": "2014-01-14",
       "release_label": "2014-01-14",
@@ -2847,9 +2831,9 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 37,
-      "observed_at": "2026-10-18T20:31:33+08:00",
-      "players_observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 32,
+      "observed_at": "2026-10-18T20:40:17+08:00",
+      "players_observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 5897,
@@ -2870,7 +2854,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -2927,7 +2911,7 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 37.0,
+          "sample_mean": 32.0,
           "samples": 1
         }
       ]
@@ -3012,7 +2996,7 @@
       "store_url": "https://store.steampowered.com/app/1160330/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1160330/header.jpg?t=1732008563",
       "release_date": "2019-12-19",
       "release_label": "2019-12-19",
@@ -3031,9 +3015,9 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 1,
-      "observed_at": "2026-10-18T20:31:33+08:00",
-      "players_observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 3,
+      "observed_at": "2026-10-18T20:40:17+08:00",
+      "players_observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 300,
@@ -3111,7 +3095,7 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 1.0,
+          "sample_mean": 3.0,
           "samples": 1
         }
       ]
@@ -3187,10 +3171,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/548430/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/548430/37b58a6c4816ee60b0ca97cb6724d6e904c58c41/header.jpg?t=1791554128",
       "release_date": "2020-05-13",
       "release_label": "2020-05-13",
@@ -3209,8 +3191,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 7167,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 7546,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 252976,
@@ -3231,7 +3213,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -3288,11 +3270,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 7167.0,
+          "sample_mean": 7546.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 632360,
@@ -3395,7 +3377,7 @@
       "store_url": "https://store.steampowered.com/app/632360/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/632360/77f4cff7fea7de8a4566d1fb76ace16967604da7/header_alt_assets_7.jpg?t=1791475448",
       "release_date": "2020-08-11",
       "release_label": "2020-08-11",
@@ -3414,8 +3396,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 21909,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 22193,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 279060,
@@ -3493,11 +3475,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 21909.0,
+          "sample_mean": 22193.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1282100,
@@ -3579,7 +3561,7 @@
       "store_url": "https://store.steampowered.com/app/1282100/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1282100/header.jpg?t=1764659459",
       "release_date": "2023-07-26",
       "release_label": "2023-07-26",
@@ -3599,7 +3581,7 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 3143,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 50329,
@@ -3681,7 +3663,7 @@
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 553850,
@@ -3782,7 +3764,7 @@
       "store_url": "https://store.steampowered.com/app/553850/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header.jpg?t=1792146147",
       "release_date": "2024-02-08",
       "release_label": "2024-02-08",
@@ -3801,8 +3783,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 47880,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 48950,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 941577,
@@ -3880,11 +3862,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 47880.0,
+          "sample_mean": 48950.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 892970,
@@ -3949,10 +3931,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/892970/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1791544831",
       "release_date": "2026-09-09",
       "release_label": "2026-09-09",
@@ -3971,8 +3951,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 103641,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 104789,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 334968,
@@ -3993,7 +3973,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -4050,11 +4030,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 103641.0,
+          "sample_mean": 104789.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1794680,
@@ -4158,7 +4138,7 @@
       "store_url": "https://store.steampowered.com/app/1794680/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1794680/2ca07b690dde645771125ed9d9206c4c5fde4dd4/header.jpg?t=1787911678",
       "release_date": "2022-10-21",
       "release_label": "2022-10-21",
@@ -4178,7 +4158,7 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 5251,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 163111,
@@ -4260,7 +4240,7 @@
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 2379780,
@@ -4338,7 +4318,7 @@
       "store_url": "https://store.steampowered.com/app/2379780/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg?t=1790693638",
       "release_date": "2024-02-20",
       "release_label": "2024-02-20",
@@ -4357,8 +4337,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 7283,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 7257,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 152378,
@@ -4436,11 +4416,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 7283.0,
+          "sample_mean": 7257.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 646570,
@@ -4505,10 +4485,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/646570/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/646570/header.jpg?t=1774015376",
       "release_date": "2019-01-23",
       "release_label": "2019-01-23",
@@ -4527,8 +4505,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 9152,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 9192,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 175404,
@@ -4549,7 +4527,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -4606,11 +4584,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 9152.0,
+          "sample_mean": 9192.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 427520,
@@ -4685,10 +4663,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/427520/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/427520/ab9a2df0a77caebde20dc45adc021de8cdcf7cc5/header.jpg?t=1787348817",
       "release_date": "2020-08-14",
       "release_label": "2020-08-14",
@@ -4707,8 +4683,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 20365,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 20477,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 160956,
@@ -4729,7 +4705,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -4786,11 +4762,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 20365.0,
+          "sample_mean": 20477.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 294100,
@@ -4890,7 +4866,7 @@
       "store_url": "https://store.steampowered.com/app/294100/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789",
       "release_date": "2018-10-17",
       "release_label": "2018-10-17",
@@ -4910,7 +4886,7 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 42213,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 175848,
@@ -4992,7 +4968,7 @@
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 413150,
@@ -5076,7 +5052,7 @@
       "store_url": "https://store.steampowered.com/app/413150/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/413150/header.jpg?t=1786554168",
       "release_date": "2016-02-27",
       "release_label": "2016-02-27",
@@ -5096,7 +5072,7 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 85373,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 688514,
@@ -5178,7 +5154,7 @@
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 975370,
@@ -5271,7 +5247,7 @@
       "store_url": "https://store.steampowered.com/app/975370/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/975370/34e18f5695fffd64458b78110930abc5258ccd14/header.jpg?t=1788524920",
       "release_date": "2022-12-06",
       "release_label": "2022-12-06",
@@ -5290,8 +5266,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 663,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 668,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 26807,
@@ -5369,11 +5345,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 663.0,
+          "sample_mean": 668.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1454400,
@@ -5431,10 +5407,8 @@
       "events": [],
       "store_url": "https://store.steampowered.com/app/1454400/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1454400/header.jpg?t=1792101340",
       "release_date": "2021-09-02",
       "release_label": "2021-09-02",
@@ -5453,8 +5427,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 10603,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 10644,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 62049,
@@ -5475,7 +5449,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -5532,11 +5506,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 10603.0,
+          "sample_mean": 10644.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1473350,
@@ -5586,10 +5560,8 @@
       "events": [],
       "store_url": "https://store.steampowered.com/app/1473350/",
       "origin": "curated",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1473350/header.jpg?t=1766095692",
       "release_date": "2023-12-15",
       "release_label": "2023-12-15",
@@ -5609,8 +5581,8 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 119,
-      "observed_at": "2026-10-18T20:31:33+08:00",
-      "players_observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
+      "players_observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 8559,
@@ -5631,7 +5603,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -5777,7 +5749,7 @@
       "store_url": "https://store.steampowered.com/app/2750000/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/2750000/35b9db336c7dedc7a1c6e6d253df9965deebb683/header.jpg?t=1771501279",
       "release_date": "2025-02-18",
       "release_label": "2025-02-18",
@@ -5796,9 +5768,9 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 47,
-      "observed_at": "2026-10-18T20:31:33+08:00",
-      "players_observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 51,
+      "observed_at": "2026-10-18T20:40:17+08:00",
+      "players_observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 685,
@@ -5876,7 +5848,7 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 47.0,
+          "sample_mean": 51.0,
           "samples": 1
         }
       ]
@@ -5966,7 +5938,7 @@
       "store_url": "https://store.steampowered.com/app/1318690/",
       "origin": "curated",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1318690/header.jpg?t=1788789036",
       "release_date": "2020-06-07",
       "release_label": "2020-06-07",
@@ -5985,8 +5957,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 386,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 403,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 11803,
@@ -6064,11 +6036,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 386.0,
+          "sample_mean": 403.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1203620,
@@ -6172,7 +6144,7 @@
       "store_url": "https://store.steampowered.com/app/1203620/",
       "origin": "discovered",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1203620/98ca939f51b39bdd41e0e9198a9ccf8421148770/header_alt_assets_2.jpg?t=1792078032",
       "release_date": "2026-10-15",
       "release_label": "2026-10-15",
@@ -6191,8 +6163,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 86467,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 89010,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 64569,
@@ -6270,11 +6242,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 86467.0,
+          "sample_mean": 89010.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 3219030,
@@ -6375,7 +6347,7 @@
       "store_url": "https://store.steampowered.com/app/3219030/",
       "origin": "discovered",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/3219030/a5131aa4b84d04a55e3b9c561d7c886cc22bbe1c/header.jpg?t=1791984269",
       "release_date": "2026-10-13",
       "release_label": "2026-10-13",
@@ -6395,7 +6367,7 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 32359,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 2956,
@@ -6477,7 +6449,7 @@
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 4954910,
@@ -6579,10 +6551,10 @@
       "store_url": "https://store.steampowered.com/app/4954910/",
       "origin": "discovered",
       "errors": [],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "metadata_status": "fresh",
-      "current_players": 8332,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 8405,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 1422,
@@ -6660,7 +6632,7 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 8332.0,
+          "sample_mean": 8405.0,
           "samples": 1
         }
       ],
@@ -6681,7 +6653,7 @@
       },
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 1938090,
@@ -6764,10 +6736,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/1938090/",
       "origin": "discovered",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header.jpg?t=1792179713",
       "release_date": "2022-10-28",
       "release_label": "2022-10-28",
@@ -6786,8 +6756,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 90153,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 92323,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 520841,
@@ -6808,7 +6778,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -6865,11 +6835,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 90153.0,
+          "sample_mean": 92323.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 3354750,
@@ -6945,10 +6915,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/3354750/",
       "origin": "discovered",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/3354750/79c5a87b61a396cc6e6b69e3a083727f175dea83/header.jpg?t=1788891347",
       "release_date": "2025-09-17",
       "release_label": "2025-09-17",
@@ -6967,8 +6935,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 6219,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 6248,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 63219,
@@ -6989,7 +6957,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -7046,11 +7014,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 6219.0,
+          "sample_mean": 6248.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 221100,
@@ -7125,10 +7093,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/221100/",
       "origin": "discovered",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/221100/header.jpg?t=1792059745",
       "release_date": "2018-12-14",
       "release_label": "2018-12-14",
@@ -7147,8 +7113,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 52782,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 53434,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 227385,
@@ -7169,7 +7135,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -7226,11 +7192,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 52782.0,
+          "sample_mean": 53434.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 2807960,
@@ -7311,10 +7277,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/2807960/",
       "origin": "discovered",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/2807960/c12d12ce3c7d217398d3fcad77427bfc9d57c570/header.jpg?t=1792168547",
       "release_date": "2025-10-10",
       "release_label": "2025-10-10",
@@ -7334,7 +7298,7 @@
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
       "current_players": 64667,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 245732,
@@ -7355,7 +7319,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -7416,7 +7380,7 @@
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 230410,
@@ -7482,10 +7446,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/230410/",
       "origin": "discovered",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/230410/1a3e7c2a05ce4e5cad5ac4c7e858cf5b0934704e/header.jpg?t=1790176468",
       "release_date": "2013-03-26",
       "release_label": "2013-03-26",
@@ -7504,8 +7466,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 90249,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 91366,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 436479,
@@ -7526,7 +7488,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -7583,11 +7545,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 90249.0,
+          "sample_mean": 91366.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 2622380,
@@ -7647,10 +7609,8 @@
       "events": [],
       "store_url": "https://store.steampowered.com/app/2622380/",
       "origin": "discovered",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/2622380/header.jpg?t=1791488960",
       "release_date": "2025-05-30",
       "release_label": "2025-05-30",
@@ -7669,8 +7629,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 25848,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 25535,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 137756,
@@ -7691,7 +7651,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -7748,11 +7708,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 25848.0,
+          "sample_mean": 25535.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     },
     {
       "appid": 322330,
@@ -7828,10 +7788,8 @@
       ],
       "store_url": "https://store.steampowered.com/app/322330/",
       "origin": "discovered",
-      "errors": [
-        "中英文评论: 本轮刷新未成功，保留上次数据"
-      ],
-      "attempted_at": "2026-10-18T20:31:33+08:00",
+      "errors": [],
+      "attempted_at": "2026-10-18T20:40:17+08:00",
       "header_image": "https://shared.fastly.steamstatic.com/steam/apps/322330/51e5f44e4e38ce02a985687df4fdc8feb678219b/header.jpg?t=1790287771",
       "release_date": "2016-04-22",
       "release_label": "2016-04-22",
@@ -7850,8 +7808,8 @@
       "metadata_at": "2026-10-18T20:31:33+08:00",
       "metadata_source": "Steam Store Browse",
       "metadata_status": "fresh",
-      "current_players": 46430,
-      "observed_at": "2026-10-18T20:31:33+08:00",
+      "current_players": 48483,
+      "observed_at": "2026-10-18T20:40:17+08:00",
       "players_status": "fresh",
       "review_summary": {
         "total": 298037,
@@ -7872,7 +7830,7 @@
       },
       "events_at": "2026-10-18T20:31:33+08:00",
       "events_status": "fresh",
-      "status": "partial",
+      "status": "fresh",
       "windows": {
         "1": {
           "status": "insufficient_history",
@@ -7929,11 +7887,11 @@
       "history": [
         {
           "date": "2026-10-18",
-          "sample_mean": 46430.0,
+          "sample_mean": 48483.0,
           "samples": 1
         }
       ],
-      "players_observed_at": "2026-10-18T20:31:33+08:00"
+      "players_observed_at": "2026-10-18T20:40:17+08:00"
     }
   ],
   "methodology": [
