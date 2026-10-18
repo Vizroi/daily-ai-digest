@@ -107,7 +107,9 @@ jobs:
         run: python src/summarize.py
 
       - name: 更新 Steam 市场快照
-        run: python src/steam_market.py
+        run: |
+          python src/steam_market.py
+          python src/global_market.py
 
       - name: 渲染 Steam 市场观察页
         run: python src/market_render.py
@@ -174,7 +176,9 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: 采集市场快照与历史
-        run: python src/steam_market.py
+        run: |
+          python src/steam_market.py
+          python src/global_market.py
 
       - name: 更新市场页与首页市场摘要
         run: |
@@ -185,7 +189,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/market.json data/market_history.json docs/market.html docs/index.html
+          git add data/market.json data/market_history.json data/global_market.json data/global_market_history.json docs/market.html docs/market-action.html docs/index.html
           if ! git diff --staged --quiet; then
             git commit -m "market: $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase origin main

@@ -333,7 +333,7 @@ def main():
     parser.add_argument("input", nargs="?", default="data/digest.json")
     parser.add_argument("output", nargs="?", default="docs/index.html")
     parser.add_argument("health", nargs="?", help="Compatibility argument for older jobs")
-    parser.add_argument("--market", default="data/market.json")
+    parser.add_argument("--market", default="data/global_market.json")
     parser.add_argument("--no-archive", action="store_true", help="Refresh the homepage without creating or changing an edition archive")
     args = parser.parse_args()
     inp, out = args.input, args.output
