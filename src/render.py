@@ -24,18 +24,17 @@ CSS = r"""
 *,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px;-webkit-text-size-adjust:100%}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.85 var(--sans)}a{color:inherit;text-underline-offset:4px;text-decoration-thickness:1px}a:hover{color:var(--rust)}button,input,select{font:inherit}button,select{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--rust);outline-offset:4px}h1,h2,h3,p,dl,dd{margin:0}h1,h2,h3{text-wrap:balance}p{text-wrap:pretty}[hidden]{display:none!important}.wrap{width:min(1180px,100% - 88px);margin-inline:auto}.skip-link{position:fixed;top:10px;left:12px;z-index:20;padding:8px 16px;background:var(--ink);color:var(--panel);transform:translateY(-180%)}.skip-link:focus{transform:translateY(0)}.overline{font:10px var(--mono);letter-spacing:.17em;color:var(--sage)}
 .masthead{padding-top:27px}.masthead-top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-bottom:13px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.09em;color:var(--soft)}.top-links{display:flex;gap:22px;flex-wrap:wrap}.top-links a{text-decoration:none}.brand-row{display:flex;justify-content:space-between;align-items:center;gap:30px;padding:30px 0 26px}.brand{min-width:0}.brand h1{font:900 clamp(42px,5.8vw,72px)/1.2 var(--serif);letter-spacing:.06em}.brand-en{margin-top:10px;font:12px var(--mono);letter-spacing:.29em;color:var(--soft)}.edition{text-align:right;flex-shrink:0}.edition-date{font:27px/1.3 var(--serif);letter-spacing:.02em}.edition-day{margin-top:6px;font-size:11px;color:var(--soft);letter-spacing:.06em}.edition-status{display:inline-block;margin-top:10px;padding:2px 9px;border:1px solid var(--sage);color:var(--sage);font-size:10px;letter-spacing:.1em}.edition-status.preview{border-color:var(--rust);color:var(--rust)}.strapline{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:10px 0;border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);font-size:12px;color:var(--soft)}.strapline strong{font-weight:500;color:var(--ink)}.edition-count{font:10px var(--mono);white-space:nowrap}.nav{display:flex;gap:28px;flex-wrap:wrap;padding:14px 0;border-bottom:1px solid var(--line)}.nav a{text-decoration:none;font-size:12px;font-weight:600}.nav small{font:10px var(--mono);color:var(--muted);margin-left:5px}.preview-note{margin-top:20px;padding:12px 16px;border-left:3px solid var(--rust);background:#eee2d6;color:#754235;font-size:12px}.preview-note strong{margin-right:8px}
 .edition-grid{display:grid;grid-template-columns:minmax(0,1fr) 258px;gap:48px;align-items:start;margin-top:44px}.main-column,.sidebar{min-width:0}.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding-bottom:18px;border-bottom:2px solid var(--ink)}.section-kicker{display:block;margin-bottom:7px;font:10px var(--mono);letter-spacing:.16em;color:var(--sage)}.section-head h2{font:700 29px/1.35 var(--serif);letter-spacing:.02em}.section-subtitle{margin-top:8px;font-size:12px;color:var(--soft)}.section-count{flex-shrink:0;font-size:11px;color:var(--soft);white-space:nowrap}.section-count b{font:24px/1 var(--serif);color:var(--ink);margin-right:4px}
-.filter-panel{padding:17px 0 13px;border-bottom:1px solid var(--line)}.filter-fields{display:grid;grid-template-columns:minmax(180px,1fr) minmax(105px,145px) minmax(90px,116px);gap:10px}.field{display:block;min-width:0}.field span{display:block;margin-bottom:5px;font-size:10px;color:var(--soft);letter-spacing:.07em}.field input,.field select{width:100%;min-width:0;height:39px;border:1px solid #b9bdaf;border-radius:0;background:var(--panel);padding:0 11px;color:var(--ink);font-size:12px}.field input::placeholder{color:var(--muted)}.field input:focus,.field select:focus{border-color:var(--sage)}.filter-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px;font-size:10px;color:var(--soft)}.text-button{border:0;padding:3px 0;background:transparent;color:var(--sage);font-size:11px;text-decoration:underline;text-underline-offset:3px}.filter-empty{padding:42px 22px;border-bottom:1px solid var(--line);text-align:center}.filter-empty h3{font:21px var(--serif);margin-bottom:8px}.filter-empty p{font-size:12px;color:var(--soft);margin-bottom:14px}
 .news-list{list-style:none;padding:0;margin:0}.news-item{padding:23px 0 24px;border-bottom:1px solid var(--line);scroll-margin-top:24px}.story-topline{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:10px;line-height:1.5;color:var(--soft)}.story-number{font:11px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}.topic{color:var(--sage);font-size:10px;letter-spacing:.04em}.topic::before{content:"";display:inline-block;width:5px;height:5px;margin:0 7px 1px 0;background:var(--sage)}.story-date{margin-left:auto;font:10px var(--mono);color:var(--soft);white-space:nowrap}.permalink{text-decoration:none;color:var(--muted);font:12px var(--mono);padding:1px 4px}.news-title{font:700 22px/1.55 var(--serif);letter-spacing:.005em}.news-title a,.feature-title a,.ai-title a{text-decoration:none}.news-list>li:first-child .news-title{font-size:29px;line-height:1.5}.original-title{display:block;margin-top:5px;font:400 11px/1.65 var(--sans);color:var(--muted);letter-spacing:0;text-wrap:wrap}.story-summary{font-size:13px;color:var(--soft);line-height:1.95;margin-top:11px}.planner-note{margin-top:12px;font-size:12px;line-height:1.85;color:var(--soft)}.planner-note span{font-size:10px;font-weight:700;color:var(--sage);margin-right:8px}.story-background{margin-top:10px;font-size:12px;color:var(--soft)}.story-background summary{width:fit-content;cursor:pointer;color:var(--sage);font-size:10px}.story-background p{padding-top:7px;line-height:1.85}.source-line{display:flex;flex-wrap:wrap;align-items:baseline;gap:5px 10px;margin-top:13px;font-size:10px;line-height:1.75;color:var(--muted)}.source-line a{color:var(--soft);text-decoration:none;border-bottom:1px solid #c9cbbb}.source-line a:hover{color:var(--rust);border-color:var(--rust)}.source-line .lang-label{font:9px var(--mono);letter-spacing:.04em;color:var(--sage)}.source-note{font-size:10px;color:var(--muted);margin-top:6px}.no-content{padding:30px 0;font-size:13px;color:var(--soft)}
 .sidebar{border-top:2px solid var(--ink);padding-top:16px}.sidebar h2{font:700 20px/1.4 var(--serif)}.sidebar-deck{font-size:12px;color:var(--soft);line-height:1.9;margin-top:10px}.issue-totals{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:21px;padding-bottom:23px;border-bottom:1px solid var(--line)}.issue-totals div{border-right:1px solid var(--line);padding-right:8px}.issue-totals div:last-child{border-right:0}.issue-totals b{display:block;font:28px/1.2 var(--serif)}.issue-totals span{display:block;margin-top:7px;font-size:10px;color:var(--soft)}.guide-title{font-size:10px;font-weight:600;color:var(--sage);letter-spacing:.12em;margin-top:22px}.guide-list{list-style:none;padding:0;margin:8px 0 0}.guide-list li{padding:13px 0;border-bottom:1px solid var(--line)}.guide-list small{font:9px var(--mono);color:var(--muted);letter-spacing:.1em}.guide-list a{display:block;margin-top:4px;text-decoration:none;font:14px/1.7 var(--serif)}.sidebar-quote{margin-top:28px;padding-top:18px;border-top:3px double var(--line);font:16px/1.85 var(--serif);color:var(--sage)}.sidebar-caption{font-size:10px;color:var(--soft);line-height:1.85;margin-top:8px}.source-mix{margin-top:22px;font-size:10px;color:var(--muted);line-height:1.9}
 .features-section{margin-top:56px}.feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:24px;border:1px solid var(--line);background:var(--panel)}.feature-card{min-width:0;padding:25px 24px 26px;border-right:1px solid var(--line);scroll-margin-top:24px}.feature-card:last-child{border-right:0}.feature-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.feature-mark{font:11px var(--mono);letter-spacing:.1em;color:var(--rust)}.feature-kind{font-size:10px;color:var(--sage)}.feature-title{font:700 22px/1.55 var(--serif)}.feature-summary{font-size:13px;color:var(--soft);line-height:1.95;margin-top:16px}.feature-notes{margin-top:20px;border-top:1px solid var(--line)}.feature-note{padding-top:16px}.feature-note dt{font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--sage);margin-bottom:5px}.feature-note dd{font-size:12px;line-height:1.95;color:var(--soft)}.feature-note.takeaway{margin-top:16px;padding:14px;background:var(--wash)}.feature-meta{margin-top:20px;font:9px/1.8 var(--mono);color:var(--muted)}.feature-card .source-line{margin-top:8px}.section-empty{padding:24px 0;font-size:13px;color:var(--soft);border-bottom:1px solid var(--line)}
 .ai-section{margin-top:49px;padding-top:24px;border-top:3px double var(--ink)}.ai-section .section-head{padding-bottom:15px;border-bottom:1px solid var(--line)}.ai-section .section-head h2{font-size:23px}.ai-section .section-kicker{font-size:9px}.ai-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;padding-top:21px}.ai-item{min-width:0;scroll-margin-top:24px}.ai-title{font:700 18px/1.6 var(--serif)}.ai-item .story-summary{font-size:12px;margin-top:10px}.ai-top{display:flex;gap:8px;align-items:baseline;margin-bottom:8px;color:var(--sage);font-size:10px}.ai-top .permalink{margin-left:auto}.ai-item .planner-note{font-size:11px}
 .archive-section{margin-top:49px;padding-top:22px;border-top:1px solid var(--line)}.archive-section h2{font:700 20px var(--serif)}.archive-deck{margin-top:6px;color:var(--soft);font-size:11px}.archive-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;list-style:none;padding:0}.archive-list a{display:block;font:10px var(--mono);padding:7px 11px;border:1px solid var(--line);text-decoration:none}.archive-list a:hover{border-color:var(--sage);background:var(--wash);color:var(--sage)}.archive-list [aria-current=date]{border-color:var(--sage);color:var(--sage)}.archive-more summary{font-size:11px;color:var(--soft);cursor:pointer;width:fit-content}.footer{margin-top:37px;padding:20px 0 33px;border-top:2px solid var(--ink);display:flex;justify-content:space-between;align-items:flex-start;gap:24px;font-size:10px;line-height:1.9;color:var(--muted)}.footer-brand{font:700 15px var(--serif);color:var(--ink);letter-spacing:.07em}.footer-copy{margin-top:6px;max-width:670px}.footer-links{display:flex;gap:19px;flex-wrap:wrap;justify-content:flex-end;flex-shrink:0}.footer-links a{text-decoration:none}.news-title,.feature-title,.ai-title,.original-title,.story-summary,.feature-summary,.feature-note dd,.guide-list a,.planner-note,.source-line{overflow-wrap:anywhere}article:target{outline:2px solid var(--sage);outline-offset:8px;background:#eef0e6}
 @media(min-width:1100px){.sidebar{position:sticky;top:24px}}
-@media(max-width:960px){.wrap{width:calc(100% - 48px)}.edition-grid{grid-template-columns:minmax(0,1fr) 216px;gap:30px}.feature-card{padding:22px 18px}.feature-title{font-size:20px}.filter-fields{grid-template-columns:minmax(0,1fr) 112px 90px;gap:7px}.news-title{font-size:21px}.news-list>li:first-child .news-title{font-size:26px}}
-@media(max-width:760px){.wrap{width:calc(100% - 36px)}.masthead{padding-top:18px}.masthead-top{font-size:10px}.top-links{gap:15px}.brand-row{gap:15px;padding:25px 0 23px}.brand h1{font-size:45px;letter-spacing:.04em}.brand-en{font-size:9px;letter-spacing:.2em;margin-top:8px}.edition-date{font-size:21px}.edition-day{font-size:10px}.edition-status{font-size:9px;margin-top:7px}.strapline{align-items:flex-start;gap:9px;flex-direction:column;font-size:11px}.edition-count{font-size:9px}.nav{gap:12px 22px;padding:12px 0}.nav a{font-size:11px}.edition-grid{display:block;margin-top:31px}.sidebar{display:none}.section-head{padding-bottom:14px}.section-head h2{font-size:27px}.section-subtitle{font-size:11px}.section-count b{font-size:23px}.filter-fields{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:9px}.field.search-field{grid-column:1/-1}.field input,.field select{height:41px}.news-item{padding:20px 0}.news-title{font-size:22px}.news-list>li:first-child .news-title{font-size:26px}.features-section{margin-top:39px}.feature-grid{grid-template-columns:1fr;margin-top:19px}.feature-card{padding:23px 22px 25px;border-right:0;border-bottom:1px solid var(--line)}.feature-card:last-child{border-bottom:0}.feature-title{font-size:24px}.feature-notes{display:grid;grid-template-columns:1fr 1fr;gap:18px}.feature-note.takeaway{margin-top:14px;padding:13px}.feature-meta{margin-top:19px}.ai-section{margin-top:36px}.ai-list{grid-template-columns:1fr;gap:24px}.ai-item+.ai-item{border-top:1px solid var(--line);padding-top:21px}.ai-title{font-size:20px}.archive-section{margin-top:34px}.footer{display:block;padding-bottom:27px}.footer-links{justify-content:flex-start;margin-top:15px}.preview-note{font-size:11px;padding:11px 13px}}
+@media(max-width:960px){.wrap{width:calc(100% - 48px)}.edition-grid{grid-template-columns:minmax(0,1fr) 216px;gap:30px}.feature-card{padding:22px 18px}.feature-title{font-size:20px}.news-title{font-size:21px}.news-list>li:first-child .news-title{font-size:26px}}
+@media(max-width:760px){.wrap{width:calc(100% - 36px)}.masthead{padding-top:18px}.masthead-top{font-size:10px}.top-links{gap:15px}.brand-row{gap:15px;padding:25px 0 23px}.brand h1{font-size:45px;letter-spacing:.04em}.brand-en{font-size:9px;letter-spacing:.2em;margin-top:8px}.edition-date{font-size:21px}.edition-day{font-size:10px}.edition-status{font-size:9px;margin-top:7px}.strapline{align-items:flex-start;gap:9px;flex-direction:column;font-size:11px}.edition-count{font-size:9px}.nav{gap:12px 22px;padding:12px 0}.nav a{font-size:11px}.edition-grid{display:block;margin-top:31px}.sidebar{display:none}.section-head{padding-bottom:14px}.section-head h2{font-size:27px}.section-subtitle{font-size:11px}.section-count b{font-size:23px}.news-item{padding:20px 0}.news-title{font-size:22px}.news-list>li:first-child .news-title{font-size:26px}.features-section{margin-top:39px}.feature-grid{grid-template-columns:1fr;margin-top:19px}.feature-card{padding:23px 22px 25px;border-right:0;border-bottom:1px solid var(--line)}.feature-card:last-child{border-bottom:0}.feature-title{font-size:24px}.feature-notes{display:grid;grid-template-columns:1fr 1fr;gap:18px}.feature-note.takeaway{margin-top:14px;padding:13px}.feature-meta{margin-top:19px}.ai-section{margin-top:36px}.ai-list{grid-template-columns:1fr;gap:24px}.ai-item+.ai-item{border-top:1px solid var(--line);padding-top:21px}.ai-title{font-size:20px}.archive-section{margin-top:34px}.footer{display:block;padding-bottom:27px}.footer-links{justify-content:flex-start;margin-top:15px}.preview-note{font-size:11px;padding:11px 13px}}
 @media(max-width:390px){.wrap{width:calc(100% - 28px)}.brand h1{font-size:38px}.brand-en{font-size:8px;letter-spacing:.13em}.edition-date{font-size:18px}.edition-day{font-size:9px}.masthead-top{font-size:9px}.section-head h2{font-size:24px}.section-subtitle{font-size:10px}.feature-notes{display:block}.feature-note.takeaway{margin-top:17px}.story-topline{gap:7px}.story-date{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
-@media print{body{background:#fff;color:#111;font-size:11px}.wrap{width:100%;max-width:none}.top-links,.nav,.filter-panel,.filter-empty,.sidebar,.permalink,.footer-links{display:none!important}.edition-grid{display:block}.news-item,.feature-card,.ai-item{break-inside:avoid}.feature-grid,.ai-list{display:block}.feature-card{border-right:0;border-bottom:1px solid #aaa}.news-list>li[hidden]{display:block!important}.footer{margin-top:20px}.brand h1{font-size:40px}}
+@media print{body{background:#fff;color:#111;font-size:11px}.wrap{width:100%;max-width:none}.top-links,.nav,.sidebar,.permalink,.footer-links{display:none!important}.edition-grid{display:block}.news-item,.feature-card,.ai-item{break-inside:avoid}.feature-grid,.ai-list{display:block}.feature-card{border-right:0;border-bottom:1px solid #aaa}.footer{margin-top:20px}.brand h1{font-size:40px}}
 """
 
 CSS += SITE_NAV_CSS + r"""
@@ -45,58 +44,6 @@ CSS += SITE_NAV_CSS + r"""
 @media(max-width:760px){.wrap{width:calc(100% - 28px)}.brand h1{font-size:35px}.brand-row{padding:18px 0}.brand-en{font-size:8px}.edition-date{font-size:19px}.edition-contents{gap:8px 16px;padding:12px 0}.contents-label{flex-basis:100%}.contents-language{display:none}.masthead-top{gap:10px}.top-links{gap:12px}}
 @media print{.edition-contents{display:none}}
 """
-
-SCRIPT = r"""
-(() => {
-  const form = document.getElementById('news-filters');
-  if (!form) return;
-  const search = document.getElementById('news-search');
-  const topic = document.getElementById('news-topic');
-  const language = document.getElementById('news-language');
-  const items = Array.from(document.querySelectorAll('[data-news-item]'));
-  const status = document.getElementById('filter-status');
-  const empty = document.getElementById('filter-empty');
-  const normalise = text => text.normalize('NFKC').toLocaleLowerCase().trim();
-  const initial = new URLSearchParams(location.search);
-  search.value = initial.get('q') || '';
-  if (Array.from(topic.options).some(option => option.value === initial.get('topic'))) topic.value = initial.get('topic');
-  if (Array.from(language.options).some(option => option.value === initial.get('lang'))) language.value = initial.get('lang');
-  function apply() {
-    const terms = normalise(search.value).split(/\s+/).filter(Boolean);
-    let visible = 0;
-    items.forEach(item => {
-      const matches = terms.every(term => normalise(item.dataset.search).includes(term))
-        && (!topic.value || item.dataset.topic === topic.value)
-        && (!language.value || item.dataset.lang === language.value);
-      item.hidden = !matches;
-      if (matches) visible += 1;
-    });
-    status.textContent = visible === items.length ? `本期 ${items.length} 条游戏动态` : `显示 ${visible} / ${items.length} 条游戏动态`;
-    empty.hidden = visible !== 0;
-    const url = new URL(location.href);
-    [['q', search.value.trim()], ['topic', topic.value], ['lang', language.value]].forEach(([key, value]) => {
-      if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
-    });
-    try { history.replaceState(null, '', url.pathname + url.search + url.hash); } catch (_) {}
-  }
-  function reset() { form.reset(); apply(); search.focus(); }
-  form.addEventListener('submit', event => { event.preventDefault(); apply(); });
-  search.addEventListener('input', apply);
-  topic.addEventListener('change', apply);
-  language.addEventListener('change', apply);
-  document.querySelectorAll('[data-reset-filters]').forEach(button => button.addEventListener('click', reset));
-  document.addEventListener('keydown', event => {
-    const target = event.target;
-    if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey
-      && !(target instanceof HTMLElement && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName)))) {
-      event.preventDefault(); search.focus();
-    }
-  });
-  form.hidden = false;
-  apply();
-})();
-"""
-
 
 def esc(value) -> str:
     return html.escape(str(value or ""), quote=True)
@@ -256,14 +203,12 @@ def _summary_note(ev: dict) -> str:
 
 def _news_item(ev: dict, index: int) -> str:
     anchor, topic = _anchor(ev, "news", index), _topic(ev)
-    search = " ".join(_text(ev.get(key)) for key in ("title", "title_cn", "what", "why", "for_you", "summary_raw"))
-    search += " " + " ".join(_source_names(ev)) + " " + topic
     summary = f'<p class="story-summary">{esc(_summary(ev))}</p>' if _summary(ev) else ""
     planner = f'<p class="planner-note"><span>策划视角</span>{esc(_insight(ev))}</p>' if _insight(ev) else ""
     why = _text(ev.get("why"))
     background = (f'<details class="story-background"><summary>背景与变化</summary><p>{esc(why)}</p></details>'
                   if why and why != _summary(ev) else "")
-    return (f'<li data-news-item data-topic="{esc(topic)}" data-lang="{_lang(ev)}" data-search="{esc(search)}">'
+    return ('<li>'
             f'<article class="news-item" id="{anchor}"><div class="story-topline"><span class="story-number">{index:02d}</span>'
             f'<span class="topic">{esc(topic)}</span><span class="story-date">{_published(ev)}</span>{_permalink(anchor)}</div>'
             f'<h3 class="news-title">{_title_link(ev)}</h3>{summary}{planner}{background}{_sources(ev)}{_summary_note(ev)}</article></li>')
@@ -310,23 +255,6 @@ def _section_head(number: str, title: str, en: str, subtitle: str, count: int, u
     return (f'<div class="section-head"><div><span class="section-kicker">{number} / {esc(en)}</span>'
             f'<h2>{esc(title)}</h2><p class="section-subtitle">{esc(subtitle)}</p></div>'
             f'<span class="section-count"><b>{count}</b>{esc(unit)}</span></div>')
-
-
-def _filters(news: list[dict]) -> str:
-    topics = list(dict.fromkeys(_topic(event) for event in news))
-    options = ''.join(f'<option value="{esc(topic)}">{esc(topic)}</option>' for topic in topics)
-    available = {_lang(event) for event in news}
-    langs = ''.join(f'<option value="{key}">{label}</option>' for key, label in
-                    (("zh", "中文原文"), ("en", "英文原文"), ("other", "其他语言")) if key in available)
-    return ('<form class="filter-panel" id="news-filters" role="search" aria-label="筛选本期游戏日报" hidden>'
-            '<div class="filter-fields"><label class="field search-field" for="news-search"><span>搜索本期</span>'
-            '<input type="search" id="news-search" name="q" placeholder="游戏、机制、开发者或来源" autocomplete="off" aria-keyshortcuts="/"></label>'
-            f'<label class="field" for="news-topic"><span>主题</span><select id="news-topic" name="topic"><option value="">全部主题</option>{options}</select></label>'
-            f'<label class="field" for="news-language"><span>原文语言</span><select id="news-language" name="lang"><option value="">全部语言</option>{langs}</select></label></div>'
-            f'<div class="filter-footer"><p id="filter-status" role="status" aria-live="polite">本期 {len(news)} 条游戏动态</p>'
-            '<button class="text-button" type="button" data-reset-filters>清除筛选</button></div></form>'
-            '<div class="filter-empty" id="filter-empty" hidden><h3>没有找到相关动态</h3><p>换个关键词，或清除主题与语言筛选。</p>'
-            '<button class="text-button" type="button" data-reset-filters>查看本期全部动态</button></div>')
 
 
 def _sidebar(news: list[dict], features: list[dict], ai: list[dict], source_count: int) -> str:
@@ -405,12 +333,12 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
 <nav class="edition-contents" aria-label="本期目录"><span class="contents-label">本期目录</span><a href="#news">游戏日报<small>{len(news)} 条</small></a><a href="#features">策划精选<small>{len(features)} 篇</small></a><a href="#ai">AI 精华<small>{len(ai)} 条</small></a><span class="contents-language">{language_label}</span></nav></header>{preview_html}
 <main><div class="edition-grid"><div class="main-column"><section id="news" aria-label="今日游戏日报">
 {_section_head('01', '今日游戏日报', 'THE DAILY', '游戏发售、版本更新、行业与开发动态。', len(news))}
-{_filters(news) if news else ''}<ol class="news-list">{news_html}</ol></section></div>{_sidebar(news, features, ai, len(names))}</div>
+<ol class="news-list">{news_html}</ol></section></div>{_sidebar(news, features, ai, len(names))}</div>
 <section class="features-section" id="features" aria-label="策划精选">{_section_head('02', '策划精选', 'THE DESIGN DESK', '游戏机制、设计分析与开发复盘。', len(features), '篇')}{features_html}</section>
 <section class="ai-section" id="ai" aria-label="AI 精华">{_section_head('03', 'AI 精华', 'ON THE SIDE', 'AI 工具、模型与开发应用。', len(ai))}{ai_html}</section>
 {market_html}{_archive(dates, date_iso, archive_page, preview, digest.get("earlier_editions"))}</main>
 <footer class="footer"><div><p class="footer-brand">策划日报</p><p class="footer-copy">收录游戏资讯、开发实践与设计文章。中文摘要与策划视角是阅读导引，完整语境以原文为准；常青阅读保留原始日期。{'本页为试刊预览。' if preview else ''}</p></div><div class="footer-links">{'<a href="../index.html">最新一期</a>' if archive_page else ''}<a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅</a><a href="https://github.com/Vizroi/daily-ai-digest" target="_blank" rel="noopener noreferrer">关于与源码 ↗</a><a href="#top">↑ 页首</a></div></footer>
-</div><script>{SCRIPT}</script></body></html>'''
+</div></body></html>'''
 
 
 def main():

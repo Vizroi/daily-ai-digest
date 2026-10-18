@@ -36,8 +36,9 @@ class OutputTests(unittest.TestCase):
         self.assertEqual(len(parser.ids), len(set(parser.ids)))
         self.assertTrue(all(anchor in parser.ids for anchor in parser.anchors))
         self.assertIn("试刊", page)
-        self.assertIn("news-language", page)
-        self.assertIn("news-search", page)
+        self.assertNotIn('<form', page)
+        self.assertNotIn('<script', page)
+        self.assertEqual(page.count('class="news-item"'), len(self.digest["news"]))
         self.assertIn("策划精选", page)
 
     def test_feed_contains_all_three_sections_with_unique_ids(self):
