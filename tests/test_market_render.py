@@ -50,6 +50,58 @@ def fixture():
 
 
 class MarketRenderTests(unittest.TestCase):
+    def test_summary_explains_cold_start_without_inventing_growth(self):
+        data = fixture()
+        summary = market_render._market_summary(data, data["games"])
+        self.assertIn("包含 1 款动作游戏、0 款其他类型", summary)
+        self.assertIn("取得 1/1 款的本轮在线快照", summary)
+        self.assertIn("记录覆盖 1 个自然日", summary)
+        self.assertIn("暂不能判断上涨或下降", summary)
+        self.assertNotIn("%", summary)
+        self.assertIn("Arena &lt;One&gt;", summary)
+
+    def test_summary_excludes_stale_and_invalid_current_players(self):
+        for value, status in ((999999, "stale"), (None, "fresh"), (True, "fresh"),
+                              (float("nan"), "fresh"), (float("inf"), "fresh"), (-1, "fresh")):
+            with self.subTest(value=value, status=status):
+                data = fixture()
+                other = copy.deepcopy(data["games"][0])
+                other.update(appid=101, name="Excluded", current_players=value, players_status=status)
+                data["games"].append(other)
+                summary = market_render._market_summary(data, data["games"])
+                self.assertIn("取得 1/2 款", summary)
+                self.assertNotIn("Excluded", summary)
+
+    def test_summary_ranks_daily_absolute_changes_and_dates_complete_days(self):
+        data = fixture()
+        base = data["games"][0]
+        base["windows"]["1"] = {"status": "ready", "previous": 100, "current": 70,
+                                  "absolute_change": -30, "percent_change": -30}
+        small = copy.deepcopy(base)
+        small.update(appid=101, name="Tiny growth")
+        small["windows"]["1"] = {"status": "ready", "previous": 1, "current": 3,
+                                  "absolute_change": 2, "percent_change": 200, "low_base": True}
+        data["games"].append(small)
+        summary = market_render._market_summary(data, data["games"])
+        self.assertIn("10.17 较 10.16", summary)
+        self.assertIn("2 款可比样本中 1 款上涨、1 款下降、0 款持平", summary)
+        self.assertIn("100.0 → 70.0 人（-30.0 人，-30.0%）", summary)
+        self.assertNotIn("+200.0%", summary)
+        self.assertNotIn("暂不能判断", summary)
+
+    def test_summary_handles_zero_base_failed_collection_and_no_games(self):
+        data = fixture()
+        game = data["games"][0]
+        game.update(players_status="stale", current_players=99999)
+        game["windows"]["1"] = {"status": "no_baseline", "previous": 0, "current": 100,
+                                 "absolute_change": 100, "percent_change": None}
+        summary = market_render._market_summary(data, data["games"])
+        self.assertIn("本轮在线采集未成功", summary)
+        self.assertNotIn("当前在线最高", summary)
+        self.assertIn("基数为零，不计算百分比", summary)
+        self.assertNotIn("%", summary)
+        self.assertIn("暂无在线人数与涨跌摘要", market_render._market_summary({}, []))
+
     def test_cold_start_keeps_current_snapshot_and_real_sources(self):
         page = market_render.render_market(fixture())
         self.assertIn("历史积累中", page)
