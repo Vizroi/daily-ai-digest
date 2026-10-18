@@ -560,36 +560,22 @@ def render_market_brief(data: dict, href="market.html") -> str:
     return f'''<style>.sm-brief{{margin-top:39px;padding-top:23px;border-top:3px double #292d27}}.sm-brief-head{{display:flex;justify-content:space-between;align-items:baseline;gap:15px}}.sm-brief-head h2{{font:700 25px/1.4 Georgia,"Noto Serif SC","Songti SC",SimSun,serif;margin:0}}.sm-brief-head>a{{font-size:11px;color:#4c6152}}.sm-brief-date{{font-size:10px;color:#74796d;margin:7px 0 0}}.sm-brief-grid{{display:grid;grid-template-columns:repeat({len(entries[:3])},minmax(0,1fr));gap:25px;margin-top:19px}}.sm-brief-item{{min-width:0}}.sm-brief-item>span{{font-size:10px;color:#4c6152}}.sm-brief-item h3{{font:700 19px/1.6 Georgia,"Noto Serif SC","Songti SC",SimSun,serif;margin:7px 0}}.sm-brief-item h3 a{{text-decoration:none;color:inherit}}.sm-brief-item p{{font-size:12px;line-height:1.9;color:#5e635a;margin:0;overflow-wrap:anywhere}}@media(max-width:760px){{.sm-brief-grid{{grid-template-columns:1fr;gap:20px}}.sm-brief-head h2{{font-size:23px}}.sm-brief-item+.sm-brief-item{{padding-top:16px;border-top:1px solid #d1d0c1}}}}</style><section class="sm-brief" id="steam-market-brief" aria-labelledby="steam-market-brief-heading"><div class="sm-brief-head"><h2 id="steam-market-brief-heading">Steam 市场摘要</h2><a href="{esc(href)}">查看市场页 →</a></div><p class="sm-brief-date">市场本轮采集：{_time(data.get('generated_at'))}（北京时间） · 全局样本 / 动作游戏<br>{collection_note}</p><div class="sm-brief-grid">{rows}</div></section>'''
 
 
-def render_action_market(data):
-    """Retain the original action watchlist as a separate, linked market page."""
-    from global_market_render import market_navigation
-    games = [game for game in _games(data) if game.get("is_action")]
-    generated = _dt(data.get("generated_at"))
-    today = generated.date() if generated else None
-    action_script = SCRIPT.replace("两组统一查看", "当前查看").replace("，分别统计可比覆盖", "，统计本组可比覆盖")
-    return f'''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>动作游戏观察 · 策划日报</title><style>{CSS}
-.market-nav{{display:flex;gap:25px;border-bottom:1px solid var(--line);margin:4px 0 24px}}.market-nav a{{padding:10px 0;text-decoration:none;color:var(--soft);font-size:14px;border-bottom:3px solid transparent}}.market-nav a[aria-current]{{border-color:var(--sage);color:var(--sage);font-weight:700}}
-</style></head><body><a class="skip" href="#observations">跳到动作游戏</a><div class="wrap">{render_site_navigation('market')}
-<header class="masthead"><div class="brand-row"><h1>Steam 市场观察</h1><div class="edition">本轮采集 {_time(data.get('generated_at'))} · 北京时间</div></div></header>{market_navigation('action')}
-<main><p class="coverage-note">动作游戏跟踪样本 · 保留玩家评价与官方事件记录</p><section id="observations" class="observation">
-<div class="window-controls" hidden><span>变化窗口</span><div class="button-group" role="group" aria-label="时间窗口"><button data-days="1" aria-pressed="false">1 天</button><button data-days="7" aria-pressed="true">7 天</button><button data-days="30" aria-pressed="false">30 天</button></div></div><p class="window-note" id="window-note" aria-live="polite">比较最近 7 个完整日与此前 7 日。</p>
-{_group_section(data, games, today, 'action')}</section><details class="scope-section"><summary>动作样本的分类概览 <span id="scope-window-label">当前快照与 7 天变化</span></summary>{_segments(games)}</details>
-<details class="methodology" id="methodology"><summary>数据口径与来源</summary><div class="method-grid"><div><p>当前在线与历史采样均值均不等于销量、收入或留存。每个完整日需至少两次采样，跨度至少六小时；缺失不补零。比较两个等长窗口，完整 30 天对比需 60 个覆盖日。</p><p>评论为中英文有限抽样，事件与变化在时间上相邻不构成因果证据。此页为动作游戏跟踪样本，不代表全部动作游戏。</p></div><div>{_sources(data)}</div></div></details></main><footer class="footer"><span>策划日报 / 动作游戏观察</span><nav><a href="market.html">全局市场</a><a href="index.html">回到日报</a></nav></footer></div><script>{action_script}</script></body></html>'''
+def render_action_market(data=None):
+    """Keep existing bookmarks working after merging into the global page."""
+    return '''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=market.html"><link rel="canonical" href="market.html"><title>Steam 市场观察</title></head><body><p><a href="market.html">前往 Steam 市场观察</a></p></body></html>'''
 
 
 def main():
     parser = argparse.ArgumentParser(description="Render the Steam market observation page")
     parser.add_argument("--input", default=str(ROOT / "data" / "global_market.json"))
-    parser.add_argument("--action-input", default=str(ROOT / "data" / "market.json"))
     parser.add_argument("--output", default=str(ROOT / "docs" / "market.html"))
     args = parser.parse_args()
     data = json.loads(Path(args.input).read_text(encoding="utf-8")) if Path(args.input).exists() else {}
-    action = json.loads(Path(args.action_input).read_text(encoding="utf-8")) if Path(args.action_input).exists() else {}
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     from global_market_render import render_global_market
     output.write_text(render_global_market(data), encoding="utf-8")
-    output.with_name("market-action.html").write_text(render_action_market(action), encoding="utf-8")
+    output.with_name("market-action.html").write_text(render_action_market(), encoding="utf-8")
     print(f"Rendered {len(_games(data))} market samples to {output}")
 
 

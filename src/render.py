@@ -298,10 +298,6 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
     title = f'策划日报 · {date_iso}' + (' · 试刊' if preview else '')
     desc = f'游戏动态 {len(news)} 条，策划精选 {len(features)} 篇。游戏资讯、设计分析与开发实践。'
     prefix = "../" if archive_page else ""
-    market_html = ""
-    if market:
-        from market_render import render_market_brief
-        market_html = render_market_brief(market, href=prefix + "market.html")
     preview_message = _text(digest.get("editorial_note")) or "这是新栏目结构的预览，内容与编排仍在调整，不计入正式归档。"
     preview_html = (f'<div class="preview-note" role="note"><strong>试刊</strong>{esc(preview_message)}</div>' if preview else '')
     news_html = ''.join(_news_item(event, i) for i, event in enumerate(news, 1)) or '<li class="no-content">本期暂未收录游戏动态。</li>'
@@ -323,7 +319,7 @@ def render(digest: dict, health: dict | None = None, *, archive_dates: list[str]
 {_section_head('01', '今日游戏日报', 'THE DAILY', '游戏发售、版本更新、行业与开发动态。', len(news))}
 <ol class="news-list">{news_html}</ol></section></div>{_sidebar(news, features, len(names))}</div>
 <section class="features-section" id="features" aria-label="策划精选">{_section_head('02', '策划精选', 'THE DESIGN DESK', '游戏机制、设计分析与开发复盘。', len(features), '篇')}{features_html}</section>
-{market_html}{_archive(dates, date_iso, archive_page, preview, digest.get("earlier_editions"))}</main>
+{_archive(dates, date_iso, archive_page, preview, digest.get("earlier_editions"))}</main>
 <footer class="footer"><div><p class="footer-brand">策划日报</p><p class="footer-copy">收录游戏资讯、开发实践与设计文章。中文摘要与策划视角是阅读导引，完整语境以原文为准；常青阅读保留原始日期。{'本页为试刊预览。' if preview else ''}</p></div><div class="footer-links">{'<a href="../index.html">最新一期</a>' if archive_page else ''}<a href="#archive">往期归档</a><a href="{prefix}feed.xml">RSS 订阅</a><a href="https://github.com/Vizroi/daily-ai-digest" target="_blank" rel="noopener noreferrer">关于与源码 ↗</a><a href="#top">↑ 页首</a></div></footer>
 </div></body></html>'''
 

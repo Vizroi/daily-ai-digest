@@ -1,5 +1,4 @@
 """Global UI must retain evidence scope, safe links and progressive disclosure."""
-import copy
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -12,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 from global_market_render import render_global_market
 from market_render import render_action_market, render_market_brief
+import render
 
 
 def fixture():
@@ -53,7 +53,7 @@ class GlobalMarketRenderTests(unittest.TestCase):
         page=Page(render_global_market(fixture()))
         self.assertEqual(len(page.ids),len(set(page.ids)))
         self.assertTrue(all(target in page.ids for target in page.anchors))
-        self.assertIn('market-action.html',page.links)
+        self.assertNotIn('market-action.html',page.links)
         for period in page.periods:
             self.assertEqual('hidden' in period,period['data-period']!='7')
 
@@ -75,32 +75,33 @@ class GlobalMarketRenderTests(unittest.TestCase):
         self.assertIn('尚未接入',page)
         self.assertNotIn('最高第 0',page)
 
-    def test_action_page_preserves_only_action_watchlist_and_separate_navigation(self):
-        data=fixture();action=copy.deepcopy(data['games'][0])
-        action.update(appid=200,name='Combat',is_action=True)
-        data['games'].append(action)
-        page=render_action_market(data)
-        self.assertIn('id="game-200"',page)
+    def test_previous_action_address_redirects_to_the_single_market_page(self):
+        page=render_action_market()
+        self.assertIn('http-equiv="refresh" content="0;url=market.html"',page)
         self.assertNotIn('id="game-100"',page)
-        self.assertNotIn('其他类型观察',page)
+        self.assertNotIn('动作游戏观察',page)
         self.assertIn('href="market.html"',page)
 
-    def test_build_outputs_both_pages_and_keeps_archive_intact(self):
+    def test_build_outputs_market_and_compatibility_redirect_and_keeps_archive_intact(self):
         with tempfile.TemporaryDirectory() as temp:
-            path=Path(temp);inp=path/'global.json';action=path/'action.json'
-            inp.write_text(json.dumps(fixture()),encoding='utf8');action.write_text('{}',encoding='utf8')
+            path=Path(temp);inp=path/'global.json'
+            inp.write_text(json.dumps(fixture()),encoding='utf8')
             archive=path/'archive.html';archive.write_text('keep',encoding='utf8')
-            result=subprocess.run([sys.executable,str(ROOT/'src/market_render.py'),'--input',str(inp),'--action-input',str(action),'--output',str(path/'market.html')],capture_output=True,text=True)
+            result=subprocess.run([sys.executable,str(ROOT/'src/market_render.py'),'--input',str(inp),'--output',str(path/'market.html')],capture_output=True,text=True)
             self.assertEqual(result.returncode,0,result.stderr)
-            self.assertTrue((path/'market-action.html').exists())
+            self.assertIn('content="0;url=market.html"',(path/'market-action.html').read_text(encoding='utf8'))
             self.assertEqual(archive.read_text(),'keep')
             self.assertIn('全局市场', (path/'market.html').read_text(encoding='utf8'))
 
-    def test_home_brief_links_to_global_summary_with_no_broken_game_anchors(self):
-        brief=render_market_brief(fixture(),'../market.html')
-        self.assertIn('href="../market.html"',brief)
-        self.assertNotIn('#game-',brief)
-        self.assertNotIn('javascript:',render_market_brief(fixture(),'javascript:alert(1)'))
+    def test_complete_summary_is_on_market_page_before_observations_and_not_in_daily(self):
+        digest=json.loads((ROOT/'data/digest.json').read_text(encoding='utf8'))
+        daily=render.render(digest,market=fixture())
+        self.assertNotIn('steam-market-brief',daily)
+        self.assertIn('href="market.html"',daily)
+        market=render_global_market(fixture())
+        self.assertIn('本次收录 1 款',market)
+        self.assertEqual(market.count('id="steam-market-brief"'),1)
+        self.assertLess(market.index('id="steam-market-brief"'),market.index('id="popular"'))
 
 
 if __name__=='__main__':unittest.main()

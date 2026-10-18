@@ -8,13 +8,6 @@ from market_render import esc, _number, _time, _url, _games, _fresh_players, _da
 from site_navigation import SITE_NAV_CSS, render_site_navigation
 
 
-def market_navigation(current="global"):
-    return '<nav class="market-nav" aria-label="市场页面">' + ''.join(
-        f'<a href="{href}"' + (' aria-current="page"' if current == key else '') + f'>{label}</a>'
-        for key, href, label in (("global", "market.html", "全局市场"), ("action", "market-action.html", "动作游戏"))
-    ) + '</nav>'
-
-
 CSS = r'''
 :root{color-scheme:light;--paper:#f1ede3;--panel:#faf8f1;--ink:#292d27;--soft:#62675c;--muted:#767c70;--line:#d1d0c1;--sage:#4c6152;--wash:#e6eadf;--rust:#9b493b;--serif:Georgia,"Noto Serif SC","Songti SC",SimSun,serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:22px}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.7 var(--sans)}h1,h2,h3,p,dl,dd{margin:0}h1,h2,h3{font-family:var(--serif)}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--rust)}button,summary{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--rust);outline-offset:4px}[hidden]{display:none!important}.wrap{width:min(1120px,100% - 56px);margin:auto}.skip{position:fixed;top:10px;left:10px;transform:translateY(-200%);background:var(--ink);color:white;padding:10px;z-index:9}.skip:focus{transform:none}.masthead{display:flex;justify-content:space-between;align-items:end;gap:24px;padding:30px 0 18px}.masthead h1{font-size:34px;line-height:1.25}.stamp{font-size:11px;color:var(--soft);text-align:right}.stamp b{display:block;font:18px var(--serif);color:var(--ink);margin-bottom:3px}.market-nav{display:flex;gap:26px;border-bottom:1px solid var(--line);margin-bottom:24px}.market-nav a{padding:10px 0;text-decoration:none;color:var(--soft);border-bottom:3px solid transparent}.market-nav a[aria-current]{border-color:var(--sage);color:var(--sage);font-weight:700}
@@ -187,8 +180,7 @@ def render_global_market(data):
     generated = _dt(data.get('generated_at'))
     today = generated.date() if generated else None
     basis = analysis['popularity_basis']
-    summaries = analysis.get('summary') or ['尚未取得跨类型游戏样本，等待采集。']
-    summary = ''.join(f'<li>{esc(text)}</li>' for text in (summaries[1:3] if len(summaries)>1 else summaries))
+    summary = render_global_brief(data, href=None, analysis=analysis)
     coverage = analysis['coverage']
     periods = []
     for days in (1,7,30):
@@ -205,17 +197,20 @@ def render_global_market(data):
     rising_section = f'''<section class="section" id="rising"><div class="section-head"><h2>近期升温</h2><div class="windows" role="group" aria-label="趋势时间窗口" hidden><button type="button" data-days="1" aria-pressed="false">1 天</button><button type="button" data-days="7" aria-pressed="true">7 天</button><button type="button" data-days="30" aria-pressed="false">30 天</button></div></div><p class="section-note">按同一批作品的采样在线均值比较，检查增长是否集中在单款游戏。</p>{''.join(periods)}<noscript><p>当前显示 7 天窗口；启用 JavaScript 后可切换。</p></noscript></section>'''
     popular_section = f'''<section class="section" id="popular"><div class="section-head"><h2>当前热门</h2><p>{esc(basis.get('label',''))}</p></div><p class="section-note">{esc(basis.get('note',''))} 标签可以重叠，数量与在线人数不能跨标签相加。</p>{hot}</section>'''
     sections = rising_section + popular_section if any(analysis['rising'].values()) else popular_section + rising_section
-    return f'''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Steam 全局市场 · 策划日报</title><meta name="description" content="Steam 跨类型市场观察：玩法标签、近期变化与新发行游戏，保留样本范围和原始来源。"><style>{CSS}</style></head><body><a class="skip" href="#today">跳到今日观察</a><div class="wrap">{render_site_navigation('market')}<header class="masthead"><h1>Steam 市场观察</h1><div class="stamp"><b>{esc(generated.strftime('%Y.%m.%d') if generated else '记录建立中')}</b>采集 {_time(data.get('generated_at'),False)} · 北京时间</div></header>{market_navigation()}
-<main><section class="today" id="today" aria-labelledby="today-title"><h2 id="today-title">今日观察</h2><ol>{summary}</ol></section><div class="coverage"><span>{coverage.get('total_games',0)} 款收录样本</span><span>在线覆盖 {coverage.get('fresh_games',0)}/{coverage.get('total_games',0)} 款</span><span>{len(analysis['groups'])} 个玩法方向</span><span>{new_count} 款近期发行记录</span><a href="#methodology">覆盖范围与数据来源 ↓</a></div>
+    return f'''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Steam 全局市场 · 策划日报</title><meta name="description" content="Steam 跨类型市场观察：玩法标签、近期变化与新发行游戏，保留样本范围和原始来源。"><style>{CSS}</style></head><body><a class="skip" href="#steam-market-brief">跳到市场摘要</a><div class="wrap">{render_site_navigation('market')}<header class="masthead"><h1>Steam 市场观察</h1><div class="stamp"><b>{esc(generated.strftime('%Y.%m.%d') if generated else '记录建立中')}</b>采集 {_time(data.get('generated_at'),False)} · 北京时间</div></header>
+<main>{summary}<div class="coverage"><a href="#methodology">覆盖范围与数据来源 ↓</a></div>
 {sections}
 <section class="section" id="new-releases"><div class="section-head"><h2>新作观察</h2><p>最近发售优先 · 当前快照</p></div><p class="section-note">覆盖近 90 天已发售样本，卡片优先展示最新作品。累计评价仅供浏览，尚未形成同龄新作的首 7／30 天表现比较。</p>{new_tags}{release_cards(analysis,games,generated)}</section>
-<section class="section" id="directions"><div class="section-head"><h2>各方向的作品与数据</h2><p>展开查看样本</p></div><p class="section-note">每个方向保留代表作品、在线较低的样本和可比历史覆盖。</p>{group_details or '<div class="empty">暂未取得可分类的游戏。</div>'}</section>{methods(data,analysis)}</main><footer class="footer"><span>策划日报 / Steam 全局市场</span><nav><a href="market-action.html">动作游戏观察</a><a href="index.html">回到日报</a></nav></footer></div><script>{SCRIPT}</script></body></html>'''
+<section class="section" id="directions"><div class="section-head"><h2>各方向的作品与数据</h2><p>展开查看样本</p></div><p class="section-note">每个方向保留代表作品、在线较低的样本和可比历史覆盖。</p>{group_details or '<div class="empty">暂未取得可分类的游戏。</div>'}</section>{methods(data,analysis)}</main><footer class="footer"><span>策划日报 / Steam 全局市场</span><nav><a href="index.html">回到日报</a></nav></footer></div><script>{SCRIPT}</script></body></html>'''
 
 
-def render_global_brief(data, href="market.html"):
+def render_global_brief(data, href="market.html", *, analysis=None):
+    analysis = analysis or build_global_analysis(data)
+    if href is None:
+        lines = ''.join(f'<li>{esc(text)}</li>' for text in analysis['summary'][:3])
+        return f'<section class="today" id="steam-market-brief" aria-labelledby="market-summary-title"><h2 id="market-summary-title">市场摘要</h2><ol>{lines}</ol></section>'
     parsed = urlparse(str(href))
     if parsed.scheme not in ('','http','https') or str(href).startswith('//'):
         href='market.html'
-    analysis = build_global_analysis(data)
     lines = ''.join(f'<li>{esc(text)}</li>' for text in analysis['summary'][:3])
     return f'''<style>.global-brief{{margin-top:35px;padding-top:22px;border-top:3px double #292d27}}.global-brief>div{{display:flex;justify-content:space-between;gap:15px;align-items:baseline}}.global-brief h2{{font:700 24px Georgia,"Songti SC",serif;margin:0}}.global-brief a{{font-size:12px;color:#4c6152}}.global-brief p{{font-size:10px;color:#74796d}}.global-brief ul{{padding-left:19px;font-size:12px;line-height:1.9;color:#5e635a}}.global-brief li+li{{margin-top:6px}}</style><section class="global-brief" id="steam-market-brief"><div><h2>Steam 市场摘要</h2><a href="{esc(href)}">查看全局市场 →</a></div><p>市场采集 {_time(data.get('generated_at'))} · 北京时间</p><ul>{lines}</ul></section>'''

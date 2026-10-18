@@ -29,12 +29,10 @@ def main():
     output.mkdir(parents=True, exist_ok=True)
     market_path = ROOT / "data/global_market.json"
     market = json.loads(market_path.read_text(encoding="utf-8")) if market_path.exists() else {}
-    (output / "index.html").write_text(render.render(digest, archive_dates=dates, market=market), encoding="utf-8")
+    (output / "index.html").write_text(render.render(digest, archive_dates=dates), encoding="utf-8")
     (output / "ai.html").write_text(render_ai(digest), encoding="utf-8")
     (output / "market.html").write_text(render_global_market(market), encoding="utf-8")
-    action_path = ROOT / "data/market.json"
-    action = json.loads(action_path.read_text(encoding="utf-8")) if action_path.exists() else {}
-    (output / "market-action.html").write_text(render_action_market(action), encoding="utf-8")
+    (output / "market-action.html").write_text(render_action_market(), encoding="utf-8")
     feed.SITE = args.base_url.rstrip("/")
     (output / "feed.xml").write_text(feed.build(digest), encoding="utf-8")
     (output / "sources.html").write_text(render_directory(report, catalog()), encoding="utf-8")
