@@ -1,741 +1,1674 @@
 {
   "schema_version": 3,
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18T19:00:03+08:00",
-  "editorial_note": "游戏日报与策划精选；AI 快讯与精选独立成页。中英文文章配中文摘要，保留原始发布日期与原文入口。",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T13:03:36.115227+08:00",
   "news": [
     {
-      "key": "fd853ec5",
-      "title": "当《地平线》老兵请来了《皮囊》的编剧，我们终于等到了剧情类赛车游戏？",
-      "title_cn": "《CLUTCH》访谈：用固定主角与双赛事推进赛车叙事",
-      "url": "https://www.gcores.com/articles/221055",
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "b7cdaa17e535038d",
+      "title": "物理整活联机新游《让球飞！》Steam Demo 全球下载量突破50万",
+      "url": "https://www.gcores.com/articles/221087",
       "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
       "sources": [
         "机核"
       ],
-      "published": "2026-10-17T20:53:14+08:00",
+      "published": "2026-10-19T03:32:55+00:00",
       "undated": false,
       "published_precision": "second",
+      "summary_raw": "发行商 Alibi Games 今日正式宣布，将携手独立开发团队 Hitbox Entertainment，共同推出其首款爆笑物理联机派对新游《让球飞！》（Keep It Up！）。这是一款支持1-4人合作的高能闯关游戏，玩家们需要一边在虐心且充满陷阱的关卡中艰难前行，一边拼尽全力“千万别让气球落地”！ 作为 Hitbox Entertainment 的首个作品，《让球飞！》的 Steam Demo 自上线以来表现亮眼，目前全球下载量已突破50万次。为了庆祝这一里程碑，团队也在这次的 The Mix 秋季游戏展上，正式曝光了全新的实机宣传片。 <内嵌内容，请前往机核查看> 把童年经典，变成真正的“友尽模拟器”： 这绝对是大家小时候都玩过的拍气球游戏——只不过代价更刺激、场面更离谱，对友谊的考验也更残酷。气球落地？不好意思，直接原地爆炸。血量耗尽？全队整齐化一直接火化……就这么简单！ 巴掌大乱斗： 呼朋唤友，齐心协力把气球护送到终点。当然，路上有刺、有风扇、有激光，还有各种离谱的障眼法。觉得队友碍事？直接一巴掌把他们扇飞——只要能赢，怎样都行！ 潮酷穿搭，高能整活： 随着关卡深入，你可以解锁超多奇葩外观和服饰，搭配N种自定义滑块，让你在坑队友的路上也能帅得独树一帜。 核心特色 高能气球保卫战： 惊险刺激的极限救球，瞬间引爆全场尖叫与混乱 4 人欢乐开黑： 共享失败 = 共同甩锅（收获",
+      "rss_content": "",
+      "content_kind": "article_body",
       "category": "games",
-      "topic": "产品观察",
-      "content_type": "访谈",
-      "what": "机核采访 Maverick Games 主创。团队介绍了《CLUTCH》的固定兄妹主角、职业赛与地下赛两套氛围，以及让驾驶表现和个性表达获得奖励的设计，并谈到两支三人队伍与 AI 争夺目标的模式。",
-      "why": "",
-      "for_you": "阅读角度：固定角色如何支撑叙事，以及同一驾驶系统怎样服务不同的奖励目标。这里记录的是主创介绍，实际体验仍需后续验证。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
       "members": [
         {
-          "title": "当《地平线》老兵请来了《皮囊》的编剧，我们终于等到了剧情类赛车游戏？",
-          "url": "https://www.gcores.com/articles/221055",
-          "source": "机核"
+          "title": "物理整活联机新游《让球飞！》Steam Demo 全球下载量突破50万",
+          "url": "https://www.gcores.com/articles/221087",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-10-19T03:32:55+00:00"
         }
       ],
-      "evergreen": false,
-      "reading_minutes": 12,
-      "section": "news"
-    },
-    {
-      "url": "https://unity.com/blog/foxy-dumplings-cross-platform-development",
-      "title_cn": "《Foxy Dumplings》开发分享：把多平台限制提前写进设计",
-      "lang": "en",
-      "sources": [
-        "Unity"
-      ],
-      "published": "2026-10-16",
-      "published_precision": "day",
-      "category": "development",
-      "topic": "开发动态",
-      "content_type": "开发分享",
-      "what": "Unity 采访《Foxy Dumplings》开发团队。四人核心团队选择共享代码与存档格式，提前设计触屏、鼠标和手柄操作，并舍弃输入文字等会增加适配成本的功能；文章也回顾了真机测试和跨平台存档中的问题。",
-      "for_you": "阅读角度：把输入方式、平台认证与团队规模作为设计约束，哪些玩法与功能需要更早取舍。文中效率与测试数据来自团队自述。",
-      "reading_minutes": 10,
-      "title": "How Soft Crunch Games built Foxy Dumplings for every platform",
-      "key": "4299cc79",
-      "why": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "undated": false,
-      "evergreen": false,
-      "members": [
+      "score": 30,
+      "score_parts": [
         {
-          "title": "How Soft Crunch Games built Foxy Dumplings for every platform",
-          "url": "https://unity.com/blog/foxy-dumplings-cross-platform-development",
-          "source": "Unity",
-          "lang": "en",
-          "published": "2026-10-16"
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 8
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
         }
       ],
-      "section": "news"
+      "topic": "关卡设计",
+      "is_analysis": false,
+      "age_hours": 1.5114208963888889,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "发行商 Alibi Games 今日正式宣布，将携手独立开发团队 Hitbox Entertainment，共同推出其首款爆笑物理联机派对新游《让球飞！》（Keep It Up！）。这是一款支持1-4人合作的高能闯关游戏，玩家们需要一边在虐心且充满陷阱的关卡中艰难前行，一边拼尽全力“千万别让气球落地”！\n作为 Hitbox Entertainment 的首个作品，《让球飞！》的 Steam Demo 自上线以来表现亮眼，目前全球下载量已突破50万次。为了庆祝这一里程碑，团队也在这次的 The Mix 秋季游戏展上，正式曝光了全新的实机宣传片。\n把童年经典，变成真正的“友尽模拟器”：这绝对是大家小时候都玩过的拍气球游戏——只不过代价更刺激、场面更离谱，对友谊的考验也更残酷。气球落地？不好意思，直接原地爆炸。血量耗尽？全队整齐化一直接火化……就这么简单！\n别让它掉下来！ 用你的手、你的头、或者实验室还没没收的其他任何肢体部位，总之——绝对不能让气球碰地。听起来很简单对吧？一旦失败，等待你们的就是物理焚烧。复活次数用光后，最后一个气球会带走整个小队。这不是研究事故，这只是对你们连这么简单的任务都完不成的亲切惩罚。\n专为翻车设计 每个房间都是一场测试，而且一关比一关阴间，毕竟科学实验就是这么严谨！风扇、尖刺、以及物理学上压根就不该那么窄的走廊，将是你和下一关之间的全部阻碍。祝你好运，你绝对会需要的。\n齐心协力……或者各怀鬼胎 我们的科学假设表明：和实验体（你的队友）配合拍气球，会为所有参与者带来圆满的结果。当然，顺手给队友一巴掌也是官方强烈推荐的可选项，不过成功率嘛……就因人而异了。注：在测试过程中因本游戏导致的一切个人友谊破裂，实验室概不负责。\n定制你的专属倒霉蛋 当然，作为伟大科研项目的志愿者，你将获得丰厚的回报！随着实验推进，你将解锁各种外观：发型、眼睛、眉毛、嘴巴、奇装异服应有尽有，全由实验室倾情赞助。由于实验体时刻处于监控之下，无论你是团队大英雄，还是把气球拍到地上的纯正小丑，你都得体面地登场。\nHitbox Entertainment 是一支由 4 位美国独立开发者（Andrew、Ben、Billy 和 Mitch）组成的硬核小队，在游戏行业的艺术、音效、技术和设计领域拥有超过 13 年的丰富经验。在当了多年巡演乐队之后，他们决定一拍即合转行做游戏，并于 2026 年 2 月正式开启了《让球飞！》的开发之旅。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "物理联机派对游戏《让球飞！》Steam Demo下载量破50万",
+      "what": "发行商Alibi Games宣布与独立团队Hitbox Entertainment合作推出1-4人合作物理闯关游戏《让球飞！》，玩家需在陷阱关卡中保持气球不落地。其Steam Demo全球下载量已突破50万次，并在The Mix秋季游戏展曝光新实机宣传片。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
     },
     {
-      "key": "f88536e6",
-      "title": "Lo-Fi×心理悬疑冒险游戏《Rain98》Steam体验版正式上线，游玩时长超过3小时",
-      "title_cn": "《Rain98》公开约三小时 Demo，从故事开篇展示叙事与探索",
-      "url": "https://www.gcores.com/articles/221050",
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "59361ddcda051888",
+      "title": "新作井喷，核周报 10.17",
+      "url": "https://www.gcores.com/radios/220703",
       "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
       "sources": [
         "机核"
       ],
-      "published": "2026-10-17T16:30:00+08:00",
+      "published": "2026-10-18T10:00:00+00:00",
       "undated": false,
       "published_precision": "second",
+      "summary_raw": "本期时间轴制作：老斧子 本期要闻：10月游戏发售潮继续，《恶魔城：贝尔蒙特的诅咒》、《不朽遗志》、《Ratatan》、《战锤 40K：爆失枪2》、《全面战争：幕府将军 2 完全版》、《永恒传说 Remastered》等游戏相继发售；“内存荒”推高主机售价，PS5 Pro 市场价突破万元，紧张供应预计持续到 2027 Q1；《漫威金刚狼》实体版占比数据引发讨论等 。",
+      "rss_content": "",
+      "content_kind": "rss_summary",
       "category": "games",
-      "topic": "新游动态",
-      "content_type": "新闻",
-      "what": "《Rain98》于 10 月 17 日推出 Steam 体验版，内容覆盖开篇至第二章前半段，包含文字叙事、角色互动、街头探索与小游戏。相比此前展会版本，这次试玩从故事起点展开，并扩大了探索区域。",
-      "why": "",
-      "for_you": "阅读角度：剧情游戏的 Demo 如何选择起点，以及怎样同时呈现叙事氛围与可操作内容。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
       "members": [
         {
-          "title": "Lo-Fi×心理悬疑冒险游戏《Rain98》Steam体验版正式上线，游玩时长超过3小时",
-          "url": "https://www.gcores.com/articles/221050",
-          "source": "机核"
+          "title": "新作井喷，核周报 10.17",
+          "url": "https://www.gcores.com/radios/220703",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-10-18T10:00:00+00:00"
         }
       ],
-      "evergreen": false,
-      "reading_minutes": 4,
-      "section": "news"
-    },
-    {
-      "key": "c40e84ba",
-      "title": "This Language-Based Puzzle Game Is Hand-Painted in Watercolor",
-      "title_cn": "《The Land Forgotten》把语言与数字系统做成解谜线索",
-      "url": "https://80.lv/articles/this-language-based-puzzle-game-is-hand-painted-in-watercolor",
-      "lang": "en",
-      "sources": [
-        "80 Level"
-      ],
-      "published": "2026-10-17",
-      "undated": false,
-      "published_precision": "day",
-      "category": "games",
-      "topic": "产品观察",
-      "content_type": "新闻",
-      "what": "80 Level 介绍开发中的点击解谜游戏《The Land Forgotten》。谜题借用真实语言和数字系统，将其藏进钥匙、咒语与药剂材料；画面则由实体水彩绘制，角色采用逐帧动画，围绕翻译神秘手稿展开探索。",
-      "why": "",
-      "for_you": "阅读角度：现实知识怎样转化成玩家能够观察、推理和验证的游戏规则。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "members": [
+      "score": 30,
+      "score_parts": [
         {
-          "title": "This Language-Based Puzzle Game Is Hand-Painted in Watercolor",
-          "url": "https://80.lv/articles/this-language-based-puzzle-game-is-hand-painted-in-watercolor",
-          "source": "80 Level"
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 8
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
         }
       ],
+      "topic": "行业动态",
+      "is_analysis": false,
+      "age_hours": 19.060032007500002,
       "evergreen": false,
-      "reading_minutes": 3,
-      "section": "news"
+      "content_type": "新闻",
+      "section": "news",
+      "body": "",
+      "has_body": false,
+      "body_truncated": false,
+      "title_cn": "机核周报：10月新作发售与PS5 Pro涨价等要闻",
+      "what": "机核周报汇总10月游戏发售潮，包括《恶魔城：贝尔蒙特的诅咒》《不朽遗志》《Ratatan》《战锤40K：爆失枪2》《全面战争：幕府将军2完全版》《永恒传说Remastered》等；并提及内存短缺推高主机售价、PS5 Pro市场价突破万元及《漫威金刚狼》实体版占比讨论。",
+      "why": "",
+      "for_you": "",
+      "degraded": "source_excerpt"
     },
     {
-      "url": "https://www.gameres.com/901203229.html",
-      "title_cn": "《竹泉记》推出 Demo，把种田经营连接到屯田与三路战斗",
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "1095767442d75c96",
+      "title": "《收割者：诸神已死》北京核聚变 · 全球首次线下试玩",
+      "url": "https://www.gcores.com/articles/221047",
       "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "机核"
+      ],
+      "published": "2026-10-18T09:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "核聚变游戏嘉年华北京站即将开幕，热门新游试玩、精彩舞台活动、限定周边收集、沉浸式体验最热烈的玩家氛围！10 月 24、25 日，我们首钢国际会展中心见！ <获取2026北京核聚变门票> GGG游戏节奏联欢夜为北京核聚变游戏嘉年华期间举办的夜间音乐演出活动，如需购买GGG核聚变联票，请前往GGG购票页面。 <获取GGG x 核聚变联票> (《收割者：诸神已死》宣传视觉) 你已经死了。 别慌，这是入职通知。 当失序的世界等待新的收割者，你会带着什么装备踏入来世，又能带走多少战利品？10 月 24—25 日，《收割者：诸神已死》将来到 2026 核聚变嘉年华北京站，在北京首钢国际会展中心 A16-2 设立独立体验区，这也是游戏在全球首次面向玩家开放线下试玩。想亲手感受这款暗黑奇幻撤离 ARPG，这次可以直接到现场上手。 成为死神代理，闯入失序的来世 《收割者：诸神已死》是是一款死神上身题材的类暗黑撤离ARPG，在一个神话成真、众神已死的世界，玩家作为死神代理“收割者”，在合作PvE、PvPvE多模式中战斗，夺取宝贵的战利品，挑战恢复破碎领域的平衡。游戏计划将于 2027 年 2 月上线Steam。 Steam： 《收割者：诸神已死》 (游戏开发中画面：召唤师武器（Work in Progress）) 装备构筑，ARPG战斗，目标是成功撤离 A16-2 独立展区设有 12 台 PC 试玩机",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "《收割者：诸神已死》北京核聚变 · 全球首次线下试玩",
+          "url": "https://www.gcores.com/articles/221047",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-10-18T09:00:00+00:00"
+        }
+      ],
+      "score": 30,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 8
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "战斗设计",
+      "is_analysis": false,
+      "age_hours": 20.060032007500002,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "核聚变游戏嘉年华北京站即将开幕，热门新游试玩、精彩舞台活动、限定周边收集、沉浸式体验最热烈的玩家氛围！10 月 24、25 日，我们首钢国际会展中心见！\nGGG游戏节奏联欢夜为北京核聚变游戏嘉年华期间举办的夜间音乐演出活动，如需购买GGG核聚变联票，请前往GGG购票页面。\n当失序的世界等待新的收割者，你会带着什么装备踏入来世，又能带走多少战利品？10 月 24—25 日，《收割者：诸神已死》将来到 2026 核聚变嘉年华北京站，在北京首钢国际会展中心 A16-2 设立独立体验区，这也是游戏在全球首次面向玩家开放线下试玩。想亲手感受这款暗黑奇幻撤离 ARPG，这次可以直接到现场上手。\n《收割者：诸神已死》是是一款死神上身题材的类暗黑撤离ARPG，在一个神话成真、众神已死的世界，玩家作为死神代理“收割者”，在合作PvE、PvPvE多模式中战斗，夺取宝贵的战利品，挑战恢复破碎领域的平衡。游戏计划将于 2027 年 2 月上线Steam。\nA16-2 独立展区设有 12 台 PC 试玩机位。本次带来联网单人 PvE 撤离试玩：在工作人员引导下熟悉基地与配装，进入冒险、迎战敌人，争取带着战利品成功撤离。现场单局体验约 15—20 分钟，不开放玩家间 PvP。你能否在这段时间里杀出一条生路？\n展区除了拍照打卡，还准备了核聚变限定袋子与主题明信片。完成试玩后，即可参与纪念物料领取，把这场来世冒险的记忆带回家。\n《收割者：诸神已死》计划于 2027 年 2 月在 Steam 开启抢先体验。想先摸清这场冒险的战斗节奏，2026 年 10 月 24—25 日，北京首钢国际会展中心 A16-2 展位，收割者们不见不散！\n感谢合作伙伴罗技 G、ALIENWARE 外星人和雷神加速器对本次展位的大力支持。\nWolcen Studio总部位于法国尼斯，是一家汇聚全球 150 多名专业人士的欧洲游戏开发商，致力于创造突破性的游戏体验。工作室代表作为 2020 年动作RPG《破坏领主（Wolcen: Lords of Mayhem）》，如今正以《收割者：诸神已死（Gods, Death & Reapers）》延续这一积淀：这是一款结合深度 ARPG 成长与高风险、社区驱动玩法的黑暗奇幻撤离动作 RPG。\n*核聚变与 GGG 是两个独立活动，想一次体验两个活动的朋友，可以在GGG购票页面选择 核聚变 x GGG 的联票。\nGGG游戏节奏联欢夜 门票信息\nGGG游戏节奏联欢 x 核聚变2026·北京站 联票\nC档联票 294 元/人 ｜ 原价 327 元/人\nB档联票 357 元/人 ｜ 原价 397 元/人\nA档联票 474 元/人 ｜ 原价 527 元/人\nGGG游戏节奏联欢夜 单日票\nC档单日票 198 元/人\nB档单日票 268 元/人\nA档单日票 398 元/人\n场馆内为官方影像采集区域，涵盖活动全展区、主舞台区域、体验试玩区、蓄水功能区及场内所有通行活动空间，您在场期间的肖像、语音、现场影像等个人视听信息存在被拍摄、录制、会被记录。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《收割者：诸神已死》将在北京核聚变开放全球首次线下试玩",
+      "what": "《收割者：诸神已死》将于10月24日至25日在北京首钢国际会展中心A16-2展区开放全球首次线下试玩，提供12台PC机位，试玩内容为联网单人PvE撤离，单局约15至20分钟，不开放PvP。游戏计划2027年2月在Steam开启抢先体验。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "8e9877627366d928",
+      "title": "《房产达人2》六折史低，现价81.59元！宠物DLC将于12月推出！",
+      "url": "https://www.gameres.com/901203231.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
       "sources": [
         "GameRes"
       ],
-      "published": "2026-10-16T12:04:00+08:00",
-      "published_precision": "second",
-      "category": "games",
-      "topic": "新游动态",
-      "content_type": "新游动态",
-      "what": "《竹泉记》Steam Demo 已上线。根据发行介绍，玩家在春秋背景下经营田地、打造装备并招募乡勇，在三条兵线上部署兵种；夺回城池又能获得资源、设施与人物。制作和修复古乐器，还会逐步改变场景配乐。",
-      "for_you": "阅读角度：经营产出如何服务战斗，战斗进展又怎样回馈经营与叙事。本条依据发行介绍整理，尚未验证实际循环节奏。",
-      "reading_minutes": 4,
-      "title": "穿越春秋乱世，靠种地进爵复国？《竹泉记》Demo上线",
-      "key": "86217afe",
-      "why": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
+      "published": "2026-10-16T06:55:00+00:00",
       "undated": false,
-      "evergreen": false,
+      "published_precision": "second",
+      "summary_raw": "《房产达人2》Steam国区六折史低，现价81.59元，支持最多4人跨平台合作。宠物DLC将于2026年12月3日上线，含新区域、多种宠物及新增家居内容。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
       "members": [
         {
-          "title": "穿越春秋乱世，靠种地进爵复国？《竹泉记》Demo上线",
-          "url": "https://www.gameres.com/901203229.html",
+          "title": "《房产达人2》六折史低，现价81.59元！宠物DLC将于12月推出！",
+          "url": "https://www.gameres.com/901203231.html",
           "source": "GameRes",
           "lang": "zh",
-          "published": "2026-10-16T12:04:00+08:00"
+          "published": "2026-10-16T06:55:00+00:00"
         }
       ],
-      "section": "news"
+      "score": 25,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 8
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 70.14336534083333,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "由 Frozen District 开发的《房产达人2》将房屋清洁、翻新装修与自由建造融为一体。玩家可以购买旧房，通过清理、刷墙、铺设地板和布置家具，让房屋焕然一新，再出售翻新后的房产；也可以进入沙盒模式，从零开始打造自己的理想居所。\n游戏支持最多4人的跨平台合作，玩家可以与朋友在故事模式和沙盒模式中共同完成装修项目。从分工清洁到讨论房间设计，每一次改造都能成为与朋友共同创造的成果。\nPets DLC 为动物伙伴打造温馨家园\n即将于2026年12月3日推出的 Pets DLC，将为装修生活增添动物伙伴。玩家将前往全新区域“海鹦岛”，翻新当地房屋，为宠物与居民打造温馨家园。猫狗可以陪伴玩家装修，朋友们也能在合作模式中一起与宠物互动。\n从猫狗到小型宠物，寻找合拍的伙伴\nPets DLC提供40多个猫狗品种和30多种可领养的小型宠物。除了缅因猫、博美犬等猫狗，玩家还可以领养兔子、仓鼠、乌龟、青蛙等动物，按照自己的喜好选择伙伴。每只宠物都有自己的个性，猫咪与狗狗还会与周围环境互动，让装修后的房屋多一份生活气息。\n照顾宠物，让陪伴融入装修日常\n领养之后，玩家需要观察宠物、了解不同品种与物种的特点，并满足它们的需求。猫狗可以陪伴玩家进行装修；忙碌一天后，也可以和动物伙伴玩耍、放松，逐渐建立感情。宠物照顾与房屋设计相结合，让玩家在安排空间时，也多了一份对动物生活习惯的考虑。\n和朋友一起装修，也一起与宠物互动\nPets DLC延续本体的合作体验，玩家可以在合作模式中与朋友一起抚摸猫狗。共同完成房屋改造后，再与宠物一起享受新家的舒适氛围，为联机装修增添更轻松的互动时刻。\n丰富的动物伙伴：40多个猫狗品种，以及30多种可领养的小型宠物。\n全新的装修旅程：海鹦岛区域、10个任务与10栋独特房屋。\n宠物主题家居：数百件新增物品，让玩家根据动物伙伴的需求布置生活空间。\n海鹦岛区域与室内场景\n海鹦岛将带来10个全新任务和10栋独特房屋，从迷人的别墅到等待修复的地标建筑，为玩家提供新的改造空间。玩家将与新老朋友相聚，通过装修帮助当地社区焕发活力，也可以打造以宠物为中心的房屋，供其他玩家体验。\n新增的数百件物品涵盖温馨舒适、田园和地中海等风格。无论是在客厅摆放鱼缸、为鹦鹉准备宽敞的笼舍，还是将办公室改造成宠物乐园，玩家都能把动物伙伴的生活需求融入整体家居设计。扩展还将加入新的买家与成就，让装修旅程拥有更多目标。\nPets DLC需拥有《房产达人2》本体才能游玩，可点击链接跳转Steam添加至愿望单！！ https://store.steampowered.com/app/3680100/House_Flipper_2__Pets_DLC/\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《房产达人2》六折促销，Pets DLC定于12月3日推出",
+      "what": "《房产达人2》现以六折81.59元促销。文章介绍其清洁翻新、自由建造与最多4人跨平台合作玩法，并说明Pets DLC将于2026年12月3日推出，包含海鹦岛区域、10个任务与10栋房屋、40多个猫狗品种及30多种小型宠物。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
     },
     {
-      "key": "17551ba4",
-      "title": "【抽奖】多人合作饮品店经营游戏《杯杯倒满》于10月16日推出1.0正式版",
-      "title_cn": "《杯杯倒满》进入 1.0，补齐八章并扩展合作经营流程",
-      "url": "https://www.gcores.com/articles/220998",
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "0ae93d72e5ac6d9d",
+      "title": "10月19日—10月25日共有24款游戏开测｜GameRes",
+      "url": "https://www.gameres.com/901203240.html",
       "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
       "sources": [
-        "机核"
+        "GameRes"
       ],
-      "published": "2026-10-16T18:34:00+08:00",
+      "published": "2026-10-19T01:04:00+00:00",
       "undated": false,
       "published_precision": "second",
+      "summary_raw": "GameRes游资网统计2026年10月19日—10月25日共24款游戏开测，含《极境：垂钓者》删档测试、《篮球少女：飞跃巅峰》公测等。",
+      "rss_content": "",
+      "content_kind": "article_body",
       "category": "games",
-      "topic": "新游动态",
-      "content_type": "新闻",
-      "what": "《杯杯倒满》结束抢先体验并推出 1.0，包含八章、32 个关卡和八名角色。新增酒吧街关卡将泡沫要求、杯具回收与清洗串入制作流程；地铁站模式提供每日固定挑战和每次重新生成的随机挑战。",
-      "why": "",
-      "for_you": "阅读角度：新增工序如何改变合作分工，固定每日挑战与随机关卡又分别支持什么复玩动机。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
       "members": [
         {
-          "title": "【抽奖】多人合作饮品店经营游戏《杯杯倒满》于10月16日推出1.0正式版",
-          "url": "https://www.gcores.com/articles/220998",
-          "source": "机核"
+          "title": "10月19日—10月25日共有24款游戏开测｜GameRes",
+          "url": "https://www.gameres.com/901203240.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-10-19T01:04:00+00:00"
         }
       ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 3.9933653408333334,
       "evergreen": false,
-      "reading_minutes": 4,
-      "section": "news"
+      "content_type": "新闻",
+      "section": "news",
+      "body": "GameRes游资网统计了2026年10月19日—10月25日的最新开测信息，共有24款游戏开测。以下是开测信息：\n10月21日\n紫龙游戏发行拟真写实钓鱼游戏《极境：垂钓者》PC端限量删档测试\n《极境：垂钓者》是一款由 BlackJack Studio 研发的拟真写实钓鱼游戏，首发版本包含路亚、台钓、小物钓三种钓法，首批钓场取自钱塘江水系的昌化溪与龙川湾，一溪一湖，鱼情与水底结构各不相同。游戏将完整还原真实钓鱼的流程：抛竿、收线、刺鱼等操作均由你手动完成，提竿时机取决于水下鱼的实时状态——鱼在试探还是已经吞饵，咬钩前的每个动作都有清晰的可视化反馈。游戏内没有万能的鱼饵，收线速度、操竿手法不同，同一支拟饵会呈现出不同的泳姿，适合不同习性的鱼种。钓获会记录进鱼种图鉴，你也可以刷新个人纪录、钓场记录、完成成就，或与好友在同一片水域同场作钓。\n10月23日\n灵犀互娱发行运动少女养成游戏《篮球少女：飞跃巅峰》公测\n《篮球少女：飞跃巅峰》是新一代运动少女养成游戏。在这里，你将担任教练，带领一群篮球少女从低谷出发，一路冲击全国大赛！\n球员训练计划由你定，每一条路线都直接影响球员的成长曲线。超过300种随机事件为球员带来层出不穷的肉鸽体验，赌对了就是一波爆发成长。角色特性、训练器材、笔记组合——这些要素在你手里能拼出完全不同的育成流派。即时球场竞技，走位还是投射？挡拆还是单打？关键球如何打出精彩得分，由教练你临场拍板！在这里，成长没有标准答案。你为她选的每一条路，都将在赛场上得到回响。\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "GameRes统计10月19日至25日共24款游戏开测",
+      "what": "GameRes游资网汇总了2026年10月19日至25日的开测信息，共24款游戏。文中列出其中两款：紫龙游戏发行的拟真钓鱼游戏《极境：垂钓者》于10月21日在PC端限量删档测试；灵犀互娱的运动少女养成游戏《篮球少女：飞跃巅峰》于10月23日公测。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
     },
     {
-      "url": "http://www.chuapp.com/article/291691.html",
-      "title_cn": "《Red Rooster》以实体设定书展示叙事、角色与工作室构想",
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "339ed68579c2ea1e",
+      "title": "24小时回本的“赛博手艺人”游戏，究竟是不是好生意？",
+      "url": "https://www.gameres.com/901203239.html",
       "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GameRes"
+      ],
+      "published": "2026-10-19T01:03:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "以《维修物语》《针影裁梦》为例，解析“赛博手艺人”类轻量独立游戏的商业表现、走红逻辑，以及其“留住手艺”的行业启示。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "24小时回本的“赛博手艺人”游戏，究竟是不是好生意？",
+          "url": "https://www.gameres.com/901203239.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-10-19T01:03:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 4.0100320075,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "看标题，本期登场游戏的含金量，实可谓一目了然；\n——不过，如果再加上“纯度”这个维度，只能说，本期登场游戏的绝活程度，含金量还能更胜一筹：\n2026年9月21日，本期登场游戏正式在Steam平台亮相，并没有华丽的开屏特效，也没有万众瞩目的欢呼喝彩——然而，仅仅过去24小时，这款轻量级游戏就顺利收回了所有开发成本，且人气热度保持一路走高——甚至在10天之后的Steam秋季特卖开张之时，这款作品的热度完全没有受到促销期的影响，同时在线人数依旧稳定维持在3万人以上，且在10月4日这个节点更是一度达到了4.3万的阶段性巅峰：\n作为一款并无PVP对抗要素的纯单机小成本作品，能够在这么短的时间内实现这种商业成绩，于情于理无论如何都值得瞩目一下——没错，这就是《针影裁梦》，2026年秋季档独立游戏冷门赛道最醒目的黑马之一，“独立游戏潜力远未到头”本季度的典范样本：\n一款以“手工制衣”为主题的游戏，居然能热卖到这个地步，直让人感叹“赛博手艺人”属实是个出乎意料的潜力赛道——那么，既然已经有了引人瞩目的成功案例摆在眼前，针对具体问题具体范本展开具体分析，自然也是水到渠成：\n没错，让我们来看看“赛博手艺人”这类游戏，究竟可以有多好玩——\n悄无声息地蔚然成风\n事实上，尽管热门流行程度较之近半年来愈发走红的“断舍离收纳整理”类型游戏要逊色不少，但平心而论，单就良品率来看，“赛博手艺人”这个子类型的实际表现，可能要比不少朋友的预想好得多——最直接的例子之一，便是《维修物语》：\n自从今年8月上架以来，不到三个月的时间里，这款精致小巧的作品就在Steam平台收获了超过1W条评论留言，好评率更是高达95%，理所当然地解锁了“好评如潮”的里程碑；那么，抛开现象看本质，《维修物语》的内容主题究竟是什么？\n说起来并不复杂：\n时间是已然远去的2005年，在那条熟悉的电器街街头，我们接手了一家规模极小的电子设备维修小店，藉由走过路过的顾客，以及游戏内置的电子邮箱来接收委托，对送到手上的各种电子产品进行拆解、清理和维修——最简单的只要拆开吹吹灰就行，但也有不少确实不是拆洗一下就能完事的，至少都需要上网搞个同款设备分解一下拿到配件做个替换什么的：\n而在赚取差价经营店铺的同时，我们也会与上门问询的各路NPC展开对话交流，直接间接改变他们的选择进而影响后续的剧情走向——一言以蔽之，这并不是什么必须正襟危坐沐浴焚香严肃体验的神作，但如果想要搞一款安安静静消遣一下午的小品杰作，《维修物语》属实是个不错的选择。\n有一就有二，理解了《维修物语》的基本形态，《针影裁梦》的核心玩法，我们不需要任何学习成本就能了然于心：\n时间回到了维多利亚时代，主题从拆解维修电子设备变成了量体裁衣的定制服装生意，具体步骤从三围测量、打板、选料以及立体剪裁一应俱全，并且在极其高效的简化设计以及完全感觉不到坡度的上手曲线驱使下，哪怕是毫无裁缝经验的纯粹门外汉，都可以在不超过五分钟的一局时间内完整掌握这款作品的核心玩点——至于说“乐趣何在”，走到这一步已然是水落石出。\n综上所述，我们不难发现，和那些名声在外、标榜硬核的“手工模拟器”相比，《维修物语》和《针影裁梦》选择的都是轻量化易上手的娱乐向风格——但凡是在《坦克维修模拟器》当中给德系载具修过负重轮的朋友，应该都清楚这说的是啥；同时，虽然两者都将“剧情故事”视作各自在“手工艺”之外的另一项卖点，但要说水准程度……只能说，如果诸位先入为主体验过了《赛博朋克酒保行动》，那么这两款作品可供发掘的惊喜确实没有想象中那么多。\n由此一来，关于这些“赛博手艺人”主题游戏的核心卖点，好像确实有点意味不明——既谈不上有什么专业深度，又没有跌宕起伏引人入胜的故事内容，至于经营模拟也同样没啥特别亮点，那么，究竟是什么因素，能够吸引那么多玩家争先恐后地掏腰包买账，随后还要留下满意好评？\n答案很简单：\n在“润物细无声”的情怀表现，以及优雅宜人的游戏上手体验方面，《维修物语》和《针影裁梦》的表现，放在整个小成本以及独立游戏领域，都属于不折不扣的杰出表率。\n入口即融的游戏体验\n“为什么会有那么多人对《维修物语》如此痴迷？”\n答案出乎预料地直截了当：\n视觉体验。\n不，这并不是说《维修物语》有什么DLSS 5加持的强霸画质，人物立绘和场景什么的也没有特别大的亮点，真正的关键在于，摆在这部游戏维修台上的各种电子设备，真就是一个赛一个活灵活现、生动满载：\n起早贪黑干了一礼拜，好不容易喘口气想要玩个游戏调剂下，如果递给你一份模拟维修电冰箱洗衣机三转一响的“赛博机修工”游戏，大多数朋友的第一反应多半是原地掀桌造反——但是且慢，假如递给诸位的是一部维修掌机、主机乃至电子宠物和随身听的游戏，诸位又该作如何感想？\n没错，这就是《维修物语》的醍醐滋味所在——尽管拆解维护的步骤简单得简直令人发笑，但随着那一件件承载了我们不止一代人情怀的PSP、Walkman、XBOX乃至PlayStation主机逐一在我们面前完成了解体，当我们凭借自己的双手一点一点抹去了尘封多时的积灰、替换了正常的零件让它们恢复了机能，当那些早已尘封多年的记忆重新在我们指尖流淌，已然在瓶底沉寂多年的片段画面随着我们的手工操作一点一点翻涌、上浮进而冒出水面，身为当事人，我们又该作如何感想？\n至少对于我，以及更多的《维修物语》玩家来说，这就是我们原本只想在饭后消遣个半小时就去补觉、结果一不留神直接玩到了晚饭时分的理由——这确实不是什么值得每天开一局每局半小时的日常消遣游戏，但作为“触动玩家给玩家留下鲜明印象为下一款作品做铺垫”的基石游戏，《维修物语》的表现，完全配得上“好评如潮”这个标签。\n另一方面，如果说《维修物语》引人瞩目的核心优势在于“触动情怀”，那么对于《针影裁梦》来说，大受好评的核心理由无他，就在于一个“好玩”：\n简单来说，这部作品最大的优势，就是将极其专业的手工制衣无缝简化成了类似塑胶模型拼装的奇妙体验，换言之除了预想中的女性玩家群体之外，为数甚众的模型胶佬能在这部作品当中能够找到乐趣，简直就不要太理所当然：\n简单来说，设计版型和模型假组不乏异曲同工之妙，选择衣料基本就和挑选设计漆面配色属于同一个道理，至于在一整张完整布料上巧妙布局裁片、努力让衣料利用率最大化的操作，但凡是有过一点拼胶改造经验的朋友，应该都清楚这种操作和折腾胶板胶棒有多少相似之处；\n最后，在一切工作就绪的缝纫环节，手动调整缝纫机速度以及布片的方向尽量确保缝纫走线平滑稳定的操作，更能让大多数胶佬找回“手艺活”的感觉——一言以蔽之，尽管听上去离谱，但《针影裁梦》能够吸引那么多人沉迷其中不可自拔，对于“手艺”的敬重以及出色的还原，显然正是核心理由所在。\n最后顺带一提，只要亲自上手体验一番，诸位应该都能意识到《针影裁梦》的操作优化做得有多彻底——很多看似不好把握力度的操作（例如旋转衣料以及调整衣台三围尺寸）其实完全可以用鼠标滚轮来完成，至于新手阶段最大的麻烦“如何走出平滑完整的缝线”，更是可以直接通过选项里的辅助功能直接解决——考虑到这款游戏的制作出发点之一，就是“让因病不得不放弃手工制衣行业的伴侣找回爱好”，这份优雅又贴心的优化，值得配上最高的赞誉。\n留住手艺\n我们为什么会喜欢“赛博手艺人”这种游戏？\n没错，满载的情怀，详列得当的内容丰裕度以及出色的难度调整曲线都是主因；但除此之外，对于“手艺”这个主题的尊重，同样是“赛博手艺人”这个游戏主题时至今日大受好评的核心理由所在：\n现如今，随着越来越多的开发者开始运用AI技术来助力游戏开发，以Steam为代表的数字游戏平台涌现出了越来越多看似光鲜亮丽实则千篇一律甚至不如预制餐的“AI Slop”内容——没错，这个曾经被韦氏词典评为2025年度词汇的概念，终于在2026年淹没了游戏开发行业。\n不可否认，确实有不少才华横溢但资金与能力有限的开发者，凭借这股浪潮完成了自己心目中的游戏，但面对现如今大水漫灌的局面，我们又该如何让自己的作品不被埋没呢？\n这确实是个深刻且严肃的话题。不过，至少在此时此刻，《维修物语》以及《针影裁梦》的成功，明确无误地向我们传达了一个事实：\n即便是在现如今，我们的玩家，面对尽心尽力投入而非盲目跟风糊弄的游戏，依旧具备辨识以及买账的能力和意向——前提当然是必须呈现给这些玩家、让这些玩家知晓我们的投入和付出，但在此之前，对于游戏的热爱，以及对于玩家的尊重，依旧是这个时代不可动摇的至宝之一。\n大概，这才是“赛博手艺人”游戏，所象征的“留住手艺”主题，留给我们最直接的启示吧。\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《针影裁梦》等手工模拟游戏为何受欢迎",
+      "what": "文章以《针影裁梦》和《维修物语》为例，讨论轻量化手工模拟类独立游戏：前者上线24小时收回开发成本，10天后Steam同时在线人数仍超3万；作者认为这类游戏靠情怀、易上手和对手艺的还原吸引玩家。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-68554a31d0",
+      "source_url": "https://www.chuapp.com/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "27bc0c3610bb27c3",
+      "title": "触乐本周行业大事：小鸟播报！《塞尔达传说：时之笛》重制版公开新预告，育碧拟关闭“特技摩托”系列开发工作室",
+      "url": "http://www.chuapp.com/article/291693.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
       "sources": [
         "触乐"
       ],
-      "published": "2026-10-16T11:50:20+08:00",
-      "published_precision": "second",
-      "category": "games",
-      "topic": "产品观察",
-      "content_type": "报道",
-      "what": "触乐介绍了 Summer Eternal 寄来的五百页《选集》，内容包括访谈、团队成立经过和新作设定。该团队于十月十四日公布《Red Rooster》；书中展示的叙事设计让主人公的精神世界、人格倾向与现实行动相互影响。",
-      "for_you": "阅读角度：开发团队怎样用角色、界面和可游玩的精神空间表达叙事主题。报道展示的是设定与制作构想，游戏尚待实际体验。",
-      "reading_minutes": 6,
-      "title": "《极乐迪斯科》精神继承者来信，我们收到了关于新作的500页实体书",
-      "key": "06b7376a",
-      "why": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
+      "published": "2026-10-17T09:13:38+00:00",
       "undated": false,
-      "evergreen": false,
+      "published_precision": "second",
+      "summary_raw": "大家好，我叫李苹果，是一只小太阳鹦鹉。我的人类室友是触乐的编辑，她用一片苹果“贿赂”了我，让我帮她写本周的游戏行业大事。 游戏是什么？室友说，人类捧着手机、对着电脑戳戳点点时就是玩游戏，就像我玩球和荡秋千一样。 说起来，最近天气渐渐转凉，那些会发光的板子倒是越来越暖和了。我经常飞过去蹲在上面暖暖脚，人类总把我挪到一边，嘴里还嘀咕着什么“怎么又这么烫了”、“真得换电脑了吧”……真是不解鸟意！ “果果，你还在说什么，不是答应了要帮我干活的吗？” 哎呀，差点忘了正事。接下来，就由我来讲讲本周游戏圈又发生了什么有意思的事吧！ 让我来当一天代班编辑！ ■ 育碧调整工作室 育碧计划关闭芬兰的RedLynx工作室，预计影响最多52个岗位。与此同时，育碧新加坡工作室已有70个岗位受到裁撤影响。RedLynx最为人熟知的是“特技摩托（Trials）”系列，玩家需要驾驶摩托车翻越障碍、保持平衡。 连本小鸟看了，都觉得《特技摩托》真是刺激 我不太明白人类为什么喜欢玩这种游戏，光看着摩托车翻来滚去，我都替骑车的人紧张。还好小鸟会飞，扑腾扑腾翅膀就能回家睡觉，不用担心摔个四脚朝天。 说到回家，我很喜欢我的两个卧室（鸟笼），它们都是人类买来给我睡觉、玩耍的地方。希望受到影响的开发者也能早日找到新的落脚处，继续和伙伴们做喜欢的游戏。 站在我的小卧室前 ■ 库洛入股AI初创公司 库洛入股言之域科技（深圳）有限公司",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
       "members": [
         {
-          "title": "《极乐迪斯科》精神继承者来信，我们收到了关于新作的500页实体书",
-          "url": "http://www.chuapp.com/article/291691.html",
+          "title": "触乐本周行业大事：小鸟播报！《塞尔达传说：时之笛》重制版公开新预告，育碧拟关闭“特技摩托”系列开发工作室",
+          "url": "http://www.chuapp.com/article/291693.html",
           "source": "触乐",
           "lang": "zh",
-          "published": "2026-10-16T11:50:20+08:00"
+          "published": "2026-10-17T09:13:38+00:00"
         }
       ],
-      "section": "news"
-    },
-    {
-      "url": "https://www.gamesindustry.biz/how-star-wars-galactic-racer-kept-the-core-team-small-and-sustainable-through-distributed-development",
-      "title_cn": "《Star Wars: Galactic Racer》团队谈协作：按模块边界组织外部开发",
-      "lang": "en",
-      "sources": [
-        "GamesIndustry.biz"
-      ],
-      "published": "2026-10-16T14:30:00+00:00",
-      "published_precision": "second",
-      "category": "development",
-      "topic": "行业动态",
-      "content_type": "访谈",
-      "what": "GamesIndustry 采访 Fuse Games 负责人。团队将外部合作分成素材制作、独立功能开发和深度联合开发三层，拍照模式由外部团队完整制作。负责人也提醒，增加合作伙伴会带来额外管理负担，协作方式需在立项时规划。",
-      "for_you": "阅读角度：哪些功能能独立交付，哪些需要高频沟通；小核心团队并不意味着项目总投入更小，文章未给出总成本对照。",
-      "reading_minutes": 8,
-      "title": "How Star Wars: Galactic Racer kept the core team small and sustainable through \"distributed development\"",
-      "key": "e6a9bd79",
-      "why": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "undated": false,
-      "evergreen": false,
-      "members": [
+      "score": 17,
+      "score_parts": [
         {
-          "title": "How Star Wars: Galactic Racer kept the core team small and sustainable through \"distributed development\"",
-          "url": "https://www.gamesindustry.biz/how-star-wars-galactic-racer-kept-the-core-team-small-and-sustainable-through-distributed-development",
-          "source": "GamesIndustry.biz",
-          "lang": "en",
-          "published": "2026-10-16T14:30:00+00:00"
-        }
-      ],
-      "section": "news"
-    },
-    {
-      "key": "9d0363c2",
-      "title": "Getting Over It Meets Nokia Nostalgia in New Indie Game Flipping Is Hard",
-      "title_cn": "《Flipping Is Hard》发售：同一攀爬玩法提供不同挫败强度",
-      "url": "https://80.lv/articles/getting-over-it-meets-nokia-nostalgia-in-new-indie-game-flipping-is-hard",
-      "lang": "en",
-      "sources": [
-        "80 Level"
-      ],
-      "published": "2026-10-16",
-      "undated": false,
-      "published_precision": "day",
-      "category": "games",
-      "topic": "新游动态",
-      "content_type": "新闻",
-      "what": "《Flipping Is Hard》是一款物理攀爬游戏，玩家操纵手机翻转、跳跃，最多支持 16 人联机。标准模式没有检查点，Chill 模式允许收集检查点；多人救援同时会给施救者增加操作干扰。",
-      "why": "",
-      "for_you": "阅读角度：检查点选择如何调整失败成本，以及合作救援的代价怎样制造风险和趣味。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "members": [
-        {
-          "title": "Getting Over It Meets Nokia Nostalgia in New Indie Game Flipping Is Hard",
-          "url": "https://80.lv/articles/getting-over-it-meets-nokia-nostalgia-in-new-indie-game-flipping-is-hard",
-          "source": "80 Level"
-        }
-      ],
-      "evergreen": false,
-      "reading_minutes": 4,
-      "section": "news"
-    },
-    {
-      "url": "https://www.unrealengine.com/learning/check-out-the-top-fortnite-islands-from-the-uefn-student-bootcamp",
-      "title_cn": "UEFN 训练营公布学生作品，提供可直接试玩的机制样本",
-      "lang": "en",
-      "sources": [
-        "Unreal Engine"
-      ],
-      "published": "2026-10-16",
-      "published_precision": "day",
-      "category": "development",
-      "topic": "产品观察",
-      "content_type": "官方动态",
-      "what": "Epic 公布 UEFN 学生训练营作品与岛屿代码。据官方介绍，三百多名学生先学习五天，再用两周制作项目。入选案例包括将宾果目标与战斗结合的对局、限时记忆积木的派对玩法，以及随机积木搭路的闯关玩法。",
-      "for_you": "阅读角度：围绕一条易于理解的规则，观察短周期原型怎样加入竞争、记忆或资源选择。页面介绍来自主办方，体验效果可通过岛屿代码自行验证。",
-      "reading_minutes": 6,
-      "title": "Check out the top Fortnite islands from the UEFN Student Bootcamp",
-      "key": "84ca6e87",
-      "why": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "undated": false,
-      "evergreen": false,
-      "members": [
-        {
-          "title": "Check out the top Fortnite islands from the UEFN Student Bootcamp",
-          "url": "https://www.unrealengine.com/learning/check-out-the-top-fortnite-islands-from-the-uefn-student-bootcamp",
-          "source": "Unreal Engine",
-          "lang": "en",
-          "published": "2026-10-16"
-        }
-      ],
-      "section": "news"
-    },
-    {
-      "key": "82a57bda",
-      "title": "Classic Tabletop Adventure HeroQuest Is Coming to PC",
-      "title_cn": "《HeroQuest》公布数字版，加入四对一与任务编辑器",
-      "url": "https://80.lv/articles/classic-tabletop-adventure-heroquest-is-coming-to-pc",
-      "lang": "en",
-      "sources": [
-        "80 Level"
-      ],
-      "published": "2026-10-16",
-      "undated": false,
-      "published_precision": "day",
-      "category": "games",
-      "topic": "新游动态",
-      "content_type": "新闻",
-      "what": "Nomad Games 与 Balor Games 宣布《HeroQuest》数字版计划于 2027 年登陆 PC。游戏支持单人控制队伍或四对一联机，并计划提供任务编辑器与 mod.io 社区内容集成。",
-      "why": "",
-      "for_you": "阅读角度：桌游主持人的职责如何转化为非对称多人玩法，以及自制任务如何进入内容循环。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "members": [
-        {
-          "title": "Classic Tabletop Adventure HeroQuest Is Coming to PC",
-          "url": "https://80.lv/articles/classic-tabletop-adventure-heroquest-is-coming-to-pc",
-          "source": "80 Level"
-        }
-      ],
-      "evergreen": false,
-      "reading_minutes": 3,
-      "section": "news"
-    },
-    {
-      "key": "b135c851",
-      "title": "Caves of Qud: Diaspora breaks new ground by being the first early access DLC release on Steam",
-      "title_cn": "《Caves of Qud》新 DLC 选择抢先体验，延续社区参与开发",
-      "url": "https://www.gamedeveloper.com/pc/caves-of-qud-diaspora-breaks-new-ground-by-being-the-first-early-access-dlc-release-on-steam",
-      "lang": "en",
-      "sources": [
-        "Game Developer"
-      ],
-      "published": "2026-10-15",
-      "undated": false,
-      "published_precision": "day",
-      "category": "development",
-      "topic": "开发动态",
-      "content_type": "新闻",
-      "what": "Game Developer 采访发行方，介绍《Caves of Qud》DLC《Diaspora》采用抢先体验的计划。开发团队称，新扩展会增加复杂系统，希望继续让社区参与压力测试，并让开发节奏与质量目标相匹配。",
-      "why": "",
-      "for_you": "阅读角度：系统耦合较多的扩展内容，如何延续测试反馈与迭代习惯；该做法的效果仍待观察。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "members": [
-        {
-          "title": "Caves of Qud: Diaspora breaks new ground by being the first early access DLC release on Steam",
-          "url": "https://www.gamedeveloper.com/pc/caves-of-qud-diaspora-breaks-new-ground-by-being-the-first-early-access-dlc-release-on-steam",
-          "source": "Game Developer"
-        }
-      ],
-      "evergreen": false,
-      "reading_minutes": 3,
-      "section": "news"
-    },
-    {
-      "key": "01bd46a1",
-      "title": "Kenney Shape is now free, forever! ✨",
-      "title_cn": "Kenney Shape 转为免费，并发布最后一次更新",
-      "url": "https://kenney.itch.io/kenney-shape/devlog/1708644/kenney-shape-is-now-free-forever-",
-      "lang": "en",
-      "sources": [
-        "Kenney 开发日志"
-      ],
-      "published": "2026-10-15T11:22:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "category": "development",
-      "topic": "开发动态",
-      "content_type": "新闻",
-      "what": "Kenney 宣布 Kenney Shape 免费开放，并修复使用色彩图或展开方式导出时的正反面问题。这也是作者计划中的最后一次更新。工具支持 Windows 与 Linux，可把像素图转换成三维模型。",
-      "why": "",
-      "for_you": "阅读角度：适合制作简单原型素材；工具页标明最大画布 64×64、最多 16 色，挤出模型两面外观相同，需按这些限制选用。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "members": [
-        {
-          "title": "Kenney Shape is now free, forever! ✨",
-          "url": "https://kenney.itch.io/kenney-shape/devlog/1708644/kenney-shape-is-now-free-forever-",
-          "source": "Kenney 开发日志"
+          "label": "来源",
+          "value": 12
         },
         {
-          "title": "Kenney Shape",
-          "url": "https://kenney.itch.io/kenney-shape",
-          "source": "Kenney 工具说明"
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
         }
       ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 43.83280978527778,
       "evergreen": false,
-      "reading_minutes": 2,
-      "section": "news"
+      "content_type": "新闻",
+      "section": "news",
+      "body": "还有《CookieRun》系列将拍电影，腾讯参与土耳其游戏公司Flow Games融资，以及《爆裂小队》即将停运。\n大家好，我叫李苹果，是一只小太阳鹦鹉。我的人类室友是触乐的编辑，她用一片苹果“贿赂”了我，让我帮她写本周的游戏行业大事。\n游戏是什么？室友说，人类捧着手机、对着电脑戳戳点点时就是玩游戏，就像我玩球和荡秋千一样。\n说起来，最近天气渐渐转凉，那些会发光的板子倒是越来越暖和了。我经常飞过去蹲在上面暖暖脚，人类总把我挪到一边，嘴里还嘀咕着什么“怎么又这么烫了”、“真得换电脑了吧”……真是不解鸟意！\n“果果，你还在说什么，不是答应了要帮我干活的吗？”\n哎呀，差点忘了正事。接下来，就由我来讲讲本周游戏圈又发生了什么有意思的事吧！\n育碧计划关闭芬兰的RedLynx工作室，预计影响最多52个岗位。与此同时，育碧新加坡工作室已有70个岗位受到裁撤影响。RedLynx最为人熟知的是“特技摩托（Trials）”系列，玩家需要驾驶摩托车翻越障碍、保持平衡。\n我不太明白人类为什么喜欢玩这种游戏，光看着摩托车翻来滚去，我都替骑车的人紧张。还好小鸟会飞，扑腾扑腾翅膀就能回家睡觉，不用担心摔个四脚朝天。\n说到回家，我很喜欢我的两个卧室（鸟笼），它们都是人类买来给我睡觉、玩耍的地方。希望受到影响的开发者也能早日找到新的落脚处，继续和伙伴们做喜欢的游戏。\n库洛入股言之域科技（深圳）有限公司，持股15%。这是一家多模态 AI 初创公司，涉及语音合成、实时对话和3D角色驱动等技术。室友和我解释说，他们的目标就是让虚拟角色不只能动起来，还能主动开口说话、和人交流。\n说起来，我的人类室友也总想教我说话。她每天对着我念叨“你好”和“早上好”，有时还会深情地说：“虽然你是一只不会说话的鹦鹉，但我爱你。”\n要是哪天，我真的学会了人类的语言，能和她有来有回地聊天，甚至还能操纵屏幕里的虚拟小人，她一定会很高兴吧？不过，等我开始在她的耳边滔滔不绝地讲个不停，她会不会又怀念只会呱呱叫的小鸟呢？\n据游戏行业媒体PocketGamer.biz报道，土耳其游戏开发商Flow Games获得4600万美元融资，其中约3450万美元来自腾讯。不过，这笔融资的具体结构尚未公开。\n室友说企鹅投资的这笔钱能给我买下全世界的苹果，人类居然能在做游戏这件事上花这么多钱，看来游戏真的能带来很多乐趣呀！\n不过土耳其到底在哪儿，小鸟还没去过呢。他们做的游戏又会是什么样的呢，我有点好奇，希望哪天室友能给我好好讲讲，说不定还能让我认识一些没见过的新玩法。\n10月15日，西山居旗下武侠MMORPG《剑侠世界4：无限》开启全平台公测。游戏主打大世界探索、门派战斗和多人对抗，也保留了自由交易、垂钓等玩法。最让我在意的是，游戏里居然还能御雕飞行！\n人类果然还是想飞呀！自己没有翅膀，连大雕都安排上了。站在雕背上的人们，能不能感受到风从羽毛间穿过去的感觉？\n什么，不能吗？好遗憾，飞行这种事情还是交给我们专业鸟士吧！\n不过我也很想和人类一起在武侠世界中探险，感受一下策马江湖、自由探索的乐趣。她负责持剑御敌，我就站在她肩膀上放哨，遇到危险立刻大叫——让敌人见识我们一人一鸟的组合技！\n任天堂于10月14日公开《塞尔达传说：时之笛》重制版的全新介绍预告片。游戏将于11月5日登陆Nintendo Switch 2，重现1998年经典作品中的海拉鲁冒险，并加入全面升级的画面、配音过场和交响乐配乐。玩家还可以对着Switch 2的麦克风哼唱学过的旋律，让游戏中的陶笛作出回应。\n我对陶笛很感兴趣，毕竟我经常听着乐曲入睡，室友说我是一只会欣赏音乐的高雅小鸟。希望人类玩《塞尔达传说：时之笛》的时候也给我准备一个麦克风，让我唱两句小鸟之歌，看看能不能触发游戏里的隐藏剧情——本果对唱歌可是很有自信的！\n韩国游戏公司Devsisters宣布，将与Big Shot Pictures合作，把《跑跑姜饼人》系列改编成电影，目标是在2029年全球上映，恰逢系列诞生20周年。按Devsisters公布的数据，这个 IP 在全球已吸引超过3.5亿名玩家。\n游戏里的姜饼人要跑到大银幕上啦！人类总说看电影要吃爆米花，那我是不是也应该准备一小碗瓜子。\n网易旗下《燕云十六声》宣布，预计将于11月正式支持NVIDIA DLSS 5，并同步开放抢先体验。根据官方介绍，游戏团队与英伟达进行了多轮定制化调优，希望进一步提升画面的材质和光影表现。官方还称，这将使《燕云十六声》成为国内首款、目前国内唯一正式支持DLSS 5 的游戏。\nDLSS是什么？室友说，它能让游戏画面看起来更真实。下次我再看到人类玩这个游戏时，会不会以为屏幕里的果树是真的呢？这也太危险了，她一定要记得提醒我不要一头撞进去。\nSupercell宣布，手游《爆裂小队》将在12月1日从App Store和Google Play下架，并即将在2026年12月14日停止服务。游戏于2024年5月全球上线，此前经历过多轮调整，但团队最终没能找到让它继续发展的合适方向。\n人类有时候真奇怪，明明每天都在玩游戏，喜欢的游戏却不一定能一直陪伴他们。希望喜欢这款游戏的人能趁服务器关闭前，再好好玩上几局吧。上周，人类收走了我心爱的木头梯子，说什么天气太潮湿发霉了。道理我都懂，但我还是难过了好一阵子，直到她又给我带回了一个新的小梯子。\nGoogle Play于10月13日推出新功能Game Finder，利用玩家喜欢的类型、玩法机制和游戏习惯来推荐游戏，允许用户过滤掉强调应用内购买的作品。与此同时，Google 还更新了个人应用创建功能，让用户无需注册开发者账号，也能制作供自己使用的应用。\n人类现在连挑游戏都要有人帮忙了吗？我选玩具可简单多了：会滚的先玩，会响的再玩，最后再飞去人类身上爬来爬去，和她玩“捉不到我”的游戏。等她嫌我烦了，又会给我买更多的玩具——计划通！\n好了，本鸟播报的本周行业大事就讲到这里。\n游戏圈的人类们度过了忙碌的一周，他们忙着开发游戏、研究新技术、探索虚拟世界；而我呢，我也忙着嗑瓜子、啃人类头发、巡视我的两套房产。\n听起来好像我没什么事业心？才不是呢！我可是有正经工作的——每天负责观察室友，顺便提醒她：别光顾着玩游戏，该给小鸟切水果吃了！",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "触乐本周行业大事：时之笛重制版新预告、育碧拟关RedLynx等",
+      "what": "触乐以鹦鹉口吻汇总本周游戏行业消息：育碧计划关闭芬兰RedLynx工作室并影响最多52个岗位；任天堂公开《塞尔达传说：时之笛》重制版新预告，11月5日登陆Switch 2；库洛入股多模态AI公司言之域科技；腾讯参与Flow Games融资；《爆裂小队》将停运等。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-15489e2ed4",
+      "source_url": "https://www.gamesindustry.biz/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "8827343856562857",
+      "title": "A hardware market freeze could transform the industry forever | Opinion",
+      "url": "https://www.gamesindustry.biz/a-hardware-market-freeze-could-transform-the-industry-forever-opinion",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GamesIndustry"
+      ],
+      "published": "2026-10-16T15:18:57+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Right about now is the moment when the console business should be getting one hell of a second wind. Six years deep into a hardware generation, with probably the most anticipated video game launch of all time just a few weeks out, this should be when the platform holders make hay, extending those mature install bases out into ever-wider audiences as fence-sitters finally pick up the hardware they've been holding out on for years.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "A hardware market freeze could transform the industry forever | Opinion",
+          "url": "https://www.gamesindustry.biz/a-hardware-market-freeze-could-transform-the-industry-forever-opinion",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-10-16T15:18:57+00:00"
+        }
+      ],
+      "score": 17,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 61.74419867416667,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "A hardware market freeze could transform the industry forever | Opinion\nIf consoles and GPUs are priced out of reach for years, the market won't simply wait for them to come back – it'll re-centre around the devices people already have\nRight about now is the moment when the console business should be getting one hell of a second wind. Six years deep into a hardware generation, with probably the most anticipated video game launch of all time just a few weeks out, this should be when the platform holders make hay, extending those mature install bases out into ever-wider audiences as fence-sitters finally pick up the hardware they've been holding out on for years.\nInstead, even as a flurry of shortages for the seemingly supply-constrained PS5 Pro drives prices up into scalper territory, the overall picture from market data looks genuinely grim. Circana's latest figures show Xbox hardware unit sales for the year through August down 33%, sitting at an all-time low. PlayStation is down 25%, its weakest showing since 2013 – a nadir it reached on the eve of PS4's launch, with the market holding out for the new system.\nThe culprit isn't a mystery. The average PlayStation sold this year has cost a consumer $597; recall that the digital edition of the console cost $399 at launch in 2020. Nobody seems to expect any improvement next year – 2028 is the year when most analysts pin some cautious optimism for a return to a semblance of normality. That's when Circana's Mat Piscatella said he's hoping prices will stabilise, and when S&P Global's forecast suggests that global console sales might start to recover.\nDemand for games and entertainment won't disappear just because console shipments tank, of course. Even as teeth are gritted and hatches battened down against the market conditions created by the hardware component crisis, it's important to ask where the demand might relocate instead. If consoles have priced themselves out of their target market's acceptable range, where will that market turn for its gaming fix?\nIt certainly won't be to high-end PCs, where the pricing crisis is biting even harder than for consoles. This week brought reports (as yet unconfirmed by Nvidia) that the RTX 5090 graphics card is effectively discontinued, with the company allocating all of its output of GB202 chips to the far more lucrative RTX Pro workstation cards instead. Discontinuation is a technicality for almost everyone; the 5090 has cost more than a small car for the past year anyway, with retail prices north of $5,000 for a card that launched at $1,999. Lower-end cards and even previous generation 40-series cards also routinely command several thousand dollar price tags.\nPerhaps this starts to sort itself out in 2028; perhaps the situation drags on for several years beyond that. Nobody really knows for sure, so for the sake of argument, let's take the pessimistic case as a premise and see where it leads. Suppose dedicated gaming hardware, both consoles and discrete GPUs alike, is simply priced out of consumers' reach for the next few years, perhaps all the way to the end of the decade. What does that actually do to the games business?\nIf new hardware is prohibitively expensive, the hardware people already own becomes the most important platform\nI think the answer is actually deceptively simple. If new hardware is prohibitively expensive, the hardware people already own – or the hardware they'll justify buying on non-gaming grounds – becomes the most important platform there is. If you follow that thread of thought, some interesting consequences fall out along the way.\nThe first, and most obvious, is very much in Sony's favour – which I'll grant is an odd thing to say given I just talked about the PlayStation posting a 13-year low in its sales figures. Sony, however, hasn't been making decisions like a company facing a sales crisis and needing to win back consumers – and I think the tenor of that decision-making, and the way it has approached price hikes, may reflect its own understanding that this situation isn't entirely unfavourable for it.\nOverpriced hardware locks in the PS5's install base advantage. Sony has shipped over 95 million units, and while that number is barely creeping upwards now, it isn't going anywhere either – and there's no prospect of anyone else selling new or aggressively priced hardware that can chip away at that dominance. The same pressures crushing hardware sales will hobble the PS6 when it arrives – nobody is going to enjoy the price tag on a next-gen console with a modern memory configuration – but they also freeze the current market in place, with the PS5 as the dominant home console for as long as that freeze lasts.\nSony's business model assumes a reasonably brisk transition to new hardware, and that would probably still be its preference, but unlike Microsoft – which needs a generation transition to give it a fresh roll of the dice – Sony is under no pressure to force one. The company has already decoupled its profits from hardware sell-through; the games division posted record operating income last year alongside falling unit shipments. If a clean generational transition isn't on the cards, Sony will be perfectly content to make hay from several more years of software sales, PlayStation Plus subscriptions, and digital revenue on its existing install base. Microsoft, enjoying no such luxury and trying to turn around a troubled business and brand, will find such a market freeze far harder to cope with.\nThe same logic, though, has consequences that are far less comfortable for Sony, and for consoles in general. If the device you already own is king, then the most widely owned high-performance computer on the planet is the smartphone – and as the most personal and most heavily-used device, it's also the one most likely to get consumers to pay a premium for regular upgrades, even if it's through gritted teeth.\nMobile gaming is huge already, of course, but it's largely been seen as somewhat separated from the core gaming market for many years. That isn't guaranteed to remain the case. Games like Fortnite and Genshin Impact already bridge mobile and more traditionally \"core\" platforms very effectively, and there's been a slow movement building on the fringes of the mobile market to bring more core-style games and business models back to these platforms.\nThe likes of Capcom's Resident Evil ports or Warframe's mobile version haven't transformed the market yet, but a change has been building quietly for a while – and as console and gaming PC hardware hits an affordability wall, the ubiquity of capable phones is going to be increasingly hard to ignore. Hooking a phone up to a TV, pairing a controller, and playing something console-shaped is perfectly possible today, albeit a bit of a faff in many cases; it's only a few usability tweaks and a strong dose of necessity away from being a very normalised way of engaging with games.\nThere's a global dimension to this, too. There are hundreds of millions of players in developing markets who were never going to own a console regardless of price; they've often been low on the priority list for major gaming companies, because revenue per user in those territories is minuscule compared to North America, Europe, or Japan. If players in those wealthy markets are similarly constrained to the hardware in their pockets, though, the whole equation shifts. A game designed for a phone-first audience suddenly has a shot at genuinely global appeal, rather than being a lesser version of something built for a living-room box most of its potential players will never own.\nMobile might not be the only beneficiary of the sudden appeal of gaming on hardware you already own. Even if I fully acknowledge that you could fill a library with optimistically incorrect predictions that the stars were finally aligning for gaming on the Mac, it's hard to ignore just how ubiquitous Apple's laptops have become among younger demographics who are also very likely to seek out gaming experiences on their existing hardware. The Mac has always been the bridesmaid, never the bride – largely because Apple itself has fumbled catching the bouquet on every occasion – but the market fundamentals now may be so powerful that even the company's butter fingers can't let the opportunity slip entirely.\nIt's not just that Apple Silicon devices have proliferated massively among students and young people in the past few years (thanks to the very unusual, for Apple, situation of them not only being very good devices, but also very competitively priced). The tooling might be about to catch up, too; a recently released open-source project called NotProton ports parts of Valve's Proton to macOS and switches on the Steam Play functionality that has apparently been sitting dormant in the Mac Steam client, letting Windows games run straight from a Steam library via CrossOver.\nYou have a market that, in a few short years, could re-centre itself around a very different set of devices\nWe've seen what Proton did for Linux gaming and the Steam Deck; if Valve decides to make something like this official – that dormant code suggests it has at least thought about it – it could open the floodgates for Mac gaming at last, with the major benefit that this time it wouldn't even require developers to go out on a limb with the expense and risk of porting games to the Mac directly.\nPut all of this together and you have a market that, in a few short years, could re-centre itself around a very different set of devices and platforms than the ones we've grown used to. The temptation is always to treat a crisis like this as a temporary interruption to business as usual; a few lean years after which prices normalise, the PS6 and its rivals arrive, and everything resumes its natural course. The longer the situation continues, though, the more consumer behaviours will get accustomed to these alternative platforms, and the less likely a clean regression ",
+      "has_body": true,
+      "body_truncated": true,
+      "title_cn": "硬件涨价若持续，游戏市场或转向手机与Mac",
+      "what": "文章援引Circana数据称Xbox与PlayStation硬件销量下滑、主机均价上涨，并讨论若主机与独立显卡长期高价，市场可能转向用户已有的手机和Mac等设备。",
+      "why": "作者以硬件价格高企为前提推演：现有PS5装机量被锁定，手机与Mac因普及度成为潜在平台，并提及NotProton将Proton部分功能移植到macOS。",
+      "for_you": "可追问：作者对手机和Mac承接核心游戏的判断依据是否充分，NotProton这类工具的实际可用性如何验证？",
+      "degraded": null
+    },
+    {
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "75de5d008d8166ce",
+      "title": "See How This Sparkly Glass-Like Apple Was Made in Blender",
+      "url": "https://80.lv/articles/see-how-this-sparkly-glass-like-apple-was-made-in-blender/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "80.lv"
+      ],
+      "published": "2026-10-16T14:27:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Moop-A-Doop presented a cute stylized render.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "See How This Sparkly Glass-Like Apple Was Made in Blender",
+          "url": "https://80.lv/articles/see-how-this-sparkly-glass-like-apple-was-made-in-blender/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-10-16T14:27:00+00:00"
+        }
+      ],
+      "score": 17,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 62.6100320075,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "See How This Sparkly Glass-Like Apple Was Made in Blender\nMoop-A-Doop presented a cute stylized render.\nA 3D artist known as Moop-A-Doop showcased a beautiful stylized apple that captures attention with its transparent sides that look like glass. It reminds me of caramelized fruit, but made in Blender.\n\"As an artist, I have always been drawn to non-photorealistic and stylized rendering. I find the intersection of expressive 2D illustration and the mathematical foundations of 3D modeling particularly compelling, and Blender has become an essential tool for exploring this relationship. Having previously adapted visual elements from my favorite shows into this style, this stylized apple represents another step in my ongoing exploration of artistic expression through 3D rendering,\" the creator shared with us.\nThe base mesh is separated into two pieces: a semi-transparent outer layer that gives the apple its glossy surface, and an interior layer that is meant to fake depth.\nBoth the outer and the inner mesh use hand-painted matcaps as a base color.\nYou can also add further depth by ray marching details into the inner apple.\n\"Ray marching is a way to simulate objects in 3D space using math and Signed Distance Functions (SDFs). I used B3Dsdf by William Change for SDF primitives, and converted the world space where the location and view direction are calculated to object space, so each object could have its own star and support rotation.\"\nThen, Moop-A-Doop added fake sparkles by getting the dot product of a Voronoi texture and the view direction to give the illusion of direction-based glitter.\nThe slice part of the apple uses a combination of fake glitter and a solid color ramp for a matcap to fake surface reflection lines.\nYou can find Moop-A-Doop's other works on X/Twitter:\nSubscribe to our Newsletter, join our 80 Level Talent platform and Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Blender制作玻璃质感风格化苹果的技法解析",
+      "what": "80.lv报道3D艺术家Moop-A-Doop在Blender中制作风格化苹果：网格分为半透明外层与伪造深度的内层，均以手绘matcap作基础色，并用光线步进、Voronoi纹理与视线方向点积制造闪光。",
+      "why": "作者自述偏好非写实风格化渲染，方法上以外层透明壳加内层假深度、SDF光线步进和方向性闪光模拟玻璃与糖渍质感。",
+      "for_you": "可研究其用两层网格与matcap替代真实折射的做法，在旋转视角下如何维持透明与闪光的一致性。",
+      "degraded": null
+    },
+    {
+      "source_id": "web-15489e2ed4",
+      "source_url": "https://www.gamesindustry.biz/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "ac7aa9facdb6afde",
+      "title": "Gamescom Asia x Thailand Game Show 2026 announces four additional pavilions from Indonesia, Japan, Malaysia, and the US",
+      "url": "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-2026-announces-four-additional-pavilions-from-indonesia-japan-malaysia-and-the-us",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GamesIndustry"
+      ],
+      "published": "2026-10-16T12:44:48+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Gamescom Asia x Thailand Game Show 2026 has announced four additional pavilions, bringing its total to 20 from 12 markets across Asia, Europe, and North America.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Gamescom Asia x Thailand Game Show 2026 announces four additional pavilions from Indonesia, Japan, Malaysia, and the US",
+          "url": "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-2026-announces-four-additional-pavilions-from-indonesia-japan-malaysia-and-the-us",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-10-16T12:44:48+00:00"
+        }
+      ],
+      "score": 17,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 64.31336534083333,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Gamescom Asia x Thailand Game Show 2026 announces four additional pavilions from Indonesia, Japan, Malaysia, and the US\nThis year's event will host 29 countries and regions, described as \"most international line-up in show's history\"\nGamescom Asia x Thailand Game Show 2026 has announced four additional pavilions, bringing its total to 20 from 12 markets across Asia, Europe, and North America.\nNewly announced pavilions include Indonesia (Ministry of Creative Economy), Japan (JETRO), Malaysia (Malaysia Digital Economy Corporation), and the US (US Embassy Bangkok).\nThese join the already established pavilions from Austria, Germany, the Philippines, South Korea, Spain, and host nation Thailand.\nSouth Korea will bring six delegations led by KOCCA and regional agencies from Busan, Daejeon, and Jeonnam. Additional delegations will come from Japan (CANTEEN and MIXI Global Investments), China (Gamirror Games), and Taiwan (Taipei Computer Association).\nOverall, this year's Gamescom Asia x Thailand Game Show will host exhibitors from 29 countries and regions, described as \"the most international line-up in the show's history.\"\n\"National pavilions only get backing when there is a clear business case. For the German games industry, Gamescom Asia x Thailand Game Show is exactly that,\" said Game managing director Felix Falk.\n\"This is where East meets West in games. For Asian developers, it is the most direct route to international partners. For Western studios, it is the front door to some of the world's fastest-growing games markets.\"\nThai Games Association president Kittipong Prucksa-aroon added: \"As representatives of the host nation's association, we look forward to bringing the region together at Gamescom Asia x Thailand Game Show, together with other major ASEAN country pavilions from Indonesia, Malaysia and the Philippines.\n\"With that, Gamescom Asia x Thailand Game Show has truly become the regional meeting point for Southeast Asia's games industry. There is no other place where Southeast Asia's leading games markets come together at this scale, under one roof, alongside the world's major gaming nations.\nPrucksa-aroon concluded: \"For developers, publishers, investors and players, that makes Bangkok the place to be and see where Southeast Asian gaming is heading next.\"\nThis year's event takes place from October 29 to November 1 at the Queen Sirikit National Convention Centre (QSNCC).\nAs previously announced, Gamescom Asia x Thailand Game Show's exhibitor lineup includes Capcom, Bandai Namco, and The Pokémon Company, as well as Nintendo and PlayStation represented by partners.\nAdditional exhibitors include 4Divinity, Elementa, Gryphline, Kuro Games, Razer, AMD, Lenovo, and others.\nThe business area will be open from October 29 to October 30, exclusively to games industry professionals and media.\nIt will feature a conference with more than 80 speakers from 27 countries, headlined by John Romero with a keynote entitled \"Why We Still Make Games\".",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "2026年亚洲游戏展与泰国游戏展新增四国展馆",
+      "what": "2026年Gamescom Asia与泰国游戏展宣布新增印度尼西亚、日本、马来西亚和美国四个展馆，展馆总数达20个，来自12个市场；展会共有29个国家和地区的参展方，于10月29日至11月1日在曼谷QSNCC举行。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "935a1ecc5d798310",
+      "title": "Kenney Shape, Tool for Generating Extruded 3D Models from 2D Pixel Art, Is Now Free",
+      "url": "https://80.lv/articles/kenney-shape-tool-for-generating-extruded-3d-models-from-2d-pixel-art-is-now-free/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "80.lv"
+      ],
+      "published": "2026-10-16T11:24:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Kenney Vleugels, also known as KenneyNL, made their tool for turning pixel art into 3D shapes free forever for everyone.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Kenney Shape, Tool for Generating Extruded 3D Models from 2D Pixel Art, Is Now Free",
+          "url": "https://80.lv/articles/kenney-shape-tool-for-generating-extruded-3d-models-from-2d-pixel-art-is-now-free/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-10-16T11:24:00+00:00"
+        }
+      ],
+      "score": 17,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 65.6600320075,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Kenney Shape, Tool for Generating Extruded 3D Models from 2D Pixel Art, Is Now Free\nKenney Vleugels, also known as KenneyNL, made their tool for turning pixel art into 3D shapes free forever for everyone.\nRenowned game asset creator and game developer Kenney Vleugels, who created Make Room, a cozy isometric builder, announced that they are making one of their tools free forever. Kenney Shape is a tool for turning pixel art into 3D shapes. It uses 2D pixel art as a source for generating 3D assets through pixel extrusion.\nAll you need to do is draw a 2D pixel-art object, set the desired depth for each pixel, and Kenney Shape will generate a 3D model. It does the UV mapping automatically, so you can skip this step entirely. Once the asset is ready, you can export it as a 3D and voxel model or as a bitmap and vector image.\nKenneyNL\nYou can then transfer the objects to almost any major 3D design tool for game developers, including Unity, Unreal Engine, Godot, and Blender. Voxel files are compatible with MagicaVoxel, VoxEdit, and Goxel. Because the creator of the tool focuses on making game-ready assets, all the models created with Kenney Shape are automatically optimized, but you can polish them manually if needed.\nKenney Shape used to be a paid tool, but now it's free for everyone to use and keep forever. According to the artist, they made this decision because they wanted to focus on other projects instead. Kenney Shape won't be getting any updates, making the October 2026 update its last one.\nThe tool is available on Windows and Linux, and you can download it here. Make sure you check out other free tools for pixel-art enthusiasts by KenneyNL on their website: you can get Avatar Mixer, Creature Mixer, and Ship Mixer to create assets for your pixelated designs.\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates\nKeep reading\nMore 3D art tools for you to check out",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Kenney Shape像素画转3D模型工具改为永久免费",
+      "what": "游戏素材创作者Kenney Vleugels宣布，将像素画挤出生成3D模型的工具Kenney Shape改为永久免费。用户绘制2D像素画并设定各像素深度后，工具会自动生成3D模型并完成UV映射，可导出3D、体素或位图、矢量格式，用于Unity、Unreal、Godot、Blender等。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "36a78d83c305e4cf",
+      "title": "See How You Can Make a Blender Animation of Spider-Man Skating",
+      "url": "https://80.lv/articles/see-how-you-can-make-a-blender-animation-of-spider-man-skating/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "80.lv"
+      ],
+      "published": "2026-10-16T10:45:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Tonq shared a detailed breakdown of his Blender short, Spider-Man Never Been Done.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "See How You Can Make a Blender Animation of Spider-Man Skating",
+          "url": "https://80.lv/articles/see-how-you-can-make-a-blender-animation-of-spider-man-skating/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-10-16T10:45:00+00:00"
+        }
+      ],
+      "score": 17,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 66.3100320075,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "See How You Can Make a Blender Animation of Spider-Man Skating\nTonq shared a detailed breakdown of his Blender short, Spider-Man Never Been Done.\nTonq released a detailed breakdown of the process behind his most recent Blender short, Spider-Man Never Been Done. In the animation, the Marvel superhero races through the streets of New York on a skateboard. Inspired by Andrew Garfield's skateboarding scenes in The Amazing Spider-Man, Tonq decided to combine the classic Spidey swinging and skateboarding into an extra dynamic sequence.\nFor the Spider-Man rig, Tonq used a model by 3D artist Reza, provided with IK and FK for animation. To create the web strands, the artist used vertices and parented them to the hand bones using the Object Modifier. By using the Displacement Modifier and a cloud texture, he adjusted the appearance of the web.\nFor the first shots where Spider-Man is sitting on the edge of a building upside down playing with his skateboard, the artist recorded himself flipping a skateboard and used this footage as a reference with one major adjustment. Instead of creating an upward throwing motion in the character's hand, he made a dropping motion to account for his upside-down positioning.\nTonq\nTonq\nFor the skateboard, the creator reused his own board rig made earlier. To get the board and the Spider-Man rig moving in synchrony, the artist added an Empty to the board, copied its location, and paired the Spider-Man rig to the Empty.\nThe complex choreography in the scene was inspired by Ikkei Nagao's and John Sawyer's skating tricks. To create the animation, the artist started with the board movement in every shot. After that, he went on to animate the character, changing his pose every 3-5 frames to communicate each micro-movement.\nThe artist's top tip for creating realistic, dynamic movement is readjusting every single bone. While it might seem like a body part is not moving much from frame to frame, a live body is never stiff, and each part of it changes its positioning slightly even in subtle motion.\nYou can watch the full tutorial on the artist's YouTube channel to see more details on how he created the animation.\nAs the artist explained, this animation became a creative getaway after his burnout from the previous project, a short film titled The Caterpillar, which he spent a year working on. The Spider-Man animation took him around 3 weeks to finish.\nIf you like skateboarding and animation as much as Tonq does, you might want to check out more of his projects on Instagram.\nHere are some more cool character animations for you to check out: see this animation of Marvel's Carnage by Adrian Nita and this breakdown of an animation of a tiny character with a massive weapon by Vanessa Ruffra.\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Blender动画师分享蜘蛛侠滑板短片制作流程",
+      "what": "80.lv报道，动画师Tonq发布其Blender短片《Spider-Man Never Been Done》的制作解析，介绍蜘蛛侠在纽约街头滑板的动画如何借助模型绑定、蛛丝效果与逐帧姿态调整完成，短片耗时约三周。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-15489e2ed4",
+      "source_url": "https://www.gamesindustry.biz/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "2da49b831f074277",
+      "title": "Game Republic New Horizons 2026 attendance grew 78% to over 461 visitors",
+      "url": "https://www.gamesindustry.biz/game-republic-new-horizons-2026-attendance-grew-76-to-over-461-visitors",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GamesIndustry"
+      ],
+      "published": "2026-10-16T10:10:06+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Attendance at Game Republic New Horizons 2026 rose by 78% year-over-year, from 259 to 461 visitors.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Game Republic New Horizons 2026 attendance grew 78% to over 461 visitors",
+          "url": "https://www.gamesindustry.biz/game-republic-new-horizons-2026-attendance-grew-76-to-over-461-visitors",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-10-16T10:10:06+00:00"
+        }
+      ],
+      "score": 17,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 66.89169867416666,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Game Republic New Horizons 2026 attendance grew 78% to over 461 visitors\nMore than 100 people travelled from London and the South East to take part in the conference at Riverside Stadium in Middlesbrough\nAttendance at Game Republic New Horizons 2026 rose by 78% year-over-year, from 259 to 461 visitors.\nHeld at Riverside Stadium in Middlesbrough from October 14 to 16, the event drew more than 100 attendees from London, the South East, and across the UK.\nInternational attendees came from Denmark, Sweden, Finland, China, Italy, Japan, Canada, the US, France, and the Netherlands.\nMeetings between developers, publishers, studios, entrepreneurs, and investors (via MeetToMatch) rose from 100 to 257.\nNintendo business development and developer relations representatives hosted a breakfast session for developers and publishers to ask about working with the platform holder, developing tools, publishing opportunities, and available support resources.\nThis year featured 48 speakers, including former SCEI chairman and group CEO Ken Kutaragi and Landfall chief business officer Rebecca Lautner. Other sessions included IO Interactive CEO Hakan Abrak, Housemarque, Bithell Games, and 4J Studios.\n\"This was one of the biggest and best line-ups of speakers and companies at a games conference held in the UK,\" said Game Republic managing director Jamie Sefton.\n\"It was great to see hundreds of games industry professionals from all over the UK, Europe, Asia, Canada and the USA to Middlesbrough here to do business, enjoy talks and presentations and see the talent and opportunities on offer.”\nTees Valley Mayor Ben Houchen added: \"Teesside has built a fantastic reputation as one of the UK's leading centres for video games development, and attracting a major industry event with global names like these shows the progress we are making.\n\"We've got brilliant businesses and talented people right here on our doorstep, and our £160 million Investment Zone for the digital and creative sectors is about giving them the backing and opportunities they need to grow. Getting leading developers, publishers and investors into Teesside puts our region firmly in the shop window.\"\n\"It means we can showcase what our industry has to offer, attract new investment and ultimately create more highly skilled careers for local people right here.\"\nGame Republic New Horizons will return in 2027.\nGameIndustry.biz is a media partner of GR New Horizons 2026.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Game Republic New Horizons 2026参会人数增至461人",
+      "what": "Game Republic New Horizons 2026于10月14日至16日在米德尔斯堡河畔球场举行，参会人数从259人增至461人，同比增长78%；MeetToMatch商务会谈从100场增至257场，共有48位演讲者。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-68554a31d0",
+      "source_url": "https://www.chuapp.com/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "047aa8b9dd838103",
+      "title": "触乐怪话：Make《生化危机》Great Again",
+      "url": "http://www.chuapp.com/article/291690.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "触乐"
+      ],
+      "published": "2026-10-16T09:33:51+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 图/小罗 国庆假期的最后一天，我去看了《生化危机：爆发夜》。电影过半，主角布莱恩被狗追进一个谷仓，墙角放着一罐急救喷雾。他看都没看就走了。 后来翻影评的时候，我才知道，布莱恩一路经过急救喷雾和绿色药草，一样都没带上，这就好比你在看一个一命通关挑战的实况，主播已经丝血，但连续错过各种补血道具一样令人恼火。 遗憾！ 不过，电影毕竟不是游戏，自然不能完全代入游戏当中，但从这些细节中不难发现，《生化危机：爆发夜》绝对是一款比此前的系列作品更靠近游戏的一部电影。 布莱恩是个医疗快递员（也许是？反正可以理解为顶级闪送专员）。他临时接了一单夜班活，因为能拿双倍工资，要把一个包裹送到浣熊市的医院，后面的剧情如果你还没看过，就不再剧透，我打算从游戏叙事与《生化危机：爆发夜》剧情的推进类似之处聊一聊这部电影。 在整部电影中，布莱恩做的事其实和玩家第一次玩《生化危机》时差不多：他会搜房间、浪费子弹，也会打开那扇上帝视角看来绝不应该打开的那扇门。 看这部电影的感觉就好像坐在沙发上看朋友打游戏，就好像感觉自己又玩了一遍《生化危机》，而且旁边还坐着一个和自己一样菜的朋友。 这让我想起米拉·乔沃维奇演的那几部《生化危机》电影。爱丽丝从第一部开始就很能打，后来几部更是一个人对付一群丧尸，打到最后已经有了超级英雄的样子，整部电影极其注重大场面的刻画，就像同时期许多",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "触乐怪话：Make《生化危机》Great Again",
+          "url": "http://www.chuapp.com/article/291690.html",
+          "source": "触乐",
+          "lang": "zh",
+          "published": "2026-10-16T09:33:51+00:00"
+        }
+      ],
+      "score": 17,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 67.49586534083333,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "值得一看。\n国庆假期的最后一天，我去看了《生化危机：爆发夜》。电影过半，主角布莱恩被狗追进一个谷仓，墙角放着一罐急救喷雾。他看都没看就走了。\n后来翻影评的时候，我才知道，布莱恩一路经过急救喷雾和绿色药草，一样都没带上，这就好比你在看一个一命通关挑战的实况，主播已经丝血，但连续错过各种补血道具一样令人恼火。\n不过，电影毕竟不是游戏，自然不能完全代入游戏当中，但从这些细节中不难发现，《生化危机：爆发夜》绝对是一款比此前的系列作品更靠近游戏的一部电影。\n布莱恩是个医疗快递员（也许是？反正可以理解为顶级闪送专员）。他临时接了一单夜班活，因为能拿双倍工资，要把一个包裹送到浣熊市的医院，后面的剧情如果你还没看过，就不再剧透，我打算从游戏叙事与《生化危机：爆发夜》剧情的推进类似之处聊一聊这部电影。\n在整部电影中，布莱恩做的事其实和玩家第一次玩《生化危机》时差不多：他会搜房间、浪费子弹，也会打开那扇上帝视角看来绝不应该打开的那扇门。\n看这部电影的感觉就好像坐在沙发上看朋友打游戏，就好像感觉自己又玩了一遍《生化危机》，而且旁边还坐着一个和自己一样菜的朋友。\n这让我想起米拉·乔沃维奇演的那几部《生化危机》电影。爱丽丝从第一部开始就很能打，后来几部更是一个人对付一群丧尸，打到最后已经有了超级英雄的样子，整部电影极其注重大场面的刻画，就像同时期许多科幻灾难片一样。\n当然，米拉·乔沃维奇演的这几部电影我看得也挺开心，但其实更像是借着《生化危机》这个IP的世界观和设定，去拍一部超英电影一样。看到后来，我们的情绪已经很难被女主遭受的种种困难所牵动——因为我们知道，他一定能华丽地解决这些困难，并且倒在她应该倒在的地方。\n导演扎克·克雷格在电影路演时提到过，他觉得《生化危机》还应该有一部不一样的电影。他说自己喜欢那种慢慢逼近的恐惧：开局只有一把手枪，要数着子弹用，后来换成霰弹枪、机枪，整个世界都想弄死你，你觉得资源不够，又必须想办法活下去。\n导演没有再讲一遍里昂的故事，电影里能直接对应游戏的东西很少：浣熊市，保护伞公司，一台打字机，还有布莱恩用的霰弹枪子弹的牌子——熟悉游戏的人看到那台打字机，大概都会想到存档，种种游戏元素就像彩蛋一样藏在电影中，让玩家会心一笑。可以说，这种方式在讨好玩家的同时，又没有增加没玩过游戏观众的观影门槛，实属不错。\n可以发现，在过去的游戏改编电影中，常常在还原角色上用力：米拉版后来陆续加进了吉尔、艾达王、威斯克，每次公布选角，都会引起一些质疑和争论。比方说2021年那部重启版把一堆经典角色搬上银幕，结果豆瓣评分只有4.6。\n这几年口碑不错的改编，似乎都在刻意脱离游戏中的故事线，或者是去游戏化，比方说亚马逊拍摄的《辐射》剧集就没有讲述任何一代游戏的主线。第一季导演乔纳森·诺兰加了一些新人物，就好像一部非互动版的《辐射5》一样。\n但我觉得，在某种程度上《生化危机：爆发夜》才达到了那种细致入微的游戏体验感，并且做得更加极致（除了主角和NPC有时蠢得令人恼火，但转念想想，我们在游戏中不也经常犯蠢吗？）。\n目前，《生化危机：爆发夜》在内地上映一周多，票房已经超过2亿元，豆瓣开分7.2，烂番茄新鲜度96%，是近期评分最高的游戏改编电影。\n我不确定导演的这种拍法能否复制到续集或者其他系列，这种让观众“着急”的叙事方式，放在《生化危机》里反而很合适，玩过这个系列的玩家应该早就习惯了狼狈。\n但无论如何，这部电影塑造的氛围还是值得去电影院体验一番的，比起《奥德赛》《沙丘》这样不去IMAX影厅可惜了的鸿篇巨著，《生化危机：爆发夜》在小影厅也能够低成本的感受到它的魅力（如果是杜比全景声就更好了，顺带一提，电影的配乐做得不错）。\n无论如何，相信你在看完这部电影后，多少能找到一些当初玩《生化危机》游戏时的感受。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "从《生化危机：爆发夜》看游戏改编电影的叙事取舍",
+      "what": "触乐作者观看《生化危机：爆发夜》后，认为该片主角像初次玩《生化危机》的玩家一样搜房间、浪费子弹、错过补给，与米拉版超英式改编不同，更贴近游戏体验；文中提到影片内地票房超2亿元、豆瓣7.2分、烂番茄新鲜度96%。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-68554a31d0",
+      "source_url": "https://www.chuapp.com/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "9f705a2e085a4584",
+      "title": "MLBB十周年：什么是真正的全球化？",
+      "url": "http://www.chuapp.com/article/291692.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "触乐"
+      ],
+      "published": "2026-10-16T08:11:26+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "10月9日至11日，《决胜巅峰》（Mobile Legends: Bang Bang，下文简称MLBB）十周年庆典在全球十国同步展开。庆典的主题叫“All In MLBB”，活动地横跨亚、欧、美三大洲。在这段时间，你能在印度尼西亚、土耳其看到MLBB的经典元素出现在街头，也能在泰国曼谷看到一座巨型生日蛋糕；你能在马来西亚的演出上看到MLBB的133位Coser，也能在俄罗斯看到开发者在大屏前和玩家之间进行交流。 在现场最直观的是人流，人总是多得不得了，有些地方的热闹程度甚至接近一场小型演唱会。然后是一种强烈的区域特色：翻看与MLBB庆典相关的社交媒体讨论，你会看到语言、肤色、面貌各不相同的玩家，甚至各种不同的民俗元素……这种感觉非常奇妙，一款中国公司做的游戏，如此自然地走入不同国家民众的日常生活。 MLBB十周年庆典在全球十国同步展开 我们通常会在某种情况下先知道一款游戏很有名，然后才切身体会到它到底有名到什么程度，以及为什么有名。MLBB在大部分情况下属于前者，很多人知道它很有名，但很少有人真正意识到这些话代表着什么，以及MLBB如今成长到的规模。它的成功也早已不止在某个国家、甚至某个大洲。 MLBB由沐瞳科技研发，在海外上线的时间是2016年，在上线10年后的今天，这款游戏的累计注册用户超过15亿、月活超1.1亿。它拥有庞大的玩家群体，覆盖220多个国家和地区。就像庆典上传递的",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "MLBB十周年：什么是真正的全球化？",
+          "url": "http://www.chuapp.com/article/291692.html",
+          "source": "触乐",
+          "lang": "zh",
+          "published": "2026-10-16T08:11:26+00:00"
+        }
+      ],
+      "score": 17,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 68.86947645194445,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "在未来的10年，它会走向更广阔的世界，以一个“全球化平台”的身份做到更多。\n10月9日至11日，《决胜巅峰》（Mobile Legends: Bang Bang，下文简称MLBB）十周年庆典在全球十国同步展开。庆典的主题叫“All In MLBB”，活动地横跨亚、欧、美三大洲。在这段时间，你能在印度尼西亚、土耳其看到MLBB的经典元素出现在街头，也能在泰国曼谷看到一座巨型生日蛋糕；你能在马来西亚的演出上看到MLBB的133位Coser，也能在俄罗斯看到开发者在大屏前和玩家之间进行交流。\n在现场最直观的是人流，人总是多得不得了，有些地方的热闹程度甚至接近一场小型演唱会。然后是一种强烈的区域特色：翻看与MLBB庆典相关的社交媒体讨论，你会看到语言、肤色、面貌各不相同的玩家，甚至各种不同的民俗元素……这种感觉非常奇妙，一款中国公司做的游戏，如此自然地走入不同国家民众的日常生活。\n我们通常会在某种情况下先知道一款游戏很有名，然后才切身体会到它到底有名到什么程度，以及为什么有名。MLBB在大部分情况下属于前者，很多人知道它很有名，但很少有人真正意识到这些话代表着什么，以及MLBB如今成长到的规模。它的成功也早已不止在某个国家、甚至某个大洲。\nMLBB由沐瞳科技研发，在海外上线的时间是2016年，在上线10年后的今天，这款游戏的累计注册用户超过15亿、月活超1.1亿。它拥有庞大的玩家群体，覆盖220多个国家和地区。就像庆典上传递的那些感受一样，现在，在全球许多国家，MLBB都是当地玩家最喜欢的国民级游戏，它比许多宣传“全球化”的游戏更全球。\nMLBB是怎么做到这一切的？\n在谈到MLBB的成功时，我会首先想到它的本土英雄和本地化内容。MLBB中有世界各地充满地域特色的文化内容，这些内容在很多时候是由官方和玩家共同打造的——如果我是一位玩家，我最希望的肯定是开发者能够把我所在的本土文化以重视、有意义的方式做进我喜欢的游戏中，而MLBB在这一点上的尝试相当之早。\n在最早期，MLBB并不是一款带有强烈文化色彩的产品。但在上线不久后，开发团队就开始有意识地打造以不同国家文化为核心的游戏内容。2017年5月23日，MLBB中第一位菲律宾本土英雄Lapu-Lapu上线，他的原型是1521年麦克坦之战抵抗西班牙殖民的民族英雄，诞生来自于菲律宾玩家的票选。在此前，电子游戏里几乎没有明确的、来自菲律宾的代表角色，你可以想象当时的菲律宾玩家对这名英雄的感情。\n这是一个教科书一样的本土化方式。当玩家们在游戏中看到熟悉的、喜欢的本土内容，他们自然会对这款游戏产生一些更深的感情。但对2017年的MLBB团队来说，他们并没有太多的经验可以参照，很多信息和想法都只能在摸索中尝试——比如“金刚神”Gatotkaca，他的诞生来自多轮在印尼的用研和市场调研。在调研中，团队成员发现，印尼玩家其实玩过很多不同文化背景的游戏，但几乎没有厂商专门为他们做过带有印尼文化元素的游戏。与此同时，他们又注意到，“印尼人恰恰对自己的本土文化非常骄傲”，由此，为印尼用户做金刚神英雄的想法诞生了。\n“不同国家在语言、宗教、经济发展阶段和文化习惯上都有差异，所以单纯依靠宏观数据是不够的。”MLBB的产品团队成员格兰杰对我说，“我们会通过当地员工、玩家和社区去倾听更具体的需求，也会结合当地节日、文化和社会习惯来理解用户为什么喜欢某种内容。”\n本地英雄是最直观的本地化展现之一，除此之外，还有很多本地化运营上的策略会以更加润物无声的方式呈现——近两年的土耳其市场也是一个例子。MLBB的运营成员告诉我，他们非常重视不同地区用户的文化规律和生活节奏，也会根据当地节日假期安排、内容消费高峰来制定自己的运营体系。\n“土耳其的暑假时间非常长，通常持续近三个月。这对于MLBB的内容规划提出了更高要求，我们需要为用户提供足够丰富的内容储备，以支撑他们在这段时间内持续的游戏体验和内容消耗。”格兰杰说，“所以我们针对土耳其市场进行定制化内容规划。一方面，在游戏版本上确保内容的充沛和节奏的连贯性，维持用户持续参与动力；另一方面，在端外围绕玩家喜好和兴趣点提供大量适合当地玩家消费的素材，让游戏内容渗透至玩家每一个日常消费场景。”\n这是一个随着业务发展而逐渐认识市场的过程。在最早期，海外团队和当地agency会为团队提供很多市场信息和建议；随着业务发展，沐瞳在各个国家建立了更多分公司和本地团队，也有员工长期派驻当地；再之后，这些团队不只是执行运营工作，也逐渐参与到市场判断、产品策略和方向制定中。我们现在看到的大部分MLBB的本地化内容，都可以说是来自本地文化观察、用户需求和当地团队共同作用的结果。\n大部分MLBB的早期运营成员都会对我提到MLBB在早期阶段DAU（日活跃用户数）突破100万的时刻——从外部的视角来说，这是这款游戏在全球上线后飞快达成，又很快被自己远远甩开的目标，甚至有些不值一提。但在2016年，包括MLBB自己的员工在内，大家都没想到这款产品会取得如此巨大的成功。\n“刚上线的时候，我们觉得如果能做到 100 万 DAU 就已经很好了。所以我们把这个作为团队当时的目标。”一位MLBB运营成员告诉触乐，“但产品上线后自然增长非常快，自然流量一度占到70%～80%，用户留存也很好。所以我们很快把游戏的长期目标提高到了1000万DAU，结果没想到第二年还没到年底就实现了，大家都非常振奋。”\n团队成员告诉我，那几年他们一直处在不断被用户和市场“推着往前走”的状态，很多时候都在刷新自己的预期。比如在发行之初，MLBB是面向全球去做的，也并没有圈定重点市场，是市场表现帮MLBB做出了筛选——早期，团队其实对韩国和巴西市场有过比较高的期待，因为这两个国家本身有成熟的游戏文化和MOBA用户基础，但从实际表现来说，反而是东南亚地区一些相对新兴的市场，在后来成为了MLBB最重要的增长市场。”\n“我们发现，市场成熟并不一定意味着产品更容易成功。一个市场过去有没有 MOBA 传统固然重要，但更重要的是产品能不能解决当地用户真实的使用问题，比如手机性能、网络延迟、语言和社交体验。甚至，越是新兴的市场，越有可能因为移动互联网和移动游戏的发展，形成新的用户习惯。”运营团队成员尤利恩告诉我。\n这是一种持续的、连贯的变化。在最开始，海外的数据表现让MLBB团队看到趋势，玩家和社区反馈帮助他们理解需求，在建立当地团队后，他们开始真正理解这些需求背后的文化原因，以及对海外市场建立新的认知和判断。而现在，他们依然在持续关注不同市场的变化，不断探索新的增长空间。\n“对我们来说，这不仅仅是市场规模的拓展，更重要的是不断去理解不同国家和区域的玩家，让MLBB的全球化进一步深入。”尤利恩说，“不同市场的差异是很大的。比如土耳其，这里具备相对成熟的PC端游戏文化基础。当地的网吧覆盖率非常高，许多用户从小就习惯在PC平台上进行深度游戏体验，对MOBA类游戏有较高的接受度和参与度，对竞技性和操作性的要求也相对较高。”\n“所以我们结合当地用户的游戏习惯制定了拓盘策略，包括优化移动端技能释放逻辑、镜头灵敏度等战斗细节，缩小与PC 端的操作体验差距。”尤利恩告诉我，这一策略也在土耳其市场取得了成效。\n我想可能最重要的一点是“尊重客观事实”——不同的国家和地区有不同的风土人情，亚洲国家、非洲国家、欧美国家、发展中国家、发达国家——想用一整套规则满足所有的市场是很难的，对于一个来自非文化霸权国的产品来说就更难。在这个前提下，在不同的地方了解当地的玩家，尊重当地的玩家，然后满足当地的玩家，可能这才是最有效的方法论，它不仅对国内玩家有效，对东南亚国家的玩家也有效，对世界任何一个地方的玩家都有效。\n我们还可以聊一聊电竞。某种程度上，电竞是MLBB全球化发展的另一条主线。不久前的9月29日到10月1日，第20届亚运会将MLBB列为正式竞技项目，共有来自亚洲11个国家和地区的代表队通过区域预选赛参赛。而从更广的范围看，MLBB今年已经连续四届成为东南亚运动会的正式比赛项目。\n在今年年初的M7总决赛现场上，MLBB官宣了M8赛事的举办地将在土耳其，这是M赛有史以来第一次走出亚洲。在总决赛现场，沐瞳表示，未来MLBB将在美洲、东亚、东欧中亚、欧洲中东北非、及东南亚五大全新赛区巡回办赛。\nMLBB的职业电竞布局相当早。在2017年，东南亚地区的MLBB赛事体系已经开始建立，在印尼、菲律宾、马来西亚这些地区，几乎所有玩家都会把MLBB的世界赛当作国家级赛事来看，这些地区也为职业联赛输送了大量成绩出色的职业队伍与选手。\n与此同时，MLBB的职业电竞布局也在与这款游戏的全球化一起成长。2021年，MLBB在巴西推出职业联赛（MPL Brazil），这是MLBB第一个落地东南亚以外的MPL联赛。到2024年， MPL Brazil、拉美北部超级联赛MLSL North、拉美南部超级联赛MLSL South被整合为统一的拉美职业联赛（MPL LATAM），覆盖巴西、阿根廷、智利、秘鲁、乌拉圭等整个拉丁美洲。\nMLBB的职业电竞布局是一套分层的全球体系。在中东北非赛区，当地拥有独立联盟化MPL MENA联赛，与沙特文旅项目达成长期合作。在土耳其，本土MTC冠军赛决出的冠军将获得M世界赛的参赛资格。除此之外，欧洲、中亚区域依托SPL洲际联赛，同样在缩小区域间队伍之间的差距。\n在今年1月25日，M7世界总决赛在印尼首都雅加达举行，这场赛事的收视峰值在决赛当晚突破568万，是全球电竞史上观看量第四高的赛事，同时刷新了史上观看量最高的移动电竞赛事的纪录。你可以从这个数字看出MLBB赛事的意义。\n之前，MLBB的赛事团队成员米娅告诉我，在MLBB覆盖的220多个国家和地区、月活跃用户超过1.1亿的更大范围内，许多市场的玩家对游戏的情感联结更多体现在日常生活和文化层面，而非竞技荣誉层面。但他们对这一点并不担心。就像MLBB团队在此前一直说的那样，他们所追求的并不是通过自身的用户基数和影响力来引领某种潮流，打造某种固定的形式。他们更希望的是在更深入地理解本地后，通过长期的投入，让各个地区建设起适合自己的道路。这同样是一种“本地化”与全球化的视野和平台能力的集合。\n现在，MLBB已经从东南亚走向了整个世界，并且把许多可复制的经验带到更多地方。比如不久前，团队把去年大获成功的活动“Golden Month”推进到了欧洲和美洲——这个内容包括与本地KOL、创作者合作，通过公益行动回馈社会，以及向全球多个国家和地区送出智能手机。你可以从这些活动的具体内容中看到MLBB的目的：包容全球文化，深化本地化运营，以及和全球的游戏玩家共同庆祝一个与MLBB有关的节日时刻。\n再比如8月刚刚落幕的MLBB“2026全球皮肤设计挑战赛”。这场设计比赛面向全球的玩家进行征集与评审，共吸引了来自超过20个国家和地区的1300余名创作者报名，有效参赛作品500余件，你很难想象任何一款其他游戏的二创比赛能在参与者的丰富上达到这种程度。\n在这次十周年活动中，我也总是会有这样的感觉：似乎不管任何地方都有MLBB的玩家，而任何玩家谈起MLBB都无比亲切自然，在很多国家和地区，很多玩家不知道、也不在乎MLBB来自哪里，他们唯一在意的是他们喜欢这个游戏。在土耳其站，官方在博斯普鲁斯海峡打造了一艘MLBB专属轮船，欧亚大桥与MLBB十周年标识身处同一画面，这证明了它在东欧及土耳其市场的影响力。在秘鲁，玩家们对游戏写下的留言贴满了整面墙壁。\n这也让我意识到另一个问题，当一款全球化的游戏在某些地区的“本土化”发展到某种程度，它的价值、它承担的责任也在随之变化。这些游戏内容在很多时候不仅仅服务于特定地区的玩家，与之对应的是，也并不是“在某个地区推出本土英雄，对应的玩家数据就会有大幅度的增长”，而一个耦合的过程——现在，当玩家想到MLBB的时候，他们想到与这款游戏息息相关的价值不仅关于自己的快乐，还有把自己的文化传递到全球，让自己被看到。\n一位菲律宾玩家告诉我，对很多菲律宾人来说，MLBB不只是娱乐，它为当地民众创造了生计，成就了职业道路，也给了他们被看见的平台，“每当菲律宾战队在国际赛场上出战并获胜时，它也给我们整个国家带来了自豪的时刻。”另一位印尼玩家则对我说，MLBB在印度尼西亚是最受年轻人欢迎的游戏，“你会看到有人坐在摩托车上玩，在街边的地上玩，在商场里玩，在各种各样的地方随时开一局”。\n“其实在沐瞳的发行实践中，我们一直认为全球化与本地化是彼此成就的。单纯的本地化，其实造就不了一款国民游戏，真正的国民游戏，往往是全球化和本地化共同作用的结果。”格兰杰说。\n在MLBB团队成员看来，“全球化审美”本身就意味着对“区域文化特色”的包容、欣赏和融合。一款游戏要成为某个地方的国民游戏，光靠本地化是不够的，它还得有全球化的视野和平台能力，让当地人觉得“这是我们自己的东西，同时它也被全世界看见和认可”。\n当一款游戏在10年之后还历久弥坚，并且仍然在活力十足地覆盖全球市场的时候，很显然我们会在它的身上看到更多东西：比如对用户和市场逐渐加深的理解，比如与时俱进的玩法和设计，再比如开发者们清晰坚定的方向感和长远的规划，对“全球化”与“本地化”深入而切实的理解。\nMLBB就是这样的游戏。在我看来，它的全球化更贴合现实，成就也更大。那些主流视野之外的地方也有无数的玩家，他们也和世界上所有人一样有自己的快乐和热爱。无论是过去还是未来，MLBB在走向一个国家或地区的思路一直是一种最踏实而朴素的方法，那就是切身关注不同国家和区域用户对游戏的真实体验，真正尊重当地用户，尊重他们的习俗和文化，并在这个基础上解决他们在过程中遇到的具体困难和实际问题在用户的反馈和实际体验中持续地学习。它在几乎没有先例参考的条件下，走出了属于自己的一条路。\n对于MLBB来说，不断理解用户、修正认知、再把产品做得更贴近当地用户，既是它在最开始探索出的方法，也是它到现在所习惯承担的责任和追求。它在某些地区真正成为了当地流行文化的一部分，也在某些时刻承载了更大的意义和价值，而且，我也相信，在未来的10年，它会走向更广阔的世界，以一个“全球化平台”的身份做到更多，它会做到这一点的。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "决胜巅峰十周年：本土英雄与区域运营如何支撑全球化",
+      "what": "触乐报道《决胜巅峰》十周年庆典在全球十国举行，并回顾其上线十年来的全球化路径：累计注册用户超15亿、月活超1.1亿，覆盖220多个国家和地区；文章以菲律宾、印尼本土英雄和土耳其运营为例，说明本地化内容与区域团队的作用。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
     }
   ],
   "features": [
     {
-      "key": "034d9f5d",
-      "title": "Hidden Design Decisions Behind Believable Open-World Cities",
-      "title_cn": "开放世界城市设计：先验证道路与行程，再投入环境制作",
-      "url": "https://80.lv/articles/hidden-design-decisions-behind-believable-open-world-cities",
-      "lang": "en",
-      "sources": [
-        "80 Level · Nathan Cheever"
-      ],
-      "published": "2026-10-16",
-      "undated": false,
-      "published_precision": "day",
-      "category": "design",
-      "topic": "关卡设计",
-      "content_type": "开发复盘",
-      "what": "Nathan Cheever 以《黑手党3》的 New Bordeaux 为例，说明城市设计如何从项目愿景进入布局与局部细节。文中覆盖道路层级、地标、高差、基础设施与世界状态，并回顾超过 30 次主要布局迭代。",
-      "why": "作者主张先用简易三维布局验证行程与视线，再交给环境制作。铁路等设想最终因交通、物理和 NPC 边界情况的成本被移除，说明可信世界也要服从项目优先级。",
-      "for_you": "阅读角度：怎样让路网帮助玩家辨向；怎样把想实现的世界功能、制作成本和最终保留内容放在同一张规划图里。",
+      "source_id": "author-ye-zitao",
+      "source_url": "https://docs.xpaidia.com/portfolio",
+      "platform": "作者网站",
+      "evidence_kind": "developer_article",
+      "requires_transcript": false,
+      "discovery_only": false,
+      "requires_review": false,
+      "publication_scope": "public",
+      "body": "# 再重聚：音频驱动的游戏设计视角 Re-Reunion: Audio-Gameplay Design\n\n那么，重要的考虑因素就变成了「系统如何运作」，以及最重要的「你提供给系统了什么」\n\n本文是我与沈希辰2021年6月26日在上海温哥华电影学院举办的 Audiokinetic 中国2021互动音乐沙龙上分享的部分文字版本。\n\n\n\n除了这一场外，我推荐非音频专业的朋友听听侯老师谈的《线性音乐创作与非线性音乐创作距离到底有多远》以及最后重轻老师参与的行业讨论会。\n\n这是同时希望面向音频设计师与游戏设计师的分享，当然我认为没有门槛，所以也推荐任何对游戏、声音艺术有兴趣的朋友进行阅读和观看。\n\n《再重聚：音频驱动的游戏设计视角 Re-Reunion: Audio-Gameplay Design》\n\n介于我在分享中使用了大量的视频与游戏展示，文字内容会有缩减，\n\n建议直接观看视频，文本作为补充。\n\n（侯老师，希辰，还有重轻老师的视频和节目都给了我很大的帮助）。\n\n## **再重聚：音频驱动的游戏设计视角 Re-Reunion: Audio-Gameplay Design**\n\n本次分享的内容主要分为三个层次。\n\n首先我会谈论这样一个奇怪的主&#x9898;**「Re-Reunion」**&#x4ECE;何而来，其次下落到具体的游戏设计与例子、Demo实践层面去谈论我所说的「**音频-游戏设计 Audio-Gameplay Design**」，最后我希望重思电子游戏作为「**视-听-交互的递归系统**」，从而试图在生成式音乐（Generative Music）与音频-游戏设计（Audio-Gameplay ）之间做一次展望与勾连。\n\n### Reunion\n\n今天我分享的题目是 再重聚：音频驱动的游戏设计视角 Re-Reunion: Audio-Gameplay Design，这个Re-Reunion是我一个生造的词，首先要问的是：Reunion是什么？\n\nReunion是在1968年的一次当代艺术实践，是由大家想必熟悉的蘑菇学者（顺便是个做音乐的）传世沉默之作《4：33s》的作者约翰凯奇 John Cage, 和国际象棋大师（顺便也是个艺术家）马歇尔杜尚 Marcel Duchamp 以及其夫人Teeny Duchamp进行的实践。\n\n\n\n> *Reunion is an event without a score; originally performed by playing a game of chess on a chessboard created by Lowell Cross. The game works as an indeterminate structure: as a game of chess is played, the moves of the players on the board activate four compositions and distribute them to eight speakers surrounding the audience.*\n\n> *《团圆》是一个没有乐谱的活动；最初是通过在洛厄尔-克洛斯（Lowell Cross）创造的棋盘上下棋来表演。这个游戏作为一个不确定的结构起作用：随着棋局的进行，棋盘上的棋手们的动作激活了四个作品，并将它们分配给观众周围的八个扬声器。*\n\n\n\n今天在网上有人重置了这个行为的网络版本（  ），区别在于，当时的演奏是即兴，而现在的网络版本是保存的版本。\n\n我其实尝试了几次，与我想象的不同，我以为是完全由下棋来触发的各类音乐的生成，但似乎不是，音乐和下棋之间的逻辑似乎没有那么容易可以被辨识出来。\n\n关于这个这个棋盘的设计者后来写了一篇论文分享，有兴趣的朋友可以去读读看：Lowell Cross Reunion: John Cage, Marcel Duchamp, Electronic Music, and Chess&#x20;\n\n\n\n这或许是一次难得的 前电子游戏时代的游戏互动音乐设计的例子。\n\n\n\n我理解这里的Reunion，是Reunion of Play and Audio，是作为游戏高手杜尚，与作曲家John Cage之间的交锋、也是「玩」与「声音」之间、棋盘与乐手之间的交锋与某种重聚。\n\n\n\n或许从这里，我们可以观察到在那个可能可以作为标志性的，交互和声音还未分化的点，在这个作品中，声音和游戏是各自以某种独立的逻辑结合并且运行，之间更多是一种平行的状态。\n\n### Re-Reunion\n\n但如果我们看今天的游戏中的音频设计，就像是希辰常常跟我开玩笑的，在代码中，往往是这样写的\n\n```\ninstantiate(ParticleEffect,transform.position,Quaternion.identity); //生成粒子特效\nak.soundengine.postEvent(\"soundEvt\"); //发送声音事件\n```\n\n这里想要说的是今天的声音常常被人所忽视，在大部分的游戏中，它仅仅只是一个纯粹反馈的增加，甚至可以在工作流的最末端才被添上，作为效果的补充与Polish，不参与任何gameplay意义上的内容。\n\n这样的问题原因想来有很多，对于声音的滥用，今天不同媒介都寻求响度上能够夺人耳目，声音嘈杂，滥用高音量，叙事性音频的强化，使得声音的丰富的意义被压扁了，人们平均的音乐和声音的素质并不高，而其从表现上也远不及类似视觉，交互等刺激性强烈地东西来得容易抓人眼球，而今天的音乐制作对一般人也有高的门槛，合成器的使用和理解都显得复杂不易上手。\n\n这就导致了某种双向的问题，游戏设计师可能会无意识地忽略声音设计的重要地位，而就算有意识，或许无论在工作流或者是在理论能力上有难有办法在早期便与作曲家做深入的交互音乐的设计。\n\n美国作曲家艾伦·科普兰写道：\n\n> 富有意味的音乐要求聆听者全神贯注，唯有当个体愿意全心接纳时才能做到一心一意，才能感受到对音乐的需要。将音乐看作用来挑逗听觉感官的仙馔密酒，与此同时，思想意识又被其他事务所侵占，任何严肃对待创作的作曲家对这种做法皆深恶痛绝。—— 艾伦·科普兰 《论音乐》\n\n在今天的游戏声音中听来显得有些讽刺，因为这正是如今游戏中的声音的存在，某种意义上，今天大部分的游戏声音更多之所以存在是为了不存在，存在是为了让玩家不注意到自己（为了让玩家不感觉到异样，「不出戏」，自然地认为这就是一个真实可信的虚拟世界）\n\n所谓标题中的Re-Reunion，**这里的Reunion涉及到的是声音和游戏之间的某种联结**，而我加这个Re首先是我们或许应该重新回到杜尚和John Cage的那次合作中去重思电子游戏和音乐声音之间的相互关系，寻找到另一种可能性的道路；\n\n\n\n而Re当然也有反的意思，那也是我这次的分享的主要内容：我们能不能构想出为了声音呈现，或者是声音作为核心的驱动的那类电子游戏，颠倒 Gameplay-Centric 的逻辑，寻找某些声音应该在其中占有核心地位，而不总是「第二性」的创作可能。\n\n## Audio-Gameplay Design 音频-游戏设计\n\n### Audio-Driven\n\n（这一部分叙述最好参考视频内容）\n\n\n\n我试图谈论这部分内容的框架来自一种抽象，在这种系统视角式的抽象中，就如同前文谈论的Reunion，我将游戏的交互与游戏系统Gameplay System / Mechanics 与声音相关的 Audio 区分开来，并且构造出两条谈论的回路：音频驱动（Audio-Driven）系统设计，与系统驱动音频设计 System-Driven，除此之外，我还希望简单谈论一下其他声音的可能。\n\n这里我使用 Audio-Gameplay 连字符的表达 声音-游戏，来试图说明在这样的游戏创作中，声音与游戏玩法紧密联系，难解难分的状态，互相生成。\n\n#### Audio-Driven: Audio as Level Design\n\n首先谈论到声音游戏最先想到的是音游，而音游的某种意义上可以理解为是将音乐作为关卡设计 Level Design + Visual Feedback | Gameplay 。本质是**将音乐的乐音（Notes）映射为对玩法系统有意义的关卡讯号**，例如今天借助Unity的插件便可直接将Midi文件导入并且转化为可使用的映射到不同位置的下落音符：Midi - System - Level Signal。\n\n（此处有视频展示）\n\n\n\n在我希望展示的以下这些作品中《Dynamix》《Muse Dash》《Dancing Line》还有《Beat Racer》《再见：狂野之心 sayonara wild hearts》《Just Shapes & Beats》《Rez: Infinite》中。\n\n我希望你们以游戏设计视角留心观察的是：乐音是在多少个维度上出现的？是离散的还是连续的？对应了多少种交互？为什么？（音乐游戏、muse dash、跳舞的线）。\n\n\n\n其次的观察是，在这些游戏中，乐音是完全作为关卡挑战一定需要玩家去精确响应，或只是作为非必要的关卡要素来进行引导或躲避?（电音超跑，sayonara wild hearts，just shapes & beats）。\n\n这会造成不同的影响，例如在《再见：狂野之心 sayonara wild hearts》中，设计虽然大量使用的音画协同，但是我觉得他们希望呈现的是某种自由和解放的感觉，所以你能看到玩家移动空间是连续的，而这些乐音只是作为非必要的引导与强化，并不强制玩家的交互;\n\n而在《只有形状与节奏 Just Shapes & Beats》中，即便音画如此具有表演性与反馈，但是本质上玩家是作为一个躲避者而不是响应者——意味着是其音画讯号所勾勒的负空间在起作用而不是乐音的讯号本身。\n\n所以这个是这种做法的优劣：\n\n优势在于，输入与输出的音乐的mapping带来了强烈的演奏快感，而这种效果的身体性的体验，增强了反馈，与视觉形成了呼应，并且在玩法成立了之后内容生产成本较低，重玩性高。\n\n缺点也明显，在于on-rails 的轨道式体验，固定化，每首歌每关都是相对固定且与时间点一一对应的，而对于类似音画协同表演性的作品，其中音乐讯号追求视听表现，但玩法层面难以掌控，难以保证其有其Gameplay意义。\n\n#### Audio Driven - Beat\n\n\n\n除了旋律乐音之外，声音的重要属性便是节奏/节拍，而其本身的玩法，即对于节奏的时间性掌握，预测，重复，本身就完全可以单独作为作品加以扩大。\n\n大家也很熟悉：例如处理节奏 Timing的《太鼓达人》，对节奏进行预测与变化的独立游戏《节奏医生 Rhythm Doctor》，对节奏进行重复的《节奏天国》与《Planet Quest》\n\n但这里希望谈论的两个更复杂的设计（此处有视频展示）\n\n#### Audio Driven - Beat-Driven\n\n首先是由**节拍来驱动游戏性 Beat-Driven**，可以理解为节拍可以触发玩家/游戏世界中的某些改变，在诸如《140》《Laserwave》中是这样做的，玩家的角色会在不同节拍点上自动触发对应动作，其好处在于节拍驱动非常容易浮现出不同种的模式，并可进行参数式的替换。\n\n\n\n例如在我制作的Demo中，其展现为当玩家在进行OOXOOOXX的节拍，并且当O的时候触发冲刺，而X的时候触发攻击，那我们完全可以轻易地替换OX的节拍和循环风格（Style），可以从不同的BPM中去构造出不同的游戏战斗体验，而仅仅只需要去调整速度，替换武器类型，替换动作，那如果整体游戏世界调校清楚，那近乎可以浮现出无限的战斗体验。而缺点也很明显，这类游戏往往较为不可控，体验不是所有人都能接受。\n\n#### Audio Driven - Beat- Driven Input Timing\n\n\n\n此处为另外一种节拍驱动的方式，节拍驱动输入时间窗。\n\n在《节奏地牢 Crypt of the NecroDancer》以及《每分钟子弹数 BPM: BULLETS PER MINUTE》中，我们可以看到这种设计，不同于节拍直接驱动游戏，而是节拍在这里如同音游一样，创造了一个时间窗口，玩家的行为节奏被固定在了这样一个窗口中。\n\n\n\n而这实际上构成了一层输入滤镜，使得某些你会立刻反应的交互需要延迟（开枪节奏），而某些你来不及反应的交互（瞄准）需要提前，并且从声音上强化了游戏的世界逻辑（例如给回合制作品加入了动作感，带动整体游戏循环的递进和展开）。\n\n其效果是惊人的，这使得一个如果脱离了节拍玩法就乏善可陈，内容稀少的射击游戏，加上了这层滤镜后，拿到了很高的评价，并且在我游玩了四五个小时之后，才堪堪掌握其基础的快速射击与换弹的逻辑，并且有很深的乐趣。\n\n#### Audio as Input\n\n还有值得一提的，便是声音作为输入，无论是在节拍输入上做文章的《啪嗒砰 Patapon》，还是曾经在主播圈备受欢迎的，处理响度检测的《八分音符酱 休むな！8分音符ちゃん》，再或是前段时间推出的，进行频率和音高判断的《One Hand Clapping - sing your song》都是很不错的例子。\n\n\n\n### System Driven 系统驱动\n\n就如同前文所说，大部分今天的游戏音频是服务于玩法的，即由玩法系统驱动和触发的，这里我所要谈论的是类似的逻辑，但不同的是：**在有些游戏中，这样的由玩法驱动的 System-Driven 却有着声音的呈现效果为目的的！**\n\n即希望玩家所触发的这些声音能够形成具有良好可听性的声音，其核心在于如何将游戏的音效Audio Effect作为音乐性的一个有机组成，进入电子游戏的整体性系统holistic system之中。（而这部分也正是下文可与Generative Music进行的对照）\n\n（此处有视频展示）\n\n\n\n这块的内容可能大家会比较熟悉，我自己认为比较好的例子是《Ape Out》的爵士鼓的即兴设计，背景音乐的虚拟鼓手会随着整体游戏情形改变其激烈程度，音色，伴随着玩家的击杀，会有鼓手的即兴的加花等等。\n\n《Tetris Effect》是《Rez：Infinite》的游戏设计师水口哲野的作品，他的作品一向以联觉著称，通过分层和类似Stinger，节奏量化的方式让整个游玩的过程非常顺畅，以至于能够进行沉浸和代入。\n\n《My Singing Monster》也是一个很好的例子，在这个游戏里，声音成为了一个玩家主要搜集的对象，这是非常性价比的设计，对照现在的大家动辄卡面动辄剧情故事动画皮肤的高制作成本，而声音本身制作成本可能较低，并且能够通过在首页的组合出各种有趣的音效Loop，完全就是一个鼓机。\n\n（此处有视频展示）\n\n\n\n我做了一个构想，这样的一个System driven需要的是是什么？需要循环，其中的某些部分可以被量化处理，玩家需要去改变和调整这样的整体的音色，循环等等。基于这样的考虑，我做了两个塔防Demo，塔本身在攻击的时候是有一定各自的声音和循环的，而我根据位置制作了一个鼓机，其触发是由其位置决定的，玩家去改变塔的位置，那么同时也会改变整体音乐的循环，甚至玩家可以使用某些覆盖式的法术（Filter），由此带来对其中某些声音的改变效果Effects（音调、响度、高通、低通等等）等等。\n\n这部分的内容其实完全可以与Generative Music以及声音玩件结合在一起思考：《Play Ground》《The Sound Forest 》友人Wenzy 的《Bouncing Music》John Mak 的《Everyday Shotter》，《Get Even》《ELECTROPLANKTON》等等有许多实践。\n\n### Audio-Itself 音频自身的可能\n\n除了我刚才说的这种更加粗线条的audio-driven，system-driven的思路外，其实audio还有无数的维度可以供挖掘，我不是专业的，这些例子仅供参考。\n\n\n\n例如前段时间放出Demo的《The Signal State》本身就是对于模块合成器的信号处理逻辑而做的数学解谜，《Circuits》作为以多轨音乐还原为目的，间接让我体会到了对于音乐不同层的觉察。\n\n《140》我是极推荐的，它也是2014年的IGF最佳音效奖的得主，对于声音微妙属性变化的视觉式呈现，以及以140bpm为节拍贯穿始终的平台跳跃设计都很巧妙。《Dark Echo》将声音的音波传播的方式作为恐怖游戏进行制作，腾讯功能游戏《长空暗影》则采用声像（Panning）来标识方位，确实构造出可以给盲人游玩的游戏。\n\n\n\n而从VJ的角度，同样以Shader作为主要调制玩法的《Mu Cartographer》让人想到了频谱分析，而从一些互动音频的教程上也能看到更多的交互可能，例如Ableton Live 的 Learning Synth 中具象的小蜜蜂对应frequency，以及图形化的合成器应用 ROTOR的交互。\n\n## &#x20;重思电子游戏作为视-听-交互的递归系统\n\n### Music as Generative System\n\n在分享的前几天，我正好翻译了氛围音乐的开创者 Brian Eno的演讲《生成式音乐 Generative Music》，他是这样描述和理解生成式音乐的创作的：\n\nThe Considerations that are important, then, become questions of how system works and most important of all what you feed into the system. 那么，重要的考虑因素就变成&#x4E86;**「系统如何运作」**，以及最重要&#x7684;**「你提供给系统了什么」**\n\n&#x20;—— Generative Music. Brian Eno, 1996\n\nBrian Eno自己晚年也做了很多交互式的音乐软件，其中最有名的就是他讲自己的一张专辑Reflection以交互应用的方式发布，如今依旧可以在AppStore找到这个208块人民币的应用\n\n\n\n除此之外John Cage 也同样说过类似的话：\n\n&#x20;*\"ask questions rather than make choices\", then the answers, instead of coming from my likes and dislikes, come from chance operations, and that has the effect of opening me to possibilities that I hadn't considered. Chance-determined answers will open my mind to the world around.*\n\n*问问题，而不是做决定。其给出的回答，与其说来自于我个人的喜好，不如说来自于运气（chance）的运作，并且为我敞开某种我从未考虑过的可能性，这种取决于运气的回答打开了我对于周遭世界的思维。*\n\n—— John Cage 1985\n\n我们能在他们对于系统音乐的设计过程的描述中寻找到许多与游戏设计相类似的表述，因为游戏设计本身也是对可能性空间的探索与约束：无论是Jonathan Blow在演讲《游戏设计的真如 Truth in Game Design》中的谈的「系统会你答案你」Systems give you something back that you didn't put in，亦或是在Steve Swink 的《游戏感 Game Feel》一书中将电子游戏和游戏设计同样理解为关于可能性空间的设计（Game Design is also about set up possibilities space），这其中有非常类似的思路：\n\n\n\n即我们完全可以将游戏系统理解为一个已经成型的系统，即回答了Brian Eno的第一个问题：「系统如何运作？」，而将我们音频设计师需要进行的声音设计理解为对第二个问题的回答「你提供给系统了什么？」，当然这需要的是音频设计高度了解游戏的互动层面甚至算法与数据层面的事情并且将其用做自己创作的领域。\n\n这在2018年IGF 最佳音效奖获奖作品《Mini Metro 迷你地铁》的作者Rich Vreeland分享《GDC 2018 Serialism & Sonification in Mini Metro 》（笔记可见豆瓣@叶梓涛）中可以窥见这种合作的影子：\n\n\n\n在这个短小只有16分钟的演讲中，他叙述了一种Generative的方式，来自于Game Data 游戏数据与Authored Data 作者赋予的数据之间的结合（Reunion），即如何将这些数据进行十二音阶化，使其变得可听sonification，不使用循环的音轨，而是使用sequential sets of data to generate music and sound. 用游戏数据来设置声音的音高，响度，节奏，音长... 例如通过玩家的不同线路上的车站数量和位置进行不同节拍的生成，将车站形状映射为不同声音，将X轴的位置映射为声像，乘客映射为音量等等。\n\n\n\n在采访《The Programmed Music of Mini Metro》中，他也提到了启发了他的作曲家Steve Reich and Philip Glass，还有远被低估和在中文世界被忽视的动画大家，Norman McLaren的两分钟的实验动画作品《Dots 舞动的点》（Norman McLaren - Dots (1940)）。\n\n\n\n而实际上McLaren可能最令人惊叹的作品是他对于卡农的可视化表达和实验，1964年拍摄的实验短片《卡农 Canon》，可以说是在视觉动画与声音上开了先河与做了大量的工作，而这也是在视觉和声音上可能是更早的某种未被完全揭示（可能之后我会写McLaren以及音画协同）的Reunion。\n\n\n\n但实际上在这里希望揭示的是在玩法系统与声音之外再讲视觉同样作为一个生成式的存在拉入考量，这样的System Reunion所面向的某种目标，Rich Vreeland 也有很好的描述，对此，我认为对于一个游戏「好」的评价，至少需要有这个标准 —— **Holistic 整体化**，这或许来自于对于交互、视觉、声音之间不同颗粒度切分与展开的对应，某种意义上，所有的生成性的音乐与视觉都是对于不同系统的规则的设定与颗粒度切分。\n\n*Granularity of System allows the soundscape to respond to game state instaneously and evolve with the metro system as it grows and a holistic system handles all of the gradation for you, ambient signature just becomes a part of music.*\n\n*系统的颗粒性允许了整体的声景去立刻地回应并且随着游戏的状态生长，就像是一个整体性的系统为你展现出每段层次，氛围式音效缓缓成为整体音乐的一部分。*\n\n所以在这个角度上来说，游戏音频设计在于如何用将声音与整个游戏贯穿起来，然后你可以用无人深空的那个的表达，就是将整个乐队搬进游戏中，也可以用另一个比方：\n\n**把整个游戏变成一件量身定做的乐器。**\n\n\n\n所以在这个意义上，Reunion不仅仅是指声音和游戏系统之间的某种纠缠与重聚，背后也是对于音频设计师与游戏设计师的双向要求，如何相互理解对方所拥有的工具，如何对于整体游戏系统有精细化的理解并且能够相互协作构建映射，这样的整体性系统的一定是建立在视-听-玩法三方相互深刻理解的上的。\n\n这",
       "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
+      "body_truncated": true,
+      "classic_discovery": true,
+      "key": "023751ff7afafaaf",
+      "title": "再重聚：音频驱动的游戏设计视角 Re-Reunion: Audio-Gameplay Design",
+      "url": "https://docs.xpaidia.com/ficstruction/undo/re-reunion",
+      "lang": "zh",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "叶梓涛 · 落日间"
+      ],
+      "published": null,
+      "undated": true,
+      "published_precision": null,
+      "summary_raw": "# 再重聚：音频驱动的游戏设计视角 Re-Reunion: Audio-Gameplay Design 那么，重要的考虑因素就变成了「系统如何运作」，以及最重要的「你提供给系统了什么」 本文是我与沈希辰2021年6月26日在上海温哥华电影学院举办的 Audiokinetic 中国2021互动音乐沙龙上分享的部分文字版本。 除了这一场外，我推荐非音频专业的朋友听听侯老师谈的《线性音乐创作与非线性音乐创作距离到底有多远》以及最后重轻老师参与的行业讨论会。 这是同时希望面向音频设计师与游戏设计师的分享，当然我认为没有门槛，所以也推荐任何对游戏、声音艺术有兴趣的朋友进行阅读和观看。 《再重聚：音频驱动的游戏设计视角 Re-Reunion: Audio-Gameplay Design》 介于我在分享中使用了大量的视频与游戏展示，文字内容会有缩减， 建议直接观看视频，文本作为补充。 （侯老师，希辰，还有重轻老师的视频和节目都给了我很大的帮助）。 ## **再重聚：音频驱动的游戏设计视角 Re-Reunion: Audio-Gameplay Design** 本次分享的内容主要分为三个层次。 首先我会谈论这样一个奇怪的主题**「Re-Reunion」**从何而来，其次下落到具体的游戏设计与例子、Demo实践层面去谈论我所说的「**音频-游戏设计 Audio-Gameplay Design**」，",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "design",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
       "members": [
         {
-          "title": "Hidden Design Decisions Behind Believable Open-World Cities",
-          "url": "https://80.lv/articles/hidden-design-decisions-behind-believable-open-world-cities",
-          "source": "80 Level · Nathan Cheever"
+          "title": "再重聚：音频驱动的游戏设计视角 Re-Reunion: Audio-Gameplay Design",
+          "url": "https://docs.xpaidia.com/ficstruction/undo/re-reunion",
+          "source": "叶梓涛 · 落日间",
+          "lang": "zh",
+          "published": null
         }
       ],
-      "evergreen": false,
-      "reading_minutes": 15,
-      "section": "features"
+      "score": 38,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 8
+        },
+        {
+          "label": "近期",
+          "value": 0
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "产品观察",
+      "is_analysis": true,
+      "age_hours": null,
+      "evergreen": true,
+      "content_type": "经典阅读",
+      "section": "features",
+      "title_cn": "再重聚：从音频驱动看游戏设计",
+      "what": "叶梓涛基于2021年互动音乐沙龙分享，梳理音频与游戏玩法的关系：音游将乐音映射为关卡信号，节拍可驱动动作或限定输入窗口，声音也可作为输入；并借Brian Eno生成式音乐与《迷你地铁》案例，提出把游戏视为视听交互递归系统。",
+      "why": "作者以Reunion与Re-Reunion为线索，区分音频驱动与系统驱动两条回路，用具体游戏和自制Demo说明映射方式及优劣，并引用Eno、Cage与《迷你地铁》音效设计佐证。",
+      "for_you": "可追问：当节拍或游戏数据被映射为声音时，如何判断这种映射产生了玩法意义，而不只是视听装饰？",
+      "degraded": null
     },
     {
-      "key": "426fdd4f",
-      "title": "I had just 8 hours to design a combat system",
-      "title_cn": "八小时设计战斗系统：先做三个方案，再比较取舍",
-      "url": "https://danfelder.net/2026/10/15/i-had-just-8-hours-to-design-a-combat-system/",
+      "source_id": "riot-league-design",
+      "source_url": "https://www.leagueoflegends.com/en-us/news/dev/",
+      "platform": "developer_blog",
+      "evidence_kind": "developer_article",
+      "requires_transcript": false,
+      "key": "a5509bd2e9afd910",
+      "title": "/dev: League Classic",
+      "url": "https://www.leagueoflegends.com/en-us/news/dev/dev-league-classic",
       "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 2,
+      "sources": [
+        "League of Legends · Dev",
+        "机核"
+      ],
+      "published": "2026-10-14T17:00:00+00:00",
+      "undated": false,
+      "published_precision": "timestamp",
+      "summary_raw": "What’s changing with League Classic.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "design",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "/dev: League Classic",
+          "url": "https://www.leagueoflegends.com/en-us/news/dev/dev-league-classic",
+          "source": "League of Legends · Dev",
+          "lang": "en",
+          "published": "2026-10-14T17:00:00+00:00"
+        },
+        {
+          "title": "《英雄联盟》经典模式将于27年1月收官",
+          "url": "https://www.gcores.com/articles/221072",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-10-19T01:20:00+00:00"
+        }
+      ],
+      "score": 33,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 0
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 3
+        }
+      ],
+      "topic": "产品观察",
+      "is_analysis": true,
+      "age_hours": 108.0600320075,
+      "evergreen": false,
+      "content_type": "分析",
+      "section": "features",
+      "body": "/dev: League Classic\nWe’re making some changes to League Classic with Season 3 Act II.\nTL;DR:\n- League Classic will be available through the end of Season 3 of 2026 and then end its current run. Our goal is to bring Classic back in the future, likely as an event mode with adjustments and additions.\n- Some regions with lower play rates will be moving to a windowed queue, while JP and MENA will have custom matches only from the start of 26.21.\n- The Act II Classic Battle Pass will have one unified, free track.\nWe’ve seen a lot of players have fun revisiting the olden days with Classic. At this point though, most have gone back to other parts of League. So Classic will be available through the rest of Season 3 and will then end its current run in January 2027. We’ll then put Classic back in the box for now, with the goal of bringing it back, likely as an event mode with adjustments and additions.\nThere’s more we’re going to share in the future about what we learned from this run. That includes where we think we got Classic right, where we could have gone more classic, and where sticking too closely to the past may have held the experience back. Please continue to let us know what you love and don’t love about Classic. Your feedback is a vital part of how we make our games and is always appreciated.\nWe’ll be adding windowed queues in some regions where we’ve seen especially strong migration back to modern modes, leading to especially long queue times and large MMR discrepancies for Classic in those regions. Classic Custom games will also be available at all times, in all regions.\nWe are issuing refunds on Classic-specific content that will no longer be usable (more details here), and shipping the Act II Classic Battle Pass in 26.21 with a free track only. From 26.21 onwards, the Classic store will only contain Champions, Runes, and Rune Pages.\nWe know some of you REALLY love Classic, and so we’re going to bring you new (old) champions including Irelia, Karma, Quinn, Aatrox, and Caitlyn that just came out in 26.20 as well as Mordekaiser, Yorick, Hecarim, and Lucian in 26.21. We’ll continue to release new champions every patch through 26.23, including Volibear, Urgot, and Udyr, who all placed top 3 in our most recent Council poll.\nThis game mode was a true labor of love from so many Rioters, and seeing you all dive back in to reclaim the nostalgia, reconnect with old friends, and relive your glory days made it a truly special moment for everyone. We will keep exploring different ways to play League and as always, we appreciate all of your feedback. Every post on social media asking for Classic, every vote cast in the Council, and every minute spent leashing for your jungler again helped us bring this to life, so thank you very much.\nKeep a close eye on Patch Notes for further updates to League Classic and expected queue windows. Thanks for reading, and hope you enjoy the rest of the Classic run!\nUpcoming Classic Queue Windows\nRegions | Server Status |\nKorea, Latin America North, Latin America South, Taiwan, Vietnam, Turkey, Southeast Asia, Oceania, Russia | Window: Mon to Fri: 4PM Server - 12AM Server Sat to Sun: 10AM Server - 1AM Server |\nJP1, ME1 | Custom Matches Only |",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "英雄联盟经典模式将随第三赛季结束本轮运营",
+      "what": "拳头游戏开发者博客称，League Classic将在2026年第三赛季结束后于2027年1月结束本轮运营，未来计划以活动模式回归；部分低活跃地区改为限时排队，日本和中东地区仅开放自定义对局，第二幕通行证改为单一免费轨道。",
+      "why": "作者以玩家大多回流现代模式、部分地区排队过长和MMR差距过大为依据，选择收缩排队范围、退款并保留自定义对局，同时继续按版本追加老英雄。",
+      "for_you": "可研究限时排队与仅自定义对局如何影响低活跃地区玩家的匹配体验和留存。",
+      "degraded": null
+    },
+    {
+      "source_id": "web-68f622da94",
+      "source_url": "https://danfelder.net/feed/",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "d6b8fcc52e118c16",
+      "title": "The beautiful disaster of modern Yi-Gi-Oh!",
+      "url": "https://danfelder.net/2026/10/15/the-beautiful-disaster-of-modern-yi-gi-oh/",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
       "sources": [
         "Dan Felder"
       ],
-      "published": "2026-10-15",
-      "undated": false,
-      "published_precision": "day",
-      "category": "design",
-      "topic": "战斗设计",
-      "content_type": "分析",
-      "what": "Dan Felder 分享一次限时设计任务：先用两小时研究，再用六小时整理三个满足核心目标、各有取舍的方案。他认为并行提出多个选择，可以减少对单个点子的纠结，也让提案讨论更容易聚焦比较。",
-      "why": "这是作者对方案探索与评审的经验总结，没有公开完整战斗规则或上线效果；可借鉴的是形成选项的工作方法，而非一套已经验证的战斗系统。",
-      "for_you": "阅读角度：评审前是否能拿出目标一致、代价不同的几个方案，让讨论从喜欢与否转向条件与取舍。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "members": [
-        {
-          "title": "I had just 8 hours to design a combat system",
-          "url": "https://danfelder.net/2026/10/15/i-had-just-8-hours-to-design-a-combat-system/",
-          "source": "Dan Felder"
-        }
-      ],
-      "evergreen": false,
-      "reading_minutes": 3,
-      "section": "features"
-    },
-    {
-      "key": "2a9ae402",
-      "title": "游戏设计左道，网状build（构筑）过程设计",
-      "title_cn": "构筑设计：如何让玩家在过程中有理由转向",
-      "url": "https://www.gameres.com/901203146.html",
-      "lang": "zh",
-      "sources": [
-        "GameRes · 余田"
-      ],
-      "published": "2026-10-10T00:48:00+00:00",
+      "published": "2026-10-15T21:05:06+00:00",
       "undated": false,
       "published_precision": "second",
+      "summary_raw": "The Yu-Gi-Oh! trading cardgame’s world championships were a beautiful disaster. I’ve never seen anything like this. To understand what just happened, I need to explain what banning a card truly means to a trading cardgame, and what it implies about what’s going on the dev processes behind the scenes. Banning a card from competitive play […]",
+      "rss_content": "The Yu-Gi-Oh! trading cardgame’s world championships were a beautiful disaster. I’ve never seen anything like this. To understand what just happened, I need to explain what banning a card truly means to a trading cardgame, and what it implies about what’s going on the dev processes behind the scenes. Banning a card from competitive play has huge negative impacts on your players. They’re usually the most popular, impactful, and expensive cards by definition. Their value is driven by competitive play. You might as well take a torch to your players’ card binders. When that happens, do you really want to buy in again? That’s the pain bannings bring to players and devs. It’s why banning 2-3 cards is a huge deal. So, what does it say when a game announces an emergency ban list of 34 cards? Not 3-4. 34. And what does it say when the reaction from most content creators is unbridled, hopeful joy? Yu-Gi-Oh! has been dealing with serious problems in its system design for decades now, and it’s why I love following the content. They have few systems that can auto-balance content for them, or prevent broken interactions organically. Those make it easy for designers to focus on creating cool gameplay instead of playing whack-a-mole with various meta problems, and Yu-Gi-Oh! has suffered accordingly. They have no faction restrictions, barely any costing system, and the summoning restrictions are so meaningless that we’ve gone from “roughly one monster per turn” to an antimeta tech card that only works if your opponent summons 5 or more monsters in a single turn. It gets played a LOT. The good news is these designers have been forced to get enormously creative within these restrictions. It’s led to coming up with ideas and gameplay you don’t see in any other game, anywhere. However, there’s a limit. The game has degenerated so far into costless combos and interaction that going second often means waiting through 5-10 minute combos as people do their best to lock you out of playing the game. Modern Yu-Gi-Oh! plays more like a fighting game than a cardgame, and getting into competitive feels just as overwhelming. People literally get told to practice their combos before playing. For context: This is from a combo guide about what to do once playing a single card from your hand. Starting with just “Killer Tune Cue” leads into all these plays. It’s so much like a fighting game combo chain. Like fighting games, people that push through to master these combos and learn how to disrupt their oppoents’ combos is enormously satisfying. Practice produces highly visible results. However, unlike a fighting game, yugioh is turn-based. Imagine if at the start of street fighter, players flipped a coin and the loser wasn’t allowed to attack for the first 2 minutes of the game. Also, disable a bunch of their defensive moves too. That’s what yugioh players are dealing with right now when going second.",
+      "content_kind": "article_body",
       "category": "design",
-      "topic": "系统设计",
-      "content_type": "分析",
-      "what": "余田结合《大巴扎》等案例，区分预先锁定流派的线性构筑与随局势调整的网状构筑。文章讨论记忆负担、关键组件出现时机及转型成本，并提出从输出目标和触发循环反推组件关系的方法。",
-      "why": "作者强调有效选择比名义上的组合数量更重要，同时承认线性路线利于新手入门。网状构筑需要允许组件承担不同角色，也要避免用复杂效果堆叠来制造所谓多用途。",
-      "for_you": "阅读角度：检查玩家何时锁定流派、哪些组件能连接不同路线，以及已经投入的资源是否让转型只存在于纸面。这是作者的设计观点，需要结合项目验证。",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
       "members": [
         {
-          "title": "游戏设计左道，网状build（构筑）过程设计",
-          "url": "https://www.gameres.com/901203146.html",
-          "source": "GameRes · 余田"
+          "title": "The beautiful disaster of modern Yi-Gi-Oh!",
+          "url": "https://danfelder.net/2026/10/15/the-beautiful-disaster-of-modern-yi-gi-oh/",
+          "source": "Dan Felder",
+          "lang": "en",
+          "published": "2026-10-15T21:05:06+00:00"
         }
       ],
+      "score": 30,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 0
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "产品观察",
+      "is_analysis": true,
+      "age_hours": 79.97503200749999,
       "evergreen": false,
-      "reading_minutes": 12,
-      "section": "features"
+      "content_type": "分析",
+      "body": "The Yu-Gi-Oh! trading cardgame’s world championships were a beautiful disaster. I’ve never seen anything like this.\nTo understand what just happened, I need to explain what banning a card truly means to a trading cardgame, and what it implies about what’s going on the dev processes behind the scenes.\nBanning a card from competitive play has huge negative impacts on your players. They’re usually the most popular, impactful, and expensive cards by definition. Their value is driven by competitive play. You might as well take a torch to your players’ card binders.\nWhen that happens, do you really want to buy in again? That’s the pain bannings bring to players and devs. It’s why banning 2-3 cards is a huge deal.\nSo, what does it say when a game announces an emergency ban list of 34 cards?\nNot 3-4. 34.\nAnd what does it say when the reaction from most content creators is unbridled, hopeful joy?\nYu-Gi-Oh! has been dealing with serious problems in its system design for decades now, and it’s why I love following the content. They have few systems that can auto-balance content for them, or prevent broken interactions organically.\nThose make it easy for designers to focus on creating cool gameplay instead of playing whack-a-mole with various meta problems, and Yu-Gi-Oh! has suffered accordingly.\nThey have no faction restrictions, barely any costing system, and the summoning restrictions are so meaningless that we’ve gone from “roughly one monster per turn” to an antimeta tech card that only works if your opponent summons 5 or more monsters in a single turn. It gets played a LOT.\nThe good news is these designers have been forced to get enormously creative within these restrictions. It’s led to coming up with ideas and gameplay you don’t see in any other game, anywhere.\nHowever, there’s a limit. The game has degenerated so far into costless combos and interaction that going second often means waiting through 5-10 minute combos as people do their best to lock you out of playing the game.\nModern Yu-Gi-Oh! plays more like a fighting game than a cardgame, and getting into competitive feels just as overwhelming. People literally get told to practice their combos before playing.\nFor context: This is from a combo guide about what to do once playing a single card from your hand. Starting with just “Killer Tune Cue” leads into all these plays. It’s so much like a fighting game combo chain.\nLike fighting games, people that push through to master these combos and learn how to disrupt their oppoents’ combos is enormously satisfying. Practice produces highly visible results.\nHowever, unlike a fighting game, yugioh is turn-based. Imagine if at the start of street fighter, players flipped a coin and the loser wasn’t allowed to attack for the first 2 minutes of the game. Also, disable a bunch of their defensive moves too.\nThat’s what yugioh players are dealing with right now when going second.",
+      "has_body": true,
+      "body_truncated": false,
+      "section": "features",
+      "title_cn": "现代游戏王：一次34张卡的紧急禁卡表与系统设计困境",
+      "what": "作者以游戏王世界赛为引，讨论一次紧急禁卡表涉及34张卡对玩家的影响，并分析游戏王长期缺乏费用、阵营与召唤限制等自动平衡机制，导致无成本连招和先手压制问题。",
+      "why": "作者用禁卡对玩家卡牌价值的损害说明禁卡代价，再以无费用系统、召唤限制失效和先手长连招为例，论证系统设计缺少自动平衡机制；并将现代游戏王比作格斗游戏的连招练习，但指出回合制下后手玩家还要承受先手封锁。",
+      "for_you": "可追问：在缺少费用与召唤限制的卡牌系统中，设计者还能用哪些机制替代禁卡表来抑制无成本连招？",
+      "degraded": null
     }
   ],
   "ai": [
     {
-      "key": "ai-deepseek-20261017",
-      "title": "开放自研搜索 API；DeepSeek-V4.1-Flash-1017 更新",
-      "title_cn": "DeepSeek 更新 Flash 模型，同时开放网页搜索与抓取 API",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates/",
-      "lang": "zh",
-      "sources": [
-        "DeepSeek 官方文档"
-      ],
-      "published": "2026-10-17",
-      "published_precision": "day",
-      "undated": false,
-      "category": "ai",
-      "topic": "模型更新",
-      "content_type": "官方更新",
-      "what": "DeepSeek 将网页、App 和 API 的 Flash 模型升级至 V4.1-Flash-1017，模型调用名称与价格保持不变。同日开放 Search 与 Fetch API，分别返回网页搜索结果和指定页面的 Markdown 内容。",
-      "why": "",
-      "for_you": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "evergreen": false,
-      "section": "ai",
-      "members": [
-        {
-          "title": "更新日志 · 2026-10-17",
-          "url": "https://api-docs.deepseek.com/zh-cn/updates/",
-          "source": "DeepSeek 官方文档",
-          "lang": "zh",
-          "published": "2026-10-17"
-        },
-        {
-          "title": "Search & Fetch",
-          "url": "https://api-docs.deepseek.com/guides/search/",
-          "source": "DeepSeek 官方文档",
-          "lang": "en"
-        }
-      ]
-    },
-    {
-      "key": "ai-ecdsa-20261016",
-      "title": "Claude reveals ECDSA curve origins",
-      "title_cn": "Anthropic 公布 Claude 追溯部分 ECDSA 曲线参数的研究",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source_id": "web-d1c587ecba",
+      "source_url": "https://simonwillison.net/atom/everything/",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "529d8d2ec4ff2e1b",
+      "title": "llm-tools-datasette 0.1.1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
       "lang": "en",
-      "sources": [
-        "Anthropic"
-      ],
-      "published": "2026-10-16",
-      "published_precision": "day",
-      "undated": false,
-      "category": "ai",
-      "topic": "研究动态",
-      "content_type": "研究报告",
-      "what": "Anthropic 报告称，内部研究模型将多条标准椭圆曲线的种子追溯到由时间戳初始化的旧式随机数生成器，并公开复现代码。这项结果解释的是参数来源，不是破解 ECDSA；部分种子和基点来源仍未解释。",
-      "why": "",
-      "for_you": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "evergreen": false,
-      "section": "ai",
-      "members": [
-        {
-          "title": "Claude reveals ECDSA curve origins",
-          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-          "source": "Anthropic",
-          "lang": "en",
-          "published": "2026-10-16"
-        }
-      ]
-    },
-    {
-      "key": "ai-krea-20261015",
-      "title": "Introducing Krea 3",
-      "title_cn": "Krea 3 发布：图像编辑支持最多六张参考图",
-      "url": "https://www.krea.ai/blog/introducing-krea-3",
-      "lang": "en",
-      "sources": [
-        "Krea"
-      ],
-      "published": "2026-10-15",
-      "published_precision": "day",
-      "undated": false,
-      "category": "ai",
-      "topic": "图像工具",
-      "content_type": "产品发布",
-      "what": "Krea 发布图像编辑模型 Krea 3，支持原生 2K 输出和最多六张参考图，用于更换场景、材质和服装等编辑。官方称多数编辑在八秒内完成，并强调产品与角色的一致性；这些速度与效果描述来自厂商测试。",
-      "why": "",
-      "for_you": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "evergreen": false,
-      "reading_minutes": 5,
-      "section": "ai",
-      "members": [
-        {
-          "title": "Introducing Krea 3",
-          "url": "https://www.krea.ai/blog/introducing-krea-3",
-          "source": "Krea",
-          "lang": "en",
-          "published": "2026-10-15"
-        }
-      ]
-    },
-    {
-      "key": "ai-chirp-pong-20261015",
-      "title": "Tool: Chirp Pong",
-      "title_cn": "Chirp Pong 实验：用手机声音传递双人游戏状态",
-      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
-      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
       "sources": [
         "Simon Willison"
       ],
-      "published": "2026-10-15",
-      "published_precision": "day",
+      "published": "2026-10-18T23:43:09+00:00",
       "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+      "rss_content": "",
+      "content_kind": "rss_summary",
       "category": "ai",
-      "topic": "开发实践",
-      "content_type": "作者实验",
-      "what": "Simon Willison 分享用 Claude Code 制作的双人 Pong 原型：两部相邻手机运行静态 HTML，通过声音与麦克风传递游戏状态。作者公开了提示词和试玩入口，当前展示的是个人实验，尚未提供稳定性测试。",
-      "why": "",
-      "for_you": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "evergreen": false,
-      "section": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
       "members": [
         {
-          "title": "Tool: Chirp Pong",
-          "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+          "title": "llm-tools-datasette 0.1.1",
+          "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
           "source": "Simon Willison",
           "lang": "en",
-          "published": "2026-10-15"
+          "published": "2026-10-18T23:43:09+00:00"
         }
-      ]
-    }
-  ],
-  "stats": {
-    "events": 21,
-    "news": 13,
-    "features": 3,
-    "ai": 4,
-    "sources": 17,
-    "zh": 7,
-    "en": 14,
-    "ai_features": 1
-  },
-  "source_window": {
-    "news_from": "2026-10-15",
-    "news_to": "2026-10-17",
-    "features_from": "2026-10-10",
-    "features_to": "2026-10-16",
-    "ai_from": "2026-10-15",
-    "ai_to": "2026-10-17",
-    "ai_features_from": "2026-10-15",
-    "ai_features_to": "2026-10-15"
-  },
-  "earlier_editions": [
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 5.340865340833333,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "",
+      "has_body": false,
+      "body_truncated": false,
+      "title_cn": "llm-tools-datasette 0.1.1 修复 httpx 依赖问题",
+      "what": "Simon Willison 发布 llm-tools-datasette 0.1.1。LLM 0.33 改用 httpx2 后，未直接依赖 httpx 的插件会失效，该插件属于此类，现已修复。",
+      "why": "",
+      "for_you": "",
+      "degraded": "source_excerpt"
+    },
     {
-      "file": "2026-10-18-ai.html",
-      "label": "2026-10-18 · AI 日报（改版前）"
+      "source_id": "web-d1c587ecba",
+      "source_url": "https://simonwillison.net/atom/everything/",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "1c04d55d469c5032",
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "Simon Willison"
+      ],
+      "published": "2026-10-18T23:16:16+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say. { \"prompt\": \"hi there\", \"system\": \"\", \"attachments\": [], \"stream\": tru",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "llm-echo 0.5",
+          "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+          "source": "Simon Willison",
+          "lang": "en",
+          "published": "2026-10-18T23:16:16+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 5.7889208963888885,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "18th October 2026\nI'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo\ndebug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account.\nExample usage:\nuvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage\nOutputs:\nFirst I consider the prompt, then I decide what to say.\n{\n\"prompt\": \"hi there\",\n\"system\": \"\",\n\"attachments\": [],\n\"stream\": true,\n\"previous\": []\n}\nToken usage: 2 input, 24 output\nRecent articles\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice - 9th October 2026\n- Claude Haiku 5.5 - 7th October 2026\n- We're going to need default hard budget caps on pretty much everything - 3rd October 2026",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "llm-echo 0.5：调试插件更新模拟token用量计算",
+      "what": "Simon Willison发布llm-echo 0.5，该调试插件提供一个不调用真实LLM、只回显输入提示的模拟模型；新版本在模拟token用量统计中纳入工具调用、系统提示和推理token。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
     }
   ],
   "ai_features": [
     {
-      "key": "2a01353c",
-      "title": "How the Claude Code team does code review",
-      "title_cn": "Claude Code 团队复盘：自动检查、人工审查与回滚如何配合",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "source_id": "web-d1c587ecba",
+      "source_url": "https://simonwillison.net/atom/everything/",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "3cc1e326c78fdd1a",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
       "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
       "sources": [
-        "Claude Code 官方博客"
+        "Simon Willison"
       ],
-      "published": "2026-10-15",
-      "published_precision": "day",
+      "published": "2026-10-13T23:00:06+00:00",
       "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
+      "rss_content": "",
+      "content_kind": "article_body",
       "category": "ai",
-      "topic": "开发实践",
-      "content_type": "开发复盘",
-      "what": "Claude Code 团队公开内部代码审查流程：提交前要求测试、构建或界面截图等验证结果，再用独立上下文检查改动；合并前结合自动检查和按风险安排的人工审核。",
-      "why": "文章还记录了代理反复审查同一问题的情况，以及限制审查轮数、只检查新增改动、保留快速回滚等调整。流程与成效来自团队自身实践，原文同时说明仍由人负责的架构、产品方向和高风险变更。",
-      "for_you": "",
-      "has_body": true,
-      "content_kind": "full_text",
-      "summary_raw": "",
-      "evergreen": false,
-      "reading_minutes": 14,
-      "section": "ai_features",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
       "members": [
         {
-          "title": "How the Claude Code team does code review",
-          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-          "source": "Claude Code 官方博客",
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "source": "Simon Willison",
           "lang": "en",
-          "published": "2026-10-15"
+          "published": "2026-10-13T23:00:06+00:00"
         }
-      ]
+      ],
+      "score": 24,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 0
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "产品观察",
+      "is_analysis": true,
+      "age_hours": 126.05836534083332,
+      "evergreen": false,
+      "content_type": "分析",
+      "section": "ai_features",
+      "body": "13th October 2026 - Link Blog\nRedesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.\nIn May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.\nThey included a chart showing those changes. I had Claude modify their chart (code here) to add markers for the public releases of each of their models in 2026:\nThis shows public release dates, not the date when models became available for Anthropic's internal use. My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity.\n\"Antique\" is their new code review system. The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion.\n(Update: Anthropic credit Google's Piper and Meta's Sapling as \"prior art\" - it looks like the core concept of \"derived data\" was heavily inspired by Mononoke, the server component of Sapling.)\nThey had some pretty extreme requirements:\nThe history of our main branch alone is almost 100 GB, and a compressed working copy is over 25 GB. We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs. Fetched naively, that would be over 600 PB of git traffic per day.\nThe new system was built by a team of seven people, and the migration from Git was completed in five months.\nWhen asked on Hacker News about the lack of offline support, Scion engineer Nick G replied:\nSince Claude is by far the heaviest user of Scion and is necessarily online, this just wasn't important to do.\nAs an aside, I've been trying adversarial review in my own projects recently, where you have a model try and find flaws (I often play Claude and GPT off against each other). This note from the article reflected my own experience with that:\nAnthropic also makes extensive use of adversarial review, and, while this is incredibly effective in many ways, it can also be myopic, so skilled engineers needed to steer Claude away from over-engineering parts of the system in response to hypothetical concerns.\nRecent articles\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice - 9th October 2026\n- Claude Haiku 5.5 - 7th October 2026\n- We're going to need default hard budget caps on pretty much everything - 3rd October 2026",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Anthropic自研代码版本控制系统Scion与审查系统Antique",
+      "what": "Anthropic因代码变更量从2026年5月的日均约2500次增至9月的逾3万次，自建替代Git的版本控制系统Scion和代码审查系统Antique；主分支历史近100GB，日均约2500万次检出。",
+      "why": "作者转述Anthropic的做法：七人团队五个月完成迁移，借鉴Google Piper、Meta Sapling等先例；Scion工程师称因Claude始终在线，未做离线支持。",
+      "for_you": "可追问：以在线为前提放弃离线支持，对CI之外的开发者与代理沙箱场景意味着哪些取舍？",
+      "degraded": null
     }
   ],
-  "ai_generated_at": "2026-10-18T21:53:18+08:00"
+  "stats": {
+    "events": 171,
+    "news": 15,
+    "features": 3,
+    "ai": 2,
+    "ai_features": 1,
+    "review_candidates": 20,
+    "multi_source": 1,
+    "deep_read": 3,
+    "ai_deep_read": 1
+  }
 }

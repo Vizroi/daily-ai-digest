@@ -1,6 +1,87 @@
 {
-  "checked_at": "2026-10-18T15:18:01.647978+00:00",
+  "checked_at": "2026-10-19T05:03:09.409695+00:00",
   "sources": [
+    {
+      "id": "youtube-gmtk",
+      "name": "Game Maker’s Toolkit",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/@GMTK",
+      "state": "degraded",
+      "count": 4,
+      "detail": "公开入口返回 HTTP 404；使用公开频道页标题候选，精确发布日期未知，未获取字幕"
+    },
+    {
+      "id": "youtube-gdc",
+      "name": "GDC",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/channel/UC0JB7TSe49lg56u6qH8y_MQ",
+      "state": "degraded",
+      "count": 5,
+      "detail": "公开入口返回 HTTP 404；使用公开频道页标题候选，精确发布日期未知，未获取字幕"
+    },
+    {
+      "id": "youtube-sakurai",
+      "name": "Masahiro Sakurai on Creating Games",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/@sora_sakurai_en",
+      "state": "degraded",
+      "count": 4,
+      "detail": "公开入口返回 HTTP 404；使用公开频道页标题候选，精确发布日期未知，未获取字幕"
+    },
+    {
+      "id": "website-tencent-institute",
+      "name": "腾讯游戏学堂 · 官网资讯",
+      "platform": "作者网站",
+      "url": "https://gameinstitute.qq.com/news",
+      "state": "empty",
+      "count": 0,
+      "detail": "官网资讯列表的标题、发布日期与摘要；正文待后续读取，进入日报前需编辑审核；列表最新日期 2026-08-26"
+    },
+    {
+      "id": "wechat-yutang",
+      "name": "鱼塘游戏制作工坊",
+      "platform": "微信公众号",
+      "url": "https://mp.weixin.qq.com/",
+      "state": "manual",
+      "count": 0,
+      "detail": "公众号暂无已核验的稳定公开列表；通过人工收录的单篇公开链接核验内容"
+    },
+    {
+      "id": "wechat-youxiputao",
+      "name": "游戏葡萄",
+      "platform": "微信公众号",
+      "url": "https://youxiputao.com/",
+      "state": "manual",
+      "count": 0,
+      "detail": "已核验公众号「游戏葡萄」（微信号：youxiputao）。点击名称进入官网扫码，或在微信搜索公众号名称。尚未接通自动采集，单篇文章需手动补充。"
+    },
+    {
+      "id": "wechat-tencent-institute",
+      "name": "腾讯游戏学堂",
+      "platform": "微信公众号",
+      "url": "https://mp.weixin.qq.com/",
+      "state": "manual",
+      "count": 0,
+      "detail": "公众号暂无已核验的稳定公开列表；通过人工收录的单篇公开链接核验内容"
+    },
+    {
+      "id": "author-ye-zitao",
+      "name": "叶梓涛 · 落日间",
+      "platform": "作者网站",
+      "url": "https://docs.xpaidia.com/portfolio",
+      "state": "ok",
+      "count": 5,
+      "detail": "作者公开 Markdown 正文；原始发布日期未核验，作为经典阅读候选"
+    },
+    {
+      "id": "indienova-members",
+      "name": "indienova 会员日志",
+      "platform": "开发者社区",
+      "url": "https://indienova.com/blogs/all",
+      "state": "ok",
+      "count": 6,
+      "detail": "公开会员日志候选；作者身份、经验与论证需编辑审核"
+    },
     {
       "id": "steam-factorio",
       "name": "Steam · Factorio",
@@ -137,87 +218,6 @@
       "detail": "读取正常，共检查 3 条，收录 0 条；早于最近 720 小时 3 条；本轮最新原文日期 2022-11-25（北京时间）"
     },
     {
-      "id": "youtube-gmtk",
-      "name": "Game Maker’s Toolkit",
-      "platform": "YouTube",
-      "url": "https://www.youtube.com/@GMTK",
-      "state": "ok",
-      "count": 1,
-      "detail": "官方 Atom 元数据；未获取字幕，需观看后再编入精选"
-    },
-    {
-      "id": "youtube-gdc",
-      "name": "GDC",
-      "platform": "YouTube",
-      "url": "https://www.youtube.com/channel/UC0JB7TSe49lg56u6qH8y_MQ",
-      "state": "ok",
-      "count": 5,
-      "detail": "官方 Atom 元数据；未获取字幕，需观看后再编入精选"
-    },
-    {
-      "id": "youtube-sakurai",
-      "name": "Masahiro Sakurai on Creating Games",
-      "platform": "YouTube",
-      "url": "https://www.youtube.com/@sora_sakurai_en",
-      "state": "ok",
-      "count": 4,
-      "detail": "官方 Atom 元数据；未获取字幕，需观看后再编入精选"
-    },
-    {
-      "id": "website-tencent-institute",
-      "name": "腾讯游戏学堂 · 官网资讯",
-      "platform": "作者网站",
-      "url": "https://gameinstitute.qq.com/news",
-      "state": "empty",
-      "count": 0,
-      "detail": "官网资讯列表的标题、发布日期与摘要；正文待后续读取，不代表 B 站视频已恢复；列表最新日期 2026-08-26"
-    },
-    {
-      "id": "wechat-yutang",
-      "name": "鱼塘游戏制作工坊",
-      "platform": "微信公众号",
-      "url": "https://mp.weixin.qq.com/",
-      "state": "manual",
-      "count": 0,
-      "detail": "公众号暂无已核验的稳定公开列表；通过人工收录的单篇公开链接核验内容"
-    },
-    {
-      "id": "wechat-youxiputao",
-      "name": "游戏葡萄",
-      "platform": "微信公众号",
-      "url": "https://youxiputao.com/",
-      "state": "manual",
-      "count": 0,
-      "detail": "已核验公众号「游戏葡萄」（微信号：youxiputao）。点击名称进入官网扫码，或在微信搜索公众号名称。尚未接通自动采集，单篇文章需手动补充。"
-    },
-    {
-      "id": "wechat-tencent-institute",
-      "name": "腾讯游戏学堂",
-      "platform": "微信公众号",
-      "url": "https://mp.weixin.qq.com/",
-      "state": "manual",
-      "count": 0,
-      "detail": "公众号暂无已核验的稳定公开列表；通过人工收录的单篇公开链接核验内容"
-    },
-    {
-      "id": "author-ye-zitao",
-      "name": "叶梓涛 · 落日间",
-      "platform": "作者网站",
-      "url": "https://docs.xpaidia.com/portfolio",
-      "state": "ok",
-      "count": 5,
-      "detail": "作者公开 Markdown 正文；原始发布日期未核验，作为经典阅读候选"
-    },
-    {
-      "id": "indienova-members",
-      "name": "indienova 会员日志",
-      "platform": "开发者社区",
-      "url": "https://indienova.com/blogs/all",
-      "state": "ok",
-      "count": 6,
-      "detail": "公开会员日志候选；作者身份、经验与论证需编辑审核"
-    },
-    {
       "id": "web-b8285cb6e3",
       "name": "Game Developer",
       "platform": "网站 / RSS",
@@ -249,18 +249,18 @@
       "name": "Unreal Engine",
       "platform": "网站 / RSS",
       "url": "https://www.unrealengine.com/rss/news?lang=en-US",
-      "state": "ok",
-      "count": 1,
-      "detail": "读取 10 条订阅记录；72 小时时间窗内取得 1 条候选"
+      "state": "empty",
+      "count": 0,
+      "detail": "读取 10 条订阅记录；72 小时时间窗内取得 0 条候选"
     },
     {
       "id": "web-531f01f744",
       "name": "Unity",
       "platform": "网站 / RSS",
       "url": "https://unity.com/blog/rss",
-      "state": "ok",
-      "count": 1,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 1 条候选"
+      "state": "empty",
+      "count": 0,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 0 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -268,8 +268,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/rss.xml",
       "state": "ok",
-      "count": 13,
-      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 13 条候选"
+      "count": 7,
+      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 7 条候选"
     },
     {
       "id": "web-be9919cef9",
@@ -277,8 +277,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gcores.com/rss",
       "state": "ok",
-      "count": 16,
-      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 16 条候选"
+      "count": 20,
+      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-68554a31d0",
@@ -286,8 +286,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 4,
-      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 4 条候选"
+      "count": 3,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 3 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -358,8 +358,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/list/25",
       "state": "degraded",
-      "count": 4,
-      "detail": "读取 10 篇文章页面；720 小时时间窗内取得 4 条候选；其中 1 篇未能读取（ConnectionError）"
+      "count": 3,
+      "detail": "读取 10 篇文章页面；720 小时时间窗内取得 3 条候选；其中 3 篇未能读取（ConnectionError）"
     },
     {
       "id": "web-2c4b61fbd7",
@@ -367,8 +367,8 @@
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-development/",
       "state": "ok",
-      "count": 5,
-      "detail": "读取 16 篇文章页面；720 小时时间窗内取得 5 条候选"
+      "count": 4,
+      "detail": "读取 16 篇文章页面；720 小时时间窗内取得 4 条候选"
     },
     {
       "id": "web-5be5c101f0",
@@ -376,8 +376,8 @@
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-news/",
       "state": "ok",
-      "count": 5,
-      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 5 条候选"
+      "count": 4,
+      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 4 条候选"
     },
     {
       "id": "manual-inbox",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 177,
-    "deduplicated": 177,
-    "retained": 177,
+    "raw": 172,
+    "deduplicated": 172,
+    "retained": 172,
     "restricted_withheld": 0
   }
 }
