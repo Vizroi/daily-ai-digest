@@ -4,176 +4,193 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 15 条，策划精选 3 篇，AI 快讯 2 条，AI 精选 1 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 16 条，策划精选 3 篇，AI 快讯 4 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 19 Oct 2026 13:03:36 +0800</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 13:06:06 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>物理联机派对游戏《让球飞！》Steam Demo下载量破50万</title>
-  <link>https://www.gcores.com/articles/221087</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-42055101ee624906c1c3e167</guid>
-  <pubDate>Mon, 19 Oct 2026 03:32:55 +0000</pubDate>
+  <title>Xbox回归核聚变北京站：四款游戏试玩与Nano口袋手柄体验</title>
+  <link>https://www.gcores.com/articles/221119</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1ffc0e67424f135e8d13be50</guid>
+  <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>发行商Alibi Games宣布与独立团队Hitbox Entertainment合作推出1-4人合作物理闯关游戏《让球飞！》，玩家需在陷阱关卡中保持气球不落地。其Steam Demo全球下载量已突破50万次，并在The Mix秋季游戏展曝光新实机宣传片。</p><p><small>来源：<a href="https://www.gcores.com/articles/221087">机核</a></small></p><p><small>原文发布：2026-10-19 11:32（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核发布的活动信息显示，Xbox将参加10月24日至25日在北京首钢国际会展中心举办的核聚变游戏嘉年华，现场提供《战争机器：事变日》《我的世界：地下城2》《光环：战役进化》《极限竞速：地平线6》四款游戏试玩，并可抢先体验Xbox Nano口袋手柄。</p><p><small>来源：<a href="https://www.gcores.com/articles/221119">机核</a></small></p><p><small>原文发布：2026-10-20 12:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>机核周报：10月新作发售与PS5 Pro涨价等要闻</title>
-  <link>https://www.gcores.com/radios/220703</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f7bbe7fa451805b1b07ba815</guid>
-  <pubDate>Sun, 18 Oct 2026 10:00:00 +0000</pubDate>
+  <title>《地渊珠宝匠》Steam新品节开放试玩：赌石经营与克苏鲁元素</title>
+  <link>https://www.gcores.com/articles/221154</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c9c4e43b22cbee2b69b38f96</guid>
+  <pubDate>Tue, 20 Oct 2026 03:40:13 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核周报汇总10月游戏发售潮，包括《恶魔城：贝尔蒙特的诅咒》《不朽遗志》《Ratatan》《战锤40K：爆失枪2》《全面战争：幕府将军2完全版》《永恒传说Remastered》等；并提及内存短缺推高主机售价、PS5 Pro市场价突破万元及《漫威金刚狼》实体版占比讨论。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/radios/220703">机核</a></small></p><p><small>原文发布：2026-10-18 18:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《地渊珠宝匠》是一款带赌石元素的工坊经营游戏，玩家继承地下城市中的旧珠宝店，在营业时间内挑选原石、切割宝石、设计饰品并完成委托。游戏已参加Steam新品节并开放公开试玩，曾入围2026年indie play最佳设计奖。</p><p><small>来源：<a href="https://www.gcores.com/articles/221154">机核</a></small></p><p><small>原文发布：2026-10-20 11:40（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《收割者：诸神已死》将在北京核聚变开放全球首次线下试玩</title>
-  <link>https://www.gcores.com/articles/221047</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bec89b85e3b886b131c93a40</guid>
-  <pubDate>Sun, 18 Oct 2026 09:00:00 +0000</pubDate>
+  <title>1—6人合作海盗RPG《龙骨海盗》推出免费试玩版并支持简体中文</title>
+  <link>https://www.gcores.com/articles/221151</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f1e2ab7a171dc0f9818bc007</guid>
+  <pubDate>Tue, 20 Oct 2026 03:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《收割者：诸神已死》将于10月24日至25日在北京首钢国际会展中心A16-2展区开放全球首次线下试玩，提供12台PC机位，试玩内容为联网单人PvE撤离，单局约15至20分钟，不开放PvP。游戏计划2027年2月在Steam开启抢先体验。</p><p><small>来源：<a href="https://www.gcores.com/articles/221047">机核</a></small></p><p><small>原文发布：2026-10-18 17:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>新西兰开发商Digital Confectioners的奇幻海盗动作RPG《龙骨海盗》在Steam上线首个公开试玩版，试玩版在Steam新品节期间开放，游戏内文字与字幕已加入简体中文。</p><p><small>来源：<a href="https://www.gcores.com/articles/221151">机核</a></small></p><p><small>原文发布：2026-10-20 11:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《房产达人2》六折促销，Pets DLC定于12月3日推出</title>
-  <link>https://www.gameres.com/901203231.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b26492cfd797feffa3b6221e</guid>
-  <pubDate>Fri, 16 Oct 2026 06:55:00 +0000</pubDate>
+  <title>《中世纪崛起》参展Steam新品节，免费试玩版10月19日至26日开放</title>
+  <link>https://www.gameres.com/901203253.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-429d4b8cdd1ac5dd1c0fb63c</guid>
+  <pubDate>Mon, 19 Oct 2026 23:24:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《房产达人2》现以六折81.59元促销。文章介绍其清洁翻新、自由建造与最多4人跨平台合作玩法，并说明Pets DLC将于2026年12月3日推出，包含海鹦岛区域、10个任务与10栋房屋、40多个猫狗品种及30多种小型宠物。</p><p><small>来源：<a href="https://www.gameres.com/901203231.html">GameRes</a></small></p><p><small>原文发布：2026-10-16 14:55（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>独立工作室netplay entertainment宣布，中世纪家族王朝模拟游戏《中世纪崛起》参加10月19日至26日的Steam新品节，免费试玩版同期在Steam开放下载，支持Windows、macOS和Linux，并公布官方简体中文名与本地化主视觉。</p><p><small>来源：<a href="https://www.gameres.com/901203253.html">GameRes</a></small></p><p><small>原文发布：2026-10-20 07:24（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>GameRes统计10月19日至25日共24款游戏开测</title>
-  <link>https://www.gameres.com/901203240.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d4fc24a7cee3b15777386e92</guid>
-  <pubDate>Mon, 19 Oct 2026 01:04:00 +0000</pubDate>
+  <title>乐高与Netflix展出《KPop Demon Hunters》Derpy Tiger巨型积木雕像</title>
+  <link>https://80.lv/articles/lego-netflix-presented-a-giant-figure-of-derpy-tiger-from-kpop-demon-hunters/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-933809ae352f4318705c1892</guid>
+  <pubDate>Mon, 19 Oct 2026 10:56:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>GameRes游资网汇总了2026年10月19日至25日的开测信息，共24款游戏。文中列出其中两款：紫龙游戏发行的拟真钓鱼游戏《极境：垂钓者》于10月21日在PC端限量删档测试；灵犀互娱的运动少女养成游戏《篮球少女：飞跃巅峰》于10月23日公测。</p><p><small>来源：<a href="https://www.gameres.com/901203240.html">GameRes</a></small></p><p><small>原文发布：2026-10-19 09:04（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：LEGO &amp; Netflix Presented a Giant Figure of Derpy Tiger from KPop Demon Hunters</small></p><p>乐高设计师Björn Ramant用约3.7万块积木搭建《KPop Demon Hunters》角色Derpy Tiger的巨型雕像，耗时约2.5个月，因重量需4根金属梁支撑，目前正在荷兰乌得勒支LEGO World 2026展出。</p><p><small>来源：<a href="https://80.lv/articles/lego-netflix-presented-a-giant-figure-of-derpy-tiger-from-kpop-demon-hunters/">80.lv</a></small></p><p><small>原文发布：2026-10-19 18:56（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《针影裁梦》等手工模拟游戏为何受欢迎</title>
-  <link>https://www.gameres.com/901203239.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8342e150682cee93274dd51e</guid>
-  <pubDate>Mon, 19 Oct 2026 01:03:00 +0000</pubDate>
+  <title>ForgeTax如何用肉鸽局内Build改造装备强化玩法</title>
+  <link>https://www.gameres.com/901203256.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8e27178134d112c9ac81c7d2</guid>
+  <pubDate>Tue, 20 Oct 2026 01:09:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>文章以《针影裁梦》和《维修物语》为例，讨论轻量化手工模拟类独立游戏：前者上线24小时收回开发成本，10天后Steam同时在线人数仍超3万；作者认为这类游戏靠情怀、易上手和对手艺的还原吸引玩家。</p><p><small>来源：<a href="https://www.gameres.com/901203239.html">GameRes</a></small></p><p><small>原文发布：2026-10-19 09:03（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>文章以独立游戏ForgeTax为例，分析其把DNF式装备强化与肉鸽局内Build结合的做法：强化含破坏、损伤、维持、成功、大成功五种概率事件，遗物与商人道具影响强化结果，并讨论该作Build深度不足、后期反馈缺失等问题。</p><p><strong>背景与变化</strong><br>作者以自身游玩体验拆解遗物联动与入神机制如何拉升正反馈，并指出遗物未形成流派、成长曲线平、图鉴解锁过快等具体取舍问题。</p><p><strong>策划视角</strong><br>可研究：遗物与商人道具在多大程度上改变了强化的随机性，这种改动为何仍不足以支撑重复游玩？</p><p><small>来源：<a href="https://www.gameres.com/901203256.html">GameRes</a></small></p><p><small>原文发布：2026-10-20 09:09（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>触乐本周行业大事：时之笛重制版新预告、育碧拟关RedLynx等</title>
-  <link>http://www.chuapp.com/article/291693.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-91f878576e134052c2322a9f</guid>
-  <pubDate>Sat, 17 Oct 2026 09:13:38 +0000</pubDate>
+  <title>三渲二游戏为何显得消失：从手工管线到工业化折中</title>
+  <link>https://www.gameres.com/901203255.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-aff4feff375e7ad08864ae59</guid>
+  <pubDate>Tue, 20 Oct 2026 01:06:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐以鹦鹉口吻汇总本周游戏行业消息：育碧计划关闭芬兰RedLynx工作室并影响最多52个岗位；任天堂公开《塞尔达传说：时之笛》重制版新预告，11月5日登陆Switch 2；库洛入股多模态AI公司言之域科技；腾讯参与Flow Games融资；《爆裂小队》将停运等。</p><p><small>来源：<a href="http://www.chuapp.com/article/291693.html">触乐</a></small></p><p><small>原文发布：2026-10-17 17:13（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>作者叶兰舟梳理三渲二从《Jet Set Radio》到《罪恶装备 Xrd》手工调描边、UV与阴影的做法，再谈《原神》将角色NPR与场景PBR结合的工业化路线，认为消失的是缺乏风格与管线能力的中型项目。</p><p><small>来源：<a href="https://www.gameres.com/901203255.html">GameRes</a></small></p><p><small>原文发布：2026-10-20 09:06（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>硬件涨价若持续，游戏市场或转向手机与Mac</title>
-  <link>https://www.gamesindustry.biz/a-hardware-market-freeze-could-transform-the-industry-forever-opinion</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e912305eaf92a5a799e4ad8d</guid>
-  <pubDate>Fri, 16 Oct 2026 15:18:57 +0000</pubDate>
+  <title>RocketWerkz开源C#框架BRUTAL，供开发者自建引擎</title>
+  <link>https://www.gamedeveloper.com/programming/rocketwerkz-c-framework-brutal-is-now-available-for-all-developers</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4552b22c8cc068a37d4e5a59</guid>
+  <pubDate>Mon, 19 Oct 2026 20:57:38 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：A hardware market freeze could transform the industry forever | Opinion</small></p><p>文章援引Circana数据称Xbox与PlayStation硬件销量下滑、主机均价上涨，并讨论若主机与独立显卡长期高价，市场可能转向用户已有的手机和Mac等设备。</p><p><strong>背景与变化</strong><br>作者以硬件价格高企为前提推演：现有PS5装机量被锁定，手机与Mac因普及度成为潜在平台，并提及NotProton将Proton部分功能移植到macOS。</p><p><strong>策划视角</strong><br>可追问：作者对手机和Mac承接核心游戏的判断依据是否充分，NotProton这类工具的实际可用性如何验证？</p><p><small>来源：<a href="https://www.gamesindustry.biz/a-hardware-market-freeze-could-transform-the-industry-forever-opinion">GamesIndustry</a></small></p><p><small>原文发布：2026-10-16 23:18（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：RocketWerkz&#x27; C# framework &#x27;BRUTAL&#x27; is now available to all developers</small></p><p>RocketWerkz与Ahwoo宣布开源C#游戏开发框架BRUTAL，它结合C#、.NET与C++库及底层图形访问，可作自研引擎基础；商用免费无版税，但需署名并在游戏加载时显示标识。</p><p><small>来源：<a href="https://www.gamedeveloper.com/programming/rocketwerkz-c-framework-brutal-is-now-available-for-all-developers">Game Developer</a></small></p><p><small>原文发布：2026-10-20 04:57（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Blender制作玻璃质感风格化苹果的技法解析</title>
-  <link>https://80.lv/articles/see-how-this-sparkly-glass-like-apple-was-made-in-blender/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dae4f120640225c08bd04d2d</guid>
-  <pubDate>Fri, 16 Oct 2026 14:27:00 +0000</pubDate>
+  <title>PEGI将含付费随机道具的现有数字游戏上调至16级</title>
+  <link>https://www.gamesindustry.biz/pegi-begins-moving-existing-digital-only-games-with-loot-boxes-up-to-a-16-rating</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9c914beaadf97ff98abb2de5</guid>
+  <pubDate>Mon, 19 Oct 2026 19:12:21 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：See How This Sparkly Glass-Like Apple Was Made in Blender</small></p><p>80.lv报道3D艺术家Moop-A-Doop在Blender中制作风格化苹果：网格分为半透明外层与伪造深度的内层，均以手绘matcap作基础色，并用光线步进、Voronoi纹理与视线方向点积制造闪光。</p><p><strong>背景与变化</strong><br>作者自述偏好非写实风格化渲染，方法上以外层透明壳加内层假深度、SDF光线步进和方向性闪光模拟玻璃与糖渍质感。</p><p><strong>策划视角</strong><br>可研究其用两层网格与matcap替代真实折射的做法，在旋转视角下如何维持透明与闪光的一致性。</p><p><small>来源：<a href="https://80.lv/articles/see-how-this-sparkly-glass-like-apple-was-made-in-blender/">80.lv</a></small></p><p><small>原文发布：2026-10-16 22:27（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：PEGI begins moving existing digital-only games with loot boxes up to a 16 rating</small></p><p>英国游戏分级机构GRA开始对含付费随机道具（如战利品箱）的现有数字游戏重新评级，原为PEGI 3、7或12级的作品将改为PEGI 16，并标注“付费随机道具”，10月内逐步推行。</p><p><small>来源：<a href="https://www.gamesindustry.biz/pegi-begins-moving-existing-digital-only-games-with-loot-boxes-up-to-a-16-rating">GamesIndustry</a></small></p><p><small>原文发布：2026-10-20 03:12（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>2026年亚洲游戏展与泰国游戏展新增四国展馆</title>
-  <link>https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-2026-announces-four-additional-pavilions-from-indonesia-japan-malaysia-and-the-us</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4f99f371a5426e9c72e25617</guid>
-  <pubDate>Fri, 16 Oct 2026 12:44:48 +0000</pubDate>
+  <title>Digital Sun因担忧AI克隆推迟《ReVamp》公开测试</title>
+  <link>https://www.gamedeveloper.com/programming/moonlighter-developer-delays-public-playtest-of-next-game-over-concerns-of-ai-cloning</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8d53a656ff9d260f0ec7751a</guid>
+  <pubDate>Mon, 19 Oct 2026 17:08:14 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Gamescom Asia x Thailand Game Show 2026 announces four additional pavilions from Indonesia, Japan, Malaysia, and the US</small></p><p>2026年Gamescom Asia与泰国游戏展宣布新增印度尼西亚、日本、马来西亚和美国四个展馆，展馆总数达20个，来自12个市场；展会共有29个国家和地区的参展方，于10月29日至11月1日在曼谷QSNCC举行。</p><p><small>来源：<a href="https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-2026-announces-four-additional-pavilions-from-indonesia-japan-malaysia-and-the-us">GamesIndustry</a></small></p><p><small>原文发布：2026-10-16 20:44（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Moonlighter developer delays public playtest of next game over concerns of AI cloning</small></p><p>《Moonlighter》开发商Digital Sun原计划为塔防类新作《ReVamp》举办公开测试，现改为10月29日起在Discord社区进行小范围测试。工作室称，近期有游戏被逆向、克隆并在原作发售前抢先发布，因此担心大型公开版本带来风险。</p><p><small>来源：<a href="https://www.gamedeveloper.com/programming/moonlighter-developer-delays-public-playtest-of-next-game-over-concerns-of-ai-cloning">Game Developer</a></small></p><p><small>原文发布：2026-10-20 01:08（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Kenney Shape像素画转3D模型工具改为永久免费</title>
-  <link>https://80.lv/articles/kenney-shape-tool-for-generating-extruded-3d-models-from-2d-pixel-art-is-now-free/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-73c0c973ecdd26b62f790c94</guid>
-  <pubDate>Fri, 16 Oct 2026 11:24:00 +0000</pubDate>
+  <title>gamescom asia捆绑包：9.99美元获六款PC游戏</title>
+  <link>https://80.lv/articles/get-six-awesome-pc-games-for-usd9-99-with-the-gamescom-asia-bundle/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5d152574d3ce25f82e25fae5</guid>
+  <pubDate>Mon, 19 Oct 2026 17:02:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Kenney Shape, Tool for Generating Extruded 3D Models from 2D Pixel Art, Is Now Free</small></p><p>游戏素材创作者Kenney Vleugels宣布，将像素画挤出生成3D模型的工具Kenney Shape改为永久免费。用户绘制2D像素画并设定各像素深度后，工具会自动生成3D模型并完成UV映射，可导出3D、体素或位图、矢量格式，用于Unity、Unreal、Godot、Blender等。</p><p><small>来源：<a href="https://80.lv/articles/kenney-shape-tool-for-generating-extruded-3d-models-from-2d-pixel-art-is-now-free/">80.lv</a></small></p><p><small>原文发布：2026-10-16 19:24（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Get Six Awesome PC Games for $9.99 With the gamescom asia Bundle</small></p><p>gamescom asia限时捆绑包于10月19日至11月2日发售，售价9.99美元，包含GigaBash、HELLCARD、Gordian Quest、Winion Virus、Monstrum和UNYIELDER六款游戏的Steam激活码，购买价的10%捐给Stand Up To Cancer。</p><p><small>来源：<a href="https://80.lv/articles/get-six-awesome-pc-games-for-usd9-99-with-the-gamescom-asia-bundle/">80.lv</a></small></p><p><small>原文发布：2026-10-20 01:02（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Blender动画师分享蜘蛛侠滑板短片制作流程</title>
-  <link>https://80.lv/articles/see-how-you-can-make-a-blender-animation-of-spider-man-skating/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-91ce4deb0f9bb16cf8dfa5e2</guid>
-  <pubDate>Fri, 16 Oct 2026 10:45:00 +0000</pubDate>
+  <title>威世智拒绝自愿承认《龙与地下城》与Studio X工会</title>
+  <link>https://www.gamesindustry.biz/wizards-of-the-coast-declines-to-voluntarily-recognize-dd-and-studio-x-union-drive</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6051165eef22235f70cfffcc</guid>
+  <pubDate>Mon, 19 Oct 2026 16:36:11 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：See How You Can Make a Blender Animation of Spider-Man Skating</small></p><p>80.lv报道，动画师Tonq发布其Blender短片《Spider-Man Never Been Done》的制作解析，介绍蜘蛛侠在纽约街头滑板的动画如何借助模型绑定、蛛丝效果与逐帧姿态调整完成，短片耗时约三周。</p><p><small>来源：<a href="https://80.lv/articles/see-how-you-can-make-a-blender-animation-of-spider-man-skating/">80.lv</a></small></p><p><small>原文发布：2026-10-16 18:45（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Wizards of the Coast declines to voluntarily recognize D&amp;D and Studio X union drive</small></p><p>威世智拒绝自愿承认《龙与地下城》和Studio X团队的工会，员工将改由美国国家劳资关系委员会监督秘密投票。公司称在工会问题上不保持中立，倾向直接与员工沟通，并列出医疗、带薪假、奖金和加薪等现有福利。</p><p><small>来源：<a href="https://www.gamesindustry.biz/wizards-of-the-coast-declines-to-voluntarily-recognize-dd-and-studio-x-union-drive">GamesIndustry</a></small></p><p><small>原文发布：2026-10-20 00:36（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Game Republic New Horizons 2026参会人数增至461人</title>
-  <link>https://www.gamesindustry.biz/game-republic-new-horizons-2026-attendance-grew-76-to-over-461-visitors</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-86fcb6b57a05d76ab0949591</guid>
-  <pubDate>Fri, 16 Oct 2026 10:10:06 +0000</pubDate>
+  <title>Brunch Studio解析《无畏契约：裂隙之间》CG预告制作</title>
+  <link>https://80.lv/articles/brunch-studio-reveals-how-they-made-the-valorant-through-the-cracks-cinematic-trailer/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7893dfa9829f36b4a9c5c077</guid>
+  <pubDate>Mon, 19 Oct 2026 16:32:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Game Republic New Horizons 2026 attendance grew 78% to over 461 visitors</small></p><p>Game Republic New Horizons 2026于10月14日至16日在米德尔斯堡河畔球场举行，参会人数从259人增至461人，同比增长78%；MeetToMatch商务会谈从100场增至257场，共有48位演讲者。</p><p><small>来源：<a href="https://www.gamesindustry.biz/game-republic-new-horizons-2026-attendance-grew-76-to-over-461-visitors">GamesIndustry</a></small></p><p><small>原文发布：2026-10-16 18:10（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Brunch Studio Reveals How They Made the Valorant: Through The Cracks Cinematic Trailer</small></p><p>Brunch Studio公开其为Riot Games制作的《无畏契约：裂隙之间》CG预告的分镜解析，该预告揭示新地图Summit。团队用Maya完成建模与动画、Houdini制作视效，并展示从概念草图到预渲染动画再到最终渲染的镜头演变。</p><p><small>来源：<a href="https://80.lv/articles/brunch-studio-reveals-how-they-made-the-valorant-through-the-cracks-cinematic-trailer/">80.lv</a></small></p><p><small>原文发布：2026-10-20 00:32（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>从《生化危机：爆发夜》看游戏改编电影的叙事取舍</title>
-  <link>http://www.chuapp.com/article/291690.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b182c47d1bb9a47599a8000d</guid>
-  <pubDate>Fri, 16 Oct 2026 09:33:51 +0000</pubDate>
+  <title>GDCA 2027改为自主申报制，新增两个奖项类别</title>
+  <link>https://www.gamesindustry.biz/gdca-2027-moves-away-from-nominations-based-system-publishers-and-devs-can-now-submit-games-for-consideration</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b00a3205a84f93aef34f1f52</guid>
+  <pubDate>Mon, 19 Oct 2026 10:57:47 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐作者观看《生化危机：爆发夜》后，认为该片主角像初次玩《生化危机》的玩家一样搜房间、浪费子弹、错过补给，与米拉版超英式改编不同，更贴近游戏体验；文中提到影片内地票房超2亿元、豆瓣7.2分、烂番茄新鲜度96%。</p><p><small>来源：<a href="http://www.chuapp.com/article/291690.html">触乐</a></small></p><p><small>原文发布：2026-10-16 17:33（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：GDCA 2027 moves away from nominations-based system, publishers and devs can now submit games for consideration</small></p><p>2027年游戏开发者选择奖（GDCA）首次允许发行商和开发者自行提交作品参评，取代此前通过ICAN提名投票的机制。2026年1月1日至12月31日在PC或主机平台发售的游戏可申报，免报名费，截止2026年11月1日。新增最佳游戏发布和最佳游戏技术两个奖项，获奖者于2027年3月2日公布。</p><p><small>来源：<a href="https://www.gamesindustry.biz/gdca-2027-moves-away-from-nominations-based-system-publishers-and-devs-can-now-submit-games-for-consideration">GamesIndustry</a></small></p><p><small>原文发布：2026-10-19 18:57（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>决胜巅峰十周年：本土英雄与区域运营如何支撑全球化</title>
-  <link>http://www.chuapp.com/article/291692.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-57767163d2dd55685742698e</guid>
-  <pubDate>Fri, 16 Oct 2026 08:11:26 +0000</pubDate>
+  <title>澳门娱乐场见闻：从葡京到威尼斯人的游客观察</title>
+  <link>http://www.chuapp.com/article/291696.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a6e33bcce837cba9d5df3116</guid>
+  <pubDate>Mon, 19 Oct 2026 10:03:11 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐报道《决胜巅峰》十周年庆典在全球十国举行，并回顾其上线十年来的全球化路径：累计注册用户超15亿、月活超1.1亿，覆盖220多个国家和地区；文章以菲律宾、印尼本土英雄和土耳其运营为例，说明本地化内容与区域团队的作用。</p><p><small>来源：<a href="http://www.chuapp.com/article/291692.html">触乐</a></small></p><p><small>原文发布：2026-10-16 16:11（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>作者记录国庆赴澳门看IMAX电影期间逛多家娱乐场的见闻，包括葡京系与金沙系酒店的经营差异、免费小吃饮品吧台、最低下注额度约300至3000元、老虎机10至100元及老人玩老虎机的场景，并提醒博彩长期期望对玩家不利。</p><p><small>来源：<a href="http://www.chuapp.com/article/291696.html">触乐</a></small></p><p><small>原文发布：2026-10-19 18:03（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>再重聚：从音频驱动看游戏设计</title>
-  <link>https://docs.xpaidia.com/ficstruction/undo/re-reunion</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ecf8122d6aa53e8318fc0693</guid>
+  <title>独立游戏为何选择与《GTA6》同日发售</title>
+  <link>http://www.chuapp.com/article/291694.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1d04cc46607762d4473c1f89</guid>
+  <pubDate>Mon, 19 Oct 2026 10:03:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐编译GamesIndustry.biz报道，介绍《火焰、森林与洪水》和《沃尔维冒险：重制版》两款独立游戏选择在《GTA6》发售日推出，开发商与分析师讨论这一策略的动机、风险与差异化营销思路。</p><p><small>来源：<a href="http://www.chuapp.com/article/291694.html">触乐</a></small></p><p><small>原文发布：2026-10-19 18:03（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《HR.SOS》试玩版登陆Steam新品节：自动化经营与双视角解谜</title>
+  <link>https://www.gcores.com/articles/221158</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bbeaa0e6561eef3f741b657a</guid>
+  <pubDate>Tue, 20 Oct 2026 04:02:19 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong> · 常青阅读</p><p>叶梓涛基于2021年互动音乐沙龙分享，梳理音频与游戏玩法的关系：音游将乐音映射为关卡信号，节拍可驱动动作或限定输入窗口，声音也可作为输入；并借Brian Eno生成式音乐与《迷你地铁》案例，提出把游戏视为视听交互递归系统。</p><p><strong>设计选择</strong><br>作者以Reunion与Re-Reunion为线索，区分音频驱动与系统驱动两条回路，用具体游戏和自制Demo说明映射方式及优劣，并引用Eno、Cage与《迷你地铁》音效设计佐证。</p><p><strong>策划视角</strong><br>可追问：当节拍或游戏数据被映射为声音时，如何判断这种映射产生了玩法意义，而不只是视听装饰？</p><p><small>来源：<a href="https://docs.xpaidia.com/ficstruction/undo/re-reunion">叶梓涛 · 落日间</a></small></p><p><small>原文日期未标</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>模拟经营游戏《HR.SOS》参加Steam 2026年10月新品节并发布免费试玩Demo。玩家同时扮演CEO与HR，从手动生产销售起步，逐步规划产业链与运输路线，并按员工特性配置岗位、优化文件流转。</p><p><strong>设计选择</strong><br>作者称CEO与HR两套机制互为因果：CEO产出的文书帮助HR招募人才，HR修复部门后CEO解锁新业务，使自动化构建与解谜优化相互驱动。</p><p><strong>策划视角</strong><br>可关注试玩中两视角切换的节奏设计：玩家如何感知CEO产出与HR修复之间的因果反馈，避免双线管理变成重复操作？</p><p><small>来源：<a href="https://www.gcores.com/articles/221158">机核</a></small></p><p><small>原文发布：2026-10-20 12:02（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>英雄联盟经典模式将随第三赛季结束本轮运营</title>
-  <link>https://www.leagueoflegends.com/en-us/news/dev/dev-league-classic</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-996e69b633cf7a34066449a4</guid>
-  <pubDate>Wed, 14 Oct 2026 17:00:00 +0000</pubDate>
+  <title>基于RL与LLM的关卡生成：论文阅读笔记与思考</title>
+  <link>https://www.gameres.com/901202987.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ffaa481cf38c0af2ff1be060</guid>
+  <pubDate>Mon, 21 Sep 2026 02:17:00 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：/dev: League Classic</small></p><p>拳头游戏开发者博客称，League Classic将在2026年第三赛季结束后于2027年1月结束本轮运营，未来计划以活动模式回归；部分低活跃地区改为限时排队，日本和中东地区仅开放自定义对局，第二幕通行证改为单一免费轨道。</p><p><strong>设计选择</strong><br>作者以玩家大多回流现代模式、部分地区排队过长和MMR差距过大为依据，选择收缩排队范围、退款并保留自定义对局，同时继续按版本追加老英雄。</p><p><strong>策划视角</strong><br>可研究限时排队与仅自定义对局如何影响低活跃地区玩家的匹配体验和留存。</p><p><small>来源：<a href="https://www.leagueoflegends.com/en-us/news/dev/dev-league-classic">League of Legends · Dev</a> · <a href="https://www.gcores.com/articles/221072">机核</a></small></p><p><small>原文发布：2026-10-15 01:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>作者余田分享其围绕强化学习与关卡生成阅读80余篇论文后的第一批笔记，涵盖OpenAI Five、AlphaStar、多智能体捉迷藏、雷神之锤3夺旗AI，以及SAE、TopK SAE、Gated SAE和自然语言自编码器等可解释性方法。</p><p><strong>设计选择</strong><br>作者按业务需要筛选论文，只提取对游戏开发有启发的内容，并结合自身经验讨论工程与算法的取舍、奖励设计、自博弈与对抗训练、可控涌现和可解释性。</p><p><strong>策划视角</strong><br>可重点考察作者如何把RL论文中的训练与评估方法转化为关卡生成或游戏AI设计中的具体决策，以及这些转译是否有可验证的依据。</p><p><small>来源：<a href="https://www.gameres.com/901202987.html">GameRes 策划</a></small></p><p><small>原文发布：2026-09-21 10:17（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>现代游戏王：一次34张卡的紧急禁卡表与系统设计困境</title>
-  <link>https://danfelder.net/2026/10/15/the-beautiful-disaster-of-modern-yi-gi-oh/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-63623e4e559846c196af605a</guid>
-  <pubDate>Thu, 15 Oct 2026 21:05:06 +0000</pubDate>
+  <title>Factorio 2.1调整小行星伤害与平台速度公式</title>
+  <link>https://factorio.com/blog/post/fff-448</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bf6b6f38188a3d3d746e6f2a</guid>
+  <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：The beautiful disaster of modern Yi-Gi-Oh!</small></p><p>作者以游戏王世界赛为引，讨论一次紧急禁卡表涉及34张卡对玩家的影响，并分析游戏王长期缺乏费用、阵营与召唤限制等自动平衡机制，导致无成本连招和先手压制问题。</p><p><strong>设计选择</strong><br>作者用禁卡对玩家卡牌价值的损害说明禁卡代价，再以无费用系统、召唤限制失效和先手长连招为例，论证系统设计缺少自动平衡机制；并将现代游戏王比作格斗游戏的连招练习，但指出回合制下后手玩家还要承受先手封锁。</p><p><strong>策划视角</strong><br>可追问：在缺少费用与召唤限制的卡牌系统中，设计者还能用哪些机制替代禁卡表来抑制无成本连招？</p><p><small>来源：<a href="https://danfelder.net/2026/10/15/the-beautiful-disaster-of-modern-yi-gi-oh/">Dan Felder</a></small></p><p><small>原文发布：2026-10-16 05:05（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Friday Facts #448 - Tuning platforms</small></p><p>Factorio开发者日志介绍2.1版对小行星撞击平台伤害的多次调整：伤害改为取决于小行星剩余生命值而非相对速度，并逐步下调对静止平台的伤害；同时作者提出用质量替代宽度作为阻力变量来重做平台速度公式。</p><p><strong>设计选择</strong><br>作者以实测数据说明2.1初版中型小行星对静止平台伤害过高，经2.1.13和2.1.21两次下调；并指出宽度主导阻力导致“铅笔船”最优、推进器堆叠等问题，主张改用质量。</p><p><strong>策划视角</strong><br>可关注：把阻力变量从宽度改为质量后，宽体船与紧凑船的设计取舍会如何变化，以及作者用Desmos简化变量做公式验证的方法是否可靠。</p><p><small>来源：<a href="https://factorio.com/blog/post/fff-448">Factorio · Friday Facts</a></small></p><p><small>原文发布：2026-10-09 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>llm-tools-datasette 0.1.1 修复 httpx 依赖问题</title>
-  <link>https://simonwillison.net/2026/Oct/18/llm-tools-datasette/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c089e7899a1876660a140ecf</guid>
-  <pubDate>Sun, 18 Oct 2026 23:43:09 +0000</pubDate>
+  <title>OpenAI称新模型提升COBOL等低资源语言编程能力</title>
+  <link>https://openai.com/index/low-resource-programming-languages</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-aac5cbd4118153ca028e1662</guid>
+  <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：llm-tools-datasette 0.1.1</small></p><p>Simon Willison 发布 llm-tools-datasette 0.1.1。LLM 0.33 改用 httpx2 后，未直接依赖 httpx 的插件会失效，该插件属于此类，现已修复。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/18/llm-tools-datasette/">Simon Willison</a></small></p><p><small>原文发布：2026-10-19 07:43（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Advancing coding in low‑resource programming languages</small></p><p>OpenAI发布文章称，其最新模型在自建评测MultiLangBench和COBOL迁移评测上较前代模型有明显提升，并公开了MultiLangBench的评测设置与测试套件；文章同时说明，迁移结果用于生产仍需专家审查。</p><p><small>来源：<a href="https://openai.com/index/low-resource-programming-languages">OpenAI</a></small></p><p><small>原文发布：2026-10-19 20:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>llm-echo 0.5：调试插件更新模拟token用量计算</title>
-  <link>https://simonwillison.net/2026/Oct/18/llm-echo/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fede8addbe081e9e7ae0fca5</guid>
-  <pubDate>Sun, 18 Oct 2026 23:16:16 +0000</pubDate>
+  <title>编程讣告：AI编程代理对职业程序员意味着什么</title>
+  <link>https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6a9044e2f702808efe7fe2df</guid>
+  <pubDate>Mon, 19 Oct 2026 23:58:25 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：llm-echo 0.5</small></p><p>Simon Willison发布llm-echo 0.5，该调试插件提供一个不调用真实LLM、只回显输入提示的模拟模型；新版本在模拟token用量统计中纳入工具调用、系统提示和推理token。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/18/llm-echo/">Simon Willison</a></small></p><p><small>原文发布：2026-10-19 07:16（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：My obituary for programming</small></p><p>Simon Willison引用Jeremy Scheff的文章，讨论AI编程代理对职业程序员的影响：编程曾像高薪的逻辑谜题，如今AI能直接解题，享受解题过程的程序员会感到切实的损失，而更看重构建可用系统的人则受益。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/">Simon Willison</a></small></p><p><small>原文发布：2026-10-20 07:58（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Anthropic自研代码版本控制系统Scion与审查系统Antique</title>
-  <link>https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-046fcb9ab0d7e85acc18675a</guid>
-  <pubDate>Tue, 13 Oct 2026 23:00:06 +0000</pubDate>
-  <category>AI 精选</category>
-  <description><![CDATA[<p><strong>AI 精选</strong></p><p><small>原标题：Redesigning source control at Anthropic</small></p><p>Anthropic因代码变更量从2026年5月的日均约2500次增至9月的逾3万次，自建替代Git的版本控制系统Scion和代码审查系统Antique；主分支历史近100GB，日均约2500万次检出。</p><p><strong>背景与变化</strong><br>作者转述Anthropic的做法：七人团队五个月完成迁移，借鉴Google Piper、Meta Sapling等先例；Scion工程师称因Claude始终在线，未做离线支持。</p><p><strong>阅读问题</strong><br>可追问：以在线为前提放弃离线支持，对CI之外的开发者与代理沙箱场景意味着哪些取舍？</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/">Simon Willison</a></small></p><p><small>原文发布：2026-10-14 07:00（北京时间）</small></p>]]></description>
+  <title>哲源科技发布WHIRLPO计算医学平台，AI生命科学转向系统建模</title>
+  <link>https://www.qbitai.com/2026/10/504242.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e562f289e2bccadc84b9fc9c</guid>
+  <pubDate>Mon, 19 Oct 2026 10:04:18 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>10月17日哲源科技发布WHIRLPO计算医学平台，整合异构算力、多组学数据、模型矩阵与实验验证链路。文章称AI制药正从单点分子模型转向预测生命系统行为的生命世界模型，并提及Biohub等机构投入数据与实验基础设施。</p><p><small>来源：<a href="https://www.qbitai.com/2026/10/504242.html">量子位</a></small></p><p><small>原文发布：2026-10-19 18:04（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>web-edit 0.1a2新增文本与图片复制到剪贴板功能</title>
+  <link>https://simonwillison.net/2026/Oct/17/web-edit/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0e771daa13921acc1b6ab6a6</guid>
+  <pubDate>Sat, 17 Oct 2026 13:16:49 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：web-edit 0.1a2</small></p><p>Simon Willison发布web-edit 0.1a2，为其用于跨机器浏览和编辑文件夹文件的轻量网页应用加入文本与图片数据的“复制到剪贴板”选项，作者称是为把手机上运行的提示词日志方便地复制进Gist。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/17/web-edit/">Simon Willison</a></small></p><p><small>原文发布：2026-10-17 21:16（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>
