@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-21T05:07:17.329821+00:00",
+  "checked_at": "2026-10-22T05:10:13.952304+00:00",
   "sources": [
     {
       "id": "youtube-gmtk",
@@ -96,9 +96,9 @@
       "name": "Steam · RimWorld",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/294100/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-13（北京时间）"
+      "state": "ok",
+      "count": 1,
+      "detail": "读取正常，共检查 20 条，收录 1 条；早于最近 72 小时 19 条；本轮最新原文日期 2026-10-22（北京时间）"
     },
     {
       "id": "steam-hades",
@@ -150,9 +150,9 @@
       "name": "Steam · Sid Meier's Civilization VI",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/289070/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-02（北京时间）"
+      "state": "ok",
+      "count": 2,
+      "detail": "读取正常，共检查 20 条，收录 2 条；早于最近 72 小时 18 条；本轮最新原文日期 2026-10-22（北京时间）"
     },
     {
       "id": "steam-dwarf-fortress",
@@ -223,8 +223,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 5,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 5 条候选"
+      "count": 6,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 6 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 13,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 13 条候选"
+      "count": 20,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -258,9 +258,9 @@
       "name": "Unity",
       "platform": "网站 / RSS",
       "url": "https://unity.com/blog/rss",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 0 条候选"
+      "state": "ok",
+      "count": 1,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 1 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -268,8 +268,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/rss.xml",
       "state": "ok",
-      "count": 18,
-      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 18 条候选"
+      "count": 20,
+      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-be9919cef9",
@@ -277,8 +277,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gcores.com/rss",
       "state": "ok",
-      "count": 17,
-      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 17 条候选"
+      "count": 20,
+      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-68554a31d0",
@@ -286,8 +286,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 6,
-      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 6 条候选"
+      "count": 10,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 10 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -314,7 +314,7 @@
       "url": "https://openai.com/news/rss.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 1303 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 1312 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-0ea3c11e0b",
@@ -332,7 +332,7 @@
       "url": "https://huggingface.co/blog/feed.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 886 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 888 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-d1c587ecba",
@@ -357,9 +357,9 @@
       "name": "GameRes 策划",
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/list/25",
-      "state": "degraded",
-      "count": 4,
-      "detail": "读取 11 篇文章页面；720 小时时间窗内取得 4 条候选；其中 1 篇未能读取（ConnectionError）"
+      "state": "ok",
+      "count": 5,
+      "detail": "读取 11 篇文章页面；720 小时时间窗内取得 5 条候选"
     },
     {
       "id": "web-2c4b61fbd7",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 195,
-    "deduplicated": 194,
-    "retained": 194,
+    "raw": 217,
+    "deduplicated": 216,
+    "retained": 216,
     "restricted_withheld": 0
   }
 }

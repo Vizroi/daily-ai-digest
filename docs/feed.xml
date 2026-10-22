@@ -4,201 +4,193 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 16 条，策划精选 3 篇，AI 快讯 5 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 15 条，策划精选 3 篇，AI 快讯 3 条，AI 精选 2 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 21 Oct 2026 13:07:51 +0800</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 13:10:30 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《红色沙漠：增强版》DLC《未知征途》公布特色介绍视频</title>
-  <link>https://www.gcores.com/articles/221237</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a51be20d47d6614de2cdebac</guid>
-  <pubDate>Wed, 21 Oct 2026 04:12:43 +0000</pubDate>
+  <title>EA裁员约400人并关闭BioWare，《质量效应》新作取消</title>
+  <link>https://www.gcores.com/articles/221281</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b364e96669489d1add3db5bf</guid>
+  <pubDate>Wed, 21 Oct 2026 17:17:38 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Pearl Abyss发布《红色沙漠：增强版》DLC《未知征途》特色介绍视频，展示新故事、远洋航行与水下探索、角色关系与恋爱结婚、商业经营、住宅系统扩展及连续Boss挑战等内容，DLC定于2026年10月30日推出并已开放预购。</p><p><small>来源：<a href="https://www.gcores.com/articles/221237">机核</a></small></p><p><small>原文发布：2026-10-21 12:12（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>EA宣布裁员约400人、关闭1995年创立的老牌工作室BioWare，其中BioWare约50人受影响，处于早期开发阶段的《质量效应》新作被取消。EA称未来将投资体育游戏、《Apex英雄》、动作冒险项目及《战地》系列。</p><p><small>来源：<a href="https://www.gcores.com/articles/221281">机核</a> · <a href="https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development">Game Developer</a> · <a href="https://www.gamesindustry.biz/bioware-is-closing-after-30-years">GamesIndustry</a> · <a href="https://80.lv/articles/bioware-is-shutting-down/">80.lv</a></small></p><p><small>原文发布：2026-10-22 01:17（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《控制：共振》高级关卡设计师将出席2026北京核聚变</title>
-  <link>https://www.gcores.com/articles/221192</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ee1816a36cc78f7aed003188</guid>
-  <pubDate>Wed, 21 Oct 2026 02:00:00 +0000</pubDate>
+  <title>《赛博朋克2077》2.5版本更新公布：新增支线、双持手枪与跨平台模组</title>
+  <link>https://www.gcores.com/articles/221274</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-30c57f628bdb11e352e1bc26</guid>
+  <pubDate>Thu, 22 Oct 2026 01:05:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核发布活动信息：《控制：共振》高级关卡设计师Arhi Makkonen与社区经理Julius Fondem将到2026北京核聚变现场与玩家交流，并参加舞台活动；文中列出展位号、展会时间地点及现场影像采集提示。</p><p><small>来源：<a href="https://www.gcores.com/articles/221192">机核</a></small></p><p><small>原文发布：2026-10-21 10:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《赛博朋克2077》公布2.5版本更新详情，将登陆PC、PS5和Xbox Series X|S，Switch 2与Mac延后。内容包括《边缘行者》相关支线任务与装备、新电台、新服装、手掌义体自定义、镇定技能树双持手枪专长、mod.io跨平台模组支持，以及DLSS 4.5、FSR选项调整等技术更新。</p><p><small>来源：<a href="https://www.gcores.com/articles/221274">机核</a> · <a href="https://80.lv/articles/cdpr-somehow-found-another-reason-to-update-cyberpunk-2077-again-for-free/">80.lv</a></small></p><p><small>原文发布：2026-10-22 09:05（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《赛博朋克2077》10月22日更新2.5版本，联动《边缘行者2》</title>
-  <link>https://www.gcores.com/articles/221215</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-08715774f934bcaf69c306e4</guid>
-  <pubDate>Wed, 21 Oct 2026 01:35:00 +0000</pubDate>
+  <title>《致命躯壳 II》实装“腐烂之秋”免费更新</title>
+  <link>https://www.gcores.com/articles/221276</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-21b15995e146dd29ad576829</guid>
+  <pubDate>Thu, 22 Oct 2026 00:45:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>CDPR宣布《赛博朋克2077》将于10月22日实装2.5版本更新，本次更新与已在网飞上线的《赛博朋克：边缘行者2》联动。文章未披露联动的具体内容与玩法细节。</p><p><small>来源：<a href="https://www.gcores.com/articles/221215">机核</a></small></p><p><small>原文发布：2026-10-21 09:35（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《致命躯壳 II》上线“腐烂之秋”免费更新，官方列出新增内容：拍照模式、更多躯壳外观、15处新地牢、10种新余露石、暗夜模式光照预设、“超载”画质选项、南瓜头盔与琉特琴皮肤及音乐，以及优化与问题修复。</p><p><small>来源：<a href="https://www.gcores.com/articles/221276">机核</a></small></p><p><small>原文发布：2026-10-22 08:45（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《城堡漂流记》Steam新品节Demo更新：异步联机与圣器系统</title>
-  <link>https://www.gameres.com/901203265.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f1dacb800decac40d755cc92</guid>
-  <pubDate>Tue, 20 Oct 2026 08:49:00 +0000</pubDate>
+  <title>《无光绝境》开启四人合作测试，计划12月2日推出抢先体验</title>
+  <link>https://www.gameres.com/901203281.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-91d4237f0a3c2dc0b1d9de7a</guid>
+  <pubDate>Wed, 21 Oct 2026 12:13:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>荷兰独立工作室Renegade Games宣布，《城堡漂流记》Steam新品节Demo已更新，新增多人异步联机对手、影响单局构筑的圣器系统、角色外观自定义和战斗速度控制，正式版计划2027年第一季度推出。</p><p><small>来源：<a href="https://www.gameres.com/901203265.html">GameRes</a></small></p><p><small>原文发布：2026-10-20 16:49（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>由Pokuch开发、META Publishing发行的开放世界生存冒险游戏《无光绝境》于10月14日开启多人合作Playtest，支持最多四人联机，测试预计持续两周，玩家可通过Steam申请资格；抢先体验版计划于2026年12月2日推出。</p><p><small>来源：<a href="https://www.gameres.com/901203281.html">GameRes</a></small></p><p><small>原文发布：2026-10-21 20:13（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>乡村模拟经营游戏《复兴吧温泉镇！》12月7日开启Steam抢先体验</title>
-  <link>https://www.gameres.com/901203264.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f0cdd5256807554f49e6490b</guid>
-  <pubDate>Tue, 20 Oct 2026 07:40:00 +0000</pubDate>
+  <title>《魔域》金秋幻兽镜汐上线时间与榜单、灵蕴及助战机制</title>
+  <link>https://www.gameres.com/901203278.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7156fa756f44ace75a5cb7a2</guid>
+  <pubDate>Wed, 21 Oct 2026 08:58:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>GameRes消息称，乡村模拟经营新作《复兴吧温泉镇！》将于2026年12月7日在Steam开启抢先体验，并在10月Steam新品节开放试玩，玩法包括乡间探索、海底潜水、种植和钓鱼。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gameres.com/901203264.html">GameRes</a></small></p><p><small>原文发布：2026-10-20 15:40（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《魔域》公布金秋幻兽「澜境君·镜汐」的机制：正式服10月23日、先锋区10月21日维护后上线；达到3000分可登记至臻榜单，按投喂灵蕴数量排名；灵蕴由1500分以上幻兽产出或玩家间求购；另有1个主动、6个被动、4个非战技能及助战提分与消耗减免。</p><p><small>来源：<a href="https://www.gameres.com/901203278.html">GameRes</a></small></p><p><small>原文发布：2026-10-21 16:58（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Griffin Gaming Partners与Entertainment 360成立游戏影视改编公司Hitpoint Entertainment</title>
-  <link>https://www.gamedeveloper.com/business/griffin-gaming-partners-entertainment-360-jointly-unveil-production-company-hitpoint-entertainment</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-842b510a0a6cecdc6769e338</guid>
-  <pubDate>Tue, 20 Oct 2026 15:10:33 +0000</pubDate>
+  <title>《文明VI》十周年特卖：本体、DLC与白金版打折</title>
+  <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114029669</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-705df31f7f02dd5f1ac71812</guid>
+  <pubDate>Wed, 21 Oct 2026 17:03:41 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Griffin Gaming Partners, Entertainment 360 jointly unveil production company Hitpoint Entertainment</small></p><p>游戏行业风投Griffin Gaming Partners与好莱坞经纪公司Entertainment 360宣布成立Hitpoint Entertainment，该公司将筛选、开发、包装并制作游戏改编的影视作品，题材覆盖动作、喜剧、爱情等类型，运作方式类似Story Kitchen与派拉蒙等成熟制片方合作。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/griffin-gaming-partners-entertainment-360-jointly-unveil-production-company-hitpoint-entertainment">Game Developer</a> · <a href="https://www.gamesindustry.biz/griffin-gaming-partners-and-entertainment-360-launch-new-company-to-support-video-game-adaptations-for-film-and-tv">GamesIndustry</a></small></p><p><small>原文发布：2026-10-20 23:10（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Civilization VI 10th Anniversary Sale</small></p><p>为纪念《席德·梅尔的文明VI》发售十周年，官方宣布2026年10月21日至11月4日对本体、后续DLC及重新上架的白金版打折，并列出白金版与典藏版所含内容。</p><p><small>来源：<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114029669">Steam · Sid Meier&#x27;s Civilization VI</a> · <a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114029407">Steam · Sid Meier&#x27;s Civilization VI</a></small></p><p><small>原文发布：2026-10-22 01:03（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《勇者小队全灭了。》开发团队谈40万字叙事与卡牌QTE设计</title>
-  <link>https://www.gameres.com/901203268.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7729ad8558a7831f0d3a13e1</guid>
-  <pubDate>Wed, 21 Oct 2026 01:22:00 +0000</pubDate>
+  <title>移动游戏在营销漏斗中的定位再讨论</title>
+  <link>https://unity.com/blog/mobile-gaming-advertising-full-funnel-strategy-for-marketers</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-787937cd9b9d08ce9e862c62</guid>
+  <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>日本三人团队デス組合开发的剧情驱动Roguelite卡牌游戏《勇者小队全灭了。》延期至2026年11月10日登陆Steam。团队在采访中介绍约40万字、四条角色路线的剧本，以及卡牌构筑结合QTE、武器破坏等战斗设计。</p><p><small>来源：<a href="https://www.gameres.com/901203268.html">GameRes</a></small></p><p><small>原文发布：2026-10-21 09:22（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Rethinking the funnel: where mobile gaming really fits in the marketing mix</small></p><p>Unity在戛纳与数字广告业内人士交流后撰文称，消费者转化路径已非线性，移动游戏可在漏斗各阶段触达用户；文章认为其全屏、主动参与和用户自愿进入的环境同时适合效果广告与品牌建设，医疗等非游戏行业广告主也开始评估这一渠道。</p><p><small>来源：<a href="https://unity.com/blog/mobile-gaming-advertising-full-funnel-strategy-for-marketers">Unity</a></small></p><p><small>原文发布：2026-10-21 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Fuse Games CEO详解《星球大战：银河赛车手》分布式开发框架</title>
-  <link>https://www.gamedeveloper.com/production/fuse-games-ceo-breaks-down-codev-framework-for-star-wars-galactic-racer</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-90f0d21b94af7076b268496d</guid>
-  <pubDate>Tue, 20 Oct 2026 18:39:12 +0000</pubDate>
+  <title>《荒野乱斗》LCQ广州站：线下模式移植与观赛体验</title>
+  <link>http://www.chuapp.com/article/291704.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6efbb1dff38da3e4bb776e30</guid>
+  <pubDate>Thu, 22 Oct 2026 03:43:06 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Fuse Games CEO breaks down codev framework for Star Wars: Galactic Racer</small></p><p>Fuse Games CEO Matt Webster向Gamesindustry.biz介绍《星球大战：银河赛车手》的分布式开发模式，将外包、外部开发与联合开发分为三层：外包按明确交付物提供资产，外部团队负责照片模式等独立功能，联合开发者则参与站会与Slack、作为核心团队延伸。</p><p><small>来源：<a href="https://www.gamedeveloper.com/production/fuse-games-ceo-breaks-down-codev-framework-for-star-wars-galactic-racer">Game Developer</a></small></p><p><small>原文发布：2026-10-21 02:39（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐记者记录了10月17日至18日在广州举行的《荒野乱斗》全球锦标赛最后一搏资格赛，NAVI与Team Heretics获得两张全球总决赛门票。文章描述现场将游戏模式改造成线下互动活动，以及多模式轮换、末秒翻盘带来的观赛体验。</p><p><small>来源：<a href="http://www.chuapp.com/article/291704.html">触乐</a></small></p><p><small>原文发布：2026-10-22 11:43（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>宫崎英高谈类魂游戏的诞生与演变</title>
-  <link>http://www.chuapp.com/article/291701.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-af70f27e7face56cc1ba29f0</guid>
-  <pubDate>Tue, 20 Oct 2026 18:20:04 +0000</pubDate>
+  <title>Side收购Roboto Entertainment并在成都设新工作室</title>
+  <link>https://www.gameres.com/901203294.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fe8be00a7999338bf14b45fe</guid>
+  <pubDate>Thu, 22 Oct 2026 03:23:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐刊发对宫崎英高的采访，他回顾从《恶魔之魂》《黑暗之魂》到《血源诅咒》《只狼》《艾尔登法环》的开发历程，并谈及《仁王》《堕落之主》《匹诺曹的谎言》《渎神》等团队对类魂品类的借鉴与改造。</p><p><small>来源：<a href="http://www.chuapp.com/article/291701.html">触乐</a></small></p><p><small>原文发布：2026-10-21 02:20（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>全球游戏服务商Side宣布收购成都精品游戏美术工作室Roboto Entertainment，创始人Andrea Cordella出任Side全球美术总监并负责成都新工作室，团队将与上海及全球美术与联合开发团队协作。</p><p><small>来源：<a href="https://www.gameres.com/901203294.html">GameRes</a></small></p><p><small>原文发布：2026-10-22 11:23（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Innersloth联合创始人提醒开发者警惕不公平发行合约</title>
-  <link>https://www.gamedeveloper.com/business/outersloth-co-founder-warns-devs-there-are-some-very-bad-deals-out-there-</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-16b93f59c3ec410b38effcc8</guid>
-  <pubDate>Tue, 20 Oct 2026 16:01:46 +0000</pubDate>
+  <title>古墓丽影总监谈30年3D关卡设计演变与可选引导</title>
+  <link>https://80.lv/articles/tomb-raider-director-explains-how-3d-level-design-has-evolved-over-30-years/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2ce782c069d5caa732251d98</guid>
+  <pubDate>Wed, 21 Oct 2026 19:56:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Innersloth co-founder warns devs: &#x27;there are some very bad deals out there&#x27;</small></p><p>Innersloth联合创始人Forest Willard在SLICE 2026上表示，他看过其他开发者签署的部分游戏发行合约条件极差，并称自己不会责怪为完成梦想项目而签约的开发者，但会责怪提出这类条款的发行方。他未给出具体案例。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/outersloth-co-founder-warns-devs-there-are-some-very-bad-deals-out-there-">Game Developer</a></small></p><p><small>原文发布：2026-10-21 00:01（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Tomb Raider Director Explains How 3D Level Design Has Evolved Over 30 Years</small></p><p>《古墓丽影》游戏总监Raul Siqueira回顾系列30年3D关卡设计，谈保留初代孤立感、相机技术对关卡与跳跃谜题设计的影响，以及《Legacy of Atlantis》中可分别调节战斗、谜题提示与探索引导的辅助系统。</p><p><small>来源：<a href="https://80.lv/articles/tomb-raider-director-explains-how-3d-level-design-has-evolved-over-30-years/">80.lv</a></small></p><p><small>原文发布：2026-10-22 03:56（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>手绘社交推理游戏Forest of Deceit支持4-8人手机联机</title>
-  <link>https://80.lv/articles/jackbox-esque-social-deduction-game-where-you-help-your-friends-or-betray-them/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-52d6f64ef3e209f60aae5838</guid>
-  <pubDate>Tue, 20 Oct 2026 13:55:00 +0000</pubDate>
+  <title>Substance 3D Painter 12.2支持直接在模型上绘制烘焙笼</title>
+  <link>https://80.lv/articles/substance-3d-painter-12-2-lets-artists-paint-baking-cages-directly-on-models/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8df8ddc8203d845e5d74d63a</guid>
+  <pubDate>Wed, 21 Oct 2026 18:17:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：&quot;Jackbox-Esque&quot; Social Deduction Game Where You Help Your Friends or Betray Them</small></p><p>80.lv介绍Ghost Camp与Thomas Mackinnon开发的社交推理游戏Forest of Deceit：4-8名玩家合作收集材料搭建避难所，其中混有被森林腐化的叛徒负责破坏，队伍可识别并投票驱逐叛徒；仅需一人安装游戏，其他人用手机加入。</p><p><small>来源：<a href="https://80.lv/articles/jackbox-esque-social-deduction-game-where-you-help-your-friends-or-betray-them/">80.lv</a></small></p><p><small>原文发布：2026-10-20 21:55（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Substance 3D Painter 12.2 Lets Artists Paint Baking Cages Directly on Models</small></p><p>Adobe发布Substance 3D Painter 12.2，新增烘焙笼绘制、三种Polygon Fill选择模式、仅可见多边形选项、纹理集高亮，以及针对重叠透明材质的顺序无关透明渲染改进。</p><p><small>来源：<a href="https://80.lv/articles/substance-3d-painter-12-2-lets-artists-paint-baking-cages-directly-on-models/">80.lv</a></small></p><p><small>原文发布：2026-10-22 02:17（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Unreal Engine 5游戏开发课程合集上线</title>
-  <link>https://80.lv/articles/learn-unreal-engine-5-game-development-with-over-24-courses-from-this-bundle/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6b0eb6fdeb6674e299cfeada</guid>
-  <pubDate>Tue, 20 Oct 2026 12:49:00 +0000</pubDate>
+  <title>Steam 2026年10月新品节值得试玩的游戏推荐</title>
+  <link>https://80.lv/articles/what-to-play-during-steam-s-next-fest-2026-best-games-to-try/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-34b9d1dad187446b450753ba</guid>
+  <pubDate>Wed, 21 Oct 2026 18:13:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Learn Unreal Engine 5 Game Development with Over 24 Courses from This Bundle</small></p><p>80.lv报道了一套Unreal Engine 5游戏开发课程合集，包含超过24门课程，内容覆盖蓝图、玩法编程、物理和MetaSounds，项目类型包括FPS、生存恐怖和平台跳跃游戏。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://80.lv/articles/learn-unreal-engine-5-game-development-with-over-24-courses-from-this-bundle/">80.lv</a></small></p><p><small>原文发布：2026-10-20 20:49（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：What to Play During Steam&#x27;s Next Fest 2026: Best Games to Try</small></p><p>80.lv盘点Steam 2026年10月新品节中超过8000款试玩版里的推荐作品，涵盖Loftia、Hela: Of Mice &amp; Magic、Reshine、Haunted Paws、UNFROST、Remothered: Red Nun&#x27;s Legacy、Inkblood、Demi and the Fractured Dream、Alchemortis和Guns of Eschaton，并简述各作玩法。</p><p><small>来源：<a href="https://80.lv/articles/what-to-play-during-steam-s-next-fest-2026-best-games-to-try/">80.lv</a></small></p><p><small>原文发布：2026-10-22 02:13（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>美泰成立游戏工作室，谈Roblox策略与网易合作经验</title>
-  <link>https://www.gamesindustry.biz/players-want-to-engage-with-brands-not-just-consume-them-mattel-on-its-new-game-studios-arm-why-its-releasing-on-roblox-and-what-it-learnt-from-netease</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4665f47280b73ae5d17f5aca</guid>
-  <pubDate>Tue, 20 Oct 2026 12:30:00 +0000</pubDate>
+  <title>AMD FSR 4.1 超分辨率技术将登陆 Xbox Series X|S</title>
+  <link>https://www.gamesindustry.biz/amds-fsr-41-upscaling-is-coming-to-xbox-series-xs</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d634802cd5855fcb6b7c9565</guid>
+  <pubDate>Wed, 21 Oct 2026 17:39:13 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：&quot;Players want to engage with brands, not just consume them&quot; – Mattel on its new Game Studios arm, why it&#x27;s releasing on Roblox, and what it learnt from NetEase</small></p><p>美泰成立Mattel Game Studios，整合自研、授权与创作者平台业务，覆盖近300名员工；其高管介绍选择合作伙伴的标准、在Roblox上需为平台原生设计，以及从与网易合资公司Mattel163学到的长线运营经验。</p><p><small>来源：<a href="https://www.gamesindustry.biz/players-want-to-engage-with-brands-not-just-consume-them-mattel-on-its-new-game-studios-arm-why-its-releasing-on-roblox-and-what-it-learnt-from-netease">GamesIndustry</a></small></p><p><small>原文发布：2026-10-20 20:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：AMD&#x27;s FSR 4.1 upscaling is coming to Xbox Series X|S</small></p><p>微软与 AMD 宣布，基于机器学习的时序超分辨率技术 FSR 4.1 将支持 Xbox Series X|S，但未公布具体日期，仅称“很快”。该技术以低分辨率渲染再重建为高分辨率，还将支持 RX 6000 系列显卡、部分锐龙笔记本与掌机。游戏需开发者打补丁才能启用。</p><p><small>来源：<a href="https://www.gamesindustry.biz/amds-fsr-41-upscaling-is-coming-to-xbox-series-xs">GamesIndustry</a></small></p><p><small>原文发布：2026-10-22 01:39（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《辐射：新维加斯》开发中模组加入路径追踪</title>
-  <link>https://80.lv/articles/this-wip-mod-adds-path-tracing-to-fallout-new-vegas/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5e1694282300e7e48ad64c78</guid>
-  <pubDate>Tue, 20 Oct 2026 11:47:00 +0000</pubDate>
+  <title>独立游戏工作室如何设定并完成季度目标</title>
+  <link>https://www.gamesindustry.biz/how-to-run-an-indie-game-studio-part-4-setting-and-hitting-quarterly-rocks</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d87046fd4115d1cc91779f6f</guid>
+  <pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This WIP Mod Adds Path Tracing to Fallout: New Vegas</small></p><p>模组作者Kim2091发布《辐射：新维加斯》RTX模组，基于NVIDIA RTX Remix加入路径追踪、自定义体积云与PBR渲染，将引擎光源改为真实光源，并重做天气、天空与Pip-Boy界面表现，同时保留对其他模组的兼容。</p><p><small>来源：<a href="https://80.lv/articles/this-wip-mod-adds-path-tracing-to-fallout-new-vegas/">80.lv</a></small></p><p><small>原文发布：2026-10-20 19:47（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How to run an indie game studio: Part 4, Setting (and hitting) quarterly rocks</small></p><p>商业教练Martijn van Zwieten在系列第四篇中介绍季度“岩石”目标法：以年度目标为背景，团队共同确定未来90天最重要的五到七件事，要求目标具体到季末可判定是否完成，并安排季度复盘。</p><p><strong>背景与变化</strong><br>作者认为年度目标周期太长、冲刺太短，季度长度适中；团队共同设定目标可形成对齐，具体目标便于问责，复盘用于总结经验并校准工作室实际产能。</p><p><strong>策划视角</strong><br>可研究：五到七条季度目标在小型游戏团队中如何与制作排期结合，以及“可判定完成”的标准如何避免变成新的形式化指标。</p><p><small>来源：<a href="https://www.gamesindustry.biz/how-to-run-an-indie-game-studio-part-4-setting-and-hitting-quarterly-rocks">GamesIndustry</a></small></p><p><small>原文发布：2026-10-21 22:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>日本演员联盟发布生成式AI声音使用指南</title>
-  <link>https://www.gamesindustry.biz/japan-actors-union-announces-guidelines-addressing-unauthorised-use-of-generative-ai-for-voice-acting</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f38d6909bec25c3b302757d3</guid>
-  <pubDate>Tue, 20 Oct 2026 10:42:26 +0000</pubDate>
+  <title>报道称Project Helix将于2028年底推出，预计售价1200至1800美元</title>
+  <link>https://www.gamesindustry.biz/project-helix-reportedly-launching-in-late-2028-projected-to-cost-between-1200-and-1800</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2230890d4babb078475e8771</guid>
+  <pubDate>Wed, 21 Oct 2026 13:38:47 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Japan Actors Union announces guidelines addressing unauthorised use of generative AI to replicate voice performances</small></p><p>日本演员联盟发布指南，要求使用生成式AI复刻表演声音须在各阶段取得事先同意；AI复刻表演视为新表演，需额外支付版税；已故演员须生前授权并获家属及所属机构同意；AI翻译须保持原表演艺术完整性。</p><p><small>来源：<a href="https://www.gamesindustry.biz/japan-actors-union-announces-guidelines-addressing-unauthorised-use-of-generative-ai-for-voice-acting">GamesIndustry</a></small></p><p><small>原文发布：2026-10-20 18:42（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Project Helix reportedly launching in late 2028, projected to cost between $1,200 and $1,800</small></p><p>据GamesIndustry援引Fortune报道，Xbox下一代主机Project Helix据称定于2028年假日季推出，预计售价1200至1800美元；报道还提到Xbox计划明年推出新一代掌机、调整Game Pass，并继续重组与裁员。</p><p><small>来源：<a href="https://www.gamesindustry.biz/project-helix-reportedly-launching-in-late-2028-projected-to-cost-between-1200-and-1800">GamesIndustry</a></small></p><p><small>原文发布：2026-10-21 21:38（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Sensor Tower数据：GTA 6预购量远超近年大作</title>
-  <link>https://www.gamesindustry.biz/sensor-tower-data-shows-the-yawning-gap-between-gta-6-and-everything-else</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-70d6491a795f3f41626ce178</guid>
-  <pubDate>Tue, 20 Oct 2026 10:00:57 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Sensor Tower data shows the yawning gap between GTA 6 and everything else</small></p><p>Sensor Tower分析显示，截至10月13日GTA 6在美国数字预购约608万份、估算收入5.94亿美元，比《使命召唤：现代战争2》同期预购量高148%；74%预购来自PlayStation，多数为100美元终极版。该数据不含实体版。</p><p><small>来源：<a href="https://www.gamesindustry.biz/sensor-tower-data-shows-the-yawning-gap-between-gta-6-and-everything-else">GamesIndustry</a></small></p><p><small>原文发布：2026-10-20 18:00（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>英雄联盟梅尔中型重做：移除W技能反弹机制</title>
-  <link>https://www.leagueoflegends.com/en-us/news/dev/dev-mel-midscope</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6531caeadc0155ff08bd7c2b</guid>
-  <pubDate>Tue, 20 Oct 2026 17:00:00 +0000</pubDate>
+  <title>《Turok: Origins》团队谈恐龙敌人、DNA系统与双视角设计</title>
+  <link>https://www.gcores.com/articles/220935</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8ff01b64822ae42189d2f36d</guid>
+  <pubDate>Thu, 22 Oct 2026 02:00:00 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：/dev: Mel Midscope</small></p><p>拳头游戏设计师Kevin Huang说明梅尔中型重做的原因与方案：W技能不再反弹敌方技能，改为摧毁弹道并为队友提供护盾和移速；同时削弱前期强度、增强后期成长性，并调整Q、E与被动叠加方式。</p><p><strong>设计选择</strong><br>作者称反弹机制长期令对手沮丧且难以平衡，测试过缩短射程、偷取技能等版本均不理想；因此把部分前期强度转向成长性，并让Q命中英雄返还冷却、大招随等级获得更多冷却缩减。</p><p><strong>策划视角</strong><br>可对照重做前后梅尔的胜率、禁用率与选取率变化，考察移除反弹后其对抗体验和团战定位是否如设计目标所愿。</p><p><small>来源：<a href="https://www.leagueoflegends.com/en-us/news/dev/dev-mel-midscope">League of Legends · Dev</a></small></p><p><small>原文发布：2026-10-21 01:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>机核在TGS2026试玩《Turok: Origins》后采访Saber Interactive开发团队，团队介绍了按生态区域设计恐龙行为、DNA系统与成长及战衣外观的关联、第一与第三人称视角各自独立的操作和动画制作，以及单人与合作模式在内容一致、难度和敌人强度上的差异。</p><p><strong>设计选择</strong><br>团队称先按生态区域确定生物种类，再参考现实生物资料设计外观与行为；DNA被定位为贯穿剧情、设定与成长的核心概念；两种视角分别制作闪避、瞄准与武器动画；合作模式随人数增加敌人数量与攻击性。</p><p><strong>策划视角</strong><br>可对照试玩描述，考察不同恐龙的追踪与攻击行为是否真能改变玩家的应对方式，以及DNA能力在战斗选择上的实际差异。</p><p><small>来源：<a href="https://www.gcores.com/articles/220935">机核</a></small></p><p><small>原文发布：2026-10-22 10:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>熟练之后为何仍想再战：重复战斗中的过程乐趣</title>
-  <link>https://www.gameres.com/901203267.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-012809649a22eaa056bb35cb</guid>
-  <pubDate>Tue, 20 Oct 2026 09:08:00 +0000</pubDate>
+  <title>RPG Maker U2U制作人谈P2D地图与Luau插件系统</title>
+  <link>https://80.lv/articles/interview-rpg-maker-u2u-lets-you-build-hd-2d-worlds-without-learning-3d/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a47537a5b78c440bc082e32c</guid>
+  <pubDate>Wed, 21 Oct 2026 16:19:00 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>作者以《怪物猎人》中怨虎龙三连尾刺的应对、风漂龙斜坡滑行跳跃攻击、钢龙弓箭连续射击三个个人案例，分析玩家在内容熟悉后仍主动重复战斗的过程理由，并提出可观察的动作、地形与反馈条件。</p><p><strong>设计选择</strong><br>作者用动作学习区分“学会”与“当次执行”，用胜任感研究解释发挥已有能力的体验，并强调这些只是解释方向，未测量动机类型，也未验证与持续参与的关系。</p><p><strong>策划视角</strong><br>可追问：在已记住招式顺序却仍会接不上动作时，系统应如何呈现衔接失败的位置，才能让策划区分“尚在摸索”与“已会但没做成”？</p><p><small>来源：<a href="https://www.gameres.com/901203267.html">GameRes 策划</a></small></p><p><small>原文发布：2026-10-20 17:08（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Interview: RPG Maker U2U Lets You Build HD-2D Worlds Without Learning 3D</small></p><p>Gotcha Gotcha Games制作人一之濑裕之受访介绍RPG Maker U2U：以P2D系统把传统2D图块转为3D空间中的方块，保留事件与数据库等MZ工作流，可复用MV/MZ地图图块与角色素材，插件改用Luau，并已推出仅含地图编辑功能的免费Demo。</p><p><strong>设计选择</strong><br>作者转述制作人取舍：为控制学习与制作成本放弃自由旋转镜头，只围绕固定视角搭建地图；沿用MZ界面与素材规格降低门槛，但旧工程与JavaScript插件不兼容。</p><p><strong>策划视角</strong><br>固定镜头与仅需制作可见面的做法，会如何影响地图设计思路与关卡可读性？</p><p><small>来源：<a href="https://80.lv/articles/interview-rpg-maker-u2u-lets-you-build-hd-2d-worlds-without-learning-3d/">80.lv</a></small></p><p><small>原文发布：2026-10-22 00:19（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>游戏机制神谕：随机组合生成机制灵感</title>
-  <link>https://gdkeys.com/wip-game-mechanic-oracle/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0da3c886d758fb4af4874f09</guid>
-  <pubDate>Sun, 04 Oct 2026 19:19:09 +0000</pubDate>
+  <title>把教程变成奖励：用好奇心驱动复杂系统的教学</title>
+  <link>https://danfelder.net/2026/09/29/how-to-turn-tutorials-into-rewards/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1982ca03448b8e7805d0d13a</guid>
+  <pubDate>Tue, 29 Sep 2026 18:19:49 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：The Game Mechanic Oracle</small></p><p>GDKeys介绍一款名为Game Mechanic Oracle的网页工具，通过转动四个转轮随机组合出游戏机制提示，四个维度分别是玩家动作、互动元素、目标与变数，用户可锁定、隐藏或拖动转轮，并在文本框记录想法。</p><p><strong>设计选择</strong><br>作者把工具定位为头脑风暴起点而非设计替代品，提示刻意保持开放，鼓励用户自行诠释并突破行业常规；具体做法是分维度随机组合并允许手动干预。</p><p><strong>策划视角</strong><br>可研究这类随机提示工具在多大程度上帮助策划跳出惯用组合，以及锁定与隐藏维度会怎样影响发散与收敛的节奏。</p><p><small>来源：<a href="https://gdkeys.com/wip-game-mechanic-oracle/">GDKeys</a></small></p><p><small>原文发布：2026-10-05 03:19（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：How to turn Tutorials into Rewards</small></p><p>作者提出，复杂游戏可先不解释奖励内容，只暗示会有好事发生，借好奇心驱动玩家参与；并以《空洞骑士》的收集奖励和《女神异闻录5》的天鹅绒房间为例，说明先制造悬念、再在玩家渴望信息时交付教程。</p><p><strong>设计选择</strong><br>作者的方法是用悬念延后信息交付：先让玩家对地点和功能产生好奇，等剧情再次带回该场景时再讲系统，使教程本身成为奖励。</p><p><strong>策划视角</strong><br>可研究：这种“先藏后讲”的节奏在什么情况下会失效，比如玩家提前猜到奖励或悬念拖得过久时？</p><p><small>来源：<a href="https://danfelder.net/2026/09/29/how-to-turn-tutorials-into-rewards/">Dan Felder</a></small></p><p><small>原文发布：2026-09-30 02:19（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>连锁餐厅加盟商用ChatGPT Work缩短对账与定价时间</title>
-  <link>https://openai.com/index/ted-taylor-restaurant</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-964f3bd5a161776ae3e7fcce</guid>
-  <pubDate>Tue, 20 Oct 2026 10:00:00 +0000</pubDate>
+  <title>OpenAI models are coming to Google Cloud</title>
+  <link>https://openai.com/index/openai-models-google-cloud</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-762567ee028546045cd21fb0</guid>
+  <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Franchisee reconciles cash in 94% less time with ChatGPT Work</small></p><p>OpenAI文章介绍新墨西哥州一家经营三家Schlotzsky&#x27;s与Cinnabon门店的加盟商Ted Taylor，用ChatGPT Work处理菜单定价、排班、现金对账和工资汇总等事务，并给出其自述的时间节省与潜在现金流估算。</p><p><small>来源：<a href="https://openai.com/index/ted-taylor-restaurant">OpenAI</a></small></p><p><small>原文发布：2026-10-20 18:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/openai-models-google-cloud">OpenAI</a></small></p><p><small>原文发布：2026-10-21 20:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Terminal X用GPT-6.1构建投资评估代理，与资深投资人判断一致率88.6%</title>
-  <link>https://openai.com/index/terminal-x</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ad3437865a46c14568ff7de7</guid>
-  <pubDate>Tue, 20 Oct 2026 07:00:00 +0000</pubDate>
+  <title>OpenAI披露用AI发现PHP关键漏洞并协调修复</title>
+  <link>https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e166210723798a6f205babc4</guid>
+  <pubDate>Wed, 21 Oct 2026 07:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Terminal X matches senior investor judgment 88.6% with GPT-6.1</small></p><p>Terminal X为投资机构搭建基于OpenAI模型的代理系统，将机构投资标准编码为可审计工作流；其Eval Agent按54项标准评分，在500个评分判断中与资深人类评审一致率88.6%，比次优模型高220个基点。</p><p><small>来源：<a href="https://openai.com/index/terminal-x">OpenAI</a></small></p><p><small>原文发布：2026-10-20 15:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Patch the Planet: global response coordination as agents uncover critical vulnerabilities</small></p><p>OpenAI称其团队用GPT-5.6 Sol在Patch the Planet计划中发现PHP关键漏洞，Wiz也独立发现并报告；PHP维护者主导修复与发布，OpenAI与Wiz、Cloudflare等提供研究、技术支持和协调，并发布PHP版本检查工具。</p><p><small>来源：<a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities">OpenAI</a></small></p><p><small>原文发布：2026-10-21 15:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>eMudhra八个中间CA证书私钥泄露，需更新信任证书列表</title>
-  <link>https://simonwillison.net/2026/Oct/20/emudhra-certificates/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a0885200abaa72df429bb44f</guid>
-  <pubDate>Tue, 20 Oct 2026 23:50:25 +0000</pubDate>
+  <title>Panache：以美好年代法国为背景的移动端RTS游戏</title>
+  <link>https://simonwillison.net/2026/Oct/21/panache/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3635dd0e0ac6c54dfd0838a3</guid>
+  <pubDate>Wed, 21 Oct 2026 16:25:16 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：eMudhra Intermediate CA Compromise</small></p><p>Simon Willison转述：eMudhra八个中间CA证书的私钥被泄露，这些证书链到Mozilla、微软、苹果和Chrome根项目及众多下游信任库所信任的根证书。所有内置受信证书列表的软件都需更新，Linux发行版需更新ca-certificates包，uv、pip和certifi已发布含新证书列表的版本。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/20/emudhra-certificates/">Simon Willison</a></small></p><p><small>原文发布：2026-10-21 07:50（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Panache — RTS Belle Époque pour mobile</small></p><p>Simon Willison 在博客中介绍，他前一日以 Apache 2.0 许可发布的 RTS 游戏 Battle Drones 已出现法语分支 Panache；该分支把游戏美术改为 1900 年代法国蒸汽朋克风格，并加入动画开场和法语风格音乐，玩法暂未改动。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/21/panache/">Simon Willison</a></small></p><p><small>原文发布：2026-10-22 00:25（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>MiniMax发布M3.1 Flash：Agent评测居国产模型首位，输出速度超200 TPS</title>
-  <link>https://www.qbitai.com/2026/10/504517.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0623cc9a1f1e2d14c1a026a6</guid>
-  <pubDate>Tue, 20 Oct 2026 13:29:54 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>MiniMax正式发布M3.1 Flash，即此前在OpenRouter匿名测试的Space Bunny。文章称其在ALE得分29.6%、DeepSWE v1.1得分73.7%、CyberGym得分82.2分，输出速度最快200+ TPS，输入每百万Token 1元、输出4元。</p><p><small>来源：<a href="https://www.qbitai.com/2026/10/504517.html">量子位</a></small></p><p><small>原文发布：2026-10-20 21:29（北京时间）</small></p>]]></description>
+  <title>ChatGPT广告系统：有状态会话与独立编排模型</title>
+  <link>https://openai.com/index/building-chatgpt-ad-stack</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-650fa19e58223a20cc889cba</guid>
+  <pubDate>Wed, 21 Oct 2026 07:00:00 +0000</pubDate>
+  <category>AI 精选</category>
+  <description><![CDATA[<p><strong>AI 精选</strong></p><p><small>原标题：How we built ChatGPT’s novel ad stack for user trust and relevance</small></p><p>OpenAI技术人员介绍ChatGPT广告投放系统的设计：采用跨轮次、跨会话的有状态广告会话，由后训练的前沿大模型作为编排器调用检索、排序、相关性与竞价工具，并将广告选择与回答生成分置于独立服务，以隔离广告对回答的影响。</p><p><strong>背景与变化</strong><br>作者以多轮对话中意图逐步显现为例，说明传统按单次请求投放会误判目标或过早插入广告，因此改为会话级状态跟踪，并用独立服务与独立模型维持回答中立。</p><p><strong>阅读问题</strong><br>可追问：有状态会话跨会话记忆与用户选择个性化之间的边界如何界定，系统又如何判断“无合适广告”这一正常结果？</p><p><small>来源：<a href="https://openai.com/index/building-chatgpt-ad-stack">OpenAI</a></small></p><p><small>原文发布：2026-10-21 15:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>是石科技发布TokenFleet集群调度框架，公布GLM5.3调优数据</title>
-  <link>https://www.qbitai.com/2026/10/504421.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-79bb8c3febf2a86592d3e0cf</guid>
-  <pubDate>Tue, 20 Oct 2026 08:01:25 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>是石科技在2026 CCF全国高性能计算学术大会期间发布TokenFleet分布式调度框架，包含TokenPilot实例选点、FleetMind跨机房容量协同、SLOMax混合负载治理三部分，并给出GLM5.3在所测条件下的延迟与达标吞吐测算数据。</p><p><small>来源：<a href="https://www.qbitai.com/2026/10/504421.html">量子位</a></small></p><p><small>原文发布：2026-10-20 16:01（北京时间）</small></p>]]></description>
+  <title>PHP 8.x 安全更新修复两个远程代码执行漏洞</title>
+  <link>https://simonwillison.net/2026/Oct/21/php-security-release/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-73a9e0cc29269798540b8c3f</guid>
+  <pubDate>Wed, 21 Oct 2026 18:41:53 +0000</pubDate>
+  <category>AI 精选</category>
+  <description><![CDATA[<p><strong>AI 精选</strong></p><p><small>原标题：Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security</small></p><p>PHP 8.x 全系列发布安全更新，修复两个远程代码执行漏洞。由于协调披露流程出现泄露，漏洞信息提前流传，PHP 项目将原定 10 月 22 日的发布提前至 10 月 21 日。Wiz Research 于 8 月发现漏洞并报告，10 月 21 日补丁公开。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/21/php-security-release/">Simon Willison</a></small></p><p><small>原文发布：2026-10-22 02:41（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>
