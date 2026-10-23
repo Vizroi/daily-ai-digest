@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T05:10:13.952304+00:00",
+  "checked_at": "2026-10-23T05:09:47.614187+00:00",
   "sources": [
     {
       "id": "youtube-gmtk",
@@ -151,8 +151,8 @@
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/289070/",
       "state": "ok",
-      "count": 2,
-      "detail": "读取正常，共检查 20 条，收录 2 条；早于最近 72 小时 18 条；本轮最新原文日期 2026-10-22（北京时间）"
+      "count": 3,
+      "detail": "读取正常，共检查 20 条，收录 3 条；早于最近 72 小时 17 条；本轮最新原文日期 2026-10-23（北京时间）"
     },
     {
       "id": "steam-dwarf-fortress",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 20,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 20 条候选"
+      "count": 19,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 19 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -249,9 +249,9 @@
       "name": "Unreal Engine",
       "platform": "网站 / RSS",
       "url": "https://www.unrealengine.com/rss/news?lang=en-US",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取 10 条订阅记录；72 小时时间窗内取得 0 条候选"
+      "state": "ok",
+      "count": 1,
+      "detail": "读取 10 条订阅记录；72 小时时间窗内取得 1 条候选"
     },
     {
       "id": "web-531f01f744",
@@ -259,8 +259,8 @@
       "platform": "网站 / RSS",
       "url": "https://unity.com/blog/rss",
       "state": "ok",
-      "count": 1,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 1 条候选"
+      "count": 3,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 3 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -277,8 +277,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gcores.com/rss",
       "state": "ok",
-      "count": 20,
-      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 20 条候选"
+      "count": 18,
+      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 18 条候选"
     },
     {
       "id": "web-68554a31d0",
@@ -303,9 +303,9 @@
       "name": "GDKeys",
       "platform": "网站 / RSS",
       "url": "https://gdkeys.com/feed/",
-      "state": "ok",
-      "count": 1,
-      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 1 条候选"
+      "state": "error",
+      "count": 0,
+      "detail": "网络请求超时；重试后仍失败"
     },
     {
       "id": "web-3ae57466b5",
@@ -314,7 +314,7 @@
       "url": "https://openai.com/news/rss.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 1312 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 1315 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-0ea3c11e0b",
@@ -322,8 +322,8 @@
       "platform": "网站 / RSS",
       "url": "https://deepmind.google/blog/rss.xml",
       "state": "ok",
-      "count": 11,
-      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 11 条候选"
+      "count": 12,
+      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 12 条候选"
     },
     {
       "id": "web-33e649875b",
@@ -332,7 +332,7 @@
       "url": "https://huggingface.co/blog/feed.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 888 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 889 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-d1c587ecba",
@@ -358,8 +358,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/list/25",
       "state": "ok",
-      "count": 5,
-      "detail": "读取 11 篇文章页面；720 小时时间窗内取得 5 条候选"
+      "count": 4,
+      "detail": "读取 11 篇文章页面；720 小时时间窗内取得 4 条候选"
     },
     {
       "id": "web-2c4b61fbd7",
@@ -391,8 +391,8 @@
   ],
   "counts": {
     "raw": 217,
-    "deduplicated": 216,
-    "retained": 216,
+    "deduplicated": 217,
+    "retained": 217,
     "restricted_withheld": 0
   }
 }
