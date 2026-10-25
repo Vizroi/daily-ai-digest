@@ -4,160 +4,119 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 13 条，策划精选 3 篇，AI 快讯 3 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 10 条，策划精选 3 篇，AI 快讯 1 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 24 Oct 2026 12:53:54 +0800</lastBuildDate>
+<lastBuildDate>Sun, 25 Oct 2026 13:04:16 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《异星工厂》2.1版本转为稳定版</title>
-  <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035936</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5119d7f52c69a91ba5c53809</guid>
-  <pubDate>Fri, 23 Oct 2026 11:00:49 +0000</pubDate>
+  <title>触乐行业周报：光子公布怪谈RPG新作，Steam新品节AI游戏占比36.4%</title>
+  <link>http://www.chuapp.com/article/291712.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6525b30efbb247b2e23f3782</guid>
+  <pubDate>Sat, 24 Oct 2026 12:18:44 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Friday Facts #449 - 2.1 Stable</small></p><p>《异星工厂》2.1版本结束实验阶段转为稳定版，内容以体验优化和小功能为主，包括太空平台物流与平衡调整、电路网络输入输出分离、品质系统可关闭、敌人扩张机制重做、新图形及ARM64 Linux原生支持。</p><p><small>来源：<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035936">Steam · Factorio</a> · <a href="https://factorio.com/blog/post/fff-449">Factorio · Friday Facts</a></small></p><p><small>原文发布：2026-10-23 19:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐每周行业新闻汇总，邀请从业者点评：光子H.STUDIO公布开放世界RPG《人间异想计划》并放出22分钟实机PV；《辉烬》项目解散后外包团队用美术资源重制买断制PC游戏；Steam新品节7145款参展游戏中约36.4%披露使用生成式AI；另有《影之刃：零》预告与预购、伽马数据三季度报告等。</p><p><small>来源：<a href="http://www.chuapp.com/article/291712.html">触乐</a></small></p><p><small>原文发布：2026-10-24 20:18（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>GameMaker的GMRT运行时将于2027年起免费开放</title>
-  <link>https://www.gamedeveloper.com/programming/gamemaker-s-gmrt-runtime-will-soon-be-free-for-all-commercial-devs</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9d58b809fe4210a0de9ff108</guid>
-  <pubDate>Fri, 23 Oct 2026 17:51:14 +0000</pubDate>
+  <title>《文明》系列迎来35周年，Polygon发布口述史与纪录片</title>
+  <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034264</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6e53ed8f8d8e034a97a5c910</guid>
+  <pubDate>Thu, 22 Oct 2026 21:40:36 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：GameMaker&#x27;s GMRT runtime will soon be free for all developers</small></p><p>Opera旗下GameMaker宣布，自2027年1月1日起，GMRT运行时将对所有开发者免费，可用于PC、移动端、浏览器和GX Games发布游戏；此前需购买专业许可证。主机平台发布仍需企业许可证。</p><p><small>来源：<a href="https://www.gamedeveloper.com/programming/gamemaker-s-gmrt-runtime-will-soon-be-free-for-all-commercial-devs">Game Developer</a> · <a href="https://www.gamesindustry.biz/gamemaker-to-make-its-next-generation-runtime-gmrt-free-for-commercial-use-in-january-2027">GamesIndustry</a> · <a href="https://80.lv/articles/gamemaker-s-new-runtime-will-become-free-for-commercial-use/">80.lv</a></small></p><p><small>原文发布：2026-10-24 01:51（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Civilization at 35: An Oral History</small></p><p>Steam公告称《席德·梅尔的文明》系列迎来35周年，Firaxis团队自1991年起持续开发该回合制策略系列；Polygon到访工作室，梳理从早期作品到《文明VII》及资料片Earthrise的历史，并发布45分钟纪录短片。</p><p><small>来源：<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034264">Steam · Sid Meier&#x27;s Civilization VI</a></small></p><p><small>原文发布：2026-10-23 05:40（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>核聚变游戏节北京站Steam线上展示会开启</title>
-  <link>https://www.gcores.com/articles/221408</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ac3e2bc911d8bd18a08a266a</guid>
-  <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+  <title>免费Blender插件MT Hair Taper：收窄发丝网格末端</title>
+  <link>https://80.lv/articles/get-this-free-blender-add-on-that-makes-hair-meshes-thinner-at-the-ends/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-51c5c23dd7fad731079dc31f</guid>
+  <pubDate>Sat, 24 Oct 2026 16:30:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核网核聚变游戏嘉年华北京站开幕，同期在Steam开启线上展示会，展示超过140款参展游戏，部分作品公布发售日期，多款游戏提供Demo试玩、特价促销和开发者直播。</p><p><small>来源：<a href="https://www.gcores.com/articles/221408">机核</a> · <a href="https://www.gcores.com/articles/221398">机核</a> · <a href="https://www.gcores.com/radios/221368">机核</a> · <a href="https://www.gcores.com/articles/221311">机核</a> · <a href="https://www.gcores.com/articles/221361">机核</a> · <a href="https://www.gcores.com/articles/221360">机核</a> · <a href="https://www.gcores.com/articles/221310">机核</a> · <a href="https://www.gcores.com/articles/220877">机核</a> · <a href="https://www.gcores.com/articles/221309">机核</a> · <a href="https://www.gcores.com/articles/221373">机核</a></small></p><p><small>原文发布：2026-10-24 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Get This Free Blender Add-On That Makes Hair Meshes Thinner at the Ends</small></p><p>3D艺术家MOTOMODEL发布免费Blender插件MT Hair Taper，可在保持发丝长度与形状的前提下仅收窄宽度，使发束末端变细。插件面向四边形网格排列的发丝网格，需Blender 4.0及以上版本。</p><p><small>来源：<a href="https://80.lv/articles/get-this-free-blender-add-on-that-makes-hair-meshes-thinner-at-the-ends/">80.lv</a></small></p><p><small>原文发布：2026-10-25 00:30（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Gameloft谈《布鲁伊》2D画风在3D游戏中的实现管线</title>
-  <link>https://80.lv/articles/bluey-s-simple-2d-look-required-gameloft-s-most-technically-challenging-art-pipeline/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-76dfc8adbceff820b50bf258</guid>
-  <pubDate>Fri, 23 Oct 2026 19:54:00 +0000</pubDate>
+  <title>机核周报10.24：现代战争4战役提前解锁、GTA6新预告等要闻</title>
+  <link>https://www.gcores.com/radios/221016</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-327c1ce0334da068cb18aaae</guid>
+  <pubDate>Sat, 24 Oct 2026 15:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Bluey’s Simple 2D Look Required Gameloft’s Most Technically Challenging Art Pipeline</small></p><p>Gameloft布里斯班团队介绍《Bluey&#x27;s Happy Snaps》如何用SDF贴图、面向镜头的2D平面、自定义着色器和虚幻引擎Control Rig，在3D场景中还原剧集手绘风格，并说明角色、环境与动物采用不同管线。</p><p><strong>背景与变化</strong><br>作者归纳团队取舍：角色用分层2D平面加SDF贴图保留矢量感并节省显存，轮廓用着色器模拟恒定粗细的反向外壳，光照信息手绘进贴图，部分资产保留手绘而非自动化。</p><p><strong>策划视角</strong><br>可研究：当2D角色需在360度视角下保持剧集比例与轮廓时，8个45度角度的资产与3D骨架绑定如何协调，哪些环节必须手工完成。</p><p><small>来源：<a href="https://80.lv/articles/bluey-s-simple-2d-look-required-gameloft-s-most-technically-challenging-art-pipeline/">80.lv</a></small></p><p><small>原文发布：2026-10-24 03:54（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核Gadio News周报汇总本周游戏要闻：《使命召唤：现代战争4》战役提前解锁且Steam好评率创系列十年新高；GTA6最终预告48小时YouTube播放超4600万；EA关闭BioWare、育碧拟关闭RedLynx；《黎明行者之血》将推1.1版本可重置技能点；《赛博朋克：边缘行者2》上线。</p><p><small>来源：<a href="https://www.gcores.com/radios/221016">机核</a></small></p><p><small>原文发布：2026-10-24 23:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Raw Fury CEO谈游戏发行：按情感体验划分作品组合</title>
-  <link>https://80.lv/articles/on-the-lookout-for-games-that-make-you-feel-something-raw-fury-ceo-on-game-publishing/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bb15822896bda5b029efc56b</guid>
-  <pubDate>Fri, 23 Oct 2026 13:59:00 +0000</pubDate>
+  <title>3D动作肉鸽游戏《零境·入侵》亮相2026核聚变北京站</title>
+  <link>https://www.gcores.com/articles/221436</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-db09e664f007bd77f024a243</guid>
+  <pubDate>Sat, 24 Oct 2026 14:36:40 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：On the Lookout for Games That Make You Feel Something: Raw Fury CEO on Game Publishing</small></p><p>Raw Fury CEO Pim Holfve在访谈中谈发行环境变化：每月新作数量增多，发行工作更侧重理解市场、建立社区并引导开发者；他介绍公司按“情感体验”而非类型划分作品组合，并称只发行人类制作的游戏。</p><p><small>来源：<a href="https://80.lv/articles/on-the-lookout-for-games-that-make-you-feel-something-raw-fury-ceo-on-game-publishing/">80.lv</a></small></p><p><small>原文发布：2026-10-23 21:59（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>绿洲工作室旗下Streetlamp Studio研发的3D横版动作肉鸽游戏《零境·入侵》在2026核聚变北京站TapTap独立游戏区展出，现场提供隐藏BOSS“业”挑战活动，并同步发起线上挑战赛。文章称Demo全语言好评度91%，正式版计划2027年春季上线。</p><p><small>来源：<a href="https://www.gcores.com/articles/221436">机核</a></small></p><p><small>原文发布：2026-10-24 22:36（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Tripo P2.0与Astra在Blender和Unity中的协作流程</title>
-  <link>https://80.lv/articles/how-tripo-p2-0-astra-work-together-in-blender-and-unity/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ae587b5e71ae1227d78eac0e</guid>
-  <pubDate>Fri, 23 Oct 2026 13:15:00 +0000</pubDate>
+  <title>Tiny Brutalism：以粗野主义混凝土建筑为题材的休闲城市建造游戏</title>
+  <link>https://80.lv/articles/check-out-this-relaxing-brutalist-city-builder-inspired-by-tiny-glade/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d19462f3e471682a479b13f9</guid>
+  <pubDate>Sat, 24 Oct 2026 14:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How Tripo P2.0 &amp; Astra Work Together in Blender and Unity</small></p><p>Tripo团队介绍其3D原生基础模型P2.0与Astra的分工：P2.0生成可调面数、支持部件分离与Smart UV的网格，Astra负责组装、绑定、动画并接入Blender和Unity，文中也提到当前在形变与复杂动画上的局限。</p><p><small>来源：<a href="https://80.lv/articles/how-tripo-p2-0-astra-work-together-in-blender-and-unity/">80.lv</a></small></p><p><small>原文发布：2026-10-23 21:15（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Check Out This Relaxing Brutalist City Builder Inspired by Tiny Glade</small></p><p>80.lv 介绍 Jimjum Studios 开发的沙盒城市建造游戏 Tiny Brutalism，玩家可用20多种建筑模块搭建混凝土建筑、桥梁、塔楼与楼梯，并配有程序化生成的建筑与自然景观、室内装饰、第一人称探索、昼夜与天气系统，游戏无目标设定，目前仍在开发中。</p><p><small>来源：<a href="https://80.lv/articles/check-out-this-relaxing-brutalist-city-builder-inspired-by-tiny-glade/">80.lv</a></small></p><p><small>原文发布：2026-10-24 22:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>宫本茂将获日本文化勋章，为首位获此荣誉的游戏开发者</title>
-  <link>https://www.gamesindustry.biz/nintendo-veteran-shigeru-miyamoto-to-receive-japans-order-of-culture-award</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-060edca65ce328287e4ae6c7</guid>
-  <pubDate>Fri, 23 Oct 2026 13:06:01 +0000</pubDate>
+  <title>BioWare关闭：十五年辉煌与十余年管理失误</title>
+  <link>https://www.gamesindustry.biz/biowares-end-is-a-tragically-familiar-tale-opinion</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5078d1502e962ff03c5dbfa6</guid>
+  <pubDate>Fri, 23 Oct 2026 15:04:13 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Nintendo veteran Shigeru Miyamoto to receive Japan&#x27;s Order of Culture award</small></p><p>任天堂的宫本茂入选日本政府文化勋章媒体艺术（游戏）类别，成为首位获得该勋章的游戏开发者。勋章将于2026年11月3日文化日由天皇亲自颁发。宫本茂表示荣誉属于众多合作者。</p><p><small>来源：<a href="https://www.gamesindustry.biz/nintendo-veteran-shigeru-miyamoto-to-receive-japans-order-of-culture-award">GamesIndustry</a></small></p><p><small>原文发布：2026-10-23 21:06（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：BioWare&#x27;s end is a tragically familiar tale | Opinion</small></p><p>GamesIndustry评论文章认为，BioWare被EA关闭并非单一事件，而是十余年追逐多人模式与实时服务等潮流、管理层频繁干预、核心领导层流失的结果；作者称《龙腾世纪：审判》后工作室再无叫好叫座之作，最后一部作品《龙腾世纪：影障守护者》是拼凑而成的混乱之作。</p><p><strong>背景与变化</strong><br>作者以BioWare从1998至2014年的作品为对照，把《圣歌》的失败和《影障守护者》的反复转向归因于EA强推多人化与实时服务、缺乏稳定创作方向，并指出私募股权收购后的削减成本逻辑是最后一击。</p><p><strong>策划视角</strong><br>可对照BioWare各时期作品，梳理发行方干预从附加多人模式到整体转向实时服务，如何逐步改变项目目标与团队结构。</p><p><small>来源：<a href="https://www.gamesindustry.biz/biowares-end-is-a-tragically-familiar-tale-opinion">GamesIndustry</a></small></p><p><small>原文发布：2026-10-23 23:04（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《女神异闻录4 Revival》公开天鹅绒房间与角色详情</title>
-  <link>https://www.gcores.com/articles/221407</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-21a69c3405ff75186c19d8aa</guid>
-  <pubDate>Fri, 23 Oct 2026 12:30:00 +0000</pubDate>
+  <title>经典D&amp;D RPG《光芒之池：迷斯卓诺遗迹》将登陆Steam</title>
+  <link>https://80.lv/articles/this-long-lost-classic-d-d-rpg-is-finally-coming-to-steam-soon/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-641bea57e1250c508d4cbcc5</guid>
+  <pubDate>Fri, 23 Oct 2026 13:10:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>世嘉公布《女神异闻录4 Revival》中伊格尔、玛格丽特、玛丽及天鹅绒房间的介绍，并说明人格面具合体、合体事故、技能卡购买与合体预报等系统，同时列出各平台发售时间与预购信息。</p><p><small>来源：<a href="https://www.gcores.com/articles/221407">机核</a></small></p><p><small>原文发布：2026-10-23 20:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This Long-Lost Classic D&amp;D RPG Is Finally Coming to Steam Soon</small></p><p>2001年D&amp;D地牢探索RPG《光芒之池：迷斯卓诺遗迹》由SNEG与威世智合作重制，11月6日登陆Steam和GOG，支持4K、手柄、Steam Deck，并提供保留原版体验的Legacy模式。</p><p><small>来源：<a href="https://80.lv/articles/this-long-lost-classic-d-d-rpg-is-finally-coming-to-steam-soon/">80.lv</a></small></p><p><small>原文发布：2026-10-23 21:10（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>卡普空发生数据泄露，超1170万个Capcom ID账户受影响</title>
-  <link>https://www.gamesindustry.biz/capcom-affected-by-data-breach-over-117m-capcom-id-accounts-compromised</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-34d96b9afdfd829ed3328920</guid>
-  <pubDate>Fri, 23 Oct 2026 11:05:20 +0000</pubDate>
+  <title>Landfall谈《Peak》2300万销量与快速试错策略</title>
+  <link>https://www.gamesindustry.biz/podcast-landfalls-rebecca-lautner-on-peaks-23-million-sales-and-looking-past-friendslop</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e5464e1943472e6bbbef095a</guid>
+  <pubDate>Fri, 23 Oct 2026 08:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Capcom affected by data breach, over 11.7m Capcom ID accounts compromised</small></p><p>卡普空确认10月19日有未授权第三方访问了超过1170万个Capcom ID账户的信息，其中196个账户的密码被未经授权修改，19个账户的e-Capcom页面被访问，涉及姓名、电话、地址、出生日期和购买记录等，信用卡信息未受影响。</p><p><small>来源：<a href="https://www.gamesindustry.biz/capcom-affected-by-data-breach-over-117m-capcom-id-accounts-compromised">GamesIndustry</a></small></p><p><small>原文发布：2026-10-23 19:05（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Podcast: Landfall&#x27;s Rebecca Lautner on Peak&#x27;s 23 million sales and looking past friendslop</small></p><p>Landfall首席商务官Rebecca Lautner在GamesIndustry.biz播客中表示，《Peak》销量已超2300万，但团队仍希望转向新项目；她还谈到发行部门Evil Landfall、投资朋友聚会类之外的游戏，以及开发一个月未成形即放弃的“快速失败”政策。</p><p><small>来源：<a href="https://www.gamesindustry.biz/podcast-landfalls-rebecca-lautner-on-peaks-23-million-sales-and-looking-past-friendslop">GamesIndustry</a></small></p><p><small>原文发布：2026-10-23 16:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《率土之滨》十一周年：日活与畅销榜成绩及玩家生态</title>
-  <link>http://www.chuapp.com/article/291708.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-af12d47f47c1081e04a70816</guid>
-  <pubDate>Fri, 23 Oct 2026 10:09:46 +0000</pubDate>
+  <title>《漫威金刚狼》登顶美国9月销量榜，创《绝地潜兵2》以来索尼发行游戏单月销售额新高</title>
+  <link>https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0bb6553a2b74a36d3db44363</guid>
+  <pubDate>Thu, 22 Oct 2026 13:00:08 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐报道《率土之滨》十一周年庆典期间日活跃用户数创上线11年新高，并登上iOS畅销榜第二；文章以玩家故事、航母杯赛事和星推计划等，介绍其长线运营与玩家生态。</p><p><small>来源：<a href="http://www.chuapp.com/article/291708.html">触乐</a></small></p><p><small>原文发布：2026-10-23 18:09（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Marvel&#x27;s Wolverine leads US September charts, achieves highest monthly dollar sales for a Sony-published title since Helldivers 2</small></p><p>Circana数据显示，《漫威金刚狼》位居美国9月游戏销量榜首，成为《绝地潜兵2》以来索尼发行游戏单月销售额最高的一款；PS5销售额同比增长43%，销量增长22%。</p><p><small>来源：<a href="https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2">GamesIndustry</a></small></p><p><small>原文发布：2026-10-22 21:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《使命召唤：现代战争4》媒体评测汇总：系列回归之作</title>
-  <link>https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a54132ef8776c37eac183e85</guid>
-  <pubDate>Fri, 23 Oct 2026 09:59:48 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Call of Duty: Modern Warfare 4 | Critical Consensus</small></p><p>GamesIndustry汇总多家媒体对《使命召唤：现代战争4》的早期评测：Metacritic均分84，评论认为Infinity Ward在《黑色行动7》口碑不佳后实现回归；战役以虚构的朝鲜入侵韩国为背景，多人模式与撤离射击模式DMZ获好评，Switch 2版由Digital Legends移植。</p><p><small>来源：<a href="https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus">GamesIndustry</a></small></p><p><small>原文发布：2026-10-23 17:59（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>触乐怪话：体验恋爱陪伴剧本杀中的父女线</title>
-  <link>http://www.chuapp.com/article/291711.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5db72bdb2464af48d151d5a4</guid>
-  <pubDate>Fri, 23 Oct 2026 09:23:16 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>作者记录自己首次参加恋爱陪伴类剧本杀的经历：饰演许家二小姐，走父女情感线，由演员扮演父亲并引导互动，从难以入戏到在父亲死去、写讣告等环节落泪，事后反思自己当时应表现得更纠结。</p><p><small>来源：<a href="http://www.chuapp.com/article/291711.html">触乐</a></small></p><p><small>原文发布：2026-10-23 17:23（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>触乐怪话：游戏改编电影应保留游戏感</title>
-  <link>http://www.chuapp.com/article/291700.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-350031d7b0f8ae12e7bdf819</guid>
-  <pubDate>Thu, 22 Oct 2026 11:05:34 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>作者以《生化危机：爆发夜》为例，认为该片用原创主角、浣熊市背景和农场、隧道、下水道、医院等线性关卡式段落，以及越肩视角和追逐战，保留了游戏流程感，并讨论观众对恐怖片类型的误解。</p><p><strong>背景与变化</strong><br>作者主张改编不必照搬角色剧情，可通过关卡式结构、固定Boss和视角设计体现原作是游戏，并认为彩蛋与主角冒险动机因此更自然。</p><p><strong>策划视角</strong><br>可研究：关卡式线性结构在游戏改编电影中如何影响非玩家观众的理解与惊悚片类型预期？</p><p><small>来源：<a href="http://www.chuapp.com/article/291700.html">触乐</a></small></p><p><small>原文发布：2026-10-22 19:05（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>《异星工厂》官方发布可3D打印的实体模型套件</title>
-  <link>https://factorio.com/blog/post/fff-447</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b62f3c757f9de7bdc0639470</guid>
-  <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+  <title>机核专访《无比坚硬：荒原骑士》制作人谈创作理念</title>
+  <link>https://www.gcores.com/articles/221426</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f91d22c567e2c328018079a4</guid>
+  <pubDate>Sat, 24 Oct 2026 07:19:55 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Friday Facts #447 - Factorio that you can touch</small></p><p>Wube与Prusa Research合作，将《异星工厂》游戏内实体转化为可3D打印模型，最终推出15套共65个模型、247个STL文件，聚焦早期游戏内容，供玩家免费下载打印。</p><p><strong>设计选择</strong><br>作者说明等距视角导致模型在比例、高度与背面细节上与游戏观感不符，需重新设计；为免支撑结构将模型拆件，并提供紧配合与松配合两种版本。</p><p><strong>策划视角</strong><br>可研究：为等距视角游戏制作实体模型时，如何在“看起来像”与“实际结构合理”之间取舍，拆件方案如何影响打印与拼装体验。</p><p><small>来源：<a href="https://factorio.com/blog/post/fff-447">Factorio · Friday Facts</a></small></p><p><small>原文发布：2026-09-25 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>机核采访独立游戏《无比坚硬：荒原骑士》制作人，他讲述从拍独立电影、搞摇滚到做手游赚钱再转向独立游戏的经历，称创作核心是反抗与他人雷同，并谈到团队信任、排除外界意见的困难。记者在引擎中试玩了早期版本，战斗框架已搭好但细节待打磨。</p><p><strong>设计选择</strong><br>作者以问答形式呈现制作人的自述：以“艺术是暴君”为方法，坚持一意孤行、排除团队与玩家意见，并称现代主义的消极与开发所需的积极之间存在矛盾；这些均为其个人主张，未提供独立验证。</p><p><strong>策划视角</strong><br>可追问：制作人“不听任何人意见”的做法，在团队协作与玩家反馈之间如何取舍？其早期试玩体验能否支撑这一创作方法？</p><p><small>来源：<a href="https://www.gcores.com/articles/221426">机核</a></small></p><p><small>原文发布：2026-10-24 15:19（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>易上手不等于低难度：从《艾尔登法环》看游戏市场潜力</title>
-  <link>https://danfelder.net/2026/09/24/accessibility-is-not-the-same-thing-as-difficulty/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fdc2adb5bb91501ac8a54e48</guid>
-  <pubDate>Thu, 24 Sep 2026 15:48:56 +0000</pubDate>
+  <title>游戏的高度严肃性：规则、假装与游戏态度</title>
+  <link>https://docs.xpaidia.com/ficstruction/paidia/2-you-xi-de-gao-du-yan-su-xing</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-eceba62056168fce5fb66b2c</guid>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Approachability is NOT the same thing as Difficulty</small></p><p>作者回应同事关于如何分析游戏玩法市场潜力的问题，提出应先看“易上手程度”：核心体验能否在开局以最少信息和简单操作被感知，决定市场潜力宽度。他以《艾尔登法环》《空洞骑士》《我的世界》和街机游戏为例，说明高难度与易上手可以并存。</p><p><strong>设计选择</strong><br>作者用“动作考古”概括《艾尔登法环》与《空洞骑士》的核心体验，认为玩家无需多懂就能感到迷失；并对比《对马岛之魂》的复杂操作，指出《艾尔登法环》多数复杂要素可选。</p><p><strong>策划视角</strong><br>可追问：当核心体验本身需要较长学习期时，作者建议用其他即时满足点补偿，这一思路在哪些品类中成立、哪些品类会失效？</p><p><small>来源：<a href="https://danfelder.net/2026/09/24/accessibility-is-not-the-same-thing-as-difficulty/">Dan Felder</a></small></p><p><small>原文发布：2026-09-24 23:48（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong> · 常青阅读</p><p>作者借赫伊津哈、凯瓦卢、舒兹、博格斯特等论述，提出严肃的“假装”与对规则的遵守是游戏成立的基础，游戏乐趣来自对自由的限制而非放纵，并以电影、文学中的“假信”类比玩家的沉浸。</p><p><strong>设计选择</strong><br>作者用儿童过家家、开火车、行酒令、开挂等例子，串联“游戏态度”“魔圈”“怀疑搁置”等概念，论证玩家在受限与沉浸之间获得审美体验，并区分游戏与劳作。</p><p><strong>策划视角</strong><br>可追问：把“严肃遵守规则”视为游戏成立的前提，如何解释作弊、模组与速通等刻意越界玩法在玩家文化中的位置？</p><p><small>来源：<a href="https://docs.xpaidia.com/ficstruction/paidia/2-you-xi-de-gao-du-yan-su-xing">叶梓涛 · 落日间</a></small></p><p><small>原文日期未标</small></p>]]></description>
 </item>
 <item>
-  <title>“严肃”的游戏：从神圣仪式到现代游戏精神的分化</title>
-  <link>https://docs.xpaidia.com/ficstruction/paidia/1-yan-su-de-you-xi</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ccc76068cc7be97f988f848d</guid>
+  <title>战斗设计要点：拆解一次攻击的构成</title>
+  <link>https://gdkeys.com/keys-to-combat-design-1-anatomy-of-an-attack/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f5d9b3fa0d2f0d4ff3e4ae48</guid>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong> · 常青阅读</p><p>作者梳理游戏与严肃、神圣、教育的历史关联，指出游戏曾与仪式、城邦生活和共同体教化紧密相连，现代体育专业化、资本主义效率观与美学话语的抽象化使游戏精神分化衰弱，并据此主张更严肃地看待电子游戏。</p><p><strong>设计选择</strong><br>作者以赫伊津哈、柏拉图、阿甘本、韩炳哲等文献为线索，做概念史与谱系学式梳理，把游戏意义的变迁归因于体育职业化、生产伦理和美学抽象化，而非给出实证研究。</p><p><strong>策划视角</strong><br>可追问：用概念史论证电子游戏应被“严肃”对待，其说服力与边界在哪里？这种规范性主张如何落到具体游戏设计或批评实践中？</p><p><small>来源：<a href="https://docs.xpaidia.com/ficstruction/paidia/1-yan-su-de-you-xi">叶梓涛 · 落日间</a></small></p><p><small>原文日期未标</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong> · 常青阅读</p><p><small>原标题：Keys to Combat Design: Anatomy of an Attack</small></p><p>文章提出攻击由预备、攻击、收招三阶段组成，并给出预备动画需独特且能提示后续攻击、预备时长按玩家反应时间与技能触发时间加难度缓冲计算、攻击阶段要瞬时且方向明确、收招阶段为玩家创造反击窗口等设计要点。</p><p><strong>设计选择</strong><br>作者以玩家体验为线索，结合Cuphead的夸张动画和Nioh妖怪斧击等案例，说明各阶段的设计规则与取舍，并强调需通过试玩调整预备时长。</p><p><strong>策划视角</strong><br>可研究：文中“预备时长=反应时间+技能触发时间+难度缓冲”的公式在具体项目中如何量化验证，以及武器拖尾特效对玩家识别攻击方向的实际作用。</p><p><small>来源：<a href="https://gdkeys.com/keys-to-combat-design-1-anatomy-of-an-attack/">GDKeys</a></small></p><p><small>原文发布：2020-04-25</small></p>]]></description>
 </item>
 <item>
-  <title>用Claude Opus 5.5生成照片模拟画笔绘制效果</title>
-  <link>https://simonwillison.net/2026/Oct/23/quick-study-painter/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8bdaee733b3eea2ca5520f05</guid>
-  <pubDate>Fri, 23 Oct 2026 21:35:13 +0000</pubDate>
+  <title>Battledrones v14：四人地图Compass Rose</title>
+  <link>https://simonwillison.net/2026/Oct/24/battledrones/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dae978f62edf00cd2c948d95</guid>
+  <pubDate>Sat, 24 Oct 2026 03:59:57 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Quick Study</small></p><p>Simon Willison记录了一次实验：他向Claude Opus 5.5 High提出提示词，要求构建一个artifact，打开照片后用canvas元素和模拟画笔在几秒内绘制出该照片的版本；该工具使用Sobel边缘检测，除Google Fonts外不依赖外部库。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/23/quick-study-painter/">Simon Willison</a></small></p><p><small>原文发布：2026-10-24 05:35（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>Kimi K3.1 Pro上线API：定价、基准与实测</title>
-  <link>https://simonwillison.net/2026/Oct/23/kimi-k31-pro/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e5bbfbf081e0b2344cdecd4f</guid>
-  <pubDate>Fri, 23 Oct 2026 19:40:54 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing Kimi K3.1 Pro</small></p><p>Moonshot在Kimi API上线Kimi K3.1 Pro，暂未开放权重，承诺11月4日前发布完整权重；提供速度提升2-3倍、价格翻倍的Highspeed版本。输入每百万token 2美元、输出10美元。作者用LLM工具在三个推理档位生成鹈鹕骑自行车SVG进行试用。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro/">Simon Willison</a></small></p><p><small>原文发布：2026-10-24 03:40（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>蚂蚁数科发布决策模型LingDT-Decision-1.0</title>
-  <link>https://www.qbitai.com/2026/10/504879.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f77291397940f3ae16cbadf7</guid>
-  <pubDate>Thu, 22 Oct 2026 09:07:05 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>蚂蚁数科10月22日发布决策模型LingDT-Decision-1.0，提供4B和27B两个版本，已在DTMaaS平台上线并限时免费体验。文章称该模型面向结构化决策任务，支持原生多选与按序决策，并在23项开源评测基准中与Microsoft-Decision-1、Jev 1.13.0等模型比较。</p><p><small>来源：<a href="https://www.qbitai.com/2026/10/504879.html">量子位</a></small></p><p><small>原文发布：2026-10-22 17:07（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：battledrones v14: Compass Rose, a four player map</small></p><p>Simon Willison称，他为Battledrones新增四人线上模式，此前地图仅支持两人；他用提示词让Claude Opus 5.5生成四方旋转对称的新地图Compass Rose，并修改WebSocket多人网络代码以支持最多四名玩家通过分享链接或二维码加入，空位由AI补足。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/24/battledrones/">Simon Willison</a></small></p><p><small>原文发布：2026-10-24 11:59（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>

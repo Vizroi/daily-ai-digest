@@ -1,6 +1,141 @@
 {
-  "checked_at": "2026-10-24T04:53:00.030302+00:00",
+  "checked_at": "2026-10-25T05:03:59.231380+00:00",
   "sources": [
+    {
+      "id": "steam-factorio",
+      "name": "Steam · Factorio",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/427520/",
+      "state": "ok",
+      "count": 1,
+      "detail": "读取正常，共检查 20 条，收录 1 条；早于最近 72 小时 19 条；本轮最新原文日期 2026-10-23（北京时间）"
+    },
+    {
+      "id": "steam-rimworld",
+      "name": "Steam · RimWorld",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/294100/",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-22（北京时间）"
+    },
+    {
+      "id": "steam-hades",
+      "name": "Steam · Hades",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/1145360/",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-06-17（北京时间）"
+    },
+    {
+      "id": "steam-slay-the-spire",
+      "name": "Steam · Slay the Spire",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/646570/",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-09-26（北京时间）"
+    },
+    {
+      "id": "steam-dead-cells",
+      "name": "Steam · Dead Cells",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/588650/",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-06-15（北京时间）"
+    },
+    {
+      "id": "steam-balatro",
+      "name": "Steam · Balatro",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/2379780/",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-05-05（北京时间）"
+    },
+    {
+      "id": "steam-stardew-valley",
+      "name": "Steam · Stardew Valley",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/413150/",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-02-27（北京时间）"
+    },
+    {
+      "id": "steam-civilization-vi",
+      "name": "Steam · Sid Meier's Civilization VI",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/289070/",
+      "state": "ok",
+      "count": 1,
+      "detail": "读取正常，共检查 20 条，收录 1 条；早于最近 72 小时 19 条；本轮最新原文日期 2026-10-23（北京时间）"
+    },
+    {
+      "id": "steam-dwarf-fortress",
+      "name": "Steam · Dwarf Fortress",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/975370/",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-08-05（北京时间）"
+    },
+    {
+      "id": "steam-no-mans-sky",
+      "name": "Steam · No Man's Sky",
+      "platform": "steam",
+      "url": "https://store.steampowered.com/news/app/275850/",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-12（北京时间）"
+    },
+    {
+      "id": "factorio-friday-facts",
+      "name": "Factorio · Friday Facts",
+      "platform": "developer_blog",
+      "url": "https://factorio.com/blog/rss",
+      "state": "ok",
+      "count": 2,
+      "detail": "读取正常，共检查 10 条，收录 2 条；早于最近 720 小时 8 条；本轮最新原文日期 2026-10-23（北京时间）"
+    },
+    {
+      "id": "riot-tech-blog",
+      "name": "Riot Games · Tech Blog",
+      "platform": "developer_blog",
+      "url": "https://www.riotgames.com/en/news?q=tech%20blog",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 8 条，收录 0 条；早于最近 720 小时 8 条；本轮最新原文日期 2025-10-16（北京时间）"
+    },
+    {
+      "id": "riot-league-design",
+      "name": "League of Legends · Dev",
+      "platform": "developer_blog",
+      "url": "https://www.leagueoflegends.com/en-us/news/dev/",
+      "state": "ok",
+      "count": 2,
+      "detail": "读取正常，共检查 7 条，收录 2 条；早于最近 720 小时 5 条；本轮最新原文日期 2026-10-21（北京时间）"
+    },
+    {
+      "id": "itch-kenney-shape",
+      "name": "itch.io · Kenney Shape",
+      "platform": "itch",
+      "url": "https://kenney.itch.io/kenney-shape/devlog.rss",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 10 条，收录 0 条；早于最近 72 小时 10 条；本轮最新原文日期 2026-10-15（北京时间）"
+    },
+    {
+      "id": "itch-gmtk-platformer-toolkit",
+      "name": "itch.io · GMTK Platformer Toolkit",
+      "platform": "itch",
+      "url": "https://gmtk.itch.io/platformer-toolkit/devlog.rss",
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 3 条，收录 0 条；早于最近 720 小时 3 条；本轮最新原文日期 2022-11-25（北京时间）"
+    },
     {
       "id": "youtube-gmtk",
       "name": "Game Maker’s Toolkit",
@@ -83,148 +218,13 @@
       "detail": "公开会员日志候选；作者身份、经验与论证需编辑审核"
     },
     {
-      "id": "steam-factorio",
-      "name": "Steam · Factorio",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/427520/",
-      "state": "ok",
-      "count": 1,
-      "detail": "读取正常，共检查 20 条，收录 1 条；早于最近 72 小时 19 条；本轮最新原文日期 2026-10-23（北京时间）"
-    },
-    {
-      "id": "steam-rimworld",
-      "name": "Steam · RimWorld",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/294100/",
-      "state": "ok",
-      "count": 1,
-      "detail": "读取正常，共检查 20 条，收录 1 条；早于最近 72 小时 19 条；本轮最新原文日期 2026-10-22（北京时间）"
-    },
-    {
-      "id": "steam-hades",
-      "name": "Steam · Hades",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/1145360/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-06-17（北京时间）"
-    },
-    {
-      "id": "steam-slay-the-spire",
-      "name": "Steam · Slay the Spire",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/646570/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-09-26（北京时间）"
-    },
-    {
-      "id": "steam-dead-cells",
-      "name": "Steam · Dead Cells",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/588650/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-06-15（北京时间）"
-    },
-    {
-      "id": "steam-balatro",
-      "name": "Steam · Balatro",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/2379780/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-05-05（北京时间）"
-    },
-    {
-      "id": "steam-stardew-valley",
-      "name": "Steam · Stardew Valley",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/413150/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-02-27（北京时间）"
-    },
-    {
-      "id": "steam-civilization-vi",
-      "name": "Steam · Sid Meier's Civilization VI",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/289070/",
-      "state": "ok",
-      "count": 3,
-      "detail": "读取正常，共检查 20 条，收录 3 条；早于最近 72 小时 17 条；本轮最新原文日期 2026-10-23（北京时间）"
-    },
-    {
-      "id": "steam-dwarf-fortress",
-      "name": "Steam · Dwarf Fortress",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/975370/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-08-05（北京时间）"
-    },
-    {
-      "id": "steam-no-mans-sky",
-      "name": "Steam · No Man's Sky",
-      "platform": "steam",
-      "url": "https://store.steampowered.com/news/app/275850/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-12（北京时间）"
-    },
-    {
-      "id": "factorio-friday-facts",
-      "name": "Factorio · Friday Facts",
-      "platform": "developer_blog",
-      "url": "https://factorio.com/blog/rss",
-      "state": "ok",
-      "count": 3,
-      "detail": "读取正常，共检查 10 条，收录 3 条；早于最近 720 小时 7 条；本轮最新原文日期 2026-10-23（北京时间）"
-    },
-    {
-      "id": "riot-tech-blog",
-      "name": "Riot Games · Tech Blog",
-      "platform": "developer_blog",
-      "url": "https://www.riotgames.com/en/news?q=tech%20blog",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 8 条，收录 0 条；早于最近 720 小时 8 条；本轮最新原文日期 2025-10-16（北京时间）"
-    },
-    {
-      "id": "riot-league-design",
-      "name": "League of Legends · Dev",
-      "platform": "developer_blog",
-      "url": "https://www.leagueoflegends.com/en-us/news/dev/",
-      "state": "ok",
-      "count": 2,
-      "detail": "读取正常，共检查 7 条，收录 2 条；早于最近 720 小时 5 条；本轮最新原文日期 2026-10-21（北京时间）"
-    },
-    {
-      "id": "itch-kenney-shape",
-      "name": "itch.io · Kenney Shape",
-      "platform": "itch",
-      "url": "https://kenney.itch.io/kenney-shape/devlog.rss",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 10 条，收录 0 条；早于最近 72 小时 10 条；本轮最新原文日期 2026-10-15（北京时间）"
-    },
-    {
-      "id": "itch-gmtk-platformer-toolkit",
-      "name": "itch.io · GMTK Platformer Toolkit",
-      "platform": "itch",
-      "url": "https://gmtk.itch.io/platformer-toolkit/devlog.rss",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 3 条，收录 0 条；早于最近 720 小时 3 条；本轮最新原文日期 2022-11-25（北京时间）"
-    },
-    {
       "id": "web-b8285cb6e3",
       "name": "Game Developer",
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 4,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 4 条候选"
+      "count": 3,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 3 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 20,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 20 条候选"
+      "count": 12,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 12 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -249,18 +249,18 @@
       "name": "Unreal Engine",
       "platform": "网站 / RSS",
       "url": "https://www.unrealengine.com/rss/news?lang=en-US",
-      "state": "ok",
-      "count": 1,
-      "detail": "读取 10 条订阅记录；72 小时时间窗内取得 1 条候选"
+      "state": "empty",
+      "count": 0,
+      "detail": "读取 10 条订阅记录；72 小时时间窗内取得 0 条候选"
     },
     {
       "id": "web-531f01f744",
       "name": "Unity",
       "platform": "网站 / RSS",
       "url": "https://unity.com/blog/rss",
-      "state": "ok",
-      "count": 2,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 2 条候选"
+      "state": "empty",
+      "count": 0,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 0 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -269,7 +269,7 @@
       "url": "https://www.gameres.com/rss.xml",
       "state": "error",
       "count": 0,
-      "detail": "网络请求超时；重试后仍失败"
+      "detail": "读取异常（ConnectionError）"
     },
     {
       "id": "web-be9919cef9",
@@ -286,8 +286,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 9,
-      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 9 条候选"
+      "count": 6,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 6 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -295,8 +295,8 @@
       "platform": "网站 / RSS",
       "url": "https://danfelder.net/feed/",
       "state": "ok",
-      "count": 5,
-      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 5 条候选"
+      "count": 4,
+      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 4 条候选"
     },
     {
       "id": "web-e9d4bd9534",
@@ -322,8 +322,8 @@
       "platform": "网站 / RSS",
       "url": "https://deepmind.google/blog/rss.xml",
       "state": "ok",
-      "count": 10,
-      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 10 条候选"
+      "count": 9,
+      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 9 条候选"
     },
     {
       "id": "web-33e649875b",
@@ -357,9 +357,9 @@
       "name": "GameRes 策划",
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/list/25",
-      "state": "ok",
-      "count": 3,
-      "detail": "读取 11 篇文章页面；720 小时时间窗内取得 3 条候选"
+      "state": "error",
+      "count": 0,
+      "detail": "读取异常（ConnectionError）"
     },
     {
       "id": "web-2c4b61fbd7",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 194,
-    "deduplicated": 194,
-    "retained": 194,
+    "raw": 170,
+    "deduplicated": 170,
+    "retained": 170,
     "restricted_withheld": 0
   }
 }
