@@ -1,28 +1,28 @@
 {
   "schema_version": 3,
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25T13:04:16.200403+08:00",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T13:07:30.416299+08:00",
   "news": [
     {
-      "source_id": "web-68554a31d0",
-      "source_url": "https://www.chuapp.com/feed",
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "225616629a304053",
-      "title": "触乐本周行业大事：从业者怎么看？光子公布怪谈RPG新作，《影之刃：零》发布最终预告，Steam新品节AI游戏占比超三成",
-      "url": "http://www.chuapp.com/article/291712.html",
+      "key": "af43dc3243b0bd73",
+      "title": "《欧洲卡车模拟2》“冰岛”DLC将于11月11日发售",
+      "url": "https://www.gcores.com/articles/221470",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "触乐"
+        "机核"
       ],
-      "published": "2026-10-24T12:18:44+00:00",
+      "published": "2026-10-26T00:55:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "“每周行业大事”是触乐在每周六的固定栏目，触乐编辑会当本周发生的行业事件中选出有价值的新闻，并告诉大家或许哪些事更值得关注。在这个过程中，我们希望这档栏目能够更加面向从业者，并了解哪些事情是大家切实关心的。 因此，在本周的行业大事里，我们邀请了几位从业者来和我们一起整理新闻。在编辑挑出的新闻中，他们会自由地针对自己感兴趣的部分留下看法。藉由这个机会，我们也希望看看从业者更关心哪些事件，以及会从什么角度来看待它们。 如果您喜欢这样的形式，或者有更好的建议，也欢迎留言告诉我们！ ■ 光子工作室公布怪谈开放世界RPG新作 10月21日，腾讯光子工作室群旗下H.STUDIO（宇宙小狗工作室/COSMICPUP STUDIO）正式公布开放世界RPG《人间异想计划》，同步放出22分钟的实机PV。产品定位为\"轻怪谈都市异想开放世界RPG\"。据悉，开发团队位于杭州滨江，负责人叶谦（羊头）为前网易杭州F工作室负责人、在网易任职16年（项目包括《大话西游外传》《黑潮之上》《阴阳师：妖怪小班》《光明大陆》《终结者2》等），2021年离职加入腾讯。 以“怪谈”为主题的开放世界游戏 策划-斯凯： 新怪谈确实是近两年二次元方面在挖掘的新题材，像归龙潮、1999、异环、白银之城都在走这个路子，但是这需要真的有人懂怎么把新怪谈的那个味儿做得能让大众认可。国内在这方面的积累很少，加上新怪谈在国内属于小众群体，再加上",
+      "summary_raw": "《欧洲卡车模拟2》“冰岛”DLC将于11月11日发售。据悉，这项地图扩展将带来一条环冰岛的旅游风景线，连接一系列迷人的城市和偏远的定居点，它们都坐落在一个冰与火交织的世界里。雄伟的山脉、无尽的平原、险峻的悬崖、火山口、咆哮的河流和倾流而下的瀑布，这些都由我们的地图设计师精心重现。 开发者表示，这是一项绝无仅有的 DLC，有着丰富的景色与未受污染的自然。冰岛是地球上最非凡的国家之一，拥有独一无二的地貌和无与伦比的自然风光。这个岛国拥有令人惊叹的自然奇观：屹立的火山、庞大的冰川、黑色的沙滩、奔流的瀑布、壮观的火山口等等，使其成为世界各地游客的梦想之地。现在，你将有机会以真正独特的视角，驾驶开车感受这一切。 由于冰岛独特的地理位置，请不要期待看到密集的高速公路网或熙熙攘攘的城市群。取而代之的是，准备好迎接一场感受地球上最震撼的自然风光之一的旅程吧。 每一公里均捕捉冰岛原始、未受破坏的环境的壮丽与真实性。如果你曾想驾车感受大自然的壮丽，那么现在就是完美的机会。你可以期待在环岛公路（Hringvegur）运送货物，这条公路长约1,400公里，环绕整个冰岛。除了其他城市和定居点外，这项地图扩展的亮点之一是首都雷克雅未克，一座充满活力、创意迸发、由惊人自然美景环绕的城市。",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -36,11 +36,11 @@
       },
       "members": [
         {
-          "title": "触乐本周行业大事：从业者怎么看？光子公布怪谈RPG新作，《影之刃：零》发布最终预告，Steam新品节AI游戏占比超三成",
-          "url": "http://www.chuapp.com/article/291712.html",
-          "source": "触乐",
+          "title": "《欧洲卡车模拟2》“冰岛”DLC将于11月11日发售",
+          "url": "https://www.gcores.com/articles/221470",
+          "source": "机核",
           "lang": "zh",
-          "published": "2026-10-24T12:18:44+00:00"
+          "published": "2026-10-26T00:55:00+00:00"
         }
       ],
       "score": 30,
@@ -66,43 +66,43 @@
           "value": 0
         }
       ],
-      "topic": "关卡设计",
+      "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 16.75894455638889,
+      "age_hours": 4.208448971944445,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "还有《蓝色星原：旅谣》定档、《使命召唤：现代战争4》《影之刃：零》领跑Steam销量榜，以及几个行业新动向。\n“每周行业大事”是触乐在每周六的固定栏目，触乐编辑会当本周发生的行业事件中选出有价值的新闻，并告诉大家或许哪些事更值得关注。在这个过程中，我们希望这档栏目能够更加面向从业者，并了解哪些事情是大家切实关心的。\n因此，在本周的行业大事里，我们邀请了几位从业者来和我们一起整理新闻。在编辑挑出的新闻中，他们会自由地针对自己感兴趣的部分留下看法。藉由这个机会，我们也希望看看从业者更关心哪些事件，以及会从什么角度来看待它们。\n如果您喜欢这样的形式，或者有更好的建议，也欢迎留言告诉我们！\n10月21日，腾讯光子工作室群旗下H.STUDIO（宇宙小狗工作室/COSMICPUP STUDIO）正式公布开放世界RPG《人间异想计划》，同步放出22分钟的实机PV。产品定位为\"轻怪谈都市异想开放世界RPG\"。据悉，开发团队位于杭州滨江，负责人叶谦（羊头）为前网易杭州F工作室负责人、在网易任职16年（项目包括《大话西游外传》《黑潮之上》《阴阳师：妖怪小班》《光明大陆》《终结者2》等），2021年离职加入腾讯。\n策划-斯凯：新怪谈确实是近两年二次元方面在挖掘的新题材，像归龙潮、1999、异环、白银之城都在走这个路子，但是这需要真的有人懂怎么把新怪谈的那个味儿做得能让大众认可。国内在这方面的积累很少，加上新怪谈在国内属于小众群体，再加上大投入，最终势必要在大众审美和小众题材之间来回摇摆，挺有挑战性的。\n策划-皮卡皮：怪谈这个方向其实还没有真正出现“标杆”性质的作品，而这个题材本身在小说或者影视作品里都有比较强的吸引力，所以我觉得其实还是有机会的。目前从PV和玩家的主要讨论来看，整体还是在具体玩法、战斗上没有足够的呈现，这部分其实才是让玩家留下来的重点，希望团队可以在之后带来一些新的突破吧。\n杭州千乎网络自研手游《辉烬》iOS端总收入不足200万元，不到研发成本零头；到今年6月iOS月下载量跌至不足五千，分账后月收入约6000美元。6月底百人项目组全员解散，9月30日公司正式进入注销公告程序（45日内债权人申报）。\n木子岚工作室是《辉烬》美术外包之一，项目存续期间多次公开表示未收到外包款，公司解散后彻底无门，直到10月16日仍未拿到钱。在法律追讨希望渺茫后，他们用手里的美术资源把《辉烬》重做成买断制PC单机动作游戏《辉烬：南星》。\n某位手持大水的策划 ：直截了当地说，其实就是公司破产之后，被外包公司搜打撤了……只是从原本的实体资产变成了数字资产。但是或许是因为之前很少有公司愿意把一款已经证明不成功的游戏重新打包制作吧，所以才成了新闻。感觉外包团队在很大程度上确实对产品也抱有感情了。\n策划-皮卡皮：我更好奇的是，在这种情况下，游戏作为虚拟资产能值多少钱。\nValve公布10月13日—10月20日Steam销量榜（不含免费游戏）。《使命召唤：现代战争4》预购即登顶全球与国区双榜第一；同时，《影之刃零》预购国区第二、全球第十；上期榜首《AION2》直接跌出榜单。\n某位手持大水的策划 ：这一作证明了年货模式依然还是能走通的，尤其是AI能力不断提升的情况下，开发效率想必也有了很大的提升。但需要注意的是，23号晚上，我特地看了下，《影之刃：零》已经变成了国区第一、全球第六！\n策划-皮卡皮：作为年货游戏，但每年都能卖得好，某种程度上，它其实也可以叫“长青系列游戏”吧？\n10月22日，灵游坊放出《影之刃：零》3分10秒的最终预告，游戏将于10月27日10点预载、10月29日10点正式发售。\n同日，根据Alinea Analytics估算，Steam预购数约为50万份；截至2026年10月20日，估算国区愿望单约250万。\n策划-皮卡皮：黑神话给人的销量还是太过梦幻，现在再看影之刃的预售情况反而会觉得踏实很多。如果一切顺利，它更有可能成为一个国产3A团队能够努力追上的目标。\n某位手持大水的策划 ：这条上面说过了，然后我和甄子丹及其武术团队在月底有一场线上交流会……\n据SteamDB统计，10月Steam新品节7145款参展游戏中，约2596款（36.4%）在开发中披露使用了生成式AI，较6月的19%四个月上涨16个百分点。\n《花冠战略》制作人-潇潇：AI的趋势无法避免，未来当这个比例进一步上升之后，AI内容披露的选项可以能会失去意义，用户最终只会以品质来判断。\n策划-斯凯：未来steam可能也会变成小游戏平台那样每天巨量上架的游戏在里面搏杀抢流量，如果steam坚持不在导量上去盈利的话，那就是看谁经营社群的能力强了，第三方发行公司可能会来承接这部分的业务。\n苹果全球App Store负责人卡森·奥利弗（Carson Oliver）接受采访表示，今年登陆App Store的精品付费游戏数量超过去年，越来越多原本面向PC与主机的作品正进入iPhone/iPad生态。他特别提到《小丑牌》《星露谷物语》《杀戮尖塔》《BloonsTD6》，称治愈类、经营模拟、Roguelike在移动端表现突出。\n策划-斯凯：对于所有小体量独游而言，支持双端是收入最大化的必然选择。\n10月19日，国家网信办发布公告，为进一步强化未成年人网络保护，压实网络平台主体责任，国家网信办近日发布公告，启动未成年人用户数量巨大和对未成年人群体具有显著影响的网络平台服务提供者认定工作。\n根据4月1日起施行的《未成年人用户数量巨大和对未成年人群体具有显著影响的网络平台服务提供者认定办法》，被认定为未成年人用户数量巨大的网络平台服务提供者的，应当符合以下情形之一：该网络平台提供的产品或者服务专门以未成年人为服务对象，注册用户在1000万以上或者月活跃用户在100万以上；该网络平台提供的产品或者服务的对象不局限于未成年人的，未成年人注册用户数量在1000万以上或者月活跃未成年人用户在100万以上。\n《花冠战略》制作人-潇潇：互联网保护未成年人的行动已经采取了很多年，但未成年人无论是沉迷小网络社交也好，现在的AI陪伴也罢，核心还是很多情感陪伴类需求无法在现实生活中满足。如果真实的家人能够提供优质的陪伴，那这些都不会是问题；如何构建一个父母、家庭能够为未成年人带来更好幸福感的社会，才是解决这一类问题的核心。\n10月21日，作为中国音像与数字出版协会主管的中国游戏产业研究专家委员会的战略合作伙伴，伽马数据发布了《2026年7—9月中国游戏产业季度报告》。\n数据显示，\n2026年7—9月，中国游戏市场实际销售收入为925.22亿元，环比增长1.36%，同比增长5.11%。暑期消费窗口释放市场活力。\n2026年7—9月，中国客户端游戏市场实际销售收入为205.47亿元，环比增长1.16%，同比增长1.26%。市场增长主要受头部产品运营活动与新品供给共同驱动。\n2026年7—9月，中国移动游戏市场实际销售收入为678.20亿元，环比增长0.34%，同比增长5.33%。市场收入保持增长，主要受到长线产品运营活动与新品收入贡献的共同影响。\n2026年7-9月，中国自主研发游戏海外市场实际销售收入达57.72亿美元，环比下降4.46%，同比增长15.58%。环比下滑主要受成熟产品影响。\n策划-斯凯：游戏大部分赛道已经是红海了，除了国内pc国内企业还没有大规模参与外，其他赛道都在找新的盈利模式。出海可能还有些盈利空间，靠着手游上的成熟运营模式去吊打海外。PC端游盘子小投入大，国内缺积累，只能是小厂或独立工作室去抢占。现在只能看AI会带来怎样的新方向了。不过哪怕环境再差，能成功的终归是那些用心做自己喜欢游戏的。\n10月23日，蛮啾网络官宣《蓝色星原：旅谣》公测定档11月26日。该作自2024年首曝后历经多轮测试，最近一轮“旅迹测试”于9月结束，全球预约量已突破2500万。\n策划-皮卡皮：从测试结果来说大概会有点前途多舛的感觉，但他们的美术又很好地弥补了这一点。但我感觉比较担心的，其实是游戏上线之后会不会被定性成下一个《尘白禁区》。做市场推广的时候或许还是要更慎重一些……\n最后，我们问了问，几位从业者最关心的新闻是哪些：\n《花冠战略》制作人-潇潇：Steam新品节的新闻吧。因为我正在目睹冲击的过程，之前AI影响画师/配音演员，我都是旁观者，现在就是感觉真正被冲击到。\n策划-斯凯：AI、PC相关的新闻吧，因为我个人在用ai做demo，平时玩pc游戏比较多。\n策划-皮卡皮：我其实对外包那个新闻挺感兴趣的，感觉大的行业新闻都有点司空见惯 ，反而这种非常规的新闻会更容易吸引我。",
+      "body": "《欧洲卡车模拟2》“冰岛”DLC将于11月11日发售。据悉，这项地图扩展将带来一条环冰岛的旅游风景线，连接一系列迷人的城市和偏远的定居点，它们都坐落在一个冰与火交织的世界里。雄伟的山脉、无尽的平原、险峻的悬崖、火山口、咆哮的河流和倾流而下的瀑布，这些都由我们的地图设计师精心重现。\n开发者表示，这是一项绝无仅有的 DLC，有着丰富的景色与未受污染的自然。冰岛是地球上最非凡的国家之一，拥有独一无二的地貌和无与伦比的自然风光。这个岛国拥有令人惊叹的自然奇观：屹立的火山、庞大的冰川、黑色的沙滩、奔流的瀑布、壮观的火山口等等，使其成为世界各地游客的梦想之地。现在，你将有机会以真正独特的视角，驾驶开车感受这一切。\n由于冰岛独特的地理位置，请不要期待看到密集的高速公路网或熙熙攘攘的城市群。取而代之的是，准备好迎接一场感受地球上最震撼的自然风光之一的旅程吧。\n每一公里均捕捉冰岛原始、未受破坏的环境的壮丽与真实性。如果你曾想驾车感受大自然的壮丽，那么现在就是完美的机会。你可以期待在环岛公路（Hringvegur）运送货物，这条公路长约1,400公里，环绕整个冰岛。除了其他城市和定居点外，这项地图扩展的亮点之一是首都雷克雅未克，一座充满活力、创意迸发、由惊人自然美景环绕的城市。",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "触乐行业周报：光子公布怪谈RPG新作，Steam新品节AI游戏占比36.4%",
-      "what": "触乐每周行业新闻汇总，邀请从业者点评：光子H.STUDIO公布开放世界RPG《人间异想计划》并放出22分钟实机PV；《辉烬》项目解散后外包团队用美术资源重制买断制PC游戏；Steam新品节7145款参展游戏中约36.4%披露使用生成式AI；另有《影之刃：零》预告与预购、伽马数据三季度报告等。",
+      "title_cn": "《欧洲卡车模拟2》冰岛DLC定于11月11日发售",
+      "what": "《欧洲卡车模拟2》的冰岛地图扩展DLC将于11月11日发售。官方介绍称，该DLC包含环冰岛约1400公里的环岛公路，连接雷克雅未克等城市与偏远定居点，并重现山脉、冰川、火山口、瀑布和黑沙滩等自然景观。",
       "why": "",
       "for_you": "",
       "degraded": null
     },
     {
-      "source_id": "steam-civilization-vi",
-      "source_url": "https://store.steampowered.com/news/app/289070/",
-      "platform": "steam",
-      "evidence_kind": "official_announcement",
-      "requires_transcript": false,
-      "key": "87e963152625af8f",
-      "title": "Civilization at 35: An Oral History",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034264",
-      "lang": "en",
-      "tier": 1,
-      "tier_weight": 18,
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "dc7103c2c1a4e967",
+      "title": "《雪地奔驰》第五年通行证全新DLC 第19季\"勘探与修复\"现已全平台推出",
+      "url": "https://www.gameres.com/901203321.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "Steam · Sid Meier's Civilization VI"
+        "GameRes"
       ],
-      "published": "2026-10-22T21:40:36+00:00",
+      "published": "2026-10-25T06:01:00+00:00",
       "undated": false,
-      "published_precision": "timestamp",
-      "summary_raw": "[p]The legendary turn-based strategy series, Sid Meier's Civilization, just celebrated its 35th anniversary . Since 1991, the Civ development team at Firaxis games have been challenging players to build civilizations that can stand the test of time and empires that redefine the world in their image.[/p][p] \"Sid's original premise was: 'Let's put all of human history in a box and make it fun.\" - Ed Beach, Creative Director of the Civilization franchise[/p][p] Polygon recently paid a visit to the studio to chronicle the history of Civilization , from Sid's earliest games to the release of Civili",
-      "rss_content": "[p]The legendary turn-based strategy series, Sid Meier's Civilization, just celebrated its 35th anniversary . Since 1991, the Civ development team at Firaxis games have been challenging players to build civilizations that can stand the test of time and empires that redefine the world in their image.[/p][p] \"Sid's original premise was: 'Let's put all of human history in a box and make it fun.\" - Ed Beach, Creative Director of the Civilization franchise[/p][p] Polygon recently paid a visit to the studio to chronicle the history of Civilization , from Sid's earliest games to the release of Civilization VII and its upcoming expansion, Earthrise .[/p][p][/p] [p][/p][p]Watch their 45-minute mini-documentary above, and read the full article on Polygon . [/p]",
-      "content_kind": "official_announcement_body",
+      "published_precision": "second",
+      "summary_raw": "Focus Entertainment与Saber Interactive宣布《雪地奔驰》第19季\"勘探与修复\"DLC全平台上线。本季舞台设于瑞士，含3张新地图、2款新卡车，玩家可参与修缮太空观测站等任务。",
+      "rss_content": "",
+      "content_kind": "article_body",
       "category": "games",
       "pool": "main",
       "signals": {
@@ -114,92 +114,14 @@
       },
       "members": [
         {
-          "title": "Civilization at 35: An Oral History",
-          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034264",
-          "source": "Steam · Sid Meier's Civilization VI",
-          "lang": "en",
-          "published": "2026-10-22T21:40:36+00:00"
+          "title": "《雪地奔驰》第五年通行证全新DLC 第19季\"勘探与修复\"现已全平台推出",
+          "url": "https://www.gameres.com/901203321.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-10-25T06:01:00+00:00"
         }
       ],
-      "score": 23,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 18
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 55.394500111944446,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "[p]The legendary turn-based strategy series, Sid Meier's Civilization, just celebrated its 35th anniversary . Since 1991, the Civ development team at Firaxis games have been challenging players to build civilizations that can stand the test of time and empires that redefine the world in their image.[/p][p] \"Sid's original premise was: 'Let's put all of human history in a box and make it fun.\" - Ed Beach, Creative Director of the Civilization franchise[/p][p] Polygon recently paid a visit to the studio to chronicle the history of Civilization , from Sid's earliest games to the release of Civilization VII and its upcoming expansion, Earthrise .[/p][p][/p] [p][/p][p]Watch their 45-minute mini-documentary above, and read the full article on Polygon . [/p]",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "《文明》系列迎来35周年，Polygon发布口述史与纪录片",
-      "what": "Steam公告称《席德·梅尔的文明》系列迎来35周年，Firaxis团队自1991年起持续开发该回合制策略系列；Polygon到访工作室，梳理从早期作品到《文明VII》及资料片Earthrise的历史，并发布45分钟纪录短片。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-9667abeb70",
-      "source_url": "https://80.lv/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "45332816bd692e86",
-      "title": "Get This Free Blender Add-On That Makes Hair Meshes Thinner at the Ends",
-      "url": "https://80.lv/articles/get-this-free-blender-add-on-that-makes-hair-meshes-thinner-at-the-ends/",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "80.lv"
-      ],
-      "published": "2026-10-24T16:30:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "MT Hair Taper gives hairstyles a smoother, more realistic look.",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "development",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Get This Free Blender Add-On That Makes Hair Meshes Thinner at the Ends",
-          "url": "https://80.lv/articles/get-this-free-blender-add-on-that-makes-hair-meshes-thinner-at-the-ends/",
-          "source": "80.lv",
-          "lang": "en",
-          "published": "2026-10-24T16:30:00+00:00"
-        }
-      ],
-      "score": 22,
+      "score": 30,
       "score_parts": [
         {
           "label": "来源",
@@ -207,7 +129,7 @@
         },
         {
           "label": "游戏与玩法变化",
-          "value": 0
+          "value": 8
         },
         {
           "label": "近期",
@@ -222,17 +144,17 @@
           "value": 0
         }
       ],
-      "topic": "开发动态",
+      "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 12.571166778611111,
+      "age_hours": 23.108448971944444,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "Get This Free Blender Add-On That Makes Hair Meshes Thinner at the Ends\nMT Hair Taper gives hairstyles a smoother, more realistic look.\nTake a look at MT Hair Taper, a free Blender add-on from 3D Artist MOTOMODEL that tapers the ends of hair-strand meshes for a more natural look.\nThe add-on preserves the strand's length and shape, narrowing it only in width. It is designed for grid-like hair-strand meshes, where quad faces are arranged vertically and horizontally, and where a horizontal row of vertices can be traced in sequence from the tip to the root.\nThe tool works well for hair bundles made from flat plane meshes and can also be used on cylindrical meshes that are closed horizontally. It is not suited to meshes with many triangles, radial vertex flow, or irregular divisions where a horizontal row can't be identified. The effect applies only to the part of the mesh where that grid continues from the selected row. Note that the add-on requires Blender 4.0 or later.\nAlso, learn how to create hair in the style of Wuthering Waves in Blender with Vermeil's tutorial, and check out MORI.3D's free Hair Bone Generator:\nDownload the MT Hair Taper add-on here and subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
+      "body": "第五年通行证全新 DLC - 第19季“勘探与修复”现已全平台推出\nFocus Entertainment 与 Saber Interactive 欣然庆贺《雪地奔驰》全新更新 - 第19赛季“勘探与修复”正式上线！现已登陆 PlayStation 5、PlayStation 4、Xbox Series X|S、Xbox One、Nintendo Switch 2 以及 PC 平台（Steam、Epic 游戏商城）。本季舞台设于瑞士，回归游戏经典雪地风格！ 来看看今天的第 19 赛季概览吧！\n欢迎来到瑞士，《雪地奔驰》全新冬季区域！\n协助修缮一座太空观测站，助力科研取得下一项重大突破！初冬的寒潮重创了这片风景如画的州，各地都迫切需要援手！修复老旧高架桥、加固道路抵御雪崩威胁，或是协助热气球节顺利升空！第19赛季包含3张大型地图，还有两款令人期待的全新卡车助你征服这片区域！ Wortek 250T是多功能重型卡车，拥有海量可选配件以及游戏内数一数二的大容量油箱；Derry Savior 8×8则凭借三根转向轴大放异彩，在本就强悍的牵引力之上，进一步提升了车辆的操控灵活性。\n游戏截屏：\n《雪地奔驰》第19赛季“勘探与修复”现已登陆 PlayStation 5、PlayStation 4、Xbox Series X|S、Xbox One、Nintendo Switch 2 以及 PC 平台。欢迎前往 Focus Together 社区分享你的反馈，并在全新社区平台获取专属奖励。欢迎加入《雪地奔驰》社区，分享您的反馈，并在我们全新的Focus Together平台上获取独家奖励。\n登录 后参与讨论\n暂无评论，来抢沙发",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "免费Blender插件MT Hair Taper：收窄发丝网格末端",
-      "what": "3D艺术家MOTOMODEL发布免费Blender插件MT Hair Taper，可在保持发丝长度与形状的前提下仅收窄宽度，使发束末端变细。插件面向四边形网格排列的发丝网格，需Blender 4.0及以上版本。",
+      "title_cn": "《雪地奔驰》第19季“勘探与修复”上线瑞士地图与两款卡车",
+      "what": "Focus Entertainment与Saber Interactive宣布《雪地奔驰》第五年通行证第19季“勘探与修复”登陆PS5、PS4、Xbox Series X|S、Xbox One、Switch 2及PC。本季以瑞士为舞台，含3张大型地图，新增Wortek 250T重型卡车与Derry Savior 8×8卡车。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -243,9 +165,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "c685195d889e2046",
-      "title": "辣手摧花，核周报 10.24",
-      "url": "https://www.gcores.com/radios/221016",
+      "key": "b562e8351224abc9",
+      "title": "vol.086 《控制：共振》B-side丨音乐&剧情漫谈",
+      "url": "https://www.gcores.com/radios/221487",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -253,12 +175,12 @@
       "sources": [
         "机核"
       ],
-      "published": "2026-10-24T15:00:00+00:00",
+      "published": "2026-10-26T03:39:21+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "本期时间轴制作：佟和 本周要闻：《使命召唤：现代战争 4》战役提前解锁，Steam 好评率 创系列十年新高；GTA6 放出最终预告，48 小时 YouTube 播放超过4600 万；EA关闭BioWare；育碧拟关闭RedLynx；《黎明行者之血》将推出1.1 版本，可重置技能点；《赛博朋克：边缘行者 2》上线等。",
+      "summary_raw": "【进听友群+v Recallmikey】 主播｜Even 夜猫子 嘉宾丨舞雩子 始于游戏，归于生活。 欢迎收听《游戏开始｜GameStart》第八十六期节目。 终于来到了下半场，我们继续来聊聊《控制：共振》的音乐与剧情，舞雩子老师将带给我们一些游戏中难以察觉的设计与巧思，欢迎收听~",
       "rss_content": "",
-      "content_kind": "article_body",
+      "content_kind": "rss_summary",
       "category": "games",
       "pool": "main",
       "signals": {
@@ -270,11 +192,11 @@
       },
       "members": [
         {
-          "title": "辣手摧花，核周报 10.24",
-          "url": "https://www.gcores.com/radios/221016",
+          "title": "vol.086 《控制：共振》B-side丨音乐&剧情漫谈",
+          "url": "https://www.gcores.com/radios/221487",
           "source": "机核",
           "lang": "zh",
-          "published": "2026-10-24T15:00:00+00:00"
+          "published": "2026-10-26T03:39:21+00:00"
         }
       ],
       "score": 22,
@@ -302,15 +224,171 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 14.071166778611111,
+      "age_hours": 1.469282305277778,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "GPASS\n首页\n机组\n讨论\n资讯\n播客\n文章\n视频\n有声书\n商店\n游戏库\n播单\n专题\n预告\nBOOOM\n机核发行\n下载机核 APP\nGPASS会员\n收藏\n历史\n消息\n101:42\n23k\n参与者\nRyoma\n雪豆\nNadya\n萝萝又卜卜\n辣手摧花，核周报 10.24\n别听我的\n14 小时前\n发布于\nGadio News\n本期时间轴制作：佟和\n本周要闻：《使命召唤：现代战争 4》战役提前解锁，Steam 好评率 创系列十年新高；GTA6 放出最终预告，48 小时 YouTube 播放超过4600 万；EA关闭BioWare；育碧拟关闭RedLynx；《黎明行者之血》将推出1.1 版本，可重置技能点；《赛博朋克：边缘行者 2》上线等。\nI\nGTA6\n赛博朋克：边缘行者 2\n黎明行者之血\n使命召唤®：现代战争® 4\n游戏\n资讯\nBioWare\n171\n25\nGadio News\n15148 人关注\n订阅\n60:36\n120.4k\nGadio News\n最后的我们，核周报 6.27\nRyoma 等 3 人\n2026-06-29\n675\n178\n87:21\n174.1k\nGadio News\n预告收费，重制免费，核周报 8.29\nRyoma 等 4 人\n2026-08-29\n550\n343\n104:24\n94.3k\nGadio News\n家大业大，核周报 5.9\nRyoma 等 4 人\n2026-05-09\n384\n196\n评论区\n发送\n共 51 条评论\n热门\n最新\n时刻\n回到顶部\n外观样式\n建议反馈",
+      "body": "",
+      "has_body": false,
+      "body_truncated": false,
+      "title_cn": "《控制：共振》B-side：音乐与剧情漫谈",
+      "what": "机核播客《游戏开始》第86期下半场，主播与嘉宾围绕《控制：共振》的音乐和剧情展开讨论，嘉宾介绍游戏中不易察觉的设计细节。",
+      "why": "",
+      "for_you": "",
+      "degraded": "source_excerpt"
+    },
+    {
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "e5e49ba8cb3f6a0c",
+      "title": "即将开票！2026 WePlay文化展现场内容提前预告！",
+      "url": "https://www.gameres.com/901203329.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GameRes"
+      ],
+      "published": "2026-10-26T01:59:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "2026 WePlay文化展联合zFrontier打造WePlay & ZFX 2026，将于11月21-22日在上海国家会展中心举办，门票即将开售，提前剧透多款海内外游戏参展、制作人互动、限定周边等内容。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "即将开票！2026 WePlay文化展现场内容提前预告！",
+          "url": "https://www.gameres.com/901203329.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-10-26T01:59:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 3.141782305277778,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "WePlay文化展10岁啦！\n提起WePlay你又会回忆起哪些情感？\n是近距离接触到知名制作人时的感动，\n是提前试玩到自己喜欢游戏时的喜悦，\n是与相同爱好与作品朋友相聚的欣喜，\n是将喜欢作品限定周边带回家的兴奋。\n从2017年起WePlay连接跨越地区\n与国界的游戏爱好者，\n致力于让更多人体验、交流\n并享受游戏与游戏文化的魅力！\n从去年起在原有游戏文化的基础上，WePlay加入更多游戏硬件体验！\n今年WePlay将继续与zFrontier装备前线联合打造WePlay & ZFX 2026！\n一张门票就能体验来自全球的游戏文化与沉浸式的数码嘉年华！\n11月21-22日上海国家会展中心2.2馆！\nPlay for Decades,Never Fade。\n欢迎扫描上方二维码进入哔哩哔哩会员购\n购票链接：https://show.bilibili.com/platform/detail.html?id=1007030\n重点内容抢先剧透！\n从《脑叶公司》、《废墟图书馆》到《边狱巴士》，韩国独立工作室Project Moon以反乌托邦“都市”为舞台，用黑暗诡秘的笔触讲述人性的故事，在国内拥有大量粉丝。\n在WePlay & ZFX 2026现场，将设置“月亮计划”三部作品的经典场景供粉丝打卡，制作人金智勋也将亲临现场！金智勋不仅将在主舞台与观众进行互动，现场购买官方周边的玩家还能参与抽选获得参与签名活动的机会！\n《杀戮尖塔》系列制作人Casey Yano也来到了WePlay的现场！将在主舞台与观众进行互动交流！现场也将设置《杀戮尖塔2》主题展区！各种沉浸体验互动与精美周边等着你！2天展区内都设有制作人签名互动环节！具体互动时间表后续公开！\n还记得去年锈湖主题区热闹的景象吗？去年没抢到WePlay门票的玩家不用再遗憾了，锈湖将再度亮相2026 WePlay！今年我们将在现场带来更多内容与体验，同时也会再次为大家带来限定周边！更多相关信息我们将陆续释出，大家把期待值拉满吧！\n曾亮相首届WePlay的《黎明杀机》开发商Behaviour Interactive，将在WePlay与《黎明杀机》共庆十周年之际再次来到现场，与玩家一同见证这一特别时刻！除了《黎明杀机》之外，Behaviour Interactive还将带来旗下IP《暗黑地牢》、《七日杀》、以及多款由其发行的独立游戏，欢迎玩家来现场试玩体验！\n此外在C13-C15展区将有Behaviour Interactive相关周边贩售欢迎前来选购！\n《匹诺曹的谎言》主创到场，周六开启签名互动！多款精美游戏周边现场同步贩售。\n全新美术+全新世界线结局！经典视觉小说《命运石之门：重启》再临WePlay！各种精美周边现场贩售不要错过！\n以上只是重点不是全部！！现场还有大量来自国内外的游戏制作人等待着与你不期而遇！\nFEVERCON特别主题区\n专注把游戏 IP 照进现实的创意产品品牌 FEVER，此前通过在WePlay现场设置\nFEVERCON专区，带来各精品游戏IP的线下沉浸式体验，并通过高品质的创意周边连接更多游戏爱好者，今年FEVER将继续在WePlay带来多个IP的特别内容和周边，并将设置FEVER的商品摊位，带来包括《巫师 3：狂猎》、《赛博朋克2077》、《TEVI》、《Rabi-ribi》、《CLANNAD》、《AIR》、《AIC》等多款游戏的周边产品现场贩售。\n在今年的FEVERCON主题区，除了上面介绍的《月亮计划》、《杀戮尖塔2》与《锈湖》之外，还有以下作品等你体验！\n《心跳文学部Plus》发行商Serenity Forge今年公布了新作《法拉第蓝》，瞬间将玩家的期待拉满！在2026 WePlay的现场，Serenity Forge将带来《心跳文学部Plus》、《绯花绽放》、《妹妹、他人、妄想症》、《去月球 传奇RPG 之最终一小时》、《永泉》、《蓝花物语》6款游戏试玩，《法拉第蓝》、《瓶中永夏》游戏展示，还有展会限定周边贩售！\n《酒鬼女神的酒诡》凭借首发PV就话题度拉满！目前Steam愿望单已经突破50万！前段时间公布的MV播放量也突破了1000万次，让无数玩家期待与女神拼酒赌命！在2026 WePlay现场，Alliance Arts带来《酒鬼女神的酒诡》试玩，让玩家提前体验到这款作品的魅力！同时现场还有《酒鬼女神的酒诡》、《晕晕电波症候群》先行周边等待玩家的挑选！\n《吸血鬼幸存者》开发商poncle来到了WePlay的现场！现场试玩就有机会获取小礼物！现场设立有打卡点供玩家拍照打卡！\n欢迎来到WePlay的现场提前试玩《Muse Dash 2》！还有《Muse Dash》周边等你抱回家！\n这次的WePlay准备了galgame专区，《巧克甜恋》、《纯白交响曲》、《素晴日》、《美少女万华镜》、《五彩斑斓的世界》都将推出限定展品，怎么还不来galgame专区看看！老资历我敬重你。\nhololive 亮相 WePlay，来现场开启游戏之旅！本次 WePlay，hololive 将携主推游戏《hololive Dreams》，以及从「hololive indie」系列中精选的多款热门游戏一同参展，为大家带来丰富的现场试玩体验。除了电子游戏，展台还将带来 hololive TCG 卡牌与桌游内容，让大家感受卡牌的乐趣。现场更设有周边贩售区供挑选心仪周边。\n无论你是熟悉 hololive 的粉丝，还是第一次接触这些作品，都欢迎来到展台，亲手体验不同游戏的乐趣，发现你最喜欢的那一款！\npsplive再次亮相WePlay！psplive是活跃于哔哩哔哩的虚拟艺人群体，是虚拟主播更是游戏玩家！本次现场将有psplive相关周边售卖，还有多位主播开展现场互动环节，欢迎来和我们一起玩耍！\n拥有极高人气的恐怖冒险游戏《终焉车站》确认参展WePlay！开发者viv亲临现场进行签售互动并带来国内首次周边贩售！亚克力水晶板与一系列限定周边将在本次展会先行发售，等你挑选！\n全球的精品游戏在这里集结\nWePlay & ZFX 2026现场共有来自全球10多个国家和地区的500多款游戏等待您前来体验！\n传奇永生，经典再续！\n育碧将携三大经典游戏IP登陆 WePlay！《魔法门之英雄无敌Ⅲ重制版》《雷曼：传奇再叙》开放抢鲜体验，还有《刺客信条：黑旗 记忆重置》现场试玩，邀您亲自上手、重温经典魅力！\n11月22日，锁定主舞台！《魔法门之英雄无敌Ⅲ重制版》游戏制作人将带来最新情报，揭秘更多精彩内容！\n《幻兽帕鲁》开发商Pocketpair参展WePlay 2026！除《幻兽帕鲁》外，旗下发行Pocketpair Publishing还带来《风启之旅》、《哥布林小岛》等5款游戏！其中包含未发售新作的提前试玩！\n跨越国界的独立游戏：UKIYO STUDIOS 携9款风格迥异的独立游戏登场 2026 WePlay。\nUKIYO STUDIOS 是总部设于墨尔本、日本同步运营的游戏行销与公关团队，专注协助全球独立游戏团队参展、多语本地化、媒体公关、商务对接等业务，让开发者能专心投入游戏制作。欢迎各位玩家与媒体莅临展位体验。\n《咩咩启示录》发行商Devolver Digital出席WePlay！欢迎玩家来现场与咩咩人形玩偶合影打卡！来《Heave Ho 2》现场组队，和刚认识的队友一起手拉手，开启合作挑战，现场凑齐4人即可开玩，参与试玩就送精美游戏周边！\n《寻找伪人》发行商CRITICAL REFLEX再次来到WePlay的现场！今年带来的游戏风格更加多元！《狸狸：胖哒的夏日》、《梦与灭》、《血墨诡案》、《警目如炬》等16款游戏等你来玩！\nGOOD SMILE COMPANY带来《魔法少女的因习村》、《Obey Me！Sinner's Choice:Lucifer》、《猫娘乐园：SEKAI CONNECT》等5款游戏的现场沉浸式布景，欢迎前来体验！还有到场游戏的各种精美周边可供玩家选购！\n《猫娘乐园：SEKAI CONNECT》Steam版将会支持简体中文字幕，目前正在开放愿望单！\n此外，还有《PATLABOR the Case Files》及《COCORO》两款游戏的试玩，期待大家的到来！\nCIRCLE LINE GAMES 将会在本次WePlay上展出直播介入× 调查推理题材的全新Steam游戏《我推的祭品》，现场将会提供游戏的试玩体验及纪念赠品，其中纪念赠品每天限量，送完即止。\n同时好评如潮的《魔女少女的魔女审判》现场也将会提供Nintendo Switch版试玩。\nSAPSTAR GAMES 将携《新神纪》与《永恒轮回》出展WePlay 2026。《新神纪》融合神话冒险、生存与建造；《永恒轮回》带来卢米亚岛上的生存竞技。两款游戏均可现场试玩。\n《龙窟破坏者》将带来全球首次线下公开试玩。这款俯视角动作游戏融合角色战斗与“搜打撤”玩法，玩家可在现场试玩，体验探索、战斗与撤离的紧张节奏。\n集英社游戏再次来到了WePlay的现场！今年集英社带来的4款游戏是《非我:择谁》、《时之书：无尽终章》、《野性伊甸 幻兽世界》和《征服记：臣民之心》，4款都是尚未发行的新作提前试玩！\n风靡世界的驾驶动作游戏新作回归！SEGA携《疯狂出租车：极速环游》参展WePlay带来提前试玩！现场还有打卡活动、小游戏以及任务挑战舞台等环节，每个环节都有精美礼品，更有机会赢取舞台惊喜奖励！\n松竹游戏SHOCHIKU GAMES携《MONOPHOBIA》、《回星乐章》等8款新游出展WePlay！现场还有活动专属赠品等你领取！\nLine Games首次参展WePlay！带来《烬刃交辉》、《QUIET》等5款游戏试玩！参与现场试玩与盖章打卡活动，即有机会赢取华硕显卡及专属精美周边！\n篇幅有限！以上只是今年海外内容的冰山一角！更多内容欢迎来到现场体验！\nWePlay全球合作伙伴\n波兰、加拿大、新西兰、韩国、巴西、日本等国家和地区的合作伙伴以国家形式组团参展，囊括一整年的游戏精华。今年法国、俄罗斯、沙特首次以国家展台的形式加入到WePlay！\n法国游戏将首次以国家展台的形式亮相国内，在Game France法国游戏展台，十家法国游戏工作室将带来十款风格迥异的优质作品。你不仅可以试玩多款尚未发行的游戏Demo，还能体验备受关注的独立游戏作品，以及来自大型游戏工作室的精良制作。\n由Moscow Game Hub组织的俄罗斯代表团以国家展台形式亮相WePlay！共带来了5家来自俄罗斯工作室的16款游戏！欢迎来这里感受俄罗斯游戏特有的魅力！\nChromacon 新西兰原创艺术节自2017年首届 WePlay 起，每一届都将新西兰的独立游戏带给中国的玩家。为庆祝WePlay 10周年，Chromacon新西兰原创艺术节与 CODE新西兰数码卓越中心合作，精选出10款由新西兰开发者打造的精品游戏与中国玩家分享！10款游戏的制作人都将来到现场！\n来自沙特开发者的游戏通过HAWK Gaming Group来到2026 WePlay的现场！带来多款游戏的现场体验！从2D冒险到潜行动作，每一款游戏都充满来自沙特的异域风格！\n此外还有很多与WePlay常年合作的合作伙伴今年也都带来了一整年的游戏精选，篇幅有限欢迎玩家亲自来现场体验！\n主要游戏开发者与发行商齐聚\n以上并非今年全部展商！还有更多展商陆续解锁中\n玩游戏赢奖品！玩家根据地图在集章展位赢取PINS后不仅可以参与抽奖，设计精美的PINS也极具收藏价值！今年WePlay现场地图也进行了升级！玩家可以通过小程序查阅现场地图，更方便玩家进行集章！\n心动游戏展区共有《潜水员戴夫》、《巫奇魔法学院 Witchbrook》 、《深空当铺：可能是偷的》、《余烬之镇 Emberville 》、《地渊珠宝匠 》等13款游戏参展！《料理人班乔》、《巫奇魔法学院 Witchbrook》与《深空当铺：可能是偷的》现场打卡点欢迎前来互动！\n《余烬之镇》主创Bryn 与知名美国配音演员Nick（《生化危机》系列“里昂”与《余烬之镇》Mind's Journal的配音）将来到主舞台与观众互动！\n游民星空带来《胜利旗帜》、《末日战车：丧尸废土》、《一起来造大火箭》在内的25款游戏现场试玩！现场还有试玩挑战等福利活动！\n嗒噗网吧，WePlay限时营业即将开启！TapTap携26款独家好游戏集结A03展位！全场独家、即刻上机！\n动作、RPG、模拟经营、Roguelike、解谜、休闲派对等26款各类型游戏任你一站爽玩！现场还有试玩集章、游戏限时挑战赛、嗒啦啦大PK等超多限定活动！网费全免，机位已开，等你上号啦！\n小红书游戏作为本次展会的特别社区合作伙伴，游戏薯又双叒带来了#我在小红书做游戏 上的制作团队的游戏作品，从解谜烧脑的推理游戏到温馨治愈种田生活，20+海内外游戏，总有一款你的菜！快来展台探索游戏台前幕后，别样的开发故事吧！参与展台游戏试玩还可打印你的定制游戏结算纪念小票，数量有限不要错过！\n巧思带来经典RPG《重装机兵 钢之季节》重制版，一公布就获得了全球玩家的好评！在2026 WePlay上本作第一次以全功能呈现亮相！\n成都剑猫熊网络研发的国产单机仙侠ARPG《猿公剑》以“避青入红”替代传统闪避，打造攻防一体的硬核剑斗体验。WePlay期间游戏制作人也将亲临现场，欢迎玩家前来试玩交流！\n发行商 Neverland 将携多款不同类型的精品游戏亮相 WePlay。日系冒险《勇者小队全灭了。》、审判模拟《地狱不空》、宇宙恐怖叙事《睡前派对》与悬疑推理《审判官谢泼德》等人气作品悉数登场，另有 10 余款精彩游戏将在现场开放体验，丰富类型满足不同玩家的喜好！\n现场参与任意游戏试玩的玩家，均有机会获得限定无料，千万不要错过！\n热脉游戏带来了即将发售的新作《磕磕绊绊圆舞曲》提前试玩！让我们在手绘风格的世界中，体验纯真灵魂“华尔兹”与可爱小狗“贾姆”的冒险故事。\n2P GAMES携多款新作来到了WePlay的现场！东方仙侠题材养成游戏《仙乡小千金》、国漫IP《吾皇猫》官方双人合作游戏《猫狗同行》、麻将牌为战斗方式的Roguelite游戏《龙与麻雀》、受2D塞尔达传说启发的ARPG游戏《异兔传说》……总有一款适合您!！\nGamirror Games今年共有15款游戏来到WePlay的现场！不仅有年度独游话题作《沉星之序》，还有《乌合之众》、《深渊奇境》等 抢先试玩！\n由MyACG Studio打造的极致爽快Rogue-lite动作游戏《灰烬之国》来到了WePlay的现场！制作人现场座谈会、制作组联机互动！还有试玩挑战送周边以及无料周边等你来拿！\nIndieArk带来了《军火黑市》、《喷子边检员》、《像素狂潮》、《艺术狂飙》等8款游戏现场体验！\nLight up Games将带来6款游戏新作供WePlay现场观众试玩！其中《吸血鬼公主》、《堑豪线》与《破届征途》制作人将亲临现场与玩家互动答疑！还有许多游戏精美周边、本体限量发放！\nIndie Game Pass携20余款游戏来到了WePlay的现场！大量游戏开发者来到现场与玩家交流互动！还有无料派送和PINS集章活动等待大家的参与！\n篇幅有限！WePlay还有太多好玩的内容欢迎来到现场亲自体验！\n还有更多内容！\nindiePlay入围区集结国内外最鲜活的创意与表达！今年的72款入围作品中共有13款来自海外，欢迎玩家来到现场与开发团队现场交流！在11月22日的舞台活动最后，将有2026 indiePlay中国独立游戏大赛颁奖典礼，欢迎玩家们来到现场观看！\n作为专注游戏设计教育的 Hit Academy始终相信，学生作品不应止步于课堂，应该被更多的玩家玩到、更多业内人士看到。\nHit Academy 将携 21款学员游戏作品来到 WePlay 文化展 D03 展位！本次展出的游戏作品涵盖叙事、动作、休闲、策略等多种类型，设计目标旨在创作独特体验的游戏作品。欢迎大家前来试玩，与年轻创作者面对面交流。\n不止电子游戏！在桌游区从简单上手的作品，到略显复杂的佳作，这里有独属于线下面对面游戏时的乐趣与魅力。\n感谢首席显示器合作伙伴EVNIA弈威对本次活动的大力支持！\nEVNIA弈威，飞利浦显示器旗下独立高端电竞子品牌，以”重塑游戏规则“为核心理念，传递“无惧对弈竞技、尽显王者威能”的硬核精神。品牌首创“AI·健康”双核电竞理念，兼顾智能科技与用眼健康。依托该理念搭建完整弈威银河星际产品矩阵，包含天王星OLED、天狼星MiniLED、霹雳X²高刷、海王星护眼、多模倍频等多条产品线。未来品牌将持续深耕“AI·护眼”显示技术，完善弈威银河布局，为玩家打造性能与健康兼备的电竞显示新生态。\n同时特别感谢展会首席显示硬件合作伙伴——飞利浦电视，为本届WePlay各个展台提供游戏演示设备支持！\n荷兰皇家飞利浦电视，拥有MiniLED、P5 AI画质引擎、独家环景光专利技术，配合超高刷新率、低延迟游戏模式，精准还原独立游戏与3A大作的画面色彩，流畅无拖影。让每一位开发者的创意、每一款游戏的氛围，都被原汁原味呈现，带给玩家沉浸式的试玩体验。\n感谢飞利浦电视，和WePlay一起，用出色视听，放大游戏乐趣！\n以上内容只是介绍长度的极限！更多内容陆续解禁中！\n展会地图、舞台完整时间表即将公开！敬请期待！\n今年的WePlay小程序将进行重大升级，提供更便利的现场地图查看和展会现场导览，后续将在展会开展前正式上线。\n11月21-22日上海国家会展中心2.2馆！\nPlay for Decades,Never Fade。\nWePlay期待与你共赴下一个十年！\n欢迎关注WePlay微信公众号、微博、B站、小红书等平台第一时间获取开票信息！\n与群内的同好们一起相约WePlay & ZFX 2026\n登录 后参与讨论\n暂无评论，来抢沙发",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "机核周报10.24：现代战争4战役提前解锁、GTA6新预告等要闻",
-      "what": "机核Gadio News周报汇总本周游戏要闻：《使命召唤：现代战争4》战役提前解锁且Steam好评率创系列十年新高；GTA6最终预告48小时YouTube播放超4600万；EA关闭BioWare、育碧拟关闭RedLynx；《黎明行者之血》将推1.1版本可重置技能点；《赛博朋克：边缘行者2》上线。",
+      "title_cn": "WePlay & ZFX 2026展会公布参展游戏与现场活动",
+      "what": "WePlay & ZFX 2026将于11月21日至22日在上海国家会展中心2.2馆举办，主办方公布参展阵容：Project Moon、Behaviour Interactive、育碧、Pocketpair、集英社游戏、SEGA等厂商带来试玩与制作人互动，另设国家展台、indiePlay入围区与桌游区。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "7bceda5536e936f2",
+      "title": "四大赛区120场对决！咪咕游戏2026动感地带高校菁英邀请赛32支名校战队集结争锋",
+      "url": "https://www.gameres.com/901203327.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GameRes"
+      ],
+      "published": "2026-10-26T01:40:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "四大赛区120场对决！咪咕游戏2026动感地带高校菁英邀请赛32支名校战队集结争锋",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "四大赛区120场对决！咪咕游戏2026动感地带高校菁英邀请赛32支名校战队集结争锋",
+          "url": "https://www.gameres.com/901203327.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-10-26T01:40:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 3.4584489719444447,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "当顶尖学府的学术荣光遇上峡谷战场的少年热血，一场属于高校菁英的巅峰对决就此点燃。近日，2026动感地带高校菁英邀请赛正式开赛。来自清华大学、北京大学、浙江大学、南京大学、华中科技大学等32所985、211顶尖学府的电竞战队集结登场，分为四大赛区展开激烈角逐。赛事期间，咪咕游戏为本次邀请赛提供全程直播与社区互动服务，陪伴高校用户共赴这场青春电竞之约。\n顶尖学府齐聚，校际荣誉战热血开战\n作为动感地带校园电竞联赛子IP赛事，本届邀请赛以“竞逐巅峰，当燃由我”为主题，集结全国头部高校战队，参赛阵容横跨四大赛区。东部赛区有浙江大学、南京大学、东南大学、同济大学等老牌强校坐镇；南部赛区集结厦门大学、中南大学、湖南大学、华南理工大学等实力劲旅；西部赛区迎来华中科技大学、西安交通大学、四川大学、电子科技大学等理工强校；北部赛区则汇聚清华大学、北京大学、北京师范大学、天津大学、南开大学等顶尖学府。从C9联盟到985、211主力，32支战队几乎囊括了中国的头部高校电竞力量。\n120场对决层层晋级，积分赛激战正酣\n战队将展开积分赛、淘汰赛、总决赛三个阶段共120场对决，优胜战队将会师12月年度总决赛角逐冠亚季军。目前，积分赛已全面打响。10月至11月初的每个周末，四大赛区内展开单循环BO2赛制，各赛区积分排名前四的战队将晋级11月的淘汰赛。淘汰赛采用BO5单败淘汰，各赛区前两名最终会师总决赛。从“同城德比”到“C9争锋”，从“东部赛区谁最强”到“清北对决”，四大赛区的每一场较量，都是校际荣誉的直接对话。\n从观赛到互动，咪咕游戏陪你玩转电竞\n赛事期间，用户登录咪咕游戏APP动感地带电竞频道，即可一站式观看菁英邀请赛全程直播，不错过任何一场名校对决。为了让大家看得过瘾、玩得尽兴，咪咕游戏还为高校用户准备了一整套赛场之外的观赛互动体验，让热爱不止于屏幕。\n在咪咕游戏电竞社区，JDG无畏等电竞选手专题社区已经上线，赛事花絮、专属权益、交流互动一应俱全，追星、看料、拿福利一步到位。超百所高校电竞社团已抢先入驻，参赛的菁英高校电竞社团也将陆续入驻，战队成员在本校社区分享备战日常、比赛心得和高光时刻，点进社区就能看到自家战队的最新动态，为母校打call不用再翻遍全网。此外，社区还将围绕#清北对决#、#东部赛区谁最强#等话题策划互动打榜，设置高校、赛区助力榜，每日签到、发帖、评论都能为本校或战区助力，让每一份支持都被看见。\n从屏幕前的热爱，到赛场上的奔赴，咪咕游戏正把电竞服务延伸到高校用户身边的每一个场景。菁英邀请赛为32所高校学子提供了代表母校出征的荣誉舞台，也让更多热爱电竞的年轻人被看见、被连接。以电竞为桥，为热爱加冕，咪咕游戏将持续助力中国高校电竞向上生长，为怀揣梦想的高校用户搭建通往更广阔舞台的成长阶梯。目前，咪咕游戏APP动感地带电竞频道正全程直播菁英邀请赛精彩对决，登录咪咕游戏APP，搜索「电竞赛」，即可观赛、互动、赢福利，快来为你支持的学校战队打CALL助力吧！\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "咪咕游戏2026动感地带高校菁英邀请赛开赛：32支高校战队分四赛区角逐",
+      "what": "咪咕游戏主办的2026动感地带高校菁英邀请赛已开赛，32所高校电竞战队分四大赛区，经积分赛、淘汰赛、总决赛共120场对决，12月举行年度总决赛；咪咕游戏APP提供直播与社区互动。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -321,9 +399,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "425793474e147835",
-      "title": "3D动作肉鸽新游《零境·入侵》亮相2026核聚变北京站",
-      "url": "https://www.gcores.com/articles/221436",
+      "key": "215a0554a23ab574",
+      "title": "Creative Assembly：《全面战争：幕府将军2》完全版系纯外包作品",
+      "url": "https://www.gcores.com/articles/221467",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -331,10 +409,10 @@
       "sources": [
         "机核"
       ],
-      "published": "2026-10-24T14:36:40+00:00",
+      "published": "2026-10-26T01:10:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "由绿洲工作室旗下Streetlamp Studio研发的3D横版动作肉鸽游戏《零境·入侵》（SlashZero）于2026核聚变北京站亮相。展会于 10月24日至25日 在北京首钢国际会展中心举行，《零境·入侵》展位位于 TapTap独立游戏区D09，欢迎各位动作肉鸽爱好者前往试玩体验，并添加愿望单、关注后续一手信息。 (核聚变北京站出展确认) 本次参展，《零境·入侵》为现场玩家带来极具挑战性的 隐藏BOSS“业”挑战 活动，向各位动作肉鸽爱好者发出诚挚邀请！玩家可直接体验隐藏BOSS“业”所在关卡， 参与挑战即可获得定制手提袋，当然能够成功无伤通关更有机会获得定制帽子、由盖世小鸡赞助的天王星8K游戏手柄一台 ，活动同步发起线上隐藏BOSS“业”挑战赛，玩家在B站、抖音、小红书、小黑盒任一平台发布挑战视频，亦有机会获得周边福利及手柄奖励。 (线上线下隐藏BOSS挑战) (丰富周边福利等你来领) 作为2026年备受关注的国产动作肉鸽新品，《零境·入侵》近期的市场反响为本次参展奠定了热度基础。《零境·入侵》不仅在Chinajoy期间正式入围2026 ChinaJoy × Game Connection INDIE GAME开发大奖“最佳Rogue游戏”奖项，于9月放出的免费试玩demo还收获了全球上万玩家的体验与喜爱， demo全语言好评度达到91% 。玩家与媒体对游戏高品质3D美术、",
+      "summary_raw": "此前， 《全面战争：幕府将军2》完全版发售后遭遇了海量的玩家差评 。世嘉不得不从数字商店下架，并重新恢复上线2011年的原始版本。 Creative Assembly 对此回应称，该版本完全是外包团队打造，也未接受其内部质量保证检测。 Creative Assembly副总裁罗杰·柯勒姆在官方论坛表示，他们与玩家同样愤怒。虽然柯勒姆在文中未直接提及实际负责开发本次完全版的第三方工作室 Mataboo ，但他反复强调 Creative Assembly 未参与项目，以此拉开与这次风波的距离。 针对完全版使用 AI 的质疑，柯勒姆称 Creative Assembly 严格禁止使用生成式 AI ，且这一标准同样适用于所有外部合作开发商。",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -348,11 +426,11 @@
       },
       "members": [
         {
-          "title": "3D动作肉鸽新游《零境·入侵》亮相2026核聚变北京站",
-          "url": "https://www.gcores.com/articles/221436",
+          "title": "Creative Assembly：《全面战争：幕府将军2》完全版系纯外包作品",
+          "url": "https://www.gcores.com/articles/221467",
           "source": "机核",
           "lang": "zh",
-          "published": "2026-10-24T14:36:40+00:00"
+          "published": "2026-10-26T01:10:00+00:00"
         }
       ],
       "score": 22,
@@ -378,17 +456,17 @@
           "value": 0
         }
       ],
-      "topic": "战斗设计",
+      "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 14.4600556675,
+      "age_hours": 3.9584489719444447,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "由绿洲工作室旗下Streetlamp Studio研发的3D横版动作肉鸽游戏《零境·入侵》（SlashZero）于2026核聚变北京站亮相。展会于10月24日至25日在北京首钢国际会展中心举行，《零境·入侵》展位位于TapTap独立游戏区D09，欢迎各位动作肉鸽爱好者前往试玩体验，并添加愿望单、关注后续一手信息。\n本次参展，《零境·入侵》为现场玩家带来极具挑战性的隐藏BOSS“业”挑战活动，向各位动作肉鸽爱好者发出诚挚邀请！玩家可直接体验隐藏BOSS“业”所在关卡，参与挑战即可获得定制手提袋，当然能够成功无伤通关更有机会获得定制帽子、由盖世小鸡赞助的天王星8K游戏手柄一台，活动同步发起线上隐藏BOSS“业”挑战赛，玩家在B站、抖音、小红书、小黑盒任一平台发布挑战视频，亦有机会获得周边福利及手柄奖励。\n作为2026年备受关注的国产动作肉鸽新品，《零境·入侵》近期的市场反响为本次参展奠定了热度基础。《零境·入侵》不仅在Chinajoy期间正式入围2026 ChinaJoy × Game Connection INDIE GAME开发大奖“最佳Rogue游戏”奖项，于9月放出的免费试玩demo还收获了全球上万玩家的体验与喜爱，demo全语言好评度达到91%。玩家与媒体对游戏高品质3D美术、爽快的空战连招、扎实的动作手感、自由的肉鸽构筑玩法都给予了高度评价。\n目前，《零境·入侵》Demo仍在试玩中，完整正式版本计划于2027年春季全球上线。玩家可前往Steam、PlayStation平台免费体验并添加愿望单，第一时间获取后续测试与发售信息。更多游戏资讯请关注官方B站、抖音、小黑盒账号@零境·入侵。",
+      "body": "GPASS\n首页\n机组\n讨论\n资讯\n播客\n文章\n视频\n有声书\n商店\n游戏库\n播单\n专题\n预告\nBOOOM\n机核发行\n下载机核 APP\nGPASS会员\n收藏\n历史\n消息\nCreative Assembly：《全面战争：幕府将军2》完全版系纯外包作品\n他们对外包使用AI“感到愤慨”\nYT17\n3 小时前\n发布于\n资讯\n此前，\n《全面战争：幕府将军2》完全版发售后遭遇了海量的玩家差评\n。世嘉不得不从数字商店下架，并重新恢复上线2011年的原始版本。 Creative Assembly 对此回应称，该版本完全是外包团队打造，也未接受其内部质量保证检测。\nCreative Assembly副总裁罗杰·柯勒姆在官方论坛表示，他们与玩家同样愤怒。虽然柯勒姆在文中未直接提及实际负责开发本次完全版的第三方工作室 Mataboo ，但他反复强调 Creative Assembly 未参与项目，以此拉开与这次风波的距离。\n针对完全版使用 AI 的质疑，柯勒姆称 Creative Assembly 严格禁止使用生成式 AI ，且这一标准同样适用于所有外部合作开发商。\nI\n《全面战争：幕府将军2》完全版\n游戏\n6\n1\n最热资讯\n文章精选\nPC与手机版均达成百万销量\n资讯\n《苍翼：混沌效应》全平台销量已达到220万份\nChimekuma\n2025-03-14\n27\n9\n终于有照相模式了，欢天喜地\n视觉动物\n《心灵杀手2》照相模式截图01\nJack of N...\n2024-06-09\n26\n1\n希望新品节得到更多反馈\n资讯\n个人开发超现实推理独立游戏《液化物》Demo更新，迎接新品节\n柳震焱\n2023-01-28\n73\n6\n评论区\n发送\n共 24 条评论\n热门\n最新\n回到顶部\n外观样式\n建议反馈",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "3D动作肉鸽游戏《零境·入侵》亮相2026核聚变北京站",
-      "what": "绿洲工作室旗下Streetlamp Studio研发的3D横版动作肉鸽游戏《零境·入侵》在2026核聚变北京站TapTap独立游戏区展出，现场提供隐藏BOSS“业”挑战活动，并同步发起线上挑战赛。文章称Demo全语言好评度91%，正式版计划2027年春季上线。",
+      "title_cn": "Creative Assembly称《全面战争：幕府将军2》完全版为纯外包作品",
+      "what": "《全面战争：幕府将军2》完全版发售后遭大量差评，世嘉将其下架并恢复2011年原版。Creative Assembly副总裁罗杰·柯勒姆在官方论坛称该版本完全由外包团队打造，未经其内部质量保证检测，并称公司禁止使用生成式AI，该标准也适用于外部合作开发商。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -399,9 +477,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "c05b3bfb2ec56c6f",
-      "title": "Check Out This Relaxing Brutalist City Builder Inspired by Tiny Glade",
-      "url": "https://80.lv/articles/check-out-this-relaxing-brutalist-city-builder-inspired-by-tiny-glade/",
+      "key": "e6947e341f975063",
+      "title": "This Dreamy Wooden Cabin Scene with Glowing Water FX Was Made with Houdini",
+      "url": "https://80.lv/articles/this-dreamy-wooden-cabin-scene-with-glowing-water-fx-was-made-with-houdini/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -409,10 +487,10 @@
       "sources": [
         "80.lv"
       ],
-      "published": "2026-10-24T14:00:00+00:00",
+      "published": "2026-10-23T13:07:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Tiny Brutalism brings concrete architecture to the cozy city builder genre.",
+      "summary_raw": "Mario Sánchez Aguado shared his Houdini water simulation that started as a Maya project, became forgotten for a year, and got revived thanks to Solaris.",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "development",
@@ -426,167 +504,11 @@
       },
       "members": [
         {
-          "title": "Check Out This Relaxing Brutalist City Builder Inspired by Tiny Glade",
-          "url": "https://80.lv/articles/check-out-this-relaxing-brutalist-city-builder-inspired-by-tiny-glade/",
+          "title": "This Dreamy Wooden Cabin Scene with Glowing Water FX Was Made with Houdini",
+          "url": "https://80.lv/articles/this-dreamy-wooden-cabin-scene-with-glowing-water-fx-was-made-with-houdini/",
           "source": "80.lv",
           "lang": "en",
-          "published": "2026-10-24T14:00:00+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "开发动态",
-      "is_analysis": false,
-      "age_hours": 15.071166778611111,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "Check Out This Relaxing Brutalist City Builder Inspired by Tiny Glade\nTiny Brutalism brings concrete architecture to the cozy city builder genre.\nIf you are a fan of cozy games, especially titles such as Tiny Glade or Townscraper, check out Tiny Brutalism from Jimjum Studios, which inverts the genre of cozy builders and adds a twist of an unexpected architectural style – brutalism.\nIn the sandbox, you can create your own dream mega structure using over 20 building blocks, which perfectly fit into procedurally generated buildings, bridges, towers, stairs, and nature. The game features immersive environments with trees, bushes, and vines, and the architecture looks realistic with various concrete textures.\nJimjum Studios\nThe devs share that they feel brutalism is an underexplored genre, and much more popular than people tend to assume. There's a unique feature to add interiors and in-door decorating, as leading sandbox city builders don't support this, and you can even explore your own creations with the first-person mode and explore what you've built from the eyes of a citizen, also jumping around and performing parkour. The city builder is being developed with Unity, and the developers utilize our own in-house tools.\nJimjum Studios\nTiny Brutalism features a weather system with a day and night cycle, where you control the environment with rain and fog. There are no goals or roght ways to build – the gameplay is relaxing, calm, and atmospheric, and you can just enjoy the process and craft your own brutalist utopia. The game is in development, and the creators promise more exciting features to come.\nJimjum Studios\nJimjum Studios\nWishlist Tiny Brutalism on Steam and subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "Tiny Brutalism：以粗野主义混凝土建筑为题材的休闲城市建造游戏",
-      "what": "80.lv 介绍 Jimjum Studios 开发的沙盒城市建造游戏 Tiny Brutalism，玩家可用20多种建筑模块搭建混凝土建筑、桥梁、塔楼与楼梯，并配有程序化生成的建筑与自然景观、室内装饰、第一人称探索、昼夜与天气系统，游戏无目标设定，目前仍在开发中。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-15489e2ed4",
-      "source_url": "https://www.gamesindustry.biz/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "7740158530ed80ff",
-      "title": "BioWare's end is a tragically familiar tale | Opinion",
-      "url": "https://www.gamesindustry.biz/biowares-end-is-a-tragically-familiar-tale-opinion",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-10-23T15:04:13+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "After the past five years of seemingly endless closures, cancellations, and restructures, after the tens of thousands of layoffs that the industry has endured like a relentless drumbeat, you'd think that we'd all have grown some pretty thick skin. How much can one more bad news story really hurt?",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "BioWare's end is a tragically familiar tale | Opinion",
-          "url": "https://www.gamesindustry.biz/biowares-end-is-a-tragically-familiar-tale-opinion",
-          "source": "GamesIndustry",
-          "lang": "en",
-          "published": "2026-10-23T15:04:13+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "行业动态",
-      "is_analysis": false,
-      "age_hours": 38.00088900083333,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "BioWare's end is a tragically familiar tale | Opinion\nNo other studio ever matched BioWare's 15 year run of excellence. But all too many share the story of the last ten years – talented teams undermined by weak, trend-chasing mismanagement\nAfter the past five years of seemingly endless closures, cancellations, and restructures, after the tens of thousands of layoffs that the industry has endured like a relentless drumbeat, you'd think that we'd all have grown some pretty thick skin. How much can one more bad news story really hurt?\nA lot, it turns out. Losing BioWare stings.\nIt's not the sting of surprise, to be clear. The speed with which the newly private-equity-owned Electronic Arts moved to shutter the studio was unexpected, but the outcome was grimly predictable. The foundational logic of a private equity buyout is that some finance types have looked at a business and concluded that they can load it up with debt which it'll pay back by slashing costs. BioWare was never likely to survive that process intact, if at all.\nIt's not even, if we're being honest, a sting of injustice, per se. The cutting of so many jobs at a studio (among a total of 400 being slashed across EA) alongside the cancellation of the project it was working on will never feel fair or right, especially when the decisions that led to it were so entirely out of the control of the talented people who now find themselves facing unemployment. But in a broader view, if the knife had to fall somewhere (which it did not), you can see why it fell here.\nThe BioWare being snuffed out this week isn't the BioWare now being lamented so widely. It's still a studio of remarkable, skilled, passionate people, but it's a studio that hasn't had a critical or commercial hit in over a decade – the (genuinely phenomenal) Dragon Age: Inquisition was the last flash of real BioWare magic. It doesn't look good on paper, and paper is all that the people making these decisions look at.\nTo make things worse, the new Mass Effect game the studio was working on was described as being in \"early development\", despite its first trailer being shown almost six years ago. \"Early development\" is a vague term, but for a big AAA game like this it implies that release was still several years, hundreds of millions of dollars, and probably a hardware generation away. An expensive long-term gamble on a franchise whose last outing didn't do well and which doesn't sit neatly into the sport, military shooter, and live service buckets that EA's new owners actually seem interested in – those odds were never going to work out.\nWhat stings isn't even just nostalgia for the incredible studio that BioWare was for such a long time. The studio of Baldur's Gate and Neverwinter Nights, games which more or less resurrected Dungeons & Dragons from cultural limbo, without which pop-culture phenomena like Stranger Things simply wouldn't exist. The studio of Knights of the Old Republic and my personal favourite, Jade Empire. The studio that, even after being bought by legendary mis-manager and destroyer of talented studios Electronic Arts, still released Mass Effect and Dragon Age.\nFrom 1998 to 2014, BioWare had a run that I'm not sure any other development studio has ever equalled. The notion that it's now gone (or worse, that it now exists only as a disembodied piece of IP, a brand-name that will eventually be dusted off and skin-puppeted about by private equity ghouls) is certainly hard to swallow, even if its halcyon days were quite a long time ago.\nNo, what really stings isn't the loss, or the single decision that ended the studio's existence. It's the nigh-on decade and a half of decisions that led here; the gruesome mismanagement of an iconic, fabulously creative studio. It's the litany of bad choices and trend-chasing and interference.\nMost of all, it's the grinding, awful familiarity of it – the knowledge that the song of how BioWare died is one that most of the rest of the industry can hum the tune of by heart, even if the specific lyrics change a little. This happens over and over again, and the people who ought to learn, never learn, because they're never the ones having to brush up their CVs and think about how long their emergency savings will last.\nThe private equity acquisition of EA was only the final coup de grace to a studio that had already taken body blows from every awful trend the games industry has experienced in the past couple of decades. With the clarity of hindsight – unfair as that might be – you can already start to see the seeds of disaster in the weird attempts to make multiplayer modes a core part of the Mass Effect franchise. It was odd even at the time, but now it looks like a clear indication of how uncomfortably the industry's most celebrated creator of story-driven, single-player experiences would sit within the structure of the eternally trend-chasing EA.\nEA decreed that single-player games must be made multiplayer, no matter how ill-fitting that was\nThat was the era in which plenty of publishing execs convinced themselves that single-player gaming was on the way out, so EA decreed that single-player games must be made multiplayer, no matter how ill-fitting that was or how much of a distraction from the core development effort it became. (Mass Effect arguably got off lightly compared to the Dead Space franchise, at least.)\nThis was only a prelude to the real disaster, of course; by the time live service became the trend to chase, BioWare had seen the departure of many of its veteran leaders, including co-founders Ray Muzyka and Greg Zeschuk, and with them any hope of an anchor against the buffeting winds of EA's commands. There's a pretty strong argument that BioWare actually died with the failure of its massively expensive live-service flop, Anthem. That disaster really left only a shell stumbling forward with little consistent direction until another game originally intended to be live service before being hastily reworked, Dragon Age: The Veilguard, limped out the door in 2024.\nVeilguard will now be BioWare's last game. It's not a good game, but also not entirely as bad as people make out. I finished it, which is actually a somewhat rare accolade these days, and found it to be a fascinating mess that's really an apt summary of everything that had gone wrong for the studio under EA mismanagement. Some parts are beautiful, atmospheric, and superbly written; two minutes later you can be in the midst of slapdash nonsense listening to painful dialogue that clearly never felt the gentle caress of an editor's pen. The seams where the whole thing was stitched together from multiple iterations of very different games, including the mad, awful idea of a live service Dragon Age title, are impossible to miss.\nIt's a shambling, stitched-together monster of a thing, scarred by bad decisions and traumatised by constant shifts in creative direction, animated by fascinating glimmers of creative talent and still, ultimately, far less than the sum of its mismatched parts. It's a game that could only have been made by a studio being ordered to pursue different goals and visions from week to week to week; no mad auteur could ever dream up such a perfect encapsulation of mismanagement and executive folly.\nThe gap between the extraordinary focus, polish, and clarity of vision seen in BioWare's best games and the sense of complete inconsistency and uncertainty about itself seen in Veilguard (let alone the almost total lack of character and depth in Anthem five years earlier) tells a clear and tragic story. The creative staff at BioWare didn't suddenly forget how to make good games, or how to write good dialogue, design good combat systems, or build intriguing worlds. The entire framework that's required to actually do that needs stability, consistency, and clear direction that aligns with the creative values of the project – none of which EA ever provided to the studio.\nThe real tragedy is how ordinary this particular brand of villainy has become in this industry\nIs EA the villain that killed BioWare? Ultimately, yes – yet another trophy from a legendary studio to go on its grisly serial killer's wall – but the real tragedy is how ordinary this particular brand of villainy has become in this industry, especially when private equity is there to put a knife in its hand. Giving the goose what it needs to keep laying golden eggs is just beyond the ken of a great many people in decision-making positions. That doesn't mean buying studios and then just leaving them to their own devices (Microsoft seems to have attempted something like that during the Phil Spencer era, with disastrous results of its own). But there must be some middle ground between that and carving off cuts of a fowl while occasionally stopping to complain that you haven't seen a golden egg lately.\nI don't have a smart solution or pithy suggestion to close on. The studio that made some of my favourite games ever is gone, and 400 people have lost their jobs. Many of the people who made the worst decisions along the way to this sad ending have probably done very nicely out of the private equity deal that brought the final hammer down, and thus will learn nothing, because nobody ever learns from mistakes that someone else pays the price for. Raise a glass to BioWare, but leave a dram in the bottle, because it won't be the last time you'll need it.",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "BioWare关闭：十五年辉煌与十余年管理失误",
-      "what": "GamesIndustry评论文章认为，BioWare被EA关闭并非单一事件，而是十余年追逐多人模式与实时服务等潮流、管理层频繁干预、核心领导层流失的结果；作者称《龙腾世纪：审判》后工作室再无叫好叫座之作，最后一部作品《龙腾世纪：影障守护者》是拼凑而成的混乱之作。",
-      "why": "作者以BioWare从1998至2014年的作品为对照，把《圣歌》的失败和《影障守护者》的反复转向归因于EA强推多人化与实时服务、缺乏稳定创作方向，并指出私募股权收购后的削减成本逻辑是最后一击。",
-      "for_you": "可对照BioWare各时期作品，梳理发行方干预从附加多人模式到整体转向实时服务，如何逐步改变项目目标与团队结构。",
-      "degraded": null
-    },
-    {
-      "source_id": "web-9667abeb70",
-      "source_url": "https://80.lv/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "a686f070c31aa40a",
-      "title": "This Long-Lost Classic D&D RPG Is Finally Coming to Steam Soon",
-      "url": "https://80.lv/articles/this-long-lost-classic-d-d-rpg-is-finally-coming-to-steam-soon/",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "80.lv"
-      ],
-      "published": "2026-10-23T13:10:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "A 2001 follow-up to one of the most influential PC RPGs ever is returning after 25 years with 4K support, modern controls, an improved UI, Steam Deck compatibility, bug fixes, and an optional Legacy mode.",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "development",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "This Long-Lost Classic D&D RPG Is Finally Coming to Steam Soon",
-          "url": "https://80.lv/articles/this-long-lost-classic-d-d-rpg-is-finally-coming-to-steam-soon/",
-          "source": "80.lv",
-          "lang": "en",
-          "published": "2026-10-23T13:10:00+00:00"
+          "published": "2026-10-23T13:07:00+00:00"
         }
       ],
       "score": 17,
@@ -614,42 +536,42 @@
       ],
       "topic": "开发动态",
       "is_analysis": false,
-      "age_hours": 39.904500111944444,
+      "age_hours": 64.00844897194445,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "This Long-Lost Classic D&D RPG Is Finally Coming to Steam Soon\nA 2001 follow-up to one of the most influential PC RPGs ever is returning after 25 years with 4K support, modern controls, an improved UI, Steam Deck compatibility, bug fixes, and an optional Legacy mode.\nIn case you missed it\nBioWare's Closure\nPool of Radiance: Ruins of Myth Drannor, a largely inaccessible Dungeons & Dragons RPG from the same era of BioWare’s original Baldur’s Gate games, is finally returning to PC. You can see the trailer on the Steam page.\nBoutique publisher SNEG is working with Wizards of the Coast to restore the 2001 dungeon crawler for modern PCs. The new version launches for Steam and GOG on November 6, while a Steam Next Fest demo is currently available through October 26. Progress made in the demo will transfer to the full game.\nDeveloped by Stormfront Studios and originally published by Ubisoft, Ruins of Myth Drannor arrived during an important period for D&D video games. BioWare had revitalized the computer RPG with Baldur’s Gate in 1998 and Baldur’s Gate II: Shadows of Amn in 2000, establishing a style built around memorable companions, expansive storytelling, player choice, and tactical real-time combat with pausing. Both of those followed the original Pool of Radiance games from the late 1980s and early 1990s. The original Pool of Radiance, released by Strategic Simulations in 1988, was the first officially licensed Advanced Dungeons & Dragons computer RPG.\nRuins of Myth Drannor approached the same tabletop license from a markedly different direction. Although it similarly presented its Forgotten Realms adventure from an isometric perspective, it emphasized dungeon exploration and turn-based tactical combat over BioWare’s dialogue-heavy, companion-driven narrative formula.\nSNEG’s restoration will introduce widescreen resolutions up to 4K, upscaled backgrounds, full controller support, reworked camera controls, and an improved interface featuring a new action bar and additional tooltips. Players will also be able to adjust combat animation speeds, use Steam Cloud saves, unlock achievements, and play on Steam Deck.\nAn optional Legacy Mode will preserve the original presentation and gameplay for players seeking an experience closer to the 2001 release. SNEG also promises numerous bug fixes and quality-of-life improvements, which could be especially important for a game historically remembered as much for its technical problems as its ambition.\n“Pool of Radiance: Ruins of Myth Drannor was an ambitious game for 2001. It has its own place in Dungeons & Dragons gaming history, but for years it has been challenging to experience on modern systems. Our goal with this re-release is simple: preserve what made the original special, fix what needs fixing, and make it accessible again to both longtime fans and a new generation of CRPG players.”\n- Artem Shchuiko, SNEG Director\nMore than two decades later, Baldur’s Gate has become one of the defining names in modern RPGs, while Ruins of Myth Drannor largely disappeared from circulation. Its arrival on Steam and GOG offers players an opportunity to explore a different branch of D&D’s PC history, and to see how another ambitious studio translated tabletop adventuring during the genre’s turn-of-the-century resurgence.\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.",
+      "body": "This Dreamy Wooden Cabin Scene with Glowing Water FX Was Made with Houdini\nMario Sánchez Aguado shared his Houdini water simulation that started as a Maya project, became forgotten for a year, and got revived thanks to Solaris.\nMario Sánchez Aguado shared his mesmerizing water simulation scene of a wooden cabin by the ocean. As an advanced scuba diver, the artist is no stranger to water scenes, and he often creates water simulations, which, as he confessed on his socials, cured his fear of the real ocean.\nAguado began working on this scene a year ago. Back then, he used Maya and Arnold to shape the environment, but the modeling process was too frustrating, and the artist abandoned the project. However, he decided to revive the scene and apply new workflows to the project after spending some time learning USD and mastering Houdini Solaris.\nSolaris combines tools for look development, layout, and lighting, allowing you to create USD-based scene graphs.\nMario Sánchez Aguado's abandoned version of the scene\n\"When I came back to it, I went all in on Solaris and Karma XPU. I got the cabin and the fisherman from Big Medium Small, reused rocks, corals, and fish from The Sea's Heart, and focused on what I enjoy the most: lighting, lookdev, FX, and comp,\" Aguado shared.\nAlthough it was his solo project, to organize the working process more efficiently, the artist approached it as a studio would. He divided the scene into different parts as if those were production steps carried out by different departments.\nMario Sánchez Aguado\n\"The water was where I had to make the biggest call. My plan was to approach it like a big production, with low-frequency waves for the overall shape and high-frequency detail on top as a separate displacement. But for this shot, that meant very dense geometry and much longer renders. A single plane with the Houdini Ocean Procedural gave me everything I needed,\" he explained.\nFor the lookdev, the artist used the power of transmission to the fullest, which helped him control the depth of the ocean. To create the nighttime version of the environment, he scattered lights over the corals and fish to simulate ethereal turquoise bioluminescence. Both versions were completed in Nuke with camera shake, lens effects, and caustic bounces.\nMario Sánchez Aguado\nWant to see more of Aguado's work? Check it out on LinkedIn.\nLove watching hypnotizing Houdini water simulations like this one? Here are some more: check out this fluid simulation based on Wētā's research on Lagrangian Waves by Fred Bello and this glowing water simulation by Yuki Ito.\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "经典D&D RPG《光芒之池：迷斯卓诺遗迹》将登陆Steam",
-      "what": "2001年D&D地牢探索RPG《光芒之池：迷斯卓诺遗迹》由SNEG与威世智合作重制，11月6日登陆Steam和GOG，支持4K、手柄、Steam Deck，并提供保留原版体验的Legacy模式。",
-      "why": "",
-      "for_you": "",
+      "title_cn": "艺术家用Houdini Solaris重做木屋水面场景",
+      "what": "Mario Sánchez Aguado分享了一段海边木屋的水面模拟场景：项目最初用Maya和Arnold制作，因建模过程不顺被搁置一年，学习USD与Houdini Solaris后重启，改用Solaris和Karma XPU完成。",
+      "why": "作者按工作室流程拆分场景，水面放弃高低频分层方案，改用单个平面加Houdini Ocean Procedural以控制几何密度与渲染成本；夜景用散布灯光模拟生物荧光，并在Nuke中合成。",
+      "for_you": "可研究单平面Ocean Procedural在近景镜头中的细节与渲染取舍，以及按部门拆分个人项目流程的实际收益。",
       "degraded": null
     },
     {
-      "source_id": "web-15489e2ed4",
-      "source_url": "https://www.gamesindustry.biz/feed",
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "92f860f4b56be970",
-      "title": "Podcast: Landfall's Rebecca Lautner on Peak's 23 million sales and looking past friendslop",
-      "url": "https://www.gamesindustry.biz/podcast-landfalls-rebecca-lautner-on-peaks-23-million-sales-and-looking-past-friendslop",
+      "key": "fb57ad1710187147",
+      "title": "Artist Shows Ziva VFX-Inspired Muscle Simulation Plug-In for 3ds Max & Maya",
+      "url": "https://80.lv/articles/artist-shows-ziva-vfx-inspired-muscle-simulation-plug-in-for-3ds-max-maya/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "GamesIndustry"
+        "80.lv"
       ],
-      "published": "2026-10-23T08:00:00+00:00",
+      "published": "2026-10-23T11:44:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "A new episode of the still-somewhat-irregular GamesIndustry.biz podcast features a fireside chat with Rebecca Lautner, CBO at Landfall Games, recorded at Game Republic New Horizons . In conversation with features editor Lewis Packwood, Lautner says that even though Peak has now sold more than 23 million units, the developer is keen to move on to something else.",
+      "summary_raw": "Shirzad Bahrami invites artists to join the test before the official release.",
       "rss_content": "",
       "content_kind": "article_body",
-      "category": "games",
+      "category": "development",
       "pool": "main",
       "signals": {
         "hn_points": 0,
@@ -660,11 +582,11 @@
       },
       "members": [
         {
-          "title": "Podcast: Landfall's Rebecca Lautner on Peak's 23 million sales and looking past friendslop",
-          "url": "https://www.gamesindustry.biz/podcast-landfalls-rebecca-lautner-on-peaks-23-million-sales-and-looking-past-friendslop",
-          "source": "GamesIndustry",
+          "title": "Artist Shows Ziva VFX-Inspired Muscle Simulation Plug-In for 3ds Max & Maya",
+          "url": "https://80.lv/articles/artist-shows-ziva-vfx-inspired-muscle-simulation-plug-in-for-3ds-max-maya/",
+          "source": "80.lv",
           "lang": "en",
-          "published": "2026-10-23T08:00:00+00:00"
+          "published": "2026-10-23T11:44:00+00:00"
         }
       ],
       "score": 17,
@@ -690,44 +612,44 @@
           "value": 0
         }
       ],
-      "topic": "行业动态",
+      "topic": "开发动态",
       "is_analysis": false,
-      "age_hours": 45.07116677861111,
+      "age_hours": 65.39178230527777,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "Podcast: Landfall's Rebecca Lautner on Peak's 23 million sales and looking past friendslop\nPlus why Landfall works on games for just one month before deciding whether to drop them\nA new episode of the still-somewhat-irregular GamesIndustry.biz podcast features a fireside chat with Rebecca Lautner, CBO at Landfall Games, recorded at Game Republic New Horizons. In conversation with features editor Lewis Packwood, Lautner says that even though Peak has now sold more than 23 million units, the developer is keen to move on to something else.\n\"From a business point of view, believe me, it's very frustrating sometimes because there's so much opportunity in there,\" she says. \"But that's just not what we're about. And I learned to accept that really, really early on when I joined the team. I was like, okay, we have a very different path that we want to go, and it's fun.\"\nLautner also discusses the launch of publishing arm Evil Landfall, which backed this year's multi-million-selling smash hit How to Fish, but says the company is also looking to invest in a range of games beyond friendslop titles.\nShe also talks about Landfall's \"fail fast\" policy – where games are dropped after one month of development if they're not coming together – as well as Landfall's development house in Stockholm (which has its own chef and bar) and why there was no April Fools game this year.\nYou can find the episode right here, as well as on Spotify, YouTube and wherever you get your podcasts. Feedback is welcomed; you can reach me at jon.hicks@gamesindustry.biz.",
+      "body": "Artist Shows Ziva VFX-Inspired Muscle Simulation Plug-In for 3ds Max & Maya\nShirzad Bahrami invites artists to join the test before the official release.\nSenior Technical Animator at Activision Blizzard, Shirzad Bahrami, has presented HézFX, a plug-in for Maya and 3ds Max that delivers realistic muscle simulation, and invited artists to test its Maya version.\nIn the video above, Bahrami demonstrated the tool's capabilities: red muscles are simulated by HézFX, and blue muscles are visualized using Ziva VFX, software for constructing and simulating muscles, fat, fascia, and skin, previously canceled by Unity, with an exclusive license now held by DNEG. Earlier, Bahrami showcased another setup comparing HézFX and Ziva VFX on the same bones and tissues.\nAccording to the artist, HézFX will include density painting for areas where you need more deformation resolution in the tissue, proximity painting tools, and automatic endpoint finding for muscle fiber directions, among other features. Bahrami also shared a new HézFX clip, noting that a muscle doesn't contract all at once: it activates along its fibers and in the belly.\nThe animator said that the 3ds Max version of the plug-in already has more than 10 active beta testers, and he is now looking for a limited number of seasoned CFX artists to try the Maya version. If you have a background in muscle simulation and want to try the tool, reach out to the artist on LinkedIn.\nTo learn more from Shirzad Bahrami, you might check out his tutorials on animating a fish, along with a 3ds Max script, and simulating destruction of a wooden house:\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "Landfall谈《Peak》2300万销量与快速试错策略",
-      "what": "Landfall首席商务官Rebecca Lautner在GamesIndustry.biz播客中表示，《Peak》销量已超2300万，但团队仍希望转向新项目；她还谈到发行部门Evil Landfall、投资朋友聚会类之外的游戏，以及开发一个月未成形即放弃的“快速失败”政策。",
+      "title_cn": "技术动画师展示面向3ds Max与Maya的肌肉模拟插件HézFX",
+      "what": "动视暴雪高级技术动画师Shirzad Bahrami展示插件HézFX，为Maya和3ds Max提供肌肉模拟，并邀请艺术家测试Maya版本；3ds Max版已有十余名测试者。",
       "why": "",
       "for_you": "",
       "degraded": null
     },
     {
-      "source_id": "web-15489e2ed4",
-      "source_url": "https://www.gamesindustry.biz/feed",
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "bde47b92f91e199a",
-      "title": "Marvel's Wolverine leads US September charts, achieves highest monthly dollar sales for a Sony-published title since Helldivers 2",
-      "url": "https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2",
+      "key": "0449086379dcf2dc",
+      "title": "Croteam is Officially Working on Serious Sam: The Third Encounter",
+      "url": "https://80.lv/articles/croteam-is-officially-working-on-serious-sam-the-third-encounter/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "GamesIndustry"
+        "80.lv"
       ],
-      "published": "2026-10-22T13:00:08+00:00",
+      "published": "2026-10-23T10:29:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Marvel's Wolverine led US game sales in September, achieving the highest monthly dollar sales for a Sony-published title since Helldivers 2.",
+      "summary_raw": "It follows the events of 2002's The Second Encounter, so it's time to dust off the CD and remember what happened 24 years ago.",
       "rss_content": "",
       "content_kind": "article_body",
-      "category": "games",
+      "category": "development",
       "pool": "main",
       "signals": {
         "hn_points": 0,
@@ -738,11 +660,11 @@
       },
       "members": [
         {
-          "title": "Marvel's Wolverine leads US September charts, achieves highest monthly dollar sales for a Sony-published title since Helldivers 2",
-          "url": "https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2",
-          "source": "GamesIndustry",
+          "title": "Croteam is Officially Working on Serious Sam: The Third Encounter",
+          "url": "https://80.lv/articles/croteam-is-officially-working-on-serious-sam-the-third-encounter/",
+          "source": "80.lv",
           "lang": "en",
-          "published": "2026-10-22T13:00:08+00:00"
+          "published": "2026-10-23T10:29:00+00:00"
         }
       ],
       "score": 17,
@@ -768,101 +690,23 @@
           "value": 0
         }
       ],
-      "topic": "行业动态",
+      "topic": "开发动态",
       "is_analysis": false,
-      "age_hours": 64.06894455638889,
+      "age_hours": 66.64178230527777,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "Marvel's Wolverine leads US September charts, achieves highest monthly dollar sales for a Sony-published title since Helldivers 2\nPlayStation 5 spending rose 43% year over year, while unit sales increased 22%, according to Circana\nMarvel's Wolverine led US game sales in September, achieving the highest monthly dollar sales for a Sony-published title since Helldivers 2.\nSony continued its hardware momentum, with PlayStation 5 leading both unit and dollar sales according to Circana data.\nPS5 spending rose 43% year over year, and unit sales increased 22%, resulting in Sony's highest monthly hardware dollar share since May 2025.\nOverall hardware spending rose 12% to $362 million in September, offsetting declines in dollar sales for Nintendo Switch 2 (down 12%) and Xbox Series X|S (down 2%).\nXbox Series X|S unit sales declined 27% in the US last month, with Xbox Ecosystem console sales reaching a record September low. Switch 2 unit sales decreased 14%.\nTotal content spending dropped 2% to $4.2 billion in September, led by a 14% decline in mobile. Console spending grew 8%, and PC spending rose 27%.\nEight new games debuted on the US chart in September. Marvel's Wolverine moved NBA 2K27 to No. 2 and outperformed EA Sports FC 27.\nDespite its drop, NBA 2K27 surpassed Resident Evil Requiem to become the best-selling game of 2026 year-to-date.\nFire Emblem: Fortune's Weave and Blood of the Dawnwalker completed the Top 5. Other new September entries included Wardogs, Onimusha: Way of the Sword, Halloween: The Game, and Ace Combat 8: Wings of Theve.\nOverall projected spending across content, hardware, and accessories declined 1% in September to $4.8 billion.\nHere are the projected top 10 best-selling games from the period of August 30 to October 3, 2026, data courtesy of Circana:\n| Rank | Last month rank | Title |\n|---|---|---|\n| 1 | NEW | Marvel's Wolverine^ |\n| 2 | 1 | NBA 2K27^ |\n| 3 | NEW | EA Sports FC 27* |\n| 4 | NEW | Fire Emblem: Fortune's Weave* |\n| 5 | NEW | The Blood of Dawnwalker^ |\n| 6 | NEW | Wardogs* |\n| 7 | NEW | Onimusha: Way of the Sword^ |\n| 8 | NEW | Halloween: The Game* |\n| 9 | NEW | Ace Combat 8: Wings of Theve^ |\n| 10 | NEW | Madden NFL 27* |\n^ Includes Digital Point of Sale Actuals, * Includes Digital Sales Projections",
+      "body": "Croteam is Officially Working on Serious Sam: The Third Encounter\nIt follows the events of 2002's The Second Encounter, so it's time to dust off the CD and remember what happened 24 years ago.\nFetch your 2002 Serious Sam: The Second Encounter CD, because The Third Encounter is coming, and it's picking up \"exactly where The Second Encounter left off,\" developers stated. Croteam and Devolver Digital released an official teaser for Serious Sam: The Third Encounter and added the game to Steam.\nWhile it follows the events of the second game from 2002, it's actually the seventh title in the Serious Sam series. Chronologically, between The Second Encounter and the upcoming Third Encounter, there are Serious Sam 2 (2005), Serious Sam 3: BFE (2011), Serious Sam 4 (2020), and Serious Sam: Siberian Mayhem (2022).\nIn the new installment, you'll have to load your trusted mighty minigun and go against Mental's Horde with no hesitation. The Third Encounter is a classic FPS action-adventure set in \"bold new worlds packed with deadly enemies,\" Croteam promises.\nCroteam\nCroteam\nCroteam\nThere will be thousands of enemies to defeat and numerous weapons to play with. Sam's usual arsenal is about to get bigger thanks to \"vicious new toys\" that will make combat more diverse. As you travel through uncanny planets and jaw-dropping landscapes, you will get closer to putting an end to the Notorious Mental's plan to end humanity.\nThe new game will allow you to play solo or join a co-op run with your friends. It's still in early development, so more details on The Third Encounter will follow. \"We'll keep sharing more about the game and its development as things progress, and your feedback will matter along the way,\" Croteam wrote on their Discord.\nIn the meantime, make sure to subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "《漫威金刚狼》登顶美国9月销量榜，创《绝地潜兵2》以来索尼发行游戏单月销售额新高",
-      "what": "Circana数据显示，《漫威金刚狼》位居美国9月游戏销量榜首，成为《绝地潜兵2》以来索尼发行游戏单月销售额最高的一款；PS5销售额同比增长43%，销量增长22%。",
+      "title_cn": "Croteam正式开发《英雄萨姆：第三次遭遇》",
+      "what": "Croteam与Devolver Digital发布《英雄萨姆：第三次遭遇》官方预告，并将游戏上架Steam。故事紧接2002年《第二次遭遇》结尾，是系列第七部作品，目前处于早期开发阶段，支持单人及合作游玩。",
       "why": "",
       "for_you": "",
       "degraded": null
     }
   ],
   "features": [
-    {
-      "source_id": "web-be9919cef9",
-      "source_url": "https://www.gcores.com/rss",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "a29d3cead041b124",
-      "title": "“我这就是个低俗游戏”｜机核专访《无比坚硬：荒原骑士》制作人",
-      "url": "https://www.gcores.com/articles/221426",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "机核"
-      ],
-      "published": "2026-10-24T07:19:55+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "在B站上，有款独立游戏凭借几部抽象，但又极具个性的预告片火了。光怪陆离的视效，离奇抽象的文字，似乎是一个发了癫的艺术家在舞台上一边大火煮着菌子，一边纵情表演。现代主义，解构，叽里咕噜，杀死月亮。 我不懂，于是我找到了《无比坚硬》的制作人，面对面发起了攻击。但是，我一拳打在了棉花上，因为制作人说要带我打台球——而我，答应了。 在采访期间，我也亲自坐到了开发者的位置上，直接通过游戏引擎，试玩到了《无比坚硬》。它就和宣传片里一样癫狂，抽象，让我没头没尾但一波又一波地感受到惊喜或者惊吓，使我露出了快乐的笑容。 目前正值Steam新品节，大家可以去steam上搜索《无比坚硬：荒原骑士》，下载DEMO试玩一下。也和我一样，亲自感受下仿佛从地上捡的一部“黑超梦”。 提问：作为游戏创作者，到底受到了什么样的影响，才会做出这样的一款游戏？ 其实我觉得我其实一开始并没有想要做游戏这个方向。嗯，我是做着做着就变成这样子了。 其实本质原因就是我很讨厌做的跟别人很像，就我做所有东西的核心就是我讨厌做的别人很像，就是为了跟别人不像，成了我做游戏最大的快乐。如果做的跟别人很像，我会觉得无聊，我会变得很虚无。 就到公司里，可能就在坐那里喝杯奶茶，躺那里，好像人生就没意思，就会觉得没劲，也没有表达欲，就是「专业」这个事情是会让我觉得很沮丧。所以我做这个游戏，其实本质上我不是说一开始奔着这个东西来，我的本质是反抗，别",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "“我这就是个低俗游戏”｜机核专访《无比坚硬：荒原骑士》制作人",
-          "url": "https://www.gcores.com/articles/221426",
-          "source": "机核",
-          "lang": "zh",
-          "published": "2026-10-24T07:19:55+00:00"
-        }
-      ],
-      "score": 34,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 12
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "产品观察",
-      "is_analysis": true,
-      "age_hours": 21.739222334166666,
-      "evergreen": false,
-      "content_type": "分析",
-      "section": "features",
-      "body": "在B站上，有款独立游戏凭借几部抽象，但又极具个性的预告片火了。光怪陆离的视效，离奇抽象的文字，似乎是一个发了癫的艺术家在舞台上一边大火煮着菌子，一边纵情表演。现代主义，解构，叽里咕噜，杀死月亮。\n我不懂，于是我找到了《无比坚硬》的制作人，面对面发起了攻击。但是，我一拳打在了棉花上，因为制作人说要带我打台球——而我，答应了。\n在采访期间，我也亲自坐到了开发者的位置上，直接通过游戏引擎，试玩到了《无比坚硬》。它就和宣传片里一样癫狂，抽象，让我没头没尾但一波又一波地感受到惊喜或者惊吓，使我露出了快乐的笑容。\n目前正值Steam新品节，大家可以去steam上搜索《无比坚硬：荒原骑士》，下载DEMO试玩一下。也和我一样，亲自感受下仿佛从地上捡的一部“黑超梦”。\n提问：作为游戏创作者，到底受到了什么样的影响，才会做出这样的一款游戏？\n其实我觉得我其实一开始并没有想要做游戏这个方向。嗯，我是做着做着就变成这样子了。\n其实本质原因就是我很讨厌做的跟别人很像，就我做所有东西的核心就是我讨厌做的别人很像，就是为了跟别人不像，成了我做游戏最大的快乐。如果做的跟别人很像，我会觉得无聊，我会变得很虚无。\n就到公司里，可能就在坐那里喝杯奶茶，躺那里，好像人生就没意思，就会觉得没劲，也没有表达欲，就是「专业」这个事情是会让我觉得很沮丧。所以我做这个游戏，其实本质上我不是说一开始奔着这个东西来，我的本质是反抗，别人做的东西我就不想做，只是反抗。\n之前干了一堆蠢事。做过游戏，拍过电影，然后搞过搞过摇滚乐，什么事都搞。去新疆拍过独立电影。\n当时网剧很火的，短剧很火的时候，我就跑去新疆拍那个独立电影去了。也是拍那种现代主义的东西。后面又搞摇滚乐。反正一事无成（笑），干了很多蠢事，结果什么事没做出来。我又觉得要搞点什么，不然闲的没事。就属于那种，就老师提问，然后你举手，老师问你，你说我不知道。\n当时在新疆那边搞了一辆坦克300，然后我坐副驾驶，听开车的大哥吹牛逼。我觉得那个挺爽，挺开心。拍独立电影，搞摇滚音乐也是，觉得酷。\n提问：我在玩游戏的时候，明显感到里面有一些发癫的、抽象的气质在里面。这和您在武汉这个地方有关吗？\n我虽然不是武汉人，但我在武汉呆了十多年了，武汉的神人确实非常多。\n我经常晚上去东湖。我一个人在晚上三四点，跑去东湖。那时东湖完全没人。然后自己就会很开心，整个东湖是你的，然后我就在湖边溜达，很开心。\n（东湖虽然是武汉5A级景区，但多是本地人散步郊游的好去处。景区面积十分巨大，超过80平方千米，因此哪怕是过年期间，也能寻找到一片安静宽敞的幽静之地。）\n也不是，反正就是有时候 emo 了，然后找个地方消解一下。\n其实游戏想法对我来说不是一个很大的限制，只要我愿意想，基本上都有很多点子。\n我觉得难点是——现代主义有最大的问题就是就会很消极。我什么都不想动，那我该如何克服消极？这是个矛盾点，一个人一旦消极，他就不会做东西；但一个人很积极，他就不现代主义。这又是个悖论。\n人声很嘈杂，就越来越没劲，你就没有动力，你没有热情做。但是游戏你又要有打起精神来，去公司里面工作干活，想点子，安排大家一起把东西弄出来。这就又需要积极性，所以这两个博弈点是我觉得是最大的痛苦。\n提问：在做游戏的过程中，肯定会遇到各种各样的问题吧，能讲讲在游戏开发过程中遇到的困难吗？\n我觉得有第一个最大的问题，就是很难让大家信任我，团队成员对我的信任。\n就是说如果你去借鉴其他已有的东西，其实是很容易得到大家信任的。比如说我借鉴宫崎英高的魂，我做个类似的作品。你只是说你，我们能做到魂的60%，70%，大家都会觉得 ok！\n（也就是说，想要把自己大脑里的那部分想法，正确无误地传达给团队，并让他们理解，是一件比较困难的事情对吗？）\n对。其实我之前也也经历过这种事情，之前我会听大家的意见，也会积极地听玩家的意见，大家意见我都会听。但是这样就有个代价，你会变成一个项目经理，诶，而不是一个艺术家。成了海底捞的产品经理，顾客有什么不舒服，我就改。\n这是一个逐步与团队建立信心的过程，反正我之前是跟有些同事是有些分歧的。对，他他会觉得“我看不懂你到底想做什么，你为什么要做这种？”\n其实我拍电影之前，比较年轻的时候也做过游戏，虽然当时做的就不如我意，但也确实赚到了钱。\n就是在那时候，我才发现一个核心——艺术是暴君，艺术是暴君（重复两遍！）。就是暴君，你必须笃定的完成你想要说的一切话，并且排除一切干扰你的信息。这个很难的。\n很难排除，你知道为什么吗？你有没发现，现在所有的 UE 作品做的越来越像某个游戏吗？越来越像。对，就是因为他没有勇气去排除这个干扰项。\n而且我们中国人有个常话叫三人行必有我师，就三个人聊天就有一个人是我的师傅，就这个东西从小接受的教育就三个人必有我师，是什么？三个人聊天一定有个人能让我学到东西。哇，你从小在这种环境中长大，你怎么可能排除这些干扰项？\n工作以来，光是排除干扰项，就这一个过程花了我 10 年。\n什么意思呢？我再也不会听任何人给我的意见了。我再也不会听任何人对我的反对了。我必须一意孤行地做出我内心的东西。\n我可以接受我的项目失败，但我不能接受说我没有做到一意孤行。什么意思呢？\n就是说，我也会被宫崎英高的作品征服，因为我基本把宫崎英高作品也全部通关了。但是，宫崎英高只能暂时征服我，而不能永久征服我。\n提问：那么，随心所欲地，孤注一掷地，不受任何影响地做游戏会让你觉得特别开心，对吗？\n也不会，因为因为人获得自由之后又会陷入第二个阶段，就是无聊。\n因为自由的无聊就就有点像学校里面停电，然后你获得了一种自由，你就很开心。但等到你放暑假，或者天天放假，其实你也没有多开心。人类永远逃出不了人类本身的局限性，只是说会好玩一点，开心一点，也就只有一点。\n提问：在开发的过程中有没有这种有趣的事可以分享？宣传片中的那首歌是你唱的吗？\n跟大家团队沟通中也会有些事情很开心，就团队跟大家一起想，一起想个东西会很开心。你说的是我们一起唱的那首《友谊天长地久》是吧？其实当时就随便一录呗，就想唱歌。我突发奇想，就是那天突然决定的，临时起意。\n你知道吗？采访的时候是一个人最无聊的时候。对。真的不骗你，所有人采访都很无聊。其实我我自己也观察过一些采访节目，就一个人被采访的时候就很无聊。\n你知道一个人什么时候比较可爱吗？就是他平时最常规的状态。就是吹牛逼的时候。就是在项目中吹牛逼的时候，是不是比较可爱？你应该见过我平时吹牛逼的样子。\n第一种情况就比如在项目吹牛逼的时候；第二是我打台球的时候。唉，那时候我就状态好。\n就在台球厅里面跟那些台球助教吹牛逼的时候，她们都喜欢我。我自己也喜欢那个时候的我，就特别特别纯真。也不装逼，就天天跟那几个台球助教吹牛逼。\n提问：在宣传片里有引用名著，比如你们引用了詹姆斯乔伊斯的《都柏林人》。对于您来说，在开发这部作品的时候，有哪些文学作品影响到了您？\n我觉得影响最多的是卡夫卡，卡夫卡的作品。现代主义嘛，奠基人。还有就是陀思妥耶夫斯基。还有什么？还有个话剧吧，叫《等待戈多》也影响很多。电影的话，昆汀的作品对我影响比较多。\n提问：话说，您年轻的时候也是拍文艺片的吧，肯定看了不少北欧的闷片。\n对。我以前的时候为了装逼，你知道吗？看了好多北欧闷片。\n我以前年轻的时候，在文艺青年里混嘛，这帮人很装逼的。就几个人聊天，“欸，有个片子你没看？”\n我我认识一帮硬核的文艺青年，就一旦说个片子没看过，哎呀，“你都没有看过伯格曼的野草莓吗？”然后就嗤之以鼻。那时年轻的我为了融入他们，闷片，黑白片，各种看。\n一天看五六部，就那北欧闷片，一部部看，硬着头看，但其实一点都不好看。\n提问：那些片子就是对你现在开发游戏有影响吗？有帮助吗？\n如果闷片是对的，那我应该是天天在家里看书的那帮人了，我为什么每天跑台球厅跟那些助教吹牛逼？年轻的时候，文艺电影，文学名著我天天看，我一个人能一天晚上看 5 遍黑白片。以前天天看这个东西，但没用啊，我都没有被拯救。这些东西都不能让我得到内心的自洽和平静，那对我来说，这些东西都是错的。\n我更相信那些低俗的东西，我更相信粗鄙低俗的东西，因为这个就是真相。\n我承认，哈哈哈哈哈。我这就是个低俗游戏。\n提问：其实到最后就会游戏开发变得没那么浪漫，首先最重要的一点是——制作组的钱是怎么来的？\n钱啊，在年轻时候做垃圾游戏挣了一点。做手游，做垃圾手游赚了一点。我拍电影的钱都是做垃圾手游赚的。也没有很多，就赚了一点。\n以上就是与《无比坚硬》的制作人面对面采访的内容，与其说是解析游戏，不如说是对制作人的一次拷问。想必大家也能感受到，为什么《无比坚硬》会以这样一个方式呈现在玩家面前。\n游戏目前在战斗上呈现的模样还较为早期，虽然架子搭好了，但还有大量的细节需要打磨，期待早日推出正式版~\n等到游戏正式售卖的时候，制作人要带我去打台球，届时我也会及时与大家通告最新消息！",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "机核专访《无比坚硬：荒原骑士》制作人谈创作理念",
-      "what": "机核采访独立游戏《无比坚硬：荒原骑士》制作人，他讲述从拍独立电影、搞摇滚到做手游赚钱再转向独立游戏的经历，称创作核心是反抗与他人雷同，并谈到团队信任、排除外界意见的困难。记者在引擎中试玩了早期版本，战斗框架已搭好但细节待打磨。",
-      "why": "作者以问答形式呈现制作人的自述：以“艺术是暴君”为方法，坚持一意孤行、排除团队与玩家意见，并称现代主义的消极与开发所需的积极之间存在矛盾；这些均为其个人主张，未提供独立验证。",
-      "for_you": "可追问：制作人“不听任何人意见”的做法，在团队协作与玩家反馈之间如何取舍？其早期试玩体验能否支撑这一创作方法？",
-      "degraded": null
-    },
     {
       "source_id": "author-ye-zitao",
       "source_url": "https://docs.xpaidia.com/portfolio",
@@ -872,13 +716,13 @@
       "discovery_only": false,
       "requires_review": false,
       "publication_scope": "public",
-      "body": "# #2 游戏的高度严肃性\n\n玩是谦恭，不是解放\n\n本文在腾云公众号发布时，名字为《游戏的态度：如果不“严肃”，你就无法感受它的魅力》\n\n\n\n### 引子\n\n*有一种错觉是，游戏之所以吸引人，是因为你可以在游戏世界里“为所欲为”。但事实恰恰相反，游戏的迷人之处，正是因为它的规则性，或者说“限制性”。*\n\n*另一个错觉是，因为游戏太“真实”，所以人们才心甘情愿“陷”在其中。事实上，和看电影类似，人们是主动选择将自己置身于一种“假信”的状态，并以此感受其中的乐趣。*\n\n*这些“错觉”的存在，恰恰说明了“游戏”和“严肃”如影随形。*\n\n*而“严肃”或许是最好的“游戏态度”。*\n\n### 00 孩子教给大人的事\n\n> “我想要把这本书献给我六岁的儿子山姆......**他教会了我以严肃的态度看待并体验游戏，让我自始至终都乐在其中。”**【1】\n\n在《游戏改变学习：游戏素养、批判性思维与未来教育》一书的序言中，美国著名语言学学者詹姆斯·保罗·吉这样感谢他六岁的儿子。\n\n以严肃的态度来看待游戏，许多人都可以理解，但是“以严肃的态度来体验游戏”，这是什么意思？\n\n在游戏中，严肃与玩乐相伴而行，形成一种辨证的诡辞（dialectic paradox），在限制与自由、谦恭与解放之间，“严肃”就像是一个捉摸不透却总是处处闪现的“幽灵”，总想摆脱人们对它的思考和定义。\n\n让我们从游戏的“严肃性”谈起。\n\n### 01 **没有严肃性就没有游戏**\n\n> 没有比游戏更严肃的事【2】。—— 法国哲学家亨利·列斐伏尔\n\n这种说法乍听起来有些不可思议。但我甚至要说：“严肃性”才是游戏成立的基础。这里的“严肃”指的是一种游戏者的心态，一种“假装”(make-believe)。\n\n举例来说，当我们与孩子玩耍时，会假装看不见蹩脚地躲在窗帘背后的孩子；我们在踢球的时候，会假装与对方是对抗的敌人；动物们在追逐嬉戏的时候，即便不会伤害对方，也会装作在捕猎而轻咬打闹。\n\n荷兰文化史学家赫伊津哈在《游戏的人》中也举了一个让人印象深刻的例子：“一位父亲发现四岁的儿子坐在一排椅子的前端玩‘开火车’游戏。他拥抱儿子的时候，男孩说：‘别亲火车头，爸爸，不然车厢就知道它不是真的了。’ ”【3】\n\n**每个孩子都心知肚明他“只是在假装（only-pretending）”，但这种“假装”绝不是一种不严肃的态度。这种假装实际上是一种对于规则的认可，对于游戏某种虚构本质视而不见却又沉浸其中的态度的“严肃”，才能让这个游戏进行下去。**\n\n\n\n人类学家罗杰凯瓦卢（Roger Caillois）将其称之为假装Make-Believe，一种与现实相对应的非现实性/第二现实的特殊态度。【4】\n\n哲学家伯纳尔·舒兹在《蚱蜢：游戏，生命与乌托邦》中则将其称之为“游戏态度（Lusory attitude，拉丁文ludus，意指游戏）”，指这样一种“奇异”的状态：人们接受游戏规则限制采取效率低下的方法，而非用直接且高效的方式来达成目标。【5】\n\n**这种假装与严肃的态度还体现在对游戏规则的遵守。**\n\n游戏都有前游戏目标（Pre-lusory Goal），例如四百米赛跑，目标就是从起点跑到终点；同时有我们要遵守的规则（Constitutive Rules），我们并不能骑着自行车去拿长跑第一名，或者是开着作弊器违反规则通关游戏之后说——我赢了！因为你在违反规则，或者说参与游戏的这种\"假装\"的时候，你已经离开了游戏。\n\n\n\n**因此，游戏绝不仅仅是嬉皮笑脸、毫无规矩。事实恰恰相反。**\n\n荷兰语言学家赫伊津哈一直把“扫兴的人”作为理解游戏意义的关键。所谓“扫兴的人”，就是那些触犯规则、无视规则的人，这样的搅局者（spoil-sport）褫夺了游戏的幻觉，也是游戏者最反感的。\n\n举例来说，在餐桌上行酒令，输了游戏却不愿接受惩罚的人一定会被人“看扁”；下棋的时候，我们也不愿意和那些违反“落棋无悔”规则的人下棋；看直播的时候，我们对于开挂者和作弊者的愤怒，对于假赛和不全力以赴之人的鄙视......都说明游戏里的“搅局者”是不受欢迎的。\n\n**由此我们也可以发现，游戏的意义与魅力并不在于人们通常认为的“自由”或是“解放”，而恰恰是在于游戏本身的“限制条件”，在于游戏使人必须“遵守规则”。**\n\n这是“游戏”与“玩”的悖论：“乐趣源于对自由的限制而不是对自由的放纵。【6】”\n\n### 02 **假信：游戏和艺术的“异曲同工”**\n\n可别小瞧这种“严肃性”与“假装”。这样的态度不仅仅存在于孩子们搭沙堡、过家家游戏中，同样和审美/艺术相关联。\n\n“小男孩将一根木棍当作木马，假装在骑马以获取乐趣。”在《木马沉思录》中，艺术史家贡布里希著名以这种“假信”为起点，探究所有艺术形式的根源。\n\n这种“假信”的态度可以在很多艺术形式的审美中找到。\n\n例如，对于文学作品的欣赏，有一种被称之为“怀疑搁置(suspension of disbelief)”的状态。这一概念由诗人塞缪尔·泰勒·柯尔律治所创造，指的是读者主动接受故事荒谬或在现实世界中“不可能”的地方【7】，并享受其中。如何理解？\n\n**你可以想象一下，如果你在阅读奇幻小说时忍不住去质疑“世界上哪有这么大的龙？”“怎么可能有人脱水了还能活着？”等这些场景的“荒谬”，那么你可能会与《权力的游戏》或《三体》等作品中最震撼人心的场景失之交臂。因为你不愿意让自己处于“假信”的状态。**\n\n同理，演员的专业表演、固定的座椅、安静的空间...电影院或剧院的这些规则，都是为了让观众忘记现实，沉浸在导演营造的叙事中。\n\n这种在电影院中仿佛置身另一个世界而假装忘记现实的体验是十分重要的。这也是为什么大卫林奇认为，倘若在手机上播放电影，那么“一万年也无法体验电影”。【8】\n\n一旦这种“假信”的状态被“揭穿”，在场的所有人就会从陶醉的美梦中惊醒——打破了尼采所说的观众的施魔(Verzauberung)。美妙的体验便瞬间消失。\n\n\n\n> 玩是谦恭，不是解放。——伊恩·博格斯特（Ian Bogost）\n\n**更进一步说，游戏规则之下的“严肃性”和“假装”中蕴含着一种对于事物的“尊重感”。**\n\n玩家心甘情愿接受这些规则，进入这个游戏所创造的魔圈（magic circle）之中；观众同样仿佛都约定好了似的，进入电影和戏剧“不真实”的世界里。在这种状态中，人不再是以自己为中心，而是去接受事物本身的设置，去倾听艺术的声音，去接受艺术作品。\n\n也就是说，人们心甘情愿地放下自我为中心的主体地位，而与处于客体的事物共同游戏。\n\n在电影院里，与被“固定”在座椅上、不能随意移动、不能大声说话的观影者相比，电影本身反而成为了一个“行动者”，它仿佛在用自身的光影刺向身处黑暗中的观众，让他们被触动（affected）。【9】\n\n**也就是说，自认为最具有能动性（agency）的人类，在电影院中恰恰不是特别“有生气”（vibrant）。如果从“非人类中心主义”的视角来看，事实确实如此。**\n\n\n\n电子游戏也是如此。\n\n玩家需要主动放弃自己身体的运动，放弃多余的感知方式，去接受一个由游戏设计师设定好的、由交互与反馈构成的“角色替身”（avatar）。当然，还有那些游戏世界中的复杂规则。\n\n在这样的限制中，当玩家的操作变得越来越娴熟，他就能够感受到动作游戏中操作的美感，感受到游戏中的角色就像玩家感官和身体的延伸。一种虚拟的运动感（kinesthesia）与本体感受（proprioception）【10】被构建出来。\n\n表面上，游戏角色是被玩家所操控的，但实际上，玩家也受着游戏和角色的限制——游戏角色或游戏成为一种具有自己生命力的主体，一种“拟生命”(quasi-life)，反过来限制和操控着玩家。【11】\n\n**玩家在这样对限制的接受和发挥、被动与主动、操控与反操控之间，感受到游戏的美感与乐趣。**\n\n从这个角度出发，或许就可以理解为什么哲学家伽达默尔将 “游戏作为艺术作品的存在方式”。因为游戏/艺术不再是一个对象化的客体，而成为卷入游戏者的主体，被动而却又含有主动性的意义(der mediale sinn)。\n\n这也是为什么说游戏和艺术有异曲同工之处。\n\n因为游戏和所有艺术的运作方式，都涉及到观众/玩家的一种“参与限制”又“超越限制”的审美状态。事实上，只有这样才能感受到美的存在。当然，这里也涉及到现代人应该具备的一种能力：一种能够沉浸在事物之中，遵守规则而体会事物的规律与美好之处的能力。\n\n### 03 **辩证的游戏态度：“无用”游戏的魔法**\n\n> “或许一个人如果想体会到生活中的浪漫情调就必须在某种程度上是一个演员；而要想跳出自身之外，则必须能够对自己的行动抱着一种既超然物外又沉浸于其中的兴趣。” —— 毛姆\n\n前文说游戏的成立核心在于严肃的遵守规则、接受限制而追逐目标、沉浸在游戏之中。但当游戏结束，我们其实都明白：它只是一场游戏，It's just for fun（这只是为了开心），it's not real（这并不是真的）。\n\n**玩游戏的人知道自己在玩游戏。**&#x73A9;游戏的人知道它的结果其实并不重要，它是“无意义”的，Roger Caillois将其定义为非生产性的（Unproductive）。\n\n简单来说：游戏本质上是“无用”的。\n\n游戏要达成的目标是没有意义且微不足道的（例如把高尔夫球放进洞里，或者是电子游戏这样的干脆虚构出来的目标）。\n\n有些人对于大部分游戏不感兴趣，或者说，提不起兴趣，很大的原因就来自于这里，他们用功利主义或目标论的标准来看游戏，游戏就是完全无意义的。\n\n但奇特的辩证法就在于此，参与游戏中的人们并不是因为游戏的目标十分重要，或者游戏可以给自己带来什么样的好处去玩游戏，而仅仅因为游戏的过程中的体验。他们愿意进行严肃的参与，愿意去做这样的一件在寻常价值体系下毫无价值的事情。而这往往就是乐趣和意义的魔法发生的地方。\n\n**这里所提倡的是一种辨证的游戏态度，超然物外而又沉浸其中。**\n\n相反的，当很多人误把游戏的目标当做游戏的价值，为了得到某些游戏内的数值，达到某个段位，为了游戏的目标（实际上是微不足道的）而废寝忘食，醒悟过来后发现这些目标对现实没有任何价值（当然了，这就是游戏的特点）。\n\n如果当我们只是一心为了游戏中虚构的目标而努力，忽略了过程。亦或在过程中没有感到丝毫乐趣却依旧在重复性地游玩，那我们并不在游戏，而在工作与劳作。\n\n\n\n###\n\n### 04 **缺乏游戏态度的现代人**\n\n当你因游戏而忘了吃饭时间，你的母亲或许会感到不理解，而你也很难向她作出解释。\n\n这是因为，你们之间存在一个错位：\n\n母亲所看到的是游戏这项活动的非必要性/非生产性的一面——即“游戏只不过是游戏”；而此时，她的孩子正全心全意正扑在游戏中——他暂时忘记了“现实”，他正灵活运用这游戏世界中的符号，符号背后是他与九个真实的人在先前的三十分钟里的投入，所以**他对此十分严肃——而这也正是游戏得以成立与展开的基础，也是这个孩子能够进行游戏，并享受游戏乐趣的基本条件与要求**。\n\n这或许是现在的整个社会上对电子游戏存在的错位。\n\n游戏玩家的游戏态度让其投入其中，但有些人过了头沉迷游戏，而那些站在电子游戏外部的人困惑并对这种社会现象指指点点，他们并不能投入其中，也并没有玩游戏的能力。\n\n想要学会玩游戏并不是那么简单的。\n\n这里首先需要一种游戏素养（Game literacy），也就是接受一套新的规则，一套新的符号系统并且灵活运用的能力。\n\n就像《游戏设计之快乐理论》或者是许多游戏设计者和思考者将游戏看作是对于某种模式（pattern）的学习一样，《游戏改变学习》一书中将游戏的过程其称之为批判式的学习。前提在于，首先我们要主动，且自愿地面对游戏提供给的一种新的学习以及思维方式，要自愿地去接受一套规则。【12】\n\n好比一个从来没有接触过《英雄联盟》的玩家，它需要学习游戏中的上百个英雄，记住其对应的技能形象，出装，并且能够在学习中逐渐把握到整体游戏战场节奏的变化，用书中的话来说：“学会用新视角来定位词语/图像/标识/物品等事物的意义，建立新联系。”\n\n还有一种最重要的态度，也就是这篇文章谈论的：\n\n在生活和工作节奏如此快速的今天，我们能够保有一种不“功利”的态度，在认识到游戏“目标无用”的前提下，花时间去严肃和真诚地做“无用之事”，这本身就是珍贵的。这需要一种对事物本身的好奇，对创造物与艺术品的尊重和投入，更需要不凡的创造力。\n\n**“世间最肤浅的莫过于以浅薄的姿态面对正经事，世间最引人入胜的莫过于对待琐事的事后显示出你之所为绝非琐事。”** 伊拉斯谟在他的传世名篇《愚人颂》的开头这样写道。\n\n或许玩亦是自制、亦是自由，如同玩家可主动接受游戏的规则限制与他人共享乐趣，亦可跳脱出来进行批判性思考，将游戏看做一个系统、一个被设计的空间，进行再创造和超越，并评判游戏的好坏。那就有待下篇文章去扩展了【13】\n\n*1.詹姆斯·保罗·吉，孙静译：《游戏改变学习：游戏素养、批判性思维与未来教育》上海：华东师范大学出版社，2020年，第1页。* \\\n*2.Lefebvre, “Kostas Axelos: Vers la pensée planétaire,” 1115.* \\\n*3.约翰·赫伊津哈，傅存良译《游戏的人：文化的游戏要素研究》北京：北京大学出版社，2014年，第9页。* \\\n*4.Roger Caillois：Man,Play, and Games, University of Illinois Press,2001, p10.* \\\n*5.伯尔纳德·舒兹：《蚱蜢：遊戲、生命與烏托邦》台北：心灵工坊文化，2016年，第99页。*\\\n*6.伊恩·博格斯特，周芳芳译：《玩的就是规则》，中信出版集团，2018年，第173页。* \\\n*7. 同上，第108页。* \\\n*8.吴冠军：《爱、死亡、与后人类：后电影时代重铸电影哲学》上海：上海文艺出版社，2019年，第4页。* \\\n*9.吴冠军：《爱、死亡、与后人类：后电影时代重铸电影哲学》上海：上海文艺出版社，2019年，第76页。* \\\n*10.史蒂夫斯温克，腾讯游戏译：《游戏感：游戏操控感和体验设计指南》北京：电子工业出版社，2020年，第26页。* \\\n*11.蓝江：《数码身体、拟-生命与游戏生态学——游戏中的玩家-角色辩证法》《探索与争鸣》2019年第4期* \\\n*12.詹姆斯·保罗·吉，孙静译：《游戏改变学习：游戏素养、批判性思维与未来教育》上海：华东师范大学出版社，2020年，第85页。* \\\n*13.同上，第89-91页。*",
+      "body": "# 中国当代艺术场域的电子游戏\n\n对于中国当代艺术场域的电子游戏出现的方式的简单梳理\n\n\n\n**殊途同归——中国当代艺术场域中的电子游戏 \\[1]**\n\n***All Road Lead To Rome --- the video game in the Chinese Contemporary Art Field***\n\n腾讯NExT Studios 游戏设计师 叶梓涛\n\n## 摘要\n\n随着在当代中国社会造成巨大的影响，电子游戏也自然而然地进入了中国当代艺术创作的视野，但是由于技术，行业壁垒等问题，对于电子游戏的讨论一直分散在艺术，学术，互联网数个行业之中。本文望通过对于中国当代艺术场域中与电子游戏相关的艺术作品的介绍与分析，通过与西方形成对照，展现出中国当代艺术场域对于电子游戏的处理方式，展现出各行业越发紧密交流的态势。\n\n关键词：当代艺术；电子游戏；\n\n## **目录**\n\n第一章 中国当代艺术史中的早期“游戏”作品（1990-2010）\n\n第二章 正发生的中国当代艺术中的“游戏”作品（2010-2020）\n\n第三章 作品分析以及原因探索\n\n&#x20;\\- 作为社会现象与文化符号的电子游戏\n\n&#x20;\\- 作为材料的电子游戏\n\n&#x20;\\- 游戏空间作为一种艺术实践场所\n\n&#x20;\\- 超越规则的游玩与改造\n\n&#x20;\\- 虚拟与现实的参照与勾连\n\n&#x20;\\- 游戏作为容器\n\n&#x20;\\- 生成艺术与模拟游戏\n\n&#x20;\\- 游戏设计与交互\n\n结语\n\n####\n\n## 前言\n\n当诸如海外学者亨利·詹金斯（Henry Jenkins），约翰·夏普（John Sharp）等人在谈论电子游戏作为一种新的艺术形式与媒介时，是相对统一的。而在当代中国，我们却常在两个，甚至三个分别的领域去讨论电子游戏与艺术的。玩家群体，艺术圈，游戏业内，学界各执一词，而其中常常被忽视的，便是中国当代艺术的场域内的电子游戏。\n\n当中国游戏行业面向西方游戏工业追赶的同时，中国当代艺术也在接受西方当代艺术使用的话语，对新式媒介的尝试，互联网技术的使用，到如今新媒体艺术网红展遍地开花。电子游戏作为如今重要的文化现象与话语，当代艺术界也曾有过对应叙述与作品。\n\n本文旨在通过与艺术家的访谈，互联网资料，作品文本分析等的方式，尝试梳理中国当代艺术场域内对于电子游戏相关的作品以及脉络，讨论在这二十多年来，作为媒介和时代先锋的中国当代艺术，有哪些电子游戏相关的，或者以电子游戏为形式呈现的作品，而电子游戏要素在其中又是扮演怎样的角色，希望勾勒出中国当代艺术界在处理电子游戏这一新兴媒介的历史与境况，以及当下愈发紧密的行业交流态势，借此让被行业所分隔的电子游戏艺术重新为人所认知。\n\n####\n\n## 第一章 中国当代艺术史中的早期“游戏”作品（1990-2010）\n\n中国的当代艺术史中的游戏的发展阶段大概可依照2010年前后分为两段。\n\n2010年之前的探索大部分展现为一种探索，这一阶段，电子游戏开发技术还未实现民主化，没有良好的游戏开发技术与工具，新媒体艺术还未传播开来，艺术家大都借助于一些多媒体软件以及游戏模组（Mod,Modification，又名游戏修改，游戏增强程序)的方式进行创作。游戏行业与学界也处在发展的早期阶段，并无艺术自觉与游戏自觉。此处断代没有严格的时间节点与依据，主要以叙述方便为主。\n\n### **冯梦波\\[2]**\n\n冯梦波是中国最早开始电子游戏相关艺术的探索并为当代艺术圈所接受的艺术家。早在1994年创作的一组由四十二幅油画构成的系列作品《游戏结束：长征》中，对象征和符号进行了出其不意的结合，把中国近代史与新体制和大众娱乐符号——即电脑游戏——联系在了一起\\[3]。\n\n.png?alt=media\\&token=aa805084-80b1-4077-bea7-ea42e5fa9a00)\n\n绘画的主角是一位像素化的小红军，以可口可乐罐为武器，进行一场从远古到太空的伟大长征，敌人则来自诸如《超级马里奥兄弟》（Super Mario Bros，1985）《街头霸王II》(Street Fighter 2,1991)等游戏文化产品无所不包。2008年的《长征：重启》（Long March: Restart，2008）实现了这个14年前的勾勒的电子游戏草图，并且在尤伦斯的8个大型投影中给予展现，观众可以使用一个无线游戏控制器打通游戏的各个关卡，因为空间的巨大以及角色的运动速度，旁观的观众也需要快速挪动脚步和转身才能跟得上长征的步伐。\n\n冯梦波1991年从中央美术学院版画系毕业，恰逢中国当代艺术进入国际视野，对新技术的迷恋与钻研使其作品在当时备受瞩目。2004年，冯梦波将早年视频动画作品制作了数字化转录\\[4]，其中有许多艺术家许多借助早期苹果电脑Macintosh LCII的图形绘制软件以及演示软件Aldus Persuasion v2.0进行的动画创作，其中就包括了与同名油画同样作于1994年的动画版本《游戏结束：长征》。其中可见其在1994年前后已用“梦波游戏（Mb Video Game）”来作为作品出品的主体。\n\n\n\n在千禧年前，冯梦波的电子游戏相关的作品更多是利用捕捉卡从Sony Hi8捕捉游戏画面到电脑剪辑，并借助当时唯一的互动多媒体内容创作软件，Macromedia Director与Quicktime进行后期处理并且制作成的互动视频。在创作了入围卡塞尔文献展的中国第一个基于电脑创作的艺术作品《私人照相簿（1996）》后,游戏开发公司Id Software在当时推出了有着独特画面表现的《毁灭战士》（Doom，1993），很早就接触到电子游戏的他将这些游戏中的影像变为了其艺术创作的素材。\n\n冯梦波将之前自己擅长的交互视频的技术，延续了早期创作的《智取威虎山》（Taking Tiger Mountain by Strategy ，1994）的母题，通过自己制作并拆分《毁灭战士》的游戏素材，与电影素材剪辑，制作了这个虚实结合的作品《智取Doom山》（Taking Mt Doom by Strategy ，1997）\\[5]。\n\n1999年，恰逢Id Software的新作《雷神之锤3：竞技场》(Quake III ：Arena，1999)推出，冯梦波写作了剧情脚本并花费八个月时间单人制作了一部短片《Q3》（1999），使用MiniDV对屏幕拍摄素材并且进行蓝幕抠像，将自己形象融入进了游戏之中，这即便是在引擎电影（Machinima）的发展史上，也是相当早期将游戏画面引入艺术创作中去的例子。其中有一段和游戏中角色的虚构对话十分精彩：\n\n\n\n《雷神之锤3：竞技场》区别于前面几作，它没有线性的单人故事剧情，而完全聚焦在多人对战中，（单人模式也是以与电脑机器人（Bot）进行对战完成），所以最终对于艺术家，其呈现出的并非有始有终的线性战斗，而是无止境地重复与杀戮。\n\n得益于高度可定制化的“修改”（Modification）的游戏，以及开放的源代码，冯梦波不满足于利用后期进行游戏画面制作再拼接与处理，他开始希望能够介入游戏引擎之中，制作出一个可玩的游戏Mod。\n\n2002年制作的作品《Q4U》（2002）再次进入卡塞尔文献展，这也是文献展有史以来第一个谢绝未成年人参观的作品。作者以自己的形象制作了建模贴图来替换游戏中的角色，就好似有无数个冯梦波在互相厮杀。装置可供两位现场观众操作，并有第三台投影自动切换视角直播。《Q4U》在卡塞尔展出期间，开放服务器地址给全世界的玩家自由加入。\n\n同年所制作的《阿Q》(Ah\\_Q，2002)继承了《Q4U》中人物模型，并使用跳舞毯来替代游戏中的键盘与鼠标进行操控，这种非常规、身体化的交互界面使得游戏的操控和射击变得笨拙与艰难。\n\n2008年，冯梦波在尝试将游戏引擎作为一种绘画工具，继承了他对于艺术史上自动绘画系统的兴趣，通过修改一行《雷神之锤3》的游戏代码：r\\_drawworld，调整参数，他发现了捕捉一系列动画帧的可能，创作行动派或未来主义式的艺术作品《Q2008》（2008）。\n\n\n\n这种借助引擎进行自动作图的思路延续并同样出现在其后的游戏装置与书法作品《不太晚》（Not Too Late，2010）中，游戏引擎进行自动的演化进行绘制出如同书法的笔触，艺术家通过定时的截图来制作成平面绘画作品，并且在此基础上进行书法的再创作。而再往后的《Q2012》（2012）则将《Q2008》升级为了高清投影，呈现出黑白电影的效果。\n\n\n\n2008年，完成《长征：重启》后的冯梦波希望创作一个如同1993年Midway开发的《真人快打2》（Mortal Kombat II,1993）的游戏，艺术家希望其游戏作品能反映现实，故其将生活中的亲朋好友的形象通过大量的抠像动作进了这个游戏作品《真人快打》（2011），并使用了古早的舞美技术幻影成像（Holovision），使其得以与真实的场景结合。\n\n\n\n### **郑国谷**\n\n> “了园”正向另一种审美骤变，一种有别于思想、观念、时间或符号学的审美，它是一种土地能量学的审美。这种审美让一个艺术家的意识与定力在大地上深深地扎根，与隐藏在大地的各种各样的能量聚集点对接，并相互响应，让现实的矛盾在现实中互相中计，并顺利产生灵感。\\[6] ——郑国谷\n\n郑国谷 1970 年出生于广东省西南部的阳江，毕业于广东美术学院，主修版画复制，90年代创作了《阳江越轨青年》。郑国谷所在的阳江当时的阳江青年日常娱乐赌球，沉浸于网吧游戏之中，小城镇生活与时代的快速发展形成了某种虚拟与现实的冲撞。\n\n2000年开始，他在阳江购买了一片5000平方米土地，以当时90年代流行的全效工作室（Ensemble Studios）开发的即时战略游戏《帝国时代》（Age of Empires，1997）中的建造模式为模版，借用了波普艺术的概念，希望能够将这种种地-建造-城堡-世界奇观的模式从虚拟搬运到现实之中。\n\n在这个名为“帝国时代”的建造计划中，他使用生活中随处可见的材料，收集来自“上一秒到这一秒之间无限的空间里，从虚无缥缈里迸发的惊喜”的灵感，在与当代农民交易得来的土地上进行不断地的建造，同时与相关部门进行各种斡旋与妥善处理其违章搭建问题。\n\n2016年，随着建筑的实践越来越倾向于东式风格，也随《帝国时代》游戏的没落与个人创作的体悟，郑国谷将“帝国时代”重新改名为“了园”。郑国谷的了园的建造过程就如同游戏地图的设计，每一丛植物的设计和安排，都会考虑到人在其中所感受到的状态，在时间中连续不断地改变。\n\n\n\n### **曹斐**\n\n> *2008年夏天，北京奥运会开幕前夕，我在蛇形画廊大堂空间展出了《人民城寨》项目，正式宣布开工建城，那时大家都有一种对未来的极度亢奋与乐观。开幕的时候，我们连线在地球上不同角落的友人，用各自虚拟化身登陆人民城寨的空中预览中心，在落地窗前一同观赏虚拟宇宙中的电子烟花，人们继而飞出窗外，在悬浮的奥运标志上雀跃起舞。\\[7]*\n\n\n\n时间恰逢西方世界流行着Linden Lab制作的《第二人生》（The second life，2003） ，这个基于因特网的虚拟世界因媒体报道而在2006年末开始受到广泛的关注，在2007年达到500万的用户注册量。\n\n在这个网络社区之中，玩家都有一个作为居民的虚拟化身（avatar），可以自定义其形象，玩家可以通过其中的本地聊天与私信（IM）进行交流，使用名为Linden币的货币，并且通过自由制造商品提供服务进行买卖。\n\n游戏的一大特色就在于其虚拟世界中绝大部分物品都由居民而非开发者创造，居民可以借助游戏中的3D建模工具建造虚拟建筑，风景，交通工具，机器等，也可以利用系统之外的各种图像，动画创造出更精细的物品上传，使用，交换和出售。其中还有一种名为LSL的脚本语言可以为物品添加自主行为。而这也就成了许多艺术家创作的出发点，其中就有曹斐。\n\n持续观察年轻人文化的中国当代影像艺术家曹斐，借助其化身，名为“中国. 翠西China Tracy”的角色，在2007年在游戏中搭建了名为《人民币城寨》（RMB City，2007）的一座奇特建筑物，建筑物上充满了各式各样非常具有代表性的中国建筑、中国文化符号，比如鸟巢、东方明珠塔、天安门等等，被称作“一个浓缩了几乎所有中国当代城市特征的新城，它是一系列高度自相矛盾的、相互整合的、充满揶揄与质疑的、同时散布极度娱乐和政治意识的新中国画境。”\n\n\n\n围绕此建筑，曹斐制作了名为《人民城寨——第二人生城市计划》录像作品，在随后直到2011年的时间中，拍摄了《人民城寨的生活》（2009）、《人民城寨的诞生》（2007-2011）等虚拟电影。\n\n除此之外，曹斐借助“中国翠西”的角色展开了创作，如《中国翠西展馆计划 China Tracy Pavilion Project》并拍摄了一系列第二人生记录片《i.Mirror》\\[8]以及诸如《The Fashions of China Tracy 04》 （2009）的摄影作品\\[9]。作品通过剪辑加上后期的对白以及音乐，非常动人。\n\n### **顾德新**\n\n如果说曹斐所实践的当时风靡全球的《第二人生》是一个真正意义上具有经济产值的虚拟社会，那么以单机版起步的《模拟人生》则更受限于游戏设定的程序逻辑，是一块让玩家自我耕耘、复制梦想、通过资本积累建标准化完美人生的试验田\\[10]。\n\n\n\n作为中国当代早期十分具有影响力的概念艺术家，顾德新在其停止艺术创作的前一年，在电脑游戏“模拟人生”的启发下，顾德新运用镜子、大型建筑模型、大量的其游玩《模拟人生》的录像和截图照片以及霓虹灯字在外滩三号沪申画廊内建立起一个虚拟城市。\n\n*冰冷、简洁、空荡的现场与五彩斑斓、频繁刷新的游戏情景迥然不同，这让观众一进入就与游戏里的互动世界划清界限，并且不太容易理解艺术家想要表明的意图。整齐排列的模型、被标价的虚拟商品深具符号性，它们一方面与艺术家在游戏中的角色身分和生活场景有所关联，另一方面则是商业系统中最直观的个人价值的显现和象征。而由这些类型化的物质样式所营造出的模式化的样板生活，则更像一种美好人生目标的讽喻。玩游戏的顾德新没有让我们发现游戏的乐趣，如同展览不提供互动和接口，却呈现出冷酷的矛盾与反常，还有言不尽意的遗憾。当透过狭小的镜面窗口看到与镜像交错的外滩风景，那个疯狂运转的真实世界倒更像一场没有终局的游戏。\\[11]*\n\n.png?alt=media\\&token=30ac9344-8fc7-4441-b917-5e5df9516fef)\n\n### **郑达\\[12]**\n\n数字媒体设计专业出身的郑达并非由当代艺术切入电子游戏，相反，他是从制作游戏而进入的当代艺术领域。学生时代在法国同学的影响下，开始使用了图像节点编程的实时3D环境虚拟实境编辑软件Virtools制作互动式场景，2006年开始，华中师范大学执教期间，与团队一同制作了严肃游戏（Serious Game）《热血救助员》（2008）\\[13]。\n\n\n\n这是一款面对社会公共突发事件中的应急求生训练的三维游戏。游戏的主题是让玩家在游戏的模拟体验中学习正确的求生急救专业知识。\n\n后郑达将《热血救助员》作为来源，将其中的某些素材抽出加以创作为《多种物》系列游戏艺术作品，《多种物C的起源》（The Origin of Multi-Object C，2008），《多种物E》（Multi-Object E，2009）以及《多种物H》（Multi-Object H，2010）。\\[14]\n\n\n\n郑达创作的这些作品在当时使用了三墙投影的方式，观众需要控制主角在水面上奔跑，使用鼠标和键盘进行真正地交互，通过点击漂浮的物品将其变为碎片凝固，水面不断上升而淹没玩家，最后完成游戏。\n\n\n\n###\n\n## 第二章 正发生的中国当代艺术中的“游戏”作品（2010-2020）\n\n2010年之后，随着游戏制作工具的普及与民主化，技术软件的易用性加之团队合作的普遍化，国外独立游戏潮的兴起，游戏在慢慢地被更多人认识与接受，不仅逐渐开始成为作为一种愈发重要的大众文化，而其作为拥有强烈体验表达与新媒体高互动性的媒介亦得到了更多关注。\n\n有更多的新媒体艺术家开始尝试使用游戏这一“新潮”的表达手段来进行创作，其中许多作品都是脱离某些已有的游戏作品的独立完整的游戏创作。\n\n### **陈轴**\n\n《模仿生活》(LIFE IMITATION，2017)是青年艺术家陈轴的电影处女作，该片获2017年哥本哈根国际纪录片电影节 “新视野奖”。作品细致描绘了几位在上海生活的年轻人的日常生活，巧妙穿插了微信对话以及《GTAV》的游戏场景画面在其中\\[15]。\n\n\n\n### **陆扬**\n\n毕业于中国美术学院新媒体艺术家陆扬一直在处理与ACG（动画Anime，漫画Comics，电子游戏Games）相关的材料，其2019年的新作《器世界大冒险》（Material World Knight，2019）糅合了先前一系列创作，其中经过基因编辑的人类；外骨骼机械强化后的人机合成体；以及难以用生命体来界定的机器人都被放置进这样一个完整的，可互动的电子游戏形式中，形成一个混杂且强烈的异次元世界，展现出毁灭与重生，欲望与情绪等带有浓厚佛学色彩的问题。玩家在一个半封闭式的名为“神秘宇宙装置”的银色空间中使用游戏手柄来玩这个作品，操控角色按照箭头指示进行飞行或行走的移动，对怪物进行攻击，并且达成通关。\n\n《器世界大冒险》的游戏程序由一家位于香港与伦敦的数码工作室元物Meta Object\\[16]支持与合作，而最近陆扬开始制作的数字人“独生独死”也大量进行了合作，采用了在游戏工业中虚幻引擎，实时动态与面目捕捉，照相扫描建模等方式。\\[17]\n\n\n\n### **佩恩恩**\n\n天梯系统是各类电子竞技游戏排名对战系统，根据玩家在游戏对战中获得的数据来积累积分，获得排名，将不同排名的玩家分类至不同的段位。艺术家佩恩恩很早便开始了对于中国电子游戏行业的观察，通过其2018年创作的作品三屏录像作品《天梯系统》（Ladder System，2018）表达了佩恩恩对其的认知：\n\n> 天梯系统是结合了监控-排名-选拔-奖励-惩罚于一体的24小时实时更新的人才调控系统。它是一个不休市的“股票市场”，玩家的积分根据表现实时变动，大多数玩家困于中间段位就难以往上爬，顶层段位想要维持就得不断获得胜利以维持积分不被超越，这套积分排名算法能获如此大的成功依赖的正是复杂的人性。《天梯系统》将观众从玩家的位置转移到游戏开发者的位置，在影像中，佩恩恩将数据转化为影像，强化了整个天梯系统的控制属性，玩家被游戏绑定并不断生产数据。\n\n\n\n### **关子维**\n\n香港艺术家关子维（Alan Kwan）在2011年，录制了18个月的自己生活的视频和音频片段，通过电脑游戏来将他的这些记忆片段存储起来，用电子游戏的3D场景构建出适合这些不同记忆碎片的建筑或地点，制作了《坏旅行》（Bad Trip，2012），玩家就可以如同一般的步行模拟游戏一样在其中探索，在不同的地点和建筑里存放着不同的隐秘的记忆碎片。\n\n.png?alt=media\\&token=2256c41b-8890-44c4-9e7e-8d58269203dc)\n\n2016年，他根据童年记忆创作了一个互动游戏《走廊》（Hallway，2016），成功地用无限的房屋迷宫传达了一个小男孩被无助地困在香港住宅楼的走廊间的绝望体验，玩家在其中与不同的物件尝试交互，探寻一个解脱的可能。\n\n而2021年，由关子维与策展人与游戏专栏作者杨静所制作的，由DSL Collection提供赞助开发的展览游戏《Forgetter》登上了Steam，直接面对玩家，某种意义上或许意味着一种数字媒体艺术与电子游戏的去中心化分发特性的贯通与突破当代艺术场域稀缺性大胆的尝试，值得肯定。\n\n\n\n### **田晓磊**\n\n毕业于中央美术学院数码媒体专业，田晓磊作品多以人与科技关系为主题，他感兴趣这个时代快速迭代的不确定性、物种演化中科技与生命结合的杂交时代新物种。\\[18] 其过硬的3D技术，精细华丽的模型和对于视觉语言的大胆尝试形成了其特殊的个人风格。\n\n其作品直接以游戏的形式呈现，早期创作以VR游戏为主，使用HTC VIVE的《赛博格游戏》（“Cyborg Game”VR Game,2016）《赛博格的秘密》（“Cyborg’s Secret”，2018）已经显露出对于交互的理解。\n\n《赛博格游戏》由三个小游戏作品《必然》（Inevitable）、《创造》（Creation）、《秘密》（Secret）构成，使用了一些动作游戏中的常用交互，如射击，击打等，其中交互的规则和场景化设置有较好的融合\\[19]。\n\n.png?alt=media\\&token=02bfa0ce-fb81-43b6-9130-de926eb33286)\n\n关于投掷星球的两个体感游戏《寻星》（Chase，2018）以及《尽头》（The End，2019）借助了XBOX Kinect技术，在这两个游戏中玩家丢出的星球会随即反弹并且留下痕迹或者吸引宇航员NPC的追逐并引发爆炸。\n\n从《“我要为你跳支舞！”》（I am going to dance for you！，2018） 开始，田晓磊晚近的作品《大乐园》（Paradise，2019）与《逆行》（Retrograde，2019）都开始呈现为PC的游戏作品。\n\n其中《大乐园》是基于其早期的影像视频作品《欢乐颂》（Song of Joy，2011）以及《乐园》（Paradise，2010），将当时虚拟的游乐园小岛放置在游戏中，各种无脸的，穿着西装的人们在其中，玩家扮演一个“自由的囚徒”,体验十个不同的游戏。\n\n.png?alt=media\\&token=d9776d51-23b3-4b19-9ed8-b2f237c496a4)\n\n《逆行》则是制作成了一个跑酷的躲避游戏，玩家身着西装的人在城市中孤独的奔跑，他与其他人奔跑的方向相反，躲避人潮和障碍，并且不断发问“我去哪？他们去哪？”\n\n###\n\n## 第三章 作品分析以及原因探索\n\n对于这些不同的与电子游戏相关的艺术创作，从电子游戏在其中扮演的角色和受到的处理出发，我们可以粗略地规划出几类。不同艺术创作有自身特性，故以下的分类难以做到完整归纳，只是一种试图寻找其不同作品之间共性的尝试，并且与一些国际上的电子游戏相关的艺术作品形成对照。\n\n### 作为社会现象与文化符号的电子游戏\n\n电子游戏从上世纪末兴起进入中国，在发展中逐渐成为一种不能忽视的文化，进入社会的日常生活之中，而电子游戏这件事也称为一种富有当代性的社会现象为艺术家所关注。\n\n.png?alt=media\\&token=0cbd2452-0b93-4a7d-bdba-69a96432d24d)\n\n就如同勃鲁盖尔时期以当时社会的游戏共同体绘制的《儿童游戏》， 杜米埃(Honore Daumier)的《玩象棋的人》(The Chess Players，1863)，印象派时期塞尚（Paul Cézanne）的名画系列《玩纸牌者》（Les Joueurs de cartes，1894-95）一样，玩电子游戏的行为，玩电子游戏的人也都成为一种当代艺术的文本与描绘的对象。\n\n上文提及艺术家佩恩恩对于有对于当代DAU（日均活跃用户Daily Active User）均值达到一亿的《王者荣耀》排位系统进行了的伦理批判反思，采取一个跳出的观察者的视角呈现的《天梯系统》。\n\n艺术家乔恩·拉夫曼 (Jon Rafman)的视频影像作品《荣誉密码》（Codes of Honor, 2011）描绘了唐人街游戏厅（Chinatown Fair）的传奇玩家艾迪·李(Eddie Lee) 所使用的以完美防御零失误的方式等待对手犯错的“纽约式玩法“ (New York-style)和他的经历。\n\n哈伦法罗基（Harun Farocki）的纪录影像《严肃游戏》（Serious Game，2010）四部曲对科技与暴力图像的研究中就",
       "has_body": true,
-      "body_truncated": false,
+      "body_truncated": true,
       "classic_discovery": true,
-      "key": "ffb2e0aff2b44ae7",
-      "title": "#2 游戏的高度严肃性",
-      "url": "https://docs.xpaidia.com/ficstruction/paidia/2-you-xi-de-gao-du-yan-su-xing",
+      "key": "f818e716dddc4bf2",
+      "title": "中国当代艺术场域的电子游戏",
+      "url": "https://docs.xpaidia.com/ficstruction/undo/contemporaryart",
       "lang": "zh",
       "tier": 1,
       "tier_weight": 18,
@@ -889,7 +733,7 @@
       "published": null,
       "undated": true,
       "published_precision": null,
-      "summary_raw": "# #2 游戏的高度严肃性 玩是谦恭，不是解放 本文在腾云公众号发布时，名字为《游戏的态度：如果不“严肃”，你就无法感受它的魅力》 ### 引子 *有一种错觉是，游戏之所以吸引人，是因为你可以在游戏世界里“为所欲为”。但事实恰恰相反，游戏的迷人之处，正是因为它的规则性，或者说“限制性”。* *另一个错觉是，因为游戏太“真实”，所以人们才心甘情愿“陷”在其中。事实上，和看电影类似，人们是主动选择将自己置身于一种“假信”的状态，并以此感受其中的乐趣。* *这些“错觉”的存在，恰恰说明了“游戏”和“严肃”如影随形。* *而“严肃”或许是最好的“游戏态度”。* ### 00 孩子教给大人的事 > “我想要把这本书献给我六岁的儿子山姆......**他教会了我以严肃的态度看待并体验游戏，让我自始至终都乐在其中。”**【1】 在《游戏改变学习：游戏素养、批判性思维与未来教育》一书的序言中，美国著名语言学学者詹姆斯·保罗·吉这样感谢他六岁的儿子。 以严肃的态度来看待游戏，许多人都可以理解，但是“以严肃的态度来体验游戏”，这是什么意思？ 在游戏中，严肃与玩乐相伴而行，形成一种辨证的诡辞（dialectic paradox），在限制与自由、谦恭与解放之间，“严肃”就像是一个捉摸不透却总是处处闪现的“幽灵”，总想摆脱人们对它的思考和定义。 让我们从游戏的“严肃性”谈起。 ### 01 **没有严肃性就",
+      "summary_raw": "# 中国当代艺术场域的电子游戏 对于中国当代艺术场域的电子游戏出现的方式的简单梳理 **殊途同归——中国当代艺术场域中的电子游戏 \\[1]** ***All Road Lead To Rome --- the video game in the Chinese Contemporary Art Field*** 腾讯NExT Studios 游戏设计师 叶梓涛 ## 摘要 随着在当代中国社会造成巨大的影响，电子游戏也自然而然地进入了中国当代艺术创作的视野，但是由于技术，行业壁垒等问题，对于电子游戏的讨论一直分散在艺术，学术，互联网数个行业之中。本文望通过对于中国当代艺术场域中与电子游戏相关的艺术作品的介绍与分析，通过与西方形成对照，展现出中国当代艺术场域对于电子游戏的处理方式，展现出各行业越发紧密交流的态势。 关键词：当代艺术；电子游戏； ## **目录** 第一章 中国当代艺术史中的早期“游戏”作品（1990-2010） 第二章 正发生的中国当代艺术中的“游戏”作品（2010-2020） 第三章 作品分析以及原因探索 \\- 作为社会现象与文化符号的电子游戏 \\- 作为材料的电子游戏 \\- 游戏空间作为一种艺术实践场所 \\- 超越规则的游玩与改造 \\- 虚拟与现实的参照与勾连 \\- 游戏作为容器 \\- 生成艺术与模拟游戏 \\- 游戏设计与交互 结语 #### ## 前言 当诸如海外",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "design",
@@ -903,8 +747,8 @@
       },
       "members": [
         {
-          "title": "#2 游戏的高度严肃性",
-          "url": "https://docs.xpaidia.com/ficstruction/paidia/2-you-xi-de-gao-du-yan-su-xing",
+          "title": "中国当代艺术场域的电子游戏",
+          "url": "https://docs.xpaidia.com/ficstruction/undo/contemporaryart",
           "source": "叶梓涛 · 落日间",
           "lang": "zh",
           "published": null
@@ -939,32 +783,137 @@
       "evergreen": true,
       "content_type": "经典阅读",
       "section": "features",
-      "title_cn": "游戏的高度严肃性：规则、假装与游戏态度",
-      "what": "作者借赫伊津哈、凯瓦卢、舒兹、博格斯特等论述，提出严肃的“假装”与对规则的遵守是游戏成立的基础，游戏乐趣来自对自由的限制而非放纵，并以电影、文学中的“假信”类比玩家的沉浸。",
-      "why": "作者用儿童过家家、开火车、行酒令、开挂等例子，串联“游戏态度”“魔圈”“怀疑搁置”等概念，论证玩家在受限与沉浸之间获得审美体验，并区分游戏与劳作。",
-      "for_you": "可追问：把“严肃遵守规则”视为游戏成立的前提，如何解释作弊、模组与速通等刻意越界玩法在玩家文化中的位置？",
+      "title_cn": "中国当代艺术场域中的电子游戏作品梳理",
+      "what": "叶梓涛以艺术家个案梳理1990至2020年中国当代艺术中与电子游戏相关的创作，包括冯梦波、郑国谷、曹斐、顾德新、郑达、陆扬、佩恩恩、关子维、田晓磊等人的作品，并尝试归纳电子游戏在艺术创作中扮演的角色。",
+      "why": "作者按2010年前后分两阶段，以访谈、网络资料和作品文本分析为据，将作品归为文化符号、创作材料、艺术实践场所、规则改造、虚实参照、容器、生成艺术与交互等类别，并与西方作品对照。",
+      "for_you": "可追问：以“游戏作为材料/容器”等分类梳理中国案例时，是否会遮蔽作品自身的玩法与交互设计差异？",
       "degraded": null
     },
     {
-      "title": "Keys to Combat Design: Anatomy of an Attack",
-      "title_cn": "战斗设计要点：拆解一次攻击的构成",
-      "url": "https://gdkeys.com/keys-to-combat-design-1-anatomy-of-an-attack/",
-      "lang": "en",
-      "sources": [
-        "GDKeys"
-      ],
-      "published": "2020-04-25",
-      "published_precision": "day",
-      "summary_raw": "",
-      "editor_note": "来自现有收藏；讨论攻击动作的分段与战斗设计。",
-      "key": "b1d53891be52e7ae",
-      "pool": "main",
-      "category": "design",
-      "library": true,
+      "source_id": "web-a8c0ed683c",
+      "source_url": "https://www.gameres.com/list/25",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "56fe81c3cc83043e",
+      "title": "舞蹈游戏前世今生及未来可能性（上）",
+      "url": "https://www.gameres.com/901203157.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
       "coverage": 1,
+      "sources": [
+        "GameRes 策划"
+      ],
+      "published": "2026-10-10T07:01:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "介绍《热舞革命》《舞力全开》《节奏光剑》三款标志性舞蹈游戏的发展，从多维度分析舞蹈游戏的核心优势与发展潜力。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "design",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "舞蹈游戏前世今生及未来可能性（上）",
+          "url": "https://www.gameres.com/901203157.html",
+          "source": "GameRes 策划",
+          "lang": "zh",
+          "published": "2026-10-10T07:01:00+00:00"
+        }
+      ],
+      "score": 24,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 0
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "产品观察",
+      "is_analysis": true,
+      "age_hours": 382.1084489719444,
+      "evergreen": false,
+      "content_type": "分析",
+      "section": "features",
+      "body": "作者：七的质数和 首发“未来游戏世界”公众号\n“ 本来想一篇写完，结果写着发现一篇收不住，分上下两篇发。”\n1998年，极其富余创造力的KONAMI公司，在街机平台推出了一个叫《热舞革命》（Dance Dance Revolution，简称DDR）的游戏。\n一个新兴的蓝海市场就此开发出来。\n跳舞机一经推出，就大受时代好评，甚至出圈吸引到了时下很多明星，参与跳舞机运动。整个街机市场上，也打开了一项叫做跳舞机音游子分类，而跳舞机的玩家活跃至今。\n2022年5月，《DDR》与《塞尔达：时之笛》《吃豆人小姐》《文明》一起，荣膺世界电子游戏名人堂殊荣，被永远铭刻在人类文明的记忆之中。\n2009年，育碧首次在体感游戏主机中推出《舞力全开》（Just Dance），此后该IP以超乎所有玩家想象的速度在体感游戏圈扩散，成为每年一度的育碧年货系列。《舞力全开》全系列历史总销量达到了7000万份，堪称奇迹。\n而2022年的今天，在PICO4的发布会上，字节跳动宣布已经为游戏提前签下《舞力全开VR》。显然，抢占这个舞蹈游戏IP，字节跳动为此付出了不少真金白银。\n2018年，《节奏光剑》(BeatSaber）作为一个VR独占游戏发布。\n这个游戏很快成为了史上第一个出圈VR游戏，无数玩家只为这一个游戏购入VR设备，甚至成为VR主播。\n截止目前，有据可查的数据表明《节奏光剑》的正版销量超过了500万份，总销售收入很早就超过了1.8亿美元。\n观察历史，我们很容易发现，恰好正是《热舞革命》、《舞力全开》、《节奏光剑》这三个舞蹈游戏——分别在最关键的时候，突然的站了出来，成为了拯救街机、体感、VR的骑士。\n如果没有舞蹈游戏，今天的中国的街机市场，任天堂的NS很难继续坚持体感，乃至VR平台很难有勇气继续开发下去。\n几乎所有人都没有能预见到这三个极度另类的游戏的崛起，也几乎所有人都没有预估到，这三个持续面临失败的游戏平台，真的可以被这几个舞蹈游戏续命成功，然后持续发展至今，玩法还越来越丰富，玩家群体越来越庞大。\n但是……笔者作为忠实的舞蹈游戏的玩家，早很多年开始，就彻底意识到：\n舞蹈游戏，不管发展多么波折，它一定是游戏产业的未来。\n它的发展是基于人类本身想要身体健康成长，与他人产生互动连接产生的必经之路。\n最简单直接来说，舞蹈游戏拥有VR游戏，现在最需要的四大属性：高游戏性、高复玩性、高传播性、高社交亲和性。\n详细展开的话，细节还有更多。\n01\n—\n场地兼容\n不晕动，不需要手柄控制行动，是完全出自于人类自发的活动欲望去表现。\n舞蹈活动是人类纯软件的学习，人类完全能依靠自我大脑和身体的记忆，把舞蹈动作带到任何舞台中去，也包括VR这样的新舞台。\n对，VR舞蹈游戏是可以直接结合现实世界，兼容双人舞情侣玩法设计的，甚至多人共舞也都没有问题。\n这里，舞蹈游戏直接还能体现出很好的社交亲和属性。\n对，能取得女友全力支持的游戏项目不是很多，但是舞蹈游戏对女友的友好度是最高的一档。\n甚至在这个方向上，再无其他游戏出其右。\n02\n—\n双重现实\n双重现实(DR)这个词，来源于魔术表演领域，原意就是指利用舞台上的人跟舞台下的人的视野差创造内容。\n这里我把这个词源延展一下，表述为舞者自身与观众的不同情绪感知差。\n舞蹈游戏是一种完全满足于双重现实标准的设计。\n这双重现实第一重是玩家自身的游戏乐趣，第二重是观众观看产生的体验乐趣。\n双重现实里，直接涉及到了游戏属性里，比较核心的游戏性和传播性。\n能同时满足双重现实优质体验的活动非常少。\n舞蹈的根本需求，来自于生物对自我身心的高强度掌握控制能力的发掘必然。舞蹈这种基于生物演化的必然性的艺术，是完美的双重现实体验，连之一的比较对象都没有。\n只要玩家愿意认真学习，就有体验乐趣，就有观众流量支持。\n我们今天很容易看到波士顿动力的人形机器人项目，经常发布一些跳舞的视频。其核心就在于：舞蹈的双重现实的挑战，对机器人操作平衡都很困难，但是一旦学会了，对外界观众就特别好看，能吸引大众眼睛。\n—\n资源匹配\n舞蹈游戏的发展，直接衔接了如今高度发展的视听传感器技术线，以及AI技术线的发展。\n今天正在光速普及的物联网技术链条，例如：动捕、面捕、手势识别、眼动追踪等，这类技术的应用与舞蹈是完美搭档。\n而AI技术线……正是人类发展速度最快的技术线之一。\n哪怕舞蹈游戏自身不成熟，AI算法商，智能硬件供应方，也会自发下场做舞蹈游戏相关的内容。\n这就是字节跳动为什么会宣布《舞力全开VR》独占的根本原因。\n很简单，这是字节跳动的AI技术基因+文化传媒基因，发展过程的必然联姻选择。这些基因又与舞蹈游戏的基因是高度契合的，是纯天然存在的命运伴侣。\n04\n—\n游戏足够耐玩\n舞蹈是强复玩性的活动。\n音乐游戏是强复玩性的活动。\n两者合一，舞蹈游戏的复玩性更加强大。\n中外过去的跳舞机的市场证明了，舞蹈游戏虽然入坑难，但是一旦入坑，玩上十年八年的大有人在。\n很多人更是在跳舞圈和跳舞机圈结成了伴侣——双人舞体验更是远超其他环境的感受。\n而事实上，中国市场特殊性情况下，很多时候，是因为街机厅太少，跳舞机的教学过程太差，导致了很多玩家没有接触过，或者接触了之后没有办法留下。\n这个市场的潜力一直没有得到真正的释放。\n哪怕成功的《节奏光剑》，也未能深度开发舞蹈游戏，它只是做到了开发音游市场而已。\n但是仅仅这样，已经非常成功了。\n未来，如果游戏开发商能在舞蹈游戏的体验内容中，做好舞蹈教育，能让更多初学者入门留下来，舞蹈游戏很有机会成为大爆产品。而现在缺这样的游戏内容，易学性较差是舞蹈游戏目前最普遍的问题。\n而且，能满足初级玩家跟高级玩家，同台快乐体验的游戏，极少。舞蹈游戏就是这之中的特殊存在。\n05\n—\n全玩家兼容\n舞蹈游戏，几乎是全年龄、全性别、任何玩家都能参与的游戏。\n并且，辐射范围直接从物理世界，扩张到心理世界的领域。从健身社交到美容娱乐、感情表达等相关社会功能，全在舞蹈游戏安排的范围内。\n因此，舞蹈游戏能融洽接入未来任何可能空间内。\n嗯，舞蹈游戏天然是不会产生舆论压的白名单区域。这个白名单区域在我们今天的社会上极少……不在白名单区域的活动，天然会受到很大的无意识社会限制。\n甚至，舞蹈游戏都不用刻意迎合社会去做防沉迷限制……舞蹈游戏的体力开支极大，人的真实体力消耗本身就是防过度沉迷机制。\n这样的社会环境下，舞蹈游戏的天然属性决定了，它的对所有人的亲和度，会让这里有各种明星或者其他，成为爆点事件的中心的可能。\n这是一个被允许砸钱就能传播的舞台。\n06\n—\n健身功能\n全世界的健身运动，是随着短视频浪潮，必然掀起的新运动。\n因为健身运动具有视频传播性，刘畊宏女孩的标签是必然诞生的，而且这世界的健身博主实在太多了。\n最直接来说，人想要保持年轻，保持性魅力的过程，天然会触及健身领域这块。\n而舞蹈游戏，天然本身就内置了健身功能。\n甚至可以说，舞蹈是高等动物分别独立演化之后的必然属性。\n越是生存自由的动物，它们就越容易亲和跳舞。\n因为舞蹈是一个动物的身体健康属性，大脑聪明属性的最积极展示方式，也即舞蹈是最佳的性魅力展示属性之一。\n而生物总是会天然会追逐自身的性魅力提升，这是基因烙印下的必然。\n大众现在并未完全流行健身，无非没有时间，或者时间精力被占据，或者坚持不下来，或者不知道怎么做而已。\n同时，舞蹈游戏一般很难宣传自己本身自带健身属性。\n因为大众没有近距离接触过舞蹈训练之前，不知道训练成长过程，需要哪些身体强化。\n因为大众在亲自体验舞蹈游戏水平成长之前，不知道舞蹈游戏会带来哪些属性。\n但是体验过的人，很容易知道，健身属性是舞蹈游戏内在的属性之一。但是这个属性对大众的隐藏深度非常深，就像舞房没法宣传成健身房一样。\n舞蹈游戏与舞蹈本身还不同。\n因为有自由编辑的界面展示引导空间，舞蹈游戏可以很方便做故事线引导，通过对人类生理数据的测量和分析，再通过视频主播宣传。观众可以很容易从ar数据显示中的信息，知道这个游戏的易学性，游戏性，复玩性，健身性都极强。\n这个时候，舞蹈游戏才可以很方便发展为人类共同的健身运动。\n（点赞在看分享三连，是笔者码字动力，感谢~）\n下一篇：\n最后的问题：为什么舞蹈游戏不能真正风靡？\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "舞蹈游戏发展史与VR平台适配性分析",
+      "what": "作者回顾《热舞革命》《舞力全开》《节奏光剑》分别在街机、体感、VR平台上的发展，并列举舞蹈游戏在场地兼容、双重现实、传感器与AI技术匹配、复玩性、全年龄兼容和健身属性上的特点。",
+      "why": "作者以三款舞蹈游戏与对应平台的兴衰为线索，结合自身玩家经验，归纳舞蹈游戏适合VR的六项属性，并指出易学性差是当前普遍问题。",
+      "for_you": "可考察作者把平台续命归因于单一品类游戏的论证是否充分，以及“双重现实”概念如何转化为可验证的设计指标。",
+      "degraded": null
+    },
+    {
+      "source_id": "author-ye-zitao",
+      "source_url": "https://docs.xpaidia.com/portfolio",
+      "platform": "作者网站",
+      "evidence_kind": "developer_article",
+      "requires_transcript": false,
+      "discovery_only": false,
+      "requires_review": false,
+      "publication_scope": "public",
+      "body": "# 游戏设计中的时间\n\n我感觉自己必须向后回溯，越过帕特农神庙的石马，回到我童年的木马。Paul Gauguin\n\n本文写作于2020/09，发布于公众号，非学术文章，仅提供相关游戏的浏览\n\n> 然而，只有在时间内部，\\\n> 那玫瑰园中的一瞬，那凉亭下雨点急速拍打的一瞬， \\\n> 那微风习习的教堂中烟雾降临的一瞬， \\\n> 才能够被记起；交缠在过去和未来之间， \\\n> 只有在时间之中，才能征服时间。 \\\n> \\\n> —— T·S Eliot\n\n\n\n## **时间漫游**\n\n在各个艺术形式中，关于时间的那部分是最令我着迷的。\n\n与时间有关的艺术在六十年代忽然大规模地爆发出来：大地艺术，过程艺术，偶发艺术，激浪派，摄影和录像也被冠以 “ 时基媒体 ” 的大名：以时间为基础的媒体。到了新媒体网络化时期，时间在作品呈现的过程中更加必不可少。\n\n在作品中表现时间，这是很多不同媒介不同形式的作品都尝试过的。意识流的小说暂且不论，杜尚的未来主义尝试，《下楼梯的裸女》在早期的各种作品中都尝试着捕捉时间在同一画面上的展示。\n\n\n\n葛哈·李希特（Gerhard Richter）的摄影作品的某种奇特的虚幻感和布列松（Henri Cartier-Bresson），所寻找的“决定性瞬间”——寻找瞬间中美丽的偶然(en quête du bel hasard de l’instant “involontaire”)，并使得他可以到达某些永恒的必然性(atteindre à la nécessité immuable “éternel”) 之间恰好形成了某种对应的美妙关系。\n\n\n\n艺术家邱志杰将现代艺术归出的四条线索，其中一条便是“过程的体验”。在古典主义的艺术中的“时间”是全然不均等的，只有决定性、史诗性的瞬间才有意义，而期间的大段空白毫无意义。到了印象派，则转变为某种机械式的时间，每一瞬间可以不完美，但是并不真的缺乏魅力。在这样的瞬息的变化之中，塞尚试图捕捉关系的永恒，而未来主义则走向了狂欢，甚至发展为“让作品自身成为一种能生长的有机物，让时间的属性成为作品的一部分”，如同Yves Klein以及R.Smithson的作品一般。最终发展的技术的发展让人们越来越能够将这样的过程来体验，一切都被储存，一切都可被重演，重新体验。\n\n> *时间变成每秒二十四帧的胶片之后就变得可以剪裁，倒转，延长。比尔 · 维奥拉的慢镜头就像放大镜一样把时间中微小的细节都变成了庄重的仪式。而重复的镜头则使轮回的观念复活，使线性的时间感崩溃。*\n\n安德烈·巴赞（André Bazin）在《绘画与时间》中提及阿伦·雷乃的《梵·高》也涉及了不同媒介的呈现。“通过蒙太奇让绘画的时间性如地质学一般往纵深发展”，最特别的便是其打开了绘画自身的空间，通过荧幕和镜头的反打自由地穿梭，瓦解了画框带来的异质性和绘画自身的方位和界限（空间性为主的第一次革命）。\n\n而在后文谈及乔治·克鲁佐的《毕加索的秘密》的时候，更是指出了其带来的第二次的革命，绘画作为时间性的存在，时间延续可以成为作品的一部分，而绘画过程中的生成、修改、变异，甚至“死亡”都有其自身的延续——柏格森式的影片。\n\n\n\n电影可以通过蒙太奇或者镜头的时间来加速和慢放时间，也能像是沃霍尔的《帝国大厦》一样，纪实式地将物理时间与电影时间严整对齐。阿涅斯·瓦尔达（Agnès Varda）作为新浪潮祖母级的人物，大概她也热爱着时间吧，《五至七时的奇奥 (Cléo de 5 à 7)》是“实时电影”的独特代表作，而《尤利西斯 Ulysse（1982）》则将回忆中虚幻的时间，微小的个人与时代的全球的时间所联系在一起，交相缠绕出一张独特的网；而从电影的本体论角度，塔可夫斯基称电影的创作过程为“雕刻时光”是颇有道理的。\n\n而无论何种艺术，在与观者相遇的时候，总是在时间中展开自身的，从斯蒂格勒意义上，这都是一个第三存留（tertiary retention），通过它们，我们才能找回第二存留(记忆和想象)，而后到达第一存留。\n\n而游戏又是怎么一个独特的方式来运用和表达时间的呢？\n\n## **游戏中的时间**\n\n### **时间感（时间知觉 Time Perception ）**\n\n在大多数的游戏中，我们不怎么会感受到“时间”的概念。\n\n因为首先游戏中的时间的“感觉”，大部分与现实中物理时间的流逝是一样的，并不是真的存在游戏的“时间”，而是游戏借用动画的播放速度，与现实相仿的感官印象和节奏来带来的“相似”，以此方式来带给玩家更强的“真实感”（与现实世界的相似感）。\n\n所以在这个意义上，“时间”在游戏中并没有被独立出来，而是作为一种辅助手段来强调游戏的沉浸和游戏的真实，似乎可以先以“时间感”来称呼（被独立出来的下文会讨论），而这实际上只是动画速度带来的幻觉。\n\n游戏可以很轻易地营造出一种独特的时间感的“场”，带给玩家完完全全地时间感的真切体验。能够想象《GTA5》的世界中，你开着车到海边，下车，看着太阳一点点地下沉，世界的光影在一点点地变化，你此刻处在的状态或许完全就沉浸在了游戏时空的场中，你的感官、现象世界是被游戏中的时空元素所充斥，就好像为什么玩起游戏来，很容易忘记现实中的时间，大概是因为玩游戏过程中的你的主观时间，或者是时间知觉( Time Perception ) 几乎完全是与游戏中的时间感相符合的，所以当你玩游戏突然被现实中的事物打扰，意向转回现实世界，那么往往会有种“脱出感”，恍然如梦。\n\n当然游戏中对时间感的营造往往是有错位的，并不是完全以现实世界为参照的。诸如很多游戏中的昼夜交替额外地快，例如《对马岛之鬼》，几乎走一段时间就换一换。\n\n\n\n而有些游戏如《The Witness》，走路的速度和现实世界比较近似，但是太阳永不落下，神秘岛永夜明亮。\n\n这更接近一种弥散的状态，是一种精确性的取消，是一种不同于现代资本社会时间观的感觉。就好像在《阴阳师》中你看到阴阳师的式神们在院子中来回走动，仿佛这些时候就好像是梦幻中的时间，循环往复，一如那个永远阳光灿烂，永远不会过去的炎热夏日，你也可以在塞尔达的大陆上随意淌洋，或者是游戏中的新手村，只要你不去接任务，时间就有这么一直无概念式地继续下去，不必担心任何的东西。\n\n\n\n提一句，我觉得《NieR:Automata》的原声带中能非常切实地感受到这种弥散的状态。\n\n### **被规定的时间**\n\n游戏常常也会规定某些时间，那么这个时候时间常常会被作为游戏机制的考量，而不只是一种沉浸手段的加强出现。很简单的例子便是如“在时间限制内完成任务”，或者是像是《守望先锋》这样的，占点超过的时间，进攻需要的时间等等；或者是赛车游戏中完成赛道达成的最短时间。\n\n或者是在一个策略游戏，甚至是动作游戏中关于“时机”或者“时间窗口”的挑战也是如此，这些时间点有其特殊的Gameplay意义，游戏系统在演变中的时间性和玩家交互的时间构成了系统的不同变化。\n\n被规定的时间玩家往往会极为关注——毕竟与胜利失败有着高度相关性。就像是在合作游戏《Keep Talking and Nobody Explode》中的炸弹爆炸的倒计时一样，这样的时间并不是去体会的，而是去不断尝试挑战的。一些很小的时间的改变或者是设置往往会带来十分紧张刺激的想法，毕竟从“快要来不及了”到“太惊险了，我们居然做到了”这样的时间倒数带来的紧张后释放的感觉确实美妙。\n\n### **游戏时对应的现实时间**\n\n即玩家在玩游戏时的现实时间。比如我从8点到10点一直在玩CS，包括我在菜单，我死亡，我复活，我等人这一系列时间都计算在内，主要是要取用玩游戏时的现实的物理时间用于参照，即游戏运行运转的时间。\n\n### **游戏内时间 - 暂停**\n\n即一般意义上的游戏时间。可以与暂停一起来理解。\n\n游戏作为时基媒体的一种，有一种十分特别的能力，它真的可以实现拉马丁式的诗歌愿想：“游戏将在暂停10s后重新开始。”\n\n这句话在200年前简直是不可理喻的，暂停多少时间成了可能。\n\n当我们按下暂停之后，“游戏内时间”就停止了，然后在停止了若干“游戏时对应的现实时间”后，游戏内时间再次运转起来。\n\n现实时间中没有所谓暂停，但是游戏中的暂停在外在时间的包裹下存有，但很多时候，每当游戏突然暂停，就好像看着的电影到精彩处突然就开始网络加载一样，我们会被逼迫着跳出世界之外：“天哪这好感人啊”到“这破烂宽带要换了”。\n\n当然游戏中的“暂停”的意涵不只是暂停游戏内时间，在回合制游戏中、P社游戏中、策略式的游戏中的决策环节，操作选择的环节都可以看做一种“暂停”。当然有些游戏为了推动节奏，比如炉石的烧绳子，依旧会设定一定对应的现实时间来作为限制。\n\n\n\n当然也有类似特别的《Transistor 晶体管》引入了战斗前的规划阶段，然后再执行操作，《Ronin》也是如此，动作回合制。\n\n而其中游戏UI和菜单的操作也是一种，现在特色的手机游戏各种系统化内容中就有很多这样的时间；比如《阴阳师》中的除了战斗部分的菜单、式神、抽卡部分，比如很多游戏中的一些非游戏的版块“加点部分”等等，这不同于前文“弥散的时间”，而是可以看作从游戏世界中的抽离出来的“菜单时间”。\n\n### **游戏的世界时间**\n\n因为实际上游戏中的世界时间是“虚假的”，例如如果玩家不踏入任务触发区域，那可能那个快要死掉期望临别前赠给玩家武器的勇士永远不会死去，哥谭市的坏蛋们总是会等游戏中的蝙蝠侠做完支线任务之后触发主线的时候才开始实施计划。\n\n这种世界时间的推进往往并不是真的对应于的“现实时间”或者“游戏内时间”的流逝（比如村民说好着急啊有强盗来了，但是很多时候你不去触发的话，他们永远不会来）而往往是由于事件的触发，任务的达成，挑战的通过来推进时间发展的，更像是一种游戏世界状态，或游戏剧情推进的时间。\n\n而剧情时间往往就会与现实时间或者游戏内时间发生冲突，带来一种十分“不真实”和出戏的地方。例如：我不往前走我身后的桥就不会塌；例如博士一直喊救命，但是我就一直不去他也不会怎么样；比如某人明明有妻女要挽救，时间紧迫依旧可以在牌局中忘我，诸如此类。\n\n所以我们切入游戏的方式就从这里开始。\n\n## **时间游戏**\n\n### **自我流逝的时间**\n\n——《Outer Wilds 星际拓荒》《Dead Rising》《Vision Soft Reset》\n\n先前曾经翻译过游戏设计师Pietro Righi Riva的**非传统可玩媒体宣言(nontraditional playable manifesto)** 游戏0x0060：rejecta 其中的第一条便是如下表述：\n\n*The game must flow like a river, time must exist beyond player’s action*\n\n*一个游戏应该如同河水般自如流动，时间的运转应该超越出玩家的行动*\n\n*a) Action must always happen in real time, the world’s time must never be frozen*\n\n*行为应总是发生在真实时间中，世界时间永不停止*\n\n*b) Events must exist that happen independently from players’ action*\n\n*事件应该独立存在且其发生独立于玩家的行动*\n\n*c) Reject all fail states, never wait for players’ input to progress all action*\n\n*抛弃所有的失败/停止状态，绝不等待玩家的输入来推进所有的行为*\n\n而游戏制作工具箱GMTK有一期专门讲时钟游戏（Clockwork Game）和时间循环（Timeloop），其中所说的Clockwork Game便是游戏的世界时间会自我流逝的游戏，无论玩家是否进行交互，游戏内的人物，世界总是会按照预设好的自我节奏向前发展。\n\nMarkBrown所举的例子便是《Outer Wilds 星际拓荒》和《Dead Rising》,以前者为例（我还没玩多少），游戏中的星球无论玩家是否到达都会变化，有些星球会瓦解成碎片，有些星球表面的尘埃会散去露出其中的通道，玩家重要的不仅仅再是到达什么地点，而何时到达也同等重要。\n\n\n\n而一旦一个游戏的时间会不断向前发展，那么随之而来的问题便是游戏的内容量要如何处理的问题，除开用系统的规则浮现式的处理方式，很多游戏使用的办法便是“无限循环”，例如《梅祖拉的假面》游戏中3天（大概6小时的现实时间），整个游戏世界便会重置；而《Outer Wilds》也是每22分钟，太阳吞没所有的行星，重新再来。\n\n### **永劫轮回 Time Loop**\n\n——《12 Minutes》《Minit》《The Sexy Brutal》《Elisonore》\n\n\n\n当内容不够的时候，将时间的发展扭成一个循环那么也是一种选择。在电影或者动漫作品中有不少，类似《土拨鼠之日》《凉宫春日的忧郁》这样的作&#x54C1;**，特点为首尾相互连接，形成闭环，主角往往被困在某一段时间之内，难以逃出某一个既定的结局**。\n\n就像MarkBrown在GMTK中所举例的作品：\n\n《The Sexy Brutal》当你在时间剧场看到了结局之后，要想办法在下一次循环中通过线索发现和道具交互来让结局有所不同，而《Elisonore》中你扮演父亲被杀的《哈姆雷特》中的奥菲利亚，试图通过各种选择来改变结局。\n\n而严格意义上的无限循环的作品是非常难制作的，一个可能在放出预告片后四年直到今天还在制作的《Twelve Minutes 十二分钟》或许可以说明一些问题，当希望把可能交互的空间尽可能扩展细化的时候就会带来分支状态变化的无限膨胀，而趣味性也成问题。\n\n不过也有像是《Minit》这样的作品，你六十秒后就会死亡，所以整个游戏的关卡，寻找捷径，找到下一个复活点就构造了这样的一个紧凑的作品。\n\n\n\n其中有一个成就满令人唏嘘的，就是你可以花费你一生（60s）听一位口吃的老人说完他的故事，我还保留着那张截图。\n\n### **时间是一条可来回线**\n\n——《Clocker 铸时匠》《Iron Danger魔铁危机》《Garden Between》《Time lie》\n\n\n\n类似《Garden Between 花园之间》这样精美的作品还有《Time lie》都有一根比较明显的时间轴可以进行调整进度的前后，同时通过在不同位置与不同与时间可以有互动关系的物件交互来解谜。\n\n而《Iron Danger魔铁危机》是前段时间出的一个颇为奇特的冒险动作类游戏，但当你做出了错误决策的时候你可以通过调整时间轴倒退到觉得合适的时间点来重新安排。相识的国人朋友早期的《Clocker 铸时匠》是一个颇为复杂的设定，场景中不同的物品与人物都有自己单独的时间轴，需要在其中寻找逻辑合理的排布来让剧情推进下去。\n\n因为自己制作过类似的原型，所以对于这样的作品颇为关注，但这类作品往往可能比较难做出除了机关交互的变化，需要通过一些不那么优雅的解谜方式来让时间轴可以正常运转下去，但大部分也逃不出下文提到的Braid的范畴。\n\n### **与现实时间同步的游戏时间**\n\n——《生命线Lifeline》《动物之森》Robert Yang、《The Longing 漫长等待》\n\n如果说游戏中有些自我流逝的时间创造出一个小游戏世界的感觉，那么那些与现实时间同步的游戏，那就可以说是试图于我们的生活世界创造出另一个平行前进相互关联的世界了。\n\n\n\n《生命线Lifeline》利用手机不离身的特性以及通知栏推送的方式，通过一种“游戏内时间”与“游戏时对应的现实时间”带来一种同步时间的真实感，在游戏中，你连线的伙伴泰勒说“等我走到远处飞船遗骸处再联系”之后后，你真的要等待15分钟的现实时间后他才会回复你。\n\n其实疫情期间破圈流行的《动物之森》也是如此，游戏自己有着一套运行的规则，而这个时间和现实运转是完全一致的。在这样同步的时间感条件下可以很容易地制造出一个对于游戏世界某种真实感和可信感的想象，类似《Bird Alone》这样的电子宠物也是如此，更容易创造出陪伴感。\n\n\n\n去年IGF获奖的《The Longing 漫长等待》将整个游戏的卖点放置在一本《扎拉图斯特拉》电子书以及400天的真实时间上的对照上也是颇为艺术化的实践。\n\n而例如在同性游戏大师Robert Yang的很多作品中都有类似的同步时间限制的设定，这种真实的时间的限制再次证明了其深得“欲罢不能”的精髓，甚至还会有详细的时间表，你在周三晚上某个时间点浴室就会出现某个特定的可互动的男生——如果他是你喜欢的类型的话，那你可就要准时打开游戏了。\n\n### **交互创造的时间**\n\n——《Time Locker》《Superhot 燥热》\n\n\n\n再者，一般来说“时间感”是默认与玩家现实时间一样捆绑运行的。\n\n但是在某些游戏中，“时间感”被独立了出来，被特殊地作为设计对象予以处理，于是便带来了一种十分惊艳独特的体验。\n\n将游戏内时间流动与玩家交互做了联结，时间的流速变成了关注的对象，当做了系统玩法的一部分。手机游戏《Time Locker》，将时间感的设计与游戏机制，心流理论都结合得非常到位，同样对于上文所提到的独立后的“时间感”与“游戏内时间”（在游戏内表现为黑潮），以及暂停对应的“现实时间”的概念理解都有非常大的帮助。\n\n而最有名气和帅气的《Super Hot 燥热》，在当时的7天FPS Game Jam游戏开发活动大赛中制作出来后，它的概念简单易懂并且令人兴奋，将子弹时间做这样的演绎，将战斗和粒子的场景的美感与决策结合在一起。\n\n拙作《El Hacedor 诗人，创作者》游戏0x0064：EI Hacedor 某些桥段也使用了类似的做法，并且用线条的自我交叉作为时空回返。而NExT Studios马上要推出的《Crown Trick不思议的皇冠》的即时回合制某种意义上也是一种被游戏玩家输入所推动的古老类型。\n\n### **时间连续地倒流**\n\n——《Braid 时空幻境》\n\n\n\n玩转时间的独立神作。\n\n很多我们日常游戏中的“重生/重来”（Retry）其实是一次剧情时间（事件发生先后）的突变性重置，但是《Braid》的巧妙之处在于利用了时间的“倒流”来让这种关卡的重置变得平滑，大大分离了游戏的“时间感”，不仅仅慢放，而是甚至将其倒流以达到剧情时间的倒流。再以此衍生出了许多让人拍案叫绝的关卡设计，开拓了一种全新而独特的时间感受。\n\n在这个意义上，一般游戏的复活如果说是返回一个过去的时间点的穿越，**而《Braid》之于游戏就更像是《信条 Tenet》之于电影的意义**，将时空返回这个主题做成线性的连续点的回返而非时间点的穿越。你是逐渐通过倒退回到过去，而不是直接在过去的一个时间点位置复活。\n\nJonathan Blow充分发挥其谜题设计的深度，通过不同多种的原型设计尝试，最后留下的每一个世界其实都是倒流时光谜题下的某一个变种，而游戏最后的桥段结合叙事的动力，比起《信条》来，我只能说过瘾太多了。\n\n### **多重平行宇宙**\n\n——《拒绝上班 (Does not Commute)》《Echoplex 回音倒影》《Super Time Force》《Quantum League》\n\n在时间上做重复的活动，多周目，多次复活尝试后创造出一个新的自我，这类游戏的设计太多以至于近乎被玩烂了。还有各种变种，例如录制某一部分的自己，然后通过踩头跳跃，或者是踩开关解谜来进行调整。\n\n手机上的游戏《拒绝上班 (Does not Commute)》就是一个俯视角的很好例子，在每一次时间回返之后，你都要避开自己过去的影子来在这个越来越拥挤的世界努力行驶到目标位置。\n\n\n\n而这类游戏通常有一个弊病就是如果处理不好，得到的结果就是混乱，以《Super Time Force》为例，它有一个非常优雅的机制，但是结果却很糟糕：\n\n玩家扮演一个角色，在一段时间内被要求通关。\n\n当玩家死亡的时候，玩家可以倒退时间，自由寻找已经过去的时间点中一个合适的时间点复活角色，然后这个复活不是简单的复活，而是创造另外一个样本，过去的玩家自己依旧会存在，并且在之前的死亡时间线上进行刚才玩家做过的事情，跳跃，射击，死亡。\n\n——然后如果玩家这个时候在他死亡之前击杀了之前的击杀自己的怪物，解救了上个时空中自己后，过去的自己就会停在原地，如果玩家去收集，那么就会和现在的自己合二为一，然后变为现在自己的第二滴HP（如果没有能解救，那么另一条时间线就依旧死亡）。\n\n\n\n结果的实际体验就是玩家不能以自己的节奏过关，也不是通过练习，而是通过累计错误去过关。借用IGN的说法：*混乱根深蒂固的存在于《超级时间力量》的血液之中，这与干脆利落地过关是相冲突地。*\n\n《Quantum League 量子联盟》是一个试图将平行宇宙引入多人对战FPS的一个尝试，我与另外一位杜克大学计算机系的天才朋友一起玩，发现大概在第三回合的时候我们的脑子就失去了运算能力。\n\n\n\n### **时间的拉伸与压缩**\n\n——《Passage》《One Hour One Life》《Killing Time at Light Speed》\n\n这类作品是很常见的，在各类Paradox Interactive的历史游戏，或者文明中，一回合就是百年。\n\n\n\n但从小的游戏上来看或许更有意思：《Passage》通过象征、符号、音乐、美术，表现出一种独特的“时间感”的混合，是对我影响最大的游戏，而作者Jason Rohrer的后来发售的《One Hour One Life》通过将一生的时间和进程以一种多人社会合作，语言交流的方式浓缩成一小时的游戏进程也同样是充满了力量。\n\n《Killing Time at Light Speed》则颇有《星际穿越》式的诗意，你坐在一艘以近光速飞行的宇宙飞船上，你可以刷新你的朋友圈，但是你每次刷新，你地球上的朋友实际上都过去了数月数年，这种时空的压缩带来的体验也非常独特。\n\n### **蒙太奇的时空转换**\n\n——《Gorogoa》《Virginia》《What Reminds of Edith Finch》\n\n\n\n《Virginia》在蒙太奇的电影镜头的使用上颇有自己的一套风格，《What Reminds of Edith Finch》在确切又虚幻的时间之流之间来回跳跃与切换，在各种超现实的场景中来回，勾勒出一个《百年孤独》似的家族的死亡与生长，我现在还能会想起那秋千上的时光。而《Gorogoa 画中世界》从漫画的媒介出发，其中的神兽就是时间的巨兽，从小对于神秘探寻直到垂老的主角在时光的回溯与切换中最终集齐了全部的果实，见证了终极。\n\n## **结语**\n\n怕是没有人像我这样写游戏推荐了，这类处理方式的游戏还有很多。比如《Her Story》中通过一种Remediation式的高位语境方式来对待这些游戏的材料；还有我还不敢挑战的“奇怪的游戏，唯一获胜的办法就是不去玩它”的《多元宇宙时间旅行的5D象棋》；非常有名气的《428被封锁的涩谷》等等，游戏在对于时间的处理上已经有过很多了，在形式上的花样私以为玩得比电影要溜得多。\n\n*从运行肌理来说，电影24帧所记录的时光是被雕刻在底片上的，固定不变并且在电影院以匀速传输至大屏幕上的、不能被修改。但是游戏的核心循环的60帧，是每一帧都在玩家的循环而时刻准备产出相应的结果的，是动态的、不断持续改变的。*\n\n游戏的时间对于每个人是私人的，是可以完全不同的。也是属于己的。\n\n卡林内斯库认为现代性便是来自两套价值观念不可调和的对立之中，这两套价值观分别对应 于资本主义文明客观化的、社会性可测量的时间以及个人的、主观的、想象性的绵延（durée），亦 即“自我”的展开所创造的私人时间。大概现代人难以再去理解那种过去的时间观了，就好像本尼迪克特所提及的，全世界现在就在媒体和互联网的连接下真真切切地共时性地“存在于”这个世界上，现代的资本主义发展带来的理性主义的时间与劳动力的交换让我们越来越",
+      "has_body": true,
+      "body_truncated": true,
+      "classic_discovery": true,
+      "key": "d6848109f82e6e54",
+      "title": "游戏设计中的时间",
+      "url": "https://docs.xpaidia.com/ficstruction/undo/timeingamedesign",
+      "lang": "zh",
       "tier": 1,
       "tier_weight": 18,
-      "undated": false,
+      "coverage": 1,
+      "sources": [
+        "叶梓涛 · 落日间"
+      ],
+      "published": null,
+      "undated": true,
+      "published_precision": null,
+      "summary_raw": "# 游戏设计中的时间 我感觉自己必须向后回溯，越过帕特农神庙的石马，回到我童年的木马。Paul Gauguin 本文写作于2020/09，发布于公众号，非学术文章，仅提供相关游戏的浏览 > 然而，只有在时间内部，\\ > 那玫瑰园中的一瞬，那凉亭下雨点急速拍打的一瞬， \\ > 那微风习习的教堂中烟雾降临的一瞬， \\ > 才能够被记起；交缠在过去和未来之间， \\ > 只有在时间之中，才能征服时间。 \\ > \\ > —— T·S Eliot ## **时间漫游** 在各个艺术形式中，关于时间的那部分是最令我着迷的。 与时间有关的艺术在六十年代忽然大规模地爆发出来：大地艺术，过程艺术，偶发艺术，激浪派，摄影和录像也被冠以 “ 时基媒体 ” 的大名：以时间为基础的媒体。到了新媒体网络化时期，时间在作品呈现的过程中更加必不可少。 在作品中表现时间，这是很多不同媒介不同形式的作品都尝试过的。意识流的小说暂且不论，杜尚的未来主义尝试，《下楼梯的裸女》在早期的各种作品中都尝试着捕捉时间在同一画面上的展示。 葛哈·李希特（Gerhard Richter）的摄影作品的某种奇特的虚幻感和布列松（Henri Cartier-Bresson），所寻找的“决定性瞬间”——寻找瞬间中美丽的偶然(en quête du bel hasard de l’instant “involontaire”)，并使得他可以到达",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "design",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "游戏设计中的时间",
+          "url": "https://docs.xpaidia.com/ficstruction/undo/timeingamedesign",
+          "source": "叶梓涛 · 落日间",
+          "lang": "zh",
+          "published": null
+        }
+      ],
       "score": 30,
       "score_parts": [
         {
@@ -988,19 +937,16 @@
           "value": 0
         }
       ],
-      "topic": "战斗设计",
+      "topic": "产品观察",
       "is_analysis": true,
-      "age_hours": 56981.07116677861,
+      "age_hours": null,
       "evergreen": true,
       "content_type": "经典阅读",
-      "body": "Welcome to the next article on a series dedicated to Combat Design! It all started with one article, but it quickly became apparent that this topic is way too wide and complex to be able to tackle it with a single one.\nThis series is the logical succession of the article Keys to Rational Enemy Design, so make sure you check it out.\nIn this series, we will talk about all the components that a designer needs to consider to produce a snappy, meaningful, rewarding, skill-based fight:\n- Pacing\n- Enemy AI and decision trees\n- Group AI\n- Player’s abilities and metrics\n- Player’s strategies\n- Difficulty management and rationalization\n- Hitboxes and Hurtboxes\n- …\n- And, of course, attacks, our topic of the day.\nWe are starting this series with this topic because attacks are the most core component of a fight. Dissecting what makes up an attack, both for the player and for the enemies the player is fighting will put in light the keys to a good fight: readability, fairness, skill, challenge, purpose…\nWe will talk about the different phases of an attack, about Windows of Opportunity (or WoO in short), about animation, about input lag… And, hopefully, you will have at the end of this article all the keys to challenge your own fight system and recognize the elements that make games like Hollow Knight or Nioh so good in that domain.\nBut before we start, it’s important to understand the scope of what we will discuss: by combat, we mean any real-time armed confrontation between the player and one or more enemies. Our study will then be independent of said weapons, being fists, melee weapons, or ranged weapons. Street Fighter, Punch-Out, For Honor, Assassin’s Creed, Hollow Knight, Cuphead, Mordhau, Dark Soul… Every one of these games confronts the player using globally the same design rules, and these are the ones we will break down today, starting with the enemy’s side of it.\nEnemy’s Attacks\nIn order to properly design an attack, we first need to understand what phases compose an attack. An enemy attack is on paper very straightforward, and always made of three distinct elements:\nThink of it as in real life: should you want to throw a kick, you will first start preparing your body for it, bending your body backward, and arming your leg. This is the anticipation. Then comes the attack, the very small part that is about hitting the opponent. Finally, once the attack finishes, your body will have to go to its final resting position (that could be the original one): this is the recovery.\nWell, attacks in video games work in the exact same way:\nOne reason is of course because our players, though playing in a fictional world, expect real-life constraints and forces to apply in it too: gravity, weight, anatomy, physiology… But we will come to that when talking about animation.\nAnother reason, and one that is particularly interesting for us game designers, is that these three phases are critical for the gameplay, each one of them in its own way. They are the base for players’ tactics to emerge and are carefully crafted to balance difficulty, challenge abilities, and drive playstyles.\nLet’s develop each of them using the player experience as the common thread of this article.\nKey #1: Every single attack should be broken down into 3 phases: Anticipation, Attack, and Recovery.\nAnticipation\nThe anticipation of an attack is, in essence, a Sign for the player that a specific attack is coming (see. Keys to Signs & Feedback). It’s a warning. It will drive the player to get away before the attack happens, block, dodge, or even push his luck and try hitting the enemy to interrupt the attack.\nFor the anticipation phase to fill its role properly, it must comply with a few rules:\n- The animation of each anticipation must be unique: no other attack from this enemy can have the same anticipation (except if you want to pull a twist on your players, who am I to judge). And by unique, I mean drastically different. Subtleties are lost in the heat of a fight, players won’t ever see that an enemy slightly changed its stance before starting a different attack, and it will ultimately lead to frustration.\n- The animation of each anticipation must hint at its follow-up attack: a player shouldn’t have to rely on memorization and trial and error to learn how to defeat an enemy. The animation, just like in real life, should follow logic (for example, bringing an ax behind your body before splitting a log in two). Record and study your players’ first encounter with your enemies. Even if they get hit by an attack, they should have seen it coming and started reacting accordingly.\nKey #2: an efficient Anticipation translates in a unique warning animation, telegraphing the incoming attack.\nCuphead is a beautiful reference to study. Their over-exaggerated animation style and the cartoon codes of the 1930s allowed them to really create the most legible combat animations I’ve seen in a game.\nI mean… Look at that anticipation!\nNow that we talked about animation unicity and continuity there is still one big point to discuss relative to the anticipation: timing. How long should this anticipation last? Or, in development terms: how many frames must the anticipation have? Well, unfortunately, there is no clear rule for that as it depends on two factors: what action do you expect the player to do (and how long does it take to do it)? And what is the extra margin you want to give them? Remember that acknowledging an incoming danger and reacting to it isn’t immediate for a human being (unfortunately).\nAs a rule of thumb, consider that the reaction time of a player will be 0.25 seconds (so around 8 frames in a 30fps game, and 15 frames in a 60fps one). Now let’s say you want the player to block a specific attack, and that the block will be efficient at the end of its animation, 10 frames after the press of the block button by the player. The minimum anticipation time will be 10+8= 18 frames! Of course, other variables could affect this number: the extra frames the weapon will need to reach the players based on their distance from the enemy, the input lag, etc. But you get the idea.\nThe difficulty of dodging/parrying/interrupting/blocking the attack will then crystallize in a single metric: how much of an extra buffer do you give your players on top of this minimum anticipation time? This part will be a constant fine-tuning between players and developers. Playtests are key.\nKey #3: Anticipation time = (player’s reaction time) + (expected player’s ability trigger time) + (difficulty buffer).\nAttack\nThe attack part is the most obvious for us to imagine as it mimics perfectly real-life scenarios. The enemy will try to use its weapon (a fist, a sword, a gun) to hit a vulnerable part of our player: usually its body. Easy enough.\nThat being said, there are a lot of subtleties that will make an attack feel good. What we are looking for here is a sharp, snappy feeling and not a sloppy unpredictable one.\nWhen designing an attack, you want it to be:\n- Instant\n- Unambiguous\n- With a clear intent\n- Precise\n- Driving a specific player’s reaction\nIt seems straight-forward enough and yet plenty of games miss the spot with these directions. Having an instant attack means that your animation must not be longer than a few frames from the end of the anticipation to the start of the recovery. This means you will probably have to bend the laws of physics slightly to exaggerate the movement. Of course, we can find plenty of examples of extremely slow, pressuring attacks but these do not change the goal we are trying to achieve: we want the player to be able to tell exactly when the attack will land. Any blurriness at that moment will result in a sloppy, frustrating attack.\nDriving a specific player’s reaction and being unambiguous means that you want your attack to be pretty stereotypical and its metrics to fit the player’s abilities. For example, you do not want a wavy, diagonal attack with varying speed. Instead, you will prefer a clean horizontal swipe with a constant speed.\nLook at that Yokai’s double attack from Nioh:\nRemember what I was saying about bending the laws of physics? The anticipation is slow and involves the entire Yokai’s body, showcasing the insane weight (and deadly power) of that ax. Considering the struggle to lift this weapon, there is no way the demon could swing it that fast. But at that specific moment, anatomy and realism do not matter. What matters is that his swing is instant and perfectly horizontal, allowing the player to precisely time his dodge under it.\nThe follow-up attack follows the same principles: perfectly vertical and happening in a blink. You will notice that this attack cannot hit a player that dodged the first hit (the Yokai doesn’t reorient mid-attack). It is used either as a Window of Opportunity (WoO) for the players to land their own counter-attack or a double punishment should a player get hit by the first blow.\nKey #4: an attack is instant, constant, and with a very small amount of varying parameters.\nSide note: look at the anticipation. It is unique, recognizable, and without subtleties. The downside I see is how close this ax rotation is from looking like an attack. Nioh actually deals with these issues (as they are common among their enemies) by adding a VFX to the weapon during the attack phase (i.e. the dangerous part). Weapon trails are very efficient Signs and support the learning and understanding of the attacks and patterns of enemies. Plenty of games use this trick, you could consider it too!\nKey #5: Adding a weapon trail VFX to all attacks, following the weapon and its hitbox, is a clean way to highlight its deadly part (and the VFX persistence will underline the attack direction).\nRecovery\nFinally, once an attack has been performed, comes the recovery. And let’s make it clear right away, the goal of this phase is extremely simple: give the player a clear Window of Opportunity. A window to hit back, to heal, to run away, to reload, to plan ",
-      "has_body": true,
-      "body_truncated": true,
-      "content_kind": "article_body",
       "section": "features",
-      "what": "文章提出攻击由预备、攻击、收招三阶段组成，并给出预备动画需独特且能提示后续攻击、预备时长按玩家反应时间与技能触发时间加难度缓冲计算、攻击阶段要瞬时且方向明确、收招阶段为玩家创造反击窗口等设计要点。",
-      "why": "作者以玩家体验为线索，结合Cuphead的夸张动画和Nioh妖怪斧击等案例，说明各阶段的设计规则与取舍，并强调需通过试玩调整预备时长。",
-      "for_you": "可研究：文中“预备时长=反应时间+技能触发时间+难度缓冲”的公式在具体项目中如何量化验证，以及武器拖尾特效对玩家识别攻击方向的实际作用。",
+      "title_cn": "游戏设计中的时间：从时间感到时间循环的机制分类",
+      "what": "作者梳理游戏中时间的多种处理方式，包括作为沉浸手段的时间感、被规定的限时机制、暂停与菜单时间、由事件触发而非真实流逝的世界时间，以及自我流逝、时间循环、时间轴回溯、与现实同步、交互驱动、倒流、平行宇宙、拉伸压缩和蒙太奇转换等类型，并列举对应作品。",
+      "why": "作者以艺术史和电影中的时间表现为参照，按时间与玩家行动、现实时间的关系对游戏分类，并结合具体作品分析各类型的机制取舍与体验问题，如循环结构带来的内容膨胀和混乱。",
+      "for_you": "可追问：把“世界时间是否独立于玩家行动”作为分类轴，能否解释限时机制与时间循环在玩家体验上的差异？",
       "degraded": null
     }
   ],
@@ -1011,9 +957,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "f4b1cb89ed010cd1",
-      "title": "battledrones v14: Compass Rose, a four player map",
-      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "key": "4c0a7fa15327fb8f",
+      "title": "Seam Cutter",
+      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -1021,10 +967,10 @@
       "sources": [
         "Simon Willison"
       ],
-      "published": "2026-10-24T03:59:57+00:00",
+      "published": "2026-10-25T15:10:19+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude Opus 5.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes. The new teams use ro",
+      "summary_raw": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example. Tags: tools",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "ai",
@@ -1038,14 +984,14 @@
       },
       "members": [
         {
-          "title": "battledrones v14: Compass Rose, a four player map",
-          "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+          "title": "Seam Cutter",
+          "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
           "source": "Simon Willison",
           "lang": "en",
-          "published": "2026-10-24T03:59:57+00:00"
+          "published": "2026-10-25T15:10:19+00:00"
         }
       ],
-      "score": 17,
+      "score": 22,
       "score_parts": [
         {
           "label": "来源",
@@ -1057,7 +1003,7 @@
         },
         {
           "label": "近期",
-          "value": 5
+          "value": 10
         },
         {
           "label": "分析与方法",
@@ -1070,15 +1016,15 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 25.072000111944444,
+      "age_hours": 13.953171194166666,
       "evergreen": false,
       "content_type": "新闻",
       "section": "ai",
-      "body": "24th October 2026\nI added four player online mode to Battledrones - previous maps were limited to two.\nHere's the initial prompt I used:\nAdd a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI)\nClaude Opus 5.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes.\nThe new teams use robots themed in purple and green, joining the existing blue and red designs. You can preview those colors in the updated model browser.\nHere's a replay link to watch a four way AI battle with the \"Goliath Armada\" mutator turned on, where each side starts with four giant Goliath mech units.\nRecent articles\n- Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice - 9th October 2026\n- Claude Haiku 5.5 - 7th October 2026",
+      "body": "25th October 2026\nI built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image.\nI wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example.\nRecent articles\n- Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice - 9th October 2026\n- Claude Haiku 5.5 - 7th October 2026",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "Battledrones v14：四人地图Compass Rose",
-      "what": "Simon Willison称，他为Battledrones新增四人线上模式，此前地图仅支持两人；他用提示词让Claude Opus 5.5生成四方旋转对称的新地图Compass Rose，并修改WebSocket多人网络代码以支持最多四名玩家通过分享链接或二维码加入，空位由AI补足。",
+      "title_cn": "Seam Cutter：可滑动拼接两侧的图片中段裁剪工具",
+      "what": "Simon Willison介绍了他开发的一款图片裁剪工具Seam Cutter：在图片上做水平或垂直切口，滑动两侧以裁掉中间一段。他称做这个工具是因为拼接截图后常需去掉中间无关内容，例如从转录截图中隐去无关提示。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -1086,8 +1032,8 @@
   ],
   "ai_features": [],
   "stats": {
-    "events": 163,
-    "news": 10,
+    "events": 171,
+    "news": 9,
     "features": 3,
     "ai": 1,
     "ai_features": 0,
