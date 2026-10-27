@@ -8,6 +8,7 @@ import render
 from ai_render import render_ai
 from market_render import render_action_market
 from global_market_render import render_global_market
+from indie_render import render_indie_market
 from source_directory import render_directory
 from source_registry import catalog
 
@@ -32,6 +33,9 @@ def main():
     (output / "index.html").write_text(render.render(digest, archive_dates=dates), encoding="utf-8")
     (output / "ai.html").write_text(render_ai(digest), encoding="utf-8")
     (output / "market.html").write_text(render_global_market(market), encoding="utf-8")
+    indie_path = ROOT / "data/indie_market.json"
+    indie = json.loads(indie_path.read_text(encoding="utf-8")) if indie_path.exists() else {}
+    (output / "indie.html").write_text(render_indie_market(indie), encoding="utf-8")
     (output / "market-action.html").write_text(render_action_market(), encoding="utf-8")
     feed.SITE = args.base_url.rstrip("/")
     (output / "feed.xml").write_text(feed.build(digest), encoding="utf-8")

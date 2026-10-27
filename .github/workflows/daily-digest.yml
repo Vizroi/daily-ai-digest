@@ -59,7 +59,7 @@ jobs:
       ((github.event_name == 'schedule' && github.event.schedule == '30 0 * * *') ||
        (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily'))
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 35
     permissions:
       contents: write
     steps:
@@ -103,6 +103,12 @@ jobs:
 
       - name: 更新 Steam 市场快照
         run: python src/global_market.py
+
+      - name: 更新小体量独立游戏榜单
+        run: python src/indie_market.py
+
+      - name: 渲染小游戏榜
+        run: python src/indie_render.py
 
       - name: 渲染 Steam 市场观察页
         run: python src/market_render.py
@@ -150,7 +156,7 @@ jobs:
       ((github.event_name == 'schedule' && github.event.schedule == '15 5,11,17,23 * * *') ||
        (github.event_name == 'workflow_dispatch' && inputs.mode == 'market'))
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     permissions:
       contents: write
     steps:
@@ -171,6 +177,12 @@ jobs:
       - name: 采集市场快照与历史
         run: python src/global_market.py
 
+      - name: 更新小体量独立游戏榜单
+        run: python src/indie_market.py
+
+      - name: 渲染小游戏榜
+        run: python src/indie_render.py
+
       - name: 更新市场观察页
         run: python src/market_render.py
 
@@ -178,7 +190,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/global_market.json data/global_market_history.json docs/market.html docs/market-action.html
+          git add data/global_market.json data/global_market_history.json data/indie_market.json docs/market.html docs/market-action.html docs/indie.html
           if ! git diff --staged --quiet; then
             git commit -m "market: $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase origin main
