@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27T05:21:49.983323+00:00",
+  "checked_at": "2026-10-28T06:00:31.524546+00:00",
   "sources": [
     {
       "id": "youtube-gmtk",
@@ -26,7 +26,7 @@
       "url": "https://www.youtube.com/@sora_sakurai_en",
       "state": "degraded",
       "count": 4,
-      "detail": "公开入口返回 HTTP 500；使用公开频道页标题候选，精确发布日期未知，未获取字幕"
+      "detail": "公开入口返回 HTTP 404；使用公开频道页标题候选，精确发布日期未知，未获取字幕"
     },
     {
       "id": "website-tencent-institute",
@@ -223,8 +223,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 3,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 3 条候选"
+      "count": 9,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 9 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 10,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 10 条候选"
+      "count": 15,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 15 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -258,9 +258,9 @@
       "name": "Unity",
       "platform": "网站 / RSS",
       "url": "https://unity.com/blog/rss",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 0 条候选"
+      "state": "ok",
+      "count": 7,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 7 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -268,8 +268,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/rss.xml",
       "state": "ok",
-      "count": 18,
-      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 18 条候选"
+      "count": 20,
+      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-be9919cef9",
@@ -286,8 +286,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 4,
-      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 4 条候选"
+      "count": 6,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 6 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -295,8 +295,8 @@
       "platform": "网站 / RSS",
       "url": "https://danfelder.net/feed/",
       "state": "ok",
-      "count": 5,
-      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 5 条候选"
+      "count": 4,
+      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 4 条候选"
     },
     {
       "id": "web-e9d4bd9534",
@@ -314,7 +314,7 @@
       "url": "https://openai.com/news/rss.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 1325 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 1331 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-0ea3c11e0b",
@@ -322,8 +322,8 @@
       "platform": "网站 / RSS",
       "url": "https://deepmind.google/blog/rss.xml",
       "state": "ok",
-      "count": 9,
-      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 9 条候选"
+      "count": 10,
+      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 10 条候选"
     },
     {
       "id": "web-33e649875b",
@@ -332,7 +332,7 @@
       "url": "https://huggingface.co/blog/feed.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 890 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 891 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-d1c587ecba",
@@ -376,8 +376,8 @@
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-news/",
       "state": "ok",
-      "count": 4,
-      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 4 条候选"
+      "count": 6,
+      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 6 条候选"
     },
     {
       "id": "manual-inbox",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 190,
-    "deduplicated": 189,
-    "retained": 189,
+    "raw": 214,
+    "deduplicated": 213,
+    "retained": 213,
     "restricted_withheld": 0
   }
 }
