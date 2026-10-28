@@ -188,6 +188,20 @@ jobs:
       - name: 记录独立游戏新发现与最近发售
         run: python src/indie_discovery.py
 
+      - name: 检查独立游戏首次发布数据
+        if: inputs.mode == 'indie'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("data/indie_discovery.json").read_text())
+          fresh = lambda key: sum(g.get("metadata_status") == "fresh" for g in data.get(key, []))
+          counts = {key: fresh(key) for key in ("upcoming_games", "release_games")}
+          print("Verified samples:", counts)
+          if not all(counts.values()):
+              raise SystemExit("Fresh upcoming and released samples required before indie publication")
+          PY
+
       - name: 渲染小游戏四个独立页面
         run: python src/indie_render.py
 
