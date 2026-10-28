@@ -15,7 +15,7 @@ on:
         description: 更新内容
         type: choice
         default: daily
-        options: [daily, market, sources, publish]
+        options: [daily, market, indie, sources, publish]
 
 permissions: {}
 
@@ -107,7 +107,10 @@ jobs:
       - name: 更新小体量独立游戏榜单
         run: python src/indie_market.py
 
-      - name: 渲染小游戏榜
+      - name: 记录独立游戏新发现与最近发售
+        run: python src/indie_discovery.py
+
+      - name: 渲染小游戏四个独立页面
         run: python src/indie_render.py
 
       - name: 渲染 Steam 市场观察页
@@ -154,7 +157,7 @@ jobs:
     if: >-
       github.ref == 'refs/heads/main' &&
       ((github.event_name == 'schedule' && github.event.schedule == '15 5,11,17,23 * * *') ||
-       (github.event_name == 'workflow_dispatch' && inputs.mode == 'market'))
+       (github.event_name == 'workflow_dispatch' && (inputs.mode == 'market' || inputs.mode == 'indie')))
     runs-on: ubuntu-latest
     timeout-minutes: 25
     permissions:
@@ -175,12 +178,17 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: 采集市场快照与历史
+        if: inputs.mode != 'indie'
         run: python src/global_market.py
 
       - name: 更新小体量独立游戏榜单
+        if: inputs.mode != 'indie'
         run: python src/indie_market.py
 
-      - name: 渲染小游戏榜
+      - name: 记录独立游戏新发现与最近发售
+        run: python src/indie_discovery.py
+
+      - name: 渲染小游戏四个独立页面
         run: python src/indie_render.py
 
       - name: 更新市场观察页
@@ -190,7 +198,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/global_market.json data/global_market_history.json data/indie_market.json docs/market.html docs/market-action.html docs/indie.html
+          git add data/global_market.json data/global_market_history.json data/indie_market.json data/indie_discovery.json docs/market.html docs/market-action.html docs/indie.html docs/indie-releases.html docs/indie-ratings.html docs/indie-online.html
           if ! git diff --staged --quiet; then
             git commit -m "market: $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase origin main

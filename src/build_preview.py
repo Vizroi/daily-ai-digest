@@ -35,7 +35,15 @@ def main():
     (output / "market.html").write_text(render_global_market(market), encoding="utf-8")
     indie_path = ROOT / "data/indie_market.json"
     indie = json.loads(indie_path.read_text(encoding="utf-8")) if indie_path.exists() else {}
-    (output / "indie.html").write_text(render_indie_market(indie), encoding="utf-8")
+    discovery_path = ROOT / "data/indie_discovery.json"
+    discovery = json.loads(discovery_path.read_text(encoding="utf-8")) if discovery_path.exists() else {}
+    for filename, page in (
+        ("indie.html", "upcoming"),
+        ("indie-releases.html", "releases"),
+        ("indie-ratings.html", "ratings"),
+        ("indie-online.html", "online"),
+    ):
+        (output / filename).write_text(render_indie_market(indie, discovery, page=page), encoding="utf-8")
     (output / "market-action.html").write_text(render_action_market(), encoding="utf-8")
     feed.SITE = args.base_url.rstrip("/")
     (output / "feed.xml").write_text(feed.build(digest), encoding="utf-8")

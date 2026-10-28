@@ -1,16 +1,25 @@
-"""Render measured Steam indie rankings with explicit time and sample scope."""
+"""Four focused Steam indie pages: discovery, releases, ratings and online players."""
 from __future__ import annotations
 
 import argparse
+from datetime import date, datetime, timedelta, timezone
 from html import escape
 import json
+import math
 from pathlib import Path
 from urllib.parse import urlparse
 
 from site_navigation import SITE_NAV_CSS, render_site_navigation
 
 ROOT = Path(__file__).resolve().parents[1]
+TZ = timezone(timedelta(hours=8))
 PERIODS = (1, 7, 30)
+PAGES = {
+    "upcoming": ("indie.html", "新上架 · 待发售"),
+    "releases": ("indie-releases.html", "最近已发售"),
+    "ratings": ("indie-ratings.html", "好评率"),
+    "online": ("indie-online.html", "在线人数"),
+}
 PLAY_STYLES = {
     "休闲": {"Casual", "Relaxing", "Cozy"},
     "解谜": {"Puzzle", "Logic", "Sokoban"},
@@ -25,8 +34,12 @@ def esc(value):
     return escape(str(value if value is not None else ""), quote=True)
 
 
+def numeric(value):
+    return isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value) and value >= 0
+
+
 def number(value, decimal=False):
-    if not isinstance(value, (int, float)) or isinstance(value, bool):
+    if not numeric(value):
         return "—"
     return f"{value:,.1f}" if decimal else f"{value:,.0f}"
 
@@ -43,8 +56,16 @@ def timestamp(value):
     return str(value or "尚未取得").replace("T", " ").replace("+08:00", "")[:19]
 
 
-def numeric(value):
-    return isinstance(value, (int, float)) and not isinstance(value, bool) and value >= 0
+def day(value):
+    try:
+        if "T" in str(value):
+            parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+            if parsed.tzinfo is None:
+                return None
+            return parsed.astimezone(TZ).date().isoformat()
+        return date.fromisoformat(str(value)).isoformat()
+    except (ValueError, TypeError):
+        return None
 
 
 def model_game(game):
@@ -52,8 +73,7 @@ def model_game(game):
     for days in PERIODS:
         item = (game.get("review_windows") or {}).get(str(days), {})
         fresh = item.get("status") == "fresh"
-        count = item.get("count")
-        rate = item.get("positive_percent")
+        count, rate = item.get("count"), item.get("positive_percent")
         windows[str(days)] = {
             "count": count if fresh and numeric(count) else None,
             "rate": rate if fresh and numeric(rate) and rate <= 100 else None,
@@ -64,31 +84,46 @@ def model_game(game):
         "appid": game["appid"], "name": str(game.get("name") or game["appid"]),
         "tags": [str(t) for t in game.get("tags", [])], "windows": windows,
         "players": game.get("current_players") if game.get("players_status") == "fresh" and numeric(game.get("current_players")) else None,
-        "rank": game.get("indie_top_sellers_rank") if game.get("indie_top_sellers_status") == "fresh" and numeric(game.get("indie_top_sellers_rank")) and game["indie_top_sellers_rank"] > 0 else None,
-        "players_at": game.get("players_observed_at"), "rank_at": game.get("indie_top_sellers_observed_at"),
+        "players_at": game.get("players_observed_at"),
+        "release_date": day(game.get("release_date")),
+        "release_date_status": game.get("release_date_status"),
+        "metadata_fresh": game.get("metadata_status") == "fresh",
+        "coming_soon": bool(game.get("coming_soon")),
+        "first_seen_at": game.get("first_seen_at"),
+        "first_seen_date": day(game.get("first_seen_at")),
+        "listing_basis": game.get("listing_basis"),
     }
 
 
-def metric_value(game, metric, days):
-    if metric in {"players", "rank"}:
-        return game.get(metric)
-    window = game["windows"][str(days)]
-    if metric == "rate":
-        return window["rate"] if window["count"] is not None and window["count"] >= 20 else None
-    return window["count"]
+def in_window(value, days, today):
+    valid = day(value)
+    return bool(valid and today - timedelta(days=days - 1) <= date.fromisoformat(valid) <= today)
 
 
-def rank_games(games, metric="count", days=7, query="", style=""):
+def select_games(games, page, days=7, query="", style="", today=None):
+    today = today or datetime.now(TZ).date()
     selected = []
     for game in games:
         if query.casefold() not in (game["name"] + " " + " ".join(game["tags"])).casefold():
             continue
         if style and not (set(game["tags"]) & PLAY_STYLES.get(style, set())):
             continue
-        value = metric_value(game, metric, days)
-        if value is not None:
+        if page == "upcoming":
+            valid = game["metadata_fresh"] and game["coming_soon"] and game["listing_basis"] == "first_observed" and in_window(game["first_seen_date"], days, today)
+        elif page == "releases":
+            valid = game["metadata_fresh"] and not game["coming_soon"] and game["release_date_status"] != "first_release_unverified" and in_window(game["release_date"], days, today)
+        elif page == "ratings":
+            window = game["windows"][str(days)]
+            valid = window["count"] is not None and window["count"] >= 20 and window["rate"] is not None
+        else:
+            valid = game["players"] is not None
+        if valid:
             selected.append(game)
-    return sorted(selected, key=lambda g: (metric_value(g, metric, days) if metric == "rank" else -metric_value(g, metric, days), g["appid"]))
+    if page in {"upcoming", "releases"}:
+        key = "first_seen_at" if page == "upcoming" else "release_date"
+        return sorted(selected, key=lambda g: (g[key] or "", -g["appid"]), reverse=True)
+    key = (lambda g: (-g["windows"][str(days)]["rate"], -g["windows"][str(days)]["count"], g["appid"])) if page == "ratings" else (lambda g: (-g["players"], g["appid"]))
+    return sorted(selected, key=key)
 
 
 CSS = r'''
@@ -98,47 +133,65 @@ CSS = r'''
 @media(max-width:360px){.rank-row{grid-template-columns:20px repeat(4,minmax(0,1fr));gap:10px 5px}.stat dd{font-size:17px}.metrics{gap:5px}.metrics button{font-size:11px;padding:7px 8px}.game{grid-template-columns:75px minmax(0,1fr)}.cover{width:75px}}
 '''
 
+CSS += r'''
+.subnav{display:flex;gap:25px;flex-wrap:wrap;margin:0 0 22px;border-bottom:1px solid var(--line)}.subnav a{padding:9px 0 12px;text-decoration:none;color:var(--soft);border-bottom:3px solid transparent;font-size:13px}.subnav a[aria-current]{color:var(--sage);border-color:var(--sage);font-weight:bold}.rank-row{grid-template-columns:32px minmax(240px,1fr) minmax(160px,.45fr)}.rank-row.stats2{grid-template-columns:32px minmax(240px,1fr) repeat(2,minmax(120px,.35fr))}.stat dd.date-value{font-size:17px}.baseline{margin-top:27px;border-top:1px solid var(--line);padding-top:15px}.baseline>summary{cursor:pointer;font-family:var(--serif);font-size:21px;font-weight:bold}.baseline-note{font-size:12px;color:var(--soft);margin:10px 0 6px}.baseline .rank-row{opacity:.9}.status-note{margin-top:10px;color:var(--rust);font-size:11px}.toolbar-top>p{font-size:12px;color:var(--soft)}
+@media(max-width:760px){.subnav{gap:14px 20px}.subnav a{font-size:12px}.rank-row,.rank-row.stats2{grid-template-columns:24px repeat(2,minmax(0,1fr))}.game{grid-column:2/-1}.stat:nth-of-type(1){grid-column:2}.stat:nth-of-type(2){grid-column:3}.stat dd.date-value{font-size:16px}.baseline>summary{font-size:19px}.brief{align-items:start}.brief a{white-space:normal}}
+'''
 
 SCRIPT = r'''
 (() => {
  const data=JSON.parse(document.getElementById('ranking-data').textContent);
- const games=data.games, styles=data.styles, list=document.getElementById('rank-list');
+ const games=data.games, styles=data.styles, page=data.page, list=document.getElementById('rank-list');
  const rows=new Map([...list.children].map(row=>[Number(row.dataset.appid),row]));
  const params=new URLSearchParams(location.search);
- let metric=['count','rate','players','rank'].includes(params.get('metric'))?params.get('metric'):'count';
  let days=['1','7','30'].includes(params.get('days'))?params.get('days'):'7';
- const query=document.getElementById('game-search'), style=document.getElementById('play-style');
- const labels={count:'新增评价排行',rate:'期间好评率排行',players:'当前在线排行',rank:'独立热销顺位'};
- function value(g){const w=g.windows[days];return metric==='count'?w.count:metric==='rate'?(w.count!==null&&w.count>=20?w.rate:null):g[metric];}
+ const query=document.getElementById('game-search'),style=document.getElementById('play-style');
  const fmt=n=>n===null?'—':Number(n).toLocaleString('zh-CN');
- function apply(){
-  const snapshot=metric==='players'||metric==='rank';
-  const matching=games.filter(g=>(g.name+' '+g.tags.join(' ')).toLowerCase().includes(query.value.trim().toLowerCase())&&(!style.value||g.tags.some(t=>styles[style.value].includes(t))));
-  const valid=matching.filter(g=>value(g)!==null).sort((a,b)=>(metric==='rank'?value(a)-value(b):value(b)-value(a))||a.appid-b.appid);
-  rows.forEach(row=>row.hidden=true);
-  valid.forEach((g,index)=>{
-   const row=rows.get(g.appid),w=g.windows[days];row.hidden=false;list.append(row);
-   row.querySelector('.position').textContent=String(index+1).padStart(2,'0');
-   row.querySelector('[data-value=count]').textContent=fmt(w.count);
-   row.querySelector('[data-value=rate]').textContent=w.rate===null?'—':w.rate.toFixed(1)+'%';
-   row.querySelector('[data-label=count]').textContent='近 '+days+' 天评价';
-   row.querySelector('[data-label=rate]').textContent='近 '+days+' 天好评率';
-   row.querySelectorAll('[data-stat]').forEach(s=>s.classList.toggle('selected',s.dataset.stat===metric));
-   row.querySelector('[data-stat=count]').title=w.sampled_at?'采集时间：'+w.sampled_at:'数据未取得';
-   row.querySelector('[data-stat=rate]').title=w.sampled_at?'采集时间：'+w.sampled_at:'数据未取得';
-  });
-  document.querySelectorAll('[data-metric]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.metric===metric)));
-  document.querySelectorAll('[data-days]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.days===days));b.disabled=snapshot;});
-  document.getElementById('ranking-title').textContent=(snapshot?'当前':'近 '+days+' 天')+' · '+labels[metric];
-  document.getElementById('result-count').textContent=valid.length+' 款参与排名 / '+matching.length+' 款符合筛选';
-  document.getElementById('empty-state').hidden=valid.length>0;
-  document.getElementById('period-note').textContent=snapshot?(metric==='rank'?'美国区 Indie 搜索热销入口的原始顺位；只比较已取得本轮顺位的候选，时间按钮不适用于这一快照。':'采集时同时在线的人数，不含离线游玩；时间按钮不适用于这一快照。'):'从采集时点向前 '+days+' × 24 小时，按评论创建时间统计。'+(metric==='rate'?'仅至少 20 条评价的作品参与好评率排名。':'评价量反映讨论活跃度，不等于售出份数或下载次数。');
-  const pending=matching.filter(g=>value(g)===null);const waiting=document.getElementById('waiting');waiting.hidden=!pending.length;
-  document.getElementById('waiting-title').textContent=pending.length+' 款未参与当前排名（数据未取得、旧值或未达到评价门槛）';
-  const pendingList=document.getElementById('waiting-games');pendingList.replaceChildren();pending.forEach(g=>{const li=document.createElement('li'),a=document.createElement('a');a.href='https://store.steampowered.com/app/'+g.appid+'/';a.textContent=g.name;a.target='_blank';a.rel='noopener noreferrer';li.append(a);pendingList.append(li);});
-  const url=new URL(location.href);url.searchParams.set('days',days);url.searchParams.set('metric',metric);try{history.replaceState(null,'',url.pathname+url.search+url.hash);}catch(_){}
+ function inWindow(date){return date!==null&&date>=data.cutoffs[days]&&date<=data.today;}
+ function eligible(g){
+  if(page==='upcoming')return g.metadata_fresh&&g.coming_soon&&g.listing_basis==='first_observed'&&inWindow(g.first_seen_date);
+  if(page==='releases')return g.metadata_fresh&&!g.coming_soon&&g.release_date_status!=='first_release_unverified'&&inWindow(g.release_date);
+  if(page==='ratings'){const w=g.windows[days];return w.count!==null&&w.count>=20&&w.rate!==null;}
+  return g.players!==null;
  }
- document.querySelectorAll('[data-metric]').forEach(b=>b.addEventListener('click',()=>{metric=b.dataset.metric;apply();}));
+ function compare(a,b){
+  if(page==='upcoming')return String(b.first_seen_at).localeCompare(String(a.first_seen_at))||a.appid-b.appid;
+  if(page==='releases')return b.release_date.localeCompare(a.release_date)||a.appid-b.appid;
+  if(page==='ratings')return b.windows[days].rate-a.windows[days].rate||b.windows[days].count-a.windows[days].count||a.appid-b.appid;
+  return b.players-a.players||a.appid-b.appid;
+ }
+ function apply(){
+  const matching=games.filter(g=>(g.name+' '+g.tags.join(' ')).toLowerCase().includes(query.value.trim().toLowerCase())&&(!style.value||g.tags.some(t=>styles[style.value].includes(t))));
+  if(page==='upcoming'){
+   const baseline=matching.filter(g=>g.metadata_fresh&&g.coming_soon&&g.listing_basis==='baseline');
+   const pool=document.getElementById('baseline');
+   if(pool){const visible=new Set(baseline.map(g=>g.appid));pool.querySelectorAll('[data-appid]').forEach(r=>r.hidden=!visible.has(Number(r.dataset.appid)));document.getElementById('baseline-title').textContent='已建立观察池 · '+baseline.length+' 款符合筛选的基线作品';document.getElementById('baseline-empty').hidden=baseline.length>0;}
+  }
+  const selected=matching.filter(eligible).sort(compare);
+  rows.forEach(row=>row.hidden=true);
+  selected.forEach((g,index)=>{
+   const row=rows.get(g.appid);row.hidden=false;list.append(row);row.querySelector('.position').textContent=String(index+1).padStart(2,'0');
+   if(page==='ratings'){
+    const w=g.windows[days];row.querySelector('[data-value=count]').textContent=fmt(w.count);
+    row.querySelector('[data-value=rate]').textContent=w.rate.toFixed(1)+'%';
+    row.querySelector('[data-label=count]').textContent='近 '+days+' 天评价';row.querySelector('[data-label=rate]').textContent='近 '+days+' 天好评率';
+    row.querySelectorAll('[data-stat]').forEach(s=>s.title=w.sampled_at?'采集时间：'+w.sampled_at:'尚未取得');
+   }
+  });
+  document.querySelectorAll('[data-days]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.days===days)));
+  const titles={upcoming:'首次发现的待发售游戏',releases:'发售游戏',ratings:'好评率排行',online:'当前在线排行'};
+  document.getElementById('ranking-title').textContent=(page==='online'?'':'近 '+days+' 天 · ')+titles[page];
+  document.getElementById('result-count').textContent=selected.length+' 款符合当前条件';
+  document.getElementById('empty-state').hidden=selected.length>0;
+  const note=page==='upcoming'?'按本站首次发现日期筛选（北京时间，截至本期采集日的 '+days+' 个自然日）。初次建池作品不计入新增。':page==='releases'?'按 Steam 发售日期筛选（北京时间，截至本期采集日的 '+days+' 个自然日），发售日期由近到远排列。':page==='ratings'?'统计采集时点向前 '+days+' × 24 小时的评价；至少 20 条评价参与排名，同好评率时评价较多者在前。':'按最近成功采样时的同时在线人数排序；不含离线游玩，不代表下载量。';
+  document.getElementById('period-note').textContent=note;
+  if(page==='ratings'||page==='online'){
+   const pending=matching.filter(g=>!eligible(g)),waiting=document.getElementById('waiting');waiting.hidden=!pending.length;
+   document.getElementById('waiting-title').textContent=pending.length+' 款未参与当前排名（未取得新数据或未达到评价门槛）';
+   const pendingList=document.getElementById('waiting-games');pendingList.replaceChildren();pending.forEach(g=>{const li=document.createElement('li'),a=document.createElement('a');a.href='https://store.steampowered.com/app/'+g.appid+'/';a.textContent=g.name;a.target='_blank';a.rel='noopener noreferrer';li.append(a);pendingList.append(li);});
+  }
+  const url=new URL(location.href);url.searchParams.delete('metric');if(page!=='online')url.searchParams.set('days',days);else url.searchParams.delete('days');try{history.replaceState(null,'',url.pathname+url.search+url.hash);}catch(_){}
+ }
  document.querySelectorAll('[data-days]').forEach(b=>b.addEventListener('click',()=>{days=b.dataset.days;apply();}));
  query.addEventListener('input',apply);style.addEventListener('change',apply);
  document.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.style.visibility='hidden';}));
@@ -147,60 +200,113 @@ SCRIPT = r'''
 '''
 
 
-def render_row(game, model, position=None):
-    appid = int(game["appid"])
-    image = safe_url(game.get("header_image"))
+def render_row(game, model, page, position=None, baseline=False):
+    appid = int(game['appid'])
+    image = safe_url(game.get('header_image'))
     cover = f'<img class="cover" src="{esc(image)}" alt="" width="460" height="215" loading="lazy">' if image else '<div class="cover" aria-hidden="true"></div>'
-    window = model["windows"]["7"]
-    price = game.get("price", {})
-    price = price.get("formatted", "价格未取得") if isinstance(price, dict) else "价格未取得"
-    global_rank = game.get("top_sellers_rank") if game.get("top_sellers_status") == "fresh" else None
-    global_note = f' · 全球热销 #{number(global_rank)}' if numeric(global_rank) and global_rank > 0 else ''
+    price = game.get('price', {})
+    price = price.get('formatted', '价格未公布') if isinstance(price, dict) else '价格未公布'
+    label = game.get('release_label') or game.get('release_date') or '发售时间待定'
+    details = []
+    if page == 'ratings':
+        w = model['windows']['7']
+        details = [('rate', '近 7 天好评率', number(w['rate'], True) + '%' if w['rate'] is not None else '—', w['sampled_at'], '期间评价', True),
+                   ('count', '近 7 天评价', number(w['count']), w['sampled_at'], '条 · 至少 20 条入榜', False)]
+    elif page == 'online':
+        details = [('players', '当前在线', number(model['players']), model['players_at'], '人 · 采集快照', True)]
+    elif page == 'releases':
+        details = [('released', 'Steam 发售日期', model['release_date'] or '待核实', None, '北京时间日期', True)]
+    elif baseline:
+        details = [('baseline', '预计发售', str(label), None, '观察池基线 · 非本期新增', False)]
+    else:
+        details = [('discovered', '本站首次发现', model['first_seen_date'] or '尚未记录', model['first_seen_at'], '观察日期 · 非官方上架日', True)]
     stats = []
-    for key, label, value, at, suffix in (
-        ("count", "近 7 天评价", window["count"], window["sampled_at"], "条"),
-        ("rate", "近 7 天好评率", window["rate"], window["sampled_at"], "期间评价"),
-        ("players", "当前在线", model["players"], model["players_at"], "人 · 采集快照"),
-        ("rank", "独立热销顺位", model["rank"], model["rank_at"], "美国区 · 原榜位次"),
-    ):
-        shown = (number(value, True) + "%") if key == "rate" and value is not None else ("#" + number(value)) if key == "rank" and value is not None else number(value)
-        stats.append(f'<dl class="stat{" selected" if key == "count" else ""}" data-stat="{key}" title="采集时间：{esc(timestamp(at))}"><dt data-label="{key}">{label}</dt><dd data-value="{key}">{shown}</dd><small>{suffix}</small></dl>')
-    return (
-        f'<li class="rank-row" data-appid="{appid}"' + ('' if position else ' hidden') + f'><span class="position">{str(position).zfill(2) if position else "—"}</span>'
-        f'<div class="game">{cover}<div><h3><a href="https://store.steampowered.com/app/{appid}/" target="_blank" rel="noopener noreferrer">{esc(model["name"])}</a></h3>'
-        f'<p class="meta">{esc(price)} · 美区价格<br>{esc(game.get("release_date") or "发售日期未取得")}{esc(global_note)}</p><p class="tags">{esc(" / ".join(model["tags"][:3]))}</p></div></div>' + ''.join(stats) + '</li>'
-    )
+    for key, title, value, at, suffix, selected in details:
+        stats.append(f'<dl class="stat{" selected" if selected else ""}" data-stat="{key}" title="{esc("采集 / 观察时间：" + timestamp(at) if at else title)}"><dt data-label="{key}">{title}</dt><dd class="{"date-value" if page in {"upcoming", "releases"} else ""}" data-value="{key}">{esc(value)}</dd><small>{suffix}</small></dl>')
+    release_text = f'预计发售：{label}' if page == 'upcoming' else f'发售：{game.get("release_date") or "未取得"}'
+    return (f'<li class="rank-row{" stats2" if page == "ratings" else ""}" data-appid="{appid}"' + ('' if position or baseline else ' hidden') + f'><span class="position">{str(position).zfill(2) if position else "—"}</span>'
+            f'<div class="game">{cover}<div><h3><a href="https://store.steampowered.com/app/{appid}/" target="_blank" rel="noopener noreferrer">{esc(model["name"])}</a></h3>'
+            f'<p class="meta">{esc(price)} · 美区价格<br>{esc(release_text)}</p><p class="tags">{esc(" / ".join(model["tags"][:3]))}</p></div></div>' + ''.join(stats) + '</li>')
 
 
-def render_indie_market(data):
-    games = [g for g in data.get("games", []) if isinstance(g, dict) and isinstance(g.get("appid"), int) and not isinstance(g.get("appid"), bool) and g["appid"] > 0]
+def valid_games(raw):
+    return list({g['appid']: g for g in raw if isinstance(g, dict) and isinstance(g.get('appid'), int) and not isinstance(g.get('appid'), bool) and g['appid'] > 0}.values())
+
+
+def render_indie_market(data, discovery=None, page='upcoming'):
+    if page not in PAGES:
+        raise ValueError('Unknown indie page')
+    discovery = discovery or {}
+    source_data = discovery if page in {'upcoming', 'releases'} else data
+    key = 'upcoming_games' if page == 'upcoming' else 'release_games' if page == 'releases' else 'games'
+    games = valid_games(source_data.get(key, []))
     models = [model_game(g) for g in games]
-    by_id = {g["appid"]: g for g in games}
-    ranked = rank_games(models)
-    positions = {g["appid"]: i + 1 for i, g in enumerate(ranked)}
-    ordered = ranked + [g for g in models if g["appid"] not in positions]
-    rows = ''.join(render_row(by_id[g["appid"]], g, positions.get(g["appid"])) for g in ordered)
-    payload = json.dumps({"games": models, "styles": {k: sorted(v) for k, v in PLAY_STYLES.items()}}, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
-    scope = data.get("scope_note") or "Indie 标签 + 适合紧凑玩法的标签 + 美区原价不高于 25 美元；这是候选筛选，不代表已核验开发团队规模与制作预算。"
-    methodology = data.get("methodology") or []
+    by_id = {g['appid']: g for g in games}
+    anchor = day(source_data.get('generated_at'))
+    today = date.fromisoformat(anchor) if anchor else datetime.now(TZ).date()
+    selected = select_games(models, page, today=today)
+    positions = {g['appid']: i + 1 for i, g in enumerate(selected)}
+    ordered = selected + [g for g in models if g['appid'] not in positions]
+    rows = ''.join(render_row(by_id[g['appid']], g, page, positions.get(g['appid'])) for g in ordered)
+    payload = json.dumps({'games': models, 'styles': {k: sorted(v) for k, v in PLAY_STYLES.items()}, 'page': page, 'today': today.isoformat(), 'cutoffs': {str(n): (today-timedelta(days=n-1)).isoformat() for n in PERIODS}}, ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
+    title = PAGES[page][1]
+    descriptions = {
+        'upcoming': '关注刚进入观察范围、尚未发售的独立游戏。',
+        'releases': '按发售时间寻找近期已经推出的独立游戏。',
+        'ratings': '比较近期玩家评价；至少 20 条评价的作品参与排名。',
+        'online': '比较采集时的同时在线人数，观察作品的活跃规模。',
+    }
+    limits = {
+        'upcoming': 'Steam 未提供可核实的商店上架日；这里按本站首次发现记录新增待发售作品。首次快照作为基线，不计作当天新增。',
+        'releases': '近 1 / 7 / 30 天筛选的是发售日期；未发售作品不列入，首次发售日期未核实的抢先体验转正式版作品暂不列入。',
+        'ratings': '近 1 / 7 / 30 天筛选评价时间。好评率与评价数均不代表销量或下载量。',
+        'online': '这是采集快照，展示的时间为数据取得时间；在线人数不代表售出份数或下载次数。',
+    }
+    notes = {
+        'upcoming': '按本站首次发现日期筛选（北京时间，截至本期采集日的 7 个自然日）。初次建池作品不计入新增。',
+        'releases': '按 Steam 发售日期筛选（北京时间，截至本期采集日的 7 个自然日），发售日期由近到远排列。',
+        'ratings': '统计采集时点向前 7 × 24 小时的评价；至少 20 条评价参与排名，同好评率时评价较多者在前。',
+        'online': '按最近成功采样时的同时在线人数排序；不含离线游玩，不代表下载量。',
+    }
+    subnav = '<nav class="subnav" aria-label="小游戏栏目">' + ''.join(f'<a href="{filename}"' + (' aria-current="page"' if k == page else '') + f'>{label}</a>' for k, (filename, label) in PAGES.items()) + '</nav>'
+    scope = source_data.get('scope_note') or 'Steam 独立游戏候选样本，受入口与玩法标签限制，不是 Steam 全库。小体量为筛选线索，未核验团队规模与制作预算。'
+    methodology = source_data.get('methodology') or []
     method = ''.join(f'<li>{esc(item)}</li>' for item in methodology)
-    sources = ''.join(f'<li><a href="{esc(safe_url(s.get("url")))}" target="_blank" rel="noopener noreferrer">{esc(s.get("name"))}</a><br>{esc(s.get("note", ""))}</li>' for s in data.get("sources", []) if isinstance(s, dict) and safe_url(s.get("url")))
+    sources = ''.join(f'<li><a href="{esc(safe_url(s.get("url")))}" target="_blank" rel="noopener noreferrer">{esc(s.get("name"))}</a><br>{esc(s.get("note", ""))}</li>' for s in source_data.get('sources', []) if isinstance(s, dict) and safe_url(s.get('url')))
     style_options = ''.join(f'<option value="{esc(k)}">{esc(k)}</option>' for k in PLAY_STYLES)
-    pending = [g for g in models if g["appid"] not in positions]
-    pending_html = ''.join(f'<li><a href="https://store.steampowered.com/app/{g["appid"]}/">{esc(g["name"])}</a></li>' for g in pending)
-    return f'''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>小游戏榜 · 策划日报</title><meta name="description" content="Steam 小体量独立游戏候选榜：近1、7、30天新增评价、好评率、当前在线和独立热销顺位。"><style>{CSS}{SITE_NAV_CSS}</style></head><body><a class="skip" href="#rankings">跳转到榜单</a><div class="wrap">{render_site_navigation('indie')}<main><header class="masthead"><div><p class="eyebrow">STEAM · INDIE WATCH</p><h1>小游戏榜</h1><p class="intro">发现值得研究的小体量独立游戏。按近期评价、在线人数与热销顺位比较表现。</p><p class="intro">Steam 不公开单款销量与下载次数；这里保留真实指标，不把评价或在线人数换算成销量。</p></div><p class="stamp">本期采集 · 北京时间<strong>{esc(timestamp(data.get('generated_at')))}</strong></p></header><div class="brief"><span><b>{len(games)}</b>款候选 · Steam 公开数据 · 可切换近 1 / 7 / 30 天</span><a href="#methodology">范围与口径 ↓</a></div><section id="rankings" aria-labelledby="ranking-title"><div id="controls" class="toolbar" hidden><div class="toolbar-top"><div class="metrics" role="group" aria-label="排名指标"><button type="button" data-metric="count" aria-pressed="true">新增评价</button><button type="button" data-metric="rate" aria-pressed="false">好评率</button><button type="button" data-metric="players" aria-pressed="false">当前在线</button><button type="button" data-metric="rank" aria-pressed="false">独立热销</button></div><div class="windows" role="group" aria-label="评价时间窗口"><button type="button" data-days="1" aria-pressed="false">近 1 天</button><button type="button" data-days="7" aria-pressed="true">近 7 天</button><button type="button" data-days="30" aria-pressed="false">近 30 天</button></div></div><div class="filters"><label>搜索<input id="game-search" type="search" placeholder="游戏名称 / 标签" autocomplete="off"></label><label>玩法<select id="play-style"><option value="">全部玩法</option>{style_options}</select></label><p class="count" id="result-count" aria-live="polite">{len(ranked)} 款参与排名 / {len(games)} 款候选</p></div></div><div class="ranking-head"><h2 id="ranking-title">近 7 天 · 新增评价排行</h2><p>候选样本内排序 · 点击游戏前往 Steam</p></div><p class="period-note" id="period-note">从采集时点向前 7 × 24 小时，按评论创建时间统计。评价量不等于售出份数或下载次数。</p><ol class="rank-list" id="rank-list">{rows}</ol><div class="empty" id="empty-state"{(' hidden' if ranked else '')}>本筛选暂无可排名的数据。可以调整指标、时间范围或玩法筛选。</div><details class="waiting" id="waiting"{('' if pending else ' hidden')}><summary id="waiting-title">{len(pending)} 款暂未参与当前排名</summary><ul id="waiting-games">{pending_html}</ul></details><noscript><p class="nojs">当前展示近 7 天新增评价榜。启用 JavaScript 可切换窗口、排名指标和筛选。</p></noscript></section><details class="methodology" id="methodology"><summary>样本范围、数据口径与来源</summary><div class="method-body"><div><h3>如何读这张榜</h3><p>{esc(scope)}</p><p>近 1 / 7 / 30 天指采集时点向前的连续 24 / 168 / 720 小时。好评率榜仅纳入期间至少 20 条评价的作品；少量评价仍可能产生较大波动。</p><p>独立热销顺位来自美国区 Indie 搜索热销入口，保留原始顺位；它不是全球销量榜。当前在线是采集快照，时间切换只影响评价指标。鼠标停在数字上可查看采集时间。</p><p>缺失或旧值不参与排名，不按零处理。完整取得的 0 条评价或 0 人在线会如实显示。样本受发现入口与筛选规则限制，不是 Steam 全库排名。</p><ul>{method}</ul></div><div><h3>数据来源</h3><ul>{sources or '<li>Steam 商店公开数据；本期尚未取得来源记录。</li>'}</ul></div></div></details></main><footer class="footer"><span>策划日报 · 小体量独立游戏候选观察</span><a href="market.html">查看 Steam 全局市场 →</a></footer></div><script type="application/json" id="ranking-data">{payload}</script><script>{SCRIPT}</script></body></html>'''
+    windows = '' if page == 'online' else '<div class="windows" role="group" aria-label="时间范围">' + ''.join(f'<button type="button" data-days="{n}" aria-pressed="{"true" if n == 7 else "false"}">近 {n} 天</button>' for n in PERIODS) + '</div>'
+    window_label = '在线快照 · 按人数排序' if page == 'online' else '按首次发现时间筛选' if page == 'upcoming' else '按发售时间筛选' if page == 'releases' else '按评价时间筛选'
+    ranking_title = '当前在线排行' if page == 'online' else '近 7 天 · ' + {'upcoming': '首次发现的待发售游戏', 'releases': '发售游戏', 'ratings': '好评率排行'}[page]
+    empty = '本筛选范围尚未记录到新增待发售作品。初次建池作品会单独显示为基线，不计作新增。' if page == 'upcoming' else '本筛选暂无符合条件的作品。可调整时间范围或玩法筛选。'
+    baseline_html = ''
+    if page == 'upcoming':
+        baseline = [g for g in models if g['metadata_fresh'] and g['listing_basis'] == 'baseline' and g['coming_soon']]
+        baseline_rows = ''.join(render_row(by_id[g['appid']], g, page, i + 1, True) for i, g in enumerate(baseline))
+        baseline_html = f'<details class="baseline" id="baseline" open><summary id="baseline-title">已建立观察池 · {len(baseline)} 款基线作品</summary><p class="baseline-note">建池时间：{esc(timestamp(discovery.get("initialized_at")))}。这些作品在首次采集时已经存在，无法据此确认上架日期；此处支持名称与玩法筛选，不受上方 1 / 7 / 30 天筛选影响。</p><ol class="rank-list">{baseline_rows}</ol><p class="empty" id="baseline-empty" hidden>观察池内暂无符合名称或玩法筛选的作品。</p></details>' if baseline else ''
+    pending = [g for g in models if g['appid'] not in positions] if page in {'ratings', 'online'} else []
+    waiting = '<details class="waiting" id="waiting"' + ('' if pending else ' hidden') + f'><summary id="waiting-title">{len(pending)} 款未参与当前排名</summary><ul id="waiting-games">' + ''.join(f'<li><a href="https://store.steampowered.com/app/{g["appid"]}/">{esc(g["name"])}</a></li>' for g in pending) + '</ul></details>' if page in {'ratings', 'online'} else ''
+    status_note = '<p class="status-note">本轮数据未全部更新，请结合采集时间查看；缺失数据不补为零。</p>' if source_data.get('status') not in (None, 'fresh') else ''
+    return f'''<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · 小游戏榜 · 策划日报</title><meta name="description" content="{esc(descriptions[page])}"><style>{CSS}{SITE_NAV_CSS}</style></head><body><a class="skip" href="#rankings">跳转到列表</a><div class="wrap">{render_site_navigation('indie')}<main><header class="masthead"><div><p class="eyebrow">STEAM · INDIE WATCH</p><h1>{esc(title)}</h1><p class="intro">{esc(descriptions[page])}</p><p class="intro">{esc(limits[page])}</p></div><p class="stamp">本期采集 · 北京时间<strong>{esc(timestamp(source_data.get('generated_at')))}</strong></p></header>{subnav}<div class="brief"><span><b>{len(games)}</b>款候选 · {window_label}</span><a href="#methodology">范围与口径 ↓</a></div>{status_note}<section id="rankings" aria-labelledby="ranking-title"><div id="controls" class="toolbar" hidden><div class="toolbar-top"><p>{window_label}</p>{windows}</div><div class="filters"><label>搜索<input id="game-search" type="search" placeholder="游戏名称 / 标签" autocomplete="off"></label><label>玩法<select id="play-style"><option value="">全部玩法</option>{style_options}</select></label><p class="count" id="result-count" aria-live="polite">{len(selected)} 款符合当前条件</p></div></div><div class="ranking-head"><h2 id="ranking-title">{ranking_title}</h2><p>候选样本内比较 · 点击游戏前往 Steam</p></div><p class="period-note" id="period-note">{notes[page]}</p><ol class="rank-list" id="rank-list">{rows}</ol><div class="empty" id="empty-state"{(' hidden' if selected else '')}>{empty}</div>{waiting}<noscript><p class="nojs">当前展示默认列表。启用 JavaScript 可使用时间与玩法筛选。</p></noscript></section>{baseline_html}<details class="methodology" id="methodology"><summary>样本范围、数据口径与来源</summary><div class="method-body"><div><h3>如何读这张列表</h3><p>{esc(scope)}</p><p>{esc(limits[page])}</p><p>{notes[page]}</p><p>Steam 不公开单款销量与下载次数。缺失或旧的评价、在线数据不参与排名；真实的 0 人在线会如实显示。候选受发现入口与筛选规则限制，不是 Steam 全库排名。</p><ul>{method}</ul></div><div><h3>数据来源</h3><ul>{sources or '<li>Steam 商店公开数据；本期尚未取得来源记录。</li>'}</ul></div></div></details></main><footer class="footer"><span>策划日报 · 小体量独立游戏观察</span><a href="market.html">查看 Steam 全局市场 →</a></footer></div><script type="application/json" id="ranking-data">{payload}</script><script>{SCRIPT}</script></body></html>'''
+
+
+def render_indie_pages(data, discovery=None):
+    return {filename: render_indie_market(data, discovery, page) for page, (filename, _) in PAGES.items()}
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", type=Path, default=ROOT / "data/indie_market.json")
-    parser.add_argument("--output", type=Path, default=ROOT / "docs/indie.html")
+    parser.add_argument('--input', type=Path, default=ROOT / 'data/indie_market.json')
+    parser.add_argument('--discovery', type=Path, default=ROOT / 'data/indie_discovery.json')
+    parser.add_argument('--output', type=Path, default=ROOT / 'docs/indie.html')
     args = parser.parse_args()
-    data = json.loads(args.input.read_text(encoding="utf-8")) if args.input.exists() else {}
+    data = json.loads(args.input.read_text(encoding='utf-8')) if args.input.exists() else {}
+    discovery = json.loads(args.discovery.read_text(encoding='utf-8')) if args.discovery.exists() else {}
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(render_indie_market(data), encoding="utf-8")
-    print(f"Rendered {len(data.get('games', []))} indie candidates to {args.output}")
+    for filename, content in render_indie_pages(data, discovery).items():
+        target = args.output if filename == 'indie.html' else args.output.with_name(filename)
+        target.write_text(content, encoding='utf-8')
+    print(f'Rendered 4 indie pages to {args.output.parent}')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
