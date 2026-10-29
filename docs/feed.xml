@@ -4,168 +4,184 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 15 条，策划精选 2 篇，AI 快讯 3 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 14 条，策划精选 3 篇，AI 快讯 5 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 28 Oct 2026 14:00:50 +0800</lastBuildDate>
+<lastBuildDate>Thu, 29 Oct 2026 14:11:04 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《深空当铺》1.0版修改器与背包整理等模组介绍</title>
-  <link>https://www.gameres.com/901203363.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3f849f1e5db402854cbc1a31</guid>
-  <pubDate>Wed, 28 Oct 2026 02:57:00 +0000</pubDate>
+  <title>《无人深空》推出FORSAKEN更新并登陆iPhone与iPad</title>
+  <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302231131</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-53937c8429d31358648dce38</guid>
+  <pubDate>Wed, 28 Oct 2026 14:05:37 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>文章介绍《深空当铺》1.0正式版可用的xmod修改器，支持调节游戏速度、店铺吸引力和信用点，并可一键添加物品；同时推荐背包整理、检查助手、酿酒扩展、扩展存储等模组，并说明在xmod内一键安装的方法。</p><p><small>来源：<a href="https://www.gameres.com/901203363.html">GameRes</a></small></p><p><small>原文发布：2026-10-28 10:57（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Introducing..No Man&#x27;s Sky: FORSAKEN</small></p><p>Hello Games公布《无人深空》万圣节主题更新FORSAKEN，玩家可在废弃货船、遗迹等地搜寻闹鬼科技与生物样本，与神秘商人交易换取飞船模块、武器与套装外观；更新同时加入邮件配送任务、武器轮盘、极简HUD和邻近恒星无缝跃迁，并首次登陆iPhone与iPad。</p><p><small>来源：<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302231131">Steam · No Man&#x27;s Sky</a> · <a href="https://www.gcores.com/articles/221603">机核</a></small></p><p><small>原文发布：2026-10-28 22:05（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《恶魔城：贝尔蒙多的诅咒》口碑分化与恶魔城Like的融合设计</title>
-  <link>https://www.gameres.com/901203358.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9e7734b22b903124f74f970a</guid>
-  <pubDate>Wed, 28 Oct 2026 01:09:00 +0000</pubDate>
+  <title>《模拟农场25》付费DLC“Beans &amp; Alpacas”上线</title>
+  <link>https://www.gcores.com/articles/221607</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a1bd56ada8445637ae8a25fd</guid>
+  <pubDate>Thu, 29 Oct 2026 00:30:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>文章指出《恶魔城：贝尔蒙多的诅咒》媒体评分与玩家评价分化，Steam好评率76%、中文评论好评率35%；作者认为问题在于玩法自由度不及《月下夜想曲》，并以《银松镇》为例讨论恶魔城Like融合经典要素的设计思路。</p><p><strong>背景与变化</strong><br>作者以《月下夜想曲》的ACT与RPG双路径自由选择为参照，分析Evil Empire Studio的Roguelite调性与恶魔城玩家需求之间的错位，并归纳《银松镇》在资源管理、相机标记地图等融合设计上的取舍。</p><p><strong>策划视角</strong><br>可对照《月下夜想曲》的成长路径设计，研究Roguelite式随机与银河恶魔城固定探索结构如何兼容，以及相机标记地图这类辅助设计对探索节奏的实际影响。</p><p><small>来源：<a href="https://www.gameres.com/901203358.html">GameRes</a></small></p><p><small>原文发布：2026-10-28 09:09（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>世嘉宣布《模拟农场25》付费DLC“Beans &amp; Alpacas”已登陆PS5、Xbox Series X|S、PC和Mac。DLC新增南美风格农场区域“Catuaí”、咖啡与香蕉种植、羊驼和婆罗门牛饲养，以及25种以上新农机，并收录于第二年季票。</p><p><small>来源：<a href="https://www.gcores.com/articles/221607">机核</a></small></p><p><small>原文发布：2026-10-29 08:30（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>开发商称抢先体验应视同正式发售，玩家期望持续走高</title>
-  <link>https://www.gamesindustry.biz/developers-need-to-treat-early-access-like-a-real-launch-because-players-do-early-access-games-are-on-the-rise-but-so-are-player-expectations</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-49ce815e0bd0bb06e8bc5339</guid>
-  <pubDate>Tue, 27 Oct 2026 13:30:00 +0000</pubDate>
+  <title>像素肉鸽策略游戏《天外来袭》定档11月26日登陆Steam</title>
+  <link>https://www.gameres.com/901203374.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dcd7d6ed68557ba78e4da685</guid>
+  <pubDate>Wed, 28 Oct 2026 13:08:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：&quot;Developers need to treat Early Access like a real launch, because players do&quot; – Early Access games are on the rise, but so are player expectations</small></p><p>GamesIndustry采访Valheim、Subnautica、Hades等工作室，讨论Steam抢先体验游戏数量上升、玩家质量要求提高、反馈收集与长期运营的利弊；文章引用SteamDB与GameDiscoverCo数据，并因正文节选未涵盖全部结论。</p><p><small>来源：<a href="https://www.gamesindustry.biz/developers-need-to-treat-early-access-like-a-real-launch-because-players-do-early-access-games-are-on-the-rise-but-so-are-player-expectations">GamesIndustry</a></small></p><p><small>原文发布：2026-10-27 21:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>发行商Gamirror Games宣布，Hewer&#x27;s Workshop开发的像素风类Rogue回合制策略游戏《天外来袭》将于11月26日登陆Steam。游戏以移动即攻击为核心，玩家操控3名勇士，不同职业攻击形态各异；试玩版在10月Steam新品节提供6名勇士与4个区域，共获35条评价、好评率100%。</p><p><small>来源：<a href="https://www.gameres.com/901203374.html">GameRes</a></small></p><p><small>原文发布：2026-10-28 21:08（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>卡普空公布2026财年上半年财报：净销售额同比增长49%</title>
-  <link>https://www.gcores.com/articles/221548</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bd04fcd270843a07cb543916</guid>
-  <pubDate>Tue, 27 Oct 2026 12:56:37 +0000</pubDate>
+  <title>V社新增Steam送审要求：开发者须游玩自己游戏5分钟</title>
+  <link>https://www.gcores.com/articles/221584</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2f1156f4610ab92214ee7c51</guid>
+  <pubDate>Wed, 28 Oct 2026 09:31:12 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>卡普空公布截至2026年9月30日的2026财年上半年合并业绩：净销售额1208.87亿日元，同比增长49.0%；营业利润607.69亿日元，同比增长54.5%；净利润430.83亿日元，同比增长56.6%。公司维持全年2100亿日元净销售额与830亿日元营业利润目标不变。</p><p><small>来源：<a href="https://www.gcores.com/articles/221548">机核</a></small></p><p><small>原文发布：2026-10-27 20:56（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>据Automaton报道，Valve在Steam游戏审核中新增条件：开发者须用开发者账号启动并游玩送审游戏至少5分钟，且须在过去7天内或最新版本上传至默认分支后完成；未测试当前版本则无法送审。</p><p><small>来源：<a href="https://www.gcores.com/articles/221584">机核</a></small></p><p><small>原文发布：2026-10-28 17:31（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>像素动作RPG《Emberville》抢先体验延期至2027年1月</title>
-  <link>https://80.lv/articles/stardew-valley-style-dark-fantasy-rpg-delays-steam-early-access-launch-to-2027/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-574118428b5f67a3e8c9cf99</guid>
-  <pubDate>Tue, 27 Oct 2026 12:08:00 +0000</pubDate>
+  <title>《影之刃零》发售，咪咕游戏上线云游戏版本</title>
+  <link>https://www.gameres.com/901203386.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0909e41e0518910a08a30e76</guid>
+  <pubDate>Thu, 29 Oct 2026 03:15:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Stardew Valley-Style Dark Fantasy RPG Delays Steam Early Access Launch to 2027</small></p><p>Cygnus Cross宣布，其像素动作RPG《Emberville》的Steam抢先体验从原定10月27日推迟至2027年1月7日。团队称在Steam Next Fest后需要更多时间完成改动与改进，例如重做弓箭战斗。</p><p><small>来源：<a href="https://80.lv/articles/stardew-valley-style-dark-fantasy-rpg-delays-steam-early-access-launch-to-2027/">80.lv</a></small></p><p><small>原文发布：2026-10-27 20:08（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>10月29日《影之刃零》全球同步发售，咪咕游戏同步上线，提供下载与云游戏双模式，可在移动端、TV和车载端游玩，并配套直播、积分活动和抽奖。</p><p><small>来源：<a href="https://www.gameres.com/901203386.html">GameRes</a> · <a href="https://www.gcores.com/articles/221610">机核</a></small></p><p><small>原文发布：2026-10-29 11:15（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《湮灭之潮》核聚变试玩：格雯面部光照与渲染优化</title>
-  <link>https://www.gcores.com/articles/221534</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ca8871bcc97a97debdfaac37</guid>
-  <pubDate>Tue, 27 Oct 2026 06:41:41 +0000</pubDate>
+  <title>Epic将修改用户协议，允许用虚幻引擎和MetaHuman输出训练AI</title>
+  <link>https://www.gcores.com/articles/221590</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ab165dbabb1387d9768943be</guid>
+  <pubDate>Wed, 28 Oct 2026 11:07:23 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>10月24日至25日，《湮灭之潮》在核聚变试玩会提供约一小时试玩，制作组称在沿用原面部模型的基础上调整灯光与渲染，改善主角格雯德琳的面部表现，并修复部分已知问题；主创另在访谈中回应角色面部相关讨论。</p><p><small>来源：<a href="https://www.gcores.com/articles/221534">机核</a></small></p><p><small>原文发布：2026-10-27 14:41（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Epic首席执行官蒂姆·斯威尼宣布，公司将修改最终用户许可协议，允许开发者使用虚幻引擎和MetaHuman的输出结果训练人工智能；他同时表示，是否允许AI使用各游戏自身数据训练，将由各游戏开发者自行决定。Epic尚未公布修改细节。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/221590">机核</a> · <a href="https://www.gamedeveloper.com/programming/epic-is-updating-the-eula-to-allow-ai-training-on-outputs-from-unreal-engine-and-metahuman">Game Developer</a></small></p><p><small>原文发布：2026-10-28 19:07（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>梁其伟发长文回顾《影之刃零》二十年创作历程</title>
-  <link>https://www.gcores.com/articles/221570</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3bfcd6b7deef494fab788a26</guid>
-  <pubDate>Wed, 28 Oct 2026 05:01:53 +0000</pubDate>
+  <title>Google Play独立游戏基金首次落地非洲，九款Unity游戏入选2026批次</title>
+  <link>https://unity.com/blog/google-play-indie-games-fund-2026</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-56da558897638d8f3cbc94e5</guid>
+  <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《影之刃零》上线前夕，制作人梁其伟在微博发长文，回顾从RPG Maker独立游戏《雨血：死镇》到本作的二十年历程，介绍团队暂停其他项目集中资源、动捕与实地扫描、面向普通玩家的玩法重组，以及首日补丁和驱动建议。</p><p><small>来源：<a href="https://www.gcores.com/articles/221570">机核</a> · <a href="https://www.gcores.com/articles/221549">机核</a> · <a href="http://www.chuapp.com/article/291716.html">触乐</a> · <a href="https://www.gcores.com/articles/221527">机核</a> · <a href="https://www.gameres.com/901203338.html">GameRes</a></small></p><p><small>原文发布：2026-10-28 13:01（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Google Play Indie Games Fund in Africa 2026 - Games Made with Unity</small></p><p>Google Play独立游戏基金首次进入非洲，投入100万美元支持非洲独立开发者。2026批次入选工作室将获得资金、专家指导和技术资源，Unity称与Google合作多年，本批次有九款游戏使用Unity开发。</p><p><small>来源：<a href="https://unity.com/blog/google-play-indie-games-fund-2026">Unity</a></small></p><p><small>原文发布：2026-10-28 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Warhorse Studios披露遭遇严重网络安全事件</title>
-  <link>https://www.gamedeveloper.com/programming/warhorse-studios-hit-by-an-undetailed-cybersecurity-incident</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9645849fdbf9d6dcb19145bb</guid>
-  <pubDate>Tue, 27 Oct 2026 19:15:00 +0000</pubDate>
+  <title>XREAL AURA 上线：七款使用 Unity 开发的游戏</title>
+  <link>https://unity.com/blog/xreal-aura-games-made-with-unity</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-684afdf0b27815bdf06f695d</guid>
+  <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Warhorse Studios hit by an undetailed cybersecurity incident</small></p><p>《天国：拯救》开发商Warhorse Studios在官网称遭遇严重网络攻击，攻击者未经授权访问了公司系统和数据，事件全貌尚未查明；公司正与安全专家合作评估影响，CEO表示将优先保护员工、合作伙伴与社区。</p><p><small>来源：<a href="https://www.gamedeveloper.com/programming/warhorse-studios-hit-by-an-undetailed-cybersecurity-incident">Game Developer</a> · <a href="https://www.gamesindustry.biz/warhorse-studios-hit-by-cyberattack-company-systems-and-data-affected">GamesIndustry</a></small></p><p><small>原文发布：2026-10-28 03:15（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：XREAL AURA Is Here: Meet Seven Made With Unity Titles</small></p><p>Unity 官方文章介绍首款搭载 Android XR 的有线 XR 眼镜 XREAL AURA 已发布，并列出七款使用 Unity 开发的游戏，包括 Hyper Visor、Demeo、Real VR Fishing 等，同时给出面向 Android XR 的开发工具与起步建议。</p><p><small>来源：<a href="https://unity.com/blog/xreal-aura-games-made-with-unity">Unity</a></small></p><p><small>原文发布：2026-10-28 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Sucker Punch裁员24人，称与市场和下个项目需求对齐</title>
-  <link>https://www.gamedeveloper.com/business/sucker-punch-lays-off-24-to-align-with-current-market-next-project-needs</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b5327b9b967c46fa538bbb38</guid>
-  <pubDate>Tue, 27 Oct 2026 14:10:40 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Sucker Punch lays off 24 to align with &#x27;current market&#x27;, &#x27;next project needs&#x27;</small></p><p>《羊蹄山之魂》开发商Sucker Punch确认裁员24人，约占团队10%。工作室在内部邮件中称，此举既回应市场挑战，也为让团队更贴合下个项目的人员需求，并承诺支持受影响员工。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/sucker-punch-lays-off-24-to-align-with-current-market-next-project-needs">Game Developer</a> · <a href="https://www.gamesindustry.biz/sucker-punch-productions-reportedly-lays-off-24-employees-following-launch-of-ghost-of-yotei-complete-edition">GamesIndustry</a></small></p><p><small>原文发布：2026-10-27 22:10（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>游戏地形如何运作：从瓦片、高度图到体素与噪声生成</title>
-  <link>https://unity.com/blog/video-game-terrain-guide</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-822f3a72cce3a3515ade964b</guid>
+  <title>游戏敌人与Boss如何做决策：状态、感知与预警设计</title>
+  <link>https://unity.com/blog/how-enemy-ai-works-video-games</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c3be5cc362935d2767a70bf8</guid>
   <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How does terrain work in video games?</small></p><p>Unity团队面向初学者的地形指南，介绍2D瓦片、3D高度图、体素、splatmap材质混合与噪声程序化生成等技术的原理和取舍，并给出先规划大形、早定尺度、保证可读性、借鉴自然、反复试玩等地形设计原则。</p><p><small>来源：<a href="https://unity.com/blog/video-game-terrain-guide">Unity</a></small></p><p><small>原文发布：2026-10-27 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How bosses and enemies decide what to do in video games</small></p><p>Unity官方文章面向初学者介绍敌人AI的基本做法：用状态机组织巡逻、调查、攻击、逃跑等行为，用优先级列表或行为树选择行动，用视锥、听觉范围和警觉等级感知玩家，并通过预警动作、一致信号和Boss分阶段设计让战斗公平可读。</p><p><small>来源：<a href="https://unity.com/blog/how-enemy-ai-works-video-games">Unity</a></small></p><p><small>原文发布：2026-10-27 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Unity科普：游戏帧率、帧时间与目标帧率选择</title>
-  <link>https://unity.com/blog/frame-rate-in-video-games-explained</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6b42eddeb74966ce143a716b</guid>
-  <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+  <title>《这手有点长》定于2027年3月11日发售</title>
+  <link>https://www.gameres.com/901203388.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-22bad7afe941e346cfb29469</guid>
+  <pubDate>Thu, 29 Oct 2026 05:39:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Frame rate explained: What is fps in video games?</small></p><p>Unity团队文章解释帧率是游戏每秒绘制的画面数，区分帧时间与显示器刷新率，说明30、60、120fps等常见目标的取舍，并指出稳定帧率比高但不稳的帧率体验更好。</p><p><small>来源：<a href="https://unity.com/blog/frame-rate-in-video-games-explained">Unity</a></small></p><p><small>原文发布：2026-10-27 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Toot Games开发、Jackbox Games发行的2D潜行喜剧游戏《这手有点长》在任天堂Indie World发布会上宣布2027年3月11日登陆PC、PS5、Switch、Switch 2和Xbox Series X|S。玩家操控一条超长手臂，在关卡中偷窃物品并躲避保安与侦探。</p><p><small>来源：<a href="https://www.gameres.com/901203388.html">GameRes</a></small></p><p><small>原文发布：2026-10-29 13:39（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>制作首款游戏前需考虑的十件事</title>
-  <link>https://unity.com/blog/things-to-know-before-starting-your-first-game</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-cc3a911d39bc999804aa4d2d</guid>
-  <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+  <title>商店经营模拟游戏《Probably Stolen》登陆Steam</title>
+  <link>https://80.lv/articles/this-new-shopkeeping-sim-is-like-cyberpunk-2077-meets-papers-please/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0b01a7646583be83c2f27a6a</guid>
+  <pubDate>Wed, 28 Oct 2026 23:07:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：10 things you need to know before building your first video game</small></p><p>Unity团队列出制作首款游戏前应想清楚的十项设计决策：核心循环、类型预期、范围控制、视觉风格、镜头、物理规则、操作响应、反馈、难度与试玩，并建议先写一页计划。</p><p><small>来源：<a href="https://unity.com/blog/things-to-know-before-starting-your-first-game">Unity</a></small></p><p><small>原文发布：2026-10-27 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This New Shopkeeping Sim Is Like Cyberpunk 2077 Meets Papers, Please</small></p><p>蒙特利尔Questing Goose工作室开发、tinyBuild发行的像素风商店经营模拟游戏《Probably Stolen》已在Steam发售，售价19.99美元。玩家在反乌托邦空间站下层经营店铺，需鉴别顾客身份、处理违禁品并应对检查、突袭与不断上涨的租金。</p><p><small>来源：<a href="https://80.lv/articles/this-new-shopkeeping-sim-is-like-cyberpunk-2077-meets-papers-please/">80.lv</a></small></p><p><small>原文发布：2026-10-29 07:07（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>维塔士入选虚幻引擎大中华区服务合作伙伴计划</title>
-  <link>https://www.gameres.com/901203366.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9cdaedc5c1ad2ac0ce43eb6d</guid>
-  <pubDate>Wed, 28 Oct 2026 05:29:00 +0000</pubDate>
+  <title>BioWare联合创始人Zeschuk谈工作室关闭与高管决策</title>
+  <link>https://80.lv/articles/bioware-co-founder-greg-zeschuk-says-studio-was-killed-by-executives-who-have-never-made-a-game/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2317e00430ad59daf75ced94</guid>
+  <pubDate>Wed, 28 Oct 2026 20:28:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>维塔士宣布成为虚幻引擎服务合作伙伴计划落地大中华区后首批公布的六家服务合作伙伴之一，该身份于Unreal Fest Shanghai 2026揭晓。维塔士称入选意味着通过Epic Games审核，并介绍其自2004年以来的游戏开发与Unreal Engine项目实践。</p><p><small>来源：<a href="https://www.gameres.com/901203366.html">GameRes</a></small></p><p><small>原文发布：2026-10-28 13:29（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：BioWare Co-Founder Greg Zeschuk Says Studio Was Killed by Executives Who Have Never &quot;Made a Game”</small></p><p>BioWare联合创始人Greg Zeschuk在工作室关闭后首次受访，谈及EA收购、他称为“棺材最后一颗钉子”的杠杆收购，以及为何认为优秀工作室无法靠“随机人员和AI”重建。</p><p><small>来源：<a href="https://80.lv/articles/bioware-co-founder-greg-zeschuk-says-studio-was-killed-by-executives-who-have-never-made-a-game/">80.lv</a></small></p><p><small>原文发布：2026-10-29 04:28（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Rockstar员工将在《GTA VI》发售前后就工会认证投票</title>
-  <link>https://www.gamedeveloper.com/business/rockstar-workers-to-vote-on-unionization-ahead-of-grand-theft-auto-vi-release</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8f8e17d3a6b002b312dbe2e3</guid>
-  <pubDate>Tue, 27 Oct 2026 19:34:13 +0000</pubDate>
+  <title>PressEngine将于11月在伦敦举办游戏线下展示活动The Pre-Show</title>
+  <link>https://www.gamesindustry.biz/pressengine-announces-the-pre-show-an-in-person-london-showcase-for-upcoming-games</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-65240aacf9f728c3472428ed</guid>
+  <pubDate>Wed, 28 Oct 2026 19:13:51 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Rockstar Games workers to vote on unionization right as Grand Theft Auto VI launches</small></p><p>英国独立工人工会宣布，Rockstar员工将于2026年11月12日至26日就工会认证进行正式投票，议题涉及薪酬、加班、裁员、弹性工作和生成式AI政策；投票与2025年解雇30余名工会员工一事的仲裁同期进行。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/rockstar-workers-to-vote-on-unionization-ahead-of-grand-theft-auto-vi-release">Game Developer</a></small></p><p><small>原文发布：2026-10-28 03:34（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：PressEngine announces The Pre-Show, an in-person London showcase for upcoming games</small></p><p>PressEngine宣布推出线下游戏展示活动The Pre-Show，首届定于11月26日在伦敦举行，面向未来12个月内发售的游戏，主办方称将有150余名记者与内容创作者到场，参展方只需携带游戏。</p><p><small>来源：<a href="https://www.gamesindustry.biz/pressengine-announces-the-pre-show-an-in-person-london-showcase-for-upcoming-games">GamesIndustry</a></small></p><p><small>原文发布：2026-10-29 03:13（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>音乐视频用Blender而非After Effects制作的幕后</title>
-  <link>https://80.lv/articles/see-how-this-music-video-was-made-in-blender-instead-of-after-effects/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4334775cb2317deffcdf64fd</guid>
-  <pubDate>Tue, 27 Oct 2026 17:34:00 +0000</pubDate>
+  <title>《Hearth and Hamlet》发行商Runic Forge更名为Pythia Games</title>
+  <link>https://www.gamesindustry.biz/hearth-and-hamlet-publisher-runic-forge-rebrands-as-pythia-games</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b486ad3eebde90f6d85755a5</guid>
+  <pubDate>Wed, 28 Oct 2026 17:56:48 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：See How This Music Video Was Made In Blender Instead Of After Effects</small></p><p>80.lv报道歌手Yuu翻唱Mrs. GREEN APPLE《Brand New》的音乐视频幕后，画面由Sayu绘制，角色动画由歌手完成，视频制作由原悠和负责，主要使用Blender，文字元素仍用After Effects。</p><p><small>来源：<a href="https://80.lv/articles/see-how-this-music-video-was-made-in-blender-instead-of-after-effects/">80.lv</a></small></p><p><small>原文发布：2026-10-28 01:34（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Hearth and Hamlet publisher Runic Forge rebrands as Pythia Games</small></p><p>英国发行商Runic Forge更名为Pythia Games，母公司Rune将停止代理业务，专营独立游戏发行。其首款发行作品《Hearth and Hamlet》8月19日登陆Steam，首日销量近5万份，首周达10万份，Steam评测超1800条。新一批作品包括《Carnholt》和《Dragon&#x27;s Tear》。</p><p><small>来源：<a href="https://www.gamesindustry.biz/hearth-and-hamlet-publisher-runic-forge-rebrands-as-pythia-games">GamesIndustry</a></small></p><p><small>原文发布：2026-10-29 01:56（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Konami谈《寂静岭》系列：像精品剧集，各作采用不同游戏形式</title>
-  <link>https://80.lv/articles/interview-konami-envisions-silent-hill-like-a-premium-tv-series-with-various-game-formats/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4af0bce573dc14ec4f674c4f</guid>
-  <pubDate>Tue, 27 Oct 2026 20:34:00 +0000</pubDate>
+  <title>从《博德之门3》到《这是我的战争》：玩家为何在乎虚构角色</title>
+  <link>https://www.gameres.com/901203378.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-115255f633bc865c8934b642</guid>
+  <pubDate>Thu, 29 Oct 2026 01:28:00 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Interview: Konami Envisions Silent Hill Like a Premium TV Series With Various Game Formats</small></p><p>《寂静岭》系列制作人冈本基与《Townfall》导演Jon McKellan受访，谈Konami不向合作团队强加统一设定集，让各工作室保留氛围与暧昧叙事并建立自身风格；《Townfall》以第一人称、苏格兰岛屿与CRTV信号机制展开。</p><p><strong>设计选择</strong><br>作者归纳的具体取舍：以真实苏格兰海岸城镇塑造空间与孤立感；用CRTV的噪点与不确定信号延续系列暧昧叙事；第一人称避免第三人称相机所需的失真尺度，使场景更可信、搜查更贴近环境。</p><p><strong>策划视角</strong><br>可追问：把“城镇作为主角”与第一人称写实尺度结合后，战斗与潜行的松紧如何随玩家行为改变节奏，这种自由是否削弱恐怖张力？</p><p><small>来源：<a href="https://80.lv/articles/interview-konami-envisions-silent-hill-like-a-premium-tv-series-with-various-game-formats/">80.lv</a></small></p><p><small>原文发布：2026-10-28 04:34（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>腾讯IEG策划JGG结合《博德之门3》《巫师3》《这是我的战争》《赛博朋克2077》，讨论如何让玩家意识到角色有自己的生活，并把这种理解落到任务信息、选择与关系反馈中。</p><p><strong>设计选择</strong><br>作者用Sonder、观点采择、共情三个概念区分目标，主张先写清角色目标、判断、限制与关系，再安排信息到达顺序和可回应的行动，并给出六环节检查流程。</p><p><strong>策划视角</strong><br>可对照文中六环节，检查自己项目中角色设定是否真正影响行动与选择，以及测试时如何区分玩家“喜欢角色”与“理解角色”。</p><p><small>来源：<a href="https://www.gameres.com/901203378.html">GameRes 策划</a></small></p><p><small>原文发布：2026-10-29 09:28（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>四人团队开发修仙回合肉鸽《仙源秘境》开发日志</title>
-  <link>https://indienova.com/u/zzgamer/blogread/39358</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-902b70862fd13e883dc7c36d</guid>
+  <title>《逆水寒》制作人谈MMO现状与不卖数值的设计取舍</title>
+  <link>http://www.chuapp.com/article/291719.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-04bbf11d5886f9f8c72d5ca4</guid>
+  <pubDate>Wed, 28 Oct 2026 10:12:42 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>《仙源秘境》制作组在开发日志中说明立项动机：团队是《风来的西林》玩家，想做同步回合制迷宫，结合《凡人修仙传》式凡人修仙叙事与暗黑类构筑玩法，秘境、妖兽、阵法随机生成，目前系统仍在反复调整。</p><p><strong>设计选择</strong><br>作者以同步回合制降低操作门槛、强调思考与走位，用随机生成和功法构筑支撑重复游玩，并借修仙题材承载高风险叙事；属开发者自述，未提供验证数据。</p><p><strong>策划视角</strong><br>可关注同步回合制与构筑系统如何结合：随机生成内容如何与功法流派的成长节奏匹配，避免重复感。</p><p><small>来源：<a href="https://indienova.com/u/zzgamer/blogread/39358">indienova 会员日志</a></small></p><p><small>原文日期未标</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>触乐对话《逆水寒》手游制作人邹珈璇，讨论MMORPG是否式微、MMO不可替代的体验、不卖数值的商业化选择，以及4.0版本精简养成系统、殊途同归2.0与万物出金等设计。</p><p><strong>设计选择</strong><br>作者以《魔力宝贝》《魔兽世界》的社交仪式与生活职业生态为参照，主张MMO核心是沉浸世界、角色扮演幻想与多人连接，并用端游老兵服验证不卖数值可行。</p><p><strong>策划视角</strong><br>可追问：删减养成系统、以随机掉落强化正反馈后，如何避免内容消耗过快与长期追求不足？</p><p><small>来源：<a href="http://www.chuapp.com/article/291719.html">触乐</a></small></p><p><small>原文发布：2026-10-28 18:12（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Retell用OpenAI模型支撑每月1亿次通话</title>
-  <link>https://openai.com/index/retell-ai</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-00885f9dfe2c9deaea273b92</guid>
-  <pubDate>Tue, 27 Oct 2026 15:00:00 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Retell uses OpenAI models to help power 100M monthly calls</small></p><p>OpenAI称，Retell使用其模型支撑每月1亿次通话；GPT-6 Astra在Retell的语音智能体基准测试中排名第一，Codex帮助其达到每名员工160万美元的年化收入。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/retell-ai">OpenAI</a></small></p><p><small>原文发布：2026-10-27 23:00（北京时间）</small></p>]]></description>
+  <title>独立开发者复盘：首作3年、第二作3个月，谈题材选择与素材复用</title>
+  <link>https://indienova.com/u/zlxc/blogread/39367</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-38675a7fe1e7101525447b4a</guid>
+  <category>策划精选</category>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>独立游戏制作人GQ在indienova日志中复盘两款UE引擎游戏的开发：首作《流星远征》耗时约3年，第二作《摆摊之王》约3个月完成，后者复用前作素材并加入购物、联机与Steam成就系统；作者认为新手应先选轻松题材快速跑通全流程。</p><p><strong>设计选择</strong><br>作者以自身两款作品的周期对比为据，把提速归因于首作积累与素材复用，并反思学习顺序应先易后难；同时提到首作玩法方向有问题、系统将重构，以及未赶上新品节的现实压力。</p><p><strong>策划视角</strong><br>可追问：素材复用与联机系统学习在多大程度上缩短了周期，这种“先易后难”的顺序对新手是否普遍适用？</p><p><small>来源：<a href="https://indienova.com/u/zlxc/blogread/39367">indienova 会员日志</a></small></p><p><small>原文日期未标</small></p>]]></description>
 </item>
 <item>
-  <title>OpenAI与Oracle扩大合作，将把Oracle应用接入ChatGPT</title>
-  <link>https://openai.com/index/oracle-apps-in-chatgpt</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5e746c3d07b6141963bb416c</guid>
-  <pubDate>Tue, 27 Oct 2026 07:00:00 +0000</pubDate>
+  <title>OpenAI与ServiceNow扩大企业工作流合作</title>
+  <link>https://openai.com/index/openai-servicenow-partnership-expansion</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0379ff4ead33451e21102eec</guid>
+  <pubDate>Wed, 28 Oct 2026 13:15:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：OpenAI expands partnership with Oracle to bring its apps to ChatGPT</small></p><p>OpenAI与Oracle扩大合作，计划把Oracle的业务应用和AI智能体接入ChatGPT，同时为Oracle的新产品提供支持。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/oracle-apps-in-chatgpt">OpenAI</a></small></p><p><small>原文发布：2026-10-27 15:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：OpenAI and ServiceNow expand partnership across enterprise workflows</small></p><p>OpenAI与ServiceNow宣布扩大合作，将OpenAI的模型和智能体接入ServiceNow，同时把ServiceNow的工作流接入ChatGPT和Codex。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/openai-servicenow-partnership-expansion">OpenAI</a></small></p><p><small>原文发布：2026-10-28 21:15（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>钛动科技发布Pro-Agent产品Navos Pro，面向出海营销场景</title>
-  <link>https://www.qbitai.com/2026/10/505580.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-25eee8427c99297668cdf117</guid>
-  <pubDate>Tue, 27 Oct 2026 03:23:55 +0000</pubDate>
+  <title>Legora利用OpenAI模型构建法律工作智能体系统</title>
+  <link>https://openai.com/index/legora</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-91fbe706b46fb1487fbccec7</guid>
+  <pubDate>Wed, 28 Oct 2026 09:30:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>钛动科技在TGC 2026科技增长大会上发布Pro-Agent产品Navos Pro，称其具备专业理解业务、主动发现机会、以GMV和ROI等指标衡量增长三项能力，面向跨境电商、外贸、营销等场景，并设Lite与Pro双版本。</p><p><small>来源：<a href="https://www.qbitai.com/2026/10/505580.html">量子位</a></small></p><p><small>原文发布：2026-10-27 11:23（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Legora is building the agentic operating system for legal work</small></p><p>OpenAI发布文章，介绍Legora如何使用OpenAI模型、ChatGPT和Codex加速法律工作流程、扩展合同分析，并让律师专注于更高价值的工作。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/legora">OpenAI</a></small></p><p><small>原文发布：2026-10-28 17:30（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>扩散智能发布350亿参数扩散语言模型Clover，主打Agent任务速度</title>
+  <link>https://www.qbitai.com/2026/10/505934.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9c96e99237a858b845e62d3c</guid>
+  <pubDate>Thu, 29 Oct 2026 02:18:28 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>扩散智能发布Clover-35B-A3B-Preview扩散语言模型，采用MoE架构，总参数350亿、每token激活约30亿，支持思考模式。文章介绍其在代码生成、网页操作和工具调用等Agent任务上的演示，并给出团队公布的WindTunnel、τ³、BFCL-v4、SWE-bench等评测数据。</p><p><small>来源：<a href="https://www.qbitai.com/2026/10/505934.html">量子位</a></small></p><p><small>原文发布：2026-10-29 10:18（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Ted Sanders解释OpenAI模型命名与规模差异</title>
+  <link>https://simonwillison.net/2026/Oct/28/ted-sanders/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0a935ff4e941db1dbf840a2a</guid>
+  <pubDate>Wed, 28 Oct 2026 23:23:21 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Quoting Ted Sanders</small></p><p>Ted Sanders说明LLM性能是多维的，但大部分差异可由模型规模解释：模型越大通常越可靠、每token成本越高、对冷门事实的召回越好；OpenAI模型按Luna&lt;Terra&lt;Sol&lt;Astra排序，版本号同时表示发布顺序、与其他版本的关系和改进幅度。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/28/ted-sanders/">Simon Willison</a></small></p><p><small>原文发布：2026-10-29 07:23（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>GitHub Octoverse 2026：合并PR与提交量大幅增长</title>
+  <link>https://simonwillison.net/2026/Oct/28/github-octoverse-2026/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-078c38495d12a23170c5f1c9</guid>
+  <pubDate>Wed, 28 Oct 2026 16:45:23 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：GitHub Octoverse 2026</small></p><p>Simon Willison在GitHub Universe现场记录，GitHub高管Jay Parikh公布2026年Octoverse报告：合并PR在不到一年内增至每月2.2亿，提交量增至每月73.8亿，新仓库速率翻倍至每月3030万；报告还按行业统计，并单列涉及互操作或逆向工程的仓库。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/28/github-octoverse-2026/">Simon Willison</a></small></p><p><small>原文发布：2026-10-29 00:45（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>
