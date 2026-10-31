@@ -4,193 +4,145 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 16 条，策划精选 1 篇，AI 快讯 6 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 15 条，策划精选 0 篇，AI 快讯 2 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 30 Oct 2026 14:10:45 +0800</lastBuildDate>
+<lastBuildDate>Sat, 31 Oct 2026 14:05:49 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>多人园艺对战游戏《嗨斗农场》登陆PS5与Xbox</title>
-  <link>https://www.gcores.com/articles/221687</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3638f8ef219f0e75946a7d70</guid>
-  <pubDate>Fri, 30 Oct 2026 05:10:35 +0000</pubDate>
+  <title>《恶魔连结》Steam版推出大型更新并新增中文与英文支持</title>
+  <link>https://www.gcores.com/articles/221737</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-88550bbb49a5d9b844ef029b</guid>
+  <pubDate>Sat, 31 Oct 2026 05:41:08 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Cloth Cat Games与Curveball Games宣布，多人园艺对战游戏《嗨斗农场》已推出PS5及Xbox Series X|S数字版，PC版即将推出。游戏含八个竞技场、强化道具和单人剧情模式，Switch版计划2027年初推出。</p><p><small>来源：<a href="https://www.gcores.com/articles/221687">机核</a></small></p><p><small>原文发布：2026-10-30 13:10（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>独立游戏发行商PLAYISM宣布，ChaoGames开发的《恶魔连结》Steam版推出大型更新，新增简体中文、繁体中文和英语支持，同时进行一周年促销。游戏以召唤师与恶魔德比伦缔结契约为背景，玩家通过召唤角色、刺激情绪收集魔力，并借助“邪眼洞察”解读对方内心以选择选项。</p><p><small>来源：<a href="https://www.gcores.com/articles/221737">机核</a></small></p><p><small>原文发布：2026-10-31 13:41（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《刺客信条》系列2026秋季动态：英灵殿新游戏+与开发中项目</title>
-  <link>https://www.gameres.com/901203407.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-03d654ff731d410a541a3020</guid>
-  <pubDate>Fri, 30 Oct 2026 03:16:00 +0000</pubDate>
+  <title>Studio Atelico的AI引擎进入抢先体验</title>
+  <link>https://www.gamesindustry.biz/studio-atelico-launches-atelico-ai-engine-into-early-access</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1dfe3de45b4100f71b32bbcb</guid>
+  <pubDate>Fri, 30 Oct 2026 14:39:49 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>育碧内容负责人Jean Guesdon介绍《刺客信条》系列近况：黑旗记忆重置推出最终重大更新；英灵殿11月5日上线新游戏+；代号Invictus与Hexe仍在开发，Hexe将于2027年分享重大更新；官方称目前未研发其他重制作品。</p><p><small>来源：<a href="https://www.gameres.com/901203407.html">GameRes</a></small></p><p><small>原文发布：2026-10-30 11:16（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Studio Atelico launches Atelico AI Engine into Early Access</small></p><p>Studio Atelico将其Atelico AI引擎开放抢先体验。该技术曾用于其首款游戏Bobium Brawlers，可在设备端运行，支持Unity、Unreal Engine和Godot，用于生成图像、运行语言模型、实现语音系统与AI驱动的角色行为，覆盖Windows、macOS、iOS和Linux。</p><p><small>来源：<a href="https://www.gamesindustry.biz/studio-atelico-launches-atelico-ai-engine-into-early-access">GamesIndustry</a></small></p><p><small>原文发布：2026-10-30 22:39（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Bungie宣布社区更新博客回归，将不定期发布</title>
-  <link>https://www.gcores.com/articles/221661</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bc03e432d80b1020c35b7296</guid>
-  <pubDate>Fri, 30 Oct 2026 01:28:00 +0000</pubDate>
+  <title>前暴雪CCO创立的Bonfire工作室首作Arkheron将于11月27日开启抢先体验</title>
+  <link>https://80.lv/articles/diablo-style-pvp-by-former-blizzard-cco-is-coming-to-early-access-in-november/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-046af8565a2f562f2cc8c83f</guid>
+  <pubDate>Fri, 30 Oct 2026 14:12:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Bungie宣布“Bungie社区更新”博客回归，不再每周固定更新，而是在有实质内容时不定期发布，用于通报工作室动态及《命运》和《马拉松》的规划。产品主管Josh Deane回应了《命运2》停服公告后的工作室现状与未来方向。</p><p><small>来源：<a href="https://www.gcores.com/articles/221661">机核</a></small></p><p><small>原文发布：2026-10-30 09:28（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Diablo-Style PvP by Former Blizzard CCO Is Coming to Early Access in November</small></p><p>Bonfire Studios首款游戏Arkheron将于11月27日在PC、PS5和Xbox Series X|S开启抢先体验。这是一款等距视角PvP游戏，15支三人队伍争夺登塔，无英雄与职业设定，依靠沟通和收集道具制定策略，楼层缩小类似大逃杀。</p><p><small>来源：<a href="https://80.lv/articles/diablo-style-pvp-by-former-blizzard-cco-is-coming-to-early-access-in-november/">80.lv</a></small></p><p><small>原文发布：2026-10-30 22:12（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>第一人称多人篮球游戏《友尽大扣篮》2027年登陆Steam</title>
-  <link>https://www.gcores.com/articles/221654</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-05f99882c7e36625572b7c18</guid>
-  <pubDate>Fri, 30 Oct 2026 01:00:00 +0000</pubDate>
+  <title>Roblox日活用户同比下降9%，公司拟加大生成式AI投入</title>
+  <link>https://www.gamedeveloper.com/business/roblox-growth-slumps-but-the-company-is-betting-big-on-ai-to-compensate</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-16af99825af8977cccf7d81d</guid>
+  <pubDate>Fri, 30 Oct 2026 18:30:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>独立工作室Katapult Games公布第一人称篮球游戏《友尽大扣篮》，计划2027年登陆PC Steam。游戏以物理驱动的传球、篮板和投篮操作为核心，支持1v1、2v2、3v3多人对战，包含多种风格球场、单人挑战模式及赛后外观与表情解锁。</p><p><small>来源：<a href="https://www.gcores.com/articles/221654">机核</a></small></p><p><small>原文发布：2026-10-30 09:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Roblox growth slumps, but the company is betting big on AI to compensate</small></p><p>Roblox季度财报显示，日活跃用户同比下降9%至1.38亿，低于1.45亿的预期；参与时长340亿小时，同比下降15%。公司称将加大对生成式AI游戏创作工具的投入，并表示上季度平台前100款游戏中超过80%使用了AI工具。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/roblox-growth-slumps-but-the-company-is-betting-big-on-ai-to-compensate">Game Developer</a> · <a href="https://www.gamesindustry.biz/roblox-q3-results-beat-expectations-despite-bookings-falling-12-to-17bn">GamesIndustry</a></small></p><p><small>原文发布：2026-10-31 02:30（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《杀戮尖塔2》下一大型测试补丁定于11月12日</title>
-  <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302236890</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-68803ff2bc2068e2b97e3ec4</guid>
-  <pubDate>Fri, 30 Oct 2026 01:25:04 +0000</pubDate>
+  <title>生软联合创始人泽舒克谈工作室关闭与EA高管决策</title>
+  <link>http://www.chuapp.com/article/291724.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-26eed3a16463cda19a635c86</guid>
+  <pubDate>Fri, 30 Oct 2026 12:10:23 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The Neowsletter - October 2026</small></p><p>《杀戮尖塔2》官方通讯称，团队自8月起集中开发早期访问路线图中的大型内容，下一大型测试补丁计划11月12日上线，先进入实验性测试分支，主分支将同步当前测试版内容；文中未透露新内容细节。</p><p><small>来源：<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302236890">Steam · Slay the Spire</a></small></p><p><small>原文发布：2026-10-30 09:25（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>BioWare联合创始人格雷格·泽舒克首次回应EA关闭生软一事，称自己早已在情感上抽离，更担心失业员工；他认为许多高管缺乏完整游戏开发经验，低估团队价值，并称EA被收购后生软失去制作下一款《质量效应》的机会。</p><p><small>来源：<a href="http://www.chuapp.com/article/291724.html">触乐</a> · <a href="https://www.gamedeveloper.com/business/report-ea-shut-down-bioware-in-favor-of-star-wars-battlefront-sequel-after-previously-decrying-licensed-games">Game Developer</a></small></p><p><small>原文发布：2026-10-30 20:10（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Xbox CEO称主机需求超过供应，但硬件收入同比下降14%</title>
-  <link>https://www.gamedeveloper.com/console/xbox-ceo-says-console-demand-is-outstripping-supply-as-sales-continue-to-drop</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-703251e0f322c04a0339b547</guid>
-  <pubDate>Thu, 29 Oct 2026 17:35:37 +0000</pubDate>
+  <title>《气球塔防6》57版本国服上线：新增狙击模范猴与Insta猴系统调整</title>
+  <link>https://www.gcores.com/articles/221695</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-35d3470778d60422b9afc065</guid>
+  <pubDate>Fri, 30 Oct 2026 05:08:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Xbox CEO says console demand is outstripping supply—but sales continue to drop</small></p><p>微软财报电话会上，Xbox CEO Asha Sharma称主机需求高于供应、销量下滑源于产能不足；但财报显示Xbox硬件收入同比降14%，且零售渠道未见Series X/S明显缺货。</p><p><small>来源：<a href="https://www.gamedeveloper.com/console/xbox-ceo-says-console-demand-is-outstripping-supply-as-sales-continue-to-drop">Game Developer</a> · <a href="https://www.gamesindustry.biz/xbox-first-party-content-partially-offsets-2-drop-in-q1-revenue-hardware-decreases-14">GamesIndustry</a></small></p><p><small>原文发布：2026-10-30 01:35（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《气球塔防6》57版本国服上线，新增狙击模范猴「S.P.I.D.E.R 蜘蛛猴」，具备视野共享、弹片溅射、军备切换与正午狙杀技能；Insta猴改为固定列表购买，新增社区创作地图「夺船大战」及精通模式任务。</p><p><small>来源：<a href="https://www.gcores.com/articles/221695">机核</a></small></p><p><small>原文发布：2026-10-30 13:08（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>像素叙事游戏《团地日和》在Steam发售，售价43.2元</title>
-  <link>https://www.gameres.com/901203413.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a9327bc6ec5670ed503d0b9a</guid>
-  <pubDate>Fri, 30 Oct 2026 05:02:00 +0000</pubDate>
+  <title>Unity Industry 2026年发布回顾与第四季度预览</title>
+  <link>https://unity.com/blog/unity-industry-product-releases-2026</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7778afd48a3fb4e7aa7bdcde</guid>
+  <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>独立发行商Analgesic Productions的像素剧情游戏《团地日和》已在Steam发售，首发价43.2元。玩家扮演少女星乃，为患痴呆症的奶奶重办团地夏日祭，需邀请51名年龄12至87岁的邻居参加，过程中触发源自作者童年经历的小游戏。</p><p><small>来源：<a href="https://www.gameres.com/901203413.html">GameRes</a></small></p><p><small>原文发布：2026-10-30 13:02（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：2026 Industry releases and what’s coming in Q4</small></p><p>Unity官方回顾2026年Unity Industry产品线更新，包括浏览器端3D编辑器Unity Studio、Unity 6.4至6.6、Asset Manager自托管部署、Pipeline封闭测试、Simulation Pro抢先体验，并预览第四季度实验性AI工作流与USD工具包。</p><p><small>来源：<a href="https://unity.com/blog/unity-industry-product-releases-2026">Unity</a></small></p><p><small>原文发布：2026-10-30 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>完美世界2026年Q3扣非净利润4.71亿元，《异环》全球流水超27亿元</title>
-  <link>https://www.gameres.com/901203412.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b212b89b1e81d591781d6f61</guid>
-  <pubDate>Fri, 30 Oct 2026 04:44:00 +0000</pubDate>
+  <title>《白银之城》定档12月14日全球公测，登陆PC与移动端</title>
+  <link>https://www.gcores.com/articles/221736</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4b2e1661a2efc767b565ea9d</guid>
+  <pubDate>Sat, 31 Oct 2026 04:32:45 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>完美世界2026年第三季度营收23.62亿元，同比增长36.85%，扣非净利润4.71亿元，为2021年Q4以来单季最高。4月底上线的《异环》截至10月28日全球累计流水超27亿元，海外流水贡献高于国内。</p><p><small>来源：<a href="https://www.gameres.com/901203412.html">GameRes</a> · <a href="https://www.gameres.com/901203411.html">GameRes</a></small></p><p><small>原文发布：2026-10-30 12:44（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>乐元素宣布，虚幻引擎5大世界动作RPG《白银之城》将于2026年12月14日开启全球公测，登陆PC、PlayStation 5、Android和iOS平台，官方称全球预约已突破1500万。</p><p><small>来源：<a href="https://www.gcores.com/articles/221736">机核</a></small></p><p><small>原文发布：2026-10-31 12:32（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>触乐作者谈烹饪游戏：从《主厨人生》到《大厨的轮班》</title>
-  <link>http://www.chuapp.com/article/291721.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4d8d3ac8e47b54739b4844cb</guid>
-  <pubDate>Fri, 30 Oct 2026 02:02:29 +0000</pubDate>
+  <title>独立RPG《Queen&#x27;s Domain》发售：融合国王密令与黑暗之魂</title>
+  <link>https://80.lv/articles/this-new-retro-fantasy-indie-rpg-channels-dark-souls-and-king-s-field/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fdeddc2091c1b39862530687</guid>
+  <pubDate>Sat, 31 Oct 2026 00:13:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐作者讲述自己喜爱虚拟烹饪却现实中厨艺普通的经历，趁Steam烹饪游戏节购入《主厨人生》及DLC和打字烹饪游戏《大厨的轮班》，认为前者过于还原现实、操作压力大，后者上手快但中文本地化存在字词长度与翻译问题。</p><p><small>来源：<a href="http://www.chuapp.com/article/291721.html">触乐</a></small></p><p><small>原文发布：2026-10-30 10:02（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This New Retro Fantasy Indie RPG Channels Dark Souls and King&#x27;s Field</small></p><p>两人工作室Freshly Baked Games开发的第一人称奇幻动作RPG《Queen&#x27;s Domain》已在PC、PS5、Xbox Series X|S和Switch 2发售，玩家在岛上寻找失踪的父亲，游戏含50余种近战武器、100余种敌人与可升级飞行的圣剑。</p><p><small>来源：<a href="https://80.lv/articles/this-new-retro-fantasy-indie-rpg-channels-dark-souls-and-king-s-field/">80.lv</a></small></p><p><small>原文发布：2026-10-31 08:13（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《上古卷轴6》或定名Sentinel，与落锤省设定相关</title>
-  <link>https://80.lv/articles/the-elder-scrolls-6-may-finally-have-a-name-confirmation-and-it-makes-perfect-sense/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9b86fa1869f8dd056f85980f</guid>
-  <pubDate>Thu, 29 Oct 2026 20:09:00 +0000</pubDate>
+  <title>《万圣节：游戏》邀请原版迈克尔·迈尔斯演员参与动作捕捉</title>
+  <link>https://80.lv/articles/new-halloween-game-put-original-michael-myers-actor-in-a-mocap-suit/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1ad14ce0311f9db7fa1b07f2</guid>
+  <pubDate>Fri, 30 Oct 2026 21:03:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The Elder Scrolls 6 May Finally Have a Name Confirmation and It Makes Perfect Sense</small></p><p>80.lv援引The Verge报道称，《上古卷轴6》据传正式副标题为Sentinel，可能于11月公布，或与《天际》发售15周年同期；Sentinel是落锤省西北部的王国与港口城市，Bethesda尚未官方确认。</p><p><small>来源：<a href="https://80.lv/articles/the-elder-scrolls-6-may-finally-have-a-name-confirmation-and-it-makes-perfect-sense/">80.lv</a></small></p><p><small>原文发布：2026-10-30 04:09（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：New Halloween Game Put Original Michael Myers Actor in a Mocap Suit</small></p><p>IllFonic首席创意官Jared Gerritzen介绍《万圣节：游戏》如何还原1978年原版电影的哈登菲尔德小镇，包括邀请原版迈克尔·迈尔斯演员Nick Castle穿动捕服录制动作、使用UE5动态光照，以及设计可交互NPC系统。</p><p><small>来源：<a href="https://80.lv/articles/new-halloween-game-put-original-michael-myers-actor-in-a-mocap-suit/">80.lv</a></small></p><p><small>原文发布：2026-10-31 05:03（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《杀手》新任务：Jacksepticeye饰演网红反派Finn Colton</title>
-  <link>https://80.lv/articles/how-hitman-devs-turned-jacksepticeye-into-a-violent-narcissist-in-newest-mission/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c5b7553a7ba566d1b8ad1210</guid>
-  <pubDate>Thu, 29 Oct 2026 19:34:00 +0000</pubDate>
+  <title>Anthropic更新Claude Code规则，禁止复刻现有游戏</title>
+  <link>https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c0e6fef2fffe17406578e207</guid>
+  <pubDate>Fri, 30 Oct 2026 18:52:20 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How Hitman Devs Turned Jacksepticeye Into a “Violent Narcissist” in Newest Mission</small></p><p>IO Interactive在《杀手：暗杀世界》新限时目标任务《The Host》中，让YouTuber Jacksepticeye（本名Seán McLoughlin）饰演网红Finn Colton。任务于2026年10月29日至11月25日免费开放，玩家扮演47潜入其直播宅邸。</p><p><small>来源：<a href="https://80.lv/articles/how-hitman-devs-turned-jacksepticeye-into-a-violent-narcissist-in-newest-mission/">80.lv</a></small></p><p><small>原文发布：2026-10-30 03:34（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Anthropic orders AI tool Claude to stop remaking video games</small></p><p>Anthropic确认在Opus 5.5上为Claude Code增加提示词规则，要求只做原创游戏、类型游戏或基于用户自有设计与素材的游戏，不得复刻特定现有游戏，即使改名或自称原创；该规则无法关闭。</p><p><small>来源：<a href="https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games">Game Developer</a></small></p><p><small>原文发布：2026-10-31 02:52（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Second Life引入Luau脚本与VS Code集成，面向现代游戏开发者</title>
-  <link>https://80.lv/articles/second-life-wants-its-23-year-old-world-to-be-a-modern-game-platform/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c9973deda1560ccb57f97887</guid>
-  <pubDate>Thu, 29 Oct 2026 18:55:00 +0000</pubDate>
+  <title>John Romero被取消项目获新发行商，团队规模缩减至约15人</title>
+  <link>https://www.gamedeveloper.com/business/john-romero-canceled-game-finds-a-new-publisher-amidst-an-overall-scope-change</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dbfd2b35c4e63cb6a9c3e946</guid>
+  <pubDate>Fri, 30 Oct 2026 15:33:27 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Second Life Wants Its 23-Year-Old World To Be a Modern Game Platform</small></p><p>Linden Lab产品高级副总裁Anya Kanevsky介绍，Second Life在保留LSL的同时引入与Roblox Luau相关的Lua脚本、VS Code集成和实时迭代工作流，并称月活约70万、超11%用户参与脚本创作。</p><p><small>来源：<a href="https://80.lv/articles/second-life-wants-its-23-year-old-world-to-be-a-modern-game-platform/">80.lv</a></small></p><p><small>原文发布：2026-10-30 02:55（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：John Romero&#x27;s canceled game finds a new publisher amidst an overall scope change</small></p><p>John Romero向VGC确认，其工作室此前因发行商撤资而取消的项目已找到新发行商，团队从原计划100多人缩减至约15-16人，游戏概念完全重新设计，发行商名称与游戏内容尚未公布。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/john-romero-canceled-game-finds-a-new-publisher-amidst-an-overall-scope-change">Game Developer</a></small></p><p><small>原文发布：2026-10-30 23:33（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Netflix将改编《绝地求生》真人剧，唐纳德·格洛弗编剧并主演</title>
-  <link>https://www.gamedeveloper.com/business/netflix-adapts-krafton-pubg-to-be-written-and-led-by-donald-glover</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f6f2d8bf4719c7bf507295eb</guid>
-  <pubDate>Thu, 29 Oct 2026 18:17:55 +0000</pubDate>
+  <title>Maddy Makes Games为支持BDS抵制将《蔚蓝》和《塔倒》从Xbox下架</title>
+  <link>https://www.gamesindustry.biz/maddy-makes-games-removes-celeste-and-towerfall-from-xbox-in-support-of-pro-palestinian-bds-boycott</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-48cf0bb48f69e72b74085f27</guid>
+  <pubDate>Fri, 30 Oct 2026 12:10:27 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Donald Glover to direct, star in Netflix adaptation of PUBG Battlegrounds</small></p><p>Krafton宣布Netflix将把《绝地求生》改编为真人剧集，唐纳德·格洛弗参与编剧、制片并主演。报道提及该游戏在转为免费前销量超过7500万份，但未公布改编剧集的时间表。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/netflix-adapts-krafton-pubg-to-be-written-and-led-by-donald-glover">Game Developer</a></small></p><p><small>原文发布：2026-10-30 02:17（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Maddy Makes Games removes Celeste and TowerFall from Xbox in support of pro-Palestinian BDS boycott</small></p><p>独立开发者Maddy Makes Games确认已将《蔚蓝》和《塔倒》从Xbox平台下架，以支持亲巴勒斯坦的BDS抵制运动。报道称House House、Ice Water等开发者也有类似行动，背景涉及对微软Azure和AI技术被以色列国防部使用的担忧。</p><p><small>来源：<a href="https://www.gamesindustry.biz/maddy-makes-games-removes-celeste-and-towerfall-from-xbox-in-support-of-pro-palestinian-bds-boycott">GamesIndustry</a></small></p><p><small>原文发布：2026-10-30 20:10（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>合并后的Skydance要求员工每周五天到岗，并提供自愿买断方案</title>
-  <link>https://www.gamesindustry.biz/newly-merged-skydance-mandates-staff-return-to-office-five-days-a-week-offers-voluntary-buyout-program</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ab80e662056577f0e6f23a0a</guid>
-  <pubDate>Thu, 29 Oct 2026 14:29:45 +0000</pubDate>
+  <title>触乐编辑谈高强度通关《影之刃零》后的疲惫与游戏习惯变化</title>
+  <link>http://www.chuapp.com/article/291725.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8c3e5b750944856401b0a694</guid>
+  <pubDate>Fri, 30 Oct 2026 12:09:11 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Newly merged Skydance mandates staff return to office five days a week, offers Voluntary Buyout Program</small></p><p>派拉蒙与华纳兄弟探索完成1110亿美元合并后，Skydance要求员工每周五天到办公室，并按地点分阶段推行；同时推出自愿买断计划，允许符合条件的员工选择离职。</p><p><small>来源：<a href="https://www.gamesindustry.biz/newly-merged-skydance-mandates-staff-return-to-office-five-days-a-week-offers-voluntary-buyout-program">GamesIndustry</a></small></p><p><small>原文发布：2026-10-29 22:29（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐作者提前测评《影之刃零》，47.5小时通关、死亡222次，感到腰手疼痛；由此回顾自己近年精力下降、通关强迫症消失，并谈到制作人也常摸清机制后停玩，以及用Mod跳过重复内容。</p><p><small>来源：<a href="http://www.chuapp.com/article/291725.html">触乐</a></small></p><p><small>原文发布：2026-10-30 20:09（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>天美与卡普空谈《怪物猎人：旅人》手游合作与设计取舍</title>
-  <link>https://www.gamesindustry.biz/we-are-very-eager-to-learn-from-the-real-veterans-how-tencents-timi-studio-group-collaborated-with-capcom-on-monster-hunter-outlanders</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7f4313a9a32699934d494b1a</guid>
-  <pubDate>Thu, 29 Oct 2026 13:30:00 +0000</pubDate>
+  <title>游戏商店面临AI劣质游戏泛滥问题</title>
+  <link>https://www.gamesindustry.biz/gaming-storefronts-are-facing-a-slop-grenade-problem-opinion</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-62d8f25c3c1dfaa1c33894df</guid>
+  <pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：&quot;We are very eager to learn from the real veterans&quot; – How Tencent&#x27;s TiMi Studio Group collaborated with Capcom on Monster Hunter Outlanders</small></p><p>腾讯天美工作室群开发总监Bryan Li介绍《怪物猎人：旅人》当日上线，团队在保留系列怪物、武器与打击感的同时，为移动端设计经典与简化两种操作模式，新增主线剧情，并说明与卡普空在设计评审和长线运营上的协作方式。</p><p><small>来源：<a href="https://www.gamesindustry.biz/we-are-very-eager-to-learn-from-the-real-veterans-how-tencents-timi-studio-group-collaborated-with-capcom-on-monster-hunter-outlanders">GamesIndustry</a></small></p><p><small>原文发布：2026-10-29 21:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Gaming storefronts are facing a Slop Grenade problem | Opinion</small></p><p>文章指出，AI工具使制作低质量游戏的门槛大幅降低，Steam等商店出现大量快速产出、含侵权素材的作品，可能冲击可发现性并分流真正游戏的收入；作者认为现有开放上架机制难以应对。</p><p><strong>背景与变化</strong><br>作者以复古游戏社区被自动化反编译作品淹没为例，并借用“slop grenade”概念说明AI产出把审核负担转嫁给他人；同时指出消费者对AI游戏的反感理由多样且合理。</p><p><strong>策划视角</strong><br>可追问：若“AI游戏”难以清晰定义，商店的标签与过滤机制应如何设计，才能既保护可发现性又不误伤合理使用AI工具的作品？</p><p><small>来源：<a href="https://www.gamesindustry.biz/gaming-storefronts-are-facing-a-slop-grenade-problem-opinion">GamesIndustry</a></small></p><p><small>原文发布：2026-10-30 20:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>2Awesome Studio谈《Altered Alma》开发与独立工作室生存</title>
-  <link>https://www.gamesindustry.biz/i-wish-i-had-the-formula-2awesome-studio-on-navigating-indie-development-while-creating-altered-alma-its-biggest-project-to-date</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c8483a15abfd0d8a3cac56bc</guid>
-  <pubDate>Thu, 29 Oct 2026 13:04:14 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：&quot;I wish I had the formula&quot; – 2Awesome Studio on navigating indie development while creating Altered Alma, its biggest project to date</small></p><p>2Awesome Studio联合创始人Alexander Santiago介绍，工作室正在完成其规模最大的作品《Altered Alma》，该作在Kickstarter筹得超26万欧元，并谈及工作室依靠众筹、政府资助、贷款、发行商支持及外包服务维持运营。</p><p><small>来源：<a href="https://www.gamesindustry.biz/i-wish-i-had-the-formula-2awesome-studio-on-navigating-indie-development-while-creating-altered-alma-its-biggest-project-to-date">GamesIndustry</a></small></p><p><small>原文发布：2026-10-29 21:04（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>机核专访《禁闭求生2》执行制作人Marcus：更新节奏、蜈蚣Boss与中文语音</title>
-  <link>https://www.gcores.com/articles/221509</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-35dfd1bc615628e4ae5bfa5a</guid>
-  <pubDate>Fri, 30 Oct 2026 02:00:00 +0000</pubDate>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>机核在北京核聚变2026采访《禁闭求生2》执行制作人Marcus，谈及秋季更新“Rot and Ruin”的新区域Woodpile、蜈蚣Boss与基地涂装，内容更新与系统更新交替推进，冬季更新将开放与开场爆炸相关的新区域，1.0版将加入中文语音。</p><p><strong>设计选择</strong><br>作者按更新规划、Boss设计、难度与新手引导、建造涂装、虫骑、社区反馈等线索组织采访，呈现团队先观察蜈蚣现实习性再转化为战斗机制、按玩家阶段调整难度、先丰富建造部件再开放涂装等取舍。</p><p><strong>策划视角</strong><br>可对照采访中“听取社区反馈但先找问题根因”的说法，追问团队如何界定玩家建议与设计判断之间的边界。</p><p><small>来源：<a href="https://www.gcores.com/articles/221509">机核</a></small></p><p><small>原文发布：2026-10-30 10:00（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>OpenAI如何检测前沿模型失准</title>
-  <link>https://openai.com/index/how-we-detect-frontier-model-misalignment</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ff8d1610c91dd8f75ff92857</guid>
-  <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
+  <title>英伟达与MIT开源基于MiniMax H3的视频增强方案，支持4K重生成</title>
+  <link>https://www.qbitai.com/2026/10/506743.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e4e5bb7d2fd9610c20e63477</guid>
+  <pubDate>Fri, 30 Oct 2026 07:31:11 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：How we detect frontier model misalignment</small></p><p>OpenAI称其采用分层监控来检测前沿模型的失准和未经授权的智能体行为，以便响应人员在事件升级前介入。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/how-we-detect-frontier-model-misalignment">OpenAI</a></small></p><p><small>原文发布：2026-10-29 17:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>英伟达与MIT团队在Hugging Face发布Open-H3-Regenerate-2K模型权重，推理代码在NVlabs/Sana仓库开放。该方案基于MiniMax H3，将低分辨率视频草稿重生成高分辨率视频，支持2K输出，最高可做4K重生成。</p><p><small>来源：<a href="https://www.qbitai.com/2026/10/506743.html">量子位</a></small></p><p><small>原文发布：2026-10-30 15:31（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>AnySpeechRecognizer与AnyDecisionModel：苹果平台上的开源语音与决策模型</title>
-  <link>https://huggingface.co/blog/anydecisionmodel</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bd13877c1e997f4e53efdf17</guid>
-  <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+  <title>Claude Opus 5.5推动氛围编程游戏进入新阶段</title>
+  <link>https://simonwillison.net/2026/Oct/28/vibe-game-development/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8c8f1b66fffb5be40902c2aa</guid>
+  <pubDate>Wed, 28 Oct 2026 13:55:15 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms</small></p><p>介绍两个Swift包：AnySpeechRecognizer在苹果SpeechAnalyzer接口下可切换Parakeet、Qwen3-ASR等本地识别引擎并加入说话人分离；AnyDecisionModel以概率输出回答是/否、多选和评分问题，支持设备端或远程决策模型。</p><p><small>来源：<a href="https://huggingface.co/blog/anydecisionmodel">HuggingFace Blog</a></small></p><p><small>原文发布：2026-10-29 08:00（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>OpenAI为部分ChatGPT订阅提供等额API额度</title>
-  <link>https://simonwillison.net/2026/Oct/29/api-credits/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e5718c81c931c77caa069212</guid>
-  <pubDate>Thu, 29 Oct 2026 22:48:29 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：API credits benefit for eligible ChatGPT subscriptions</small></p><p>OpenAI推出与Anthropic类似的政策：100、200、500美元档ChatGPT订阅用户可获得等额API额度，用于其API组织。作者称自己同时持有两家订阅，额度由订阅覆盖后可能发布公开演示。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/29/api-credits/">Simon Willison</a></small></p><p><small>原文发布：2026-10-30 06:48（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>用自主Fable模型构建多人游戏世界</title>
-  <link>https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6d83da0d06e6a3ab2d16aa2e</guid>
-  <pubDate>Thu, 29 Oct 2026 17:00:26 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Building a multiplayer game world with autonomous Fable-class models</small></p><p>Simon Willison介绍Jacob Sansbury团队开发的多人游戏环境Spawn：玩家可用提示词让游戏内AI Savi修改世界；团队称由Fable模型驱动的智能体直接改代码并每小时上线，约六成工作源于生产错误或缺陷报告。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">Simon Willison</a></small></p><p><small>原文发布：2026-10-30 01:00（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>阶跃STEPX Neo发布两周后首次升级，扩展智能体功能</title>
-  <link>https://www.qbitai.com/2026/10/506554.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ae487ec592ec74ae5f57bc23</guid>
-  <pubDate>Thu, 29 Oct 2026 09:58:26 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>阶跃终端宣布，大模型原生智能体手机STEPX Neo发布两周后迎来首次升级，覆盖视频创作、生活服务和工作任务。用户可通过智能体阶跃Amoo调用剪映生成Vlog、进行图片和视频再创作，并接入支付宝AI付和WorkBuddy。</p><p><small>来源：<a href="https://www.qbitai.com/2026/10/506554.html">量子位</a></small></p><p><small>原文发布：2026-10-29 17:58（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>Genspark Media Studio上线：多模型协作生成视频与短剧</title>
-  <link>https://www.qbitai.com/2026/10/506478.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-970846aad7d8f0e171400e82</guid>
-  <pubDate>Thu, 29 Oct 2026 06:53:19 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>Genspark发布视频Agent工作台Media Studio，接入20多家厂商的70多个模型版本，由大语言模型担任导演，调度视频、图像、音频模型完成短片、知识讲解和短剧制作，并提供故事圣经、局部重拍、3D白模预演等功能。</p><p><small>来源：<a href="https://www.qbitai.com/2026/10/506478.html">量子位</a></small></p><p><small>原文发布：2026-10-29 14:53（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：The October inflection point for vibe game development</small></p><p>Simon Willison称2026年10月是氛围编程游戏的转折点，认为Claude Opus 5.5在3D建模、音乐生成和游戏设计上有明显提升，并用它做出四款自己真正喜欢玩的浏览器游戏，其中Battle Drones最成功。</p><p><small>来源：<a href="https://simonwillison.net/2026/Oct/28/vibe-game-development/">Simon Willison</a></small></p><p><small>原文发布：2026-10-28 21:55（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>
