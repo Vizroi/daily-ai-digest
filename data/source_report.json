@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T06:05:28.891073+00:00",
+  "checked_at": "2026-11-01T06:35:06.208783+00:00",
   "sources": [
     {
       "id": "youtube-gmtk",
@@ -168,9 +168,9 @@
       "name": "Steam · No Man's Sky",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/275850/",
-      "state": "ok",
-      "count": 1,
-      "detail": "读取正常，共检查 20 条，收录 1 条；早于最近 72 小时 19 条；本轮最新原文日期 2026-10-28（北京时间）"
+      "state": "empty",
+      "count": 0,
+      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-10-28（北京时间）"
     },
     {
       "id": "factorio-friday-facts",
@@ -223,8 +223,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 10,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 10 条候选"
+      "count": 7,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 7 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 19,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 19 条候选"
+      "count": 11,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 11 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -286,8 +286,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 7,
-      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 7 条候选"
+      "count": 5,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 5 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -367,8 +367,8 @@
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-development/",
       "state": "ok",
-      "count": 4,
-      "detail": "读取 16 篇文章页面；720 小时时间窗内取得 4 条候选"
+      "count": 5,
+      "detail": "读取 16 篇文章页面；720 小时时间窗内取得 5 条候选"
     },
     {
       "id": "web-5be5c101f0",
@@ -376,8 +376,8 @@
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-news/",
       "state": "ok",
-      "count": 5,
-      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 5 条候选"
+      "count": 4,
+      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 4 条候选"
     },
     {
       "id": "manual-inbox",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 211,
-    "deduplicated": 211,
-    "retained": 211,
+    "raw": 197,
+    "deduplicated": 197,
+    "retained": 197,
     "restricted_withheld": 0
   }
 }
