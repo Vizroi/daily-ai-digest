@@ -1,29 +1,106 @@
 {
   "schema_version": 3,
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T14:35:27.423167+08:00",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T14:47:50.268400+08:00",
   "news": [
     {
-      "source_id": "web-68554a31d0",
-      "source_url": "https://www.chuapp.com/feed",
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "10b19442396a9ca3",
-      "title": "触乐本周行业大事：10月195款游戏版号下发，《白银之城》定档，《影之刃零》正式发售，《战舰少女R》核心主创离世",
-      "url": "http://www.chuapp.com/article/291726.html",
+      "key": "551320c20495f0b3",
+      "title": "《小偷模拟器》“私人收藏”DLC将于本月发售",
+      "url": "https://www.gcores.com/articles/221789",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
-      "coverage": 2,
+      "coverage": 1,
       "sources": [
-        "触乐",
-        "GameRes"
+        "机核"
       ],
-      "published": "2026-10-31T08:13:48+00:00",
+      "published": "2026-11-02T00:40:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "■ 10月195款游戏版号下发，散爆少前新作过审，腾讯网易乐元素均在列 10月29日，国家新闻出版署公布2026年10月国产网络游戏审批信息，同步更新进口网络游戏审批信息及审批变更信息。本月共195款游戏过审，其中国产网络游戏183款、进口网络游戏12款；另有10条游戏审批变更信息同步披露。 从数量上来说，本月相较9月的209款（国产206款、进口3款）减少14款，进口版号数量明显回升。从申报类别看，本月移动类125款、移动-休闲益智类48款、移动与客户端双端产品16款、客户端产品4款，另有移动与网页双端产品1款、游戏机（悦动元气机）游戏1款。移动端产品仍占绝对主体，双端与客户端产品合计20款，占比约一成。 截至10月，2026年累计下发游戏版号1766个，其中国产1708个、进口58个。 国产版号名单中，多家头部厂商在列：腾讯《不可卷卷书店》、网易雷火《桃花》、完美世界《诛仙：归来》、三七互娱《斗罗大陆：第十魂环》与《闲田悠悠》、恺英网络《武林外传之七侠重游》、波克科技《勇闯奇幻岛》、四三九九《神将世界：破晓》、游族网络《拇指人领主》等。经典IP改编与长线续作占比可观，《诛仙：归来》《斗罗大陆：第十魂环》《武林外传之七侠重游》均为老牌IP的新版本。 本月版号名单中值得关注的产品有散爆网络《少女前线：蓝蝶契约》，这是散爆旗下黑卡蒂工作室开发的二次元第三人称射击作品，前身为在东南亚测",
+      "summary_raw": "《小偷模拟器》“私人收藏”DLC将于本月发售。开发者表示：\"在俯瞰城市的高处，四位收藏家把自家别墅改成了私人博物馆：钟表匠、小提琴家、教授和金融家，每人手里都有不该有的东西。一位匿名委托人称之为 解放 。你的律师会反对。幸好你没有律师。” 在本次的扩展内容中，每栋别墅都是一场不同的盗窃。玩家需要算准住宅中的规律，在排练时穿过音乐厅。避开教授的灯光。最后是压轴一幕：激光走廊、武装守卫，还有一台靠备用电源运转的摄像头。 需要注意的是，没有当铺敢收独一无二的赃物。在藏身处的架子上集齐一套收藏，黑湾上就会出现买家。既可以全部留给自己，也可以全部留在架子上，换取街区内的永久加成。玩家可以在电脑上的“偷盗合约”里接下合约，最低等级27。",
+      "rss_content": "",
+      "content_kind": "rss_summary",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "《小偷模拟器》“私人收藏”DLC将于本月发售",
+          "url": "https://www.gcores.com/articles/221789",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-02T00:40:00+00:00"
+        }
+      ],
+      "score": 30,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 8
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 6.1306301111111114,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "",
+      "has_body": false,
+      "body_truncated": false,
+      "title_cn": "《小偷模拟器》私人收藏DLC本月发售",
+      "what": "《小偷模拟器》公布“私人收藏”DLC，本月发售。四栋别墅分别属于钟表匠、小提琴家、教授和金融家，每栋对应不同盗窃玩法，包括音乐厅排练、避开灯光、激光走廊与武装守卫。玩家需在藏身处集齐整套收藏，才会出现买家，也可保留收藏换取街区永久加成。",
+      "why": "",
+      "for_you": "",
+      "degraded": "source_excerpt"
+    },
+    {
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "e9a579eb6fb77da5",
+      "title": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利",
+      "url": "https://www.gameres.com/901203418.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GameRes"
+      ],
+      "published": "2026-11-01T11:38:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "米哈游首款小星球生活模拟游戏《星布谷地》定档12月4日开启PC、iOS、Android三端公测，公开核心玩法、长线更新计划及多重上线福利。",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -37,18 +114,97 @@
       },
       "members": [
         {
-          "title": "触乐本周行业大事：10月195款游戏版号下发，《白银之城》定档，《影之刃零》正式发售，《战舰少女R》核心主创离世",
-          "url": "http://www.chuapp.com/article/291726.html",
-          "source": "触乐",
-          "lang": "zh",
-          "published": "2026-10-31T08:13:48+00:00"
-        },
-        {
-          "title": "【2026年10月】183款国产网络游戏、12款进口网络游戏版号获批",
-          "url": "https://www.gameres.com/901203393.html",
+          "title": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利",
+          "url": "https://www.gameres.com/901203418.html",
           "source": "GameRes",
           "lang": "zh",
-          "published": "2026-10-29T11:05:00+00:00"
+          "published": "2026-11-01T11:38:00+00:00"
+        }
+      ],
+      "score": 30,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 8
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 19.163963444444445,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "11月1日，上海 —— 米哈游宣布旗下首款自主研发的生活模拟游戏《星布谷地》于12月4日开启公测，支持 PC、iOS、Android 三端互通。今日《星布谷地》公测前瞻特别节目揭晓了游戏的核心玩法系统、丰富友邻，以及一系列公测庆典活动与福利。\n观看《星布谷地》 公测PV：\n在《星布谷地》中，玩家将化身\"种星人\"，随着星海精灵奥陌陌抵达星海，开启属于自己的星球生活。玩家在自己的星球上种下一颗\"露卡种子\"，随着时间推移，种子会长成\"露卡树\"，逐渐塑造星球的地貌、四季与生态。星球上的生活从不孤单：随着游戏展开，越来越多各具特色的友邻伙伴将与玩家相遇，一同开启美好生活。在共度的时光中，建立起与世间万物的「连接」。\n从种植耕作、烹饪美食，到赶海采集、捕虫钓鱼；从布置温馨小家的家装系统到一键布置精彩场景的星蓝图；星布谷地提供了丰富多彩的生活模拟玩法，玩家还可以在星海中遨游，驾船前往风貌各异的星屿旅行，与其他种星人互动社交，寄送承载心意的\"星念\"，结成\"星空好友\"，共同见证彼此的星球生活。\n为庆祝公测上线，米哈游将同步推出多项活动：玩家可通过官网参与\"好星友就这么搭\"预约组队活动，三人成行完成预约即可获得自选服饰奖励「阿奇宝上衣」；同时官网上新了预约抽奖活动，参与就有机会获得精选数码好礼、游戏道具。\"创想星计划\"创作者激励活动已经启动，为创作者提供百万现金激励及官方周边；配套的\"创想星工坊\"创作中心同步上线，为内容创作者提供长期成长支持与流量扶持；公测前参与预约的玩家，可在公测后登录游戏领取预约礼物「星空贴贴手灯」及「小星苗」套装等里程碑奖励；在美术表现上，游戏展现了总量近千件的免费外观设计。服装从清新田园到国风雅韵、从日常便装到节日盛装，玩家可随场景自由切换；家具涵盖温馨、复古等多种风格，适配室内与户外不同空间，供玩家随心组合布置。这些资源可随玩家日常参与逐步解锁，带来长线的视觉新鲜感。官方周边店铺亦将于公测当日正式开业。\n此外，更多线下活动仍在筹备中，后续将陆续公布。《星布谷地》预约已开启，玩家可通过各大应用平台搜索\"星布谷地\"完成预约。\n更多关于《星布谷地》的最新资讯，请前往官方网站：planet.mihoyo.com，以及关注官方社群账号 @星布谷地（米游社、B站、小红书、抖音、微博、快手、视频号）。\n关于《星布谷地》\n《星布谷地》是米哈游自主研发的生活模拟游戏。在这里，你将拥有一颗属于自己的星球，自由搭建家园、探索星海，与毛茸茸的友邻们缔结友谊，漫步星空街市感受欢声笑声。在共度的时光中，遇见生活的无限可能。\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《星布谷地》12月4日公测，公布生活模拟玩法与上线活动",
+      "what": "米哈游宣布生活模拟游戏《星布谷地》于12月4日开启公测，支持PC、iOS、Android三端互通。官方前瞻节目介绍了露卡种子与露卡树塑造星球地貌生态、种植烹饪赶海捕虫钓鱼、家装与星蓝图、驾船前往星屿社交等玩法，并公布预约组队、抽奖、创作者激励及预约奖励等活动。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "94b07efba3e3ad91",
+      "title": "《影之刃零》发售后72小时销量突破400万",
+      "url": "https://www.gcores.com/articles/221799",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 2,
+      "sources": [
+        "机核",
+        "GameRes"
+      ],
+      "published": "2026-11-02T02:41:06+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "由灵游坊自主研发及发行，虚幻5引擎打造的暗黑武侠动作冒险游戏《影之刃零》发售后72小时销量突破400万。官方表示，几天来大家反馈的各种问题团队也已一一记录并着手进行优化调整，会在近期先进行一批明显bug的修复。团队也再一次感谢大家的支持与厚爱。 在本作中，玩家化身心脏遭受重创的剑客，在仅余六十六天的生命里，逃亡于刀光剑影和腥风血雨之间，并粉碎一桩笼罩在整个武林上方的惊天阴谋。在失序末法的武林中以身证道，以命寻心。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "《影之刃零》发售后72小时销量突破400万",
+          "url": "https://www.gcores.com/articles/221799",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-02T02:41:06+00:00"
+        },
+        {
+          "title": "《影之刃零》72小时销量突破400万！",
+          "url": "https://www.gameres.com/901203425.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-11-02T02:19:00+00:00"
         }
       ],
       "score": 25,
@@ -74,17 +230,173 @@
           "value": 3
         }
       ],
-      "topic": "新游动态",
+      "topic": "行业动态",
       "is_analysis": false,
-      "age_hours": 22.36095087972222,
+      "age_hours": 4.112296777777778,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "世纪华通、恺英网络、完美世界、巨人网络相继公布2026年第三季度报告。《蔚蓝档案》日服运营权移交NEXON，悠星六年代理关系终结。Valve Steam业务团队在演讲中回应Steam上AI生成游戏泛滥问题。\n10月29日，国家新闻出版署公布2026年10月国产网络游戏审批信息，同步更新进口网络游戏审批信息及审批变更信息。本月共195款游戏过审，其中国产网络游戏183款、进口网络游戏12款；另有10条游戏审批变更信息同步披露。\n从数量上来说，本月相较9月的209款（国产206款、进口3款）减少14款，进口版号数量明显回升。从申报类别看，本月移动类125款、移动-休闲益智类48款、移动与客户端双端产品16款、客户端产品4款，另有移动与网页双端产品1款、游戏机（悦动元气机）游戏1款。移动端产品仍占绝对主体，双端与客户端产品合计20款，占比约一成。\n截至10月，2026年累计下发游戏版号1766个，其中国产1708个、进口58个。\n国产版号名单中，多家头部厂商在列：腾讯《不可卷卷书店》、网易雷火《桃花》、完美世界《诛仙：归来》、三七互娱《斗罗大陆：第十魂环》与《闲田悠悠》、恺英网络《武林外传之七侠重游》、波克科技《勇闯奇幻岛》、四三九九《神将世界：破晓》、游族网络《拇指人领主》等。经典IP改编与长线续作占比可观，《诛仙：归来》《斗罗大陆：第十魂环》《武林外传之七侠重游》均为老牌IP的新版本。\n本月版号名单中值得关注的产品有散爆网络《少女前线：蓝蝶契约》，这是散爆旗下黑卡蒂工作室开发的二次元第三人称射击作品，前身为在东南亚测试后调整方向的《Project NET》，研发路线由PVP对抗改为PVE共斗，主打4人组队协作。该产品也是“少女前线”IP在十周年节点推出的衍生新作。\n《他予回声》是乐元素推出的一款女性向偶像游戏，目前，游戏已经曝光两队偶像团体组合。就在前段时间，这款产品已经开启首次删档不付费小规模封闭技术性测试，玩家讨论度颇高。\n灵犀互娱《忘却前夜：银钥》大概率为策略卡牌RPG《忘却前夜》的国服版本，这款游戏在海外已运营两年。这款游戏为一款类杀戮尖塔卡牌肉鸽的二次元产品，在美术、世界观方面融合克苏鲁元素。\n紫龙游戏《奥丁：神叛》为本月最受关注的进口产品之一，为韩国发行的MMORPG，移动与客户端双端过审。该作以北欧神话为背景，在韩服运营已有一段时间，此次国服版号落地或将意味着产品将启动国内发行。\n今天，乐元素自研UE5大世界动作RPG《白银之城》正式宣布定档。这款产品将于将于2026年12月14日开启全球公测，同步登陆iOS、安卓、PC、PS5多平台，目前游戏全球预约量已经突破1500万。\n触乐曾参与《白银之城》的几次测试，从测试表现来说，这款产品有优良的美术、战斗表现，题材辨识度突出。对乐元素来说，《白银之城》也具备很强的战略意义：长期以来，乐元素的基本盘依靠《开心消消乐》这类休闲长线产品支撑，《白银之城》是公司押注二次元中重度赛道的旗舰项目，也是乐元素第一次投入UE5开发的高规格大世界作品，承担着品牌突破、切入中重度二次元与海外市场的任务。\n值得注意的是，今年年末也是新品的集中上线潮。如蛮啾网络的幻想大世界RPG《蓝色星原：旅谣》已经官宣11月26日全平台公测，预约量同样处于高位。这意味着玩家注意力、买量资源、社区流量都会被快速分流，对产品的首发口碑、差异化体验、长线运营能力提出更高考验。\n10月29日上午10点，《影之刃零》全球同步上线，登陆Steam、Epic、WeGame及PS5平台。游戏正式上线后，不足一小时Steam同时在线玩家数突破30万，当日峰值约43万。10月30日，根据SteamDB统计，《影之刃零》在当日的玩家同时在线峰值达到了723,876人，位列Steam历史峰值榜第15名。\n《影之刃零》在8月12日开启预购，在开启预购后几小时内即登顶Steam全球热销游戏榜。10月27日，游戏再度销量登顶，并在正式上线日继续稳住榜首。目前，Steam玩家好评率目前在70%～80%区间，玩家负面反馈集中于首发阶段的闪退、加载慢、优化稳定性等技术问题。\n《影之刃零》定价为国区标准版268元、豪华版328元，限量典藏版1199元（限量2万套）。在销量方面，分析机构Alinea Analytics发布了对《影之刃零》预售期间的估算情况，截至10月28日，游戏已卖出约85万份，其中73.8%来自Steam平台，26.2%来自PS5平台，从地区来看约62.5%的总销量来自于中国。该机构表示，估算《影之刃零》上市前的销量可能突破100万份。\n10月底，世纪华通、恺英网络、完美世界、巨人网络相继公布2026年第三季度报告，报告中世纪华通以332.98亿元营业收入居首，巨人网络、恺英网络、完美世界也均实现营业收入同比增长，经营现金流与盈利能力同步稳健。\n其中，完美世界依靠《异环》推动第三季度单季利润大幅回暖。截至目前，《异环》全球累计流水超27亿元人民币，全球官方渠道累计流水占比近60%，海外累计流水贡献高于国内市场。这也让完美世界在第三季度单季实现营业收入23.62亿元，同比增长36.85%，归母净利润5.06亿元，同比大增211.47%。\n恺英网络则依托在运营产品实现营收高速增长的同时，通过战略参股强化IP合作布局。9月12日，恺英网络发布公告，通过全资香港子公司收购Neosphere49%股权并增资，间接参股“传奇”IP原始权利方Wemade，以期和IP源头略绑定，并获得更稳定的“传奇”系列手游、页游、H5游戏的境内改编、开发、发行、运营授权，巩固“传奇”业务基本盘。\n第三季度单季，恺英网络旗下产品《烈焰觉醒》《仙剑奇侠传：新的开始》《热血江湖：归来》均表现良好，实现营业收入24.61亿元，同比增长64.42%。归母净利润6.41亿元，同比增长1.22%。期末总资产159.13亿元，较年初增长21.72%。\n巨人网络在第三季度单季，公司实现营业收入19.96亿元，同比增长16.98%。归母净利润7.42亿元，同比增长16.01%。《超自然行动组》依然是公司最主要的增长支柱，此外老牌长线产品《原始征途》《球球大作战》也持续版本更新、精细化运营，存量收入稳定。报告中同时提及，在研新品管线投入上仍在加码。此外，巨人网络在本季度投资收益达到3.71亿元，其中对联营企业和合营企业的投资收益为3.46亿元。\n世纪华通营收利润实现双增，现金流保持稳。第三季度单季，公司实现营业收入111.81亿元，同比增长11.63%。归母净利润18.32亿元，同比增长7.69%。收入增长的驱动力主要来自旗下老牌主力SLG《无尽冬日》长线韧性极强，多款新品陆续起量，以及AI工具降本增效进一步抬升利润率。\n10月26日，上海幻萌网络发布内部通知，确认公司初创团队成员、《战舰少女R》核心主创毛佳栋（玩家圈内通称“铃兰”、“铃兰大王”），于10月中旬在家中离世，终年40岁。通知同时呼吁公众尊重逝者及其家属隐私，不传播未经证实信息。\n铃兰是“战舰少女”项目最早的发起者与核心主创之一。2013年末，他在社区发起企划，召集同好打造国产舰娘拟人游戏，这款产品在2014年正式上线，由幻萌网络研发、派趣科技发行，也是国内最早一批舰娘题材二次元手游，产品以战舰拟人、打捞收集、舰队编队推图、改造养成作为核心玩法，区别于同期主流重抽卡氪金的二次元产品，沉淀了稳定的玩家群体。\n2015年，研发方幻萌网络与运营方派趣发生知名版权运营纠纷，项目几经波折，幻萌推出重制版本《战舰少女R》，于2016年1月重新上架，“R”取自Remake（重制）之意，铃兰全程参与了这次项目的存续与重构，长期负责核心策划、内容方向、社区沟通，是玩家社群里辨识度极高的制作人，并多次出面回应相关争议。\n在《战舰少女R》运营稳定后，铃兰开始退居二线，负责《战舰少女R》的线下活动、大型周年活动策划和周边策划等衍生企划。在铃兰离世的消息传出后，大量玩家在社区悼念，《战舰少女R》官方微博主页封面图也已经变为黑白。\n10月25日，悠星（Yostar）在《蔚蓝档案》日服官方直播中宣布，预计于2027年1月将日本地区的游戏运营业务全面移交给开发商NEXON。悠星代表取缔役社长李衡达在视频公告中表示，此次变更是悠星与NEXON Games经过长时间协商后达成的共识，并非停服，玩家账号、游戏道具及未使用的青辉石将完整继承。\n《蔚蓝档案》由韩国NEXON Games旗下子公司开发，2021年2月在日本上线，日服由悠星代理发行。这是悠星继《碧蓝航线》《明日方舟》之后，在日本市场代理的又一款二次元产品。对于悠星来说，作为一家早期以代理国产游戏出海为核心业务的公司，《碧蓝航线》在日本的成功为悠星积累了本地化运营经验和用户基础，《明日方舟》日服的长期稳定运营进一步确立了悠星在日本二次元手游发行领域的地位。目前有许多知名二游产品的日服发行商都是悠星。\n《蔚蓝档案》日服上线后，凭借叙事风格和角色设计，在日本二次元社群中站稳脚跟，与《明日方舟》并列为悠星在日本市场的两大支柱产品，是悠星财报中重要的收入来源之一。在过去五年中，悠星在《蔚蓝档案》日服本地化、游戏周边运营、IP企划相关等诸多方面都获得不少玩家好评。2023年，悠星还将《蔚蓝档案》引入中国大陆，发行简中服。\n从具体公告中可以看出，本次运营调整由开发商NEXON Games提出终止现有发行合作引发。交接完成前，悠星仍将继续负责日服运营与活动更新。官方为平稳过渡准备了补偿福利，包括免费100连招募、大量信用点、高级报告书等资源。双方高层将于11月再度沟通，公布账号迁移手续及数据处理的具体细则。目前，本次移交范围仅限日本地区。国服（简中服）运营方上海星啸网络科技有限公司随后发布公告，确认简中服运营与服务责任保持不变，将继续与NEXON Games保持合作。\n从悠星的发展路径来看，这一调整或许也与公司战略转型的方向有关。2025年，悠星推出了首款自研自发游戏《星塔旅人》，标志着其从纯发行商向研运一体化公司转型。代理产品运营权陆续被开发商收回，是全球游戏行业的一个普遍趋势——随着海外市场重要性提升，头部厂商更倾向于自建团队直接运营，而非依赖本地发行商。\n10月27日，“Steam Indie Connect”开发者活动在韩国举行。该活动由Valve、釜山独立游戏节组委会与韩国内容振兴院（KOCCA）合办，Valve Steam业务团队成员Tom Giardino与Marc Wilkinson出席，并与韩国独立开发者进行了问答环节。\n在开场介绍中，Giardino提到，Steam近期全球同时在线峰值达到4350万。韩国市场过去五年Steam总收入增长126%，其中付费游戏与DLC收入增长70%，游戏内购收入增长388%。\n在问答环节中，Giardino与Wilkinson详细回答了许多开发者关心的问题，包括Steam的愿望单机制、如何做好本地化等等，值得注意的是，从问答中也能注意到，在AI生成式游戏大量涌现的背景下，Steam如何处理AI工具使用、游戏克隆问题，已经成为开发者最关心的问题。\n有开发者提出，随着AI生成游戏越来越多，新游在Steam上获得曝光变得更加困难；与此同时，Steam Next Fest上低质量AI游戏泛滥，也导致大量开发者并不能获得理想的成绩。Wilkinson在回答中解释，Next Fest的曝光机制为，活动前两天，游戏对玩家几乎是随机展示的，两天之后，个性化推荐才会启动，将玩家可能感兴趣的游戏推到前台。许多关于低质量游戏泛滥的报道，都是基于前两天的数据写的。Giardino则表示，Valve不打算以是否使用AI为由限制开发者，是否在开发中使用AI，是每个开发者自己的决定。\n在问答环节中，一名开发者提到，近期有独立开发者收到敲诈邮件，威胁称“如果不付钱，就用AI复制你的游戏并抢先上线”。Giardino表示这是他第一次听说此类敲诈案例。他将敲诈本身定性为更适合执法机构处理的问题，但同时表示，如果开发者向Valve举报此类案件，Valve愿意进一步调查并提供帮助。\n对于AI克隆游戏本身，Valve的策略并非删除克隆版，而是让原版获得更多曝光权重。Giardino建议开发者从两方面建立防线：一是建立社区，通过工作室网站和玩家关系培养认同感与信任；二是持续更新，不断加入新功能和原创内容。这一思路也与Valve长期对待盗版的态度一致，不做激进的DRM限制，而是让正版成为最好的版本。",
+      "body": "GPASS\n首页\n机组\n讨论\n资讯\n播客\n文章\n视频\n有声书\n商店\n游戏库\n播单\n专题\n预告\nBOOOM\n机核发行\n下载机核 APP\nGPASS会员\n收藏\n历史\n消息\n《影之刃零》72小时销量突破400万\n牛啊牛啊\nYT17\n4 小时前\n发布于\n资讯\n由灵游坊自主研发及发行，虚幻5引擎打造的暗黑武侠动作冒险游戏《影之刃零》发售后72小时销量突破400万。官方表示，几天来大家反馈的各种问题团队也已一一记录并着手进行优化调整，会在近期先进行一批明显bug的修复。团队也再一次感谢大家的支持与厚爱。此前， 《影之刃零》Steam 在线玩家人数持续走高，\n更是在过去24小时内创下峰值突破83万的纪录。\n在本作中，玩家化身心脏遭受重创的剑客，在仅余六十六天的生命里，逃亡于刀光剑影和腥风血雨之间，并粉碎一桩笼罩在整个武林上方的惊天阴谋。在失序末法的武林中以身证道，以命寻心。\nI\n影之刃零\n游戏\n99\n3\n最热资讯\n文章精选\n通过创新功能增强《影之刃零》体验\n资讯\n【会员抽奖】特别好评！《影之刃零》PS港服畅销榜登顶\nYT17\n3 天前\n246\n217\n寻回真相与本心\n资讯\n【会员抽奖】执刃入局，寻心启程！《影之刃零》今日发售\nYT17\n4 天前\n288\n273\n10月29日发售\n资讯\n均分88：《影之刃零》媒体评分汇总\nYT17\n2026-10-26\n116\n114\n评论区\n发送\n共 81 条评论\n热门\n最新\n回到顶部\n外观样式\n建议反馈",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "触乐本周行业大事：10月195款版号下发，《影之刃零》发售",
-      "what": "汇总10月游戏行业动态：国家新闻出版署下发195款版号（国产183款、进口12款）；《影之刃零》10月29日全球上线，Steam峰值约72万；《白银之城》定档12月14日；《蔚蓝档案》日服运营权2027年1月移交NEXON；《战舰少女R》核心主创毛佳栋离世。",
+      "title_cn": "《影之刃零》发售72小时销量突破400万",
+      "what": "灵游坊自研自发、虚幻5引擎打造的暗黑武侠动作游戏《影之刃零》发售后72小时销量突破400万；官方称已记录玩家反馈并着手优化，近期先修复一批明显bug。文中还提到Steam在线人数24小时峰值突破83万。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "276e3e84c7683bf0",
+      "title": "Death Stranding Isolations Anime Receives Its First Trailer",
+      "url": "https://80.lv/articles/death-stranding-isolations-anime-receives-its-first-trailer/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "80.lv"
+      ],
+      "published": "2026-11-02T06:30:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "The show will air exclusively on Disney+ in 2027.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Death Stranding Isolations Anime Receives Its First Trailer",
+          "url": "https://80.lv/articles/death-stranding-isolations-anime-receives-its-first-trailer/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-11-02T06:30:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 0.29729677777777774,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Death Stranding Isolations Anime Receives Its First Trailer\nThe show will air exclusively on Disney+ in 2027.\nKojima Productions has unveiled the first trailer for Death Stranding Isolations, an anime series set in the universe of the action-adventure game. It will launch exclusively on Disney+ in 2027.\nThe \"all-new\" animated series features an original story with a unique cast of characters. \"My mom became a crater\" is the anime's tagline. It tells the story of a young girl who lives in isolation in a world devastated by catastrophic explosions. At first, this loneliness was forced upon her, but as a result, she grew up preferring solitude and avoiding opportunities for real human connection.\nThe series is directed by Takayuki Sano, with series composition and screenplay by Tow Ubukata. The hand-drawn animation comes from the Japanese studio E&H Production, known for Ninja Kamui, Bullet/Bullet, and the Magic Knight Rayearth TV series.\nCheck out the trailer:\nKojima Productions now works on two major projects, OD and PHYSINT. OD is a cinematic horror announced in 2023, starring Sophia Lillis and Hunter Schafer. The game will include a mechanic for scaredy-cats – an option to tone down the horrifying gameplay elements. PHYSINT is being developed in partnership with Xbox after Sony ended its collaboration on the project. The lead actor for PHYSINT is Bill Skarsgård, known for his roles in It, Nosferatu, and Barbarian. The game will also feature Charlee Fraser, Don Lee, and Minami Hamabe, whose experimental CG was showcased before.\nKojima Productions unveiled a new visual for OD:\nHideo Kojima, along with Billie Eilish, Phoebe Bridgers, and John C. McGinley, recently joined the voice cast of My Chemical Romance's new seven-minute stop-motion animated short, made with visual artist Lauren Tsai:\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《死亡搁浅》动画剧集《Isolations》首曝预告，2027年上线Disney+",
+      "what": "小岛工作室公布《死亡搁浅》世界观动画剧集《Death Stranding Isolations》首支预告，讲述灾难爆炸后一名习惯独居的少女的原创故事，由佐野隆之执导、E&H Production手绘制作，2027年Disney+独家播出。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "765441176dd74a57",
+      "title": "iG击败LYON晋级八强，螃蟹互娱",
+      "url": "https://www.gameres.com/901203428.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GameRes"
+      ],
+      "published": "2026-11-02T03:44:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "2026英雄联盟全球总决赛瑞士轮第四轮，iG2:1力克LYON，时隔2565天重返八强。其官方赞助商螃蟹互娱在美国达拉斯机场投放主题应援大屏，为战队助威。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "iG击败LYON晋级八强，螃蟹互娱",
+          "url": "https://www.gameres.com/901203428.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-11-02T03:44:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 3.0639634444444446,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "iG击败LYON晋级八强，螃蟹互娱美国机场应援为世界赛征程加油\n摘要：10月29日，2026英雄联盟全球总决赛瑞士轮第四轮，iG以2:1力克战队LYON，成功晋级八强！这也是iG时隔2565天后，再次挺进全球总决赛淘汰赛阶段。作为iG战队的官方赞助商，螃蟹互娱在美国达拉斯机场倾力投放主题应援大屏，将来自螃蟹平台用户的热爱与祝福，无缝传递至世界赛主场舞台。\n关键一战成功破局，iG时隔2565天重返八强\n从LPL赛区一路披荆斩棘拿下世界赛门票，到瑞士轮相继战胜强敌，iG稳步推进着自己的世界赛征程。北京时间10月29日，面对北美劲旅LYON，iG在首局打出摧枯拉朽的19:4击杀比分率先下一城；尽管次局遗憾被对手扳回一分，但队员们迅速调整心态，在决胜局顶住压力、锁定胜局，最终以2:1的总比分锁定八强席位。\n这场胜利，距离iG上一次站上全球总决赛淘汰赛的舞台，已经整整过去了2565天。从岁月沉淀到重返巅峰，老将的执着坚守与队伍的百折不挠交相辉映，iG用不屈的韧性打响了破局之战。随着八强席位落定，这支新老并肩的传奇战队也将正式向更高荣誉发起冲击！\n把应援带到美国机场，让热爱抵达赛场之外\n赛场内，选手们在峡谷中全力以赴；赛场外，来自赞助商的硬核支持也同步抵达。\n本届全球总决赛赛事落地得克萨斯州，而达拉斯机场正是全球电竞战队、观赛粉丝以及解说嘉宾抵达比赛现场的必经枢纽。作为iG战队的坚实后盾，螃蟹互娱准备包下这一门户枢纽的核心广告位，上线iG专属主题应援，以醒目霸气的视觉呈现，在异国赛场的第一站为iG送上应援助威！这不仅是螃蟹互娱为iG准备的一份特别礼赞，更是让来自中国电竞品牌的热爱与激情，随着往来全球旅客与观赛人群的脚步传递到更广阔的舞台。\n电竞的魅力不仅在于赛场上的胜负交锋，也在于赛场之外持续汇聚的关注与热血共鸣。从线上互动到海外线下枢纽应援，螃蟹互娱始终与玩家站在一起，见证每一个值得喝彩的荣耀时刻。\n深耕游戏生态，以多元布局连接玩家热爱\n此次机场应援，是螃蟹互娱持续深化电竞领域布局的又一次实践。继与LGD电子竞技俱乐部达成全年战略合作后，螃蟹互娱进一步携手iG，围绕赛事传播、内容共创及粉丝互动等场景展开合作，持续探索电竞文化与品牌传播的多元融合。\n螃蟹互娱与螃蟹游戏服务网属于同一集团业务矩阵。其中，螃蟹游戏服务网作为国内游戏账号交易领域的头部平台，长期深耕游戏账号及虚拟资产交易服务，业务覆盖5000余款游戏，累计交易订单超过1.4亿笔。近年来，平台持续推进数字化、智能化服务升级，通过AI验号、智能估值、电子合同、智能交付及交易风险防控等服务，不断完善游戏账号交易保障体系，致力于为广大玩家提供更加安全、便捷、高效的交易体验。\n从游戏账号交易服务的持续升级，到电竞赛事与内容生态的多元布局，集团正不断拓展游戏产业服务边界，在满足玩家多元化需求的同时，通过电竞合作、赛事互动等形式，持续深化与年轻用户的情感连接，传递对游戏文化与电竞精神的关注与支持。\n为热爱加油，期待iG再创佳绩\n随着iG成功晋级八强，世界赛征程也将迈入更加激烈的淘汰赛阶段。从国内赛场的奋力突围，到世界舞台上的顽强拼搏，iG用一场场精彩对决展现了不畏挑战、全力争胜的竞技精神。\n螃蟹互娱与螃蟹游戏服务网将与广大玩家一同关注接下来的赛程，为每一次精彩表现喝彩，为每一场关键对决加油。期待iG保持昂扬斗志，在世界舞台上继续突破自我、再创佳绩，让更多人见证中国电竞的热爱与力量！\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "iG以2:1击败LYON晋级英雄联盟全球总决赛八强",
+      "what": "2026英雄联盟全球总决赛瑞士轮第四轮，iG以2:1战胜LYON晋级八强，时隔2565天再进淘汰赛。赞助商螃蟹互娱在达拉斯机场投放应援大屏，并介绍其与iG的赛事传播、内容共创及粉丝互动合作。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -95,9 +407,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "c48ece89dce1ee6a",
-      "title": "SP.13 龙珠再临！聊聊最近开播的龙珠超：比鲁斯",
-      "url": "https://www.gcores.com/radios/221760",
+      "key": "37ff0a9bcf7c981d",
+      "title": "《去月球》创作者免费作品《幻想私聊》正式公开",
+      "url": "https://www.gcores.com/articles/221792",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -105,10 +417,10 @@
       "sources": [
         "机核"
       ],
-      "published": "2026-11-01T03:00:00+00:00",
+      "published": "2026-11-02T01:20:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "龙珠单集再次以SP形态降临，本期喵臣串门青年度日指南，与同为龙珠老粉的拉帝、T-Man一起聊聊刚刚开始播出的龙珠超：比鲁斯篇。目前播出的情节其实已经在剧场版神与神、龙珠超TV当中与观众见过一次面，再次有龙珠看的感觉如何？欢迎收听本期节目！",
+      "summary_raw": "《幻想私聊》正式公开。本作是一部由可自由探索的场景组成的免费作品，收录了《去月球》创作者与自己笔下的虚构角色之间，跨越二十年的对话。聊生活，聊游戏创作，也聊聊那些难以归类的点点滴滴。 高瞰表示：“这次的新作，有那么一点点奇怪。不过对我来说，它有着非常特别的意义。这是一部由一系列可自由探索的场景组成的作品，记录了过去 20 年里，我与 Freebird Games 笔下那些虚构角色之间的各种聊天。有些聊的是生活中的私事，有些是游戏开发背后的故事，还有一些嘛……就是各种介于两者之间、很难归类的奇奇怪怪的话题。 另外，这部作品也会顺便让大家提前瞄一眼，我们这些年来为某个超级无敌绝密、绝对不可能有人猜到的神秘项目，精心打造的像素美术风格。（嗯，真的超级神秘，绝对猜不到。） ”",
       "rss_content": "",
       "content_kind": "rss_summary",
       "category": "games",
@@ -122,11 +434,11 @@
       },
       "members": [
         {
-          "title": "SP.13 龙珠再临！聊聊最近开播的龙珠超：比鲁斯",
-          "url": "https://www.gcores.com/radios/221760",
+          "title": "《去月球》创作者免费作品《幻想私聊》正式公开",
+          "url": "https://www.gcores.com/articles/221792",
           "source": "机核",
           "lang": "zh",
-          "published": "2026-11-01T03:00:00+00:00"
+          "published": "2026-11-02T01:20:00+00:00"
         }
       ],
       "score": 22,
@@ -154,39 +466,39 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 3.5909508797222225,
+      "age_hours": 5.4639634444444445,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
       "body": "",
       "has_body": false,
       "body_truncated": false,
-      "title_cn": "机核播客SP.13：聊《龙珠超》比鲁斯篇开播",
-      "what": "机核发布播客节目SP.13，主播喵臣与拉帝、T-Man三位龙珠老粉讨论刚开播的《龙珠超》比鲁斯篇，并提到该篇情节已在剧场版《神与神》和《龙珠超》TV版中出现过。",
+      "title_cn": "《去月球》创作者公开免费作品《幻想私聊》",
+      "what": "高瞰公开免费作品《幻想私聊》，由可自由探索的场景组成，收录他与Freebird Games虚构角色跨越二十年的对话，内容涉及生活、游戏开发等，并展示一个未公开项目的像素美术风格。",
       "why": "",
       "for_you": "",
       "degraded": "source_excerpt"
     },
     {
-      "source_id": "web-be9919cef9",
-      "source_url": "https://www.gcores.com/rss",
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "cbe6c672087d33d4",
-      "title": "众里寻她千百度，那人却在...盘点那些在galgame里令我们印象深刻的女主角们！【宅月电波第23期】",
-      "url": "https://www.gcores.com/radios/221759",
+      "key": "14a2be96d98baa88",
+      "title": "11月02日—11月08日共有24款游戏开测｜GameRes",
+      "url": "https://www.gameres.com/901203420.html",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "机核"
+        "GameRes"
       ],
-      "published": "2026-11-01T00:00:00+00:00",
+      "published": "2026-11-02T01:02:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "大家好久不见！不知应该是第几次说抱歉了，从我最新发的视频应该就能看出来，我最近作为DJ忙着出席了好几场活动，于是节目制作这块就耽搁了，还是很不好意思的，不过接下来一年，我们将保持一个月更新一期的节奏（工作之前的最后一舞了www）。不过大家不必担心！扩充制作团队的计划正在紧锣密鼓地推进中了，届时也会有更多新面孔参与到电台节目的组织与录制过程中，也请大家继续支持我们，同时也欢迎想要与我们一起制作节目的各位同好加入我们～ 本期节目我们将来聊一聊那些在galgame中那些令人印象深刻的女主（配）角们。 在推作品的过程中，我们往往与她们共同创造着一个又一个难忘的回忆，她们的一颦一笑，一举一动，都往往会给我们留下深沉的感动，那么事不宜迟，我们一起去节目里寻找她们的身影吧！ 本期嘉宾：光醮、牧濑、阿疯、Laplas。 策划：光醮 音频剪辑：光醮、空白 时间轴：牧濑 视频剪辑：阿疯 时间轴： 00：33 光醮进行开场白，并对宅月电波延缓更新向观众致歉 02：03 嘉宾自我介绍 02：36 众嘉宾讨论galgame中女角色的作用及重要性，光醮提到了《白色相簿》 04：32 阿疯发言，从实用性的角度论证女主的必要性，光醮进行了补充，提到了《one》和《雫》 06：31 光醮发言，以《muv-luv》中的鉴纯夏为例，说明女主对剧情的色彩的作用 10：55 牧濑提到旧《月姬》中游戏系统的有趣设定 11：3",
+      "summary_raw": "GameRes游资网统计，2026年11月2日至8日共24款游戏开测，含腾讯自研《异人之下》终测、B站发行《三国志：王道天下》删档计费测试等。",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -200,11 +512,11 @@
       },
       "members": [
         {
-          "title": "众里寻她千百度，那人却在...盘点那些在galgame里令我们印象深刻的女主角们！【宅月电波第23期】",
-          "url": "https://www.gcores.com/radios/221759",
-          "source": "机核",
+          "title": "11月02日—11月08日共有24款游戏开测｜GameRes",
+          "url": "https://www.gameres.com/901203420.html",
+          "source": "GameRes",
           "lang": "zh",
-          "published": "2026-11-01T00:00:00+00:00"
+          "published": "2026-11-02T01:02:00+00:00"
         }
       ],
       "score": 22,
@@ -232,93 +544,15 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 6.5909508797222225,
+      "age_hours": 5.763963444444444,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "大家好久不见！不知应该是第几次说抱歉了，从我最新发的视频应该就能看出来，我最近作为DJ忙着出席了好几场活动，于是节目制作这块就耽搁了，还是很不好意思的，不过接下来一年，我们将保持一个月更新一期的节奏（工作之前的最后一舞了www）。不过大家不必担心！扩充制作团队的计划正在紧锣密鼓地推进中了，届时也会有更多新面孔参与到电台节目的组织与录制过程中，也请大家继续支持我们，同时也欢迎想要与我们一起制作节目的各位同好加入我们～\n本期节目我们将来聊一聊那些在galgame中那些令人印象深刻的女主（配）角们。\n在推作品的过程中，我们往往与她们共同创造着一个又一个难忘的回忆，她们的一颦一笑，一举一动，都往往会给我们留下深沉的感动，那么事不宜迟，我们一起去节目里寻找她们的身影吧！\n00：33 光醮进行开场白，并对宅月电波延缓更新向观众致歉\n02：36 众嘉宾讨论galgame中女角色的作用及重要性，光醮提到了《白色相簿》\n04：32 阿疯发言，从实用性的角度论证女主的必要性，光醮进行了补充，提到了《one》和《雫》\n06：31 光醮发言，以《muv-luv》中的鉴纯夏为例，说明女主对剧情的色彩的作用\n10：55 牧濑提到旧《月姬》中游戏系统的有趣设定\n11：32 拉普拉斯发言，指出人是承载情感关系的基础，在galgame中女主角发挥此作用。\n13：44 牧濑发言，首先讨论了恋爱向作品与剧情向作品在塑造角色方面的差异\n14：45 牧濑对比了助手和真由理两个角色，指出了助手的亮点。随后对《悠久之翼》中雨宫优子这一角色表达了自己的看法。\n20：10 光醮表达对galgame中失身女性角色的看法，并向观众提出尊重角色的倡议。\n22：42 阿疯发言表达了自己对“妹系”这一萌属性的看法以及喜爱，提到了《樱花劫》\n29：25 阿疯给群友的《樱花结》解读视频打广告（BV1FEne6DEKC）\n29：45 阿疯提到麻枝准，并阐述自己对《CLANNAD》中一之濑琴美这一角色的喜爱\n33：39 阿疯提到琴美线的作者凉元悠一，并推荐了他正在制作的新作\n37：27 光醮发言，提到《猫猫疯狂大赛车》中的弗克茜，表达了对有血有肉的王道系角色的喜爱\n42：40 光醮提到《腐姬》中的簸川树里，阐述了病娇妹妹这一萌点\n45：30 光醮讲《水仙》中的濑津美，探讨“同角色赴死”这一主题的感觉\n47：42 光醮提到sayo教中的高田望美，阐述作为印象的角色的不可替代感\n52：10 光醮讲《天使不在的十二月》中的栗原透子，讲述了脚本家塑造一个令人讨厌的笨蛋角色反倒会令人怜惜的感情。",
+      "body": "GameRes游资网统计了2026年11月02日—11月08日的最新开测信息，共有24款游戏开测。以下是开测信息：\n11月04日\n腾讯游戏自研《异人之下》限量删档终测\n《异人之下》游戏是由腾讯魔方工作室群研发的3D格斗竞技新游，改编自现象级国漫IP《一人之下》。游戏以原著国漫故事为背景，将中国传统武学中变幻无穷的“动”，和传统哲学思想中的“静”相结合，打造出一款传统武学与文化相映生辉的中式格斗竞技游戏。\n11月05日\nbilibili游戏发行《三国志：王道天下》限量删档计费测试\n《三国志：王道天下》是由国人原创研发，哔哩哔哩游戏发行，光荣特库摩正版授权的沙盘策略新作，游戏在承袭经典三国志画风的基础上进行了3D焕新、从武将美术到地图风貌，均采用次世代立体建模呈现，力求为玩家带来更高质感的三国征战体验。\n游戏采用长线赛季制运营，不卖资源不卖VIP加速，在保留每个赛季策略乐趣的前提下，降肝减氪，绝不锁卡。\n在游戏中，你将扮演一名初入乱世的英豪，通过自身培养上阵杀敌，寻访探索招募人才、排兵布阵拓展城池等方式提升自身势力，并与其他玩家结成联盟，凝聚同盟情谊，以击败竞争者，最终夺取城战胜利，在乱世称雄。\n登录 后参与讨论\n暂无评论，来抢沙发",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "宅月电波第23期：盘点galgame中令人印象深刻的女主角",
-      "what": "机核播客节目《宅月电波》第23期，多位嘉宾围绕galgame女主角展开讨论，涉及女主角在剧情中的作用、恋爱向与剧情向作品的角色塑造差异，并列举《白色相簿》《Muv-Luv》《CLANNAD》《腐姬》《水仙》等作品中的具体角色。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-be9919cef9",
-      "source_url": "https://www.gcores.com/rss",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "5eed540b2e2261fc",
-      "title": "热火朝天，核周报 10.31",
-      "url": "https://www.gcores.com/radios/221134",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "机核"
-      ],
-      "published": "2026-10-31T15:00:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "本期时间轴制作：佟和 本期要闻：​《影之刃零》发售掀起无暇热潮；《使命召唤：现代战争 4》完整版上线收获较好反响；微软为Arkane Lyon的买家搜寻期延长一个月时间；EA 关闭BioWare引起玩家抵制活动；任天堂 新一期Indie World 公布多款游戏消息及上线时间等。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "热火朝天，核周报 10.31",
-          "url": "https://www.gcores.com/radios/221134",
-          "source": "机核",
-          "lang": "zh",
-          "published": "2026-10-31T15:00:00+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 15.590950879722222,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "GPASS\n首页\n机组\n讨论\n资讯\n播客\n文章\n视频\n有声书\n商店\n游戏库\n播单\n专题\n预告\nBOOOM\n机核发行\n下载机核 APP\nGPASS会员\n收藏\n历史\n消息\n91:35\n28.9k\n参与者\nRyoma\nNadya\n萝萝又卜卜\n热火朝天，核周报 10.31\n敢不敢让下一个FIFA销量为零\n15 小时前\n发布于\nGadio News\n本期时间轴制作：佟和\n本期要闻：《影之刃零》发售掀起无暇热潮；《使命召唤：现代战争 4》完整版上线收获较好反响；微软为Arkane Lyon的买家搜寻期延长一个月时间；EA 关闭BioWare引起玩家抵制活动；任天堂 新一期Indie World 公布多款游戏消息及上线时间等。\nI\n使命召唤®：现代战争® 4\n影之刃零\n游戏\n资讯\nBioWare\n188\n19\nGadio News\n15172 人关注\n订阅\n101:42\n138.8k\nGadio News\n辣手摧花，核周报 10.24\nRyoma 等 4 人\n2026-10-24\n425\n154\n108:14\n183.8k\nGadio News\n遥遥领先，核周报8.22\nRyoma 等 4 人\n2026-08-22\n536\n436\n93:35\n154.2k\nGadio News\n刀光剑影，核周报 8.15\nRyoma 等 4 人\n2026-08-15\n473\n312\n评论区\n发送\n共 143 条评论\n热门\n最新\n时刻\n回到顶部\n外观样式\n建议反馈",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "机核核周报10.31：影之刃零发售与多则游戏业界消息",
-      "what": "机核Gadio News周报节目，列出本期要闻：《影之刃零》发售、《使命召唤：现代战争4》完整版上线、微软延长Arkane Lyon买家搜寻期、EA关闭BioWare引发玩家抵制、任天堂Indie World公布多款游戏及上线时间。",
+      "title_cn": "GameRes统计11月2日至8日共24款游戏开测",
+      "what": "GameRes游资网统计2026年11月2日至8日共有24款游戏开测，文中列出部分开测信息：11月4日腾讯魔方工作室群研发的3D格斗竞技游戏《异人之下》限量删档终测；11月5日哔哩哔哩游戏发行的沙盘策略游戏《三国志：王道天下》限量删档计费测试。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -329,9 +563,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "48f0c50b41984c86",
-      "title": "GAOMON PD1561 V2: Affordable Entry-Level 16-Inch Pen Display",
-      "url": "https://80.lv/articles/gaomon-pd1561-v2-affordable-entry-level-16-inch-pen-display/",
+      "key": "42c810e282c81978",
+      "title": "You Can Now Play The Mortuary Assistant Dev's Canceled Paranormal Activity Game For Free",
+      "url": "https://80.lv/articles/you-can-now-play-the-mortuary-assistant-dev-s-canceled-paranormal-activity-game-for-free/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -339,10 +573,10 @@
       "sources": [
         "80.lv"
       ],
-      "published": "2026-10-30T19:22:00+00:00",
+      "published": "2026-10-30T15:53:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Is it really \"the wisest way to start\"?",
+      "summary_raw": "The next P.T. might have just arrived.",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "development",
@@ -356,11 +590,11 @@
       },
       "members": [
         {
-          "title": "GAOMON PD1561 V2: Affordable Entry-Level 16-Inch Pen Display",
-          "url": "https://80.lv/articles/gaomon-pd1561-v2-affordable-entry-level-16-inch-pen-display/",
+          "title": "You Can Now Play The Mortuary Assistant Dev's Canceled Paranormal Activity Game For Free",
+          "url": "https://80.lv/articles/you-can-now-play-the-mortuary-assistant-dev-s-canceled-paranormal-activity-game-for-free/",
           "source": "80.lv",
           "lang": "en",
-          "published": "2026-10-30T19:22:00+00:00"
+          "published": "2026-10-30T15:53:00+00:00"
         }
       ],
       "score": 17,
@@ -388,15 +622,15 @@
       ],
       "topic": "开发动态",
       "is_analysis": false,
-      "age_hours": 35.224284213055554,
+      "age_hours": 62.91396344444445,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "GAOMON PD1561 V2: Affordable Entry-Level 16-Inch Pen Display\nIs it really \"the wisest way to start\"?\nGAOMON positions its PD1561 V2 pen display as an affordable option suitable for beginners. I am, unfortunately, no great artist, but that makes me exactly the right person for the device, and in this review, I'll share my experience with the display so you can decide whether you'd like to get it.\nKey stats:\nPanel Size: 15.6 inch\nActive Area: 344.16 × 193.59mm\nResolution: 1920 x 1080 (FHD)\nFull Lamination: Yes\nColor Accuracy: ΔE<1.5\nSurface Finish: Pre-installed Anti-glare protective film\nGamut Volume: 99% sRGB, 99% Rec.709, 88% NTSC\nDisplay Color: 16.7M (8-bit)\nThe PD1561 V2 is \"the wisest way to start,\" according to GAOMON, but if you're really just beginning your art journey, these numbers might mean little to you, so I'll try to show you what's important hands-on.\nThe package comes with the display itself, a G Pen stylus, an SH01 pen holder (with 8 replacement nibs and 1 nib extractor), an ST100 stand, an HDMI to Mini HDMI cable, a USB-A + USB-A to Type-C cable, a drawing glove, a protective case, 4 screws, an Allen key, a quick start guide, a driver download card, and a warranty card.\nDisplay\nThe PD1561 V2 is pretty compact for a pen display, so you can take it with you relatively easily. However, it's not a tablet, you'll still need a computer to use it, so this is hardly the main attraction.\nThe display is connected with 2 (well, 3) cables, which is not the most convenient solution, especially nowadays, when PCs are already stuffed with cords from all kinds of devices. A double-ended Type-C connection is possible, but the cable isn't included. Moreover, the mini-HDMI port is \"drowned\" in the case, making it harder to replace cords – you'll have to purchase them from GAOMON or do something creative with what's on the market.\nFor some reason, the company didn't put bumpers on the screen itself, so when it's horizontal on the stand, the lower edges wobble if you press too hard.\nThe developer promises anti-glare protection that minimizes reflections and eye strain. While the latter is individual, I can't say the reflections are minimal. You'll have to make sure the light is not directed at the screen; otherwise, the creation process will turn into a fight with your lamp. You can adjust the angle with the stand, but it can be a hassle if you're used to a specific position.\nApologies for the orange hue – night mode is on.\nThe anti-glare effect is achieved via a slightly matte film. It is soft, and even though the display is said to be scratch-resistant, the pen can leave marks on the material. I can't say I was extremely active or harsh with it, but I noticed a couple of tiny, barely there lines. You won't see them if you don't look for them with a flashlight in hand, but I used the device for about a month, so there could be more after a while. Well, you can't have it all in an affordable display.\nThe screen is responsive, and strokes can be very subtle when you barely touch it. V2 offers 16,384 levels of pressure sensitivity for delicate line work, but I don't think beginner artists will see the difference compared to the previous version's 8,192 levels. It's sensitive enough for any kind of entry-level work.\nGAOMON promises a high report rate of over 300 PPS, and to my eye, the lag is infinitesimal; the output follows the input seamlessly, and it makes painting, sculpting, and working with animation easy and natural.\nI have to say I found the colors a little dim with the default parameters. But you can change brightness, contrast, sharpness, RGB, color temperature, and other settings in the OSD. From my experience, Native color mode provides the most vibrant picture.\nPen\nThe G Pen stylus feels nice and sturdy; it sits right in my hand, and I was sure the line would go where I wanted: the \"zero-wobble\" nib with \"0.3mm retraction distance\" barely moves in the casing.\nThe nib is sensitive at any angle, so you don't have to hold it at a 90-degree angle, which makes digital work feel more like traditional craft. The 10mm sensing height at which the screen \"sees\" the pen is enough to work without interruptions, but it would be nice to be able to adjust the distance in the software.\nYou don't need to charge the pen, so it won't die on you in the middle of work, although it means you can't use it with other devices, like your phone. Thanks to the tech, the pen is light and won't make your hand tired any more than a traditional pen.\nAs usual, there are 2 buttons that you can program in GAOMON's software, along with the buttons on the display itself.\nSoftware\nThe program is pretty simple and allows you to program the buttons to keys or functions, choose active area, and adjust the pen's pressure sensitivity.\nI'd say the best use of the buttons is changing between your monitor and the display, undo/redo, and zoom, everything else is optional. Thankfully, the default calibration already provides some of the most useful actions, so beginner artists don't need to think too hard about settings.\nSo many buttons could potentially replace a keyboard in 3D software like Blender, but I'm not sure it would be too comfortable. Still, it's nice that there's a possibility.\nPrice & Compatibility\nThe PD1561 V2 is available for Windows 7 or later, macOS 10.12 or later, Linux, and Android (USB3.0 DP1.2 or later). However, the manufacturer warns that a separately purchased docking station is required for proper Android functionality.\nThe display comes with a 1-year warranty and sells for $319 or €299 on Amazon or GAOMON's website.\nConclusion\nThe PD1561 V2 is an easy-to-use pen display that can compete with other options in the same price segment. Naturally, some things had to be sacrificed in order to make it affordable, but overall, I think it's a good option for beginners and those who want to upgrade from traditional graphics tablets, suitable for 2D, 3D, and animation.",
+      "body": "You Can Now Play The Mortuary Assistant Dev's Canceled Paranormal Activity Game For Free\nThe next P.T. might have just arrived.\nIn case you missed it\nIn case you missed it\nOver the past couple of years, solo indie horror developer Brian Clarke, better known as DarkStone Digital, worked alongside Paramount on a Paranormal Activity game, which could've been the franchise's first proper video game adaptation in nearly two decades. However, the project was abruptly canceled this May after Paramount rejected DarkStone Digital and publisher DreadXP's request for additional development time.\nFortunately, that wasn't the end of this game's story. Clarke has now launched Playable Archive, a reworked version of the canceled Paranormal Activity: Threshold that, of course, removes all references to the Paranormal Activity franchise. The title is very reminiscent of Hideo Kojima's canceled Silent Hills project, P.T. (short for \"Playable Teaser\"), a free game released in 2014 before being delisted from the PlayStation Store in 2015 after the project was canceled.\nPlayable Archive is only about 30-60 minutes long and has no save system, so you'll have to complete it in one sitting. It's designed in a found-footage horror style and follows a classic horror premise: a young couple simply looking to renovate their home discover a strange object, only to pay the price for tampering with it.\nPlayable Archive\nPlayable Archive\nPlayable Archive\n\"It's been a long time since I've released something new, and those following my work know that the project I had been working on for the past few years, set to be my next major title, was canceled. After putting so much of myself into it and a wonderful reception at PAX earlier this year, I have to admit, I was feeling burnt out, and I imagined the project would simply sit on a shelf forever. A forgotten relic of development that sat in darkness while I built up a plan for a new project.\nHowever, recently DreadXP reached out to me and floated the idea of maybe releasing what I had. It felt like a good way of laying the project to rest instead of remaining a lingering ghost. So, I worked to adjust the project where needed and polished up the edges to release the work I had done. I'm sad to say that a good deal of work was still left on the cutting room floor, but I'm proud of what I am able to share and that it is going to see the light of day in some form. Today, I am so happy to shadow-drop Playable Archive in time for Halloween for FREE!\"\nGive Playable Archive a try here.\nKojima's upcoming horror game, OD, is widely regarded as a spiritual successor to P.T., and, just like his other upcoming project, PHYSINT, described as a spiritual successor to Metal Gear Solid, it has recently moved from PlayStation to Xbox.\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "GAOMON PD1561 V2 数位屏评测：319美元入门16英寸屏",
-      "what": "80.lv 评测 GAOMON PD1561 V2 15.6英寸数位屏，售价319美元，支持1920×1080分辨率、全贴合、99% sRGB、16384级压感，附G Pen笔、支架等配件，兼容Windows、macOS、Linux和Android。",
+      "title_cn": "《殡葬助理》开发者取消的《灵动：鬼影实录》游戏现可免费游玩",
+      "what": "DarkStone Digital 将此前被取消的《灵动：鬼影实录》改编游戏重制为免费作品《Playable Archive》，移除该系列相关引用，时长约30至60分钟，无存档系统，采用伪纪录片恐怖风格。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -407,9 +641,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "774b678099e877d2",
-      "title": "Inside Six Very Different Indie Games Supporting a Shared Cause",
-      "url": "https://80.lv/articles/inside-six-very-different-indie-games-supporting-a-shared-cause/",
+      "key": "2f43cf897fc80e14",
+      "title": "Sculpting & Texturing a Semi-Realistic Lobo Bust with ZBrush & Substance 3D",
+      "url": "https://80.lv/articles/sculpting-texturing-a-semi-realistic-lobo-bust-with-zbrush-substance-3d/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -417,10 +651,10 @@
       "sources": [
         "80.lv"
       ],
-      "published": "2026-10-30T17:20:00+00:00",
+      "published": "2026-10-30T14:47:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "The teams behind GigaBash, HELLCARD, Gordian Quest, Winion Virus, Monstrum, and UNYIELDER discuss the creative ideas and development decisions that shaped their games.",
+      "summary_raw": "Eric Liu showed his process of creating a semi-realistic version of DC's antihero Lobo, from sculpting in ZBrush to texturing in Substance 3D Painter and lighting in Marmoset Toolbag.",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "development",
@@ -434,11 +668,11 @@
       },
       "members": [
         {
-          "title": "Inside Six Very Different Indie Games Supporting a Shared Cause",
-          "url": "https://80.lv/articles/inside-six-very-different-indie-games-supporting-a-shared-cause/",
+          "title": "Sculpting & Texturing a Semi-Realistic Lobo Bust with ZBrush & Substance 3D",
+          "url": "https://80.lv/articles/sculpting-texturing-a-semi-realistic-lobo-bust-with-zbrush-substance-3d/",
           "source": "80.lv",
           "lang": "en",
-          "published": "2026-10-30T17:20:00+00:00"
+          "published": "2026-10-30T14:47:00+00:00"
         }
       ],
       "score": 17,
@@ -466,645 +700,99 @@
       ],
       "topic": "开发动态",
       "is_analysis": false,
-      "age_hours": 37.257617546388886,
+      "age_hours": 64.01396344444444,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "Inside Six Very Different Indie Games Supporting a Shared Cause\nThe teams behind GigaBash, HELLCARD, Gordian Quest, Winion Virus, Monstrum, and UNYIELDER discuss the creative ideas and development decisions that shaped their games.\nIn case you missed it\nSix Indie Game Bundle\nEarlier this month, six independent games spanning kaiju battles, tactical deckbuilding, psychological horror, survival, and high-speed boss fights came together for the limited-time gamescom asia bundle. Available for $9.99 through November 2, the collection includes Steam keys for GigaBash, HELLCARD, Gordian Quest, Winion Virus, Monstrum, and UNYIELDER.\nThe six games have a combined regular price of $123.94, making the bundle 91% off. The combined value is based on standard U.S. Steam regular prices as of October 1, 2026. The promotion also supports an important cause, because 10% of the bundle purchase price (less all applicable taxes, fees, and refunds) goes to Stand Up To Cancer. Restrictions apply.\nThis time, we are going behind the games themselves. We spoke briefly with developers from each participating studio and asked them each the same two questions to learn about the central ideas behind their projects and the creative decisions that helped distinguish them.\nCheck them all out in the gamescom asia bundle!\nGigaBash\nWhat is your background in the game industry, and what projects have you and the team worked on previously?\nWe started as Passion Republic, an art outsourcing & co-dev studio contributing to global AAA franchises like Elden Ring and The Last of Us for the past 15 years. Driven by a desire to create our own IP, we formed Passion Republic Games in 2018 as a dedicated indie division. This journey from service work to creative freedom culminated in the 2022 release of our flagship Kaiju brawler IP, GigaBash.\nCan you tell us about your game and, specifically, what makes it really unique in this genre? Why should someone be interested in checking it out?\nGigaBash is a chaotic 4-player arena brawler where you control giant monsters, heroes and mechas in fully destructible cities. What makes it unique is its blend of accessible party-game fun with the heavy-hitting weight of classic monster movies. Players can evolve mid-match into world-shattering 'S-Class' forms to completely level the battlefield. Plus, it is the ultimate crossover hub, letting you battle original titans alongside officially licensed Tokusatsu legends like Godzilla, Ultraman, and Gamera.\nHELLCARD\nWhat is your background in the game industry, and what projects have you and the team worked on previously?\nMy background spans live operations, community support, product management, and publishing, including eight years at Vertigo Games before joining Skystone Games. At Skystone, I work closely with developers on production, launch strategy, and bringing their games to players worldwide, with our portfolio including HELLCARD, Tiny Bookshop, Tyrant’s Realm, and Mistfall Hunter. HELLCARD is developed by Thing Trunk, the studio behind Book of Demons, and we support the team as its publishing partner.\nCan you tell us about your game and, specifically, what makes it really unique in this genre? Why should someone be interested in checking it out?\nHELLCARD is a roguelike deckbuilder that combines tactical card battles with cooperative play for up to three players, all within a distinctive papercraft world. What makes it stand out is how enemy positioning shapes your decisions: your cards can manipulate the battlefield, and coordinating with teammates lets you combine abilities and help each other out of difficult situations. For deckbuilding fans, the appeal is taking that satisfying process of discovering powerful card combinations and making it a shared experience with friends, while also offering solo play with recruitable companions.\nGordian Quest\nWhat is your background in the game industry, and what projects have you and the team worked on previously?\nMixed Realms is a Singapore-based independent game studio established in 2016. We started with Sairento VR, a fast-paced cyber-ninja VR action game, before moving into different genres with Gordian Quest, our deckbuilding RPG, and Hellsweeper VR, our more recent action VR title. We’re currently developing 13Z: The Zodiac Trials, a third-person action roguelike. Across all of our games, we’ve always been very community-driven and enjoy experimenting with different genres and combat systems.\nCan you tell us about your game and, specifically, what makes it really unique in this genre? Why should someone be interested in checking it out?\nGordian Quest combines the depth of a traditional party-based RPG with deckbuilding, roguelite progression and tactical turn-based combat. Rather than controlling a single deck, players build and manage a party of up to three heroes, each with their own skills, equipment and playstyle, so there is a huge amount of room for experimentation and synergy between characters.\nThe game has 10 playable heroes and close to 800 active and passive skills, alongside a full four-act campaign and the more replayable Realm Mode. We wanted to make something that would appeal both to people who enjoy deckbuilders and to RPG players who love party building, character progression, tactical positioning and discovering powerful combinations.\nWinion Virus\nWhat is your background in the game industry, and what projects have you and the team worked on previously?\nThe three of us didn't come together as industry veterans. We formed the team because we wanted to make a game set in a universe we call Winion World, and Winion Virus is our first release. We learned everything by doing it, from development to game shows, marketing and running the game after launch. Along the way we were grateful to receive the Public Pick award at BIC 2025. A programmer and an artist have since joined, so we are now a team of five, working on a multi-ending DLC.\nCan you tell us about your game and, specifically, what makes it really unique in this genre? Why should someone be interested in checking it out?\nWinion Virus is a horror visual novel about raising digital creatures called Winions. It begins like a cute creature-raising game, and then a virus starts to spread among them and the story turns into horror.\nWhat sets it apart from other horror visual novels is that it starts with cuteness. Players have time to grow attached to the Winions before things fall apart, so the horror carries a different weight.\nThe world matters too. Each Winion has its own personality and relationships within Winion World, and details about characters such as I-ON, Grid, Bo, Fix and Debug are scattered through the game, so there is more to find after the ending.\nPlayers tell us the Winions themselves are the biggest draw. At events, people who had never heard of the game stop at our booth for the character designs, and players say that caring about the Winions made it both scarier and sadder. We think it works for people who love cute characters and for people who enjoy a story with a twist.\nMonstrum\nWhat is your background in the game industry, and what projects have you and the team worked on previously?\nMy background in the industry is marketing. I have almost 10 years of experience in marketing across different industries and disciplines and joined Junkfish in 2023 at the time as their Marketing Manager. Whilst here, we have worked on Attack of the Earthlings Mobile, a mobile strategy game similar to X-COM, Bootleg Steamer; a prohibition-themed strategy and inventory management game, and now we are returning to horror with Wilderdark; a parasitic dinosaur horror survival game.\nCan you tell us about your game and, specifically, what makes it really unique in this genre? Why should someone be interested in checking it out?\nMonstrum is unpredictable and even with speed running tactics you never know what sort of gameplay you’re going to get. Everything is procedurally generated from the levels, items, and the monster, so you will get a new experience each time.\nYou cannot fight back there is only escape. Tied with the randomness of each game play, you have to be a quick thinker to find the things you need for the right escape route. If you’re not fast enough you’re going to get caught. You’re not fighting back against the monsters, but trying to solve a puzzle while staying alive.\nUNYIELDER\nWhat is your background in the game industry, and what projects have you and the team worked on previously?\nHi! I'm Don Baey, Co-Founder & Chief of Business Development at TrueWorld Studios, an indie game development studio based in Singapore. I was previously a Production Manager at Ubisoft, where I worked on titles such as Prince of Persia: The Forgotten Sands, Assassin’s Creed II, Ghost Recon Phantoms, and Skull & Bones. I was also a founding Executive Committee member of the Singapore Games Association (SGGA). Our team comes from a diverse range of backgrounds, both within and beyond the games industry. We started the studio during the COVID-19 pandemic, initially working on AR/VR and animation projects. UNYIELDER represents an important milestone for the studio as our first original game.\nCan you tell us about your game and, specifically, what makes it really unique in this genre? Why should someone be interested in checking it out?\nUNYIELDER is a fast-paced FPS that combines the intensity of boss-rush combat with the replayability of a roguelite, wrapped in a distinctive Japanese-inspired art style. Rather than fighting through waves of ordinary enemies, players face increasingly challenging bosses, experimenting with different weapons, builds and strategies along the way. We wanted to create an experience that rewards skill, adaptability and persistence, where every encounter feels like a fresh challenge and every victory feels earned.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
+      "body": "Sculpting & Texturing a Semi-Realistic Lobo Bust with ZBrush & Substance 3D\nEric Liu showed his process of creating a semi-realistic version of DC's antihero Lobo, from sculpting in ZBrush to texturing in Substance 3D Painter and lighting in Marmoset Toolbag.\nIntroduction\nHi everyone, my name is Eric Liu (AKA Qi Liu). It's a pleasure to be interviewed by 80 Level again. I'm a Character Artist from China, and I've been working in the game industry for more than 10 years. I've contributed to several commercial art outsourcing projects, including Marvel Rivals and Path of Exile. I specialize in 3D asset creation, using Maya, ZBrush, and Substance 3D Painter to model and texture game assets.\nProject Inspiration\nI created the Lobo project because I am a fan of Marvel and DC Comics and Ben Oliver's work, especially his DC heroes. So I decided to make a hero bust with badass vibes.\nSculpting Workflow\nTo prepare for the project, I first gathered multiple references online. For a personal project, I prefer to start with a sphere, as it helps build muscle memory through repetitive practice. I had the whole process of the blockout recorded:\nFor the eyes, I simply placed two spheres as eyeballs; for the gum, I masked that area of the mouth and extracted it. The clothing was created with a similar method, and the teeth started as a cylindrical base that I tweaked a bit.\nOnce the form was done, I ZRemeshed it several times and reduced the polycount to make it easier to fix and tidy the edge flow for later use in the pipeline.\nTopology & UV\nFor the head topology, I used the base mesh from ZWrap and projected all the detail from the head blockout onto the base.\nFor the jacket and T-shirt, I took the re-meshed base and fixed the edge flow in ZModeler.\nI normally use Maya for UV work, as I am used to doing UVs the old-fashioned way.\nPreparation for Texturing\nFor texturing, I got all the maps baked for each UV Set in Marmoset Toolbag (the maps you need to bake before texturing are curvature, cavity, convexity, AO, position, normal, and world normal maps). Once all the maps were well baked, I imported them into Substance 3D Painter.\nTexturing Face\nAfter getting all the maps set up and ready, I built up a couple of layers as a basic grayscale. The first layer is a solid color layer; I set the value to 0.5 gray. The second one is an AO layer; the gray value I gave it is 0.23, and then I changed the blending mode to Multiply. The third one is a light layer; the gray value is set to 1, and the blending mode is Overlay.\nOnce the basic grayscale was ready, I created a painting layer on top of it and added a filter called Gradient so that I would be able to give it some basic color. You can also adjust the color position to make the contrast stronger or weaker based on your own adjustment.\nAfter I finished the basic color, I added multiple fill layers above it: some purplish color around the nose, some greenish color around the jaw and chin areas; I also added some yellowish color on the forehead and cheek areas.\nGarment Texturing\nI used the same method I employed to make the face texture for the basic grayscale and solid color part. Additionally, I manually added some dirt, damage, and scratches on the jacket by using alpha strokes.\nThe challenging part of texturing was that I didn't do much damage and scratching on the high-poly model, which meant there weren’t enough details on the jacket, so I had to make some of them in Substance 3D Painter. I just manually painted some of the areas for the damage and scratches, then gave a negative value in the height channel; after that, I hand-painted some shadows on them so it would give some fake depth to all the damage and scratches.\nRendering\nI used Marmoset Toolbag for rendering. Once I was halfway through texturing, I put the model into Marmoset and started the lighting setup.\nI used one spotlight as a key light because it can give a nice, smooth light transition on the model by adjusting the values of spot angles and spot sharpness. I used a directional light as a fill light to brighten up the dark side, and then I added a reddish color to it to give the character a dangerous, badass vibe. There were also two rim lights behind the character; I used them to bring out the silhouette.\nFor tone mapping, I normally set it to Hejl because it delivers strong contrast with soft highlight roll-off and rich, stable colors. I set the clarity value to 1 so it would enhance the details. I also tweaked the curve editor slightly to strengthen the contrast.\nConclusion\nThe main challenge was creating a truly badass character in a semi-realistic style. Since I had no solid concepts for my character, I had to test multiple expressions based on the references I gathered.\nThe advice that I would give to beginners is to start something small and finish it; don’t make a full character right away. Start with a simple prop or bust, finish it, and learn from the process.\nTry a bit of everything early on – modeling, texturing, and rigging – then dive deeper into what you like most.",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "六款独立游戏联合捆绑包：开发者谈各自核心创意与设计取舍",
-      "what": "80.lv采访gamescom asia捆绑包中六款独立游戏的开发者，包括GigaBash、HELLCARD、Gordian Quest、Winion Virus、Monstrum和UNYIELDER，请他们说明各自游戏的核心创意与差异化设计，并介绍捆绑包售价及部分收入捐给Stand Up To Cancer。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-9667abeb70",
-      "source_url": "https://80.lv/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "828629871b3f4014",
-      "title": "Hideo Kojima & Billie Eilish Make Voice Cameos In My Chemical Romance's Animated Short",
-      "url": "https://80.lv/articles/hideo-kojima-billie-eilish-make-voice-cameos-in-my-chemical-romance-s-animated-short/",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "80.lv"
-      ],
-      "published": "2026-10-30T17:08:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "A collaboration straight out of a fever dream.",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "development",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Hideo Kojima & Billie Eilish Make Voice Cameos In My Chemical Romance's Animated Short",
-          "url": "https://80.lv/articles/hideo-kojima-billie-eilish-make-voice-cameos-in-my-chemical-romance-s-animated-short/",
-          "source": "80.lv",
-          "lang": "en",
-          "published": "2026-10-30T17:08:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "开发动态",
-      "is_analysis": false,
-      "age_hours": 37.45761754638889,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "Hideo Kojima & Billie Eilish Make Voice Cameos In My Chemical Romance's Animated Short\nA collaboration straight out of a fever dream.\nHideo Kojima, one of the gaming industry's most unique creative minds, has been a longtime My Chemical Romance fan and has never hidden his love for the band, attending their live shows and collecting their merchandise over the years. The Black Parade era is clearly his favorite, so it's fitting that he joined a pretty wild voice cast for My Chemical Romance's new seven-minute stop-motion animated short, made with visual artist Lauren Tsai.\nThe short, titled Prelude to the End, features The Black Parade track The End and follows Astrid, a student at a peculiar boarding school who enters a world of forgotten ideas after her beloved sketchbook is thrown in the garbage by authority figures. Tsai voices Astrid herself, while Billie Eilish plays her close friend and Phoebe Bridgers voices her sister. Hideo Kojima takes on the role of a strict Japanese teacher, while John C. McGinley portrays the school's dean.\nThe short film coincides with the 20th anniversary of The Black Parade. My Chemical Romance will screen Prelude to the End during the final two shows of The Black Parade Tour, taking place on October 30 and 31 at the Hollywood Bowl in Los Angeles.\nActually, Kojima has recently collaborated with Lauren Tsai on Death Stranding 2: On the Beach, where she portrays a character known as The Artist, modeled after her likeness. As her name suggests, the character is an artist, and connecting with her unlocks several suit color schemes.\nHideo Kojima and Kojima Productions are currently working on two major upcoming projects: OD and PHYSINT in partnership with Xbox Game Studios. OD is often described as a spiritual successor to P.T., while Physint is being referred to as a spiritual successor to the Metal Gear Solid series.\nDon't forget to subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "小岛秀夫与比莉·艾利什为My Chemical Romance动画短片配音",
-      "what": "My Chemical Romance与视觉艺术家Lauren Tsai合作推出七分钟定格动画短片《Prelude to the End》，配合《The Black Parade》二十周年。小岛秀夫为片中严厉的日语教师配音，比莉·艾利什、Phoebe Bridgers等也参与配音。短片将在10月30日、31日好莱坞碗巡演终场放映。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-b8285cb6e3",
-      "source_url": "https://www.gamedeveloper.com/rss.xml",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "1a1f878af291fd6b",
-      "title": "GDC Side Quest - An anti-cheat primer with Lucia Suarez",
-      "url": "https://www.gamedeveloper.com/programming/gdc-side-quest-an-anti-cheat-primer-with-lucia-suarez",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Game Developer"
-      ],
-      "published": "2026-10-30T13:56:39+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "How do you begin to understand the mind of a cheater?",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "GDC Side Quest - An anti-cheat primer with Lucia Suarez",
-          "url": "https://www.gamedeveloper.com/programming/gdc-side-quest-an-anti-cheat-primer-with-lucia-suarez",
-          "source": "Game Developer",
-          "lang": "en",
-          "published": "2026-10-30T13:56:39+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 40.646784213055554,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "GDC Side Quest - An anti-cheat primer with Lucia Suarez\nHow do you begin to understand the mind of a cheater?\nOctober 30, 2026\nAs hackers, scammers, and other bad actors learn to make the most of generative AI tools like LLMs, they're getting more and more skilled at developing hacks and cheats that threaten the integrity of game developers' work. To the average game developer, this might feel like the arrival of a new, sci-fi foe.\nBut for security experts like Lucia Suarez—formerly a risk operations management team member at Blizzard Entertainment—it's just another day at the office.\nOn this week's episode of GDC Side Quest, content marketing manager Beth Elderkin joins Suarez for a primer about the basics of running anti-cheat operations, For years, cheat developers tried to ruin the lives of World of Warcraft players—but she and her colleagues held the line against the invading horde. Listen to the full episode for a glimpse of her story and a primer on what you need to know about modern day anti-cheat efforts.\nAbout the Game Developer Podcast\nThe Game Developer podcast is a bi-weekly podcast chronicling the triumphs, catastrophes, and everything in-between of game development, sharing lessons and strategies fellow developers can use to hone their craft. The Game Developer Podcast is hosted by Bryant Francis, edited by Pierre Landriau, and features music by Mike Meehan.\nGDC Side Quest is hosted by GDC Festival of Gaming Marketing Manager Beth Elderkin.\nFollow Game Developer on Bluesky or on LinkedIn.\nGame Developer, and Omdia and GDC Festival of Gaming are sibling organizations under Informa Festivals.\nRead more about:",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "GDC Side Quest播客：Lucia Suarez谈反作弊基础",
-      "what": "Game Developer的GDC Side Quest播客本期由Beth Elderkin对话前暴雪风险运营团队成员Lucia Suarez，介绍反作弊运营的基础知识，并回顾其多年对抗《魔兽世界》作弊开发者的经历。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-70e4da96dc",
-      "source_url": "https://www.gameres.com/rss.xml",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "8d9b78faedb1997d",
-      "title": "讲谈社死亡新游《BUZZ or DIE》今日发售！首发限时特惠进行中！",
-      "url": "https://www.gameres.com/901203415.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GameRes"
-      ],
-      "published": "2026-10-30T10:42:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "短视频制作死亡游戏ADV《BUZZ or DIE》由讲谈社游戏实验室于2026年10月30日在Steam发售，首发享八折限时优惠，同步上线原声音乐集与数字美术设定集，支持简体中文。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "讲谈社死亡新游《BUZZ or DIE》今日发售！首发限时特惠进行中！",
-          "url": "https://www.gameres.com/901203415.html",
-          "source": "GameRes",
-          "lang": "zh",
-          "published": "2026-10-30T10:42:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 43.890950879722226,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "短视频制作死亡游戏ADV《BUZZ or DIE》于今日2026年10月30日（周五），由讲谈社游戏实验室在Steam平台发售。\n本作是一款以一档由各有隐情的死刑犯出演的综艺节目为舞台的冒险游戏。玩家被卷入一场不爆火就会遭到公开处刑的死亡游戏。为了活下去，需要调查并揭开对手不为人知的过去，再把这些经历当作素材，制作成短视频公开出去，与对手一决胜负。本作的角色立绘由漫画家冈田淳司老师全新绘制，声优阵容同样豪华，共有11名声优参与，为游戏带来全程语音演出。\n为纪念游戏正式发售，现正举行限时八折首发优惠活动！游戏原价为28元，活动期间仅需22.4元即可购买。优惠活动将持续至11月12日（周四）。\n此外，收录了包括游戏本篇未使用曲目在内共35首乐曲的“原声音乐集”，以及包含设定资料、约54页的“数字美术设定集”也已同步在Steam平台发售。欢迎趁此机会购买！\nSteam商店页面：https://store.steampowered.com/app/2899240/BUZZ_or_DIE/\n※本作包含部分暴力、猎奇表现，以及可能引起精神不适的内容。\n■原声音乐集＆数字美术设定集同步在Steam平台发售！\n随着游戏本体正式发售，原声音乐集与数字美术设定集也已同步在Steam平台发售。即使游戏通关后，玩家也能通过这些内容继续深入感受本作的独特世界。\n为纪念发售，原声音乐集与数字美术设定集也将与游戏本体同步推出限时八折首发优惠活动。欢迎趁此机会购买！\n【BUZZ or DIE 原声音乐集】全新绘制的封面首次公开！\n全员集结的特别版封面！通关后再看将会别有一番滋味\n本原声音乐集共收录35首曲目，不仅包含为这场死亡真人秀增添氛围的游戏内配乐，还收录了未在游戏本篇中使用的特别曲目。封面则采用了由本作创作者凡专门绘制的全新插画。\n价格：15元（含税）※发售纪念限时八折优惠活动进行中，持续至11月12日（周四）\n链接：https://store.steampowered.com/app/5373320/\n【BUZZ or DIE 数字美术设定集】\n数字美术设定集共约54页，除了收录本作的各类插画外，还包含了丰富的游戏设定资料。设定集中不仅公开了游戏中仅少量出现的角色稀有表情差分、由制作者凡绘制的设计草稿，还展示了游戏开发过程中的原型版本画面！无论是想进一步了解死刑犯们不为人知的一面，还是对游戏制作过程感兴趣的玩家，都能从中获得丰富的内容与惊喜。\n价格：13元※发售纪念限时八折优惠活动进行中，持续至11月12日（周四）\n链接：https://store.steampowered.com/app/5484660/\n■不爆火就立即处刑！在死刑犯们的真人秀中生存到最后！\n第一场比赛的对手，是以佐木岛为原型的女性化仿生机器人与一名气质爽朗的男性节目工作人员组成的搭档\n玩家将作为本作的主人公「玩家」，与曾是邪教教主的死刑犯「佐木岛」组成搭档，参加这档赌上性命的综艺节目「BUZZ or DIE」。最终优胜者不仅会被无罪释放，还将得到「实现任何愿望」的权利。\n另一方面，败者会在直播中遭到公开处刑……不仅如此，还会被选为奴隶用仿生机器人的原型。也就是说，与自己长得一模一样的奴隶仿生机器人将遍布世界各地。等待败者的，可以说是对尊严永无止境的践踏。\n为了活下去，玩家要在「探索部分」中调查对手的过去，并将其秘密暴露在全国观众面前，让对手当众出丑。\n参赛者将获得进入对手精神世界的权利，并从中探寻其隐藏的过去、秘密与真实想法\n决定「BUZZ or DIE」胜负的，是观众的投票。想要获胜，手段只有一个——制作以对手为素材的短视频，获得更多「点赞」。在调查部分中抓住对方的弱点，再制作出能够吸引观众眼球的封面图吧。即使没有视频制作经验也完全不用担心！只需要根据对手的特点制作视频封面，就能创作出各种各样、风格迥异的短视频。\n如何利用对手的过去与秘密，把他们变成供人观看的笑料，将取决于玩家制作的封面图\n炎上系、情感系、冷知识系等等，根据封面图的方向，短视频的内容也会发生变化\n此前参展“Steam新品节”的试玩版收录了游戏开篇的剧情。而在正式版中，玩家将能够继续体验后续与死刑犯们的对决，并逐步揭开隐藏在节目背后的真相，直至故事迎来最终结局。在这场被“点赞”支配的死亡真人秀中，你能战胜所有对手，成功活到最后吗？\n试玩版之后，还有更多身怀秘密、足以引爆话题的死刑犯等待着玩家挑战！\n■11名声优组成的豪华阵容，全程语音演出！个性十足的死刑犯们\n第二弹PV：https://youtu.be/68xyIW7EkBM\n一群各有隐情的极恶之徒，他们的强烈情感与冲突相互交织，构成了一出浓墨重彩的人性群像剧，这也是本作的一大魅力。由声优演绎的死刑犯们，无一不是个性十足的危险人物。他们将两人一组，彼此搭档进行战斗。炸毁电视台的天才搞笑艺人，与让大型银行破产的天才少女黑客。发动政变的武器商人千金，与她擅长烹制人肉料理的私人厨师。以及不知为何被判处死刑的孩子，与他的刑警父亲。每一组搭档都隐藏着不为人知的过去，而不同组合之间也有着不浅的因缘。\n玩家（CV：Iori Nomizu）\n原本是节目工作人员之一，却被迫成为参赛者\n佐木岛翔（CV：Takaaki Torashima）\n玩家的搭档。邪教教主，同时也是一名诈骗犯\n新手教程妹妹（CV：Sarah Emi Bridcutt）\n佐木岛翔的“女性化”仿生机器人\n工作人员（CV：Nozomi Takatsuki ）\n负责协助新手教程妹妹 的节目工作人员\n秋足忍（CV：Toya Shiraishi）\n曾炸毁电视台的前当红搞笑艺人\n宇津小百合（CV：Reina Kawamura）\n入侵大型银行系统的天才少女黑客\n铳条爱海 （CV：Yurika Hirayama）\n曾发动政变险些毁掉国家的武器商人一家千金\n蟹张澄人（CV：Toshinobu Iida）\n自称“人肉料理专家”的一流厨师\n浦雾伊奈（CV：Miu Miyake）\n立志成为刑警的男孩\n浦雾壮一 （CV：Yuichiro Kuba）\n伊奈的父亲，同时也是现役刑警\n东渐叶芽 （CV：Haruka Sato）\n节目制作人，同时也是玩家的上司\n角色立绘、主视觉图及剧情CG均由漫画家冈田淳司老师（代表作：《双生遊戯》《タタキザサイドハッスル》）全新绘制。从死刑犯之间激烈的互相挑衅，到落败角色狼狈不堪的表情，都将通过冈田老师精美而充满独特审美趣味的插画，以及声优阵容的倾情演绎呈现。敬请期待！\n【创作者简介】\n凡（X：https://x.com/EgoMixer）\n擅长塑造个性鲜明、独具特色的角色，以及构建黑暗、富有解读空间的世界观。过往作品包括《EgoMixer》《一路十二时》等多款免费游戏。\n【游戏信息】\n游戏名称：BUZZ or DIE\n支持平台：Steam\nSteam商店页面：https://store.steampowered.com/app/2899240/BUZZ_or_DIE/\n第二弹PV：https://youtu.be/68xyIW7EkBM\n支持语言：日语、英语、简体中文\n游戏类型：短视频制作死亡游戏ADV\n发售日期：2026年10月30日（周五）\n售价：28元※发售纪念限时八折优惠活动进行中，持续至11月12日（周四）\n游玩人数：1人\n开发者：凡（X：https://x.com/EgoMixer）\n角色插画：冈田淳司\n发行商：株式会社讲谈社\n版权标识：©︎凡／讲谈社\n【相关商品】\nBUZZ or DIE 原声音乐集（共35首曲目）：15元\n链接：https://store.steampowered.com/app/5373320/BUZZ_or_DIE_Soundtrack/\n※发售纪念限时八折优惠活动进行中，持续至11月12日（周四）\nBUZZ or DIE 数字美术设定集（约54页）：13元\n链接：https://store.steampowered.com/app/5484660/\n※发售纪念限时八折优惠活动进行中，持续至11月12日（周四）\n【关于讲谈社 Creators' Lab】\n讲谈社 Creators' Lab（https://creatorslab.kodansha.co.jp/）是株式会社讲谈社第四事业本部于2021年6月成立的研发部门。该部门以“重新定义编辑”为理念，与各领域创作者建立广泛连接，不局限于书籍与杂志的形式，持续向社会推出多种多样的内容作品。\n旗下包括：\n・企划独立游戏创作者扶持及新作开发的「讲谈社游戏实验室」\n・运营匹配型漫画投稿平台DAYS NEO等服务的「UGC媒体实验室」\n・支持独立影像创作者并推进新影像企划的「讲谈社影视实验室」\n・不限领域支持创作者成长的「创作者成长加速实验室」\n・针对企业及地方政府课题，提出以内容创意为解决方案的「内容设计实验室」\n・以制作人机制孵化全新内容IP的「IP制作实验室」\n通过上述多元业务板块，不仅助力创作者实现梦想，也通过“编辑”的力量为企业与地方政府的课题提供解决方案。\n有关「讲谈社游戏实验室」的最新资讯，请参阅以下官方渠道：\n登录 后参与讨论\n暂无评论，来抢沙发",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "讲谈社发行短视频制作死亡游戏ADV《BUZZ or DIE》Steam发售",
-      "what": "讲谈社游戏实验室于2026年10月30日在Steam发售《BUZZ or DIE》，这是一款以死刑犯参加综艺节目为舞台的冒险游戏，玩家通过调查对手过去并制作短视频争取观众点赞来求生，首发八折优惠至11月12日。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-15489e2ed4",
-      "source_url": "https://www.gamesindustry.biz/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "6779c3041d832719",
-      "title": "Why asking \"what's the budget for your game?\" doesn't make sense in 2026 | Opinion",
-      "url": "https://www.gamesindustry.biz/why-asking-whats-the-budget-for-your-game-doesnt-make-sense-in-2026-opinion",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-10-30T09:00:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "Three years ago, we launched our Kickstarter campaign for Trash Goblin , our cosy shop sim. It was an existential moment for Spilt Milk Studios. Seventy-four publishers had turned down the game - one of them pulling out in the meeting that we thought was to sign the final publishing contract - but players seemed to love it.",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Why asking \"what's the budget for your game?\" doesn't make sense in 2026 | Opinion",
-          "url": "https://www.gamesindustry.biz/why-asking-whats-the-budget-for-your-game-doesnt-make-sense-in-2026-opinion",
-          "source": "GamesIndustry",
-          "lang": "en",
-          "published": "2026-10-30T09:00:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 45.59095087972222,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "Why asking \"what's the budget for your game?\" doesn't make sense in 2026 | Opinion\nSpilt Milk Studios' Nicholas Lovell on how the studio balances different funding sources, and scales game development to match\nThree years ago, we launched our Kickstarter campaign for Trash Goblin, our cosy shop sim. It was an existential moment for Spilt Milk Studios. Seventy-four publishers had turned down the game - one of them pulling out in the meeting that we thought was to sign the final publishing contract - but players seemed to love it.\nWe put the team on notice of redundancy, and launched a last-ditch effort to save the game and the studio.\nFast forward three years. Trash Goblin successfully crowdfunded, launched into Early Access, released on Steam, Epic, Xbox, PlayStation, Switch, iOS and Android and has a plethora of DLCs, both free and paid.\nAs we prepare the Kickstarter campaign for our next game, we went back to look at the funding sources for Trash Goblin. To our surprise, crowdfunding was only 10% of the budget of the game. This encouraged me to take a deeper look at how a modern indie game studio builds the funding to make a game, and why asking \"What is the budget for your game?\" doesn't make sense in 2026.\nThe chart above shows the sources of funding for Trash Goblin up to the 1.0 release. The key dates:\n- Demo release and crowdfund: November 2023\n- Early Access: November 2024\n- 1.0 release on Steam: May 2025\n- Console release: May 2026\nPlayers accounted for over one third of the funding, through the initial crowdfunding campaign, and the revenue from Early Access that we reinvested into the title. We had enormous support from the UK government, representing around one third of the budget as well. We benefited from the Prototype Fund and the Content Fund for Trash Goblin, which is a competitive process for a limited pool of money, while nearly every British developer can get Video Game Tax Relief (VGTR) or its replacement, VGEC. We also invested our own resources, particularly at the beginning of the project to get the demo up and running, resources that included company reserves and the margin on work-for-hire development. Finally, we had support from Microsoft for bringing the game to Xbox.\nThe main surprise for us was that Trash Goblin is seen, both internally and externally, as a crowdfunding success story, yet our Kickstarter funds were such a small percentage of the development budget of the game.\nThis, I think, is one of the key changes to indie development in 2026. Many developers think of Kickstarter as a replacement for publisher funding. It is not.\nPublishers are project financing. They (usually) pay for the majority of the development of the game, in return for getting most or all of the revenue from the game until they have recouped their investment, and sharing the revenue with the developer thereafter. This can be great for developers, allowing them to focus on making the game, not worrying about marketing or financing, but it can also kill studios, as Tim Bender of Hooded Horse has argued.\nKickstarter doesn't fit that mould. Occasionally, a studio can get lucky enough to fund the entirety of the development of their game with a crowdfunding campaign. More often, it is a step on a journey towards a successful launch. More importantly, it can be a key part of your marketing, community building and market testing.\nWe have recently been asked what the budget is for our next game, Gobble Inn, a cosy rogue-like (think \"Diet Dave the Diver\"). Our answer to how big is the budget: It totally depends on when during development you are asking the question.\nThe image below shows how we are thinking about the development of the game\nOur initial prototype was developed in a three day game jam last Christmas. We found gameplay we believed in and that the team wanted to make.\nAlongside continuing to support Trash Goblin with paid and free DLC, we have been working on polishing a playable demo. We believe that the days when you can crowdfund a game on the basis of a PowerPoint and the track record of the team are long behind us. Assuming that the crowdfund is successful - demonstrating real customer demand for the game we want to make - we will then commit to delivering an Early Access title. If the Early Access demand is weak, we will continue to work to keep all our promises to players, but not push the boat out on new features. If, as happened with Trash Goblin, demand is strong, we will continue working to a 1.0 release, fully localised and, hopefully, on all platforms, as well as supporting the game after 1.0.\n\"The budget for Gobble Inn is anywhere from £250,000 to £2.5 million, depending on when you ask\"\nThat means that for our team of 10, supported by freelancers and specialists from audio design, marketing and merchandising, the budget for Gobble Inn is anywhere from £250,000 to £2.5 million, depending on when you ask.\nThat is the key takeaway here. Our mission at Spilt Milk Studios is to delight players by developing cosy, wholesome games, crafted with a twist. To do that, we have to survive. We believe that is best done by having a flexible development process. We commit a certain amount of money to the next milestone, work hard to get the development, publishing and marketing right for that milestone, and then adapt our plans, including going to Plan B, C or even D, as we get feedback from the players and the market.\nThere are other ways to survive as an indie. Publisher funding still exists. New funds that invest in projects are emerging. But we want to control our own destiny and not have a person in a suit able to decide that our game is not a priority for them any more and shut it down. Finding multiple sources of funding, with a flexible approach to committing that funding, is the route we have chosen.\nNicholas Lovell is the Product and Strategy Director of Spilt Milk Studios. Gobble Inn is currently crowdfunding for £50,000 on Kickstarter.",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "独立游戏预算为何难以用单一数字回答",
-      "what": "Spilt Milk Studios产品与战略总监Nicholas Lovell以《Trash Goblin》为例，说明其资金来自众筹、抢先体验收入再投入、英国政府基金与税收减免、公司自有资金及微软支持，众筹仅占约10%；新作《Gobble Inn》预算随开发阶段在25万至250万英镑间变化。",
-      "why": "作者主张众筹并非发行商融资的替代品，而是营销、社区建设与市场测试的一环；工作室按里程碑投入资金，依据玩家与市场反馈调整计划。",
-      "for_you": "可研究：以里程碑为单位的分阶段投入，如何影响团队规模、内容承诺与平台发行节奏的决策？",
-      "degraded": null
-    },
-    {
-      "source_id": "web-70e4da96dc",
-      "source_url": "https://www.gameres.com/rss.xml",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "ed7b535c0e088d69",
-      "title": "AppsFlyer 发布《广告平台综合表现报告 - 2026 版》：Apple Ads 与 AppLovin 领跑 iOS，Google Ads 主导 Android，Meta Ads 登顶再营销榜单",
-      "url": "https://www.gameres.com/901203410.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GameRes"
-      ],
-      "published": "2026-10-30T04:41:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "2026年10月，AppsFlyer发布《广告平台综合表现报告（2026版）》，采用新方法论排名，披露多平台广告渠道表现及移动营销行业趋势。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "AppsFlyer 发布《广告平台综合表现报告 - 2026 版》：Apple Ads 与 AppLovin 领跑 iOS，Google Ads 主导 Android，Meta Ads 登顶再营销榜单",
-          "url": "https://www.gameres.com/901203410.html",
-          "source": "GameRes",
-          "lang": "zh",
-          "published": "2026-10-30T04:41:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 49.90761754638889,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "2026 年 10 月 29 日，北京 —— 现代营销云平台 AppsFlyer 今日正式发布 2026 版《广告平台综合表现报告》（Performance Index）。作为移动营销行业的重要参考，该报告对主要媒体渠道进行综合排名。今年的报告显示，排名前 10 的媒体渠道中，有 9 家实现了广告支出同比增长。排名前 20 的渠道中，也有 17 家实现广告支出增长。这一增长趋势在 iOS 和 Android 平台、游戏与非游戏应用领域均有所体现。\n不过，各媒体渠道的表现也呈现出不同的趋势。Google Ads 和 Apple Ads 持续保持领先，分别蝉联 Android 平台和 iOS 非游戏领域榜首。其他头部渠道的排名则出现了更明显的变化：AppLovin 进一步扩大了在 iOS 游戏领域的领先优势；Unity Ads 整合原 ironSource 广告平台后，排名升至第 2 位；小米、vivo 和 OPPO 等设备制造商旗下的广告平台也纷纷跻身 Android 头部榜单。这表明，OEM 广告平台正逐渐成为广告主分配营销预算时的重要选择，而不再局限于应用分发。\nAppsFlyer 市场洞察总监 Shani Rosenfelder 表示：“《广告平台综合表现报告》为行业提供了重要参考，帮助营销者识别真正能够带来效果的媒体渠道。今年，我们采用了全新方法论，以广告支出变化为依据进行排名，更直接地反映广告主实际投入营销预算的变化。”\nAppsFlyer 2026 年《广告平台综合表现报告》揭示了以下关键趋势：\nAppLovin 领跑全球 iOS 游戏领域，在实力榜和体量榜中均位列第 1，实力得分大幅领先于排名第 2 的 Unity Ads；今年，AppLovin 还在体量榜单中超越 Apple Ads，进一步扩大了领先优势。\nGoogle Ads 稳居 Android 游戏与非游戏领域榜首，在 Android 游戏领域，其实力得分超过排名第 2 的广告平台的两倍。\nApple Ads 继续领跑 iOS 非游戏领域，尤其在北美和西欧市场的效率工具与金融应用类别中表现突出，进一步巩固了其领先地位。\nMeta Ads 登顶再营销榜单。购物类应用是再营销体量最大的品类，Meta Ads 在该领域的出色表现为其排名优势提供了有力支撑。\n小米、vivo 和 OPPO 在 Android 榜单中排名显著上升，反映出 OEM 广告平台在广告营销领域的竞争力持续增强。\n自 2015 年以来，AppsFlyer 持续追踪和分析各媒体渠道的表现，为移动营销行业提供客观、可靠的数据参考，帮助营销者比较不同市场和广告形式下各媒体渠道的表现。2026 年版报告的数据覆盖 272 亿次非自然安装、2.5 万款应用、420 亿次再营销转化，以及 57 个媒体渠道，全面呈现了移动营销领域各媒体渠道的表现。\n完整报告请访问： https://social.appsflyer-gcr.cn/surl/c177YdYK\n关于 AppsFlyer\nAppsFlyer 是一家“现代营销云平台”，致力于帮助企业将复杂数据转化为清晰洞察与持续增长。作为统一、可衡量、自主营销范式的奠基者，AppsFlyer 旨在打破衡量、深度链接、数据协作与自主 AI 工作流之间的壁垒，助力品牌实现智能化营销转型。十多年来，AppsFlyer 一直是移动归因领域的全球领导者，赢得了超过 15000 家企业的信任。\n登录 后参与讨论\n暂无评论，来抢沙发",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "AppsFlyer发布2026版广告平台综合表现报告",
-      "what": "AppsFlyer发布2026版《广告平台综合表现报告》，称采用以广告支出变化为依据的新排名方法，覆盖272亿次非自然安装、2.5万款应用、420亿次再营销转化和57个媒体渠道；报告显示Apple Ads与AppLovin领跑iOS，Google Ads主导Android，Meta Ads登顶再营销榜。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-15489e2ed4",
-      "source_url": "https://www.gamesindustry.biz/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "c9ae754afa87f0fa",
-      "title": "Onimusha, Resident Evil, Pragmata, and Monster Hunter franchises boost Capcom H1 results",
-      "url": "https://www.gamesindustry.biz/onimusha-resident-evil-pragmata-and-monster-hunter-franchises-boost-capcom-h1-results",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-10-29T12:57:05+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "Capcom published its financial results for the six months ended September 30, 2026, and reported increases across the board, including a 67.5% rise in ordinary profit to ¥61.2 billion ($387.2 million).",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Onimusha, Resident Evil, Pragmata, and Monster Hunter franchises boost Capcom H1 results",
-          "url": "https://www.gamesindustry.biz/onimusha-resident-evil-pragmata-and-monster-hunter-franchises-boost-capcom-h1-results",
-          "source": "GamesIndustry",
-          "lang": "en",
-          "published": "2026-10-29T12:57:05+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 65.63956199083333,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "Onimusha, Resident Evil, Pragmata, and Monster Hunter franchises boost Capcom H1 results\nPublisher's Digital Contents segment, which includes games, surged 70.8% to $538.4 million\nCapcom published its financial results for the six months ended September 30, 2026, and reported increases across the board, including a 67.5% rise in ordinary profit to ¥61.2 billion ($387.2 million).\nThese results were primarily driven by the Digital Contents business, which encompasses games, generating net sales of ¥85.1 billion ($538.4 million), up 70.8% year on year. Operating profit rose 66.7% to ¥52.3 billion ($330.9 million).\nTotal unit sales reached 36.86 million, up from 23.85 million sold during the same period of the previous fiscal year.\nThe numbers\nFor the six months ended September 30, 2026:\n- Net sales: ¥120.8 billion ($764.2 million), up 49% year-on-year\n- Operating profit: ¥60.7 billion ($384 million), up 54.5% year-on-year\n- Ordinary profit: ¥61.2 billion ($387.2 million), up 67.5% year-on-year\n- Net income: ¥43 billion ($272 million), up 56.6% year-on-year\nThe highlights\nMajor franchises such as Resident Evil, Pragmata, Monster Hunter, and Onimusha drove sales during the period.\nResident Evil Requiem \"continued to grow in popularity\" after its February launch, surpassing eight million units. Revenue was further supported by \"ongoing growth\" in sales of Resident Evil 4 and Resident Evil 2.\nCapcom's newest franchise, Pragmata, has sold over 2.7 million units since its April release, while Onimusha: Way of the Sword has surpassed 1.7 million since its September 4 launch. Cumulative sales of the Onimusha series have reached 11 million.\nSales of previous Monster Hunter titles increased following Capcom's announcement of the release window for Monster Hunter Wilds: Ascendance, an expansion for Monster Hunter Wilds, and confirmation that both titles will be available on Nintendo Switch 2.\nDevil May Cry 5 has sold 14 million units since its 2019 release, which Capcom attributes to its Switch 2 rollout and pricing strategies aligned with the Netflix series.\nStreet Fighter sales reached 32.18 million units, up from 22.85 million in the same period last year.\nCapcom stated it is continuing its \"efforts to bolster coordination between its games and esports activities in pursuit of wider brand recognition and an expanded user base.\"",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "卡普空上半财年业绩增长，多款系列作品推动数字内容业务",
-      "what": "卡普空公布截至2026年9月30日的上半财年业绩：净销售额1208亿日元，同比增长49%；数字内容业务净销售额851亿日元，同比增长70.8%；总销量3686万份。业绩由《生化危机》《Pragmata》《怪物猎人》《鬼武者》等系列作品推动。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-15489e2ed4",
-      "source_url": "https://www.gamesindustry.biz/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "57bdd7108a139262",
-      "title": "The five golden rules of external development",
-      "url": "https://www.gamesindustry.biz/the-five-golden-rules-of-external-development",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-10-29T09:00:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "We created Code Wizards 24 years ago, and as an external development partner, we work with a mix of small and large companies on backend engineering, live operations, IT and more. Over the years we've learnt from our mistakes, and CEOs of new studios and service providers often ask me how they can best work together for success. Here, I'll share the top five simple rules that you can incorporate into your own playbook to help minimise the stress and maximise the fun of working together.",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "The five golden rules of external development",
-          "url": "https://www.gamesindustry.biz/the-five-golden-rules-of-external-development",
-          "source": "GamesIndustry",
-          "lang": "en",
-          "published": "2026-10-29T09:00:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "开发动态",
-      "is_analysis": false,
-      "age_hours": 69.59095087972223,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "The five golden rules of external development\nCode Wizards head Stuart Muckley shares tips to minimise the stress and maximise the fun of working with a studio partner\nWe created Code Wizards 24 years ago, and as an external development partner, we work with a mix of small and large companies on backend engineering, live operations, IT and more. Over the years we've learnt from our mistakes, and CEOs of new studios and service providers often ask me how they can best work together for success. Here, I'll share the top five simple rules that you can incorporate into your own playbook to help minimise the stress and maximise the fun of working together.\nGolden Rule #1: We're in the business of trust\nAll games are a piece of art created in a digital form. Trusting somebody to enrich another artist's work is difficult.\nTrust is typically built up over the course of years, but working with a new partner requires trust from day one – and that needs an investment.\nAny engagement needs to start with an assumption of trust, but we can improve that by continually showing each party is trustworthy. This isn't onerous or difficult, but it does require transparency, planning, and a way of measuring and demonstrating progress. It goes both ways, too: the client is putting their trust in a co-developer or service provider, but the latter also has to trust the client.\nThe more you build up trust with the client, the more it's likely that any feedback given to them will be listened to\nOften the early stages of a game production cycle have largely invisible elements – it's like building a new house, and the foundation takes time, but it is hard to visualise the real effort and work involved. No timesheets will ever be able to demonstrate what's being realised behind the scenes. Find a way of explaining what's going on and ensuring it maps against the agreed plan. Most of all, if you say you'll do something, then do it.\nThe more you build up trust with the client, the more it's likely that any feedback given to them will be listened to. It's important that all discussion is considered to be valued and well intentioned, and ultimately it will help to make a better game.\nOften a prospective new client will message a contact who has worked with us before to find out their opinion of us. A few years ago, I remember taking a call with a potential client who seemed positive but reticent. We closed the discussion on a \"maybe.\" Fifteen minutes later they called back after having spoken to a contact we'd worked with, saying: \"They said you're amazing, let's get a contract together.\" That's the power of reputation and trust.\nAt all times remember that our industry is a small one – trust is hard to earn and easy to lose. Reputation doubly so. Trust isn't just earned when things are going great, but also when things go wrong. Own your mistakes and fix them. When others make mistakes, jump on and help them get back on track.\nTLDR? Treat your reputation like XP – getting to S-Rank is super important.\nGolden Rule #2: Flexibility is key\nImagine you're working on a game that everyone is really excited about. Everything is headed in the right direction when all of a sudden, it doesn't feel good enough. What if you encouraged everyone to take a beat and rethink things?\nBeing able to move things around and change the order that we build them is incredibly important. The key mechanics and functionalities touch every aspect of the game. If it feels like something is off, sharing that feedback immediately is crucial. Strong collaboration and that established trust means that feedback matters and is listened to on all levels.\nGames evolve over time, and everybody on the team needs to be willing to bend and flex with them\nWe're lucky enough to work with a bunch of studios, and there was a great example of the above a decade ago. A renowned studio had a great game, but the wall running just didn't feel right. To get that mechanic working, they needed all of their internal teams pulling together. The pause to fix the issue was two weeks long, which seriously impacted our teams and deliverables – but the game was massively better as a result of the fix (as proved by the Metacritic score). Yes, it caused us a rescheduling nightmare and we had to work harder, but not one member of either team regretted the change.\nGames are a form of art and they should be fun, beautiful, and engaging to succeed. One simple detail that feels off can break the experience. That means games evolve over time, and everybody on the team, including service providers, needs to be willing to bend and flex with them, understand how to communicate those changes, and negotiate something that works for all.\nGolden Rule #3: Communication is critical\nGames teams are a broad church of different kinds of people, from the overtly artistic to those heavily into engineering. They speak slightly different languages, and that needs to be catered to.\nIn addition communication isn't only written and verbal, it also translates into culture: how the teams fit together and the way they work. Different clients have different ways of operation, and you have to tune into the communication style that works best for them.\nThe trick is to overcommunicate. You can't assume that everyone knows the project goals, and by overcommunicating, you ensure that everyone involved is part of the same conversation.\nCommunication style will change as the game goes on\nThis is best illustrated in two different examples with two very different communication strategies. For the first team (which is making an epic driving game with a new publisher), we've adopted a \"project health\" fortnightly reporting cadence. Not only on the deliverables, milestones, and efficacy, but also covering inter-team collaboration, morale boosters and blockers, and ways to improve. The other is a team we've worked with for many years; here, we concentrate our communication on exceptions – reporting on where we see risk, change, or dependencies that could affect the project, with everything else expected to work correctly unless it's flagged.\nCommunication style will also change as the game goes on. In the early stages, the goals are still being defined, so communication might feel more free and artistic. But the discipline starts increasing as the project accelerates. At that point, it's important to get more formal in how you talk about your goals and how you're delivering against them.\nGolden Rule #4: Know your weaknesses\nWe all know that every team has strengths and weaknesses. As an ex-dev, you were hired largely based on your strengths, but before you start collaborating, you need to communicate and share where you are best and worst utilised. The bottom line is those strengths and weaknesses need to be called out so that you can collaboratively build the best plan for success.\nUnless you declare what you don't know, those gaps will cause problems down the line. That perspective has to start from the top of the organisation, too. For example, I can say that I wouldn't be good at delivering UI or 3D modeling for a game, as those are not my strengths.\nIt's crucial to understand those specifics across the team dynamic to ensure we can work around them. If everyone understands the challenges, you can work better together.\nYou need to communicate where you are best and worst utilised\nAt Code Wizards, we know our strengths: we often work on games with very high numbers of concurrent players, so when a new studio recently asked us to profile and load test their game, it was all in a day's work. But we're also aware of our weaknesses. A client we've worked with extensively before wanted us to help out with game client optimisation, and although the temptation was to say \"we can do that\" and try to learn as we went along, that would only have made their job harder and imperilled the game's quality. So we pulled back and found another partner to lean in and help them instead.\nThink of the old saying: Jack of all trades and master of none. We all bring different things to the table – that's what makes it fun and why we are stronger together.\nGolden Rule #5: Look after your people\nGames are a people business. Creating a strong company culture that keeps those people happy is a true artform.\nWhen your team works on a project, you need them to all be of a similar mindset and share a similar motivation to achieve the project goals. Otherwise, chaos ensues.\nI've learned that a positive culture starts with being heard, but in both directions. Team members want the opportunity to say their piece, even if it's different or unexpected. But leadership still has to be in place. We call ourselves a \"benevolent dictatorship,\" because we maintain a hierarchy for command and control while treating people as people – not as \"resources.\" People want to be heard, but they also need a level of direction.\nIf you keep your team happy, it's a simple truth that they'll make better games\nThere's always a conductor of an orchestra, that's the way it works. Be careful with how you lead though, because nobody wants to go the extra mile under a full-blown dictatorship. The bottom line is everyone should feel like they're part of the team and that everyone is building toward the same goals. With that culture in place, generally people will be happy with their daily work.\nA few years ago, one of our team members sadly lost a parent. It was fast, unexpected, and the parent lived abroad. Without being asked, their project team picked up their work, added it to their task lists, and made it clear they could drop everything and the team wouldn't be affected. That kind of respect and love can't be taught or manufactured, that's the consequence of good people wanting the best for other people and leaning in to help.\nMore recently, we had to have a tough conversation about a person being the right peg for the wrong hole. They are amazing and super clever, but really badly suited for what ",
-      "has_body": true,
-      "body_truncated": true,
-      "title_cn": "外部开发合作的五条原则：信任、灵活与沟通",
-      "what": "Code Wizards负责人Stuart Muckley总结与外部工作室合作的五条经验：以信任为基础、保持灵活、重视沟通、明确自身强弱项、照顾团队人员，并结合其公司承接后端工程与运维等合作案例说明。",
-      "why": "作者以自身24年外部开发合作经验为依据，用具体案例说明信任建立、机制调整、沟通节奏和承认弱项等做法，属从业者经验总结，非独立验证。",
-      "for_you": "可追问：文中“过度沟通”“仁慈的独裁”等做法在跨工作室合作中如何落地，哪些经验有可复用的度量方式？",
-      "degraded": null
-    },
-    {
-      "source_id": "web-68554a31d0",
-      "source_url": "https://www.chuapp.com/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "39bbaeba1b64e6c0",
-      "title": "从《黑神话：悟空》到《影之刃零》，一份名单里的江湖",
-      "url": "http://www.chuapp.com/article/291723.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "触乐"
-      ],
-      "published": "2026-10-29T06:43:25+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "去年12月，《影之刃零》制作人梁其伟在参加完TGA后，发文分享了自己的现场见闻。其中有一张照片，是他和《光与影：33号远征队》制作人Guillaume Broche的合影。 当时，《影之刃零》正处于开发收官的关键时期。梁其伟借这个机会，向Guillaume交流了开发经验。后来在接受媒体采访时，他提到，《33号远征队》团队给出的建议中，有一条尤其关键：“最后九个月的时间，最重要的事情是删东西。从游戏里砍掉一些内容，然后把剩下的部分打磨好。” 这不是梁其伟第一次提《33号远征队》。在2025年8月的一次采访中，梁其伟解释《影之刃零》对于类魂游戏的借鉴时，举例说：“《33号远征队》也从魂游中提炼了部分元素，将它们与JRPG相结合，为玩家带来了新鲜体验，这与我们正在做的事情非常相似。” 也是那个月，Guillaume在参加ChinaJoy期间参观了灵游坊在上海的动捕棚，并试玩新Demo。根据灵游坊官方在小红书的分享，两边团队“花了整整一下午，真挚地交换了很多创作的灵感”。双方还互赠了有象征意义的礼物，贝雷帽与斗笠。 于是，在昨天流传出来的《影之刃零》特别鸣谢名单中，我们看到Guillaume Broche的名字时，也就不意外了。 Guillaume Broche参观《影之刃零》动捕棚 这份流传出来的特别鸣谢名单很有意思。它不同于通常意义上的制作人员名单，列出的人并非《影之刃零》的开发团队成",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "从《黑神话：悟空》到《影之刃零》，一份名单里的江湖",
-          "url": "http://www.chuapp.com/article/291723.html",
-          "source": "触乐",
-          "lang": "zh",
-          "published": "2026-10-29T06:43:25+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 71.86733976861112,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "吃水不忘挖井人。\n去年12月，《影之刃零》制作人梁其伟在参加完TGA后，发文分享了自己的现场见闻。其中有一张照片，是他和《光与影：33号远征队》制作人Guillaume Broche的合影。\n当时，《影之刃零》正处于开发收官的关键时期。梁其伟借这个机会，向Guillaume交流了开发经验。后来在接受媒体采访时，他提到，《33号远征队》团队给出的建议中，有一条尤其关键：“最后九个月的时间，最重要的事情是删东西。从游戏里砍掉一些内容，然后把剩下的部分打磨好。”\n这不是梁其伟第一次提《33号远征队》。在2025年8月的一次采访中，梁其伟解释《影之刃零》对于类魂游戏的借鉴时，举例说：“《33号远征队》也从魂游中提炼了部分元素，将它们与JRPG相结合，为玩家带来了新鲜体验，这与我们正在做的事情非常相似。”\n也是那个月，Guillaume在参加ChinaJoy期间参观了灵游坊在上海的动捕棚，并试玩新Demo。根据灵游坊官方在小红书的分享，两边团队“花了整整一下午，真挚地交换了很多创作的灵感”。双方还互赠了有象征意义的礼物，贝雷帽与斗笠。\n于是，在昨天流传出来的《影之刃零》特别鸣谢名单中，我们看到Guillaume Broche的名字时，也就不意外了。\n这份流传出来的特别鸣谢名单很有意思。它不同于通常意义上的制作人员名单，列出的人并非《影之刃零》的开发团队成员，而是在游戏诞生过程中，以不同方式给予过帮助的人。尽管名单非常简洁，只有相关人物的名字，但我们却能从中看到隐藏的故事和游戏行业里的关系网。\n尤其值得注意的是，其中有几位人物，也出现在两年前发行的《黑神话：悟空》的致谢名单中。从《黑神话：悟空》到《影之刃零》，两份名单的重合不仅让人看到两款国产单机游戏背后的共同面孔，它们之间的差异也提供了一个观察游戏行业关系的窗口：这些人为什么会出现在作品的鸣谢名单里？他们与游戏、与创作者之间，又有着怎样的联系？\n趁着《影之刃零》今天发售，我们也借这份名单，看看它所记录的行业故事，以及梁其伟和灵游坊一路走来的印记。\n对于《影之刃零》这样一款游戏来说，鸣谢名单上最直观的当然是真金白银支持过游戏开发的投资人。在《影之刃零》的诞生过程中，最关键的一笔投资发生在2021年，来自腾讯。\n2021年9月，灵游坊宣布获得腾讯数亿元战略投资。对这家成立了十年的游戏公司来说，这笔融资恰好发生在一个重要的转折点上：此前多年，灵游坊主要围绕“影之刃”系列开发手游。而从2018年左右开始，梁其伟已经带领一支小团队，秘密研发PC、主机游戏。按照他当时的说法，这是一项“近乎任性”的投入，财务风险需要团队自己承担。腾讯的出现，为这条此前缺少外部资金支持的路线提供了新的空间。灵游坊随后公布了未来五年研发两款大型单机游戏的计划，《影之刃零》正是其中之一。\n这也解释了为什么名单上会出现多位腾讯相关人士，包括负责腾讯全球游戏发行业务的腾讯高级副总裁马晓轶，腾讯副总裁、投资部主管、腾讯投资管理合伙人李朝晖，腾讯投资执行董事荀为谦等等。\n如果把时间再往前拨，灵游坊的成长也离不开其他投资人与发行商。2011年，梁其伟回国创立灵游坊，获得真格基金的天使投资。2013年，公司又获得网易资本数百万美元的A轮融资。此后，灵游坊开始将重心转向手游，《影之刃》于2014年公测，由网易代理发行。2016年推出的《影之刃2》转由英雄互娱代理发行。2018年，灵游坊获得延安灏钰投资，这家机构与英雄互娱存在关联。\n2021年初，《影之刃3》上线，仍由英雄互娱代理发行。同年，灵游坊的股权结构发生变化：网易雷火和与真格基金有关联的股东先后退出，创始团队回购了相关股份。随后，腾讯进入，成为公司唯一外部股东。\n尽管网易雷火和英雄互娱在《影之刃零》开发前，便退出了灵游坊的股东行列，但相关人物的名单依然出现在了这次《影之刃零》特别鸣谢名单上，其中就包括英雄游戏（原英雄互娱）的联合创始人应书岭与吴旦，以及网易集团执行副总裁、网易雷火事业群负责人胡志鹏等等。\n从这个角度看，这份名单或许也是一种表达：即使公司已经走到新的阶段，也没有忘记那些曾经在不同阶段伸出援手的人。所谓“吃水不忘挖井人”，大概就是这个意思。\n2024年《黑神话：悟空》上线后，我们也曾撰文讨论过它的制作人员名单背后的故事，其中同样有一份特别鸣谢名单。对比两份名单，你会“惊讶地”发现，竟然出现了一些相同的名字：来自腾讯的马晓轶、李纳川、钱赓，来自英雄互娱（现已更名为“英雄游戏”）的应书岭、吴旦，来自网易的胡志鹏，以及来自米哈游的刘伟（疑似）。这种草蛇灰线很有意思，因为它能透露的信息远不止单纯地理解为“商业感谢”。\n这要从灵游坊和游戏科学的投资结构说起。两家公司虽然一个在北京，一个在杭州，但它们的股权变化、甚至是变化的时间点，都非常相似。在英雄互娱相关基金投资灵游坊的2017年前后，英雄互娱也对尚处早期阶段的《黑神话：悟空》进行了投资，并持有游戏科学19%的股权，其创始人吴旦也进入了公司董事名单。\n同样是在灵游坊宣布获得腾讯战略投资的2021年，腾讯出资入股了游戏科学，获得约5%的股权，随后英雄互娱慢慢退出。2026年，腾讯最终也成为了游戏科学的唯一外部机构股东。这也能解释为什么腾讯和英雄互娱相关人物被同时写进两份名单。\n不过，比较奇怪的是，与灵游坊不同，网易和游戏科学之间并无公开的投资或股权关系，网易执行副总裁胡志鹏却同时出现在两份鸣谢名单中。网易雷火和游戏科学两家工作室都位于杭州，而胡志鹏如今也是网易新作《归唐》的制作人。冯骥曾在《归唐》公布预告片时转发支持，我们可以推测两人或许有着联系和交流。\n如果《黑神话：悟空》鸣谢名单中的“刘伟”确实是米哈游联合创始人刘伟，那么他也是两份名单中的重合人物。只是目前尚未找到刘伟与游戏科学及《黑神话：悟空》团队的公开交集，因此还无法判断他为何出现在该名单中。相比之下，“大伟哥”与梁其伟的交集则更多。2016年，在触乐与莉莉丝共同举办的闭门分享会上，刘伟和梁其伟就曾一起作为嘉宾分享、交流。2025年科隆游戏展期间，刘伟也曾前往《影之刃零》展区参观。\n对于二游玩家来说，《影之刃零》的鸣谢名单还有一个特别的看点，库洛游戏CEO李松伦和刘伟竟然同时出现在名单里，颇有一种“世界大和解”的感觉。\n梁其伟和李松伦有交集，其实并不奇怪。库洛游戏早期也曾获得英雄互娱投资，后者持股一度达到37%。库洛的《战双帕弥什》与灵游坊的《影之刃2》和《影之刃3》，也都由英雄互娱发行，且同为动作手游。而在今年初的TapTap年度游戏大赏上，梁其伟和“松伦哥”被拍到坐在一起，有说有笑，看得出来两人的关系不错。\n可能最让我感慨的是，《黑神话：悟空》制作人冯骥也作为被鸣谢的人出现在名单里。在《影之刃零》开发过程中，冯骥就曾多次在社交平台公开表达欣赏。2025年1月，《影之刃零》发布蛇年贺岁实机演示，冯骥转发并称赞：“这才是正版的蛇年拜年视频。朋友们，日子真的好起来了。”梁其伟随后回应：“一起吃饺子咯。”\n同年7月，《影之刃零》发布22分钟实机演示，冯骥又在朋友圈转发，称游戏“真正做出了心中古龙的江湖味”。到了今年10月，当有玩家问他是否会第一时间游玩《影之刃零》时，他在微博回复：“还有九天，度日如年。”又一次激起大家对这款游戏的讨论。\n两年前，《黑神话：悟空》取得的成功，可以说是为国产单机打开了局面，让包括《影之刃零》在内的其它国产单机游戏获得了更多的关注。而如今，《影之刃零》的发售会进一步夯实行业的基础。从《黑神话：悟空》到《影之刃零》，一份鸣谢名单的变化，也能看出行业的变迁。\n并且，看到这些顶尖游戏创作者之间的持续互动和交流，至少说明，在竞争激烈的游戏行业里，同行之间并不只有产品竞争，也有着对彼此创作的欣赏。\n除了投资人和同行，特别鸣谢名单中还有一组重要的人物：平台与发行渠道相关的从业者。他们的出现，指向了《影之刃零》从开发走向市场的另一面。\n三位来自索尼，吉田修平、江口达雄和Christian Svensson。索尼在《影之刃零》的全球推广中投入了大量资源，而游戏在主机平台上也由PlayStation独占。对于一款来自中国团队、面向全球市场的大型动作游戏来说，索尼不仅提供了主机平台，也成为它触达海外玩家的重要推手。\n今年8月，索尼通过专场State of Play集中展示《影之刃零》的新内容。State of Play是索尼互动娱乐面向玩家发布游戏资讯的官方节目，通常会集中介绍第一方作品和重要第三方游戏。为一款游戏安排专场，足以体现索尼对它的重视。索尼互动娱乐（上海）有限公司董事长兼总裁江口达雄也曾在接受媒体采访时表示已经“迫不及待”，称希望与团队“一起出海”，向海外市场大力推广这款作品。\n心动网络与TapTap也占三位，黄一孟、黄希威和戴云杰。三人同时出现在名单中，背后有一段更早的行业交集。其中黄一孟和戴云杰也是VeryCD的联合创始人，梁其伟的第一款游戏《雨血1：死镇》曾在VeryCD上发布。前面提到的2016年触乐与莉莉丝举办的闭门分享会，除了梁其伟和刘伟是分享嘉宾外，黄一孟也在其中，而且梁其伟和刘伟都分别提到了前者为他们提供的帮助：《影之刃2》上线前，就在TapTap做过测试。\n而在TapTap成立十周年纪录片《理想的存档》里，梁其伟受邀出镜，回顾了自己做游戏的历程。在纪录片里，他又一次地提到2020年《黑神话：悟空》的第一支宣传片以及《原神》的横空出世，对于他后来做游戏的影响。\n除此之外，Epic和WeGame也是这次《影之刃零》的首发平台之一。因此Epic Games创始人兼CEO Tim Sweeney和腾讯PC游戏平台部总经理、WeGame游戏平台负责人钱赓，也出现在名单里。\nTim Sweeney的出现可能更多还是在于《影之刃零》开发使用虚幻引擎的关系。Epic官网刊载的一篇开发者访谈中，梁其伟曾表示，虚幻引擎5是团队能够以相对精简的规模完成这一体量项目的关键：“如果没有虚幻引擎5，区区150人绝无可能完成这种体量的项目。”\n并且，《影之刃零》与《堡垒之夜》的联动也已经在8月预售时同步开启，只要在Epic游戏商城预购或购买《影之刃零》，就能在《堡垒之夜》中获得相关服饰。说起联动，《三角洲行动》在9月二周年发布会上，同样官宣了与《影之刃零》从武器、皮肤到专属模式的一系列联动。再考虑到腾讯和灵游坊的关系，这大概便是腾讯天美J3工作室负责人姚远和《三角洲行动》制作人郭智列入鸣谢名单的理由之一。\n一款游戏如何开发，是游戏团队说了算。但从主机平台、PC商店，到游戏引擎和跨产品联动，《影之刃零》这次备受瞩目的发行，远比一张开发人员名单所能呈现的更广。这大概便是特别鸣谢名单单独出现的意义之一。\n抛开商业层面的合作和相互支持，这份名单里还有一些不那么容易从商业关系解释的人物。比如，可能有不少玩家会意外，为什么一位游戏主播会出现在《影之刃零》的特别鸣谢名单里？但其实，女流（石悦）和梁其伟的交情，可以追溯到很早以前。\n两人都毕业于清华大学建筑系，后来又先后放弃所学专业，进入游戏行业。在早期的一次访谈中，女流谈到这段经历时说：“进入游戏圈放弃所学专业，为了真正喜欢的事，可能不被一些人理解，但是内心有自己的坚持的这种感觉，我想没有人比师兄更能理解。”\nPlayStation中国十周年时，两人还共同参与了纪念短片《这是我们的十年》。他们回到清华建筑学院，以资深玩家的身份对谈，回顾各自与游戏结缘的经历。梁其伟也借此机会透露了《影之刃零》当时的开发进度。\n类似的人物还包括中国传媒大学副教授、游戏设计系主任张兆弓。梁其伟在去年受张兆弓邀请，被聘任为中国传媒大学客座教授。\n肯定会有人说，这不就是一份商业背书或者宣传营销的噱头吗？我当然不否认这其中存在这样的考量，但它的确很有意思，因为它可以让我们看到，一款游戏走到今天，背后有着许多难以简单量化的人际关系。\n俗话说，有人的地方就有江湖。武侠故事里，侠客一定会记得谁曾在自己落魄时伸出援手，也记得谁真正理解过自己的选择。《影之刃零》也是如此。",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "从《黑神话：悟空》到《影之刃零》：鸣谢名单里的行业关系",
-      "what": "触乐梳理《影之刃零》特别鸣谢名单，指出其中多位投资方、同行制作人、平台渠道人士与《黑神话：悟空》致谢名单重合，并追溯灵游坊历次融资、发行合作及梁其伟与冯骥、刘伟、女流等人的公开交集。",
-      "why": "",
-      "for_you": "",
+      "title_cn": "用ZBrush与Substance 3D制作半写实Lobo半身像",
+      "what": "角色美术师Eric Liu介绍其制作DC反英雄Lobo半写实半身像的流程，涵盖ZBrush雕刻、拓扑与UV处理、Substance 3D Painter贴图，以及Marmoset Toolbag打光渲染。",
+      "why": "作者从球体起形以练肌肉记忆，用ZWrap基础网格投射细节，贴图先建灰阶层再叠色，服装破损靠手绘alpha与高度通道负值加假阴影补足。",
+      "for_you": "可研究在未做高模破损细节时，用贴图手绘加高度负值与假阴影模拟深度的做法，在游戏资产管线中的适用边界。",
       "degraded": null
     }
   ],
   "features": [
+    {
+      "source_id": "web-68f622da94",
+      "source_url": "https://danfelder.net/feed/",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "0b51e4986c4df375",
+      "title": "Dungeons in Detail – Using Goal-Blueprints to Murder the Blank Page",
+      "url": "https://danfelder.net/2026/11/01/dungeons-in-detail-using-design-blueprints-to-murder-the-blank-page/",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "Dan Felder"
+      ],
+      "published": "2026-11-01T23:59:18+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "About 6 years ago I ran more than 57 tabletop RPG sessions in 3 months – while working full time as a senior game designer. Nearly all of it was original content. My goal was to challenge myself to learn how to design and iterate faster. By improving the speed at which we can make […]",
+      "rss_content": "About 6 years ago I ran more than 57 tabletop RPG sessions in 3 months – while working full time as a senior game designer. Nearly all of it was original content. My goal was to challenge myself to learn how to design and iterate faster. By improving the speed at which we can make things, we can make more total things. We can try out more ideas, then cut to a higher quality top %. If you read my work, you probably want to level up on design. Learning new stuff is great, but practicing applying it faster and faster is key too. It’s like learning to throw a baseball from a textbook, you still need to practice throwing it until it’s easy to do fast and accurately in the middle of a game. So I set a goal – I wanted to comfortably design enough content for 3x original tabletop RPG adventures each week, in about 90 minutes of prep each night between sessions. To do this, I needed better tools. Here’s one I developed to accelerate dungeon design. I’ve used it ever since in my videogame projects too. This is the first level of one of my campaign’s mega-dungeons: The Vaults of Iron. Pilgrims that passed the deadly trials are granted eternity encased in sacred iron, preparing to defend the realm against an invasion that the Iron Lord assures them will take place centuries hence. Throughout the early levels are the tormented failures that died, or worse, in the attempt. It also has a lot of treasure. Designing great mega-dungeons, labyrinthine complexes that take many sessions to explore, is a pet project of many GMs. The great ones are legendary, but they often take forever to build and wear out their welcome relatively fast. Small pacing issues can kill player excitement and they can easily feel repetitive. Getting them right usually takes a very long time, as you explore concepts and move ideas around. The biggest challenge is often knowing where to start. What layout of rooms will produce a satisfying experience? You have tons of ideas, but where to put them? How do you evaluate if the layout makes sense? Often it feels paralyzing and this uncertainty-based paralysis is the main slowdown. So I challenged myself to design a dungeon level and iterate on it multiple times in 2 hours. To solve that problem, I needed to cut out anything that wasn’t critical. There are two critical questions in each room: Why is this room here? What’s the purpose? What’s the designer’s goal that the room needs to fulfill? What concept would fit that design goal? Can figure out the details later. To be clear: I had no idea when iterating on this what “The Gauntlet 2” would contain. All I knew was I liked the idea of a “gauntlet” of sadistic/evil/unfair deathtraps you could opt into that showcased the Iron Lord’s genius and cruelty. I like to say “A dungeon should be an expression of the character that created it”. This let me consider spatial relationships and spot potential issues earlier in the process, before zeroing in on each room’s design. For example – I recognized that if I wanted to make a 3-room deathtrap gauntlet, I should let players opt into the experience. That way they’d feel like they were adequately warned on what they were about to get into, and I’d have more social permission to get evil . I’d originally thought of opening with the deathtrap gauntlet, or funneling into it to go to level 2 as the climactic level 1 experience. I recognized at this point, using this tool, that wasn’t going to work. So I started moving rooms to create a different tone-setting intro that would funnel them into a central hub, branching off in 3 directions. One of those would be the Gauntlet. The others would loop back into an alternate way to level 2. At this point I also recognized that they needed an alternate path to leave/re-enter the dungeon without passing the Mithril Demon. They weren’t going to kill it anytime soon (maybe ever) so while it made a great impression I didn’t want to have them take crazy damage at the start of every future session. So I put a secret entrance to the dungeon on the non-gauntlet loop that branches off the mithril fountain. With 2 paths leading there, I could be reasonably confident they’d run across it while exploring. If they got the Bronze Key instead, they’d be able to go straight to the Bronze Stair down to Level 2 from the main entrance instead (before dealing with the Iron Demon). Both would work. Lots of level designers use high level blockouts in the game industry, but I’ve rarely seen versions that aren’t just listing what is in each room – but focusing on the designer’s goal for why the room is there. Starting with that makes everything so much easier. I call this tool a “Goal-Blueprints”. If specifically talking about Dungeons, you can call it a Dungeon-Schematic to sound cooler. It’s also fun to hand a map like this to another designer as a “dungeon kit” and let them create their own versions of each room based on these goals. Try it yourself, feel free to steal it. It’s a lot of fun.",
+      "content_kind": "article_body",
+      "category": "design",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Dungeons in Detail – Using Goal-Blueprints to Murder the Blank Page",
+          "url": "https://danfelder.net/2026/11/01/dungeons-in-detail-using-design-blueprints-to-murder-the-blank-page/",
+          "source": "Dan Felder",
+          "lang": "en",
+          "published": "2026-11-01T23:59:18+00:00"
+        }
+      ],
+      "score": 40,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "系统设计",
+      "is_analysis": true,
+      "age_hours": 6.808963444444444,
+      "evergreen": false,
+      "content_type": "分析",
+      "section": "features",
+      "body": "About 6 years ago I ran more than 57 tabletop RPG sessions in 3 months – while working full time as a senior game designer.\nNearly all of it was original content.\nMy goal was to challenge myself to learn how to design and iterate faster. By improving the speed at which we can make things, we can make more total things. We can try out more ideas, then cut to a higher quality top %.\nIf you read my work, you probably want to level up on design. Learning new stuff is great, but practicing applying it faster and faster is key too.\nIt’s like learning to throw a baseball from a textbook, you still need to practice throwing it until it’s easy to do fast and accurately in the middle of a game.\nSo I set a goal – I wanted to comfortably design enough content for 3x original tabletop RPG adventures each week, in about 90 minutes of prep each night between sessions.\nTo do this, I needed better tools.\nHere’s one I developed to accelerate dungeon design. I’ve used it ever since in my videogame projects too.\nThis is the first level of one of my campaign’s mega-dungeons: The Vaults of Iron.\nPilgrims that passed the deadly trials are granted eternity encased in sacred iron, preparing to defend the realm against an invasion that the Iron Lord assures them will take place centuries hence. Throughout the early levels are the tormented failures that died, or worse, in the attempt.\nIt also has a lot of treasure.\nDesigning great mega-dungeons, labyrinthine complexes that take many sessions to explore, is a pet project of many GMs. The great ones are legendary, but they often take forever to build and wear out their welcome relatively fast.\nSmall pacing issues can kill player excitement and they can easily feel repetitive. Getting them right usually takes a very long time, as you explore concepts and move ideas around.\nThe biggest challenge is often knowing where to start. What layout of rooms will produce a satisfying experience? You have tons of ideas, but where to put them? How do you evaluate if the layout makes sense? Often it feels paralyzing and this uncertainty-based paralysis is the main slowdown.\nSo I challenged myself to design a dungeon level and iterate on it multiple times in 2 hours. To solve that problem, I needed to cut out anything that wasn’t critical.\nThere are two critical questions in each room:\n- Why is this room here? What’s the purpose? What’s the designer’s goal that the room needs to fulfill?\n- What concept would fit that design goal? Can figure out the details later.\nTo be clear: I had no idea when iterating on this what “The Gauntlet 2” would contain. All I knew was I liked the idea of a “gauntlet” of sadistic/evil/unfair deathtraps you could opt into that showcased the Iron Lord’s genius and cruelty. I like to say “A dungeon should be an expression of the character that created it”.\nThis let me consider spatial relationships and spot potential issues earlier in the process, before zeroing in on each room’s design.\nFor example – I recognized that if I wanted to make a 3-room deathtrap gauntlet, I should let players opt into the experience. That way they’d feel like they were adequately warned on what they were about to get into, and I’d have more social permission to get evil.\nI’d originally thought of opening with the deathtrap gauntlet, or funneling into it to go to level 2 as the climactic level 1 experience. I recognized at this point, using this tool, that wasn’t going to work.\nSo I started moving rooms to create a different tone-setting intro that would funnel them into a central hub, branching off in 3 directions. One of those would be the Gauntlet. The others would loop back into an alternate way to level 2.\nAt this point I also recognized that they needed an alternate path to leave/re-enter the dungeon without passing the Mithril Demon. They weren’t going to kill it anytime soon (maybe ever) so while it made a great impression I didn’t want to have them take crazy damage at the start of every future session.\nSo I put a secret entrance to the dungeon on the non-gauntlet loop that branches off the mithril fountain. With 2 paths leading there, I could be reasonably confident they’d run across it while exploring. If they got the Bronze Key instead, they’d be able to go straight to the Bronze Stair down to Level 2 from the main entrance instead (before dealing with the Iron Demon).\nBoth would work.\nLots of level designers use high level blockouts in the game industry, but I’ve rarely seen versions that aren’t just listing what is in each room – but focusing on the designer’s goal for why the room is there. Starting with that makes everything so much easier.\nI call this tool a “Goal-Blueprints”. If specifically talking about Dungeons, you can call it a Dungeon-Schematic to sound cooler.\nIt’s also fun to hand a map like this to another designer as a “dungeon kit” and let them create their own versions of each room based on these goals.\nTry it yourself, feel free to steal it. It’s a lot of fun.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "用目标蓝图法加速地牢关卡设计",
+      "what": "作者Dan Felder介绍其地牢设计工具“目标蓝图”：先为每个房间标注设计目的，再考虑具体内容，从而在早期判断空间关系与节奏问题，并据此调整入口、分支与回路布局。",
+      "why": "作者以两小时内迭代一层地牢为目标，先定房间目的再填概念，据此发现死亡陷阱区不宜作为开场，改为中央枢纽三分支结构，并增设秘密入口避免玩家反复遭遇强敌。",
+      "for_you": "可研究：以“房间目的”而非“房间内容”为起点的蓝图，在电子游戏关卡白盒阶段如何影响迭代速度与布局决策？",
+      "degraded": null
+    },
     {
       "source_id": "indienova-members",
       "source_url": "https://indienova.com/blogs/all",
@@ -1114,13 +802,13 @@
       "discovery_only": false,
       "requires_review": true,
       "publication_scope": "public",
-      "body": "# 《修仙:但天道是AI》开发日志 #2:球幕、地图、四扇窗——把那个活世界递到你眼前 《修仙:但天道是AI》是一款由 AI 天道现场主持的修仙 RPG。上一篇交的是它的后台:账本、记性、钟——三件套让这个世界不会散架。但后台再稳,玩家最先摸到的不是稳,是眼前。这一篇交前台。 前台最要紧的一件事:跟这个世界沟通,我们做了两条线路。第一条是打字——想跟谁说、说什么,随你,这是跟 NPC 的聊天。第二条用手指——画面里点什么,天道就认什么,交互从你点的地方长出来。聊天是听它讲,点图是你伸手去摸。这一篇的三件东西,一张能转的球幕,一张活地图,四扇往后台退的窗,都是给这第二条线路修的路。 ## 一、360°球幕:世界不是菜单,是一张能转的画 AI 主持的世界,最容易长成的样子,是文字游戏加一排按钮:场景是名字,交互是选项,东西是表格。沟通退化到只剩一条路:你打字,它回字,世界隔着玻璃。功能都在,但世界一旦变成菜单,它活不活,玩家就无所谓了——隔着玻璃,没有「在场」这件事。 所以场景我们没做 3D,也没做横版,做的是一张 360°球幕:每个场景一张全景画,人站在画中央。想看什么,把画转过来;想动什么,直接点在画上。第二条线路在这里开跑:点田里的灵草,天道认出它是灵草,「种下去」就从画里长出来;点一条田埂,它告诉你这是一条青石垒的田埂,横在灵田中央——你能对它做的事,跟着一起冒出来;点一块空地,也可能有一颗球浮起来:那里发生过事,世界记得。点,就是在跟世界说话;那颗冒起来的球,就是它的回话。 画面和叙事也是缝死的:旁白提到一件东西,镜头就转向它,那盏标签亮起来,其余的淡下去。世界自己给你指路,而不是头上顶一根任务箭头。 选球幕不选 3D,是笔明账。3D 给的是自由视角,贵在建模和物理;球幕给的是「人在画中」,贵在画本身。我们的世界是现场生成的——宗门、地域、场景即开即造,一张画比一套模型便宜一个量级,而且整张画可以 AI 生成。这还顺带买到了一件事:整个世界的画风,可以一键整体替换。对「每个玩家的世界都不一样」来说,能生成的,才是能换的。 ## 二、地图:移动不是传送,是一场戏 同一条线路,从画面延伸到地图。地图这条线,原则只有一句:移动必须入戏。 最省事的做法是传送门:点一下,唰,到了。但那一下,你点的是按钮,不是世界——等于把世界剪成一叠孤立的卡片,路上的一切故事都没了。我们的地图上,每一格瓦片都是真实地界,点的每一格,都是迈出去的一步:你站在花圃,眼前就亮着从这里能去的每一扇门;选哪条路,是你的事,这条路怎么走完,是天道的事——路遇、风物、变故,都发生在这段路上,而不是被一段读条吞掉。 屏幕角上一枚缩略圆盘,方位、去处、你自己在哪,一眼可读;而图上那些没去过的地名,不是贴纸,是真实的远方——你现在不去,那里的日子照样过。上一篇说「很多故事没有观众」,在地图上你能看见这句话的形状:远方亮着一扇门,门后有一整段你缺席的人生。 ## 三、UI:四扇窗,都往后台退 最后是 UI。行囊、灵田、丹房、休息,四扇窗这次整体换了一版深色底——但比「换皮」更想交代的是口径:窗,是开在世界之上的,不是切到另一个屏幕。四扇窗全是从场景里直接唤出的浮层,底色压暗,玻璃、拉条这些花活全撤了,为的就是窗口开着的时候,后面的世界还在;窗一关,人还站在原地那幅画里。 窗里的每一件东西,也都是真账。行囊是唯一的库存,装备要「摆上台面」才在战斗里生效——台面几格、谁在上面、加成多少,全是对着账本算出来的,界面上不另编一套数。灵田和丹房,窗关了还在世界里自己走时间,熟了就是熟了;休息那扇窗,则是上一篇那只钟的入口——睡哪、睡多久、按什么价恢复,都在账上。 ## 收尾:递到你眼前之后 后台三件,让这个世界不会散架;前台三件,让它值得住进去。上一篇说,我们把世界从 AI 手里抢回来一半;这一篇,是把它递到你眼前——跟这个世界说话,一条路用嘴,一条路用手:灵草摸得到,远方看得见,窗后头,永远是那幅画。 下一篇,兑现上一篇欠下的:战斗——为什么回合制卡牌皮里,会有一个「嘴遁」输入框。是的,你可以跟拦路抢劫的修士讨价还价,而且,账是真的。 --- 现状:核心循环(修行/事件/战斗/经济)已跑通,独立开发中,Windows 平台。 Steam 商店页(收愿望单):https://store.steampowered.com/app/5261270/ 官方QQ群:1082991179",
+      "body": "哈喽各位道友，我们又来交作业了。 上次发完开发日志过了有段日子了，看到你们说喜欢 \"四人小作坊\" 这个说法，还有人催我们晒点东西。行，那这次就晒个大的 我们准备把游戏里的城和宗门，整个推翻重做了。 先给大家看看 \"以前\" 长啥样 最开始我们的城和宗门，是这样的： 说人话就是：一张全景大插画，上面挂满小标签。想进工坊？点 \"工坊\" 俩字。想接悬赏？点 \"悬赏\" 俩字。 功能上没毛病，开发还快。但我们自己内部玩着玩着，越玩越别扭。 我一个修仙的，进了城，是悬在半空中点图片？ 街上有人吗？茶楼在哪条路上？坊市离我多远？全不知道。就是个在线菜单。 我们游戏主打的是 \"一步一行，一念生死\"，是那种不紧不慢、自己节奏的修仙。结果主城像个外卖 APP，点两下就到功能页了。那感觉就像你兴冲冲回了家，结果家是个快捷方式。 不行，得改。 那改成啥样？给大家看看 \"现在\" 先看宗门这边 —— 以前是悬浮在空中的几座塔，现在是顺着山势往上爬。石阶一段接一段，牌坊、亭子、塔楼藏在山石松林之间。你可以真的沿着山路一步步走上去，路过亭子，转过回廊，最后才站到议事大厅门口。不是点一下 \"议事大厅\" 就瞬移过去的。 然后是城 —— 以前的城是平铺的，现在水真的穿城而过。你要去坊市？那就从桥头一路走过去，路过茶楼，路过绸缎铺，路过卖灵食的小摊。 为什么非要费这个劲？ 路要一段段铺，建筑要一个个摆，视角要慢慢调 角色不能穿墙、不能卡石头，碰撞体得一点点对 每栋建筑 \"走近了才能互动\" 的判定范围，全靠手调 但我们觉得值，原因有三个： 1. 宗门城市，得有个宗门城市的样子。 打秘境打得心惊肉跳、死了好几回，好不容易回来。站在城门口吹吹风，看看河边的柳树，慢慢走回自己洞府 —— 这种松弛感，点两下标签给不了。 2. 以后能往里装的东西太多了。 城能走起来之后，路边就能藏 NPC、藏小事件、藏机缘彩蛋。走着走着撞见个摆摊的老道士，或者桥边有个哭唧唧的师妹 —— 这些东西，挂在一张全景插画上是长不出来的。 还在磨，欢迎来挑刺 现在这版还是个 \"能跑通\" 的初版：建筑摆位还在调，有些边角看起来有点空，城内具体每个建筑走近之后能干什么，我们还在做。 但方向已经定了 ——仙源秘境的城和宗门，以后就是一座你真的可以住进去的地方。 各位道友如果有什么想在城里看到的 —— 比如想有个能蹲下来钓鱼的河埠头，或者想宗门后山能遛个弯看云海 —— 评论区告诉我们。小作坊人少，但你们说的，我们都真的会一条一条看。 《仙源秘境》单人修仙・回合制肉鸽，现已开放预约。 我们四个还在一点点把这方秘境搭起来，谢谢你愿意一起等。 游戏已经在先在TapTap开放预约测试：https://www.taptap.cn/app/864253 欢迎大家前来预约关注试玩！！！",
       "has_body": true,
       "body_truncated": false,
       "classic_discovery": false,
-      "key": "3e5dfed672550713",
-      "title": "# 《修仙:但天道是AI》开发日志 #2:球幕、地图、四扇窗——把那个活世界递到你眼前",
-      "url": "https://indienova.com/u/xcexxcex/blogread/39386",
+      "key": "78e708d3fe37b488",
+      "title": "【开发日志 #02】我们把城拆了重盖 —— 从点图片到满街溜达",
+      "url": "https://indienova.com/u/zzgamer/blogread/39401",
       "lang": "zh",
       "tier": 3,
       "tier_weight": 2,
@@ -1131,7 +819,7 @@
       "published": null,
       "undated": true,
       "published_precision": null,
-      "summary_raw": "# 《修仙:但天道是AI》开发日志 #2:球幕、地图、四扇窗——把那个活世界递到你眼前 《修仙:但天道是AI》是一款由 AI 天道现场主持的修仙 RPG。上一篇交的是它的后台:账本、记性、钟——三件套让这个世界不会散架。但后台再稳,玩家最先摸到的不是稳,是眼前。这一篇交前台。 前台最要紧的一件事:跟这个世界沟通,我们做了两条线路。第一条是打字——想跟谁说、说什么,随你,这是跟 NPC 的聊天。第二条用手指——画面里点什么,天道就认什么,交互从你点的地方长出来。聊天是听它讲,点图是你伸手去摸。这一篇的三件东西,一张能转的球幕,一张活地图,四扇往后台退的窗,都是给这第二条线路修的路。 ## 一、360°球幕:世界不是菜单,是一张能转的画 AI 主持的世界,最容易长成的样子,是文字游戏加一排按钮:场景是名字,交互是选项,东西是表格。沟通退化到只剩一条路:你打字,它回字,世界隔着玻璃。功能都在,但世界一旦变成菜单,它活不活,玩家就无所谓了——隔着玻璃,没有「在场」这件事。 所以场景我们没做 3D,也没做横版,做的是一张 360°球幕:每个场景一张全景画,人站在画中央。想看什么,把画转过来;想动什么,直接点在画上。第二条线路在这里开跑:点田里的灵草,天道认出它是灵草,「种下去」就从画里长出来;点一条田埂,它告诉你这是一条青石垒的田埂,横在灵田中央——你能对它做的事,跟着一起冒出来;点一块空地",
+      "summary_raw": "哈喽各位道友，我们又来交作业了。 上次发完开发日志过了有段日子了，看到你们说喜欢 \"四人小作坊\" 这个说法，还有人催我们晒点东西。行，那这次就晒个大的 我们准备把游戏里的城和宗门，整个推翻重做了。 先给大家看看 \"以前\" 长啥样 最开始我们的城和宗门，是这样的： 说人话就是：一张全景大插画，上面挂满小标签。想进工坊？点 \"工坊\" 俩字。想接悬赏？点 \"悬赏\" 俩字。 功能上没毛病，开发还快。但我们自己内部玩着玩着，越玩越别扭。 我一个修仙的，进了城，是悬在半空中点图片？ 街上有人吗？茶楼在哪条路上？坊市离我多远？全不知道。就是个在线菜单。 我们游戏主打的是 \"一步一行，一念生死\"，是那种不紧不慢、自己节奏的修仙。结果主城像个外卖 APP，点两下就到功能页了。那感觉就像你兴冲冲回了家，结果家是个快捷方式。 不行，得改。 那改成啥样？给大家看看 \"现在\" 先看宗门这边 —— 以前是悬浮在空中的几座塔，现在是顺着山势往上爬。石阶一段接一段，牌坊、亭子、塔楼藏在山石松林之间。你可以真的沿着山路一步步走上去，路过亭子，转过回廊，最后才站到议事大厅门口。不是点一下 \"议事大厅\" 就瞬移过去的。 然后是城 —— 以前的城是平铺的，现在水真的穿城而过。你要去坊市？那就从桥头一路走过去，路过茶楼，路过绸缎铺，路过卖灵食的小摊。 为什么非要费这个劲？ 路要一段段铺，建筑要一个个摆，视角要慢慢调 角色不",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "development",
@@ -1145,8 +833,8 @@
       },
       "members": [
         {
-          "title": "# 《修仙:但天道是AI》开发日志 #2:球幕、地图、四扇窗——把那个活世界递到你眼前",
-          "url": "https://indienova.com/u/xcexxcex/blogread/39386",
+          "title": "【开发日志 #02】我们把城拆了重盖 —— 从点图片到满街溜达",
+          "url": "https://indienova.com/u/zzgamer/blogread/39401",
           "source": "indienova 会员日志",
           "lang": "zh",
           "published": null
@@ -1181,339 +869,25 @@
       "evergreen": false,
       "content_type": "分析",
       "section": "features",
-      "title_cn": "《修仙:但天道是AI》开发日志:球幕、地图与四扇窗的界面设计",
-      "what": "开发者介绍该修仙RPG前台交互的三项设计:场景用360°全景球幕而非3D或横版,点击画面元素触发交互;地图以逐格移动代替传送,途中发生路遇与变故;行囊、灵田、丹房、休息四扇窗为场景内浮层,数据与后台账本一致。",
-      "why": "作者以成本与在场感为取舍依据:球幕全景画比3D建模便宜且可由AI生成,便于整体替换画风;移动入戏避免世界被切成孤立卡片;浮层保留窗后场景,界面数值不另编一套。",
-      "for_you": "可考察点击画面元素触发交互时,系统如何判定可交互对象并生成对应动作,以及全景画整体替换后场景交互点如何保持有效。",
+      "title_cn": "《仙源秘境》开发日志：主城与宗门从插画菜单改为可行走场景",
+      "what": "独立团队在开发日志中说明，将《仙源秘境》的主城与宗门从一张全景插画加功能标签的形式，重做为可沿山路、街道步行的三维场景，建筑需走近才能互动，目前为可跑通的初版。",
+      "why": "作者认为原方案像点选菜单，与慢节奏修仙体验不符；重做后可承载路边NPC、小事件与机缘彩蛋，代价是铺路、摆建筑、调碰撞与互动范围都需手工处理。",
+      "for_you": "可关注“走近才能互动”的判定范围如何与回合制肉鸽的节奏衔接，以及手工布景的成本在小团队中如何控制。",
       "degraded": null,
       "reviewed": true
     }
   ],
-  "ai": [
-    {
-      "source_id": "web-d1c587ecba",
-      "source_url": "https://simonwillison.net/atom/everything/",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "d7161ef2cbdd3d55",
-      "title": "datasette-llm 0.1a9",
-      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Simon Willison"
-      ],
-      "published": "2026-10-31T22:10:01+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra . Tags: datasette , llm , datasette-agent",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "ai",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "datasette-llm 0.1a9",
-          "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-          "source": "Simon Willison",
-          "lang": "en",
-          "published": "2026-10-31T22:10:01+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 8.424006435277779,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "ai",
-      "body": "31st October 2026\nI have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm\nplugin.\nIt now picks up the default model used by LLM, which means you can start using Datasette Agent without needing to explicitly configure a default model:\nuvx --with datasette-agent datasette content.db --internal internal.db\nPreviously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra\n.\nRecent articles\n- The October inflection point for vibe game development - 28th October 2026\n- Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice - 9th October 2026",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "datasette-llm 0.1a9 自动采用 LLM 默认模型",
-      "what": "Simon Willison 发布 datasette-llm 0.1a9，该插件现在会读取 LLM 的默认模型，因此使用 Datasette Agent 时无需再通过 -s plugins.datasette-agent.default_model 显式指定模型。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-5590904e33",
-      "source_url": "https://www.qbitai.com/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "c7677e33fb714790",
-      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
-      "url": "https://www.qbitai.com/2026/10/506904.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "量子位"
-      ],
-      "published": "2026-10-31T13:49:44+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "AI已经自己找到Bug并提交PR",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "ai",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
-          "url": "https://www.qbitai.com/2026/10/506904.html",
-          "source": "量子位",
-          "lang": "zh",
-          "published": "2026-10-31T13:49:44+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 16.762061990833335,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "ai",
-      "body": "刚刚，DeepSeek重磅开源：Agent底座架构！\nAI已经自己找到Bug并提交PR\n梦瑶 发自 凹非寺\n量子位 | 公众号 QbitAI\nDeepSeek，又有新动作了！\n而且这回，官方直接把Personal Agent的底层架构思路公开了。\n要知道，此前不少人还在等DeepSeek推出传闻中的「dsh dot」，结果这次先等来了一篇面向工程实践的架构思路探讨——\nSuper-agent：迈向更自主的Agent系统。\n何意味？AI可以在没人@、没人下指令的情况下，自己发现Bug、定位问题，甚至主动提交修复PR了。\n甚至它还能持续关注工作群消息，跨平台协作、并行处理多个复杂任务，甚至实现24小时在线运行。\nDeepSeek团队还晒出了初步实测成绩——\n在模拟多任务环境中，Super-agent的任务完成时间中位数为12.4分钟，95分位数为15.7分钟，表现优于测试中的传统单会话方案。\nAI，真的开始有能力从等待人类逐项分配任务，进一步走向主动发现问题、持续推进工作了。\n群里没人@，AI已经自己找到Bug并提交PR\n在日常软件开发过程中，开发人员经常碰到的一个问题是，我们需要在不同平台之间来回切换！！\n比如，先在IM群聊里讨论技术方案，随后到GitHub提交代码，再根据PR评论修改实现。\n对于传统Coding Agent来说，这些操作往往分散在不同会话里——\n用户得自己记住每个会话进行到了哪里，再把相关上下文交代给AI。\nDeepSeek团队在文章中提到，根据他们的观察，一个人通常只能同时跟进3到5个活跃Session。\n这就带来了一个问题：随着模型处理单项任务的能力越来越强，多任务协作的效率，却越来越容易受到人类注意力的限制。\n好巧不巧的是，Super-agent要解决的，正是这一问题。\n在DeepSeek团队内部运行的实例中，同一个开发任务可以从IM群聊一直延续到GitHub PR评审。\n比如，用户先在群里决定采用方案A，随后又在GitHub评论里要求改成方案B。\nSuper-agent能够理解这两条消息属于同一项工作，并据此调整后续执行方向。\n用户面对的始终是同一个Agent，底层的多个会话则由系统自行管理，而且它开始主动参与工作。\n这里还用到了一项技术——投机执行（Speculative Execution）。\n就是AI发现某件事可能需要处理时，可以提前在后台尝试。\n比如群里有人讨论一个Bug，Super-agent便先着手复现、查找原因，如果最终找到简单可行的修复方案，就把结果交给用户。\n如果没有找到有效结果，则可以保持安静，避免打扰，同样的思路也能用于个人助手。\n收到会议邀约后，AI可以提前检查日程冲突、整理相关资料，并准备好回复草稿，等待用户确认。\n这也对应着DeepSeek为Super-agent提出的四个核心特征：\n- 连续： 跨会话、跨工作平台保持任务上下文，不用反复解释前情。\n- 高效： 多个复杂任务并行执行，耗时任务不会阻塞新的交互。\n- 主动： 持续观察环境变化，在有必要时自行采取行动。\n- 持久： 长期在线运行，遇到异常能够尝试自动恢复。\nDeepSeek为此设计了一套双层架构。\n上层叫Router，可以理解为负责接收消息和统筹任务的调度员，下层叫Worker，则是一组负责具体执行任务的Agent会话。\n具体来说，上层的Router相当于总调度员，负责接收消息、分配任务和维护全局上下文。\n下层的Worker则负责具体执行，多个任务可以同时推进，互不干扰。\n值得注意的是，DeepSeek还专门设计了订阅与直通机制——\n举个例子，某个Worker接手一条GitHub PR后，就能直接订阅后续评论。\n之后有人提出修改意见，消息会直接交给这个Worker处理，无需再经过Router层层转发。\n这样一来，老任务有人持续跟进，新任务也能及时分配，整个系统就能更高效地运转起来。\n24小时在线、自主恢复，实测任务完成时间更稳定\n除了多任务协作，要让Super-agent长期自主运行，还得解决消息过滤、任务阻塞和异常恢复等问题。\n先说消息过滤。\n当Agent同时接入工作群、GitHub、邮件等平台，大量消息会持续涌入，但真正需要处理的可能只有少数。\n为此，DeepSeek设计了两级事件过滤机制——\n先通过程序规则筛除无关消息，再由大模型判断剩余事件是否需要采取行动，减少不必要的Token消耗。\n与此同时，Super-agent还引入了异步ReAct Loop。\nAI执行耗时任务时，仍能继续响应新指令，无需等上一项任务完成。该机制已在DeepSeek Harness中实现，但尚未默认开启。\n至于24小时在线，DeepSeek采用了计算、状态与执行环境分离的思路。\nAgent的计算逻辑可以在云端运行，会话状态独立保存，本地设备则保留原有工作环境，即便电脑暂时离线，云端Agent也能维持任务状态，等设备重新上线后继续执行相关工作。\n更进一步，团队还引入了独立的Watchdog（看门狗）机制。\n它相当于一个专门负责监督其他Agent的AI，既能检测程序故障，也能判断任务是否陷入无效循环、偏离目标，并尝试介入修复。\nDeepSeek团队还进行了一组初步实验——\n他们模拟了包含约300条消息、20项工作请求的协作环境，对比Super-agent与传统单Session加Subagent方案，每种配置重复测试5次。\n结果显示，Super-agent任务完成时间中位数：12.4分钟，95分位任务完成时间：15.7分钟。\n传统单Session方案在中性提示下，95分位任务完成时间达到29.5分钟。\n当然，效率提升也伴随着一定的Token开销。\nDeepSeek发现，取消事件直通机制后，Router的决策次数增加约30%，读取缓存Token增加约37%。\n这也说明，合理的事件路由能够有效降低系统运行成本。\n从这次技术分享来看，DeepSeek正在探索让Agent进一步摆脱单次会话限制，实现持续在线、并行执行、主动响应和异常自愈。\n当AI逐渐能够独立完成复杂任务，如何让它长期、稳定地推进多项工作，也开始成为Agent系统需要解决的新问题。\nGItHub链接：\nhttps://github.com/deepseek-ai/dsh-superagent-prototype\n- 你的8G iPad里有12G内存！库克走了但他的刀法追着我砍2026-10-31\n- 世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用2026-10-31\n- 刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」2026-10-31\n- Kimi K3.1 Pro一手实测：Godot、Blender全能接，23轮测试自己跑2026-10-26",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "DeepSeek开源Super-agent原型：双层架构与主动执行机制",
-      "what": "量子位报道DeepSeek公开Personal Agent架构思路Super-agent，采用Router与Worker双层结构，支持跨会话保持上下文、并行任务、主动发现Bug并提交PR、云端持续运行与Watchdog异常恢复，并给出模拟多任务环境的初步对比数据。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-5590904e33",
-      "source_url": "https://www.qbitai.com/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "2ee7f78e31e33748",
-      "title": "“超能模式”重磅登场！联想天禧AI 4.5全端升级，三大场景打造“职场超能搭档”",
-      "url": "https://www.qbitai.com/2026/10/506779.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "量子位"
-      ],
-      "published": "2026-10-30T10:44:01+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "ai",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "“超能模式”重磅登场！联想天禧AI 4.5全端升级，三大场景打造“职场超能搭档”",
-          "url": "https://www.qbitai.com/2026/10/506779.html",
-          "source": "量子位",
-          "lang": "zh",
-          "published": "2026-10-30T10:44:01+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 43.85733976861111,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "ai",
-      "body": "“超能模式”重磅登场！联想天禧AI 4.5全端升级，三大场景打造“职场超能搭档”\n10月30日，联想天禧AI 4.5迎来AIPC端正式发布。\n10月30日，联想天禧AI 4.5迎来AIPC端正式发布。这是继10月20日AI手机端、10月27日AI平板端率先上线后， 联想天禧AI 4.5实现AIPC、AI平板、AI手机多端覆盖。\n围绕当代职场人的核心痛点，天禧AI 4.5以“我的职场超能搭档”为定位，带来“超全能办公、超高效会议、超省心差旅”三大场景体验重磅升级，以跨端协同与软硬一体的超能进化，为用户开启高效、省心、无界的智能办公新体验。\n超全能办公：连接器与技能全打通，一句话搞定复杂任务\n面对繁杂的日常办公流程，天禧AI 4.5推出全新升级的“超能模式”，将AI从问答对话助手进化为指哪打哪的行动派。\n在连接能力上，天禧AI 4.5聚焦高频办公场景，率先打通飞书、联想浏览器、企业微信等头部应用连接器，并与个人知识库深度融合，实现本地文件与飞书等云端资料的无缝衔接。无论是查会议、分任务、理待办，还是跨平台检索资料并群发通知，用户只需一句话下达指令，天禧AI即可自主拆解并跨应用闭环执行。\n与此同时，超能模式上线了涵盖连接器、多任务协作与丰富Skills的“技能广场”，并持续优化PPT生成等核心职场技能，大幅提升演示文稿的制作质量与效率。此外，天禧AI的“系统级操控技能包2.0”化身专属设备专家，遇到系统卡顿或复杂设置难题，只需一句“帮我将电脑调整为最佳状态”，即可自主执行显卡、功耗与系统优化等组合设置，让每一台设备时刻保持巅峰状态，让用户变身职场超人。\n超高效会议：AI参会实时脑暴，会后沉淀跨端同步\n针对“开会耗时长、纪要整理慢、资料难消化”的职场困扰，天禧AI 4.5对AI妙记与知识库进行了全方位重构，打造了从会中激荡到会后沉淀的全链路闭环。\n会议进行中，天禧AI 4.5实时转录优化带来同传级字幕体验，确保会上不漏信息。更令人惊艳的是，天禧AI可以作为“参会者”实时参与脑暴，它能够以三方视角发表观点、补充创意思路，让团队头脑风暴越聊越开；参会人员还可在会议中途随时向AI妙记提问，天禧AI将基于实时转录内容当场作答，并自动识别与标记会议重点。\n会后，AI妙记会自动生成结构清晰的总结卡片，并自动入库、通过个人云实现跨端同步。全新升级的知识库不仅与超能模式深度打通，更将问答的文件上传数量大幅扩展至20个；知识库支持对话框直接上传图片，轻松应对多文档深度对比与图文混合资料分析，让每一次会议与每一份文档都沉淀为随时可调取的个人知识资产。\n超省心差旅：全双工动嘴即办，远程调起AIPC替你干活\n在交互与移动办公体验上，天禧AI 4.5在AIPC、AI平板与AI手机三端全面支持自然流畅的全双工语音交互，无需反复唤醒，动动嘴即可让天禧AI工作，在对话过程中可以像与真人交谈一样随时打断、随时补充指令，沟通零门槛。\n而在移动出差、通勤途中等双手受限的碎片化场景下，AI手机与AI平板更化身“随身指挥中心”，带来超省心的差旅体验：用户只需通过AI手机或AI平板，即可远程调用办公室或家中的AIPC超能模式接力执行重度复杂任务。在AI手机端/AI平板端超能模式Channel上，AIPC超能模式的任务执行过程同步可见，任务送达与完成状态会通过前后台推送提醒；任务完成后，用户还能直接在AI手机或AI平板上在线预览最终产物、统一管理同一会话下的全部历史交付物，真正实现“人在旅途走，活在PC干，进度主动推”。\n硬核算力加持，联想AI主机升级天禧4.5，实现Token自由\n除了个人终端的协同进化，面向高强度生产力场景的联想AI主机也正式升级天禧AI 4.5，带来“办公有一套，编程有一套”的全能体验，支持7×24小时全天候在线自主推进复杂任务，成为开发者与重度办公人群的硬核引擎。\n其中，联想AI主机P7既支持调用云端大模型，也可单独作为边缘算力设备产出AI算力。依托全新“Auto模式”，天禧AI可根据任务复杂度在云端大模型与主机本地模型之间自动匹配最优方案，在保障快速响应与高水准效果的同时，减少不必要的消耗，真正助力用户实现Token自由。\n“一体多端”再进化，你的职场超能搭档已就位\n当AI融入职场工作的细节，用户的办公体验便不只有单点提速，而是全方位的进化。\n此次天禧AI 4.5通过多端全面落地，将联想“一体多端”战略在智能办公领域推向新高度。进一步提升个人AI在端-边-云架构下的混合式AI场景化体验。以天禧AI“一体”为核心，深度打通AIPC、AI平板、AI手机、AIoT，以及AI主机的完整体系化生态，不仅打破了应用与数据的壁垒，更实现了用户办公体验的无缝流转。它不仅将用户从繁琐重复的流程中彻底解放，更通过全天候AI协同，把用户的精力还给思考与创造。\n天禧AI 4.5在“一体多端”的战略的加持下进化，为每一位职场人打造出最值得信赖的“职场超能搭档”，助力用户从容应对每一个挑战。\n本文由联想提供，量子位获授权转载，观点归原作者所有。\n- 好莱坞最缺的答案，被这家 10 亿美元估值的 AI 影视独角兽写进了片单2026-10-30\n- 英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成2026-10-30\n- 从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径2026-10-30\n- 前排围观！MEET2027报名通道正式开启，首批重磅嘉宾已就位2026-10-30",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "联想天禧AI 4.5全端升级：新增超能模式与跨端协同",
-      "what": "联想天禧AI 4.5在AIPC端发布，此前已上线AI手机与AI平板端。官方称其新增超能模式，可跨飞书、企业微信等应用执行任务，并升级会议转录、知识库与远程调用AIPC等功能。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    }
-  ],
-  "ai_features": [
-    {
-      "source_id": "web-d1c587ecba",
-      "source_url": "https://simonwillison.net/atom/everything/",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "552591dbafe942d7",
-      "title": "How We Took Over ChatGPT Accounts",
-      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Simon Willison"
-      ],
-      "published": "2026-10-31T23:15:22+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its ",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "ai",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "How We Took Over ChatGPT Accounts",
-          "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-          "source": "Simon Willison",
-          "lang": "en",
-          "published": "2026-10-31T23:15:22+00:00"
-        }
-      ],
-      "score": 34,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 12
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "产品观察",
-      "is_analysis": true,
-      "age_hours": 7.334839768611111,
-      "evergreen": false,
-      "content_type": "分析",
-      "section": "ai_features",
-      "body": "31st October 2026 - Link Blog\nHow We Took Over ChatGPT Accounts (via) Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a sandboxed iframe.\nIt's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data.\nParameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard, which can be triggered in the parent page via postMessage()\nfrom the sandboxed iframe.\nThat message receiving code uses innerHTML\n, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method.\nThis meant untrusted code in an iframe could insert HTML, and while innerHTML\ndoesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions.\nOpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.\nOnce the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference.\nThe end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf.\nOpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.\nRecent articles\n- The October inflection point for vibe game development - 28th October 2026\n- Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice - 9th October 2026",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "Parameter Labs披露ChatGPT HTML预览沙箱逃逸漏洞",
-      "what": "Simon Willison转述Parameter Labs发现的攻击链：ChatGPT的HTML预览沙箱可经MathLive虚拟键盘的postMessage与innerHTML注入无沙箱iframe，再借YouTube oEmbed反射执行JavaScript，从而读取并外传已登录用户的私有数据或代其操作。OpenAI已修复并支付5000美元赏金。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    }
-  ],
+  "ai": [],
+  "ai_features": [],
   "stats": {
-    "events": 192,
-    "news": 14,
-    "features": 1,
-    "ai": 3,
-    "ai_features": 1,
+    "events": 164,
+    "news": 9,
+    "features": 2,
+    "ai": 0,
+    "ai_features": 0,
     "review_candidates": 19,
     "multi_source": 1,
-    "deep_read": 1,
-    "ai_deep_read": 1
+    "deep_read": 2,
+    "ai_deep_read": 0
   }
 }
