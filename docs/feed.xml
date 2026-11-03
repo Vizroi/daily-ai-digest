@@ -4,96 +4,184 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 9 条，策划精选 2 篇，AI 快讯 0 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 14 条，策划精选 3 篇，AI 快讯 5 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 02 Nov 2026 14:47:50 +0800</lastBuildDate>
+<lastBuildDate>Tue, 03 Nov 2026 15:05:56 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《小偷模拟器》私人收藏DLC本月发售</title>
-  <link>https://www.gcores.com/articles/221789</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-73f2b9b3d4ec800ba53b8626</guid>
-  <pubDate>Mon, 02 Nov 2026 00:40:00 +0000</pubDate>
+  <title>Anthropic为Claude Code增加禁止模仿现有游戏的规则</title>
+  <link>https://www.gcores.com/articles/221811</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-eb7b52fae371400fd421cfdd</guid>
+  <pubDate>Mon, 02 Nov 2026 08:02:31 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《小偷模拟器》公布“私人收藏”DLC，本月发售。四栋别墅分别属于钟表匠、小提琴家、教授和金融家，每栋对应不同盗窃玩法，包括音乐厅排练、避开灯光、激光走廊与武装守卫。玩家需在藏身处集齐整套收藏，才会出现买家，也可保留收藏换取街区永久加成。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/221789">机核</a></small></p><p><small>原文发布：2026-11-02 08:40（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Anthropic于10月27日向Claude Code注入无法关闭的新规则，针对Opus 5.5增加两条防范游戏模仿的提示词，禁止复制特定现有游戏，即使改名或宣称原创也不行；允许原创作品、同类型游戏和使用自带素材。</p><p><small>来源：<a href="https://www.gcores.com/articles/221811">机核</a> · <a href="https://www.gamesindustry.biz/anthropic-adds-rule-to-stop-claude-code-recreating-existing-games">GamesIndustry</a> · <a href="https://80.lv/articles/claude-code-blocks-video-game-cloning-some-reverse-engineering-tasks/">80.lv</a></small></p><p><small>原文发布：2026-11-02 16:02（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《星布谷地》12月4日公测，公布生活模拟玩法与上线活动</title>
-  <link>https://www.gameres.com/901203418.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9a4a6c39571a1f8f763ddcc7</guid>
-  <pubDate>Sun, 01 Nov 2026 11:38:00 +0000</pubDate>
+  <title>《冰汽时代2》DLC3《激流》12月14日登陆PC与主机</title>
+  <link>https://www.gameres.com/901203443.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ccfd94dabd7aea85c0b1a9dd</guid>
+  <pubDate>Tue, 03 Nov 2026 06:07:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>米哈游宣布生活模拟游戏《星布谷地》于12月4日开启公测，支持PC、iOS、Android三端互通。官方前瞻节目介绍了露卡种子与露卡树塑造星球地貌生态、种植烹饪赶海捕虫钓鱼、家装与星蓝图、驾船前往星屿社交等玩法，并公布预约组队、抽奖、创作者激励及预约奖励等活动。</p><p><small>来源：<a href="https://www.gameres.com/901203418.html">GameRes</a></small></p><p><small>原文发布：2026-11-01 19:38（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>发行方宣布《冰汽时代2》第三部DLC《激流》将于12月14日登陆PC和主机，包含叙事驱动的新剧情战役、一种可提升城市自动化的新资源、将白幕转化为可采集资源的科技，以及洞穴与废墟探索内容。</p><p><small>来源：<a href="https://www.gameres.com/901203443.html">GameRes</a> · <a href="https://www.gcores.com/articles/221844">机核</a></small></p><p><small>原文发布：2026-11-03 14:07（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《影之刃零》发售72小时销量突破400万</title>
-  <link>https://www.gcores.com/articles/221799</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d74a5f7986e767ef2d088f4a</guid>
-  <pubDate>Mon, 02 Nov 2026 02:41:06 +0000</pubDate>
+  <title>Romero Games为FPS新作签下新发行商，团队重建至15人</title>
+  <link>https://www.gcores.com/articles/221815</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a35d9bca785a068d18593a52</guid>
+  <pubDate>Mon, 02 Nov 2026 08:46:21 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>灵游坊自研自发、虚幻5引擎打造的暗黑武侠动作游戏《影之刃零》发售后72小时销量突破400万；官方称已记录玩家反馈并着手优化，近期先修复一批明显bug。文中还提到Steam在线人数24小时峰值突破83万。</p><p><small>来源：<a href="https://www.gcores.com/articles/221799">机核</a> · <a href="https://www.gameres.com/901203425.html">GameRes</a></small></p><p><small>原文发布：2026-11-02 10:41（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>约翰·罗梅罗确认，Romero Games在微软2025年终止发行合同后，已为虚幻引擎5开发的第一人称射击新作找到新发行商。团队从110人缩减至5人后，重新聘用10名原主管，现约15至16人，并保留IP、美术与代码所有权。</p><p><small>来源：<a href="https://www.gcores.com/articles/221815">机核</a> · <a href="https://80.lv/articles/doom-quake-co-creator-john-romero-says-his-shooter-has-a-new-publisher/">80.lv</a></small></p><p><small>原文发布：2026-11-02 16:46（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《死亡搁浅》动画剧集《Isolations》首曝预告，2027年上线Disney+</title>
-  <link>https://80.lv/articles/death-stranding-isolations-anime-receives-its-first-trailer/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f3ddd33ef60c86b75aba511c</guid>
-  <pubDate>Mon, 02 Nov 2026 06:30:00 +0000</pubDate>
+  <title>《哥布林女仆大扫除》推出海盗地牢更新与豪华版</title>
+  <link>https://www.gcores.com/articles/221839</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9cf76e7723e68e9ddec7a4c2</guid>
+  <pubDate>Tue, 03 Nov 2026 03:18:53 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Death Stranding Isolations Anime Receives Its First Trailer</small></p><p>小岛工作室公布《死亡搁浅》世界观动画剧集《Death Stranding Isolations》首支预告，讲述灾难爆炸后一名习惯独居的少女的原创故事，由佐野隆之执导、E&amp;H Production手绘制作，2027年Disney+独家播出。</p><p><small>来源：<a href="https://80.lv/articles/death-stranding-isolations-anime-receives-its-first-trailer/">80.lv</a></small></p><p><small>原文发布：2026-11-02 14:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Team17与Crisalu Games宣布，合作清洁游戏《哥布林女仆大扫除》上线海盗地牢更新，新增两座关卡、个人进度排行榜和扫描仪颜色自定义无障碍选项，同时推出含18首原声带的Steam豪华版。</p><p><small>来源：<a href="https://www.gcores.com/articles/221839">机核</a></small></p><p><small>原文发布：2026-11-03 11:18（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>iG以2:1击败LYON晋级英雄联盟全球总决赛八强</title>
-  <link>https://www.gameres.com/901203428.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bc870239ec5aceb778fbcce8</guid>
-  <pubDate>Mon, 02 Nov 2026 03:44:00 +0000</pubDate>
+  <title>Unity公布2026年10月Made with Unity游戏回顾</title>
+  <link>https://unity.com/blog/games-made-with-unity-october-2026-releases</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-539efb97227614a859df7f2b</guid>
+  <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>2026英雄联盟全球总决赛瑞士轮第四轮，iG以2:1战胜LYON晋级八强，时隔2565天再进淘汰赛。赞助商螃蟹互娱在达拉斯机场投放应援大屏，并介绍其与iG的赛事传播、内容共创及粉丝互动合作。</p><p><small>来源：<a href="https://www.gameres.com/901203428.html">GameRes</a></small></p><p><small>原文发布：2026-11-02 11:44（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Games made with Unity: October 2026 in review</small></p><p>Unity官方汇总2026年10月使用Unity开发的游戏动态：AGDA奖项中六款Unity游戏获奖，Unity赞助MIX Fall Showcase 2026，并列出当月发售或进入抢先体验的游戏清单，包括SULFUR、Mycopunk等。</p><p><small>来源：<a href="https://unity.com/blog/games-made-with-unity-october-2026-releases">Unity</a></small></p><p><small>原文发布：2026-11-02 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《去月球》创作者公开免费作品《幻想私聊》</title>
-  <link>https://www.gcores.com/articles/221792</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-df948e0939651b8d4967b5cd</guid>
-  <pubDate>Mon, 02 Nov 2026 01:20:00 +0000</pubDate>
+  <title>前Xbox首席运营官回应离职传闻</title>
+  <link>https://80.lv/articles/former-xbox-coo-addresses-rumors-about-leaving-the-company/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0d0d294d8595e34bd17cdbf6</guid>
+  <pubDate>Tue, 03 Nov 2026 06:32:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>高瞰公开免费作品《幻想私聊》，由可自由探索的场景组成，收录他与Freebird Games虚构角色跨越二十年的对话，内容涉及生活、游戏开发等，并展示一个未公开项目的像素美术风格。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/221792">机核</a></small></p><p><small>原文发布：2026-11-02 09:20（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Former Xbox COO Addresses Rumors About Leaving the Company</small></p><p>Helen Chiang在任职三个月后离开Xbox首席运营官职位，11月2日通过LinkedIn发文否认因违反政策被解雇、向媒体泄露机密、歧视骚扰、内幕交易等说法，但未说明离职原因。</p><p><small>来源：<a href="https://80.lv/articles/former-xbox-coo-addresses-rumors-about-leaving-the-company/">80.lv</a></small></p><p><small>原文发布：2026-11-03 14:32（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>GameRes统计11月2日至8日共24款游戏开测</title>
-  <link>https://www.gameres.com/901203420.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3a39493ba1947a18aebfcf4a</guid>
-  <pubDate>Mon, 02 Nov 2026 01:02:00 +0000</pubDate>
+  <title>技嘉与EDG联名电竞馆在广州开业，采用锐龙与RTX整机配置</title>
+  <link>https://www.gameres.com/901203438.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ade8b42ea12e6921f3567185</guid>
+  <pubDate>Tue, 03 Nov 2026 02:37:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>GameRes游资网统计2026年11月2日至8日共有24款游戏开测，文中列出部分开测信息：11月4日腾讯魔方工作室群研发的3D格斗竞技游戏《异人之下》限量删档终测；11月5日哔哩哔哩游戏发行的沙盘策略游戏《三国志：王道天下》限量删档计费测试。</p><p><small>来源：<a href="https://www.gameres.com/901203420.html">GameRes</a></small></p><p><small>原文发布：2026-11-02 09:02（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>技嘉与EDG、绿树电竞合作的联名电竞馆EDGX绿树电竞广州旗舰店开业，集电竞酒店与电竞馆于一体。整机采用AMD锐龙9 9850X3D、锐龙7 9700X处理器，搭配技嘉B850M主板、RTX 5080及5070显卡、电源和AORUS、GIGABYTE GAMING显示器。</p><p><small>来源：<a href="https://www.gameres.com/901203438.html">GameRes</a></small></p><p><small>原文发布：2026-11-03 10:37（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《殡葬助理》开发者取消的《灵动：鬼影实录》游戏现可免费游玩</title>
-  <link>https://80.lv/articles/you-can-now-play-the-mortuary-assistant-dev-s-canceled-paranormal-activity-game-for-free/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b60b64614d033ff3250cd00e</guid>
-  <pubDate>Fri, 30 Oct 2026 15:53:00 +0000</pubDate>
+  <title>沙特支持的Kingdom of Gaming游戏展延期至2027年</title>
+  <link>https://www.gamesindustry.biz/saudi-backed-kingdom-of-gaming-event-delayed-to-2027</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-664d5668bc3df849c44f7e00</guid>
+  <pubDate>Mon, 02 Nov 2026 21:46:06 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：You Can Now Play The Mortuary Assistant Dev&#x27;s Canceled Paranormal Activity Game For Free</small></p><p>DarkStone Digital 将此前被取消的《灵动：鬼影实录》改编游戏重制为免费作品《Playable Archive》，移除该系列相关引用，时长约30至60分钟，无存档系统，采用伪纪录片恐怖风格。</p><p><small>来源：<a href="https://80.lv/articles/you-can-now-play-the-mortuary-assistant-dev-s-canceled-paranormal-activity-game-for-free/">80.lv</a></small></p><p><small>原文发布：2026-10-30 23:53（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Saudi-backed Kingdom of Gaming event delayed to 2027</small></p><p>沙特政府支持的Kingdom of Gaming游戏产业活动原定12月1日至3日在利雅得举行，官网和社交账号已改为“2027年到来”，主办方未发布正式公告。主办方Tahaluf为Informa与沙特网络安全、编程和无人机联合会的合资企业。</p><p><small>来源：<a href="https://www.gamesindustry.biz/saudi-backed-kingdom-of-gaming-event-delayed-to-2027">GamesIndustry</a></small></p><p><small>原文发布：2026-11-03 05:46（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>用ZBrush与Substance 3D制作半写实Lobo半身像</title>
-  <link>https://80.lv/articles/sculpting-texturing-a-semi-realistic-lobo-bust-with-zbrush-substance-3d/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1e1dfb500de9b3d5a023ca8d</guid>
-  <pubDate>Fri, 30 Oct 2026 14:47:00 +0000</pubDate>
+  <title>CI Games获3200万美元贷款，自主发行《堕落之主2》</title>
+  <link>https://www.gamesindustry.biz/ci-games-secures-32-million-loan-to-finish-and-self-publish-lords-of-the-fallen-2</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-49cab8603800130a564a9f94</guid>
+  <pubDate>Mon, 02 Nov 2026 21:28:03 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Sculpting &amp; Texturing a Semi-Realistic Lobo Bust with ZBrush &amp; Substance 3D</small></p><p>角色美术师Eric Liu介绍其制作DC反英雄Lobo半写实半身像的流程，涵盖ZBrush雕刻、拓扑与UV处理、Substance 3D Painter贴图，以及Marmoset Toolbag打光渲染。</p><p><strong>背景与变化</strong><br>作者从球体起形以练肌肉记忆，用ZWrap基础网格投射细节，贴图先建灰阶层再叠色，服装破损靠手绘alpha与高度通道负值加假阴影补足。</p><p><strong>策划视角</strong><br>可研究在未做高模破损细节时，用贴图手绘加高度负值与假阴影模拟深度的做法，在游戏资产管线中的适用边界。</p><p><small>来源：<a href="https://80.lv/articles/sculpting-texturing-a-semi-realistic-lobo-bust-with-zbrush-substance-3d/">80.lv</a></small></p><p><small>原文发布：2026-10-30 22:47（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：CI Games secures $32 million loan to finish and self-publish Lords of the Fallen 2</small></p><p>CI Games与波兰两家银行签署3200万美元银团贷款，用于完成《堕落之主2》剩余制作、全球营销与发行，并偿还现有银行债务。贷款由KUKE担保80%，2027年8月到期，主要靠游戏销售偿还；游戏计划2027年第一季度发售，具体日期12月公布。</p><p><small>来源：<a href="https://www.gamesindustry.biz/ci-games-secures-32-million-loan-to-finish-and-self-publish-lords-of-the-fallen-2">GamesIndustry</a></small></p><p><small>原文发布：2026-11-03 05:28（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>用目标蓝图法加速地牢关卡设计</title>
-  <link>https://danfelder.net/2026/11/01/dungeons-in-detail-using-design-blueprints-to-murder-the-blank-page/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-234fdeb425a6a40c8a5c4819</guid>
-  <pubDate>Sun, 01 Nov 2026 23:59:18 +0000</pubDate>
+  <title>Astragon关闭前Independent Arts工作室Astragon Development</title>
+  <link>https://www.gamesindustry.biz/astragon-closes-independent-arts-successor-studio-astragon-development</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5284c914c6b58d16e2f35b1b</guid>
+  <pubDate>Mon, 02 Nov 2026 19:34:05 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Astragon closes Independent Arts successor studio Astragon Development</small></p><p>模拟游戏发行商Astragon Entertainment关闭德国工作室Astragon Development（前身为Independent Arts Software），逾40名员工受影响，公司称正为其寻找社会责任方案。该工作室1990年成立，三十年间参与超250款游戏，2023年被Astragon收购。</p><p><small>来源：<a href="https://www.gamesindustry.biz/astragon-closes-independent-arts-successor-studio-astragon-development">GamesIndustry</a></small></p><p><small>原文发布：2026-11-03 03:34（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Itch.io每日新增游戏页面两个月内翻倍，销量未同步增长</title>
+  <link>https://www.gamedeveloper.com/pc/number-of-game-pages-doubles-on-itch-io-as-ai-clones-flood-the-store</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4a66186e1ae519fd6763734c</guid>
+  <pubDate>Mon, 02 Nov 2026 18:30:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The number of game pages doubles on Itch.io as AI games flood the store</small></p><p>Itch.io代表称，过去两个月平台每日新增游戏页面数从约3000增至近8000，但下载和购买量并未翻倍。文章提到平台AI披露标签非强制填写，并用“No AI”筛选对比结果数量，还提及Steam对AI复制游戏的回应。</p><p><small>来源：<a href="https://www.gamedeveloper.com/pc/number-of-game-pages-doubles-on-itch-io-as-ai-clones-flood-the-store">Game Developer</a></small></p><p><small>原文发布：2026-11-03 02:30（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>青沼英二：重制《时之笛》助年轻员工理解经典设计</title>
+  <link>https://www.gamedeveloper.com/production/zelda-producer-ocarina-of-time-remake-helps-junior-staff-learn-classic-insights</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8d82ce2e858a13d983973820</guid>
+  <pubDate>Mon, 02 Nov 2026 16:33:26 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Zelda producer: Ocarina of Time remake helps junior staff learn classic insights</small></p><p>青沼英二在任天堂开发者访谈中表示，重制《塞尔达传说：时之笛》的原因之一是让未参与原作的年轻团队成员通过实际重建，理解原作的游戏结构与开发方式，并思考如何用于未来作品。</p><p><small>来源：<a href="https://www.gamedeveloper.com/production/zelda-producer-ocarina-of-time-remake-helps-junior-staff-learn-classic-insights">Game Developer</a></small></p><p><small>原文发布：2026-11-03 00:33（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Affinity iPad版免费上线，整合设计、修图与排版功能</title>
+  <link>https://80.lv/articles/free-affinity-app-for-ipad-now-available/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0a869fc29d38449f20f3253e</guid>
+  <pubDate>Mon, 02 Nov 2026 16:13:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Free Affinity App For iPad Now Available</small></p><p>Canva将Affinity套件以免费统一应用形式带到iPad，整合原Affinity Photo、Designer、Publisher三款应用的功能，新增Sketch工作室，含350多支可编辑画笔，支持Apple Pencil压感、倾斜与笔杆旋转。应用使用自有.af格式，也支持JPEG、PNG、PDF、SVG等格式，需iPadOS 18及以上。</p><p><small>来源：<a href="https://80.lv/articles/free-affinity-app-for-ipad-now-available/">80.lv</a></small></p><p><small>原文发布：2026-11-03 00:13（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>AI进入美术外包工作流，成都供应商面临两极分化</title>
+  <link>http://www.chuapp.com/article/291728.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fd326abf27907dd9ec186832</guid>
+  <pubDate>Mon, 02 Nov 2026 10:39:46 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐采访成都多家美术外包从业者：2026年起国内厂商外包订单普遍允许使用AI，工期与单价被压缩，部分团队订单减少、裁员或转型整包，以海外订单为主的团队受冲击较小。</p><p><small>来源：<a href="http://www.chuapp.com/article/291728.html">触乐</a></small></p><p><small>原文发布：2026-11-02 18:39（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>魂系游戏的叙事为何像“傲娇”：从考古式拼图到可解的谜题</title>
+  <link>https://danfelder.net/2026/11/03/why-souls-games-are-narrative-tsunderes/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c1374769b36c66ba66417326</guid>
+  <pubDate>Tue, 03 Nov 2026 02:12:46 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Dungeons in Detail – Using Goal-Blueprints to Murder the Blank Page</small></p><p>作者Dan Felder介绍其地牢设计工具“目标蓝图”：先为每个房间标注设计目的，再考虑具体内容，从而在早期判断空间关系与节奏问题，并据此调整入口、分支与回路布局。</p><p><strong>设计选择</strong><br>作者以两小时内迭代一层地牢为目标，先定房间目的再填概念，据此发现死亡陷阱区不宜作为开场，改为中央枢纽三分支结构，并增设秘密入口避免玩家反复遭遇强敌。</p><p><strong>策划视角</strong><br>可研究：以“房间目的”而非“房间内容”为起点的蓝图，在电子游戏关卡白盒阶段如何影响迭代速度与布局决策？</p><p><small>来源：<a href="https://danfelder.net/2026/11/01/dungeons-in-detail-using-design-blueprints-to-murder-the-blank-page/">Dan Felder</a></small></p><p><small>原文发布：2026-11-02 07:59（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Why Souls Games are Narrative-Tsunderes</small></p><p>作者认为魂系游戏的叙事不是传统讲故事，而是让玩家像考古学家一样从碎片中拼凑世界历史；他主张这种叙事考古不必做得晦涩，可以把关键信息放在主线上、让谜题更易被普通玩家解开。</p><p><strong>设计选择</strong><br>作者以《空洞骑士》《艾尔登法环》《奥伯拉丁的回归》为例，归纳出一套方法：先立简单神话框架，再撕碎散布线索，用环境细节制造世界自洽感，结尾明确回答约七成核心问题。</p><p><strong>策划视角</strong><br>可研究：把关键叙事信息从物品描述移到主线可见处，会怎样改变玩家的探索动机与解谜成就感？</p><p><small>来源：<a href="https://danfelder.net/2026/11/03/why-souls-games-are-narrative-tsunderes/">Dan Felder</a></small></p><p><small>原文发布：2026-11-03 10:12（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《仙源秘境》开发日志：主城与宗门从插画菜单改为可行走场景</title>
-  <link>https://indienova.com/u/zzgamer/blogread/39401</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-26d9331eefb96af6707930a7</guid>
+  <title>商业游戏立项复盘：产品定位、替代理由与证据链</title>
+  <link>https://www.gameres.com/901203434.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2e00d678f131468ca93652be</guid>
+  <pubDate>Tue, 03 Nov 2026 01:07:00 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>独立团队在开发日志中说明，将《仙源秘境》的主城与宗门从一张全景插画加功能标签的形式，重做为可沿山路、街道步行的三维场景，建筑需走近才能互动，目前为可跑通的初版。</p><p><strong>设计选择</strong><br>作者认为原方案像点选菜单，与慢节奏修仙体验不符；重做后可承载路边NPC、小事件与机缘彩蛋，代价是铺路、摆建筑、调碰撞与互动范围都需手工处理。</p><p><strong>策划视角</strong><br>可关注“走近才能互动”的判定范围如何与回合制肉鸽的节奏衔接，以及手工布景的成本在小团队中如何控制。</p><p><small>来源：<a href="https://indienova.com/u/zzgamer/blogread/39401">indienova 会员日志</a></small></p><p><small>原文日期未标</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>作者复盘一次商业游戏策划案与资方沟通失败的经历，提出商业驱动立项需回答谁会玩、为何迁移、靠什么赚钱三问，并按问卷、买量测试、demo留存与付费测试排列证据强度。</p><p><strong>设计选择</strong><br>作者用产品定位、迁移意愿公式和收益模型拆解立项逻辑，并区分面向资方的自顶向下路径与面向策划的自底向上设计路径，认为两者需衔接。</p><p><strong>策划视角</strong><br>可追问：作者提出的证据强度排序（付费&gt;众筹&gt;试玩&gt;预约&gt;问卷）在中小团队预算下如何落地，哪些环节可低成本替代？</p><p><small>来源：<a href="https://www.gameres.com/901203434.html">GameRes 策划</a></small></p><p><small>原文发布：2026-11-03 09:07（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《凯普勒186F》制作人回应断更：开源多款开发工具</title>
+  <link>https://indienova.com/indie-game-development/kepler-186f-development-behind-the-scenes/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1bacee6a4f5422eb00123b7d</guid>
+  <category>策划精选</category>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>《凯普勒186F》制作人Zeck说明游戏9月13日后暂停更新并非放弃项目，原因之一是频繁更新被玩家误认为在修Bug，更主要是他跨行入行、正通过开源约20款开发工具练习产品架构思维，文中列举了抠图、商店资产生成、日志去重、图标字体化等工具。</p><p><strong>设计选择</strong><br>作者以自述方式解释断更取舍：暂缓更新以避免负面观感，并把精力投入工具开发；其中图标转ttf使包体减少约3GB、SteamDeck帧率提升8帧为其个人陈述，未提供独立验证。</p><p><strong>策划视角</strong><br>可追问：把开发工具开源作为架构练习，是否真能反哺游戏本体的更新节奏与工程质量？这些工具中哪些具备被其他独立开发者复用的条件？</p><p><small>来源：<a href="https://indienova.com/indie-game-development/kepler-186f-development-behind-the-scenes/">indienova 开发</a></small></p><p><small>原文发布：2026-10-31</small></p>]]></description>
+</item>
+<item>
+  <title>OpenAI提高安全漏洞赏金并新增奖励类别</title>
+  <link>https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b2b4ba02b8241678fbcaa0f6</guid>
+  <pubDate>Mon, 02 Nov 2026 18:00:00 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Rewarding defenders with bigger bug bounties</small></p><p>OpenAI宣布提高安全漏洞赏金金额，并为独立安全研究人员新增报告质量、忠诚度和优先活动三类奖金。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties">OpenAI</a></small></p><p><small>原文发布：2026-11-03 02:00（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>OpenAI推出电网保护者计划</title>
+  <link>https://openai.com/index/grid-protectors-program</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-500d8daacdf5ad2e89b1d254</guid>
+  <pubDate>Mon, 02 Nov 2026 15:00:00 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing the Grid Protectors Program</small></p><p>OpenAI宣布启动Grid Protectors Program，称将与公用事业公司合作，使未来的算力园区有助于电网可靠性并保护消费者电费。材料仅有项目简介，未说明具体合作方式、时间表或效果。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/grid-protectors-program">OpenAI</a></small></p><p><small>原文发布：2026-11-02 23:00（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>PixVerse与OpenAI推出产品集成及创作者教育计划</title>
+  <link>https://www.qbitai.com/2026/11/507313.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1852444bf04762a4decdc9be</guid>
+  <pubDate>Tue, 03 Nov 2026 01:46:55 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>爱诗科技PixVerse宣布与OpenAI合作，完成PixVerse插件接入ChatGPT与Codex、推出PixVerse CLI及Canvas支持，并共同推出面向海外创作者的线上研讨会与视频课程教育计划。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/507313.html">量子位</a></small></p><p><small>原文发布：2026-11-03 09:46（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>LLM 0.37 发布：新增模型、端点配置与嵌入支持</title>
+  <link>https://simonwillison.net/2026/Nov/2/llm/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-46fbced7512c7d01dc0bc4f7</guid>
+  <pubDate>Mon, 02 Nov 2026 23:49:30 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：llm 0.37</small></p><p>Simon Willison 发布 LLM CLI 工具与 Python 库 0.37 版，新增 gpt-6.1-sol、gpt-6.1-terra 模型和 llm openai endpoint add 命令，默认模型改为 gpt-6-luna，嵌入支持不同 content-type，并收录 12 位作者的修复。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/2/llm/">Simon Willison</a></small></p><p><small>原文发布：2026-11-03 07:49（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>仪电智算云Token工厂提出三重可信体系</title>
+  <link>https://www.qbitai.com/2026/11/507260.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-aac07a6d3efea3aa57e1be61</guid>
+  <pubDate>Mon, 02 Nov 2026 07:47:38 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>上海仪电与上海创智学院联合发布仪电智算数链生态，并介绍仪电智算云Token工厂的能力结构：底层推理引擎负责更快、更省、更稳地生产词元，上层以服务运营、自主生态、安全合规三重可信回应企业采购词元时的计量、追溯与国产化适配问题。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/507260.html">量子位</a></small></p><p><small>原文发布：2026-11-02 15:47（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>

@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "date": "2026-11-02",
-  "generated_at": "2026-11-02T14:47:50.268400+08:00",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T15:05:56.735195+08:00",
   "news": [
     {
       "source_id": "web-be9919cef9",
@@ -9,22 +9,24 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "551320c20495f0b3",
-      "title": "《小偷模拟器》“私人收藏”DLC将于本月发售",
-      "url": "https://www.gcores.com/articles/221789",
+      "key": "65db65946111ae4f",
+      "title": "Anthropic更新Claude规则，禁止换皮现有游戏",
+      "url": "https://www.gcores.com/articles/221811",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
-      "coverage": 1,
+      "coverage": 3,
       "sources": [
-        "机核"
+        "机核",
+        "GamesIndustry",
+        "80.lv"
       ],
-      "published": "2026-11-02T00:40:00+00:00",
+      "published": "2026-11-02T08:02:31+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "《小偷模拟器》“私人收藏”DLC将于本月发售。开发者表示：\"在俯瞰城市的高处，四位收藏家把自家别墅改成了私人博物馆：钟表匠、小提琴家、教授和金融家，每人手里都有不该有的东西。一位匿名委托人称之为 解放 。你的律师会反对。幸好你没有律师。” 在本次的扩展内容中，每栋别墅都是一场不同的盗窃。玩家需要算准住宅中的规律，在排练时穿过音乐厅。避开教授的灯光。最后是压轴一幕：激光走廊、武装守卫，还有一台靠备用电源运转的摄像头。 需要注意的是，没有当铺敢收独一无二的赃物。在藏身处的架子上集齐一套收藏，黑湾上就会出现买家。既可以全部留给自己，也可以全部留在架子上，换取街区内的永久加成。玩家可以在电脑上的“偷盗合约”里接下合约，最低等级27。",
+      "summary_raw": "Anthropic 于近日为其最新模型 Claude Opus 5.5 引入了新限制，禁止生成模仿现有游戏的换皮内容。在生成式AI导致克隆游戏大量出现的背景下，Anthropic 试图从源头阻止此类侵权行为。 用户 chasm 在社交平台透露，Anthropic 于10月27日向旗下开发工具 Claude Code 注入了无法关闭的新规则。对此，Claude Code 团队开发者 Addy Osmani 证实，官方已针对 Opus 5.5增加了2条防范游戏模仿的提示词。 Addy Osmani 表示，利用AI侵犯他人知识产权违反了公司的使用政策。新规定允许开发者创建原创作品、同类型游戏或使用自带素材，但禁止复制特定现有游戏，即使修改名称或宣称原创也不行。针对拥有合法版权却被系统误拦的情况，官方建议开发者直接联系申诉。 需要注意的是，AI生成的克隆游戏正演变为行业难题。例如 Studio Bitdot 开发的游戏《大海捞针模拟器》仅凭演示视频走红，尚未正式发售就遭到了大量抄袭。更有甚者利用这一漏洞勒索开发者，要求支付费用否则就发布克隆版本。此前，Anthropic 还限制了Opus 5.5等模型在软件逆向工程方面的能力。",
       "rss_content": "",
-      "content_kind": "rss_summary",
+      "content_kind": "article_body",
       "category": "games",
       "pool": "main",
       "signals": {
@@ -36,14 +38,28 @@
       },
       "members": [
         {
-          "title": "《小偷模拟器》“私人收藏”DLC将于本月发售",
-          "url": "https://www.gcores.com/articles/221789",
+          "title": "Anthropic更新Claude规则，禁止换皮现有游戏",
+          "url": "https://www.gcores.com/articles/221811",
           "source": "机核",
           "lang": "zh",
-          "published": "2026-11-02T00:40:00+00:00"
+          "published": "2026-11-02T08:02:31+00:00"
+        },
+        {
+          "title": "Anthropic adds rule to stop Claude Code recreating existing games",
+          "url": "https://www.gamesindustry.biz/anthropic-adds-rule-to-stop-claude-code-recreating-existing-games",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-11-02T17:50:20+00:00"
+        },
+        {
+          "title": "Claude Code Blocks Video Game Cloning & Some Reverse Engineering Tasks",
+          "url": "https://80.lv/articles/claude-code-blocks-video-game-cloning-some-reverse-engineering-tasks/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-11-02T13:36:00+00:00"
         }
       ],
-      "score": 30,
+      "score": 36,
       "score_parts": [
         {
           "label": "来源",
@@ -63,23 +79,23 @@
         },
         {
           "label": "多源",
-          "value": 0
+          "value": 6
         }
       ],
-      "topic": "新游动态",
+      "topic": "开发动态",
       "is_analysis": false,
-      "age_hours": 6.1306301111111114,
+      "age_hours": 23.05714866527778,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "",
-      "has_body": false,
+      "body": "Anthropic 于近日为其最新模型 Claude Opus 5.5 引入了新限制，禁止生成模仿现有游戏的换皮内容。在生成式AI导致克隆游戏大量出现的背景下，Anthropic 试图从源头阻止此类侵权行为。\n用户 chasm 在社交平台透露，Anthropic 于10月27日向旗下开发工具 Claude Code 注入了无法关闭的新规则。对此，Claude Code 团队开发者 Addy Osmani 证实，官方已针对 Opus 5.5增加了2条防范游戏模仿的提示词。\nAddy Osmani 表示，利用AI侵犯他人知识产权违反了公司的使用政策。新规定允许开发者创建原创作品、同类型游戏或使用自带素材，但禁止复制特定现有游戏，即使修改名称或宣称原创也不行。针对拥有合法版权却被系统误拦的情况，官方建议开发者直接联系申诉。\n需要注意的是，AI生成的克隆游戏正演变为行业难题。例如 Studio Bitdot 开发的游戏《大海捞针模拟器》仅凭演示视频走红，尚未正式发售就遭到了大量抄袭。更有甚者利用这一漏洞勒索开发者，要求支付费用否则就发布克隆版本。此前，Anthropic 还限制了Opus 5.5等模型在软件逆向工程方面的能力。",
+      "has_body": true,
       "body_truncated": false,
-      "title_cn": "《小偷模拟器》私人收藏DLC本月发售",
-      "what": "《小偷模拟器》公布“私人收藏”DLC，本月发售。四栋别墅分别属于钟表匠、小提琴家、教授和金融家，每栋对应不同盗窃玩法，包括音乐厅排练、避开灯光、激光走廊与武装守卫。玩家需在藏身处集齐整套收藏，才会出现买家，也可保留收藏换取街区永久加成。",
+      "title_cn": "Anthropic为Claude Code增加禁止模仿现有游戏的规则",
+      "what": "Anthropic于10月27日向Claude Code注入无法关闭的新规则，针对Opus 5.5增加两条防范游戏模仿的提示词，禁止复制特定现有游戏，即使改名或宣称原创也不行；允许原创作品、同类型游戏和使用自带素材。",
       "why": "",
       "for_you": "",
-      "degraded": "source_excerpt"
+      "degraded": null
     },
     {
       "source_id": "web-70e4da96dc",
@@ -87,20 +103,21 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "e9a579eb6fb77da5",
-      "title": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利",
-      "url": "https://www.gameres.com/901203418.html",
+      "key": "6bd0e980c6f2a304",
+      "title": "《冰汽时代2》DLC3《激流》将于12月14日上线",
+      "url": "https://www.gameres.com/901203443.html",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
-      "coverage": 1,
+      "coverage": 2,
       "sources": [
-        "GameRes"
+        "GameRes",
+        "机核"
       ],
-      "published": "2026-11-01T11:38:00+00:00",
+      "published": "2026-11-03T06:07:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "米哈游首款小星球生活模拟游戏《星布谷地》定档12月4日开启PC、iOS、Android三端公测，公开核心玩法、长线更新计划及多重上线福利。",
+      "summary_raw": "《冰汽时代2》DLC3《激流》将于12月14日登陆PC及主机平台，为宏大剧情篇章，含多重分支抉择，新增剧情、新资源、风暴科技、新域探索等内容。",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -114,14 +131,21 @@
       },
       "members": [
         {
-          "title": "《星布谷地》定档12月4日正式公测，首曝温馨星球生活玩法与多重上线福利",
-          "url": "https://www.gameres.com/901203418.html",
+          "title": "《冰汽时代2》DLC3《激流》将于12月14日上线",
+          "url": "https://www.gameres.com/901203443.html",
           "source": "GameRes",
           "lang": "zh",
-          "published": "2026-11-01T11:38:00+00:00"
+          "published": "2026-11-03T06:07:00+00:00"
+        },
+        {
+          "title": "《冰汽时代2》DLC3“激流”将于12月14日上线",
+          "url": "https://www.gcores.com/articles/221844",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-03T05:58:13+00:00"
         }
       ],
-      "score": 30,
+      "score": 33,
       "score_parts": [
         {
           "label": "来源",
@@ -130,92 +154,6 @@
         {
           "label": "游戏与玩法变化",
           "value": 8
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 19.163963444444445,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "11月1日，上海 —— 米哈游宣布旗下首款自主研发的生活模拟游戏《星布谷地》于12月4日开启公测，支持 PC、iOS、Android 三端互通。今日《星布谷地》公测前瞻特别节目揭晓了游戏的核心玩法系统、丰富友邻，以及一系列公测庆典活动与福利。\n观看《星布谷地》 公测PV：\n在《星布谷地》中，玩家将化身\"种星人\"，随着星海精灵奥陌陌抵达星海，开启属于自己的星球生活。玩家在自己的星球上种下一颗\"露卡种子\"，随着时间推移，种子会长成\"露卡树\"，逐渐塑造星球的地貌、四季与生态。星球上的生活从不孤单：随着游戏展开，越来越多各具特色的友邻伙伴将与玩家相遇，一同开启美好生活。在共度的时光中，建立起与世间万物的「连接」。\n从种植耕作、烹饪美食，到赶海采集、捕虫钓鱼；从布置温馨小家的家装系统到一键布置精彩场景的星蓝图；星布谷地提供了丰富多彩的生活模拟玩法，玩家还可以在星海中遨游，驾船前往风貌各异的星屿旅行，与其他种星人互动社交，寄送承载心意的\"星念\"，结成\"星空好友\"，共同见证彼此的星球生活。\n为庆祝公测上线，米哈游将同步推出多项活动：玩家可通过官网参与\"好星友就这么搭\"预约组队活动，三人成行完成预约即可获得自选服饰奖励「阿奇宝上衣」；同时官网上新了预约抽奖活动，参与就有机会获得精选数码好礼、游戏道具。\"创想星计划\"创作者激励活动已经启动，为创作者提供百万现金激励及官方周边；配套的\"创想星工坊\"创作中心同步上线，为内容创作者提供长期成长支持与流量扶持；公测前参与预约的玩家，可在公测后登录游戏领取预约礼物「星空贴贴手灯」及「小星苗」套装等里程碑奖励；在美术表现上，游戏展现了总量近千件的免费外观设计。服装从清新田园到国风雅韵、从日常便装到节日盛装，玩家可随场景自由切换；家具涵盖温馨、复古等多种风格，适配室内与户外不同空间，供玩家随心组合布置。这些资源可随玩家日常参与逐步解锁，带来长线的视觉新鲜感。官方周边店铺亦将于公测当日正式开业。\n此外，更多线下活动仍在筹备中，后续将陆续公布。《星布谷地》预约已开启，玩家可通过各大应用平台搜索\"星布谷地\"完成预约。\n更多关于《星布谷地》的最新资讯，请前往官方网站：planet.mihoyo.com，以及关注官方社群账号 @星布谷地（米游社、B站、小红书、抖音、微博、快手、视频号）。\n关于《星布谷地》\n《星布谷地》是米哈游自主研发的生活模拟游戏。在这里，你将拥有一颗属于自己的星球，自由搭建家园、探索星海，与毛茸茸的友邻们缔结友谊，漫步星空街市感受欢声笑声。在共度的时光中，遇见生活的无限可能。\n登录 后参与讨论\n暂无评论，来抢沙发",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "《星布谷地》12月4日公测，公布生活模拟玩法与上线活动",
-      "what": "米哈游宣布生活模拟游戏《星布谷地》于12月4日开启公测，支持PC、iOS、Android三端互通。官方前瞻节目介绍了露卡种子与露卡树塑造星球地貌生态、种植烹饪赶海捕虫钓鱼、家装与星蓝图、驾船前往星屿社交等玩法，并公布预约组队、抽奖、创作者激励及预约奖励等活动。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-be9919cef9",
-      "source_url": "https://www.gcores.com/rss",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "94b07efba3e3ad91",
-      "title": "《影之刃零》发售后72小时销量突破400万",
-      "url": "https://www.gcores.com/articles/221799",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 2,
-      "sources": [
-        "机核",
-        "GameRes"
-      ],
-      "published": "2026-11-02T02:41:06+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "由灵游坊自主研发及发行，虚幻5引擎打造的暗黑武侠动作冒险游戏《影之刃零》发售后72小时销量突破400万。官方表示，几天来大家反馈的各种问题团队也已一一记录并着手进行优化调整，会在近期先进行一批明显bug的修复。团队也再一次感谢大家的支持与厚爱。 在本作中，玩家化身心脏遭受重创的剑客，在仅余六十六天的生命里，逃亡于刀光剑影和腥风血雨之间，并粉碎一桩笼罩在整个武林上方的惊天阴谋。在失序末法的武林中以身证道，以命寻心。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "《影之刃零》发售后72小时销量突破400万",
-          "url": "https://www.gcores.com/articles/221799",
-          "source": "机核",
-          "lang": "zh",
-          "published": "2026-11-02T02:41:06+00:00"
-        },
-        {
-          "title": "《影之刃零》72小时销量突破400万！",
-          "url": "https://www.gameres.com/901203425.html",
-          "source": "GameRes",
-          "lang": "zh",
-          "published": "2026-11-02T02:19:00+00:00"
-        }
-      ],
-      "score": 25,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
         },
         {
           "label": "近期",
@@ -230,173 +168,17 @@
           "value": 3
         }
       ],
-      "topic": "行业动态",
-      "is_analysis": false,
-      "age_hours": 4.112296777777778,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "GPASS\n首页\n机组\n讨论\n资讯\n播客\n文章\n视频\n有声书\n商店\n游戏库\n播单\n专题\n预告\nBOOOM\n机核发行\n下载机核 APP\nGPASS会员\n收藏\n历史\n消息\n《影之刃零》72小时销量突破400万\n牛啊牛啊\nYT17\n4 小时前\n发布于\n资讯\n由灵游坊自主研发及发行，虚幻5引擎打造的暗黑武侠动作冒险游戏《影之刃零》发售后72小时销量突破400万。官方表示，几天来大家反馈的各种问题团队也已一一记录并着手进行优化调整，会在近期先进行一批明显bug的修复。团队也再一次感谢大家的支持与厚爱。此前， 《影之刃零》Steam 在线玩家人数持续走高，\n更是在过去24小时内创下峰值突破83万的纪录。\n在本作中，玩家化身心脏遭受重创的剑客，在仅余六十六天的生命里，逃亡于刀光剑影和腥风血雨之间，并粉碎一桩笼罩在整个武林上方的惊天阴谋。在失序末法的武林中以身证道，以命寻心。\nI\n影之刃零\n游戏\n99\n3\n最热资讯\n文章精选\n通过创新功能增强《影之刃零》体验\n资讯\n【会员抽奖】特别好评！《影之刃零》PS港服畅销榜登顶\nYT17\n3 天前\n246\n217\n寻回真相与本心\n资讯\n【会员抽奖】执刃入局，寻心启程！《影之刃零》今日发售\nYT17\n4 天前\n288\n273\n10月29日发售\n资讯\n均分88：《影之刃零》媒体评分汇总\nYT17\n2026-10-26\n116\n114\n评论区\n发送\n共 81 条评论\n热门\n最新\n回到顶部\n外观样式\n建议反馈",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "《影之刃零》发售72小时销量突破400万",
-      "what": "灵游坊自研自发、虚幻5引擎打造的暗黑武侠动作游戏《影之刃零》发售后72小时销量突破400万；官方称已记录玩家反馈并着手优化，近期先修复一批明显bug。文中还提到Steam在线人数24小时峰值突破83万。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-9667abeb70",
-      "source_url": "https://80.lv/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "276e3e84c7683bf0",
-      "title": "Death Stranding Isolations Anime Receives Its First Trailer",
-      "url": "https://80.lv/articles/death-stranding-isolations-anime-receives-its-first-trailer/",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "80.lv"
-      ],
-      "published": "2026-11-02T06:30:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "The show will air exclusively on Disney+ in 2027.",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "development",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "Death Stranding Isolations Anime Receives Its First Trailer",
-          "url": "https://80.lv/articles/death-stranding-isolations-anime-receives-its-first-trailer/",
-          "source": "80.lv",
-          "lang": "en",
-          "published": "2026-11-02T06:30:00+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "开发动态",
-      "is_analysis": false,
-      "age_hours": 0.29729677777777774,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "Death Stranding Isolations Anime Receives Its First Trailer\nThe show will air exclusively on Disney+ in 2027.\nKojima Productions has unveiled the first trailer for Death Stranding Isolations, an anime series set in the universe of the action-adventure game. It will launch exclusively on Disney+ in 2027.\nThe \"all-new\" animated series features an original story with a unique cast of characters. \"My mom became a crater\" is the anime's tagline. It tells the story of a young girl who lives in isolation in a world devastated by catastrophic explosions. At first, this loneliness was forced upon her, but as a result, she grew up preferring solitude and avoiding opportunities for real human connection.\nThe series is directed by Takayuki Sano, with series composition and screenplay by Tow Ubukata. The hand-drawn animation comes from the Japanese studio E&H Production, known for Ninja Kamui, Bullet/Bullet, and the Magic Knight Rayearth TV series.\nCheck out the trailer:\nKojima Productions now works on two major projects, OD and PHYSINT. OD is a cinematic horror announced in 2023, starring Sophia Lillis and Hunter Schafer. The game will include a mechanic for scaredy-cats – an option to tone down the horrifying gameplay elements. PHYSINT is being developed in partnership with Xbox after Sony ended its collaboration on the project. The lead actor for PHYSINT is Bill Skarsgård, known for his roles in It, Nosferatu, and Barbarian. The game will also feature Charlee Fraser, Don Lee, and Minami Hamabe, whose experimental CG was showcased before.\nKojima Productions unveiled a new visual for OD:\nHideo Kojima, along with Billie Eilish, Phoebe Bridgers, and John C. McGinley, recently joined the voice cast of My Chemical Romance's new seven-minute stop-motion animated short, made with visual artist Lauren Tsai:\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "《死亡搁浅》动画剧集《Isolations》首曝预告，2027年上线Disney+",
-      "what": "小岛工作室公布《死亡搁浅》世界观动画剧集《Death Stranding Isolations》首支预告，讲述灾难爆炸后一名习惯独居的少女的原创故事，由佐野隆之执导、E&H Production手绘制作，2027年Disney+独家播出。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-70e4da96dc",
-      "source_url": "https://www.gameres.com/rss.xml",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "765441176dd74a57",
-      "title": "iG击败LYON晋级八强，螃蟹互娱",
-      "url": "https://www.gameres.com/901203428.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GameRes"
-      ],
-      "published": "2026-11-02T03:44:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "2026英雄联盟全球总决赛瑞士轮第四轮，iG2:1力克LYON，时隔2565天重返八强。其官方赞助商螃蟹互娱在美国达拉斯机场投放主题应援大屏，为战队助威。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "iG击败LYON晋级八强，螃蟹互娱",
-          "url": "https://www.gameres.com/901203428.html",
-          "source": "GameRes",
-          "lang": "zh",
-          "published": "2026-11-02T03:44:00+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 3.0639634444444446,
+      "age_hours": 0.9824264430555556,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "iG击败LYON晋级八强，螃蟹互娱美国机场应援为世界赛征程加油\n摘要：10月29日，2026英雄联盟全球总决赛瑞士轮第四轮，iG以2:1力克战队LYON，成功晋级八强！这也是iG时隔2565天后，再次挺进全球总决赛淘汰赛阶段。作为iG战队的官方赞助商，螃蟹互娱在美国达拉斯机场倾力投放主题应援大屏，将来自螃蟹平台用户的热爱与祝福，无缝传递至世界赛主场舞台。\n关键一战成功破局，iG时隔2565天重返八强\n从LPL赛区一路披荆斩棘拿下世界赛门票，到瑞士轮相继战胜强敌，iG稳步推进着自己的世界赛征程。北京时间10月29日，面对北美劲旅LYON，iG在首局打出摧枯拉朽的19:4击杀比分率先下一城；尽管次局遗憾被对手扳回一分，但队员们迅速调整心态，在决胜局顶住压力、锁定胜局，最终以2:1的总比分锁定八强席位。\n这场胜利，距离iG上一次站上全球总决赛淘汰赛的舞台，已经整整过去了2565天。从岁月沉淀到重返巅峰，老将的执着坚守与队伍的百折不挠交相辉映，iG用不屈的韧性打响了破局之战。随着八强席位落定，这支新老并肩的传奇战队也将正式向更高荣誉发起冲击！\n把应援带到美国机场，让热爱抵达赛场之外\n赛场内，选手们在峡谷中全力以赴；赛场外，来自赞助商的硬核支持也同步抵达。\n本届全球总决赛赛事落地得克萨斯州，而达拉斯机场正是全球电竞战队、观赛粉丝以及解说嘉宾抵达比赛现场的必经枢纽。作为iG战队的坚实后盾，螃蟹互娱准备包下这一门户枢纽的核心广告位，上线iG专属主题应援，以醒目霸气的视觉呈现，在异国赛场的第一站为iG送上应援助威！这不仅是螃蟹互娱为iG准备的一份特别礼赞，更是让来自中国电竞品牌的热爱与激情，随着往来全球旅客与观赛人群的脚步传递到更广阔的舞台。\n电竞的魅力不仅在于赛场上的胜负交锋，也在于赛场之外持续汇聚的关注与热血共鸣。从线上互动到海外线下枢纽应援，螃蟹互娱始终与玩家站在一起，见证每一个值得喝彩的荣耀时刻。\n深耕游戏生态，以多元布局连接玩家热爱\n此次机场应援，是螃蟹互娱持续深化电竞领域布局的又一次实践。继与LGD电子竞技俱乐部达成全年战略合作后，螃蟹互娱进一步携手iG，围绕赛事传播、内容共创及粉丝互动等场景展开合作，持续探索电竞文化与品牌传播的多元融合。\n螃蟹互娱与螃蟹游戏服务网属于同一集团业务矩阵。其中，螃蟹游戏服务网作为国内游戏账号交易领域的头部平台，长期深耕游戏账号及虚拟资产交易服务，业务覆盖5000余款游戏，累计交易订单超过1.4亿笔。近年来，平台持续推进数字化、智能化服务升级，通过AI验号、智能估值、电子合同、智能交付及交易风险防控等服务，不断完善游戏账号交易保障体系，致力于为广大玩家提供更加安全、便捷、高效的交易体验。\n从游戏账号交易服务的持续升级，到电竞赛事与内容生态的多元布局，集团正不断拓展游戏产业服务边界，在满足玩家多元化需求的同时，通过电竞合作、赛事互动等形式，持续深化与年轻用户的情感连接，传递对游戏文化与电竞精神的关注与支持。\n为热爱加油，期待iG再创佳绩\n随着iG成功晋级八强，世界赛征程也将迈入更加激烈的淘汰赛阶段。从国内赛场的奋力突围，到世界舞台上的顽强拼搏，iG用一场场精彩对决展现了不畏挑战、全力争胜的竞技精神。\n螃蟹互娱与螃蟹游戏服务网将与广大玩家一同关注接下来的赛程，为每一次精彩表现喝彩，为每一场关键对决加油。期待iG保持昂扬斗志，在世界舞台上继续突破自我、再创佳绩，让更多人见证中国电竞的热爱与力量！\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "body": "【波兰华沙·2026年11月2日】在DLC3中，《冰汽时代2》将讲述人类在遥远之地求生的故事。《激流》是一个体量宏大的剧情篇章，内含多重分支抉择，将于12月14日登陆PC和主机平台。\n在穿越美国冰封的废墟之后，你的同胞抵达了一处神秘的山谷。流言将他们引至此处——传说中，史上最伟大的天才留下了一项奇迹，一件足以重塑世界的遗物。他们在这里寻找深埋于冰层之下的答案。\n多年来，你不知疲倦地带领他们前行；如今，要迈出这最后一步，他们仍需要你的指引。一种全新的资源足以推动城市走向空前繁荣。但派系之间为其用途争执不休，而山谷的谜团也绝非轻易可解。\n《冰汽时代2：激流》拓展内容核心特色：\n全新剧情篇章\n体验一段叙事驱动的战役内容，探索远超以往的全新疆域。\n革新能源\n引入全新资源，将城市自动化水平推升至前所未有的高度。\n驾驭风暴\n部署专为风暴研发的科技，驾驭自然之怒，将毁灭性的白幕转化为可采集、可存储的资源。\n探索新域\n深入洞穴与废墟，发掘隐秘的宝藏，直面山谷的重重谜团。\n《冰汽时代2：激流》将于12月14日登陆PC和主机平台。尽管《冰汽时代2》后续的支持将仅限于维护，寒霜却远未消融。《冰汽时代》宇宙的故事仍将通过《冰汽时代1886》以及一款尚未公布的全新类型作品延续。\n登录 后参与讨论\n暂无评论，来抢沙发",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "iG以2:1击败LYON晋级英雄联盟全球总决赛八强",
-      "what": "2026英雄联盟全球总决赛瑞士轮第四轮，iG以2:1战胜LYON晋级八强，时隔2565天再进淘汰赛。赞助商螃蟹互娱在达拉斯机场投放应援大屏，并介绍其与iG的赛事传播、内容共创及粉丝互动合作。",
+      "title_cn": "《冰汽时代2》DLC3《激流》12月14日登陆PC与主机",
+      "what": "发行方宣布《冰汽时代2》第三部DLC《激流》将于12月14日登陆PC和主机，包含叙事驱动的新剧情战役、一种可提升城市自动化的新资源、将白幕转化为可采集资源的科技，以及洞穴与废墟探索内容。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -407,9 +189,95 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "37ff0a9bcf7c981d",
-      "title": "《去月球》创作者免费作品《幻想私聊》正式公开",
-      "url": "https://www.gcores.com/articles/221792",
+      "key": "0a6d36b6cce307ce",
+      "title": "微软撤资后项目重启：《毁灭战士》之父新作签下全新发行商",
+      "url": "https://www.gcores.com/articles/221815",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 2,
+      "sources": [
+        "机核",
+        "80.lv"
+      ],
+      "published": "2026-11-02T08:46:21+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "《毁灭战士》与《雷神之锤》创作者、游戏制作人约翰·罗梅罗确认，旗下位于爱尔兰的工作室 Romero Games 已为开发中的第一人称射击游戏寻得新的发行商。该项目在2025年因微软终止发行合同而陷入资金困境，目前已由小型团队恢复开发。据悉，新发行商给予了团队充分的创作自由，并未对游戏内容提出干涉。 2022年，工作室宣布使用虚幻引擎5开发这款全新IP作品。在微软于2025年取消资助后，原先110人的开发团队一度缩减至5人。罗梅罗随后通过联系旧识敲定了新的发行合作。工作室近期重新聘用了10名原部门主管，目前团队规模扩充至15到16人。 根据他的说法，Romero Games 完整保留了原项目的IP、美术和代码等资产所有权。团队并未选择直接完成原有项目，而是在复用部分资产的基础上，将其全面重构为适合小团队制作的新FPS。罗梅罗目前已亲自参与虚幻编辑器的细节设计，无需再处理庞大团队的管理事务。 新作品的名称、发行商身份、发售时间以及对应平台均未公布。罗梅罗表示目前开发进展非常顺利。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "微软撤资后项目重启：《毁灭战士》之父新作签下全新发行商",
+          "url": "https://www.gcores.com/articles/221815",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-02T08:46:21+00:00"
+        },
+        {
+          "title": "Doom & Quake Co-Creator John Romero Says His Shooter Has a New Publisher",
+          "url": "https://80.lv/articles/doom-quake-co-creator-john-romero-says-his-shooter-has-a-new-publisher/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-11-02T10:14:00+00:00"
+        }
+      ],
+      "score": 33,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 8
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 3
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 22.32659310972222,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "《毁灭战士》与《雷神之锤》创作者、游戏制作人约翰·罗梅罗确认，旗下位于爱尔兰的工作室 Romero Games 已为开发中的第一人称射击游戏寻得新的发行商。该项目在2025年因微软终止发行合同而陷入资金困境，目前已由小型团队恢复开发。据悉，新发行商给予了团队充分的创作自由，并未对游戏内容提出干涉。\n2022年，工作室宣布使用虚幻引擎5开发这款全新IP作品。在微软于2025年取消资助后，原先110人的开发团队一度缩减至5人。罗梅罗随后通过联系旧识敲定了新的发行合作。工作室近期重新聘用了10名原部门主管，目前团队规模扩充至15到16人。\n根据他的说法，Romero Games 完整保留了原项目的IP、美术和代码等资产所有权。团队并未选择直接完成原有项目，而是在复用部分资产的基础上，将其全面重构为适合小团队制作的新FPS。罗梅罗目前已亲自参与虚幻编辑器的细节设计，无需再处理庞大团队的管理事务。\n新作品的名称、发行商身份、发售时间以及对应平台均未公布。罗梅罗表示目前开发进展非常顺利。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Romero Games为FPS新作签下新发行商，团队重建至15人",
+      "what": "约翰·罗梅罗确认，Romero Games在微软2025年终止发行合同后，已为虚幻引擎5开发的第一人称射击新作找到新发行商。团队从110人缩减至5人后，重新聘用10名原主管，现约15至16人，并保留IP、美术与代码所有权。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "4ff29b7679b590a4",
+      "title": "特别好评合作清洁游戏《哥布林女仆大扫除》海盗湾更新现已上线",
+      "url": "https://www.gcores.com/articles/221839",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -417,12 +285,12 @@
       "sources": [
         "机核"
       ],
-      "published": "2026-11-02T01:20:00+00:00",
+      "published": "2026-11-03T03:18:53+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "《幻想私聊》正式公开。本作是一部由可自由探索的场景组成的免费作品，收录了《去月球》创作者与自己笔下的虚构角色之间，跨越二十年的对话。聊生活，聊游戏创作，也聊聊那些难以归类的点点滴滴。 高瞰表示：“这次的新作，有那么一点点奇怪。不过对我来说，它有着非常特别的意义。这是一部由一系列可自由探索的场景组成的作品，记录了过去 20 年里，我与 Freebird Games 笔下那些虚构角色之间的各种聊天。有些聊的是生活中的私事，有些是游戏开发背后的故事，还有一些嘛……就是各种介于两者之间、很难归类的奇奇怪怪的话题。 另外，这部作品也会顺便让大家提前瞄一眼，我们这些年来为某个超级无敌绝密、绝对不可能有人猜到的神秘项目，精心打造的像素美术风格。（嗯，真的超级神秘，绝对猜不到。） ”",
+      "summary_raw": "Team17 与 Crisalu Games 今日宣布，合作清洁游戏《哥布林女仆大扫除》推出全新更新，并在 Steam 上线包含游戏原声带的豪华版。 本次更新带来两座全新关卡，隶属于游戏抢先体验上线以来的首个全新地牢—— 海盗地牢 。海湾里的不法之徒开怀畅饮、狂欢作乐后留下了一片狼藉，现在轮到玩家来收拾残局了！ <内嵌内容，请前往机核查看> <内嵌内容，请前往机核查看> 《哥布林女仆大扫除》更新内容 海盗地牢更新加入了多种惊险元素，万圣节期间更添几分诡异气氛： 骷髅陷阱 捕兽夹 闹鬼的幽灵船 海怪克拉肯 可以发射场景道具和玩家的加农炮 巫毒遗物 两套全新外观现已加入游戏： 海盗服装：随本次更新向所有玩家开放 防化服：可通过 Twitch Drops 获取 本次更新还加入了多项新功能，包括用于追踪个人进度的 排行榜 ，以及一项全新的 无障碍选项 ，允许玩家自定义扫描仪的颜色。 《哥布林女仆大扫除》豪华版今日同步登陆 Steam，包含游戏官方原声带 《Tears of the Goblin》 。原声带共收录 18 首曲目，由 Ariel Contreras-Esquivel 创作。 《哥布林女仆大扫除》 是一款合作清洁游戏。下一批冒险者到来挑战地牢之前，玩家必须先将地牢打扫干净，并把所有东西恢复原位。 定制你的哥布林女仆：想把清洁工作做得专业又利落？挑选你的服装，叫上哥布林伙伴，一起开",
       "rss_content": "",
-      "content_kind": "rss_summary",
+      "content_kind": "article_body",
       "category": "games",
       "pool": "main",
       "signals": {
@@ -434,11 +302,167 @@
       },
       "members": [
         {
-          "title": "《去月球》创作者免费作品《幻想私聊》正式公开",
-          "url": "https://www.gcores.com/articles/221792",
+          "title": "特别好评合作清洁游戏《哥布林女仆大扫除》海盗湾更新现已上线",
+          "url": "https://www.gcores.com/articles/221839",
           "source": "机核",
           "lang": "zh",
-          "published": "2026-11-02T01:20:00+00:00"
+          "published": "2026-11-03T03:18:53+00:00"
+        }
+      ],
+      "score": 30,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 8
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "关卡设计",
+      "is_analysis": false,
+      "age_hours": 3.7843708874999997,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Team17 与 Crisalu Games 今日宣布，合作清洁游戏《哥布林女仆大扫除》推出全新更新，并在 Steam 上线包含游戏原声带的豪华版。\n本次更新带来两座全新关卡，隶属于游戏抢先体验上线以来的首个全新地牢——海盗地牢。海湾里的不法之徒开怀畅饮、狂欢作乐后留下了一片狼藉，现在轮到玩家来收拾残局了！\n海盗地牢更新加入了多种惊险元素，万圣节期间更添几分诡异气氛：\n本次更新还加入了多项新功能，包括用于追踪个人进度的排行榜，以及一项全新的无障碍选项，允许玩家自定义扫描仪的颜色。\n《哥布林女仆大扫除》豪华版今日同步登陆 Steam，包含游戏官方原声带 《Tears of the Goblin》。原声带共收录 18 首曲目，由 Ariel Contreras-Esquivel 创作。\n《哥布林女仆大扫除》是一款合作清洁游戏。下一批冒险者到来挑战地牢之前，玩家必须先将地牢打扫干净，并把所有东西恢复原位。\n《哥布林女仆大扫除》现已登陆 PC（Steam），截至 2026 年 11 月 9 日限时优惠 35%，售价为 79元人民币，折后51.35元。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《哥布林女仆大扫除》推出海盗地牢更新与豪华版",
+      "what": "Team17与Crisalu Games宣布，合作清洁游戏《哥布林女仆大扫除》上线海盗地牢更新，新增两座关卡、个人进度排行榜和扫描仪颜色自定义无障碍选项，同时推出含18首原声带的Steam豪华版。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-531f01f744",
+      "source_url": "https://unity.com/blog/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "099a221b6d2c6853",
+      "title": "Games made with Unity: October 2026 in review",
+      "url": "https://unity.com/blog/games-made-with-unity-october-2026-releases",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "Unity"
+      ],
+      "published": "2026-11-02T00:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Stay updated with the latest creations from the Unity community. Explore our list of standout games made with Unity in October 2026.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Games made with Unity: October 2026 in review",
+          "url": "https://unity.com/blog/games-made-with-unity-october-2026-releases",
+          "source": "Unity",
+          "lang": "en",
+          "published": "2026-11-02T00:00:00+00:00"
+        }
+      ],
+      "score": 23,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 31.099093109722222,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Games made with Unity: October 2026 in review\nFergus Baird - Unity Technologies\nOctober 2026 brought strong representation for Unity developers across major industry events and game launches. The Australian Game Developer Awards (AGDAs) saw Key Fairy, Schrödinger’s Cat Burglar, and Static Shift Racing winning top prizes. Unity sponsored the MIX Fall Showcase 2026. A few of the month’s bigger launches included SULFUR and Mycopunk leaving early access, and Probably Stolen’s successful Next Fest demo and subsequent 1.0 release. Get the full recap in our summary of Made with Unity games for October 2026 below.\nAward-winning Unity games: October 2026\nUnity developers were well-represented at this year’s AGDA awards, with six of the winners made with Unity.\nMade with Unity winners at the 2026 AGDA Awards\n- Key Fairy by Owl Machine (Excellence in Debut, presented by Screen Queensland)\n- Schrödinger’s Cat Burglar by Abandoned Sheep (Excellence in Narrative)\n- Static Shift Racing by Timbo Jimbo (Excellence in Ongoing, presented by Sledgehammer Games)\nCongratulations also to the other Unity finalists: Momento by Fat Alien Cat & Nomo Studio, On Point by Actuator Games, The Last Werewolf by Unnatural Freaks, Crabmeat by Nicholas McDonnell, Crossy Road Castle by Hipster Whale, Aether & Iron by Chaos Theory Games, and Go-Go Town! by Prideful Sloth.\nMade with Unity at the MIX showcase\nWe sponsored this month’s MIX showcase, and a lot of Unity games were on the bill. Watch the full showcase to see new and upcoming games including:\n- MR. RECORDS by Glee-Cheese Studio\n- Kitaria Fables 2 by Secret Level Studios\n- Voidwood by Santa Barbara Games\n- Coral Island by Stairway Games\nMade with Unity Steam Curator Page\nBe sure to stay up to date with the latest Unity creations on Steam by checking out our Steam Curator page.\nGames made with Unity: October 2026\nWant your next game to be included in our release round-up? Be sure to submit your project.\nWithout further ado, here’s a non-exhaustive list of games made with Unity and launched in October 2026, either into early access or full release. Add to the list by sharing any that you think we missed.\nAction\n- SULFUR, Perfect Random (October 28)\n- Everlast: Undying Tale, InSpades (October 28 – early access)\n- AI Olympius, Lion's Shade (October 18)\nBullet Heaven / Bullet Hell\n- Genome Guardian 2, Alpherior (October 11)\nCasual, rhythm and party\n- PAO PAO, ArtDock (October 26 – early access)\n- Little Ghosties, Acrylic Pixel Games (October 23)\n- Dupery: A Game of Solo Deduction, Gilded Rune Games (October 15)\n- Ratatan, TVT Co. Ltd., Ratata Arts (October 14)\n- Nientum - Op.ZERO, Quesera Games (October 13)\n- Duelist: Idle Expedition, One Interactive Studio (October 8)\n- Afterbeat (Project Arrhythmia), Vitamin Games (October 8)\nCity and colony builder\n- Cutout Village, DevilishGames (October 21 – early access)\nComedy\n- Trash Day, Off By One Games (October 13)\nExploration\n- REKA, Emberstorm Entertainment (October 26)\n- Voodoo Fishin', Lost Arcade (October 13)\n- Deep Dish Dungeon, Behold Studios (October 13)\nFPS\n- Mycopunk, Pigeons at Play (October 20)\n- Survival Denied, What Does This Button Do LLC (October 30)\n- Athanasia, Momentum Games LLC (October 19 – early access)\n- Galatico, Galatico Studios (October 19)\nHorror\n- 4 Penny Coffins, Other Ocean Interactive (October 27)\n- Benny's Backrooms, GameName (October 27 – early access)\n- Blue Ridge Hunting, Jade Meadows (October 26 – early access)\n- SEVERANCE, Sykes Games (October 26)\n- The Reflection, Pinwheels Studio (October 23 – early access)\n- Cucina Stellata, Filthy Eden (October 20)\n- Athanasia, Momentum Games LLC (October 19 – early access)\n- Silent Wounds - The Doll, Lexip Games (October 15)\nManagement and automation\n- Dungeon Inn, Cat Society (October 22)\n- The Boss Gangster: Criminal Empire, BEF Games (October 27)\n- Keine’s Terakoya: A Schoolhouse in Gensokyo, The Creator Workgroup (October 3)\nMetroidvania\n- Echo Weaver, Moonlight Kids (October 8)\n- Stickility, Reglan (October 5)\nNarrative and mystery\n- Grifford Academy, LandShark Games (October 24)\n- The Witch's Bakery, Sunny Lab (October 14)\nPlatformer\n- Pardon My French Toast, ReRolled Studio (October 29)\n- HELENA : Cloud District, HELENA : Cloud District (October 29)\nPuzzle/adventure\n- Playable Archive, DarkStone Digital (October 26)\nRoguelike/lite\n- Sous Raccoon, Novice Flow (October 1)\n- Outcast Tales, Hardlane Studio (October 26)\n- Calculate It, SVGames (October 13)\nRPG\n- Scramble Knights Online, Funktronic Labs (October 26)\n- Ward Off Evil, Terminal Zero (October 21)\n- Stella Sora, YOSTAR HONG KONG LIMITED (October 20)\nSandbox\n- Cozy Builder, Pangea Game Studios (October 14)\nSimulation\n- Dystopian Pet Simulator, dinca.team (October 29)\n- Football Pitch Simulator, Incipient Day (October 22)\n- Soul Mates, Sad Panda Studios (October 21)\n- Folded Fables: Tidy Up The Dragon Hoard, Codename Entertainment Inc. (October 15)\n- The Lonely Hacker, The Lonely Developer (October 14)\n- Used Cars Simulator, Dreamway Games (October 9)\nSports & racing\n- Tape to Tape, Excellent Rectangle (October 23)\n- Footy Bash, Danger Thumbs (October 27 – early access)\n- Stream Racer, LUVI GAMES (October 14)\n- over the hill, Funselektor Labs, Inc. (October 14)\n- CPM 2, OGames (October 8 – early access)\n- Prophet Margin, Stellar Cartography Interactive UG (October 29)\n- Keng's Little Universe, Keng7 (October 16)\n- SPAM, Ticroco Entreprise (October 7)\n- Toy Shire, Bluespy Studios (October 6)\nSurvival\n- MEAT TRAIN, Kiwiforge, Timothy Vincent (October 21)",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Unity公布2026年10月Made with Unity游戏回顾",
+      "what": "Unity官方汇总2026年10月使用Unity开发的游戏动态：AGDA奖项中六款Unity游戏获奖，Unity赞助MIX Fall Showcase 2026，并列出当月发售或进入抢先体验的游戏清单，包括SULFUR、Mycopunk等。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "042bf5e173035acf",
+      "title": "Former Xbox COO Addresses Rumors About Leaving the Company",
+      "url": "https://80.lv/articles/former-xbox-coo-addresses-rumors-about-leaving-the-company/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "80.lv"
+      ],
+      "published": "2026-11-03T06:32:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Helen Chiang denied claims about a policy violation and leaks to the press in a LinkedIn post.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Former Xbox COO Addresses Rumors About Leaving the Company",
+          "url": "https://80.lv/articles/former-xbox-coo-addresses-rumors-about-leaving-the-company/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-11-03T06:32:00+00:00"
         }
       ],
       "score": 22,
@@ -464,20 +488,20 @@
           "value": 0
         }
       ],
-      "topic": "新游动态",
+      "topic": "开发动态",
       "is_analysis": false,
-      "age_hours": 5.4639634444444445,
+      "age_hours": 0.5657597763888889,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "",
-      "has_body": false,
+      "body": "Former Xbox COO Addresses Rumors About Leaving the Company\nHelen Chiang denied claims about a policy violation and leaks to the press in a LinkedIn post.\nBangla press / Shutterstock.com\nHelen Chiang, who left her role as Xbox Chief Operating Officer (COO) after three months, has addressed the rumors about her departure. In a LinkedIn post on November 2, she wrote that she wanted to \"set the record straight.\"\nChiang was appointed to the newly created position of Chief Operating Officer \"with end-to-end P&L responsibility across content, hardware, platform, and services\" in July. Before that, Chiang had worked at the company for 21 years and previously led Minecraft. At the end of October, only three months after stepping into the role, she unexpectedly left the company.\nIn the post titled \"Clarity is Kindness,\" she denied claims that she was fired for \"a policy violation,\" which appeared in some reports. She also stated that she did not leak confidential company information to the press. She wrote: \"I have never communicated with any journalist outside the limited, company-authorized interviews I've done as part of my job.\" According to Chiang, this included every journalist who reached out this week seeking her side of the story.\nShe said she did not engage in discrimination, bullying, harassment, insider trading, embezzlement, or other fraudulent activity. \"I stand by my record: both the results I delivered and the way I have treated people throughout my career.\"\nChiang didn't reveal the reason for her departure but clarified that she didn't leave Xbox to join a competitor or because she was passed over for a bigger role. \"You don't spend two decades somewhere without developing a deep loyalty to the people, teams, and businesses you've helped build. XBOX was never just another stop in my career,\" Chiang wrote. She also said she hasn't actively sought bigger roles or more responsibility, and the last time she interviewed for a job was in 2011.\nChiang thanked those who support her and explained that she wants to keep everything accurate:\n\"I share this because I don't want my departure reduced to an inaccurate story about incompetence, ambition for the next big job, or a Nelson-level scandal. My story is about staying true to your core values, especially when it is hard. That's the legacy I hope to leave behind.\"\nChiang closed the post with the following:\n\"This is not how I ever imagined my story here would end. And it is not the whole story.\"\nOverall, Chiang did not reveal why she left Xbox, but it rejected several claims about it.\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
+      "has_body": true,
       "body_truncated": false,
-      "title_cn": "《去月球》创作者公开免费作品《幻想私聊》",
-      "what": "高瞰公开免费作品《幻想私聊》，由可自由探索的场景组成，收录他与Freebird Games虚构角色跨越二十年的对话，内容涉及生活、游戏开发等，并展示一个未公开项目的像素美术风格。",
+      "title_cn": "前Xbox首席运营官回应离职传闻",
+      "what": "Helen Chiang在任职三个月后离开Xbox首席运营官职位，11月2日通过LinkedIn发文否认因违反政策被解雇、向媒体泄露机密、歧视骚扰、内幕交易等说法，但未说明离职原因。",
       "why": "",
       "for_you": "",
-      "degraded": "source_excerpt"
+      "degraded": null
     },
     {
       "source_id": "web-70e4da96dc",
@@ -485,9 +509,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "14a2be96d98baa88",
-      "title": "11月02日—11月08日共有24款游戏开测｜GameRes",
-      "url": "https://www.gameres.com/901203420.html",
+      "key": "8a541eebdd14b69c",
+      "title": "技嘉携手EDG打造电竞新地标，硬核硬件赋能专业电竞体验",
+      "url": "https://www.gameres.com/901203438.html",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -495,10 +519,10 @@
       "sources": [
         "GameRes"
       ],
-      "published": "2026-11-02T01:02:00+00:00",
+      "published": "2026-11-03T02:37:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "GameRes游资网统计，2026年11月2日至8日共24款游戏开测，含腾讯自研《异人之下》终测、B站发行《三国志：王道天下》删档计费测试等。",
+      "summary_raw": "技嘉携手EDG、绿树电竞打造国内首家EDG联名电竞馆广州旗舰店，搭载技嘉主板、显卡等高性能硬件，为玩家提供沉浸式专业电竞体验，未来将持续深耕电竞领域。",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -512,11 +536,11 @@
       },
       "members": [
         {
-          "title": "11月02日—11月08日共有24款游戏开测｜GameRes",
-          "url": "https://www.gameres.com/901203420.html",
+          "title": "技嘉携手EDG打造电竞新地标，硬核硬件赋能专业电竞体验",
+          "url": "https://www.gameres.com/901203438.html",
           "source": "GameRes",
           "lang": "zh",
-          "published": "2026-11-02T01:02:00+00:00"
+          "published": "2026-11-03T02:37:00+00:00"
         }
       ],
       "score": 22,
@@ -544,15 +568,405 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 5.763963444444444,
+      "age_hours": 4.482426443055555,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "GameRes游资网统计了2026年11月02日—11月08日的最新开测信息，共有24款游戏开测。以下是开测信息：\n11月04日\n腾讯游戏自研《异人之下》限量删档终测\n《异人之下》游戏是由腾讯魔方工作室群研发的3D格斗竞技新游，改编自现象级国漫IP《一人之下》。游戏以原著国漫故事为背景，将中国传统武学中变幻无穷的“动”，和传统哲学思想中的“静”相结合，打造出一款传统武学与文化相映生辉的中式格斗竞技游戏。\n11月05日\nbilibili游戏发行《三国志：王道天下》限量删档计费测试\n《三国志：王道天下》是由国人原创研发，哔哩哔哩游戏发行，光荣特库摩正版授权的沙盘策略新作，游戏在承袭经典三国志画风的基础上进行了3D焕新、从武将美术到地图风貌，均采用次世代立体建模呈现，力求为玩家带来更高质感的三国征战体验。\n游戏采用长线赛季制运营，不卖资源不卖VIP加速，在保留每个赛季策略乐趣的前提下，降肝减氪，绝不锁卡。\n在游戏中，你将扮演一名初入乱世的英豪，通过自身培养上阵杀敌，寻访探索招募人才、排兵布阵拓展城池等方式提升自身势力，并与其他玩家结成联盟，凝聚同盟情谊，以击败竞争者，最终夺取城战胜利，在乱世称雄。\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "body": "近日，国内首家与EDG战队联名的电竞馆——EDGX绿树电竞（广州旗舰店）正式亮相。作为集电竞酒店与电竞馆于一体的综合性电竞空间，门店深度融合电竞文化与专业硬件体验，为广大电竞爱好者打造沉浸式电竞娱乐新场景。技嘉作为核心硬件合作品牌之一，以高性能硬件配置为电竞体验提供坚实支撑，助力玩家畅享更具沉浸感与竞技感的游戏体验。\n在整机配置方面，其采用AMD锐龙9 9850X3D、锐龙7 9700X处理器搭配技嘉主板与显卡，为不同需求的玩家提供高性能电竞平台。其中，技嘉B850M主板为整机运行与平台性能释放提供坚实基础；显卡则搭载技嘉GeForce RTX 5080及GeForce RTX 5070，兼顾高端游戏性能与多元化玩家需求，助力游戏画面细节呈现与流畅运行。配合技嘉电源及AORUS、GIGABYTE GAMING系列电竞显示器，整套硬件从核心运算、图形处理到画面输出形成完整配置方案，充分体现技嘉在电竞硬件领域的产品布局与整机协同优势，为玩家畅玩各类电竞游戏提供有力支持。\n电竞产业的持续发展，离不开专业硬件与电竞文化的深度融合。此次携手EDG&绿树电竞打造线下联名场馆，是技嘉深耕电竞场景、贴近年轻玩家的重要实践。未来，技嘉将持续深耕电竞硬件领域，以创新技术与高品质产品赋能电竞体验，积极支持电竞产业生态建设，与广大玩家共同推动电竞事业发展。\n登录 后参与讨论\n暂无评论，来抢沙发",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "GameRes统计11月2日至8日共24款游戏开测",
-      "what": "GameRes游资网统计2026年11月2日至8日共有24款游戏开测，文中列出部分开测信息：11月4日腾讯魔方工作室群研发的3D格斗竞技游戏《异人之下》限量删档终测；11月5日哔哩哔哩游戏发行的沙盘策略游戏《三国志：王道天下》限量删档计费测试。",
+      "title_cn": "技嘉与EDG联名电竞馆在广州开业，采用锐龙与RTX整机配置",
+      "what": "技嘉与EDG、绿树电竞合作的联名电竞馆EDGX绿树电竞广州旗舰店开业，集电竞酒店与电竞馆于一体。整机采用AMD锐龙9 9850X3D、锐龙7 9700X处理器，搭配技嘉B850M主板、RTX 5080及5070显卡、电源和AORUS、GIGABYTE GAMING显示器。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-15489e2ed4",
+      "source_url": "https://www.gamesindustry.biz/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "170c743c3508f14e",
+      "title": "Saudi-backed Kingdom of Gaming event delayed to 2027",
+      "url": "https://www.gamesindustry.biz/saudi-backed-kingdom-of-gaming-event-delayed-to-2027",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GamesIndustry"
+      ],
+      "published": "2026-11-02T21:46:06+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Kingdom of Gaming, a new Saudi government-backed games industry event, has been pushed back from December to an unspecified date in 2027.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Saudi-backed Kingdom of Gaming event delayed to 2027",
+          "url": "https://www.gamesindustry.biz/saudi-backed-kingdom-of-gaming-event-delayed-to-2027",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-11-02T21:46:06+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 9.33075977638889,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Saudi-backed Kingdom of Gaming event delayed to 2027\nNo official announcement has been made, but the event's website now says \"Coming in 2027\"\nKingdom of Gaming, a new Saudi government-backed games industry event, has been pushed back from December to an unspecified date in 2027.\nAs first reported by ReaderGrev, the event's website and social accounts were quietly updated last week to read \"Coming in 2027,\" replacing its original December 1-3 dates in Riyadh.\nNo public announcement or explanation has been made. The closest thing to an official acknowledgement came from Benjamin Kratsch, chief business development officer at Saudi government-linked venture builder Levelz Gaming Group.\n\"Kingdom of Gaming is coming,\" Kratsch wrote on LinkedIn on October 28. \"It takes a little longer, given the current situation.\"\nKingdom of Gaming is organized by Tahaluf, a joint venture between Informa, which runs GDC, and the Saudi Federation for Cybersecurity, Programming and Drones. The event had promised more than 20,000 attendees, 500 studios, and 200 investors, with companies including Ubisoft and Roblox on its line-up.\nAccording to ReaderGrev, neither Informa nor Tahaluf responded to requests for comment, but in a trading update on October 27, Informa said escalating disruption in Saudi Arabia had forced it to reschedule further events. These include its Cityscape Global show, which has moved to January 2027, and the in-person Global Health Exhibition, now pushed to October 2027. Informa now assumes it will make no further revenue in Saudi Arabia this year.\nThe delay comes amid the wider regional conflict following the US and Israel's war with Iran, which has seen Houthi attacks on Saudi Arabia escalate in recent weeks, including strikes on Riyadh's King Khalid International Airport.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "沙特支持的Kingdom of Gaming游戏展延期至2027年",
+      "what": "沙特政府支持的Kingdom of Gaming游戏产业活动原定12月1日至3日在利雅得举行，官网和社交账号已改为“2027年到来”，主办方未发布正式公告。主办方Tahaluf为Informa与沙特网络安全、编程和无人机联合会的合资企业。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-15489e2ed4",
+      "source_url": "https://www.gamesindustry.biz/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "4b4f6bcd0939f58f",
+      "title": "CI Games secures $32 million loan to finish and self-publish Lords of the Fallen 2",
+      "url": "https://www.gamesindustry.biz/ci-games-secures-32-million-loan-to-finish-and-self-publish-lords-of-the-fallen-2",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GamesIndustry"
+      ],
+      "published": "2026-11-02T21:28:03+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "CI Games has signed a $32 million (€28.6 million) syndicated credit facility to fund the completion and launch of Lords of the Fallen II.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "CI Games secures $32 million loan to finish and self-publish Lords of the Fallen 2",
+          "url": "https://www.gamesindustry.biz/ci-games-secures-32-million-loan-to-finish-and-self-publish-lords-of-the-fallen-2",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-11-02T21:28:03+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 9.631593109722223,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "CI Games secures $32 million loan to finish and self-publish Lords of the Fallen 2\nThe bank deal follows the end of CI Games' PC publishing agreement with Epic Games earlier this year\nCI Games has signed a $32 million (€28.6 million) syndicated credit facility to fund the completion and launch of Lords of the Fallen II.\nThe loan, arranged with Polish lenders Erste Bank Polska and Bank Ochrony Środowiska, will cover the soulslike sequel's remaining production costs, as well as a global marketing campaign and launch, the company announced on October 30. It will also refinance all of the group's existing bank debt.\nPolish export credit agency KUKE is guaranteeing 80% of the facility, which matures in August 2027. CI Games expects to repay it primarily from sales of Lords of the Fallen II, which is now planned for release in the first quarter of 2027. The studio said it will announce an exact date in December.\n\"We have secured full financing for the launch of Lords of the Fallen II without issuing new shares,\" said Marek Tymiński, CEO and president of CI Games' management board. \"That matters for our shareholders, who keep their full participation in the game's potential success.\"\nTymiński, who is also CI Games' largest shareholder, has committed to keeping his entire stake for the duration of the financing. \"I know how much potential Lords of the Fallen II has,\" he said.\nThe deal comes months after CI Games ended its publishing agreement with Epic Games, which would have made Epic the game's PC publisher and kept it exclusive to the Epic Games Store on PC. The termination took effect on April 14, but CI Games didn't disclose it for more than a month, and it has not given a reason for the split. CI Games said the move would not affect its other work with Epic, including its use of Unreal Engine.\nWith the Epic deal gone, CI Games is now self-publishing the game, which, as GamesBeat notes, means it won't need to share revenue with an outside publisher. Lords of the Fallen II is expected to launch on PC, PlayStation 5, and Xbox Series X/S.\nPolish developer CI Games revealed back in 2023 that Lords of the Fallen was its most expensive project to date, with total costs of $66.2 million.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "CI Games获3200万美元贷款，自主发行《堕落之主2》",
+      "what": "CI Games与波兰两家银行签署3200万美元银团贷款，用于完成《堕落之主2》剩余制作、全球营销与发行，并偿还现有银行债务。贷款由KUKE担保80%，2027年8月到期，主要靠游戏销售偿还；游戏计划2027年第一季度发售，具体日期12月公布。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-15489e2ed4",
+      "source_url": "https://www.gamesindustry.biz/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "87376faef6478255",
+      "title": "Astragon closes Independent Arts successor studio Astragon Development",
+      "url": "https://www.gamesindustry.biz/astragon-closes-independent-arts-successor-studio-astragon-development",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GamesIndustry"
+      ],
+      "published": "2026-11-02T19:34:05+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Simulation publisher Astragon Entertainment is closing Astragon Development, the German studio previously known as Independent Arts Software.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Astragon closes Independent Arts successor studio Astragon Development",
+          "url": "https://www.gamesindustry.biz/astragon-closes-independent-arts-successor-studio-astragon-development",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-11-02T19:34:05+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 11.531037554166668,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Astragon closes Independent Arts successor studio Astragon Development\nMore than 40 staff are affected at the German studio, which worked on over 250 games in three decades\nSimulation publisher Astragon Entertainment is closing Astragon Development, the German studio previously known as Independent Arts Software.\nAccording to GamesMarket, more than 40 employees are affected, and the company is now seeking \"socially responsible solutions\" for them. The closure is part of what the publication described as a strategic realignment.\nFounded in Hamm in 1990 by Holger Kuchling, Independent Arts worked on more than 250 games over three decades. It was best known for ports and co-development work for publishers including Kalypso Media, Daedalic Entertainment, and Wild River Games.\nTeam17, now known as Everplay Group, acquired Astragon in 2022, and Astragon in turn acquired Independent Arts Software in April 2023 for up to $3.9 million (€3.5m), with plans to bring development of its working simulation games in-house and expand its portfolio across more platforms. Kuchling left the company in February 2025, and the studio was renamed Astragon Development three months later.\nThe closure is the latest in a series of cutbacks at Astragon. In January, the publisher pulled out of physical distribution entirely to focus on publishing.\nIt also follows the full release of Seafarer: The Ship Sim at the end of September. The game received more than $2 million (€1.8m) in German federal funding, but GamesMarket reported that its 1.0 launch drew far fewer players than its early access debut, and user reviews were \"Mixed.\" Astragon has said it will continue updating the game for now.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Astragon关闭前Independent Arts工作室Astragon Development",
+      "what": "模拟游戏发行商Astragon Entertainment关闭德国工作室Astragon Development（前身为Independent Arts Software），逾40名员工受影响，公司称正为其寻找社会责任方案。该工作室1990年成立，三十年间参与超250款游戏，2023年被Astragon收购。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-b8285cb6e3",
+      "source_url": "https://www.gamedeveloper.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "e0e9f31953b78b99",
+      "title": "The number of game pages doubles on Itch.io as AI games flood the store",
+      "url": "https://www.gamedeveloper.com/pc/number-of-game-pages-doubles-on-itch-io-as-ai-clones-flood-the-store",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "Game Developer"
+      ],
+      "published": "2026-11-02T18:30:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "The indie video game store that prides itself as an open marketplace is being deluged by game pages, doubling the usual number without a proportional increase in sales.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "The number of game pages doubles on Itch.io as AI games flood the store",
+          "url": "https://www.gamedeveloper.com/pc/number-of-game-pages-doubles-on-itch-io-as-ai-clones-flood-the-store",
+          "source": "Game Developer",
+          "lang": "en",
+          "published": "2026-11-02T18:30:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "行业动态",
+      "is_analysis": false,
+      "age_hours": 12.599093109722222,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "The number of game pages doubles on Itch.io as AI games flood the store\nThe indie video game store that prides itself as an open marketplace is being deluged by game pages, doubling the usual number without a proportional increase in sales.\nItch.io, a small independent game distribution store that allows any and all game creators to sell their games, reports that the number of store pages for games has doubled per-day in the past two months. In a post on Bluesky, a site representative implied this unprecedented rise is due to to generative AI's effects on game development, but points out that the increase in the number of pages has not resulted in a commensurate rise in sales or revenue.\nThe Bluesky post post reads \"The number of game pages being created per-day has doubled in the past 2 months,\" accompanied by an image of a chart that shows a raise from 3,000 pages created on a given day around August to nearly 8,000 pages in October. While the Itch.io post does not directly say that this is because of generative AI, multiple replies to the post from other users ask if that is the case, and the Itch.io account responds with either tired emojis or robots.\nA further reply also clarifies that \"the number of downloads and purchases has *not* doubled,\" indicating that the higher number of game pages doesn't seem to be benefitting the store or developers in any significant way.\nBrowsing Itch.io's page of newest games, which shows games in the latest order they have been added, one can observe numerous thumbnails made using generative AI. Filtering using the \"No AI\" button removes entire pages from the store listings, going from 1,772,099 results down to 432,180 results. The AI disclosure tag is applied when a creator adds a game page, asking if the game contains any generative AI in the assets, but does not require the question to be answered for a page to be created.\nIn the Itch.io content creator quality guidelines, the section on generative AI includes a plea for truthful disclosure. \"We ask that you accurately tag your project if it contains materials produced by generative AI by utilizing the AI Disclosure section on your project’s edit page.\" The overall guidelines page does say that failure to adhere to the guidelines could result in a page being removed, but it is unclear what the processes are for a game being removed for containing generative AI without reporting it.\nItch.io isn't the only video game storefront to see a rise in dashed-off AI games. In response to the flood of AI copies on its own store, Valve has asked developers on Steam to make their games \"less likely to be copied\" and to encourage developers to stand out by using Steam's community features to their fullest extent.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Itch.io每日新增游戏页面两个月内翻倍，销量未同步增长",
+      "what": "Itch.io代表称，过去两个月平台每日新增游戏页面数从约3000增至近8000，但下载和购买量并未翻倍。文章提到平台AI披露标签非强制填写，并用“No AI”筛选对比结果数量，还提及Steam对AI复制游戏的回应。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-b8285cb6e3",
+      "source_url": "https://www.gamedeveloper.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "a9ffc01d60866314",
+      "title": "Zelda producer: Ocarina of Time remake helps junior staff learn classic insights",
+      "url": "https://www.gamedeveloper.com/production/zelda-producer-ocarina-of-time-remake-helps-junior-staff-learn-classic-insights",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "Game Developer"
+      ],
+      "published": "2026-11-02T16:33:26+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "The latest The Legend of Zelda title remakes one of the series' most beloved games, which Eiji Aonuma chose to pursue to help junior staff think about the modern games differently.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Zelda producer: Ocarina of Time remake helps junior staff learn classic insights",
+          "url": "https://www.gamedeveloper.com/production/zelda-producer-ocarina-of-time-remake-helps-junior-staff-learn-classic-insights",
+          "source": "Game Developer",
+          "lang": "en",
+          "published": "2026-11-02T16:33:26+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 14.5418708875,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Zelda producer: Ocarina of Time remake helps junior staff learn classic insights\nThe latest The Legend of Zelda title remakes one of the series' most beloved games, which Eiji Aonuma chose to pursue to help junior staff think about the modern games differently.\nThree decades after it was released, The Legend of Zelda: Ocarina of Time is still considered by many to be one of the best video games of all time, and series producer Eiji Aonuma—who worked on the original as the dungeon designer and game planner—wants to make sure the lessons of that game's development are not lost on the modern Zelda developers. In an interview as part of Nintendo's internal \"Ask the Developer\" series, Aonuma explains that one of the reasons the upcoming Ocarina of Time remake was conceived was so the current Zelda team that didn't work on the original game could understand its lessons and use them as inspiration for upcoming games.\n\"This year marks the 40th anniversary of the very first Legend of Zelda game,\" Aonuma answers when asked about the inspiration for the modern remake even after the game was remade on Nintendo 3DS. \"With that in mind, I was thinking about what I should create as the producer of the series. Many of the team members who work alongside me on Legend of Zelda games today have only experienced developing the more recent titles. That led me to wonder, 'do they truly understand just how significant The Legend of Zelda: Ocarina of Time was to the series as a whole?' Of course, there are team members who vaguely know the game, and those who played it in their childhood days.\n\"But I started to wonder how they'd interpret The Legend of Zelda: Ocarina of Time as they go about developing future Legend of Zelda games. By learning the game structure and development style behind the original The Legend of Zelda: Ocarina of Time, and by actually rebuilding it as a full remake, it may trigger new insights that they can carry forward into future development. If we could achieve that, I thought it would be incredibly valuable. That’s what led us to the conclusion that now is the right time to revisit The Legend of Zelda: Ocarina of Time once again.\"\nThe recent Legend of Zelda titles have veered away from Ocarina of Time's formula of visiting dungeons in a linear path and collecting principal items from each one, which may be more accurately described as the core Legend of Zelda formula up to that point, for what Aonuma has termed as \"open-air\" exploration seen in Breath of the Wild and Tears of the Kingdom. In the interview, several developers on the Switch 2 Ocarina of Time remake admit to not having played the original until the last few years, indicating that Aonuma's plans to familiarize junior staff with the lessons of the 1998 classic were not misguided.\n\"In The Legend of Zelda: Ocarina of Time, part of the fun comes from progressing through a carefully paced adventure and story, gradually building up the player’s growth and their understanding of the narrative along the way,\" Aonuma says later. \"We wanted players who had grown accustomed to Legend of Zelda games like Breath of the Wild, where they can freely choose their own path from the start, to experience that kind of gameplay as well.\"\nRead more about:",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "青沼英二：重制《时之笛》助年轻员工理解经典设计",
+      "what": "青沼英二在任天堂开发者访谈中表示，重制《塞尔达传说：时之笛》的原因之一是让未参与原作的年轻团队成员通过实际重建，理解原作的游戏结构与开发方式，并思考如何用于未来作品。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -563,9 +977,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "42c810e282c81978",
-      "title": "You Can Now Play The Mortuary Assistant Dev's Canceled Paranormal Activity Game For Free",
-      "url": "https://80.lv/articles/you-can-now-play-the-mortuary-assistant-dev-s-canceled-paranormal-activity-game-for-free/",
+      "key": "ca21fbb4f8a7a9b2",
+      "title": "Free Affinity App For iPad Now Available",
+      "url": "https://80.lv/articles/free-affinity-app-for-ipad-now-available/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -573,10 +987,10 @@
       "sources": [
         "80.lv"
       ],
-      "published": "2026-10-30T15:53:00+00:00",
+      "published": "2026-11-02T16:13:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "The next P.T. might have just arrived.",
+      "summary_raw": "You can design, edit photos, create page layouts, and even sketch on the go, all in the same file.",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "development",
@@ -590,14 +1004,14 @@
       },
       "members": [
         {
-          "title": "You Can Now Play The Mortuary Assistant Dev's Canceled Paranormal Activity Game For Free",
-          "url": "https://80.lv/articles/you-can-now-play-the-mortuary-assistant-dev-s-canceled-paranormal-activity-game-for-free/",
+          "title": "Free Affinity App For iPad Now Available",
+          "url": "https://80.lv/articles/free-affinity-app-for-ipad-now-available/",
           "source": "80.lv",
           "lang": "en",
-          "published": "2026-10-30T15:53:00+00:00"
+          "published": "2026-11-02T16:13:00+00:00"
         }
       ],
-      "score": 17,
+      "score": 22,
       "score_parts": [
         {
           "label": "来源",
@@ -609,7 +1023,7 @@
         },
         {
           "label": "近期",
-          "value": 5
+          "value": 10
         },
         {
           "label": "分析与方法",
@@ -622,42 +1036,42 @@
       ],
       "topic": "开发动态",
       "is_analysis": false,
-      "age_hours": 62.91396344444445,
+      "age_hours": 14.882426443055556,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "You Can Now Play The Mortuary Assistant Dev's Canceled Paranormal Activity Game For Free\nThe next P.T. might have just arrived.\nIn case you missed it\nIn case you missed it\nOver the past couple of years, solo indie horror developer Brian Clarke, better known as DarkStone Digital, worked alongside Paramount on a Paranormal Activity game, which could've been the franchise's first proper video game adaptation in nearly two decades. However, the project was abruptly canceled this May after Paramount rejected DarkStone Digital and publisher DreadXP's request for additional development time.\nFortunately, that wasn't the end of this game's story. Clarke has now launched Playable Archive, a reworked version of the canceled Paranormal Activity: Threshold that, of course, removes all references to the Paranormal Activity franchise. The title is very reminiscent of Hideo Kojima's canceled Silent Hills project, P.T. (short for \"Playable Teaser\"), a free game released in 2014 before being delisted from the PlayStation Store in 2015 after the project was canceled.\nPlayable Archive is only about 30-60 minutes long and has no save system, so you'll have to complete it in one sitting. It's designed in a found-footage horror style and follows a classic horror premise: a young couple simply looking to renovate their home discover a strange object, only to pay the price for tampering with it.\nPlayable Archive\nPlayable Archive\nPlayable Archive\n\"It's been a long time since I've released something new, and those following my work know that the project I had been working on for the past few years, set to be my next major title, was canceled. After putting so much of myself into it and a wonderful reception at PAX earlier this year, I have to admit, I was feeling burnt out, and I imagined the project would simply sit on a shelf forever. A forgotten relic of development that sat in darkness while I built up a plan for a new project.\nHowever, recently DreadXP reached out to me and floated the idea of maybe releasing what I had. It felt like a good way of laying the project to rest instead of remaining a lingering ghost. So, I worked to adjust the project where needed and polished up the edges to release the work I had done. I'm sad to say that a good deal of work was still left on the cutting room floor, but I'm proud of what I am able to share and that it is going to see the light of day in some form. Today, I am so happy to shadow-drop Playable Archive in time for Halloween for FREE!\"\nGive Playable Archive a try here.\nKojima's upcoming horror game, OD, is widely regarded as a spiritual successor to P.T., and, just like his other upcoming project, PHYSINT, described as a spiritual successor to Metal Gear Solid, it has recently moved from PlayStation to Xbox.\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
+      "body": "Free Affinity App For iPad Now Available\nYou can design, edit photos, create page layouts, and even sketch on the go, all in the same file.\nExactly one year ago, Canva relaunched the Affinity suite as a free, unified creative app that brought together professional tools for graphic design, photo editing, and desktop publishing. Now, the app is also free on iPad, combining the features of the three previous iPad apps: Affinity Photo, Affinity Designer, and Affinity Publisher.\nThe iPad version features Pixel, Vector, and Layout studios, along with a new Sketch studio, all wrapped in an interface designed specifically for the tablet. Affinity uses its own .af file format but also supports a wide range of other formats, including JPEG, PNG, WebP, PDF, SVG, EPUB, and INDD. You can work with the same files across mobile and PC, and while some desktop features are missing at launch, the Affinity team plans to bring them over through future updates, free as well. All currently available features are free to use: the only exception is Canva's AI tools, which follow the same separate access model as on the desktop version.\nThe new Sketch Studio is an interesting addition, putting Affinity in direct competition with apps like Procreate. It brings dedicated freehand drawing tools, including more than 350 editable brushes that respond to Apple Pencil pressure, tilt, and barrel roll.\nThe team has also put together a series of YouTube tutorials covering the basics to help you get started:\nTo use Affinity on iPad, you'll need a device running iPadOS 18 or later. You can find the full list of supported iPad models here. Read more about the iPad version, its features, and how everything works.\nDownload Affinity for iPad and don't forget to subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nKeep reading\nYou may find these articles interesting",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "《殡葬助理》开发者取消的《灵动：鬼影实录》游戏现可免费游玩",
-      "what": "DarkStone Digital 将此前被取消的《灵动：鬼影实录》改编游戏重制为免费作品《Playable Archive》，移除该系列相关引用，时长约30至60分钟，无存档系统，采用伪纪录片恐怖风格。",
+      "title_cn": "Affinity iPad版免费上线，整合设计、修图与排版功能",
+      "what": "Canva将Affinity套件以免费统一应用形式带到iPad，整合原Affinity Photo、Designer、Publisher三款应用的功能，新增Sketch工作室，含350多支可编辑画笔，支持Apple Pencil压感、倾斜与笔杆旋转。应用使用自有.af格式，也支持JPEG、PNG、PDF、SVG等格式，需iPadOS 18及以上。",
       "why": "",
       "for_you": "",
       "degraded": null
     },
     {
-      "source_id": "web-9667abeb70",
-      "source_url": "https://80.lv/feed",
+      "source_id": "web-68554a31d0",
+      "source_url": "https://www.chuapp.com/feed",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "2f43cf897fc80e14",
-      "title": "Sculpting & Texturing a Semi-Realistic Lobo Bust with ZBrush & Substance 3D",
-      "url": "https://80.lv/articles/sculpting-texturing-a-semi-realistic-lobo-bust-with-zbrush-substance-3d/",
-      "lang": "en",
+      "key": "47ff0a5dcb6e9eea",
+      "title": "AI冲击下，美术外包之城正在两极分化",
+      "url": "http://www.chuapp.com/article/291728.html",
+      "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "80.lv"
+        "触乐"
       ],
-      "published": "2026-10-30T14:47:00+00:00",
+      "published": "2026-11-02T10:39:46+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Eric Liu showed his process of creating a semi-realistic version of DC's antihero Lobo, from sculpting in ZBrush to texturing in Substance 3D Painter and lighting in Marmoset Toolbag.",
+      "summary_raw": "美术外包商务派某发现，从2026年开始，厂商的外包订单明确提及可以使用AI了。 他记得，2021年的时候，厂商还在严格禁止使用AI，当时游戏厂商会着重强调“不准使用AI”。到了2025年，厂商在提需求的时候就已经会附加一句：“如果用了AI，请不要直接交付AI生成结果，必须手绘一遍。”再到2026年，国内的游戏厂商美术外包需求已能直接使用AI对接。随之而来的是工期缩短。今年，有熟悉的美术采购人员找到他，希望订单工期能够直接折半。 派某目前在成都一家百人规模的美术供应商工作。这是他入行的第四个年头。 在游戏行业中，成都被称为“美术外包之城”。2005年，天府软件园启用。腾讯西进，随后完美世界与育碧相继入驻。2006年，成都将数字娱乐产业规划为支柱产业，鼓励原创与外包共同发展。如今，从金融城到天府五街再一路往南，开发团队与美术供应商彼此合围。其中，头部美术供应团队有夏尔、维塔士、原力动画等，它们与海外及国内的头部厂商之间拥有长期合作关系。 《成都市人民政府办公厅关于印发〈成都市数字新媒体产业发展规划（2010－2012）〉的通知》 但AI来了。在AI冲击下，部分成都美术供应商发现自己有断粮的风险。商务李言在前几年便离开了老东家，原因是薪资减少、社保断缴。2022年，AI刚出现时，他所在的公司订单数大量减少，尽管这种境况在2025年前后有所缓解，但订单量仍不如从前。有些时候，他只能吃底薪。",
       "rss_content": "",
       "content_kind": "article_body",
-      "category": "development",
+      "category": "games",
       "pool": "main",
       "signals": {
         "hn_points": 0,
@@ -668,14 +1082,14 @@
       },
       "members": [
         {
-          "title": "Sculpting & Texturing a Semi-Realistic Lobo Bust with ZBrush & Substance 3D",
-          "url": "https://80.lv/articles/sculpting-texturing-a-semi-realistic-lobo-bust-with-zbrush-substance-3d/",
-          "source": "80.lv",
-          "lang": "en",
-          "published": "2026-10-30T14:47:00+00:00"
+          "title": "AI冲击下，美术外包之城正在两极分化",
+          "url": "http://www.chuapp.com/article/291728.html",
+          "source": "触乐",
+          "lang": "zh",
+          "published": "2026-11-02T10:39:46+00:00"
         }
       ],
-      "score": 17,
+      "score": 22,
       "score_parts": [
         {
           "label": "来源",
@@ -687,7 +1101,7 @@
         },
         {
           "label": "近期",
-          "value": 5
+          "value": 10
         },
         {
           "label": "分析与方法",
@@ -698,19 +1112,19 @@
           "value": 0
         }
       ],
-      "topic": "开发动态",
+      "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 64.01396344444444,
+      "age_hours": 20.436315331944446,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "Sculpting & Texturing a Semi-Realistic Lobo Bust with ZBrush & Substance 3D\nEric Liu showed his process of creating a semi-realistic version of DC's antihero Lobo, from sculpting in ZBrush to texturing in Substance 3D Painter and lighting in Marmoset Toolbag.\nIntroduction\nHi everyone, my name is Eric Liu (AKA Qi Liu). It's a pleasure to be interviewed by 80 Level again. I'm a Character Artist from China, and I've been working in the game industry for more than 10 years. I've contributed to several commercial art outsourcing projects, including Marvel Rivals and Path of Exile. I specialize in 3D asset creation, using Maya, ZBrush, and Substance 3D Painter to model and texture game assets.\nProject Inspiration\nI created the Lobo project because I am a fan of Marvel and DC Comics and Ben Oliver's work, especially his DC heroes. So I decided to make a hero bust with badass vibes.\nSculpting Workflow\nTo prepare for the project, I first gathered multiple references online. For a personal project, I prefer to start with a sphere, as it helps build muscle memory through repetitive practice. I had the whole process of the blockout recorded:\nFor the eyes, I simply placed two spheres as eyeballs; for the gum, I masked that area of the mouth and extracted it. The clothing was created with a similar method, and the teeth started as a cylindrical base that I tweaked a bit.\nOnce the form was done, I ZRemeshed it several times and reduced the polycount to make it easier to fix and tidy the edge flow for later use in the pipeline.\nTopology & UV\nFor the head topology, I used the base mesh from ZWrap and projected all the detail from the head blockout onto the base.\nFor the jacket and T-shirt, I took the re-meshed base and fixed the edge flow in ZModeler.\nI normally use Maya for UV work, as I am used to doing UVs the old-fashioned way.\nPreparation for Texturing\nFor texturing, I got all the maps baked for each UV Set in Marmoset Toolbag (the maps you need to bake before texturing are curvature, cavity, convexity, AO, position, normal, and world normal maps). Once all the maps were well baked, I imported them into Substance 3D Painter.\nTexturing Face\nAfter getting all the maps set up and ready, I built up a couple of layers as a basic grayscale. The first layer is a solid color layer; I set the value to 0.5 gray. The second one is an AO layer; the gray value I gave it is 0.23, and then I changed the blending mode to Multiply. The third one is a light layer; the gray value is set to 1, and the blending mode is Overlay.\nOnce the basic grayscale was ready, I created a painting layer on top of it and added a filter called Gradient so that I would be able to give it some basic color. You can also adjust the color position to make the contrast stronger or weaker based on your own adjustment.\nAfter I finished the basic color, I added multiple fill layers above it: some purplish color around the nose, some greenish color around the jaw and chin areas; I also added some yellowish color on the forehead and cheek areas.\nGarment Texturing\nI used the same method I employed to make the face texture for the basic grayscale and solid color part. Additionally, I manually added some dirt, damage, and scratches on the jacket by using alpha strokes.\nThe challenging part of texturing was that I didn't do much damage and scratching on the high-poly model, which meant there weren’t enough details on the jacket, so I had to make some of them in Substance 3D Painter. I just manually painted some of the areas for the damage and scratches, then gave a negative value in the height channel; after that, I hand-painted some shadows on them so it would give some fake depth to all the damage and scratches.\nRendering\nI used Marmoset Toolbag for rendering. Once I was halfway through texturing, I put the model into Marmoset and started the lighting setup.\nI used one spotlight as a key light because it can give a nice, smooth light transition on the model by adjusting the values of spot angles and spot sharpness. I used a directional light as a fill light to brighten up the dark side, and then I added a reddish color to it to give the character a dangerous, badass vibe. There were also two rim lights behind the character; I used them to bring out the silhouette.\nFor tone mapping, I normally set it to Hejl because it delivers strong contrast with soft highlight roll-off and rich, stable colors. I set the clarity value to 1 so it would enhance the details. I also tweaked the curve editor slightly to strengthen the contrast.\nConclusion\nThe main challenge was creating a truly badass character in a semi-realistic style. Since I had no solid concepts for my character, I had to test multiple expressions based on the references I gathered.\nThe advice that I would give to beginners is to start something small and finish it; don’t make a full character right away. Start with a simple prop or bust, finish it, and learn from the process.\nTry a bit of everything early on – modeling, texturing, and rigging – then dive deeper into what you like most.",
+      "body": "“要么加入，要么被淘汰。”\n美术外包商务派某发现，从2026年开始，厂商的外包订单明确提及可以使用AI了。\n他记得，2021年的时候，厂商还在严格禁止使用AI，当时游戏厂商会着重强调“不准使用AI”。到了2025年，厂商在提需求的时候就已经会附加一句：“如果用了AI，请不要直接交付AI生成结果，必须手绘一遍。”再到2026年，国内的游戏厂商美术外包需求已能直接使用AI对接。随之而来的是工期缩短。今年，有熟悉的美术采购人员找到他，希望订单工期能够直接折半。\n派某目前在成都一家百人规模的美术供应商工作。这是他入行的第四个年头。\n在游戏行业中，成都被称为“美术外包之城”。2005年，天府软件园启用。腾讯西进，随后完美世界与育碧相继入驻。2006年，成都将数字娱乐产业规划为支柱产业，鼓励原创与外包共同发展。如今，从金融城到天府五街再一路往南，开发团队与美术供应商彼此合围。其中，头部美术供应团队有夏尔、维塔士、原力动画等，它们与海外及国内的头部厂商之间拥有长期合作关系。\n但AI来了。在AI冲击下，部分成都美术供应商发现自己有断粮的风险。商务李言在前几年便离开了老东家，原因是薪资减少、社保断缴。2022年，AI刚出现时，他所在的公司订单数大量减少，尽管这种境况在2025年前后有所缓解，但订单量仍不如从前。有些时候，他只能吃底薪。\n以前以量产、价低为优势的团队，正面临新的挑战。当上游的厂商将AI加入美术资产生产工作流之后，处于下游的美术供应商现在只有两种选择：“要么加入，要么被淘汰。”\n美术外包从业者在聊到工作时，时常会提起一个词语，“人天”。\n“人天”的意思是“一个人一天的工作量”，在外包工作中，这个词在不同的语境下有不同的用法。在公司内部，人天是用来考核员工的KPI，一个员工一个月要完成不少于多少人天的工作。在商务情境下，人天是美术负责人、商务和游戏厂商协商讨论的工期和价格。\n当需求来临时，外包人员会评估需求的工期，比如，做一张图需要5个人天。厂商可以还价，要求按2个人天来计算费用。经过一番拉扯，最后，这张图的价格被定为3个人天。2024年，一张二次元风格的2D原画卡面人天单价在1000元，但按初级从业者每月固定薪资折算，实际人天单价薪资在150元到300元。\n问题在于，虽然某项工作的计价标准是3人天，但实际工作中，完成这张图却需要一个人切实地工作5天，甚至更多——也就是说，一个外包员工工作了5个工作日，最后却只能按照3个工作日的标准收钱。绩效的计算也是一样，一个外包从业者可能每天疯狂加班，一个月却只能完成15个人天，因为那几个工单的标准加起来只有15个人天。\n喵喵记得，在第一家美术外包公司中，她要完成每月规定的人天就比较困难。\n2020年，喵喵刚毕业，游戏行业蓬勃发展，她不懂外包与研发的区别，觉得游戏原画都差不多，盲选了成都一家较大的美术外包公司做2D人物原画。她曾看过北上广深的岗位，选择成都的原因很简单，职位标注有“双休”。\n但从喵喵入职后的第一天起，她就开始加班。\n“项目难度高，自己画得慢，画的东西还总是不过关。”来到工位第一眼，她看见同事们正在画的图，感叹大家都很厉害，自己也很有压力。\n作为成都规模较大的美术外包团队，喵喵所在的公司当时服务的客户包含国内行业多数头部厂商，也有独立游戏团队。根据作品集风格，喵喵被分配至某个小组，主要服务二次元游戏产品。\n一切都非常“工业化”，所有的工序早已有成熟的工作流程。组长拿到人物立绘需求后，会依据草图、线稿、细化和三视图等流程继续拆分，再根据组员的排期、能力和风格分配。一般来说，组长很少会让一个人负责角色的全流程工作。喵喵会同时跟进来自不同项目的线稿、三视图流程。\n在试用期和初级画师阶段，喵喵尚且能够完成每月KPI；而在晋升至中级后，“人天”数就逼近了一个月工作日的上限。“不合理的地方在于，你知道一个月就那么点工作日。”\n很多时候，他们无法预知下一个单子的难易程度。如果客户正好在细化环节提出修改整个方向，负责细化的人就需要返回至设计环节微调。有次，她曾与客户周旋了近1个月。经无数次修改后，公司最终仅给她增补不到两人天。\n“这里都是以0.5人天为单位来增加的，增加1个人天已经算慷慨的了。”\n3D建模师小虾也经历过这类糟心事。他在成都另一家美术供应商工作，去年，他接到了国外项目一批低模急单。要求很严格，单一物件的报价只有10人天，但小虾后来核算：“每天工作10小时，通过加班也得3周才能做完一个物件。”\n在这个项目中，小虾做了一段时间，因连续好几个月KPI没有达标，最终被降薪。\n小虾回忆，原本他是从动画行业逃到游戏行业的，经过一年的美术培训才来到成都工作。第一份找到的美术外包工作只有2000元底薪，要求“9点到岗，晚上10点才能走”。他待了一个月便逃到了现在这家公司，早期压力同样很大。待了四年后，在他看来，加班至晚上8、9点已经算是“比较健康”，自己每月也能基本完成人天。\n但降薪让他很烦闷，“钱少还辛苦”，他越来越觉得这是一份没有归属感的工作。\n还有部分成都高校毕业生，正在被美术外包的“低薪高压”劝退。今年，在校生小鱼参加了校企合作项目。进入成都一家美术外包企业实习前，小鱼和同学得知每月会有2000元作为生活补贴。但实习后才了解，前提是考核通过。小鱼所在小组的同期学生均未通过考核。待了两个月，每月补贴仅有两三百。\n离开后，小鱼将“美术外包”“游戏行业”从求职的选项中划掉。成都有许多高校开设美术专业，也有数量庞大的美术外包企业。但游戏外包企业已不再是当下毕业生的首要选择。\n成都美术外包依靠“物美价廉”赢得生存空间。据行业传闻，即使是同样的外包，人天单价还有地域差异，在上海是1000元，在成都就降为900元。在成都游戏人群中，有人问，为何都说成都是一座宜居的城市，有人苦笑回应：“因为人力房租便宜。”\n但在AI的冲击下，“性价比”本身可能会成为一种劣势。\n“在我接触的项目中，99.9%的国内厂商外包订单都已将AI加入工作流。”喵喵对触乐说。\n2022年，因长期加班感到疲惫，喵喵从第一家公司离开。在家接外包两年后，2025年，她入职一家新的美术外包公司。这时，AI已经成为日常工作流的一部分。\n从美术外包团队的角度，AI如果能够提效是件好事，也能相应弥补人天与实际工时的差距。但在他们的表述中，AI在缩短工期这件事上效果甚微。\n“对于我们干活的人来说，AI就是改变了工程流程，并没有提速。”喵喵说。\n不同岗位的从业者也有自己的见解。“2D场景能用AI跑，但没那么好掌控。”场景原画师陈晨对触乐说，“欧美卡通是AI最好跑的风格，不太有AI味，其他就不一定了。”至于是否需要稍加修改再提交，陈晨觉得这得看项目，“现在有的游戏场景很明显就已在用AI直出了”。\n相较场景，陈晨认为AI在人物原画的应用上更胜一筹。喵喵的体验不同，至少在她身处的二次元项目中，她在细化时暂时可以不使用AI。如果甲方在细化环节提出问题，对于跨阶段的反馈，喵喵一般靠手动微调解决。\n但据喵喵所知：“有些大厂项目在每个环节都会要求你用AI跑一遍，有时甚至变态到图已经通过了，还会让用AI重新跑，修改后再提交。”她认为这一环节为的是出图稳定和统一画风，“外包画风各有差异，大厂会用自己内部自研的AI最后跑一遍，AI也需要素材持续进步。”\n她所在的团队也会按照长期合作的项目调试对应的AI大模型。不过，喵喵说：“AI不可能直接生成符合甲方要求的图，基本都要自己重新改。”有时，用于抽图的时间，已经足够画师直接上手绘画。“AI不难学，要稳定出图才难。”\n3D美术资源生产又是另一套工作流程。3D建模师需要依据客户给的参考图生成3D模型，整个流程大致分为高模、低模、烘焙与贴材等。其中高模还原环节较有难度，小虾向触乐分享，客户多数时候给的参考三视图都不太清晰，需要建模师设计和还原细节。\n在小虾所在的公司，从去年年底开始，美术总监牵头做了多场AI分享演讲，公司也专门搭建了内部AI数据库让员工使用。今年3月，小虾开始尝试将AI加入工作流。\n他向触乐分享了AI对3D建模的助益——“辅助重复性工作，或者是加快某些流程的进度，在高模阶段让AI补原画没有的细节，包括低模拓扑、生成刺绣等特殊贴图”。但他又很快话锋一转：“这些是我在网上或者分享会中了解到的，实际上，我已经基本不用AI了。”\n小虾不用AI的原因是：“AI生成的3D建模看着还不错，但你想拿来直接用是不行的，也无法扔进工作流。”今年，他曾经尝试使用AI辅助设计“垃圾堆”的高模。按照以前的流程，他需要在另一个软件中将组件拖拽、穿插和拼装。这次，他尝试跳过这一步骤让AI直接生成高模。原画本身比较模糊，在小虾看来，AI生成的高模组件彼此粘连，层次也不好。他修改折腾了两天，最后还是只有自己重新手动建模。\n更重要的是，客户有自己的规范要求。“AI生成的3D物件看起来工整，但可能算出来的面数是5000，但客户只接受1000，这时只能自己检验，如果再吭哧吭哧修改，可能真不如一开始就自己动手。”\n“而且，30天的工期，AI最多也就能节约两天。”小虾补充。\n现在，小虾基本不会再使用AI。在公司内部，美术总监不再提及AI提高建模效率，他也没听说有同事能完美使用AI辅助工作。他认为这是当前3D模型的局限，“当然再发展一两年，也说不好”。\n在游戏厂商侧，AI已经加入了3D建模工单对接流程。但派某发现，AI正在无形中增加对接难度。“如果客户用AI出三视图，有时衔接处的结构不太能相互对应，只能我们自行梳理结构和设计，这会相应增加返工和反馈成本。”\n在提交时，有的厂商需要保留作画痕迹，图层要尽量细化。有的公司要求会稍微放低。但整体来说，画师也需要按照手绘逻辑在最后重新划分图层。\n近些年，国内厂商找到派某时，通常会提到：“可以使用AI，但不要有AI感。”相比较而言，海外对AI的态度相对保守。不过，多数美术供应商已将AI加入工作流程。派某说：“目前大家的态度是用归用，但如果出现问题，就是重大事故。”\n派某举例，如果有公司的画师在提交工程文件时夹带了一张标注着“AI生成”的图层，最终，这条从需求线到交付的所有经手人都会被全部处罚。\n外界都说AI能够有效提速，但实际带来的沟通、修改等成本仍只能由从业者自己承担。\n从2026年开始，小虾感受到公司开始降本增效，尤其是出勤考核变得更加严格。\n紧张氛围的背后，是现实中游戏行业增长变缓，订单数量逐步减少，工单价格也跟随AI能力的发展缓慢下降。\n李言记得，现在已经比AI刚出现时好多了。2022年到2024年，国内研发都在砍项目、内部试AI，而外包靠单子存活，商务靠订单吃提成，没需求时，他只能吃底薪。“直到2025年逐渐有了需求，公司才有钱吃饭了。”李言说。\n派某解释需求复苏的原因为：“过了探索期后，大家发现AI无法完全取代人工，大项目需求量大，一个季度几百个需求，团队内部仅保留核心技术人员，根本干不过来。”不过即使如此，派某发现头部厂商的订单量已缩减了20%。\n今年，派某还曾向去年合作过的3D二游团队打听。对方直接告诉他，现在没有外发需求了，内部正在搭建AI生产链。\n虽然整体已比他预想的要好，但厂商预算却实打实减少了很多。\n有时，订单工期会面临腰斩。派某在和国内头部厂商对接时，有的客户会用内部AI直接跑出中模（白模），交给他们，希望将10人天的工期缩减至5人天。他只能和对方继续在价格上“拉扯”。派某觉得这个过程很像在菜市场砍价，最后，他因为对方坦诚预算有限而妥协。在交付时，工单实际用时为7天。\n派某解释：“在我们这行有句话，有活干永远不亏，工厂有单子就不会死，利润是做出来的，而不是赚出来的，只要单子价格在合理范围内。”\n但是，外包公司之间也存在恶意竞价。就这几年，李言听闻一种新的报价方式，甲方把几个供应商一起拉一个群，群里基本处于禁言状态，只有甲方能说话。甲方提出需求，接着“一群外包竞价，外包单独私聊报价格，价格越卷越低，精度越卷越高”。\n李言举例，在巅峰时期，一张高精度立绘能报价1w3左右。但现在加入AI制作，画师需要重新画，工作量没有变化，价格直接砍半。现在很少再有报价6K的立绘。“除了大环境的原因，近几年因为这点死的公司也挺多。”李言说。\n而在从业者陈晨看来：“厂商是想用AI的价格拿到手绘的质量。”\n相对来说，以海外订单为基本盘的团队受到AI的冲击相对较小。派某所在团队服务的是海外射击游戏团队，尽管海外正陷入裁员潮，多款产品停止开发，但他们按照类别长期承接某类资产。派某说：“我们服务的是厂商而非项目本身，项目取消了，总会有新的项目。”海外回款也更快，只用一个月，而部分国内厂商在3到6个月。对于美术供应商，能否出海也变得相当重要。\n游戏大厂仍有量产需求，在中小公司里，走在前沿的团队已经改变了发包思路。\n10月23日晚间，宙船工作室的制作人月下刚从宁波回来。他在那里待了两周，与一家正在转型的影视团队合作，共同摸索搭建一条基于AI的3D游戏生产管线，做一款3D俯视角游戏。\n聊到外包，月下说：“外包需求还存在，以前发包更多是基于经营管理层面的选择，将简单的、可重复的部分包出去，现在更像是包出去做一些效果尝试和范例，基于技术实践方案，从一开始就判断哪些适合AI来做，只外包AI不太擅长做的部分，比如原画概念设计、动作标准pose，特效外包。”\n他拿动作标准pose向触乐举例，以前制作动作Pose的工作流程可能需要30天，前10天在定Pose，后20天在做中间帧和调整动画流畅度。但现在，他们只需要将核心动作设计外包，耗时5-10天工期，最后由AI 3D资产动作管线补充关键帧。\n特效现在也仍需外包。因为在3D游戏中，特效由动画、粒子与shader组成，需要人来主观判断特效在游戏内的画面表现，月下说，他们现在使用AI还不能做出好看的特效。\n月下算了笔帐，在他曾经开发的3个项目中，外包共花费了500万，在新项目中，外包预算会缩减至100万-150万。“整体量缩减了90%，但单价提升了，成本只降低了80%，因为你愿意花双倍的价钱买那10%。”\n在月下的新项目中，合作的技术人员不少是之前外包团队的老板，公司解散后，他们现在自己在AI辅助下单独接单。同样的，他不会再找人天单价太低的外包合作方。在他看来，这是AI能搞定的活，“只是有些公司现在还不想承认”。\n他提出，游戏行业存在一条平均线，“超过平均线的人，能够多赚钱，而低于这条线，一分钱也赚不到，而AI的发展正在让这条线越来越高。”\n在当下，大厂仍有量产需求，但派某也提及，整体来说简单需求减少，厂商向美术供应商提出更高的要求，而不再仅是执行与量产。而在从前，量产正好是成都大量美术供应商所擅长的。\n2025年，2D角色画师喵喵能直观感受到公司的订单量减少，团队处于“半倒闭”状态，她思考回家做一名自由职业者，通过接外包生活。后来回家后，虽然立绘报价降低，但减少了中间差价，她获得的收入变多了。\n但这种情况更加适合具有核心竞争力的人才。\n成都本地的游戏供应商总会互相交流，今年，他们听闻，有家美术外包公司裁员80%，还有美术供应团队已经不招新人了。\n加班程度和所获薪资严重失衡，让美术外包这份工作像是一碗青春饭。当订单量缩减，薪资减少，人员也开始出现流失。小虾感觉，今年公司的人员流动率比较大，会有人返聘回来，但也有更多人因为薪资和压力离开。中高级人才不缺去处，成都一家美术外包公司的HR说：“近几年，中高级岗位更难招人了。”\n在这种人力结构变化下，部分外包团队开始积极转型，不再做单一美术资产的散包业务，开始承接面向整个新版本或更长研发周期的整包业务，或是与游戏团队合作开发，以及钻研自研产品。\n这成为美术外包供应商面对AI冲击，所做出的另一种全新选择。\n成都一家较大的美术供应商就是如此。商务负责人不二对我说，从2021年开始，公司考虑到AI的冲击，搭建了AI团队作为中台，通过做整包积累自己的技术壁垒。\n不同公司对整包的认知和定义不同。派某认为整包是一个场景的整包，一般不到一年。不二说公司目前会与厂商签订长期合约，团队会一直跟随版本迭代制作。不过他也提及，在AI的冲击下，公司所接整包的需求范围的确在缩减，部分3D建模的减面工作已能被AI替代。\n但这种转型也需要付出代价，前期合作甚至是亏本的，“因为我们需要调度大量人员，需要铺管线，理解项目，前期磨合成本相当高。”但也正因如此，他们能够抓住机会接到来自头部厂商较大范围的执行外包。\n目前，这家美术供应商的员工分布在多个楼层，围绕中间的电梯过道，四周工位都坐满了人。置身其中，我能看见他们承接的业务非常广泛，员工的电脑桌面有欧美卡通风格的立绘，也有3D建模的界面。目前，他们还在开发一款2A规格的单机项目，正在寻找发行，此外，还孵化了一个独立游戏团队。\n不过不二也说：“在前几年的变革过程中，有新的人才加入，也有人掉队，公司因此流失了不少看好的人才。”\n小虾所在的团队也在尝试往整包方向发展。他们决定不仅做美术资产，也帮客户做关卡和玩法设计。今年，公司放出了程序和策划招聘需求，小虾的工位旁边现在就坐着一名程序。派某所在公司，今年甚至有厂商委托他们用AI做游戏买量视频与买量素材。\n当美术外包团队失去量产优势，在AI时代，市场对供应商的核心技术力、设计审美和品牌提出更高要求。在不二看来，这是一件好事。\n而这些会让美术外包之城发生哪些变化？\n月下说，成都作为美术外包之城，这里有大量的学生，也有从外地回流、成都大厂分部的资深从业者，生活成本低，这里的城市形态天然适合做外包，而游戏外包本质挣的是“培训费”。招聘网站商，部分相关实习生岗位会带有学习培训等附加项。拥有能力和人脉的资深从业者，能够接到人天单价1200元的单子，将它分配给初出茅庐的学生，经过规范化的训练与时间的沉淀，学生们就能交出一份及格的答卷。\n月下说，在AI时代，这样的优势依旧存在，只是“毕业生众多”这份优势正在减弱。对于新人来说，以前他们只需要和毕业生竞争，而现在AI打通了这条通道，毕业生需要直接和高级人才竞争。\n“未来没有了初级人才上升的培训通道，原有的通道崩塌了，新的通道怎么建立，我还不知道。”\n“或许在未来，有能力的人会与AI一同合作，如果能做到以前辛苦带团队的产量和效果，那他为什么还要开一家人数众多的外包公司呢？”\n面对AI带来的改变，他们大多认为只能拥抱变化。不二认为，只做散包的公司会消失、被淘汰，他们只能依靠关系和合作关系获得一些零星的支持。\n“在AI的时代背景下，你只有两种选择，加入，或者被淘汰。”\n晚间10点，一家美术供应商所在的写字楼，多个楼层依旧零星亮着灯。对于美术外包从业者，加班，这是一种常态。\n做美术外包的人，他们总能接触一系列正在开发的游戏，因为签有保密协议，大多数时候聚在一起也不能聊工作，只能互相吐槽工作，一同发泄压力，聊着好想离职，但也都有不说大家也理解的犹豫。\n美术外包难，喵喵将这个身份比喻成医生，永远需要学习。她在家工作的两年，一直在接外包，不然担心自己会与游戏行业脱节。她认为AI是大势所趋，在她现在擅长的国风二次元品类，因为玩家的喜好与品质要求，暂时没有严重受到AI波及，但她也说：“未来就说不定了。”小虾也这么想：“人类大脑的进化速度，当然比不上机器的学习速度。”\n小虾还会想去研发团队，但在不间断工作4年后，他也想休息一下，补完之前无法长时间游玩的游戏。回望过去，如果再来一次，他认为自己不会来成都做外包。他说：“如果你是应届生，一定要慎重，不要把来成都做美术外包作为你的第一个站点。”\n但是，从业者陈晨对此补充了一句：“在这座城市，你不做外包，有的是人做。”小虾有时也感叹，公司内的组长和主美工资高，但是他们都很辛苦。据他观察，组内成员年龄最大也没超过40岁。\n前段时间，派某听闻，成都有10万家美术外包公司。他有些震惊，都不知道在成都的哪个角落、哪座写字楼的格子间有这么多美术外包从业者。“恐怕天府三街的上空掉块板砖，都能砸到同行。”\n近段日子，李言仍旧会在朋友圈发信息：“模型、特效有档期，请有美术需求的厂商联系我！”他说，能怎么办呢，美术外包苦啊。",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "用ZBrush与Substance 3D制作半写实Lobo半身像",
-      "what": "角色美术师Eric Liu介绍其制作DC反英雄Lobo半写实半身像的流程，涵盖ZBrush雕刻、拓扑与UV处理、Substance 3D Painter贴图，以及Marmoset Toolbag打光渲染。",
-      "why": "作者从球体起形以练肌肉记忆，用ZWrap基础网格投射细节，贴图先建灰阶层再叠色，服装破损靠手绘alpha与高度通道负值加假阴影补足。",
-      "for_you": "可研究在未做高模破损细节时，用贴图手绘加高度负值与假阴影模拟深度的做法，在游戏资产管线中的适用边界。",
+      "title_cn": "AI进入美术外包工作流，成都供应商面临两极分化",
+      "what": "触乐采访成都多家美术外包从业者：2026年起国内厂商外包订单普遍允许使用AI，工期与单价被压缩，部分团队订单减少、裁员或转型整包，以海外订单为主的团队受冲击较小。",
+      "why": "",
+      "for_you": "",
       "degraded": null
     }
   ],
@@ -721,9 +1135,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "0b51e4986c4df375",
-      "title": "Dungeons in Detail – Using Goal-Blueprints to Murder the Blank Page",
-      "url": "https://danfelder.net/2026/11/01/dungeons-in-detail-using-design-blueprints-to-murder-the-blank-page/",
+      "key": "4a1102d1fef331f5",
+      "title": "Why Souls Games are Narrative-Tsunderes",
+      "url": "https://danfelder.net/2026/11/03/why-souls-games-are-narrative-tsunderes/",
       "lang": "en",
       "tier": 1,
       "tier_weight": 18,
@@ -731,11 +1145,11 @@
       "sources": [
         "Dan Felder"
       ],
-      "published": "2026-11-01T23:59:18+00:00",
+      "published": "2026-11-03T02:12:46+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "About 6 years ago I ran more than 57 tabletop RPG sessions in 3 months – while working full time as a senior game designer. Nearly all of it was original content. My goal was to challenge myself to learn how to design and iterate faster. By improving the speed at which we can make […]",
-      "rss_content": "About 6 years ago I ran more than 57 tabletop RPG sessions in 3 months – while working full time as a senior game designer. Nearly all of it was original content. My goal was to challenge myself to learn how to design and iterate faster. By improving the speed at which we can make things, we can make more total things. We can try out more ideas, then cut to a higher quality top %. If you read my work, you probably want to level up on design. Learning new stuff is great, but practicing applying it faster and faster is key too. It’s like learning to throw a baseball from a textbook, you still need to practice throwing it until it’s easy to do fast and accurately in the middle of a game. So I set a goal – I wanted to comfortably design enough content for 3x original tabletop RPG adventures each week, in about 90 minutes of prep each night between sessions. To do this, I needed better tools. Here’s one I developed to accelerate dungeon design. I’ve used it ever since in my videogame projects too. This is the first level of one of my campaign’s mega-dungeons: The Vaults of Iron. Pilgrims that passed the deadly trials are granted eternity encased in sacred iron, preparing to defend the realm against an invasion that the Iron Lord assures them will take place centuries hence. Throughout the early levels are the tormented failures that died, or worse, in the attempt. It also has a lot of treasure. Designing great mega-dungeons, labyrinthine complexes that take many sessions to explore, is a pet project of many GMs. The great ones are legendary, but they often take forever to build and wear out their welcome relatively fast. Small pacing issues can kill player excitement and they can easily feel repetitive. Getting them right usually takes a very long time, as you explore concepts and move ideas around. The biggest challenge is often knowing where to start. What layout of rooms will produce a satisfying experience? You have tons of ideas, but where to put them? How do you evaluate if the layout makes sense? Often it feels paralyzing and this uncertainty-based paralysis is the main slowdown. So I challenged myself to design a dungeon level and iterate on it multiple times in 2 hours. To solve that problem, I needed to cut out anything that wasn’t critical. There are two critical questions in each room: Why is this room here? What’s the purpose? What’s the designer’s goal that the room needs to fulfill? What concept would fit that design goal? Can figure out the details later. To be clear: I had no idea when iterating on this what “The Gauntlet 2” would contain. All I knew was I liked the idea of a “gauntlet” of sadistic/evil/unfair deathtraps you could opt into that showcased the Iron Lord’s genius and cruelty. I like to say “A dungeon should be an expression of the character that created it”. This let me consider spatial relationships and spot potential issues earlier in the process, before zeroing in on each room’s design. For example – I recognized that if I wanted to make a 3-room deathtrap gauntlet, I should let players opt into the experience. That way they’d feel like they were adequately warned on what they were about to get into, and I’d have more social permission to get evil . I’d originally thought of opening with the deathtrap gauntlet, or funneling into it to go to level 2 as the climactic level 1 experience. I recognized at this point, using this tool, that wasn’t going to work. So I started moving rooms to create a different tone-setting intro that would funnel them into a central hub, branching off in 3 directions. One of those would be the Gauntlet. The others would loop back into an alternate way to level 2. At this point I also recognized that they needed an alternate path to leave/re-enter the dungeon without passing the Mithril Demon. They weren’t going to kill it anytime soon (maybe ever) so while it made a great impression I didn’t want to have them take crazy damage at the start of every future session. So I put a secret entrance to the dungeon on the non-gauntlet loop that branches off the mithril fountain. With 2 paths leading there, I could be reasonably confident they’d run across it while exploring. If they got the Bronze Key instead, they’d be able to go straight to the Bronze Stair down to Level 2 from the main entrance instead (before dealing with the Iron Demon). Both would work. Lots of level designers use high level blockouts in the game industry, but I’ve rarely seen versions that aren’t just listing what is in each room – but focusing on the designer’s goal for why the room is there. Starting with that makes everything so much easier. I call this tool a “Goal-Blueprints”. If specifically talking about Dungeons, you can call it a Dungeon-Schematic to sound cooler. It’s also fun to hand a map like this to another designer as a “dungeon kit” and let them create their own versions of each room based on these goals. Try it yourself, feel free to steal it. It’s a lot of fun.",
+      "summary_raw": "Why do players who skip 30-second cutscenes in most games hungrily watch 2 hour videos explaining the lore of Hollow Knight or Elden Ring? It’s not that those 30-second cutscenes are terribly written either. Simple: “Soulsborne Storytelling” isn’t Storytelling. Its Archaeology. Think of the player as an archaeologist exploring the ruins of a lost empire. […]",
+      "rss_content": "Why do players who skip 30-second cutscenes in most games hungrily watch 2 hour videos explaining the lore of Hollow Knight or Elden Ring? It’s not that those 30-second cutscenes are terribly written either. Simple: “Soulsborne Storytelling” isn’t Storytelling. Its Archaeology. Think of the player as an archaeologist exploring the ruins of a lost empire. They piece together the culture and its history from scraps. They study statues and wonder what they imply about the culture that made them. They find scrolls and tablets with scraps of writing, and learn about the writers. All the while the ruins stand impassive, pretending to be uninterested in your comprehension. That’s right – souls games are Narrative Tsunderes. You can quote me on that. “It’s not like I care if you understand me… well maybe just a little note, because you’re so insistent… baka…” It’s the exact same attitude they have to your gameplay. They feign disinterest in your success or fun… While designing some of the most memorable worlds and adventures in the process. Soulsborne Storytelling works for the same reason that Return to the Obra Din works. It’s in piecing together the puzzle. Even if you can’t do it yourself, you become hungry for someone who has. But I’ve got one big complaint – way too many games think they’re not supposed to be understood by the average player to solve during a normal playthrough. This can work, but it does NOT have to be this way and more games should get excited to bring more players into the experience. A good puzzle is fun to solve. It doesn’t necessarily have to be hard to solve. Just like puzzle-games range in difficulty from the ultra-complex to the casual mobile puzzle games, so can Narrative Archaeology. Instead of hiding key info in item descriptions 3 screens down, which players will never see during normal gameplay unless specifically looking for the info, make key ideas closer to the sruface. Tempt players to read signs and inspect statues. Put key explanations on the critical path. Design it like a puzzle that wants to be solved, even if it’s pretending otherwise. I could probably summarize the default recipe like: Create a few simple stories at a level of detail you’d normally find in classic Myths. The versions taught to children are usually good models, keeping to the big and simple ideas and distinctive characteristics. Kids books are great at conveying the key details of a big-idea narrative in a few sentences at a time, paired with evocative visuals. Establish the key ideas of what the story is about very early, like reading the description on the back of the kids book. This will give players the context to understand what comes next. Tear up the book and scatter its pages. Place curiosity-building notes and voicelines that share scraps of this information in very small doses throughout the setting. Each one should be short, high impact, delivering key details. When done through skippable cutscenes, keep these short enough that players usually finish reading the text before remembering they were going to skip it. Players use these to fill in the details in the basic framework they understand about happened, the Why and How Do the same for environmental design. Creating things that have no obvious gameplay purpose, they just exist because of what happened in the world previously, or are not aimed directly at the player’s experience, creates a powerful illusion. Be a Narrative Tsundere. Pretend you couldn’t care less about if the player understands your lore or world or not. Make them go slightly out of their way to opt into reading your notes or figuring out the implications of your environmental design. This is also what level designers tend to do in these games, pretending we couldn’t care less if you think it’s fair or if you win. Both are lies. In addition to the central, overarching “main myth” weave in 3-5 smaller myths based around speific factions, characters, or locations. Near the end of the game, give players explicit answers to about 70% of the game’s big questions. If they’ve been working out the answers this will likely confirm their suspiscions and make them feel smart. If they missed or misinterpreted key info, this will help them fill in those gaps with an “aha!” moment. If you want a soulsborne vibe in particular, given your darkness a sense of dignity. Too many games forget this.",
       "content_kind": "article_body",
       "category": "design",
       "pool": "main",
@@ -748,11 +1162,11 @@
       },
       "members": [
         {
-          "title": "Dungeons in Detail – Using Goal-Blueprints to Murder the Blank Page",
-          "url": "https://danfelder.net/2026/11/01/dungeons-in-detail-using-design-blueprints-to-murder-the-blank-page/",
+          "title": "Why Souls Games are Narrative-Tsunderes",
+          "url": "https://danfelder.net/2026/11/03/why-souls-games-are-narrative-tsunderes/",
           "source": "Dan Felder",
           "lang": "en",
-          "published": "2026-11-01T23:59:18+00:00"
+          "published": "2026-11-03T02:12:46+00:00"
         }
       ],
       "score": 40,
@@ -778,51 +1192,44 @@
           "value": 0
         }
       ],
-      "topic": "系统设计",
+      "topic": "产品观察",
       "is_analysis": true,
-      "age_hours": 6.808963444444444,
+      "age_hours": 4.886315331944445,
       "evergreen": false,
       "content_type": "分析",
       "section": "features",
-      "body": "About 6 years ago I ran more than 57 tabletop RPG sessions in 3 months – while working full time as a senior game designer.\nNearly all of it was original content.\nMy goal was to challenge myself to learn how to design and iterate faster. By improving the speed at which we can make things, we can make more total things. We can try out more ideas, then cut to a higher quality top %.\nIf you read my work, you probably want to level up on design. Learning new stuff is great, but practicing applying it faster and faster is key too.\nIt’s like learning to throw a baseball from a textbook, you still need to practice throwing it until it’s easy to do fast and accurately in the middle of a game.\nSo I set a goal – I wanted to comfortably design enough content for 3x original tabletop RPG adventures each week, in about 90 minutes of prep each night between sessions.\nTo do this, I needed better tools.\nHere’s one I developed to accelerate dungeon design. I’ve used it ever since in my videogame projects too.\nThis is the first level of one of my campaign’s mega-dungeons: The Vaults of Iron.\nPilgrims that passed the deadly trials are granted eternity encased in sacred iron, preparing to defend the realm against an invasion that the Iron Lord assures them will take place centuries hence. Throughout the early levels are the tormented failures that died, or worse, in the attempt.\nIt also has a lot of treasure.\nDesigning great mega-dungeons, labyrinthine complexes that take many sessions to explore, is a pet project of many GMs. The great ones are legendary, but they often take forever to build and wear out their welcome relatively fast.\nSmall pacing issues can kill player excitement and they can easily feel repetitive. Getting them right usually takes a very long time, as you explore concepts and move ideas around.\nThe biggest challenge is often knowing where to start. What layout of rooms will produce a satisfying experience? You have tons of ideas, but where to put them? How do you evaluate if the layout makes sense? Often it feels paralyzing and this uncertainty-based paralysis is the main slowdown.\nSo I challenged myself to design a dungeon level and iterate on it multiple times in 2 hours. To solve that problem, I needed to cut out anything that wasn’t critical.\nThere are two critical questions in each room:\n- Why is this room here? What’s the purpose? What’s the designer’s goal that the room needs to fulfill?\n- What concept would fit that design goal? Can figure out the details later.\nTo be clear: I had no idea when iterating on this what “The Gauntlet 2” would contain. All I knew was I liked the idea of a “gauntlet” of sadistic/evil/unfair deathtraps you could opt into that showcased the Iron Lord’s genius and cruelty. I like to say “A dungeon should be an expression of the character that created it”.\nThis let me consider spatial relationships and spot potential issues earlier in the process, before zeroing in on each room’s design.\nFor example – I recognized that if I wanted to make a 3-room deathtrap gauntlet, I should let players opt into the experience. That way they’d feel like they were adequately warned on what they were about to get into, and I’d have more social permission to get evil.\nI’d originally thought of opening with the deathtrap gauntlet, or funneling into it to go to level 2 as the climactic level 1 experience. I recognized at this point, using this tool, that wasn’t going to work.\nSo I started moving rooms to create a different tone-setting intro that would funnel them into a central hub, branching off in 3 directions. One of those would be the Gauntlet. The others would loop back into an alternate way to level 2.\nAt this point I also recognized that they needed an alternate path to leave/re-enter the dungeon without passing the Mithril Demon. They weren’t going to kill it anytime soon (maybe ever) so while it made a great impression I didn’t want to have them take crazy damage at the start of every future session.\nSo I put a secret entrance to the dungeon on the non-gauntlet loop that branches off the mithril fountain. With 2 paths leading there, I could be reasonably confident they’d run across it while exploring. If they got the Bronze Key instead, they’d be able to go straight to the Bronze Stair down to Level 2 from the main entrance instead (before dealing with the Iron Demon).\nBoth would work.\nLots of level designers use high level blockouts in the game industry, but I’ve rarely seen versions that aren’t just listing what is in each room – but focusing on the designer’s goal for why the room is there. Starting with that makes everything so much easier.\nI call this tool a “Goal-Blueprints”. If specifically talking about Dungeons, you can call it a Dungeon-Schematic to sound cooler.\nIt’s also fun to hand a map like this to another designer as a “dungeon kit” and let them create their own versions of each room based on these goals.\nTry it yourself, feel free to steal it. It’s a lot of fun.",
+      "body": "Why do players who skip 30-second cutscenes in most games hungrily watch 2 hour videos explaining the lore of Hollow Knight or Elden Ring?\nIt’s not that those 30-second cutscenes are terribly written either.\nSimple: “Soulsborne Storytelling” isn’t Storytelling.\nIts Archaeology.\nThink of the player as an archaeologist exploring the ruins of a lost empire. They piece together the culture and its history from scraps.\nThey study statues and wonder what they imply about the culture that made them.\nThey find scrolls and tablets with scraps of writing, and learn about the writers.\nAll the while the ruins stand impassive, pretending to be uninterested in your comprehension.\nThat’s right – souls games are Narrative Tsunderes. You can quote me on that.\n“It’s not like I care if you understand me… well maybe just a little note, because you’re so insistent… baka…”\nIt’s the exact same attitude they have to your gameplay.\nThey feign disinterest in your success or fun… While designing some of the most memorable worlds and adventures in the process.\nSoulsborne Storytelling works for the same reason that Return to the Obra Din works. It’s in piecing together the puzzle.\nEven if you can’t do it yourself, you become hungry for someone who has.\nBut I’ve got one big complaint – way too many games think they’re not supposed to be understood by the average player to solve during a normal playthrough. This can work, but it does NOT have to be this way and more games should get excited to bring more players into the experience.\nA good puzzle is fun to solve. It doesn’t necessarily have to be hard to solve.\nJust like puzzle-games range in difficulty from the ultra-complex to the casual mobile puzzle games, so can Narrative Archaeology.\nInstead of hiding key info in item descriptions 3 screens down, which players will never see during normal gameplay unless specifically looking for the info, make key ideas closer to the sruface. Tempt players to read signs and inspect statues. Put key explanations on the critical path.\nDesign it like a puzzle that wants to be solved, even if it’s pretending otherwise.\nI could probably summarize the default recipe like:\n- Create a few simple stories at a level of detail you’d normally find in classic Myths. The versions taught to children are usually good models, keeping to the big and simple ideas and distinctive characteristics. Kids books are great at conveying the key details of a big-idea narrative in a few sentences at a time, paired with evocative visuals.\n- Establish the key ideas of what the story is about very early, like reading the description on the back of the kids book. This will give players the context to understand what comes next.\n- Tear up the book and scatter its pages. Place curiosity-building notes and voicelines that share scraps of this information in very small doses throughout the setting. Each one should be short, high impact, delivering key details. When done through skippable cutscenes, keep these short enough that players usually finish reading the text before remembering they were going to skip it. Players use these to fill in the details in the basic framework they understand about happened, the Why and How\n- Do the same for environmental design. Creating things that have no obvious gameplay purpose, they just exist because of what happened in the world previously, or are not aimed directly at the player’s experience, creates a powerful illusion.\n- Be a Narrative Tsundere. Pretend you couldn’t care less about if the player understands your lore or world or not. Make them go slightly out of their way to opt into reading your notes or figuring out the implications of your environmental design. This is also what level designers tend to do in these games, pretending we couldn’t care less if you think it’s fair or if you win. Both are lies.\n- In addition to the central, overarching “main myth” weave in 3-5 smaller myths based around speific factions, characters, or locations.\n- Near the end of the game, give players explicit answers to about 70% of the game’s big questions. If they’ve been working out the answers this will likely confirm their suspiscions and make them feel smart. If they missed or misinterpreted key info, this will help them fill in those gaps with an “aha!” moment.\n- If you want a soulsborne vibe in particular, given your darkness a sense of dignity. Too many games forget this.",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "用目标蓝图法加速地牢关卡设计",
-      "what": "作者Dan Felder介绍其地牢设计工具“目标蓝图”：先为每个房间标注设计目的，再考虑具体内容，从而在早期判断空间关系与节奏问题，并据此调整入口、分支与回路布局。",
-      "why": "作者以两小时内迭代一层地牢为目标，先定房间目的再填概念，据此发现死亡陷阱区不宜作为开场，改为中央枢纽三分支结构，并增设秘密入口避免玩家反复遭遇强敌。",
-      "for_you": "可研究：以“房间目的”而非“房间内容”为起点的蓝图，在电子游戏关卡白盒阶段如何影响迭代速度与布局决策？",
+      "title_cn": "魂系游戏的叙事为何像“傲娇”：从考古式拼图到可解的谜题",
+      "what": "作者认为魂系游戏的叙事不是传统讲故事，而是让玩家像考古学家一样从碎片中拼凑世界历史；他主张这种叙事考古不必做得晦涩，可以把关键信息放在主线上、让谜题更易被普通玩家解开。",
+      "why": "作者以《空洞骑士》《艾尔登法环》《奥伯拉丁的回归》为例，归纳出一套方法：先立简单神话框架，再撕碎散布线索，用环境细节制造世界自洽感，结尾明确回答约七成核心问题。",
+      "for_you": "可研究：把关键叙事信息从物品描述移到主线可见处，会怎样改变玩家的探索动机与解谜成就感？",
       "degraded": null
     },
     {
-      "source_id": "indienova-members",
-      "source_url": "https://indienova.com/blogs/all",
-      "platform": "开发者社区",
-      "evidence_kind": "community_post",
-      "requires_transcript": false,
-      "discovery_only": false,
-      "requires_review": true,
+      "source_id": "web-a8c0ed683c",
+      "source_url": "https://www.gameres.com/list/25",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "body": "哈喽各位道友，我们又来交作业了。 上次发完开发日志过了有段日子了，看到你们说喜欢 \"四人小作坊\" 这个说法，还有人催我们晒点东西。行，那这次就晒个大的 我们准备把游戏里的城和宗门，整个推翻重做了。 先给大家看看 \"以前\" 长啥样 最开始我们的城和宗门，是这样的： 说人话就是：一张全景大插画，上面挂满小标签。想进工坊？点 \"工坊\" 俩字。想接悬赏？点 \"悬赏\" 俩字。 功能上没毛病，开发还快。但我们自己内部玩着玩着，越玩越别扭。 我一个修仙的，进了城，是悬在半空中点图片？ 街上有人吗？茶楼在哪条路上？坊市离我多远？全不知道。就是个在线菜单。 我们游戏主打的是 \"一步一行，一念生死\"，是那种不紧不慢、自己节奏的修仙。结果主城像个外卖 APP，点两下就到功能页了。那感觉就像你兴冲冲回了家，结果家是个快捷方式。 不行，得改。 那改成啥样？给大家看看 \"现在\" 先看宗门这边 —— 以前是悬浮在空中的几座塔，现在是顺着山势往上爬。石阶一段接一段，牌坊、亭子、塔楼藏在山石松林之间。你可以真的沿着山路一步步走上去，路过亭子，转过回廊，最后才站到议事大厅门口。不是点一下 \"议事大厅\" 就瞬移过去的。 然后是城 —— 以前的城是平铺的，现在水真的穿城而过。你要去坊市？那就从桥头一路走过去，路过茶楼，路过绸缎铺，路过卖灵食的小摊。 为什么非要费这个劲？ 路要一段段铺，建筑要一个个摆，视角要慢慢调 角色不能穿墙、不能卡石头，碰撞体得一点点对 每栋建筑 \"走近了才能互动\" 的判定范围，全靠手调 但我们觉得值，原因有三个： 1. 宗门城市，得有个宗门城市的样子。 打秘境打得心惊肉跳、死了好几回，好不容易回来。站在城门口吹吹风，看看河边的柳树，慢慢走回自己洞府 —— 这种松弛感，点两下标签给不了。 2. 以后能往里装的东西太多了。 城能走起来之后，路边就能藏 NPC、藏小事件、藏机缘彩蛋。走着走着撞见个摆摊的老道士，或者桥边有个哭唧唧的师妹 —— 这些东西，挂在一张全景插画上是长不出来的。 还在磨，欢迎来挑刺 现在这版还是个 \"能跑通\" 的初版：建筑摆位还在调，有些边角看起来有点空，城内具体每个建筑走近之后能干什么，我们还在做。 但方向已经定了 ——仙源秘境的城和宗门，以后就是一座你真的可以住进去的地方。 各位道友如果有什么想在城里看到的 —— 比如想有个能蹲下来钓鱼的河埠头，或者想宗门后山能遛个弯看云海 —— 评论区告诉我们。小作坊人少，但你们说的，我们都真的会一条一条看。 《仙源秘境》单人修仙・回合制肉鸽，现已开放预约。 我们四个还在一点点把这方秘境搭起来，谢谢你愿意一起等。 游戏已经在先在TapTap开放预约测试：https://www.taptap.cn/app/864253 欢迎大家前来预约关注试玩！！！",
-      "has_body": true,
-      "body_truncated": false,
-      "classic_discovery": false,
-      "key": "78e708d3fe37b488",
-      "title": "【开发日志 #02】我们把城拆了重盖 —— 从点图片到满街溜达",
-      "url": "https://indienova.com/u/zzgamer/blogread/39401",
+      "key": "f285befafaad0f5f",
+      "title": "带着游戏策划案见资方，我被一个问题问到哑口无言",
+      "url": "https://www.gameres.com/901203434.html",
       "lang": "zh",
-      "tier": 3,
-      "tier_weight": 2,
+      "tier": 2,
+      "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "indienova 会员日志"
+        "GameRes 策划"
       ],
-      "published": null,
-      "undated": true,
-      "published_precision": null,
-      "summary_raw": "哈喽各位道友，我们又来交作业了。 上次发完开发日志过了有段日子了，看到你们说喜欢 \"四人小作坊\" 这个说法，还有人催我们晒点东西。行，那这次就晒个大的 我们准备把游戏里的城和宗门，整个推翻重做了。 先给大家看看 \"以前\" 长啥样 最开始我们的城和宗门，是这样的： 说人话就是：一张全景大插画，上面挂满小标签。想进工坊？点 \"工坊\" 俩字。想接悬赏？点 \"悬赏\" 俩字。 功能上没毛病，开发还快。但我们自己内部玩着玩着，越玩越别扭。 我一个修仙的，进了城，是悬在半空中点图片？ 街上有人吗？茶楼在哪条路上？坊市离我多远？全不知道。就是个在线菜单。 我们游戏主打的是 \"一步一行，一念生死\"，是那种不紧不慢、自己节奏的修仙。结果主城像个外卖 APP，点两下就到功能页了。那感觉就像你兴冲冲回了家，结果家是个快捷方式。 不行，得改。 那改成啥样？给大家看看 \"现在\" 先看宗门这边 —— 以前是悬浮在空中的几座塔，现在是顺着山势往上爬。石阶一段接一段，牌坊、亭子、塔楼藏在山石松林之间。你可以真的沿着山路一步步走上去，路过亭子，转过回廊，最后才站到议事大厅门口。不是点一下 \"议事大厅\" 就瞬移过去的。 然后是城 —— 以前的城是平铺的，现在水真的穿城而过。你要去坊市？那就从桥头一路走过去，路过茶楼，路过绸缎铺，路过卖灵食的小摊。 为什么非要费这个劲？ 路要一段段铺，建筑要一个个摆，视角要慢慢调 角色不",
+      "published": "2026-11-03T01:07:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "复盘带商业游戏策划案见资方的经历，拆解商业驱动立项的核心三要素：产品定位、替代理由、商业模式，分析相关逻辑及不同品类游戏的差异。",
       "rss_content": "",
       "content_kind": "article_body",
-      "category": "development",
+      "category": "design",
       "pool": "main",
       "signals": {
         "hn_points": 0,
@@ -833,18 +1240,96 @@
       },
       "members": [
         {
-          "title": "【开发日志 #02】我们把城拆了重盖 —— 从点图片到满街溜达",
-          "url": "https://indienova.com/u/zzgamer/blogread/39401",
-          "source": "indienova 会员日志",
+          "title": "带着游戏策划案见资方，我被一个问题问到哑口无言",
+          "url": "https://www.gameres.com/901203434.html",
+          "source": "GameRes 策划",
           "lang": "zh",
-          "published": null
+          "published": "2026-11-03T01:07:00+00:00"
         }
       ],
-      "score": 14,
+      "score": 34,
       "score_parts": [
         {
           "label": "来源",
-          "value": 2
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "产品观察",
+      "is_analysis": true,
+      "age_hours": 5.982426443055556,
+      "evergreen": false,
+      "content_type": "分析",
+      "section": "features",
+      "body": "作者：王子饼干\n原文https://zhuanlan.zhihu.com/p/2097572796742353097\n一次失败的立项复盘后的学习和总结\n之前我写过一篇独立游戏的立项分析，最近带着一份商业游戏的策划案在与资方沟通的过程中遇到了问题，所以写一篇简单的文章复盘一下。\n首先什么是商业驱动的立项策略，之前我的文章里的定义是这么写的：\n商业驱动的意思就是，通过以市场调查、用户画像分析、吸量和ARPU值、竞品数量等抽象数据来进行分析并以此作为参考标准来决定最终要做什么，其核心指导策略是，怎么赚钱怎么做，或者更明确地来说，用户喜欢什么就做什么。\n这个定义的大概方向是对的，在读完这篇文章后你会更深刻的认识到商业驱动的本质。我们当时深入分析是另外一条立项指导策略：内容驱动。今天来谈谈商业驱动立项，它的特点以及和内容驱动立项的区别。\n当然，照常叠甲，我的观点不一定正确，大家仅当参考。\n一.商业驱动的本质\n还是那句话，立项的驱动策略和赚不赚钱是两码事，一款中小型手游甚至一个微信小游戏的收入可能没有一款单机游戏来的多，但它仍然是商业驱动的立项。\n而我认为，一个闭环的商业驱动的项目立项可信度公式为：\n这里的证据置信度是一个0~1之间的折扣系数来表明你的证据有效性，商业驱动的游戏立项整体结构没那么复杂，翻译过来就是三件事：\n1.谁会玩这个游戏？（产品定位）\n2.他们为什么要来玩这个游戏而不玩已有的游戏？（替代理由）\n3.这个游戏靠卖什么赚钱？（商业模式）\n这三环任何一环为0，整个立项都无法成立。而证据就是资方如何相信你的三点论述是正确的，如果没有证据，任凭你讲的天花乱坠，甚至游戏设计可以闭环，但这个商业立项本身不会闭环。\n二.产品定位\n产品定位这个说法适用于任何产品，不光是游戏产品，任何拿出来卖的，对公司来说能产生收益，对用户来说能解决问题的东西都有自己的产品定位。\n那产品定位到底是什么呢？我尝试给出一个我认为比较严谨的定义：\n产品定位 = 产品在市场（需求）与注意力（时间）两个维度上占据的一个区间。\n市场很好理解，本质上它指代一群人的需求。但时空区域这个说法是有点抽象的，不过先不搞那么复杂，先讲讲非常简单的市场空间坐标。就好像要种一棵萝卜，得先找到一个坑。\n2.1 市场的空间坐标\n现在有很多不同品类的产品，比如MOBA类游戏，FPS类游戏，MMO类游戏或者手游等等，每个领域又都有各自的产品，他们就像是一个大的气泡里包裹着小的气泡。\n每个气泡所在的空间都是对应的用户需求，而这个气泡就代表着一群玩家和他们喜欢玩的游戏，这个就是产品的空间坐标。从这个角度来说，找产品定位就是找那些还没有被其他产品占领的区域，也就是找到气泡之间的漏掉的区域。\n这就是商业立项的工作，做问卷背调，收集现有的数据，查看各类用户反馈，来试图通过这样的方式找到那块漏掉的区域。\n比如有人喜欢玩FPS，有人喜欢玩二游，那自然就会有人想到，有没有人喜欢玩二次元FPS？但现有的商业项目肯定也想到了这点，它们会试图扩大自身游戏的影响力范畴，将更多的玩法做进游戏里，于是每个游戏的「圈」都在扩大，以至于缝隙变得越来越小，直到这个缝隙小到不足以产生一个产品填补此处的市场空间。\n于是，当品类空间的缝隙越来越难找，相同成本你干不过别人已经建立起来的用户生态惯性，比如一个人玩自己的手游玩的好好的，已经充了很多钱，那么他就很难真正迁移到一个新的同类型项目上去玩。\n于是我们就需要换一个维度看市场，从空间坐标这一层，下沉到用户注意力（时间坐标）这一层。\n2.2 市场的时间坐标\n既然玩家晚上下班回家后的那段时间，早已被存量游戏占满，那就不必再挤这个时段了，而是去考虑有没有可能在玩家上班坐地铁通勤的时候，中午吃饭的时候，上班摸鱼的时候，来找到一块新的时间区域，这段时间玩家会玩手机。\n将市场的时间坐标理解为用户的注意力，它就变得更加普适，同时也揭示了另外一个特点，即游戏不仅要跟各种不同的游戏抢夺注意力，还得和短视频、短剧来抢夺注意力，竞争是如此的残酷，随着AI技术的爆发，产品的数量越来越多，出圈的难度越来越大。\n于是各种老IP的价值开始逐渐的显现出来，包括但不限于任何早期的动漫、游戏、电影等等。在某种程度上来说，未来将是一个大怀旧时代，不过这就是另外一个话题了。\n2.3 产品定位在手游和单机游戏之间的区别\n手游和单机游戏最大的区别就在于，手游、端游或者任何在线游戏是常驻运营的，别家产品的存在会极大的阻碍当前产品的发展，可以说同类型的产品竞争几乎是致命的，比如如果我们做一款仿原神的游戏，那么最大的问题就是：「为什么我们不去玩原神。」\n现在在抖音、B站、各类社交平台的分化下，已经不是靠垄断流量分发渠道就可以轻易抄死一款产品的时代了。所以它相较于游戏怎么设计，更多是找到一个合适的萝卜坑。\n单机游戏并不是说没有这个问题，只是单机游戏更偏内容向，一个用户喜欢看科幻电影，一部优秀的科幻电影看完，他会说自己从此不再看其他科幻电影了吗？显然是不会的。单机游戏和电影一样，内容是打包于游戏里的。\n这也是为什么我们通常说单机游戏更加偏向于内容驱动而非商业驱动。同时这也体现出在线游戏和单机游戏在内容投送领域的区别，在线游戏更像是一个平台，通过运营和更新来不断地投送新的内容给玩家，而单机游戏在内容投送这块则更像是打包好的一份美食。\n但特别要注意的是，单机游戏只是更偏向于内容驱动，你也可以用商业驱动的分析逻辑来做一款单机游戏，也就是更着重于分析用户喜好而非专注于游戏内容的设计，或者更加严谨的来说，是游戏内容的设计大体上为用户喜好来让步。\n三.替代理由/差异化竞争\n现在经过对市场的判断和分析，最终我们找到了一块市场区域，他们喜欢玩XX品类的游戏，所以公司打算为这群玩家做一款产品，于是问题就来到了，凭什么玩家会玩这款产品而不是去玩其他具有类似设计的游戏呢？\n比如我已经在一款叫XXX的游戏里累积充了1w块，现在有一款和XXX差不多的游戏YYY出来了，我凭什么去玩YYY呢？所以可以构建一个关于迁移意愿的数学模型：\n迁移意愿=新产品收益 −（旧产品沉没成本 + 迁移成本 + 风险）\n也就是说只有当新产品的收益能够大于包括沉没成本，迁移成本和风险的时候，这个迁移才有可能成立，注意只是有可能，而不意味着玩家真的会迁移。\n旧产品的沉没成本就是玩家已经积累的东西，比如玩家已经购买的装备或者皮肤、抽到的角色等等。或者玩家已经积累的各种游戏内的知识、操作经验等等。从这个角度来看单机游戏你就会发现单机游戏的沉没成本相较于手游/端游来说更小，你可以同时玩很多款单机游戏，基本不会因为玩一款新的单机游戏而损失什么。\n迁移成本就是学习成本，比如一个新加入LOL的玩家需要学习大量的装备、大量的英雄技能，它的学习成本相对较高。\n最后是风险，比如新产品根本不好玩或者运营了一年多跑路了等等。\n新手在面对这个问题的时候很容易把替代理由理解为，别人的游戏有A+B+C三个玩法，我给差异化一下，我改为B+C+D，就变成了一个更有趣的新游戏。但其实这只是意味着游戏可能存在「新产品收益」而不能解释剩下的三个部分。\n当然，根据我们分析的用户群不同，我们还可以将沉没成本进一步拆解为「锁定效应/社交粘性」，从新产品收益中拆出「社交拉力」\n迁移意愿=（新产品收益 + 社交拉力） −（旧产品沉没成本 + 社交粘性 + 迁移成本 + 风险）\n社交拉力更多指代「是不是有别人带我玩这个游戏」，游戏的自来水宣传效应如何？而社交粘性则指代「这个游戏是否已经存在我无法割舍的友谊和社交圈」。\n所以替代的理由和类型有很多，比如这款游戏确实好玩，但太贵了，现在有一款更便宜的游戏。或者玩家上大学了，发现几个舍友都在玩某款游戏，玩家想要更好的融入宿舍，也许就有可能会一起玩，或者被大家带着一起玩等等。\n或者单纯就是，玩家对当前玩的游戏感觉到了厌倦，也就是本作带给玩家的收益很低了，玩家渴望一些新的内容，比如新的内容、全新的画面效果、万人同屏或者地形可破坏等等新技术。\n所以所谓差异化竞争，本质上找到一个合适的产品定位，然后推出一款新的产品来让这个公式成立。\n四.商业模式\n商业模式一句话回答就是产品靠什么来赚钱。但是往细了说，它又可以拆解为你卖什么，怎么定价，怎么持续等等问题。在游戏领域，商业模式最重要的就是这几件事：\n1.你卖什么？\n2.这种价值的用户规模门槛是多少？\n3.规模 x 单用户的收益能不能覆盖成本？\n所谓付费动机就是字面意思，玩家为什么想要往这款游戏里充钱，咱们举个很简单直白的案例：\n做个老版砍怪MMO，往里面塞入几百个机器人玩家，然后找几个真人的托，然后再找个有钱的土豪玩家来玩这个游戏，然后几个托演习来给这个土豪玩家提供各种情绪价值，比如找个人来演女玩家，找个人来演富二代死对头，女玩家诱骗土豪小额充值，这个伪富二代一开始不在意，在你的等级上来后就各种骑脸嘲讽，抢资源抢装备，旁边的女玩家再来帮忙反击一下，搞几场大型赛博真人秀，把土豪哄得舒舒服服的。最后土豪豪掷千金充钱打造极品号。\n这就是一种商业模式，从游戏的角度来说，它人为制造了付费动机：\n我想要社交价值，我想要在女玩家面前表现\n同时放大了付费动机：\n有个傻嗨天天骑脸嘲讽，我得反过来嘲讽他一下。\n所以你卖的不是内容，而是社交价值。卖社交价值是大部分手游赚钱的主要手段，但它的前提是你的游戏要有足够的活人，要么你就得专门为单个鲸鱼用户去营造那种这个游戏好像很多人的错觉。\n但社交价值是存在很大的相变门槛的，比如一个产品的用户群规模有1000人，即便每个人都愿意为社交价值付费，它也无法成立。因为卖的东西是”社交价值/情绪价值”，而社交价值/情绪价值的生产成本是”人”，所以它天然依赖大用户量，要手动打造出一个平民阶层来为鲸鱼用户提供社交价值。只有当用户规模达到社交价值形成的相变门槛，它才能成立。\n比如你做1000份问卷背调，得到想玩某独特品类手游的玩家有20%左右，根据你对其他类似品类的用户群规模的背调分析，用蒙特卡洛方法代入参数计算最终的用户群规模大概是3w，再根据自身所有的宣发预算来估算，认为最终自己能找来玩这个游戏的用户规模不足5k，那你就很难做一个基于卖社交价值的游戏。也就是你的模型并不能满足一个闭合的收入公式保本线：\nDAU × 付费率 × ARPU > 研发成本 + 宣发成本+ 运营成本\n当然，这个公式有点太理想了，我们也可以改为如下收益公式：\n总用户 × 单用户生命周期价值（LTV）> 研发成本 + 宣发成本 + 运营成本\n这里的LTV其实包含了一个用户的生命周期，而前者更适合在局部时间内判断收益。还有，从买量的角度来说还可以加入买量转化公式（即项目能否持续增长）：\nLTV > CPI（单个用户获取成本）\n引入这些公式只是为了让我们更清楚的知道有哪些合理有效的指标来衡量一个项目的收益强度。所以如果用户群的规模没有办法达到相变阈值，那么接下来你要么做个点卡制游戏，因为点卡制游戏不依赖于游戏用户群规模，只依赖于一个点卡游戏的商业模型收益公式：\nDAU × 卡点收益 > 研发成本 + 宣发成本 + 运营成本\n要么做单机游戏，单机游戏的逻辑也是一样的，它能否成立主要取决于一个简单的内容收益模型：\n潜在用户群规模× 投放转化率 × 单份收益 > 研发成本 + 宣发成本 + 运营成本\n所以回头来看，商业模式的成立对于整个游戏来说是有反向建构作用的，比如微信小游戏的商业模式主要是靠广告赚钱，那你也得为这个商业模式针对性地制造付费动机：做一个难度极高的小游戏，让用户经常失败，需要看广告复活。也就是说，一个靠广告变现的微信小游戏产品会反过来决定游戏的难度曲线、留存设计、甚至买量策略。\n不管是卖内容（偏单机），卖社交价值+内容（手游/网游），卖注意力（微信小游戏，注意，这里的卖注意力是针对广告投放商来说的），立项的基础就是要基本保证你的收益数学模型是可以大概成立的，它不需要完全精确，因为背调数据是很难客观描述这个市场的真实状态。但是如果公式算出来差了一个数量级以上，那显然就不用考虑了。\n4.1 付费能力\n我们不仅要估算用户群的规模，还要建立用户群的画像，因为我们需要避免产品做出来之后没有人消费的起，比如你要卖电脑，忽略最近的内存暴涨这样的周期性历史事件，就通常来说，你配的机型最好是在5k~1w左右，因为这是正常会配电脑的主力军人群会为一台PC而出的价格。\n你可以花5w打造一款性能炸裂的电脑，但是没有人买得起，你也可以花500捡垃圾打造一款极致的丐版垃圾佬主机，但主流用户也不会来消费。付费能力也可以有一个简单的估算公式：\n付费能力 = 可支配收入 × 支付意愿 × 支付便利性\n这里强调支付便利性一方面是针对部分游戏出海的，比如你在Steam上不管是买游戏还是充钱氪金，都非常便利，可以直接微信付款。但是你可以试试充一个海外的AI会员，那简直是层层设卡，就是想花钱也无门。\n还有就是针对国内的未成年人保护，不过这点就不具体展开了。\n游戏也是同样的，一个鲸鱼用户的商业模型是不适用于低龄的游戏产品的，如果你的游戏主要用户群体是8~12岁的青少年，那么游戏的付费水准就不能太高。只能走其他的收益模型。\n五.证据链\n如果想要资方掏钱，只靠一张嘴是不行的，最基础的配置是你能讲故事，也就是公式中的：\n产品定位× 替代理由 × 商业模式\n这三个部分可以闭环，但资方会不断地反问你，你凭什么认为玩家会来玩你的游戏？如果没有最终的证据链，那么一切都只是空中楼阁而已，同时也是我这次沟通失败的最重要的理由之一。\n是的，这个问题其实包含了两层意思，第一层意思就是替代理由，但有了替代理由不代表它真的可以成立，对方可以继续问，你凭什么认为你的替代理由是正确的，这个问题在没有遇到强有力的证据之前可以一直问下去。\n任何投资都存在风险，资方要投资一款项目，最希望就是尽可能使这次的投资风险降到最低。用很通俗的话来说，我要买一块未切开的玉石，这就是一次投资，那我总得打灯看看种水，或者开个窗看看表面，找到它里面可能有宝的证据。同样，证据链对于资方来说就是降低风险的重要依据之一。所以最不可靠的就是你的表述中包含了「我认为，我觉得」这样的词汇。\n对于资方来说，证据链是你能拿到投资的重要内容之一，但对你自己来说，这也是你立项的重要战略判断之一，因为你终究要把投资转换为更大的产品收益，否则就变成了纯讲故事骗投资了。\n5.1 挖掘产品定位\n———— 没有用户参与的证据\n挖掘产品定位正如我在2.1节，市场的空间坐标中所描述的，找到产品间的「缝隙区域」，这个缝隙的规模只要能够达到可以立项的相变阈值就可以了，它不需要跟头部的手游去比。\n但反过来说，根据人存原理或者幸存者偏差效应，我们也要注意到一个陷阱：一个饱满的市场如果突兀的出现一块缝隙，说明有可能这块区域可能恰恰是因为没人要。\n我们可以根据公开行业报告，尤其是《中国游戏产业报告》来获得市场整体的用户规模形态，比如各大品类的用户有多少，当然在你看产业报告之前可以先看《中国统计年鉴》来确认人口结构与收入水平来作为一个前置判断数据。\n其次就是竞品的拆解，将你的范围缩小到一个具体的市场范围，你可以靠第三方数据如Sensor Tower、七麦、SteamDB、或者TapTap评论来获得相关的数据。\n在你根据这些数据的判断和分析了有了一个自己的判断，比如你认为XX品类是一个不错的品类，有足够多的用户，而且赛道也没那么拥挤，那么它就可以成为一个产品定位，而你挖掘这个产品定位过程中的一系列的数据，就是证据之一，虽然证明力度很弱。\n5.2 意愿测试（问卷·访谈）\n———— 用户只是说\n接下来就是必须要付出时间的环节了，你需要做问卷调查、访谈、社群潜水来收集玩家的想法，也就是向他们征询你的新产品的意见，为了统计数据的有效性，你应该向不同类型的玩家询问意见，正如你不能在候车厅里问排队的人买没买到票，你也不能在一个模拟经营游戏玩家群里问大家是不是喜欢模拟经营游戏。\n我还是那句话，你不需要太多，只需要100~200份左右的问卷，用腾讯问卷或者金数据，只要包含完整的玩家生态，那么问卷调查的分布就足以排除明显错误的方向，拿到有效的方向性判断。\n你的问卷里需要包含他们正在玩的游戏，以及他们是否愿意从这个项目来试试看你的项目。但它仍然远不足以向资方说明问题，你只是在「这个方向或许真的能行」上迈进了一大步。因为用户说自己会迁移还是可能会迁移都只能代表一种虚无缥缈的可能性，但是如果玩家真的来尝试了，那就完全不一样了。\n5.3 行为测试（买量·转化）\n———— 用户付出了行动\n接下来你需要掏出真金白银，也就是做行为数据收集。这个阶段你需要做实际的买量测试，找人来出素材，然后啥都不考虑，以最快速的速度搓出一个能表达玩法和美术风格的视觉demo，然后开一个Steam商店或者TapTap商店，总之你需要一个平台能体现出你的转化指标。\n这件事其实不难，对于身经百战的制作人来说，找人出素材+出玩法演示的视觉demo是基本功，但我特别要强调的是，这是玩法演示demo，也就是它可以完全只是一段CG，只要能体现出玩家是否感兴趣即可。\n然后你开始做买量测试，在不同的平台做投放，然后观察不同平台的转化数据，这个买量测试不仅是要拿到证据，它同时也证明了这个品类的投放转化率是否可以达标，在未来做更大的规模投放时可以作为一个重要的参考，同时它也是证据链的重要一环。\n其实正因为这个环节需要你付出真金白银，所以你没有办法把一个虚无缥缈的拍脑袋想出来的「我觉得」猜想拿出来测试，你在做行为测试之前必须要有足够的前置数据说明它值得你付出这些成本去做测试。\n5.4 留存与付费测试（demo/众筹）\n———— 用户付出了时间与真金白银来支持\n如果5.3节的测试也是成立的，那么就说明这个项目值得去做一个实际的demo来进行最终的真人测试，也就是把游戏的demo做出来，然后找小规模的玩家来做真人测试，收集玩家的游玩反馈、意见和建议。\n你可以在游戏demo里加入埋点，收集玩家的游玩留存数据，比如玩了多久，是不是点开游戏两三分钟就退了，这个类似于视频的完播率，如果demo的规模够大，可以考虑引入更多指标比如次日留存率或者七日留存率等等。\n而付费验证测试可以通过以下几种方式（对于手游/端游）：\n1.开启不删档付费测试（成本较高，因为你需要填充足够多的内容）\n2.开启官方预约\n3.限量测试码/内测资格（验证稀缺性转化能力）\n对于单机或者独立游戏来说：\n1. EA抢先测试\n2. 众筹\n这些测试的证明力最强，但成本也最高。所以不同体量的产品用的是不同档位：手游/端游的宣发投入能与研发分庭抗礼（够再做一款游戏），所以值得上不删档付费测试这种重手段；独游/单机扛不住这种成本，EA 和众筹就是它们的等价替代——本质都是”让用户掏钱”,只是载体按预算降级。\n5.5 证据链总结\n大家要明白一件事就是，所有的证据里，可以依据两个因素来形成两条分水岭：\n是否存在用户参与（有用户 > 无用户）\n用户投入的深度如何（付费 > 众筹 > 试玩 > 预约 > 问卷）\n只要是包含用户因素的证据，其效力要远大于不包含用户因素的证据。按照这个逻辑推进，众筹用户数量和众筹的钱规模要比愿望单更加有说服力，因为对于任何一款游戏来说，能让玩家掏真金白银来支持就是最大的认可。\n同理内测付费数据的证明力要更强于众筹数据，因为众筹的大多是早期核心用户，他们的付费意愿天然比普通玩家更高。\n以上是有效的立项证据，但其实除了立项证据之外研发组肯定还有过往的开发履历，是否做出过知名的游戏产品等等，这些与立项不产生直接的关系，但其重要性不言而喻。但这个点并不值得太多复盘，此处就不展开了。换个角度说：如果你没有可依赖的履历，那第五章这套流程，就是你唯一能走的路。\n六.我的复盘和总结\n我个人的经验不是特别的充足，也是刚刚开始踏入需要严格的从市场的角度开始思考立项问题这个新手程度，这次失利我归结为两个入门级因素：\n1.表述方向错误\n2.缺乏足够的证据\n6.1 表述方向错误\n我们整篇文章写下来，不难发现基于商业驱动的立项策略是：\n用户分析/产品定位 -> 收集证据/低成本市场验证 -> 策划方案\n它是自顶向下的，也就是你先找到用户，然后为用户提供产品，但是我们做独游不是这样的。小成本单机的逻辑是：\n设计心理学 -> 心流框架/游戏理论 -> 策划案\n它是自底向上的，如果你在找商业投资的时候跟资方说一堆什么心流框架、游戏设计原理，那大概率会被叫停。但其实这两者是可以衔接的：\n用户分析/产品定位 -> 收集证据/低成本市场验证 -> 策划方案 <- 心流框架/游戏理论 <- 设计心理学\n自底向上的逻辑是面向策划部门的，也就是我们怎么构造出完整的游戏循环和产生心流，怎么让游戏产生乐趣，怎么埋入奖励点等等。怎么快速出demo来测试，怎么快速迭代玩法等等。\n自顶向下的逻辑是面对资方和老板的，也就是我这个产品做出来是卖给谁玩的，他们为什么会玩这个而不是别的，他们愿意玩，但是不是愿意到可以掏真金白银来支持？\n6.2 缺乏证据\n没有别的含义，就是字面意义的缺乏证据，除了推演和主观判断之外缺乏任何有效的证据，我确实已经有了一款独游产品，但要直接开始立项做商业游戏差距还是远远不够看的，我没有做市场背调、没有做出对应的demo来做玩家测试，缺乏这些内容对于资方的风险判断来说是致命的。\n不过还有一个很大的问题在于，我其实还不知道证据要收集到什么程度才能够让资方产生有效的风险判断。但本次失利至少让我决定下次会带着我认为有效的证据去见资方，并在下次失败后继续调整证据的强度。\n6.3 总结\n所以综合来说，商业闭环解决能不能活的问题，心流框架解决好不好玩的问题。真正能成的立项两者缺一不可，只讲前者是骗投资，只讲后者是自嗨。\n以上就是我所有的内容复盘了。\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "商业游戏立项复盘：产品定位、替代理由与证据链",
+      "what": "作者复盘一次商业游戏策划案与资方沟通失败的经历，提出商业驱动立项需回答谁会玩、为何迁移、靠什么赚钱三问，并按问卷、买量测试、demo留存与付费测试排列证据强度。",
+      "why": "作者用产品定位、迁移意愿公式和收益模型拆解立项逻辑，并区分面向资方的自顶向下路径与面向策划的自底向上设计路径，认为两者需衔接。",
+      "for_you": "可追问：作者提出的证据强度排序（付费>众筹>试玩>预约>问卷）在中小团队预算下如何落地，哪些环节可低成本替代？",
+      "degraded": null
+    },
+    {
+      "source_id": "web-2c4b61fbd7",
+      "source_url": "https://indienova.com/indie-game-development/",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "b4e5f0c36c08e033",
+      "title": "《凯普勒186F》制作组：没跑路，开源工具中",
+      "url": "https://indienova.com/indie-game-development/kepler-186f-development-behind-the-scenes/",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "indienova 开发"
+      ],
+      "published": "2026-10-30T16:00:00+00:00",
+      "undated": false,
+      "published_precision": "day",
+      "summary_raw": "indienova 独立游戏 新闻，评测，开发教学, 烽火连城",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "design",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "《凯普勒186F》制作组：没跑路，开源工具中",
+          "url": "https://indienova.com/indie-game-development/kepler-186f-development-behind-the-scenes/",
+          "source": "indienova 开发",
+          "lang": "zh",
+          "published": "2026-10-30T16:00:00+00:00"
+        }
+      ],
+      "score": 24,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
         },
         {
           "label": "游戏与玩法变化",
@@ -863,31 +1348,424 @@
           "value": 0
         }
       ],
-      "topic": "开发动态",
+      "topic": "产品观察",
       "is_analysis": true,
-      "age_hours": null,
+      "age_hours": 87.09909310972223,
       "evergreen": false,
       "content_type": "分析",
       "section": "features",
-      "title_cn": "《仙源秘境》开发日志：主城与宗门从插画菜单改为可行走场景",
-      "what": "独立团队在开发日志中说明，将《仙源秘境》的主城与宗门从一张全景插画加功能标签的形式，重做为可沿山路、街道步行的三维场景，建筑需走近才能互动，目前为可跑通的初版。",
-      "why": "作者认为原方案像点选菜单，与慢节奏修仙体验不符；重做后可承载路边NPC、小事件与机缘彩蛋，代价是铺路、摆建筑、调碰撞与互动范围都需手工处理。",
-      "for_you": "可关注“走近才能互动”的判定范围如何与回合制肉鸽的节奏衔接，以及手工布景的成本在小团队中如何控制。",
-      "degraded": null,
-      "reviewed": true
+      "body": "上线初期，《凯普勒 186F》（Kepler 186F）几乎保持日更的状态，到目前为止，上一次更新是在 9 月 13 日，这么一段时间没更新，那大概率是跑路了，所以到底发生了什么？\n大家好，我是 Zeck。\n首先其实没跑路，断更的原因有两个：\n1. 收到不少评论说，频繁更新会让人觉得游戏 Bug 很多在修复，虽然每次更新都附带增量，但既然第一感觉是负面那，就先暂缓更新吧；\n2. 其实这一点才是最大的原因：我是跨行进入游戏圈，所以开发路径不算“正规”，因此这段时间我在研究其它东西。\n具体干了什么呢？先说结论：我在 Github 疯狂开源软件。\n开源软件的目的就一个，我要练习以及巩固我的产品架构思维。虽然如是说，也不是瞎开发，然后开源一些用不到的东西，下面会列出我近期开发的所有工具，大部分是开发者会需要用到的。\n顺序不分前后，所有软件代码开源、免费。\n1. 自动抠图软件\n这个没必要多解释功能了，上传图片，自动抠图。\n采用的是 U2Net 本地微模型去自动抠图，做这个软件的目的是不想用网页工具或者 AI 抠图，效率太低。\n2. Steam 商店资产生成器\n我不想打开 Photoshop，且不说打开非常慢，光是去编辑各种大小的素材就非常麻烦，因此才设计了这个自行车。\n操作也很傻瓜，导入两张底图（一张横屏，一张竖屏），然后导入你的游戏 Logo。游戏 Logo 部分特别设计了多语言支持，因此微调的时候也可以多语言同步编辑，导出的时候也是多语言导出。\n3. 一键 Github 仓库部署\n这个功能很直观，输入仓库链接，自动下载仓库内容。如果 Release 有可执行文件，会优先下载这些可执行文件（弹窗二次确认）。\n虽然直接 Github 下载很简单，但这个软件向上开发是可以自动化的。可能对普通用户帮助不大，但我个人用的很舒服，例如本地智能体的调用，自动仓库下载，省去爬网页的 Token 消耗（实际上就算是 Github API，智能体也会时不时在里面睡觉…所以这块能程序化就程序化吧）。\n4. 虚幻引擎日志警告去重器\n这个软件对于我个人帮助很大。开发《凯普勒 186F》的时候，总是会显示上万条警告，但一大半都是重复的，日志看得我眼花。\n所以它的功能就是直接加载 txt 或者 log 文件，自动去重，也会醒目标注问题发生点在哪里。\n5. 图标合成工坊\n我在开发过程中学到了很多技术，这个软件就是我近期掌握的新技术。\n算不上有多厉害，简单来说，就是我将材质批量转换成 svg 并整合在一个字体文件里。在 9 月 13 日的更新中，我提及了程序包大小的优化，减小了约 7GB 的体积，其中 3GB 就是我将原先的图标、材质格式切换成了字体 ttf 文件。\n优化后，SteamDeck 的帧率上升了 8 帧，对我还是非常有帮助的。\n6. 二进制迷宫生成器\n这是我在测试一项程序化生成内容时，想到的一个方法。如果定义 1 是墙，0 是通路，那么理论上就可以以纯文字的形式程序化生成迷宫，相比靠算法，这个更方便动态展示且更容易程序化。\n软件会用红色方块标注出路，建议长宽都不要超过 50，否则还是会卡。\n7. Seedance 漫剧提示词生成器\n这是一个非常复杂的系统，简单来说，就是将一部上万字的小说，转换成漫剧提示词，支持本地或者云端 API。中途会生成分镜头、机位、表情、角色的动作，且包括提醒不要出现的内容的提示词等。\n我预设了很多规则，具体的漫剧风格还是要用户自己设计一个 Skill 提示词。这里没法很仔细地说明功能，看需自取比较好。\n8. 游戏网页制作器\n图中就是网页制作的效果示例，通过该软件修改即可，可以导出静态或者带管理员后台的源码。\n9. 游戏进程优化器\n这是个很有趣的东西，简单来说就是一个外部的进程优化程序，启动后，它会释放 Windows 锁住的内存，清理完成后会启动游戏程序，同时将游戏的进程拉到最高级。\n游戏启动后，这个程序会每隔一段时间继续释放内存，且不影响游戏、Steam 等核心进程。这里外部性能的提升可以略微提升玩家的游戏体验。\n当然也有弊端，例如玩家开了直播，那么直播软件会受到影响，各位按需取用。\n10. 游戏策划案及商业计划书生成器\n这是我基于目前对游戏的所有认知形成的一个软件化产品，所以当前出现的内容，可能有我的局限性在里面。\n简单来说，这款软件可以按照顺序化的步骤，引导你完成一份游戏策划案或者商业计划书。\n我在这个仓库的 docs 文件夹里面放了一个名为 framework-brief-desk-json-prompt 的 txt 文件，它实际上是 Skill 文件。你下载这个 txt 之后，导入常用的 AI 并制作 Skill，就可以通过对话的形式构建你自己的策划案。\n构建完成后，AI 会输出一份 json 文件，将此 json 文件导入该软件就可以进行可视化微调。全部调整完毕后，按需求导出 docx 或者 pdf 文件即可。\n11. 虚幻引擎蓝图库\n这很直观，你复制蓝图到这个软件里，就会以本地化的形式存储。这种存储方式无需打开虚幻引擎本身，也无需联网，方便各项目之间的复制与传输。\n最后我想说…\n其实我公开了大概 20 多款软件，有些跟开发关系不大，因此就不在这里介绍了。各位有看到心仪的软件，直接 Github 搜索 axioxmedia就可以看到我所有公开的仓库。\n所以，综上所述，我还没有跑路，只是在另一个地方输出。\n这是一种很有趣的体验，我学会了很多我曾以为是如何的东西，实操之后发现完全不一样。相信这在后面的开发过程中，会让我的思维更加缜密，逻辑更加简洁且高效！\n干就完了，冲冲冲！",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《凯普勒186F》制作人回应断更：开源多款开发工具",
+      "what": "《凯普勒186F》制作人Zeck说明游戏9月13日后暂停更新并非放弃项目，原因之一是频繁更新被玩家误认为在修Bug，更主要是他跨行入行、正通过开源约20款开发工具练习产品架构思维，文中列举了抠图、商店资产生成、日志去重、图标字体化等工具。",
+      "why": "作者以自述方式解释断更取舍：暂缓更新以避免负面观感，并把精力投入工具开发；其中图标转ttf使包体减少约3GB、SteamDeck帧率提升8帧为其个人陈述，未提供独立验证。",
+      "for_you": "可追问：把开发工具开源作为架构练习，是否真能反哺游戏本体的更新节奏与工程质量？这些工具中哪些具备被其他独立开发者复用的条件？",
+      "degraded": null
     }
   ],
-  "ai": [],
+  "ai": [
+    {
+      "source_id": "web-3ae57466b5",
+      "source_url": "https://openai.com/news/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "242959d90ab09286",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "OpenAI"
+      ],
+      "published": "2026-11-02T18:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "rss_content": "",
+      "content_kind": "rss_summary",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Rewarding defenders with bigger bug bounties",
+          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+          "source": "OpenAI",
+          "lang": "en",
+          "published": "2026-11-02T18:00:00+00:00"
+        }
+      ],
+      "score": 28,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 13.099093109722222,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "",
+      "has_body": false,
+      "body_truncated": false,
+      "title_cn": "OpenAI提高安全漏洞赏金并新增奖励类别",
+      "what": "OpenAI宣布提高安全漏洞赏金金额，并为独立安全研究人员新增报告质量、忠诚度和优先活动三类奖金。",
+      "why": "",
+      "for_you": "",
+      "degraded": "source_excerpt"
+    },
+    {
+      "source_id": "web-3ae57466b5",
+      "source_url": "https://openai.com/news/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "bca2c7eab872737b",
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "OpenAI"
+      ],
+      "published": "2026-11-02T15:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "rss_content": "",
+      "content_kind": "rss_summary",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Introducing the Grid Protectors Program",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "source": "OpenAI",
+          "lang": "en",
+          "published": "2026-11-02T15:00:00+00:00"
+        }
+      ],
+      "score": 28,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 16.099093109722222,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "",
+      "has_body": false,
+      "body_truncated": false,
+      "title_cn": "OpenAI推出电网保护者计划",
+      "what": "OpenAI宣布启动Grid Protectors Program，称将与公用事业公司合作，使未来的算力园区有助于电网可靠性并保护消费者电费。材料仅有项目简介，未说明具体合作方式、时间表或效果。",
+      "why": "",
+      "for_you": "",
+      "degraded": "source_excerpt"
+    },
+    {
+      "source_id": "web-5590904e33",
+      "source_url": "https://www.qbitai.com/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "8fbb814ddb40b6ee",
+      "title": "爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程",
+      "url": "https://www.qbitai.com/2026/11/507313.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "量子位"
+      ],
+      "published": "2026-11-03T01:46:55+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程",
+          "url": "https://www.qbitai.com/2026/11/507313.html",
+          "source": "量子位",
+          "lang": "zh",
+          "published": "2026-11-03T01:46:55+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 5.317148665277778,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程\n近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作\n近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作，双方完成了一系列产品集成并首次共同推出“从提示词到成片”（Prompt to Production）教育计划。通过线上研讨会和系列视频，该计划将帮助海外个人创作者和团队将创意构想更高效地转化为可落地的内容。\n在首场线上研讨会中，OpenAI应用AI工程师Tyler Ryu、PixVerse北美市场营销负责人演示了如何在工作流中结合使用 OpenAI 的前沿模型、Agent（智能体）能力与 PixVerse 的多模态生成工具，来自PixVerse 社区的专业创作者也分享了实战经验。未来，PixVerse 与 OpenAI 将继续围绕创作全流程深化合作，让更多创作者能够从容驾驭 AI 工具，把精力真正还给创作本身。\n深度产品集成合作，打通策划、生成、制作三大环节\n当下，越来越多创作者希望借助 AI 分担日常工作，把时间真正留给创作本身。顺应这一趋势，PixVerse与 OpenAI 持续推进合作：开放平台持续接入 OpenAI 前沿模型，同时，双方近期还完成了一系列深度产品集成。\n（图：Codex PixVerse 官方插件）\n- PixVerse 插件： PixVerse 官方插件（PixVerse ChatGPT Plugin）现已原生接入 ChatGPT 与 Codex，借助 PixVerse 的制作规范与质量审核体系，用户可一站式完成视频、图像、音频的端到端生产。也就是说，现在你可以直接把想要制作的视频素材发给 ChatGPT，你只需描述要求，PixVerse 插件就会帮你完成制作。\n- PixVerse CLI： 让 Codex 变身 AI 内容工作室，视频、图像、音频生成集中调用，还能搭建可复用的标准化流程，满足大规模内容创作的需求。\n- Canvas 支持：PixVerse 为插件新增了对 Canvas（AI 视频项目工作台）的支持。用户可以在 Canvas 中管理、打磨创意素材，生成并对比多个结果，确认满意后直接转入制作与交付。\n借助这套组合，无论是创作者还是导演，都可以在同一套工作流中从脚本创意一路走到最终成片，省去策划与制作之间的反复交接。\n视频生成正在变成 agent 可调用的能力\n通过上述PixVerse 插件、PixVerse CLI、Codex集成，PixVerse的视频生成能力已被封装成Agent 可以直接调用的接口。因此，Agent 无需打开平台界面即可自主完成理解任务背景 、生成创意简报、 拆解分镜脚本、调用 PixVerse 插件生成视频这一整条链路。PixVerse美国市场营销负责人在介绍时表示：“从操作网页到原生连接，视频生成正在变成 Agent 调用的能力，而不只是用户访问的网站平台，PixVerse 要成为人和 AI agent 的创作基础设施。”\n在研讨会中，OpenAI应用AI工程师Tyler Ryu分享了自己使用这套产品集成的实操思路和体会，“AI能把事情做到 80% 到 90%，最后一步仍需要专业视频模型来完成”。在其演示的动画制作案例中，他先调用PixVerse 插件，根据角色图片生成角色走路的参考视频，即用视频模型产出动作素材；再让 Codex 做技术处理，把动作套用到游戏角色上，即把素材落地到实际资产上；最后再用自然语言反复微调直至成片，而不是手动调参数。整个过程既不需要动捕工作室，也不需要动画软件，他也没有离开过 Codex，无需在多个软件之间来回切换、导出导入。也就是说，原本依赖专业设备和软件的角色动画制作，现在已经被压缩成了在 Codex 里用自然语言就能走完的流程。\n（图：在Codex中调用PixVerse 插件，根据角色图片生成角色走路的参考视频）\n此外，对于保持画面一致性这个普遍痛点，Tyler也介绍了自己的经验：“把角色和场景的参考图都放进项目文件夹，并明确要求 Codex 生成前先查看，这样它就能记住场景布局和细节。”来自PixVerse 社区的超级创作者代表也带来了各自的心得。印度尼西亚的创作者 Hidayat 认为，参考图要少而准：“正面、背面、侧面各一张参考图，加一张脸部特写，不需要把头、手、身体都画得很细，这对人物、物体、场景都适用。”另一位创作者 Aldo 则强调了制作顺序的重要性：“先做参考图，再做分镜，最后出视频，这样每个镜头里的脸和造型都保持一致。分镜阶段就能发现问题并修改，成本远低于重做视频。”\nPixVerse美国市场营销负责人表示，本次研讨会相关内容将会被剪辑成系列视频课程陆续上线，方便不同阶段的创作者按需观看、循序渐进。未来，PixVerse 将与 OpenAI 继续围绕创作全流程深化合作，共同推动 AI 创意工作流的标准化与普及，让更多创作者以更低的门槛、更高的效率，把创意变成作品。\n关于爱诗科技\n爱诗科技成立于 2023 年，是全球领先的 AI 视频大模型公司，专注于多模态视频大模型与实时世界模型的研发与应用。公司长期围绕视频生成底座模型保持高频迭代，持续提升模型在画质表现、一致性、泛化性、可控生成等关键维度的能力。自研 PixVerse 系列视频大模型涵盖 V 系列通用视频模型、C 系列影视垂直模型和 R 系列通用实时世界模型，整体能力稳居行业第一梯队。目前，公司旗下 PixVerse 与内地市场的“拍我AI”APP 及开放平台已覆盖全球 177 个国家和地区，累计注册用户超 1.7 亿。今年 7 月，公司完成 C 轮融资，累计金额近 30 亿元人民币，投资方包括鼎晖投资、阿里巴巴、Lollapalooza Capital（王慧文家办）、常春藤资本、惠远资本、钟鼎资本、韩国未来资产、OCBC 生态下 Lion X 基金、蓝色光标、CloudAlpha、iGlobe Partners 等十余家国内外机构。\n海外用户可点击下方链接了解更多PixVerse CLI & Skills\nhttps://app.pixverse.ai/cli/gpt-astra/griffith-observatory\n本文由爱诗科技提供，量子位获授权转载，观点归原作者所有。\n- 搭载NVIDIA RTX Spark™ N1X超级芯片：联想YOGA Pro 15开启盲约，重塑个人生产力边界2026-10-08\n- 从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信2026-11-02\n- “超能模式”重磅登场！联想天禧AI 4.5全端升级，三大场景打造“职场超能搭档”2026-10-30\n- 好莱坞最缺的答案，被这家 10 亿美元估值的 AI 影视独角兽写进了片单2026-10-30",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "PixVerse与OpenAI推出产品集成及创作者教育计划",
+      "what": "爱诗科技PixVerse宣布与OpenAI合作，完成PixVerse插件接入ChatGPT与Codex、推出PixVerse CLI及Canvas支持，并共同推出面向海外创作者的线上研讨会与视频课程教育计划。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-d1c587ecba",
+      "source_url": "https://simonwillison.net/atom/everything/",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "c36cf8ab87b4f6d2",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "Simon Willison"
+      ],
+      "published": "2026-11-02T23:49:30+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna . LLM's support for embeddings now accepts that different binary content may have different content-type - necessary for models",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "llm 0.37",
+          "url": "https://simonwillison.net/2026/Nov/2/llm/",
+          "source": "Simon Willison",
+          "lang": "en",
+          "published": "2026-11-02T23:49:30+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 7.274093109722222,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "2nd November 2026\nThere's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.\nI added gpt-6.1-sol\nand gpt-6.1-terra\n, plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints.\nI switched the default model (if you have not set your own default) to gpt-6-luna\n- half the price of the previous default, gpt-5.6-luna\n.\nLLM's support for embeddings now accepts that different binary content may have different content-type - necessary for models like Gemini Embedding 2, which can embed text, audio, images, and video.\nA lot of open source maintainers complain about a flood of AI-assisted PRs. LLM is my project that has been most affected by this and, to be honest, I'm not finding it to be a problem. That's mainly because I have Opus 5.5 or GPT-6 Astra help me with triage to spot the most useful fixes!\nThis release includes fixes from 12 authors - almost all AI-assisted - and the burden of reviewing them wasn't nearly as great as I expected. I really see them as bug reports with attached examples - sometimes I land them, sometimes I implement my own fix.\nSo thanks to 0d00ciallo0721, ac1982, Allen Flux, Bian Yuhan, Bishop Kammeraad, Chen Yufeiyang, Christopher Krah, Ethan Stoner, Jiachen Xie, Olamide Faniyan, Sharat Chandra Sai Boddu, nosmile99 for helping out with (or spending tokens on) this release!\nRecent articles\n- The U.S. Census Bureau and “Super Intelligence” - 2nd November 2026\n- The October inflection point for vibe game development - 28th October 2026\n- Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "LLM 0.37 发布：新增模型、端点配置与嵌入支持",
+      "what": "Simon Willison 发布 LLM CLI 工具与 Python 库 0.37 版，新增 gpt-6.1-sol、gpt-6.1-terra 模型和 llm openai endpoint add 命令，默认模型改为 gpt-6-luna，嵌入支持不同 content-type，并收录 12 位作者的修复。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-5590904e33",
+      "source_url": "https://www.qbitai.com/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "12f6c395b1839634",
+      "title": "从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信",
+      "url": "https://www.qbitai.com/2026/11/507260.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "量子位"
+      ],
+      "published": "2026-11-02T07:47:38+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "上海仪电与上海创智学院联合发布“飞轮转・万象生”仪电智算数链生态。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信",
+          "url": "https://www.qbitai.com/2026/11/507260.html",
+          "source": "量子位",
+          "lang": "zh",
+          "published": "2026-11-02T07:47:38+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 23.305204220833332,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信\n上海仪电与上海创智学院联合发布“飞轮转・万象生”仪电智算数链生态。\n国家数据局官网显示，中国日均词元（Token）调用量从 2024 年初的约 1000 亿次，跃升至 2026 年 6 月的超过 500 万亿次。短短两年多，增长上千倍。词元，正在像电力、带宽一样，成为数字经济的基础资源。\n供给端随之爆发，云厂商、智算中心纷纷布局Token 工厂。但Token业务蓬勃发展回避不了另一个事实——真正把 AI 用到核心业务里的客户，卡住的往往不是“买不买得到”，而是“敢不敢用”。\n要回答“敢不敢用”，得先看行业竞争的演进：第一代比拼产能，谁的可用机时多、谁的集群规模大；第二代比拼效率，谁的推理成本低、谁的调度更精细。而到了 AI 走进核心业务系统的今天，客户反复确认的，是更本质的问题：供给稳不稳定？国产化能不能交付？过程能不能核查、责任能不能追溯？\n这些追问，最终都指向同一个核心：Token服务的可信。\n可信，是词元经济的下一道分水岭。\nToken行业至今没有统一的尺子\n可信之所以难，先看更基础的一层：如果你要为一家企业采购词元服务，最自然的三个问题是：多少钱？好不好用？出了问题能不能追溯？\n前两个问题，行业至今给不出统一答案。不同厂商对“一次调用”的计费口径不同——同样的提示词、同样的输出长度，在不同平台上的词元消耗可能相差数倍；“好不好用”更缺乏可比的基准，吞吐、首字时延、准确率各自定义、各自发布。买到的服务“看不懂”，采购决策就退化为参数表之间的取舍，很大程度上依赖经验判断。\n而第三道门槛，比计量和标准更绕不过去：能不能追溯。一旦词元服务接入金融风控、政务公文、医疗质控等核心业务，每一次调用都将影响业务结果。谁保障供给不断供？异常发生在哪个环节、能否定位还原？数据进了谁的域、审计时拿什么核查？多数通用词元服务在这方面的准备仍不充分。当国产化成为硬性要求，问题还要再叠一层：芯片、模型与工具链之间缺乏统一的适配基线，算力买进去了，却未必用得出产能。\n产能不够可以扩建，价格太高可以谈降。但标准缺失、适配率低、责任边界不清这三件事，很难靠多投钱单独解决——它们属于秩序层面的问题。谁能先把它做成可交付的标准化产品体系，谁就更有可能率先获得市场的入场券。\n更快、更省、更稳的 Token 是怎么来的？\n仪电智算云 Token 工厂，正是对这一缺口的回应。它的能力结构，可以分两层来看：下面是引擎，负责把词元又快又省又稳地生产出来；上面是保障，负责让客户敢长期用、放心用。\n引擎的核心目标是更快、更省、更稳。所谓更快，是依托高性能推理引擎对主流模型做编译优化与并行调度，让高吞吐、低时延不再只是演示环境中的指标，而是交付时写进承诺的生产级推理能力，能够支撑智能体、多模态这类高并发场景的实时响应。所谓更省，是让算力跟着业务走：通过弹性调度对负载峰谷削峰填谷，按需分配、动态伸缩，客户主要按实际消耗掉的词元计费，普惠的单位成本让“Token 自由”从口号变成一项可以写进预算的科目。所谓更稳，则不只是一套生产级的高可用架构，更包括把不同芯片、不同集群纳入统一池化与调度的异构算力纳管能力——单点波动被消化在池子里，业务侧感受到的是一条持续在线的供给。\n如果说引擎层解决的是“能不能用”，保障层的三重可信解决的就是“敢不敢用”。第一重是服务运营可信：多源供给与容量冗余确保供给不断档，运行状态实时可观测，SLA 明确、履约可查，为核心业务的长期托付提供了依据。第二重是自主生态可信：从算力底座到模型适配，具备全栈国产化交付能力，适配主流国产芯片与开源模型体系，生态可演进，也就降低了被单一技术路线锁定的风险。第三重是安全合规可信：全链路调用留痕存证，数据边界清晰可控，每一次调用可审计、每一个环节可追溯——过程查得到、结果说得清、责任界定得明。三重可信叠在一起，才构成这套能力体系的底座。\n可信的Token，落在真实业务里\n判断一套词元服务是不是真的可用，最终要看它能不能落到具体的业务里。在智能终端、科学智能、在线新经济、自动驾驶与具身智能五大领域，Token 工厂分别回应了不同的技术诉求：智能家居与可穿戴设备需要端云协同、统一接入与统一计量，换来稳定一致的终端 AI 体验；药物研发、材料计算、生物模拟等 AI4S 场景，需要的是把科研算力变成可持续调用的供给，加速成果产出与转化；AIGC 创作与在线业务智能化升级，考验的是弹性供给对流量峰谷的承接；自动驾驶的车载与云端智能体，以及机器人感知、决策、交互的多模态需求，则共同指向低时延推理与持续在线，实时性能，在很大程度上决定了一台机器人的反应是灵敏还是迟缓。\n在六大行业里，可信的价值更加具体。金融客户围绕智能投研、合规报告、风险审查、智能客服调用词元，全程留痕存证是监管的硬要求，也是采购的前提；制造客户需要垂类工业模型支撑设备运维问答、质检报告生成与生产异常分析，模型的输出直接参与生产决策，容不得含糊；教育与文旅场景追求安全可控与体验生动，前者服务 AI 伴学、教学资源生成与实训编程，后者支撑 AIGC 内容创作、智能导览、行程规划与多语种讲解；医疗则通过专属行业模型与私有化部署，把病历质控、临床知识问答、文献分析放在数据安全的边界内完成；城市治理聚焦政务公文撰写、热线工单处理、政策问答与舆情分析，其效率提升背后，是公共服务水平的整体抬升。这些场景看似分散，共同点却很清晰：它们都已经在把 AI 放进自己的业务流程，也普遍要求一份可追溯、可核查的稳定词元供给服务。\n这种可交付、可核查的能力，正在形成产业实践范本。在10月31日举行的全球数商大会“仪启数智 云链万象”上海仪电智算数链创新论坛上，上海仪电与上海创智学院联合发布“飞轮转・万象生”仪电智算数链生态。上海创智学院提供NEX-N2.5大模型，为应用赋予智能；仪电智算云Token工厂以城市级算力保障为基，支撑数据加工与模型训练。在场景需求牵引下，数据、模型与算力汇聚于大衍·奇点平台，数据资源生长为数据产品，产品落地又催生新的数据与新的需求，数据飞轮由此转动。让平台能力抵达业务现场，需要一个触手可及的载体。论坛上同期发布的一体机，正是这份能力的终端形态——首批上线“寻数”功能，开箱接入后即可快速发现数据、精准匹配供需，让“找数据”从大海捞针变成按图索骥；更多平台能力，将持续加载到这一终端。\n让“可信”成为稳定安全的基石，而不是卖点\n从一次联合发布回看整个行业：词元的竞争不会停留在产能与价格。当词元服务真正进入核心业务系统，“稳定、安全、可信”都会从加分项变成门槛项。这正是仪电智算云 Token 工厂提前布局的位置：不只在卖词元，而是在建一套可交付、可审计、可追溯的词元运营秩序。从算力调度到可信生态，谁能先定义并兑现这个标准，谁就更接近下一代词元服务的定义权。\n本文由上海仪电提供，量子位获授权转载，观点归原作者所有。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "仪电智算云Token工厂提出三重可信体系",
+      "what": "上海仪电与上海创智学院联合发布仪电智算数链生态，并介绍仪电智算云Token工厂的能力结构：底层推理引擎负责更快、更省、更稳地生产词元，上层以服务运营、自主生态、安全合规三重可信回应企业采购词元时的计量、追溯与国产化适配问题。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    }
+  ],
   "ai_features": [],
   "stats": {
-    "events": 164,
-    "news": 9,
-    "features": 2,
-    "ai": 0,
+    "events": 184,
+    "news": 14,
+    "features": 3,
+    "ai": 5,
     "ai_features": 0,
     "review_candidates": 19,
-    "multi_source": 1,
-    "deep_read": 2,
+    "multi_source": 3,
+    "deep_read": 3,
     "ai_deep_read": 0
   }
 }
