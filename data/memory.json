@@ -1,45 +1,9 @@
 {
-  "e8138f164adc8a89": {
-    "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-    "first_seen": "2026-10-03",
-    "times": 3,
-    "last_seen": "2026-10-05"
-  },
-  "c7bf9f400bf0b90d": {
-    "title": "Reigns developer Nerial enters 'hibernation mode,' lays off staff",
-    "first_seen": "2026-10-03",
-    "times": 3,
-    "last_seen": "2026-10-05"
-  },
-  "5d4f4a3067123364": {
-    "title": "Can i export a lower triangle version of a Mesh that uses Nanite?",
-    "first_seen": "2026-10-04",
-    "times": 2,
-    "last_seen": "2026-10-05"
-  },
-  "3167251161ada4c9": {
-    "title": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
-    "first_seen": "2026-10-04",
-    "times": 2,
-    "last_seen": "2026-10-05"
-  },
-  "40ba135ddfdc9ffc": {
-    "title": "Unreal 5.8 - Radial Blur (Photoshop filter) Post Process effect",
-    "first_seen": "2026-10-04",
-    "times": 2,
-    "last_seen": "2026-10-05"
-  },
   "645fa93dc78c6398": {
     "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
     "first_seen": "2026-10-05",
     "times": 2,
     "last_seen": "2026-10-06"
-  },
-  "25636f3650ba6210": {
-    "title": "Niagara Damage Numbers with GAS",
-    "first_seen": "2026-10-05",
-    "times": 1,
-    "last_seen": "2026-10-05"
   },
   "80b94b021b2f4092": {
     "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
@@ -3945,6 +3909,227 @@
     "last_seen": "2026-11-04",
     "urls": [
       "https://simonwillison.net/2026/Nov/3/october-newsletter"
+    ]
+  },
+  "fd4179ea1e860e45": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "《全境封锁2》现已推出“中央公园残响”DLC",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.gcores.com/articles/221948"
+    ]
+  },
+  "075a539d88642f9f": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "Advertising Standards Authority bans mobile ads from King, Scopely, and others for misrepresenting gameplay",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.gamesindustry.biz/advertising-standards-authority-bans-mobile-ads-from-king-scopely-and-others-for-misrepresenting-gameplay"
+    ]
+  },
+  "60497640aac871cf": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "育碧等多家公司有意收购Arkane工作室",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.gamedeveloper.com/business/ubisoft-among-the-bidders-for-arkane-as-xbox-looks-to-sell-the-studio",
+      "https://www.gamesindustry.biz/ubisoft-reportedly-seeking-to-acquire-arkane-lyon-from-xbox",
+      "https://www.gcores.com/articles/221949"
+    ]
+  },
+  "832cf511fd22fb0f": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "《金铲铲之战》“大橘大利”模式上线：体验一场全新的“搜打撤”",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "http://www.chuapp.com/article/291737.html",
+      "https://www.gameres.com/901203469.html"
+    ]
+  },
+  "b0b78786a71dc171": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "均分96：《塞尔达传说：时之笛》重制版媒体评分汇总",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://80.lv/articles/the-legend-of-zelda-ocarina-of-time-switch-2-remake-is-the-highest-rated-game-of-2026",
+      "https://www.gcores.com/articles/221950"
+    ]
+  },
+  "a22cf2818413d67d": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "Tripwire Presents expands publishing business to support smaller indie developers",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.gamedeveloper.com/business/tripwire-interactive-expands-publishing-business-to-focus-on-smaller-developers-and-games",
+      "https://www.gamesindustry.biz/tripwire-presents-expands-publishing-business-to-support-smaller-indie-developers"
+    ]
+  },
+  "9a411d2db5996160": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "How Ares Interactive runs live ops without waiting on client updates",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://unity.com/blog/ares-interactive-live-service-games"
+    ]
+  },
+  "7a3e0fe9392d9280": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "The Immersive Edge: October 2026 industry content wrap-up",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://unity.com/blog/october-2026-industry-content-wrap-up"
+    ]
+  },
+  "ea1823f86777f786": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "游戏IP联动从短期热度到长效增长，成为延续IP生命力的重要引擎",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.gameres.com/901203476.html"
+    ]
+  },
+  "4314e0b6837a566f": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "这回真有“天生反骨”，996传奇盒子《千鸿沉默》传奇手游玩转命格",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.gameres.com/901203468.html"
+    ]
+  },
+  "39293fd08f6bf8b1": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "This Cozy Parenting Game Looks Like Thank Goodness You're Here! & Plays Like A Little to the Left",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://80.lv/articles/this-cozy-parenting-game-looks-like-thank-goodness-you-re-here-plays-like-a-little-to-the-left"
+    ]
+  },
+  "fc8eefc78fa6e494": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "Get This Blender Add-On for Realistic Real-Time Procedural Sky",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://80.lv/articles/get-this-blender-add-on-for-realistic-real-time-procedural-sky"
+    ]
+  },
+  "ddcb014f90143c73": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "Analysis: one in three acquired game studios has been shut down since 2000",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.gamesindustry.biz/analysis-one-in-three-acquired-game-studios-has-been-shut-down-since-2000"
+    ]
+  },
+  "c4d2af93ffc6e021": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "Building Your Game is Only the Beginning—Now You Need Player Trust",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://80.lv/articles/building-your-game-is-only-the-beginning-now-you-need-player-trust"
+    ]
+  },
+  "7f508990e5c2efe6": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "Valve warns of slower Steam approvals, possibly due to AI game surge",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.gamedeveloper.com/business/valve-warns-of-slower-steam-approval-process-due-to-flood-of-new-games"
+    ]
+  },
+  "12568e71193e9bcd": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "《称量愿望单》：一场独立游戏发行谜案",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "http://www.chuapp.com/article/291734.html"
+    ]
+  },
+  "643fd9c0f2d6edbd": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "Ratatouille explains the Game Industry",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://danfelder.net/2026/11/05/ratatouille-explains-the-game-industry"
+    ]
+  },
+  "4455b1cb581e5b59": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "让沉睡20年的妖怪重新登场：机核专访《妖怪克星 纳比之介》制作人",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.gcores.com/articles/221968"
+    ]
+  },
+  "c07f3194542a3749": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "Behind the Animation of Star Wars: Galactic Racer’s High-Speed Chaos",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://80.lv/articles/behind-the-animation-of-star-wars-galactic-racer-s-high-speed-chaos"
+    ]
+  },
+  "32b46b7e7d606e55": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://openai.com/index/openai-to-acquire-pierre"
+    ]
+  },
+  "0b9e8acb3b02d61a": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://openai.com/index/daybreak-red-aws-govcloud"
+    ]
+  },
+  "00d5f0f1bb125e1f": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "GPT-Image-2.6全量上线！直出GIF和SVG，6.2 Astra也现身了",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://www.qbitai.com/2026/11/507707.html"
+    ]
+  },
+  "ed1c70544f5eef13": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "datasette-llm 0.1a10",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/4/datasette-llm"
+    ]
+  },
+  "be3abef7295ceffd": {
+    "first_seen": "2026-11-05",
+    "times": 1,
+    "title": "datasette-apps 0.3a0",
+    "last_seen": "2026-11-05",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/4/datasette-apps"
     ]
   }
 }
