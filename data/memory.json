@@ -1,10 +1,4 @@
 {
-  "645fa93dc78c6398": {
-    "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
-    "first_seen": "2026-10-05",
-    "times": 2,
-    "last_seen": "2026-10-06"
-  },
   "80b94b021b2f4092": {
     "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
     "first_seen": "2026-10-06",
@@ -17,53 +11,11 @@
     "times": 2,
     "last_seen": "2026-10-07"
   },
-  "3350a2857c8c152d": {
-    "title": "Building advertising for the way people use AI",
-    "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
-  },
-  "0fe85358c895bc64": {
-    "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
-    "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
-  },
-  "c281f7d9d6ad4a99": {
-    "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-    "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
-  },
-  "bee3db665fab57f4": {
-    "title": "Downtown Memphis Virtual Twin Progress | UE5 Devlog 1.3 | One Building At A Time NO AI",
-    "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
-  },
   "cf1cd2c0d3121230": {
     "title": "How do I get a non-photorealistic, \"classic game\" lighting look in UE5.7 while keeping fully dynamic lighting?",
     "first_seen": "2026-10-06",
     "times": 2,
     "last_seen": "2026-10-07"
-  },
-  "fc88dcf4ebb4de3f": {
-    "title": "Ace Combat 8 is The Highest-Reviewed Game in the Series Since the PS2",
-    "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
-  },
-  "6835485e650b5e73": {
-    "title": "Bethesda’s Most Ambitious RPG Nearly Collapsed the Entire Studio in the ’90s",
-    "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
-  },
-  "fe66d0378e4ba139": {
-    "title": "Jagex Unveils Fourth RuneScape MMO Powered by Unreal Engine",
-    "first_seen": "2026-10-06",
-    "times": 1,
-    "last_seen": "2026-10-06"
   },
   "110baf0b06eced0a": {
     "title": "Introducing Mistral Large 4: Le chonk",
@@ -4130,6 +4082,216 @@
     "last_seen": "2026-11-05",
     "urls": [
       "https://simonwillison.net/2026/Nov/4/datasette-apps"
+    ]
+  },
+  "0d35e0509a41976e": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "《刺客信条：英灵殿》重磅免费更新现已上线",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gcores.com/articles/221996"
+    ]
+  },
+  "ad268f562b875254": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "点击冒险新作《鬼灵精探》免费试玩版现已上线，向LucasArts经典冒险游戏致敬",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gcores.com/articles/221994"
+    ]
+  },
+  "26cb9dd27742dffc": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "NS2全球累计销量突破2635万台，上半年同比下降37%",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gamedeveloper.com/business/nintendo-confident-in-memory-supply-in-new-financial-report",
+      "https://www.gamesindustry.biz/nintendo-h1-operating-profit-rises-491-supported-by-new-titles-including-splatoon-raiders",
+      "https://www.gcores.com/articles/221988"
+    ]
+  },
+  "f3aed3e493779c32": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "[Windows Only] Civilization VI Hotfix: November 2026",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643342775"
+    ]
+  },
+  "eb092f64c4a25a3f": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "咪咕游戏携《影之刃零》惊喜亮相，全场景沉浸体验登陆2026移动网络大会",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gameres.com/901203485.html"
+    ]
+  },
+  "d6f5ab97a42c4901": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "破400万！《影之刃零》将武侠动作美学成功游戏化",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gameres.com/901203484.html"
+    ]
+  },
+  "638a62c8a67111c6": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "Take a Look Behind Animation in K/DA's FIRESTARTER Music Video",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://80.lv/articles/fortiche-reveals-animation-references-behind-k-da-s-latest-music-video",
+      "https://80.lv/articles/take-a-look-behind-animation-in-k-da-s-firestarter-music-video"
+    ]
+  },
+  "86bc8ab63f5e3e10": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "Recreating Vintage Dynamite Blasting Machine In 3D",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://80.lv/articles/recreating-vintage-dynamite-blasting-machine-in-3d"
+    ]
+  },
+  "81c2680ce567a6ed": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "Investment firm Denmu closes oversubscribed debut fund, surpassing $50 million target",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gamesindustry.biz/investment-firm-denmu-closes-oversubscribed-debut-fund-surpassing-50-million-target"
+    ]
+  },
+  "c0425847b5a5588d": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-almost-reach-8m-74-bought-on-playstation-5"
+    ]
+  },
+  "819bc0cf3c6a1d02": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "\"It's such a massively underserved market in the gaming industry\" – The creators of Dressmaker on why more games should be aimed at women",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gamesindustry.biz/its-such-a-massively-underserved-market-in-the-gaming-industry-the-creators-of-dressmaker-on-why-more-games-should-be-aimed-at-women"
+    ]
+  },
+  "6d79d403f5c43ec3": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "触乐夜话：为了醋包饺子",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "http://www.chuapp.com/article/291735.html"
+    ]
+  },
+  "1ce0339459a1389d": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "OpenAI CEO Sam Altman Responds to Backlash Over His Comments on PC RAM",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://80.lv/articles/openai-ceo-sam-altman-responds-to-backlash-over-his-comments-on-pc-ram"
+    ]
+  },
+  "aea94bec5bf89fce": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "2026 游戏金狮・案例征集与创新成果交流活动在沪圆满举行",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gameres.com/901203483.html"
+    ]
+  },
+  "045d7ec67a77bf4b": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "触乐夜话：二次元在KTV",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "http://www.chuapp.com/article/291732.html"
+    ]
+  },
+  "25d18c956f048323": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "South of Midnight director was 'always worried' about 'Rome burning' at Xbox",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gamedeveloper.com/business/south-of-midnight-director-was-always-worried-about-rome-burning-at-xbox"
+    ]
+  },
+  "69fd808eb8e9deb6": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "《逃离塔科夫》制作人公布硬核科幻射击游戏新作《Fragmentary Order》",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://www.gcores.com/articles/221973"
+    ]
+  },
+  "660edd22f4d64069": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "被策划TK之后，深度对话《战术小队：破晓攻势》发行制作人",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "http://www.chuapp.com/article/291738.html"
+    ]
+  },
+  "42f1ed3b444d5938": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "Cult.fit builds operational muscle with Codex",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://openai.com/index/cultfit-builds-with-codex"
+    ]
+  },
+  "53de24d96632d0d8": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://openai.com/index/introducing-gpt-6-cyber"
+    ]
+  },
+  "fc79fae4f1d69c8f": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://huggingface.co/blog/phonon-tts"
+    ]
+  },
+  "7d0353e88747fb79": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "datasette-agent 0.5a0",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/3/datasette-agent"
+    ]
+  },
+  "1734658412c5e6d8": {
+    "first_seen": "2026-11-06",
+    "times": 1,
+    "title": "llm 0.37.1",
+    "last_seen": "2026-11-06",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/3/llm"
     ]
   }
 }

@@ -4,201 +4,193 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 16 条，策划精选 3 篇，AI 快讯 5 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 16 条，策划精选 2 篇，AI 快讯 5 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 05 Nov 2026 15:09:22 +0800</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 15:09:21 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《全境封锁2》推出“中央公园残响”DLC</title>
-  <link>https://www.gcores.com/articles/221948</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-253b3a104e884d779ace677f</guid>
-  <pubDate>Thu, 05 Nov 2026 01:00:00 +0000</pubDate>
+  <title>《刺客信条：英灵殿》免费更新上线：新游戏+与进度系统调整</title>
+  <link>https://www.gcores.com/articles/221996</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3297d7265d4eea164a4deceb</guid>
+  <pubDate>Fri, 06 Nov 2026 01:20:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《全境封锁2》上线“中央公园残响”DLC，普通版国区88元、豪华版128元。扩展以被自然吞噬的中央公园与上西城街道为舞台，玩家在三位英雄指引下对抗新势力与老对手，通关主线后可重返公园挑战高难内容。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/221948">机核</a></small></p><p><small>原文发布：2026-11-05 09:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《刺客信条：英灵殿》推出大型免费更新，登陆PS5、PS4、Xbox Series X|S、Xbox One和PC，加入新游戏+、秘银资源、增强型进度模式、储藏系统、符文锻造升级及Animus中心同步等功能。</p><p><small>来源：<a href="https://www.gcores.com/articles/221996">机核</a></small></p><p><small>原文发布：2026-11-06 09:20（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>英国广告标准局因误导性玩法宣传封禁King、Scopely等手游广告</title>
-  <link>https://www.gamesindustry.biz/advertising-standards-authority-bans-mobile-ads-from-king-scopely-and-others-for-misrepresenting-gameplay</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4246fda98f3f01f13e8f2aef</guid>
-  <pubDate>Wed, 04 Nov 2026 10:43:47 +0000</pubDate>
+  <title>点击式冒险游戏《鬼灵精探》免费试玩版上线Steam</title>
+  <link>https://www.gcores.com/articles/221994</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-395dae5c82265b97f86637f3</guid>
+  <pubDate>Fri, 06 Nov 2026 00:40:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Advertising Standards Authority bans mobile ads from King, Scopely, and others for misrepresenting gameplay</small></p><p>英国广告标准局封禁King、Scopely、Omnilojo和Vistrex的多则手游广告，认定其用虚构玩法、非互动过场动画、与游戏不符的画面及虚假获奖标识误导消费者。</p><p><small>来源：<a href="https://www.gamesindustry.biz/advertising-standards-authority-bans-mobile-ads-from-king-scopely-and-others-for-misrepresenting-gameplay">GamesIndustry</a></small></p><p><small>原文发布：2026-11-04 18:43（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Daedalic Entertainment与Three Headed Monkey Studios宣布，2D点击式冒险游戏《鬼灵精探》的免费试玩版已在Steam上线，并参与Steam Point &amp; Click Showcase。试玩版提供英语和德语配音，支持含中文在内的12种语言文本。完整版计划2027年登陆PC、Mac、Xbox、PlayStation及Switch平台。</p><p><small>来源：<a href="https://www.gcores.com/articles/221994">机核</a></small></p><p><small>原文发布：2026-11-06 08:40（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>育碧等多家公司向微软提出收购Arkane意向</title>
-  <link>https://www.gcores.com/articles/221949</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d70d884a35400e30124b0949</guid>
-  <pubDate>Thu, 05 Nov 2026 01:10:00 +0000</pubDate>
+  <title>任天堂财报：NS2累计销量2635万台，上半财年硬件销量同比降37%</title>
+  <link>https://www.gcores.com/articles/221988</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-32a001956f910cbb696ecda1</guid>
+  <pubDate>Fri, 06 Nov 2026 00:55:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>据mp1st报道，育碧等至少三家游戏公司已向微软提出收购《耻辱》开发商Arkane的意向，微软也在考虑由工作室管理团队自购。Xbox发言人称正于12月截止日期前评估方案，尚未达成协议。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/221949">机核</a> · <a href="https://www.gamedeveloper.com/business/ubisoft-among-the-bidders-for-arkane-as-xbox-looks-to-sell-the-studio">Game Developer</a> · <a href="https://www.gamesindustry.biz/ubisoft-reportedly-seeking-to-acquire-arkane-lyon-from-xbox">GamesIndustry</a></small></p><p><small>原文发布：2026-11-05 09:10（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>任天堂财报显示，截至2026年9月30日NS2全球累计销量2635万台，本财年上半年硬件销量同比下降37%、软件销量增长18.8%；净销售额下降12.1%，营业利润增长49.1%。</p><p><small>来源：<a href="https://www.gcores.com/articles/221988">机核</a> · <a href="https://www.gamedeveloper.com/business/nintendo-confident-in-memory-supply-in-new-financial-report">Game Developer</a> · <a href="https://www.gamesindustry.biz/nintendo-h1-operating-profit-rises-491-supported-by-new-titles-including-splatoon-raiders">GamesIndustry</a></small></p><p><small>原文发布：2026-11-06 08:55（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《金铲铲之战》上线“大橘大利”模式：局前选卡与挑战目标</title>
-  <link>http://www.chuapp.com/article/291737.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3a10f3c9d522c446ab1098e9</guid>
-  <pubDate>Thu, 05 Nov 2026 04:10:00 +0000</pubDate>
+  <title>《文明VI》Windows版发布安全修复补丁</title>
+  <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643342775</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c0dd3a7b4540ef8d99559d60</guid>
+  <pubDate>Thu, 05 Nov 2026 19:06:55 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>11月4日《金铲铲之战》上线“大橘大利”模式，玩家开局前从200多张“时间卡片”中选3张带入局内，卡片在固定阶段生效；局内可选择“前7”至“前1”的挑战目标，并设有需缴纳“金橘”入场、失败可能损卡的高风险传送门。</p><p><small>来源：<a href="http://www.chuapp.com/article/291737.html">触乐</a> · <a href="https://www.gameres.com/901203469.html">GameRes</a></small></p><p><small>原文发布：2026-11-05 12:10（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：[Windows Only] Civilization VI Hotfix: November 2026</small></p><p>官方公告称已为《文明VI》发布针对性更新，用于加强安全防护；游戏玩法与存档应保持兼容，但部分社区模组可能出现兼容问题，建议等待模组作者更新或暂时禁用受影响模组。</p><p><small>来源：<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643342775">Steam · Sid Meier&#x27;s Civilization VI</a></small></p><p><small>原文发布：2026-11-06 03:06（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《塞尔达传说：时之笛》重制版媒体均分96</title>
-  <link>https://www.gcores.com/articles/221950</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0776ac54a08cf326c72f092e</guid>
-  <pubDate>Thu, 05 Nov 2026 01:20:00 +0000</pubDate>
+  <title>咪咕游戏在2026移动网络大会展示云游戏与AI体感设备</title>
+  <link>https://www.gameres.com/901203485.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a750370d53e93e978138d78d</guid>
+  <pubDate>Fri, 06 Nov 2026 01:23:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《塞尔达传说：时之笛》重制版由Switch 2从头打造，翻新画面、配音过场、扩充对话并加入交响乐配乐，11月5日发售。Metacritic汇总的媒体均分为96分，获“不可不玩”标记，IGN、GameSpot等给出9分上下。</p><p><small>来源：<a href="https://www.gcores.com/articles/221950">机核</a> · <a href="https://80.lv/articles/the-legend-of-zelda-ocarina-of-time-switch-2-remake-is-the-highest-rated-game-of-2026/">80.lv</a></small></p><p><small>原文发布：2026-11-05 09:20（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>咪咕游戏在2026移动网络大会展示云网吧、AI娱乐主机和游戏卡座，称作为《影之刃零》独家云游戏授权平台，观众可通过瘦终端实机试玩；自研体感游戏《巅峰搏击》用动作捕捉无需手柄操作。</p><p><small>来源：<a href="https://www.gameres.com/901203485.html">GameRes</a></small></p><p><small>原文发布：2026-11-06 09:23（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Tripwire Presents扩展发行业务，扶持小型独立开发者</title>
-  <link>https://www.gamesindustry.biz/tripwire-presents-expands-publishing-business-to-support-smaller-indie-developers</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a9cb6bcc16b5c67aa24f63e2</guid>
-  <pubDate>Wed, 04 Nov 2026 20:48:50 +0000</pubDate>
+  <title>《影之刃零》72小时销量破400万，多武器与杀气系统重构武侠战斗</title>
+  <link>https://www.gameres.com/901203484.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-efc29ac9e94cf1cf9434209a</guid>
+  <pubDate>Fri, 06 Nov 2026 01:09:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Tripwire Presents expands publishing business to support smaller indie developers</small></p><p>Tripwire Interactive旗下发行部门Tripwire Presents宣布扩展发行业务，面向各阶段的自发行独立游戏提供交叉推广、平台关系、商业策略、公关、内容创作者与活动支持，以及定价和生命周期管理建议，首批合作五款游戏，未披露商业条款。</p><p><small>来源：<a href="https://www.gamesindustry.biz/tripwire-presents-expands-publishing-business-to-support-smaller-indie-developers">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/business/tripwire-interactive-expands-publishing-business-to-focus-on-smaller-developers-and-games">Game Developer</a></small></p><p><small>原文发布：2026-11-05 04:48（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>文章称《影之刃零》发售72小时销量破400万，Steam简中好评率一度降至约77%后回升至90%，Metacritic玩家评分一度达9.2分；作者认为其通过多武器、杀气系统与宽松判定等设计，将武侠套招美学转化为游戏战斗机制。</p><p><small>来源：<a href="https://www.gameres.com/901203484.html">GameRes</a></small></p><p><small>原文发布：2026-11-06 09:09（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Ares Interactive如何不依赖客户端更新运营两款手游</title>
-  <link>https://unity.com/blog/ares-interactive-live-service-games</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5b75753f5acd47c54545e6f8</guid>
-  <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+  <title>Fortiche谈K/DA《FIRESTARTER》MV动画制作</title>
+  <link>https://80.lv/articles/take-a-look-behind-animation-in-k-da-s-firestarter-music-video/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fecb3f7b1bd989f67c3a3adf</guid>
+  <pubDate>Thu, 05 Nov 2026 19:55:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How Ares Interactive runs live ops without waiting on client updates</small></p><p>Unity采访Ares Interactive旗下7th Inning与Swift Games工作室负责人，介绍《Baseball Hits 26》和《The Walking Dead: Aftermath》如何通过自建后端、远程配置、分段投放与资源包机制，在不发客户端版本的情况下调整活动、商店、奖励与平衡。</p><p><small>来源：<a href="https://unity.com/blog/ares-interactive-live-service-games">Unity</a></small></p><p><small>原文发布：2026-11-04 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Take a Look Behind Animation in K/DA&#x27;s FIRESTARTER Music Video</small></p><p>80.lv采访Fortiche导演Marietta Ren与动画总监Rémy Terreaux，介绍K/DA《FIRESTARTER》MV的动画、VFX与镜头制作，包括所用软件、火焰效果、角色设计与首次使用的头发工具。</p><p><small>来源：<a href="https://80.lv/articles/take-a-look-behind-animation-in-k-da-s-firestarter-music-video/">80.lv</a> · <a href="https://80.lv/articles/fortiche-reveals-animation-references-behind-k-da-s-latest-music-video/">80.lv</a></small></p><p><small>原文发布：2026-11-06 03:55（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Unity 2026年10月工业实时3D内容汇总</title>
-  <link>https://unity.com/blog/october-2026-industry-content-wrap-up</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4c030d028855e133ff3830d3</guid>
-  <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+  <title>3D复刻杜邦20号爆破机全流程</title>
+  <link>https://80.lv/articles/recreating-vintage-dynamite-blasting-machine-in-3d/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4db93637b7f630d71fc8c0ec</guid>
+  <pubDate>Thu, 05 Nov 2026 17:16:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The Immersive Edge: October 2026 industry content wrap-up</small></p><p>Unity发布2026年10月工业实时3D资源汇总，收录9至10月共21项内容，涵盖CEA聚变堆操作演练、Tata Daewoo卡车噪声VR验证、PALFINGER浏览器起重机仿真等案例，以及CAD数据交接、数字线程和AI工作流相关指南。</p><p><small>来源：<a href="https://unity.com/blog/october-2026-industry-content-wrap-up">Unity</a></small></p><p><small>原文发布：2026-11-04 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Recreating Vintage Dynamite Blasting Machine In 3D</small></p><p>3D道具美术师Kyryl Zlotnyk介绍其复刻杜邦20号爆破机的制作流程，涵盖参考收集、Plasticity建模、ZBrush高模、低模与UV、Marmoset烘焙及贴图，项目历时约六个月。</p><p><strong>背景与变化</strong><br>作者以真实尺寸参考确定比例，用Plasticity快速搭建块面，高模阶段只做中大细节、细部留到贴图，并用Data Transfer修正手柄开孔的法线问题。</p><p><strong>策划视角</strong><br>可研究其“高模留细节、贴图补细节”的分工如何影响低模拓扑与烘焙设置，以及trim sheet在电缆上的复用取舍。</p><p><small>来源：<a href="https://80.lv/articles/recreating-vintage-dynamite-blasting-machine-in-3d/">80.lv</a></small></p><p><small>原文发布：2026-11-06 01:16（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>2026游戏IP生态大会：IP联动从短期热度转向长效增长</title>
-  <link>https://www.gameres.com/901203476.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dcec458a5dda9be9ec52f1f2</guid>
-  <pubDate>Thu, 05 Nov 2026 05:08:00 +0000</pubDate>
+  <title>投资公司Denmu首支基金超额完成，超过5000万美元目标</title>
+  <link>https://www.gamesindustry.biz/investment-firm-denmu-closes-oversubscribed-debut-fund-surpassing-50-million-target</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-644a8a7f007de9215376d831</guid>
+  <pubDate>Thu, 05 Nov 2026 16:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>2026年度游戏IP生态大会“IP联动：破圈增长的新引擎”专题会议上，SNK、小白花文化、Loxily、盛天网络等企业代表分享经典IP延伸、超级IP打造、出海本地化与AIGC营销、垂直圈层运营等实践；圆桌环节讨论AI提效与IP内核由人把控、UGC授权审核及合规风控。</p><p><small>来源：<a href="https://www.gameres.com/901203476.html">GameRes</a></small></p><p><small>原文发布：2026-11-05 13:08（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Investment firm Denmu closes oversubscribed debut fund, surpassing $50 million target</small></p><p>游戏投资公司Denmu宣布其首支基金完成募集并超额认购，超过最初5000万美元目标。已披露投资包括Fuse Games的《星球大战：银河赛车手》、Maverick Games的《Clutch》、Kyle Thompson的《Well Dweller》、Dark Star Games的《DABA: Land of Water》，并成为PlayStation中国之星计划战略伙伴。</p><p><small>来源：<a href="https://www.gamesindustry.biz/investment-firm-denmu-closes-oversubscribed-debut-fund-surpassing-50-million-target">GamesIndustry</a></small></p><p><small>原文发布：2026-11-06 00:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>996传奇盒子《千鸿沉默》命格与流派玩法介绍</title>
-  <link>https://www.gameres.com/901203468.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-433e43cfd3db87f9f86633d3</guid>
-  <pubDate>Thu, 05 Nov 2026 00:53:00 +0000</pubDate>
+  <title>Sensor Tower：GTA 6预购量近800万，74%来自PS5</title>
+  <link>https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-almost-reach-8m-74-bought-on-playstation-5</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-84bec9138ff726b889b31c3c</guid>
+  <pubDate>Thu, 05 Nov 2026 14:13:50 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>介绍《千鸿沉默》1.85沉默微变单职业版本的命格系统与三大陆流派选择：命格令牌可刷新并保底SSS，部分命格有代价或羁绊条件；剑宗、狂战、血战、无极四条路线各有技能侧重，可重选并按规则返还材料。</p><p><small>来源：<a href="https://www.gameres.com/901203468.html">GameRes</a></small></p><p><small>原文发布：2026-11-05 08:53（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5</small></p><p>Sensor Tower数据显示，《GTA 6》预购量达771万份，预估总收入7.51亿美元；PS5版占74%，Xbox Series X|S版占26%。此前该公司还称89%预购为100美元终极版。</p><p><small>来源：<a href="https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-almost-reach-8m-74-bought-on-playstation-5">GamesIndustry</a></small></p><p><small>原文发布：2026-11-05 22:13（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>手绘解谜游戏《Escape the Baby Alarm》以婴儿监视器为舞台</title>
-  <link>https://80.lv/articles/this-cozy-parenting-game-looks-like-thank-goodness-you-re-here-plays-like-a-little-to-the-left/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ab45be723a2206a208da4b2c</guid>
-  <pubDate>Wed, 04 Nov 2026 19:30:00 +0000</pubDate>
+  <title>《Dressmaker》开发者谈女性玩家市场与设计取舍</title>
+  <link>https://www.gamesindustry.biz/its-such-a-massively-underserved-market-in-the-gaming-industry-the-creators-of-dressmaker-on-why-more-games-should-be-aimed-at-women</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-16b6c95d1510f9423df649fc</guid>
+  <pubDate>Thu, 05 Nov 2026 13:15:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This Cozy Parenting Game Looks Like Thank Goodness You&#x27;re Here! &amp; Plays Like A Little to the Left</small></p><p>80.lv 报道独立开发者 Julie Normann Bjørnskov 的手绘解谜游戏《Escape the Baby Alarm》，玩家进入婴儿监视器内部，在育儿场景中完成找牙膏、找鞋、处理育儿建议等谜题，Steam 上有试玩版。</p><p><small>来源：<a href="https://80.lv/articles/this-cozy-parenting-game-looks-like-thank-goodness-you-re-here-plays-like-a-little-to-the-left/">80.lv</a></small></p><p><small>原文发布：2026-11-05 03:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：&quot;It&#x27;s such a massively underserved market in the gaming industry&quot; – The creators of Dressmaker on why more games should be aimed at women</small></p><p>《Dressmaker》由Free Lives开发，2026年9月21日登陆Steam，Video Game Insights估算销量超48.2万份，首日最高同时在线近8000，第14天超4.3万，且基本未做付费营销。开发者称其面向通常不玩游戏的女性玩家。</p><p><strong>背景与变化</strong><br>作者通过开发者访谈呈现其判断：先为特定个人做游戏，简化真实制衣流程，靠玩家自发分享与二创传播；并以试玩中位时长30小时、社媒粉丝85%为女性作为佐证。</p><p><strong>策划视角</strong><br>可追问：把真实手工流程简化为游戏机制时，哪些环节被保留、哪些被删去，这如何影响非玩家群体的上手与留存？</p><p><small>来源：<a href="https://www.gamesindustry.biz/its-such-a-massively-underserved-market-in-the-gaming-industry-the-creators-of-dressmaker-on-why-more-games-should-be-aimed-at-women">GamesIndustry</a></small></p><p><small>原文发布：2026-11-05 21:15（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Blender插件实现实时程序化天空与云层</title>
-  <link>https://80.lv/articles/get-this-blender-add-on-for-realistic-real-time-procedural-sky/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bbd4532c08bf21e0551c09b2</guid>
-  <pubDate>Wed, 04 Nov 2026 19:30:00 +0000</pubDate>
+  <title>触乐夜话：从《蒲公英不屈》看独立游戏的“饺子醋”</title>
+  <link>http://www.chuapp.com/article/291735.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-79604a358aa47bafb90c898e</guid>
+  <pubDate>Thu, 05 Nov 2026 12:47:18 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Get This Blender Add-On for Realistic Real-Time Procedural Sky</small></p><p>80.lv报道一款Blender插件，可生成白天、日落云层与夜空星空，支持按日期、时间、地点定位日月，云与大气对场景物体产生遮挡和阴影，高级模式开放散射、臭氧、雾等物理参数。</p><p><small>来源：<a href="https://80.lv/articles/get-this-blender-add-on-for-realistic-real-time-procedural-sky/">80.lv</a></small></p><p><small>原文发布：2026-11-05 03:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐作者介绍独立音游《蒲公英不屈》：玩家扮演蒲公英，通过光合作用生长，并在婴儿车、黑猫、醉汉等关卡中仅靠“防御”求生；流程约30分钟至1小时，售价2.99美元、国区15元。作者认为其音游操作简陋，但醉汉关的演出与荒诞叙事有趣。</p><p><strong>背景与变化</strong><br>作者以“为了醋包饺子”概括该作：醉汉关的动作与演出明显强于前两关，前半抒情、后半无厘头；作者据此认为，把一个点子做有趣也能构成不错的独立游戏，并提醒不要把它当正经音游。</p><p><strong>策划视角</strong><br>可比较三个Boss关的动作设计与演出投入，思考“单点趣味”在短流程独立游戏中能支撑到什么程度，以及音游框架与叙事演出错位时玩家为何仍愿给出好评。</p><p><small>来源：<a href="http://www.chuapp.com/article/291735.html">触乐</a></small></p><p><small>原文发布：2026-11-05 20:47（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>分析：2000年以来被收购游戏工作室约三分之一已关闭</title>
-  <link>https://www.gamesindustry.biz/analysis-one-in-three-acquired-game-studios-has-been-shut-down-since-2000</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3bae626b6c3335d87cb6e6ad</guid>
-  <pubDate>Wed, 04 Nov 2026 18:56:00 +0000</pubDate>
+  <title>奥特曼回应其PC内存言论引发的争议</title>
+  <link>https://80.lv/articles/openai-ceo-sam-altman-responds-to-backlash-over-his-comments-on-pc-ram/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9a067742ed153634f912ac81</guid>
+  <pubDate>Thu, 05 Nov 2026 12:44:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Analysis: one in three acquired game studios has been shut down since 2000</small></p><p>一项对2000年以来被大公司收购的303家PC与主机游戏工作室的分析称，约三分之一已被完全关闭，其中一半在收购后五年内关闭；收购方是谁最能预测工作室命运，且2023年以来关闭数量明显增加。</p><p><small>来源：<a href="https://www.gamesindustry.biz/analysis-one-in-three-acquired-game-studios-has-been-shut-down-since-2000">GamesIndustry</a></small></p><p><small>原文发布：2026-11-05 02:56（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：OpenAI CEO Sam Altman Responds to Backlash Over His Comments on PC RAM</small></p><p>OpenAI CEO奥特曼在Cheeky Pint采访中称，全球DRAM短缺下让大量内存闲置在个人电脑中利用率低，云端的最大化利用更合理，此番言论遭到游戏与科技社区批评，马斯克也加入。奥特曼随后在X上称言论被断章取义，表示希望世界拥有大量内存、人们可随意装机，并称自己长期主张扩大内存生产。</p><p><small>来源：<a href="https://80.lv/articles/openai-ceo-sam-altman-responds-to-backlash-over-his-comments-on-pc-ram/">80.lv</a></small></p><p><small>原文发布：2026-11-05 20:44（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>游戏完成后如何用数据与社区建立玩家信任</title>
-  <link>https://80.lv/articles/building-your-game-is-only-the-beginning-now-you-need-player-trust/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b0e9db5c363e2efeaa70a03f</guid>
-  <pubDate>Wed, 04 Nov 2026 18:45:00 +0000</pubDate>
+  <title>2026游戏金狮案例征集与创新成果交流活动在上海举行</title>
+  <link>https://www.gameres.com/901203483.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-53dc5b4d956288e8e4887391</guid>
+  <pubDate>Thu, 05 Nov 2026 10:01:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Building Your Game is Only the Beginning—Now You Need Player Trust</small></p><p>文章讨论游戏开发完成后如何获得玩家信任与增长，提出把数据当作对话而非结论、通过游戏角色在Discord等社区持续互动收集反馈，并强调清晰说明游戏独特之处、主动联系主播与玩家社区。</p><p><strong>背景与变化</strong><br>作者主张数据可能因切分方式误导，需与玩家真实反馈对照；引用Xsolla增长营销负责人Andrew Jennings关于ROAS优先于CPI等指标的观点；并提醒AI角色不应替代社区经理或设计师。</p><p><strong>策划视角</strong><br>可考察文中AI角色收集的对话反馈与留存数据之间如何建立可验证的对应关系，而非仅凭作者叙述。</p><p><small>来源：<a href="https://80.lv/articles/building-your-game-is-only-the-beginning-now-you-need-player-trust/">80.lv</a></small></p><p><small>原文发布：2026-11-05 02:45（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>上海市网络游戏行业协会主办的2026游戏金狮活动11月5日在上海举行，案例征集收到88个案例、评出23个优秀案例，新设面向全球的“金狮·新锐”方向收到286个案例、选出12个入册案例，并联合徐汇、静安、杨浦三区启动共创孵化。</p><p><small>来源：<a href="https://www.gameres.com/901203483.html">GameRes</a></small></p><p><small>原文发布：2026-11-05 18:01（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Valve称Steam审核变慢，或与AI游戏提交量激增有关</title>
-  <link>https://www.gamedeveloper.com/business/valve-warns-of-slower-steam-approval-process-due-to-flood-of-new-games</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1e93fe2bb40ece89a2818c6d</guid>
-  <pubDate>Wed, 04 Nov 2026 16:50:48 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Valve warns of slower Steam approvals, possibly due to AI game surge</small></p><p>Valve在博客中确认Steam商店页与游戏构建审核出现延迟，称通常3至5天完成，目前最长需12个工作日，主因是需反复重审；Valve未直接说明原因，仅提到近期提交量显著增加。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/valve-warns-of-slower-steam-approval-process-due-to-flood-of-new-games">Game Developer</a></small></p><p><small>原文发布：2026-11-05 00:50（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>《称量愿望单》：一场独立游戏发行谜案</title>
-  <link>http://www.chuapp.com/article/291734.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e0f3506a4656e32f8d0aa7b4</guid>
+  <title>触乐夜话：二次元聚会为何总选纯K</title>
+  <link>http://www.chuapp.com/article/291732.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9505df92e1901cbd1fe55df9</guid>
   <pubDate>Wed, 04 Nov 2026 11:05:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐发布文章《称量愿望单》：一场独立游戏发行谜案，但当前仅有标题与来源信息，没有正文摘要，无法确认文章涉及的具体游戏、发行事件或作者结论。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="http://www.chuapp.com/article/291734.html">触乐</a></small></p><p><small>原文发布：2026-11-04 19:05（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>作者以与朋友约唱K的经历为线索，回顾纯K、朗玩、DAM-K等线下KTV的二次元曲目与体验变化，并提到Switch《卡拉OK JOYSOUND》作为替代方案，最终认为纯K是少数仍满足曲目、环境、价格与经营稳定性的选择。</p><p><small>来源：<a href="http://www.chuapp.com/article/291732.html">触乐</a></small></p><p><small>原文发布：2026-11-04 19:05（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《料理鼠王》揭示的游戏行业复制困境</title>
-  <link>https://danfelder.net/2026/11/05/ratatouille-explains-the-game-industry/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d13ca8dba2fc3e104fe677c6</guid>
-  <pubDate>Thu, 05 Nov 2026 03:23:28 +0000</pubDate>
+  <title>《午夜之南》总监谈Xbox资助：担心项目随时被叫停</title>
+  <link>https://www.gamedeveloper.com/business/south-of-midnight-director-was-always-worried-about-rome-burning-at-xbox</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ddd1788b271f70cd23a98a5e</guid>
+  <pubDate>Tue, 03 Nov 2026 16:32:48 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：South of Midnight director was &#x27;always worried&#x27; about &#x27;Rome burning&#x27; at Xbox</small></p><p>《午夜之南》总监David Sears在MinnMax采访中表示，若由他掌管Xbox就不会资助这款游戏；开发期间他始终担心微软会突然停止拨款，并称Xbox当时让Compulsion等工作室以非主流作品丰富阵容的策略缺乏长期规划。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/south-of-midnight-director-was-always-worried-about-rome-burning-at-xbox">Game Developer</a></small></p><p><small>原文发布：2026-11-04 00:32（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《逃离塔科夫》制作人公布科幻射击新作《Fragmentary Order》</title>
+  <link>https://www.gcores.com/articles/221973</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7c03457b272b51a5b2c6444f</guid>
+  <pubDate>Thu, 05 Nov 2026 07:37:11 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Ratatouille explains the Game Industry</small></p><p>作者借《料理鼠王》中Colette与Linguini关于&#x27;照搬菜谱&#x27;与&#x27;做点意外之事&#x27;的对话，批评游戏行业高管为降低风险而要求团队复制成功作品的做法，主张学习成功作品中的有效部分、重做其中不佳之处。</p><p><strong>设计选择</strong><br>作者以一位产品负责人被要求照搬同类成功游戏、后来反被该游戏聘去创新的轶事为论据，区分&#x27;为变而变&#x27;与&#x27;不加思考的复制&#x27;，认为后者并不真正降低风险。</p><p><strong>策划视角</strong><br>可追问：作者&#x27;复制有效部分、重做无效部分&#x27;的主张，在具体项目中如何判断哪些部分值得复制、哪些需要重做？</p><p><small>来源：<a href="https://danfelder.net/2026/11/05/ratatouille-explains-the-game-industry/">Dan Felder</a></small></p><p><small>原文发布：2026-11-05 11:23（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>Nikita Buyanov公布硬核科幻战术射击游戏《Fragmentary Order》，背景设定在2251年太阳系，玩家操控远程克隆人作战，支持四人组队。同步开启付费封闭测试预售，分44.99美元和79.99美元两档，首轮保密Alpha计划今年晚些时候开启。</p><p><strong>设计选择</strong><br>作者转述制作人关于打造可长期游玩世界的表述，并列出付费测试档位权益、折扣规则与工作室规模计划，属于产品公布信息整理，未涉及玩法验证。</p><p><strong>策划视角</strong><br>可关注付费封闭测试的档位设计与“长期可玩”目标之间的关系：预售权益如何对应开发阶段，以及这类付费测试模式对玩家参与门槛的影响。</p><p><small>来源：<a href="https://www.gcores.com/articles/221973">机核</a></small></p><p><small>原文发布：2026-11-05 15:37（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>机核专访《妖怪克星 纳比之介》制作人：20年后重制GBA时代RPG</title>
-  <link>https://www.gcores.com/articles/221968</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-51cc915189e5eae3359c49dd</guid>
-  <pubDate>Thu, 05 Nov 2026 06:45:23 +0000</pubDate>
+  <title>《战术小队：破晓攻势》发行制作人谈硬核门槛与老带新</title>
+  <link>http://www.chuapp.com/article/291738.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-349ddf68dd083c14c9c6a776</guid>
+  <pubDate>Thu, 05 Nov 2026 12:50:00 +0000</pubDate>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>机核在TGS2026试玩并采访KOHACHI STUDIO制作人关，该团队由原《合金弹头》成员组成，正将2003年未发售、数据残缺的妖怪RPG《妖怪克星 纳比之介》重新构建，补充动画并针对现代设备调整画面与玩法。</p><p><strong>设计选择</strong><br>作者以试玩体验切入，围绕移植难点、妖怪设计来源、架空世界观、像素美术取舍、收集与战斗平衡等提问；制作人说明补充动画工作量最大，调整依据团队判断与测试人员反复游玩，并称同种妖怪不可重复收服、个体数值差异不显示。</p><p><strong>策划视角</strong><br>可研究：在原始数据与设计图残缺的情况下，团队如何界定“保留原作魅力”与“现代化调整”的边界，测试反馈在平衡性决策中起什么作用。</p><p><small>来源：<a href="https://www.gcores.com/articles/221968">机核</a></small></p><p><small>原文发布：2026-11-05 14:45（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>触乐采访《战术小队：破晓攻势》发行制作人北子，介绍两次测试的规模与目标、老带新教官系统、战队营地规划，以及团队对轻量化的取舍：保留友军伤害等复杂机制，仅在门槛外做减压设计。</p><p><strong>设计选择</strong><br>作者以自身试玩被TK的经历切入，围绕硬核门槛与国服用户增长之间的矛盾提问；北子以测试数据、社区活跃度和同品类对比为立项依据，并说明简化方案在内部测试中效果不佳。</p><p><strong>策划视角</strong><br>可追问：以“老带新”替代系统化新手引导，如何衡量其覆盖率与留存效果，而非仅依赖战队招新需求？</p><p><small>来源：<a href="http://www.chuapp.com/article/291738.html">触乐</a></small></p><p><small>原文发布：2026-11-05 20:50（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《星球大战：银河赛车》高速动画制作方法</title>
-  <link>https://80.lv/articles/behind-the-animation-of-star-wars-galactic-racer-s-high-speed-chaos/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-da18bc73fb20f7ab26a5227e</guid>
-  <pubDate>Thu, 05 Nov 2026 01:37:00 +0000</pubDate>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Behind the Animation of Star Wars: Galactic Racer’s High-Speed Chaos</small></p><p>80.lv采访Fuse Games动画总监Andy Miller，介绍团队如何用物理驱动动画、表演捕捉、关键帧、快速预演及非常规参考素材，在时速700公里的竞速中呈现车辆物理与角色反馈。</p><p><strong>设计选择</strong><br>作者归纳的具体取舍：动画系统直接绑定车辆物理与输入，用共享动画蓝图加角色子蓝图兼顾反馈一致性与角色差异；高速时克制角色化动作，把细节留给撞车等低认知负荷时刻。</p><p><strong>策划视角</strong><br>可研究共享动画蓝图与角色子蓝图的分层结构，如何在不牺牲输入反馈清晰度的前提下容纳多肢体、触须等差异化角色。</p><p><small>来源：<a href="https://80.lv/articles/behind-the-animation-of-star-wars-galactic-racer-s-high-speed-chaos/">80.lv</a></small></p><p><small>原文发布：2026-11-05 09:37（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>OpenAI宣布收购Pierre Computer Company</title>
-  <link>https://openai.com/index/openai-to-acquire-pierre</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-04d6f3d5c083e2ffd528ccd1</guid>
-  <pubDate>Wed, 04 Nov 2026 14:30:00 +0000</pubDate>
+  <title>Cult.fit 用 Codex 构建跨职能工具</title>
+  <link>https://openai.com/index/cultfit-builds-with-codex</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4ec4bddd7d55870e6f7b9eed</guid>
+  <pubDate>Thu, 05 Nov 2026 20:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：OpenAI to acquire Pierre Computer Company, Inc.</small></p><p>OpenAI宣布将收购Pierre Computer Company，以扩展Codex在代码构建、理解和审查方面的工具能力。材料未披露交易金额、时间表或具体产品整合细节。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/openai-to-acquire-pierre">OpenAI</a></small></p><p><small>原文发布：2026-11-04 22:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Cult.fit builds operational muscle with Codex</small></p><p>OpenAI 称，Cult.fit 正在使用 Codex 帮助不同职能的团队构建工具、加快工作速度，并改变工作方式。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/cultfit-builds-with-codex">OpenAI</a></small></p><p><small>原文发布：2026-11-06 04:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Daybreak Red在AWS GovCloud（美国东部）上线</title>
-  <link>https://openai.com/index/daybreak-red-aws-govcloud</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-cad389ce847b9c0c4c505378</guid>
-  <pubDate>Wed, 04 Nov 2026 07:00:00 +0000</pubDate>
+  <title>OpenAI发布GPT-6 Cyber网络安全模型</title>
+  <link>https://openai.com/index/introducing-gpt-6-cyber</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f415a9adde94ba1a12500e67</guid>
+  <pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Daybreak Red is now available in AWS GovCloud (US-East)</small></p><p>据OpenAI消息，Daybreak Red通过Amazon Bedrock向AWS GovCloud（美国东部）的获批客户提供GPT-5.6 Cyber，用于获授权的网络安全工作。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/daybreak-red-aws-govcloud">OpenAI</a></small></p><p><small>原文发布：2026-11-04 15:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents</small></p><p>OpenAI发布GPT-6 Cyber网络安全模型，称其用于发现可利用漏洞并开发修复方案，训练中要求其活动限定在授权范围内。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/introducing-gpt-6-cyber">OpenAI</a></small></p><p><small>原文发布：2026-11-05 17:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>GPT-Image-2.6全量上线：支持GIF与SVG导出</title>
-  <link>https://www.qbitai.com/2026/11/507707.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2c10574db4853eeb8e864b74</guid>
-  <pubDate>Thu, 05 Nov 2026 01:59:37 +0000</pubDate>
+  <title>Phonon TTS：端侧语音模型发布与基准表现</title>
+  <link>https://huggingface.co/blog/phonon-tts</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-82dc0422df22be9429a6c421</guid>
+  <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>量子位报道称，GPT-Image-2.6已在ChatGPT、Codex和API全量上线，整体生成时间缩短50%、最快6秒出图，原生支持GIF动图与SVG矢量导出；API新增complexity参数，将场景规划与画质渲染拆开控制。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/507707.html">量子位</a></small></p><p><small>原文发布：2026-11-05 09:59（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.</small></p><p>Gradium发布端侧文本转语音模型Phonon，含约65MB与75MB两个版本，支持英法德西葡五种语言和100多种内置音色，31m版本以Apache 2.0开放权重，并介绍了其在Hugging Face开放TTS榜单上的可懂度与速度表现。</p><p><small>来源：<a href="https://huggingface.co/blog/phonon-tts">HuggingFace Blog</a></small></p><p><small>原文发布：2026-11-05 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>datasette-llm 0.1a10 修复模型配置限制问题</title>
-  <link>https://simonwillison.net/2026/Nov/4/datasette-llm/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3351c1e96eb4ac25a5d3448f</guid>
-  <pubDate>Wed, 04 Nov 2026 15:26:02 +0000</pubDate>
+  <title>Datasette Agent 0.5a0 发布：新增侧边聊天面板</title>
+  <link>https://simonwillison.net/2026/Nov/3/datasette-agent/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3d0314b8651b8191fa334d2c</guid>
+  <pubDate>Tue, 03 Nov 2026 23:13:45 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：datasette-llm 0.1a10</small></p><p>Simon Willison 发布 datasette-llm 0.1a10，修复了影响其 agent.datasette.io 演示站点的缺陷：可用 LLM 模型集合此前未被正确限制为配置中指定的模型。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/4/datasette-llm/">Simon Willison</a></small></p><p><small>原文发布：2026-11-04 23:26（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：datasette-agent 0.5a0</small></p><p>Simon Willison 发布 Datasette Agent 0.5a0，新增 panel 功能，让智能体聊天窗口与 Datasette 的表页、查询页并排显示；结合 datasette-apps 后，可在聊天中生成并修改数据库驱动的应用。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/3/datasette-agent/">Simon Willison</a></small></p><p><small>原文发布：2026-11-04 07:13（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Datasette Apps 0.3a0 改进与 Datasette Agent 的集成</title>
-  <link>https://simonwillison.net/2026/Nov/4/datasette-apps/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c1ec3ea38bb548305c1220c4</guid>
-  <pubDate>Wed, 04 Nov 2026 00:29:36 +0000</pubDate>
+  <title>LLM 0.37.1 发布：修复缺陷的版本更新</title>
+  <link>https://simonwillison.net/2026/Nov/3/llm/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d32a80d1840294ad56f400fb</guid>
+  <pubDate>Tue, 03 Nov 2026 21:41:42 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：datasette-apps 0.3a0</small></p><p>Datasette Apps 0.3a0 版本支持在 Datasette 内托管和编辑自定义 HTML 应用，并改进了与 Datasette Agent 的集成：在聊天中用 # 引用应用、新增管理应用可调用存储查询的工具，以及创建应用时校验查询权限并要求用户批准写查询。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/4/datasette-apps/">Simon Willison</a></small></p><p><small>原文发布：2026-11-04 08:29（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：llm 0.37.1</small></p><p>Simon Willison 发布 LLM 0.37.1，这是一个修复缺陷的版本，贡献者包括 Steven Huang、Tao An、Arjan Mossel 和 XQ。材料未列出具体修复内容。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/3/llm/">Simon Willison</a></small></p><p><small>原文发布：2026-11-04 05:41（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>
