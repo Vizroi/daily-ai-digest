@@ -1,22 +1,4 @@
 {
-  "80b94b021b2f4092": {
-    "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
-    "first_seen": "2026-10-06",
-    "times": 2,
-    "last_seen": "2026-10-07"
-  },
-  "afaee41fd649f004": {
-    "title": "Our approach to EU text provenance rules",
-    "first_seen": "2026-10-06",
-    "times": 2,
-    "last_seen": "2026-10-07"
-  },
-  "cf1cd2c0d3121230": {
-    "title": "How do I get a non-photorealistic, \"classic game\" lighting look in UE5.7 while keeping fully dynamic lighting?",
-    "first_seen": "2026-10-06",
-    "times": 2,
-    "last_seen": "2026-10-07"
-  },
   "110baf0b06eced0a": {
     "title": "Introducing Mistral Large 4: Le chonk",
     "first_seen": "2026-10-07",
@@ -34,42 +16,6 @@
     "first_seen": "2026-10-07",
     "times": 2,
     "last_seen": "2026-10-08"
-  },
-  "9b8b5398e78ebcd3": {
-    "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
-    "first_seen": "2026-10-07",
-    "times": 1,
-    "last_seen": "2026-10-07"
-  },
-  "a60ea573186730f6": {
-    "title": "Anthropic reported diary entry to police, woman faces felony charge",
-    "first_seen": "2026-10-07",
-    "times": 1,
-    "last_seen": "2026-10-07"
-  },
-  "48affb1294e69ac8": {
-    "title": "How do I get MetaHuman’s eyes on my characters?",
-    "first_seen": "2026-10-07",
-    "times": 1,
-    "last_seen": "2026-10-07"
-  },
-  "083472ba9586aaff": {
-    "title": "Artist Develops Unreal Engine Plug-In for Real-Time Light & Shadow Painting",
-    "first_seen": "2026-10-07",
-    "times": 1,
-    "last_seen": "2026-10-07"
-  },
-  "14cdc56a16c3fee2": {
-    "title": "Last Week In Unreal: 1,065 commits on ue6-main; 123 on ue5-main | MSVC 14.51 got preferred, then banned",
-    "first_seen": "2026-10-07",
-    "times": 1,
-    "last_seen": "2026-10-07"
-  },
-  "c98b6e006ace4c88": {
-    "title": "Need help with metahuman running on android",
-    "first_seen": "2026-10-07",
-    "times": 1,
-    "last_seen": "2026-10-07"
   },
   "1f6f69d53a55b429": {
     "title": "Why we built Unity Spark",
@@ -4292,6 +4238,180 @@
     "last_seen": "2026-11-06",
     "urls": [
       "https://simonwillison.net/2026/Nov/3/llm"
+    ]
+  },
+  "888080c50aeb5464": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Breakdown: Creating KPop Demon Hunters' Airplane Sequence",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://80.lv/articles/breakdown-creating-kpop-demon-hunters-airplane-sequence"
+    ]
+  },
+  "83bb499afaab5dec": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Report: Silver Lake and the Saudi Arabia PIF hold talks with Unity to explore acquisition",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://80.lv/articles/silver-lake-pif-are-reportedly-talking-about-buying-unity",
+      "https://www.gamedeveloper.com/business/silver-lake-and-the-saudi-arabia-pif-hold-talks-with-unity-to-explore-acquisition",
+      "https://www.gamesindustry.biz/unity-reportedly-in-acquisition-talks-with-silver-lake-and-public-investment-fund-two-firms-involved-in-eas-55bn-buyout"
+    ]
+  },
+  "ed72c76de347e7ca": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "从“资金支持”到“全球发行”：索尼“中国之星计划”第四期媒体群访",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "http://www.chuapp.com/article/291733.html",
+      "https://www.gcores.com/articles/222020"
+    ]
+  },
+  "41e674b463f08f94": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Our new XR e-book is here: Build XR with Unity: Meta XR",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://unity.com/blog/our-new-xr-e-book-is-here-build-xr-with-unity:-meta-xr"
+    ]
+  },
+  "92f07d80312bde25": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "How SEED renders a world players never stop building",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://unity.com/blog/seed-unity-rendering-performance"
+    ]
+  },
+  "af5d56acb9d6b3f4": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "共赴新局！《金铲铲之战》发布2027电竞升级计划，PC版下赛季见",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://www.gameres.com/901203494.html"
+    ]
+  },
+  "2e62a5f6ccd8ecb1": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Mobile Game Gatekeepers Are Opening the Gates",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://80.lv/articles/mobile-game-gatekeepers-are-opening-the-gates"
+    ]
+  },
+  "a04b8d2e16d3312e": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "This Forgotten Classic D&D RPG Was Revived Without Source Code or Tools",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://80.lv/articles/this-forgotten-classic-d-d-rpg-was-revived-without-source-code-or-tools"
+    ]
+  },
+  "5c47b826a6f2d582": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Elections signal cultural shifts that no creative industry can dare to ignore | Opinion",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://www.gamesindustry.biz/elections-signal-cultural-shifts-that-no-creative-industry-can-dare-to-ignore-opinion"
+    ]
+  },
+  "9f700675500a6e12": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Sony insists its next-generation console plans are still on schedule",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://www.gamedeveloper.com/console/sony-insists-next-generation-consoles-are-still-on-schedule-in-new-financial-report"
+    ]
+  },
+  "cc58a604bab41482": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Jobs roundup: November | Nordisk Games appoints Stefanía Halldórsdóttir as CEO and Ásgeir Kröyer as CFO",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://www.gamesindustry.biz/jobs-roundup-november-nordisk-games-appoints-stefania-halldorsdottir-as-ceo-and-asgeir-kroyer-as-cfo"
+    ]
+  },
+  "33feb3e228fb0439": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Sega Q2 results exceed expectations, driven by surge in operating income for pachislot and pachinko machines",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://www.gamesindustry.biz/sega-q2-results-exceed-expectations-driven-by-surge-in-operating-income-for-pachislot-and-pachinko-machines"
+    ]
+  },
+  "6652e410a75eafe0": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "在AI战争中幸存的策划",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "http://www.chuapp.com/article/291741.html"
+    ]
+  },
+  "389ef1def1d11a17": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "《烈酒荒野》将于11月6日结束抢先体验",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://www.gcores.com/articles/222019"
+    ]
+  },
+  "19020b711b620869": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "好的游戏PV，是优先展示玩法还是营造情绪？",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://indienova.com/indie-game-development/thoughts-on-game-trailers"
+    ]
+  },
+  "35f9f59dbb21c19e": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Measuring how AI agents handle everyday wet-lab science",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+    ]
+  },
+  "1a9232941bd96623": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Merge builds product and business tools with OpenAI technology",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://openai.com/index/merge-builds-with-openai"
+    ]
+  },
+  "72b59a4dee3f08b2": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "Quoting Nilay Patel",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/6/nilay-patel"
+    ]
+  },
+  "c9ee357a4cab1974": {
+    "first_seen": "2026-11-07",
+    "times": 1,
+    "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
+    "last_seen": "2026-11-07",
+    "urls": [
+      "https://www.qbitai.com/2026/11/507967.html"
     ]
   }
 }
