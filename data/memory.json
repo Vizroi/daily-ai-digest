@@ -1,27 +1,9 @@
 {
-  "110baf0b06eced0a": {
-    "title": "Introducing Mistral Large 4: Le chonk",
-    "first_seen": "2026-10-07",
-    "times": 2,
-    "last_seen": "2026-10-08"
-  },
   "40b33394b9737622": {
     "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
     "first_seen": "2026-10-07",
     "times": 3,
     "last_seen": "2026-10-09"
-  },
-  "ea41ae0491d5058a": {
-    "title": "Sharing AI progress in mathematics",
-    "first_seen": "2026-10-07",
-    "times": 2,
-    "last_seen": "2026-10-08"
-  },
-  "1f6f69d53a55b429": {
-    "title": "Why we built Unity Spark",
-    "first_seen": "2026-10-08",
-    "times": 1,
-    "last_seen": "2026-10-08"
   },
   "637671cbca0bc909": {
     "title": "Claude Haiku 5.5",
@@ -29,23 +11,11 @@
     "times": 3,
     "last_seen": "2026-10-10"
   },
-  "926f0400c4cb0bd6": {
-    "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-    "first_seen": "2026-10-08",
-    "times": 1,
-    "last_seen": "2026-10-08"
-  },
   "db12c103e078455a": {
     "title": "Multimodal open d1 decision models for the edge",
     "first_seen": "2026-10-08",
     "times": 2,
     "last_seen": "2026-10-09"
-  },
-  "3e3591c18feb4a8a": {
-    "title": "Helping teens learn, plan, and shape the future of AI",
-    "first_seen": "2026-10-08",
-    "times": 1,
-    "last_seen": "2026-10-08"
   },
   "355933bb8fd95097": {
     "title": "My first Unreal Engine game. I made a trailer!",
@@ -4412,6 +4382,132 @@
     "last_seen": "2026-11-07",
     "urls": [
       "https://www.qbitai.com/2026/11/507967.html"
+    ]
+  },
+  "a0cf7082c50e828d": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "触乐本周行业大事：《影之刃零》72小时销量破400万，《星布谷地》定档，《物华弥新》运营生变",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "http://www.chuapp.com/article/291740.html"
+    ]
+  },
+  "479ba8ec66a903f7": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "共筑全场景游戏新生态！咪咕游戏发布生态共建计划",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://www.gameres.com/901203495.html"
+    ]
+  },
+  "49f76aaad4db10e1": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "How VALORANT's Hush Was Animated Using Spine 2D & After Effects",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://80.lv/articles/how-valorant-s-hush-was-animated-using-spine-2d-after-effects"
+    ]
+  },
+  "f79a168dec956f0e": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "Wētā FX Reveals Its Visual Effects Work For Disney's Live-Action Moana",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://80.lv/articles/w-t-fx-reveals-its-visual-effects-work-for-disney-s-live-action-moana"
+    ]
+  },
+  "4ef97875bbf11fb7": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "日活百万的最新游戏｜机事本11.1-11.6",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://www.gcores.com/articles/222014"
+    ]
+  },
+  "991a52f131bdc322": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "Unity reports \"strongest ever\" Q3 results driven by its AI-powered ad network Vector",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://www.gamesindustry.biz/unity-reports-strongest-ever-q3-results-driven-by-its-ai-powered-ad-network-vector"
+    ]
+  },
+  "5ed5d7ce8362a2b6": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "“在黑暗中安全完成任务” 独立恐怖游戏《The Maze: In Dark》正式登陆 Steam",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://www.gameres.com/901203493.html"
+    ]
+  },
+  "97283c1ea5e27f78": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "沐瞳亮相第九届进博会，展现中国游戏IP出海新形态正文",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://www.gameres.com/901203492.html"
+    ]
+  },
+  "b886c9d7508ab9f8": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "How to get investment for your video game in 2026",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://www.gamesindustry.biz/how-to-get-investment-for-your-video-game-in-2026"
+    ]
+  },
+  "f50558d410d0d568": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "IGN Entertainment promotes Alex Simmons to lead editorial across its portfolio, with Wesley Yin-Poole overseeing IGN",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://www.gamesindustry.biz/ign-entertainment-promotes-alex-simmons-to-lead-editorial-across-its-portfolio-with-wesley-yin-poole-overseeing-ign"
+    ]
+  },
+  "ecd73107588ac9e1": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "Reverse-Tutorials and How to Use Them",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://danfelder.net/2026/11/07/reverse-tutorials-and-how-to-use-them"
+    ]
+  },
+  "092ad9b3d1dff604": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "《修仙:但天道是AI》开发日志 #3:脑子、账本、过客——无状态逻辑加纯数据",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://indienova.com/u/xcexxcex/blogread/39492"
+    ]
+  },
+  "529337b86602194f": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://www.qbitai.com/2026/11/508264.html"
+    ]
+  },
+  "b8897b790ce91fae": {
+    "first_seen": "2026-11-08",
+    "times": 1,
+    "title": "AGENTS.MD，危险危险危险！！！",
+    "last_seen": "2026-11-08",
+    "urls": [
+      "https://www.qbitai.com/2026/11/508244.html"
     ]
   }
 }
