@@ -4,120 +4,104 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 10 条，策划精选 2 篇，AI 快讯 2 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 9 条，策划精选 1 篇，AI 快讯 2 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 08 Nov 2026 14:28:18 +0800</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 14:59:35 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>触乐本周行业大事：《影之刃零》72小时销量破400万等</title>
-  <link>http://www.chuapp.com/article/291740.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-de89772dd9cfb24b87047b61</guid>
-  <pubDate>Sat, 07 Nov 2026 11:05:00 +0000</pubDate>
+  <title>《深空当铺：可能是偷的》销量破百万并公布更新路线图</title>
+  <link>https://www.gcores.com/articles/222072</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5630556e2462f6c8a6c4df75</guid>
+  <pubDate>Mon, 09 Nov 2026 01:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐汇总本周游戏行业动态：《影之刃零》发售72小时全平台销量破400万份，Steam好评率由约77%升至93%；《星布谷地》定档12月4日全球公测；《物华弥新》运营主体转移引发研发方与B站纠纷；《怪物猎人：旅人》登日本iOS畅销榜第1。</p><p><small>来源：<a href="http://www.chuapp.com/article/291740.html">触乐</a></small></p><p><small>原文发布：2026-11-07 19:05（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核报道，《深空当铺：可能是偷的》销量突破百万。开发团队称将免费提供路线图中的全部更新，11月专注修复错误与优化体验，1月和4月的更新内容不止路线图所列，路线图仅覆盖未来六个月，团队承诺长期支持。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222072">机核</a></small></p><p><small>原文发布：2026-11-09 09:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>咪咕游戏发布生态共建计划，推云游戏多端分发</title>
-  <link>https://www.gameres.com/901203495.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-694e19acd7245a2934fdd323</guid>
-  <pubDate>Sat, 07 Nov 2026 09:05:00 +0000</pubDate>
+  <title>《同步失控》Steam公开测试开启，同步战斗系统亮相</title>
+  <link>https://www.gcores.com/articles/222099</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fcd8c5b6d4de367e66aec8dd</guid>
+  <pubDate>Mon, 09 Nov 2026 06:53:12 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>咪咕游戏在2026移动网络大会期间发布生态共建计划，宣布以“云+下载”双模式通过PC客户端和Web版分发主机游戏，并联合朝夕光年、灵游坊等企业，向电视、车企、网吧等渠道提供SDK接入与分成机制。</p><p><small>来源：<a href="https://www.gameres.com/901203495.html">GameRes</a></small></p><p><small>原文发布：2026-11-07 17:05（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Komisoft开发、Crytivo发行的同步战斗恐怖角色扮演游戏《同步失控》在Steam开启公开测试，玩家可免费试玩最新版本。游戏设定在赛博末世都市，玩家率抵抗小队对抗巨型企业，核心玩法为提前排布全队走位、攻击与技能后与敌人同时执行，并用现实扫描仪识破伪装。</p><p><small>来源：<a href="https://www.gcores.com/articles/222099">机核</a></small></p><p><small>原文发布：2026-11-09 14:53（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《无畏契约》Hush动画制作：Spine 2D与After Effects流程</title>
-  <link>https://80.lv/articles/how-valorant-s-hush-was-animated-using-spine-2d-after-effects/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d672db874e7017a41362c29f</guid>
-  <pubDate>Fri, 06 Nov 2026 15:29:00 +0000</pubDate>
+  <title>《质量效应2》动画师公开前Alpha阶段过场动画预告</title>
+  <link>https://80.lv/articles/mass-effect-2-animator-shares-pre-alpha-cinematics-trailer/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7c5c5af2a1fbd5e90a94aea7</guid>
+  <pubDate>Mon, 09 Nov 2026 06:44:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How VALORANT&#x27;s Hush Was Animated Using Spine 2D &amp; After Effects</small></p><p>80 Level介绍动画师Seter MD为《无畏契约》第31位特工Hush制作动画的工作：角色动作在Spine 2D中绑定与制作，武器和背景特效在After Effects中完成，背景视觉结合了Fractal Noise、CC Vector Blur与Cartoon效果。</p><p><small>来源：<a href="https://80.lv/articles/how-valorant-s-hush-was-animated-using-spine-2d-after-effects/">80.lv</a></small></p><p><small>原文发布：2026-11-06 23:29（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Mass Effect 2 Animator Shares Never-Before-Seen Pre-Alpha Cinematics Trailer</small></p><p>曾参与《质量效应2》的动画师Jonathan Cooper在N7 Day公开了一段此前未展示的BioWare蒙特利尔内部预告片，用于展示团队制作的过场动画，并说明部分场景制作方式。</p><p><small>来源：<a href="https://80.lv/articles/mass-effect-2-animator-shares-pre-alpha-cinematics-trailer/">80.lv</a></small></p><p><small>原文发布：2026-11-09 14:44（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Wētā FX公布迪士尼真人版《海洋奇缘》视效制作</title>
-  <link>https://80.lv/articles/w-t-fx-reveals-its-visual-effects-work-for-disney-s-live-action-moana/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dd688cda66e2acd5dcf2cbe5</guid>
+  <title>《鼠大厨：越狱》上线Steam商城页面</title>
+  <link>https://www.gcores.com/articles/222095</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2c542fe8089245a57e778a01</guid>
+  <pubDate>Mon, 09 Nov 2026 05:47:02 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>受20世纪30年代经典动画启发、由Paiband Game Studio开发的越狱题材游戏《鼠大厨：越狱》已上线Steam商城页面。玩家扮演监狱囚犯，用一把勺子挖掘通道，同时承担白天当厨师的工作，围绕挖掘、烹饪、战斗和探索展开第一人称越狱体验。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222095">机核</a></small></p><p><small>原文发布：2026-11-09 13:47（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>GameRes统计11月9日至15日共23款游戏开测</title>
+  <link>https://www.gameres.com/901203498.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-942b84a2bcc9ac3aa070d24d</guid>
+  <pubDate>Mon, 09 Nov 2026 01:54:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>GameRes游资网统计，2026年11月9日至15日共有23款游戏开测；其中11月13日无疆工作室自研MMORPG《烽烟破晓》公测，主打无氪金特权、靠实力获取资源。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gameres.com/901203498.html">GameRes</a></small></p><p><small>原文发布：2026-11-09 09:54（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《深空当铺》50万份销量背后的设计方法分析</title>
+  <link>https://www.gameres.com/901203497.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-79fada31249a3a3d1b0faf09</guid>
+  <pubDate>Mon, 09 Nov 2026 01:43:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>GameRes文章以《深空当铺：可能是偷的》一周50万份销量、97%好评率为引，分析其先用低买高卖基础经营建立认知、再引入高风险违禁品生意的渐进设计，并与《尼瓦利斯之夜》的信息过载作对比，还借《Pathfinder》变体战士说明克制式系统扩展。</p><p><strong>背景与变化</strong><br>作者认为该作先以最小化原型教学，再在核心循环上叠加风险与利润更高的要素，并用柜台容量、每日顾客数等限制控制复杂度膨胀；对比《尼瓦利斯之夜》说明缺乏节制会让玩家难以判断优先级。</p><p><strong>策划视角</strong><br>可研究：在经营模拟中，如何用容量与回合节奏限制复杂系统的释放速度，使新增机制既带来涌现体验又不造成认知过载？</p><p><small>来源：<a href="https://www.gameres.com/901203497.html">GameRes</a></small></p><p><small>原文发布：2026-11-09 09:43（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《崩坏：星穹铁道》公益行动第三站聚焦心理健康</title>
+  <link>https://www.gameres.com/901203496.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d0da2e7a6e263fe12582dc49</guid>
+  <pubDate>Mon, 09 Nov 2026 01:35:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《崩坏：星穹铁道》公益企划「齐乐绒绒大冒险」第三站以心理健康为主题，项目组向北京尚善公益基金会捐赠100万元，用于公益心理咨询与心理健康科普，并联合10余家民间抗郁组织计划开展600场疗愈活动，预计服务12000人次。</p><p><small>来源：<a href="https://www.gameres.com/901203496.html">GameRes</a></small></p><p><small>原文发布：2026-11-09 09:35（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>加拿大议会请愿书获足够签名，要求政府介入拯救BioWare</title>
+  <link>https://80.lv/articles/petition-asking-canada-to-save-bioware-gets-enough-signatures-for-parliament/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3ff971005f32f61947771a9e</guid>
   <pubDate>Fri, 06 Nov 2026 12:27:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Wētā FX Reveals Its Visual Effects Work For Disney&#x27;s Live-Action Moana</small></p><p>Wētā FX发布视效花絮，展示其为2026年迪士尼真人版《海洋奇缘》制作的环境、海洋效果及Te Kā、Te Fiti等神话角色，并介绍熔岩形态中模拟与手动动画结合的做法。</p><p><small>来源：<a href="https://80.lv/articles/w-t-fx-reveals-its-visual-effects-work-for-disney-s-live-action-moana/">80.lv</a></small></p><p><small>原文发布：2026-11-06 20:27（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Petition Asking Canada to Save BioWare Gets Enough Signatures for Parliament</small></p><p>一份编号e-7898的电子请愿书由不列颠哥伦比亚省本拿比的Brendan Routh发起，呼吁加拿大政府为被EA关闭的BioWare提供资金以保障其独立性和知识产权，请愿书已获2732个签名，超过议会受理所需的500个有效签名门槛。</p><p><small>来源：<a href="https://80.lv/articles/petition-asking-canada-to-save-bioware-gets-enough-signatures-for-parliament/">80.lv</a></small></p><p><small>原文发布：2026-11-06 20:27（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>机核编辑周记：DeepSeek Harness日活数据与《卡片召唤师》《影之刃零》体验</title>
-  <link>https://www.gcores.com/articles/222014</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3abeea45c04ace2397c42a92</guid>
-  <pubDate>Fri, 06 Nov 2026 10:40:49 +0000</pubDate>
+  <title>触乐分析《影之刃零》Steam在线与评测数据</title>
+  <link>http://www.chuapp.com/article/291739.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9ac69321fcade2a14f548b1c</guid>
+  <pubDate>Fri, 06 Nov 2026 10:06:54 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核《机事本》栏目汇总多位编辑的随笔：引用DeepSeek Harness团队数据称其官方API用户日活从9月底27.1万增至11月4日154万；另有编辑介绍《卡片召唤师》系列新作《起源》及土星初代复刻，并讲述自己游玩《影之刃零》第三章时的恐怖氛围体验。</p><p><small>来源：<a href="https://www.gcores.com/articles/222014">机核</a></small></p><p><small>原文发布：2026-11-06 18:40（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐基于Steam公开数据，梳理《影之刃零》发售后的同时在线人数日内波动、各语言评测数量与好评率、差评理由及成就完成率，并说明简中评测占比过高会限制跨语言结论。</p><p><small>来源：<a href="http://www.chuapp.com/article/291739.html">触乐</a></small></p><p><small>原文发布：2026-11-06 18:06（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Unity第三季度营收6.22亿美元，AI广告网络Vector增长126%</title>
-  <link>https://www.gamesindustry.biz/unity-reports-strongest-ever-q3-results-driven-by-its-ai-powered-ad-network-vector</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9f07f85fbd43fcd085e19804</guid>
-  <pubDate>Fri, 06 Nov 2026 10:04:40 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Unity reports &quot;strongest ever&quot; Q3 results driven by its AI-powered ad network Vector</small></p><p>Unity公布2026年第三季度财报，营收6.22亿美元，同比增长32%，并实现自2020年上市以来首个GAAP盈利季度。增长主要来自AI广告网络Vector所在的Grow Solutions业务，该业务营收4.57亿美元，同比增长44%。</p><p><small>来源：<a href="https://www.gamesindustry.biz/unity-reports-strongest-ever-q3-results-driven-by-its-ai-powered-ad-network-vector">GamesIndustry</a></small></p><p><small>原文发布：2026-11-06 18:04（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>恐怖游戏《The Maze: In Dark》登陆Steam</title>
-  <link>https://www.gameres.com/901203493.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fbc7586811dbb415f3649153</guid>
-  <pubDate>Fri, 06 Nov 2026 08:01:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>韩国独立工作室Puriza Games开发的恐怖游戏《The Maze: In Dark》于2026年11月4日在Steam和STOVE发售。玩家扮演工业安保人员，在漆黑工厂中取回技术文件并撤离，需借助手电筒和声音躲避会自主活动的敌人“他”。</p><p><small>来源：<a href="https://www.gameres.com/901203493.html">GameRes</a></small></p><p><small>原文发布：2026-11-06 16:01（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>沐瞳在进博会展示MLBB漫画与授权手办</title>
-  <link>https://www.gameres.com/901203492.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f000cd3f4703a242f49fb8e9</guid>
-  <pubDate>Fri, 06 Nov 2026 07:59:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>沐瞳科技在第九届进博会展出《Mobile Legends: Bang Bang》官方IP漫画与授权迷你手办盲盒，介绍漫画进入马来西亚教育部项目、手办融合东南亚本土文化元素等IP衍生出海情况。</p><p><small>来源：<a href="https://www.gameres.com/901203492.html">GameRes</a></small></p><p><small>原文发布：2026-11-06 15:59（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>2026年游戏融资：资金来源、投资人关注点与路演要点</title>
-  <link>https://www.gamesindustry.biz/how-to-get-investment-for-your-video-game-in-2026</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-399c44ca309d4cbdd6fcc98b</guid>
-  <pubDate>Fri, 06 Nov 2026 07:55:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How to get investment for your video game in 2026</small></p><p>GamesIndustry.biz在伦敦MCM Comic Con的Game Republic投资峰会上组织专题讨论，Transcend Fund、Creative UK与Curran Games Agency的嘉宾围绕2026年游戏开发者的资金来源、投资人关注点、路演内容及Steam愿望单作用给出建议。</p><p><small>来源：<a href="https://www.gamesindustry.biz/how-to-get-investment-for-your-video-game-in-2026">GamesIndustry</a></small></p><p><small>原文发布：2026-11-06 15:55（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>IGN娱乐任命Alex Simmons为编辑副总裁，Wesley Yin-Poole负责IGN日常编辑</title>
-  <link>https://www.gamesindustry.biz/ign-entertainment-promotes-alex-simmons-to-lead-editorial-across-its-portfolio-with-wesley-yin-poole-overseeing-ign</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-83e8c25e20fecaaab6f62fce</guid>
-  <pubDate>Thu, 05 Nov 2026 12:23:50 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：IGN Entertainment promotes Alex Simmons to lead editorial across its portfolio, with Wesley Yin-Poole overseeing IGN</small></p><p>IGN娱乐宣布两项人事任命：在公司任职20年的Alex Simmons升任编辑副总裁兼集团总编辑，统管IGN.com、Eurogamer、Rock Paper Shotgun和GamesIndustry.biz等编辑品牌；Wesley Yin-Poole升任IGN执行编辑，负责美英澳全球编辑团队的日常运营。</p><p><small>来源：<a href="https://www.gamesindustry.biz/ign-entertainment-promotes-alex-simmons-to-lead-editorial-across-its-portfolio-with-wesley-yin-poole-overseeing-ign">GamesIndustry</a></small></p><p><small>原文发布：2026-11-05 20:23（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>反向教程：用禁止式提示引导玩家行为</title>
-  <link>https://danfelder.net/2026/11/07/reverse-tutorials-and-how-to-use-them/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8e614534429399f58ee12f3c</guid>
-  <pubDate>Sat, 07 Nov 2026 17:59:51 +0000</pubDate>
+  <title>开发日志：夜市只卖部队，三支合成一支</title>
+  <link>https://indienova.com/u/saveapoint/blogread/39496</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a2573030bb84712761f67b0b</guid>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Reverse-Tutorials and How to Use Them</small></p><p>作者介绍“反向教程”做法：用权威口吻禁止玩家做某事，反而激发其尝试动机。文中举例：开场警告玩家不要读书，读书人数增至三倍；告示称钓鱼违法后钓鱼行为增加；警告不要和石头说话，玩家随即去按交互键。</p><p><strong>设计选择</strong><br>作者主张把教程提示包装成专横权威的禁令，利用逆反心理；并指出善意NPC的劝阻在《星际拓荒》中效果相反，最终版改为明确禁令。</p><p><strong>策划视角</strong><br>可研究：这类禁令式引导在哪些玩家群体或叙事语境下会失效，甚至让玩家误以为该内容真的不该做？</p><p><small>来源：<a href="https://danfelder.net/2026/11/07/reverse-tutorials-and-how-to-use-them/">Dan Felder</a></small></p><p><small>原文发布：2026-11-08 01:59（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>开发者日志介绍《Midnight Cabinet》的部队系统：出征搭配全在部队卡上，无道具与装备；夜市每家店摆5张部队卡，凑齐三支同种部队即合成下一档，共33条进化链、6档、198种部队，同种族同职业还有羁绊；夜市右侧设午夜卡包机，首包免费、越抽越贵、连续4包未出好货则下包保底。</p><p><strong>设计选择</strong><br>作者把构筑资源集中在部队卡上，用品质色边框和一句话定位替代数字，并以三合一进化、羁绊和保底抽卡构成商店挑选与随机获取并存的取舍。</p><p><strong>策划视角</strong><br>可研究：在无道具装备、卡面不写数值的前提下，玩家如何判断部队强弱并规划三合一与羁绊？</p><p><small>来源：<a href="https://indienova.com/u/saveapoint/blogread/39496">indienova 会员日志</a></small></p><p><small>原文日期未标</small></p>]]></description>
 </item>
 <item>
-  <title>《修仙:但天道是AI》开发日志:无状态逻辑与纯数据服务器架构</title>
-  <link>https://indienova.com/u/xcexxcex/blogread/39492</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4734b413de9e37bf8d8438d9</guid>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>独立开发者介绍《修仙:但天道是AI》服务器架构:把世界数据与计算逻辑拆开,数据只存不主动运行,逻辑无状态、每次调用读取数据并返回新数据,以支持重启、换机与多机计算,代价是每次请求需携带数据。</p><p><strong>设计选择</strong><br>作者以进程内保存世界状态会导致重启丢局、机器满载无法迁移为由,选择无状态逻辑加纯数据,并说明通过数据瘦身控制传输成本。</p><p><strong>策划视角</strong><br>可追问:无状态逻辑下,战斗或事件裁决的随机性与一致性如何保证?数据瘦身在哪些字段上取舍?</p><p><small>来源：<a href="https://indienova.com/u/xcexxcex/blogread/39492">indienova 会员日志</a></small></p><p><small>原文日期未标</small></p>]]></description>
-</item>
-<item>
-  <title>AFK AI的Comma：单Router多Worker的Agent架构实践</title>
-  <link>https://www.qbitai.com/2026/11/508264.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b57aa8c029c12a716e70d352</guid>
-  <pubDate>Sat, 07 Nov 2026 05:01:17 +0000</pubDate>
+  <title>用details标签折叠AI生成的PR描述</title>
+  <link>https://simonwillison.net/2026/Nov/9/details-summary/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-462b613f70b348cc4a4d88e6</guid>
+  <pubDate>Mon, 09 Nov 2026 04:25:05 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>量子位报道称，硅谷华人团队AFK AI的产品Comma采用单Router加多Worker架构，支持一个主对话调度多个并行任务、跨平台接入、长期记忆与持续学习，并已开源；文章将其与DeepSeek提出的Super-agent设想作对比。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/508264.html">量子位</a></small></p><p><small>原文发布：2026-11-07 13:01（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Hide your slop PR descriptions behind</small></p><p>Simon Willison介绍自己用Claude Code、Codex等代理生成PR后，把冗长的代理撰写描述折叠进GitHub Markdown支持的details/summary标签，开头只保留一段经人工判断的简短说明和截图。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/9/details-summary/">Simon Willison</a></small></p><p><small>原文发布：2026-11-09 12:25（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>安全机构披露AGENTS.md投毒攻击链，Codex与Claude Code可被诱导执行恶意指令</title>
-  <link>https://www.qbitai.com/2026/11/508244.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-27689266fe457710254b6b17</guid>
-  <pubDate>Sat, 07 Nov 2026 03:43:55 +0000</pubDate>
+  <title>PPIO沙箱：为Personal Agent提供云端执行环境API</title>
+  <link>https://www.qbitai.com/2026/11/508174.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-642ecbeac041735fce2c276c</guid>
+  <pubDate>Fri, 06 Nov 2026 09:25:59 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>量子位报道称，Forever Security披露一种攻击方式：网页可把AGENTS.md静默写入下载目录，用户启动Codex或Claude Code后，Agent会读取该文件并按其指令修改全局配置、关闭沙箱或安装恶意依赖。文中给出成功率数字与自查命令。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/508244.html">量子位</a></small></p><p><small>原文发布：2026-11-07 11:43（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>文章介绍Personal Agent需要独立执行环境，梳理本地运行与云端自建两类方案，并介绍PPIO沙箱将云电脑封装为API，提供代码执行、隔离、快照恢复与按需创建等能力。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/508174.html">量子位</a></small></p><p><small>原文发布：2026-11-06 17:25（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>

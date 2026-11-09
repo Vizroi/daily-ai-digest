@@ -1,51 +1,15 @@
 {
-  "40b33394b9737622": {
-    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-    "first_seen": "2026-10-07",
-    "times": 3,
-    "last_seen": "2026-10-09"
-  },
   "637671cbca0bc909": {
     "title": "Claude Haiku 5.5",
     "first_seen": "2026-10-08",
     "times": 3,
     "last_seen": "2026-10-10"
   },
-  "db12c103e078455a": {
-    "title": "Multimodal open d1 decision models for the edge",
-    "first_seen": "2026-10-08",
-    "times": 2,
-    "last_seen": "2026-10-09"
-  },
-  "355933bb8fd95097": {
-    "title": "My first Unreal Engine game. I made a trailer!",
-    "first_seen": "2026-10-08",
-    "times": 2,
-    "last_seen": "2026-10-09"
-  },
-  "e03ca35700b8ba9c": {
-    "title": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
-    "first_seen": "2026-10-09",
-    "times": 1,
-    "last_seen": "2026-10-09"
-  },
-  "d4c576166e7264c7": {
-    "title": "Star Wars Zero Company developer Bit Reactor begins bringing furloughed staff back",
-    "first_seen": "2026-10-09",
-    "times": 1,
-    "last_seen": "2026-10-09"
-  },
   "a7ab643d5e726b93": {
     "title": "Screen Space Raymarched Displacement in Unreal (The Crimson Desert Technique) - Free Plugin",
     "first_seen": "2026-10-09",
     "times": 2,
     "last_seen": "2026-10-10"
-  },
-  "904dbeda64256ca1": {
-    "title": "Master Character Animation with UE5 & Maya with This Gnomon Workshop",
-    "first_seen": "2026-10-09",
-    "times": 1,
-    "last_seen": "2026-10-09"
   },
   "263d61e8178a891a": {
     "title": "Anthropic AI model submits false tip on unsolved Philly murder",
@@ -4508,6 +4472,114 @@
     "last_seen": "2026-11-08",
     "urls": [
       "https://www.qbitai.com/2026/11/508244.html"
+    ]
+  },
+  "2036dbc0ac6374fd": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "《深空当铺：可能是偷的》销量突破百万，更新路线图同步揭晓",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://www.gcores.com/articles/222072"
+    ]
+  },
+  "6d492f7d9493c68d": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "《同步失控》Steam公开测试今日开启",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://www.gcores.com/articles/222099"
+    ]
+  },
+  "6400742855ae4557": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "Mass Effect 2 Animator Shares Never-Before-Seen Pre-Alpha Cinematics Trailer",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://80.lv/articles/mass-effect-2-animator-shares-pre-alpha-cinematics-trailer"
+    ]
+  },
+  "f6ee314f9bf556c8": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "欢乐越狱游戏《鼠大厨：越狱》上线Steam商城页面",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://www.gcores.com/articles/222095"
+    ]
+  },
+  "705b5afbd2004a0f": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "11月09日—11月15日共有23款游戏开测｜GameRes",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://www.gameres.com/901203498.html"
+    ]
+  },
+  "8a7c5985e475846c": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "硬刚影之刃档期卖出50万份，除了“赛博黑店” 《深空当铺》还有什么好玩？",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://www.gameres.com/901203497.html"
+    ]
+  },
+  "b55a4caa10334575": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "将关怀写成连续的故事：《崩坏：星穹铁道》公益行动第三站聚焦心理健康",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://www.gameres.com/901203496.html"
+    ]
+  },
+  "8d7aeb84a255b795": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "Petition Asking Canada to Save BioWare Gets Enough Signatures for Parliament",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://80.lv/articles/petition-asking-canada-to-save-bioware-gets-enough-signatures-for-parliament"
+    ]
+  },
+  "c87c9223e03170c5": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "峰值83万人之夜：《影之刃零》的Steam数据",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "http://www.chuapp.com/article/291739.html"
+    ]
+  },
+  "d7d81897041091a4": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "开发日志 #1：夜市只卖部队，三支合成一支",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://indienova.com/u/saveapoint/blogread/39496"
+    ]
+  },
+  "742451e3e26d55c8": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "Hide your slop PR descriptions behind",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/9/details-summary"
+    ]
+  },
+  "8856ec5829672854": {
+    "first_seen": "2026-11-09",
+    "times": 1,
+    "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+    "last_seen": "2026-11-09",
+    "urls": [
+      "https://www.qbitai.com/2026/11/508174.html"
     ]
   }
 }
