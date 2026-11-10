@@ -1,34 +1,4 @@
 {
-  "637671cbca0bc909": {
-    "title": "Claude Haiku 5.5",
-    "first_seen": "2026-10-08",
-    "times": 3,
-    "last_seen": "2026-10-10"
-  },
-  "a7ab643d5e726b93": {
-    "title": "Screen Space Raymarched Displacement in Unreal (The Crimson Desert Technique) - Free Plugin",
-    "first_seen": "2026-10-09",
-    "times": 2,
-    "last_seen": "2026-10-10"
-  },
-  "263d61e8178a891a": {
-    "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-    "first_seen": "2026-10-10",
-    "times": 1,
-    "last_seen": "2026-10-10"
-  },
-  "3c38c47d07b08704": {
-    "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-    "first_seen": "2026-10-10",
-    "times": 1,
-    "last_seen": "2026-10-10"
-  },
-  "94ab8f6efe2fc319": {
-    "title": "OpenAI withdraws three mathematical results",
-    "first_seen": "2026-10-10",
-    "times": 1,
-    "last_seen": "2026-10-10"
-  },
   "30f5083eaa3fe9ff": {
     "title": "Ubisoft to sunset Rainbow Six Mobile just seven months after launch",
     "first_seen": "2026-10-10",
@@ -40,18 +10,6 @@
     "first_seen": "2026-10-10",
     "times": 2,
     "last_seen": "2026-10-11"
-  },
-  "a4293c992e5455d4": {
-    "title": "Looking for honest feedback on my Unreal Engine 5 teaser",
-    "first_seen": "2026-10-10",
-    "times": 1,
-    "last_seen": "2026-10-10"
-  },
-  "3c28ef38559b0403": {
-    "title": "Beyond the Dark: Nightwatch, UE5 Switch 2 game using Gameshare tech is up on the Eshop",
-    "first_seen": "2026-10-10",
-    "times": 1,
-    "last_seen": "2026-10-10"
   },
   "fb2e8981d3180675": {
     "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
@@ -4580,6 +4538,206 @@
     "last_seen": "2026-11-09",
     "urls": [
       "https://www.qbitai.com/2026/11/508174.html"
+    ]
+  },
+  "2d0dabf42f214eb0": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "Fortress Mode Now Has Audio(!!) + Myth & Magic progress 🎶 Patch 53.17",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643356099"
+    ]
+  },
+  "a11cb4e77d7300a1": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "《战锤40K：行商浪人》最终DLC“亡者行军”将于12月8日发售",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gcores.com/articles/222152"
+    ]
+  },
+  "f50717dd4de0d385": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "《游戏盒收藏室》将于本周三推出1.0版本",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gcores.com/articles/222150"
+    ]
+  },
+  "ac0b1c541d106097": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "2026三角洲行动烽火世界杯11月27日开赛，全球六大赛区12支顶尖战队决战斯德哥尔摩",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "http://www.chuapp.com/article/291749.html",
+      "https://www.gameres.com/901203516.html"
+    ]
+  },
+  "4218308f33d4ec41": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "Report: Star Wars Zero Company developer Bit Reactor lays off an unspecified number of staff",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gamedeveloper.com/business/report-star-wars-zero-company-developer-bitreactor-lays-off-an-unspecified-number-of-staff",
+      "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-has-laid-off-an-unspecified-number-of-people"
+    ]
+  },
+  "03024bb36ee55f87": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "合作模式来了：特别好评生存游戏《求生岛》免费更新已上线",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gcores.com/articles/222101"
+    ]
+  },
+  "91ec306222d69c23": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "KRAFTON公布2026年第三季度业绩 实现营收9714亿韩元",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gameres.com/901203530.html"
+    ]
+  },
+  "7c2b7a46f4bbecf8": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "ArtStation Adds AI Declarations & Default AI Filtering for Artwork",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://80.lv/articles/artstation-adds-ai-declarations-default-ai-filtering-for-artwork"
+    ]
+  },
+  "c40bfc1a71c090ba": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "Making an Ethereal, Moonlight-Inspired Fantasy Character in 3D",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://80.lv/articles/making-an-ethereal-moonlight-inspired-fantasy-character-in-3d"
+    ]
+  },
+  "d462e7bb9c760067": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "连黑洞都能拿来脱毛？《脱毛沙龙模拟器》发售",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gameres.com/901203528.html"
+    ]
+  },
+  "8b4a33eca4c6150f": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "Steam新品节玩家数第一！《我带过的最差一届》正式发售",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gameres.com/901203527.html"
+    ]
+  },
+  "78315bfcac8ed8ca": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "\"There's no such thing as easy money in our business\" – Strauss Zelnick on GTA 6, BioShock, Take-Two's acquisition plans, and reviving old IP",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip"
+    ]
+  },
+  "9d5a9c2a2b5ff310": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gamesindustry.biz/take-two-q2-net-bookings-fall-18-to-16bn-as-nba-2k27-misses-forecast-but-gta-6-pre-orders-are-tracking-far-in-excess-of-expectations"
+    ]
+  },
+  "19722824e8be328f": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "Tripwire Interactive lays off 36",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gamesindustry.biz/tripwire-interactive-lays-off-36"
+    ]
+  },
+  "8761e4076feda225": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "World of Warcraft: Forever is the MMORPG's biggest launch as measured by peak concurrent players",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.gamedeveloper.com/pc/world-of-warcraft-forever-is-the-mmorpg-s-biggest-launch-in-player-numbers"
+    ]
+  },
+  "99bf61895dd6d102": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "橙光游戏平台：困在浪潮起落间",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "http://www.chuapp.com/article/291744.html"
+    ]
+  },
+  "3d2bcc15d1dcf3c0": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "ChatGPT Enterprise now available in AWS Marketplace",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+    ]
+  },
+  "2b71620dd0d8ee98": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "CodeRabbit scales agentic software development and ships 20x more",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://openai.com/index/coderabbit-codex-daybreak"
+    ]
+  },
+  "5be81d189a077900": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/10/muse-ember"
+    ]
+  },
+  "9395479d47457787": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "Quoting Prompting Claude Fable 5.2",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52"
+    ]
+  },
+  "8854e78aa567e4f9": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.qbitai.com/2026/11/507843.html"
+    ]
+  },
+  "7de9493b3b9bbeb9": {
+    "first_seen": "2026-11-10",
+    "times": 1,
+    "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
+    "last_seen": "2026-11-10",
+    "urls": [
+      "https://www.qbitai.com/2026/11/508694.html"
     ]
   }
 }

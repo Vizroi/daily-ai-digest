@@ -4,104 +4,185 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 9 条，策划精选 1 篇，AI 快讯 2 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 16 条，策划精选 0 篇，AI 快讯 6 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 09 Nov 2026 14:59:35 +0800</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 15:37:01 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《深空当铺：可能是偷的》销量破百万并公布更新路线图</title>
-  <link>https://www.gcores.com/articles/222072</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5630556e2462f6c8a6c4df75</guid>
-  <pubDate>Mon, 09 Nov 2026 01:00:00 +0000</pubDate>
+  <title>《矮人要塞》要塞模式音频系统重做，神话与魔法更新延期</title>
+  <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643356099</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-97aa4be2fe64f42b0d396be1</guid>
+  <pubDate>Mon, 09 Nov 2026 16:18:41 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核报道，《深空当铺：可能是偷的》销量突破百万。开发团队称将免费提供路线图中的全部更新，11月专注修复错误与优化体验，1月和4月的更新内容不止路线图所列，路线图仅覆盖未来六个月，团队承诺长期支持。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222072">机核</a></small></p><p><small>原文发布：2026-11-09 09:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Fortress Mode Now Has Audio(!!) + Myth &amp; Magic progress 🎶 Patch 53.17</small></p><p>《矮人要塞》官方公告称，要塞模式音频系统已基于FMOD Studio重建，加入按生物群系自动混音的环境音、随挖掘位置变化的空间化采矿音效、按挖出物区分的突破音效及界面音效；神话与魔法更新因图形引擎和神话生成问题无法按原计划年底发布。</p><p><small>来源：<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643356099">Steam · Dwarf Fortress</a></small></p><p><small>原文发布：2026-11-10 00:18（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《同步失控》Steam公开测试开启，同步战斗系统亮相</title>
-  <link>https://www.gcores.com/articles/222099</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fcd8c5b6d4de367e66aec8dd</guid>
-  <pubDate>Mon, 09 Nov 2026 06:53:12 +0000</pubDate>
+  <title>《战锤40K：行商浪人》最终DLC“亡者行军”12月8日发售</title>
+  <link>https://www.gcores.com/articles/222152</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-532292e3e477e1976004a19d</guid>
+  <pubDate>Tue, 10 Nov 2026 07:31:35 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Komisoft开发、Crytivo发行的同步战斗恐怖角色扮演游戏《同步失控》在Steam开启公开测试，玩家可免费试玩最新版本。游戏设定在赛博末世都市，玩家率抵抗小队对抗巨型企业，核心玩法为提前排布全队走位、攻击与技能后与敌人同时执行，并用现实扫描仪识破伪装。</p><p><small>来源：<a href="https://www.gcores.com/articles/222099">机核</a></small></p><p><small>原文发布：2026-11-09 14:53（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《战锤40K：行商浪人》最终DLC《亡者行军》将于12月8日上线，包含新故事线、同伴圣迹士斯特拉、近战职业狂信徒、影响所有同伴的“疯狂”机制，以及混沌与艾达灵族新敌人，并整合进主线。</p><p><small>来源：<a href="https://www.gcores.com/articles/222152">机核</a></small></p><p><small>原文发布：2026-11-10 15:31（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《质量效应2》动画师公开前Alpha阶段过场动画预告</title>
-  <link>https://80.lv/articles/mass-effect-2-animator-shares-pre-alpha-cinematics-trailer/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7c5c5af2a1fbd5e90a94aea7</guid>
-  <pubDate>Mon, 09 Nov 2026 06:44:00 +0000</pubDate>
+  <title>《游戏盒收藏室》11月11日推出1.0正式版</title>
+  <link>https://www.gcores.com/articles/222150</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-aa6d69c409e4dfc586dffd5e</guid>
+  <pubDate>Tue, 10 Nov 2026 07:22:13 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Mass Effect 2 Animator Shares Never-Before-Seen Pre-Alpha Cinematics Trailer</small></p><p>曾参与《质量效应2》的动画师Jonathan Cooper在N7 Day公开了一段此前未展示的BioWare蒙特利尔内部预告片，用于展示团队制作的过场动画，并说明部分场景制作方式。</p><p><small>来源：<a href="https://80.lv/articles/mass-effect-2-animator-shares-pre-alpha-cinematics-trailer/">80.lv</a></small></p><p><small>原文发布：2026-11-09 14:44（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《游戏盒收藏室》将于11月11日在Steam结束抢先体验并推出1.0版本，新增引导教程、户外天气系统、升级版拍照模式、创意工坊模组浏览界面，并借助与Twitch/IGDB的合作重新在本地拉取收藏素材图与元数据。首发价33元，10%折扣结束后上调至38元。</p><p><small>来源：<a href="https://www.gcores.com/articles/222150">机核</a></small></p><p><small>原文发布：2026-11-10 15:22（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《鼠大厨：越狱》上线Steam商城页面</title>
-  <link>https://www.gcores.com/articles/222095</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2c542fe8089245a57e778a01</guid>
-  <pubDate>Mon, 09 Nov 2026 05:47:02 +0000</pubDate>
+  <title>三角洲行动烽火世界杯11月27日斯德哥尔摩开赛，12支战队参赛</title>
+  <link>http://www.chuapp.com/article/291749.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7f4eb59a502de5f20dbb5840</guid>
+  <pubDate>Tue, 10 Nov 2026 07:23:01 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>受20世纪30年代经典动画启发、由Paiband Game Studio开发的越狱题材游戏《鼠大厨：越狱》已上线Steam商城页面。玩家扮演监狱囚犯，用一把勺子挖掘通道，同时承担白天当厨师的工作，围绕挖掘、烹饪、战斗和探索展开第一人称越狱体验。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222095">机核</a></small></p><p><small>原文发布：2026-11-09 13:47（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>2026三角洲行动烽火世界杯将于11月27日至29日在瑞典斯德哥尔摩DreamHack举行，全球六大赛区12支战队争夺50万美元奖金。文章介绍了各赛区选拔机制与参赛队伍，包括中国大陆赛区TES、RSG、IBG三队。</p><p><small>来源：<a href="http://www.chuapp.com/article/291749.html">触乐</a> · <a href="https://www.gameres.com/901203516.html">GameRes</a></small></p><p><small>原文发布：2026-11-10 15:23（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>GameRes统计11月9日至15日共23款游戏开测</title>
-  <link>https://www.gameres.com/901203498.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-942b84a2bcc9ac3aa070d24d</guid>
-  <pubDate>Mon, 09 Nov 2026 01:54:00 +0000</pubDate>
+  <title>报道称《星球大战：零连》开发商Bit Reactor裁员</title>
+  <link>https://www.gamedeveloper.com/business/report-star-wars-zero-company-developer-bitreactor-lays-off-an-unspecified-number-of-staff</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-338475aa1c80cfb7e88b1e4e</guid>
+  <pubDate>Mon, 09 Nov 2026 17:30:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>GameRes游资网统计，2026年11月9日至15日共有23款游戏开测；其中11月13日无疆工作室自研MMORPG《烽烟破晓》公测，主打无氪金特权、靠实力获取资源。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gameres.com/901203498.html">GameRes</a></small></p><p><small>原文发布：2026-11-09 09:54（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Report: Star Wars Zero Company developer Bit Reactor lays off an unspecified number of staff</small></p><p>据Game Developer与GamesIndustry报道，曾开发《星球大战：零连》的Bit Reactor在游戏发售数月后裁员，人数未披露。报道援引开发者领英动态，称裁员可能是8月停职流程到期后的结果，目前无证据显示10月返岗员工被裁。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/report-star-wars-zero-company-developer-bitreactor-lays-off-an-unspecified-number-of-staff">Game Developer</a> · <a href="https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-has-laid-off-an-unspecified-number-of-people">GamesIndustry</a></small></p><p><small>原文发布：2026-11-10 01:30（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《深空当铺》50万份销量背后的设计方法分析</title>
-  <link>https://www.gameres.com/901203497.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-79fada31249a3a3d1b0faf09</guid>
-  <pubDate>Mon, 09 Nov 2026 01:43:00 +0000</pubDate>
+  <title>《求生岛：不老泉传说》免费更新上线合作模式</title>
+  <link>https://www.gcores.com/articles/222101</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-359d9def405e609d1e756a21</guid>
+  <pubDate>Mon, 09 Nov 2026 07:04:12 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>GameRes文章以《深空当铺：可能是偷的》一周50万份销量、97%好评率为引，分析其先用低买高卖基础经营建立认知、再引入高风险违禁品生意的渐进设计，并与《尼瓦利斯之夜》的信息过载作对比，还借《Pathfinder》变体战士说明克制式系统扩展。</p><p><strong>背景与变化</strong><br>作者认为该作先以最小化原型教学，再在核心循环上叠加风险与利润更高的要素，并用柜台容量、每日顾客数等限制控制复杂度膨胀；对比《尼瓦利斯之夜》说明缺乏节制会让玩家难以判断优先级。</p><p><strong>策划视角</strong><br>可研究：在经营模拟中，如何用容量与回合节奏限制复杂系统的释放速度，使新增机制既带来涌现体验又不造成认知过载？</p><p><small>来源：<a href="https://www.gameres.com/901203497.html">GameRes</a></small></p><p><small>原文发布：2026-11-09 09:43（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>开放世界生存冒险游戏《求生岛：不老泉传说》推出免费更新，合作模式正式上线，最多支持4名玩家联机，已购本体玩家可免费解锁。更新初期开放前三个核心区域，其余岛屿预计2027年第一季度前陆续适配。</p><p><small>来源：<a href="https://www.gcores.com/articles/222101">机核</a></small></p><p><small>原文发布：2026-11-09 15:04（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《崩坏：星穹铁道》公益行动第三站聚焦心理健康</title>
-  <link>https://www.gameres.com/901203496.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d0da2e7a6e263fe12582dc49</guid>
-  <pubDate>Mon, 09 Nov 2026 01:35:00 +0000</pubDate>
+  <title>KRAFTON公布2026年第三季度业绩：营收9714亿韩元</title>
+  <link>https://www.gameres.com/901203530.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8236d85b6e935eb351fefd63</guid>
+  <pubDate>Tue, 10 Nov 2026 07:06:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《崩坏：星穹铁道》公益企划「齐乐绒绒大冒险」第三站以心理健康为主题，项目组向北京尚善公益基金会捐赠100万元，用于公益心理咨询与心理健康科普，并联合10余家民间抗郁组织计划开展600场疗愈活动，预计服务12000人次。</p><p><small>来源：<a href="https://www.gameres.com/901203496.html">GameRes</a></small></p><p><small>原文发布：2026-11-09 09:35（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>KRAFTON公布2026年第三季度财报，营收9714亿韩元、营业利润2250亿韩元；前三季度累计营收3.633万亿韩元、营业利润1.1975万亿韩元，同比分别增长51%和14%。分业务看，PC收入同比下降32.5%，移动业务同比增长3.2%。</p><p><small>来源：<a href="https://www.gameres.com/901203530.html">GameRes</a></small></p><p><small>原文发布：2026-11-10 15:06（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>加拿大议会请愿书获足够签名，要求政府介入拯救BioWare</title>
-  <link>https://80.lv/articles/petition-asking-canada-to-save-bioware-gets-enough-signatures-for-parliament/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3ff971005f32f61947771a9e</guid>
-  <pubDate>Fri, 06 Nov 2026 12:27:00 +0000</pubDate>
+  <title>ArtStation新增AI使用声明与默认AI内容过滤</title>
+  <link>https://80.lv/articles/artstation-adds-ai-declarations-default-ai-filtering-for-artwork/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4812b1374e386ba7994db054</guid>
+  <pubDate>Tue, 10 Nov 2026 06:34:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Petition Asking Canada to Save BioWare Gets Enough Signatures for Parliament</small></p><p>一份编号e-7898的电子请愿书由不列颠哥伦比亚省本拿比的Brendan Routh发起，呼吁加拿大政府为被EA关闭的BioWare提供资金以保障其独立性和知识产权，请愿书已获2732个签名，超过议会受理所需的500个有效签名门槛。</p><p><small>来源：<a href="https://80.lv/articles/petition-asking-canada-to-save-bioware-gets-enough-signatures-for-parliament/">80.lv</a></small></p><p><small>原文发布：2026-11-06 20:27（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：ArtStation Adds AI Declarations &amp; Default AI Filtering for Artwork</small></p><p>ArtStation上线生成式AI内容管控新阶段：发布作品时须声明AI使用程度（主要为AI、混合、完全非AI），用户可举报疑似未标注的AI作品；AI过滤默认开启，默认隐藏已声明AI或带AI标签的作品，疑似AI过滤设为严格。</p><p><small>来源：<a href="https://80.lv/articles/artstation-adds-ai-declarations-default-ai-filtering-for-artwork/">80.lv</a></small></p><p><small>原文发布：2026-11-10 14:34（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>触乐分析《影之刃零》Steam在线与评测数据</title>
-  <link>http://www.chuapp.com/article/291739.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9ac69321fcade2a14f548b1c</guid>
-  <pubDate>Fri, 06 Nov 2026 10:06:54 +0000</pubDate>
+  <title>3D角色艺术家谈月光奇幻角色Galatea的制作流程</title>
+  <link>https://80.lv/articles/making-an-ethereal-moonlight-inspired-fantasy-character-in-3d/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1a9271ba48dc7dfc7317f253</guid>
+  <pubDate>Tue, 10 Nov 2026 05:47:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐基于Steam公开数据，梳理《影之刃零》发售后的同时在线人数日内波动、各语言评测数量与好评率、差评理由及成就完成率，并说明简中评测占比过高会限制跨语言结论。</p><p><small>来源：<a href="http://www.chuapp.com/article/291739.html">触乐</a></small></p><p><small>原文发布：2026-11-06 18:06（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Making an Ethereal, Moonlight-Inspired Fantasy Character in 3D</small></p><p>3D角色艺术家Alex Borkovskiy介绍个人电影化项目Galatea的制作：从Photoshop完整2D概念出发，在ZBrush雕刻、Marvelous Designer做服装块面、TopoGun与Blender拓扑、Substance 3D Painter贴图，最后在Maya中用Arnold布光渲染。</p><p><strong>背景与变化</strong><br>作者先细化2D概念作为项目地图，用圆形母题统一造型；头发以发卡在ZBrush中围绕头部拼装；贴图靠高度与粗糙度区分材质，灯光用HDRI加主光与多盏辅助光控制形体与宝石、耳朵透光。</p><p><strong>策划视角</strong><br>可研究：在无多边形预算限制的个人项目中，作者如何判断哪些细节交给贴图与烘焙、哪些必须保留几何，这一取舍在游戏资产管线中是否成立？</p><p><small>来源：<a href="https://80.lv/articles/making-an-ethereal-moonlight-inspired-fantasy-character-in-3d/">80.lv</a></small></p><p><small>原文发布：2026-11-10 13:47（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>开发日志：夜市只卖部队，三支合成一支</title>
-  <link>https://indienova.com/u/saveapoint/blogread/39496</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a2573030bb84712761f67b0b</guid>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>开发者日志介绍《Midnight Cabinet》的部队系统：出征搭配全在部队卡上，无道具与装备；夜市每家店摆5张部队卡，凑齐三支同种部队即合成下一档，共33条进化链、6档、198种部队，同种族同职业还有羁绊；夜市右侧设午夜卡包机，首包免费、越抽越贵、连续4包未出好货则下包保底。</p><p><strong>设计选择</strong><br>作者把构筑资源集中在部队卡上，用品质色边框和一句话定位替代数字，并以三合一进化、羁绊和保底抽卡构成商店挑选与随机获取并存的取舍。</p><p><strong>策划视角</strong><br>可研究：在无道具装备、卡面不写数值的前提下，玩家如何判断部队强弱并规划三合一与羁绊？</p><p><small>来源：<a href="https://indienova.com/u/saveapoint/blogread/39496">indienova 会员日志</a></small></p><p><small>原文日期未标</small></p>]]></description>
+  <title>《脱毛沙龙模拟器》Steam发售：经营猛男脱毛店</title>
+  <link>https://www.gameres.com/901203528.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-248158deb6155c065f1678c2</guid>
+  <pubDate>Tue, 10 Nov 2026 04:06:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>由Yoshio Games开发、2P Games发行的模拟经营游戏《脱毛沙龙模拟器》已在Steam发售，售价29元，首发7天九折。玩家经营男性脱毛沙龙，用鼠标操作激光仪和剃须刀，需控制照射时长以免顾客疼痛值过高，还可使用胶带、喷火器、黑洞等夸张工具，并推荐护理产品、升级装修。</p><p><small>来源：<a href="https://www.gameres.com/901203528.html">GameRes</a></small></p><p><small>原文发布：2026-11-10 12:06（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>用details标签折叠AI生成的PR描述</title>
-  <link>https://simonwillison.net/2026/Nov/9/details-summary/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-462b613f70b348cc4a4d88e6</guid>
-  <pubDate>Mon, 09 Nov 2026 04:25:05 +0000</pubDate>
+  <title>《我带过的最差一届》正式登陆Steam，新增教室与局域网联机</title>
+  <link>https://www.gameres.com/901203527.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7bff4966669c77ff1834c198</guid>
+  <pubDate>Tue, 10 Nov 2026 04:05:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《我带过的最差一届》正式版在Steam发售，售价28元，首发14天35%折扣。正式版新增女班主任、10种主题教室、烟雾弹等道具、房间自定义、局域网联机和创意工坊，单局最多8人，1名老师对抗7名学生。</p><p><small>来源：<a href="https://www.gameres.com/901203527.html">GameRes</a></small></p><p><small>原文发布：2026-11-10 12:05（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Take-Two CEO谈GTA 6预售、BioShock开发与收购计划</title>
+  <link>https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8f373cceef55f9dc0df987bd</guid>
+  <pubDate>Mon, 09 Nov 2026 21:39:40 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：&quot;There&#x27;s no such thing as easy money in our business&quot; – Strauss Zelnick on GTA 6, BioShock, Take-Two&#x27;s acquisition plans, and reviving old IP</small></p><p>Take-Two CEO Strauss Zelnick在财报后采访中称GTA 6预售超出预期但维持全年指引，BioShock仍在开发且经历挑战，Project Ethos公测后已调整，公司继续寻求收购并考虑重启旧IP。</p><p><small>来源：<a href="https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip">GamesIndustry</a></small></p><p><small>原文发布：2026-11-10 05:39（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Take-Two第二季度净预订额降18%至16亿美元，NBA 2K27未达预期，GTA 6预购远超预期</title>
+  <link>https://www.gamesindustry.biz/take-two-q2-net-bookings-fall-18-to-16bn-as-nba-2k27-misses-forecast-but-gta-6-pre-orders-are-tracking-far-in-excess-of-expectations</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b07226bfafd8e119fd722edb</guid>
+  <pubDate>Mon, 09 Nov 2026 21:22:20 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are &quot;tracking far in excess&quot; of expectations</small></p><p>Take-Two公布第二财季业绩：净预订额同比下降18%至16亿美元，净收入下降16%至15亿美元，略低于此前指引；NBA 2K27销量超400万份但未达预期；公司维持全年净预订额80亿至82亿美元展望，GTA 6定于11月19日发售。</p><p><small>来源：<a href="https://www.gamesindustry.biz/take-two-q2-net-bookings-fall-18-to-16bn-as-nba-2k27-misses-forecast-but-gta-6-pre-orders-are-tracking-far-in-excess-of-expectations">GamesIndustry</a></small></p><p><small>原文发布：2026-11-10 05:22（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Tripwire Interactive裁员36人，为今年第二轮</title>
+  <link>https://www.gamesindustry.biz/tripwire-interactive-lays-off-36</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-77b0cfb4051459cc513fe6f1</guid>
+  <pubDate>Mon, 09 Nov 2026 19:43:10 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Tripwire Interactive lays off 36</small></p><p>《杀戮空间》《食人鲨》开发商Tripwire Interactive宣布裁员36人，称这是组织必要的艰难决定。剩余员工将继续开发《食人鲨2》《杀戮空间3》及Tripwire Presents发行业务。这是该公司今年第二轮裁员，3月已裁23人。</p><p><small>来源：<a href="https://www.gamesindustry.biz/tripwire-interactive-lays-off-36">GamesIndustry</a></small></p><p><small>原文发布：2026-11-10 03:43（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《魔兽世界：Forever》创该游戏同时在线峰值新高</title>
+  <link>https://www.gamedeveloper.com/pc/world-of-warcraft-forever-is-the-mmorpg-s-biggest-launch-in-player-numbers</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d754580ca83ee18195809454</guid>
+  <pubDate>Mon, 09 Nov 2026 16:39:06 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：World of Warcraft: Forever is the MMORPG&#x27;s biggest launch as measured by peak concurrent players</small></p><p>据Game Developer报道，暴雪在社交媒体上称《魔兽世界：Forever》上线后创下该游戏更新与资料片发布的同时在线峰值纪录，回归玩家数量也为历史最高。该版本回到游戏第一年，并在此基础上重建新内容，包括新增种族。</p><p><small>来源：<a href="https://www.gamedeveloper.com/pc/world-of-warcraft-forever-is-the-mmorpg-s-biggest-launch-in-player-numbers">Game Developer</a></small></p><p><small>原文发布：2026-11-10 00:39（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>橙光平台十余年：作者福利缩减与UGC内容同质化</title>
+  <link>http://www.chuapp.com/article/291744.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3b0ced6de6d7aec4ed2564be</guid>
+  <pubDate>Mon, 09 Nov 2026 15:17:03 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐回顾橙光平台自2013年上线以来的变化：2018年亿元融资后无公开融资，作者奖金总额从2018年1800万元降至2026年650万元，福利向营收强的作品集中；作者称题材趋于同质化，素材成本上升，部分新人入不敷出；平台还经历合同争议、竞品与乙女游戏冲击，2026年初推出AI工具橙戏Agent。</p><p><small>来源：<a href="http://www.chuapp.com/article/291744.html">触乐</a></small></p><p><small>原文发布：2026-11-09 23:17（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>ChatGPT Enterprise 上线 AWS Marketplace</title>
+  <link>https://openai.com/index/chatgpt-enterprise-aws-marketplace</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0238d88666c1319a5000c598</guid>
+  <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Hide your slop PR descriptions behind</small></p><p>Simon Willison介绍自己用Claude Code、Codex等代理生成PR后，把冗长的代理撰写描述折叠进GitHub Markdown支持的details/summary标签，开头只保留一段经人工判断的简短说明和截图。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/9/details-summary/">Simon Willison</a></small></p><p><small>原文发布：2026-11-09 12:25（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：ChatGPT Enterprise now available in AWS Marketplace</small></p><p>OpenAI 宣布 ChatGPT Enterprise 已在 AWS Marketplace 上架，企业可通过现有的 AWS 采购与账单关系完成购买，从而简化采购流程。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/chatgpt-enterprise-aws-marketplace">OpenAI</a></small></p><p><small>原文发布：2026-11-10 03:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>PPIO沙箱：为Personal Agent提供云端执行环境API</title>
-  <link>https://www.qbitai.com/2026/11/508174.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-642ecbeac041735fce2c276c</guid>
-  <pubDate>Fri, 06 Nov 2026 09:25:59 +0000</pubDate>
+  <title>CodeRabbit借助OpenAI模型治理AI生成代码并提升交付量</title>
+  <link>https://openai.com/index/coderabbit-codex-daybreak</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-43a09bc61a0ccf0780c060a5</guid>
+  <pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>文章介绍Personal Agent需要独立执行环境，梳理本地运行与云端自建两类方案，并介绍PPIO沙箱将云电脑封装为API，提供代码执行、隔离、快照恢复与按需创建等能力。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/508174.html">量子位</a></small></p><p><small>原文发布：2026-11-06 17:25（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：CodeRabbit scales agentic software development and ships 20x more</small></p><p>OpenAI发布案例称，CodeRabbit使用OpenAI模型治理和审核AI生成的代码，并借助Codex在工程团队规模不变的情况下将软件交付量提升至20倍。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/coderabbit-codex-daybreak">OpenAI</a></small></p><p><small>原文发布：2026-11-09 16:00（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Meta发布Muse Ember：面向智能体任务的小型高效模型</title>
+  <link>https://simonwillison.net/2026/Nov/10/muse-ember/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-88323682d63343409255d383</guid>
+  <pubDate>Tue, 10 Nov 2026 07:28:21 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing Our Smallest, Most Efficient Model: Muse Ember</small></p><p>Meta AI发布小型高效模型Muse Ember，面向工具调用、编码子任务、路由、信息抽取和长文档解析等智能体重复性工作，提供六档推理级别，短提示词定价与GPT-6 Luna、Claude Haiku 5.5相同。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/10/muse-ember/">Simon Willison</a></small></p><p><small>原文发布：2026-11-10 15:28（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Anthropic文档：提示词声明代码归属可影响Claude Fable 5.2重构行为</title>
+  <link>https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a8276aea4c15441f734fb95d</guid>
+  <pubDate>Tue, 10 Nov 2026 05:34:14 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Quoting Prompting Claude Fable 5.2</small></p><p>Simon Willison引用Anthropic文档称，在小型编程任务测试中，若提示词未说明代码归属或表明代码属于他人，Claude Fable 5.2倾向沿用现有结构；若声明代码库归模型所有，约半数尝试会合并重复代码，未加该句时不足十分之一。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/">Simon Willison</a></small></p><p><small>原文发布：2026-11-10 13:34（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>腾讯混元Hy4发布：770B参数开源模型支持视觉与电脑操作</title>
+  <link>https://www.qbitai.com/2026/11/507843.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c81e6dda18f70c5d72626546</guid>
+  <pubDate>Mon, 09 Nov 2026 08:44:00 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>腾讯发布混元Hy4，总参数770B、激活参数49B，首次引入原生视觉理解与电脑操作能力，并升级指令遵循、长文理解和长程Agent能力。模型已在WorkBuddy、CodeBuddy、元宝等产品上线，权重将于近期开源。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/507843.html">量子位</a></small></p><p><small>原文发布：2026-11-09 16:44（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>千问办公2.0上线多人与Agent协作功能</title>
+  <link>https://www.qbitai.com/2026/11/508694.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e8b05c3a935998ddd53318c3</guid>
+  <pubDate>Mon, 09 Nov 2026 08:34:03 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>千问办公发布2.0版本，新增支持多人与Agent协作的“协作”功能，以及人机共创、资料空间、自动任务和三端互联能力，官方称所有功能已在客户端全量上线。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/508694.html">量子位</a></small></p><p><small>原文发布：2026-11-09 16:34（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>

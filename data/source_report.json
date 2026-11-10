@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T06:59:16.492964+00:00",
+  "checked_at": "2026-11-10T07:36:05.591940+00:00",
   "sources": [
     {
       "id": "youtube-gmtk",
@@ -78,9 +78,9 @@
       "name": "indienova 会员日志",
       "platform": "开发者社区",
       "url": "https://indienova.com/blogs/all",
-      "state": "ok",
-      "count": 6,
-      "detail": "公开会员日志候选；作者身份、经验与论证需编辑审核"
+      "state": "error",
+      "count": 0,
+      "detail": "公开入口请求失败：ConnectTimeout"
     },
     {
       "id": "steam-factorio",
@@ -159,9 +159,9 @@
       "name": "Steam · Dwarf Fortress",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/975370/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-08-05（北京时间）"
+      "state": "ok",
+      "count": 1,
+      "detail": "读取正常，共检查 20 条，收录 1 条；早于最近 72 小时 19 条；本轮最新原文日期 2026-11-10（北京时间）"
     },
     {
       "id": "steam-no-mans-sky",
@@ -204,9 +204,9 @@
       "name": "itch.io · Kenney Shape",
       "platform": "itch",
       "url": "https://kenney.itch.io/kenney-shape/devlog.rss",
-      "state": "empty",
+      "state": "blocked",
       "count": 0,
-      "detail": "读取正常，共检查 10 条，收录 0 条；早于最近 72 小时 10 条；本轮最新原文日期 2026-10-15（北京时间）"
+      "detail": "HTTP 429：平台限制请求频率，等待后续采集"
     },
     {
       "id": "itch-gmtk-platformer-toolkit",
@@ -223,8 +223,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 3,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 3 条候选"
+      "count": 2,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 2 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 7,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 7 条候选"
+      "count": 8,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 8 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -268,8 +268,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/rss.xml",
       "state": "ok",
-      "count": 7,
-      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 7 条候选"
+      "count": 16,
+      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 16 条候选"
     },
     {
       "id": "web-be9919cef9",
@@ -277,8 +277,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gcores.com/rss",
       "state": "ok",
-      "count": 20,
-      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 20 条候选"
+      "count": 19,
+      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 19 条候选"
     },
     {
       "id": "web-68554a31d0",
@@ -314,7 +314,7 @@
       "url": "https://openai.com/news/rss.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 1368 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 1372 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-0ea3c11e0b",
@@ -332,7 +332,7 @@
       "url": "https://huggingface.co/blog/feed.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 899 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 900 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-d1c587ecba",
@@ -357,27 +357,27 @@
       "name": "GameRes 策划",
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/list/25",
-      "state": "ok",
-      "count": 7,
-      "detail": "读取 9 篇文章页面；720 小时时间窗内取得 7 条候选"
+      "state": "error",
+      "count": 0,
+      "detail": "读取异常（ConnectionError）"
     },
     {
       "id": "web-2c4b61fbd7",
       "name": "indienova 开发",
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-development/",
-      "state": "ok",
-      "count": 7,
-      "detail": "读取 16 篇文章页面；720 小时时间窗内取得 7 条候选"
+      "state": "error",
+      "count": 0,
+      "detail": "网络请求超时；重试后仍失败"
     },
     {
       "id": "web-5be5c101f0",
       "name": "indienova 新游",
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-news/",
-      "state": "ok",
-      "count": 4,
-      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 4 条候选"
+      "state": "error",
+      "count": 0,
+      "detail": "网络请求超时；重试后仍失败"
     },
     {
       "id": "manual-inbox",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 184,
-    "deduplicated": 184,
-    "retained": 184,
+    "raw": 169,
+    "deduplicated": 169,
+    "retained": 169,
     "restricted_withheld": 0
   }
 }
