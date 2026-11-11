@@ -5,47 +5,17 @@
     "times": 3,
     "last_seen": "2026-10-12"
   },
-  "68250398d5f3e67d": {
-    "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
-    "first_seen": "2026-10-10",
-    "times": 2,
-    "last_seen": "2026-10-11"
-  },
   "fb2e8981d3180675": {
     "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
     "first_seen": "2026-10-11",
     "times": 2,
     "last_seen": "2026-10-12"
   },
-  "635985e2b8517ffb": {
-    "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-    "first_seen": "2026-10-11",
-    "times": 1,
-    "last_seen": "2026-10-11"
-  },
-  "2939308aa187e0e9": {
-    "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-    "first_seen": "2026-10-11",
-    "times": 1,
-    "last_seen": "2026-10-11"
-  },
-  "c285dd9fe43a8195": {
-    "title": "Xbox CEO unveils 'new Xbox division' for game-adjacent ventures named 'XP'",
-    "first_seen": "2026-10-11",
-    "times": 1,
-    "last_seen": "2026-10-11"
-  },
   "4dd012a5c0fb3f22": {
     "title": "Unreal 5.8 - Materials Masterclass - Chapter 9: Animation using gradients",
     "first_seen": "2026-10-11",
     "times": 2,
     "last_seen": "2026-10-12"
-  },
-  "90f4173fffac9129": {
-    "title": "Free - [Humble Bumble] Unreal Engine Real-Time Simulation & FX Suite",
-    "first_seen": "2026-10-11",
-    "times": 1,
-    "last_seen": "2026-10-11"
   },
   "e61eeba92377e98b": {
     "title": "Our indie team is making a dark fantasy co-op roguelike in Unreal Engine — here's our new teaser!",
@@ -4738,6 +4708,216 @@
     "last_seen": "2026-11-10",
     "urls": [
       "https://www.qbitai.com/2026/11/508694.html"
+    ]
+  },
+  "76c5d7eaaec05bf3": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "踏火猎金！《雾影猎人》S2 赛季更新，咪咕游戏开启双十一福利",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://www.gameres.com/901203538.html"
+    ]
+  },
+  "149b27ee70bfb16d": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "《超级马力欧派对：空前盛会NS2版+空前盛会TV》实装「游戏分享」功能大更新",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://www.gcores.com/articles/222178"
+    ]
+  },
+  "598bc50443e997cd": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "索尼中止“搜打撤”游戏《Fairgame$》开发",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://80.lv/articles/sony-s-live-service-heist-simulator-fairgames-has-been-canceled",
+      "https://www.gcores.com/articles/222196"
+    ]
+  },
+  "b436acdd525a737a": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "独立游戏节IGF部分评委强烈抵制AI游戏，《Big Walk》或无缘评选",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://www.gamesindustry.biz/house-house-clarifies-use-of-ai-tools-in-big-walks-final-stage-of-development",
+      "https://www.gcores.com/articles/222182"
+    ]
+  },
+  "83bd5e4b413881ff": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Ratchet & Clank: Ranger Rumble Is Shutting Down a Year After Its Soft Launch",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://80.lv/articles/ratchet-clank-ranger-rumble-is-shutting-down-a-year-after-its-soft-launch",
+      "https://www.gamesindustry.biz/playstation-cancels-ratchet-clank-ranger-rumble-a-year-into-soft-launch"
+    ]
+  },
+  "fd3c693b017a08c7": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "10 teams, 3 programs, and 7 years: Efficiently managing 3D assets in defense training",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://unity.com/blog/3d-asset-management-defense-training"
+    ]
+  },
+  "7cce1d59211d720f": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "10 tips for organizing your first video game project with AI",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://unity.com/blog/how-to-organize-a-game-project-with-ai"
+    ]
+  },
+  "273a0afe80b0bf43": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "TCL敢为不凡杯全球高校电子竞技联赛S5总决赛圆满收官",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://www.gameres.com/901203540.html"
+    ]
+  },
+  "e08314cf1dd078e3": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "文化“新三样”出海典型案例发布，完美世界《异环》入选",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://www.gameres.com/901203539.html"
+    ]
+  },
+  "a6140da7715b3e3a": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Bloody Hell Hotel Developer on Making a Vampire Management Sandbox",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://80.lv/articles/bloody-hell-hotel-developer-on-making-a-vampire-management-sandbox"
+    ]
+  },
+  "12ce1b3d7fcfc9ed": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "End of Abyss Devs Explain How They Made Top-Down Horror Feel Unsettling",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://80.lv/articles/end-of-abyss-devs-explain-how-they-made-top-down-horror-feel-unsettling"
+    ]
+  },
+  "81addae2dc9f75ce": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "把圈外人都拉入坑的奥克兰玩家嘉年华，和腾讯这款天花板产品有关",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "http://www.chuapp.com/article/291745.html"
+    ]
+  },
+  "944bf145e98e3d8a": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "在汇聚千万玩家的赛场上，我看到了策略竞技游戏赛事最好的面貌",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "http://www.chuapp.com/article/291746.html"
+    ]
+  },
+  "f16f2a3787d94cad": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Bandai Namco closes Reflector Entertainment, expects to post €21m loss in Q3 as a result",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://www.gamesindustry.biz/bandai-namco-closes-reflector-entertainment-expects-to-post-21m-loss-in-q3-as-a-result"
+    ]
+  },
+  "c60caa90696e4c33": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Skydance announces layoffs to games division following $111bn merger",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://www.gamesindustry.biz/skydance-announces-layoffs-to-games-division-following-111bn-merger"
+    ]
+  },
+  "d36a2df96d1d3d1d": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://www.qbitai.com/2026/11/508998.html"
+    ]
+  },
+  "59061a01d992933e": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://huggingface.co/blog/qvac/botpsy"
+    ]
+  },
+  "dd96e7cbad39095c": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Gemini 4 Carbon is now available",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://deepmind.google/blog/gemini-4-carbon-is-now-available"
+    ]
+  },
+  "d9c3836131cfb9c6": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://deepmind.google/blog/introducing-alphaproof-code"
+    ]
+  },
+  "b6617d65a7cdd1d2": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Introducing Businesses in ChatGPT",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://openai.com/index/introducing-businesses-chatgpt"
+    ]
+  },
+  "11e173378caaf856": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://openai.com/index/cogent-security"
+    ]
+  },
+  "33ac0e814ecd5d67": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "llm-gemini 0.36",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/10/llm-gemini"
+    ]
+  },
+  "5f0c45684bef4155": {
+    "first_seen": "2026-11-11",
+    "times": 1,
+    "title": "Yonkers Rises",
+    "last_seen": "2026-11-11",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/10/yonkers-rises"
     ]
   }
 }
