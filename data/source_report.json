@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T06:54:00.260707+00:00",
+  "checked_at": "2026-11-12T07:29:55.644432+00:00",
   "sources": [
     {
       "id": "steam-factorio",
@@ -223,8 +223,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 3,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 3 条候选"
+      "count": 7,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 7 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 12,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 12 条候选"
+      "count": 17,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 17 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -259,8 +259,8 @@
       "platform": "网站 / RSS",
       "url": "https://unity.com/blog/rss",
       "state": "ok",
-      "count": 2,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 2 条候选"
+      "count": 3,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 3 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -277,8 +277,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gcores.com/rss",
       "state": "ok",
-      "count": 16,
-      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 16 条候选"
+      "count": 19,
+      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 19 条候选"
     },
     {
       "id": "web-68554a31d0",
@@ -286,8 +286,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 6,
-      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 6 条候选"
+      "count": 7,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 7 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -314,7 +314,7 @@
       "url": "https://openai.com/news/rss.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 1380 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 1381 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-0ea3c11e0b",
@@ -322,8 +322,8 @@
       "platform": "网站 / RSS",
       "url": "https://deepmind.google/blog/rss.xml",
       "state": "ok",
-      "count": 14,
-      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 14 条候选"
+      "count": 15,
+      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 15 条候选"
     },
     {
       "id": "web-33e649875b",
@@ -332,7 +332,7 @@
       "url": "https://huggingface.co/blog/feed.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 903 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 904 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-d1c587ecba",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 206,
-    "deduplicated": 206,
-    "retained": 206,
+    "raw": 221,
+    "deduplicated": 221,
+    "retained": 221,
     "restricted_withheld": 0
   }
 }

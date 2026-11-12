@@ -1,58 +1,4 @@
 {
-  "30f5083eaa3fe9ff": {
-    "title": "Ubisoft to sunset Rainbow Six Mobile just seven months after launch",
-    "first_seen": "2026-10-10",
-    "times": 3,
-    "last_seen": "2026-10-12"
-  },
-  "fb2e8981d3180675": {
-    "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
-    "first_seen": "2026-10-11",
-    "times": 2,
-    "last_seen": "2026-10-12"
-  },
-  "4dd012a5c0fb3f22": {
-    "title": "Unreal 5.8 - Materials Masterclass - Chapter 9: Animation using gradients",
-    "first_seen": "2026-10-11",
-    "times": 2,
-    "last_seen": "2026-10-12"
-  },
-  "e61eeba92377e98b": {
-    "title": "Our indie team is making a dark fantasy co-op roguelike in Unreal Engine — here's our new teaser!",
-    "first_seen": "2026-10-11",
-    "times": 2,
-    "last_seen": "2026-10-12"
-  },
-  "e82823995483c2dd": {
-    "title": "Cover combat in UE 5.8 with Lyra and GAS, and the two bugs that bit me",
-    "first_seen": "2026-10-11",
-    "times": 2,
-    "last_seen": "2026-10-12"
-  },
-  "1c5caa0caf9d233e": {
-    "title": "The gap in shared understanding of LLM capability is widening",
-    "first_seen": "2026-10-12",
-    "times": 1,
-    "last_seen": "2026-10-12"
-  },
-  "e8449d026fef5d20": {
-    "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-    "first_seen": "2026-10-12",
-    "times": 1,
-    "last_seen": "2026-10-12"
-  },
-  "0a771370fc5ee9dd": {
-    "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
-    "first_seen": "2026-10-12",
-    "times": 1,
-    "last_seen": "2026-10-12"
-  },
-  "ce53ceb81a5e4ef9": {
-    "title": "Nano Banana终于2.1了！4K直出，中文进步太明显",
-    "first_seen": "2026-10-12",
-    "times": 1,
-    "last_seen": "2026-10-12"
-  },
   "89d0ad54f54b5bc9": {
     "title": "Unreal Engine Minigames Collection - Available on FAB",
     "first_seen": "2026-10-12",
@@ -4918,6 +4864,191 @@
     "last_seen": "2026-11-11",
     "urls": [
       "https://simonwillison.net/2026/Nov/10/yonkers-rises"
+    ]
+  },
+  "7513da03d598ef92": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "《王权陨落》现已登陆PS5及Xbox平台，大型DLC《岩冠之境》同步上线PC及主机平台",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gameres.com/901203553.html",
+      "https://www.gcores.com/articles/222249"
+    ]
+  },
+  "4a210e935d6621c4": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "叙事佳作《Gone Home》开发者新作《永泉》现已发售",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gcores.com/articles/222256"
+    ]
+  },
+  "acd5c0332dc840c2": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "开放世界西部生存冒险新作《西部之民》现已开启PC 封闭测试",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gcores.com/articles/222235"
+    ]
+  },
+  "0989544bd1d2dbc7": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "《WILL：美好世界》开发者新作《十五区：星落何处》公布首支宣传片",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gameres.com/901203547.html"
+    ]
+  },
+  "d7a46634a263b46a": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "Ocarina of Time Remake Is Already One of Switch 2’s Best-Selling Games",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://80.lv/articles/ocarina-of-time-remake-is-already-one-of-switch-2-s-best-selling-games",
+      "https://www.gamedeveloper.com/business/the-legend-of-zelda-ocarina-of-time-exceeds-5-million-copies-solid-in-first-week"
+    ]
+  },
+  "bc777a240b454ec4": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "Report: PlayStation's Fairgames cancelled, no devs to be laid off",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gamedeveloper.com/console/report-playstation-s-fairgame-cancelled-but-haven-studios-remains",
+      "https://www.gamesindustry.biz/playstation-cancels-live-service-shooter-fairgames"
+    ]
+  },
+  "5c307351f0d55066": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "The gods are dead. But not forever: Inside Azra Games’ UnGodly",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://unity.com/blog/ungodly-azra-games-mobile-rpg-unity"
+    ]
+  },
+  "f1e6b9583028ad4d": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "2026 CiGADC开发者大会完整日程公开！",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gameres.com/901203559.html"
+    ]
+  },
+  "f287b871289d5457": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "NVIDIA Reportedly Weighs Ousting CEO Jensen Huang",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://80.lv/articles/nvidia-reportedly-weighs-ousting-ceo-jensen-huang"
+    ]
+  },
+  "3499cb49d8a9e4ee": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "Creators Developed Playable Worlds, VR Games, & Digital Pets for Tripo AI's First 3D World Hackathon",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://80.lv/articles/creators-developed-playable-worlds-vr-games-digital-pets-for-tripo-ai-s-first-3d-world-hackathon"
+    ]
+  },
+  "1d734fa5c5228e06": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "PlayStation 5 crosses 100 million consoles sold",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gamedeveloper.com/console/playstation-5-ships-100-million-consoles"
+    ]
+  },
+  "2a9b3f7d2b96a87a": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "Tekken creator says he wishes hardware like the Xbox Series S 'wouldn’t be released'",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gamedeveloper.com/console/katsuhiro-harada-i-wish-hardware-like-the-xbox-series-s-wouldnt-be-released"
+    ]
+  },
+  "4685ccc089ed62f7": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "Lego Digital Play acquires ForthStar Games \"to bring Lego to the prominence it truly deserves on mobile\"",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gamesindustry.biz/lego-digital-play-acquires-forthstar-games-to-bring-lego-to-the-prominence-it-truly-deserves-on-mobile"
+    ]
+  },
+  "fea1e4c117487e36": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "What the Digital Fairness Act means for the games industry",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gamesindustry.biz/what-the-digital-fairness-act-means-for-the-games-industry"
+    ]
+  },
+  "0188956962f12c36": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "专访《足球经理2027》主创团队：经历30年来最大的引擎阵痛后，如何赢回玩家的信任",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.gcores.com/articles/222211",
+      "https://www.gcores.com/articles/222231",
+      "https://www.gcores.com/articles/222232"
+    ]
+  },
+  "f3e55896f49c4291": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "《卷尺人》开发日志",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://indienova.com/u/rainbowarrior/blogread/39522"
+    ]
+  },
+  "e6e82a7a7f3ea578": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "aws-emulator",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/11/aws-emulator"
+    ]
+  },
+  "5343f25ea8a826df": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "Browse tools.simonwillison.net by tag",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/11/tools-tags"
+    ]
+  },
+  "78301b6dd8a8b78f": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.qbitai.com/2026/11/509146.html"
+    ]
+  },
+  "7d0a75d0dc30cf65": {
+    "first_seen": "2026-11-12",
+    "times": 1,
+    "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
+    "last_seen": "2026-11-12",
+    "urls": [
+      "https://www.qbitai.com/2026/11/509032.html"
     ]
   }
 }

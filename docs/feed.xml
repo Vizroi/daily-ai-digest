@@ -4,193 +4,168 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 15 条，策划精选 0 篇，AI 快讯 8 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 14 条，策划精选 2 篇，AI 快讯 4 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 11 Nov 2026 14:54:16 +0800</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 15:30:13 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《雾影猎人》S2赛季上线，新增业火争锋玩法与投矛流派</title>
-  <link>https://www.gameres.com/901203538.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a93d8ea3fca5191a415c7b5c</guid>
-  <pubDate>Wed, 11 Nov 2026 02:26:00 +0000</pubDate>
+  <title>《王权陨落》登陆PS5与Xbox，DLC《岩冠之境》同步上线</title>
+  <link>https://www.gcores.com/articles/222249</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8b4b6f9c5b393938dd539c85</guid>
+  <pubDate>Thu, 12 Nov 2026 03:38:18 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>咪咕游戏发行的《雾影猎人》S2赛季「旧日之火」上线，新增「业火争锋」玩法、新BOSS、黑箭第二武器流派「投矛」、「灵魂烙印」成长系统与契约时装，并优化任务与奖励；同期公布双十一售价和电竞赛事招募。</p><p><small>来源：<a href="https://www.gameres.com/901203538.html">GameRes</a></small></p><p><small>原文发布：2026-11-11 10:26（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>极简策略塔防游戏《王权陨落》于11月11日登陆PS5与Xbox Series X|S并加入Xbox Game Pass，首个大型DLC《岩冠之境》同步上线PC及主机平台，新增8张地图、矮人主题单位与机械构造体敌人。</p><p><small>来源：<a href="https://www.gcores.com/articles/222249">机核</a> · <a href="https://www.gameres.com/901203553.html">GameRes</a></small></p><p><small>原文发布：2026-11-12 11:38（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《超级马力欧派对：空前盛会》NS2版实装游戏分享功能更新</title>
-  <link>https://www.gcores.com/articles/222178</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-016be6f0e9562d7dc167b67a</guid>
-  <pubDate>Wed, 11 Nov 2026 00:35:00 +0000</pubDate>
+  <title>Fullbright新作《永泉》登陆Steam，售价55元</title>
+  <link>https://www.gcores.com/articles/222256</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3eb3b23215a68a8a2076b6d9</guid>
+  <pubDate>Thu, 12 Nov 2026 05:37:49 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《超级马力欧派对 空前盛会 Nintendo Switch 2版+空前盛会TV》推出免费更新：游戏分享模式支持最多4人凭1份游戏游玩全部7款棋盘和60多款小游戏，并开放线上游戏聊天与全部规则、自定义回合数，但不支持单独游玩小游戏模式。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222178">机核</a></small></p><p><small>原文发布：2026-11-11 08:35（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>发行商Serenity Forge与开发商Fullbright在Steam发售第一人称叙事探索游戏《永泉》，售价55元，首发85折至11月24日。玩家扮演一名被旧日恋情记忆萦绕的男子，在止水温泉探索，与十多位住客交谈，线索层层解锁对话。</p><p><small>来源：<a href="https://www.gcores.com/articles/222256">机核</a></small></p><p><small>原文发布：2026-11-12 13:37（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>索尼取消Haven工作室《Fairgame$》开发</title>
-  <link>https://www.gcores.com/articles/222196</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0a8ddf91d3057b4cce09681d</guid>
-  <pubDate>Wed, 11 Nov 2026 04:39:25 +0000</pubDate>
+  <title>《西部之民》开启PC封闭测试，开放前6至8小时内容</title>
+  <link>https://www.gcores.com/articles/222235</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-700d316c854227afd35851a6</guid>
+  <pubDate>Thu, 12 Nov 2026 01:20:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>索尼互动娱乐宣布取消Haven工作室开发的在线服务型射击游戏《Fairgame$》，该作2023年公布，测试后玩家反馈与留存率未达预期，工作室将转向协助其他PlayStation团队，且不涉及裁员。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222196">机核</a> · <a href="https://80.lv/articles/sony-s-live-service-heist-simulator-fairgames-has-been-canceled/">80.lv</a></small></p><p><small>原文发布：2026-11-11 12:39（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>The Breach Studios与Team17宣布，开放世界西部生存冒险游戏《西部之民》在Steam和Epic Games Store开启封闭测试，持续至11月17日，测试开放前6至8小时内容，含两种生态区域的生存与聚落建造玩法。游戏计划2027年登陆PC抢先体验。</p><p><small>来源：<a href="https://www.gcores.com/articles/222235">机核</a></small></p><p><small>原文发布：2026-11-12 09:20（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>19名IGF评委联署抵制含生成式AI游戏，《Big Walk》被列入抵制对象</title>
-  <link>https://www.gcores.com/articles/222182</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3a66fc455f038b855b894534</guid>
-  <pubDate>Wed, 11 Nov 2026 01:25:00 +0000</pubDate>
+  <title>《WILL：美好世界》开发者王妙一公布新作《十五区：星落何处》首支宣传片</title>
+  <link>https://www.gameres.com/901203547.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f8d6969f9d835c0edccf6298</guid>
+  <pubDate>Wed, 11 Nov 2026 10:30:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>19名2027年IGF评委联署声明，拒绝为使用生成式AI制作的游戏投票，并呼吁IGF全面禁止含AI生成内容的作品参选。House House确认《Big Walk》后期用LLM辅助排查性能问题，称AI生成内容不足总代码0.1%。</p><p><small>来源：<a href="https://www.gcores.com/articles/222182">机核</a> · <a href="https://www.gamesindustry.biz/house-house-clarifies-use-of-ai-tools-in-big-walks-final-stage-of-development">GamesIndustry</a></small></p><p><small>原文发布：2026-11-11 09:25（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>王妙一公布解谜叙事新作《十五区：星落何处》首支宣传片，展示部分实机画面与美术素材，Steam商店页已上线，发售时间未定，移动端和Switch版在计划中。</p><p><small>来源：<a href="https://www.gameres.com/901203547.html">GameRes</a></small></p><p><small>原文发布：2026-11-11 18:30（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《瑞奇与叮当：游侠乱斗》软启动一年后宣布停运</title>
-  <link>https://80.lv/articles/ratchet-clank-ranger-rumble-is-shutting-down-a-year-after-its-soft-launch/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-30a4d563b8f3c418831dd0db</guid>
-  <pubDate>Tue, 10 Nov 2026 10:38:00 +0000</pubDate>
+  <title>《塞尔达传说：时之笛》重制版四天售出520万份</title>
+  <link>https://80.lv/articles/ocarina-of-time-remake-is-already-one-of-switch-2-s-best-selling-games/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9ef7f48b22e03783254788ba</guid>
+  <pubDate>Wed, 11 Nov 2026 19:47:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Ratchet &amp; Clank: Ranger Rumble Is Shutting Down a Year After Its Soft Launch</small></p><p>PlayStation宣布停止开发手游《瑞奇与叮当：游侠乱斗》，游戏将于11月21日从应用商店下架，服务器于2027年5月1日永久关闭并删除玩家数据，内购已移除，最终更新于11月6日发布。该作由Oh BiBi与Insomniac合作开发，2025年11月在菲律宾和印尼软启动，未进行全球上线。</p><p><small>来源：<a href="https://80.lv/articles/ratchet-clank-ranger-rumble-is-shutting-down-a-year-after-its-soft-launch/">80.lv</a> · <a href="https://www.gamesindustry.biz/playstation-cancels-ratchet-clank-ranger-rumble-a-year-into-soft-launch">GamesIndustry</a></small></p><p><small>原文发布：2026-11-10 18:38（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Ocarina of Time Remake Is Already One of Switch 2’s Best-Selling Games</small></p><p>任天堂公布，《塞尔达传说：时之笛》重制版在11月5日至8日的四天内售出超520万份，其中日本约81万份，创下任天堂发行Switch 2游戏的首发纪录，并超过《咚奇刚 蕉力全开》此前公布的总销量。</p><p><small>来源：<a href="https://80.lv/articles/ocarina-of-time-remake-is-already-one-of-switch-2-s-best-selling-games/">80.lv</a> · <a href="https://www.gamedeveloper.com/business/the-legend-of-zelda-ocarina-of-time-exceeds-5-million-copies-solid-in-first-week">Game Developer</a></small></p><p><small>原文发布：2026-11-12 03:47（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>i3 Corps用Unity管理国防训练3D资产的经验</title>
-  <link>https://unity.com/blog/3d-asset-management-defense-training</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c654ff63fd6bd14112254694</guid>
-  <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+  <title>报道称PlayStation取消Fairgames，Haven工作室不裁员</title>
+  <link>https://www.gamedeveloper.com/console/report-playstation-s-fairgame-cancelled-but-haven-studios-remains</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b7f66f70124537ecc76b8e68</guid>
+  <pubDate>Wed, 11 Nov 2026 16:19:51 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：10 teams, 3 programs, and 7 years: Efficiently managing 3D assets in defense training</small></p><p>i3 Corps为美国政府客户开发Unity虚拟训练应用，其3D模型是持续更新的装备数字孪生，需处理CAD更新、多型号复用、老旧机器存储限制与涉密资产分类，最终放弃自建目录，改用部署在政府云的Unity Asset Manager。</p><p><small>来源：<a href="https://unity.com/blog/3d-asset-management-defense-training">Unity</a></small></p><p><small>原文发布：2026-11-10 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Report: PlayStation&#x27;s Fairgames cancelled, no devs to be laid off</small></p><p>据彭博社报道，Haven Studio开发多年的多人射击游戏Fairgames已被取消，该作2023年5月公布后长期无新消息。索尼发言人表示Haven不会裁员，将转为支持其他PlayStation工作室。</p><p><small>来源：<a href="https://www.gamedeveloper.com/console/report-playstation-s-fairgame-cancelled-but-haven-studios-remains">Game Developer</a> · <a href="https://www.gamesindustry.biz/playstation-cancels-live-service-shooter-fairgames">GamesIndustry</a></small></p><p><small>原文发布：2026-11-12 00:19（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Unity发布用AI组织首个游戏项目的十条建议</title>
-  <link>https://unity.com/blog/how-to-organize-a-game-project-with-ai</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dc56d5d84792db80270403a0</guid>
-  <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+  <title>Azra Games谈《UnGodly》：用Unity打造移动端主机级动作RPG</title>
+  <link>https://unity.com/blog/ungodly-azra-games-mobile-rpg-unity</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-95ae294fc7ccf25514376a16</guid>
+  <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：10 tips for organizing your first video game project with AI</small></p><p>Unity团队面向用AI提示工具制作游戏的新手，提出十条项目组织建议：写一句话设计简报、拆分小模块、统一命名、用四象限管理想法、复用风格描述、每次只改一处并试玩、大改前设还原点、记录提示日志、标注素材来源、用待办看板跟踪进度。</p><p><small>来源：<a href="https://unity.com/blog/how-to-organize-a-game-project-with-ai">Unity</a></small></p><p><small>原文发布：2026-11-10 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The gods are dead. But not forever: Inside Azra Games’ UnGodly</small></p><p>Azra Games高管Philip Bang介绍暗黑奇幻动作RPG《UnGodly》的开发思路：基于Unity 6.3 LTS与URP Forward+渲染，兼顾移动端性能与画面，支持iPhone、Mac、PC及Apple Vision Pro，并计划登陆更多应用商店。</p><p><small>来源：<a href="https://unity.com/blog/ungodly-azra-games-mobile-rpg-unity">Unity</a></small></p><p><small>原文发布：2026-11-11 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>TCL敢为不凡杯S5高校电竞联赛总决赛在西安落幕</title>
-  <link>https://www.gameres.com/901203540.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-976b7617a94073addc5d81c2</guid>
-  <pubDate>Wed, 11 Nov 2026 03:28:00 +0000</pubDate>
+  <title>2026 CiGADC开发者大会公布完整日程与演讲话题</title>
+  <link>https://www.gameres.com/901203559.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b43c2509c8eef46d4870d2c8</guid>
+  <pubDate>Thu, 12 Nov 2026 06:28:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>TCL敢为不凡杯全球高校电子竞技联赛S5总决赛11月7日在西安曲江WE主场馆举行，设英雄联盟和无畏契约两大赛道。武汉大学WHU战队获英雄联盟冠军，成都大学成都狂少战队获无畏契约冠军。本赛季共2077支战队参赛，首次设南北赛区并采用跨校混战。</p><p><small>来源：<a href="https://www.gameres.com/901203540.html">GameRes</a></small></p><p><small>原文发布：2026-11-11 11:28（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>2026 CiGADC开发者大会公开完整日程，嘉宾来自TppStudio、The Game Bakers、Serenity Forge、Mega Crit、Pocketpair、月亮计划等团队，话题涉及独立游戏开发历程、营销复盘、叙事世界观、版本更新与发行传播。</p><p><small>来源：<a href="https://www.gameres.com/901203559.html">GameRes</a></small></p><p><small>原文发布：2026-11-12 14:28（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>完美世界《异环》入选文化“新三样”出海典型案例</title>
-  <link>https://www.gameres.com/901203539.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7f02b194515e4356b496659f</guid>
-  <pubDate>Wed, 11 Nov 2026 02:28:00 +0000</pubDate>
+  <title>报道称英伟达董事会考虑罢免CEO黄仁勋</title>
+  <link>https://80.lv/articles/nvidia-reportedly-weighs-ousting-ceo-jensen-huang/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-61f1b67b6c39d265f52e8044</guid>
+  <pubDate>Thu, 12 Nov 2026 06:24:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>在2026中国文化“新三样”出海典型案例活动上，完美世界自研游戏《异环》入选网游出海典型案例。文章称该游戏今年4月末全球公测，覆盖180多个国家和地区，截至10月28日全球累计流水超27亿元，海外流水贡献高于国内。</p><p><small>来源：<a href="https://www.gameres.com/901203539.html">GameRes</a></small></p><p><small>原文发布：2026-11-11 10:28（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：NVIDIA Reportedly Weighs Ousting CEO Jensen Huang</small></p><p>据《华尔街日报》援引知情人士报道，英伟达董事会据称正准备罢免联合创始人兼CEO黄仁勋，并可能最早于周三开会。《纽约时报》称黄仁勋与向其汇报的英伟达医疗健康业务副总裁Kimberly Powell存在关系。英伟达、黄仁勋与Powell均未公开置评。</p><p><small>来源：<a href="https://80.lv/articles/nvidia-reportedly-weighs-ousting-ceo-jensen-huang/">80.lv</a></small></p><p><small>原文发布：2026-11-12 14:24（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《Bloody Hell Hotel》开发者谈吸血鬼酒店沙盒设计</title>
-  <link>https://80.lv/articles/bloody-hell-hotel-developer-on-making-a-vampire-management-sandbox/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a665ceb2319bd830b42175f1</guid>
-  <pubDate>Tue, 10 Nov 2026 19:52:00 +0000</pubDate>
+  <title>Tripo AI首届3D世界黑客松：2000多支队伍提交可玩世界与VR游戏</title>
+  <link>https://80.lv/articles/creators-developed-playable-worlds-vr-games-digital-pets-for-tripo-ai-s-first-3d-world-hackathon/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8e3b00e6fedd5e480e5e8f70</guid>
+  <pubDate>Wed, 11 Nov 2026 19:42:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Bloody Hell Hotel Developer on Making a Vampire Management Sandbox</small></p><p>80.lv采访《Bloody Hell Hotel》开发者Wlad Marhulets，他介绍这款第一人称吸血鬼酒店沙盒的玩法：酒店经营、种田、烹饪、制作、地牢探索与战斗等系统大多可选，玩家可和平经营或专注探索；他还谈到程序化地牢的设计取舍，以及工作室以约15至30名外包协作者并行开发、不设全职员工的结构。</p><p><strong>背景与变化</strong><br>作者称地牢刻意不设90度走廊转角，改用带标志性道具和高度差的前厅引导转向，以避免玩家迷路和重复感；外包结构则便于按系统优先级调配不同专长的人手。</p><p><strong>策划视角</strong><br>可追问：在取消走廊转角、不依赖小地图后，前厅与高度差如何承担导航与记忆点功能，这一方案在多大程度上解决了重复感？</p><p><small>来源：<a href="https://80.lv/articles/bloody-hell-hotel-developer-on-making-a-vampire-management-sandbox/">80.lv</a></small></p><p><small>原文发布：2026-11-11 03:52（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Creators Developed Playable Worlds, VR Games, &amp; Digital Pets for Tripo AI&#x27;s First 3D World Hackathon</small></p><p>Tripo AI举办首届全球世界构建黑客松Tripothon S1，2026年9月15日至10月20日举行，78个国家和地区逾2000支队伍参加，围绕“A Gift for ___”主题提交游戏、VR/XR、应用与实体设计作品，旧金山现场活动评出多个奖项。</p><p><small>来源：<a href="https://80.lv/articles/creators-developed-playable-worlds-vr-games-digital-pets-for-tripo-ai-s-first-3d-world-hackathon/">80.lv</a></small></p><p><small>原文发布：2026-11-12 03:42（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《End of Abyss》开发者谈俯视角恐怖氛围的营造</title>
-  <link>https://80.lv/articles/end-of-abyss-devs-explain-how-they-made-top-down-horror-feel-unsettling/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a812ac9c14ec571e2f08cdf0</guid>
-  <pubDate>Tue, 10 Nov 2026 18:16:00 +0000</pubDate>
+  <title>PlayStation 5 累计出货量突破1亿台</title>
+  <link>https://www.gamedeveloper.com/console/playstation-5-ships-100-million-consoles</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bd174dd1ebb437cc2345fdd7</guid>
+  <pubDate>Wed, 11 Nov 2026 19:15:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：End of Abyss Devs Explain How They Made Top-Down Horror Feel Unsettling</small></p><p>80.lv采访Section 9 Interactive联合创始人Marcus Ottvall，介绍这款已登陆PC与主机的动作银河恶魔城游戏如何以地下设施、有限光源、手电筒与雾尘粒子营造不安感，并谈及环境与敌人迭代流程。</p><p><strong>背景与变化</strong><br>作者归纳的具体做法：以单一或少量光源保留暗部，用雾尘与手电筒强化氛围，同时保证可导航与战斗空间；敌人先在引擎内做动画与功能原型再定稿。</p><p><strong>策划视角</strong><br>可研究俯视角下“看得清”与“保持不安”如何取舍：作者提到用未知场景制造惊吓，这种手法在可战斗空间中如何落地？</p><p><small>来源：<a href="https://80.lv/articles/end-of-abyss-devs-explain-how-they-made-top-down-horror-feel-unsettling/">80.lv</a></small></p><p><small>原文发布：2026-11-11 02:16（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：PlayStation 5 crosses 100 million consoles sold</small></p><p>据索尼互动娱乐业务数据与销售页面，截至2026年11月10日，PlayStation 5累计出货量达到1亿台，与PlayStation、PlayStation 2和PlayStation 4同列；此前出货量超过1亿台的家用主机还有任天堂Wii和Nintendo Switch。</p><p><small>来源：<a href="https://www.gamedeveloper.com/console/playstation-5-ships-100-million-consoles">Game Developer</a></small></p><p><small>原文发布：2026-11-12 03:15（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>ExileCon 2026现场：流放之路2公布1.0版本内容与国服转免</title>
-  <link>http://www.chuapp.com/article/291745.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d89a7ea6b0b05a1d8c5a30c0</guid>
-  <pubDate>Tue, 10 Nov 2026 16:13:25 +0000</pubDate>
+  <title>《铁拳》创作者原田胜弘称希望Xbox Series S这类硬件不要推出</title>
+  <link>https://www.gamedeveloper.com/console/katsuhiro-harada-i-wish-hardware-like-the-xbox-series-s-wouldnt-be-released</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b2159b681294a1b44e541e86</guid>
+  <pubDate>Wed, 11 Nov 2026 18:30:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐记者受邀参加GGG在奥克兰举办的第三届ExileCon，现场报道《流放之路2》1.0版本将补全第五、六章剧情、推出新赛季玩法与暗影、决斗者新职业，国服《流放之路：降临》将采用同一套内容并转为免费。</p><p><small>来源：<a href="http://www.chuapp.com/article/291745.html">触乐</a></small></p><p><small>原文发布：2026-11-11 00:13（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Tekken creator says he wishes hardware like the Xbox Series S &#x27;wouldn’t be released&#x27;</small></p><p>在由前PlayStation高管吉田修平主持的座谈会上，《铁拳》系列创作者原田胜弘表示希望Xbox Series S这类硬件不要推出，理由是低内存和性能接近Series X却更弱，导致移植和优化困难，且美国市场Series S用户多于Series X，开发者还要面对玩家对画质降低的抱怨。</p><p><small>来源：<a href="https://www.gamedeveloper.com/console/katsuhiro-harada-i-wish-hardware-like-the-xbox-series-s-wouldnt-be-released">Game Developer</a></small></p><p><small>原文发布：2026-11-12 02:30（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>金铲铲之战公布2027年赛事升级与PC版计划</title>
-  <link>http://www.chuapp.com/article/291746.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-cd275087b57f2c97cc9e51c4</guid>
-  <pubDate>Tue, 10 Nov 2026 15:18:16 +0000</pubDate>
+  <title>乐高数字游戏收购移动工作室ForthStar Games</title>
+  <link>https://www.gamesindustry.biz/lego-digital-play-acquires-forthstar-games-to-bring-lego-to-the-prominence-it-truly-deserves-on-mobile</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1fe2670a2d23d4ad3220cf40</guid>
+  <pubDate>Wed, 11 Nov 2026 14:46:40 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐报道11月6日金铲铲之战在西安举行的发布会，腾讯游戏副总裁黄凌冬公布过去两年赛事参赛人次均超1000万，并发布2027年赛事升级规划与PC版计划，称未来三年再投入十亿元。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="http://www.chuapp.com/article/291746.html">触乐</a></small></p><p><small>原文发布：2026-11-10 23:18（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Lego Digital Play acquires ForthStar Games &quot;to bring Lego to the prominence it truly deserves on mobile&quot;</small></p><p>乐高数字游戏宣布收购移动工作室ForthStar Games，金额未披露。ForthStar由Playdemic联合创始人Paul Gouge和Alex Rigby于2024年创立，现有30名员工，收购后将继续留在曼彻斯特，Gouge将出任乐高数字游戏游戏业务负责人。</p><p><small>来源：<a href="https://www.gamesindustry.biz/lego-digital-play-acquires-forthstar-games-to-bring-lego-to-the-prominence-it-truly-deserves-on-mobile">GamesIndustry</a></small></p><p><small>原文发布：2026-11-11 22:46（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>万代南梦宫关闭Reflector Entertainment，预计第三季度计入约2100万欧元亏损</title>
-  <link>https://www.gamesindustry.biz/bandai-namco-closes-reflector-entertainment-expects-to-post-21m-loss-in-q3-as-a-result</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9913baedbacbd377940b72b8</guid>
-  <pubDate>Tue, 10 Nov 2026 11:46:00 +0000</pubDate>
+  <title>欧盟《数字公平法案》草案对游戏业的影响</title>
+  <link>https://www.gamesindustry.biz/what-the-digital-fairness-act-means-for-the-games-industry</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-85ef9e26411042e6e8ee49e1</guid>
+  <pubDate>Wed, 11 Nov 2026 11:29:10 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Bandai Namco closes Reflector Entertainment, expects to post €21m loss in Q3 as a result</small></p><p>万代南梦宫宣布解散并清算《Unknown 9: Awakening》开发商Reflector Entertainment，预计在截至2027年3月31日的财年第三季度计入约2100万欧元特别亏损。该工作室2020年被收购，2024年推出游戏后曾裁员，2025年又因项目未获批再次裁员并取消该系列。</p><p><small>来源：<a href="https://www.gamesindustry.biz/bandai-namco-closes-reflector-entertainment-expects-to-post-21m-loss-in-q3-as-a-result">GamesIndustry</a></small></p><p><small>原文发布：2026-11-10 19:46（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：What the Digital Fairness Act means for the games industry</small></p><p>欧盟委员会正式提出《数字公平法案》草案，拟以欧盟法规形式直接适用于成员国，涉及暗黑模式、虚拟货币、抽卡、付费取胜、成瘾性功能与订阅条款，罚款上限为全球年营业额6%，生效后12个月适用。</p><p><small>来源：<a href="https://www.gamesindustry.biz/what-the-digital-fairness-act-means-for-the-games-industry">GamesIndustry</a></small></p><p><small>原文发布：2026-11-11 19:29（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Skydance在1110亿美元合并后裁减游戏部门岗位</title>
-  <link>https://www.gamesindustry.biz/skydance-announces-layoffs-to-games-division-following-111bn-merger</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c1b94320e9e57c7ec4e0a1bd</guid>
-  <pubDate>Tue, 10 Nov 2026 10:34:40 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Skydance announces layoffs to games division following $111bn merger</small></p><p>Skydance在派拉蒙与华纳兄弟探索完成1110亿美元合并后，对游戏部门实施未披露规模的裁员，发言人称将缩减部分项目；据Kotaku与Insider Gaming报道，约30个岗位可能受影响，包括副设计总监David Ballard。</p><p><small>来源：<a href="https://www.gamesindustry.biz/skydance-announces-layoffs-to-games-division-following-111bn-merger">GamesIndustry</a></small></p><p><small>原文发布：2026-11-10 18:34（北京时间）</small></p>]]></description>
+  <title>《足球经理2027》主创谈引擎迁移、UI重构与战术系统</title>
+  <link>https://www.gcores.com/articles/222232</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3cf4e541c476178ab82f2bd7</guid>
+  <pubDate>Wed, 11 Nov 2026 12:41:37 +0000</pubDate>
+  <category>策划精选</category>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>机核在试玩会圆桌群访中与Sports Interactive主创交流，内容涉及《FM26》转向Unity时低估UI重构难度、《FM27》以效率、可预测性、熟悉感重构UI、恢复重新加载皮肤按钮、推出战术执行力系统、免费抢先体验发行策略及AI使用边界。</p><p><strong>设计选择</strong><br>作者以问答形式记录主创对开发取舍的说明：导航与信息分离、弹窗回归全屏、以战术复杂度减少神阵通吃、AI仅用于辅助且不裁撤员工。</p><p><strong>策划视角</strong><br>可对照《FM26》社区反馈，考察“效率、可预测性、熟悉感”三原则在具体界面改动中如何落实，以及战术复杂度是否真能改变跨级别通吃的策略。</p><p><small>来源：<a href="https://www.gcores.com/articles/222232">机核</a> · <a href="https://www.gcores.com/articles/222231">机核</a> · <a href="https://www.gcores.com/articles/222211">机核</a></small></p><p><small>原文发布：2026-11-11 20:41（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>openJiuwen提出TTSE双轨自演进框架，区分环境事实与条件式技巧</title>
-  <link>https://www.qbitai.com/2026/11/508998.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e20e6c16286b116ba65a59ad</guid>
-  <pubDate>Tue, 10 Nov 2026 07:56:29 +0000</pubDate>
+  <title>《卷尺人》开发日志：从Game Jam到完整解谜游戏的机制迭代</title>
+  <link>https://indienova.com/u/rainbowarrior/blogread/39522</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ff17f39ff2090ae6a2d29976</guid>
+  <category>策划精选</category>
+  <description><![CDATA[<p><strong>策划精选</strong></p><p>开发者RoyRosta回顾《卷尺人》从GMTK 2024 Game Jam两天原型扩展为约4小时流程Steam游戏的过程，围绕测量玩法，讲述卷尺上限、障碍保持测量、跨屏幕谜题等机制的多次调整，以及关卡编辑器、图示教学和美术风格的选择。</p><p><strong>设计选择</strong><br>作者以Leap Year、Öoo、Elechead等作品为参照，将无限扔卷尺改为拾取提升上限，把障碍改为需持续测量才消失，并借存档点回收卷尺支持跨屏谜题；机制不够直觉时用图示补足。</p><p><strong>策划视角</strong><br>可研究作者如何判断哪些机制靠关卡自解释、哪些需图示辅助，以及把玩家非预期解转为预期解的取舍标准。</p><p><small>来源：<a href="https://indienova.com/u/rainbowarrior/blogread/39522">indienova 会员日志</a></small></p><p><small>原文日期未标</small></p>]]></description>
+</item>
+<item>
+  <title>AWS推出官方本地服务模拟器aws-emulator</title>
+  <link>https://simonwillison.net/2026/Nov/11/aws-emulator/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5f97e8ae51039fe1049fb3d1</guid>
+  <pubDate>Wed, 11 Nov 2026 21:18:30 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>openJiuwen提出TTSE双轨自演进框架，将Agent经验分为环境事实FACT与条件式技巧TIP两条轨道，经冷启动、在线增量演进（归因、退役、矛盾合成、归纳）循环更新经验库，并在五个基准和办公场景中评测。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/508998.html">量子位</a></small></p><p><small>原文发布：2026-11-10 15:56（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：aws-emulator</small></p><p>Simon Willison介绍AWS发布的官方模拟器aws-emulator，可在本地克隆多种AWS服务用于测试，无需付费API密钥；项目用Rust编写，前三周有29,684次提交，macOS和Windows上目前需Docker运行。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/11/aws-emulator/">Simon Willison</a></small></p><p><small>原文发布：2026-11-12 05:18（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>BotPsy：0.8B参数端侧个人助理模型</title>
-  <link>https://huggingface.co/blog/qvac/botpsy</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1990c77cfdbf52ca6e7a2362</guid>
-  <pubDate>Wed, 11 Nov 2026 05:01:16 +0000</pubDate>
+  <title>Simon Willison用tree-sitter为244个工具建标签浏览</title>
+  <link>https://simonwillison.net/2026/Nov/11/tools-tags/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-adbb7df4eeeb0b89ff02a901</guid>
+  <pubDate>Wed, 11 Nov 2026 18:42:50 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model</small></p><p>Tether AI Research发布BotPsy，基于Qwen3.5-0.8B后训练，面向函数调用与智能体工作流，可在设备端运行，覆盖搜索、出行、金融、设备控制、文档、日历与邮件等任务。</p><p><small>来源：<a href="https://huggingface.co/blog/qvac/botpsy">HuggingFace Blog</a></small></p><p><small>原文发布：2026-11-11 13:01（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Browse tools.simonwillison.net by tag</small></p><p>Simon Willison介绍其工具站新增按标签浏览功能：用tree-sitter分析各工具的代码，提取所用JavaScript API、库和Web API主机，并在首页以标签云形式呈现，便于浏览其244个工具。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/11/tools-tags/">Simon Willison</a></small></p><p><small>原文发布：2026-11-12 02:42（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Gemini 4 Carbon发布：面向复杂智能体任务的前沿模型</title>
-  <link>https://deepmind.google/blog/gemini-4-carbon-is-now-available/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0f917a5729257aff54eb8002</guid>
-  <pubDate>Tue, 10 Nov 2026 16:03:47 +0000</pubDate>
+  <title>罗永浩直播演示TRAE：无代码生成报告、PPT与语音输入工具</title>
+  <link>https://www.qbitai.com/2026/11/509146.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-60269ddeb1b4c84a16784c15</guid>
+  <pubDate>Wed, 11 Nov 2026 06:41:26 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Gemini 4 Carbon is now available</small></p><p>DeepMind发布Gemini 4 Carbon，称其在网络安全、长程智能体工作流、软件工程与科学推理上性能更强，API定价与Gemini 4 Argon相同，并预览Antigravity中的/swarm多智能体协作功能。</p><p><small>来源：<a href="https://deepmind.google/blog/gemini-4-carbon-is-now-available/">DeepMind</a></small></p><p><small>原文发布：2026-11-11 00:03（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>量子位报道，罗永浩在双11直播间演示AI编程平台TRAE，自称不会写代码，现场用自然语言生成短剧调研报告、两套PPT，并依据手绘草图做出可用的语音输入软件；文章还介绍TRAE的多文件感知、环境自动配置等能力及部分用户案例。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/509146.html">量子位</a></small></p><p><small>原文发布：2026-11-11 14:41（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>DeepMind推出AlphaProof Code，用AI代理形式化验证Signal协议代码</title>
-  <link>https://deepmind.google/blog/introducing-alphaproof-code/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4bc322b70b2011095a1c4713</guid>
-  <pubDate>Tue, 10 Nov 2026 12:02:28 +0000</pubDate>
+  <title>英伟达发布GR00T 2机器人基础模型并开源数据</title>
+  <link>https://www.qbitai.com/2026/11/509032.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b653c54775b8a122f5343656</guid>
+  <pubDate>Tue, 10 Nov 2026 10:35:38 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</small></p><p>Google DeepMind发布AlphaProof Code多LLM代理框架，由人类专家与AI代理协作，将Signal协议的安全目标转为形式化数学规范，生成超六百万行Lean证明，并验证编译后代码的关键安全属性；还通过重新引入两个已修复漏洞，检验系统能否识别不安全代码。</p><p><small>来源：<a href="https://deepmind.google/blog/introducing-alphaproof-code/">DeepMind</a></small></p><p><small>原文发布：2026-11-10 20:02（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>OpenAI推出ChatGPT企业商家功能</title>
-  <link>https://openai.com/index/introducing-businesses-chatgpt</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c05afa30a6abfb12d4bf2c68</guid>
-  <pubDate>Tue, 10 Nov 2026 10:00:00 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing Businesses in ChatGPT</small></p><p>OpenAI发布ChatGPT中的企业商家功能，称商家可管理企业信息、查看自身在ChatGPT中的展示情况，并将用户兴趣转化为行动。来源仅为摘要，未提供具体能力细节或上线范围。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/introducing-businesses-chatgpt">OpenAI</a></small></p><p><small>原文发布：2026-11-10 18:00（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>Cogent与OpenAI为企业构建网络防御工厂</title>
-  <link>https://openai.com/index/cogent-security</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2210b69a8b2e3a995873a66d</guid>
-  <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Cogent and OpenAI build cyber defense factories for enterprises</small></p><p>据OpenAI来源摘要，Cogent将OpenAI模型与企业上下文结合，借助智能体帮助自动修复漏洞，双方合作面向企业构建网络防御能力。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/cogent-security">OpenAI</a></small></p><p><small>原文发布：2026-11-10 08:00（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>llm-gemini 0.36</title>
-  <link>https://simonwillison.net/2026/Nov/10/llm-gemini/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ff2601f06fed82fbc24b8c43</guid>
-  <pubDate>Tue, 10 Nov 2026 20:09:44 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for &quot;a subset of cyber defenders&quot;, but today it&#x27;s available to everyone else . This is Goog</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/10/llm-gemini/">Simon Willison</a></small></p><p><small>原文发布：2026-11-11 04:09（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>用Claude Fable 5.2制作约克市巨型机甲三维动画</title>
-  <link>https://simonwillison.net/2026/Nov/10/yonkers-rises/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-399a404efebc467300ccaacf</guid>
-  <pubDate>Tue, 10 Nov 2026 03:53:04 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Yonkers Rises</small></p><p>Simon Willison用Claude Fable 5.2 Medium生成Three.js动画：把约克市边界做成巨型机甲，从地面站起后在曼哈顿、布鲁克林、皇后区和布朗克斯行走，踩踏计数与机甲高度实时显示，建筑被踩平，状态行随陆地或水域变化。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/10/yonkers-rises/">Simon Willison</a></small></p><p><small>原文发布：2026-11-10 11:53（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>英伟达在CoRL大会发布世界动作模型GR00T 2，可同时预测未来画面与机器人动作，支持从人类示范、手持夹爪、外骨骼向不同机器人本体迁移技能；模型、数据、仿真环境和采集硬件将陆续开源，首批10万小时人类数据已开放。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/509032.html">量子位</a></small></p><p><small>原文发布：2026-11-10 18:35（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>
