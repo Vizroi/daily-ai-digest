@@ -1,46 +1,4 @@
 {
-  "89d0ad54f54b5bc9": {
-    "title": "Unreal Engine Minigames Collection - Available on FAB",
-    "first_seen": "2026-10-12",
-    "times": 2,
-    "last_seen": "2026-10-13"
-  },
-  "0ee6076a6d262e69": {
-    "title": "Laptop for simple UE5 blueprinting and experimenting",
-    "first_seen": "2026-10-12",
-    "times": 2,
-    "last_seen": "2026-10-13"
-  },
-  "d1e005dacc2387c8": {
-    "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-    "first_seen": "2026-10-13",
-    "times": 1,
-    "last_seen": "2026-10-13"
-  },
-  "f0ceabd9c67a7348": {
-    "title": "Codex CLI installs a persistent, self-updating background daemon by default",
-    "first_seen": "2026-10-13",
-    "times": 1,
-    "last_seen": "2026-10-13"
-  },
-  "481f74d3521a3838": {
-    "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
-    "first_seen": "2026-10-13",
-    "times": 1,
-    "last_seen": "2026-10-13"
-  },
-  "8305717d6a31f60c": {
-    "title": "Epic Games Tells Devs \"No More Hand-Written Code\" to Adopt an \"AI-First\" Production Model",
-    "first_seen": "2026-10-13",
-    "times": 1,
-    "last_seen": "2026-10-13"
-  },
-  "95c24f04e45ae7d7": {
-    "title": "Last Week in Unreal: 1,168 commits on ue6-main; 92 on ue5-main; 113 on 5.8 | 5.8.4 candidate takes shape",
-    "first_seen": "2026-10-13",
-    "times": 1,
-    "last_seen": "2026-10-13"
-  },
   "4dce59e1d6b5d825": {
     "title": "Developing Gemini 4 Argon responsibly and safely",
     "first_seen": "2026-10-14",
@@ -5049,6 +5007,198 @@
     "last_seen": "2026-11-12",
     "urls": [
       "https://www.qbitai.com/2026/11/509032.html"
+    ]
+  },
+  "e4ee8c88a9143df7": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "中文更新！悬疑惊悚视觉小说游戏《审判官谢泼德》全新试玩版现已上线",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gameres.com/901203563.html",
+      "https://www.gcores.com/articles/222264"
+    ]
+  },
+  "4f97578033b3a712": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "《巴士模拟器 27》免费更新加入两款比亚迪授权电动巴士",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gcores.com/articles/222299"
+    ]
+  },
+  "721c6d5eefe9d659": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "《失落星船：马拉松》“共生”公开试玩周将于12月9日开启",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gcores.com/articles/222269"
+    ]
+  },
+  "f615a2aff34b0ca7": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "小智游戏Zealory Games参展虚幻大会：以技术推动关卡与美术的无缝协作",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gameres.com/901203562.html"
+    ]
+  },
+  "95e54edc04d3a9c7": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "英伟达宣布黄仁勋辞去CEO",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://80.lv/articles/breaking-nvidia-announces-new-ceo-as-jensen-huang-resigns",
+      "https://www.gamedeveloper.com/business/nvidia-ceo-jensen-huang-resigns-after-scandal",
+      "https://www.gcores.com/articles/222275"
+    ]
+  },
+  "bf26160a94c8993a": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "Making the Portrait of a Harry Potter-Inspired Goblin with Realistic Skin Texture",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://80.lv/articles/making-the-portrait-of-a-harry-potter-inspired-goblin-with-realistic-skin-texture"
+    ]
+  },
+  "68f01187b5373cfd": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "BioWare Co-Founder Explains the $200 Million Problem With Reviving Mass Effect",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://80.lv/articles/bioware-co-founder-explains-the-usd200-million-problem-with-reviving-mass-effect"
+    ]
+  },
+  "bfb33b32610efbea": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "Tripwire Interactive lays off workers after announcing new publishing initiative",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gamedeveloper.com/business/tripwire-interactive-layoffs-come-after-announcing-new-publishing-initiative"
+    ]
+  },
+  "20c71e68d7d56e52": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "How Unreal Game Adur Uses Stylized 3D Character Creator for Development",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://80.lv/articles/how-unreal-game-adur-uses-stylized-3d-character-creator-for-development"
+    ]
+  },
+  "cd3e6cba2377eaff": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "GenAI-using developers say they mostly employ it for 'research and brainstorming'",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gamedeveloper.com/production/genai-using-developers-say-they-mostly-use-it-for-research-and-brainstorming-"
+    ]
+  },
+  "edb966a458afb103": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "One in three developers say they've been laid off within the last two years",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gamedeveloper.com/business/one-in-three-developers-have-been-laid-off-within-the-last-two-years"
+    ]
+  },
+  "5c874f939b5586ce": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "GDC's Mark DeLoura addresses the event's dip in attendance in 2026 as he details the planned changes for 2027",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gamesindustry.biz/gdcs-mark-deloura-addresses-the-events-dip-in-attendance-in-2026-as-he-details-the-planned-changes-for-2027"
+    ]
+  },
+  "80b39ff42f7aa6c2": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "GDC State of the Game Industry report: 40% of developers are using generative AI for work",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gamesindustry.biz/gdc-state-of-the-game-industry-report-40-of-developers-are-using-generative-ai-for-work"
+    ]
+  },
+  "67c74868c77b1495": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "\"It's about giving more great games a chance\" – Why Launchable thinks it can help more independent studios reach the market with its shared success model",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.gamesindustry.biz/its-about-giving-more-great-games-a-chance-why-launchable-thinks-it-can-help-more-independent-studios-reach-the-market-with-its-shared-success-model"
+    ]
+  },
+  "ffcd6ab4fb0adac2": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "《天空纪实/SkyAid》开发日志#04：丛林、取舍与猎场残迹",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://indienova.com/u/apricotgame/blogread/39531"
+    ]
+  },
+  "abf44a902a9349e4": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://openai.com/business/customer-stories/amplitude"
+    ]
+  },
+  "fa49cc82dde3b35a": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "Introducing Gemini 4 Hydrogen",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://deepmind.google/blog/introducing-gemini-4-hydrogen"
+    ]
+  },
+  "2ad45e751c0f1f49": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "Supporting research on AI and children’s safety",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://openai.com/index/children-first-declaration"
+    ]
+  },
+  "2e66fa21c959787e": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "llm-gemini 0.37",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/12/llm-gemini"
+    ]
+  },
+  "9156f65246bd08fa": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://www.qbitai.com/2026/11/509281.html"
+    ]
+  },
+  "379f1f646bcaed97": {
+    "first_seen": "2026-11-13",
+    "times": 1,
+    "title": "llm 0.37.2",
+    "last_seen": "2026-11-13",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/11/llm"
     ]
   }
 }
