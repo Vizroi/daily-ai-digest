@@ -5,59 +5,11 @@
     "times": 2,
     "last_seen": "2026-10-15"
   },
-  "c44f472b1a66b9e4": {
-    "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
-    "first_seen": "2026-10-14",
-    "times": 1,
-    "last_seen": "2026-10-14"
-  },
-  "d7bbec20cee11d59": {
-    "title": "11 year old unsoundness bugs found in Rust borrow checker",
-    "first_seen": "2026-10-14",
-    "times": 1,
-    "last_seen": "2026-10-14"
-  },
-  "21e2ca618a443154": {
-    "title": "Tutorial: string synthesis in UE5 Metasounds - Karplus Strong Modal",
-    "first_seen": "2026-10-14",
-    "times": 1,
-    "last_seen": "2026-10-14"
-  },
   "a03772e74ee72eef": {
     "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
     "first_seen": "2026-10-14",
     "times": 2,
     "last_seen": "2026-10-15"
-  },
-  "8572da7082da41c3": {
-    "title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
-    "first_seen": "2026-10-14",
-    "times": 1,
-    "last_seen": "2026-10-14"
-  },
-  "57321e45f4dfc16b": {
-    "title": "Fuse Games uses UE5 to make a fast and authentic Star Wars ™ racing game",
-    "first_seen": "2026-10-14",
-    "times": 1,
-    "last_seen": "2026-10-14"
-  },
-  "69c6cf6a262e4f84": {
-    "title": "I've been maintaining a UE 5.8 fork for D3D12 / deferred / classic shadows: hardware tessellation is back, UE6 backports, RE:Dox and more. Sharing in case it's useful to anyone",
-    "first_seen": "2026-10-14",
-    "times": 1,
-    "last_seen": "2026-10-14"
-  },
-  "9090a1871bb6af9c": {
-    "title": "How This Painterly Animated Short Was Rigged & Animated Entirely in Unreal Engine",
-    "first_seen": "2026-10-14",
-    "times": 1,
-    "last_seen": "2026-10-14"
-  },
-  "5f93e33f151e41aa": {
-    "title": "Gridline Blueprints now supports Material graphs, and it's 50% off for the Fab October Flash Sale [UE 5.6/5.7/5.8]",
-    "first_seen": "2026-10-14",
-    "times": 1,
-    "last_seen": "2026-10-14"
   },
   "87986931effc83c7": {
     "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
@@ -5199,6 +5151,199 @@
     "last_seen": "2026-11-13",
     "urls": [
       "https://simonwillison.net/2026/Nov/11/llm"
+    ]
+  },
+  "ec8c03770c58bf28": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "开普勒互动首度公开新作《坦克狂途》实机演示",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gcores.com/articles/222314"
+    ]
+  },
+  "2e6ad10b64856121": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "点击解谜游戏《老奶奶侦探社》Demo更新中文本地化",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gcores.com/articles/222311"
+    ]
+  },
+  "431a40b92f6efe98": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "Gamirror Games宣布发行骰子计算游戏《算鼠英雄》，全新Demo今日上线",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gcores.com/articles/222310"
+    ]
+  },
+  "1fc02765d7b52984": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "EVE Online Dev Open-Sources Its Physically Based SSAO Technology",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://80.lv/articles/eve-online-dev-open-sources-its-physically-based-ssao-technology",
+      "https://www.gamesindustry.biz/eve-online-maker-fenris-creations-is-adding-a-rendering-technique-to-its-open-source-carbon-engine-that-promises-more-accurate-shading-and-greater-depth"
+    ]
+  },
+  "975def36571f9aa8": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "Witcher 3 devs use AI to help Polish voice actor reprise role of Geralt after stroke",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gamedeveloper.com/production/polish-voice-actor-for-geralt-returns-for-the-witcher-3-with-ai",
+      "https://www.gamesindustry.biz/cd-projekt-red-used-ai-to-alter-the-voice-of-geralts-original-polish-actor-in-witcher-3-songs-of-the-past"
+    ]
+  },
+  "be04394b0abbdf07": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "Rules, states, and win conditions in video games: a guide",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://unity.com/blog/video-game-rules-states-win-conditions"
+    ]
+  },
+  "98ee4e04ba17fe64": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "Epic is Taking Apple's 27% Web Fee to the Supreme Court",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://80.lv/articles/epic-is-taking-apple-s-27-web-fee-to-the-supreme-court"
+    ]
+  },
+  "581f37b19fbd5035": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "Development secrets of Dressmaker, ft. Ruan Rothmann & Sara Laubscher",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gamedeveloper.com/pc/development-secrets-of-dressmaker-ft-ruan-rothmann-sara-laubscher"
+    ]
+  },
+  "3c29b279494250bb": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "How to protect your IP against the army of AI clones",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gamesindustry.biz/how-to-protect-your-ip-against-the-army-of-ai-clones",
+      "https://www.gamesindustry.biz/its-a-wild-situation-an-investor-and-publisher-perspective-on-the-rise-of-ai-copycats-the-discoverability-crisis-and-more"
+    ]
+  },
+  "f20615caba9005a5": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "Steam's submission and approval backlog is forcing indie devs to delay game launches",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches"
+    ]
+  },
+  "f53a97ab76ea0469": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "《魔域》年终圣装怎么提升？精炼系统、副本轮换与千万魔石预约指南",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gameres.com/901203545.html",
+      "https://www.gameres.com/901203575.html"
+    ]
+  },
+  "bfe9738e5693519a": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "MapleStory franchise Q3 revenue rises 72%, drives overall growth for Nexon",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gamesindustry.biz/maplestory-franchise-q3-revenue-rises-72-drives-overall-growth-for-nexon"
+    ]
+  },
+  "253a53090ba529db": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "村庄建设×动作RPG《笑拉了，我家旁边是魔王城666》正式开启抢先体验！上线特惠九折！",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gameres.com/901203572.html"
+    ]
+  },
+  "d200206894722dbf": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "A second 2026 State of the Game Industry survey? It can happen! ft. Beth Elderkin & Imran Khan",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gamedeveloper.com/business/a-second-2026-state-of-the-game-industry-survey-it-can-happen-ft-beth-elderkin-imran-khan"
+    ]
+  },
+  "0f7e881037b50cda": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "Secrets of the Blast Mask (and Retro Gaming Magic)",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://danfelder.net/2026/11/13/secrets-of-the-blast-mask-and-retro-gaming-magic"
+    ]
+  },
+  "3098b5ac62472a43": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "沉迷《深空当铺》50小时后，我专访了游戏主创Bei Ning Pan",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.gcores.com/articles/222315"
+    ]
+  },
+  "f6a134f61e32e848": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "Introducing ChatGPT Wallet",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://openai.com/index/introducing-chatgpt-wallet"
+    ]
+  },
+  "058835e95726dd49": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://openai.com/business/customer-stories/shield"
+    ]
+  },
+  "569f95493f4bee68": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "datasette-cluster-map 0.19",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/13/datasette-cluster-map"
+    ]
+  },
+  "a8dc2163fcf94a4e": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "datasette-leaflet 0.3",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/13/datasette-leaflet"
+    ]
+  },
+  "bfc52250e97d06ca": {
+    "first_seen": "2026-11-14",
+    "times": 1,
+    "title": "openJiuwen发布RSI原生AgentOS，让Agent自由变身，持续迭代！",
+    "last_seen": "2026-11-14",
+    "urls": [
+      "https://www.qbitai.com/2026/11/509653.html"
     ]
   }
 }
