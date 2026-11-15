@@ -4,177 +4,161 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 14 条，策划精选 2 篇，AI 快讯 5 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 15 条，策划精选 0 篇，AI 快讯 4 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 14 Nov 2026 14:51:32 +0800</lastBuildDate>
+<lastBuildDate>Sun, 15 Nov 2026 14:56:29 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>开普勒互动公开《坦克狂途》实机演示与铁袭任务</title>
-  <link>https://www.gcores.com/articles/222314</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-eb3a2efc4ffd9bb1844ae678</guid>
-  <pubDate>Fri, 13 Nov 2026 07:32:59 +0000</pubDate>
+  <title>《三国志：王道天下》定档12月24日公测</title>
+  <link>https://www.gameres.com/901203576.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-de55262d5bf376dcb2fdb270</guid>
+  <pubDate>Sun, 15 Nov 2026 01:19:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>开普勒互动与Alpha Channel公开坦克动作游戏《坦克狂途》实机演示，展示新关卡“铁袭”、可夺取敌方单位控制权的“远程操控仪”机制、头目“电缆蠕虫”及新NPC薇洛，游戏将于1月15日登陆PS5和PC。</p><p><small>来源：<a href="https://www.gcores.com/articles/222314">机核</a></small></p><p><small>原文发布：2026-11-13 15:32（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>光荣特库摩授权、哔哩哔哩游戏发行的沙盘策略游戏《三国志：王道天下》宣布12月24日公测，官方介绍3D武将建模、含走位与地形等变量的立体战场、不锁卡不撕卡卡池、自动铺路等减负机制及公测福利。</p><p><small>来源：<a href="https://www.gameres.com/901203576.html">GameRes</a></small></p><p><small>原文发布：2026-11-15 09:19（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>点击解谜游戏《老奶奶侦探社》Demo更新中文本地化</title>
-  <link>https://www.gcores.com/articles/222311</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-080a13f62bd025d481c9b536</guid>
-  <pubDate>Fri, 13 Nov 2026 07:17:52 +0000</pubDate>
+  <title>BLG以3比1击败Gen.G，首夺《英雄联盟》S16全球总决赛冠军</title>
+  <link>https://www.gcores.com/articles/222372</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f0a92f5443c6f0a2d5ce62b2</guid>
+  <pubDate>Sun, 15 Nov 2026 00:02:03 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>法国独立团队Team Empreintes开发的点击解谜游戏《老奶奶侦探社》Demo已更新简体与繁体中文。玩家扮演退休小老鼠玛德琳，通过观察街景、拍照、追踪行迹收集线索，推断邻居身份与关系；填字等小游戏针对中文做了调整。</p><p><small>来源：<a href="https://www.gcores.com/articles/222311">机核</a></small></p><p><small>原文发布：2026-11-13 15:17（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>哔哩哔哩电竞BLG在纽约布鲁克林巴克莱中心以3比1击败韩国LCK赛区Gen.G，首次夺得《英雄联盟》全球总决赛冠军，Knight获FMVP。半决赛BLG以3比1淘汰卫冕冠军T1，终结其连续三年夺冠纪录。这是LPL赛区自2021年EDG夺冠后的首座S赛冠军，也是LPL历史第四次夺冠。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222372">机核</a></small></p><p><small>原文发布：2026-11-15 08:02（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Gamirror Games宣布发行骰子计算Roguelike《算鼠英雄》并更新Demo</title>
-  <link>https://www.gcores.com/articles/222310</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f2ce8b3a3175910e5f10e945</guid>
-  <pubDate>Fri, 13 Nov 2026 07:13:57 +0000</pubDate>
+  <title>《英雄联盟：曙光》公布，2027年上线</title>
+  <link>https://www.gcores.com/articles/222374</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-642505ebfc12d116a3199f5f</guid>
+  <pubDate>Sat, 14 Nov 2026 22:14:40 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>发行商Gamirror Games宣布代理发行Filiokus团队开发的骰子计算主题Roguelike卡牌构筑游戏《算鼠英雄》(Talystro)，玩家需将骰子数值填入卡牌算式，使结果与敌人数值相等即可清除敌人。全新Demo同日更新上线，游戏还将参展11月末WePlay文化展和12月初新物集BGM游戏展。</p><p><small>来源：<a href="https://www.gcores.com/articles/222310">机核</a></small></p><p><small>原文发布：2026-11-13 15:13（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>在2026英雄联盟全球总决赛期间，研发团队公布《英雄联盟：曙光》，称这是游戏上线以来最大规模的全面更新，预计2027年上线，内容包括客户端现代化、召唤师峡谷地图与视觉更新、玩法演进及英雄体验新方式。</p><p><small>来源：<a href="https://www.gcores.com/articles/222374">机核</a></small></p><p><small>原文发布：2026-11-15 06:14（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>EVE Online开发商开源基于物理的SSAO技术CORTAO</title>
-  <link>https://80.lv/articles/eve-online-dev-open-sources-its-physically-based-ssao-technology/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-090689f7bea8fa1ab7d1b159</guid>
-  <pubDate>Fri, 13 Nov 2026 17:10:00 +0000</pubDate>
+  <title>漫画风动作FPS《Balitti》用径向重力让墙壁变地面</title>
+  <link>https://80.lv/articles/this-manga-style-action-fps-uses-radial-gravity-to-turn-walls-into-floors/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-17e0e410af71d4a9e3d878e2</guid>
+  <pubDate>Sat, 14 Nov 2026 18:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：EVE Online Dev Open-Sources Its Physically Based SSAO Technology</small></p><p>Fenris Creations将高级渲染工程师Daniel Isheden开发的CORTAO环境光遮蔽技术通过Carbon引擎框架开源。该技术以屏幕空间信息构建圆形遮挡体，已在EVE Frontier中用于大尺度场景与室内环境。</p><p><small>来源：<a href="https://80.lv/articles/eve-online-dev-open-sources-its-physically-based-ssao-technology/">80.lv</a> · <a href="https://www.gamesindustry.biz/eve-online-maker-fenris-creations-is-adding-a-rendering-technique-to-its-open-source-carbon-engine-that-promises-more-accurate-shading-and-greater-depth">GamesIndustry</a></small></p><p><small>原文发布：2026-11-14 01:10（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This Manga-Style Action FPS Uses Radial Gravity to Turn Walls into Floors</small></p><p>开发者sembask介绍其Godot新作《Balitti》的径向重力：世界为空心球体，Area3D负点重力将物体从球心推向球壳，强度按(distance/radius)^1.5衰减，中心处漂浮；世界不旋转，玩家各自调整身体与相机朝向。</p><p><small>来源：<a href="https://80.lv/articles/this-manga-style-action-fps-uses-radial-gravity-to-turn-walls-into-floors/">80.lv</a></small></p><p><small>原文发布：2026-11-15 02:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《巫师3》资料片用AI辅助波兰配音演员延续杰洛特声线</title>
-  <link>https://www.gamedeveloper.com/production/polish-voice-actor-for-geralt-returns-for-the-witcher-3-with-ai</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c69d6085baed34f982a4ed33</guid>
-  <pubDate>Fri, 13 Nov 2026 15:28:34 +0000</pubDate>
+  <title>机核周报11.14：GTA6开发完成与多款游戏动态</title>
+  <link>https://www.gcores.com/radios/222022</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ef7fad70222df41751896332</guid>
+  <pubDate>Sat, 14 Nov 2026 15:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Witcher 3 devs use AI to help Polish voice actor reprise role of Geralt after stroke</small></p><p>《巫师3》波兰语杰洛特配音演员Jacek Rozenek中风后声音改变，他同意CDPR在新资料片《Songs of the Past》中使用Respeecher的AI工具，以其过往录音为训练基础调整新配音，使其接近十多年前的声线。</p><p><small>来源：<a href="https://www.gamedeveloper.com/production/polish-voice-actor-for-geralt-returns-for-the-witcher-3-with-ai">Game Developer</a> · <a href="https://www.gamesindustry.biz/cd-projekt-red-used-ai-to-alter-the-voice-of-geralts-original-polish-actor-in-witcher-3-songs-of-the-past">GamesIndustry</a></small></p><p><small>原文发布：2026-11-13 23:28（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核Gadio News周报汇总本期要闻：《GTA6》开发完成，Take-Two称预购远超预期，索尼与微软称其为各自商店预购最高，全主机平台目标30FPS且无性能模式；MW4登顶Steam全球周榜，《影之刃零》国区三连庄、好评率91%；另有Switch固件、塞尔达重制版销量、魔兽世界国服开服在线及金摇杆奖结果。</p><p><small>来源：<a href="https://www.gcores.com/radios/222022">机核</a></small></p><p><small>原文发布：2026-11-14 23:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Unity指南：游戏规则、状态与胜负条件的设计方法</title>
-  <link>https://unity.com/blog/video-game-rules-states-win-conditions</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b48d0c57c801903838891397</guid>
-  <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+  <title>VRChat双马尾发型可切换为螺旋桨悬浮动画</title>
+  <link>https://80.lv/articles/vrchat-hairstyle-with-ponytails-that-turn-into-propellers/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0aafac254fecc13debd9f8cc</guid>
+  <pubDate>Sat, 14 Nov 2026 14:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Rules, states, and win conditions in video games: a guide</small></p><p>Unity团队文章用井字棋等示例说明规则、游戏状态与胜负条件如何构成游戏结构，并给出五步定义法：一句话写目标、按三类整理规则、命名状态并画转移、列出所有结局、通过试玩检验玩家是否清楚输赢。</p><p><small>来源：<a href="https://unity.com/blog/video-game-rules-states-win-conditions">Unity</a></small></p><p><small>原文发布：2026-11-12 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：VRChat Hairstyle With Ponytails That Turn Into Propellers</small></p><p>3D艺术家siropapa_3D为VRChat制作了一款双马尾发型，开启菜单中的螺旋桨模式后，头发会展开并配合角色摆出悬浮姿势，身体与螺旋桨随移动方向倾斜，并带有旋转轨迹和风效；悬浮高度、马尾长度和特效均可调节。该效果仅为动画，不能让玩家真正飞行。</p><p><small>来源：<a href="https://80.lv/articles/vrchat-hairstyle-with-ponytails-that-turn-into-propellers/">80.lv</a></small></p><p><small>原文发布：2026-11-14 22:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Epic就苹果27%网页抽成向最高法院提起上诉</title>
-  <link>https://80.lv/articles/epic-is-taking-apple-s-27-web-fee-to-the-supreme-court/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-02bc88340036dc7d2993a14d</guid>
-  <pubDate>Fri, 13 Nov 2026 23:34:00 +0000</pubDate>
+  <title>触乐本周行业大事：《虚环》二测招募与《影之刃零》金摇杆奖惜败</title>
+  <link>http://www.chuapp.com/article/291756.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9f1bbce9a44d3ccfdb27f3af</guid>
+  <pubDate>Sat, 14 Nov 2026 08:38:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Epic is Taking Apple&#x27;s 27% Web Fee to the Supreme Court</small></p><p>Epic Games向美国最高法院提交文件，请求维持此前认定苹果违反禁令的藐视法庭裁决。争议焦点是苹果对用户从iOS应用内链接跳转后七天内网页购买收取27%佣金，Epic称叠加支付处理费后开发者反而亏损。最高法院将审理藐视法庭的认定标准，口头辩论定于2027年1月11日。</p><p><small>来源：<a href="https://80.lv/articles/epic-is-taking-apple-s-27-web-fee-to-the-supreme-court/">80.lv</a></small></p><p><small>原文发布：2026-11-14 07:34（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐汇总本周游戏行业动态：腾讯《虚环》开启二测招募；《蛋仔派对》B站渠道服将停服并开放迁移；《影之刃零》以1%票差未获金摇杆年度游戏；中国独立游戏开发者大会议程公开；《我带过的最差一届》正式版首日销量超10万份；欧盟提交《数字公平法案》提案等。</p><p><small>来源：<a href="http://www.chuapp.com/article/291756.html">触乐</a></small></p><p><small>原文发布：2026-11-14 16:38（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《Dressmaker》开发幕后：Free Lives从动作游戏转向制作类游戏</title>
-  <link>https://www.gamedeveloper.com/pc/development-secrets-of-dressmaker-ft-ruan-rothmann-sara-laubscher</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-59f7a0da69b033092c9c7780</guid>
-  <pubDate>Fri, 13 Nov 2026 16:05:43 +0000</pubDate>
+  <title>欧盟拟议《数字公平法案》限制免费游戏机制</title>
+  <link>https://www.gamedeveloper.com/business/european-union-proposes-digital-fairness-act-which-could-have-major-effects-on-game-development</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d9085824b72c57dffc147304</guid>
+  <pubDate>Fri, 13 Nov 2026 18:32:59 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Development secrets of Dressmaker, ft. Ruan Rothmann &amp; Sara Laubscher</small></p><p>Game Developer播客采访Free Lives的程序员Ruan Rothmann与美术Sara Laubscher，讨论这家以《Broforce》《Gorn》等动作游戏闻名的南非工作室如何转向开发低强度制作类游戏《Dressmaker》，以及团队进入新类型时的开发过程。</p><p><small>来源：<a href="https://www.gamedeveloper.com/pc/development-secrets-of-dressmaker-ft-ruan-rothmann-sara-laubscher">Game Developer</a></small></p><p><small>原文发布：2026-11-14 00:05（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Newly-proposed EU law could place tight restrictions on free-to-play games</small></p><p>欧盟委员会公布《数字公平法案》提案，拟在欧盟范围内限制游戏中的虚拟货币、战利品箱和成瘾性设计：要求显示虚拟货币对应真实金额，面向未成年人的产品默认关闭虚拟货币，禁止向未成年人出售战利品箱，并允许用户关闭推送和连续登录等设计。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/european-union-proposes-digital-fairness-act-which-could-have-major-effects-on-game-development">Game Developer</a> · <a href="https://www.gamesindustry.biz/the-digital-fairness-act-is-a-decade-long-bill-coming-due-opinion">GamesIndustry</a> · <a href="https://www.gamesindustry.biz/german-games-industry-association-warns-digital-fairness-act-could-cause-double-regulation-and-legal-uncertainty">GamesIndustry</a></small></p><p><small>原文发布：2026-11-14 02:32（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>律师建议：游戏开发者如何用美国法律防范AI克隆</title>
-  <link>https://www.gamesindustry.biz/how-to-protect-your-ip-against-the-army-of-ai-clones</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a4b44772157d26213003edec</guid>
-  <pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
+  <title>GTA 6发售月值得关注的十款替代游戏</title>
+  <link>https://80.lv/articles/10-best-games-to-play-instead-of-gta-6/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6ac3ef192e030c1e91f34b67</guid>
+  <pubDate>Fri, 13 Nov 2026 20:55:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How to protect your IP against the army of AI clones</small></p><p>Pryor Cashman律师事务所在GamesIndustry撰文，针对生成式AI催生的游戏克隆、模组与移植现象，提出六项美国法下的IP保护措施：保密与NDA、了解合作方AI使用、版权登记、商标登记、品牌与域名社媒布局、侵权监测与执法。</p><p><small>来源：<a href="https://www.gamesindustry.biz/how-to-protect-your-ip-against-the-army-of-ai-clones">GamesIndustry</a> · <a href="https://www.gamesindustry.biz/its-a-wild-situation-an-investor-and-publisher-perspective-on-the-rise-of-ai-copycats-the-discoverability-crisis-and-more">GamesIndustry</a></small></p><p><small>原文发布：2026-11-13 23:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：10 Best Games To Play Instead Of GTA 6</small></p><p>80.lv在GTA 6发售月整理了一份替代游戏清单，涵盖《Tanuki: Pon&#x27;s Summer》《塞尔达传说：时之笛》重制版、《以撒的结合：忏悔+》《Loftia》《Arkheron》《Am I Nima?》《怪物史莱克2重制版》《Potato Please》《乐高都市：卧底风云》《赛博朋克2077》和《看门狗2》，并列出各作平台与发售时间。</p><p><small>来源：<a href="https://80.lv/articles/10-best-games-to-play-instead-of-gta-6/">80.lv</a></small></p><p><small>原文发布：2026-11-14 04:55（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Steam审核积压致多款独立游戏推迟发售</title>
-  <link>https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-764cdc4908f3d45007f1b3e9</guid>
-  <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+  <title>《末日神枪》：安东诺夫遗作中的美术与敌人设计</title>
+  <link>http://www.chuapp.com/article/291755.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ca5696ddeccf1ec92b2c2fc3</guid>
+  <pubDate>Fri, 13 Nov 2026 12:53:12 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Steam&#x27;s submission and approval backlog is forcing indie devs to delay game launches</small></p><p>多名独立开发者称Steam商店页与游戏构建审核延迟，导致游戏无法按期上线。Valve承认近几个月提交量显著增加，审核通常需3至5个工作日，目前最长约12个工作日，部分延迟源于重复审核。</p><p><small>来源：<a href="https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches">GamesIndustry</a></small></p><p><small>原文发布：2026-11-13 20:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐编译文章介绍已故艺术家维克托·安东诺夫生前参与的最后一部作品《末日神枪》。该作由Eschatology Entertainment开发，是西部题材类魂FPS，试玩版已上架Steam，预计2026年12月8日登陆PC与主机。</p><p><small>来源：<a href="http://www.chuapp.com/article/291755.html">触乐</a></small></p><p><small>原文发布：2026-11-13 20:53（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《魔域》年终活动12月18日上线：圣装精炼与副本轮换</title>
-  <link>https://www.gameres.com/901203575.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4f8ed96995b0bc59d9c7b7bb</guid>
-  <pubDate>Fri, 13 Nov 2026 11:31:00 +0000</pubDate>
+  <title>触乐夜话：用开源前端与AIRP自建AI陪伴角色</title>
+  <link>http://www.chuapp.com/article/291754.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-59e96b8114e20ef7c80f35ff</guid>
+  <pubDate>Fri, 13 Nov 2026 11:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《魔域》年终活动「世界树：天痕之上」定于2026年12月18日上线，推出圣装精炼系统，可提升圣铸评分与属性；新副本「霜风禁谷」与「灼魂之森」每周轮换，奖励升级；萃取功能并入分解系统；组队预约可参与瓜分1000万点魔石。</p><p><small>来源：<a href="https://www.gameres.com/901203575.html">GameRes</a> · <a href="https://www.gameres.com/901203545.html">GameRes</a></small></p><p><small>原文发布：2026-11-13 19:31（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>作者作为女性向产品消费者，因商业产品难以满足其非恋爱向的情感陪伴需求，借助AIRP搭配开源前端，在两小时内完成人物卡与世界观，并用ChatGPT学习部署，随后通过MCP接入开源外置记忆库、微调回复风格，云服务等花费约4元。</p><p><small>来源：<a href="http://www.chuapp.com/article/291754.html">触乐</a></small></p><p><small>原文发布：2026-11-13 19:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Nexon第三季度营收增长17%，《冒险岛》系列收入同比增72%</title>
-  <link>https://www.gamesindustry.biz/maplestory-franchise-q3-revenue-rises-72-drives-overall-growth-for-nexon</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-37d5b1a30de5d1ca67e6fd0c</guid>
-  <pubDate>Fri, 13 Nov 2026 09:33:30 +0000</pubDate>
+  <title>太空工厂建造游戏《主星序》开启Steam抢先体验</title>
+  <link>https://www.gameres.com/901203566.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-246828c00e605c15cab5dca0</guid>
+  <pubDate>Fri, 13 Nov 2026 01:31:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：MapleStory franchise Q3 revenue rises 72%, drives overall growth for Nexon</small></p><p>Nexon公布第三季度业绩：营收865.4百万美元，同比增长17%；营业利润261.3百万美元，同比增长11%；净利润238.2百万美元，与去年同期持平。《冒险岛》系列收入同比增长72%，创季度新高，是营收增长的主要来源。</p><p><small>来源：<a href="https://www.gamesindustry.biz/maplestory-franchise-q3-revenue-rises-72-drives-overall-growth-for-nexon">GamesIndustry</a></small></p><p><small>原文发布：2026-11-13 17:33（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>由Tumbling Dumpling Studio开发、Mythwright发行的第一人称太空模拟工厂建造游戏《主星序》于11月13日在Steam开启抢先体验，售价87元，上线前两周八折。玩家可采集资源、设计空间站、搭建自动化生产与跨站物流，并支持在线合作、太空战斗与星域探索。</p><p><small>来源：<a href="https://www.gameres.com/901203566.html">GameRes</a></small></p><p><small>原文发布：2026-11-13 09:31（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>村庄建设动作RPG《笑拉了，我家旁边是魔王城666》开启Steam抢先体验</title>
-  <link>https://www.gameres.com/901203572.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-13d8225b83ff7882d225bb51</guid>
-  <pubDate>Fri, 13 Nov 2026 07:30:00 +0000</pubDate>
+  <title>《生化危机：安魂曲》获四项金摇杆奖，含年度终极游戏</title>
+  <link>https://www.gamesindustry.biz/resident-evil-requiem-wins-four-golden-joystick-awards-including-ultimate-and-console-goty</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2a965df0679ce7978b769431</guid>
+  <pubDate>Thu, 12 Nov 2026 14:42:10 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>One or Eight宣布，村庄建设×动作RPG《笑拉了，我家旁边是魔王城666》于2026年11月12日在Steam开启抢先体验，可游玩至第一章，正式版预计2027年冬季推出。</p><p><small>来源：<a href="https://www.gameres.com/901203572.html">GameRes</a></small></p><p><small>原文发布：2026-11-13 15:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Resident Evil Requiem wins four Golden Joystick Awards, including Ultimate and Console GOTY</small></p><p>第44届金摇杆奖结果公布，《生化危机：安魂曲》获年度终极游戏、主机年度游戏、最佳游戏预告片和最佳主角表演四项奖；卡普空共获七项奖，包括年度工作室。</p><p><small>来源：<a href="https://www.gamesindustry.biz/resident-evil-requiem-wins-four-golden-joystick-awards-including-ultimate-and-console-goty">GamesIndustry</a></small></p><p><small>原文发布：2026-11-12 22:42（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>GDC游戏行业现状报告今年第二次发布，播客讨论裁员、加班与生成式AI</title>
-  <link>https://www.gamedeveloper.com/business/a-second-2026-state-of-the-game-industry-survey-it-can-happen-ft-beth-elderkin-imran-khan</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1ea7a8eab0878048544fb317</guid>
-  <pubDate>Thu, 12 Nov 2026 17:31:00 +0000</pubDate>
+  <title>Black Forest Games管理层收购脱离THQ Nordic，联合创立Third Signal</title>
+  <link>https://www.gamesindustry.biz/black-forest-games-spins-out-from-thq-nordic-co-founds-indie-studio-group-third-signal</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4d4a6995e1ab96f1378a877a</guid>
+  <pubDate>Thu, 12 Nov 2026 11:53:40 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：A second 2026 State of the Game Industry survey? It can happen! ft. Beth Elderkin &amp; Imran Khan</small></p><p>Game Developer播客介绍GDC Festival of Gaming今年第二次发布游戏行业现状报告，原因是发布节奏从年初改为年末；节目与两位嘉宾讨论报告中的裁员、过度加班和生成式AI使用等数据。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/a-second-2026-state-of-the-game-industry-survey-it-can-happen-ft-beth-elderkin-imran-khan">Game Developer</a></small></p><p><small>原文发布：2026-11-13 01:31（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Black Forest Games spins out from THQ Nordic, co-founds indie studio group Third Signal</small></p><p>Black Forest Games通过管理层收购从THQ Nordic独立，并联合创立独立工作室集团Third Signal。该工作室将继续以自有品牌开发发行游戏，同时与THQ Nordic在开发任务上合作；Third Signal将为小型团队提供资源，聚焦PC和主机付费游戏。</p><p><small>来源：<a href="https://www.gamesindustry.biz/black-forest-games-spins-out-from-thq-nordic-co-founds-indie-studio-group-third-signal">GamesIndustry</a></small></p><p><small>原文发布：2026-11-12 19:53（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《姆吉拉的假面》炸弹面具的秘密与可选复杂度设计</title>
-  <link>https://danfelder.net/2026/11/13/secrets-of-the-blast-mask-and-retro-gaming-magic/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-37a1d09e05c67ff3224a0fb8</guid>
-  <pubDate>Fri, 13 Nov 2026 17:24:52 +0000</pubDate>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Secrets of the Blast Mask (and Retro Gaming Magic)</small></p><p>作者以《姆吉拉的假面》炸弹面具为例：举盾引爆可免伤，这是代码特性而非主题设定；玩家无需知道也能通关，属于可选复杂度，奖励实验与分享。</p><p><strong>设计选择</strong><br>作者区分必须掌握的反直觉机制与可选秘密，认为后者能带来发现乐趣；并以《我的世界》船免摔伤、无限水源等为例佐证。</p><p><strong>策划视角</strong><br>可研究：如何判断一个反直觉机制是可选彩蛋还是必要知识，以及两者在引导与容错设计上的边界。</p><p><small>来源：<a href="https://danfelder.net/2026/11/13/secrets-of-the-blast-mask-and-retro-gaming-magic/">Dan Felder</a></small></p><p><small>原文发布：2026-11-14 01:24（北京时间）</small></p>]]></description>
+  <title>Id Software前员工组建员工持股工作室Hidden Horses</title>
+  <link>https://www.gamesindustry.biz/laid-off-id-software-devs-form-employee-owned-studio-hidden-horses</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c3c966ddabfa7523c433ef17</guid>
+  <pubDate>Thu, 12 Nov 2026 10:17:40 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Laid-off Id Software devs form employee-owned studio Hidden Horses</small></p><p>一批受Xbox裁员影响的Id Software开发者成立员工持股独立工作室Hidden Horses，成员包括20多名前Id开发者、美术和设计师，并计划通过Kickstarter为单人FPS新作Danger Pay筹资。</p><p><small>来源：<a href="https://www.gamesindustry.biz/laid-off-id-software-devs-form-employee-owned-studio-hidden-horses">GamesIndustry</a></small></p><p><small>原文发布：2026-11-12 18:17（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《深空当铺》主创专访：柜台静止时间与无Boss设计</title>
-  <link>https://www.gcores.com/articles/222315</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e9d9d40c7fabaf2914dffbd2</guid>
-  <pubDate>Fri, 13 Nov 2026 11:25:00 +0000</pubDate>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>机核作者在游玩《深空当铺：可能是偷的》近50小时后邮件专访主创Bei Ning Pan，谈及正式版内容与地区定价、职业开发顺序、取消QTE与最终Boss、柜台后时间静止、夜间外出拾荒的取舍、义体人顾客的由来及水商数值削弱后回调。</p><p><strong>设计选择</strong><br>作者以提问推进，主创说明：时间静止与无QTE是为让更多玩家从容游玩，张力靠按游戏内天数计算的房租；夜间外出的隐性代价是为让玩家不必每晚出门；义体人设定用于合理化射击机制；水商削弱因玩家反对而部分回调。</p><p><strong>策划视角</strong><br>可对照访谈中“从容”与“关键目标”的表述，考察无倒计时经营游戏如何用房租等按天结算的目标维持压力，以及夜间外出的机会成本是否真能让玩家不感内疚。</p><p><small>来源：<a href="https://www.gcores.com/articles/222315">机核</a></small></p><p><small>原文发布：2026-11-13 19:25（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>OpenAI推出ChatGPT Wallet，支持代理在用户批准下完成购买</title>
-  <link>https://openai.com/index/introducing-chatgpt-wallet</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9b02fe065f9e430aef5cf977</guid>
-  <pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
+  <title>datasette-llm 0.1a11 支持 OpenAI 兼容端点</title>
+  <link>https://simonwillison.net/2026/Nov/14/datasette-llm/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1e83ee0c420514c44907036b</guid>
+  <pubDate>Sat, 14 Nov 2026 23:59:28 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing ChatGPT Wallet</small></p><p>OpenAI发布ChatGPT Wallet，称这是一种安全方式，让ChatGPT Work、Codex和dots中的代理在用户批准并沿用现有银行卡保护的前提下完成购买。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/introducing-chatgpt-wallet">OpenAI</a></small></p><p><small>原文发布：2026-11-13 23:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：datasette-llm 0.1a11</small></p><p>Datasette 的中间插件 datasette-llm 发布 0.1a11，新增对 OpenAI 兼容端点的支持，可配置指向 LM Studio、Ollama、llama.cpp 等本地模型服务，文中给出用 uvx 启动本地 Datasette Agent 的命令示例。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/14/datasette-llm/">Simon Willison</a></small></p><p><small>原文发布：2026-11-15 07:59（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Shield用OpenAI帮助技术人员交接遗留门户工作</title>
-  <link>https://openai.com/business/customer-stories/shield</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d65e29d85ca672437f23cb98</guid>
-  <pubDate>Fri, 13 Nov 2026 08:00:00 +0000</pubDate>
+  <title>Datasette-vega 0.7 插件发布，兼容最新 Datasette 并支持 Datasette Lite</title>
+  <link>https://simonwillison.net/2026/Nov/14/datasette-vega/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9bd95d08c3c09930dd7b88f0</guid>
+  <pubDate>Sat, 14 Nov 2026 17:09:09 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Shield helps technicians hand off legacy portal work with OpenAI</small></p><p>据OpenAI介绍，Shield利用OpenAI技术协助IT技术人员在遗留门户系统中交接工作，其Forge智能体可代为操作这些系统，让技术人员专注于需要人工判断的问题。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/business/customer-stories/shield">OpenAI</a></small></p><p><small>原文发布：2026-11-13 16:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：datasette-vega 0.7</small></p><p>Simon Willison 发布 Datasette 图表插件 datasette-vega 0.7，这是该插件自 2018 年 7 月以来的首次更新，主要为兼容最新 Datasette alpha 版本，并做了一些外观调整以适配 Datasette Lite。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/14/datasette-vega/">Simon Willison</a></small></p><p><small>原文发布：2026-11-15 01:09（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Datasette地图插件datasette-cluster-map发布0.19版</title>
-  <link>https://simonwillison.net/2026/Nov/13/datasette-cluster-map/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0f9e4ed268f12440815d571b</guid>
-  <pubDate>Fri, 13 Nov 2026 23:02:45 +0000</pubDate>
+  <title>UniPat AI发布湿实验预测基准SPU，前沿模型平均分最高0.486</title>
+  <link>https://www.qbitai.com/2026/11/510232.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-856e6a283f25fe2e7ef6fe31</guid>
+  <pubDate>Sat, 14 Nov 2026 09:58:22 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：datasette-cluster-map 0.19</small></p><p>Simon Willison发布datasette-cluster-map 0.19，该插件可为含经纬度列的数据显示地图。此版本兼容Datasette 1.0a42，并依赖新的datasette-leaflet，以确保请求OpenStreetMap瓦片时携带referrer头。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/">Simon Willison</a></small></p><p><small>原文发布：2026-11-14 07:02（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>UniPat AI联合多所高校推出湿实验预测基准SPU，含116个任务、4207个湿实验，覆盖化学、材料、生物和医学。首轮评测12款前沿模型，最高平均分0.486，多数任务未明显超过随机水平。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/510232.html">量子位</a></small></p><p><small>原文发布：2026-11-14 17:58（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>datasette-leaflet 0.3</title>
-  <link>https://simonwillison.net/2026/Nov/13/datasette-leaflet/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7cdce41a40ad111162877a3a</guid>
-  <pubDate>Fri, 13 Nov 2026 22:30:54 +0000</pubDate>
+  <title>DeepSeek开放应用全家桶API，含语音与联网搜索独立接口</title>
+  <link>https://www.qbitai.com/2026/11/510003.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-20a148dfd9da3494a62a27b9</guid>
+  <pubDate>Sat, 14 Nov 2026 02:39:56 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/13/datasette-leaflet/">Simon Willison</a></small></p><p><small>原文发布：2026-11-14 06:30（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>openJiuwen发布RSI原生AgentOS，支持Agent热插拔扩展</title>
-  <link>https://www.qbitai.com/2026/11/509653.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-60dd4d354642be3c930c611c</guid>
-  <pubDate>Fri, 13 Nov 2026 06:54:44 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>openJiuwen发布RSI原生AgentOS，在界面、网关、服务端和Agent执行环节提供扩展点，扩展包可热插拔并按版本管理、支持回退；基于该系统的WorkSwarm应用可让Agent按需求生成系统插件并安装试用。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/509653.html">量子位</a></small></p><p><small>原文发布：2026-11-13 14:54（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>DeepSeek宣布开放应用全家桶API，联网搜索、深度思考搜索、文件上传、链接阅读及语音识别、语音合成等能力均可独立调用、分别计费，并开源轻量级聊天前端Demo，支持导入历史对话。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/510003.html">量子位</a></small></p><p><small>原文发布：2026-11-14 10:39（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>

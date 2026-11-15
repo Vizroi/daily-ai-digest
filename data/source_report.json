@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T06:51:16.527552+00:00",
+  "checked_at": "2026-11-15T06:56:14.428184+00:00",
   "sources": [
     {
       "id": "steam-factorio",
@@ -168,9 +168,9 @@
       "name": "腾讯游戏学堂 · 官网资讯",
       "platform": "作者网站",
       "url": "https://gameinstitute.qq.com/news",
-      "state": "error",
+      "state": "empty",
       "count": 0,
-      "detail": "公开入口请求失败：ReadTimeout"
+      "detail": "官网资讯列表的标题、发布日期与摘要；正文待后续读取，进入日报前需编辑审核；列表最新日期 2026-08-26"
     },
     {
       "id": "wechat-yutang",
@@ -223,8 +223,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 13,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 13 条候选"
+      "count": 9,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 9 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 20,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 20 条候选"
+      "count": 16,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 16 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -258,9 +258,9 @@
       "name": "Unity",
       "platform": "网站 / RSS",
       "url": "https://unity.com/blog/rss",
-      "state": "ok",
-      "count": 1,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 1 条候选"
+      "state": "empty",
+      "count": 0,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 0 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -268,8 +268,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/rss.xml",
       "state": "ok",
-      "count": 17,
-      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 17 条候选"
+      "count": 10,
+      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 10 条候选"
     },
     {
       "id": "web-be9919cef9",
@@ -277,17 +277,17 @@
       "platform": "网站 / RSS",
       "url": "https://www.gcores.com/rss",
       "state": "ok",
-      "count": 19,
-      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 19 条候选"
+      "count": 18,
+      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 18 条候选"
     },
     {
       "id": "web-68554a31d0",
       "name": "触乐",
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
-      "state": "error",
-      "count": 0,
-      "detail": "读取异常（ConnectionError）"
+      "state": "ok",
+      "count": 7,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 7 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -295,8 +295,8 @@
       "platform": "网站 / RSS",
       "url": "https://danfelder.net/feed/",
       "state": "ok",
-      "count": 8,
-      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 8 条候选"
+      "count": 6,
+      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 6 条候选"
     },
     {
       "id": "web-e9d4bd9534",
@@ -322,8 +322,8 @@
       "platform": "网站 / RSS",
       "url": "https://deepmind.google/blog/rss.xml",
       "state": "ok",
-      "count": 13,
-      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 13 条候选"
+      "count": 12,
+      "detail": "读取 100 条订阅记录；720 小时时间窗内取得 12 条候选"
     },
     {
       "id": "web-33e649875b",
@@ -367,8 +367,8 @@
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-development/",
       "state": "ok",
-      "count": 6,
-      "detail": "读取 16 篇文章页面；720 小时时间窗内取得 6 条候选"
+      "count": 7,
+      "detail": "读取 16 篇文章页面；720 小时时间窗内取得 7 条候选"
     },
     {
       "id": "web-5be5c101f0",
@@ -376,8 +376,8 @@
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-news/",
       "state": "ok",
-      "count": 7,
-      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 7 条候选"
+      "count": 6,
+      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 6 条候选"
     },
     {
       "id": "manual-inbox",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 217,
-    "deduplicated": 216,
-    "retained": 216,
+    "raw": 204,
+    "deduplicated": 203,
+    "retained": 203,
     "restricted_withheld": 0
   }
 }
