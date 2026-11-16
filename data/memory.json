@@ -1,69 +1,15 @@
 {
-  "87986931effc83c7": {
-    "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-    "first_seen": "2026-10-15",
-    "times": 2,
-    "last_seen": "2026-10-16"
-  },
   "799bc7bf7763a923": {
     "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
     "first_seen": "2026-10-16",
     "times": 3,
     "last_seen": "2026-10-18"
   },
-  "2f4b823877c4e074": {
-    "title": "Gemini 4 Argon for Robotics",
-    "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
-  },
   "0ccfce23cd33c8db": {
     "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
     "first_seen": "2026-10-16",
     "times": 3,
     "last_seen": "2026-10-18"
-  },
-  "0eef46b93f435e15": {
-    "title": "Wayland desktop for Linux with skeuomorphic design",
-    "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
-  },
-  "583d887c0bc33162": {
-    "title": "CDPR Says Its First Original IP Has Been Its “Biggest Undertaking” Yet",
-    "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
-  },
-  "aac267d5b406067a": {
-    "title": "\"We Vibe Coded a New Epic Games Launcher\": Apparently, \"Programming Is Hard\"",
-    "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
-  },
-  "f7c74c424a73a339": {
-    "title": "SILENT HILL: Townfall delivers haunting psychological horror at its very best with UE5",
-    "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
-  },
-  "65956d447bc971f8": {
-    "title": "80 km on foot to capture Barcelona in Unreal Engine? We tried!",
-    "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
-  },
-  "c658b05215c022cf": {
-    "title": "The facial tech behind Gothic 1 Remake, Alone in the Dark and Outcast is now part of a UE5 plugin. The core version is free.",
-    "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
-  },
-  "a5d122562f5597d2": {
-    "title": "Just updated the Epic Launcher only to find out it removed my UE5 projects from the tab and I can't open anything now.",
-    "first_seen": "2026-10-16",
-    "times": 1,
-    "last_seen": "2026-10-16"
   },
   "059d26b633aef451": {
     "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
@@ -5451,6 +5397,105 @@
     "last_seen": "2026-11-15",
     "urls": [
       "https://www.qbitai.com/2026/11/510003.html"
+    ]
+  },
+  "a6ca301fa4ac2975": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "全面重制：《超级肉肉男孩Again+》正式公布",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://www.gcores.com/articles/222387"
+    ]
+  },
+  "b1c9cc2fba23687c": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "《闪客快打》创作者打造：《灾异档案》正式公布",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://www.gcores.com/articles/222386"
+    ]
+  },
+  "1f6b54d84671e768": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "《毁灭战士：黑暗时代|启示录》“屠戮模式”今日实装",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://www.gcores.com/articles/222385"
+    ]
+  },
+  "69e060f02fc962cf": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "KPL十周年快闪火爆开场，十年沉淀成具象热度",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://www.gameres.com/901203581.html"
+    ]
+  },
+  "6bdf1d4b49ed896f": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "11月16日—11月22日共有28款游戏开测｜GameRes",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://www.gameres.com/901203580.html"
+    ]
+  },
+  "84f4c9bad2bc6a35": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "全球日活峰值突破2000万，这款中国游戏陪伴海外玩家走了十年",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://www.gameres.com/901203578.html"
+    ]
+  },
+  "c5771111260ff5f6": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "收官扬州！天下武道会打出了三角洲大众赛事新生态",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "http://www.chuapp.com/article/291761.html"
+    ]
+  },
+  "6b7723e01dcbf21e": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "Master Hard-Surface Weapon Creation in Blender with This Course",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://80.lv/articles/master-hard-surface-weapon-creation-in-blender-with-this-course"
+    ]
+  },
+  "7bf42a6cdd49802e": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "Ocarina Of Time's Link Reimagined With Arcane-Inspired Art Style",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://80.lv/articles/ocarina-of-time-s-link-reimagined-with-arcane-inspired-art-style"
+    ]
+  },
+  "195b18b2af7f1602": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "datasette-maplibre 0.1a0",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/15/datasette-maplibre"
+    ]
+  },
+  "b24b88172fee7b00": {
+    "first_seen": "2026-11-16",
+    "times": 1,
+    "title": "datasette 1.0a43",
+    "last_seen": "2026-11-16",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/15/datasette"
     ]
   }
 }

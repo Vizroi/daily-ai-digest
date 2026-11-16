@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T06:56:14.428184+00:00",
+  "checked_at": "2026-11-16T07:01:01.230897+00:00",
   "sources": [
     {
       "id": "steam-factorio",
@@ -223,8 +223,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 9,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 9 条候选"
+      "count": 3,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 3 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 16,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 16 条候选"
+      "count": 7,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 7 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -268,8 +268,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/rss.xml",
       "state": "ok",
-      "count": 10,
-      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 10 条候选"
+      "count": 8,
+      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 8 条候选"
     },
     {
       "id": "web-be9919cef9",
@@ -286,8 +286,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 7,
-      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 7 条候选"
+      "count": 4,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 4 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -314,7 +314,7 @@
       "url": "https://openai.com/news/rss.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 1387 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 1389 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-0ea3c11e0b",
@@ -376,8 +376,8 @@
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-news/",
       "state": "ok",
-      "count": 6,
-      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 6 条候选"
+      "count": 5,
+      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 5 条候选"
     },
     {
       "id": "manual-inbox",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 204,
-    "deduplicated": 203,
-    "retained": 203,
+    "raw": 183,
+    "deduplicated": 183,
+    "retained": 183,
     "restricted_withheld": 0
   }
 }
