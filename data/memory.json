@@ -17,54 +17,6 @@
     "times": 2,
     "last_seen": "2026-10-18"
   },
-  "1340db7c16b61ed6": {
-    "title": "Claude reveals ECDSA curve origins",
-    "first_seen": "2026-10-17",
-    "times": 1,
-    "last_seen": "2026-10-17"
-  },
-  "3d860c820f54a6b0": {
-    "title": "Krea 3 – An image model built for editing at scale",
-    "first_seen": "2026-10-17",
-    "times": 1,
-    "last_seen": "2026-10-17"
-  },
-  "4169f6a4c67ec1b0": {
-    "title": "TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context",
-    "first_seen": "2026-10-17",
-    "times": 1,
-    "last_seen": "2026-10-17"
-  },
-  "32bab911fad76c80": {
-    "title": "DayZ Creator Presents BRUTAL, a Free Open-Source Development Framework",
-    "first_seen": "2026-10-17",
-    "times": 1,
-    "last_seen": "2026-10-17"
-  },
-  "4d15a073d53976aa": {
-    "title": "Epic Games claims its new \"vibe coded\" launcher runs 46% faster than Steam from cold start to store page",
-    "first_seen": "2026-10-17",
-    "times": 1,
-    "last_seen": "2026-10-17"
-  },
-  "0d32c82992049d40": {
-    "title": "Sculpting Scales & Simulating Clothes for Creature Chef in ZBrush & Marvelous Designer",
-    "first_seen": "2026-10-17",
-    "times": 1,
-    "last_seen": "2026-10-17"
-  },
-  "8358ea1c5409edb3": {
-    "title": "Survey: the hardest UE5 multiplayer / GAS problem you hit in the last 90 days (2 min)",
-    "first_seen": "2026-10-17",
-    "times": 1,
-    "last_seen": "2026-10-17"
-  },
-  "3e69c3cd530dcfee": {
-    "title": "Modular control rig: legs \"frozen\"",
-    "first_seen": "2026-10-17",
-    "times": 1,
-    "last_seen": "2026-10-17"
-  },
   "4826fd3bcaec21cd": {
     "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
     "first_seen": "2026-10-18",
@@ -5496,6 +5448,237 @@
     "last_seen": "2026-11-16",
     "urls": [
       "https://simonwillison.net/2026/Nov/15/datasette"
+    ]
+  },
+  "2b9826a29156fe6f": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "首周销量突破60万份！《我带过的最差一届》迎来首次大更新",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gameres.com/901203607.html"
+    ]
+  },
+  "b7f40fa0b0b3f007": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "鼠你会算！Gamirror Games宣布发行骰子计算游戏《算鼠英雄》，全新Demo上线",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gameres.com/901203606.html"
+    ]
+  },
+  "dde092191478a29f": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "《我的世界：地下城2》首个DLC将于12月1日上线",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gcores.com/articles/222421"
+    ]
+  },
+  "d9c706229a1409db": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "The Unity CLI 1.0 is here!",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://unity.com/the-unity-cli-1.0-is-here"
+    ]
+  },
+  "1871b18911dac95e": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "Unity Offers Indie Developers $50K Grants Through New Fellowship Program",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://80.lv/articles/unity-offers-indie-developers-usd50k-grants-through-new-fellowship-program",
+      "https://www.gamedeveloper.com/business/unity-to-support-indies-with-cash-and-dedicated-support-through-new-fellowship-program",
+      "https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment"
+    ]
+  },
+  "4caa8c13716bba80": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "新门派万花！《剑侠世界 4：无限》“万花惊鸿”资料片今日公测",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "http://www.chuapp.com/article/291768.html",
+      "https://www.gameres.com/901203603.html"
+    ]
+  },
+  "2b3016b9ee3f4166": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "《编年史：中世纪》开发商破产危机迎转机，Coffee Stain接手收购",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gamesindustry.biz/coffee-stain-acquires-chronicles-medieval-ip-from-bankrupt-raw-power-games",
+      "https://www.gcores.com/articles/222417"
+    ]
+  },
+  "112e9a6a695c38f4": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "Shigeru Miyamoto selected as inaugural Legend Award inductee at DICE Awards",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gamedeveloper.com/console/shigeru-miyamoto-selected-as-inaugural-legend-award-inductee-at-d-i-c-e-awards",
+      "https://www.gamesindustry.biz/shigeru-miyamoto-to-receive-inaugural-legend-award-at-the-30th-dice-awards"
+    ]
+  },
+  "5ae46f2e4ec84b62": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "同一款《影之刃零》，抖音玩家玩出了不同的江湖",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gameres.com/901203579.html",
+      "https://www.gcores.com/articles/222424"
+    ]
+  },
+  "f6c4c27c3f3f8c03": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "Synty Studios Joins Unity, Bringing Artist-Made Assets to Unity Spark",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://unity.com/blog/synty-studios-acquisition"
+    ]
+  },
+  "9c3033ea17fb7ba0": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "“Follow the fun”: a crowdfunding Q&A with Catino Town",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://unity.com/blog/funding-unity-game-catino-town"
+    ]
+  },
+  "45a54e8fbe0ffa3c": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "Xbox & DJ Khaled \"Prescribe\" a Day Off to Play GTA 6",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://80.lv/articles/xbox-dj-khaled-prescribe-a-day-off-to-play-gta-6"
+    ]
+  },
+  "2227b5d5b71cf567": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "Newzoo: GTA 6 pre-orders are archetypal console players but overwhelmingly male; game will \"grow the market rather than simply redistribute it\"",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-are-archetypal-console-players-but-overwhelmingly-male-game-will-grow-the-market-rather-than-simply-redistribute-it"
+    ]
+  },
+  "b7235391b31fe36f": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "《波斯王子：失落的王冠+》将于12月3日登陆 Apple Arcade",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gameres.com/901203605.html"
+    ]
+  },
+  "d707c3cfb736cbc4": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-exceed-14bn-with-87-for-the-ultimate-edition"
+    ]
+  },
+  "2758ed0c29501cb1": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "Get Seven Completely Different PC Games in This TwitchCon Bundle",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://80.lv/articles/get-seven-completely-different-pc-games-in-this-twitchcon-bundle"
+    ]
+  },
+  "5ea7c07167365040": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "TL;DW: Season 1 2027 Dev Update",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.leagueoflegends.com/en-us/news/dev/tldw-season-1-2027-dev-update---lol-website-article-lollol27-s1225r001"
+    ]
+  },
+  "3d0851f6dea64a71": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "《怪猎：荒野》制作人回应性能修复耗时近一年，盛赞自研引擎灵活性",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gcores.com/articles/222422"
+    ]
+  },
+  "a085dfe818bad2ee": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "好与不好，有时候可能就差一点：《异界揭踪》评测",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.gcores.com/articles/222319"
+    ]
+  },
+  "6504f70e542822f9": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://openai.com/index/strengthening-online-child-safety"
+    ]
+  },
+  "43c39af1286b93c1": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "Science at the Frontier: How scientists use ChatGPT",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://openai.com/index/science-at-the-frontier"
+    ]
+  },
+  "ae7177f8f18d423c": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "llm 0.37.3",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/16/llm"
+    ]
+  },
+  "4bbe64334edbb5c6": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.qbitai.com/2026/11/510486.html"
+    ]
+  },
+  "d7ab3c4f582e086b": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "余承东发布新款问界M8：38万元起售，全系预埋L3架构",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://www.qbitai.com/2026/11/510436.html"
+    ]
+  },
+  "16cf52a3ef2f71a7": {
+    "first_seen": "2026-11-17",
+    "times": 1,
+    "title": "datasette 0.65.6",
+    "last_seen": "2026-11-17",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/15/datasette-2"
     ]
   }
 }

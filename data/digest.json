@@ -1,184 +1,28 @@
 {
   "schema_version": 3,
-  "date": "2026-11-16",
-  "generated_at": "2026-11-16T15:01:16.987378+08:00",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T16:16:27.677654+08:00",
   "news": [
     {
-      "source_id": "web-be9919cef9",
-      "source_url": "https://www.gcores.com/rss",
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "a6ca301fa4ac2975",
-      "title": "全面重制：《超级肉肉男孩Again+》正式公布",
-      "url": "https://www.gcores.com/articles/222387",
+      "key": "2b9826a29156fe6f",
+      "title": "首周销量突破60万份！《我带过的最差一届》迎来首次大更新",
+      "url": "https://www.gameres.com/901203607.html",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "机核"
+        "GameRes"
       ],
-      "published": "2026-11-16T01:25:00+00:00",
+      "published": "2026-11-17T07:08:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "开发商 Team Meat 于今日公布了《超级肉肉男孩Again+》。作为2010年发售的 《超级肉肉男孩》 的全面升级版本，《超级肉肉男孩Again+》延续了高难度的平台跳跃玩法，包含300多个关卡以及电锯机关。与此同时，原版作曲家 Danny B 也回归负责配乐。 为了让熟悉原作的老玩家获得新鲜的挑战，Team Meat 在《超级肉肉男孩Again+》中全面重制了美术画面、音乐和动画过场，并加入了新关卡、新秘密以及新的可解锁内容。工作室表示不会提前剧透新增内容，玩家将像初次接触原作一样直接上手探索。 Team Meat 表示，《超级肉肉男孩Again+》既能让老玩家重温怀旧体验，也能为当年错过原作的新玩家提供一款上手简单但精通难的平台游戏。",
-      "rss_content": "",
-      "content_kind": "rss_summary",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "全面重制：《超级肉肉男孩Again+》正式公布",
-          "url": "https://www.gcores.com/articles/222387",
-          "source": "机核",
-          "lang": "zh",
-          "published": "2026-11-16T01:25:00+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "关卡设计",
-      "is_analysis": false,
-      "age_hours": 5.604718716111112,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "",
-      "has_body": false,
-      "body_truncated": false,
-      "title_cn": "《超级肉肉男孩Again+》公布：全面重制原版",
-      "what": "开发商Team Meat公布《超级肉肉男孩Again+》，为2010年《超级肉肉男孩》的全面升级版，延续高难度平台跳跃玩法，含300多个关卡与电锯机关，原版作曲家Danny B回归配乐，并重制美术、音乐和动画过场，加入新关卡、新秘密与可解锁内容。",
-      "why": "",
-      "for_you": "",
-      "degraded": "source_excerpt"
-    },
-    {
-      "source_id": "web-be9919cef9",
-      "source_url": "https://www.gcores.com/rss",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "b1c9cc2fba23687c",
-      "title": "《闪客快打》创作者打造：《灾异档案》正式公布",
-      "url": "https://www.gcores.com/articles/222386",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "机核"
-      ],
-      "published": "2026-11-16T01:15:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "由《闪客快打》创作者打造的 2D 科幻惊悚动作冒险游戏 《灾异档案》正式公布，即将在 Steam 开启抢先体验。本作中，玩家作为 OMEGA 灾异体应对管理局的执裁官，将会进入异常事件封锁区，在战斗、探索与环境互动中搜集现场线索、恢复终端档案，并逐步拼出灾异事件的真相。 《灾异档案》采用 剧集式关卡结构 。不同剧集可以拥有独立的主角、区域、任务、敌人与玩法，并围绕一场神秘的灾异事件展开。 每一集，都是一次从进入现场到事件收束的完整行动。 当前首个正式剧集为 《黑鸦小队》 。 目前计划在购买游戏后，通过免费更新加入至少 3个新增剧集 ，包括 1个教学剧集 与 《黑鸦小队》的2个续篇 ，无需另行购买。具体内容与加入顺序可能随开发进度调整。",
-      "rss_content": "",
-      "content_kind": "rss_summary",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "《闪客快打》创作者打造：《灾异档案》正式公布",
-          "url": "https://www.gcores.com/articles/222386",
-          "source": "机核",
-          "lang": "zh",
-          "published": "2026-11-16T01:15:00+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "战斗设计",
-      "is_analysis": false,
-      "age_hours": 5.771385382777778,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "",
-      "has_body": false,
-      "body_truncated": false,
-      "title_cn": "《闪客快打》创作者公布2D科幻惊悚游戏《灾异档案》",
-      "what": "由《闪客快打》创作者打造的2D科幻惊悚动作冒险游戏《灾异档案》正式公布，计划在Steam开启抢先体验。玩家扮演OMEGA灾异体应对管理局执裁官，进入封锁区搜集线索、恢复终端档案。游戏采用剧集式关卡结构，首个剧集为《黑鸦小队》，后续计划以免付费更新加入至少3个剧集。",
-      "why": "",
-      "for_you": "",
-      "degraded": "source_excerpt"
-    },
-    {
-      "source_id": "web-be9919cef9",
-      "source_url": "https://www.gcores.com/rss",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "1f6b54d84671e768",
-      "title": "《毁灭战士：黑暗时代|启示录》“屠戮模式”今日实装",
-      "url": "https://www.gcores.com/articles/222385",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "机核"
-      ],
-      "published": "2026-11-16T01:05:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "《毁灭战士：黑暗时代|启示录》“屠戮模式”今日实装。本模式是全新的无尽战斗挑战，玩家将一路杀穿越来越难而又变幻莫测的恶魔狂潮，打出自己的最高分，在屠戮的过程中收集的骷髅，用来解锁奖励。每次到达检查点时，你都必须问自己：是想要见好就收，结算骷髅，还是为了可能得到更多奖励而冒险尝试？ 在屠戮模式中，不会存在完全相同的战局。你要在不同的竞技场中迎战越来越难的随机遭遇战和头目，随着战局逐渐深入，战斗的白热化程度还会不断飙升。 完成回合，赚取骷髅，解锁奖励，例如屠戮模式专属的毁灭战士皮肤、适用于所有模式的武器皮肤以及个人资料图标。你还可以解锁 Andrew Hulshult 创作的《IDKFA》原声带曲目，而且可以在屠戮模式和撕裂馆中播放！接受每周挑战，获得更多赚取奖励的机会，展示你的屠戮实力。 在激烈的战斗中活下来，达到回合检查点，就有机会保住目前的骷髅，不会因死亡而丢失。也可以改为选择 冒险尝试 来增加骷髅倍率，提升你在本次行动中可以赚取的骷髅数量——但其中也有风险。如果你在激活 冒险尝试 时殒命，所有未保住的骷髅都会化为泡影！ 然而，死亡并不是终点：你完成的每个回合检查点都能为未来的行动解锁新的起点，让你更快地回到层级更高的遭遇战，继续屠戮恶魔。",
+      "summary_raw": "《我带过的最差一届》首周销量突破60万份，迎来首次大型更新，新增「秋游大巴车」地图，优化联机功能，调整玩法平衡性，新增舞蹈动作，现已登陆Steam。",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -192,14 +36,14 @@
       },
       "members": [
         {
-          "title": "《毁灭战士：黑暗时代|启示录》“屠戮模式”今日实装",
-          "url": "https://www.gcores.com/articles/222385",
-          "source": "机核",
+          "title": "首周销量突破60万份！《我带过的最差一届》迎来首次大更新",
+          "url": "https://www.gameres.com/901203607.html",
+          "source": "GameRes",
           "lang": "zh",
-          "published": "2026-11-16T01:05:00+00:00"
+          "published": "2026-11-17T07:08:00+00:00"
         }
       ],
-      "score": 22,
+      "score": 30,
       "score_parts": [
         {
           "label": "来源",
@@ -207,7 +51,7 @@
         },
         {
           "label": "游戏与玩法变化",
-          "value": 0
+          "value": 8
         },
         {
           "label": "近期",
@@ -222,17 +66,17 @@
           "value": 0
         }
       ],
-      "topic": "战斗设计",
+      "topic": "行业动态",
       "is_analysis": false,
-      "age_hours": 5.938052049444445,
+      "age_hours": 1.1410215705555555,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "《毁灭战士：黑暗时代|启示录》“屠戮模式”今日实装。本模式是全新的无尽战斗挑战，玩家将一路杀穿越来越难而又变幻莫测的恶魔狂潮，打出自己的最高分，在屠戮的过程中收集的骷髅，用来解锁奖励。每次到达检查点时，你都必须问自己：是想要见好就收，结算骷髅，还是为了可能得到更多奖励而冒险尝试？\n在屠戮模式中，不会存在完全相同的战局。你要在不同的竞技场中迎战越来越难的随机遭遇战和头目，随着战局逐渐深入，战斗的白热化程度还会不断飙升。\n完成回合，赚取骷髅，解锁奖励，例如屠戮模式专属的毁灭战士皮肤、适用于所有模式的武器皮肤以及个人资料图标。你还可以解锁 Andrew Hulshult 创作的《IDKFA》原声带曲目，而且可以在屠戮模式和撕裂馆中播放！接受每周挑战，获得更多赚取奖励的机会，展示你的屠戮实力。\n在激烈的战斗中活下来，达到回合检查点，就有机会保住目前的骷髅，不会因死亡而丢失。也可以改为选择冒险尝试来增加骷髅倍率，提升你在本次行动中可以赚取的骷髅数量——但其中也有风险。如果你在激活冒险尝试时殒命，所有未保住的骷髅都会化为泡影！\n然而，死亡并不是终点：你完成的每个回合检查点都能为未来的行动解锁新的起点，让你更快地回到层级更高的遭遇战，继续屠戮恶魔。",
+      "body": "《我带过的最差一届》首周销量突破60万份！自正式发售以来，老师忙着抓人，学生忙着捣乱，教室里上演了不少令人捧腹的名场面。如今，游戏迎来发售后的首次大型更新，全新地图「秋游大巴车」正式加入，让这场师生较量延续到了秋游途中。本次更新还优化了多项联机功能，并根据首周对局数据进行了平衡性调整。\nSteam商店页面： https://store.steampowered.com/app/5175310\n这次不在教室上课，改去大巴车上捣乱！\n在全新地图「秋游大巴车」中，老师和学生将离开熟悉的教室，登上一辆双层大巴。换了场地，学生们依然不肯安分，老师则要继续在人群中找出捣蛋鬼。想躲过老师的追捕，这次还得先想好该往哪层跑。\n遇到合拍的队友，下一局接着玩\n除了新地图，本次更新也让组队游玩更加方便。游戏新增对Steam「最近一起玩过的玩家」功能的支持，对局结束后，玩家可以找到刚刚同房间的队友，再次邀请对方一起开黑。\n房间设置中还加入了「上课铃权限」，房主可以允许所有玩家操作上课铃，也可以选择仅由自己控制，减少随意按铃带来的干扰。同时，新增的语音通话提示会在正在讲话的玩家名字旁显示麦克风和音量图标，方便大家认出是谁在说话。\n老师别太得意，学生也别高兴得太早\n在玩法方面，团队参考首周实际胜局数据，对部分地图中胜率明显失衡的教室进行了调整，避免某些地图里一方过于占优，让老师和学生都有机会赢下这场较量；除此之外，课间活动也不能少。这次还新增了两种舞蹈动作，同学们又多了几个可以展示自己的机会。\n由顽核社制作、2P Games与Elegoose Games联合发行的《我带过的最差一届》现已登陆Steam，本次更新现已推出。秋游大巴已经到校，零食和朋友都带齐了吗？看看这次谁会被老师抓个正着！\n登录 后参与讨论\n暂无评论，来抢沙发",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "《毁灭战士：黑暗时代》屠戮模式今日上线",
-      "what": "《毁灭战士：黑暗时代|启示录》今日实装“屠戮模式”，为无尽战斗挑战：玩家在随机竞技场迎战递增难度的遭遇战与头目，用骷髅解锁皮肤、图标和原声曲目，并可在检查点选择结算或冒险加倍。",
+      "title_cn": "《我带过的最差一届》首周销量60万份并推出首次大更新",
+      "what": "发行方文章称，《我带过的最差一届》首周销量突破60万份，并推出首次大型更新：新增双层大巴地图「秋游大巴车」，支持邀请最近同玩玩家组队，新增上课铃权限与语音提示，并依据首周胜局数据调整部分地图平衡。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -243,9 +87,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "69e060f02fc962cf",
-      "title": "KPL十周年快闪火爆开场，十年沉淀成具象热度",
-      "url": "https://www.gameres.com/901203581.html",
+      "key": "b7f40fa0b0b3f007",
+      "title": "鼠你会算！Gamirror Games宣布发行骰子计算游戏《算鼠英雄》，全新Demo上线",
+      "url": "https://www.gameres.com/901203606.html",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -253,10 +97,10 @@
       "sources": [
         "GameRes"
       ],
-      "published": "2026-11-16T00:57:00+00:00",
+      "published": "2026-11-17T04:01:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "KPL十周年·荣耀之路快闪多城落地场场火爆，线下累计参与人次破20万，既沉淀粉丝社群情感，更联动城市文旅与实体商业，彰显国民电竞IP价值。",
+      "summary_raw": "Gamirror Games宣布代理发行Filiokus开发的骰子计算主题Roguelike卡牌构筑游戏《算鼠英雄》，全新Demo今日上线，后续将亮相多个线下游戏展。",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -270,14 +114,14 @@
       },
       "members": [
         {
-          "title": "KPL十周年快闪火爆开场，十年沉淀成具象热度",
-          "url": "https://www.gameres.com/901203581.html",
+          "title": "鼠你会算！Gamirror Games宣布发行骰子计算游戏《算鼠英雄》，全新Demo上线",
+          "url": "https://www.gameres.com/901203606.html",
           "source": "GameRes",
           "lang": "zh",
-          "published": "2026-11-16T00:57:00+00:00"
+          "published": "2026-11-17T04:01:00+00:00"
         }
       ],
-      "score": 22,
+      "score": 30,
       "score_parts": [
         {
           "label": "来源",
@@ -285,241 +129,7 @@
         },
         {
           "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 6.071385382777779,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "如果你是王者荣耀职业联赛的观众，这两天走进成都大悦城，大概率会被一种满满的幸福感包围。由KPL明星选手巨幅海报组成的“梦之队迎宾大道”、巨大的“KPL十周年荣耀之路”的拱门，圆滚滚的梦叽玩偶在路边等着合影，李白巨型气模底下有人扯着嗓子唱“梦之泪伤帅气的脸庞”，排队买周边的队伍拐了几个弯...\n11月13日，KPL十周年·荣耀之路快闪活动正式落地成都大悦城，把KPL十周年的生日狂欢派对直接带进了商圈。开业首日，活动现场就迎来了3万多名玩家，据悉商场客流量相较日常环比增长49%，不少玩家拖着行李箱，怀揣各种赛事纪念周边，从别的城市飞机转高铁专门赶赴现场为KPL庆生。\n在社媒上，快闪的现场感也不遑多让，有粉丝称“KPL快闪不要太好玩，就算不是电竞粉也会被萌化的程度”，老粉更是直言被快闪中设置的种种回忆杀戳到，可以说是“最走心的一集”。\n这些画面和数字指向同一个事实：KPL作为电子竞技职业联赛，在赛场之外已经长出了一套相当扎实的线下连接能力。比赛直播是入口，快闪、特展、奇妙日等系列活动是延伸出去的触角，把线上攒了十年的社群情感一点点落到真实的城市空间里。年轻人愿意为一场快闪跨城排队、为一句老梗合唱、为一个福袋蹲点，这种行为本身就在检验一个电竞IP的国民度成色。KPL的独特之处不在于它把比赛做得多大，而在于它让赛事之外的那些场景也长出了生命力，让“看KPL”变成了一件可以走进商场、走上街头、走到陌生人中间去完成的事。\nKPL的国民度，已经藏不住了\n细看KPL十周年·荣耀之路快闪成都站的现场，都是对玩家和粉丝的献礼。\n走进这一次快闪，“梦之队迎宾大道”是第一站，一诺、Fly、无畏、小胖、钎城、Cat、九尾、清融、花海、清清、Gemini、爱思一众梦之队选手和教练，集体“排队”欢迎你的到来；“十年花路”沿阶梯往上，KPL十大年度记忆人物的人形立牌一字排开，不少粉丝举着手机一张张拍过去。“十年回响廊”的天幕长廊底下，每个人都在寻找自己的十年回忆。\n现场，不少粉丝带着应援物、拿着刚买到的周边四处拍照留念。各个打卡装置、互动区域前围满了年轻人。最热闹的是“梦之泪伤挑战”，当有人起头唱“梦之泪伤帅气的脸庞，梦之泪伤峡谷之中称王”，周围素不相识的人接上了下半句。一首老梗歌把陌生人拉回同一段赛事记忆里，破冰成本几乎为零，围观的人更是一波接一波。\n走进快闪店内，巨大的KPL十周年生日蛋糕、满眼马卡龙配色的软萌梦叽周边，十周年梦叽派对毛绒蛋糕挂件，从周边选购、装置打卡到与喜爱的角色Coser合影，挤满上下两层的粉丝将快闪店玩成了集购物、打卡、社交、休闲于一体的沉浸式消费场景。\n而当钎城、爱思、大帅三位选手和教练空降快闪店现场担任“一日店长”更是将现场气氛推至高潮，栏外很快站满举着手机和手幅的粉丝，欢呼声混着快门声，整个快闪店被一种过节般的热闹填得满满当当。钎城到店后，更有粉丝在社媒“表白”：时间暂停在走近的一秒。\n快闪活动的火爆，直观地检验了KPL作为国民电竞赛事的影响力和号召力。在成都站之前，KPL十周年快闪已经先后走过海口、广州、上海、杭州、西安、厦门、长沙等城市，几乎场场爆满，更有忠实粉丝连续赶赴多场快闪活动。多站快闪线下累计参与人次突破20万。\nKPL没有只让粉丝停留在线上观赛，而是让粉丝走进现场，让屏幕里的热爱变成可触摸的体验。打卡买周边、对着Coser唱歌、在十年回响廊寻找回忆，这些动作门槛不高，参与感却很足。KPL快闪真正的价值，是让同好站在同一个空间里，确认彼此共享一段记忆。比赛结束之后，另一场聚会才刚刚开始；线上关注也可以在城市的街头找到落点。这种从观看到参与的延伸，让KPL的社群情感有了真实的出口，也让赛事文化长进了年轻人的日常里。\n线上热爱向线下延伸，国民电竞激活城市文旅新增量\n实际上，KPL快闪的价值远不止为粉丝提供回忆锚点和情绪价值，它更跑通了一条电竞赛事与城市文旅、实体商业共生的路径。\nKPL快闪活动没有把同一套内容原样搬到每座城市，而是结合当地特色做差异化开发，让城市气质和地方文化以更年轻的方式触达年轻人。海口站从滨海风情里延伸出“椰子叽”限定周边，上海站取材本地小吃推出“包子叽”，此次成都站则结合十周年节点端出梦叽派对毛绒蛋糕挂件和成都限定火锅摇摇乐挂件。每座城市都有专属记忆点，粉丝也多了一个为一场活动奔赴一座城的理由。\n除了快闪，2026年KPL还推出了“奇妙日”线下活动，已分别落地桐乡濮院时尚古镇、厦门、深圳等城市，进一步将电竞赛事延伸成可走进现实、可消费、可长线经营的线下体验场景。\n5月的濮院站嵌在第二届濮院电竞节里，KPL奇妙日与“老乡杯”联动，24支职业俱乐部线下参与，活动三天总入场人数超过3万。古镇的游船、街巷和战队摊位叠在一起，观众看完比赛还能在巷子里和选手擦肩。KPL与濮院探索出了一条“文旅+电竞”的古镇路径，把电竞产业资源引进古镇场景，而不是只把赛事当成一次性的引流工具。\n厦门站放在了9月KPL夏季赛决赛期间，地点选在方特旅游度假区。奇妙日期间，方特双园区累计入园超2万人次，较前一个周末提升8倍，跨城游客占比92%，省外游客占比65%。这些人不是顺路来的，是专程为KPL跑了一趟厦门。决赛在奥体中心，奇妙日在主题乐园，快闪在大悦城，三个点串成一条“看比赛、逛乐园、打卡商圈”的周末动线，住宿、餐饮、交通的消费增量跟着发生。\n深圳站也延续了同一套逻辑，把赛事节点和城市商业场景绑在一起，让观赛人群在比赛之外多了一个停留和消费的理由。而即将到来的成都站，奇妙日将与11月14日凤凰山体育公园的年度总决赛形成接力，快闪、决赛、巅峰之夜在同一座城市接连落地，赛事流量和城市消费在时间上高度重叠。\n四站走下来，KPL奇妙日提供的是一套可拆解的城市合作框架：赛事提供内容牵引，奇妙日做场景延伸，快闪负责在高密度城市空间里完成低门槛的情感落地。快闪落地各大城市商圈，带来的不只是排队的人气。成都大悦城周边，快闪期间餐饮、住宿、交通都有实打实的消费增量。粉丝从外地赶来，住一晚、吃两顿、逛一圈商场，消费行为不需要刻意引导，人到了自然就会发生，KPL为“电竞赛事如何跟城市文旅、实体商业产生连接”提供了一个可以复用的样本。\n国民IP的十年生长：让共同记忆走进公共现场\nKPL能把人一次次带进城市，背后还有一个更底层的东西：王者荣耀IP在年轻人的生活里长期在场。十周年快闪之所以能引发跨城奔赴，更深层的原因在于王者荣耀IP已经积累了一整套可被共同识别、共同使用的符号。英雄、选手、赛事梗、名场面，早已散落在聊天、弹幕和二创内容里，快闪将这些分散的符号收拢到一条动线上，让它们在同一座城市、同一个下午被重新点亮。\n国民IP的难点，很少体现在覆盖多少内容品类，更关键的是能否持续生产新的共同记忆。王者荣耀和KPL这十年，真正沉淀下来的是一套让年轻人愿意参与的记忆生产机制。赛事提供竞技叙事，选手提供情感投射，社群把梗和故事反复转译，线下活动再将它们转化为可触摸的场景。十周年快闪里，十年回响廊、十大年度记忆人物、梦之泪伤挑战，都没有停留在单向展示，而是给参与者留出回应、参与与表达的位置。老玩家在这里回望，新玩家在这里建立认同，不同入坑时间的人在同一个空间里完成身份确认。\n这套机制让王者IP具备了公共文化现场的属性。游戏里的符号原本属于屏幕，快闪将它们搬到商圈、广场和博物馆，变成路人可以围观、粉丝可以打卡、城市可以承接的公共内容。十周年特展把十年时间轴、选手名场面和粉丝记忆集中展出，年度总决赛和巅峰之夜又把注意力拉回赛场，快闪则在中间承担低门槛的触达功能。三种场景接力，让“十周年”从传播口号变成一段可以被走进、被体验、被讨论的时间。\n更关键的是，这套IP没有把叙事权完全收归官方。玩家的留言、二创、现场合唱和跨城打卡，都在为十年故事补充细节。快闪现场那些自发的聚集和表达，说明王者IP已经进入共同书写的阶段。一个IP能覆盖多少领域固然重要，但更能说明生命力的是，年轻人愿不愿意把它当成自己的语言，愿不愿意为它走进同一个现场。\n十年过去，王者荣耀和KPL沉淀下来的，正是这种让共同记忆持续生长的能力。快闪是这种能力的一次线下显影，也是国民IP从被观看的内容走向被共同经历的文化现场的证明。\n登录 后参与讨论\n暂无评论，来抢沙发",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "KPL十周年快闪成都站首日迎3万玩家",
-      "what": "KPL十周年·荣耀之路快闪活动11月13日在成都大悦城开幕，首日到场玩家超3万，商场客流环比增长49%。文章介绍现场打卡装置、限定周边与选手一日店长环节，并回顾该快闪此前在海口、广州、上海等城市的落地情况及与城市文旅结合的尝试。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-70e4da96dc",
-      "source_url": "https://www.gameres.com/rss.xml",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "6bdf1d4b49ed896f",
-      "title": "11月16日—11月22日共有28款游戏开测｜GameRes",
-      "url": "https://www.gameres.com/901203580.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GameRes"
-      ],
-      "published": "2026-11-16T00:56:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "GameRes游资网统计显示，2026年11月16日—22日共有28款游戏开测，涵盖弹射、沙盒、生存等品类，含多款作品的测试信息。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "11月16日—11月22日共有28款游戏开测｜GameRes",
-          "url": "https://www.gameres.com/901203580.html",
-          "source": "GameRes",
-          "lang": "zh",
-          "published": "2026-11-16T00:56:00+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 6.088052049444445,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "GameRes游资网统计了2026年11月16日—11月22日的最新开测信息，共有28款游戏开测。以下是开测信息：\n11月17日\n金山世游发行经典弹射游戏《愤怒的小鸟：经典归来》限量删档测试\n《愤怒的小鸟：经典归来》作为史上最大移动游戏《愤怒的小鸟2》的重续新篇，即将重回中国市场！游戏由Rovio官方原班团队打造，中国大陆地区由金山世游代理发行，旨在将弹弓弹射玩法进化到2.0时代，它继承了简单有趣的触屏操作方式，但通过3D引擎技术、动态随机关卡、新角色和新魔法道具，带来了更丰富的策略性和破坏乐趣。\n11月18日\n腾讯游戏发行太空冒险沙盒游戏《星际理想国》限量首测\n《星际理想国》是由北京像素软件研发、腾讯游戏发行的无边界开放宇宙沙盒冒险游戏，作为二十余年不断拓展国产RPG边界的老牌研发团队新作，本游戏构建了一个千颗星球、跨端互通、大型多人在线、无区服隔阂的自由科幻世界。\n在这款无边界开放宇宙沙盒冒险游戏中，你将挣脱肉身束缚，以数字生命的形态穿梭于浩瀚星河。这里没有“设定好的路线”，五大文明、各色赛博格角色任你魂穿。你可以做持枪仗剑的星际游侠，也可以驾驶机甲体验铁与火的浪漫，抑或是亲临一场场大规模星舰集群战役；若是厌倦了战争，还可以就地建造独属自己的星际家园、开采稀有资源、养殖外星生物、经营贸易航线，见证文明兴衰的变迁。\n英雄游戏自研机械兽生存游戏《机械启元》付费删档测试\n《机械启元》是一款融合了自由建造和竞技对抗的后启示录机械兽生存游戏。游戏创造性地设计了局内局外“双世界”结构，玩家可以选择高风险高对抗的战区世界，用风险兑换稀缺物资；同时保留了完全安全的个人基地世界，玩家可以获取基础资源以满足基本的生存需求。一切战区所搜集资源皆可传送回基地世界，经由市场进行交易转化为财富，用于升级装备、储备物资与强化建设：同时，玩家可在安全的基地世界中提前配置战术装备、储备消耗品、优化出战配置，为出发战区做好准备。整个局内局外结构赋予了游戏更强的策略深度与生存自由度，你可以选择与队友并肩协作、在广袤世界中搜刮稀缺资源、超控各类机械兽，或是与其他玩家展开刺激的争夺与交易。\n登录 后参与讨论\n暂无评论，来抢沙发",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "11月16日至22日共28款游戏开测",
-      "what": "GameRes统计2026年11月16日至22日共有28款游戏开测，文中列出部分产品：11月17日金山世游发行《愤怒的小鸟：经典归来》限量删档测试，11月18日腾讯发行《星际理想国》限量首测、英雄游戏《机械启元》付费删档测试。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-70e4da96dc",
-      "source_url": "https://www.gameres.com/rss.xml",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "84f4c9bad2bc6a35",
-      "title": "全球日活峰值突破2000万，这款中国游戏陪伴海外玩家走了十年",
-      "url": "https://www.gameres.com/901203578.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GameRes"
-      ],
-      "published": "2026-11-15T10:35:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "《Arena of Valor》（AoV）出海运营满十年，全球日活跃用户峰值突破2000万，通过多地线下庆典、版本迭代、本地化电竞布局沉淀用户，与《王者荣耀》深化协同。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "全球日活峰值突破2000万，这款中国游戏陪伴海外玩家走了十年",
-          "url": "https://www.gameres.com/901203578.html",
-          "source": "GameRes",
-          "lang": "zh",
-          "published": "2026-11-15T10:35:00+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 10
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 20.438052049444448,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "2026年10月最后一天，中国台北大巨蛋内外人潮涌动，GCS夏季总决赛的呐喊与十周年演唱会的声浪在同一座场馆交替；而在10月早些时日，曼谷的记忆展览里，玩家在十年合影墙前驻足；到了11月初，在河内美亭体育场，「AoV 10 Fest」庆典共计吸引观众超3.3万人，同一个游戏，在不同地点，有不同的热闹。\n这不是某一款新游的发布现场，而是一款上线已满十年的手游周年庆。2016年至今，《Arena of Valor》（以下简称AoV）不仅是腾讯首款在海外成功跑通十年长线运营的MOBA手游，还成为了多个区域的“国民游戏”。伴随着十周年一系列大版本与庆典活动的铺开，游戏的热度也被推向了顶点：11月13日，AoV官宣日活跃用户突破2000万，创下新的峰值。\n这次十周年，它再一次把端内大版本、线下庆典、电竞赛事、异业与偶像联动全线铺开，在多个地区收获了现象级的关注度与热度。\n01 十年共庆，玩家热爱走出屏幕\n这种热度的最直观体验，是线下各地玩家实打实的狂欢。从城市地标到体育场馆，十周年的庆典阵仗在各地全面铺开。在中国台北，AoV成为首个在台北大巨蛋举办大型庆典活动的游戏品牌，卡司横跨Minnie、MAMAMOO+、告五人等不同圈层，单场涌入超3万观众，配合台北捷运限定战场、101光雕、松山文创园区特展以及Uber Eats跨界联名，把十周年铺进了城市公共空间。\n而在曼谷，十周年记忆展览像一台时光机，让玩家在十年的合影与旧物前重温青春；与之相呼应的，则是RPL赛事与T-POP演唱会连嗨三天的整合庆典。这种走心的情感共鸣与高燃的线下演出交织，持续3天的活动总计汇集了6万余名观众到场支持。\n视线拉回越南，河内美亭体育场，这座越南国内规模最大的体育场馆，曾见证无数国家级体育荣耀的地标，正迎来AoV 10 Fest。在这里，AOG冬季决赛的激烈交锋与十周年演唱会被无缝衔接在一起，赛事的热血与庆典的狂欢背靠背上演。现场共计集结超300名官方及玩家coser登台表演，屏幕上同步展示了数百名自2016年起便持续活跃的越南玩家名单，以此感谢他们的十年陪伴。当这份属于“十年老玩家”的名单逐一闪过时，现场响起长久的掌声与欢呼，台下不少老玩家当场红了眼眶。\n活动吸引超3.3万人到场观看，电竞的呐喊与偶像的歌声交织，将游戏十周年彻底推向了城市盛典的高度。\n这种热度不止体现在线下活动，据Sensor Tower数据，越南区域AoV日活数据在2017年至2026年间也持续保持增长。\n与此同时，这股十周年的海外热度，还与国内同源双生的《王者荣耀》形成了一场共振。《王者荣耀》不仅在端内上线了生日预告，还发布了AoV 英雄与《王者荣耀》英雄大合影，玩家分享还可得 AoV 周边奖励。这对“同源双生”的产品，其实早已在多个层面双向奔赴。比如，孙尚香与堇推出了双生全球皮肤，英雄亚连也从AoV成功移植到了《王者荣耀》。\n从线下多地的城市级文化现象指向一个判断：AoV在区域市场的角色，早已越过“一款受欢迎的游戏”，生长为一种跨越地域、跨越线上线下的文化符号。\n02 热闹背后，是什么留住了玩家十年的陪伴？\n当庆典的喧嚣散去，真正值得复盘的，是这十年里那些并不热闹的日常。\n2016年AoV刚上线时，面对的是一个文化习惯差异很大的海外市场。它没有选择直接复刻《王者荣耀》现有的模式，而是踏上了一条更慢的路：优先深耕东南亚等区域市场，持续做本地化适配，一步步搭建区域电竞闭环。十年后回看，正是这些“慢功夫”，构成了它难以短期被复制的护城河。\n支撑游戏十年长跑的第一块基石，是AoV本身一直在进化。值此十周年之际，BEYOND版本迎来全面焕新。官方称其为“十年来幅度最大的一次战场改动”——经典史诗野怪回归并引入新的决战节奏，UI5.0对视觉与流程体验做了系统升级，全新娱乐模式“至黯狂袭”上线，新英雄艾薇塔带来新的世界观与玩法。\nMOBA游戏做版本更新并不稀奇，难的是十年里持续把玩家反馈变成产品变化。这份细心体现在游戏对老角色的持续翻新之中。比如，普雷塔的调整依据了“传说共创计划”中玩家的真实反馈；而阿兹卡则推出了“噬日残辉”的全新形象重制，在特意保留经典“诅咒阶段”造型及语音的同时，让角色的背景故事更加丰满。对于一款运营十年的竞技游戏来说，推出一位新英雄固然能带来新鲜感，但让众多老英雄都能在现代对战环境中找到自己的价值，才是对生态平衡最难、也最见诚意的考验。透过普雷塔与阿兹卡这些老英雄的“重生”，老玩家们能清晰读到一个信号：你的声音，依然在改变这个游戏。\n其次，是让电竞真正在本地扎下根来。具体而言，AoV积极在各地投入资源，从校园赛、城市赛等大众赛事起步，逐步搭建起从基层到职业的完整金字塔体系，并大力扶持本地战队与电竞人才；同时，推动AIC等国际顶级赛事持续落地当地，让本地玩家在家门口就能感受到世界级电竞的氛围。\n这种“从基层长出来”的路径，结出了实打实的果实。以越南市场为例，据Esports Charts统计，2025年东南亚运动会AoV男子组决赛的直播峰值同时观看人数约104万，创下该项目赛事的新高。高热度的背后，是实打实的竞技实力：越南队曾登顶2019年AoV世界杯，并在2025年东南亚运动会AoV项目上斩获金牌。不仅如此，胡志明市还连续多年承办AIC国际锦标赛，让顶级赛事真正在本地落地生根。\n当一款MOBA手游，在越南成了国家队摘金、全民围观的项目，电竞就跳出了游戏电竞圈层向外延伸，成为本地观众寄托“这是我们的联赛、我们的选手”这份归属感的情感载体。归属感一旦建立，产品就获得了比曝光更宝贵的东西：极高的玩家粘性和用户忠诚度。\n最后一点，是用长期的陪伴，攒下玩家的信任。在中国台北的特展上，官方不仅展出了历年英雄的设计手稿与初代版本的原画，还专门还原了老玩家们熟悉的初代峡谷场景，供大家打卡留念；而在曼谷的记忆展览中，一面巨大的“十年轨迹墙”上记录着无数老玩家首次登录的日期、陪伴的天数，甚至将那些熟悉的玩家ID做成了光影互动。这些展览本质上都在做同一件事：把十年里玩家与游戏的私人记忆，从虚拟的数据变成了看得见、摸得着、可以走进去和分享的实体空间。这种长期的陪伴与情感沉淀，构成了长线游戏最深的一道壁垒。\n这些积累最终落在玩家身上，是更稳定的对战体验、更熟悉的英雄、更真实的归属感，以及十年里共同经历的记忆。十周年庆典之所以能如此热闹，是因为十年里沉淀下来的玩家关系，到了该被看见、被庆祝的时候。\n03、十年为序，下一战开启\n回顾AoV的十年，它的样本价值并不停留在商业层面的成功，而在于它用实打实的十年时间，验证了一条出海路径的可行性。作为在海外市场稳扎稳打走过十年的MOBA手游，它证明了在竞争白热化的海外市场，游戏可以用区域深耕、长线版本、在地电竞和社区陪伴，一年一年把根扎下去，这条路是跑得通的。\n而《王者荣耀》的同步庆生，以及此前孙尚香与堇的双生全球皮肤、亚连从AoV移植到《王者荣耀》等动作，都向行业释放了一个新信号：这对“同源双生”的兄弟产品，正在走向更深度的协同与共振。在当下游戏出海的语境里，这种整合发力，或许为行业提供了一种全新的解法。\n过去，出海往往是单一产品的孤军奋战；而现在，两款各自在不同市场跑通了十年长线生态的成熟产品，开始产生协同与共振。这意味着未来面对全球市场更多元的挑战时，它们可以用两张底牌、两套生态去打配合，这种想象空间是巨大的。\n这也让“十年为序，下一战开启”这句主题词，有了更具体的分量。十年前，AoV要回答的问题是“能不能在海外活下来”；十年后，它要回答的是“能不能在已经扎根的地方，长出新的东西”。\n登录 后参与讨论\n暂无评论，来抢沙发",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "AoV十周年：日活突破2000万，区域深耕与本地电竞路径复盘",
-      "what": "腾讯海外MOBA手游《Arena of Valor》上线满十年，官方称11月13日日活跃用户突破2000万；十周年期间在中国台北、曼谷、河内举办线下庆典与电竞赛事，并推出BEYOND版本更新。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-68554a31d0",
-      "source_url": "https://www.chuapp.com/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "c5771111260ff5f6",
-      "title": "收官扬州！天下武道会打出了三角洲大众赛事新生态",
-      "url": "http://www.chuapp.com/article/291761.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "触乐"
-      ],
-      "published": "2026-11-15T09:49:31+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "11月13日，由《三角洲行动》头部主播昊天发起的官方授权赛事——天下武道会线下总决赛，在江苏扬州圆满落幕。 经过八天的线上角逐，由昊天、范丞丞、陈泽、刘回担任导师的四支“豪杰队”，与林树、白泽带领的两支“追猎队”会师线下决赛。最终，昊天队凭借出色发挥夺得冠军，队内选手小向荣膺FMVP，为本届天下武道会画上圆满句号。 四位导师坐镇解说席 昊天队最终夺得冠军 从线上“四大流派”到线下“追猎踢馆”，赛事展开了一系列规则创新，在竞技公平与观赛体验之间寻找新的平衡，也展现出《三角洲行动》大众赛事生态的更多可能。 ■ 赛制出奇招：四大流派博弈与“追猎捕手” 对搜打撤赛事而言，如何兼顾竞技公平与比赛观赏性，一直是赛事设计的重要课题。传统“单三”模式存在较高的结果不确定性，选手间的实力差距也容易引发“炸鱼”争议；而18人同场竞技，又可能出现队伍过度避战、缺乏正面交锋的情况。 天下武道会尝试从规则设计入手破解这一难题。线上阶段设置“四大流派”，让不同技术特长的选手在明确的武器与玩法规则下展开较量，降低装备差异对比赛的影响；线下总决赛则引入“追猎踢馆”机制，通过豪杰队的冠军积分争夺与追猎队的击败奖励，鼓励队伍主动交战，在保留搜打撤战术博弈的同时，提高比赛的对抗强度和观赏性。 13日当天，线上脱颖而出的民间高手和四位导师正式组建为四支“豪杰队”，与林树、白泽带领的两支“追猎队”同台竞技。赛事采用了别具一",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "收官扬州！天下武道会打出了三角洲大众赛事新生态",
-          "url": "http://www.chuapp.com/article/291761.html",
-          "source": "触乐",
-          "lang": "zh",
-          "published": "2026-11-15T09:49:31+00:00"
-        }
-      ],
-      "score": 22,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
+          "value": 8
         },
         {
           "label": "近期",
@@ -536,42 +146,42 @@
       ],
       "topic": "系统设计",
       "is_analysis": false,
-      "age_hours": 21.196107605,
+      "age_hours": 4.257688237222222,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "四支豪杰队与两支追猎队在扬州同场开打，昊天队捧回冠军奖杯。\n11月13日，由《三角洲行动》头部主播昊天发起的官方授权赛事——天下武道会线下总决赛，在江苏扬州圆满落幕。\n经过八天的线上角逐，由昊天、范丞丞、陈泽、刘回担任导师的四支“豪杰队”，与林树、白泽带领的两支“追猎队”会师线下决赛。最终，昊天队凭借出色发挥夺得冠军，队内选手小向荣膺FMVP，为本届天下武道会画上圆满句号。\n从线上“四大流派”到线下“追猎踢馆”，赛事展开了一系列规则创新，在竞技公平与观赛体验之间寻找新的平衡，也展现出《三角洲行动》大众赛事生态的更多可能。\n对搜打撤赛事而言，如何兼顾竞技公平与比赛观赏性，一直是赛事设计的重要课题。传统“单三”模式存在较高的结果不确定性，选手间的实力差距也容易引发“炸鱼”争议；而18人同场竞技，又可能出现队伍过度避战、缺乏正面交锋的情况。\n天下武道会尝试从规则设计入手破解这一难题。线上阶段设置“四大流派”，让不同技术特长的选手在明确的武器与玩法规则下展开较量，降低装备差异对比赛的影响；线下总决赛则引入“追猎踢馆”机制，通过豪杰队的冠军积分争夺与追猎队的击败奖励，鼓励队伍主动交战，在保留搜打撤战术博弈的同时，提高比赛的对抗强度和观赏性。\n13日当天，线上脱颖而出的民间高手和四位导师正式组建为四支“豪杰队”，与林树、白泽带领的两支“追猎队”同台竞技。赛事采用了别具一格的“双轨制”。“豪杰队”以团队击败和物资带出累计积分，争夺冠军；而“追猎队”则以“踢馆者”身份压阵，他们的击杀数单独计算，直接换取真金白银的奖金。这种“冠军争夺”与“围猎挑战”并行的双轨积分机制，让场上的每一次交火都充满悬念。\n激烈的对抗氛围，从扬州线下总决赛的开幕式就已经点燃。战队登场环节，伴随着急促的战鼓声，四支“豪杰队”手持战旗依次亮相，大屏同步打出每位选手的专属登场判词，瞬间点燃了现场氛围。紧接着，曲风陡然一转、鼓点加密，林树与白泽率领的两支“追猎队”以踢馆者的姿态破阵而出。作为赛制中的“第三方势力”，追猎队的加入直接搅动了赛场的风云，也让赛事多了一些悬念和火药味。\n最令人惊喜的是，导师昊天巧妙呼应了自己标志性的游戏角色“露娜”，以一支破空而出的“探测箭”视觉意象，将“这支箭，等的是下一个被看见的人”的办赛初心具象化，让武侠仪式感与电竞舞台完美交融。\n随着明星导师范丞丞等人的惊艳出场，现场尖叫不断，有观众在社交平台激动发文：“开场直接心跳漏了半拍，简直太帅了！”这种火热的氛围也同步蔓延至线上，赛事期间多次登上抖音热榜吧。场馆外，巨大的“天下武道会”门头与选手海报墙也成了热门打卡点，有未能抢到门票的玩家在门外拍照时仍在感慨：“虽然看不了比赛，但是现场还是很震撼的。”\n随后，激战正式打响。在为期数局的激战中，各支战队在航天基地地图中展开了激烈的资源博弈与正面交火。面对“追猎队”在暗处的频频狙击与阻截，由导师带领的“豪杰队”必须在多方混战中拿足击败分，寻找破局的机会。\n多方势力的交织，让赛场上的每一次交火都极具看点。第二局比赛，离心机室上演了极其惨烈的“四队大乱斗”。局势一度陷入混乱时，昊天队钢牙和小向齐发力，分别完成双杀，帮助队伍在乱战中稳住了阵脚，奠定了胜局基础。而在决定胜负的第六局，场上对抗进入白热化。面对敌方的步步紧逼，小向再次站了出来，在绝境中完成一打二极限双杀，彻底扑灭了刘回队的反扑气焰。\n最终，昊天阵营凭借更胜一筹的临场运营与精准枪法，成功带出高价值物资，夺得本届天下武道会冠军。队内主力选手“小向”更是凭借整场比赛的高光发挥，荣膺赛事FMVP。值得一提的是，作为冠军队伍的FMVP，小向获得直通明年1月抖音主播赛线下赛的名额。\n比赛期间，众多网友对赛制设计给出了高度评价，“这回昊天武道会真好看吧，决赛这个赛制真没毛病”；也有人被开幕式所震撼，“这开场真的绝了，不得不说太用心了”；更有观众看完决赛后意犹未尽地留言：“早知道这比赛这么好看，就留到过年看了”……\n从陈泽杯的“单人进三排”、白泽杯的“复活投票”，到天下武道会的“四大流派”与“追猎踢馆”，不同主播围绕游戏原有规则，探索出了各具特色的竞技形式。丰富的枪械改装、弹药机制、干员技能和物资运营玩法，为这些赛事创意提供了充足的发挥空间，也让主播赛事不再局限于单一的竞技模式。\n如果说主播的创意让比赛有了更多新鲜感，那么官方授权、赛事服和规则支持，则为这些创意的落地提供了保障。本届天下武道会的出彩，也离不开这些支持：通过赛事服，主办方可以对武器、战备额度等比赛条件进行规范，尽可能减少装备配置差异对竞技结果的影响，让选手的枪法、战术决策和团队协作成为更加突出的比赛看点。\n对于各种各样的参赛达人而言，他们不仅有机会与高手同台竞技，也能通过不同赛道展示自己的技术特长；对于观众而言，多样化的规则设计则创造了更多意想不到的比赛悬念。从主播的创意策划，到官方的技术与全方位支持，双方共同拓展着搜打撤大众赛事的玩法空间与观赛体验。\n“这支箭，等的是下一个被看见的人”，这既是昊天的办赛初衷，也是本次赛事的一大看点。天下武道会通过开放报名与海选，让更多人得以登上高规格的电竞舞台。这些从线上赛中脱颖而出的民间高手、素人主播等，最终与明星导师、职业选手同台竞技，将线上的热度彻底点燃。赛事期间，总决赛单日全网累计观看人次突破1300万，相关话题全网播放量超3亿。\n这种极高的线上关注度，直接转化为了线下的观赛与出行热潮。据统计，本届赛事不仅吸引了2300名观众涌入现场，更有高达90%的外地观众专程跨城赴会。比赛场馆外，随处可见拎着行李箱、举着应援牌的年轻面孔。当被问及观赛感受时，不少粉丝直呼“现场看交火真的太燃了，这趟没白跑”。大批跨城观赛的年轻客群，直接带动了扬州当地的文旅消费。赛事期间，场馆周边的酒店迎来了预订高峰，部分酒店甚至一房难求。\n借着赛事热度，扬州本地的文旅特色也迎来了大批年轻客群。观赛之余，去吃一顿扬州早茶、夜游一次瘦西湖，成了许多观众的标配行程。一场电竞比赛，不仅拉动了场馆周边的餐饮住宿，更让“看比赛”变成了“游扬州”的契机。\n从线上“四大流派”的创意比拼，到扬州线下总决赛的高手过招，天下武道会展现了《三角洲行动》主播赛事的丰富可能：主播依托游戏机制创造新玩法，普通玩家通过赛事获得展示机会，官方与平台则通过规则、技术及组织支持，让这些创意逐步走向更加成熟的线下舞台。\n随着抖音游戏主播赛联盟计划的推进，兼具娱乐性、参与感与竞技性的主播自办赛，也有望成为《三角洲行动》大众赛事生态中更加11月13日，由《三角洲行动》头部主播昊天发起的官方授权赛事——天下武道会线下总决赛，在江苏扬州圆满落幕。",
+      "body": "发行商Gamirror Games宣布，将代理发行由Filiokus团队开发的骰子计算主题Roguelike卡牌构筑游戏《算鼠英雄》(Talystro)。在这款游戏中，攻略敌人靠的不是攻防，而是一道道算式——只要计算结果匹配敌人的数值，就能当场将其清除！\nSteam商店页面：https://store.steampowered.com/app/3524740/\nBiliBili视频链接：\n游戏全新Demo版本在今日更新上线，无论是初次接触游戏的新玩家，还是此前体验过Demo的老玩家，都欢迎前来尝试这次更新！\n关于《算鼠英雄》\n《算鼠英雄》是一款以数学计算为核心玩法的Roguelike卡牌构筑游戏。\n游戏最痛快且独特的地方在于：敌人无需被一点点磨掉血条。形态各异的敌人，本身是一个等待被算平的数值——只要将骰子数值嵌入到我方卡牌的算式中，一旦结果与它相等，对方便会立刻被清除出局。\n无须担心计算过于复杂 —— 算式已经写好，你要做的只是把掷出的骰子填进空缺，用到的也只有加减乘除，系统会自动计算结果；而且同一场战斗往往不止一种解法。一次掷骰、一次配对、一击命中，算对就是秒杀！\n选择合适的挑战、收集并强化卡牌与骰子，以及规划资源变量的使用，是突破死灵骰手围剿的关键。\n全新Demo更新\n本次Demo更新将带来一系列内容与机制上的升级。\n主要更新内容：\n卡牌与关卡生成系统全面升级\n引入全新机制与变量\n新增全新精英敌人与Boss\n开放全新章节内容\n全新中文本地化内容\n更多卡牌组合、全新敌人与未知挑战等待玩家探索。欢迎更新Demo，用一道道算式，获得算对后最直接爽快的击杀体验！\n线下展会预告\n除了本次Demo更新，《算鼠英雄》接下来还将陆续亮相即将于11月末举办的WePlay文化展和12月初的新物集BGM游戏展，届时欢迎各位玩家来到现场，亲自体验游戏，与死灵骰手一决高下！\n加入玩家交流群\n想了解更多游戏资讯、获取最新开发动态，或与其他玩家交流游戏体验？\n欢迎加入《算鼠英雄》官方QQ交流群，和我们一起讨论游戏、分享冒险中的趣事！\nQQ群号：1127147003\n登录 后参与讨论\n暂无评论，来抢沙发",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "天下武道会扬州线下总决赛收官：双轨赛制与赛事生态",
-      "what": "11月13日，《三角洲行动》主播昊天发起的官方授权赛事天下武道会线下总决赛在扬州举行，四支豪杰队与两支追猎队参赛，昊天队夺冠、小向获FMVP。赛事采用豪杰队积分争冠、追猎队击杀换奖金的双轨机制。",
+      "title_cn": "Gamirror Games宣布发行骰子计算Roguelike卡牌游戏《算鼠英雄》",
+      "what": "发行商Gamirror Games宣布代理发行Filiokus团队开发的骰子计算主题Roguelike卡牌构筑游戏《算鼠英雄》，玩家将骰子数值填入卡牌算式，结果与敌人数值相等即可清除敌人。全新Demo同日更新，新增卡牌与关卡生成系统、机制变量、精英敌人与Boss及新章节。",
       "why": "",
       "for_you": "",
       "degraded": null
     },
     {
-      "source_id": "web-9667abeb70",
-      "source_url": "https://80.lv/feed",
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "6b7723e01dcbf21e",
-      "title": "Master Hard-Surface Weapon Creation in Blender with This Course",
-      "url": "https://80.lv/articles/master-hard-surface-weapon-creation-in-blender-with-this-course/",
-      "lang": "en",
+      "key": "dde092191478a29f",
+      "title": "《我的世界：地下城2》首个DLC将于12月1日上线",
+      "url": "https://www.gcores.com/articles/222421",
+      "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "80.lv"
+        "机核"
       ],
-      "published": "2026-11-13T17:18:00+00:00",
+      "published": "2026-11-17T00:45:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Senior Weapon and Prop Artist Navid Valizadeh will walk you through the full asset pipeline, from hard-surface modeling to the final render.",
+      "summary_raw": "《我的世界：地下城2》首个付费DLC“The Humblers Awaken”将于12月1日正式上线，同日还将推出包含新玩法与经典皮肤的免费更新。本次的全新 DLC 延续了游戏主线剧情，将带来新任务、未探索的地图环境以及新装备和外观。 开发者表示，筛界维度再次陷入危机，沉睡已久的古老威胁 Humblers 开始苏醒并出现愤怒情绪。如果放任不管，这些生物将蔓延至整个维度，甚至惊动更危险的敌人。玩家需要与盟友深入维度底层，调查引发这场动乱的原因。 伴随 DLC 发布，游戏也将在免费更新中带来更多武器、盔甲和游戏挑战，而初代《我的世界：地下城》 角色也将以玩家皮肤的形式回归。为庆祝 DLC 的发售，官方还将推出可在《我的世界：地下城2》和《我的世界》两款游戏中使用的雪傀儡主题披风。",
       "rss_content": "",
       "content_kind": "rss_summary",
-      "category": "development",
+      "category": "games",
       "pool": "main",
       "signals": {
         "hn_points": 0,
@@ -582,14 +192,14 @@
       },
       "members": [
         {
-          "title": "Master Hard-Surface Weapon Creation in Blender with This Course",
-          "url": "https://80.lv/articles/master-hard-surface-weapon-creation-in-blender-with-this-course/",
-          "source": "80.lv",
-          "lang": "en",
-          "published": "2026-11-13T17:18:00+00:00"
+          "title": "《我的世界：地下城2》首个DLC将于12月1日上线",
+          "url": "https://www.gcores.com/articles/222421",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-17T00:45:00+00:00"
         }
       ],
-      "score": 17,
+      "score": 30,
       "score_parts": [
         {
           "label": "来源",
@@ -597,11 +207,11 @@
         },
         {
           "label": "游戏与玩法变化",
-          "value": 0
+          "value": 8
         },
         {
           "label": "近期",
-          "value": 5
+          "value": 10
         },
         {
           "label": "分析与方法",
@@ -612,41 +222,41 @@
           "value": 0
         }
       ],
-      "topic": "开发动态",
+      "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 61.721385382777775,
+      "age_hours": 7.524354903888889,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
       "body": "",
       "has_body": false,
       "body_truncated": false,
-      "title_cn": "Blender硬表面武器制作课程：从建模到最终渲染",
-      "what": "80.lv报道，资深武器与道具美术师Navid Valizadeh将开设课程，讲解硬表面武器资产的完整制作流程，涵盖从硬表面建模到最终渲染的各个环节。",
+      "title_cn": "《我的世界：地下城2》首个付费DLC将于12月1日上线",
+      "what": "《我的世界：地下城2》首个付费DLC“The Humblers Awaken”定于12月1日上线，延续主线剧情，新增任务、地图、装备与外观；同日推出含新武器、盔甲、挑战及初代角色皮肤的免费更新，并推出双游戏可用的雪傀儡主题披风。",
       "why": "",
       "for_you": "",
       "degraded": "source_excerpt"
     },
     {
-      "source_id": "web-9667abeb70",
-      "source_url": "https://80.lv/feed",
+      "source_id": "web-531f01f744",
+      "source_url": "https://unity.com/blog/rss",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "7bf42a6cdd49802e",
-      "title": "Ocarina Of Time's Link Reimagined With Arcane-Inspired Art Style",
-      "url": "https://80.lv/articles/ocarina-of-time-s-link-reimagined-with-arcane-inspired-art-style/",
+      "key": "d9c706229a1409db",
+      "title": "The Unity CLI 1.0 is here!",
+      "url": "https://unity.com/the-unity-cli-1.0-is-here",
       "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
+      "tier": 1,
+      "tier_weight": 18,
       "coverage": 1,
       "sources": [
-        "80.lv"
+        "Unity"
       ],
-      "published": "2026-11-13T15:58:00+00:00",
+      "published": "2026-11-17T00:00:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Mauricio Ataíde shared some insights into his hand-painted texturing process.",
+      "summary_raw": "Unity CLI 1.0 is out of beta. Connect Claude Code, Codex, Grok Build or Antigravity to your Unity project, and automate builds and tests from the terminal.",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "development",
@@ -660,11 +270,1544 @@
       },
       "members": [
         {
-          "title": "Ocarina Of Time's Link Reimagined With Arcane-Inspired Art Style",
-          "url": "https://80.lv/articles/ocarina-of-time-s-link-reimagined-with-arcane-inspired-art-style/",
+          "title": "The Unity CLI 1.0 is here!",
+          "url": "https://unity.com/the-unity-cli-1.0-is-here",
+          "source": "Unity",
+          "lang": "en",
+          "published": "2026-11-17T00:00:00+00:00"
+        }
+      ],
+      "score": 28,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 8.274354903888888,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "The Unity CLI 1.0 is here!\nChristopher Addison - Unity Technologies\nOn July 15, 2026, we brought Unity to the terminal. Today at Unite Tokyo, the Unity CLI and the Pipeline package (com.unity.pipeline\n) are out of beta. Version 1.0 is ready for your projects, your build machines and your agents.\nHow we got here\nWe started with a beta: one binary that installs and manages Unity Editors, modules and projects from the terminal, which we introduced in Meet the Unity CLI. Alongside it, the Pipeline package lets the CLI drive a running Editor on your machine, so a script or an agent could open a project, run a command and check the result.\nNext, the Unity Hub started installing the CLI for you, so if you're on the latest Hub, you already have it. Then came official Unity plugins for Claude Code, Codex, Grok Build and Google Antigravity, which give those agents skills written by Unity's own teams. The same skills are public in the Unity skills repository on GitHub, so any agent can use them.\nAlong the way, we shipped more than 17 beta releases, shaped by what you told us.\nInside the Unity CLI\nSince July 20, more than 350,000 logged-in users have run more than 600 million commands with the Unity CLI. About 98% of those runs come from coding agents and other automation.\nWe looked closer at that usage in what we've learned about how developers use the Unity CLI: people set Unity up, then their agent does the work inside a live Editor.\nWhat you told us\nMany of the changes in 1.0 started as a bug report, a Discussions thread or a message from a studio using the CLI every day.\n\"I am not exaggerating when I say the CLI has completely changed how I work with Unity. It is incredible.\" Dorado Digital\n\"The CLI is crazy good in the most simplistic way. I'm still very much holding the reins for the moment, but it's really positive.\" Andy, Kwalee\nStudios also sent us detailed reports: commands that said they succeeded when they hadn't, dialogs that blocked a remote session, scripts that broke when output changed shape. That feedback set the priorities for the releases that followed. You can read every change in the Unity CLI release notes or run unity changelog\n.\nWhat changed since launch\n- One command to set up your agent.\nunity setup\ninstalls the official plugin for Claude Code, Codex, Grok Build or Google Antigravity.unity skill install --all\ngives Unity's skills to every agent on the machine, including VS Code, GitHub Copilot, Qwen Code and OpenCode, andunity skill sync\nkeeps them current. The install script now adds Unity's skills to every agent it finds. - No more sessions stuck on a hidden dialog. The CLI can now see the dialog an Editor is waiting on and answer it, so a script or an agent doesn't hang on a popup nobody can see.\n- Builds through the Editor you already have open.\nunity build --target\nbuilds in the Editor that has the project open, andunity pipeline cloud-build\nsets up cloud build targets from the terminal. - Version control that reads like a person would.\nunity vcs\nnames the asset behind each change in a scene or prefab, and can summarize a pull request without switching branches. - New projects that are ready from the start.\nunity projects create\nadds the Pipeline package to every new project, and can install the Editor the project needs.unity open --until-ready\nwaits until the Editor can take commands. - Output scripts can rely on. Every listing and stream now has the same JSON shape. Short flags mean the same thing in every command,\n--project-path\nworks everywhere, and the CLI never prompts in CI. Clear exit codes tell a script when the Editor is busy, when a dialog is blocking it or when the network is down. You can pin a CLI version range per project. - A health check for your project.\nunity projects audit\nruns Project Auditor and writes a report, with a focus such as upgrades, optimization or URP. - Easier to install and keep current. The CLI is a native binary on macOS, Linux and Windows, available through Homebrew, winget and APT.\nunity self-update\nkeeps your last three versions, so you can roll back. You can also keep the docs offline withunity docs cache add\n. - Hardened for teams. Security fixes across installs, skills and project linking, so a cloned repository can't run its own programs in place of the real ones.\n1.0 is also a commitment: commands, flags and output stay compatible across 1.x releases. When something has to change, you’ll get a deprecation warning and time to update before anything is removed.\nUse it with your agents\nThe CLI is how an agent actually works with Unity: it opens the project, runs commands in the Editor, enters Play mode and reads the result. With the official Unity plugin, the agent also gets Unity's own skills for tasks like building UI, setting up lighting or adding in-app purchases. See the Unity plugin documentation for the full list.\nAgents without an official plugin still work in Unity through the CLI. So do scripts, test runners and CI jobs with no AI involved at all. To see it in action, watch the Automate with Unity CLI livestream.\nAgents and automation are also getting a supported place to run. The Build Server license now covers agents and automation, not only builds: one license per instance lets you run agents on a headless Editor or in a container, on any computer.\nComing soon: the Linux containerized Editor, a supported headless Unity Editor in a Linux container, built for CI, build machines and agents.\nWhat’s next?\nWe’ll keep shipping updates the way we did during the beta. Next, we’re bringing more of Unity to the terminal: commands for AI Generators, Live Games and Build Automation, and accounts built for agents.\nGet started\nIf you're on the latest Unity Hub, you already have the CLI. Open a terminal and start with the Unity CLI documentation. New to the terminal? Try A beginner's guide to Unity CLI and the Pipeline package, or the Unity CLI introduction video.\nAnd keep telling us what you build: your feedback shaped 1.0, and it will shape what comes next.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Unity CLI 1.0正式发布：面向构建机器与AI代理",
+      "what": "Unity宣布Unity CLI与Pipeline包结束测试、发布1.0版本，支持在终端安装管理编辑器与项目、驱动运行中的编辑器执行命令，并新增代理插件安装、弹窗应答、构建、版本控制摘要、项目审计与稳定JSON输出等能力。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "1871b18911dac95e",
+      "title": "Unity Offers Indie Developers $50K Grants Through New Fellowship Program",
+      "url": "https://80.lv/articles/unity-offers-indie-developers-usd50k-grants-through-new-fellowship-program/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 3,
+      "sources": [
+        "80.lv",
+        "GamesIndustry",
+        "Game Developer"
+      ],
+      "published": "2026-11-16T15:53:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "No equity or repayment.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Unity Offers Indie Developers $50K Grants Through New Fellowship Program",
+          "url": "https://80.lv/articles/unity-offers-indie-developers-usd50k-grants-through-new-fellowship-program/",
           "source": "80.lv",
           "lang": "en",
-          "published": "2026-11-13T15:58:00+00:00"
+          "published": "2026-11-16T15:53:00+00:00"
+        },
+        {
+          "title": "Unity launches $50,000 grant for indie developers with no equity or repayment",
+          "url": "https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-11-16T13:00:00+00:00"
+        },
+        {
+          "title": "Unity's new fellowship program offers cash and dedicated support for indie devs",
+          "url": "https://www.gamedeveloper.com/business/unity-to-support-indies-with-cash-and-dedicated-support-through-new-fellowship-program",
+          "source": "Game Developer",
+          "lang": "en",
+          "published": "2026-11-16T13:00:00+00:00"
+        }
+      ],
+      "score": 28,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 6
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 16.391021570555555,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Unity Offers Indie Developers $50K Grants Through New Fellowship Program\nNo equity or repayment.\nUnity has announced Unity Fellowship, a new initiative that provides financial assistance and support to independent game studios. It will select 10 teams with games about a year from launch and \"connect them with the resources, support, and networks\", including a $50,000 USD cash grant, with no equity involved and no need to pay the money back.\nSelected studios will decide how and when to use these resources and will retain \"complete creative control over their game vision and business strategy\". Aside from the $50,000 USD cash grant, each team will also receive:\n- A dedicated Unity point of contact for development guidance and troubleshooting\nSupport from experts in development, game design, and promotion; - Industry connections, including pitch preparation and publisher introductions;\n- A presence at Unity events;\n- PR and marketing support.\nUnity is looking for unique games with a strong creative vision. To apply, studios will need to submit a video showcasing their game, provide a playable build, share a development roadmap, and explain how the Unity Fellowship's resources could help move their project forward.\nUnity Fellowship is primarily aimed at independent teams that don't yet have publisher support, but studios with a publisher can still apply. Applicants must also own or have the rights to all content in their games, including anything generated using AI.\nKeep in mind that not all countries and regions are eligible. Unity won't accept applications from developers based in areas subject to U.S. sanctions, as well as Brazil, Italy, and the province of Quebec. If you're an indie studio developing a game with Unity and meet the program's requirements, you can apply here. Unity plans to announce the selected studios at GDC in March 2027.\nDon't forget to subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Unity推出独立开发者5万美元资助计划",
+      "what": "Unity宣布推出Unity Fellowship计划，面向约一年后上线的独立游戏团队，选出10支团队，每队获5万美元现金资助且不占股权、无需偿还，另提供Unity对接人、开发与推广支持、行业人脉、活动露出及公关营销支持。申请需提交游戏视频、可玩版本、开发路线图等，入选名单计划2027年3月GDC公布。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-68554a31d0",
+      "source_url": "https://www.chuapp.com/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "4caa8c13716bba80",
+      "title": "新门派万花！《剑侠世界 4：无限》“万花惊鸿”资料片今日公测",
+      "url": "http://www.chuapp.com/article/291768.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 2,
+      "sources": [
+        "触乐",
+        "GameRes"
+      ],
+      "published": "2026-11-17T04:13:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "万花惊鸿，风雅入世。西山居剑侠世界系列收官之作 《剑侠世界4：无限》 “万花惊鸿”资料片今日（11月17日）10:00正式上线，同名超级万人大服同步开启！全新门派万花惊艳登场，为这片经典江湖注入一抹风雅气韵；征战天下新阶段、衡道书新关卡等精彩内容同步开放，全新玩法“跨服大世界·山河线”抢先揭晓；更有万花盛典直播豪礼抽不停，更有全服20 万元现金奖池限时瓜分！ 全新门派万花惊艳登场 ■ 新门派万花亮相 笔墨生花 万花入世，江湖再开！《剑侠世界4：无限》全新门派“万花”今日正式登场，风雅绝代！万花弟子以书画立派，笔承仁心，扇藏锋芒，集治疗、辅助与远程攻击于一身。更有水墨晕染的紫藤花海校服华美登场，将写意风骨穿在身上。在战斗中，万花紫衣翩然，执笔愈友护阵，挥扇破敌制胜，以全新双武器组合开创江湖战斗新体验！ 万花弟子主要担任治疗、辅助与远程攻击的位置 ■ 达人天团助阵 齐聚江湖 万花惊鸿，达人云集！值《剑侠世界 4：无限》“万花惊鸿”资料片上线之际，剑侠达人天团现身助阵江湖！人气美女主播呆妹儿小霸王、全能游戏主播火线妹、知名游戏主播王稳健 233、资深游戏解说JY 戴士、“网游MMO教父”纳兰西狂、知名美女主播临安小云笙等多位人气主播抢先赴约，陆续为少侠们带来万花试玩、副本开荒、家族团战等精彩直播；更有人气coser、游戏博主与实力达人倾情助阵，以造型变装、攻略拆解与实战体验等内容，全方位",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "新门派万花！《剑侠世界 4：无限》“万花惊鸿”资料片今日公测",
+          "url": "http://www.chuapp.com/article/291768.html",
+          "source": "触乐",
+          "lang": "zh",
+          "published": "2026-11-17T04:13:00+00:00"
+        },
+        {
+          "title": "新门派万花！《剑侠世界 4：无限》“万花惊鸿”资料片今日公测",
+          "url": "https://www.gameres.com/901203603.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-11-17T03:39:00+00:00"
+        }
+      ],
+      "score": 25,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 3
+        }
+      ],
+      "topic": "战斗设计",
+      "is_analysis": false,
+      "age_hours": 4.057688237222222,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "各种跨服玩法开启，观看直播有机会获得海量豪礼。\n万花惊鸿，风雅入世。西山居剑侠世界系列收官之作《剑侠世界4：无限》“万花惊鸿”资料片今日（11月17日）10:00正式上线，同名超级万人大服同步开启！全新门派万花惊艳登场，为这片经典江湖注入一抹风雅气韵；征战天下新阶段、衡道书新关卡等精彩内容同步开放，全新玩法“跨服大世界·山河线”抢先揭晓；更有万花盛典直播豪礼抽不停，更有全服20 万元现金奖池限时瓜分！\n万花入世，江湖再开！《剑侠世界4：无限》全新门派“万花”今日正式登场，风雅绝代！万花弟子以书画立派，笔承仁心，扇藏锋芒，集治疗、辅助与远程攻击于一身。更有水墨晕染的紫藤花海校服华美登场，将写意风骨穿在身上。在战斗中，万花紫衣翩然，执笔愈友护阵，挥扇破敌制胜，以全新双武器组合开创江湖战斗新体验！\n万花惊鸿，达人云集！值《剑侠世界 4：无限》“万花惊鸿”资料片上线之际，剑侠达人天团现身助阵江湖！人气美女主播呆妹儿小霸王、全能游戏主播火线妹、知名游戏主播王稳健 233、资深游戏解说JY 戴士、“网游MMO教父”纳兰西狂、知名美女主播临安小云笙等多位人气主播抢先赴约，陆续为少侠们带来万花试玩、副本开荒、家族团战等精彩直播；更有人气coser、游戏博主与实力达人倾情助阵，以造型变装、攻略拆解与实战体验等内容，全方位呈现新版本看点，各位少侠敬请关注！\n亮点1：万人大服上线 人气火爆\n万人同服，热闹翻倍！伴随《剑侠世界4：无限》新版本资料片上线，“万花惊鸿”主题超级万人大服同步火爆开启，单服最高承载3万人，各路少侠共聚一堂！在这里，少侠可广交四海好友、畅享自由交易、投身高燃群战，感受烟火气十足的真江湖！官网专属“万花迎新礼包”同步上线，点击上方官网链接复制礼包兑换码，登录游戏即可兑换惊喜福利，助力少侠新服开局轻松起步！\n亮点2：征战天下新阶段 跨服燃战\n群雄聚首，逐鹿天下！《剑侠世界4：无限》倾力打造更大规模的跨服战场「逐鹿天下」，让经典武侠的群战爽感在百人同屏对决中尽情释放！征战天下第二阶段正式开启，三大联盟逐鹿临安，百人群战燃爆全场！逐鹿天下阶段将打破区服界限，支持更多服务器的家族同台交锋，更大的战场、更多的对手、更燃的群战，一场酣畅淋漓的跨服大战即将打响！\n亮点3：衡道书更新 迎战江湖故人\n强敌来袭，邀你破局！《剑侠世界4：无限》高挑战团队副本“衡道书”全新关卡重磅开启，副本难度全面升级，三大首领各怀绝技：东方铃音与赤鸢轮番夹击，东方青鸾心境煞气相侵，龙五剑阵机关环环相扣，战场局势瞬息万变，为各位少侠带来全新的秘境体验！成功通关即有机会将BOSS同款时装收入囊中，还有万元竞速赛现金奖励等你来拿，快喊上好友组队开荒，一起挑战强敌！\n亮点4：药王谷开放 花溪飞瀑\n万花门派驻地“药王谷”探索玩法现已全面开放！药王谷深藏于层峦环抱之间，飞瀑自断崖垂落汇入碧潭，竹制栈道沿水蜿蜒，串联起茅顶竹庐。谷中药草遍野，漫山粉花与垂落紫藤相映成趣，药香与墨香交织，尽显世外风雅。各位少侠不妨循着花溪飞瀑、深入药王谷中，亲自揭开这片隐世药谷的故事！\n亮点5：绝美战令时装 芒种鎏金影\n节气入衣，芒种流金，全新战令时装【芒种】上线！新时装融合了金芒元素的锦绣，汲取芒种时节麦穗向阳、万物蓬勃的节气意象，将丰收的璀璨光华与武侠飘逸气质融为一体。衣身以白锦为底，鎏金纹样如麦浪蔓延铺开，双袖与裙身以流苏与莹润珠串错落点缀。依托游戏布料解算系统，时装兼顾了静态美感与动态表现，活动间珠坠轻晃、流苏摇曳。穿上它飞掠江湖，举手投足皆是风景！\n亮点6：跨服大世界 山河同游\n跨服山河，群侠齐聚！《剑侠世界4：无限》全新跨服玩法“跨服大世界·山河线”预计明年上线，来自不同服务器的少侠即将在同一片江湖相遇！在这里，广阔山河任君驰骋，少侠可加入楚门、秋山盟任一阵营，与家族成员争夺据点、并肩作战；也可以暂歇兵刃，游山玩水，尽情享受无拘无束的自在大江湖！\n亮点7：直播送豪礼 瓜分20万现金活动上线\n为庆祝《剑侠世界 4：无限》“万花惊鸿”资料片上线，万花盛典直播即将开启！制作人小浪哥携策划现身直播间，为各位少侠带来海量豪礼，参与直播抽奖即有机会获得坐骑【臻·霜轮啸月】、炫光【月曜星穹·臻】、时装【焕采风华】套装等游戏内大奖，还有10000元现金、Apple Watch Series 12、大疆DJINeo2轻型无人机等实物豪礼！11月17日至11月29日，资料片专属活动日同步限时开启，参与活动概率掉落字卡，集满兑换【盛典锦囊】即有机会开出金额不等的现金红包，全服20万元现金奖池等你来瓜分，各位少侠切莫错过！\n《剑侠世界4：无限》“万花惊鸿”资料片今日正式开启，新门派万花、新城战逐鹿天下、新副本衡道书同步登场，盛典直播豪礼抽不停，20万现金奖池限时瓜分！快携手家族好友，共赴剑侠江湖，再燃群战热血！",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《剑侠世界4：无限》“万花惊鸿”资料片上线，新增万花门派",
+      "what": "西山居《剑侠世界4：无限》于11月17日上线“万花惊鸿”资料片，同步开启万人新服。新增门派万花，定位治疗、辅助与远程攻击，使用笔与扇双武器；征战天下第二阶段、衡道书新关卡、药王谷探索玩法开放，跨服大世界“山河线”预计明年上线。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "2b3016b9ee3f4166",
+      "title": "《编年史：中世纪》开发商破产危机迎转机，Coffee Stain接手收购",
+      "url": "https://www.gcores.com/articles/222417",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 2,
+      "sources": [
+        "机核",
+        "GamesIndustry"
+      ],
+      "published": "2026-11-17T01:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "游戏公司 Coffee Stain 于日前从破产的 Raw Power Games 手中收购《编年史：中世纪》的所有权，作价3675万丹麦克朗（约合3614万人民币）。据悉，收购后的资产将归入一家新成立的公司。 Coffee Stain 持股新成立的公司75%股份，原开发团队的少数核心成员持股25%。 Coffee Stain首席执行官 Anton Westbergh 表示，《编年史：中世纪》去年在夏日游戏节首次亮相时给人留下深刻印象。在哥本哈根团队近期出现变故后，Coffee Stain 很高兴能介入并将这款游戏带给玩家。他认为这款游戏具备优秀作品的多项基本要素，有望成为集团旗下的长期核心IP。 《编年史：中世纪》是一款中世纪沙盒游戏。玩家可以在游戏中组建并指挥军队，与士兵并肩参与大规模战斗，并塑造自己的旅程。探索这个残酷壮美、基于真实历史构建的欧洲大陆；率领军队投身宏大战役；在一场场战斗中逐步扬名立万，留下足以载入史册的光辉事迹。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "《编年史：中世纪》开发商破产危机迎转机，Coffee Stain接手收购",
+          "url": "https://www.gcores.com/articles/222417",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-17T01:00:00+00:00"
+        },
+        {
+          "title": "Coffee Stain acquires Chronicles: Medieval IP from bankrupt Raw Power Games",
+          "url": "https://www.gamesindustry.biz/coffee-stain-acquires-chronicles-medieval-ip-from-bankrupt-raw-power-games",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-11-16T17:56:40+00:00"
+        }
+      ],
+      "score": 25,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 3
+        }
+      ],
+      "topic": "战斗设计",
+      "is_analysis": false,
+      "age_hours": 7.274354903888889,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "游戏公司 Coffee Stain 于日前从破产的 Raw Power Games 手中收购《编年史：中世纪》的所有权，作价3675万丹麦克朗（约合3614万人民币）。据悉，收购后的资产将归入一家新成立的公司。 Coffee Stain 持股新成立的公司75%股份，原开发团队的少数核心成员持股25%。\nCoffee Stain首席执行官 Anton Westbergh 表示，《编年史：中世纪》去年在夏日游戏节首次亮相时给人留下深刻印象。在哥本哈根团队近期出现变故后，Coffee Stain 很高兴能介入并将这款游戏带给玩家。他认为这款游戏具备优秀作品的多项基本要素，有望成为集团旗下的长期核心IP。\n《编年史：中世纪》是一款中世纪沙盒游戏。玩家可以在游戏中组建并指挥军队，与士兵并肩参与大规模战斗，并塑造自己的旅程。探索这个残酷壮美、基于真实历史构建的欧洲大陆；率领军队投身宏大战役；在一场场战斗中逐步扬名立万，留下足以载入史册的光辉事迹。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Coffee Stain收购破产工作室《编年史：中世纪》所有权",
+      "what": "Coffee Stain从破产的Raw Power Games手中收购中世纪沙盒游戏《编年史：中世纪》所有权，作价3675万丹麦克朗，资产归入新公司，Coffee Stain持股75%，原开发团队少数核心成员持股25%。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-b8285cb6e3",
+      "source_url": "https://www.gamedeveloper.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "112e9a6a695c38f4",
+      "title": "Shigeru Miyamoto selected as inaugural Legend Award inductee at DICE Awards",
+      "url": "https://www.gamedeveloper.com/console/shigeru-miyamoto-selected-as-inaugural-legend-award-inductee-at-d-i-c-e-awards",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 2,
+      "sources": [
+        "Game Developer",
+        "GamesIndustry"
+      ],
+      "published": "2026-11-16T20:15:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Nintendo's early game director, creative fellow, and most famous face is named as the first Legend Award winner at the 30th annual D.I.C.E. awards.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Shigeru Miyamoto selected as inaugural Legend Award inductee at DICE Awards",
+          "url": "https://www.gamedeveloper.com/console/shigeru-miyamoto-selected-as-inaugural-legend-award-inductee-at-d-i-c-e-awards",
+          "source": "Game Developer",
+          "lang": "en",
+          "published": "2026-11-16T20:15:00+00:00"
+        },
+        {
+          "title": "Shigeru Miyamoto to receive inaugural Legend Award at the 30th DICE Awards",
+          "url": "https://www.gamesindustry.biz/shigeru-miyamoto-to-receive-inaugural-legend-award-at-the-30th-dice-awards",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-11-16T18:37:20+00:00"
+        }
+      ],
+      "score": 25,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 3
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 12.024354903888888,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Shigeru Miyamoto, who joined Nintendo in 1977 and has gone on to create some of its most well-known and enduring games and characters, will be honored with the inaugural Legend Award at the 30th annual D.I.C.E. Awards in Las Vegas in February.\nThe Legend Award recognizes industry icons and creators who have accomplished groundbreaking achievements and universal acclaim. The newly-created award goes to recipients who have had generations of influence over the industry and medium, with only one Legend Award being named per decade.\nMiyamoto, who brought to life characters like Donkey Kong, Mario, Link, and many others, has gone from creating a number of foundational games, to guiding the company from the Board of Directors, to spearheading initiatives like movies and theme parks based on the enduring worlds he helped create. Miyamoto's mentorship to younger developers birthed game series like Pokemon, Kirby, and countless others.\n\"Shigeru Miyamoto is widely recognized as one of the most respected and impactful figures in the games industry and beyond,\" said Meggan Scavio, President of the Academy of Interactive Arts and Sciences (AIAS), which puts on the DICE awards. \"We believe he perfectly embodies our inaugural Legend Award through his impact and reach, and we are so humbled and excited to have Mr. Miyamoto accept this award at the 30th anniversary of the DICE. Awards.\"\nMiyamoto was also the first inductee into the AIAS hall of fame in 1998, making him a logical choice for the first selection for the Legend Award.\nThe 30th annual DICE Awards takes place on February 18, 2027.\nRead more about:",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "宫本茂将获DICE Awards首届传奇奖",
+      "what": "美国互动艺术与科学学院宣布，1977年加入任天堂、创作了马里奥、林克、大金刚等角色的宫本茂，将在2027年2月18日举行的第30届DICE Awards上获得新设立的首届传奇奖。该奖每十年只授予一位获奖者。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "5ae46f2e4ec84b62",
+      "title": "同一款《影之刃零》，抖音玩家玩出了不同的江湖",
+      "url": "https://www.gcores.com/articles/222424",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 2,
+      "sources": [
+        "机核",
+        "GameRes"
+      ],
+      "published": "2026-11-16T15:12:25+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "作者：柏亚舟 “10月29号，我要向公司请假，去与甄子丹先生切磋武艺。” 在10月29日《影之刃零》正式解锁前夕，你在抖音很容易看到类似这样的梗。作为继《黑神话：悟空》之后又一款受到海内外瞩目的国单游戏，《影之刃零》凭借鲜明的“功夫朋克”美学，以及融合了港式动作片质感的冷冽江湖，上线前就备受关注，上线后也悬念不大地点燃了单主机游戏玩家圈层。 然而，当普通玩家还在影境世界畅游、爽探图打BOSS的时候，如果你打开抖音，会发现本就已经很热闹的平台上正发散一些意想不到的花样：有人搓出MOD把地图变成了“电子斗蛐蛐”的擂台，让两个强力BOSS同场互殴；还有游戏里核心角色的真人脸模演员们纷纷亲自下场，在屏幕前上演了一出极具戏剧感的“我打我自己”。 “《影之刃零》居然还能这么玩？” 顺着这些视频往下刷，你会发现乐子还有很多，能刷到的东西不仅数量多，而且维度很立体。在这里，不仅有台前的开荒与挑战，在抖音游戏与抖音精选的牵头撮合下， @女流66 更是在游戏发售前24小时深入灵游坊研发腹地，带着千万玩家最好奇的问题，把话题从“游戏怎么玩”一路聊到了“游戏是怎么做出来的”。 一款重量级单机作品的生命力，往往在它走出工作室大门、交到创作者与玩家手中的那一刻才真正开始。而透过这群各有所长的抖音游戏作者，我们也得以窥见这片黑暗武侠江湖在游戏之外的“第二重宇宙”。 发售前24小时的“接力棒” 熟悉单机游戏宣发规",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "同一款《影之刃零》，抖音玩家玩出了不同的江湖",
+          "url": "https://www.gcores.com/articles/222424",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-16T15:12:25+00:00"
+        },
+        {
+          "title": "国产3A好感度+++解析《影之刃零》取长避短的开发哲学",
+          "url": "https://www.gameres.com/901203579.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-11-16T00:54:00+00:00"
+        }
+      ],
+      "score": 25,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 3
+        }
+      ],
+      "topic": "战斗设计",
+      "is_analysis": false,
+      "age_hours": 17.067410459444446,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "“10月29号，我要向公司请假，去与甄子丹先生切磋武艺。”\n在10月29日《影之刃零》正式解锁前夕，你在抖音很容易看到类似这样的梗。作为继《黑神话：悟空》之后又一款受到海内外瞩目的国单游戏，《影之刃零》凭借鲜明的“功夫朋克”美学，以及融合了港式动作片质感的冷冽江湖，上线前就备受关注，上线后也悬念不大地点燃了单主机游戏玩家圈层。\n然而，当普通玩家还在影境世界畅游、爽探图打BOSS的时候，如果你打开抖音，会发现本就已经很热闹的平台上正发散一些意想不到的花样：有人搓出MOD把地图变成了“电子斗蛐蛐”的擂台，让两个强力BOSS同场互殴；还有游戏里核心角色的真人脸模演员们纷纷亲自下场，在屏幕前上演了一出极具戏剧感的“我打我自己”。\n顺着这些视频往下刷，你会发现乐子还有很多，能刷到的东西不仅数量多，而且维度很立体。在这里，不仅有台前的开荒与挑战，在抖音游戏与抖音精选的牵头撮合下， @女流66 更是在游戏发售前24小时深入灵游坊研发腹地，带着千万玩家最好奇的问题，把话题从“游戏怎么玩”一路聊到了“游戏是怎么做出来的”。\n一款重量级单机作品的生命力，往往在它走出工作室大门、交到创作者与玩家手中的那一刻才真正开始。而透过这群各有所长的抖音游戏作者，我们也得以窥见这片黑暗武侠江湖在游戏之外的“第二重宇宙”。\n熟悉单机游戏宣发规律的人都知道，距离游戏正式解锁的最后24小时，往往是研发团队神经最紧绷、最关键的冲刺阶段。在这个时间节点上，绝大多数厂商都会选择闭门谢客，谨慎地谢绝一切外部探访。\n《影之刃零》团队却在这个最特殊的时刻向 @女流66 敞开了大门。在《女流探游记》第一期的独家探访正片中，女流受邀走进灵游坊的研发工区，与处于“风暴眼”中的各个部门近距离交流。\n首先是开发者卸下光环后的趣味反差——原来做BOSS的人，自己打游戏也会卡关。\n在很多玩家的想象中，动作游戏的开发者个个都应该是无伤通关的“操作怪”。但梁其伟却向女流透露了一个很反直觉的事实：在漫长的好几年研发周期里，许多工作人员一直专注于打磨自己负责的局部板块；直到最近各个部门的成果真正拼合在一起，许多同事才第一次完整体验到这款游戏。\n“当所有东西连成一个整体时，哪怕明知道这部分是自己做的，你也无法再用纯理性的思维去审视它，会产生完全不一样的感受。” 梁其伟表示。\n带着资深玩家的敏锐好奇，女流走到战斗组工位前，向战斗总监马千里抛出了一个灵魂提问：“玩自己设计的BOSS战是什么体验？”\n马千里十分坦诚地笑言，自己刚开始上手时也会不太适应，甚至工作室里不少做游戏的同事也会卡BOSS。聊到兴起处，他干脆拿起手柄现场演示起来，一边操作一边开玩笑地传授秘诀：“冲上去死按就行，不要想，想得越多死得越快！” 看着屏幕上行云流水的攻防，女流一针见血地总结道：“原来进阶秘籍是‘优雅的乱按’。”\n这个玩笑背后，其实已经展现出了灵游坊在动作设计上的核心初衷——通过底层扎实的输入判定与动作衔接，消解硬核动作游戏的挫败感，让普通玩家也能在直觉般的挥砍中体会到高手过招的爽快，这一点，也与后续玩家一边游玩一边点评的舆论十分契合。\n这次探班里，还有镜头背后关于“中式功夫朋克”的执念与梳理。\n走进梁其伟的办公室，看到概念图手稿，同为清华建筑系出身的女流一眼便认出了制作人保留至今的建筑专业独有习惯。而在关于动作美学的对谈中，那句“请假与甄子丹切磋”的网络热梗，也在这里找到了幕后注脚。\n在聊到甄子丹与甄家班参与动作捕捉与指导的经历时，梁其伟将其形容为“对中国功夫的一次重新梳理”。他坦言，传统武术的一招一式如何与现代电子游戏的动态镜头相融合，是这次合作中收获的最宝贵的经验。\n而撑起这片冷峻江湖的，还有灵游坊内部一群极具个性的创作者：游戏里好几场让人印象深刻的重头战斗，其实出自年轻的00后同事之手；全部的角色设定与大部分场景概念，由美术总监Michael（张廷毓）一人独立绘制完成；而音乐总监阿薄（薄彩生）则独自包揽了作曲、演奏、混音等繁重工作，一人肝出了超过10小时的音乐素材。\n正如梁其伟在发售倒计时20小时写下的那篇《理性与癫狂》中所言：“武侠游戏做着做着，我们自己似乎也成为了武侠中的那种人物。”\n最后，是关于游戏曲线的自信，以及对玩家情绪“水温”的敬畏。\n当女流问及“预计玩家玩到哪一章体验会明显上升”时，梁其伟给出了一个非常坦诚的预判。他提到，受限于评测期的时间压力，部分媒体在打分时可能推进得太快了；而《影之刃零》的体验是循序渐进、“越来越往上”的，情绪大概会在全程三分之一处达到第一个高点。“当玩家觉得游戏已经展现得差不多了、开始接受一些重复的时候，却会发现后面出现了完全不一样的内容，到了中期甚至会觉得变成了另一种游戏。”\n而在发售前的最后时刻，整个团队依然在紧锣密鼓地排查问题、进行最后的检查。面对女流关于“发售当天会不会高强度冲浪”的提问，梁其伟坦言，除了整理问题清单、讨论哪些修复需要优先打进补丁，他自己也会去一条条地翻看玩家的评论，去捕捉反馈里的冷暖“水温”。\n“用户的反馈不一定是真的，但是用户的情绪一定是真的。” 梁其伟说。\n探访结束走出灵游坊大门的那一刻，看着身后仍在静待花开的开发团队，作为一名期待这款游戏已久的普通玩家，女流感慨自己仿佛从制作人手里接过了一根“沉沉的接力棒”——这根接力棒里，凝结着一个制作人多年前的冲动、漫长岁月里的坚持，以及一群同行者的热爱与理想。\n当时间跨过10月29日上午10点，随着《影之刃零》正式解锁，女流手中的“接力棒”，开始传递到了玩家和创作者们的手中。\n如果说女流的探访替玩家推开了研发幕后的大门，那么接下来登场的抖音游戏作者们，则是用各自的看家本领，帮玩家把这片江湖的每一寸肌理都彻底“盘”活了。\n《影之刃零》的地图设计融合了高密度的武侠箱庭探索与凌厉的BOSS战，如何不漏掉关键支线、如何拆解高难机制，成了开荒期玩家最迫切的刚需。\n@呼叫网管 第一时间摸清了门道，很快放出了“甄子丹隐藏BOSS解锁攻略”，手把手带玩家找到这位武术宗师的隐藏试炼场，帮助大家更快感受与“叶师傅”切磋的节奏；针对庞杂的地图探索与收集要素，@清新也单挑 梳理出了详尽的《影之刃零》全流程全收集攻略，帮新手与收集党们扫清障碍；想看高难度挑战的观众，也可以很快找到硬核技术流作者 @关于小熊Joseph 在平台上上传的相关攻略。\n除了手把手的打法教学，这片黑暗武侠世界背后的草蛇灰线同样有人细细拾起。作者 @修片狂魔 围绕游戏剧情展开深度解说，将冷峻台词背后的势力纠葛与人物宿命娓娓道来，让玩家在爽快拼刀之余，开始读懂了“功夫朋克”外壳下“活着的世界”。\n第二类接棒者，则是打破次元与操作边界的“破壁挑战者”。\n抖音游戏一直鼓励创作者挖掘更多元的游戏跨界内容，通过“游戏破壁计划”等生态扶持的牵引，引导作者们打破单一的录屏实况边界，去探索游戏的无限可能。而在《影之刃零》中，这种“破壁”精神催生出了一批令人拍案叫绝的名场面：\n有人在技术维度上整活——作者 @肥格Fager 通过自制MOD，直接在游戏里搞起了喜闻乐见的“电子斗蛐蛐”，让极具压迫感的人气BOSS“新娘阿花”与“三脸魔偶”同场对战，满足了玩家们“关公战秦琼”的好奇。\n有人在操作极限上破壁——作者 @阿铭铭 “用嘴操作”去挑战《影之刃零》的最高难度，在电光火石的刀剑交锋中展现出了令人动容的专注与硬核毅力。\n甚至，还有直接在现实与虚拟之间破壁——游戏中几位重要角色：“魂”、左殇、沐小葵的真人脸模@贾雄凯（煜城）、@张欣策、@章谨之 纷纷拿起手柄亲自坐在了电脑前，开播《影之刃零》，要么操控游戏里的自己，要么“自己打自己”，相当有节目效果。\n从最严肃的最高难度速通，到最欢脱的MOD斗蛐蛐与演员跨界联动，你会发现同一款游戏在不同背景的创作者手里，折射出了截然不同的光谱。正是这些多元创作者的钻研与表达，让《影之刃零》跳出了单纯的“通关流程”，变成了一场全民参与的创意狂欢。\n当我们把视线从这些创作者的视频移开，滑向评论区与话题广场时，你会发现，这股由创作者点燃的热度固然重要，由这种热度引发的全民创作的参与，才是真正构筑起了一种生态。\n在抖音上，单主机玩家们早已不再满足于只当一个沉默的“看客”，而是自发地用海量内容拼凑出了属于自己的江湖日常：在 #影之刃零里的中式美学 话题下，无数玩家放慢了赶路杀敌的脚步，像摄影师一样驻足于古刹飞檐与漫天竹林之间，截图分享着自己眼中的东方建筑与光影韵味；在很多讨论里，玩家们纷纷晒出自己或好友在面对高难BOSS时咬牙切齿、或是经历几十次失败终于挑战成功后的欢呼。\n查隐藏攻略、对剧情暗号、晒通关战绩、品中式美学……不知不觉间，一个从“看深度内容”、“玩硬核游戏”到“聊共同热爱”的单主机社区闭环，已经在抖音游戏生态中自然生长出来。\n这或许也是此次围绕《影之刃零》的内容盛宴带给我们最直观的行业启示：好游戏从来都不是一座孤岛，它需要一片肥沃的内容苗圃去承接玩家的热情。\n单主机游戏一直拥有丰富多元的内容表达，从深度长文、硬核攻略到独家幕后纪录片，不同形式的优质内容共同满足着玩家对游戏更深入的探索与理解。随着越来越多专业、硬核且极具个人特色的内容持续耕耘，以及像女流66此次的独家探访正片、全流程深度攻略与考据这类高价值、长效深度内容的聚合与呈现，抖音已经沉淀出了一个极其成熟、有温度也有厚度的单主机内容生态。\n既能跟随女流的镜头走进发售前24小时的灵游坊，读懂“功夫朋克”背后那群人的理想与坚持；也能在卡关时随时翻出各路大神的逃课秘籍，或是在闲暇时看一场跨界整活哈哈大笑。\n如果你此时此刻也仍在品味或者回味《影之刃零》的影境世界，或者对这片刀光剑影背后的故事抱有一丝好奇，那你自然也不会错过这里的世界——因为那根从开发者手中传出的、关于热爱的接力棒，正在这里的每一次播放、每一条弹幕与每一场讨论中，继续传递下去。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "抖音创作者围绕《影之刃零》的多元内容生态",
+      "what": "文章介绍《影之刃零》发售前后抖音平台上的创作者内容：女流66在发售前24小时探访灵游坊，与梁其伟、战斗总监马千里等交流研发与动作设计；发售后出现隐藏BOSS攻略、全流程收集、剧情解说、自制MOD让BOSS对战、用嘴操作挑战高难度，以及角色脸模演员亲自游玩等内容。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-531f01f744",
+      "source_url": "https://unity.com/blog/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "f6c4c27c3f3f8c03",
+      "title": "Synty Studios Joins Unity, Bringing Artist-Made Assets to Unity Spark",
+      "url": "https://unity.com/blog/synty-studios-acquisition",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "Unity"
+      ],
+      "published": "2026-11-16T00:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Unity has acquired Synty Studios, maker of the POLYGON 3D asset packs. Synty’s library is coming to Unity Spark, and existing packs and licenses stay the same.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Synty Studios Joins Unity, Bringing Artist-Made Assets to Unity Spark",
+          "url": "https://unity.com/blog/synty-studios-acquisition",
+          "source": "Unity",
+          "lang": "en",
+          "published": "2026-11-16T00:00:00+00:00"
+        }
+      ],
+      "score": 23,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 32.27435490388889,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Synty Studios Joins Unity, Bringing Artist-Made Assets to Unity Spark\nChris Gfroehrer - Unity Technologies\nToday I’m proud to share that Unity has acquired Synty Studios. The founders and artists behind the POLYGON range of stylized 3D art packs are joining the Unity team, and their library is coming to Unity Spark, our upcoming AI-native game creation platform.\nUnity Spark is designed so anyone with an idea for a game can make it. Unity Spark connects directly to the Unity Asset Store, and with Synty’s distinctive worlds, characters, and art, creators have even more ways to bring their games to life.\nSynty started in 2014 when two founders made one asset pack over a weekend and published it on the Unity Asset Store. It has since grown into a library of more than 760,000 stylized, low-poly 3D assets, used by everyone from first-time creators to professional studios.\nAs Mike Clephane, co-founder of Synty, put it: “Joining Unity will allow our artists to continue building the detailed worlds, characters and assets our community creates with today, while reaching a new generation of creators through Unity Spark.”\nWhat changes for you\nSynty is still Synty. Same brand, same artists, same style.\n- If you use Synty packs in the Unity Editor today, nothing changes. Your packs, licenses, and workflow carry on as they are.\n- Free Synty assets stay free.\n- The Synty Store and Synty Pass keep running as they do today.\n- Synty's packs stay available for the engines and tools they support today.\n- Most of the artists who made the packs are joining Unity full time, and they'll keep making new ones.\nSynty’s library will be available in Unity Spark starting with the closed beta later this year. Spark connects directly to the Unity Asset Store, so creators can build with assets from Synty and the participating Asset Store community.\nWelcome to the team, Synty. We can’t wait to see what our community builds with you!\nTo learn more about Unity Spark or join the closed beta waitlist, visit unity.com/spark.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Unity收购Synty Studios，其美术资产将接入Unity Spark",
+      "what": "Unity宣布收购Synty Studios，其创始人与美术团队加入Unity，POLYGON系列资产库将接入AI原生游戏创作平台Unity Spark，后者今年晚些时候开启封闭测试。现有Unity编辑器用户的使用、授权与工作流不变，免费资产仍免费。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-531f01f744",
+      "source_url": "https://unity.com/blog/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "9c3033ea17fb7ba0",
+      "title": "“Follow the fun”: a crowdfunding Q&A with Catino Town",
+      "url": "https://unity.com/blog/funding-unity-game-catino-town",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "Unity"
+      ],
+      "published": "2026-11-16T00:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Catino World creator Alex Tino shares how they planned a crowdfunding campaign for Catino Town, a made with Unity game – and raised $25,000 in under 12 hours.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "“Follow the fun”: a crowdfunding Q&A with Catino Town",
+          "url": "https://unity.com/blog/funding-unity-game-catino-town",
+          "source": "Unity",
+          "lang": "en",
+          "published": "2026-11-16T00:00:00+00:00"
+        }
+      ],
+      "score": 23,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 32.27435490388889,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "“Follow the fun”: a crowdfunding Q&A with Catino Town\nFergus Baird - Unity Technologies\nIn this interview with Alex Tino, read about their experience crowdfunding Catino Town, working in Unity for the first time, and how they’re approaching marketing Catino Town on Steam.\nWhen layoffs hit during the pandemic, artist and animator Alex Tino decided it was their time to try going independent. Things kicked off when they posted an animation on TikTok of blobby cat-like creatures causing chaos around a dog trying to sleep. Alex called the creatures Catinos, and didn’t expect anything to come of the post, assuming people would find it too weird. Within a couple of hours, the first Catino World video amassed over a million views.\nToday, Catino World is a thriving brand with plushies, stickers, and a loyal audience. Alex is currently working with programmer Thomas Cossu on turning Catino World into a game: Catino Town. Catino Town is a cozy virtual pet game built in Unity where you raise a Catino into one of 150 different forms, explore multiple locations, interact with other Catinos, collect items, and discover secrets.\nAlex’s current goal is to launch Catino Town on Steam in 2027. To get the project over the finish line, they recently ran a $25,000 crowdfunding campaign that blew past its goal in under 12 hours, raising $75,000. We interviewed Alex to learn more about their experience crowdfunding Catino Town, and their upcoming plans for the game.\nInterview responses have been edited for length and clarity. Alex Tino's advice is based on their own anecdotal experience and is not financial advice.\nKey considerations for crowdfunding a video game\n- Consider showing something tangible: a vertical slice at minimum, ideally a demo.\n- Set the smallest funding goal you can truly deliver on, including paying collaborators.\n- Build channels you own, like Discord and a newsletter.\n- Expect most backers to be from your existing audience (Alex estimates around 80–90% of project backers were followers of Catino World on social media), and market your campaign yourself.\n- Budget your campaign rewards carefully, and start merch small.\nHow did you decide on crowdfunding over other funding options?\nKickstarter was honestly my first option. I did consider reaching out to publishers, but I liked the idea of retaining full control over all the aspects of the project and just being independent with it. I'm sure there are publishers who would give me lots of creative freedom, but a big part of it was that I had an established audience. Not everyone has that, so for me crowdfunding just seemed like the best approach.\nHow long did it take to prepare, and what did you need ready?\nIt's so much more work than I thought it was going to be! [laughs] From deciding to seriously do it to launch was about a year: roughly six months planning, and six more on marketing and finishing touches, on top of my regular content work. There's the art, the pitch, the merch logistics and budgeting, and the marketing. I also had to make trailers, because up until then I'd only done devlogs for Catino Town. If you’re thinking about launching a crowdfunding campaign for your game, give yourself at least a couple of months of planning.\nWhat state was Catino Town in when you launched your campaign?\nIt was in a vertical slice state. You want it to look good, at least to an extent. You can fake it a bit: creators I've talked to showed animations of how the finished game will look, and that's fair in my opinion. But most had demos, and I think one would have helped my campaign in retrospect. A Steam demo gets your wishlists up from the start and lets people imagine themselves playing. Something tangible like that always goes a lot farther than a pitch or a concept.\nHow did you pick your funding goal?\nI went for the number I thought was the smallest I could actually finish Catino Town with. You have to think about what you need to pay other people, pay yourself, and invest in. In that respect, it's a bit of a gamble. You don't know how well it will do, even with lots of people pre-saving.\nStretch goals are useful for the higher number you hope to hit, and you keep the base amount either way. You just don't want to go so small that you're taking people's money and you're not able to actually finish anything.\nWhere did your backers come from?\nIn the backer survey, I asked how people found us. Very roughly, 80 to 90 percent were existing fans. The rest found me through social media posts about the campaign, not through the platform itself. We trended in the video game category for most of the campaign, in the top six. Generally, though, direct discovery on these platforms is pretty low, so I’d say you still have to put in the work to market yourself on social media.\nI've heard that it's best to wait until you have around a thousand saves or wishlists before launching, because that first day is so essential. Don't be afraid to promote for a month or a few months first, so you're ready when the hype builds. I posted about Catino Town daily during the campaign, which I’m not sure I’d recommend – it’s a lot of work, so watch for burnout.\nHow did you design your reward tiers, and what should first-timers know about merch?\nMerch has been the main way I've funded myself through Catino World, so that informed a lot. I thought about what people had really liked buying before. Plushies are probably my biggest thing, so I knew I should include one.\nBut plushies are more expensive and the manufacturing is more involved, so I went back and forth. For a while I wasn't going to do one, so I made a lot of other trinkets. Then near the end I decided to include it and didn't revise the rest. In hindsight, it might have been best to limit some of these rewards, but at least the fans got cool stuff! My merch experience meant there were no surprises on budgeting, but if you're new, things can cost more than you think. I also really thought you had to woo backers with as much merch as possible, but most just seemed like they wanted to support the idea, which was nice to see.\nMy advice is to think of some cool rewards, but don't go overboard. If you're new to merch, start small and go up incrementally. Stickers are cheap and easy to order, and print-on-demand means you're not making a pile of things that just sit there. Plushies are a lot to take on, and companies that help usually take a large cut. I've ordered too much of something before, and other creators have too. If you have an audience, put up a poll and ask which designs they like.\nMade with Unity Steam Curator Page\nBe sure to stay up to date with the latest Unity creations on Steam by checking out our Steam Curator page.\nHow did you design your reward tiers, and what should first-timers know about merch?\nMerch has been the main way I've funded myself through Catino World, so that informed a lot. I thought about what people had really liked buying before. Plushies are probably my biggest thing, so I knew I should include one.\nBut plushies are more expensive and the manufacturing is more involved, so I went back and forth. For a while I wasn't going to do one, so I made a lot of other trinkets. Then near the end I decided to include it and didn't revise the rest. In hindsight, it might have been best to limit some of these rewards, but at least the fans got cool stuff! My merch experience meant there were no surprises on budgeting, but if you're new, things can cost more than you think. I also really thought you had to woo backers with as much merch as possible, but most just seemed like they wanted to support the idea, which was nice to see.\nMy advice is to think of some cool rewards, but don't go overboard. If you're new to merch, start small and go up incrementally. Stickers are cheap and easy to order, and print-on-demand means you're not making a pile of things that just sit there. Plushies are a lot to take on, and companies that help usually take a large cut. I've ordered too much of something before, and other creators have too. If you have an audience, put up a poll and ask which designs they like.\nYou work in Unity through custom tools. How does that work day to day?\nThis is my first time using Unity, so I've been learning as I go. My programmer built an interface for adding new Catino evolutions. For example, if I draw a new squirrel Catino, I drag in the images, there's a bit of setup I've learned, and it makes adding evolutions much easier, so we can have a lot more of them. My files are organized a certain way, so the tool reads them and outputs the result. Some designs, like ones with flapping wings, need manual tweaks, but most of the time I can just plop in some art and the tool knows how to read each frame of animation.\nHow did you scope the art for 150+ Catino forms?\nI built the game to be light on animation frames, because I knew I'd have to make so many, and for a long time I was the only artist working on Catino Town. I found a system that repurposes the same sprites to get a variety of movements. It took some thinking at the start but really paid off, and because it's 2D there's far less processing than in a 3D game.\nHow did you approach bringing Catino Town to both mobile and PC?\nMy first thought was that virtual pets work really well when you can take them on the go. A lot of that was naivety [laughs], since I'd never made a game and hadn't researched the business side. What made it manageable is that I never designed it as a modern mobile game with microtransactions or ads. I wanted you to buy it and own it, so the game loop was never built around short sessions and waiting. Because it's also 2D and light on animation frames, the same ideas worked across platforms. We're planning for both, and we'd love to offer cross-save, though we're not 100% sure we can.\nHow are you building wishlists and buzz for Catino Town?\nI'd say consistently talking about the game and having fun with the videos has been my main strat",
+      "has_body": true,
+      "body_truncated": true,
+      "title_cn": "Catino Town众筹访谈：从TikTok动画到Steam游戏",
+      "what": "Unity采访独立开发者Alex Tino，讲述其将TikTok动画品牌Catino World改编为虚拟宠物游戏Catino Town的过程，包括众筹准备、目标设定、周边奖励设计与Unity工具使用经验。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "45a54e8fbe0ffa3c",
+      "title": "Xbox & DJ Khaled \"Prescribe\" a Day Off to Play GTA 6",
+      "url": "https://80.lv/articles/xbox-dj-khaled-prescribe-a-day-off-to-play-gta-6/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "80.lv"
+      ],
+      "published": "2026-11-17T07:44:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Players can now get a joke \"prescription\" from Dr. XBOX to take a day off when GTA 6 launches.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Xbox & DJ Khaled \"Prescribe\" a Day Off to Play GTA 6",
+          "url": "https://80.lv/articles/xbox-dj-khaled-prescribe-a-day-off-to-play-gta-6/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-11-17T07:44:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 0.5410215705555556,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Xbox & DJ Khaled \"Prescribe\" a Day Off to Play GTA 6\nPlayers can now get a joke \"prescription\" from Dr. XBOX to take a day off when GTA 6 launches.\nXbox has come up with a humorous way to help players take time off to play GTA 6. The company has teamed up with DJ Khaled, now known as Dr. XBOX, who gives players \"medical advice\" to take a day off.\n\"After extensive research (and a whole lot of gaming), I've come to one conclusion: there's a serious case of Vitamin G deficiency around the world. And I'm here to tell you that the cure is simple,\" he writes. \"Take. The. Day. Off.\" is his prescription.\nHe writes that a big week in gaming is coming, and it's not the best time to be distracted by emails or anything unrelated to gaming.\n\"I'm officially prescribing a day dedicated to doing what you love: staying home, picking up that controller and playing XBOX. No distractions. No interruptions. Just you, your favorite games and the freedom to experience the biggest week in gaming the way it was meant to be experienced,\" Dr. XBOX states.\nEveryone can get a personalized \"prescription\" on DrXBOX.com. The Verge's Tom Warren shared on X/Twitter what the prescription looks like:\nOf course, the document isn't real. Xbox has added a disclaimer that it is not responsible if a player's employer doesn't have a sense of humor.\nHowever, some companies have been giving their workers real-life days off specifically to play GTA 6: Palworld developer Pocketpair grants its employees five days, and Logitech gave its employees a day off, calling it Logi Game Day.\nThe new GTA will include many new features, and apart from highly realistic graphics, smart NPCs, and rich wildlife with over 170 animal species, it will have a different tone and encourage empathetic player behavior.\nHave you taken your time off to play GTA 6? Share in the comments and subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates\nKeep reading\nYou might find this interesting",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Xbox与DJ Khaled推出请假玩GTA 6的玩笑处方",
+      "what": "Xbox与DJ Khaled合作，以“Dr. XBOX”名义在DrXBOX.com为玩家生成个性化玩笑“处方”，建议在GTA 6发售周请假玩游戏；文中注明该文件并非真实证明，并提到Pocketpair给员工五天假、罗技给员工一天假。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-15489e2ed4",
+      "source_url": "https://www.gamesindustry.biz/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "2227b5d5b71cf567",
+      "title": "Newzoo: GTA 6 pre-orders are archetypal console players but overwhelmingly male; game will \"grow the market rather than simply redistribute it\"",
+      "url": "https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-are-archetypal-console-players-but-overwhelmingly-male-game-will-grow-the-market-rather-than-simply-redistribute-it",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GamesIndustry"
+      ],
+      "published": "2026-11-17T07:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "GTA 6 preorders are from archetypal, high-spending console gamers, overwhelmingly male, and most have a history of spending on the franchise, according to data from Newzoo shared exclusively with GamesIndustry.biz ahead of the game's final release on Thursday.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Newzoo: GTA 6 pre-orders are archetypal console players but overwhelmingly male; game will \"grow the market rather than simply redistribute it\"",
+          "url": "https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-are-archetypal-console-players-but-overwhelmingly-male-game-will-grow-the-market-rather-than-simply-redistribute-it",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-11-17T07:00:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 1.2743549038888888,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Newzoo: GTA 6 pre-orders are archetypal console players but overwhelmingly male; game will \"grow the market rather than simply redistribute it\"\nExclusive: data indicates early audience are big-spending console players, most with prior history with the franchise; impact confined to Western markets at launch\nGTA 6 preorders are from archetypal, high-spending console gamers, overwhelmingly male, and most have a history of spending on the franchise, according to data from Newzoo shared exclusively with GamesIndustry.biz ahead of the game's final release on Thursday.\nWhile the majority were regular game buyers, 16% of them hadn't purchased a full-price game in the last 12 months - suggesting the title is bringing back lapsed players - and the firm projected that while the launch would temporarily draw playtime and spending away from other titles, it would ultimately drive additional demand. .\nThe news follows the firm's previous forecast that the title will drive a 17.5% increase in console full-game spending, and single-handedly prevent the console market from decreasing year-over-year.\nAddressing the widely-held concerns that the game will damage other releases – which it said had lead to only two AAA releases between October 8 and November 18, compared to ten in 2025 and eight in 2024 – Director of Market Intelligence Emmanuel Rosier anticipated a short-term impact that would be followed by additional demand. \"Some players are likely to stretch their gaming budgets and buy it on top of what they’d normally spend in a year,\" he said.\n52% of people who pre-ordered GTA 6 have spent money on GTA 5 or GTA Online since 2018, the firm said. Across all people who pre-ordered, at least 37% have spent on GTA Online and 31% on the GTA V full game, with around one in six having done both - Rosier classified those figures as a minimum, as the firm does not have data going back as far as the GTA 5 launch in 2013.\nThe buyer profile closely matches conventional buyers of premium games, the firm said. 56% of those pre-ordering are under 35, compared with 55% of all premium game buyers, and 22% are 45 or older, compared with 23%. There was a sharp difference in gender, though: while women made up 27% of all premium game buyers during the pre-order period, only 15% of the people pre-ordering GTA 6 were women.\nThis exceeds even the franchise's previous history of a male-dominated audience; Newzoo data shows women accounting for 22% of GTA 5 game buyers since 2018. The difference was most pronounced among younger demographics, while women made up 21% of pre-orders in the 45-54 demographic. Rosier said that the firm would \"expect launch buyers to be a broader group,\" given that \"players who pre-order tend to be the most committed fans.\"\nNewzoo found that most GTA 6 pre-order customers regularly buy premium games, with 84% purchasing at least one other premium title in the 12 months before GTA 6 pre-orders opened on June 24. The typical person pre-ordering the game spent $129 across three other premium games, and a quarter spent more than $290, not including any in-game spending.\nThe remaining 16% of those pre-ordering the game had not purchased a full game in the preceding 12 months, and for 3% of them the firm had no evidence of a premium purchase at all, indicating no games had been purchased since at least 2018. \"For those players, GTA 6 looks like genuinely new spending,\" said Rosier, \"because it’s bringing lapsed and occasional buyers back.\"\nThe firm expected that the game's launch will \"encourage some players to upgrade to the current console generation\" – while noting that 85% of current GTA 5 players have already done so – and said this would expand the audience for other titles, as its data indicated that current-generation console players typically play a much wider range of games than those using previous hardware.\n\"We expect that effect to build gradually,\" said Rosier. \"GTA 6 launches late in the year, so much of the benefit is likely to come in 2027 rather than 2026. Even after accounting for the pressure on competing titles, our view is that the net effect will be positive. GTA 6 will grow the market rather than simply redistribute it.\"\nConsole launch limits global reach\nThe firm said that GTA 6's console-only launch would limit its reach, pointing to its previous data suggesting that console would only represent 22% of global games revenue in 2026.\n\"While GTA 6 is undoubtedly one of the most important releases of the decade, its initial impact will be concentrated in Western console,\" said Rosier. \"That’s still a big market, which we forecast will be worth $36.3 billion in 2026, but it’s only part of the industry. The longer-term global story will depend on what happens next, particularly on PC and online.\"\n\"The real test of GTA VI’s global reach may come with the unconfirmed PC launch. PC is far bigger than console in several major markets, including China, and a PC release could expose the game to a much broader international audience.\"\nPS5, Xbox Series X/S",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Newzoo：GTA 6预购者以高消费男性主机玩家为主，或扩大而非仅重分市场",
+      "what": "Newzoo向GamesIndustry.biz提供的独家数据显示，GTA 6预购者多为高消费主机玩家，男性占85%，52%自2018年起在GTA 5或GTA Online上有消费；16%近一年未购买全价游戏。Newzoo预计首发会短期分流其他游戏的时间与支出，但最终带来增量需求，且主机独占使初期影响集中于西方市场。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "b7235391b31fe36f",
+      "title": "《波斯王子：失落的王冠+》将于12月3日登陆 Apple Arcade",
+      "url": "https://www.gameres.com/901203605.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GameRes"
+      ],
+      "published": "2026-11-17T03:58:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "《波斯王子：失落的王冠+》将于12月3日登陆 Apple Arcade",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "《波斯王子：失落的王冠+》将于12月3日登陆 Apple Arcade",
+          "url": "https://www.gameres.com/901203605.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-11-17T03:58:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 4.307688237222222,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "12月3日，《波斯王子：失落的王冠+》将登陆苹果旗下游戏订阅服务 Apple Arcade。该服务提供超过200款游戏，订阅用户可无限畅玩，无广告，无内购。 跟随萨尔贡，在这款屡获殊荣的平台动作游戏中展开冒险冒险。通过订阅 Apple Arcade，移动设备和 Mac 玩家将首次体验内容最完整的《波斯王子：失落的王冠+》，除游戏本体外，还可畅玩以下内容： · “勇士征途”更新内容 · “强敌奇袭”更新内容 · “神之试炼”更新更新 · 《面具阴影》DLC 在神秘的戛弗山，时间与空间的界限将由你掌控。释放内心的战士之魂，善用时间之力、战斗技巧与平台跳跃能力，击败遭到腐化的敌人和神话生物。 《波斯王子：失落的王冠+》还将继承《波斯王子：失落的王冠》移动版的全部体验优化，包括： · 60 FPS 流畅体验 · 支持外接手柄或触屏操控 · 支持完整的按键重映射与触屏操控自定义 · 提供自动使用药水、自动招架及减缓时间等特色功能 · 包含全部无障碍功能 12月3日，通过 Apple Arcade，在你的 iPhone、iPad、Mac 和 Apple Vision Pro 上体验《波斯王子：失落的王冠+》吧。 |\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《波斯王子：失落的王冠+》12月3日登陆Apple Arcade",
+      "what": "《波斯王子：失落的王冠+》将于12月3日登陆Apple Arcade，面向iPhone、iPad、Mac和Apple Vision Pro。版本包含游戏本体、“勇士征途”“强敌奇袭”“神之试炼”更新及《面具阴影》DLC，并继承移动版60 FPS、手柄与触屏操控、按键重映射、自动药水、自动招架、减缓时间及无障碍功能。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-15489e2ed4",
+      "source_url": "https://www.gamesindustry.biz/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "d707c3cfb736cbc4",
+      "title": "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition",
+      "url": "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-exceed-14bn-with-87-for-the-ultimate-edition",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GamesIndustry"
+      ],
+      "published": "2026-11-17T01:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Sensor Tower estimates Grand Theft Auto 6 has generated over $1.4 billion in pre-order revenue , with 87% of orders for the Ultimate Edition.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition",
+          "url": "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-exceed-14bn-with-87-for-the-ultimate-edition",
+          "source": "GamesIndustry",
+          "lang": "en",
+          "published": "2026-11-17T01:00:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 7.274354903888889,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition\nPre-orders rose sixfold on the day Netflix premiered the Extended Look of the game, reaching $16.3 million\nSensor Tower estimates Grand Theft Auto 6 has generated over $1.4 billion in pre-order revenue, with 87% of orders for the Ultimate Edition.\nAs detailed in a new report on the game's impact on consumer engagement, pre-orders rose sixfold when Netflix released its Extended Look at the game on August 27.\nAccording to Sensor Tower, daily GTA 6 pre-order revenue across PlayStation and Xbox ranged from $2.4 million to $3.8 million through \"most of\" August.\nRevenue reached $16.3 million the day after the Netflix special and has continued to rise ahead of launch, making GTA 6 the most pre-ordered game on PlayStation and Xbox storefronts.\nThe market intelligence firm also analysed which games are most likely to lose players to GTA 6. Fortnite, GTA Online, and other AAA single-player titles are expected to be most affected.\nAmong PlayStation users, 42% with GTA 5 also own Fortnite, compared to 22% of all players. Sensor Tower noted that \"Fortnite and Roblox seem [the] most exposed from an audience overlap perspective.\"\nSensor Tower expects Roblox to retain its player base during GTA 6's launch. It noted Roblox \"beat the catalogue in player count change in the month following five recent releases,\" including Monster Hunter Wilds, Oblivion Remastered, Resident Evil Requiem, Crimson Desert, and First Light.\n\"Roblox's audience looks less likely to be lured away by acclaimed single-player launches, and is likely to weather GTA 6 better than its peers,\" the firm suggested.\nLast month, gaming consultancy Open World assessed which games might lose players to GTA 6. Fortnite, Call of Duty, Battlefield, Apex Legends, EA Sports FC, and NBA 2K were identified as most at risk during GTA 6's launch.\nPS5, Xbox Series X/S",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Sensor Tower估算GTA 6预购收入超14亿美元，87%为终极版",
+      "what": "Sensor Tower估算《GTA 6》在PlayStation和Xbox平台的预购收入已超14亿美元，其中87%为终极版；Netflix于8月27日播出加长版预告后，次日预购收入升至1630万美元，此前8月多数日子日收入在240万至380万美元之间。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "2758ed0c29501cb1",
+      "title": "Get Seven Completely Different PC Games in This TwitchCon Bundle",
+      "url": "https://80.lv/articles/get-seven-completely-different-pc-games-in-this-twitchcon-bundle/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "80.lv"
+      ],
+      "published": "2026-11-16T23:24:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "The $19.99 TwitchCon Bundle spans rhythm combat, theme park creation, 33-player co-op, elemental action, platforming, and mythological adventure.",
+      "rss_content": "",
+      "content_kind": "source_excerpt",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Get Seven Completely Different PC Games in This TwitchCon Bundle",
+          "url": "https://80.lv/articles/get-seven-completely-different-pc-games-in-this-twitchcon-bundle/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-11-16T23:24:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "战斗设计",
+      "is_analysis": false,
+      "age_hours": 8.87435490388889,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "Get Seven Completely Different PC Games in This TwitchCon Bundle\nThe $19.99 TwitchCon Bundle spans rhythm combat, theme park creation, 33-player co-op, elemental action, platforming, and mythological adventure.\nSome game bundles are held together by a particular genre or visual style. The TwitchCon Bundle takes the opposite approach, bringing together seven distinctly different PC experiences ranging from rhythm-driven martial arts and theme park management to 33-player co-op battles.\nAvailable through Xsolla Mall from November 13 to December 13, 2026, the collection includes Dead as Disco, Planet Coaster 2, Eternal Strands, Greak: Memories of Azur, 33 Immortals, Super Mombo Quest, and Raji: An Ancient Epic for $19.99.\n10% of the bundle purchase price (less all applicable taxes, fees, and refunds) goes to Stand Up To Cancer. Restrictions apply.\nLet's take a look at the seven games included in the collection so you can decide where to start playing first.\nDead as Disco\nBrain Jar Games’ Dead as Disco combines beat-’em-up combat with the rhythm and presentation of a music video. Players step into the role of Charlie Disco, chaining punches, kicks, parries, and other martial arts moves to the music while confronting the villainous Idols and attempting to reunite his band.\nPlanet Coaster 2\nPlanet Coaster 2 gives aspiring designers an expansive set of tools for building roller coasters, water slides, pools, scenery, and complete amusement parks. Frontier Developments’ management simulation allows players to shape every part of the visitor experience before sharing their creations with the wider community.\nEternal Strands\nDeveloped by Yellow Brick Games, Eternal Strands is a third-person action-adventure built around interacting with the environment. Its elemental powers allow players to burn, freeze, and manipulate terrain, creating opportunities to experiment rather than relying on one predetermined solution during combat and exploration.\nGreak: Memories of Azur\nGreak: Memories of Azur is a hand-drawn puzzle-platforming adventure following three siblings attempting to escape an invasion. Players alternate between Greak, Adara, and Raydel, combining their different movement and combat abilities to navigate the dangerous land of Azur.\n33 Immortals\nThunder Lotus’ 33 Immortals expands the familiar co-op action roguelike formula to support groups of up to 33 players. Each run throws participants into fast battles against crowds of monsters and enormous bosses, encouraging spontaneous cooperation through shared abilities, coordinated attacks, and an accessible emote system.\nSuper Mombo Quest\nSuper Mombo Quest combines precision platforming, Metroidvania exploration, and score-chasing arcade mechanics. Players bounce, stomp, and perform acrobatic moves across an interconnected world, attempting to maintain increasingly elaborate combos while searching for upgrades and hidden areas.\nRaji: An Ancient Epic\nInspired by Indian mythology, Raji: An Ancient Epic follows a young woman chosen by the gods to resist a demonic invasion. Raji must master divine weapons and confront supernatural enemies as she searches for her younger brother and prepares to face the demon lord Mahabalasura.\nPurchasers receive their individual Steam keys by email. The TwitchCon Bundle is scheduled to be available for $19.99 from November 13 through December 13, 2026. Visit the campaign page during the sale to explore the collection and purchase all seven games.",
+      "has_body": false,
+      "body_truncated": false,
+      "what": "The $19.99 TwitchCon Bundle spans rhythm combat, theme park creation, 33-player co-op, elemental action, platforming, and mythological adventure.",
+      "why": "",
+      "for_you": "",
+      "degraded": "source_excerpt"
+    }
+  ],
+  "features": [
+    {
+      "source_id": "riot-league-design",
+      "source_url": "https://www.leagueoflegends.com/en-us/news/dev/",
+      "platform": "developer_blog",
+      "evidence_kind": "developer_article",
+      "requires_transcript": false,
+      "key": "5ea7c07167365040",
+      "title": "TL;DW: Season 1 2027 Dev Update",
+      "url": "https://www.leagueoflegends.com/en-us/news/dev/tldw-season-1-2027-dev-update---lol-website-article-lollol27-s1225r001",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "League of Legends · Dev"
+      ],
+      "published": "2026-11-16T16:00:00+00:00",
+      "undated": false,
+      "published_precision": "timestamp",
+      "summary_raw": "A short rundown of changes from today’s Dev Update.",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "design",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "TL;DW: Season 1 2027 Dev Update",
+          "url": "https://www.leagueoflegends.com/en-us/news/dev/tldw-season-1-2027-dev-update---lol-website-article-lollol27-s1225r001",
+          "source": "League of Legends · Dev",
+          "lang": "en",
+          "published": "2026-11-16T16:00:00+00:00"
+        }
+      ],
+      "score": 40,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "产品观察",
+      "is_analysis": true,
+      "age_hours": 16.274354903888888,
+      "evergreen": false,
+      "content_type": "分析",
+      "section": "features",
+      "body": "TL;DW: Season 1 2027 Dev Update\nA short rundown of changes from today’s Dev Update.\nHey everyone, Pabro and Meddler here with a quick TL;DW of today’s Dev Update:\n- We’ll be doing a full reveal of New Dawn in January, in place of our Season Start moment.\n- We’re going to pair the season start cinematic with New Dawn’s launch later next year.\n- We’ll start playtesting shortly after the reveal to get your feedback. Sign up to learn more on the New Dawn website.\n- The gameplay changes for January are focused on both short term health for League as well as changes that can be carried over into New Dawn.\n- We’re bringing back Kleptomancy as a Keystone Rune, which has a new unique loot reward that gives a small discount to items in the store.\n- We’re adding a new Keystone, Titanborn, that grants ramping armor and magic resist while in champion combat, and unleashes a shockwave when at max stacks.\n- We’re overhauling the on-hit item system to give on-hit users more options to create a full build.\n- Terminus will become more clearly about piercing through foes, rather than granting armor and magic resist.\n- Wit’s End is being updated into a go-to move speed item against magical opponents.\n- Blade of the Ruined King’s percent health damage is being bugged with its slow removed.\n- Fatetaker is a new on-hit item that grants attack speed, armor, and has a three-hit passive. It also inherits Blade of the Ruined King’s slow without a cooldown.\n- We’re reworking Riftmaker’s stats and uniques.\n- There’s a new AP item called Lifebloom Crown that grants onmivamp and allows overhealing.\n- Gravescourge is a new Lethality item that summons Mistwraiths to chase down nearby enemies.\n- Faelights are being removed.\n- We’re trying something new next season called “Ranked Rush.”\n- In January everybody’s visual rank will reset to Iron IV, but MMR will be the same to ensure match quality.\n- Everyone will climb from Iron IV together with massive LP increases.\n- You can earn Timeless Tokens to unlock Timeless Victorious skins—which are variants of previous Victorious skins.\n- You can unlock Timeless Victorious skins immediately, no need to wait until the end of the year.\n- In January we’ll have an update for ARAM: Mayhem that’s about breaking more of League’s rules than normal.\n- Augments can become overloaded and do things like increase inventory size.\n- We’re also doing community voting to bring back old Mayhem Augments, with the first coming shortly after the update.",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "英雄联盟2027赛季1开发者更新要点汇总",
+      "what": "拳头开发者Pabro与Meddler汇总2027赛季1改动：一月公布新版本New Dawn并开启测试；回归偷钱符文、新增基石符文Titanborn；重做攻击特效装备体系，调整破败、智慧末刃、裂隙制造者，新增法系与穿甲装备；排位推出Ranked Rush，全员重置至黑铁四但保留MMR；ARAM Mayhem更新并开放社区投票。",
+      "why": "作者以清单形式说明改动方向：一月玩法改动兼顾短期健康与可延续至New Dawn的内容；装备重做围绕攻击特效使用者的完整出装空间；Ranked Rush用视觉段位重置加高额LP增长制造爬分体验，同时保留MMR以维持匹配质量。",
+      "for_you": "可研究Ranked Rush中视觉段位重置与MMR保留的组合，会如何影响不同水平玩家的爬分节奏与匹配体验。",
+      "degraded": null
+    },
+    {
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "3d0851f6dea64a71",
+      "title": "《怪猎：荒野》制作人回应性能修复耗时近一年，盛赞自研引擎灵活性",
+      "url": "https://www.gcores.com/articles/222422",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "机核"
+      ],
+      "published": "2026-11-17T01:10:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "在发售时，《怪物猎人：荒野》存在着不小的技术性能问题，卡普空花费了近一年时间才将游戏性能修复至首发应有的水准。该作制作人辻本良三则表示，如果没有自家的RE引擎，修复《怪物猎人：荒野》所耗费的时间还会长得多。 就近期卡普空多款作品取得巨大成功，辻本良三表示虽然不能说这是全部原因，但RE引擎确实是其中的一个关键因素，也是这些不同游戏得以顺利开发的原因之一。开发过程中有引擎工程师直接参与非常有帮助，这样能快速解决问题并让不同团队成员之间的沟通更顺畅。同时，使用自家引擎也能让开发团队在整个流程中随时做出更多微调。 当然，在开发和修复《怪物猎人：荒野》过程中积累的经验，也惠及了其他使用卡普空自研引擎的游戏。同样在首发时出现性能问题的《龙之信条2》就在今年10月“黑暗觉者”资料片上线前完成了技术修复。 尽管《怪物猎人：荒野》或许本应延期并以更完善的状态发售，但许多采用虚幻4和虚幻5等其他引擎的游戏甚至从未得到彻底修复。例如《星球大战 绝地：幸存者》发售多年后PC版性能依然欠佳，《上古卷轴4：湮灭重制版》也存在类似情况。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "《怪猎：荒野》制作人回应性能修复耗时近一年，盛赞自研引擎灵活性",
+          "url": "https://www.gcores.com/articles/222422",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-17T01:10:00+00:00"
+        }
+      ],
+      "score": 34,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "产品观察",
+      "is_analysis": true,
+      "age_hours": 7.107688237222222,
+      "evergreen": false,
+      "content_type": "分析",
+      "section": "features",
+      "body": "在发售时，《怪物猎人：荒野》存在着不小的技术性能问题，卡普空花费了近一年时间才将游戏性能修复至首发应有的水准。该作制作人辻本良三则表示，如果没有自家的RE引擎，修复《怪物猎人：荒野》所耗费的时间还会长得多。\n就近期卡普空多款作品取得巨大成功，辻本良三表示虽然不能说这是全部原因，但RE引擎确实是其中的一个关键因素，也是这些不同游戏得以顺利开发的原因之一。开发过程中有引擎工程师直接参与非常有帮助，这样能快速解决问题并让不同团队成员之间的沟通更顺畅。同时，使用自家引擎也能让开发团队在整个流程中随时做出更多微调。\n当然，在开发和修复《怪物猎人：荒野》过程中积累的经验，也惠及了其他使用卡普空自研引擎的游戏。同样在首发时出现性能问题的《龙之信条2》就在今年10月“黑暗觉者”资料片上线前完成了技术修复。\n尽管《怪物猎人：荒野》或许本应延期并以更完善的状态发售，但许多采用虚幻4和虚幻5等其他引擎的游戏甚至从未得到彻底修复。例如《星球大战 绝地：幸存者》发售多年后PC版性能依然欠佳，《上古卷轴4：湮灭重制版》也存在类似情况。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "《怪物猎人：荒野》制作人谈性能修复与RE引擎",
+      "what": "《怪物猎人：荒野》发售时存在性能问题，卡普空用近一年时间修复。制作人辻本良三称，若没有自研RE引擎，修复耗时会更长，并提到引擎工程师直接参与开发有助于快速解决问题和团队沟通。",
+      "why": "作者转述辻本良三的说法：自研引擎让团队能随时微调，引擎工程师参与开发可加快问题解决；文中还以《龙之信条2》修复及部分虚幻引擎游戏未彻底修复作对比。",
+      "for_you": "可追问：自研引擎带来的修复效率，在多大程度上来自引擎本身，又在多大程度上来自团队组织与工程师配置？",
+      "degraded": null
+    },
+    {
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "a085dfe818bad2ee",
+      "title": "好与不好，有时候可能就差一点：《异界揭踪》评测",
+      "url": "https://www.gcores.com/articles/222319",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "机核"
+      ],
+      "published": "2026-11-16T17:26:38+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "一款以“射击”为核心玩法的游戏，最不应该让玩家频繁产生的念头大概就是“希望自己能够少开几枪”。而《异界揭踪》（ ANOMALITH ）这款游戏，就恰好就给了我这样有点令人尴尬的感受。 作为 FuRyu 首次尝试的第三人称射击作品，它将生存、探索、资源收集和枪械改造等元素组合在一起，构建出了一个充满未知与危险的异常世界。但当用了十几个小时通关了本作之后，我发现最能吸引自己继续探索下去的，并不是它最核心的射击系统，而是那个充满谜团的世界，以及生活在其中的一群性格鲜明的人物。 换句话说，《异界揭踪》有一个相当有味道的故事，但最终游戏却并没有为这个故事提供足够出色的玩法支撑，以至于在我通关之后，只会觉得有点儿“遗憾”。 先决定一个“鲜明”的主题 在评价《异界揭踪》之前，我想先聊聊 FuRyu 这家公司。 对于经常接触日式主机游戏的玩家来说，FuRyu 应该算是一个比较特别的名字。它不像一些大型厂商那样拥有一套固定的热门游戏类型，而是更愿意在原创作品中尝试一些带有鲜明个人色彩的题材。这些作品的玩法类型各不相同，但都能很快让玩家找到一个记忆鲜明的主题。 这种创作思路其实也能从 FuRyu 公开的制作理念中得到印证。在之前的采访中不难看出，相较于大型的3A游戏，FuRyu 的原创作品会更加注重资源分配，希望将有限的制作时间与预算集中在核心概念和主题表达上，通过鲜明的创意与故事给玩家留下印象。 当",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "好与不好，有时候可能就差一点：《异界揭踪》评测",
+          "url": "https://www.gcores.com/articles/222319",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-16T17:26:38+00:00"
+        }
+      ],
+      "score": 34,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 12
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "产品观察",
+      "is_analysis": true,
+      "age_hours": 14.830466014999999,
+      "evergreen": false,
+      "content_type": "分析",
+      "body": "一款以“射击”为核心玩法的游戏，最不应该让玩家频繁产生的念头大概就是“希望自己能够少开几枪”。而《异界揭踪》（ ANOMALITH ）这款游戏，就恰好就给了我这样有点令人尴尬的感受。\n作为 FuRyu 首次尝试的第三人称射击作品，它将生存、探索、资源收集和枪械改造等元素组合在一起，构建出了一个充满未知与危险的异常世界。但当用了十几个小时通关了本作之后，我发现最能吸引自己继续探索下去的，并不是它最核心的射击系统，而是那个充满谜团的世界，以及生活在其中的一群性格鲜明的人物。\n换句话说，《异界揭踪》有一个相当有味道的故事，但最终游戏却并没有为这个故事提供足够出色的玩法支撑，以至于在我通关之后，只会觉得有点儿“遗憾”。\n在评价《异界揭踪》之前，我想先聊聊 FuRyu 这家公司。\n对于经常接触日式主机游戏的玩家来说，FuRyu 应该算是一个比较特别的名字。它不像一些大型厂商那样拥有一套固定的热门游戏类型，而是更愿意在原创作品中尝试一些带有鲜明个人色彩的题材。这些作品的玩法类型各不相同，但都能很快让玩家找到一个记忆鲜明的主题。\n这种创作思路其实也能从 FuRyu 公开的制作理念中得到印证。在之前的采访中不难看出，相较于大型的3A游戏，FuRyu 的原创作品会更加注重资源分配，希望将有限的制作时间与预算集中在核心概念和主题表达上，通过鲜明的创意与故事给玩家留下印象。\n当然，这并不意味着 FuRyu 所有作品都有着统一的开发风格，因为公司本身也会与外部开发团队合作。虽说具体项目的制作班底和玩法表现并不完全相同，但从这些原创作品中，我确实能够感受到一种类似的倾向：比起面面俱到，FuRyu似乎更愿意先找到一个足够有吸引力的创意，再围绕它来推进整个游戏的开发。\n《异界揭踪》就是这样一款作品——它选择了一个并不常见的组合：昭和风格的架空日本、异常空间、少女主角，以及带有点儿生存恐怖色彩的第三人称射击。单从概念上看，这几种元素就足够让人产生好奇。\n而在体验了游戏之后，我发现，它最值得肯定的部分，确实来自这些设定所构建出的故事与人物。\n《异界揭踪》的故事发生在一个昭和风格延续至近未来的架空日本。某一天，名为“异界”的特殊空间毫无征兆地出现在现实世界中。原本熟悉的公寓、医院、商店街，在异常力量的影响下发生扭曲，成为无法用常理解释的危险区域。\n而这些地方并不完全是传统恐怖游戏里的废墟或鬼屋，它们依然保留着日常生活的痕迹，却又在空间结构上变得看起来有点儿“荒诞”：重力反转的住宅区、不断扭曲的走廊、仿佛永远没有尽头的商店街。这种熟悉与陌生之间的落差，构成了本作相当有辨识度的视觉氛围。\n这种设计让《异界揭踪》拥有了一个很好的故事开端——玩家扮演的水无月玲绪奈，是一名17岁的少女。为了寻找在异界事件中失踪的好友华藤有沙，她主动加入了政府设立的危险区调查组织，成为一名进入异界执行调查任务的人员。\n两人的关系，正是整个故事最重要的情感起点：玲绪奈曾经生活在糟糕的家庭环境中，甚至一度流落街头；而有沙则来自截然不同的成长环境，是一名出身优渥学校的学生。原本不应该产生太多交集的两个人，却在相处中成为彼此生命中最重要的朋友。\n可一场异界化事件让她们被迫分离，寻找有沙，自然便成为了玲绪奈的唯一目标。\n这个动机其实并不复杂，但它很好地为故事提供了一个具体的情感落脚点。相较于拯救世界、调查未知现象这样宏大的目标，“一个人想要找回自己唯一的朋友”这种动机，反而更容易让我理解她为什么会愿意一次又一次地进入这个危险的区域展开冒险。而随着故事推进，玩家也会逐渐发现，玲绪奈所加入的组织并不是什么值得完全信赖的救世机构。\n对于组织而言，进入异界的调查人员、以及困在其中的普通人，似乎都可以成为研究和收集数据的代价。这种有幕后黑手的反转，虽然看起来有点传统，但也多少能为这个灰色的故事线增加点儿意料之外的冲突。\n那些围绕着主人公的配角，同样有不少值得挖掘的地方——负责与她保持联络的操作员，曾经也是深入异界的一线调查人员，却因为受伤不得不转到后方；组织的负责人有过漫长的异界求生经历，而研究部门的成员则对异常物品抱有近乎执着的兴趣。\n每个人都有自己的经历，也有一套看待异界和生命的方式。值得一提的是，这些角色并不总是以传统意义上的好人形象出现。有些人看起来温和，却会做出相当危险的决定；有些人身处组织高层，却完全无法理解自己所面对的危险。\n从整体的呈现来看，《异界揭踪》最成功的地方，我认为正是它没有把异常世界单纯当作一个展示怪物和场景的舞台，而是让它与人物的过去、选择以及彼此之间的关系产生联系。这是日系厂商一贯很擅长的叙事风格，本作自然也成为了他们施展这种长处的舞台。\n当然，游戏的整体叙事并非没有问题。随着谜团逐渐展开，部分剧情的展开节奏会显得比较快，让一些配角没有获得足够充分的刻画。但在最重要的主角身上，本作至少建立起了一个足够明确的情感目标，让我在这十数个小时的游戏过程中，想要去关注她接下来等待着她的命运。\n可惜的是，当我需要通过使用枪械去应对异界中的危险时，《异界揭踪》却暴露了出相当明显的问题。\n从玩法结构来看，本作拥有一套看起来比较完整的循环：进入异界区域，调查环境、寻找资源、击败异常生物，再通过传送点带回物资，最后回到基地强化武器和装备。随着游戏推进，玩家还能够解锁不同枪械、配件和玲绪奈独有的异常化技能。这些系统本身并不缺少内容，甚至可以说形成了相当好的配合。\n但关键的问题在于，它们并没有很好地转化成战斗中的乐趣。\n最明显的问题来自角色的行动和射击之间缺乏足够流畅的衔接。玲绪奈的移动显得有些迟缓，面对敌人时缺少足够灵活的调整空间。尤其是在狭窄空间里遭遇敌人，或者同时被多个敌人包围时，我很难通过迅速移动来脱离危险。\n而瞄准和射击的整体操作反馈也不够理想。准星调整、面对移动目标时的操作，以及攻击动作之间的衔接，都很难展现出那种行云流水的操作感。再加上换枪和装填所需要的时间，在战斗中，经常会出现一些会打断节奏的停顿。\n需要强调的的是，游戏中并不是完全没有射击反馈。枪械本身的音效、命中反馈和后坐力设计并不是缺失的。真正的问题在于这些单独成立的反馈，并没有组合成一套足够舒服的操作体验。\n更可惜的是，游戏的异常化技能原本有机会成为战斗系统的亮点。玲绪奈可以利用体内的异常力量发动近战攻击和防御能力，官方也为她准备了12种不同的技能。但在实际设计中，它与射击更像是两套各自独立的攻击手段，而不是一套可以自由衔接的战斗体系。\n于是，女主角虽然拥有越来越多的装备和技能，却没有提供相应的在战术层面的乐趣。武器升级虽然可以让伤害数字变得更好看，却无法解决角色移动生硬、射击操作不顺手的问题。\n这让本作的生存元素显得有些“尴尬”——游戏本来是想让玩家在资源管理和危险环境之间作出取舍，但当战斗本身不够有趣时，玩家对于面前的危险不是紧张，而是焦躁。\n好在，本作的探索与资源收集还是具备一定可玩性的。在有限的携带空间内，玩家需要不断权衡哪些物资值得带走，哪些东西可以暂时舍弃，而回到基地之后，又能通过强化系统逐步提升角色的能力。这套局外成长机制设计得还算不错，也为每一次进入异界提供了比较明确的目标。\n另外，不同武器、配件和装备之间也提供了一定的搭配空间，让玩家能够根据自己的习惯调整战斗配置。\n从这个角度来看，《异界揭踪》并不是缺少玩法内容，而是这些内容之间还没有形成足够成熟的体验。某种程度上，这也延续了 FuRyu 过往作品给我的印象：它总能拿出一些足够鲜明、让人眼前一亮的创意，也很擅长通过故事和角色建立作品的独特气质，但在具体的玩法打磨和整体完成度上，却往往还存在一些不容忽视的短板。长处足够鲜明，短板也同样明显。\n《异界揭踪》是一款让我觉得有些可惜的作品。田中罗密欧的剧本、MON 的角色设计，以及围绕异界展开的种种谜团，都让游戏拥有了别样的魅力。但另一方面，FuRyu 却选择了一个对操作要求并不低的游戏类型。\n第三人称射击不仅需要足够有趣的武器和敌人，更需要把移动、瞄准、攻击和防御这些最基础的环节打磨到位。遗憾的是，《异界揭踪》在这方面还有相当大的进步空间。\n我并不觉得 FuRyu 需要把自己的原创作品都做成面面俱到的大型游戏。它过去那些能够让人记住的作品，恰恰是因为拥有足够鲜明的主题和个性。但创意终究需要玩法来承接，尤其是当一款游戏把射击放在核心位置时，光有一个好故事显然还是不够的。",
+      "has_body": true,
+      "body_truncated": false,
+      "section": "features",
+      "title_cn": "《异界揭踪》评测：故事与人物出彩，射击玩法拖后腿",
+      "what": "机核评测FuRyu首款第三人称射击游戏《异界揭踪》：昭和架空日本与异界设定、少女寻友的叙事和配角塑造较有魅力，但移动、瞄准、射击衔接与异常化技能整合不佳，战斗体验拖累整体。",
+      "why": "作者以通关体验为依据，指出游戏系统内容完整却未转化为战斗乐趣，问题在操作衔接与反馈组合，而非缺少枪械音效或后坐力；并联系FuRyu重创意轻打磨的创作倾向。",
+      "for_you": "可研究：当射击作为核心玩法但手感欠佳时，叙事与局外成长能在多大程度上补偿玩家体验？",
+      "degraded": null
+    }
+  ],
+  "ai": [
+    {
+      "source_id": "web-3ae57466b5",
+      "source_url": "https://openai.com/news/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "6504f70e542822f9",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "OpenAI"
+      ],
+      "published": "2026-11-16T17:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "rss_content": "",
+      "content_kind": "rss_summary",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "url": "https://openai.com/index/strengthening-online-child-safety",
+          "source": "OpenAI",
+          "lang": "en",
+          "published": "2026-11-16T17:00:00+00:00"
+        }
+      ],
+      "score": 28,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 15.274354903888888,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "",
+      "has_body": false,
+      "body_truncated": false,
+      "title_cn": "OpenAI推出新工具与支持，加强打击网络儿童性虐待",
+      "what": "OpenAI发布来源摘要称，将提供新工具、实用指南和合作伙伴关系，用于预防、检测和应对网络儿童性剥削与性虐待。摘要未说明工具的具体能力、使用方式或合作方。",
+      "why": "",
+      "for_you": "",
+      "degraded": "source_excerpt"
+    },
+    {
+      "source_id": "web-3ae57466b5",
+      "source_url": "https://openai.com/news/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "43c39af1286b93c1",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "lang": "en",
+      "tier": 1,
+      "tier_weight": 18,
+      "coverage": 1,
+      "sources": [
+        "OpenAI"
+      ],
+      "published": "2026-11-16T12:00:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "rss_content": "",
+      "content_kind": "rss_summary",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "url": "https://openai.com/index/science-at-the-frontier",
+          "source": "OpenAI",
+          "lang": "en",
+          "published": "2026-11-16T12:00:00+00:00"
+        }
+      ],
+      "score": 28,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 18
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 20.274354903888888,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "",
+      "has_body": false,
+      "body_truncated": false,
+      "title_cn": "OpenAI介绍1800余名科学家如何使用ChatGPT",
+      "what": "OpenAI发布文章，介绍对1800余名科学家使用ChatGPT开展研究情况的调查，内容涉及日常科研工作流程、受访者自述的生产力变化以及对科研发现的预期。",
+      "why": "",
+      "for_you": "",
+      "degraded": "source_excerpt"
+    },
+    {
+      "source_id": "web-d1c587ecba",
+      "source_url": "https://simonwillison.net/atom/everything/",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "ae7177f8f18d423c",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "Simon Willison"
+      ],
+      "published": "2026-11-16T23:57:26+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_array(1))) Returns this: {\"a\":[1]} But in 3.54.1 the same query returns this: {\"a\":\"[1]\"} According to D. Richard Hipp : That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug. The wor",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "llm 0.37.3",
+          "url": "https://simonwillison.net/2026/Nov/16/llm/",
+          "source": "Simon Willison",
+          "lang": "en",
+          "published": "2026-11-16T23:57:26+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 8.317132681666667,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "ai",
+      "body": "16th November 2026\nA bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software.\nHomebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's logging code.\nShort version: in SQLite 3.54.0 the following SQL:\nselect json_object('a', (select json_array(1)))\nReturns this:\n{\"a\":[1]}\nBut in 3.54.1 the same query returns this:\n{\"a\":\"[1]\"}\nAccording to D. Richard Hipp:\nThat was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug.\nThe workaround looks like this:\nselect json_object('a', json((select json_array(1))))\nRecent articles\n- Locating the source of a mysterious beep with Claude - 9th November 2026\n- Hide your slop PR descriptions behind <details><summary> - 9th November 2026\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026\n- The U.S. Census Bureau and “Super Intelligence” - 2nd November 2026",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "LLM 0.37.3 修复 SQLite 3.54.1 兼容问题",
+      "what": "Simon Willison 发布 LLM 0.37.3 错误修复版本，主要解决 Homebrew 最新打包的 SQLite 3.54.1 导致 LLM 日志代码失效的问题：SQLite 修正了子查询返回 SQL 文本而非 JSON 的行为，作者给出用 json() 包裹子查询的变通写法。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-5590904e33",
+      "source_url": "https://www.qbitai.com/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "4bbe64334edbb5c6",
+      "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+      "url": "https://www.qbitai.com/2026/11/510486.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "量子位"
+      ],
+      "published": "2026-11-16T07:51:57+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "11月16日，阿里巴巴发布全新一代基座大模型Qwen4-Max",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "ai",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+          "url": "https://www.qbitai.com/2026/11/510486.html",
+          "source": "量子位",
+          "lang": "zh",
+          "published": "2026-11-16T07:51:57+00:00"
         }
       ],
       "score": 17,
@@ -690,44 +1833,41 @@
           "value": 0
         }
       ],
-      "topic": "开发动态",
+      "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 63.05471871611111,
+      "age_hours": 24.408521570555557,
       "evergreen": false,
       "content_type": "新闻",
-      "section": "news",
-      "body": "Ocarina Of Time's Link Reimagined With Arcane-Inspired Art Style\nMauricio Ataíde shared some insights into his hand-painted texturing process.\nIf The Legend of Zelda: Ocarina of Time remake has reignited your love for all things Zelda, Mauricio Ataíde has something worth checking out. The artist has showcased a fan-made 3D bust of Link from the game with beautiful stylized textures, created entirely in ZBrush. As he shared with us, he's been exploring hand-painted texturing lately through quick studies in ZBrush and Substance 3D Painter. He focuses on simplifying shapes, playing with color, and developing textures that enhance a character's sense of volume and personality.\nThe artist uses ZBrush's Spotlight feature to refine anatomical details and proportions, ensuring the final model stays as faithful as possible to the original concept art. He then starts painting in layers, starting with the base skin tones before introducing darker shades to define shadows and emphasize volume. To finish, he works on the lighting, bringing out the forms and adding highlights to areas that deserve extra attention.\n\"My workflow is actually quite simple. I usually start by studying and trying to recreate art styles that inspire me, especially those seen in Arcane and Valorant. What fascinates me most about these projects is how the artists manage to communicate complex forms through simplified planes, strong shadow shapes, and carefully placed brushstrokes.\"\nMauricio Ataíde\nMauricio Ataíde\nMauricio Ataíde\n\"One of the most valuable things I've learned is that good stylized painting starts before the texturing stage, during the modeling process itself. The way we build volumes and define facial planes directly influences how light and shadows interact with the character. I pay close attention to how shadows help describe the forms, especially around the eyes, nose, cheekbones, and jaw. Understanding these relationships makes it easier to decide where to emphasize certain shapes, increase contrast, or introduce more visible brushstrokes.\nFor my Link fan art, I wanted to apply these principles. Rather than aiming for realistic textures, my goal was to find a balance between simplified forms, clearly defined colors, and painterly details that enhance the character's anatomy and overall design.\nWhen painting, I like experimenting with different brushes and masks. They give me more control over color transitions, brushstroke variations, and shadow placement. One important aspect of my approach is that I try not to rely too heavily on smooth gradients. Instead, I prefer building the textures with clearly defined shapes, deliberate color changes, and brushstrokes that follow the volumes of the model.\nI think one of the biggest challenges of hand-painted texturing is knowing what to simplify and what to emphasize. Not every area needs the same amount of detail. Sometimes, a single well-placed brushstroke can communicate a form more effectively than several layers of intricate details.\"\nMauricio has explored a similar artistic approach in previous projects, including a stylized fan-art piece of Gekko from VALORANT and an Arcane tribute featuring Jinx. Visit his ArtStation page to see these and other works up close.\nMauricio Ataíde\nMauricio Ataíde\nLooking to learn more about hand-painted texturing in 3D? Check out our interview section, where artists walk us through their creative processes and share valuable tips and techniques.\nDon't forget to subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
+      "section": "ai",
+      "body": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景\n11月16日，阿里巴巴发布全新一代基座大模型Qwen4-Max\n11月16日，阿里巴巴发布全新一代基座大模型Qwen4-Max，总参数2.4T，具备原生视觉能力，支持百万上下文。基于创新的模型架构和训练优化，Qwen4-Max以更少的Token消耗实现了更高的性能，在智能体和编程等关键能力项上持续进化：在权威的全球前端编程盲测CodeArena中，Qwen4位居第六；在Agents’ Last Exam（ALE）、Vals Index等智能体能力及专业任务三方评测中，Qwen4均处于领先梯队。Qwen4面向全领域的真实任务深度优化，可更好地调用专业工具处理长周期任务，推进AI在汽车制造、游戏开发、金融投研及科学研究等专业领域的深入落地。\nQwen4-Max现已上线千问AI平台对外提供API服务，缓存命中每百万Tokens低至0.5元，完成单任务的平均费用较上代模型大降6成；用户也可通过阿里Token Plan调用新模型，或在千问办公、Qoder、千问APP等应用中直接体验。据悉，Qwen4系列中的中小尺寸模型将陆续开源发布。\n（图说：在CodeArena前端编程全球榜中，Qwen4-Max位居第6）\nQwen4-Max采用基于Qwen稀疏注意力（QSA）的全新MoE架构，2.4T总参数仅激活71B，每个Token激活参数较上代模型少25%，并拥有更高的思考效率：在 Terminal-Bench 4.0 专业编程评测中，同为 Xhigh 思考档位，Qwen4-Max 较上一代 Qwen3.8-Max 的每次尝试平均 Token 用量从 289K 降至 151K，减少近50%，评测得分则从 38.9 分提升至 48.5 分，提升近25%。同时，基于缓存命中价格的大幅下降，评测结果显示，Qwen4-Max相比Qwen3.8-Max完成单个任务的平均费用（Cost per Task）降低了 58%。\n全新的架构结合高效的训练优化，使得Qwen4-Max性能全面提升。在聚焦编程的CodeArena全球盲测权威榜单中，Qwen4-Max前端（Webdev）位列全球第6，居于GPT6-Astra和Claude Fable5.1之间，刷新中国模型最好成绩；在“智能体最后的考试” Agents’ Last Exam（ALE）取得了46.7的最高分，较Qwen3.8-Max大幅提升18.8分；在评估大模型理解专业图表与推理能力的Chartography评测中，Qwen4-Max取得54.2分，较上代模型提升12.2分；在专业工作评测JobBench中，新模型得分68.5，超过GPT-6.1sol、次于Claude Opus5.5；在专注法律专业的评测HLAB-Vals-1.1上，Qwen4-Max得分21.3分，较Qwen3.8-Max进步了5.9分，位居行业领先模型行列。\n无论是日常简单需求，还是长周期复杂任务，Qwen4都能实现可靠交付，人机协作更丝滑高效。Qwen4-Max在模型内实现了持续交付（Live Delivery）机制，可先生成一个可用的首版，并持续根据用户意见逐版扩展内容直至完成：针对一个物理课堂科普网站的设计需求，Qwen4-Max交付14次可用版本，最终扩充为一个包含3D动画、交互实验和原理详解的精致网站。同时，Qwen4-Max还具备围绕复杂目标与约束进行运筹建模、求解与验证的能力，通过自主规划和持续迭代，编排智能体解决更复杂的任务：基于阿里云AI基础设施，Qwen4-Max自主闭环优化了支撑其自身应用、推理与训练的运行系统，在数据标注场景中让模型成本费用降低 10%，将CPU 离线重调度场景的最优求解速度提升超14倍。\n图说：面向全场景721个方向的真实工作领域，Qwen4较上代模型整体提升超10%的专业能力\n从专业协作（Cowork），到全天候智能体，Qwen4正深入更多真实工作任务和生产环境。千问团队构建了包含721个细分领域的Work360全场景建模体系，在系统评测中，Qwen4-Max得分52.69，较上一代模型提升超10%。在游戏开发等专业设计领域，Qwen4展现出强大的3D建模能力，并能更好地调用Blender等专业工具，一句话就能生成一个好玩、酷炫的3D游戏。在汽车制造行业，Qwen4已贯穿产线规划、零件设计与加工验证等全流程，将单个工件加工编程的人工用时从475分钟骤降至 24分钟，用时减少 95%；在金融投研场景，Qwen4熟练调用 90 个 MCP 专业工具，产出 Excel 底稿与 PPT 报告，支持双重溯源确保结论可靠。\n在AI辅助科学发现（AI For Science）的前沿领域，Qwen4已初步产出材料和药物发现的真实成果。在材料发现领域，Qwen4连续 48 小时自主运行，从 270 万个候选分子中挑选出候选分子，并通过 4 轮“设计—合成—测试”闭环，真实合成出一种新型冷却液材料，为缓解高功率芯片带来的数据中心散热难题提供了新思路；在药物发现领域，针对阿尔兹海默症关键靶点，Qwen4通过 454 次工具调用，完成 3239 项计算评估，设计优化了24 个候选分子，最终优选分子与靶点的名义结合亲和力较起点分子提升约3.6倍，是更有效的新选择。\n本文由阿里巴巴提供，量子位获授权转载，观点归原作者所有。\n- 睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准2026-11-16\n- 2026甲子引力年终盛典即将启幕，AI的无限游戏进入「第二序章」｜甲子引力2026-11-16\n- SuperLink2026开启创投行业超级链接时刻，12月北京见2026-11-16\n- 今天截止！2026年度AI表彰，错过再等一年！2026-11-16",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "艺术家以《双城之战》风格重制《时之笛》林克3D半身像",
-      "what": "80.lv报道艺术家Mauricio Ataíde用ZBrush制作《塞尔达传说：时之笛》林克的粉丝3D半身像，采用手绘风格贴图，并分享其简化形体、分层上色与笔触控制的工作流程。",
-      "why": "作者称先研究《双城之战》《无畏契约》等风格，在建模阶段就规划面部体块与阴影关系，贴图时避免平滑渐变，用明确色块和顺形体笔触塑造体积。",
-      "for_you": "可研究其“建模阶段决定手绘贴图效果”的做法：面部体块与阴影规划如何影响后续笔触和对比度的取舍？",
+      "title_cn": "阿里发布Qwen4-Max：智能体与编程能力升级",
+      "what": "阿里巴巴发布基座大模型Qwen4-Max，总参数2.4T、激活71B，具备原生视觉与百万上下文，已上线千问AI平台提供API，中小尺寸模型将陆续开源。",
+      "why": "",
+      "for_you": "",
       "degraded": null
-    }
-  ],
-  "features": [],
-  "ai": [
+    },
     {
-      "source_id": "web-d1c587ecba",
-      "source_url": "https://simonwillison.net/atom/everything/",
+      "source_id": "web-5590904e33",
+      "source_url": "https://www.qbitai.com/feed",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "195b18b2af7f1602",
-      "title": "datasette-maplibre 0.1a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
-      "lang": "en",
+      "key": "d7ab3c4f582e086b",
+      "title": "余承东发布新款问界M8：38万元起售，全系预埋L3架构",
+      "url": "https://www.qbitai.com/2026/11/510436.html",
+      "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "Simon Willison"
+        "量子位"
       ],
-      "published": "2026-11-15T23:58:36+00:00",
+      "published": "2026-11-16T07:26:33+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside ",
+      "summary_raw": "余承东重新明确分工",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "ai",
@@ -741,14 +1881,14 @@
       },
       "members": [
         {
-          "title": "datasette-maplibre 0.1a0",
-          "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
-          "source": "Simon Willison",
-          "lang": "en",
-          "published": "2026-11-15T23:58:36+00:00"
+          "title": "余承东发布新款问界M8：38万元起售，全系预埋L3架构",
+          "url": "https://www.qbitai.com/2026/11/510436.html",
+          "source": "量子位",
+          "lang": "zh",
+          "published": "2026-11-16T07:26:33+00:00"
         }
       ],
-      "score": 22,
+      "score": 17,
       "score_parts": [
         {
           "label": "来源",
@@ -760,7 +1900,7 @@
         },
         {
           "label": "近期",
-          "value": 10
+          "value": 5
         },
         {
           "label": "分析与方法",
@@ -773,15 +1913,15 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 7.044718716111111,
+      "age_hours": 24.83185490388889,
       "evergreen": false,
       "content_type": "新闻",
       "section": "ai",
-      "body": "15th November 2026\nThe first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap, the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub.)\nI built most of this with a single prompt to Claude Fable 5.2:\nLook at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have\n\"Be creative and think outside the box\" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view.\nI also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo database in your browser via Pyodide and WebAssembly.\nI like this demo page showing both GeoJSON shapes and lat/lon points on the same map:\nRecent articles\n- Locating the source of a mysterious beep with Claude - 9th November 2026\n- Hide your slop PR descriptions behind <details><summary> - 9th November 2026\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026\n- The U.S. Census Bureau and “Super Intelligence” - 2nd November 2026",
+      "body": "余承东发布新款问界M8：38万元起售，全系预埋L3架构\n余承东重新明确分工\n杰西卡 发自 ROBO-车\n量子位ROBO | 公众号 AI4ROBO\n余承东又回到了问界的主场，为了问界新M8。\n赛力斯掏了15个亿做改款，砸出126项技术升级，全系标配华为ADS 5，直接把软硬件架构拉到了面向L3的规格。\n按余承东的话说，这笔钱在其他车企手里足够造一台新车，而他们全用在了一款车的迭代上。\n不仅如此，800V高压平台、双腔闭式空气悬架和双阀减振器也成为全系标配，后轮转向、三把零重力座椅等配置进一步下放。\n不过在硬件参数之外，台下所有人其实也在好奇另一件事：两个月前闹得沸沸扬扬的“分工变局”，到底怎么收场？\n而事实是，发布会当天，余承东和赛力斯董事长张兴海再次同台握手，也正式明确了双方的新分工：\n最初主要由华为主导的品牌营销、渠道销售，如今交由赛力斯主导；而9月一度划归赛力斯的产品定义与设计，则重新明确由华为主导。\n不仅如此，在现场的展板上，问界的名字也被重新摆回了鸿蒙智行第一位。\n全系四颗激光雷达，L3架构提前上车\n问界新M8此次提供增程和纯电两种动力、五座和六座两种布局。\n单从外观看，问界新M8变化不大，主要优化了前脸细节、轮毂设计，并增加天幕青、苍戎绿等车身配色。\n明显的变化主要集中在智能化层面。\n问界新M8全系采用面向L3级自动驾驶的架构设计，部署全链路八大冗余——除了感知系统，还在计算、供电、转向、制动、通信等关键环节进行冗余设计。\n例如，自动驾驶系统需要的不仅是准确判断道路环境，还要在部分硬件失效时，依靠备份系统维持必要的车辆控制能力，完成安全应对。\n感知硬件方面，新车全系标配四颗激光雷达，其中包括一颗896线双光路图像级激光雷达，以及三颗分别负责侧向、后向感知的固态激光雷达。\n再加上5颗4D毫米波雷达、11颗摄像头、12颗超声波雷达以及6颗车外麦克风，整车共有38个感知传感器。\n其实896线激光雷达和四激光雷达组合，之前已经出现在部分问界M8版本上，此次改款是将这套感知配置进一步统一到全系车型。\n软件能力也同步更新。新车全系搭载华为乾崑智驾ADS 5，升级WEWA 2.0技术架构。\n其中，世界行为模型与世界引擎相结合，进一步优化车辆在复杂交通场景下的感知、预测与决策能力。\n按照华为披露的数据，WEWA 2.0使NCA领航辅助整体安全性提升50%，通行效率及乘坐舒适性提升30%。\n具体功能上，新M8支持高速和城区领航辅助、NCA城市漫游以及车位到车位3.0等。\n城市漫游模式下，即使不设置导航目的地，车辆也能在支持的道路环境中提供领航辅助，完成跟车、识别信号灯、路口通行等操作。\n车位到车位3.0，则进一步打通停车场和公共道路之间的辅助驾驶流程，支持预先选择目的地充电车位，减少驾驶员在不同场景之间反复接管的操作。\n在L3这条路上，华为和问界几乎是不回头地往前冲。\n当然，15亿的改款费用砸进去了，升级的远不止是智能。\n问界新M8，还有哪些更新？\n全系800V高压平台也是新M8此次升级的重要变化。\n此前，问界M8增程版仍采用400V平台，此次与纯电版一同升级至800V架构，配合华为巨鲸电池平台3.0，提高充电效率。\n增程版继续搭载1.5T四缸增程器，提供后驱及双电机四驱版本，四驱车型电机综合功率397kW。\n电池则提供56kWh和75.4kWh两种规格。其中，大电池版本CLTC纯电续航最高达到432公里，综合续航最高1435公里。\n纯电版则提供100kWh和120kWh两种电池，CLTC最高续航达到830公里。\n两种动力形式都扩大了纯电行驶范围，以兼顾不同用户对于补能条件与长途出行的需求。\n底盘方面，问界同样下了不少功夫。\n新M8基于华为途灵平台打造，采用增强型前双叉臂、后五连杆独立悬架，全系标配双腔闭式空气悬架，减振器则升级为双阀连续可变阻尼减振器。\n与此前的单阀方案相比，双阀设计可以分别控制悬架压缩和回弹过程，让车辆在经过减速带、坑洼路面以及快速变道时，对车身姿态进行更加精细的调节。\n同时，新车还配备道路预瞄2.0、晕车舒缓3.0等功能，通过提前感知路面变化，改善大型SUV在不同场景下的乘坐舒适性。\n另一项明显变化，是新增±8°主动后轮转向。\n问界新M8车长5190mm，轴距3105mm，属于典型的大型SUV。不过，配备后轮转向的车型，最小转弯半径可以缩小至4.98米，还支持蟹行模式，让地库掉头、狭窄道路通行和泊车更加灵活。\n这项功能在Ultra版标配，Max+版可以选装，并非全系都有。\n制动系统也同步升级，全系标配前六活塞固定式制动卡钳，搭配DPB+ESP10双冗余制动系统，官方公布的百公里制动距离为34.5米。\n车内则将不少此前旗舰车型上的配置带了下来。新M8延续五座、六座两种布局，座舱升级寰宇三联屏2.0设计，中控屏和副驾屏均为17.2英寸、3.4K分辨率。\n后排可以配备21英寸4K柔光娱乐屏，搭配25扬声器华为悦彰音响卓越系列，进一步丰富车内影音体验。\n座椅方面，六座版最多可以配置三把零重力座椅，覆盖主驾、副驾以及第二排右侧。\n其中，第二排右侧零重力座椅还支持左右横向调节，进一步改善乘坐舒适性和第三排进出便利性。\n另外还有一些细致的升级，比如车内增加了车载护眼顶棚学习灯；小桌板化妆镜新增环形补光灯；车载冷暖箱最低支持-18℃制冷、最高50℃加热等等。\n空间方面，纯电后驱版前备厢最大扩展至210L，六座版后备厢下沉暗格由39L增至63L，满载六人时，后备厢总容积达到416L。\n整体来看，问界新M8的升级重心十分明确：\n一方面，继续完善家庭用户最容易感知的空间、舒适性、续航及操控体验；另一方面，把更高规格的智驾硬件、800V平台和底盘系统进一步铺开。\n价格上，增程版37.98万元起，纯电版39.98万元起，顶配46.98万元。\n相比38.98万元的预售起售价，正式价格下调了1万元；不过相比老款起售价，新车的价格门槛实际上也提高了2万元。\n而在新车之外，问界背后的分工，也在这次发布会中得到了明确回应。\n华为问界确定新分工\n问界新M8上市当天，余承东与张兴海的再次同台，某种程度上比新车本身更受关注。\n时间倒回两个月前。\n今年9月，鸿蒙智行与问界分别发布合作模式调整说明，宣布问界将在鸿蒙智行框架下探索新的合作模式。\n其中，产品定义、产品设计、品牌营销、渠道零售和服务体系，将由赛力斯主导，华为终端参与赋能。\n而此前，问界的产品定义、设计和品牌营销主要由华为主导，赛力斯侧重整车研发与制造，双方联合开展销售服务。\n也就是说，9月调整后，赛力斯进一步接过品牌营销和渠道销售的主导权。\n渠道端也发生了变化，经销商合作协议的签约主体，由华为终端变更为赛力斯关联公司，相关服务费结算同步转移。\n消息一出，外界关于问界单飞、双方合作降温的讨论四起。在随后的鸿蒙智行多界同台展示中，问界的出场顺位甚至一度被排到了最后。\n不过随后的一段时间内，双方其实也在陆续释放深化合作的信号。\n比如10月1日，华为与赛力斯签署鸿蒙智行问界业务升级战略合作协议，提出面向未来五年，进一步推动问界品牌专属专营，并联合组建问界业务专属团队。\n这次新M8发布会，则是进一步明确了双方未来的具体分工。\n余承东在现场重新划定了楚河汉界：\n华为终端将继续主导核心技术、产品定义与产品设计，并提供质量流程体系能力；赛力斯则主导整车制造、研发工程实施、营销销售、服务以及升级维护。\n华为主导的工作，赛力斯会参与；赛力斯主导的工作，华为也将全面参与。\n对比三次分工，双方职责的变化已经非常清晰了：\n产品定义与设计重新由华为主导，品牌营销、渠道销售和用户服务的主导权则落在赛力斯手中。\n不仅如此，大屏幕上展示鸿蒙智行五大品牌矩阵时，问界的品牌标识再次回到了最左侧首位。\n赛力斯董事长张兴海随后登台，与余承东在台前紧紧握手。\n五年的合作，让双方共同探索出了一个拥有超过百万用户的新能源汽车品牌。\n而随着产品线不断扩张、用户规模持续扩大，双方的合作也进入了需要重新明确分工的新阶段。\n问界新M8，无疑是双方站在新站位上进行的一次新探索。\n15亿元的研发投入、126项技术升级，以及面向L3的整车架构，都离不开华为在智能化技术、产品定义方面的积累，也需要赛力斯在整车研发、制造和工程落地上的支撑。\n双方各有所长，也仍然需要彼此。\n也正是在这场发布会上，张兴海给出了自己对双方关系的判断：\n“鸿蒙智行强，则问界强；问界强，则鸿蒙智行更强。”\n- 绿电进Token出！联想重新定义词元工厂2026-11-14\n- 中国机器人学会隔墙“递眼色”！成功率从0飙到100%，组队干活不烧心2026-11-13\n- 马斯克已准备好聘请黄仁勋2026-11-12\n- L3大撤退！奔驰宝马官宣不玩了：还没L2好用2026-11-09",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "Datasette 发布 MapLibre 地理空间插件 0.1a0",
-      "what": "Simon Willison 发布 Datasette 地理空间插件 datasette-maplibre 0.1a0，结合 MapLibre GL 与 OpenFreeMap 矢量地图服务，并合并了 datasette-cluster-map 和 datasette-leaflet-geojson 两个插件的功能。",
+      "title_cn": "问界新M8上市：全系标配华为ADS 5与L3冗余架构",
+      "what": "问界新M8正式上市，增程版37.98万元起、纯电版39.98万元起。全系标配华为ADS 5、四颗激光雷达和面向L3的八大冗余架构，并升级800V平台与双腔空气悬架。发布会同时明确华为与赛力斯的新分工。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -792,9 +1932,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "b24b88172fee7b00",
-      "title": "datasette 1.0a43",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "key": "16cf52a3ef2f71a7",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -802,10 +1942,10 @@
       "sources": [
         "Simon Willison"
       ],
-      "published": "2026-11-15T23:20:27+00:00",
+      "published": "2026-11-15T23:18:17+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the quer",
+      "summary_raw": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "ai",
@@ -819,14 +1959,14 @@
       },
       "members": [
         {
-          "title": "datasette 1.0a43",
-          "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+          "title": "datasette 0.65.6",
+          "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
           "source": "Simon Willison",
           "lang": "en",
-          "published": "2026-11-15T23:20:27+00:00"
+          "published": "2026-11-15T23:18:17+00:00"
         }
       ],
-      "score": 22,
+      "score": 17,
       "score_parts": [
         {
           "label": "来源",
@@ -838,7 +1978,7 @@
         },
         {
           "label": "近期",
-          "value": 10
+          "value": 5
         },
         {
           "label": "分析与方法",
@@ -851,15 +1991,15 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 7.680552049444445,
+      "age_hours": 32.96963268166667,
       "evergreen": false,
       "content_type": "新闻",
       "section": "ai",
-      "body": "15th November 2026\nI've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete.\nThe biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method.\nThere are a couple of security fixes, one of which I deemed deserving of a GitHub advisory: private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed).\nThere are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0. A new <datasette-copy-button>\nWeb Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, including contributions by Zihan Dai, Peter Olkhovets, Ilya Khalafi, and Ankita Advitot.\nThe feature I'm most excited about is a pretty tiny one: I've added CSS multi-page view transitions to Datasette! Here's the commit - key CSS is as follows:\n/* Enable cross-document view transitions,\nfor anyone without prefers-reduced-motion */\n@media (prefers-reduced-motion: no-preference) {\n@view-transition {\nnavigation: auto;\n}\n}\n/* .facet-results should morph from old position to new */\nhtml:active-view-transition .content > .facet-results {\nview-transition-name: facet-results;\n}\n/* So should a .table-wrapper, provided it contains .rows-and-columns */\nhtml:active-view-transition .table-wrapper:has(> table.rows-and-columns) {\nview-transition-name: rows-table;\n}\nWith that in place, navigations within Datasette - still staunchly a multi-page application - feel more like an SPA. This works on Safari and Chrome at the moment and I believe supports for Firefox is due to land in Firefox 162 on December 8th 2026 (seeing as they are no longer feature-flagged in Firefox Nightly.)\nRecent articles\n- Locating the source of a mysterious beep with Claude - 9th November 2026\n- Hide your slop PR descriptions behind <details><summary> - 9th November 2026\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026\n- The U.S. Census Bureau and “Super Intelligence” - 2nd November 2026",
+      "body": "15th November 2026\nI backported a minor security fix from 1.0a43:\nFixed a security issue where a database registered using\nadd_database(db, name=..., route=...)\nwith a route that differs from its name could be downloaded from/<route>.db\nby actors who were denied access to it. [...]\nRecent articles\n- Locating the source of a mysterious beep with Claude - 9th November 2026\n- Hide your slop PR descriptions behind <details><summary> - 9th November 2026\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026\n- The U.S. Census Bureau and “Super Intelligence” - 2nd November 2026",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "Datasette 1.0a43发布：流式输出与多页视图过渡",
-      "what": "Simon Willison发布Datasette 1.0a43，新增输出渲染器流式支持，内置TSV和CSV导出已采用，插件可通过Response.stream()注册；修复私有存储查询可被泄露标题和SQL的安全问题，并加入CSS多页视图过渡等改进。",
+      "title_cn": "Datasette 0.65.6 回移数据库访问权限安全修复",
+      "what": "Simon Willison 发布 Datasette 0.65.6，从 1.0a43 回移一项安全修复：当通过 add_database(db, name=..., route=...) 注册的数据库其 route 与 name 不一致时，原本无权访问该数据库的用户仍可从 /<route>.db 下载它。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -867,14 +2007,14 @@
   ],
   "ai_features": [],
   "stats": {
-    "events": 174,
-    "news": 9,
-    "features": 0,
-    "ai": 2,
+    "events": 182,
+    "news": 16,
+    "features": 3,
+    "ai": 6,
     "ai_features": 0,
-    "review_candidates": 19,
-    "multi_source": 0,
-    "deep_read": 0,
+    "review_candidates": 18,
+    "multi_source": 5,
+    "deep_read": 3,
     "ai_deep_read": 0
   }
 }
