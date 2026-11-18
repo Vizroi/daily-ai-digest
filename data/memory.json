@@ -1,267 +1,4 @@
 {
-  "799bc7bf7763a923": {
-    "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
-    "first_seen": "2026-10-16",
-    "times": 3,
-    "last_seen": "2026-10-18"
-  },
-  "0ccfce23cd33c8db": {
-    "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-    "first_seen": "2026-10-16",
-    "times": 3,
-    "last_seen": "2026-10-18"
-  },
-  "059d26b633aef451": {
-    "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
-    "first_seen": "2026-10-17",
-    "times": 2,
-    "last_seen": "2026-10-18"
-  },
-  "4826fd3bcaec21cd": {
-    "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "last_seen": "2026-10-18"
-  },
-  "388dc1849114c9f5": {
-    "title": "How the Claude Code team does code review",
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "last_seen": "2026-10-18"
-  },
-  "e8baeb3f29e1eb39": {
-    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "last_seen": "2026-10-18"
-  },
-  "21d1af53abe02afe": {
-    "title": "Sega and Creative Assembly remove Total War: Shogun 2 remaster from sale as it \"falls short of both your expectations and our own standards\"",
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "last_seen": "2026-10-18"
-  },
-  "1cebe9fd96c4220e": {
-    "title": "After months of development, I've finally released my first Medieval Combat System for Unreal Engine 5!",
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "last_seen": "2026-10-18"
-  },
-  "5fe344b3a319f53a": {
-    "title": "Unreal 5.8 - Materials Masterclass - Chapter 10: World Position Offset effects",
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "last_seen": "2026-10-18"
-  },
-  "3261073aa1fa7063": {
-    "title": "UE5: Pawn Possess Camera",
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "last_seen": "2026-10-18"
-  },
-  "67558372a4f9eebd": {
-    "title": "This Tool Speeds Up Texturing Workflow Between Painter & UE5",
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "last_seen": "2026-10-18"
-  },
-  "a5b9cc3126c7fc61": {
-    "title": "Submitting UE4 dedicated server build to Playfab always gets unhealthy region.",
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "last_seen": "2026-10-18"
-  },
-  "fd853ec5": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "当《地平线》老兵请来了《皮囊》的编剧，我们终于等到了剧情类赛车游戏？",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.gcores.com/articles/221055"
-    ]
-  },
-  "4299cc79": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "How Soft Crunch Games built Foxy Dumplings for every platform",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://unity.com/blog/foxy-dumplings-cross-platform-development"
-    ]
-  },
-  "f88536e6": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Lo-Fi×心理悬疑冒险游戏《Rain98》Steam体验版正式上线，游玩时长超过3小时",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.gcores.com/articles/221050"
-    ]
-  },
-  "c40e84ba": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "This Language-Based Puzzle Game Is Hand-Painted in Watercolor",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://80.lv/articles/this-language-based-puzzle-game-is-hand-painted-in-watercolor"
-    ]
-  },
-  "86217afe": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "穿越春秋乱世，靠种地进爵复国？《竹泉记》Demo上线",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.gameres.com/901203229.html"
-    ]
-  },
-  "17551ba4": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "【抽奖】多人合作饮品店经营游戏《杯杯倒满》于10月16日推出1.0正式版",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.gcores.com/articles/220998"
-    ]
-  },
-  "06b7376a": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "《极乐迪斯科》精神继承者来信，我们收到了关于新作的500页实体书",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "http://www.chuapp.com/article/291691.html"
-    ]
-  },
-  "e6a9bd79": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "How Star Wars: Galactic Racer kept the core team small and sustainable through \"distributed development\"",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.gamesindustry.biz/how-star-wars-galactic-racer-kept-the-core-team-small-and-sustainable-through-distributed-development"
-    ]
-  },
-  "9d0363c2": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Getting Over It Meets Nokia Nostalgia in New Indie Game Flipping Is Hard",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://80.lv/articles/getting-over-it-meets-nokia-nostalgia-in-new-indie-game-flipping-is-hard"
-    ]
-  },
-  "84ca6e87": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Check out the top Fortnite islands from the UEFN Student Bootcamp",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.unrealengine.com/learning/check-out-the-top-fortnite-islands-from-the-uefn-student-bootcamp"
-    ]
-  },
-  "82a57bda": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Classic Tabletop Adventure HeroQuest Is Coming to PC",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://80.lv/articles/classic-tabletop-adventure-heroquest-is-coming-to-pc"
-    ]
-  },
-  "b135c851": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Caves of Qud: Diaspora breaks new ground by being the first early access DLC release on Steam",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.gamedeveloper.com/pc/caves-of-qud-diaspora-breaks-new-ground-by-being-the-first-early-access-dlc-release-on-steam"
-    ]
-  },
-  "01bd46a1": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Kenney Shape is now free, forever! ✨",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://kenney.itch.io/kenney-shape",
-      "https://kenney.itch.io/kenney-shape/devlog/1708644/kenney-shape-is-now-free-forever-"
-    ]
-  },
-  "034d9f5d": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Hidden Design Decisions Behind Believable Open-World Cities",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://80.lv/articles/hidden-design-decisions-behind-believable-open-world-cities"
-    ]
-  },
-  "426fdd4f": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "I had just 8 hours to design a combat system",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://danfelder.net/2026/10/15/i-had-just-8-hours-to-design-a-combat-system"
-    ]
-  },
-  "2a9ae402": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "游戏设计左道，网状build（构筑）过程设计",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.gameres.com/901203146.html"
-    ]
-  },
-  "2a01353c": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "How the Claude Code team does code review",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://claude.dev/blog/solving-code-review-at-anthropic"
-    ]
-  },
-  "ai-deepseek-20261017": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "开放自研搜索 API；DeepSeek-V4.1-Flash-1017 更新",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://api-docs.deepseek.com/guides/search",
-      "https://api-docs.deepseek.com/zh-cn/updates"
-    ]
-  },
-  "ai-ecdsa-20261016": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Claude reveals ECDSA curve origins",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.anthropic.com/research/ecdsa-curve-origins"
-    ]
-  },
-  "ai-krea-20261015": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Introducing Krea 3",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://www.krea.ai/blog/introducing-krea-3"
-    ]
-  },
-  "ai-chirp-pong-20261015": {
-    "first_seen": "2026-10-18",
-    "times": 1,
-    "title": "Tool: Chirp Pong",
-    "last_seen": "2026-10-18",
-    "urls": [
-      "https://simonwillison.net/2026/Oct/15/chirp-pong"
-    ]
-  },
   "b7cdaa17e535038d": {
     "first_seen": "2026-10-19",
     "times": 1,
@@ -5679,6 +5416,188 @@
     "last_seen": "2026-11-17",
     "urls": [
       "https://simonwillison.net/2026/Nov/15/datasette-2"
+    ]
+  },
+  "7068266b3472d68c": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "《索尼克赛车 交叉世界》免费更新“索尼克（迈凯伦车队）”正式上线",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://www.gcores.com/articles/222484"
+    ]
+  },
+  "1a38c34b9e1fd532": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "《文明》《幽浮》开发工作室Firaxis Games裁员三分之一",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://www.gamedeveloper.com/business/take-two-lays-off-firaxis-employees-on-eve-of-grand-theft-auto-vi-launch",
+      "https://www.gamesindustry.biz/report-civilization-dev-firaxis-lays-off-a-third-of-its-staff-following-development-difficulties-with-xcom-sequel",
+      "https://www.gcores.com/articles/222466"
+    ]
+  },
+  "36fac1c1a0c9fd02": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "2026年TGA大奖提名公布，《GTA6》获八项提名",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://80.lv/articles/the-game-awards-reveals-its-2026-goty-nominees",
+      "https://www.gamedeveloper.com/marketing/zelda-and-grand-theft-auto-headline-the-nominees-for-the-2027-game-awards",
+      "https://www.gcores.com/articles/222464"
+    ]
+  },
+  "0ee4b560e5b7c35c": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "5亿做研发、1亿建生态，B站旗舰新作想重塑三国SLG规则",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "http://www.chuapp.com/article/291763.html",
+      "https://www.gameres.com/901203597.html"
+    ]
+  },
+  "beb513f25520e564": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "European Game Worker unions publish manifesto warning against unchecked AI usage",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://www.gamedeveloper.com/production/europe-s-game-worker-unions-publish-a-manifesto-warning-against-unchecked-ai-usage",
+      "https://www.gamesindustry.biz/iwgb-game-workers-union-leads-manifesto-on-generative-ai-use-in-the-industry"
+    ]
+  },
+  "0e6665e95818e2c5": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "Xbox's Project Helix \"is not a PC that can also play console games\"",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://www.gamedeveloper.com/console/new-xbox-codenamed-helix-gets-a-few-new-details",
+      "https://www.gamesindustry.biz/xboxs-project-helix-is-not-a-pc-that-can-also-play-console-games"
+    ]
+  },
+  "973f9e4a2dbd6081": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "《NBA 2K27》与GTA联动！罪恶城版正式公布，这就是最好的一代NBA2K！",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://www.gameres.com/901203608.html",
+      "https://www.gcores.com/articles/222447"
+    ]
+  },
+  "7c3f41f8e854d97f": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "Unite Tokyo 2026 Keynote recap: Built for the speed of your ideas",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://unity.com/blog/unite-tokyo-2026-keynote-recap"
+    ]
+  },
+  "013119b00d2d3cf4": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "EVE Vanguard、《神力科莎：拉力》(Assetto Corsa Rally) 等游戏支持 DLSS 4.5",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://www.gameres.com/901203619.html",
+      "https://www.gameres.com/901203620.html"
+    ]
+  },
+  "34d2bcebb3e64690": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "Creating Real-Time Desert Temple Environment In Unreal Engine 5",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://80.lv/articles/creating-real-time-desert-temple-environment-in-unreal-engine-5"
+    ]
+  },
+  "4c2a88d2b4b97a78": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "How BeamNG.drive Brought Its Soft-Body Physics to PS5",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://80.lv/articles/how-beamng-drive-brought-its-soft-body-physics-to-ps5"
+    ]
+  },
+  "c7ed581dd29a72ec": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "This year's video game Grammy nominations reveal Academy's potential favor against songs with vocals",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://www.gamedeveloper.com/audio/grammy-nominations-for-video-games-announced-unbeatable-developers-lament-the-preference-against-vocal-songs"
+    ]
+  },
+  "373bdec4ec20b9be": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "Meet the company that finds Chinese game developers to work on Western IP",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://www.gamesindustry.biz/meet-the-company-that-finds-chinese-game-developers-to-work-on-western-ip"
+    ]
+  },
+  "55b620dbdd4a84ff": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "UK tribunal dismisses £2bn PlayStation class-action suit which alleged unfair pricing over 30% cut on PlayStation Store",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://www.gamesindustry.biz/uk-tribunal-dismisses-2bn-playstation-class-action-suit-which-alleged-unfair-pricing-over-30-cut-on-playstation-store"
+    ]
+  },
+  "960effef1fb74906": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "This Trippy Cube Transformation Will Make Your Brain Hurt",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://80.lv/articles/this-trippy-cube-transformation-will-make-your-brain-hurt"
+    ]
+  },
+  "8fa79bf08f1f264d": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "Introducing GPT-6.2 Astra and Sol",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+      "https://www.qbitai.com/2026/11/510707.html"
+    ]
+  },
+  "2f15f42c3a4a504a": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "Introducing ChatGPT for Sales",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://openai.com/index/introducing-chatgpt-for-sales"
+    ]
+  },
+  "993397e044c136b9": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "External sandboxes for coding agents",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents"
+    ]
+  },
+  "a2118c8605f9a827": {
+    "first_seen": "2026-11-18",
+    "times": 1,
+    "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+    "last_seen": "2026-11-18",
+    "urls": [
+      "https://simonwillison.net/2026/Nov/17/datasette-lite"
     ]
   }
 }

@@ -4,209 +4,161 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 16 条，策划精选 3 篇，AI 快讯 6 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 15 条，策划精选 0 篇，AI 快讯 4 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 17 Nov 2026 16:16:27 +0800</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 15:49:28 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《我带过的最差一届》首周销量60万份并推出首次大更新</title>
-  <link>https://www.gameres.com/901203607.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f127911a51b544b78ccc8f5a</guid>
-  <pubDate>Tue, 17 Nov 2026 07:08:00 +0000</pubDate>
+  <title>《索尼克赛车 交叉世界》上线迈凯伦车队联动免费更新</title>
+  <link>https://www.gcores.com/articles/222484</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-195d75bc1e3ae537dbd44619</guid>
+  <pubDate>Wed, 18 Nov 2026 05:00:58 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>发行方文章称，《我带过的最差一届》首周销量突破60万份，并推出首次大型更新：新增双层大巴地图「秋游大巴车」，支持邀请最近同玩玩家组队，新增上课铃权限与语音提示，并依据首周胜局数据调整部分地图平衡。</p><p><small>来源：<a href="https://www.gameres.com/901203607.html">GameRes</a></small></p><p><small>原文发布：2026-11-17 15:08（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>世嘉宣布《索尼克赛车 交叉世界》免费更新上线，新增赛车手“索尼克（迈凯伦车队）”和原创赛车“McLaren Racing Car”；11月20日至30日举办限时团队活动，玩家分三队竞速比拼活动点数，可获限定道具。</p><p><small>来源：<a href="https://www.gcores.com/articles/222484">机核</a></small></p><p><small>原文发布：2026-11-18 13:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Gamirror Games宣布发行骰子计算Roguelike卡牌游戏《算鼠英雄》</title>
-  <link>https://www.gameres.com/901203606.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1c85efc07617c92c3e3e2e53</guid>
-  <pubDate>Tue, 17 Nov 2026 04:01:00 +0000</pubDate>
+  <title>Firaxis Games裁员约60人，工作室负责人将离职</title>
+  <link>https://www.gcores.com/articles/222466</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4867bd781c7a9cc74106675a</guid>
+  <pubDate>Wed, 18 Nov 2026 01:10:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>发行商Gamirror Games宣布代理发行Filiokus团队开发的骰子计算主题Roguelike卡牌构筑游戏《算鼠英雄》，玩家将骰子数值填入卡牌算式，结果与敌人数值相等即可清除敌人。全新Demo同日更新，新增卡牌与关卡生成系统、机制变量、精英敌人与Boss及新章节。</p><p><small>来源：<a href="https://www.gameres.com/901203606.html">GameRes</a></small></p><p><small>原文发布：2026-11-17 12:01（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Take-Two旗下开发《文明》《幽浮》的Firaxis Games宣布裁员约60人，约占员工总数三分之一；2K证实工作室负责人Heather Hazen将离职，并称此次重组旨在聚焦设计、技术与玩家体验。</p><p><small>来源：<a href="https://www.gcores.com/articles/222466">机核</a> · <a href="https://www.gamesindustry.biz/report-civilization-dev-firaxis-lays-off-a-third-of-its-staff-following-development-difficulties-with-xcom-sequel">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/business/take-two-lays-off-firaxis-employees-on-eve-of-grand-theft-auto-vi-launch">Game Developer</a></small></p><p><small>原文发布：2026-11-18 09:10（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《我的世界：地下城2》首个付费DLC将于12月1日上线</title>
-  <link>https://www.gcores.com/articles/222421</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d52d514a6d7d1551497d7c58</guid>
-  <pubDate>Tue, 17 Nov 2026 00:45:00 +0000</pubDate>
+  <title>2026年TGA提名公布：《GTA6》获八项提名</title>
+  <link>https://www.gcores.com/articles/222464</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4ef48092dab093f9fd64f2f2</guid>
+  <pubDate>Tue, 17 Nov 2026 18:11:57 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《我的世界：地下城2》首个付费DLC“The Humblers Awaken”定于12月1日上线，延续主线剧情，新增任务、地图、装备与外观；同日推出含新武器、盔甲、挑战及初代角色皮肤的免费更新，并推出双游戏可用的雪傀儡主题披风。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222421">机核</a></small></p><p><small>原文发布：2026-11-17 08:45（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>2026年TGA公布各奖项提名名单，《GTA6》获包括年度游戏在内的八项提名，任天堂是提名游戏最多的厂商；材料列出年度游戏、最佳指导、叙事、艺术指导、音乐、音效和演出等提名。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222464">机核</a> · <a href="https://www.gamedeveloper.com/marketing/zelda-and-grand-theft-auto-headline-the-nominees-for-the-2027-game-awards">Game Developer</a> · <a href="https://80.lv/articles/the-game-awards-reveals-its-2026-goty-nominees/">80.lv</a></small></p><p><small>原文发布：2026-11-18 02:11（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Unity CLI 1.0正式发布：面向构建机器与AI代理</title>
-  <link>https://unity.com/the-unity-cli-1.0-is-here</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-41113ba3309605a81bb095c9</guid>
+  <title>B站三国SLG《三国志：王道天下》公布三维战场与商业化方案</title>
+  <link>https://www.gameres.com/901203597.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bd835f15c3340651511c733d</guid>
+  <pubDate>Tue, 17 Nov 2026 00:56:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>B站发行、光荣特库摩授权的三国SLG《三国志：王道天下》宣布12月24日公测，研发投入5亿元，首年投入不低于1亿元现金及超1亿元流量扶持创作者与同盟生态，并公布三维战场、不重复橙卡池、终身免费月卡等设计。</p><p><small>来源：<a href="https://www.gameres.com/901203597.html">GameRes</a> · <a href="http://www.chuapp.com/article/291763.html">触乐</a></small></p><p><small>原文发布：2026-11-17 08:56（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>欧洲游戏工会联合发布宣言，警示不受约束的生成式AI使用</title>
+  <link>https://www.gamedeveloper.com/production/europe-s-game-worker-unions-publish-a-manifesto-warning-against-unchecked-ai-usage</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d15e54805e641598d0a48622</guid>
+  <pubDate>Tue, 17 Nov 2026 21:21:17 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：European Game Worker unions publish manifesto warning against unchecked AI usage</small></p><p>IWGB游戏工人工会分会与爱尔兰、西班牙、米兰的游戏工会成员联合发布宣言，从社会经济、环境、伦理和制作质量等角度阐述生成式AI对游戏从业者的风险，并提出包括尽可能停止使用生成式AI在内的应对建议。</p><p><small>来源：<a href="https://www.gamedeveloper.com/production/europe-s-game-worker-unions-publish-a-manifesto-warning-against-unchecked-ai-usage">Game Developer</a> · <a href="https://www.gamesindustry.biz/iwgb-game-workers-union-leads-manifesto-on-generative-ai-use-in-the-industry">GamesIndustry</a></small></p><p><small>原文发布：2026-11-18 05:21（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Xbox高管澄清Project Helix定位：是能玩PC游戏的游戏主机</title>
+  <link>https://www.gamesindustry.biz/xboxs-project-helix-is-not-a-pc-that-can-also-play-console-games</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ebe8d9255354f46f975c049e</guid>
+  <pubDate>Tue, 17 Nov 2026 11:44:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Xbox&#x27;s Project Helix &quot;is not a PC that can also play console games&quot;</small></p><p>Xbox下一代业务副总裁Jason Ronald在Xbox 25周年杂志中澄清，Project Helix是能玩PC游戏的主机，而非能玩主机游戏的PC；他称目标是降低游玩门槛，同时为硬核玩家保留设置与性能自定义空间，并提到神经渲染是重点方向。</p><p><small>来源：<a href="https://www.gamesindustry.biz/xboxs-project-helix-is-not-a-pc-that-can-also-play-console-games">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/console/new-xbox-codenamed-helix-gets-a-few-new-details">Game Developer</a></small></p><p><small>原文发布：2026-11-17 19:44（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>《NBA 2K27》公布与GTA罪恶城联动及第三赛季内容</title>
+  <link>https://www.gameres.com/901203608.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4162d02bea1963bea1e82a4a</guid>
+  <pubDate>Tue, 17 Nov 2026 08:49:00 +0000</pubDate>
+  <category>今日游戏日报</category>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>2K宣布《NBA 2K27》与Rockstar Games联动，推出罪恶城版，封面为巴姆·阿德巴约；第三赛季11月28日上线，持续七周，加入罪恶城主题公园、球馆、服饰与活动，并介绍ProPLAY动作、DLSS 5及MyCAREER世代模式。</p><p><small>来源：<a href="https://www.gameres.com/901203608.html">GameRes</a> · <a href="https://www.gcores.com/articles/222447">机核</a></small></p><p><small>原文发布：2026-11-17 16:49（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>Unite Tokyo 2026主题演讲回顾：Unity 7与开发工具更新</title>
+  <link>https://unity.com/blog/unite-tokyo-2026-keynote-recap</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-cc5d749dda04d83866fd819c</guid>
   <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The Unity CLI 1.0 is here!</small></p><p>Unity宣布Unity CLI与Pipeline包结束测试、发布1.0版本，支持在终端安装管理编辑器与项目、驱动运行中的编辑器执行命令，并新增代理插件安装、弹窗应答、构建、版本控制摘要、项目审计与稳定JSON输出等能力。</p><p><small>来源：<a href="https://unity.com/the-unity-cli-1.0-is-here">Unity</a></small></p><p><small>原文发布：2026-11-17 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Unite Tokyo 2026 Keynote recap: Built for the speed of your ideas</small></p><p>Unity在Unite Tokyo 2026主题演讲中介绍Unity 7，包括ECS for All、默认内置可扩展图形、Unity CLI 1.0、面向编码代理的官方插件、Asset Library插件，并宣布Synty Studios加入Unity及面向独立团队的Unity Fellowship计划。</p><p><small>来源：<a href="https://unity.com/blog/unite-tokyo-2026-keynote-recap">Unity</a></small></p><p><small>原文发布：2026-11-17 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Unity推出独立开发者5万美元资助计划</title>
-  <link>https://80.lv/articles/unity-offers-indie-developers-usd50k-grants-through-new-fellowship-program/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-38556265babb4a2eff56c919</guid>
-  <pubDate>Mon, 16 Nov 2026 15:53:00 +0000</pubDate>
+  <title>EVE Vanguard、《神力科莎：拉力》等游戏支持DLSS 4.5</title>
+  <link>https://www.gameres.com/901203620.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-650285f118f476d58a2e6473</guid>
+  <pubDate>Wed, 18 Nov 2026 03:45:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Unity Offers Indie Developers $50K Grants Through New Fellowship Program</small></p><p>Unity宣布推出Unity Fellowship计划，面向约一年后上线的独立游戏团队，选出10支团队，每队获5万美元现金资助且不占股权、无需偿还，另提供Unity对接人、开发与推广支持、行业人脉、活动露出及公关营销支持。申请需提交游戏视频、可玩版本、开发路线图等，入选名单计划2027年3月GDC公布。</p><p><small>来源：<a href="https://80.lv/articles/unity-offers-indie-developers-usd50k-grants-through-new-fellowship-program/">80.lv</a> · <a href="https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment">GamesIndustry</a> · <a href="https://www.gamedeveloper.com/business/unity-to-support-indies-with-cash-and-dedicated-support-through-new-fellowship-program">Game Developer</a></small></p><p><small>原文发布：2026-11-16 23:53（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>英伟达汇总本周支持DLSS 4.5的作品：EVE Vanguard开启7×24小时Alpha测试并首发支持；《神力科莎：拉力》将升级至DLSS 4.5并新增动态多帧生成；Blender 5.3新增光线重建视口降噪；《光年边疆》1.0与《拆迁》更新加入相关支持。</p><p><small>来源：<a href="https://www.gameres.com/901203620.html">GameRes</a> · <a href="https://www.gameres.com/901203619.html">GameRes</a></small></p><p><small>原文发布：2026-11-18 11:45（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《剑侠世界4：无限》“万花惊鸿”资料片上线，新增万花门派</title>
-  <link>http://www.chuapp.com/article/291768.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-961dbb6e3951e48447f7d3a6</guid>
-  <pubDate>Tue, 17 Nov 2026 04:13:00 +0000</pubDate>
+  <title>在虚幻引擎5中制作实时沙漠神庙场景</title>
+  <link>https://80.lv/articles/creating-real-time-desert-temple-environment-in-unreal-engine-5/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7f93587ae3d7f5f668624729</guid>
+  <pubDate>Wed, 18 Nov 2026 02:49:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>西山居《剑侠世界4：无限》于11月17日上线“万花惊鸿”资料片，同步开启万人新服。新增门派万花，定位治疗、辅助与远程攻击，使用笔与扇双武器；征战天下第二阶段、衡道书新关卡、药王谷探索玩法开放，跨服大世界“山河线”预计明年上线。</p><p><small>来源：<a href="http://www.chuapp.com/article/291768.html">触乐</a> · <a href="https://www.gameres.com/901203603.html">GameRes</a></small></p><p><small>原文发布：2026-11-17 12:13（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Creating Real-Time Desert Temple Environment In Unreal Engine 5</small></p><p>3D环境美术师Marc Castells介绍其虚幻引擎5沙漠神庙场景的制作过程，包括基于Edward Barons概念图扩展构图、在Maya中建模并复用建筑资产、用SpeedTree制作植被、ZBrush雕刻岩石，以及用RGB遮罩混合材质、Runtime Virtual Texturing和基于遮蔽的材质函数处理资产与地形的衔接。</p><p><strong>背景与变化</strong><br>作者以复用主神庙资产和Lattice变形控制制作量，用RGB遮罩在单张纹理中存储三通道遮罩以控制材质过渡，并说明构图扩展、光照与阴影分层服务于突出主神庙这一焦点。</p><p><strong>策划视角</strong><br>可关注作者如何在概念图未覆盖的视角区域延续原有视觉语言，以及RGB遮罩与Runtime Virtual Texturing两种衔接方案在实际场景中的取舍依据。</p><p><small>来源：<a href="https://80.lv/articles/creating-real-time-desert-temple-environment-in-unreal-engine-5/">80.lv</a></small></p><p><small>原文发布：2026-11-18 10:49（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Coffee Stain收购破产工作室《编年史：中世纪》所有权</title>
-  <link>https://www.gcores.com/articles/222417</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-65ffac23a50f86d87157de1a</guid>
-  <pubDate>Tue, 17 Nov 2026 01:00:00 +0000</pubDate>
+  <title>BeamNG.drive如何将软体物理带到PS5</title>
+  <link>https://80.lv/articles/how-beamng-drive-brought-its-soft-body-physics-to-ps5/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-304ab0aef2cc4ccf5cee146d</guid>
+  <pubDate>Tue, 17 Nov 2026 20:07:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Coffee Stain从破产的Raw Power Games手中收购中世纪沙盒游戏《编年史：中世纪》所有权，作价3675万丹麦克朗，资产归入新公司，Coffee Stain持股75%，原开发团队少数核心成员持股25%。</p><p><small>来源：<a href="https://www.gcores.com/articles/222417">机核</a> · <a href="https://www.gamesindustry.biz/coffee-stain-acquires-chronicles-medieval-ip-from-bankrupt-raw-power-games">GamesIndustry</a></small></p><p><small>原文发布：2026-11-17 09:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How BeamNG.drive Brought Its Soft-Body Physics to PS5</small></p><p>BeamNG团队介绍PS5版移植：保留与PC相同的软体物理模拟和车辆结构，通过优化内存占用、安装体积与CPU/GPU性能实现功能对等，并重做手柄UI与新手引导，同时推进分屏模式。</p><p><strong>背景与变化</strong><br>作者以物理一致性为核心取舍：同一车辆在PC与PS5行为一致，便于跨平台维护；优化尽量跨平台共享，PS5与PS5 Pro画质预设按常见玩法场景选择。</p><p><strong>策划视角</strong><br>可追问：在固定硬件预算下，团队如何权衡同屏车辆数量、分屏开销与帧率稳定，其跨平台优化清单能否复用到其他物理密集型游戏？</p><p><small>来源：<a href="https://80.lv/articles/how-beamng-drive-brought-its-soft-body-physics-to-ps5/">80.lv</a></small></p><p><small>原文发布：2026-11-18 04:07（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>宫本茂将获DICE Awards首届传奇奖</title>
-  <link>https://www.gamedeveloper.com/console/shigeru-miyamoto-selected-as-inaugural-legend-award-inductee-at-d-i-c-e-awards</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dad768f154efac49e6d74807</guid>
-  <pubDate>Mon, 16 Nov 2026 20:15:00 +0000</pubDate>
+  <title>格莱美游戏配乐奖提名名单公布，开发者称人声歌曲不受评审青睐</title>
+  <link>https://www.gamedeveloper.com/audio/grammy-nominations-for-video-games-announced-unbeatable-developers-lament-the-preference-against-vocal-songs</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ff31feae2cc3c89c2996919f</guid>
+  <pubDate>Tue, 17 Nov 2026 17:30:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Shigeru Miyamoto selected as inaugural Legend Award inductee at DICE Awards</small></p><p>美国互动艺术与科学学院宣布，1977年加入任天堂、创作了马里奥、林克、大金刚等角色的宫本茂，将在2027年2月18日举行的第30届DICE Awards上获得新设立的首届传奇奖。该奖每十年只授予一位获奖者。</p><p><small>来源：<a href="https://www.gamedeveloper.com/console/shigeru-miyamoto-selected-as-inaugural-legend-award-inductee-at-d-i-c-e-awards">Game Developer</a> · <a href="https://www.gamesindustry.biz/shigeru-miyamoto-to-receive-inaugural-legend-award-at-the-30th-dice-awards">GamesIndustry</a></small></p><p><small>原文发布：2026-11-17 04:15（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This year&#x27;s video game Grammy nominations reveal Academy&#x27;s potential favor against songs with vocals</small></p><p>文章列出本届格莱美游戏与互动媒体配乐奖提名作品，并引用独立游戏《Unbeatable》主创RJ Lake的说法：其提交参评表后收到格莱美方面回复，称该类别评审不倾向人声歌曲，但奖项说明中并无此硬性规定。</p><p><small>来源：<a href="https://www.gamedeveloper.com/audio/grammy-nominations-for-video-games-announced-unbeatable-developers-lament-the-preference-against-vocal-songs">Game Developer</a></small></p><p><small>原文发布：2026-11-18 01:30（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>抖音创作者围绕《影之刃零》的多元内容生态</title>
-  <link>https://www.gcores.com/articles/222424</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ffd7eccd5b17e6ae941f3be2</guid>
-  <pubDate>Mon, 16 Nov 2026 15:12:25 +0000</pubDate>
+  <title>Yodo1与AMC合作，为中国开发商对接西方IP</title>
+  <link>https://www.gamesindustry.biz/meet-the-company-that-finds-chinese-game-developers-to-work-on-western-ip</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-edd409998e5eb6f58562ae96</guid>
+  <pubDate>Tue, 17 Nov 2026 16:24:30 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>文章介绍《影之刃零》发售前后抖音平台上的创作者内容：女流66在发售前24小时探访灵游坊，与梁其伟、战斗总监马千里等交流研发与动作设计；发售后出现隐藏BOSS攻略、全流程收集、剧情解说、自制MOD让BOSS对战、用嘴操作挑战高难度，以及角色脸模演员亲自游玩等内容。</p><p><small>来源：<a href="https://www.gcores.com/articles/222424">机核</a> · <a href="https://www.gameres.com/901203579.html">GameRes</a></small></p><p><small>原文发布：2026-11-16 23:12（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Meet the company that finds Chinese game developers to work on Western IP</small></p><p>Yodo1宣布与AMC达成数字授权合作，负责寻找并支持中国游戏开发商和发行商，基于《行尸走肉》等AMC旗下IP开发游戏。Yodo1联合CEO Henry Fong介绍公司从2011年北京手游发行商起步，2019年开展品牌入游戏业务，已与孩之宝、Netflix等合作。</p><p><small>来源：<a href="https://www.gamesindustry.biz/meet-the-company-that-finds-chinese-game-developers-to-work-on-western-ip">GamesIndustry</a></small></p><p><small>原文发布：2026-11-18 00:24（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Unity收购Synty Studios，其美术资产将接入Unity Spark</title>
-  <link>https://unity.com/blog/synty-studios-acquisition</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-86f797db2b06fa82db273747</guid>
-  <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+  <title>英国法庭驳回针对索尼PlayStation商店抽成20亿英镑集体诉讼</title>
+  <link>https://www.gamesindustry.biz/uk-tribunal-dismisses-2bn-playstation-class-action-suit-which-alleged-unfair-pricing-over-30-cut-on-playstation-store</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-75fa7efbf97d2e62c26647ef</guid>
+  <pubDate>Tue, 17 Nov 2026 16:17:40 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Synty Studios Joins Unity, Bringing Artist-Made Assets to Unity Spark</small></p><p>Unity宣布收购Synty Studios，其创始人与美术团队加入Unity，POLYGON系列资产库将接入AI原生游戏创作平台Unity Spark，后者今年晚些时候开启封闭测试。现有Unity编辑器用户的使用、授权与工作流不变，免费资产仍免费。</p><p><small>来源：<a href="https://unity.com/blog/synty-studios-acquisition">Unity</a></small></p><p><small>原文发布：2026-11-16 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：UK tribunal dismisses £2bn PlayStation class-action suit which alleged unfair pricing over 30% cut on PlayStation Store</small></p><p>英国竞争上诉法庭驳回2022年由Alex Neill提起的集体诉讼，该诉讼指控索尼通过封闭生态对PlayStation商店下载收取过高费用，涉及1220万用户、索赔约20亿英镑。法庭认为实体版和竞品主机提供了足够替代选择。</p><p><small>来源：<a href="https://www.gamesindustry.biz/uk-tribunal-dismisses-2bn-playstation-class-action-suit-which-alleged-unfair-pricing-over-30-cut-on-playstation-store">GamesIndustry</a></small></p><p><small>原文发布：2026-11-18 00:17（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Catino Town众筹访谈：从TikTok动画到Steam游戏</title>
-  <link>https://unity.com/blog/funding-unity-game-catino-town</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a77bdbfed3c84fc6d4dce83a</guid>
-  <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+  <title>艺术家用Blender几何节点制作狭缝扫描立方体变形效果</title>
+  <link>https://80.lv/articles/this-trippy-cube-transformation-will-make-your-brain-hurt/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4012165d32be79f374e2cf9c</guid>
+  <pubDate>Tue, 17 Nov 2026 14:06:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：“Follow the fun”: a crowdfunding Q&amp;A with Catino Town</small></p><p>Unity采访独立开发者Alex Tino，讲述其将TikTok动画品牌Catino World改编为虚拟宠物游戏Catino Town的过程，包括众筹准备、目标设定、周边奖励设计与Unity工具使用经验。</p><p><small>来源：<a href="https://unity.com/blog/funding-unity-game-catino-town">Unity</a></small></p><p><small>原文发布：2026-11-16 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This Trippy Cube Transformation Will Make Your Brain Hurt</small></p><p>80.lv报道艺术家Ernestas Grigonis用Blender几何节点制作狭缝扫描风格的3D立方体变形动画，通过嵌套Repeat Zone逐帧推进程序化动画并切出平面切片，另展示蛇咬尾造型。</p><p><strong>背景与变化</strong><br>作者称用合成软件做更简单，但难以精确控制时间推进，需极高帧率渲染或帧插值，效果可能不佳，因此选择几何节点方案。</p><p><strong>策划视角</strong><br>可研究嵌套Repeat Zone在时间维度上的切片控制方式，以及它与合成方案在可控性和渲染成本上的取舍。</p><p><small>来源：<a href="https://80.lv/articles/this-trippy-cube-transformation-will-make-your-brain-hurt/">80.lv</a></small></p><p><small>原文发布：2026-11-17 22:06（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Xbox与DJ Khaled推出请假玩GTA 6的玩笑处方</title>
-  <link>https://80.lv/articles/xbox-dj-khaled-prescribe-a-day-off-to-play-gta-6/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-27a23aedb78b843681e94d13</guid>
-  <pubDate>Tue, 17 Nov 2026 07:44:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Xbox &amp; DJ Khaled &quot;Prescribe&quot; a Day Off to Play GTA 6</small></p><p>Xbox与DJ Khaled合作，以“Dr. XBOX”名义在DrXBOX.com为玩家生成个性化玩笑“处方”，建议在GTA 6发售周请假玩游戏；文中注明该文件并非真实证明，并提到Pocketpair给员工五天假、罗技给员工一天假。</p><p><small>来源：<a href="https://80.lv/articles/xbox-dj-khaled-prescribe-a-day-off-to-play-gta-6/">80.lv</a></small></p><p><small>原文发布：2026-11-17 15:44（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>Newzoo：GTA 6预购者以高消费男性主机玩家为主，或扩大而非仅重分市场</title>
-  <link>https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-are-archetypal-console-players-but-overwhelmingly-male-game-will-grow-the-market-rather-than-simply-redistribute-it</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-eeba12cc5e7150c96346ec27</guid>
-  <pubDate>Tue, 17 Nov 2026 07:00:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Newzoo: GTA 6 pre-orders are archetypal console players but overwhelmingly male; game will &quot;grow the market rather than simply redistribute it&quot;</small></p><p>Newzoo向GamesIndustry.biz提供的独家数据显示，GTA 6预购者多为高消费主机玩家，男性占85%，52%自2018年起在GTA 5或GTA Online上有消费；16%近一年未购买全价游戏。Newzoo预计首发会短期分流其他游戏的时间与支出，但最终带来增量需求，且主机独占使初期影响集中于西方市场。</p><p><small>来源：<a href="https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-are-archetypal-console-players-but-overwhelmingly-male-game-will-grow-the-market-rather-than-simply-redistribute-it">GamesIndustry</a></small></p><p><small>原文发布：2026-11-17 15:00（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>《波斯王子：失落的王冠+》12月3日登陆Apple Arcade</title>
-  <link>https://www.gameres.com/901203605.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6d52e2fcb13aa63fa68c5086</guid>
-  <pubDate>Tue, 17 Nov 2026 03:58:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《波斯王子：失落的王冠+》将于12月3日登陆Apple Arcade，面向iPhone、iPad、Mac和Apple Vision Pro。版本包含游戏本体、“勇士征途”“强敌奇袭”“神之试炼”更新及《面具阴影》DLC，并继承移动版60 FPS、手柄与触屏操控、按键重映射、自动药水、自动招架、减缓时间及无障碍功能。</p><p><small>来源：<a href="https://www.gameres.com/901203605.html">GameRes</a></small></p><p><small>原文发布：2026-11-17 11:58（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>Sensor Tower估算GTA 6预购收入超14亿美元，87%为终极版</title>
-  <link>https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-exceed-14bn-with-87-for-the-ultimate-edition</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3f00bf6cd188fcb2cda3da37</guid>
-  <pubDate>Tue, 17 Nov 2026 01:00:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition</small></p><p>Sensor Tower估算《GTA 6》在PlayStation和Xbox平台的预购收入已超14亿美元，其中87%为终极版；Netflix于8月27日播出加长版预告后，次日预购收入升至1630万美元，此前8月多数日子日收入在240万至380万美元之间。</p><p><small>来源：<a href="https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-exceed-14bn-with-87-for-the-ultimate-edition">GamesIndustry</a></small></p><p><small>原文发布：2026-11-17 09:00（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>Get Seven Completely Different PC Games in This TwitchCon Bundle</title>
-  <link>https://80.lv/articles/get-seven-completely-different-pc-games-in-this-twitchcon-bundle/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-134624fc0af2e456283e0c29</guid>
-  <pubDate>Mon, 16 Nov 2026 23:24:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>The $19.99 TwitchCon Bundle spans rhythm combat, theme park creation, 33-player co-op, elemental action, platforming, and mythological adventure.</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://80.lv/articles/get-seven-completely-different-pc-games-in-this-twitchcon-bundle/">80.lv</a></small></p><p><small>原文发布：2026-11-17 07:24（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>英雄联盟2027赛季1开发者更新要点汇总</title>
-  <link>https://www.leagueoflegends.com/en-us/news/dev/tldw-season-1-2027-dev-update---lol-website-article-lollol27-s1225r001</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-21133f0f5e933e586b0c541f</guid>
-  <pubDate>Mon, 16 Nov 2026 16:00:00 +0000</pubDate>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：TL;DW: Season 1 2027 Dev Update</small></p><p>拳头开发者Pabro与Meddler汇总2027赛季1改动：一月公布新版本New Dawn并开启测试；回归偷钱符文、新增基石符文Titanborn；重做攻击特效装备体系，调整破败、智慧末刃、裂隙制造者，新增法系与穿甲装备；排位推出Ranked Rush，全员重置至黑铁四但保留MMR；ARAM Mayhem更新并开放社区投票。</p><p><strong>设计选择</strong><br>作者以清单形式说明改动方向：一月玩法改动兼顾短期健康与可延续至New Dawn的内容；装备重做围绕攻击特效使用者的完整出装空间；Ranked Rush用视觉段位重置加高额LP增长制造爬分体验，同时保留MMR以维持匹配质量。</p><p><strong>策划视角</strong><br>可研究Ranked Rush中视觉段位重置与MMR保留的组合，会如何影响不同水平玩家的爬分节奏与匹配体验。</p><p><small>来源：<a href="https://www.leagueoflegends.com/en-us/news/dev/tldw-season-1-2027-dev-update---lol-website-article-lollol27-s1225r001">League of Legends · Dev</a></small></p><p><small>原文发布：2026-11-17 00:00（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>《怪物猎人：荒野》制作人谈性能修复与RE引擎</title>
-  <link>https://www.gcores.com/articles/222422</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1bd598c595af49c75fba074d</guid>
-  <pubDate>Tue, 17 Nov 2026 01:10:00 +0000</pubDate>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>《怪物猎人：荒野》发售时存在性能问题，卡普空用近一年时间修复。制作人辻本良三称，若没有自研RE引擎，修复耗时会更长，并提到引擎工程师直接参与开发有助于快速解决问题和团队沟通。</p><p><strong>设计选择</strong><br>作者转述辻本良三的说法：自研引擎让团队能随时微调，引擎工程师参与开发可加快问题解决；文中还以《龙之信条2》修复及部分虚幻引擎游戏未彻底修复作对比。</p><p><strong>策划视角</strong><br>可追问：自研引擎带来的修复效率，在多大程度上来自引擎本身，又在多大程度上来自团队组织与工程师配置？</p><p><small>来源：<a href="https://www.gcores.com/articles/222422">机核</a></small></p><p><small>原文发布：2026-11-17 09:10（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>《异界揭踪》评测：故事与人物出彩，射击玩法拖后腿</title>
-  <link>https://www.gcores.com/articles/222319</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-592ade632fa9bac4060ca3b7</guid>
-  <pubDate>Mon, 16 Nov 2026 17:26:38 +0000</pubDate>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>机核评测FuRyu首款第三人称射击游戏《异界揭踪》：昭和架空日本与异界设定、少女寻友的叙事和配角塑造较有魅力，但移动、瞄准、射击衔接与异常化技能整合不佳，战斗体验拖累整体。</p><p><strong>设计选择</strong><br>作者以通关体验为依据，指出游戏系统内容完整却未转化为战斗乐趣，问题在操作衔接与反馈组合，而非缺少枪械音效或后坐力；并联系FuRyu重创意轻打磨的创作倾向。</p><p><strong>策划视角</strong><br>可研究：当射击作为核心玩法但手感欠佳时，叙事与局外成长能在多大程度上补偿玩家体验？</p><p><small>来源：<a href="https://www.gcores.com/articles/222319">机核</a></small></p><p><small>原文发布：2026-11-17 01:26（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>OpenAI推出新工具与支持，加强打击网络儿童性虐待</title>
-  <link>https://openai.com/index/strengthening-online-child-safety</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-89cfe3b0584921280fd46ca5</guid>
-  <pubDate>Mon, 16 Nov 2026 17:00:00 +0000</pubDate>
+  <title>OpenAI发布GPT-6.2 Astra与Sol</title>
+  <link>https://openai.com/index/introducing-gpt-6-2-astra-sol</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a21255e0be0c7ad95cd29d81</guid>
+  <pubDate>Tue, 17 Nov 2026 17:45:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Strengthening the fight against online child sexual abuse with new tools and support</small></p><p>OpenAI发布来源摘要称，将提供新工具、实用指南和合作伙伴关系，用于预防、检测和应对网络儿童性剥削与性虐待。摘要未说明工具的具体能力、使用方式或合作方。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/strengthening-online-child-safety">OpenAI</a></small></p><p><small>原文发布：2026-11-17 01:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing GPT-6.2 Astra and Sol</small></p><p>OpenAI发布GPT-6.2 Astra和Sol，称其在专业输出、编程、计算机使用和效率方面有所提升，成本更低，覆盖ChatGPT Work、Codex和API。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/introducing-gpt-6-2-astra-sol">OpenAI</a> · <a href="https://www.qbitai.com/2026/11/510707.html">量子位</a> · <a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">Simon Willison</a></small></p><p><small>原文发布：2026-11-18 01:45（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>OpenAI介绍1800余名科学家如何使用ChatGPT</title>
-  <link>https://openai.com/index/science-at-the-frontier</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b334a562e578883c36e6a36b</guid>
-  <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+  <title>OpenAI推出ChatGPT销售插件及30余款合作插件</title>
+  <link>https://openai.com/index/introducing-chatgpt-for-sales</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c570f8853a2123735e8f96ad</guid>
+  <pubDate>Tue, 17 Nov 2026 08:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Science at the Frontier: How scientists use ChatGPT</small></p><p>OpenAI发布文章，介绍对1800余名科学家使用ChatGPT开展研究情况的调查，内容涉及日常科研工作流程、受访者自述的生产力变化以及对科研发现的预期。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/science-at-the-frontier">OpenAI</a></small></p><p><small>原文发布：2026-11-16 20:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing ChatGPT for Sales</small></p><p>OpenAI发布面向销售的ChatGPT插件，并新增或扩展30多款合作插件，用于调研潜在客户、准备推介材料、更新CRM和推进交易。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/introducing-chatgpt-for-sales">OpenAI</a></small></p><p><small>原文发布：2026-11-17 16:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>LLM 0.37.3 修复 SQLite 3.54.1 兼容问题</title>
-  <link>https://simonwillison.net/2026/Nov/16/llm/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c5309a2f54874cb914d76e1a</guid>
-  <pubDate>Mon, 16 Nov 2026 23:57:26 +0000</pubDate>
+  <title>面向编码智能体的外部沙箱方案</title>
+  <link>https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5777698bb57435550a6341d9</guid>
+  <pubDate>Tue, 17 Nov 2026 22:52:29 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：llm 0.37.3</small></p><p>Simon Willison 发布 LLM 0.37.3 错误修复版本，主要解决 Homebrew 最新打包的 SQLite 3.54.1 导致 LLM 日志代码失效的问题：SQLite 修正了子查询返回 SQL 文本而非 JSON 的行为，作者给出用 json() 包裹子查询的变通写法。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/16/llm/">Simon Willison</a></small></p><p><small>原文发布：2026-11-17 07:57（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：External sandboxes for coding agents</small></p><p>Simon Willison与Prime Radiant合作提出外部沙箱模式：智能体在沙箱外运行，其执行的代码在专用沙箱内运行，并发布三个基于v86、Apple Containers和Quicksand的沙箱服务器实现，提供统一localhost API及可选HTTP/HTTPS允许列表代理和凭据替换机制。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/">Simon Willison</a></small></p><p><small>原文发布：2026-11-18 06:52（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>阿里发布Qwen4-Max：智能体与编程能力升级</title>
-  <link>https://www.qbitai.com/2026/11/510486.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8143f9bf748d0d395bf2fcf8</guid>
-  <pubDate>Mon, 16 Nov 2026 07:51:57 +0000</pubDate>
+  <title>用Service Worker与Pyodide在浏览器运行完整Datasette</title>
+  <link>https://simonwillison.net/2026/Nov/17/datasette-lite/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4e732d47df1596bb74d6b5eb</guid>
+  <pubDate>Tue, 17 Nov 2026 16:48:33 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>阿里巴巴发布基座大模型Qwen4-Max，总参数2.4T、激活71B，具备原生视觉与百万上下文，已上线千问AI平台提供API，中小尺寸模型将陆续开源。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/510486.html">量子位</a></small></p><p><small>原文发布：2026-11-16 15:51（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>问界新M8上市：全系标配华为ADS 5与L3冗余架构</title>
-  <link>https://www.qbitai.com/2026/11/510436.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0887dd15da1e45fbf44fca51</guid>
-  <pubDate>Mon, 16 Nov 2026 07:26:33 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>问界新M8正式上市，增程版37.98万元起、纯电版39.98万元起。全系标配华为ADS 5、四颗激光雷达和面向L3的八大冗余架构，并升级800V平台与双腔空气悬架。发布会同时明确华为与赛力斯的新分工。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/510436.html">量子位</a></small></p><p><small>原文发布：2026-11-16 15:26（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>Datasette 0.65.6 回移数据库访问权限安全修复</title>
-  <link>https://simonwillison.net/2026/Nov/15/datasette-2/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4a35a3fc2aa4496c2aa9d6f1</guid>
-  <pubDate>Sun, 15 Nov 2026 23:18:17 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：datasette 0.65.6</small></p><p>Simon Willison 发布 Datasette 0.65.6，从 1.0a43 回移一项安全修复：当通过 add_database(db, name=..., route=...) 注册的数据库其 route 与 name 不一致时，原本无权访问该数据库的用户仍可从 /&lt;route&gt;.db 下载它。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/15/datasette-2/">Simon Willison</a></small></p><p><small>原文发布：2026-11-16 07:18（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Running the full server-side Datasette Python app in the browser with service workers and Pyodide</small></p><p>作者发布Datasette Lite重写版，通过Service Worker拦截请求、配合Pyodide与Web Worker在浏览器内运行完整Datasette，支持加载指定版本、插件、SQLite版本及外部数据库文件。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/17/datasette-lite/">Simon Willison</a></small></p><p><small>原文发布：2026-11-18 00:48（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>
