@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T07:44:43.496942+00:00",
+  "checked_at": "2026-11-20T07:36:28.076733+00:00",
   "sources": [
     {
       "id": "youtube-gmtk",
@@ -150,9 +150,9 @@
       "name": "Steam · Sid Meier's Civilization VI",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/289070/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-11-06（北京时间）"
+      "state": "ok",
+      "count": 1,
+      "detail": "读取正常，共检查 20 条，收录 1 条；早于最近 72 小时 19 条；本轮最新原文日期 2026-11-20（北京时间）"
     },
     {
       "id": "steam-dwarf-fortress",
@@ -196,8 +196,8 @@
       "platform": "developer_blog",
       "url": "https://www.leagueoflegends.com/en-us/news/dev/",
       "state": "ok",
-      "count": 2,
-      "detail": "读取正常，共检查 7 条，收录 2 条；早于最近 720 小时 5 条；本轮最新原文日期 2026-11-17（北京时间）"
+      "count": 1,
+      "detail": "读取正常，共检查 7 条，收录 1 条；早于最近 720 小时 6 条；本轮最新原文日期 2026-11-17（北京时间）"
     },
     {
       "id": "itch-kenney-shape",
@@ -223,8 +223,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 12,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 12 条候选"
+      "count": 8,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 8 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -259,8 +259,8 @@
       "platform": "网站 / RSS",
       "url": "https://unity.com/blog/rss",
       "state": "ok",
-      "count": 4,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 4 条候选"
+      "count": 2,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 2 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -277,8 +277,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gcores.com/rss",
       "state": "ok",
-      "count": 19,
-      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 19 条候选"
+      "count": 18,
+      "detail": "读取 20 条订阅记录；72 小时时间窗内取得 18 条候选"
     },
     {
       "id": "web-68554a31d0",
@@ -286,8 +286,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 10,
-      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 10 条候选"
+      "count": 9,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 9 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -314,7 +314,7 @@
       "url": "https://openai.com/news/rss.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 1413 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 1418 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-0ea3c11e0b",
@@ -348,9 +348,9 @@
       "name": "量子位",
       "platform": "网站 / RSS",
       "url": "https://www.qbitai.com/feed",
-      "state": "ok",
-      "count": 10,
-      "detail": "读取 10 条订阅记录；720 小时时间窗内取得 10 条候选"
+      "state": "error",
+      "count": 0,
+      "detail": "网络请求超时；重试后仍失败"
     },
     {
       "id": "web-a8c0ed683c",
@@ -358,8 +358,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/list/25",
       "state": "ok",
-      "count": 7,
-      "detail": "读取 9 篇文章页面；720 小时时间窗内取得 7 条候选"
+      "count": 6,
+      "detail": "读取 9 篇文章页面；720 小时时间窗内取得 6 条候选"
     },
     {
       "id": "web-2c4b61fbd7",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 229,
-    "deduplicated": 229,
-    "retained": 229,
+    "raw": 210,
+    "deduplicated": 210,
+    "retained": 210,
     "restricted_withheld": 0
   }
 }
