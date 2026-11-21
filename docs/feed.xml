@@ -4,161 +4,169 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 15 条，策划精选 0 篇，AI 快讯 4 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 14 条，策划精选 0 篇，AI 快讯 6 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 20 Nov 2026 15:42:25 +0800</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 15:32:26 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《砍与售》确认参展WePlay上海并提供完整版试玩</title>
-  <link>https://www.gcores.com/articles/222547</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a7d240565cbce2cf9a3d41b9</guid>
-  <pubDate>Thu, 19 Nov 2026 09:18:59 +0000</pubDate>
+  <title>育碧成立AI子公司Motherbrain，聚焦智能NPC与AI游戏主持人</title>
+  <link>https://www.gamesindustry.biz/ubisoft-launches-motherbrain-a-new-subsidiary-focused-on-ai-driven-gameplay-innovation</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1d2cfba235ec7dbda4a2296c</guid>
+  <pubDate>Fri, 20 Nov 2026 10:21:10 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《砍与售》将在WePlay Shanghai 2026的波兰展区C04展位提供PC/Steam Deck完整版试玩。文章同时说明Xbox Series X|S版计划2026年12月17日推出、12月10日开启预购，PS5与Switch 2版计划2027年第一至第二季度推出，团队正寻找主机版发行合作方。</p><p><small>来源：<a href="https://www.gcores.com/articles/222547">机核</a></small></p><p><small>原文发布：2026-11-19 17:18（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Ubisoft launches Motherbrain, a new subsidiary focused on AI-driven &quot;gameplay innovation&quot;</small></p><p>育碧在半年财报中宣布成立子公司Motherbrain，由生成式AI项目Teammates团队组成，目前开发有记忆的智能NPC和管理大型系统世界的AI游戏主持人，并计划向育碧内外创作者及技术伙伴开放合作。</p><p><small>来源：<a href="https://www.gamesindustry.biz/ubisoft-launches-motherbrain-a-new-subsidiary-focused-on-ai-driven-gameplay-innovation">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 18:21（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《饿狼传说：群狼之城》季票3 DLC角色拉奥上线</title>
-  <link>https://www.gcores.com/articles/222544</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b18e61208b1d69d470b00806</guid>
-  <pubDate>Thu, 19 Nov 2026 08:48:53 +0000</pubDate>
+  <title>《GTA6》首日全球零售额37.9亿美元，预售3250万份</title>
+  <link>https://www.gcores.com/articles/222613</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8a164073ef958f7ce4731d79</guid>
+  <pubDate>Fri, 20 Nov 2026 19:43:16 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>SNK宣布《饿狼传说：群狼之城》第3季第6位DLC角色拉奥·高迪亚姆斯于11月19日上线，该角色源自1994年剧场版动画，官方同步发布大张正己制作的动画宣传片，并开启Legend Edition限时75%折扣。</p><p><small>来源：<a href="https://www.gcores.com/articles/222544">机核</a></small></p><p><small>原文发布：2026-11-19 16:48（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Rockstar Games宣布《GTA6》首日全球零售额37.9亿美元，称刷新娱乐媒介首发销售纪录，该数据为截至11月19日的估算值；预售销量3250万份，Metacritic评分99分。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222613">机核</a> · <a href="https://www.gamedeveloper.com/business/grand-theft-auto-vi-is-officially-the-biggest-video-game-launch-ever">Game Developer</a> · <a href="https://80.lv/articles/gta-6-is-officially-the-biggest-entertainment-launch-in-history/">80.lv</a> · <a href="https://www.gamesindustry.biz/gta-6-hits-379-billion-in-its-first-day-on-sale-becoming-the-biggest-entertainment-launch-in-history">GamesIndustry</a> · <a href="https://www.gamesindustry.biz/sensor-tower-estimates-gta-6-generated-236bn-in-pre-order-and-launch-day-sales">GamesIndustry</a></small></p><p><small>原文发布：2026-11-21 03:43（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《使命召唤：现代战争4》首月未进美国年度销量前十</title>
-  <link>https://www.gcores.com/articles/222570</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6e318efe315424bd1bbb5bbd</guid>
-  <pubDate>Fri, 20 Nov 2026 01:25:00 +0000</pubDate>
+  <title>KPL十周年：总决赛收官与赛事商业数据盘点</title>
+  <link>http://www.chuapp.com/article/291778.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8857e5896c7e88e3c29e4d04</guid>
+  <pubDate>Fri, 20 Nov 2026 10:49:22 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Circana数据显示，《使命召唤：现代战争4》拿下2026年10月美国游戏销量冠军，但未进入年初至今销量前十，为系列首次在发售月后缺席年度榜前十；分析师Mat Piscatella称其首发强劲、口碑整体正面。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222570">机核</a> · <a href="https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-debuts-as-top-selling-game-in-us-for-october-2026">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 09:25（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>2026年KPL年度总决赛在北京WB以4:3击败北京JDG后收官，恰逢KPL创办十周年。文章援引第一财经报道，列出十年累计3883场系列赛、线下入场192万人次、本届总决赛121263张门票售罄、全年平均售罄率92%等数据，并介绍品牌合作与城市文旅拉动情况。</p><p><small>来源：<a href="http://www.chuapp.com/article/291778.html">触乐</a> · <a href="https://www.gameres.com/901203626.html">GameRes</a></small></p><p><small>原文发布：2026-11-20 18:49（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Sensor Tower估算GTA 6发售日销售额约18.4亿美元</title>
-  <link>https://80.lv/articles/report-gta-6-generated-nearly-usd2b-in-sales-by-launch-day/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-b55518a5e3c324ca6af52a38</guid>
-  <pubDate>Thu, 19 Nov 2026 20:48:00 +0000</pubDate>
+  <title>Unity工业峰会慕尼黑2026：实时3D与工业AI应用</title>
+  <link>https://unity.com/blog/unity-industry-summit-munich-2026-recap</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7350c838f556f23e919ce068</guid>
+  <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Report: GTA 6 Generated Nearly $2B in Sales by Launch Day</small></p><p>据分析公司Sensor Tower估算，GTA 6发售当日销量约1905万份、收入约18.4亿美元，其中约75%来自PlayStation；该数据非Rockstar或Take-Two官方公布，Take-Two仅称预购远超预期。</p><p><small>来源：<a href="https://80.lv/articles/report-gta-6-generated-nearly-usd2b-in-sales-by-launch-day/">80.lv</a> · <a href="https://www.gamesindustry.biz/18-unsolicited-third-party-statistics-about-gta-6">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 04:48（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Where 3D meets the real world: highlights from Unity Industry Summit Munich 2026</small></p><p>Unity于2026年10月7日在慕尼黑举办工业峰会，近200名客户与合作伙伴参加，内容涵盖工业AI与3D数据、AI代理与仿真演示，以及宝马、雷诺、马自达、PALFINGER、CEA等八家客户的应用案例分享。</p><p><small>来源：<a href="https://unity.com/blog/unity-industry-summit-munich-2026-recap">Unity</a></small></p><p><small>原文发布：2026-11-20 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>育碧在加拿大蒙特利尔和魁北克城裁员166人</title>
-  <link>https://www.gamedeveloper.com/business/ubiosft-lays-off-166-in-canada</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-76c80df5bfe90465d3c8d73d</guid>
-  <pubDate>Thu, 19 Nov 2026 17:53:00 +0000</pubDate>
+  <title>规划游戏操控：手机与电脑输入设计六步</title>
+  <link>https://unity.com/blog/video-game-controls-phone-or-computer</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dbc2b3eb3d7487717f50fba6</guid>
+  <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Ubisoft lays off 166 in Canada across Montréal and Quebec City</small></p><p>育碧确认在蒙特利尔和魁北克城裁撤166个岗位，主要涉及制作与支持岗位，部分来自与腾讯合资的Vantage Studio。GamesIndustry.biz称裁员与项目取消或大幅缩减有关，育碧未说明具体项目。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/ubiosft-lays-off-166-in-canada">Game Developer</a> · <a href="https://www.gamesindustry.biz/ubisoft-lays-off-166-staff-in-montreal-and-quebec-studios">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 01:53（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Phone or computer? How to plan your video game controls</small></p><p>Unity发布文章，介绍在制作游戏前规划触屏与键鼠操控的六个步骤：先列动作再定按键、按设备匹配操作、确定主设备并做双端映射、检查速度复杂度与持续时间、加入容错设计、在真机上测试并记录误触与漏触。</p><p><small>来源：<a href="https://unity.com/blog/video-game-controls-phone-or-computer">Unity</a></small></p><p><small>原文发布：2026-11-20 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>阅文与姚记合作多IP电子集换式卡牌手游《群星漫卡》首曝</title>
-  <link>https://www.gameres.com/901203653.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-da7fdf092e7dbf30c093b5f3</guid>
-  <pubDate>Fri, 20 Nov 2026 07:09:00 +0000</pubDate>
+  <title>触乐本周行业大事：腾讯网易Q3财报、哈利波特停运与GTA 6发售</title>
+  <link>http://www.chuapp.com/article/291776.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-19c7c5ba90d4850eb271eeb8</guid>
+  <pubDate>Sat, 21 Nov 2026 06:16:16 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>阅文集团与姚记集团合作开发的《群星漫卡》正式首曝并公布首次公开测试时间，首发集结《斗罗大陆》《狐妖小红娘》《吞噬星空》三大国漫IP，主打数字拆卡、主题收藏册与轻度跨IP卡组对战。</p><p><small>来源：<a href="https://www.gameres.com/901203653.html">GameRes</a></small></p><p><small>原文发布：2026-11-20 15:09（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐汇总本周游戏行业动态：腾讯Q3游戏收入665亿元、网易游戏净收入229亿元；BLG夺S16冠军；B站就《物华弥新》运营权起诉龙渊；《哈利波特：魔法觉醒》因授权到期宣布停运；米哈游公布游戏AI模型Gamer；《GTA 6》首日零售额37.9亿美元；TGA 2026提名公布。</p><p><small>来源：<a href="http://www.chuapp.com/article/291776.html">触乐</a></small></p><p><small>原文发布：2026-11-21 14:16（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《魔域》年终活动世界树：天痕之上福利与榜单安排</title>
-  <link>https://www.gameres.com/901203652.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-974e7d336a3206a1f0affbb4</guid>
-  <pubDate>Fri, 20 Nov 2026 03:11:00 +0000</pubDate>
+  <title>触乐夜话：观察AI大模型对战视频的趣味与局限</title>
+  <link>http://www.chuapp.com/article/291774.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-089bfb9edf9c2819e9d4e27d</guid>
+  <pubDate>Sat, 21 Nov 2026 06:01:08 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《魔域》年终活动「世界树：天痕之上」将于2026年12月18日上线。官方公布上线前副本额外奖励、开启后签到与成长目标好礼、圣装与神火榜单及逐神之锻榜10万魔石奖励，神火首杀次日起开启十五日庆典。</p><p><small>来源：<a href="https://www.gameres.com/901203652.html">GameRes</a></small></p><p><small>原文发布：2026-11-20 11:11（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>作者以《GTA6》游玩间隙观看AI大模型对战视频为引，介绍这类视频让多个模型在战争模拟、足球等场景中按规则比拼并排名，并举例说明模型表现与人类玩家的差异。</p><p><small>来源：<a href="http://www.chuapp.com/article/291774.html">触乐</a></small></p><p><small>原文发布：2026-11-21 14:01（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Adjust发布土耳其移动应用趋势报告，涵盖游戏、电商与金融数据</title>
-  <link>https://www.gameres.com/901203651.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9685f6403754a23f73c36bd8</guid>
-  <pubDate>Fri, 20 Nov 2026 02:30:00 +0000</pubDate>
+  <title>Bonfire新作《Arkheron》11月27日抢先体验：物品即英雄的团队PvP爬塔</title>
+  <link>https://www.gameres.com/901203659.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7380682087d59a7043e5a9d1</guid>
+  <pubDate>Fri, 20 Nov 2026 22:31:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Adjust发布《2026年移动应用趋势区域聚焦：土耳其》报告，称2026年上半年土耳其游戏应用会话量同比增长6%，平均会话时长33.69分钟；电商应用会话量同比增长4%；金融应用D30留存率为4%。报告还给出土耳其人口、电商交易额与本土游戏开发商全球收入等数据。</p><p><small>来源：<a href="https://www.gameres.com/901203651.html">GameRes</a></small></p><p><small>原文发布：2026-11-20 10:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>前暴雪首席创意官Rob Pardo创立的Bonfire Studios公布首款游戏《Arkheron》，11月27日以抢先体验形式登陆Steam、PS5和Xbox Series X|S，采用15支三人队逐层淘汰、顶层3v3的爬塔PvP结构，定价24.99美元。</p><p><small>来源：<a href="https://www.gameres.com/901203659.html">GameRes</a></small></p><p><small>原文发布：2026-11-21 06:31（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Houdini Vellum模拟蜘蛛侠黏墙玩具的制作流程</title>
-  <link>https://80.lv/articles/this-spider-man-simulation-brings-back-memories-of-sticky-wall-crawler-toys/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f1b908ad4934568196c34a59</guid>
-  <pubDate>Thu, 19 Nov 2026 18:25:00 +0000</pubDate>
+  <title>《影之刃零》播客：玩家视角谈游戏机制与体验</title>
+  <link>https://www.gcores.com/radios/222623</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-13e14cffc72ce1154ac62036</guid>
+  <pubDate>Fri, 20 Nov 2026 22:00:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This Spider-Man Simulation Brings Back Memories Of Sticky Wall-Crawler Toys</small></p><p>80.lv报道艺术家Duncan Tune用Houdini Vellum制作蜘蛛侠黏墙玩具模拟：以低模代理网格做Vellum解算，用四面体拉伸约束获得果冻般弹性，通过带噪声的胶水约束断裂阈值让身体局部脱落，再用point deform换回原模型。</p><p><strong>背景与变化</strong><br>作者先试布料加支柱或压力约束，效果像瘪足球，改用四面体拉伸后得到体积保持的拉伸感；墙面设为固定布料以生成胶水约束，用下滑噪声重映射断裂阈值制造局部脱落；8秒模拟缓存耗时12小时。</p><p><strong>策划视角</strong><br>可研究断裂阈值随噪声变化如何影响脱落节奏与方向，以及低模代理加point deform回贴原模型时，如何兼顾手指等细节与解算成本。</p><p><small>来源：<a href="https://80.lv/articles/this-spider-man-simulation-brings-back-memories-of-sticky-wall-crawler-toys/">80.lv</a></small></p><p><small>原文发布：2026-11-20 02:25（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核用户投稿的播客节目，主播以普通玩家视角讨论《影之刃零》，其中提到发布前紧急补丁曾把bug误当游戏机制，并说明节目基于主播实际游玩而非云游戏。</p><p><small>来源：<a href="https://www.gcores.com/radios/222623">机核</a></small></p><p><small>原文发布：2026-11-21 06:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Blender权重绘制工具Smooth Weights演示跨网格平滑</title>
-  <link>https://80.lv/articles/clever-weight-painting-tool-for-better-character-deformations/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c9e5dfa98d8edbc540774f4b</guid>
-  <pubDate>Thu, 19 Nov 2026 17:21:00 +0000</pubDate>
+  <title>育碧下调业绩预期，成立AI子公司Motherbrain</title>
+  <link>https://www.gamedeveloper.com/business/ubisoft-misses-forecast-and-bets-big-on-ai-development</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-eb5c81efae1ec146662a7e31</guid>
+  <pubDate>Fri, 20 Nov 2026 18:37:58 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Clever Weight-Painting Tool For Better Character Deformations</small></p><p>3D艺术家Flat展示用Blender插件Smooth Weights的Volume Smoothing模式处理机械忍者角色的肩部与腋下权重，该模式按空间距离而非拓扑平滑权重，可跨越未连接的网格；作者另用cvELD Edit Paint在编辑模式下调整多骨骼权重。</p><p><small>来源：<a href="https://80.lv/articles/clever-weight-painting-tool-for-better-character-deformations/">80.lv</a></small></p><p><small>原文发布：2026-11-20 01:21（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Ubisoft misses forecast and bets big on AI development</small></p><p>育碧公布上半财年净预订额同比下降16.5%至6.447亿欧元，营业现金流为负；第三季度预期下调，股价下跌。财报同时宣布成立专注AI中间件与智能NPC的子公司Motherbrain。</p><p><small>来源：<a href="https://www.gamedeveloper.com/business/ubisoft-misses-forecast-and-bets-big-on-ai-development">Game Developer</a></small></p><p><small>原文发布：2026-11-21 02:37（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Free Lives谈《Dressmaker》立项：原型数据不佳仍推进</title>
-  <link>https://www.gamedeveloper.com/marketing/why-greenlighting-dressmaker-wasn-t-an-easy-decision-to-make</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-028a5bc5559cf7bd8f4e56df</guid>
-  <pubDate>Thu, 19 Nov 2026 15:57:43 +0000</pubDate>
+  <title>Ampere：超200万英美Xbox玩家改新西兰地区提前玩到GTA 6</title>
+  <link>https://www.gamesindustry.biz/ampere-analysis-over-1m-uk-and-us-xbox-players-accessed-gta-6-before-official-launch-by-switching-location-to-new-zealand</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-40a6bc322ba83570cdcb1784</guid>
+  <pubDate>Fri, 20 Nov 2026 15:21:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Why greenlighting Dressmaker wasn&#x27;t an easy decision to make</small></p><p>Free Lives程序员兼设计师Ruan Rothman介绍，工作室用itch.io原型下载量、社交媒体反馈和内容创作者自发视频等信号评估立项；《Dressmaker》首个原型数据低于同类，团队仍以有限规模推进，最终在Steam获得大量好评。</p><p><small>来源：<a href="https://www.gamedeveloper.com/marketing/why-greenlighting-dressmaker-wasn-t-an-easy-decision-to-make">Game Developer</a></small></p><p><small>原文发布：2026-11-19 23:57（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Ampere Analysis: Over 2m UK and US Xbox players accessed GTA 6 before official launch by switching location to New Zealand</small></p><p>Ampere Analysis称，GTA 6正式发售前，英美有超200万Xbox玩家把主机地区改为新西兰提前进入游戏，其中美国150万、英国60万；PS5因账号地区锁定，提前进入者明显更少。</p><p><small>来源：<a href="https://www.gamesindustry.biz/ampere-analysis-over-1m-uk-and-us-xbox-players-accessed-gta-6-before-official-launch-by-switching-location-to-new-zealand">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 23:21（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>2026 TIGA奖揭晓：《007 First Light》获年度游戏，Dovetail Games揽四项大奖</title>
-  <link>https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-43cf5a7b8a03a426c341dc85</guid>
-  <pubDate>Thu, 19 Nov 2026 14:55:30 +0000</pubDate>
+  <title>《Control Resonant》创意总监谈开发决策与主角塑造</title>
+  <link>https://www.gamedeveloper.com/design/is-control-resonant-s-protagonist-a-sad-wet-man-ft-mikael-kasurinen</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ecc14df00a6430bdba9010c4</guid>
+  <pubDate>Fri, 20 Nov 2026 15:14:40 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：007 First Light wins GOTY at 2026 TIGA Awards, Dovetail Games takes home four accolades including Best Publisher</small></p><p>2026年TIGA奖公布获奖名单：IO Interactive的《007 First Light》获年度游戏，Dovetail Games获最佳发行商等四项奖，Playground Games获最佳大型工作室，Wales Interactive获最佳小型工作室。</p><p><small>来源：<a href="https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher">GamesIndustry</a></small></p><p><small>原文发布：2026-11-19 22:55（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Is Control Resonant&#x27;s protagonist a &#x27;sad wet man?&#x27; ft. Mikael Kasurinen</small></p><p>Game Developer播客采访《Control Resonant》创意总监Mikael Kasurinen，讨论这款游戏在两周内销量超过一百万份的成绩，以及开发过程中艰难决策的取舍，包括主角是否被塑造成“悲伤湿漉男”形象。</p><p><small>来源：<a href="https://www.gamedeveloper.com/design/is-control-resonant-s-protagonist-a-sad-wet-man-ft-mikael-kasurinen">Game Developer</a></small></p><p><small>原文发布：2026-11-20 23:14（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>美国参议院就Roblox儿童安全问题举行听证会，审议绕过强制仲裁的两党法案</title>
-  <link>https://www.gamesindustry.biz/us-senate-hearing-examines-child-safety-on-roblox-considers-bipartisan-bill-to-bypass-forced-arbitration</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3cb7e89c8922aaf3cc8463c5</guid>
-  <pubDate>Thu, 19 Nov 2026 11:52:10 +0000</pubDate>
+  <title>手绘2D送奶模拟游戏《Milki Delivery》发售</title>
+  <link>https://80.lv/articles/this-cozy-hand-drawn-2d-milk-delivery-sim-from-the-minami-lane-developers-is-out/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-12303cb7442eb67d47da62c6</guid>
+  <pubDate>Fri, 20 Nov 2026 15:05:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：US Senate hearing examines child safety on Roblox, considers bipartisan bill to bypass forced arbitration</small></p><p>美国参议院司法委员会犯罪与反恐小组委员会就Roblox儿童安全问题举行听证会，并审议由Hawley和Durbin提出的法案，该法案允许受害家庭绕过平台用户协议中的强制仲裁，在公开法院提起诉讼。Roblox高管与CEO分别以声明和信件回应。</p><p><small>来源：<a href="https://www.gamesindustry.biz/us-senate-hearing-examines-child-safety-on-roblox-considers-bipartisan-bill-to-bypass-forced-arbitration">GamesIndustry</a></small></p><p><small>原文发布：2026-11-19 19:52（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：This Cozy, Hand-Drawn 2D Milk Delivery Sim from the Minami Lane Developers Is Out</small></p><p>由《Minami Lane》开发者Doriane Randria与Dorian Signargout合作开发的手绘2D游戏《Milki Delivery》已发售。玩家扮演送奶工Neha，与宠物牛Milki一起送奶、完成邻居小任务，并用收入升级自行车和谷仓以探索更多区域。</p><p><small>来源：<a href="https://80.lv/articles/this-cozy-hand-drawn-2d-milk-delivery-sim-from-the-minami-lane-developers-is-out/">80.lv</a></small></p><p><small>原文发布：2026-11-20 23:05（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Rebellion CEO 呼吁英国支持跨媒介游戏IP</title>
-  <link>https://www.gamesindustry.biz/the-future-of-british-gaming-is-more-than-just-games-opinion</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4155a7cabfa54b1ead3a235b</guid>
-  <pubDate>Thu, 19 Nov 2026 10:32:50 +0000</pubDate>
+  <title>GTA 6或成十亿美元级游戏的绝唱</title>
+  <link>https://www.gamesindustry.biz/gta-6-the-first-billion-dollar-game-may-also-be-the-last</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-93506e1ef82de80a01b11ba8</guid>
+  <pubDate>Fri, 20 Nov 2026 15:02:20 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The future of British gaming is more than just games | Opinion</small></p><p>Rebellion CEO Jason Kingsley 在评论文章中提出，英国创意产业税收减免按游戏、影视、出版等单一形式划分，未充分认可连接这些形式的IP；他建议政府探讨如何让现有创意税收激励更好支持跨多形式开发IP的企业。</p><p><strong>背景与变化</strong><br>作者以Rebellion同时经营游戏与《2000 AD》漫画、并推出《Rogue Trooper》电影为例，主张企业应保留IP所有权，以便控制开发、授权与商业化并再投资。</p><p><strong>策划视角</strong><br>可追问：按单一媒介设置的税收减免，具体在哪些环节不利于跨媒介IP的长期投资与所有权保留？</p><p><small>来源：<a href="https://www.gamesindustry.biz/the-future-of-british-gaming-is-more-than-just-games-opinion">GamesIndustry</a></small></p><p><small>原文发布：2026-11-19 18:32（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：GTA 6: the first billion-dollar game may also be the last | Opinion</small></p><p>GamesIndustry评论文章认为，GTA 6制作成本估计在10亿至20亿美元之间，是史上最贵的媒体产品；作者称其商业成功几无悬念，但当前高利率、玩家增长停滞、硬件涨价的环境下，其他公司难以承担同等规模的风险。</p><p><strong>背景与变化</strong><br>作者以GTA 6开发周期内行业环境的变化为论据：低利率与增长预期不再，AAA预算普遍升至2至3亿美元仍难盈利，Concord等高价失败案例进一步压低发行商的风险偏好。</p><p><strong>策划视角</strong><br>可追问：当发行商把GTA 6的销量表现当作缩减预算的理由而非加大投入的依据时，这一判断会如何影响中型与大型项目的立项标准？</p><p><small>来源：<a href="https://www.gamesindustry.biz/gta-6-the-first-billion-dollar-game-may-also-be-the-last">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 23:02（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>触乐夜话：大作发售临近对网游日活与档期的影响</title>
-  <link>http://www.chuapp.com/article/291764.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c3f27296d0bc3d2bdfd93f06</guid>
-  <pubDate>Wed, 18 Nov 2026 11:05:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐夜话以一款即将发售的主机大作（文中称“那个游戏”）为背景，引用预购量从1200万升至1500万、预估收入约14.5亿美元及索尼微软确认其为预订量最高游戏等数据，讨论其对电玩店氛围、玩家请假、其他厂商调整发售档期及大型网游日活的可能影响。</p><p><small>来源：<a href="http://www.chuapp.com/article/291764.html">触乐</a></small></p><p><small>原文发布：2026-11-18 19:05（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>OpenAI如何用Performance Factory保持ChatGPT响应速度</title>
-  <link>https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a39b195d944fff91597334ce</guid>
-  <pubDate>Thu, 19 Nov 2026 08:00:00 +0000</pubDate>
+  <title>HuggingFace发布harness适配器：用RL为特定智能体框架定制模型</title>
+  <link>https://huggingface.co/blog/harness-adapters-at-scale</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e637f083305384d6665b2fd5</guid>
+  <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：How OpenAI’s Performance Factory keeps ChatGPT fast</small></p><p>OpenAI介绍其构建的Performance Factory系统：由Codex驱动的工作流用于发现并修复性能问题，以维持ChatGPT的响应速度。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast">OpenAI</a></small></p><p><small>原文发布：2026-11-19 16:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost</small></p><p>HuggingFace博客介绍harness适配器方法：在目标智能体框架内用强化学习训练LoRA适配器，使模型针对特定框架与任务分布优化。文中称Qwen3.8-27B在pi框架下Terminal-Bench 2.1得分从39%升至55%，平均token从2.9K降至1.5K。</p><p><small>来源：<a href="https://huggingface.co/blog/harness-adapters-at-scale">HuggingFace Blog</a></small></p><p><small>原文发布：2026-11-20 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>OpenAI演示PR扫描功能的使用流程</title>
-  <link>https://openai.com/business/learn/pr-scans-demo</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9b61a6a5130f15470f70dc8b</guid>
+  <title>Hebbia测试GPT-6 Astra在金融研究中的引用与演示文稿表现</title>
+  <link>https://openai.com/business/customer-stories/hebbia</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a8bad6043abd36511c8b7212</guid>
+  <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Hebbia sees improvements in financial research with GPT-6 Astra</small></p><p>Hebbia在2026年8-9月用同一批金融研究案例测试预发布版GPT-6 Astra，称其在引用所需来源类型上领先最佳对比模型13.6个百分点，引用摘录相关率99.5%，演示文稿要求满足率97.9%，领先14.4个百分点。</p><p><small>来源：<a href="https://openai.com/business/customer-stories/hebbia">OpenAI</a></small></p><p><small>原文发布：2026-11-20 08:00（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>OpenAI发布Codex安全插件演示</title>
+  <link>https://openai.com/business/learn/codex-security-plugin-demo</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3f3b3fa7018d71f7b8730a84</guid>
   <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：See PR scans in action</small></p><p>OpenAI发布一段演示视频，展示PR扫描功能，以及演示者在拉取请求工作流中查看扫描结果的过程。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/business/learn/pr-scans-demo">OpenAI</a></small></p><p><small>原文发布：2026-11-19 08:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Explore the Codex Security Plugin</small></p><p>OpenAI发布Codex安全插件演示，展示从入门到查看结果的工作流程。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://openai.com/business/learn/codex-security-plugin-demo">OpenAI</a></small></p><p><small>原文发布：2026-11-19 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>ChatPRD创始人谈免费试用遭Token欺诈滥用</title>
-  <link>https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a00362ecbb7a2939ba8b5331</guid>
-  <pubDate>Fri, 20 Nov 2026 02:49:57 +0000</pubDate>
+  <title>华为云发布昇腾原生具身世界模型CloudRobo-WM1.2并计划开源</title>
+  <link>https://www.qbitai.com/2026/11/511610.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4df3b5f2891257bcccec8606</guid>
+  <pubDate>Fri, 20 Nov 2026 08:04:58 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Token fraud is here and it’s BAD (YouTube)</small></p><p>Simon Willison转述ChatPRD创始人Claire Vo的经历：该AI产品免费试用被大量滥用，有人仅为免费使用AI，也有人转售token或在ChatPRD代理上搭建商业业务，她因此决定全面取消免费试用。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/">Simon Willison</a></small></p><p><small>原文发布：2026-11-20 10:49（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>华为云发布昇腾原生具身世界模型CloudRobo-WM1.2，称在RoboTwin 2.0和LIBERO-Pro 2.0评测中平均成功率居首，并计划11月30日开放权重、推理代码和后训练代码。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/511610.html">量子位</a></small></p><p><small>原文发布：2026-11-20 16:04（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>PostgreSQL 19发布：新增WAIT FOR LSN实现读写一致性</title>
-  <link>https://simonwillison.net/2026/Nov/19/postgresql-19/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9abaeb24b58287babcb90c08</guid>
-  <pubDate>Thu, 19 Nov 2026 20:43:57 +0000</pubDate>
+  <title>Agnes Harness开源：双系统决策与双层自进化提升Agent效率</title>
+  <link>https://www.qbitai.com/2026/11/511582.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-97bb556149f1913dc9c5cc22</guid>
+  <pubDate>Fri, 20 Nov 2026 05:24:11 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：PostgreSQL 19 Released</small></p><p>Simon Willison介绍PostgreSQL 19发布，重点说明新增的WAIT FOR LSN命令：从库会话可等待WAL回放至指定LSN后再查询，从而读到主库刚写入的数据，并给出UPDATE、获取LSN、等待与查询的示例。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/19/postgresql-19/">Simon Willison</a></small></p><p><small>原文发布：2026-11-20 04:43（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>量子位报道开源系统Agnes Harness，采用System 2大模型加9B的System 1决策模型分工，结合测试时训练与递归自我改进，并支持插件和MHS硬件标准接入。文中引用官方自评数据称单次决策提速约14倍、成本约1/27。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/511582.html">量子位</a></small></p><p><small>原文发布：2026-11-20 13:24（北京时间）</small></p>]]></description>
+</item>
+<item>
+  <title>curl作者回应AI代理用Rust重写：三周内合并300余次提交</title>
+  <link>https://simonwillison.net/2026/Nov/18/daniel-stenberg/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e4096fb907faac388acb8f0c</guid>
+  <pubDate>Wed, 18 Nov 2026 15:58:27 +0000</pubDate>
+  <category>AI 快讯</category>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Quoting Daniel Stenberg</small></p><p>Simon Willison引用curl作者Daniel Stenberg的说法：AI代理将18.5万行C代码转换为34万行Rust代码期间，curl项目实际合并了300多次提交，修复约200个bug和若干漏洞，并追问这些重写版本能否跟上。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/18/daniel-stenberg/">Simon Willison</a></small></p><p><small>原文发布：2026-11-18 23:58（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>
