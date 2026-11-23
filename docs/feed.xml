@@ -4,145 +4,105 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 13 条，策划精选 0 篇，AI 快讯 4 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 9 条，策划精选 0 篇，AI 快讯 3 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 22 Nov 2026 15:13:52 +0800</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 15:58:50 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>《明日方舟：终末地》新版本11月25日上线，2.0揭幕前瞻公布</title>
-  <link>https://www.gcores.com/articles/222631</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-86af0e8e36c3e5c9b3bd8b10</guid>
-  <pubDate>Sat, 21 Nov 2026 12:47:33 +0000</pubDate>
+  <title>克苏鲁风叙事恐怖游戏《诡语共鸣》2027年登陆PC</title>
+  <link>https://www.gcores.com/articles/222676</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1a0dd55db18e10d3e22bf033</guid>
+  <pubDate>Mon, 23 Nov 2026 07:54:25 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《明日方舟：终末地》前瞻特别节目公布「穿越甚大蘑境与你相逢」版本PV，该版本11月25日上线，新增干员小刻与区域「旧水坝」，并开启活动「阵列建设：旧伤弥合」；节目还公开干员影像「群像：信号预联」和特别映像「基石」。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.gcores.com/articles/222631">机核</a></small></p><p><small>原文发布：2026-11-21 20:47（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>LUAL Games与Team17宣布，克苏鲁风叙事解谜恐怖游戏《诡语共鸣》将于2027年登陆PC。玩家携带研究工具调查异界生物，可选择净化腐化或将其清除，每次互动消耗理智值，耗尽后带着已有知识重新开始。</p><p><small>来源：<a href="https://www.gcores.com/articles/222676">机核</a></small></p><p><small>原文发布：2026-11-23 15:54（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>机核周报11.21：GTA6评分与TGA提名等要闻</title>
-  <link>https://www.gcores.com/radios/222330</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-520d31ba6a0559309b456c53</guid>
-  <pubDate>Sat, 21 Nov 2026 15:00:00 +0000</pubDate>
+  <title>《沉星之序》Steam中文配音免费上线并开启首次折扣</title>
+  <link>https://www.gcores.com/articles/222667</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7a57710cf361c6c6a875f123</guid>
+  <pubDate>Mon, 23 Nov 2026 03:33:25 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核Gadio News周报节目摘要列出本期要闻：GTA6发售MC媒体评分99分、预购超1700万份，TGA提名公布且GTA6获8项提名、影之刃零获五项提名，以及BLG 3:1击败GEN夺得S16冠军。</p><p><small>来源：<a href="https://www.gcores.com/radios/222330">机核</a></small></p><p><small>原文发布：2026-11-21 23:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>发行商Gamirror Games与开发商Thekla宣布，《沉星之序》Steam版中文配音已免费上线，由怪物细胞团队16位演员录制近4000条台词，覆盖全部角色；游戏首次折扣同步进行，Switch 2与PS5版配音待平台审核后上线。</p><p><small>来源：<a href="https://www.gcores.com/articles/222667">机核</a></small></p><p><small>原文发布：2026-11-23 11:33（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Pilgway推出CADQuader测试版，可将CAD模型转为多边形网格</title>
-  <link>https://80.lv/articles/3dcoat-dev-launches-new-tool-to-convert-cad-models-into-polygon-meshes/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d7f4b37a4d00719f716c62eb</guid>
-  <pubDate>Sat, 21 Nov 2026 14:00:00 +0000</pubDate>
+  <title>《三国火凤燎原》公布2027年上线，军师策略战棋玩法首测反馈</title>
+  <link>https://www.gameres.com/901203669.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a4665e17cbb812fa98ffa543</guid>
+  <pubDate>Mon, 23 Nov 2026 03:16:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：3DCoat Dev Launches New Tool To Convert CAD Models Into Polygon Meshes</small></p><p>3DCoat开发商Pilgway发布CADQuader测试版，可将STEP和IGES文件自动转换为四边形网格，支持按形状选择生成方式、识别并保留锐边、在圆形特征周围生成边循环，并提供Blender桥接与OBJ导出。测试版免费注册，30天完整权限后需许可才能保存或导出。</p><p><small>来源：<a href="https://80.lv/articles/3dcoat-dev-launches-new-tool-to-convert-cad-models-into-polygon-meshes/">80.lv</a></small></p><p><small>原文发布：2026-11-21 22:00（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>bilibili国创动画发布会上公布，改编自漫画《火凤燎原》的军师策略战棋RPG《三国火凤燎原》将于2027年上线，由哔哩哔哩游戏自研自发，支持多端数据互通。文章介绍其港漫复古美术、计策卡与战棋结合的玩法，以及今年7月首测后的社区反馈和开发调整。</p><p><small>来源：<a href="https://www.gameres.com/901203669.html">GameRes</a></small></p><p><small>原文发布：2026-11-23 11:16（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Rockstar解释《GTA 6》未加入飞镖小游戏的原因</title>
-  <link>https://80.lv/articles/rockstar-explained-why-they-didn-t-add-the-darts-mini-game-in-gta-6/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-95e8bbd7aa2a13046ff41439</guid>
-  <pubDate>Fri, 20 Nov 2026 13:41:00 +0000</pubDate>
+  <title>B社确认《辐射》衍生游戏《A Wasteland Full of Cats》</title>
+  <link>https://www.gcores.com/articles/222653</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-89e9d39e15cde43f1dc02178</guid>
+  <pubDate>Mon, 23 Nov 2026 01:15:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Rockstar Explained Why They Didn&#x27;t Add the Darts Mini-Game in GTA 6</small></p><p>Rockstar North联合工作室负责人Rob Nelson向VGC表示，《GTA 6》不会提供飞镖小游戏，理由是若做不到足够好的水准就不如不做；团队资源有限，转而投入举重、篮球等其他小活动。</p><p><small>来源：<a href="https://80.lv/articles/rockstar-explained-why-they-didn-t-add-the-darts-mini-game-in-gta-6/">80.lv</a></small></p><p><small>原文发布：2026-11-20 21:41（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>澳大利亚分级委员会提前曝光《辐射》世界观衍生游戏《A Wasteland Full of Cats》，贝塞斯达发言人随后证实。游戏由巴西工作室Devcats制作，含14个系列标志性地点、33个房间和一座避难所，以寻物玩法为主，另有轻度解谜解锁隐藏关卡，并与动物救援机构联动。</p><p><small>来源：<a href="https://www.gcores.com/articles/222653">机核</a></small></p><p><small>原文发布：2026-11-23 09:15（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>欧盟数字公平法案草案对游戏设计与欧洲独立开发者的影响</title>
-  <link>https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-fd4b9ceb9fe442c31fb20589</guid>
-  <pubDate>Fri, 20 Nov 2026 12:27:00 +0000</pubDate>
+  <title>11月23日至29日共28款游戏开测：饥困荒野、崩坏因缘精灵等</title>
+  <link>https://www.gameres.com/901203664.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-18578f21dc2ad0cadb0cca3d</guid>
+  <pubDate>Sun, 22 Nov 2026 15:27:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：How the EU&#x27;s Digital Fairness Act will impact game design, and why it hits European indies particularly hard</small></p><p>欧盟委员会公布《数字公平法案》草案，要求付费虚拟货币在消费时显示真实货币价值，并禁止面向儿童的付费取胜机制；文章分析这些条款在计算、沉浸感与虚拟货币定性上的执行难题，以及与其他欧盟法规重叠带来的合规负担。</p><p><strong>背景与变化</strong><br>作者逐条解读草案条款，指出付费取胜定义可能过窄、付费推进可能波及买断制DLC，并认为法规过度细化、与六部现有法案重叠，使小型团队难以合规，罚款上限达全球年营业额6%。</p><p><strong>策划视角</strong><br>可追问：若虚拟货币被赋予真实货币价值，游戏内转账、封号与停服场景下的责任边界应如何设计？</p><p><small>来源：<a href="https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 20:27（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>GameRes统计2026年11月23日至29日共有28款游戏开测，文中列出部分产品：腾讯发行《饥困荒野》11月24日上线，米哈游《崩坏：因缘精灵》11月25日限量删档测试，蛮啾《蓝色星原：旅谣》11月26日上线，英雄游戏《危机曙光》同日不限量删档测试，腾讯《战术小队：破晓攻势》11月27日限量删档测试。</p><p><small>来源：<a href="https://www.gameres.com/901203664.html">GameRes</a></small></p><p><small>原文发布：2026-11-22 23:27（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>猫见茶工作室自述《凉茶王》开发账单与资金困境</title>
-  <link>http://www.chuapp.com/article/291775.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a326adb5b3fd67ac1eafab86</guid>
-  <pubDate>Fri, 20 Nov 2026 11:35:00 +0000</pubDate>
+  <title>2026 DNFU嘉年华成都举办：五款产品同台公布新内容</title>
+  <link>https://www.gameres.com/901203663.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f7b0abe1869297eaecf0e872</guid>
+  <pubDate>Sun, 22 Nov 2026 10:56:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐采访香港独立工作室猫见茶，其负责人抒雅讲述《凉茶王》开发期间的收支：获约10万元天使投资与香港政府资助，曾因资金紧张拖欠工资、账上仅剩1221元，并详列注册公司、申请GEPS资助及宣发支出的具体金额。</p><p><small>来源：<a href="http://www.chuapp.com/article/291775.html">触乐</a></small></p><p><small>原文发布：2026-11-20 19:35（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>2026年11月21日至22日，DNFU嘉年华在成都东郊记忆举办，线上特别节目公布《地下城与勇士：创新世纪》《地下城与勇士：起源》《地下城与勇士：卡赞》《代号Fight》和《地下城与勇士》经典版五款产品动态，线下设沉浸式场景、二创市集与公益展示。</p><p><small>来源：<a href="https://www.gameres.com/901203663.html">GameRes</a></small></p><p><small>原文发布：2026-11-22 18:56（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>E.T.设计师沃肖将AI游戏泛滥比作1983年雅达利冲击前的劣质游戏潮</title>
-  <link>https://www.gamesindustry.biz/the-creator-of-et-on-the-atari-2600-likens-the-deluge-of-ai-made-games-to-the-glut-of-poor-quality-titles-released-ahead-of-the-us-video-game-crash-of-1983</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-7b5e1730f797ab062f27e7ef</guid>
-  <pubDate>Fri, 20 Nov 2026 11:13:00 +0000</pubDate>
+  <title>Everrest：2D像素画面下用3D世界实现视角切换的肉鸽游戏</title>
+  <link>https://80.lv/articles/hades-meets-earthbound-in-this-dreamlike-pixel-art-roguelite/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ec1ece074e0de4e99a508658</guid>
+  <pubDate>Fri, 20 Nov 2026 13:27:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The creator of E.T. on the Atari 2600 likens the deluge of AI-made games to the glut of poor-quality titles released ahead of the US video game crash of 1983</small></p><p>雅达利2600游戏E.T.的设计者Howard Scott Warshaw在DevGAMM里斯本演讲中称，AI降低开发门槛将带来大量劣质游戏，类似1983年美国游戏业崩溃前的市场泛滥；但他认为游戏业不会重演崩溃，而是需要更好的筛选机制。</p><p><small>来源：<a href="https://www.gamesindustry.biz/the-creator-of-et-on-the-atari-2600-likens-the-deluge-of-ai-made-games-to-the-glut-of-poor-quality-titles-released-ahead-of-the-us-video-game-crash-of-1983">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 19:13（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Hades Meets EarthBound In This Dreamlike Pixel-Art Roguelite</small></p><p>80.lv介绍YesNinja Games开发的等距动作肉鸽游戏Everrest：主角持枕头在梦境中闯关，画面为2D像素风，底层是带高度、物理与深度的3D世界，可在等距视角与3D旋转间无缝切换。</p><p><strong>背景与变化</strong><br>开发者用Godot 4加自写C++ GDExtension框架，切换前重建房间3D副本并对齐相机，使首帧无接缝；角色备有8方向帧，切换不用淡入淡出。</p><p><strong>策划视角</strong><br>可研究：为让2D像素画面与3D相机逐像素对齐，相机参数与房间压扁比例如何推导，这套方案对关卡设计有何限制？</p><p><small>来源：<a href="https://80.lv/articles/hades-meets-earthbound-in-this-dreamlike-pixel-art-roguelite/">80.lv</a></small></p><p><small>原文发布：2026-11-20 21:27（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>各平台对《GTA6》的差评在争论什么</title>
-  <link>http://www.chuapp.com/article/291777.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-034958025386e11e15cff1f5</guid>
-  <pubDate>Fri, 20 Nov 2026 10:31:00 +0000</pubDate>
+  <title>Build a Rocket Boy负债8098万美元，拟起诉差评者</title>
+  <link>https://80.lv/articles/mindseye-developers-build-a-rocket-boy-are-trying-to-get-out-of-their-usd80-98-million-debt/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-49b2248e2c0f5a37428eb719</guid>
+  <pubDate>Fri, 20 Nov 2026 12:43:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐梳理《GTA6》发售后各社交平台的差评：X上围绕主播吐槽家务任务、DEI与woke争议发酵，Bluesky上多为对3A工业的幸灾乐祸，Reddit社区则相对平静，讨论集中在犯罪与真实等具体层面。</p><p><small>来源：<a href="http://www.chuapp.com/article/291777.html">触乐</a></small></p><p><small>原文发布：2026-11-20 18:31（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：MindsEye Developers, Build a Rocket Boy, Are Trying to Get Out of Their $80.98 Million Debt</small></p><p>《MindsEye》开发商Build a Rocket Boy在管理人提案中披露约6180万英镑无担保债权，并称游戏商业前景可能受有组织差评活动影响，已对部分第三方提起诉讼。</p><p><small>来源：<a href="https://80.lv/articles/mindseye-developers-build-a-rocket-boy-are-trying-to-get-out-of-their-usd80-98-million-debt/">80.lv</a></small></p><p><small>原文发布：2026-11-20 20:43（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>IGN与Rockstar合作推出《GTA 6》官方在线攻略</title>
-  <link>https://www.gamesindustry.biz/ign-partners-with-rockstar-to-host-official-strategy-guide-for-gta-6</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-701bb6fe2299e966c7d8cb8a</guid>
-  <pubDate>Fri, 20 Nov 2026 10:07:40 +0000</pubDate>
+  <title>《Phonopolis》获DevGAMM大奖最高奖</title>
+  <link>https://www.gamesindustry.biz/phonopolis-from-amanita-design-wins-grand-prize-at-the-devgamm-awards</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ad4f7f1ba778ae7cc152ae6c</guid>
+  <pubDate>Fri, 20 Nov 2026 09:44:20 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：IGN partners with Rockstar to host Official Strategy Guide for GTA 6</small></p><p>IGN Entertainment宣布与Rockstar Games直接合作，在IGN.com发布免费的《GTA 6》官方在线攻略，内容包括基于MapGenie平台的互动地图、任务完成清单，以及任务、机制和开放世界的详细指南，并称将在游戏发售后持续更新。</p><p><small>来源：<a href="https://www.gamesindustry.biz/ign-partners-with-rockstar-to-host-official-strategy-guide-for-gta-6">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 18:07（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Phonopolis from Amanita Design wins Grand Prize at the DevGAMM Awards</small></p><p>DevGAMM Lisbon会议期间公布DevGAMM Awards获奖名单，Amanita Design的《Phonopolis》获最高奖及视觉艺术奖，Dead As Disco获两项奖，共17个奖项、奖金总额14万美元。</p><p><small>来源：<a href="https://www.gamesindustry.biz/phonopolis-from-amanita-design-wins-grand-prize-at-the-devgamm-awards">GamesIndustry</a></small></p><p><small>原文发布：2026-11-20 17:44（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>996传奇盒子上线《痴玩遇见沉默》185沉默微变单职业版本</title>
-  <link>https://www.gameres.com/901203643.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8b300b60efcca084eb4b1acc</guid>
-  <pubDate>Fri, 20 Nov 2026 01:09:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《痴玩遇见沉默》在996传奇盒子上线，为185沉默微变单职业版本。文章介绍其养成系统：魂骨十部位各有独立攻击特效，装备强星与剑甲强化绑定角色部位而非具体装备，宝石镶嵌绑定装备，另有九层妖塔、魂幡、斗笠、异火等锻造线。</p><p><small>来源：<a href="https://www.gameres.com/901203643.html">GameRes</a></small></p><p><small>原文发布：2026-11-20 09:09（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>《魔兽世界：无限》国服百万同时在线的产品与运营分析</title>
-  <link>https://www.gameres.com/901203642.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-dcb736829cab05da9ba8d482</guid>
-  <pubDate>Fri, 20 Nov 2026 00:55:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>文章梳理《魔兽世界：无限》11月5日上线后国服同时在线突破100万，官方称创系列开服峰值与回归玩家纪录；作者从IP积累、老玩家召回、社交关系、经典60级框架加新内容、取消追赶压力及国服停服后回流等角度分析原因。</p><p><strong>背景与变化</strong><br>作者将成功归因于长期IP情感与熟人社交、回归玩家传播路径、60级永久上限降低回流门槛，以及参考私服做地图、副本、露营和职业扩展；同时指出私服用户不代表全体玩家。</p><p><strong>策划视角</strong><br>可追问：以社交关系为核心的设计，如何在不依赖数值追赶的前提下，为60级玩家提供长期PVE目标与日常互动场景？</p><p><small>来源：<a href="https://www.gameres.com/901203642.html">GameRes</a></small></p><p><small>原文发布：2026-11-20 08:55（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>触乐编辑谈《GTA 6》十小时体验：更写实的设计与叙事</title>
-  <link>http://www.chuapp.com/article/291773.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-376614a56e1c5851ea45ca5f</guid>
-  <pubDate>Thu, 19 Nov 2026 10:03:35 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐作者基于约10小时试玩，描述《GTA 6》在偷车、武器与车辆存放、战斗潜行与搜刮、任务多解法等系统上更趋写实和复杂，叙事风格更接近正剧，并推测部分设计兼顾在线版。</p><p><strong>背景与变化</strong><br>作者以《GTA 3》到《GTA 6》的抽象程度变化为线索，用偷车状态、武器存放、推土机破墙等具体例子说明真实性与爽快感之间的取舍。</p><p><strong>策划视角</strong><br>可追问：当写实细节增加后，哪些前代的爽快节奏被牺牲，Rockstar又如何用任务设计把这种代价控制在可接受范围？</p><p><small>来源：<a href="http://www.chuapp.com/article/291773.html">触乐</a></small></p><p><small>原文发布：2026-11-19 18:03（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>网易Q3游戏净收入229亿元，《无限大》定档2027年1月</title>
-  <link>https://www.gameres.com/901203641.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9eebcf472316bbfc0b0b5e7f</guid>
-  <pubDate>Thu, 19 Nov 2026 09:08:00 +0000</pubDate>
-  <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>网易发布2026年第三季度财报，游戏及相关增值服务净收入229亿元。财报披露《无限大》定档2027年1月15日全球上线，并介绍《梦幻西游》《阴阳师》《燕云十六声》等产品本季度运营情况与多款新品测试进展。</p><p><small>来源：<a href="https://www.gameres.com/901203641.html">GameRes</a></small></p><p><small>原文发布：2026-11-19 17:08（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>Muru：Graham Dumpleton 的 AI 辅助 Rust Python 应用服务器</title>
-  <link>https://simonwillison.net/2026/Nov/21/muru/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-69d645cb5e98cc64bf147a11</guid>
-  <pubDate>Sat, 21 Nov 2026 23:56:28 +0000</pubDate>
+  <title>用CSS统一HTML下拉框在各浏览器中的样式</title>
+  <link>https://simonwillison.net/2026/Nov/22/select-styling/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d09d010d2c91f691ceac5ca3</guid>
+  <pubDate>Sun, 22 Nov 2026 19:45:06 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Muru</small></p><p>Simon Willison 介绍 Graham Dumpleton 的新项目 Muru：一个 AI 辅助开发的 Rust 服务器，目标是为开发和生产的 ASGI 与 WSGI Python 应用提供运行工具。Dumpleton 在三周内发布了系列文章，记录设计细节与开发过程。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/21/muru/">Simon Willison</a></small></p><p><small>原文发布：2026-11-22 07:56（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Select Styling Specimens</small></p><p>作者因HTML select下拉框在不同浏览器中默认外观不一致、在Chrome中尤其难看，让Claude生成展示各种样式方案的页面，并给出自己偏好的CSS写法：去掉默认外观、自定义内边距、边框、圆角和SVG箭头背景。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/22/select-styling/">Simon Willison</a></small></p><p><small>原文发布：2026-11-23 03:45（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>DeepSeek V1作者创业项目Linger：开源本地个人Agent</title>
-  <link>https://www.qbitai.com/2026/11/511570.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-13c663464adafdd9bbfb42a5</guid>
-  <pubDate>Sat, 21 Nov 2026 06:32:31 +0000</pubDate>
+  <title>腾讯元宝与KCL发布基于群聊的Agent记忆基准GroupAssistBench</title>
+  <link>https://www.qbitai.com/2026/11/511841.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-d48b94c228cdf73496069de2</guid>
+  <pubDate>Sat, 21 Nov 2026 11:40:11 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>前DeepSeek V1作者、DeepSeek-VL项目负责人Tony Zhang公布创业项目Linger，一个面向个人电脑、支持本地部署的开源Agent系统，可操作已登录的浏览器与桌面应用，并接入第三方模型。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/511570.html">量子位</a></small></p><p><small>原文发布：2026-11-21 14:32（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>腾讯元宝与伦敦国王学院NLP团队基于50个真实群聊、80299条消息构建2395道评测题，分L1记忆召回与L2开放式服务两层，并比较14组记忆配置，论文、代码与数据集已公开。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/511841.html">量子位</a></small></p><p><small>原文发布：2026-11-21 19:40（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Suno推出视觉创作工具Visuals，底层模型来自MiniMax</title>
-  <link>https://www.qbitai.com/2026/11/511722.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-de37986054f54f6596116a5e</guid>
-  <pubDate>Fri, 20 Nov 2026 12:18:01 +0000</pubDate>
+  <title>MachinePulse开源Karpo决策模型与浏览器Agent框架</title>
+  <link>https://www.qbitai.com/2026/11/511791.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-61b45d77bb97dceaa9ed16df</guid>
+  <pubDate>Sat, 21 Nov 2026 11:24:29 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>美国AI音乐平台Suno宣布推出视觉创作工具Visuals，其底层模型来自中国公司MiniMax。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://www.qbitai.com/2026/11/511722.html">量子位</a></small></p><p><small>原文发布：2026-11-20 20:18（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>llm-gemini 0.38.1 修复 Gemini 4 推理档位支持</title>
-  <link>https://simonwillison.net/2026/Nov/20/llm-gemini/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-02147967a5c0b492e0e841ac</guid>
-  <pubDate>Fri, 20 Nov 2026 03:01:57 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：llm-gemini 0.38.1</small></p><p>Simon Willison 发布 llm-gemini 插件 0.38.1，修复此前遗漏的 Gemini 4 Hydrogen 与 Neon 的 xhigh 推理档位；他对比称 Hydrogen 在 high 与 xhigh 下输出 token 和成本差异明显。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/20/llm-gemini/">Simon Willison</a></small></p><p><small>原文发布：2026-11-20 11:01（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>MachinePulse AI开源Karpo Decision系列决策模型（0.8B至31B）及浏览器Agent方案karpo-browser，含27B Act模型与KBB评测集。文章称31B模型在Decision Index评测中得分73.9，单次前向推理即可输出候选选项概率。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/511791.html">量子位</a></small></p><p><small>原文发布：2026-11-21 19:24（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>

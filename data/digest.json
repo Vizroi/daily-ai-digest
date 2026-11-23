@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22T15:13:52.403727+08:00",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T15:58:50.879995+08:00",
   "news": [
     {
       "source_id": "web-be9919cef9",
@@ -9,9 +9,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "d562eef55c946566",
-      "title": "穿越蘑境，共赴新程：《明日方舟：终末地》全新版本＆2.0揭幕前瞻特别节目消息汇总",
-      "url": "https://www.gcores.com/articles/222631",
+      "key": "a731be3021efeb35",
+      "title": "克苏鲁风叙事恐怖游戏《诡语共鸣》将于2027 年发售",
+      "url": "https://www.gcores.com/articles/222676",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -19,12 +19,12 @@
       "sources": [
         "机核"
       ],
-      "published": "2026-11-21T12:47:33+00:00",
+      "published": "2026-11-23T07:54:25+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "在今日19时30分举行的《明日方舟：终末地》全新版本＆2.0揭幕前瞻特别节目中，「穿越甚大蘑境与你相逢」版本 PV 正式公布。“神秘蘑菇追人事件”调查启动。一场美味与欢乐的奇妙探险正期待与玩家同行。 <内嵌内容，请前往机核查看> <内嵌内容，请前往机核查看> 「穿越甚大蘑境与你相逢」版本将于11月25日上线。新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启。同时，新版本导览专题网页已上线，可一站式查阅新版本内容，浏览即可领取【嵌晶玉】×1000、【折金票】×10000、【初级认知载体】×8、【武器检查套组】×4。 <内嵌内容，请前往机核查看> 干员影像「群像：信号预联」同步公开。 混沌开始浸染秩序，生灵不愿染上污浊，我们正站在命运的岔路前。但这一次，你不必独行。 <内嵌内容，请前往机核查看> 节目最后揭晓了特别映像「基石」！新生的文明迟早会认清现实——造物从不具备造主的视野。完整汇总如下：",
+      "summary_raw": "LUAL Games 与 Team17 宣布，克苏鲁风叙事解谜恐怖游戏《诡语共鸣》将于 2027 年登陆 PC。游戏融合谜题、诡谲故事与少量 Roguelike 元素。玩家将带上研究工具，深入未知，在时间耗尽前调查并了解那些侵扰世界的宇宙恐怖。 一头能够撕开现实帷幕的庞然巨物现身后，玩家手中只有研究工具、自己的智慧，以及日渐流失的理智。他们就此卷入一场拯救世界的竞赛。异界怪物不断侵袭家园，玩家必须研究每一种生物，调查其中遭到腐化的情绪，并不断更新魔典，逐步了解这些恐怖存在、它们的起源，以及幕后派遣者的身份。 Steam地址： https://store.steampowered.com/app/2073150/_/ <内嵌内容，请前往机核查看> 面对每一次观察，玩家都可以选择共情或暴力：净化生物体内的腐化，或彻底清除它，终结其宿主。无论选择仁慈还是残酷，都会带来长远影响。 每次互动也会消耗玩家的理智值，有些互动的消耗会更多。理智值一旦耗尽，玩家便会被黑暗吞噬，随后带着此前积累的知识与研究成果重新醒来，再次深入森林，揭开真相。 LUAL Games 联合创始人 Anna-Lena Pontet 与 Luzia Hüttenmoser 表示： “我们非常高兴能与大家分享更多《诡语共鸣》的内容，展示团队一直以来的努力！希望这次能让大家先睹为快，感受即将到来的恐怖，也期待大家为游戏明年登陆",
       "rss_content": "",
-      "content_kind": "rss_summary",
+      "content_kind": "article_body",
       "category": "games",
       "pool": "main",
       "signals": {
@@ -36,14 +36,14 @@
       },
       "members": [
         {
-          "title": "穿越蘑境，共赴新程：《明日方舟：终末地》全新版本＆2.0揭幕前瞻特别节目消息汇总",
-          "url": "https://www.gcores.com/articles/222631",
+          "title": "克苏鲁风叙事恐怖游戏《诡语共鸣》将于2027 年发售",
+          "url": "https://www.gcores.com/articles/222676",
           "source": "机核",
           "lang": "zh",
-          "published": "2026-11-21T12:47:33+00:00"
+          "published": "2026-11-23T07:54:25+00:00"
         }
       ],
-      "score": 30,
+      "score": 22,
       "score_parts": [
         {
           "label": "来源",
@@ -51,7 +51,7 @@
         },
         {
           "label": "游戏与玩法变化",
-          "value": 8
+          "value": 0
         },
         {
           "label": "近期",
@@ -68,18 +68,18 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 18.438723257499998,
+      "age_hours": 0.07385555416666667,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "",
-      "has_body": false,
+      "body": "LUAL Games 与 Team17 宣布，克苏鲁风叙事解谜恐怖游戏《诡语共鸣》将于 2027 年登陆 PC。游戏融合谜题、诡谲故事与少量 Roguelike 元素。玩家将带上研究工具，深入未知，在时间耗尽前调查并了解那些侵扰世界的宇宙恐怖。\n一头能够撕开现实帷幕的庞然巨物现身后，玩家手中只有研究工具、自己的智慧，以及日渐流失的理智。他们就此卷入一场拯救世界的竞赛。异界怪物不断侵袭家园，玩家必须研究每一种生物，调查其中遭到腐化的情绪，并不断更新魔典，逐步了解这些恐怖存在、它们的起源，以及幕后派遣者的身份。\n面对每一次观察，玩家都可以选择共情或暴力：净化生物体内的腐化，或彻底清除它，终结其宿主。无论选择仁慈还是残酷，都会带来长远影响。\n每次互动也会消耗玩家的理智值，有些互动的消耗会更多。理智值一旦耗尽，玩家便会被黑暗吞噬，随后带着此前积累的知识与研究成果重新醒来，再次深入森林，揭开真相。\nLUAL Games 联合创始人 Anna-Lena Pontet 与 Luzia Hüttenmoser 表示：\n“我们非常高兴能与大家分享更多《诡语共鸣》的内容，展示团队一直以来的努力！希望这次能让大家先睹为快，感受即将到来的恐怖，也期待大家为游戏明年登陆 Steam 做好准备！”\nTeam17 总经理 Harley Homewood 表示：\n“支持《诡语共鸣》这样的游戏，是 Team17 一直以来的核心理念之一。看到这款由 LUAL 打造的奇妙又独特的作品逐步迈向明年发售，我们感到非常高兴。”",
+      "has_body": true,
       "body_truncated": false,
-      "title_cn": "《明日方舟：终末地》新版本11月25日上线，2.0揭幕前瞻公布",
-      "what": "《明日方舟：终末地》前瞻特别节目公布「穿越甚大蘑境与你相逢」版本PV，该版本11月25日上线，新增干员小刻与区域「旧水坝」，并开启活动「阵列建设：旧伤弥合」；节目还公开干员影像「群像：信号预联」和特别映像「基石」。",
+      "title_cn": "克苏鲁风叙事恐怖游戏《诡语共鸣》2027年登陆PC",
+      "what": "LUAL Games与Team17宣布，克苏鲁风叙事解谜恐怖游戏《诡语共鸣》将于2027年登陆PC。玩家携带研究工具调查异界生物，可选择净化腐化或将其清除，每次互动消耗理智值，耗尽后带着已有知识重新开始。",
       "why": "",
       "for_you": "",
-      "degraded": "source_excerpt"
+      "degraded": null
     },
     {
       "source_id": "web-be9919cef9",
@@ -87,9 +87,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "8b4970dc5c56f71b",
-      "title": "并无悬念，核周报11.21",
-      "url": "https://www.gcores.com/radios/222330",
+      "key": "458a6a952f899d97",
+      "title": "《沉星之序》全中文配音上线，首波折扣限时开启中",
+      "url": "https://www.gcores.com/articles/222667",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -97,10 +97,10 @@
       "sources": [
         "机核"
       ],
-      "published": "2026-11-21T15:00:00+00:00",
+      "published": "2026-11-23T03:33:25+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "本期时间轴制作：佟和 本期要闻：​《GTA6》发售MC 媒体评分99 分追平时之笛，预购超 1700 万份破纪录， TGA 提名公布，《GTA6》 未发售先拿 8 项领跑，《影之刃零》获五项提名； 2000 万人见证BLG 3:1 击败 GEN 夺 S16 冠军等。​",
+      "summary_raw": "发行商Gamirror Games与开发商Thekla, Inc.共同宣布，Steam玩家评价“好评如潮”的大型解谜冒险游戏《沉星之序》中文配音现已于Steam平台免费上线。完成游戏更新后，大家就可以通过熟悉的中文语音，沉浸式体验这场解谜盛宴。与此同时，《沉星之序》首次折扣正在进行中，欢迎玩家前往各平台商店了解折扣详情。 *Nintendo Switch 2与PlayStation 5版游戏的中文配音会在版本通过平台审核后尽快上线。 <内嵌内容，请前往机核查看> 【中文配音阵容：怪物细胞团队操刀，16位演员出演】 本次中文配音由配音团队“怪物细胞”承担制作，由16位配音演员参与完成了近4000条台词的录制，覆盖女王、搬运英豪、盗贼、吟游诗人、法师、德鲁伊，乃至那艘会说话的船等名单所列的全部角色。 主要角色与演员包括： 余又熙（《神舞幻想》岚湘、《暗影火炬城》Lady Q）饰 草甸之地女王 青琳昊（《三角洲行动》红狼）饰 搬运英豪瓦伦斯 龚玺（《昭和米国物语》千草蝶子）饰 盗贼蒂芙妮娅 林强（《黑神话：悟空》天命人）饰 德鲁伊与巨龙 张树彬（《Dota 2》玛格纳斯）饰 法师伊西多尔 王瑜（《无限机兵》阿斯忒瑞亚）饰 吟游诗人 惠龙（《古剑奇谭》方兰生）饰 休假中的主管、拉特利，并担任配音导演 此外，李沈倩、陈景妍、巴赫、苏阳林、黄玮、张占坤、周晓栋、何冠男、刘一鸣等演员分别出演代理",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -114,11 +114,11 @@
       },
       "members": [
         {
-          "title": "并无悬念，核周报11.21",
-          "url": "https://www.gcores.com/radios/222330",
+          "title": "《沉星之序》全中文配音上线，首波折扣限时开启中",
+          "url": "https://www.gcores.com/articles/222667",
           "source": "机核",
           "lang": "zh",
-          "published": "2026-11-21T15:00:00+00:00"
+          "published": "2026-11-23T03:33:25+00:00"
         }
       ],
       "score": 22,
@@ -146,42 +146,42 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 16.231223257499998,
+      "age_hours": 4.423855554166667,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "GPASS\n首页\n机组\n讨论\n资讯\n播客\n文章\n视频\n有声书\n商店\n游戏库\n播单\n专题\n预告\nBOOOM\n机核发行\n下载机核 APP\nGPASS会员\n收藏\n历史\n消息\n75:22\n28.7k\n参与者\nRyoma\n雪豆\nNadya\n并无悬念，核周报11.21\n我Chovy\n16 小时前\n发布于\nGadio News\n本期时间轴制作：佟和\n本期要闻：《GTA6》发售MC 媒体评分99 分追平时之笛，预购超 1700 万份破纪录， TGA 提名公布，《GTA6》 未发售先拿 8 项领跑，《影之刃零》获五项提名； 2000 万人见证BLG 3:1 击败 GEN 夺 S16 冠军等。\nI\n英雄联盟\n影之刃零\nGTA6\n游戏\n资讯\nTGA\n194\n32\nGadio News\n15223 人关注\n订阅\n87:04\n121.2k\nGadio News\n规则是流动的，核周报 11.14\nRyoma 等 4 人\n2026-11-14\n407\n167\n108:14\n185.1k\nGadio News\n遥遥领先，核周报8.22\nRyoma 等 4 人\n2026-08-22\n536\n436\n107:16\n168k\nGadio News\n十年，核周报 11.7\nRyoma 等 4 人\n2026-11-07\n485\n216\n评论区\n发送\n共 117 条评论\n热门\n最新\n时刻\n回到顶部\n外观样式\n建议反馈",
+      "body": "发行商Gamirror Games与开发商Thekla, Inc.共同宣布，Steam玩家评价“好评如潮”的大型解谜冒险游戏《沉星之序》中文配音现已于Steam平台免费上线。完成游戏更新后，大家就可以通过熟悉的中文语音，沉浸式体验这场解谜盛宴。与此同时，《沉星之序》首次折扣正在进行中，欢迎玩家前往各平台商店了解折扣详情。\n*Nintendo Switch 2与PlayStation 5版游戏的中文配音会在版本通过平台审核后尽快上线。\n【中文配音阵容：怪物细胞团队操刀，16位演员出演】\n本次中文配音由配音团队“怪物细胞”承担制作，由16位配音演员参与完成了近4000条台词的录制，覆盖女王、搬运英豪、盗贼、吟游诗人、法师、德鲁伊，乃至那艘会说话的船等名单所列的全部角色。\n此外，李沈倩、陈景妍、巴赫、苏阳林、黄玮、张占坤、周晓栋、何冠男、刘一鸣等演员分别出演代理主管、航海师贾奈拉、会说话的船、商人与幼龙、掘洞者、执政官雷纳德、镜匠、勘测员、利明顿等角色。\n随着中文配音到位，大家在体验这款包含1000余个手工打造谜题的作品时，可以无障碍“听”完它的故事。\n《沉星之序》由知名游戏设计师乔纳森・布洛领衔的Thekla, Inc.工作室开发。\n本作是一部宏大的叙事冒险游戏，内含超过1000个手工打造的谜题，旨在考验你的智慧。你将被传送到一个充满奇异魔法、危险机关和凶残怪物的领域，探索四个截然不同的世界，每个世界都有独特的机制、角色和故事，并最终见证它们彼此交汇碰撞的壮丽景象。\n随着世界融合、角色相遇，谜题系统也将相互交织，催生出意想不到的全新玩法。按照自己的节奏探索，随时重返各个世界与挑战。解锁独特的可玩角色，掌握不断演变的游戏机制，逐步剥开这片广阔互联世界的深层秘密。融合了探索、叙事与持续蜕变的机制，《沉星之序》将为你呈现一场前所未有、充满生命力的谜境之旅。",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "机核周报11.21：GTA6评分与TGA提名等要闻",
-      "what": "机核Gadio News周报节目摘要列出本期要闻：GTA6发售MC媒体评分99分、预购超1700万份，TGA提名公布且GTA6获8项提名、影之刃零获五项提名，以及BLG 3:1击败GEN夺得S16冠军。",
+      "title_cn": "《沉星之序》Steam中文配音免费上线并开启首次折扣",
+      "what": "发行商Gamirror Games与开发商Thekla宣布，《沉星之序》Steam版中文配音已免费上线，由怪物细胞团队16位演员录制近4000条台词，覆盖全部角色；游戏首次折扣同步进行，Switch 2与PS5版配音待平台审核后上线。",
       "why": "",
       "for_you": "",
       "degraded": null
     },
     {
-      "source_id": "web-9667abeb70",
-      "source_url": "https://80.lv/feed",
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "87acb938b2fd529e",
-      "title": "3DCoat Dev Launches New Tool To Convert CAD Models Into Polygon Meshes",
-      "url": "https://80.lv/articles/3dcoat-dev-launches-new-tool-to-convert-cad-models-into-polygon-meshes/",
-      "lang": "en",
+      "key": "7b3063bc698607dc",
+      "title": "方寸棋盘再燃谋略之火！军师策略战棋RPG《三国火凤燎原》2027将上线",
+      "url": "https://www.gameres.com/901203669.html",
+      "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
       "coverage": 1,
       "sources": [
-        "80.lv"
+        "GameRes"
       ],
-      "published": "2026-11-21T14:00:00+00:00",
+      "published": "2026-11-23T03:16:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "CADQuader is now in beta.",
+      "summary_raw": "bilibili官宣改编自经典漫画《火凤燎原》的军师策略战棋RPG《三国火凤燎原》2027年上线，游戏主打港漫美学与谋略玩法，首测反响良好，现已开启预约。",
       "rss_content": "",
       "content_kind": "article_body",
-      "category": "development",
+      "category": "games",
       "pool": "main",
       "signals": {
         "hn_points": 0,
@@ -192,11 +192,11 @@
       },
       "members": [
         {
-          "title": "3DCoat Dev Launches New Tool To Convert CAD Models Into Polygon Meshes",
-          "url": "https://80.lv/articles/3dcoat-dev-launches-new-tool-to-convert-cad-models-into-polygon-meshes/",
-          "source": "80.lv",
-          "lang": "en",
-          "published": "2026-11-21T14:00:00+00:00"
+          "title": "方寸棋盘再燃谋略之火！军师策略战棋RPG《三国火凤燎原》2027将上线",
+          "url": "https://www.gameres.com/901203669.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-11-23T03:16:00+00:00"
         }
       ],
       "score": 22,
@@ -222,17 +222,251 @@
           "value": 0
         }
       ],
-      "topic": "开发动态",
+      "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 17.231223257499998,
+      "age_hours": 4.714133331944444,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "3DCoat Dev Launches New Tool To Convert CAD Models Into Polygon Meshes\nCADQuader is now in beta.\nPilgway\nPilgway, the developer of 3DCoat, loved by many artists for its retopology, UV unwrapping, and 3D texture-painting tools, is now venturing into CAD-to-mesh conversion. Its new solution automatically transforms STEP and IGES files into quad meshes that are nearly ready for production.\nYou can choose from various generation methods based on the shape, CADQuader automatically detects and preserves sharp corners and edges, and can create edge loops around circular features. Additionally, a dedicated Blender bridge lets you send meshes generated in CADQuader directly to Blender, then return the edited meshes to CADQuader. During this transfer, polygons, placement, scale, UVs, normals, and sharp edges are preserved. CADQuader uses its own native .quader file format and supports exporting models in OBJ format.\nWatch the video below to see CADQuader in action:\nCADQuader is still in active development, and the team is inviting everyone to try it out and share their feedback. The beta is free to download with a quick registration. It comes with 30 days of full access, including saving and exporting. After the 30 days, you can still view models and generate meshes, but you'll need a license to save or export your work.\nLearn more and download CADQuader here. You might also be interested in the latest version of ReFace and Hardcraft, a Vitaliy Yablonskiy's Blender add-on focused on CAD export retopology.\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates\nKeep reading\nYou may find these articles interesting",
+      "body": "11月22日晚，2026-2027 bilibili国创动画作品发布会准时开启。发布会上，由bilibili出品的《火凤燎原》第三季番剧PV正式放出，更让人惊喜的是由同一IP改编的游戏《三国火凤燎原》PV紧随其后联动亮相，惊艳全场。《三国火凤燎原》在发布会上正式官宣将于2027年上线，这也是这款“深耕B站番剧基因”的游戏最直接的一次亮相，《火凤燎原》这部全球连载时间最长的三国漫画神作，正以另一种方式重新开局！\n图1\n图2\n20年经典神作改编，撑起《三国火凤燎原》的底气\n《三国火凤燎原》改编自香港漫画家陈某的同名漫画《火凤燎原》，原作2001年开始连载，至今已出版80余卷，是全球连载时间最长的三国题材漫画，也被读者公认为“顶级智斗”漫画神作。与传统三国叙事不同，《火凤燎原》是以三国谋士之间的算计、反转与心理博弈推动历史进程，司马懿、燎原火两位主角的隐忍与锋芒，构成整部作品的双主线。\n图3\n2023年，《火凤燎原》动画化进一步放大了IP的受众基础，由bilibili出品的《火凤燎原》系列动画，前两季在B站累计播放量超过2亿，豆瓣评分达8.7分。《火凤燎原》早已跳出漫画圈层，通过动画化获得更广泛的受众，原作口碑与动画观众的双重认可，是《三国火凤燎原》最原始的底气。\n图4\n港漫式复古美学加持，以谋为核的策略战棋新篇\n《三国火凤燎原》是一款军师策略战棋RPG，由哔哩哔哩游戏自研自发。游戏承袭原作的硬核三国世界观与港漫式复古特色美术，以司马懿、燎原火双主角视角，再现原著谋士纵横的暗黑三国乱世。游戏上线后将实现多端数据互通，玩家可在苹果、安卓、PC之间无缝切换，随时续写乱世棋局。\n图5\n在美术层面，《三国火凤燎原》承袭原作漫画质感，采用港漫式复古风格打造立绘、UI与场景，剧情过场以漫画分镜演绎并搭配黑白、浓墨渲染的硬朗笔墨美学，营造漫画式“纸上战场”的沉浸感。同时，玩法骨架由“谋士计策”与“战棋”咬合而成。在这里，司马懿、贾诩等军师各有专属计策，玩家战前组织计策卡，战局中把握释放时机与影响范围，兵种、地形、站位与计策互相联动，让玩家必须以谋略破局，真正参与到三国乱世群英的战场博弈中去。\n图6\n首测复盘社区实录，高热度下的理性探讨与意见\n今年7月30日，《三国火凤燎原》开启「火种技术首测」，至8月2日结束。测试开放前四章主线剧情，其中包含漫画初期经典智斗对局“城下一聚”，还提供四大属性养成线、地形交互玩法，以及多位军师计策的实机体验关卡。测试期间，社区热度高涨，玩家一边给出正向体验评价，一边主动输出大量建设性意见，对一款开发中的产品来说，这份“愿意挑毛病”的认真，本身就是期待值的体现。\n图7\n图8\n在首测中，玩家正面反馈最集中的是，《三国火凤燎原》没有简单套用三国战棋的模板，而是把原著“谋胜于兵”的内核拆成游戏机制，让军师真正可以用计策改变战局。玩家战前编排计策卡，考虑兵种与地形联动，提前规划战中计策的释放时机、影响范围，部分关卡还把计策与解谜结合，局势不利时要靠计策主动破局。\n图9\n此外，玩家还能操纵《三国火凤燎原》的主角之一燎原火，体验箱庭探索与潜行刺杀的独特乐趣。在部分关卡里，玩家可以靠躲避搜索、用绳镖完成暗杀，甚至绕开正面战棋直接过关，参与测试的玩家形容这种玩法宛如在三国战棋里体验如同“刺客信条”的快感，对该创新格外认可。\n图10\n诚意回应首测反馈，研发与社区互动同步升温\n首测结束后，《三国火凤燎原》没有停下脚步，立即开启新一轮开发。8月6日，制作人Scott发布《制作人的信》，逐条回应首测玩家的重点反馈并同步优化方向；9月22日，贾诩立绘优化进展情况公布；10月29日发布开发日志，揭露角色立绘优化、剧情跳过与回顾、战场格子显示等多项调整，诚意回应首测反馈。\n图11\n进入11月后，《三国火凤燎原》「谋士茶馆」栏目放出新一期军师爆料：部分军师已露真容，部分只给剪影。评论区很快被玩家接管，讨论非常热烈，首测所建立的玩家关系并未随着服务器关闭而消散，反而形成了一种对“下一个军师怎么打”的真实期待。\n图12\n结语\n以谋定乱世，以棋论英雄！首款军师策略战棋RPG《三国火凤燎原》将于2027年正式上线，目前官网预约通道已经开启，完成预约即可接收后续测试资格与开发进展通知，欢迎感兴趣的玩家预约及关注！\n登录 后参与讨论\n暂无评论，来抢沙发",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "Pilgway推出CADQuader测试版，可将CAD模型转为多边形网格",
-      "what": "3DCoat开发商Pilgway发布CADQuader测试版，可将STEP和IGES文件自动转换为四边形网格，支持按形状选择生成方式、识别并保留锐边、在圆形特征周围生成边循环，并提供Blender桥接与OBJ导出。测试版免费注册，30天完整权限后需许可才能保存或导出。",
+      "title_cn": "《三国火凤燎原》公布2027年上线，军师策略战棋玩法首测反馈",
+      "what": "bilibili国创动画发布会上公布，改编自漫画《火凤燎原》的军师策略战棋RPG《三国火凤燎原》将于2027年上线，由哔哩哔哩游戏自研自发，支持多端数据互通。文章介绍其港漫复古美术、计策卡与战棋结合的玩法，以及今年7月首测后的社区反馈和开发调整。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-be9919cef9",
+      "source_url": "https://www.gcores.com/rss",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "de1f3df631165b80",
+      "title": "B社确认《辐射》衍生游戏《A Wasteland Full of Cats》",
+      "url": "https://www.gcores.com/articles/222653",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "机核"
+      ],
+      "published": "2026-11-23T01:15:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "近日，澳大利亚分级委员会公布了一款名为《A Wasteland Full of Cats》的《辐射》世界观衍生游戏。随着事件发酵，贝塞斯达发言人也证实了这一消息。虽然这次提前曝光并不在团队的计划之内，但官方确实会在近期公布更多内容。 据悉，游戏内容包含14个《辐射》系列标志性地点、33个房间以及一座避难所。 除了主线寻物玩法外，游戏还设有轻度解谜机制，用于解锁不影响通关的隐藏关卡。在最终Boss战中，玩家需要射击辐射蟑螂，从而营救剩余的猫和人类。 《A Wasteland Full of Cats》由巴西工作室 Devcats 负责制作，并联动非营利动物救援机构共同推出。贝塞斯达发言人在声明中表示，支持动物救援是团队和玩家社区多年来一直关心的事情，包括工作室自2015年起与Dallas Pets Alive建立的长期合作。双方的共同理念与 Devcats 独特的创作方式相结合，让《辐射》世界观以更有意义的方式呈现出来。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "B社确认《辐射》衍生游戏《A Wasteland Full of Cats》",
+          "url": "https://www.gcores.com/articles/222653",
+          "source": "机核",
+          "lang": "zh",
+          "published": "2026-11-23T01:15:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "战斗设计",
+      "is_analysis": false,
+      "age_hours": 6.730799998611111,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "近日，澳大利亚分级委员会公布了一款名为《A Wasteland Full of Cats》的《辐射》世界观衍生游戏。随着事件发酵，贝塞斯达发言人也证实了这一消息。虽然这次提前曝光并不在团队的计划之内，但官方确实会在近期公布更多内容。\n据悉，游戏内容包含14个《辐射》系列标志性地点、33个房间以及一座避难所。 除了主线寻物玩法外，游戏还设有轻度解谜机制，用于解锁不影响通关的隐藏关卡。在最终Boss战中，玩家需要射击辐射蟑螂，从而营救剩余的猫和人类。\n《A Wasteland Full of Cats》由巴西工作室 Devcats 负责制作，并联动非营利动物救援机构共同推出。贝塞斯达发言人在声明中表示，支持动物救援是团队和玩家社区多年来一直关心的事情，包括工作室自2015年起与Dallas Pets Alive建立的长期合作。双方的共同理念与 Devcats 独特的创作方式相结合，让《辐射》世界观以更有意义的方式呈现出来。",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "B社确认《辐射》衍生游戏《A Wasteland Full of Cats》",
+      "what": "澳大利亚分级委员会提前曝光《辐射》世界观衍生游戏《A Wasteland Full of Cats》，贝塞斯达发言人随后证实。游戏由巴西工作室Devcats制作，含14个系列标志性地点、33个房间和一座避难所，以寻物玩法为主，另有轻度解谜解锁隐藏关卡，并与动物救援机构联动。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "738165e3bc506885",
+      "title": "11月23日—11月29日共有28款游戏开测｜GameRes",
+      "url": "https://www.gameres.com/901203664.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GameRes"
+      ],
+      "published": "2026-11-22T15:27:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "GameRes游资网统计2026年11月23日—11月29日共28款游戏开测，涉及腾讯、米哈游等厂商，涵盖沙盒生存、精灵养成等多个品类。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "11月23日—11月29日共有28款游戏开测｜GameRes",
+          "url": "https://www.gameres.com/901203664.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-11-22T15:27:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 16.530799998611112,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "GameRes游资网统计了2026年11月23日—11月29日的最新开测信息，共有28款游戏开测。以下是开测信息：\n11月24日\n腾讯游戏发行沙盒生存手游《饥困荒野》上线\n《饥困荒野》获得Klei正版授权，是以经典PC游戏“饥荒：联机版”为基础开发的全新沙盒生存类手游，冒险家们将从这里进入一个未经探索的奇幻世界，开启一段超高自由度的探索、挑战、生存与成长之旅。这里充满了奇怪的生物以及隐藏的危险，你将需要持续探索世界、收集资源、制作工具、击败怪物，解开古老而神秘的谜团，体验一次又一次刺激而欢乐的求生历程。你可以叫上伙伴们一起并肩作战，共同克服未来的难题，在这个自由沙盒的世界中一起战斗、收集、建设和探索吧！\n11月25日\n米哈游自研精灵养成冒险策略游戏《崩坏：因缘精灵》限量删档测试\n《崩坏：因缘精灵》是一款米哈游「崩坏」IP下的全新精灵养成冒险策略游戏。在本作中，您将扮演一位从幽禁中逃生的位面旅行者，在新世界与精灵建立心与心的连接，参与一场又一场因缘对决，并发掘隐藏在自己过去的真相。\n11月26日\n蛮啾自研幻想大世界RPG+星宠结伴养成游戏《蓝色星原：旅谣》上线\n《蓝色星原：旅谣》是一款星宠结伴 幻想大世界RPG。这个世界与你熟知的并不相同。文明、魔法、不可思议的幻想生物，被星空珍存的传说。纵身飞跃，从深海到天空，再一次与新的生命邂逅，并与之结缘；在流星的指引下、在闪耀的群星中，这只属于你的——整个宇宙都翘首以盼的，星辰与旅途的歌谣。星临者，欢迎回到普罗米利亚！\n英雄游戏发行多人开放世界生存游戏《危机曙光》不限量删档测试\n一场未知的致命瘟疫在数日内吞噬了绝大多数生命。城市沦为废墟，街道游荡着变异丧尸与剧毒怪物，基础设施尽毁，社会秩序瓦解。逃往荒野的家庭在混乱中离散——如今，你孤身一人，站在这片1200平方公里的沦陷大陆上。\n从一块空地，建起一座末世中的坚固堡垒。你的武器库，决定你的生存半径，加入公会，与同伴扩张势力范围、抢占战略要地，在这片废土上，\"生存\"不是选项，是唯一的答案。\n11月27日\n腾讯游戏发行硬核拟真战术射击游戏《战术小队：破晓攻势》限量删档测试\n《战术小队：破晓攻势》是一款由世外工作室（Offworld Industries）研发、腾讯代理发行的硬核拟真战术射击游戏！游戏采用拟真战场环境设计，以小队为单位协同作战，依托指挥信息系统完成高强度战斗任务，玩家将在硝烟弥漫的战场上与队友精密协作、各司其职，通过海陆空纵深联合作战、建造前线基地、三频道实时情报互通等战术手段，在百人大规模战场上完成作战目标，夺取最终胜利。\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "11月23日至29日共28款游戏开测：饥困荒野、崩坏因缘精灵等",
+      "what": "GameRes统计2026年11月23日至29日共有28款游戏开测，文中列出部分产品：腾讯发行《饥困荒野》11月24日上线，米哈游《崩坏：因缘精灵》11月25日限量删档测试，蛮啾《蓝色星原：旅谣》11月26日上线，英雄游戏《危机曙光》同日不限量删档测试，腾讯《战术小队：破晓攻势》11月27日限量删档测试。",
+      "why": "",
+      "for_you": "",
+      "degraded": null
+    },
+    {
+      "source_id": "web-70e4da96dc",
+      "source_url": "https://www.gameres.com/rss.xml",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "7fc94252832c2633",
+      "title": "2026DNFU嘉年华成都落幕：五款产品首次同台，“玩点新动作”点燃阿拉德",
+      "url": "https://www.gameres.com/901203663.html",
+      "lang": "zh",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "GameRes"
+      ],
+      "published": "2026-11-22T10:56:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "2026DNFU嘉年华于11月在成都举办，线上揭晓DNF IP旗下五款产品最新动态，线下设置沉浸式场景、玩家共创、公益等多元互动内容。",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "games",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "2026DNFU嘉年华成都落幕：五款产品首次同台，“玩点新动作”点燃阿拉德",
+          "url": "https://www.gameres.com/901203663.html",
+          "source": "GameRes",
+          "lang": "zh",
+          "published": "2026-11-22T10:56:00+00:00"
+        }
+      ],
+      "score": 22,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 10
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "新游动态",
+      "is_analysis": false,
+      "age_hours": 21.047466665277778,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "11月21日至22日，为期两天的2026 DNFU嘉年华在成都东郊记忆举办。来自天南海北的勇士们齐聚于此，开启又一场属于《地下城与勇士》IP的年度盛典狂欢。\n而在11月20日晚，一场线上嘉年华特别节目率先亮相，集中揭晓DNF IP，以及旗下五款产品《地下城与勇士：创新世纪》《地下城与勇士：起源》《地下城与勇士：卡赞》《代号Fight》和《地下城与勇士》经典版的最新动态。\nDNF经典版首曝，阿拉德全家桶集体迎来新动作\n11月20日的嘉年华特别节目，为本届DNFU嘉年华拉开序幕。\n节目中，Neople CEO兼DNF IP总制作人尹明镇通过一段视频送上对国服玩家的感谢与祝福，并依次带来五大产品的最新动态与重量级的DNF年度CG，同时也为DNF IP的未来发展路径亮明方向：让更多人能以适合自己的方式享受DNF动作乐趣的同时，依然保持现有运营游戏的更新节奏和品质。\n节目首先登场的，是经久不衰的DNF端游。端游是DNF IP的基石，Neople团队始终重视对于端游开发的投入，且正在通过扩充人力来加速后续内容的开发。而在充分倾听和了解中国市场的需求后，DNF端游正在努力打造“国服专属赛季”等特色内容，并将在12月18日的DNF版本发布会上公布更多消息。\nDNF手游则将让中方研发团队一起参与制作，后续通过中韩双线产能的加持，为勇士们带来更丰富的游戏内容——包括提升等级上限、新增天赋系统等，并将重塑手游的职业体验与动作性。\n带来新武器“臂铠”DLC的IP衍生单机作品《地下城与勇士：卡赞》（简称卡赞），致力于为中国玩家呈现更具可玩性的形态。根据中国市场的玩家反馈，卡赞进行了一系列内容优化，推出井盖、吕布貂蝉等专属皮肤，并加入专属玩法与全新BOSS，以此致敬中国DNF社区长久以来的支持。\n首次对外亮相的《代号Fight》同样点燃全场热情。作为一款全新IP授权格斗网游，玩家将在其中使用DNF里的经典职业和技能，以纯正格斗的方式与对手进行一对一的较量。目前，《代号Fight》已正式开启首轮测试招募，通过游戏官网或WeGame即可了解更多详情。\n也许时间无法回溯，但关于DNF的美好回忆可以——《地下城与勇士》经典版邀请勇士们再度集结，重回以70版本为基准的阿拉德大陆，还原当年的打击感与技能连招，重现经典的“交互”战斗乐趣。不仅如此，王的遗迹、悲鸣洞穴等经典地下城也悉数回归；经典“神装”可逐件成型，配合特色鲜明的职业设计，充分演绎DNF的经典动作乐趣。\n值得一提的还有当晚节目上发布的年度CG。这是DNF IP连续第二年推出年度CG。此次CG巧妙串联起《地下城与勇士：创新世纪》《地下城与勇士：起源》《地下城与勇士：卡赞》《代号Fight》和《地下城与勇士》经典版五款产品。\n与去年回望IP发展历程不同，今年的视角更多转向了未来——CG里埋入了未来一年各产品即将上线的新内容和新动向，也带来了不少惊喜。例如《仙剑奇侠传1》经典角色李逍遥的出现，预示着两大经典IP的联动，将在DNF手游当中展开。类似这样的彩蛋，让勇士们在寻找的过程中，也建立起对来年的更多期待。而《代号Fight》和《地下城与勇士》经典版的加入，既丰富了DNF IP的产品矩阵，也承接了全体勇士们对DNF这一IP的深厚情感。\n互动实景重现阿拉德，DNFU乐园好耍D很\n线上特别节目的产品发布之后，本届DNFU嘉年华也将“新动作”搬到了线下，用更多有趣的互动装置和玩法，与勇士们一同见证更多精彩时刻。\n在内场，1600平方米的空间被做成了一座沉浸式的“地下城副本”，实景还原了神界港口、暗黑城、寂静城、雪域深处以及月光咖啡馆等五大场景，而勇士们置身其中，或结伴登船出航，或比拼拳锋力量，或体验惊险刺激的牢笼逃脱……昔日阿拉德的种种冒险，变成了沉浸感、参与感满满的互动体验。\n而除了通过各种互动装置重温往日热血外，勇士们还能在内场区域提前一窥DNF端游、手游未来版本内容的魅力。包括此前线上节目中公布过的DNF经典版相关场景，同样能在现场抢先体验，引来众多追忆过往的勇士慕名前来。\n在游览内场的过程中，勇士们还可以扫码上传自己的角色形象，虚拟化身即刻传送至魔法环屏，与本人同框合影；Coser则通过专属台词接力点亮展区，与勇士们齐声高呼“全员集结！勇士归队！”，开启高燃欢迎仪式。\n到了外场，则是另一番热闹景象。\n在这里，勇士们可以在营地领取自己的身份卡，前往赛丽亚旅馆领取“DNFU嘉年华任务书”，随后在“爆改”后的外场，穿行于琳琅满目的“阿拉德市集”、“阿拉德秘境商业街”与“阿拉德宝藏小铺”，在30余个创意摊位里寻找自己的兴趣所在，可以参与各种打卡、与NPC互动，被各种充满创意与想象力的二创所包围……\n例如在非遗与玩家共创的锻刀坊里，魔剑阿波菲斯由“云渊工作室”的龙泉宝剑非遗传承人打造——剑体以高锰钢锻打，标志性细节以黄铜精铸呈现；流光星陨刀与裂创心灵之刃则由资深DNF玩家创立的“MGC”完成。\n在同人作品之外，风振格斗场、凯丽鉴定行、歌兰蒂斯的圣光服装店以及土罐拍卖行等经典场景也被DNFU搬进市集。\n可以说，DNFU嘉年华外场的二创，早已不是“爱好者手作”的量级。而在游历和互动的过程中，满溢的情怀始终萦绕勇士左右，身为阿拉德世界一员的荣耀也在这一刻得以具现。\n同在一个外场，勇士营地与阿拉德秘境商业街把这份热度接了过去：营地一侧集合了端游、手游及《卡赞》等产品的互动体验，也有“看号摊位”“客服小站”为玩家排忧，盖碗茶与成都麻将则把松弛感拉满；商业街联动整片东郊记忆，HONGU、熊猫玩啤、爱玛等品牌与虎邦辣酱、同程旅行等异业合作方沿街入驻，让DNF IP真正融进成都的日常。\n本次DNFU嘉年华的战略化独家合作伙伴盖世小鸡，也在本地打造了体验馆为勇士们提供外设试玩服务。此外，DNFU嘉年华还携手成都金融城双子塔、成都地铁等城市地标进行深度联动，为勇士们开启破次元之旅。\n每一年DNFU嘉年华，都致力于在游戏与互动体验之外，从文化共创，社会公益与城市文旅等不同的维度，挖掘更深层次的IP文化价值。\n今年来到成都，又怎能缺席了蜀地文化？\n两位深耕蜀绣数十年的成都工艺美术大师“刁老师&陈老师”参与共创的蜀绣龙袍，将游戏内颇受好评的男女鬼剑士龙袍进行了实体化演绎，男款以红金火焰与炽烈的力量感为核心，女款以黑金配色、花枝与鹿鸣意象展现灵动气质，让游戏服饰从数字世界走向现实。\n当然，除了拥抱地方文化，由富有创造力的DNF玩家群体当中衍生出的社区文化，也同样孕育出了令人叹服的优秀共创作品。\n手工达人“魔改老K”打造了2米多高的巨型手工机械牛机甲，极致还原了机械牛的压迫感与手持的标志性巨斧，并结合眼部发光、喷涂烟雾、巨斧挥动等动态效果，带来强烈视觉冲击。\n玩家共创小机器人则请来DNF玩家KOL“明日苦”，从采矿小机器人形象出发，对配件、涂装与整体造型做了趣味化的再设计。\n以上共创作品，既是DNF玩家无限创意的集中体现，也是沉淀十余年的DNF内容生态所孕育出的社区文化成果。\n此外，本届DNFU嘉年华还延续了上届的传统，在现场设置了名为“雪人公益坊”的小屋。经过小屋时，常常能听到悠然的琴声与清亮的童声歌唱——小屋内播放的，正是刚刚上线的公益纪录片《小小善意，声声不息》，以及那首由贵州采风的旋律改编而成的《风一样的勇士》，其中的歌声与琴声，都是来自当地受助儿童的直接采音。\n今年，DNF联合腾讯成长守护、腾讯公益发起“魔法谱曲，织梦有声”公益活动，携手全服超130万DNF玩家用爱谱曲。所筹善款预计可为云南、贵州等地的乡村学校开设5240节音乐课，并为大山里的孩子们翻新14间音乐教室，让勇士们的爱心照进现实。\n而在“雪人公益坊”中，还特别设置了互动环节，玩家可以录制祝福语音，把自己的爱心祝福送给受赠的孩子们。全体阿拉德大陆的勇士们，都是守护远方梦想的见证者和参与者。\n从蜀绣龙袍的一针一线，到机械牛机甲的巨斧，再到一间小屋里的琴声，这届DNFU嘉年华在成都所做的，是把地方特色文化与公益事业的价值展示给更多的人。\n在此基础上，在为期两天的嘉年华期间，还有更多精彩轮番吸引着玩家与市民游客——F1天王赛的预选赛与决赛、手游全国格斗大赛秋季赛总决赛轮番开打；井盖Coser一展武术功底，鬼剑士川剧变脸一人演绎全职业，Coser集体秀、兔女郎Coser主持的土罐拍卖等串场环节交替登场；铁人五项则请来欧美日天王赛选手，与中国KOL、玩家同场竞速。临近闭场，成都本地说唱OG谢帝连唱四首歌，为这场属于勇士的聚会画上句号。\n东郊记忆本是成都一座由老厂房改造而来的青年潮流地标，“800万勇士刷爆任务书”把这里短暂地变身为一座沉浸式二创乐园。而对成都来说，这场DNFU嘉年华也为蓉城年末文旅消费添了一个新注脚；对远道而来的勇士来说，这大概就是所谓的“为一个经典IP赴一座城”。\n总而言之，从线上特别节目，年度CG到线下狂欢，DNF再次于年末之际，为全体勇士们送上了诸多惊喜——\n五大产品的依次亮相与年度CG的发布，指明了DNF下一阶段，在各条产品线上“以深度为基础去拓展广度”的未来前进方向，也展现了运营团队持续投入新老产品的开发，服务好每位中国区勇士的决心；为期两天的线下嘉年华，则通过将IP经典场景与地方文化融入实景沉浸式互动体验，并把海量精品共创内容与公益成果集中进行呈现等方式，与勇士们在天府之国度过了一场难忘的线下派对，也向外界再一次展示了DNF IP旺盛的生命力与勇士们的惊人创造力。\n而当游戏，当版本不再是唯一的主角，当更多的勇士因为音乐、漫画或者二创作品而选择投身阿拉德大陆，不再于嘉年华期间单独设立大型产品发布环节的DNF，显然也已经迈入IP成长的新阶段。\n期待在新的一年里，DNF IP能与勇士们继续携手前行，见证更多惊喜，不负每一份热爱！\n登录 后参与讨论\n暂无评论，来抢沙发",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "2026 DNFU嘉年华成都举办：五款产品同台公布新内容",
+      "what": "2026年11月21日至22日，DNFU嘉年华在成都东郊记忆举办，线上特别节目公布《地下城与勇士：创新世纪》《地下城与勇士：起源》《地下城与勇士：卡赞》《代号Fight》和《地下城与勇士》经典版五款产品动态，线下设沉浸式场景、二创市集与公益展示。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -243,9 +477,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "f8f575141dff7daf",
-      "title": "Rockstar Explained Why They Didn't Add the Darts Mini-Game in GTA 6",
-      "url": "https://80.lv/articles/rockstar-explained-why-they-didn-t-add-the-darts-mini-game-in-gta-6/",
+      "key": "13311bf1948d94ae",
+      "title": "Hades Meets EarthBound In This Dreamlike Pixel-Art Roguelite",
+      "url": "https://80.lv/articles/hades-meets-earthbound-in-this-dreamlike-pixel-art-roguelite/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -253,10 +487,10 @@
       "sources": [
         "80.lv"
       ],
-      "published": "2026-11-20T13:41:00+00:00",
+      "published": "2026-11-20T13:27:00+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "\"It's better not to do it than to do it and have it not be good enough,\" Rockstar North co-studio head Rob Nelson said.",
+      "summary_raw": "In Everrest, you play as a boy fighting his way back to reality with a pillow.",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "development",
@@ -270,11 +504,11 @@
       },
       "members": [
         {
-          "title": "Rockstar Explained Why They Didn't Add the Darts Mini-Game in GTA 6",
-          "url": "https://80.lv/articles/rockstar-explained-why-they-didn-t-add-the-darts-mini-game-in-gta-6/",
+          "title": "Hades Meets EarthBound In This Dreamlike Pixel-Art Roguelite",
+          "url": "https://80.lv/articles/hades-meets-earthbound-in-this-dreamlike-pixel-art-roguelite/",
           "source": "80.lv",
           "lang": "en",
-          "published": "2026-11-20T13:41:00+00:00"
+          "published": "2026-11-20T13:27:00+00:00"
         }
       ],
       "score": 17,
@@ -302,15 +536,93 @@
       ],
       "topic": "开发动态",
       "is_analysis": false,
-      "age_hours": 41.54788992416667,
+      "age_hours": 66.53079999861112,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "Rockstar Explained Why They Didn't Add the Darts Mini-Game in GTA 6\n\"It's better not to do it than to do it and have it not be good enough,\" Rockstar North co-studio head Rob Nelson said.\nRockstar\nOne of the things that makes Rockstar's games feel so well-thought-out is its focus on relaxing mini-games within its massive main games. In Red Dead Redemption 2, you can play Poker, Blackjack, Dominoes, and Five Finger Fillet. In earlier GTA games, there was pool, bowling, and darts, along with the more niche activities like hunting and scuba diving.\nIn GTA 6, however, darts – the ultimate pub classic that was playable in GTA 4, GTA 5, and GTA Online – is not available. While it seemed like the mini-game wouldn't be going anywhere after being featured in 3 GTA games in a row, the team had other plans. \"It's better not to do it than to do it and have it not be good enough,\" Rockstar North co-studio head Rob Nelson told VGC.\nTo get the physics right in what seems to be a simple game, a lot needs to be done to make it flow and feel natural. In a game as detailed and realistic as GTA 6, there is no room for sloppy, awkward elements. Ultimately, the developers decided to leave darts unplayable this time and focus on other mini-activities like weightlifting and basketball.\nRockstar\n\"Sometimes you just have to admit we are not going to be able to make this to the level we feel we need to,\" Nelson explained. Despite the game's intense 8-year-long development and a billion-dollar budget, Rockstar \"didn't have the resources\" to work on every little micro-interaction there could be, including darts.\nThere is still a lot to see, touch, and play around with in GTA 6. To start with, it features smart NPCs with 600,000 animations created for them, making each interaction feel more genuine than ever. Glasses slowly get emptier as the characters chug their drinks, hair strands get wet depending on the weather and the activities the characters partake in, and the city streets change as the weather shifts.\nSubscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates",
+      "body": "Hades Meets EarthBound In This Dreamlike Pixel-Art Roguelite\nIn Everrest, you play as a boy fighting his way back to reality with a pillow.\nEverrest by YesNinja Games follows a boy who gets lost in a dream that won't let him go. Armed with just a pillow, he has to make his way through misty forests, golden groves, and crumbling castles in this isometric action roguelite. The main visual inspiration from the start was the isometric platforming of Super Mario RPG, but of course, you can also feel a strong EarthBound influence in this project.\nEverrest\nEverything is made with 2D pixel art, but there's actually a full 3D world underneath it. The developers built a custom engine layer using a C++ GDExtension that gives every sprite its own height, physics, and depth. This means you can jump, fall, climb, and throw things around, all while keeping that classic pixel-art look. Having a real 3D world underneath also opens up some fun possibilities for the camera. It can switch from the usual 2:1 isometric view to full 3D rotations while you're playing. You can rotate the world map to reveal different details, or even go from the isometric view through a 3D rotation into a completely different 2D perspective, like a side-scrolling view.\nWe reached out to Aaron Lamar, one of the developers, to find out exactly how it all works:\n\"Just before a turn, the game quietly builds a 3D copy of the room you're standing in. The floor tiles become solid blocks, and every sprite stands up in 3D with its own pixel art on it, drawn by Godot's regular 3D renderer. No new art is made for it.\nThe hard part is the first frame. Pixel art isometric isn't a real camera angle. It's a drawing convention where every tile is exactly twice as wide as it is tall, so a real 3D camera that lines up with the floor draws everything too tall. We had to work out the exact camera and squash the 3D room until it sits on the 2D picture pixel for pixel. Then, on the frame we switch, we take the picture the game just drew and project it onto the 3D room from that same camera. For that one frame, the 3D view is the 2D frame, so there is no seam to see. That's the magic trick.\nAfter that, the camera is free to move. The boy has run frames for all 8 directions, so as the camera comes around, we switch him to his back-facing ones. Anything the camera would pass through steps out of the way right before it gets there. The switch itself is never a fade, because a fade looks like a video effect and you stop believing the world itself turned. And the end of the run through the forest is our loading screen in disguise. He runs into a doorway of stars, the first floor of the game gets built behind them, and he comes out into the level, back in our normal isometric 2D angle.\nThat one sequence took about two weeks. Since then I've started redoing our cinematic moments this way, and our world map does it too. You open the map, and the room you're standing in lifts out of the 2D and becomes a 3D map you can turn.\"\n\"In the clip, the game swings from its normal 2D isometric view to a camera behind the boy; you run into the forest with him, and it settles back into 2D as the level starts. The game is 2D pixel art. It runs on Godot 4 with our own C++ framework on top (a GDExtension) that gives every flat sprite real height, physics, and depth.\nFor those few seconds, the room is rebuilt in 3D, and since every character is drawn in 8 directions, we switch to the boy's back-facing frames as the camera comes around. All together it's about 56 layers of tricks and some very exact camera timing. That sequence took 2 weeks, on top of 1.5 years building the framework that makes it possible.\"\nThe protagonist's dream is made of places, each with its own mood and its own fear, and the paths change every run. But he's not alone on this journey: there's MurMur, his plush familiar who rides on his shoulder, the Lamp, who guides him along the way, and Mr. Habibi, a traveling merchant who helps him stock up for the adventure ahead.\nEverrest\nEverrest\nEverrest\nEverrest\nYesNinja Games also makes it clear that all the art, animation, music, and writing are created by people, with no generative AI involved. Everrest is aiming for a 2027 launch on Windows and Linux, with Steam Deck support in the plans.\nYou can check out the early gameplay footage below and add Everrest to your Steam wishlist:\nWe also recommend taking a behind-the-scenes look at how the world of Shroom and Gloom works in-engine. This Slay the Spire-style game features thousands of hand-drawn illustrations layered together to create a convincing 3D effect as you explore its caves.\nDon't forget to subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates\nKeep reading\nYou may find these articles interesting",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "Rockstar解释《GTA 6》未加入飞镖小游戏的原因",
-      "what": "Rockstar North联合工作室负责人Rob Nelson向VGC表示，《GTA 6》不会提供飞镖小游戏，理由是若做不到足够好的水准就不如不做；团队资源有限，转而投入举重、篮球等其他小活动。",
+      "title_cn": "Everrest：2D像素画面下用3D世界实现视角切换的肉鸽游戏",
+      "what": "80.lv介绍YesNinja Games开发的等距动作肉鸽游戏Everrest：主角持枕头在梦境中闯关，画面为2D像素风，底层是带高度、物理与深度的3D世界，可在等距视角与3D旋转间无缝切换。",
+      "why": "开发者用Godot 4加自写C++ GDExtension框架，切换前重建房间3D副本并对齐相机，使首帧无接缝；角色备有8方向帧，切换不用淡入淡出。",
+      "for_you": "可研究：为让2D像素画面与3D相机逐像素对齐，相机参数与房间压扁比例如何推导，这套方案对关卡设计有何限制？",
+      "degraded": null
+    },
+    {
+      "source_id": "web-9667abeb70",
+      "source_url": "https://80.lv/feed",
+      "platform": "网站 / RSS",
+      "evidence_kind": "publisher_article",
+      "publication_scope": "public",
+      "key": "51d761c7197022ec",
+      "title": "MindsEye Developers, Build a Rocket Boy, Are Trying to Get Out of Their $80.98 Million Debt",
+      "url": "https://80.lv/articles/mindseye-developers-build-a-rocket-boy-are-trying-to-get-out-of-their-usd80-98-million-debt/",
+      "lang": "en",
+      "tier": 2,
+      "tier_weight": 8,
+      "coverage": 1,
+      "sources": [
+        "80.lv"
+      ],
+      "published": "2026-11-20T12:43:00+00:00",
+      "undated": false,
+      "published_precision": "second",
+      "summary_raw": "They are looking to sue people for negative reviews in an attempt to cover the enormous \"unsecured creditor claims.\"",
+      "rss_content": "",
+      "content_kind": "article_body",
+      "category": "development",
+      "pool": "main",
+      "signals": {
+        "hn_points": 0,
+        "hn_comments": 0,
+        "hf_upvotes": 0,
+        "stars_today": 0,
+        "rank_bonus": 0.0
+      },
+      "members": [
+        {
+          "title": "MindsEye Developers, Build a Rocket Boy, Are Trying to Get Out of Their $80.98 Million Debt",
+          "url": "https://80.lv/articles/mindseye-developers-build-a-rocket-boy-are-trying-to-get-out-of-their-usd80-98-million-debt/",
+          "source": "80.lv",
+          "lang": "en",
+          "published": "2026-11-20T12:43:00+00:00"
+        }
+      ],
+      "score": 17,
+      "score_parts": [
+        {
+          "label": "来源",
+          "value": 12
+        },
+        {
+          "label": "游戏与玩法变化",
+          "value": 0
+        },
+        {
+          "label": "近期",
+          "value": 5
+        },
+        {
+          "label": "分析与方法",
+          "value": 0
+        },
+        {
+          "label": "多源",
+          "value": 0
+        }
+      ],
+      "topic": "开发动态",
+      "is_analysis": false,
+      "age_hours": 67.26413333194445,
+      "evergreen": false,
+      "content_type": "新闻",
+      "section": "news",
+      "body": "MindsEye Developers, Build a Rocket Boy, Are Trying to Get Out of Their $80.98 Million Debt\nThey are looking to sue people for negative reviews in an attempt to cover the enormous \"unsecured creditor claims.\"\nBuild a Rocket Boy\nFormer Rockstar North president Leslie Benzies' studio, Build a Rocket Boy, is in huge debt. The company behind MindsEye has \"unsecured creditor claims\" that amount to a whopping £61.8 million ($80.98 million). Not only that, but Build a Rocket Boy is planning to fix the hole in its finances by suing those who left negative reviews of MindsEye.\n\"The directors formed the view that the game's commercial prospects may have been adversely affected by a coordinated campaign of negative online reviews and commentary. The directors subsequently received information which they considered suggested the involvement of a number of third parties in organising and funding such activity and commenced litigation against some of those parties,\" the studio wrote in its Notice of Administrator's proposal.\nThey added that \"the underperformance of MindsEye placed the Company under significant financial pressure and resulted in increasing liquidity constraints.\" It sounds like Build a Rocket Boy thinks that bad reviews are the only reason the game didn't reach the heights they were hoping for, and the \"underperformance\" has nothing to do with MindsEye's quality.\nThe game has mixed reviews on Steam. Multiple players pointed out that MindsEye has serious performance issues, poor graphics quality, and disappointing game mechanics. Considering that the game costs $34.99 and has been out for over a year, the developers could have addressed at least some of the issues by now. A lot of the players ended up getting a refund, saying it's not worth the price.\nLast year, the studio laid off a significant number of employees, and just this fall, it was allegedly on the verge of closing. Suing third parties for defamatory statements sounds like a desperate attempt to keep things under control for the studio, especially since several Build a Rocket Boy's team members spoke about poor management at the company.\nWe are curious to see how things go, and if you are too, subscribe to our Newsletter, join our 80 Level Talent platform, Discord, and follow us on Twitter, LinkedIn, Telegram, and Instagram, where we share breakdowns, the latest news, awesome artworks, and more.\nAre you a fan of what we do here at 80 Level? Then make sure to set us as a Preferred Source on Google to see more of our content in your feed.\nSubscribe to 80 Level Newsletters\nLatest news, hand-picked articles, and updates\nKeep reading\nMore industry news to keep you updated",
+      "has_body": true,
+      "body_truncated": false,
+      "title_cn": "Build a Rocket Boy负债8098万美元，拟起诉差评者",
+      "what": "《MindsEye》开发商Build a Rocket Boy在管理人提案中披露约6180万英镑无担保债权，并称游戏商业前景可能受有组织差评活动影响，已对部分第三方提起诉讼。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -321,9 +633,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "fb6a0ae67cfde93f",
-      "title": "How the EU's Digital Fairness Act will impact game design, and why it hits European indies particularly hard",
-      "url": "https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard",
+      "key": "f519e91fc099fe65",
+      "title": "Phonopolis from Amanita Design wins Grand Prize at the DevGAMM Awards",
+      "url": "https://www.gamesindustry.biz/phonopolis-from-amanita-design-wins-grand-prize-at-the-devgamm-awards",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -331,10 +643,10 @@
       "sources": [
         "GamesIndustry"
       ],
-      "published": "2026-11-20T12:27:00+00:00",
+      "published": "2026-11-20T09:44:20+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "The European Commission's publication of its draft Digital Fairness Act (DFA) last week prompted uproar within the games industry, with many notable voices candidly expressing their concerns. Opinions in the wider industry were more measured, possibly because some of the practices targeted by the DFA – such as loot boxes or pay-to-win – are wildly successful economically, but not uniformly popular amongst players.",
+      "summary_raw": "The DevGAMM Awards took place on Wednesday evening as the finale to the DevGAMM Lisbon conference, which this year was held in a new, more central venue: the Carlos Lopes Pavilion.",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "games",
@@ -348,89 +660,11 @@
       },
       "members": [
         {
-          "title": "How the EU's Digital Fairness Act will impact game design, and why it hits European indies particularly hard",
-          "url": "https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard",
+          "title": "Phonopolis from Amanita Design wins Grand Prize at the DevGAMM Awards",
+          "url": "https://www.gamesindustry.biz/phonopolis-from-amanita-design-wins-grand-prize-at-the-devgamm-awards",
           "source": "GamesIndustry",
           "lang": "en",
-          "published": "2026-11-20T12:27:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "系统设计",
-      "is_analysis": false,
-      "age_hours": 42.7812232575,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "How the EU's Digital Fairness Act will impact game design, and why it hits European indies particularly hard\nRestrictions that target loot boxes and pay-to-win could end up having far-reaching impacts beyond mobile\nThe European Commission's publication of its draft Digital Fairness Act (DFA) last week prompted uproar within the games industry, with many notable voices candidly expressing their concerns. Opinions in the wider industry were more measured, possibly because some of the practices targeted by the DFA – such as loot boxes or pay-to-win – are wildly successful economically, but not uniformly popular amongst players.\nThe impact of the DFA as proposed would go far beyond less-cherished free-to-play mechanisms, though, with significant impact on game design. Some voices are warning that the European industry would be hit particularly hard. An analysis of the draft shows several requirements that could prove challenging for European developers, and ample potential for significant financial penalties.\nKey provisions\nLet's start with the provisions on paid-for virtual currencies (Art. 14). It is important to note that this term does not only cover virtual-currencies directly purchased against real world currency, but also what is only indirectly acquired - which is to say, secondary currencies within the game. Where virtual items or other products can be acquired using paid-for virtual currencies, companies will be required to display their corresponding monetary value in real currency.\nThat's not a new demand, but it can be tricky to fulfil. When paid-for virtual currency is initially purchased, it's pretty evident that the publisher must display what the user has to pay in real currency. The DFA goes beyond that, and requires that the \"value\" in real currency is also displayed when the virtual currency is spent.\nSo, what's the problem with that? First: How should the calculation be made when the virtual currency can be purchased, but also earned through gameplay? Second: If the virtual currency is spent within the core gameplay, it's anything but immersive to display anything in real-world currency: Imagine a medieval fantasy MMOG where a player uses virtual gold to buy a virtual sword, and the NPC shopkeeper must state the item's price in Euros.\nImagine a fantasy MMOG where you use virtual gold to buy a sword, and the NPC shopkeeper must state the item's price in Euros\nThird: games companies assume that virtual currency (once acquired) does not have \"value\" once purchased, as it generally stays within the games ecosystem and cannot be \"cashed out\" into real money. If one were to accept that virtual currency does have a real-world value, this could have far-reaching consequences, for example when a player is banned or when a game is sunset. Also, if one player gives virtual currency to another player in the game world, we might have a taxable transaction in the real world under the assumption that virtual currency has a \"value\". Nothing of that is explicitly said in the DFA, but it is or at least could be the consequence of attributing a monetary value to paid-for virtual currencies. It's a slippery slope at best.\n\"Pay to win\" for core players is invariably as appealing as a steakhouse is to vegans, or an SUV to environmental activists – so many might welcome its removal. The DFA outright prohibits \"pay to win\" for children, and the regulator will be hoping that game companies will be forced to drop this practice entirely as a game might not be popular if some players can buy strong items and others cannot. Only time will tell if that comes to pass.\nIt is possible that the definition of pay-to-win outlined in the DFA might be too narrow to have this effect. ‘Pay-to-progress and pay-to-win mechanisms’ means in-game or in-app purchases that are necessary (or are presented as necessary) for in-game or in-app progress or success, that are acquired through payment transactions or in exchange for paid-for virtual currencies. A set of super-strong armour available only for payment might be really helpful in the game, but it only falls under the definition if it is \"necessary\" for success or presented as such – which is arguably not the case if you can still succeed without it, even if that success would require days or weeks of grinding. What the lawmaker probably wants to regulate is a game offering items that provide an advantage in the game in exchange for money. Ultimately, this would mean that adults would be able to buy stronger items, where kids can't.\nUnder the law, \"pay to progress\" could cover anything from unlocking the full game after a free trial, to paid DLC.\n\"Pay to progress\", on the other hand, is a rather novel concept – under the DFA it falls into the same bucket as \"pay to win\". But actually, the definition could cover anything from unlocking the full game after a free trial, to paid DLC.\nThere are also other provisions relevant for games companies which are less central for game design.\nTechnical issues\nYou may have understood by now that laws, just like games, can have technical issues that mean they just do not work as intended. The DFA draft looks as if that will be the case. In general, it suffers from the same problems as other recent legal acts of the European Union. It is over-engineered and under-workable, as it goes into too many details instead of setting out principles. Ironically, laws which are as detailed are exceedingly complex to apply – and often easier to circumvent than principle-based laws.\nThe DFA also has large overlaps with other EU legal acts – the European Commission itself has identified six of them in Article 4. In the event of any contradictions, it is not the DFA, but the other law which governs. That might sound good at first, but it means that anyone wanting to understand if something which is regulated by the DFA must first read six other legal acts to know if that practice is actually allowed or not. Big publishers with large legal teams and budgets for external lawyers might be able to do this – but certainly not indie developers. Over-complexity is also the natural enemy of effective enforcement.\nLaws, just like games, can have technical issues that mean they just do not work as intended\nThe fact that the DFA is so difficult to apply is particularly problematic, as fines can be up to 6% of an infringer's global yearly turnover – much higher, by the way, than the most serious cyber incidents under the EU's Cyber Resilience Act (CRA).\nWhy the European games industry is particularly affected\nSome representatives of publishers, such as Supercell's CEO, as well as industry associations have warned that the DFA might hit European publishers especially hard. This may sound overblown, as the DFA also applies to non-European publishers when they are doing business in Europe. Still, smaller companies tend to focus on their home market first, at least until their user base is large enough to scale up and go international. Also, most companies tend to treat compliance with the laws of their home country as a priority – more than the laws on the other side of the globe.\nPractically, enforcement tends to hit domestic companies more often than companies abroad – unless the latter are really huge. This means that an indie publisher based in Bordeaux, Milan or Berlin is more likely to face scrutiny from European regulators than an app publisher no one has ever heard of with a registered address somewhere in Asia – even though arguably, the latter are no less aggressive in their monetisation. Conversely, the European indie may get away with practices counter to Chinese law longer than its Chinese competitor.\nWhat next\nThe European Commission has invited feedback on the DFA proposal, and people in the games industry have until January 14th to provide it; it may be that changes are made in response. Regardless, there will be some time until the DFA will be finally adopted – but it won't go away. Like it or not, in-game monetisation through virtual currencies will not go away either, as indie games and traditional retail games – which is to say, games sold for a one-off payment of, say 80 Euros with no in-game monetisation – are facing competition from vibe-coded games. The challenge for games companies will therefore be to design their games in compliance with the DFA. Doing so will require an in-depth analysis of the game monetisation and the law – which also is a \"pay to progress\" exercise.",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "欧盟数字公平法案草案对游戏设计与欧洲独立开发者的影响",
-      "what": "欧盟委员会公布《数字公平法案》草案，要求付费虚拟货币在消费时显示真实货币价值，并禁止面向儿童的付费取胜机制；文章分析这些条款在计算、沉浸感与虚拟货币定性上的执行难题，以及与其他欧盟法规重叠带来的合规负担。",
-      "why": "作者逐条解读草案条款，指出付费取胜定义可能过窄、付费推进可能波及买断制DLC，并认为法规过度细化、与六部现有法案重叠，使小型团队难以合规，罚款上限达全球年营业额6%。",
-      "for_you": "可追问：若虚拟货币被赋予真实货币价值，游戏内转账、封号与停服场景下的责任边界应如何设计？",
-      "degraded": null
-    },
-    {
-      "source_id": "web-68554a31d0",
-      "source_url": "https://www.chuapp.com/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "e20e706f9726655e",
-      "title": "公司余额已不足一份《GTA 6》：一家独游工作室的梭哈时刻",
-      "url": "http://www.chuapp.com/article/291775.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "触乐"
-      ],
-      "published": "2026-11-20T11:35:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "昨天，《GTA 6》正式发售，报道显示它的开发成本超过10亿美元——如果把这笔钱换成10万美元一张的报销单，摞起来将超过1米，随便从中抽取一张，都足以支撑《星露谷物语》《空洞骑士》《小丑牌》这样的独立游戏开发团队，完成数年的开发工作。 当然，游戏开发成本不能这样简单比较。开发游戏是一件有多少钱、做多少事的工作，非常考验团队的项目管理能力。一款游戏从开发到上线，钱从哪里来，又会花到什么地方，始终是我们好奇的故事。 过去一周，触乐陆续联系了几位在今年发行过游戏的独立开发者和团队，请他们分享过去一年的账单，算一算自己的游戏究竟花了多少钱。其中一份账单尤其详细，也很有意思，它来自猫见茶工作室。 这是一家注册在中国香港的工作室，目前有6位成员，分布在香港和广东两地。今年7月，他们发行了工作室的第一款游戏《凉茶王》，新作《敲酒师》也将在近期上线。 《凉茶王》是一款以90年代广东（省港澳）为背景的模拟冒险游戏 和许多独立游戏团队相比，猫见茶算得上幸运。开发《凉茶王》期间，他们拿到了一笔不计回报的“天使”投资，以及一笔无需偿还的政府资助——两笔钱加起来勉强接近10万美元。即便如此，游戏开发依然经历了不少波折，归根结底，还是因为缺钱。 从他们提供的账单里，我们几乎能看到每一笔资金的流向：有操作失误带来的罚款，也有资金紧张时拖欠的工资。那是今年春节前，工作室账上只剩下1221元，已经发不出下个月的工资",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "公司余额已不足一份《GTA 6》：一家独游工作室的梭哈时刻",
-          "url": "http://www.chuapp.com/article/291775.html",
-          "source": "触乐",
-          "lang": "zh",
-          "published": "2026-11-20T11:35:00+00:00"
+          "published": "2026-11-20T09:44:20+00:00"
         }
       ],
       "score": 17,
@@ -458,561 +692,15 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 43.64788992416666,
+      "age_hours": 70.24191110972222,
       "evergreen": false,
       "content_type": "新闻",
       "section": "news",
-      "body": "做独立游戏何尝不是一种赌博？\n昨天，《GTA 6》正式发售，报道显示它的开发成本超过10亿美元——如果把这笔钱换成10万美元一张的报销单，摞起来将超过1米，随便从中抽取一张，都足以支撑《星露谷物语》《空洞骑士》《小丑牌》这样的独立游戏开发团队，完成数年的开发工作。\n当然，游戏开发成本不能这样简单比较。开发游戏是一件有多少钱、做多少事的工作，非常考验团队的项目管理能力。一款游戏从开发到上线，钱从哪里来，又会花到什么地方，始终是我们好奇的故事。\n过去一周，触乐陆续联系了几位在今年发行过游戏的独立开发者和团队，请他们分享过去一年的账单，算一算自己的游戏究竟花了多少钱。其中一份账单尤其详细，也很有意思，它来自猫见茶工作室。\n这是一家注册在中国香港的工作室，目前有6位成员，分布在香港和广东两地。今年7月，他们发行了工作室的第一款游戏《凉茶王》，新作《敲酒师》也将在近期上线。\n和许多独立游戏团队相比，猫见茶算得上幸运。开发《凉茶王》期间，他们拿到了一笔不计回报的“天使”投资，以及一笔无需偿还的政府资助——两笔钱加起来勉强接近10万美元。即便如此，游戏开发依然经历了不少波折，归根结底，还是因为缺钱。\n从他们提供的账单里，我们几乎能看到每一笔资金的流向：有操作失误带来的罚款，也有资金紧张时拖欠的工资。那是今年春节前，工作室账上只剩下1221元，已经发不出下个月的工资。\n最困难的时候，工作室负责人抒雅和阿辉四处借钱，硬着头皮才坚持了下来。就在昨天，《凉茶王》获得了香港政府颁发的资讯科技奖数码娱乐类别铜奖。\n“尽管公司现在的余额只有三位数，一会儿我们却要和财政司司长一起吃饭。”领奖前，抒雅给我发来消息，“我们凭一己之力拉低整个湾仔的收入水平。”\n家家有本难念的经。每个开发者和工作室都有自己的困难，他人的经历未必能成为可以照搬的经验。但猫见茶的故事至少让我们看到，一支小团队为了把游戏做出来，究竟能破釜沉舟到什么程度。\n以下是抒雅的自述，我们做了适度的删减和修正。\n工作室收到第一笔投资是在2025年5月27日，3万元。这笔投资总共10万，分了几次转给我们，这是第一笔。\n投资人是我们工作室另一位负责人阿辉找来的。我们还在之前那家游戏公司上班时，阿辉就经常跟朋友说，想自己出来做游戏。等到工作室真正成立后，经他的朋友们介绍，阿辉认识了一位比较有钱的朋友。那位哥们也很大方，听完阿辉的想法，就决定拿出10万元投资我们。\n那位哥们简直就是一位“天使”投资人，不仅出手爽快，也不要求固定回报。我们当时只是约定，如果卖得好，我们给他分成，如果没卖好，我们想办法把钱还给他就行。后来我们也接触过不少其他投资人和发行商，但几乎没有人愿意给我们投钱。我到现在还觉得有点亏欠他。\n虽然10万元不算多，但对当时的我们来说非常重要。它既是一种鼓舞，也帮我们解决了工作室成立初期最实际的问题：我负责文案和策划，阿辉负责美术，但团队里还缺一个负责程序开发的人。\n拿到投资之后，我们就找了之前的同事浩瑜过来，一起组队开发。我们给他开的工资是每个月5000元，一共发了12个月。不过，浩瑜是工作室里唯一一个领工资的人，为了省钱，我和阿辉都没有给自己发工资。\n工资结构之所以这样安排，里面还有一段故事。我们三个人之前都在同一家游戏公司上班，老板也是一位游戏制作人。当时他可能遇到了一些经济问题，经常拖欠我们的工资。有时候我们要催两三周，他才会把钱发下来，到后来干脆就什么都不发了。\n去年2月，阿辉和我实在没办法，就商量着：既然如此，不如自己出来做游戏。当时阿辉已经被拖欠了2个月工资，我被拖欠了4个月，这些钱直到现在也没能要回来。后来我们找到浩瑜，才知道他的情况更严重，老板已经有6个月没给他发工资了。考虑到浩瑜的经济状况，我们就决定拿出一部分投资，专门给他发工资。\n现在回过头看，如果老板当时能坦诚地和我们沟通，或许事情也不会闹到这一步。但他最后直接消失了，我们根本联系不上。\n其实，我们自己的工作室资金状况也一直很紧张，经常入不敷出。2025年，我们实际收到的投资一共是6.5万元，到年底就已经全部花完了，账上只剩下1221元。浩瑜1月和2月的工资，我们也已经发不出来了。\n直到今年3月初，春节过后，投资人才又转给我们一笔1.5万元。拿到钱之后，我们做的第一件事就是给浩瑜发工资，然后再给阿辉和我报销这段时间垫付的费用。不到两天，这笔钱就又花完了。\n为了申请香港政府的资助，我们在注册香港公司这件事上花了不少冤枉钱。\n我2017年来到香港读博士，现在也在这边找了工作。前几年，我曾在一家本地游戏工作室兼职，当时了解到香港文旅局文创处有一个面向游戏开发者的资助项目，叫作“香港游戏优化和推广计划（GEPS）”。每个入选游戏可以获得55万港币资助，用于游戏的宣传推广。我当时还参加过他们组织的市场营销培训课程。\n所以，工作室成立之初，我们就计划申请这笔资助。另外，香港每年还会资助本地游戏团队前往ChinaJoy参展。考虑到这些机会，我们决定把公司注册在香港。收到第一笔投资的三天后，去年6月1日，我就去了公司注册处登记，花了2200元提交申请。\n然而，这只是各种费用的开端。香港注册公司需要在商业登记证上填写一个实际经营地址，我们当时没有钱租办公室，就找了一家秘书公司提供地址托管服务。算上行政服务费，每年要交4200元。另外，公司每年还需要审计，我们又要给会计事务所支付5000元的审计费。零零碎碎算下来，为了在香港注册和维持一家公司，我们前前后后花了差不多2万。但即便如此，我们最后还是因为准备得太晚，没能赶上去年的ChinaJoy。\n第一次注册公司，很多流程和规定我们都不熟悉，因此交了一些学费。比如账单上有一笔罚款，发生在去年8月20日。因为阿辉持有的是内地身份证，需要向公司注册处提交经过核证的身份证明文件，但我们当时忘了这件事，结果被罚了1124元。\n这个月，我们又被秘书公司坑了一笔。对方一开始报价5000，我们都已经谈好了，后来他们却说之前核算有误，需要再增加3000。因为审计时间已经很紧张，我们来不及换其他服务商，只能硬着头皮把钱交了。\n还有一笔冤枉钱花在了银行开户上。今年，为了接收GEPS的资助款项，我们需要开设香港公司的银行账户。最开始我们找的是恒生银行，结果对方拖了三个月都没办下来，中间甚至还给我们更换了一位客户经理。那时候我们已经垫付了不少钱，急着拿到资助款，就又去找中信国际开户。两次开户加起来，又花了2200。\n结果就是，我们现在有两个公司账户，但加起来也没剩多少钱。目前账上余额只有552元。更麻烦的是，香港的银行规定，如果公司账户存款不足10万，每个月还要扣200的账户管理费。\n为了申请GEPS那笔资助，我们踩了不少坑，也是跌跌撞撞，最后居然活了下来，没有死。\nGEPS的申请是在今年3月。其实，第一轮评选时我们就落选了。当时一共有5个入围名额，我们刚好排在第6名。\n我们已经收到了落选邮件，没想到过了一段时间，事情突然有了转机。官方通知我们，入选公司里有一家退出了，问我们愿不愿意递补。我心想，当然愿意！甚至有点不理解，为什么会有人主动放弃这个名额。我们没想太多，很快就答应了。\n直到拿到实际的资助方案，我们才傻了眼。这下终于明白，为什么前面那家公司会选择退出。55万港币的资金中，有10万是公司自己掏腰包，剩下的45万是政府资助。\n更让我们没有想到的是资助方式：所有资金都以“实报实销”的形式发放给入选的初创公司。也就是说，我们必须先自己垫付，再向官方申请报销，而且是分期报销，第一期的报销是21万港币。如果想拿到这笔钱，我们就得先拿出21万港币。这个消息简直是晴天霹雳，我们哪有这么多钱？\n我们仔细商量了一番，还是觉得机会难得。GEPS毕竟是政府搭建的平台，通过它，我们能获得更多资源和宣传机会。而且这是一笔不需要偿还的资助，我们也相信政府不会不给我们报销。既然如此，那就硬着头皮上吧。没钱了怎么办？借呗。\n我们先拿出了自己的存款，又找朋友借钱，借钱都借到家人还以为我去澳门赌钱了。包括工作室的程序浩瑜，也借了一笔钱给我们，我对此一直挺不好意思的。我自己也把花呗和借呗的额度基本用光了，以至于现在还经常收到它们发来的提额广告短信。\n在最捉襟见肘的时候，我真的下载了香港赛马会的APP，也试图幻想一个暴富美梦来麻痹自己。但话说回来，做独立游戏何尝不是一种赌博？\n到目前为止，我们大概已经花出去36万港币。其中最大的一笔支出是宣发合作，给一家供应商支付了21万港币。这笔钱其实只是第一期报销的上限，因为当时我们的实际支出早就超过了21万，之后又陆陆续续申请了其他报销。\n现在回过头看，当初选择这家供应商的决定值得反思。他们是一支比较年轻的团队，我们当时觉得彼此聊得来，就选择了合作。但他们实际的宣发经验相对有限。那时游戏已经临近上线，我们自己也没有太多精力参与主播和KOL的筛选，几乎把这件事全盘交给了对方。\n一开始，他们选择的都是粉丝量比较大的主播，花费也更高，但实际效果并不理想。后来，我们又调整了方向，转而寻找广东本地一些更熟悉粤语受众的主播，效果反而好了一些。不过，那时候预算已经花得差不多了。\n当然，我们也清楚，游戏最终卖得好不好，和游戏本身的质量有很大关系。我们自己也知道这款游戏大概是什么水平，所以不会单纯用销量来评价这次宣发合作。只能说，下次要吸取教训，提前研究宣传策略，而不是把所有事情都交给合作方。毕竟，我们肯定是最了解自己游戏的人，至少应该在主播选择和宣传方向上给出一些参考意见。\n后来，我们又找了一些独立运营团队合作，也尝试在小红书这样的社交平台上投流。现在想想，幸好有香港这笔资助，让我们有机会做这些尝试。否则，可能连这些推广和营销方面的经验都积累不起来。\n截至目前，《凉茶王》在Steam上卖出去3031份，销售额换成人民币差不多9.3万元。不过还要扣掉平台30%的分成，我们拿到手就只有6.5万左右。除了Steam平台外，我们在摩点和Kickstarter都开过众筹，两边加起来也有3万收入。众筹内容包含周边，这部分制作费大概是5000，也需要扣掉。\n我们把这些钱都拿去还给投资人了。11月初还清了最后一笔投资，账单一下子变成了赤字。\n我觉得真的很感谢这位投资人和政府的支持，让我们有机会去把一个游戏做完、推到上线，并且做一些我们自己没有能力去完成的尝试，积累了不少经验，也包括拿到资讯科技奖的这个铜奖。这才有了我们工作室现在在做的事情。\n我们的新游戏《敲酒师》应该已经快要上线了。这是阿辉找他发小来一起开发的一款放置类游戏。做完《凉茶王》之后，他们就开始，花了四个月的时间完成。除此之外，我们还有一款挂机游戏在做，以及一款冒险解谜的游戏。\n除了阿辉的发小，工作室还新加入了两位同事，一位是比较资深的系统策划，另一位也是我们的前同事，之前工作室的大师兄，负责程序。我们现在分成两拨人马，负责不同项目。大家的合作模式和之前不一样，我们约定好，前期不领工资，后续我们按销量分成。\n直到最近这两个月，我才感觉稍微喘上气。\n当时拿到政府报销的21万后，我们在账户里存了几天，一方面是因为银行不建议当天就大额进出，另一方面我们还需要把其中的一部分换成人民币给自己。后来我们查账的时候，看到这笔钱每天的利息，阿辉和我都很感慨：足足4块钱呢。\n回想起过去这一年的经历，我都佩服自己，也不知道咋坚持下来的。之前玩模拟经营游戏的时候，我从不敢all in，但在真实的人生中，我却一把全梭哈了。",
+      "body": "Phonopolis from Amanita Design wins Grand Prize at the DevGAMM Awards\nStudio founder Jakub Dvorský says \"keep making games and support Ukraine\"\nThe DevGAMM Awards took place on Wednesday evening as the finale to the DevGAMM Lisbon conference, which this year was held in a new, more central venue: the Carlos Lopes Pavilion.\nThe awards centre on AA and indie games, and Phonopolis from Czech studio Amanita Design took home the Grand Prize. Studio founder Jakub Dvorský collected the award, and ended his acceptance speech by imploring the audience to \"keep making games and support Ukraine\".\nPhonopolis – which was released in May and sees a refuse collector squaring up to a dictator in a world inspired by inter-war avant-garde art – took around a decade to make, and the characters and environmental elements were made from paper and cardboard before being scanned into the game.\nAmanita Design was founded in Prague in 2003, and is also known for games like Machinarium, Pilgrims, and Creaks.\nThe other nominees for the Grand Prize were Dead As Disco (Brain Jar Games), Echoes of Mystralia (Borealys Games), Mortal Shell 2 (Cold Symmetry), and Mouse: PI For Hire (Fumi Games).\nIn addition to taking home the Grand Prize, Phonopolis won the award for Excellence in Visual Art, and Dead As Disco also took home two awards: Excellence in Audio and the Epic Games Store Indie Spotlight.\nIn total, the awards featured 17 categories, with a total prize pool of $140,000. This year, for the first time, the ceremony was streamed live by IGN (IGN Entertainment is the parent company of GamesIndustry.biz).\nThe full list of DevGAMM Awards winners is below:\n- Grand Prize: Phonopolis by Amanita Design\n- Excellence in Game Design: Desktop Explorer by Recurring Dream\n- Excellence in Visual Art: Phonopolis by Amanita Design\n- Excellence in Narrative: Ledgerbound by OmniMegaSuperCorp\n- Excellence in Audio: Dead As Disco by Brain Jar Games\n- Best Mobile Game: Gambonanza by Blukulele (Paul Giovannini)\n- Most Anticipated Game: Crop by Carbonara Games\n- Best Game in Early Development: Hold Your Dragons by Igor Krutov\n- Best Small Team Game: Moldrise by Raffaele Picca\n- Meaningful Game: As Long As You're Here by Autoscopia\n- Best Game from Portugal: War Doctor by Red Pine Studios\n- DevGAMM Choice: InKonbini: One Store. Many Stories by Nagai Industries\n- Epic Games Store Indie Spotlight: Dead As Disco by Brain Jar Games\n- Best Unreal Engine Game: Mortal Shell 2 by Cold Symmetry\n- Best Indie Game by TinyBuild: Rewindead by Spellwork AB\n- Best Made With Unity Game: Tempus Vitae by Whiteboard Games\n- Best Godot Game: Burn With Me by Nozomu Games\nMac, PC",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "猫见茶工作室自述《凉茶王》开发账单与资金困境",
-      "what": "触乐采访香港独立工作室猫见茶，其负责人抒雅讲述《凉茶王》开发期间的收支：获约10万元天使投资与香港政府资助，曾因资金紧张拖欠工资、账上仅剩1221元，并详列注册公司、申请GEPS资助及宣发支出的具体金额。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-15489e2ed4",
-      "source_url": "https://www.gamesindustry.biz/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "93a9ff6d539ca4ec",
-      "title": "The creator of E.T. on the Atari 2600 likens the deluge of AI-made games to the glut of poor-quality titles released ahead of the US video game crash of 1983",
-      "url": "https://www.gamesindustry.biz/the-creator-of-et-on-the-atari-2600-likens-the-deluge-of-ai-made-games-to-the-glut-of-poor-quality-titles-released-ahead-of-the-us-video-game-crash-of-1983",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-11-20T11:13:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "At the DevGAMM Lisbon conference this week, veteran game designer Howard Scott Warshaw gave a talk called \"From Atari to AI\". Warshaw was behind a number of famous titles for the Atari 2600, including the classic Yars' Revenge, but infamously he also designed the game E.T. the Extra-Terrestial, the poor quality of which has been cited as a factor in the US video game crash of 1983, when US games industry revenue plummeted from over $3 billion in 1983 to around $100 million in 1985.",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "The creator of E.T. on the Atari 2600 likens the deluge of AI-made games to the glut of poor-quality titles released ahead of the US video game crash of 1983",
-          "url": "https://www.gamesindustry.biz/the-creator-of-et-on-the-atari-2600-likens-the-deluge-of-ai-made-games-to-the-glut-of-poor-quality-titles-released-ahead-of-the-us-video-game-crash-of-1983",
-          "source": "GamesIndustry",
-          "lang": "en",
-          "published": "2026-11-20T11:13:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "系统设计",
-      "is_analysis": false,
-      "age_hours": 44.01455659083333,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "The creator of E.T. on the Atari 2600 likens the deluge of AI-made games to the glut of poor-quality titles released ahead of the US video game crash of 1983\nSpeaking at DevGAMM Lisbon, Howard Scott Warshaw said that although he doesn't see a similar crash occurring, the new challenge is finding a way to \"winnow out the crap\"\nAt the DevGAMM Lisbon conference this week, veteran game designer Howard Scott Warshaw gave a talk called \"From Atari to AI\". Warshaw was behind a number of famous titles for the Atari 2600, including the classic Yars' Revenge, but infamously he also designed the game E.T. the Extra-Terrestial, the poor quality of which has been cited as a factor in the US video game crash of 1983, when US games industry revenue plummeted from over $3 billion in 1983 to around $100 million in 1985.\nUnsold copies of the 1982 game were later buried in the New Mexico desert, and Warshaw would eventually leave the games industry to become a psychotherapist. He wrote an autobiography in 2020 called Once Upon Atari: How I Made History by Killing an Industry, in which he detailed the pressure he faced to produce E.T. in a matter of weeks so it could be released in time for Christmas.\nAt DevGAMM Lisbon, Warshaw made a connection between the \"glut of crap on the market\" ahead of the 1983 crash and the huge number of poor games being made using AI now, saying it's \"going to have the same impact on a larger scale.\"\nWarshaw acknowledged that AI is a \"super controversial topic\", but said that one thing it does \"incredibly\" is leverage programming capacity. \"People who used to have to spend weeks, months, or years programming something can now do it in days with AI support,\" he said.\n\"So what does that mean in game development? What it means is we're going to see a lot more games produced. You ever hear of the crash of '83 or '84, the big video game crash? They said the problem that happened in the crash, and I think that was true, was there was a glut of crap on the market, because the machine opened up and anybody could just pop a game out, and they did.\n\"AI is going to have the same impact on a larger scale\"\n\"So way more games came out, and good games were still being made, but they were way overshadowed by the crap: and that created a real problem in the game industry. AI is going to have the same impact on a larger scale, because on the one level, so many more people can now realise and create a video game than ever could before just using AI. And that's okay, but there's going to be a lot of crap, because most games suck. That's just the way it is.\n\"Game design is just like movie ideas and novel ideas, and everybody wants to write a book about their life and it's going to make a great story. There's some things in life that everybody can see themselves doing, and the truth is most people who do it can't do it very well. And what AI is going to do is make that more possible for people who can't do it to do it.\n\"What I mean by that is a lot of people are going to be able to realise their ideas, and most of them aren't going to be very interesting. But it is also true that there are going to be a lot more really good games and some really interesting ideas, because at the same time that it enables a lot of people to put out garbage, it's also going to enable the people who really do have some innovative, interesting, and solid ideas to realise those, too, so it will move it forward.\"\n\"The new challenge we're going to have is to have a way to winnow out the crap\"\nWarshaw said that in the past, technology advances swallowed up a large portion of time and attention when developing games, but with the advent of AI, he thinks the focus will shift from technology development to game design. \"And I think that's actually going to be a super positive thing for the video game industry,\" he said. \"The new challenge we're going to have is to have a way to winnow out the crap and get to the good games.\"\nAt the end of the talk, GamesIndustry.biz asked Warshaw to clarify his comments comparing the crash of 1983 with the glut of poor-quality AI-made games now, and whether he envisages a similar crash occurring.\n\"I don't really see the prospect of a crash in the video game industry,\" he said, \"because video games back then, people were speculating. In the early 80s, people were saying games were just a fad. A lot of people were saying they were a fad, and the crash just meant that investment left the field and nobody wanted to pay for doing games, because they weren't sure if games were here to stay.\n\"By now, decades later, games are such a pervasive, omnipresent part of our lives, the idea that games are going to go away, I don't think ever happens. The idea that games become something different entirely, that is still available.\"\n\"I really don't see a crash per se. What I do see is a reorganisation\"\nHe said that because games are now such a fundamental part of society, \"I really don't see a crash per se. What I do see is a reorganisation, where we need better filters to figure out a way to get rid of the garbage games and not waste time with that, and to highlight what are really innovative and exciting things.\"\nBeyond the deluge of AI-made games on platforms like Steam, the games industry has been facing a number of interlinked crises over the past four to five years, as outlined in a talk by Amir Satvat at Gamescom Dev in August. Various senior industry figures have previously made a connection between the current issues and the US video game crash of 1983, including Epic Games head Tim Sweeney and Romero Games co-founder Brenda Romero – although Romero later clarified her comments on Bluesky, saying the comparison was more about \"how it feels to live and work in this industry as a developer, not in terms of industry revenue.\"",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "E.T.设计师沃肖将AI游戏泛滥比作1983年雅达利冲击前的劣质游戏潮",
-      "what": "雅达利2600游戏E.T.的设计者Howard Scott Warshaw在DevGAMM里斯本演讲中称，AI降低开发门槛将带来大量劣质游戏，类似1983年美国游戏业崩溃前的市场泛滥；但他认为游戏业不会重演崩溃，而是需要更好的筛选机制。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-68554a31d0",
-      "source_url": "https://www.chuapp.com/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "9114b06f31a3d499",
-      "title": "各平台对《GTA6》的差评到底在说什么？",
-      "url": "http://www.chuapp.com/article/291777.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "触乐"
-      ],
-      "published": "2026-11-20T10:31:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "最近这段时间，几乎所有人都在谈论《GTA 6》，你能看到许多有关《GTA 6》的差评——很多差评已经和游戏本身的关系不大了，因为《GTA 6》的影响力在某种程度上已经超越了游戏领域而进入了“文化现象”的范畴，在美国，几乎所有上网的人都知道这个游戏，这客观让它成了近期的流量宝库。 X几乎是《GTA6》首发以来差评最集中的平台。但众所周知，在X上发表意见并不需要实际玩到游戏。 《GTA 6》首发当天，我点进“GTA 6”这个趋势标签，流量最大的帖子是对知名主播Asmongold的讨论，而不是游戏本身。据说，这名主播在直播《GTA 6》时看到主人公杰森给女朋友买花和衣服，觉得他很“龟男”（cuck），之后又在做清洁公寓等小任务时企图退款。 X上的趋势热帖并不是关于游戏本身的，却衍生出了大量的讨论和差评 但如果你真的玩了游戏，就会发现，首先游戏确实有修整房屋的小任务，但这个任务出现时，一般玩家的游戏时间大约为6-7小时左右，而修屋顶、修楼梯、修栏杆、刷墙这四个修整房屋的任务一共加起来用时应该也不超过8分钟。更何况单从剧情算，这屋子男主角自己也住。难道我自己就住，就不能修修房子让它不漏雨吗？ 我们当然不能做动机揣测，但是拿着几个小任务表达激烈的情绪，这看起来目的性有些强。而且这些帖子成功了——这个话题成功地引导了X上在游戏首发日的上千条评论。评论大致分成两派，其中一派嘲讽主播是个小题大做的l",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "各平台对《GTA6》的差评到底在说什么？",
-          "url": "http://www.chuapp.com/article/291777.html",
-          "source": "触乐",
-          "lang": "zh",
-          "published": "2026-11-20T10:31:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "玩家体验",
-      "is_analysis": false,
-      "age_hours": 44.71455659083333,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "在某些平台发表意见并不需要实际玩到游戏。\n最近这段时间，几乎所有人都在谈论《GTA 6》，你能看到许多有关《GTA 6》的差评——很多差评已经和游戏本身的关系不大了，因为《GTA 6》的影响力在某种程度上已经超越了游戏领域而进入了“文化现象”的范畴，在美国，几乎所有上网的人都知道这个游戏，这客观让它成了近期的流量宝库。\nX几乎是《GTA6》首发以来差评最集中的平台。但众所周知，在X上发表意见并不需要实际玩到游戏。\n《GTA 6》首发当天，我点进“GTA 6”这个趋势标签，流量最大的帖子是对知名主播Asmongold的讨论，而不是游戏本身。据说，这名主播在直播《GTA 6》时看到主人公杰森给女朋友买花和衣服，觉得他很“龟男”（cuck），之后又在做清洁公寓等小任务时企图退款。\n但如果你真的玩了游戏，就会发现，首先游戏确实有修整房屋的小任务，但这个任务出现时，一般玩家的游戏时间大约为6-7小时左右，而修屋顶、修楼梯、修栏杆、刷墙这四个修整房屋的任务一共加起来用时应该也不超过8分钟。更何况单从剧情算，这屋子男主角自己也住。难道我自己就住，就不能修修房子让它不漏雨吗？\n我们当然不能做动机揣测，但是拿着几个小任务表达激烈的情绪，这看起来目的性有些强。而且这些帖子成功了——这个话题成功地引导了X上在游戏首发日的上千条评论。评论大致分成两派，其中一派嘲讽主播是个小题大做的loser，另一派则认为“GTA”系列就该是纯粹的车枪游戏，做成约会模拟器属于货不对板（当然，底层逻辑大概率还是觉得男主角不够男人）。\n在这个基础上，很多帖子进一步表示惊讶：专门请假在家，就是为了在游戏里虚拟做家务？实在是太疯狂了！\n然后话题又万物归宗一般地被归拢到了对DEI和“woke”的争论。有好事者列举出“《GTA6》编剧被污染”的诸多证据。比如女主露西亚太“作”、杰森是她的“舔狗”、玩家不能在同性恋酒吧大开杀戒、游戏里没有（或者不能召）站街女等。\n这类评论还一度流入了国内的游戏综合讨论板块，引发大家对“《GTA6》在海外差评一片”的讨论。\n需要指出的是，根据X网页端抓取的数据，类似讨论串中，包含“看起来”“听起来”等模糊措辞的占比约为25%。考虑到《GTA6》目前只有PS版和Xbox版，实际玩到了游戏的玩家可能并没有热门趋势里看起来的那么多。\nBluesky是一个风向和X基本相反的平台，曾经有大量游戏行业从业者离开X，把社交重心往这个平台搬迁。在这里也会出现一些彰显意识形态的评论，但理由和X上截然不同。\n比如说，有人在发售前期待《GTA6》扑街：“我觉得大家都不应该购买和游玩GTA VI。不是因为我认为抵制它在道德上有什么积极意义，而是因为如果这款游戏真的扑街了，那一定会非常有意思。……如今的 3A 游戏产业就像一根腐朽的支柱，上面堆满了风险投资和沙特石油资本。这种产业已经不值得拯救了。”\n有人则与部分玩家针对游戏中有大量拉丁裔、黑人的差评针锋相对，称“反对《GTA6》的都是种族主义者”。考虑到《GTA6》中“罪恶之城”的原型是迈阿密，一个拉丁裔人口占70%以上的都市圈，纠结种族的“正确”问题确实匪夷所思。\n但归根究底，Bluesky上的差评与其说是针对《GTA6》，不如说是针对3A游戏整体的颓势。人们幸灾乐祸于Rockstar的翻车能彻底颠覆这个让许多人叫苦不迭的超级工业，寄希望于行业洗牌与重头再来，彻底摆脱那些高投入的无趣产品。因为人们对游戏产业的态度变化，“GTA系列”这个曾经的“游戏工业史上的明珠”也开始面临着变成鱼眼睛的风险。\n除了彰显意识形态的“站队式”差评，X上还有不少人借此机会彰显自己对所谓“专业测评”的不满，矛头直指媒体被公关、Rockstar黑幕和TGA不公等等。\n与这些平台的热闹截然相反，“GTA”系列和《GTA6》的Reddit社区这两天十分风平浪静。看起来，绝大多数人都在闷头玩，评价上的分化集中在“GTA玩的是犯罪还是真实”等更加具体的方面。\n只有在帧率上，各大阵营才会抛弃自己的种种立场，统一调侃道：Metacritc上目前评分最高的两部游戏，《GTA6》和《塞尔达传说：时之笛》在各自主机上的帧数都半斤八两。\n从最近几部大作的发售情况看来，各大社交平台首发褒贬不一似乎已经成为了一种规律，连《GTA6》都无法逃脱。不过，除了媒体评分失信、DEI渗透之类的万能砖式差评，《GTA6》的境遇确实有一个特殊之处——它说不定真的是3A大作时代，或者说这种投入庞大的制作模式最后的辉煌。\n超过10年开发周期、外界估计成本约在10亿至15亿……如果说在这个世代都没有其他游戏公司再能拿出类似规模的游戏，《GTA6》的任何一个优点和瑕疵都可能被无限放大，并且被放在整个游戏史上审视。尤其是，相比于现在许多更加灵活有个性的中型团队作品，这种极度拟真的沉浸理念和事无巨细的堆料，还有接近100美元的售价，都让人无时不刻不审视“性价比”这回事。\nIGN的游戏测评下的一些评论反倒让人有些共情的意味。一些几十年游戏龄的老玩家觉得《GTA6》让人惊艳，但自己已经过了会觉得它酷的年纪，不如让给自己的孩子玩。时代真的要变了吗？谁也说不清。",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "各平台对《GTA6》的差评在争论什么",
-      "what": "触乐梳理《GTA6》发售后各社交平台的差评：X上围绕主播吐槽家务任务、DEI与woke争议发酵，Bluesky上多为对3A工业的幸灾乐祸，Reddit社区则相对平静，讨论集中在犯罪与真实等具体层面。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-15489e2ed4",
-      "source_url": "https://www.gamesindustry.biz/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "079c6d43ec7e895a",
-      "title": "IGN partners with Rockstar to host Official Strategy Guide for GTA 6",
-      "url": "https://www.gamesindustry.biz/ign-partners-with-rockstar-to-host-official-strategy-guide-for-gta-6",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GamesIndustry"
-      ],
-      "published": "2026-11-20T10:07:40+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "IGN Entertainment, the parent company of GamesIndustry.biz , has released the Official Online Guide for GTA 6 , created through direct collaboration with Rockstar Games. The free guide, which was published on IGN.com, includes an extensive interactive map built using the firm's MapGenie platform, along with checklist trackers for completed tasks and detailed guides on missions, mechanics, and the game's vast open world.",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "IGN partners with Rockstar to host Official Strategy Guide for GTA 6",
-          "url": "https://www.gamesindustry.biz/ign-partners-with-rockstar-to-host-official-strategy-guide-for-gta-6",
-          "source": "GamesIndustry",
-          "lang": "en",
-          "published": "2026-11-20T10:07:40+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "关卡设计",
-      "is_analysis": false,
-      "age_hours": 45.10344547972222,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "IGN partners with Rockstar to host Official Strategy Guide for GTA 6\nFree digital resource was created in direct collaboration with the developer, \"inspired by classic print strategy guides\"\nIGN Entertainment, the parent company of GamesIndustry.biz, has released the Official Online Guide for GTA 6, created through direct collaboration with Rockstar Games. The free guide, which was published on IGN.com, includes an extensive interactive map built using the firm's MapGenie platform, along with checklist trackers for completed tasks and detailed guides on missions, mechanics, and the game's vast open world.\nIn a press release, the firm said that the guide was \"inspired by classic print strategy guides\", and \"will be continuously updated post launch.\"\nThe partnership has the potential to drive significant long-term traffic for the site. Game guides have served as the primary traffic source for consumer gaming media for many years, and GTA 6 has been hotly anticipated as a top-selling title with a wide range of systems and challenges that players will seek guidance on. While many sites have seen recent traffic drops attributed to Google's rollout of AI summaries in search results, which reduced the number of users sent to the sites from which the information is drawn, tools like MapGenie are expected to prove more enduring as they can't be directly reproduced.\n“IGN is celebrating its 30th anniversary this year – our guides and game help offerings have evolved alongside our website and the internet,\" said Peer Schneider, Chief Development Officer and co-founder of IGN Entertainment. \"We are excited to add official guides to our product offering and couldn’t be more proud to start off with the most-anticipated game on the planet, GTA 6.”\n“In addition to lending gamers a helping hand when they most need it, one of our primary goals is to aid discovery and player agency by keeping the experience spoiler-safe.”",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "IGN与Rockstar合作推出《GTA 6》官方在线攻略",
-      "what": "IGN Entertainment宣布与Rockstar Games直接合作，在IGN.com发布免费的《GTA 6》官方在线攻略，内容包括基于MapGenie平台的互动地图、任务完成清单，以及任务、机制和开放世界的详细指南，并称将在游戏发售后持续更新。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-70e4da96dc",
-      "source_url": "https://www.gameres.com/rss.xml",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "62afe4a139a286cb",
-      "title": "养了就不亏！996传奇盒子《痴玩遇见沉默》传奇手游强化全绑角色",
-      "url": "https://www.gameres.com/901203643.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GameRes"
-      ],
-      "published": "2026-11-20T01:09:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "996传奇盒子上线的《痴玩遇见沉默》为185沉默微变单职业传奇手游，养成系统有厚度，装备强星、剑甲强化绑定角色不绑装备，另有魂骨、宝石等多条养成线。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "养了就不亏！996传奇盒子《痴玩遇见沉默》传奇手游强化全绑角色",
-          "url": "https://www.gameres.com/901203643.html",
-          "source": "GameRes",
-          "lang": "zh",
-          "published": "2026-11-20T01:09:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 54.0812232575,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "玩沉默服的传奇老铁，最怕一种情况：看着内容挺多，玩进去才发现全是“伪深度”。武学抽一抽、坐骑喂一喂，前期热闹，后期乏力，到头来还是靠数值硬堆。真正有厚度的沉默服，不是把系统铺得多，而是每一条线都值得你花时间去琢磨、去经营。\n《痴玩遇见沉默》这次走了一条把沉默“沉”出了新厚度。这款服，近日在国内头部传奇手游平台996传奇盒子上线。作为185沉默微变单职业版本，没有把宝押在剧情叙事上，而是把力气花在了养成系统的厚度上：魂骨十部位、装备强星、剑甲强化、宝石镶嵌、九层妖塔、魂幡异火锻造。每一条线都不是点一下加个数字就完事，而是有独立特效、有阶段奖励、有需要你琢磨的搭配逻辑。它不是让你三天毕业，而是让你每天都有新东西可以研究。\n魂骨：十个部位，十种攻击特效\n魂骨系统是这服最有辨识度的养成线。头骨、身体、左右臂、左右手、左右腿、左右脚共10个部位，消耗至尊骨碎片、灵气和灵符独立晋升。每提升一次获得最大攻击、最大生命和回收比例加成，但这只是基础。\n真正有意思的是每个部位自带的独立攻击特效：头骨攻击时概率额外造成一次50%伤害；身体被暴击时概率减免暴击伤害；左臂血量低于30%时获得攻击加成；右臂被攻击时概率格挡本次伤害；左手攻击时概率禁止目标攻击1秒；右手攻击时概率将部分伤害转化为自身血量；左腿被攻击时概率增加闪避属性；右腿暴击时概率追加暴击伤害；左脚攻击时概率增加命中属性；右脚概率降低目标移速。\n十个部位，十种方向，有的偏进攻，有的偏保命，有的偏控制。全部晋升至满级后自动佩戴，不用手动折腾。魂骨副本每天最多挑战3次，每次消耗金币和至尊精粹。养满一套魂骨的过程不短，但每升一个部位都能看到实打实的变化，不是那种“升了跟没升一样”的虚活。\n装备强星+剑甲强化：绑角色不绑装备，养了就不亏\n这服的强星和剑甲强化，最让人安心的一点就是：养的是角色，不是那件装备！装备强星针对项链、头盔、手镯、戒指这些部位升星，每件装备的星级给的属性很明确——1星给爆率，3星给基础攻击，5星给攻击伤害，7星给暴击伤害，9星给神力倍攻。全身累计星数上去之后还能激活套装奖励：40星给护体神盾，56星给魔法盾，72星直接让人物等级上限+1。这意味着你不用盯着某一件极品装备死磕，哪怕后面换了更好的装备，之前攒的星级和套装效果依然还在，不用从头再来。\n剑甲强化同样如此，只针对武器和衣服。消耗金币和精粹提升等级，武器加最大攻击，衣服加最大生命。达到一定等级后，逐步解锁对怪吸血、减伤、攻速、移速，最终还能突破等级上限+1。关键是，剑甲强化绑定的是角色对应的装备部位，哪怕武器爆了、衣服换了，培养效果依然保留，白养这种事在这儿不存在。对于散人来说，最舒服的地方就在这儿：不用担心辛苦攒的材料因为一次换装就打了水漂，也不用在“穿这件还是那件”之间反复纠结。养了就是你的，换了装备也不亏，踏实。\n宝石+九层妖塔+锻造：多条线稳步推进\n宝石这套东西，跟强星不一样，它绑的是装备，不是角色。武器、衣服、头盔、项链、手镯、戒指六个部位，每件最多开三个孔，开孔花金币。宝石分攻击和生命两个方向，种类有基础、最大、天道，等级从1级到5级。换句话说，换一件装备，原先镶在上面的宝石带不走，得重新规划。听着有点心疼，但也正因为这样，每次换装备之前都得掂量掂量，不是无脑往上怼。\n宝石的来源主要靠九层妖塔。个人挑战副本，每天最多进三次，每次消耗专属精粹。刷塔拿宝石，再回头镶嵌到装备上，这条闭环非常清晰，不用满世界找材料，节奏也稳。\n锻造线那边有三条路。魂幡吃金币、灵符和残魂断魄，加固定生命比例、固定攻击比例、打怪爆率和怪物魔化，属于全面提升型。斗笠靠斗笠碎片升品阶，给攻魔道、生命魔法、攻击伤害，还有额外的对怪伤害，越往上升越明显。异火则吃灵符，逐级加基础攻击、基础生命、打怪爆率，还能出鞭尸概率、连鞭概率、对怪切割和全属性，属于那种“越烧越旺”的路线。\n三条线材料来源各不一样，刷怪、活动、副本都能喂，没必要死盯一条线。今天刷塔攒宝石，明天打怪捡碎片喂魂幡，后天灵符多了去点异火，节奏自己拿捏不会累。\n新系统做厚了，老玩法也没丢。武学依旧是做完主线随机三选一，百发百中、乾坤宝囊、斩金断玉套装各有各的惊喜；坐骑依旧自带万剑归宗特效，粮草喂一喂，清小怪依然解压；四大陆的破军、铁狱、影煞、御灵四流派，依旧给后期留出了切换空间。再加上宝宝、境界突破、挖宝、押镖这些日常线，整个服的养成网不是变窄了，而是变得更宽、更厚、更经得起琢磨。\n现在下载996传奇盒子，搜索“痴玩遇见沉默”就能体验。在PC端玩得爽快，移动端玩得省心，上线领取996盒子大神称号，另有丰盛新手福利包！传奇、传3、传世多种经典玩法在盒子一站汇聚，还有《热血江湖》专区等你重回熟悉的江湖。想怀旧、找服、体验不同版本，都能在这里找到适合自己的选择。\n登录 后参与讨论\n暂无评论，来抢沙发",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "996传奇盒子上线《痴玩遇见沉默》185沉默微变单职业版本",
-      "what": "《痴玩遇见沉默》在996传奇盒子上线，为185沉默微变单职业版本。文章介绍其养成系统：魂骨十部位各有独立攻击特效，装备强星与剑甲强化绑定角色部位而非具体装备，宝石镶嵌绑定装备，另有九层妖塔、魂幡、斗笠、异火等锻造线。",
-      "why": "",
-      "for_you": "",
-      "degraded": null
-    },
-    {
-      "source_id": "web-70e4da96dc",
-      "source_url": "https://www.gameres.com/rss.xml",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "ccd1c1d3cb3b6aa0",
-      "title": "都说MMO不行了 怎么《魔兽世界：无限》国服就百万人同时在线了？",
-      "url": "https://www.gameres.com/901203642.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GameRes"
-      ],
-      "published": "2026-11-20T00:55:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "《魔兽世界：无限》国服开服同时在线破百万，创系列多项纪录，解析其火爆的多重原因及游戏在内容、玩法等层面的改进方向。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "都说MMO不行了 怎么《魔兽世界：无限》国服就百万人同时在线了？",
-          "url": "https://www.gameres.com/901203642.html",
-          "source": "GameRes",
-          "lang": "zh",
-          "published": "2026-11-20T00:55:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 54.314556590833334,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "这些年普遍存在一种看法，认为MMO这种历经发展多年的类型已经不行了，不复往日之荣光。\n现在我们也确实可以看到中国研发的MMO新作比起十年乃至于二十年前少了很多。\n但是另一方面，我们可以看到韩国现在还有不少MMO新作，这方面还是很热闹。\n而最近国内MMO领域的大事当然就是《魔兽世界：无限》国服在线人数突破百万，并且该作还打破了多个记录，引发了很多热议。\n那么，这款游戏到底是怎么办到的呢？\n这次到底有多火爆？\n本次《魔兽世界：无限》于11月5日全球同步上线。\n根据2026年11月7日暴雪和国服官方发布的信息，《魔兽世界：无限》开服创下了几个纪录：\n1. 《魔兽世界》系列历史最高开服峰值同时在线人数。\n2. 《魔兽世界》系列历史最多回归玩家人数。\n3. 国服刷新《魔兽世界》历史最高开服同时在线人数。\n国服官方随后还发布了同时在线人数达到100万的信息。\n值得注意的是，2024年国服回归后，官方曾宣布最高同时在线人数连续80天超过100万。这说明《魔兽世界》的用户基础有相当强的恢复能力。\n而本次《魔兽世界：无限》如此高的热度也说明了《魔兽世界》这个IP有很强的生命力和挖掘价值。\n而且这次《无限》出来后，确实我们也可以看到不少《魔兽世界》的老玩家在一些游戏群不断热烈讨论，其中有些人玩到废寝忘食，甚至到凌晨三四点才睡觉，可见游戏热度之高。\n为什么这次如此火爆？\n第一个原因是长期多年的IP积累。\n《魔兽世界》与一般MMORPG最大的区别，是它不只是一个游戏产品，而是一套已经深入玩家记忆的虚拟世界。\n对于很多玩家来说：\n- 艾泽拉斯是自己接触网络游戏的起点。\n- 副本、公会、战场承载着青春时期的社交记忆。\n- 阿尔萨斯、伊利丹、萨尔等角色拥有长期积累的情感价值。\n- 过去一起开荒、做任务的朋友，本身就是回归游戏的理由。\n新MMO即使画面比《魔兽世界》好很多，也很难在短时间内复制这种情感积累。\n这实际上形成了一种非常特殊的竞争壁垒：玩家不仅在选择游戏，也是在重新进入一个自己熟悉的社交世界。\n类似的案例还有《传奇》《仙境传说》《梦幻西游》等老牌MMO，这些游戏都是出现了20年甚至更久，然后也都是有一群老玩家留在游戏里面是因为那种熟悉的社交氛围，我们不妨想一下，很多人大学毕业后逐渐的以前读书时期建立的社交圈因为各种原因慢慢就淡化了，比如大学时关系很好的同学毕业后因为各奔东西或者是其他一些原因逐渐就不太来往了，但是类似于这种老牌MMO的社交圈因为是纯粹靠对某个游戏的热爱和兴趣而建立起来的，这种比起同学关系可能反而更长久更紧密。\n第二个原因是回归玩家的爆发力，远远超出普通新游戏的获客能力。\n这次尤其值得关注的是，暴雪明确表示《魔兽世界：无限》创造了系列历史最高回归玩家纪录。\n这意味着它的用户增长不完全依靠新玩家。\n传统游戏行业经常把用户增长理解为：\n新用户下载 → 新手引导 → 留存 → 付费。\n但《魔兽世界》拥有另一条非常重要的增长路径：\n老玩家回忆 → 社交圈传播 → 朋友召回 → 集体回归 → 在线人数快速增长。\n这两种获客方式有很大区别。\n新MMO需要花费大量营销费用向玩家解释自己有什么好玩，而《魔兽世界》不需要从零开始解释艾泽拉斯。\n老玩家可能已经离开游戏多年，但他们对游戏的认知、操作习惯和情感连接并没有完全消失。\n第三个原因是MMO的核心竞争力在于社交关系，而不是单纯的玩法。\n很多新游戏在研发时，关注的是：战斗系统是否足够爽快；画面是否足够精美；开放世界是否足够大；任务和探索是否足够丰富。\n但MMO有一个其他游戏类型很难替代的属性：玩家之间能够形成持续性的关系。\n例如：公会成员需要定期组织活动；团队副本需要固定成员配合；PVP需要队友之间形成默契；游戏中的经济系统需要玩家持续交易；朋友之间会因为游戏活动形成固定的上线时间。\n当这些关系建立起来之后，玩家离开游戏的成本就不再只是重新寻找一款游戏那么简单。\n他还需要重新寻找一群可以一起玩的朋友。\n这也是为什么一些单机游戏即使品质非常高，也很难完全替代MMO带来的长期社交体验。\n换句话来说，MMO的玩法设计本质上是为游戏中的社交关系服务，这是和其他很多游戏类型不太一样的地方。\n第四个原因是游戏并不是简单依靠怀旧吃老本。\n《魔兽世界：无限》以经典60级艾泽拉斯为基础，继续扩展地图、剧情和玩法，加入了1000多个全新任务，以及海加尔山、泽风岛等新区域，让老玩家在熟悉的世界里仍有探索的动力。同时进行了画面和玩法升级。\n这实际上是一种比较有意思的产品策略：\n用经典框架降低回归门槛，再用新内容提供继续探索的动力。\n对老玩家来说，不需要重新学习一套完全陌生的游戏逻辑。\n对新玩家来说，又有新的地图、任务和故事可以体验。\n相比完全推倒重做，这种方式能够更好地利用原有IP的内容资产和玩家认知。\n此外，官方改进了底层基础设施，采用分布式架构扩展容量，解决了过往开服时常见的排队问题，保障了百万级玩家同时涌入时的体验。\n第五个原因是游戏把“追赶”的压力拿掉了。\n对于大量已经步入社会、游戏时间碎片化的老玩家来说，正式服不断更新的等级和装备体系意味着一旦断档就很难跟上。而《魔兽世界：无限》永久停留在60级上限，玩家不需要追赶版本进度，回归时没有“掉队”的负担。同时，它无需单独购买游戏本体，只要账号有游戏时间即可进入，进一步降低了回流门槛。\n第六个原因是国服特殊的市场环境，也放大了这次爆发。\n《魔兽世界》国服此前经历过停服，2024年重新开放后，已经出现过一次大规模回流。\n这使得国服拥有一批非常特殊的用户：\n他们并不是不喜欢MMO，而是在一段时间内失去了继续玩这款游戏的条件。\n当新的内容和服务重新出现时，这部分用户就有机会集中回归。\n因此，《魔兽世界：无限》的开服表现，既有产品自身的吸引力，也有历史用户积累和国服特殊运营周期的影响。\n《魔兽世界：无限》具体有哪些改进？\n实际上本次《无限》能够取得如此重大的成功，有个关键就是此前存在了多年的私服“乌龟服”等私服在玩法上面的一些探索给了暴雪方面很多启发， 所以最后《无限》参考了此类私服的设计但是很多地方其实又不太一样。\n那么到底有哪些改进之处呢？\n首先最明显的就是在经典的基础上可以不断创造出新内容。\n此前一些私服受到玩家们欢迎，并不是简单修改职业技能或者增加装备，而是提出了一种思路：\n不必不断推出等级上限更高的资料片，也可以在60级经典艾泽拉斯的基础上持续扩展游戏内容。\n传统《魔兽世界》的资料片发展模式是：\n60级 → 70级 → 80级 → 85级……\n而某些私服采用的思路是：\n60级框架不变 → 扩展地图 → 增加任务 → 增加副本 → 增加职业玩法 → 继续丰富旧世界。\n《魔兽世界：无限》采取的也是后一种方向。\n暴雪官方明确将其定位为长期发展的原初艾泽拉斯版本，而不是普通赛季或经典怀旧服的一个短期模式。\n之所以这个思路能够奏效主要就是因为，《魔兽世界》60年代吸引到了大量玩家，对于很多人来说这是他们一生中最美好的游戏记忆之一。\n其次就是地图扩展。\n《无限》将海加尔山作为重要的新区域，并计划加入海加尔峰团队副本。\n再比如说艾泽拉斯未完成区域的补完。\n《无限》将河林、辛德拉、泽风岛等新区域纳入经典世界，并新增大量任务。\n暴雪也将未开放区域和遗忘的故事作为《无限》的重要开发方向。不过吉尔尼斯不属于目前首发已开放区域，后面可能会在某个时间点开放。\n值得注意的是，暴雪对这一理念有自己的表述，叫作「旧影拾遗」。\n其核心是寻找原版艾泽拉斯中那些已经存在于玩家记忆、地图和背景故事里，却没有得到充分开发的地点和故事。\n再次就是副本的设计。\n传统60级怀旧服存在一个很现实的问题：玩家达到60级、完成熔火之心、黑翼之巢、安其拉和纳克萨玛斯之后，长期追求的内容就比较有限。\n《无限》的解决方式，是在原有经典副本体系之外增加新副本和团队副本。\n目前官方公布的首发内容包括：九个五人合作的地下城副本；深穴、海加尔峰的团队副本；后面持续增加的团队副本和世界内容。\n这说明游戏确实在解决同一个问题：如何让60级经典玩家拥有原版资料片之外的长期PVE追求？\n这在未来也是值得思考的一个问题。\n此外，露营系统也值得一提。\n《无限》的露营系统强调共享和共建，核心形式是玩家建立共享营地，主要目的是休息、整备和社交，专业技能可以制作营地设施，社交属性鼓励玩家共同建设营地。\n《无限》的露营系统还有更多设计思考：玩家可以利用烹饪营火建立共享营地，附近玩家能够共同提供专业技能制作的设施，包括商人、修理服务、专业工作台和增益效果等。\n这使得露营不再只是一个单人经验加成工具，而是一个鼓励陌生玩家在野外停留、互动的社交场景。\n这个系统体现了一个很有价值的设计思想：\nMMO不应该只让玩家不断奔向下一个任务地点，还应该给玩家一些停下来交流的理由。\n然后职业、种族、玩法上面的进化也很重要。\n《无限》在这一领域进行了扩展。例如，官方此次推出的的内容包括：\n1. 新种族天裔\n增加了新的可玩种族，并根据阵营提供不同的职业选择。\n2. 新职业组合\n对经典职业和种族组合进行扩展，同时增加新的德鲁伊形态。\n3. 职业技能调整\n增加新的技能与天赋选择，但强调保留经典职业的特色，而不是让所有职业逐渐同质化。\n4. 装备属性重新设计\n调整命中、暴击等属性的计算方式，让一些原本处于弱势的职业专精获得更多装备选择。\n此前玩家社区积累了大量的呼声和需求，一些私服不同程度满足了此类怀旧玩家们的诉求，具体是：\n1. 玩家究竟希望经典艾泽拉斯增加哪些区域？\n2. 玩家是否愿意在60级上限下长期游玩？\n3. 玩家对于新的副本和职业组合有多大需求？\n4. 玩家希望保留多少经典机制，又希望修改哪些不合理设计？\n5. 玩家真正喜欢的是升级、装备，还是野外社交和探索？\n这些私服通过长期运营，积累了大量玩家反馈和设计实践。\n当然，私服用户并不能完全代表整个《魔兽世界》玩家群体，私服中的热门功能也不一定适合官方大规模运营。\n但它们至少证明了一件事：经典艾泽拉斯并不是一个内容已经耗尽的世界。\n对于国产MMO有何启发之处？\n《魔兽世界：无限》有一个值得国产游戏研发商重点关注的地方：\nMMO的内容创新不一定需要推翻原有世界，很多时候，重新挖掘一个已经成熟的世界，就足以创造新的产品生命力。\n国产MMO目前有一个比较明显的研发倾向：更大规模的开放世界；更高规格的画面；更复杂的战斗系统；更丰富的角色养成；更庞大的商业化系统。\n但《无限》提供了另一种思路：不断丰富原有地图；让玩家重新发现熟悉世界中的未知区域；增加能够产生玩家互动的场景；让经典职业体系持续进化；通过横向内容延长游戏生命周期。\n结语\nMMO在当下的衰退，不等于玩家对虚拟世界的需求衰退。\n过去那种依赖数值膨胀、重复日常和高强度付费维持用户的MMO模式，确实面临越来越大的压力。\n但拥有成熟世界观、长期内容积累、真实社交关系和强大IP号召力的MMO，仍然具有很强的生命力。\n未来MMO研发商最应该研究的不是如何复制《魔兽世界》的战斗系统，而是研究它为什么能够让玩家在离开十几年之后，仍然愿意回来。\n玩家真正怀念的，可能不是当年刷过多少装备，而是当年有一群朋友，每天晚上都在艾泽拉斯等着自己。这种长期熟人社交才是MMO区别于其他游戏类型的核心价值。\n为什么现在很多国产游戏投入巨资制作开放世界、升级画面和战斗系统，却仍然很难真正做出《魔兽世界》这种长期社交黏性？这是真正值得国内游戏厂商去认真长期思考的一个问题。\n登录 后参与讨论\n暂无评论，来抢沙发",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "《魔兽世界：无限》国服百万同时在线的产品与运营分析",
-      "what": "文章梳理《魔兽世界：无限》11月5日上线后国服同时在线突破100万，官方称创系列开服峰值与回归玩家纪录；作者从IP积累、老玩家召回、社交关系、经典60级框架加新内容、取消追赶压力及国服停服后回流等角度分析原因。",
-      "why": "作者将成功归因于长期IP情感与熟人社交、回归玩家传播路径、60级永久上限降低回流门槛，以及参考私服做地图、副本、露营和职业扩展；同时指出私服用户不代表全体玩家。",
-      "for_you": "可追问：以社交关系为核心的设计，如何在不依赖数值追赶的前提下，为60级玩家提供长期PVE目标与日常互动场景？",
-      "degraded": null
-    },
-    {
-      "source_id": "web-68554a31d0",
-      "source_url": "https://www.chuapp.com/feed",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "25c65b3112e81fbc",
-      "title": "GTA6评论：超越游戏边界的电子奇观",
-      "url": "http://www.chuapp.com/article/291773.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "触乐"
-      ],
-      "published": "2026-11-19T10:03:35+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "2008年时，你在河北白沟一带混，你打架斗殴，盗窃，诈骗，帮工地老板吓唬要工资的农民工。在白沟，社会人都知道“白沟小张”这个名号。2012年，你到了北京，你有点手上功夫，是几年前认识的一个湖北佬教你的，他把刮胡刀片藏在食指和中指之间，一错身就能把人的内兜口袋划开，把里面东西掏干净。你手艺不如他，但是在地铁和公交车上混个几百块还是没问题。你主要在八里桥一带，混得很开，放贷，和发廊的小姐厮混，帮黑摩的帮派争地盘，有时候还帮朋友平事儿，也放贷。13年的时候，你和朋友喝酒，酒劲上来，和邻桌两个社会人吵起来，你把他们捅了，一死一伤。就因为这个，你进了监狱，被判了13年。你在里面潜心改造，现在，2026年，你出来了。你觉得手艺还在，你决定先去地铁上干几票再说。 但是你发现现在没人带钱包了，所有人都只有手机，人们用手机付钱，用手机干一切，手机还都有密码，都没法出手。黑摩的也没了，外地人都用手机叫车，你听说那东西叫滴滴。路上的所有人看起来都比以前精明，也比以前警惕。满街都是摄像头，据说还都联网，以前你抢了钱钻到巷子里，把衣服领子一翻就没人能认出你，现在你听说有个东西叫天网，能认人脸，你走到哪儿都能把你挖出来。你哪见过这个！你不会了！你站在阳光下，彻底不知所措。 这种感觉就和你一开始玩到《GTA 6》是一样的。在《GTA 6》中，你会发现很多前代的习惯不好用了，就拿偷车来说，早年的偷车要么是车没锁你",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "GTA6评论：超越游戏边界的电子奇观",
-          "url": "http://www.chuapp.com/article/291773.html",
-          "source": "触乐",
-          "lang": "zh",
-          "published": "2026-11-19T10:03:35+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 69.17150103527777,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "对现在的我来说，《GTA 6》就像土星5号火箭登月一样，展示了人类的才华、智慧和决心可以做出怎样的伟大成就。\n2008年时，你在河北白沟一带混，你打架斗殴，盗窃，诈骗，帮工地老板吓唬要工资的农民工。在白沟，社会人都知道“白沟小张”这个名号。2012年，你到了北京，你有点手上功夫，是几年前认识的一个湖北佬教你的，他把刮胡刀片藏在食指和中指之间，一错身就能把人的内兜口袋划开，把里面东西掏干净。你手艺不如他，但是在地铁和公交车上混个几百块还是没问题。你主要在八里桥一带，混得很开，放贷，和发廊的小姐厮混，帮黑摩的帮派争地盘，有时候还帮朋友平事儿，也放贷。13年的时候，你和朋友喝酒，酒劲上来，和邻桌两个社会人吵起来，你把他们捅了，一死一伤。就因为这个，你进了监狱，被判了13年。你在里面潜心改造，现在，2026年，你出来了。你觉得手艺还在，你决定先去地铁上干几票再说。\n但是你发现现在没人带钱包了，所有人都只有手机，人们用手机付钱，用手机干一切，手机还都有密码，都没法出手。黑摩的也没了，外地人都用手机叫车，你听说那东西叫滴滴。路上的所有人看起来都比以前精明，也比以前警惕。满街都是摄像头，据说还都联网，以前你抢了钱钻到巷子里，把衣服领子一翻就没人能认出你，现在你听说有个东西叫天网，能认人脸，你走到哪儿都能把你挖出来。你哪见过这个！你不会了！你站在阳光下，彻底不知所措。\n这种感觉就和你一开始玩到《GTA 6》是一样的。在《GTA 6》中，你会发现很多前代的习惯不好用了，就拿偷车来说，早年的偷车要么是车没锁你直接开门，要么车锁了你撬门或者砸窗户。偷车时如果身边有人，就会报警，你跑两步等星消了就行。就这么爽快。在《GTA 6》中，车本身分为没锁/机械锁/电子锁/有报警器/有GPS追踪/有高级GPS追踪等多种状态，再加上油量，可以说是千变万化。当然随着游戏进展你可以升级设备搞定这一切，但这一整套设计就像一种“游戏要在多大程度上抽象真实”的隐喻那样，预示着这一代GTA所面临的挑战。\n在游戏开始的前1小时，我一直不太习惯这种节奏。和前几代相比，《GTA 6》太全面，也太现实了。在前代，甚至更前代的“GTA”中，因为技术的限制，开发者们不得不从真实世界中抽离出最典型、最有概括性和最关键的那些因素。如果说世界是真彩色的，那么《GTA 3》的时候，开发者们就像是那种不得不在“同屏只能显示256色”的限制下作画的艺术家，他们创造出了令人赞叹的像素视觉艺术——在《GTA 3》里，玩家感受到的是一个经过精妙设计的，保留了最纯粹关键元素的“横行霸道”的世界，这有点像那个毕加索画牛的故事——什么才是最终应该保留下来的东西？从系统，到剧情，到警察和NPC的反应，一切都是经过精心设计抽象出来的最重要纯粹的东西。随着技术进步和开发者经验壮大，游戏逐渐扩展“表现真实的范围”，现在到了《GTA 6》，它已经真实到一个吓人的程度了。\n《GTA 6》就是游戏史上的奥运2008开幕式，用科技+人力创作出迄今为止空前，在很长时间内也必然是绝后的巨型奇观。在《GTA 3》的时候，我们惊叹游戏的自由度，在《GTA 4》的时候，我们赞叹游戏的叙事水平和技术水准，到了《GTA 5》，我们赞颂开发者的工程能力，到了《GTA 6》，它终于显得像一个外星生物以至于我都不知道该赞叹什么了。\n这个游戏的细节丰富到匪夷所思的程度。在这种等级的细节面前，什么偷车动作、角色便装、路人聊天的细节甚至不值得一提。我目前发现的细节中让我印象深刻的例子包括：健身的时候，如果你快速松开L2键和R2键，角色会因为动作过大而引发眩晕，角色喝玻璃瓶饮料时，每喝一口，都能看到玻璃瓶中的液体在减少。\n总是有人畅想当AI普及之后，开发者借助几乎无限的算力资源，能够创作出多么宏大的作品。《GTA 6》就是一个答案，Rockstar的开发者们通过把印度外包工作者当Token来用的方式，用10年时间暴力输出了一个不可思议的神迹。我来用一个例子更直观地说明，根据外界普遍估计，《GTA 6》的开发周期超过10年，耗资约15亿美元，要知道，目前的世界最高建筑，位于阿联酋迪拜的哈利法塔建设周期也不过是6年，工程耗资也不过是15亿美元。\n但另一个问题是，开发者能够驾驭这样庞大的投入（无论是资金、时间还是人力）吗？简单来说，《GTA 6》证明了他们能。在1小时左右的适应期之后，我开始感受到GTA系列一脉相承的灵魂，所以现在我基本可以确定，《GTA 6》真的不但做到了，而且比我想象得做得还要好得多。\n之所以把故事放到第一位，是因为我一直认为“GTA”系列的精髓在于故事。很多人谈及“GTA”就说开放世界——开放世界当然很重要，但我觉得“GTA”系列让玩家更投入，更沉浸的关键就在于它的叙事水平。在全世界所有的开放世界游戏中，“GTA”的叙事水平，无论是整体的剧情设计，还是每一场戏的对话、动作、镜头调度，都强于其他竞品游戏至少一档。\n和前作相比，《GTA 6》的整体气氛更现实，或者说，更接近正剧。前作整体的故事和某些任务仍然有强烈的癫狂和黑色幽默风味，但在《GTA 6》中，整个故事线更写实，更现实主义。或者用电影来举例，如果《GTA 5》的整体风格类似昆汀塔伦蒂诺的《无耻混蛋》或《低俗小说》的话，那么《GTA 6》的整体风格就更接近《疤面煞星》。这也是和整个作品的“真实程度”相符的，我猜测，当游戏无法全面模拟现实时，就只能通过提取夸张元素来展现吸引力，而现在，《GTA 6》在技术上已经跨过了那个门槛，以至于游戏整体可以向现实主义更进一步了。\n比如说，《GTA 5》的开场非常干净利索，上来就是枪枪枪车车车爆炸爆炸，直入主题。但《GTA 6》前期的故事交代明显就比较缓慢，相较于前作更传统，节奏更慢。人物背景、环境、动机和性格介绍得非常清楚，这当然是有好处的，但问题在于并不是所有玩家都有耐心看完，也只有这种名满天下的系列有底气这么干。\n在这个前提下，《GTA 6》仍然保持着这个系列一以贯之的，混不吝的态度、辛辣的讽刺和大胆越界的情节/对话/文本。游戏的配角仍然个性鲜明，几乎每一个都有前代类似拉玛那种角色的水准，Rockstar的本事完全没丢！整个故事的剧情也非常好地平衡了比较正统严肃的主线和比较跳脱夸张的支线，两类任务一类承担足够深刻、现实、抓人的主线剧情推进，一类承担有趣、夸张、讽刺和超现实的塑造游戏世界观和整体气氛的任务，这两类任务结合得还非常协调，真的是太强了。\n游戏最让我欣喜的地方就在于仍然保留了整个GTA系列的，对世界混不吝的嘲讽气氛。对我来说这才是“GTA”系列的灵魂。在这一点上，《GTA 6》完全没有让我失望。\n2013年的时候，我去美国参加暴雪嘉年华。走出洛杉矶机场（LAX）候机楼的时候，我感觉到一丝莫名的熟悉之情，过了几分钟我想起来了，这地方我在《GTA 5》里见过！\n如我前面所说，《GTA 5》对现实世界的取舍达到了一种艺术的高度——游戏中的洛圣都机场大概只有真实世界中的洛杉机机场1/20的规模，但二者感觉基本是一致的。这就是伟大设计者的功夫。\n令人有点儿惊讶的是，《GTA 6》给我的感觉和《GTA 5》很类似，从画面，到地图，到细节，全都是“乍一看没什么特别，但细看发现细节惊人，而且所有元素都非常舒服”。《GTA 6》的游戏世界让我无数次想起我精力还充沛，以至于可以在美国租辆车进行长达十几天的跨洲自驾的时光。那时候我看到的美国和《GTA 6》中是一样的，无论是道路、车流、建筑、天空、包括路边的人——我当然知道游戏不可能和现实一样，我也知道如果我认真地抱着找不同的态度去审视这个世界总能找到很多“不够真实”的地方，但如果我抱着中立的态度，不用太费力感受，那我得到的感觉完全和当年我自驾时是一样的。\n《GTA 6》中的世界地图无论是面积，还是细节密度，或者是设计成熟度，达到了一个绝对惊人的程度。这种级别的地图从未在单机游戏中出现过，如果硬要说的话，我会觉得《魔兽世界》的整个游戏世界和它水准相仿。当然，这里面也有技术进步带来的一些不适应，比如现在整个道路的交通状况更加真实，其他NPC车辆也更像“真人驾驶的汽车”，这就导致你日常驾驶的时候也更趋向于“真实世界的驾驶”而不像前代甚至更前代可以为所欲为——但这也并不是什么问题，Rockstar仍然非常好地保持着真实性和爽快感之间的平衡，驾驶仍然是乐趣而非限制。\n在历史上，没有任何3A单机游戏会做这样规模和密度的游戏地图。因为它从投入产出比上就不成立，毕竟玩家在这张地图上能做的事情较为有限，再设计精美的地图，任务数也是有限的——但等等，《GTA 6》还是一个单机游戏吗？或者我们更应该把它看成一个“拥有最优秀的单机剧情的MMORPG”？考虑到《GTA 5》的在线版寿命之长，收益之大——它已经持续运营了大概13年，单在线版的收益据估算就在50-60亿美元上下（《GTA 5》总收入约为110亿美元左右，业界普遍认为在线版占了其收入的50%），如果从这个角度考虑，那么这个美丽的雷奥尼达州（《GTA 6》所在的游戏世界）不管怎么细致，其实都是赚的。\n从一个在线游戏的角度看《GTA 6》，很多事情就变得更可以理解了。一个现代版的《魔兽世界》！（顺便说，《魔兽世界》的收入普遍估算为100亿美元左右，和《GTA 5》相当）。怎么样？或者换一个我们更熟悉的说法：《GTA 6》是一个首发1天就达到2000万份销量，每个用户ARPU值至少70美元起的游戏——从这个角度来看，游戏的很多设计也就变得更能被理解了。\n《GTA 6》的很多设计比之前代更复杂了，比如说，在前代，你可以在身上携带无限多的长短武器，你抢来任何车，只要停在你的车库里就能下次使用，但在《GTA 6》里，汽车和汽车后备箱成了一个非常重要的储存地点，汽车分为“你的车”和“你临时抢到的车”（当然，前代也是一样），而你如果背着长武器大摇大摆在街上走路人就会报警，所以你需要把枪支服装放在汽车后备箱中，用的时候再拿出来——这就带来了一个很麻烦的结果，如果你没有把长武器放在你自己汽车的后备箱里而进入了一个不需要武器的任务，你的武器就这么凭空没了！想想前几代，咱大刀杀人大口吃肉，哪里要精细成这样过日子！\n这样设计的原因是，“车”一定程度上和角色强绑定了，我猜测这也是出于网络版的考虑。在此之前，你可以随便在路上换车，换车，不停地换车。但在《GTA 6》中，车就相当于你移动的行囊。\n如果你放在在线游戏的角度下考虑，住所、汽车和武器的很多设计就显得有必要性了。只能说，Rockstar努力地平衡了单机版和在线版，在这个前提下，单机版确实也丧失了一些前代拥有的，无论是因为机能限制还是设计者足够浪所以导致的张狂气派，这对我来说是一点点遗憾。比如说，在以前，主角战斗时扫射就好了，但在这一代中，主角不但能扫射，还能潜行，敌人的尸体还能搜刮，还能扛走——这是好事儿吗？其实不好说，它会让整个战斗系统的节奏和之前“GTA”系列的风格完全不同。有潜行，玩家就想潜行，有搜刮，玩家就想搜刮，有完美通关，玩家就想完美通关，多少爽快的节奏就这样没了！所以一开始我还有点担心，但后来我发现我有点多虑了。因为《GTA 6》平衡得足够好，这些更复杂的设计在大多数的状态下并没有让我觉得特别难以忍受。\n对了，《GTA 6》中也实现了比前作更夸张的自由度。GTA系列一直就以“可以用各种手法完成任务”为卖点，但这一作比前作更夸张。不但大量室内建筑都可以探索，单就任务，也有真正意义的“多种手段”。很多游戏所谓“多种完成方式”，只不过是换汤不换药，你可以用枪，还可以用刀！但《GTA 6》则一定程度上真正实现了手法的多样化。举个例子，有个任务是去警方的扣押车场中偷一辆庞蒂亚克的火鸟（游戏里叫什么我忘了），游戏展示了足够丰富的方式——你当然可以打进去，还可以潜入，还可以搞个升降机从房顶跳下去，还可以搞个推土机把墙撞塌——后者我自打2000年就在畅想游戏可以做到，直到今日始见！\n以上就是我玩了大概10小时游戏之后的感想。我不想再说一些游戏有多自由，或者可以用多少体位之类的评价，那些对这款游戏都不那么重要。至于帧率什么的——至少我觉得对这款游戏来说更不重要……“GTA”系列之所以是艺术品，在于它用伟大的视角和卓绝的技术造就了当今美国社会的一个拥有丰富细节的切片。就像《战争与和平》描绘1820年的俄罗斯帝国或者《悲惨世界》描绘1833年的法兰西那样，《GTA 6》用游戏的首发描绘了一个光怪陆离的2020年代美利坚合众国。虽然它用夸张、癫狂和黑色幽默的方式，但是在骨子里它严肃地传递了当前的时代精神。在未来，如果有人玩它，就能够体会到我们这个时代到底是什么样子的。\n而对我来说，虽然度过了一开始大约1小时怀疑的游戏时光，但在1小时后，我就相信我完全可以在这一代GTA中找到那种我喜欢的气氛。对我来说，一切细节都不那么重要，甚至我以上我说的都没那么重要。我看重的是，我仍然原因操作着我的人物漫无目的地在城市里游荡，走来走去，开来开去，驶向城市尽头。这种事儿我在《GTA：SA》中做了3年，在《GTA 4》中做了1年，在《GTA 5》中也做了2年。现在我仍然愿意在《GTA 6》里这么做，这对我来说才是最重要的。\n而对于游戏行业来讲，说真的，在玩到《GTA 6》之前，我确实还思考过我国游戏行业什么时候能够做出《GTA 6》，但玩到它之后，我的感觉是，别说我国了，全世界除了Rockstar，我真的很难想象还有其他公司能够在10年内做出这个规模的游戏。它甚至是超越我的认知边界的。在这种规模的游戏面前，什么争强好胜的心都不重要——我知道我这么说会显得有些夸张，但至少在当前，接触了《GTA 6》10小时后，这就是我的真实感受。对现在的我来说，《GTA 6》就像土星5号火箭登月一样，展示了人类的才华、智慧和决心可以做出怎样的伟大成就。",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "触乐编辑谈《GTA 6》十小时体验：更写实的设计与叙事",
-      "what": "触乐作者基于约10小时试玩，描述《GTA 6》在偷车、武器与车辆存放、战斗潜行与搜刮、任务多解法等系统上更趋写实和复杂，叙事风格更接近正剧，并推测部分设计兼顾在线版。",
-      "why": "作者以《GTA 3》到《GTA 6》的抽象程度变化为线索，用偷车状态、武器存放、推土机破墙等具体例子说明真实性与爽快感之间的取舍。",
-      "for_you": "可追问：当写实细节增加后，哪些前代的爽快节奏被牺牲，Rockstar又如何用任务设计把这种代价控制在可接受范围？",
-      "degraded": null
-    },
-    {
-      "source_id": "web-70e4da96dc",
-      "source_url": "https://www.gameres.com/rss.xml",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "5afcf0a4197fb293",
-      "title": "网易Q3研发投入保持高位：《无限大》《诡影藏锋》等新品加速推进",
-      "url": "https://www.gameres.com/901203641.html",
-      "lang": "zh",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "GameRes"
-      ],
-      "published": "2026-11-19T09:08:00+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "网易发布2026年第三季度财报，游戏及相关增值服务净收入229亿元，游戏业务稳健发展，长青产品表现亮眼，全球化布局成效显著，研发投入保持高位，多款新品加速推进。",
-      "rss_content": "",
-      "content_kind": "article_body",
-      "category": "games",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "网易Q3研发投入保持高位：《无限大》《诡影藏锋》等新品加速推进",
-          "url": "https://www.gameres.com/901203641.html",
-          "source": "GameRes",
-          "lang": "zh",
-          "published": "2026-11-19T09:08:00+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 70.09788992416667,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "news",
-      "body": "11月19日，网易发布2026年第三季度财报。财报显示，网易第三季度净收入为人民币279亿元，其中游戏及相关增值服务净收入为人民币229亿元。2026年第三季度，网易游戏继续围绕“精品化、长线化、全球化”推进业务发展，通过持续的内容创新、稳定的社区运营和扎实的研发投入，推动多款长青产品焕新，并在海外市场与新品储备方面取得积极进展。\n长青精品持续焕新 多款经典产品登畅销榜前三\n本季度，网易多款经典产品通过版本迭代、玩法创新与用户运营，展现出长线产品穿越周期的强劲韧性。\n《梦幻西游》电脑版凭借暑期资料片“百兽争鸣”及与《仙剑奇侠传》的联动，在第三季度保持稳健表现；8月上线的《梦幻西游：再续前缘》则将“畅玩服”体验带到移动端，并实现双端互通，进一步降低玩家进入门槛。《梦幻西游》手游在8月底迎来“轻享服”上线一周年，通过持续优化成长节奏、经济生态和社区体验，强化了产品在轻量化体验趋势下的适配能力。\n“大话西游”系列同样在本季度保持良好势头。《大话西游2》与《大话西游》手游在周年节点持续激活用户热情；《大话西游：归来》则在“缘起服”带动下延续增长势能，第三季度日活跃用户数创下历史新高，验证了经典IP在细分赛道中的长线潜力。\n在二次元与SLG赛道，网易核心产品表现同样亮眼。《阴阳师》于9月迎来十周年庆典，依托高质量周年内容和持续深化的社区连接，其月活跃用户数达到2022年以来最高，并在周年版本上线后登上中国区iOS畅销榜第3名。基于长期品类深耕与多元的内容运营，《率土之滨》在11周年节点进一步释放长线生态势能，通过版本内容更新，以及与中国航母FLEET18、甘肃省博物馆联动等多项动作，共同传递国人原创精神，推动日活跃用户数创下 2015 年上线来全新纪录。\n与此同时，网易也在持续丰富不同品类的长线运营。《蛋仔派对》继续领跑中国派对游戏市场，暑期新玩法与电竞赛事推高游戏热度，UGC 编辑器升级后支持更大的游戏世界与更复杂的玩法逻辑，进一步扩大创作者空间；《第五人格》在7月与《盗墓笔记》的联动及全新PvE模式“加页手记”的助推下，伴随着9月第45赛季的开启，商业表现与玩家活跃度持续走高；《逆水寒》手游则在“新世界”更新基础上推出全新地图“兰沧寨”及“菠萝农场”等休闲玩法，推动玩家参与度与日均在线时长进一步提升。\n合作产品方面，网易与暴雪的长期合作继续释放价值。10月，《炉石传说》推出全新资料片“黑暗帝国的统治”，配合国服周年庆系列重磅活动，登上中国区iOS畅销榜第2名；11月5日，《魔兽世界：无限》国服与全球同步开服，同时在线人数再次刷新魔兽IP新品上线成绩纪录。此外，《光·遇》七周年庆与全新艺术季“致梵高”获得积极反响，推动其中国区日活跃用户数创下近5年来新高；《我的世界》中国版在Q3延续强劲增长，年活跃玩家数量超过1亿，平台创意内容总量达到70万，暑期DAU与PCU双双冲高。\n精品内容与电竞生态拓宽国际影响力 《无限大》定档2027年1月15日\n随着网易自研能力的不断沉淀和全球运营经验的日益成熟，网易在国际市场上已不再局限于基础的产品宣发，而是通过精品化本地内容、玩家社区深耕、以及重量级国际赛事的开拓，构建起更稳固的全球化生态。\n本季度，《燕云十六声》继续保持健康长青的增长态势，暑期档表现亮眼，8月全球玩家总数突破1亿，成为网易在开放世界赛道全球化布局中的重要里程碑。中国大陆市场方面，凭借暑期江南版本与中式志怪版本的持续高质量更新，持续扩展开放世界体验；全球服方面，三季度带来全新区域“不见山”及更多剧情与互动探索内容，进一步拓宽玩法边界。凭借出色品质，《燕云十六声》在2026年科隆游戏展斩获“最佳移动游戏”大奖。近日，该作再获TGA 2026“最佳移动游戏”提名。\n《漫威争锋》在第九赛季“连携技能”全面升级后，同时在线人数迎来大幅增长；8月夏日节2.0活动的上线及S9下半赛季内容更新后，游戏强势登顶全球及美国Steam畅销榜。与此同时，官方电竞赛事体系“Marvel Rivals IGNITE”持续通过线上线下赛事连接全球玩家，其全球总决赛也将于11月下旬在瑞典斯德哥尔摩举办，不断夯实产品的全球电竞生态。\n除此之外，在今年9月举行的2026年名古屋亚运会上，网易原创竞技产品《第五人格》与《永劫无间》同时入选亚运电竞正式比赛项目，最终中国队在两项赛事中均夺得金牌。双项目同时登上亚运会，不仅显著提升了相关产品的全球关注度和玩家自豪感，也体现了网易电竞在标准化、专业化与国际化方面的领先实力。\n在稳固长青业务与全球化进展的同时，网易游戏继续保持高水平研发投入，为未来增长储备更加丰富的新品矩阵。这些新品覆盖都市开放世界、搜打撤、生活模拟和射击等多个方向，体现了网易在创意题材、多平台研发与工业化产能上的持续积累。\n其中，都市开放世界新品《无限大》已正式定档2027年1月15日，计划在全球同步登陆PC、PlayStation 5及移动端，目前全球预约突破2700万人次。该作以充满活力的都市生态和角色驱动的叙事为特色，目前团队正持续优化游戏体验，积极推进跨平台、全球化的上线准备工作。\n其它新品也在本季度取得阶段性进展。《诡影藏锋》作为网易布局“搜打撤”赛道的重要产品，在公开亮相后凭借鲜明的中式志怪风格、差异化的第一视角动作搜打撤体验引发广泛关注，首轮测试期间表现积极，预约量已超600万，成为该赛道中极具辨识度的新品之一；《山海奇旅》首测留存表现同样超出预期，当前正围绕核心体验持续优化；《雾海之下》于8月正式亮相，并在8月下旬开启首轮测试，凭借独特画风与审美吸引超500万预约；《极限战场》于10月9日首曝后快速获得市场关注，首日预约量突破50万人次，并在10月15日开启首次测试。此外，3A单机《归唐》等储备项目也在有序推进。\n登录 后参与讨论\n暂无评论，来抢沙发",
-      "has_body": true,
-      "body_truncated": false,
-      "title_cn": "网易Q3游戏净收入229亿元，《无限大》定档2027年1月",
-      "what": "网易发布2026年第三季度财报，游戏及相关增值服务净收入229亿元。财报披露《无限大》定档2027年1月15日全球上线，并介绍《梦幻西游》《阴阳师》《燕云十六声》等产品本季度运营情况与多款新品测试进展。",
+      "title_cn": "《Phonopolis》获DevGAMM大奖最高奖",
+      "what": "DevGAMM Lisbon会议期间公布DevGAMM Awards获奖名单，Amanita Design的《Phonopolis》获最高奖及视觉艺术奖，Dead As Disco获两项奖，共17个奖项、奖金总额14万美元。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -1026,9 +714,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "1a45b6a6362300f3",
-      "title": "Muru",
-      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "key": "c244ea6480167013",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
       "lang": "en",
       "tier": 2,
       "tier_weight": 8,
@@ -1036,10 +724,10 @@
       "sources": [
         "Simon Willison"
       ],
-      "published": "2026-11-21T23:56:28+00:00",
+      "published": "2026-11-22T19:45:06+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process. Here's everything he's published so far, all in the last three weeks: 2026-11-04 — Twenty years of mod_wsgi, and what comes next 202",
+      "summary_raw": "Tool: Select Styling Specimens I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page that shows all of the ways a select box can be styled, I plan to take screenshots in every desktop and mobile browser After some experimentation I've decided my favorite CSS for select boxes is this: select { appearance : none ; color : # 1f2933 ; padding : 0.5 em 2.25 em 0.5 em 0.75 em ; border : 1 px solid # c4cbd3 ; bord",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "ai",
@@ -1053,11 +741,11 @@
       },
       "members": [
         {
-          "title": "Muru",
-          "url": "https://simonwillison.net/2026/Nov/21/muru/",
+          "title": "Select Styling Specimens",
+          "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
           "source": "Simon Willison",
           "lang": "en",
-          "published": "2026-11-21T23:56:28+00:00"
+          "published": "2026-11-22T19:45:06+00:00"
         }
       ],
       "score": 22,
@@ -1085,15 +773,15 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 7.290112146388889,
+      "age_hours": 12.229133331944444,
       "evergreen": false,
       "content_type": "新闻",
       "section": "ai",
-      "body": "21st November 2026 - Link Blog\nMuru. Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since.\nMuru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production.\nAs he did with wrapture, he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process.\nHere's everything he's published so far, all in the last three weeks:\n- 2026-11-04 — Twenty years of mod_wsgi, and what comes next\n- 2026-11-05 — A first look at Muru\n- 2026-11-07 — Muru: looking inside the workers\n- 2026-11-08 — Muru: how it fits together\n- 2026-11-09 — Muru: import once, fork many\n- 2026-11-10 — Muru: HTTPS in development\n- 2026-11-11 — Muru: WSGI and ASGI together\n- 2026-11-11 — AI as a lifestyle choice\n- 2026-11-12 — Muru: releases, not restarts\n- 2026-11-13 — Muru: canaries without a service mesh\n- 2026-11-14 — Muru: a better tenant in a container\n- 2026-11-15 — Muru: working with Kubernetes, not around it\n- 2026-11-16 — Muru: scaling from what the workers report\n- 2026-11-17 — Muru: scaling to zero\n- 2026-11-18 — Muru: overlays on a schedule\n- 2026-11-19 — Muru: noticing and responding\n- 2026-11-20 — Muru: a toolbar on every page\n- 2026-11-21 — Muru: tracing in the toolbar\nThat post about AI as a lifestyle choice is particularly worth a read:\nThe AI may be doing a lot of the work on the surface, but deciding what isn't good enough yet is still down to me, and twenty years of getting things wrong with mod_wsgi turns out to be useful for that. I am prepared to put in the hard work to keep polishing Muru until it is something I would trust, and something you would too.\nRecent articles\n- Running the full server-side Datasette Python app in the browser with service workers and Pyodide - 17th November 2026\n- Locating the source of a mysterious beep with Claude - 9th November 2026\n- Hide your slop PR descriptions behind <details><summary> - 9th November 2026\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026",
+      "body": "22nd November 2026\nI got frustrated at how HTML <select>\nboxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:\nSo I had Claude Fable 5.2 build me this page showing all of the ways they can be styled:\nBuild an HTML page that shows all of the ways a select box can be styled, I plan to take screenshots in every desktop and mobile browser\nAfter some experimentation I've decided my favorite CSS for select boxes is this:\nselect {\nappearance: none;\ncolor: #1f2933;\npadding: 0.5em 2.25em 0.5em 0.75em;\nborder: 1px solid #c4cbd3;\nborder-radius: 6px;\nbackground: #fff url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23667085' stroke-width='1.5'/%3E%3C/svg%3E\") no-repeat right 0.75em center / 0.75em;\n}\nHere's what that looks like in the three browsers:\nRecent articles\n- Running the full server-side Datasette Python app in the browser with service workers and Pyodide - 17th November 2026\n- Locating the source of a mysterious beep with Claude - 9th November 2026\n- Hide your slop PR descriptions behind <details><summary> - 9th November 2026\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "Muru：Graham Dumpleton 的 AI 辅助 Rust Python 应用服务器",
-      "what": "Simon Willison 介绍 Graham Dumpleton 的新项目 Muru：一个 AI 辅助开发的 Rust 服务器，目标是为开发和生产的 ASGI 与 WSGI Python 应用提供运行工具。Dumpleton 在三周内发布了系列文章，记录设计细节与开发过程。",
+      "title_cn": "用CSS统一HTML下拉框在各浏览器中的样式",
+      "what": "作者因HTML select下拉框在不同浏览器中默认外观不一致、在Chrome中尤其难看，让Claude生成展示各种样式方案的页面，并给出自己偏好的CSS写法：去掉默认外观、自定义内边距、边框、圆角和SVG箭头背景。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -1104,9 +792,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "8f4033eccc4d2c48",
-      "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
-      "url": "https://www.qbitai.com/2026/11/511570.html",
+      "key": "fd364030e9383af6",
+      "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+      "url": "https://www.qbitai.com/2026/11/511841.html",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -1114,10 +802,10 @@
       "sources": [
         "量子位"
       ],
-      "published": "2026-11-21T06:32:31+00:00",
+      "published": "2026-11-21T11:40:11+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "专为本地部署而生",
+      "summary_raw": "",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "ai",
@@ -1131,11 +819,11 @@
       },
       "members": [
         {
-          "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
-          "url": "https://www.qbitai.com/2026/11/511570.html",
+          "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+          "url": "https://www.qbitai.com/2026/11/511841.html",
           "source": "量子位",
           "lang": "zh",
-          "published": "2026-11-21T06:32:31+00:00"
+          "published": "2026-11-21T11:40:11+00:00"
         }
       ],
       "score": 17,
@@ -1163,15 +851,15 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 24.689278813055555,
+      "age_hours": 44.311077776388885,
       "evergreen": false,
       "content_type": "新闻",
       "section": "ai",
-      "body": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent\n专为本地部署而生\n聚是一团火，散是满天星。\n刚刚，前DeepSeek V1作者、DeepSeek-VL项目负责人Tony Zhang，正式公布了自己的新创业项目：Linger。\n方向，正是当下最火的个人Personal Agent。\n路线也是比较有意思，当同行都在做APP，他们优先选择了电脑。\n这意味着，Linger能操纵你电脑已有的网页、邮件箱、日历，无需折腾一大堆登录凭据。\n遇到卡住的地方，你也可以直接上手接管。\n另外一个点，作为中间层的Linger，支持接入各个第三方模型。\n并且专门为本地LLM做了优化。\n具体来说，一块12GB显存的RTX 3060显卡，就能跑起一个125B参数的Qwen3.8-Flash-Next，并且是45.5 tokens/秒的生成速度。\n对了，还有个蛮重要的点——\n这套系统是开源的。。。\n至于为什么？\n在官宣帖中，Tony Zhang引用了PC崛起的历史：\n1960年代，计算是中心化的，直到PC将权力交到每个人手中。如今，AI在数据中心训练，然后以token的形式租给你。\n我们相信智能应该是分布式的。你的上下文、你的数据，以及驱动它们的智能，都应该完全由你拥有。\n所以今天，他们开源了Linger，一个生活在你个人电脑上的专属Agent。\n也是延续大肥鲸优良传统了😭。\n一个「会主动，能自学」的AI\nLinger的的核心，是名为「Another Me」的Agent系统。\n它首先是一个记忆中枢。\nLinger会在本地读取你的收件箱、日历、聊天记录和会议，每晚自动将这些信息整理成个人知识库（Wiki），供所有Agent查询。\n在衡量长期对话记忆能力的LoCoMo基准测试中，Linger的准确率达到了95%，超过了Mem0、MemOS等多个记忆增强型AI系统。\n有了这些，Linger便能更好地主动工作。\n它会默默观察你的信息流，根据事件的重要性和紧急性决定何时提醒你。周一收到客户邮件，要求周五前给报价，它不会立刻打扰，而是等到周三早上再弹出提醒。\n但如果是会议时间变更，它会立即通知。\n这个Agent还会从你的反馈中自我学习，Linger称之为「隐式强化」。\n比如，当它提醒你一张发票快到期了，你回复说「上周就收到了，应该当时就告诉我」。系统会记下一个线索。\n如果下一次另一张发票出现类似情况，你再次表达了相同的偏好，系统就会自动生成一条规则：「供应商发票→立即提醒」。\n反之，如果你连续两次对「快递提醒」表现出不感兴趣（比如直接忽略或回复「不用告诉我」），它也会学会以后保持沉默。\n你也可以直接下指令，一次性教会它。比如告诉它：「客户的回复，要立刻通知我」，或者「晚上9点后，会议变更这种事不用马上说」。\n这种持续的交互和学习，让Agent越来越懂你的工作习惯，成为一个真正个性化的助理。\n除此之外，Linger还能：\n- 操作桌面和浏览器。\n就是开头说的，Linger能直接使用你电脑上已经登录的Chrome、各种App，无需重新配置。\n- 组建Agent团队。\n这点就是DeepSeek之前解释过的Super Agent原理了。\n你下达一个复杂任务时，Another Me会调用或创建不同职能的Agent，协同完成工作。\n而你，只用停留在和Linger的这一个Session。\n- 语音交互。\n这点主要就是服务于办公场景了。\nLinger能实时转录会议，会后直接向Agent提问会议内容，并让它跟进待办事项。\n总而言之呢，就是一个专为办公场景优化的Personal Agent。\n不过，也有网友对这一产品定位不太理解：\n为什么不基于DeepSeek harness开发🤣跟ds-bot有何区别呢\n对此，Tony Zhang回应道：\nLinger的重点是把模型和harness一起优化：12GB显卡就能本地跑125B模型，不按token付费，数据也不出本机。\n从产品定位上看：DS-Bot的核心是Bot与Bot、Bot与群组的协作；Linger的核心是人与自己的Agent、Agent与本地环境。\n12GB显卡，跑125B模型\n让消费级硬件运行千亿大模型，Linger的核心技术是一个名为PolyStrata的MoE推理引擎。\n它的原理可以理解为一种智能分层存储机制。\n对于一个庞大的MoE（专家混合）模型，PolyStrata会把最常用、最活跃的「专家模块」放在最快的GPU显存里，将不那么常用的放在内存中，而使用频率最低的则放在SSD固态硬盘上。\n当模型需要调用某个专家时，系统会动态地在GPU、内存和SSD之间移动数据。这样一来，就不需要把整个几十上百GB的模型全部塞进有限的显存里。\n效果立竿见影。\n根据官方数据，一个125B参数的Qwen3.8-Flash-Next模型，在一台配备12GB RTX 3060和64GB内存的电脑上，可以实现45.5 tokens/秒的生成速度。\n在更强的RTX 5090（32GB）上，速度则飙升至179 tokens/秒。\n为了让用户更方便地用上本地大模型，Linger还做了一个「模型自动驾驶（Model Autopilot）」功能。\n它会自动检测你的硬件配置（GPU、显存、内存），然后从49个语言模型、两种推理引擎、多种量化方案和不同上下文长度的组合中，为你推荐并安装性能最强的模型。\n根据SimplexAI的评分体系，不同配置的本地设备可以获得媲美主流云端大模型的能力：\n- 8GB显卡+32GB内存：得分35.4，约等于Gemini 2.5 Pro。\n- Mac 24GB统一内存：得分51.9，约等于Claude Opus 4.5。\n- 12GB显卡+32GB内存：得分57.3，约等于Claude Opus 4.6。\n这意味着，你的游戏本或MacBook，将拥有一个真正强大的、7×24小时待命、没有token费用、并且数据完全不出本地的AI大脑。\nDeepSeek-VL负责人再创业\nLinger背后，是一支有着深厚技术背景的团队，其创始人Tony Zhang的履历尤为亮眼。\n（毕竟是DeepSeek系嘛…）\nTony Zhang本科毕业于浙江大学，2019年在香港科技大学取得博士学位，随后加入微软亚洲研究院（MSRA），长期从事计算机视觉和生成模型研究，是VQ-Diffusion、Rodin 3D数字人等多个知名项目的作者。\n2023年，他加入DeepSeek，担任AI科学家。\n在这里，他不仅参与了早期语言模型DeepSeek LLM V1系列的研发，更是视觉语言大模型DeepSeek-VL的项目负责人（Project Lead）。这款模型在真实世界场景下的图像、文档、图表理解能力备受好评。\n离开DeepSeek后，Tony Zhang进入浙江大学任教，担任百人计划研究员、博士生导师，并创立了Simplex AI。\nLinger就是Simplex AI的最新作品。\n而作为Linger技术核心，那个专为本地部署而生的推理引擎？\n据Tony Zhang透露，由团队里一位18岁的天才少年构建。\n18岁？高中刚毕业？\n- 英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿2026-11-18\n- 多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛2026-11-12\n- 机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了2026-11-11\n- “AI毁了我的计算机学位”2026-11-09",
+      "body": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准\n腾讯元宝×伦敦国王学院NLP团队 投稿\n量子位 | 公众号QbitAI\n一个九人出行群，最初商定5月1日出发，后来又改为4月30日。等到有人请AI助手发布购票提醒，它很可能还按旧日期通知。\n虽然“记住”了历史，却没有真正服务好这个群。\n在群聊的实际场景中，往往还有更隐蔽的要求：谁想坐靠窗位置，谁对预算有要求，哪些安排只是提议，哪些已经成为共同决定。\n一个AI助手要服务一群人，关键不只是找回记忆，更是判断此刻应该使用谁的哪条记忆。\n针对这一问题，腾讯元宝与伦敦国王学院NLP团队联合推出GroupAssistBench。研究基于50个真实群聊、80,299条历史消息，构建2,395道评测题，检查Agent记忆能否真正从“记得住”走向“用得好”。\n研究团队比较了完整上下文、检索增强和外部记忆等14组配置。其中一个有代表性的反差是：EverMemOS在L1记忆召回评测中得分为0.621，高于使用相同任务模型的完整上下文0.570；但在L2开放式服务评测中，它的得分为0.247，低于完整上下文的0.431。\n更会回忆，并不必然更会服务。\n论文已在arXiv公开，代码和数据集也已开放。\n△14组配置的主实验结果：左侧为L1记忆召回，右侧为L2开放式服务。比较应在各自指标内部进行。\n从一段群聊到两种考验：记忆找得到，也要用得对\n已有Agent Memory评测常通过事实问答检验历史回忆，近期也有工作开始关注下游记忆使用。但真实群聊提出了更复杂的问题：同一条信息可能由不同成员补充，安排会随讨论更新，一项回复还可能同时受到多个人的约束。\nGroupAssistBench从真实部署群助手的互动中构建数据，保留自然发生的话题切换、状态变化和多人信息交织，并将评测分成两个相互关联的任务层级。\nL1与L2：从回答事实，到完成服务\nL1记忆召回有明确的参考事实，例如“最初约定哪天出发”。L2记忆使用则要求完成服务，例如“帮大家发出行与购票提醒”，答案没有固定措辞，却必须遵守有效的历史决定和成员要求。两类题目分别有1,374道和1,021道。\n研究又根据所依赖的记忆结构划分为M1单条记忆、M2多记忆整合、M3更新与冲突处理。M3尤其需要识别：旧决定何时被新决定取代，哪些成员的约束仍然适用。这些类别描述的是信息依赖形式，而非简单按难度排序。\n△评测框架总览：基于同一群聊历史构建L1事实回忆与L2开放式服务题，并按单记忆、多记忆和更新冲突划分依赖类型。\n每个问题，必须真正依赖历史\n为避免系统仅凭常识就能猜对，团队先比较“提供历史”和“不提供历史”的回答，筛选确实需要群聊记忆的请求；再为必需事实建立记忆锚点（Memory Anchors），定位到来源消息及证据片段，并设置各自的历史截止点，防止模型读到提问之后的信息。\n数据经过匿名化和隐私审查，公开版本不包含原始群聊身份信息。构建过程结合程序规则、语义审查和人工核验；抽样核验中，95.8%的题目经多数投票判定有效。\n△数据构建流程：筛选确实依赖历史的请求，定位记忆锚点，构建评测问题，再通过规则与人工核验把关。\n服务没有标准答案，如何给分？\n群助手帮大家安排活动、提醒购票或协调分歧时，往往可以有多种合适回复。简单字符串匹配无法判断服务是否真的满足历史约束。因此，团队为每道L2题构建与对应历史证据绑定的定制评分准则（Rubric）。\n这套Rubric包括三个部分：Grounding检查回答是否明确体现必要的历史事实；Service检查任务是否完成；Penalty则惩罚违反现有决定、忽视成员限制或使用过时信息等错误。比如购票提醒既要采用新日期，也要兼顾相关人数、交通安排及个人座位偏好；把已作废的日期当成最终安排则应受到惩罚。\nPenalty的设计还借鉴了真实用户对群助手的纠正反馈。研究用60道L2题、180份回答中的1,152项准则判断进行人工核验，自动评判与人工多数票的一致率为89.3%。\n497条配对记忆：为什么找到事实，还是没用上？\n为了不把不同题型的差距误当成记忆能力差异，研究追踪了497条配对记忆：同一段历史既被L1直接询问，也被某项L2服务真实依赖。这样就能观察“已经回忆得出”的记忆，到了服务环节究竟发生了什么。\n在所分析的外部记忆系统中，对于L1已召回但L2未被判定有效使用的记忆，约36%没有进入L2模型输入，其余约64%虽进入输入，却未在回答中被判定有效应用。这些百分比只描述该类配对记忆的去向，并非全部L2任务的失败率。\n前一种情况与请求缺少明确检索线索有关：用户说“帮大家安排一下”，并不会逐一指出需要检索哪些历史偏好。后一种则表明，证据已经给到模型，并不自动意味着模型知道它应该怎样约束当前回复。\n△497条配对记忆的去向：比较L1召回成功的记忆，在L2中是否被应用、虽进入输入却未被判定应用，或未进入输入。\n两种干预：把零散证据串起来，把历史要求变成约束\n根据上述现象，团队探索了两个轻量干预方向。RER（Relational Evidence Refinement）在检索后梳理人物、事件、时间及决定之间的关系，并在需要时补充相关候选证据；ACB（Assistance Constraint Binding）则把已获得的事实整理为具有主体、范围和当前有效状态的回复约束。\n实验中，RER让LightMem的L2平均分提高6.28个百分点；ACB让xMemory与EverMemOS分别提高3.94和3.16个百分点。两者组合后，LightMem、xMemory和EverMemOS的L2分数相对各自基线分别提高7.03、4.64和4.43个百分点。\n这些结果显示，通过证据整理和约束显式化，有望改善记忆驱动的服务表现。两种机制各自的独立贡献仍需要进一步细分，不能简单把所有提升都归因于“多找回了几条记忆”。\n△RER与ACB干预效果：对比关系证据整理、服务约束绑定及二者组合在不同记忆系统上的表现提升。\n从记住历史，到在正确的时候使用历史\n真实群聊是Personal Agent和多用户助手的一块试验场。随着智能体开始承担更多长期服务，记忆系统的价值不只是“存了多少、搜得多快”，还取决于它能否理解何时使用、对谁适用、哪些信息已失效。GroupAssistBench试图让这种差异可被观察、分析和比较。\n论文链接：https://arxiv.org/abs/2611.04867\nHugging Face论文：https://huggingface.co/papers/2611.04867\n代码：https://github.com/Tencent/GroupAssistBench\n数据集：https://huggingface.co/datasets/tencent/GroupAssistBench\n项目主页：https://zhanghao-groupassisbench.github.io\n- 中国计算，走出新的登峰之路2026-11-21\n- AI给乐队现场搓MV，这是黑客松还是音乐节啊2026-11-21\n- 全网疯传！Grok一姐教你如何月提交3000个PR2026-11-21\n- 反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢2026-11-21",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "DeepSeek V1作者创业项目Linger：开源本地个人Agent",
-      "what": "前DeepSeek V1作者、DeepSeek-VL项目负责人Tony Zhang公布创业项目Linger，一个面向个人电脑、支持本地部署的开源Agent系统，可操作已登录的浏览器与桌面应用，并接入第三方模型。",
+      "title_cn": "腾讯元宝与KCL发布基于群聊的Agent记忆基准GroupAssistBench",
+      "what": "腾讯元宝与伦敦国王学院NLP团队基于50个真实群聊、80299条消息构建2395道评测题，分L1记忆召回与L2开放式服务两层，并比较14组记忆配置，论文、代码与数据集已公开。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -1182,9 +870,9 @@
       "platform": "网站 / RSS",
       "evidence_kind": "publisher_article",
       "publication_scope": "public",
-      "key": "9d0f6d9524bfb98a",
-      "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
-      "url": "https://www.qbitai.com/2026/11/511722.html",
+      "key": "69adb4b97498cf07",
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "url": "https://www.qbitai.com/2026/11/511791.html",
       "lang": "zh",
       "tier": 2,
       "tier_weight": 8,
@@ -1192,88 +880,10 @@
       "sources": [
         "量子位"
       ],
-      "published": "2026-11-20T12:18:01+00:00",
+      "published": "2026-11-21T11:24:29+00:00",
       "undated": false,
       "published_precision": "second",
-      "summary_raw": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals",
-      "rss_content": "",
-      "content_kind": "rss_summary",
-      "category": "ai",
-      "pool": "main",
-      "signals": {
-        "hn_points": 0,
-        "hn_comments": 0,
-        "hf_upvotes": 0,
-        "stars_today": 0,
-        "rank_bonus": 0.0
-      },
-      "members": [
-        {
-          "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
-          "url": "https://www.qbitai.com/2026/11/511722.html",
-          "source": "量子位",
-          "lang": "zh",
-          "published": "2026-11-20T12:18:01+00:00"
-        }
-      ],
-      "score": 17,
-      "score_parts": [
-        {
-          "label": "来源",
-          "value": 12
-        },
-        {
-          "label": "游戏与玩法变化",
-          "value": 0
-        },
-        {
-          "label": "近期",
-          "value": 5
-        },
-        {
-          "label": "分析与方法",
-          "value": 0
-        },
-        {
-          "label": "多源",
-          "value": 0
-        }
-      ],
-      "topic": "新游动态",
-      "is_analysis": false,
-      "age_hours": 42.93094547972222,
-      "evergreen": false,
-      "content_type": "新闻",
-      "section": "ai",
-      "body": "",
-      "has_body": false,
-      "body_truncated": false,
-      "title_cn": "Suno推出视觉创作工具Visuals，底层模型来自MiniMax",
-      "what": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals，其底层模型来自中国公司MiniMax。",
-      "why": "",
-      "for_you": "",
-      "degraded": "source_excerpt"
-    },
-    {
-      "source_id": "web-d1c587ecba",
-      "source_url": "https://simonwillison.net/atom/everything/",
-      "platform": "网站 / RSS",
-      "evidence_kind": "publisher_article",
-      "publication_scope": "public",
-      "key": "d5ef119a99fdaa7b",
-      "title": "llm-gemini 0.38.1",
-      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
-      "lang": "en",
-      "tier": 2,
-      "tier_weight": 8,
-      "coverage": 1,
-      "sources": [
-        "Simon Willison"
-      ],
-      "published": "2026-11-20T03:01:57+00:00",
-      "undated": false,
-      "published_precision": "second",
-      "summary_raw": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The xhigh setting for Hydrogen makes a significant difference. I updated my Gemini 4 comparison grid - note how Hydrogen at high used 5,311 output tokens and cost 3.99 cents, but the same model at xhigh used 31,477 output tokens, cost 23.61 cents, and produced a pelican that's competitive with Gemini 4 Neon: Tags: gemini ,",
+      "summary_raw": "",
       "rss_content": "",
       "content_kind": "article_body",
       "category": "ai",
@@ -1287,11 +897,11 @@
       },
       "members": [
         {
-          "title": "llm-gemini 0.38.1",
-          "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
-          "source": "Simon Willison",
-          "lang": "en",
-          "published": "2026-11-20T03:01:57+00:00"
+          "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+          "url": "https://www.qbitai.com/2026/11/511791.html",
+          "source": "量子位",
+          "lang": "zh",
+          "published": "2026-11-21T11:24:29+00:00"
         }
       ],
       "score": 17,
@@ -1319,15 +929,15 @@
       ],
       "topic": "新游动态",
       "is_analysis": false,
-      "age_hours": 52.1987232575,
+      "age_hours": 44.572744443055555,
       "evergreen": false,
       "content_type": "新闻",
       "section": "ai",
-      "body": "20th November 2026\nGemini 4 Carbon only supports low\n, medium\nand high\nreasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh\nlevel.\nI missed that when I added those models to the llm-gemini\nplugin, which is now fixed in this dot release.\nThe xhigh\nsetting for Hydrogen makes a significant difference. I updated my Gemini 4 comparison grid - note how Hydrogen at high used 5,311 output tokens and cost 3.99 cents, but the same model at xhigh used 31,477 output tokens, cost 23.61 cents, and produced a pelican that's competitive with Gemini 4 Neon:\nRecent articles\n- Running the full server-side Datasette Python app in the browser with service workers and Pyodide - 17th November 2026\n- Locating the source of a mysterious beep with Claude - 9th November 2026\n- Hide your slop PR descriptions behind <details><summary> - 9th November 2026\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026",
+      "body": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢\n文婷 发自 凹非寺\n量子位 | 公众号 QbitAI\n2026年了，居然还有年轻团队专门训练决策模型，而且一出手，就把Gemini甩在了身后？！\n同样一场《城市扫描仪》挑战，Karpo从36场活动中帮我挑出10个休闲娱乐的好去处（平均消费50美元之内、通勤距离仅5km）只花了2.6秒，而Gemini 3.5 Flash则足足用了14.96秒。\n快了将近6倍！各种筛选条件也一个没漏，36道题准确率达100%。\n这位新晋决策高手，就是MachinePulse AI刚刚开源的Karpo Decision 31B。\n它专门为Agent提供高频、低延迟的决策能力，让每一步判断都更快、更省。\n比如浏览网页下一步点哪个按钮、任务有没有完成、几十个工具待调用哪个最符合要求，它都能直接给出判断，干起活来相当麻利。\n一张RTX PRO 6000就能让它上岗，面对公开集14万多次请求，中位响应时间仅94毫秒，眨眼的工夫都用不着。\n在足足有300个模型同台厮杀的Decision Index评测总榜上，Karpo Decision 31B还以73.9的Full分荣登榜首，单题最多可同时判断255个候选选项，校准误差降至了2.3%。\n更进一步，MachinePulse还把已经应用于自家Personal Agent产品Karpo的浏览器操作框架，正式向开发者开源！\n这套方案采用System 1 + System 2架构，包括karpo-browser框架、专门针对网页动作决策训练的Karpo Decision 27B Act模型，以及配套的网页动作决策评测集KBB。\n在Browserbase Benchmark v2的102道核心任务上，这套方案做到了89%的平均成功率、201秒的平均耗时，单任务模型成本仅需0.096美元（约0.64元）。\n相比榜首Claude Fable 5.2 + Claude Code，完成任务的速度快了约1.9倍，模型成本更是只有对方的十三分之一。\n我们观察到，当把成功率要求放宽到80%，但真正用户可用的体验速度250秒内和成本0.15美金内，整个榜单全部91条记录无一做到，Karpo独此一份且大幅度领先，真正做到既要准又要快还要便宜！Karpo在表中特意备注不参加排行，但其自测102道全集题加上3次跑取平均的苛刻要求，远超榜单其他模型在38题仅跑1次的要求。\n围观的网友们不禁感叹：\n这正是每一个技术栈都需要的东西！\n好家伙，这位专门替Agent拿主意的AI军师，究竟还有多少本事？\n你还在等大模型回话，Karpo已经把活干完了\n说起来，自今年9月Jev一夜爆火以来，决策模型这条赛道，已经一跃成为了硅谷最热门的明星赛道之一。\n短短24天的功夫，Jev背后的TypeSafe AI就拿下了75亿美元（约500亿元）估值的大结果。\n一时间，OpenAI、微软、亚马逊、Cloudflare等科技巨头纷纷杀进赛场，决策模型赛道迅速热闹起来。\n为啥大家突然都盯上了这门生意？\n原因也很简单。\n随着Agent越来越能干，要是每次选个工具、筛个结果，都得调用通用大模型逐字生成答案，多少有点杀鸡用牛刀了。\n不仅慢，Token还哗哗烧，钱包跟着瘪瘪。\n于是，专门替Agent处理这些高频、琐碎判断的决策模型，就有了用武之地。\n但现有方案也各有难处。\n比如火爆的Jev和谷歌新推出的Gemini Decision 1，虽然能快速给出决策概率，但却均没有开源，开发者难以自行部署。\n已经开放权重的决策模型（如GLiDE），也不见得能把速度和判断能力同时拉满。\n于是，Karpo Decision 31B向前多走了几步，它不需要当场写小作文，只跑一次前向推理就能在刹那间算出整组选项的概率，且完全开源。\n就拿我在Karpo官网上试玩的《十张胃口，菜单就一张》来说。\n这是个真人与AI同台竞技的点餐小游戏。我和Karpo Decision 31B需要同时为10位客人点餐，既要照顾各自的预算、口味和忌口，还得比比谁上菜更快、更准。\n看着很简单，可谁橙想，我才刚把光标点到第一位客人的需求，连第一行字都没读完，Karpo Decision 31B就已经以1.3秒的速度，火速把10道菜全部端上了桌。\n而且10位客人的要求，它一个都没搞错！\n被……被秒杀了？！哦不，稳住稳住，不会差太远的吧…\n可当我终于读完第二位客人的需求，准备继续选菜时一瞄表盘，时间已经过去了整整13秒。\n好家伙，换Karpo早都交卷10轮了，我竟还在第二题打转…\n这我可就急了。从第三道题开始，我干脆悄悄作弊，它点啥，我就跟着点啥。\n可即便抄作业，也还是追不上。\n最后，我索性死马当活马医，直接乱点一通，心想着说不准撞个好运。\n可就算这么连蒙带猜、半抄作业地折腾下来，我还是花了足足83.9秒才完成整套任务。\n与此同时再看看通用大模型这边。\n同样的10道题，我还截图交给了GPT-6.2 Astra（High档）来做，转了足足34秒才拿到答案。\n这么一对比，Karpo不仅比我这个已经偷偷开挂的人类选手快了64.5倍，比GPT还快了约26倍！\n而这种判断工作要是放到开发者日常搭建Agent的工作中来看，就更有用武之地了。\n因为开发一个自动处理GitHub Issue的Agent，光是决定该调用哪个工具、如何给检索到的代码文件排序、任务是否已经完成，就可能涉及一连串判断。\n要是每一步都得调用通用大模型，等它慢慢生成答案，不仅工作流容易被拖慢，Token账单也会跟着水涨船高。\n而Karpo可以把多个判断放进一次请求，直接返回各个候选选项的概率，省去逐字生成答案的开销，让Agent有机会跑得更快、更省钱。\n更关键的是，按照JevBench的GPU成本估算，Karpo每1000次决策仅需约0.025美元（0.17元），相当于只花1美元（折合人民币约6.67元）就能让它跑完近4万次决策！\n与动辄调用通用大模型相比，成本简直暴降啊。\n而且，Karpo还真把这套决策能力搬进了浏览器里，大幅度改进用户的网页任务的体验！\nMachinePulse团队最新开源了这套名为karpo-browser的浏览器Agent方案，该方案创新地采用了System 1＋System 2的快慢双模型分工，让通用大模型和专门的决策模型搭伙干活。\n怎么分？\nSystem 2负责动脑，System 1负责动手。\n比如说，用户想预订一家餐厅。\n通用大模型DeepSeek V4.1 Flash负责理解需求、拆解任务、准备需要填写的信息；\n而专门针对网页操作训练的Karpo Decision 27B Act，则负责在页面上选择输入框、点击按钮，决定下一步执行哪个操作，单次决策时延中位数仅931毫秒（0.93秒）。\n背后的karpo-browser框架，则负责读取网页、执行操作，并处理网页变化和执行异常。\n△图片系AI绘制\n而这套分工的效果，还真有点东西。\n团队在Browserbase Benchmark v2全部102道任务上的三轮实测发现：\n网页上约78%的操作，都交给了Karpo决策模型完成。\n但这些操作仅占整个Agent运行耗时的14%、模型成本的13%。\n于是，原本需要通用大模型反复调用、逐字生成答案的网页操作，如今可以交给决策模型快速处理，让大模型腾出手来负责规划、核对和更复杂的任务。\n而且这回，MachinePulse还把整套开发工具链一起开放了出来。\n除了Karpo Decision 27B Act模型权重，还有采用TypeScript编写的karpo-browser框架。\n这套框架能灵活地适配不同的开源大模型与决策模型。\n开发者无需从头搭建浏览器Agent，通过MCP就能把这套浏览器操作能力接入Claude Code、Codex等现有Agent。\n甚至还有配套的KBB（Karpo BrowserBench）网页动作决策评测集，覆盖584个真实网站、23,075步网页操作，通过真实网页录制与离线回放，让开发者测试模型每一步的动作究竟选得对不对。\n从模型权重，到浏览器执行框架，再到配套评测工具，开发者如今可以把这套System 1＋System 2方案真正装进自己的Agent里。\n△四个部署入口\n而它带来的价值，还不止于省下一笔模型调用费。\nMachinePlulse团队表示，相较于使用昂贵的顶尖模型，这套方案在保持出色的任务成功率的同时，有机会让开发者用同样的运营预算，支撑原来5-30倍的用户规模。\n对于想把Agent做成真正面向大量用户的产品的开发者来说，或许这才是更令人兴奋的地方。\n挑项目快准狠，听人话也有一手！Karpo有点东西啊\n看着介么不错，我当然也要原地开Roll！\n于是，我也给Karpo Decision 31B出了两道题，先看看它能不能又快又准地筛选技术资料，再体验看它听不听得懂我的阴阳怪气。（doge）\n实测一：8条技术搜索结果摆面前，Karpo能又快又准地挑出真正有用的吗？\n先测搜索结果筛选。\n假设咱们正在寻找一个开源、支持本地部署，还能主动点击、填写和导航网页的浏览器Agent。\n我一口气给Karpo甩出8条技术搜索结果，乍一看，个个都沾边，但其中混进了各种只能看不能动的工具、只能云端运行的Agent，还有功能齐全却不开源的项目。\n题目如下：\n看它能不能把真正符合要求的项目揪出来。\n结果，仅过了308毫秒（约0.3秒），Karpo就把符合要求的A、D、E、G四条结果准确揪了出来！\n其余四个混在其中的干扰项，也一个没放过。\n实测二：我各种阴阳怪气，Karpo能听得出弦外之音吗？\n不过，做决策往往可不只是筛选结果。\n中华文化博大精深，有时候，咱们可不能只信字面意思。（doge）\nbe like这句：\n太好了，这个Agent又把我的文件删光了，真是帮了大忙！\n好评？反讽？\n要是只盯着前半句话的“太好了”，或后半句话里的“帮了大忙”，绝对要翻车。\n于是，我又给Karpo搬出了6道语气判断题，从直白称赞到反讽吐槽，再到褒贬混合的中性表达，看看它能否读出言外之意，读到什么程度。\n任务如图：\n结果还真挺不错。\n仅过了232毫秒（约0.23秒），Karpo Decision 31B就给出了全部6道题的判断，把藏在字里行间的吐槽、称赞和复杂情绪全揪了出来。\n甚至连第四句“页面加载慢了一些，但结果准确，整体还可以。”这种不夸不骂、好坏参半的评价，它都拿捏住了。\n还给出了91%的中性概率、8%的认可，隐约0.2%的不满的细微觉察。\n最有意思的是第六句：\n不错嘛，今天终于没把线上服务弄崩。\n明明开头就是一句“不错嘛”，Karpo却给负面态度分配了足足88%的概率，正面态度10%，中性或褒贬混合2%。\n合着对这次任务的肯定、这句表扬背后，藏着的那些对过往翻车经历的怨气，也完全被它听出来了。\n放到开发者的实际应用中，这种能力其实也很实用。\n比如客服Agent判断用户是否真的满意、开发工具分析用户反馈，都需要透过字面表达识别真正的态度，避免把投诉错当成表扬。\n告别逐字生成，还要避免偏科，Karpo怎么炼成的？\n看到这里，估计大家也好奇了，Karpo Decision 31B究竟是怎么把这么多判断压缩到一次推理里，还能直接给出概率的？\n秘密之一，就藏在它专门设计的Readout Head里。\n以往，通用大模型面对一道选择题，往往需要逐个Token生成答案，再由程序从文字中解析出最终选项。\nKarpo干脆省掉了这道工序。\n它给候选选项安排了专门的编码，每道题后面再放置一个用于读取结果的标记。模型读完输入后，Readout Head就在这个位置为各个选项打分，并把分数转换成概率。\n整个过程只需要一次前向推理，不用逐字生成答案，输出Token数直接降到了0。\n△Readout Head机制\n而且，这套设计还能一口气应付三种不同类型的决策。\n比如，Agent下一步该调用哪个工具？\n这可以交给Choice（选择题），让Karpo在最多255个候选选项之间分配概率，让Agent知道哪个更值得选。\n要是Agent忙活半天，需要判断任务究竟完成了没有呢？\n那就交给Noul（Yes/No判断题），直接返回任务完成的概率。\n至于搜索结果有多相关、某个推荐内容究竟有多符合用户口味，则可以交给Score（评分题），让模型为不同评分等级分别给出概率，再供系统计算分数、调整排序。\n三种题型，共用同一个Readout Head。\n不过，一次能答一道题还不够。\nAgent真正干起活来，可能要同时筛选几十条搜索结果、比较几十种工具，背后还跟着一大段网页内容或任务上下文。\n难不成每判断一个候选，都得把同一份材料重新算一遍？\nKarpo可不想干这种重复劳动。\n于是，团队又设计了Branch Attention（分支注意力）机制。\n它支持256K上下文能力，会把输入分成两部分。一部分是大家共用的Shared Block，放着任务说明、问题清单和网页等背景材料；另一部分则是各道题自己的Branch，包含对应的题目、选项和结果读取标记。\n共享的内容只计算一次，各道题却能分别作答，互不干扰。\n△Branch Attention架构示意图\n效果有多明显？\n在一张RTX PRO 6000上，面对1K-4K Token的请求，Karpo单独回答一道题的中位耗时仅为371毫秒。\n而当一次请求包含16-63道题时，中位耗时也只有653毫秒。\n几十道判断集中起来，耗时却没有跟着题目数量成倍增长，Agent处理高频决策的开销也就有机会大幅降下来。\n对开发者来说，这就很香了。\n不过，判断得快，还得有点自知之明。\n毕竟，Agent下一步是自动执行，还是乖乖把决定权交还给人类，往往就取决于模型对自己到底有多大把握。\n要是明明只有六成胜算，却张口就是99%，那可真是自信得有点吓人了。（doge）\n为此，Karpo还用上了RLCD（面向校准决策的强化学习）。\n它不只奖励模型选对答案，还会根据整组预测概率来计算奖励，鼓励模型如实报告自己的把握。\n哪怕训练数据里的标签存在分歧，它也会尽量保留这种不确定性，而不是强行压成唯一答案。\n效果如何？\n在JevBench公开题上，Karpo的预期校准误差（ECE）仅为2.3%。\n如此一来，开发者就可以尝试给Agent设定不同的执行阈值，让Agent既能果断出手，也知道什么时候该收手，交还给人类把关。\nRSI登场，Karpo把训练中的偏科问题扳回来了\n不过，速度和概率都搞定了，Karpo还得面对另一个更棘手的问题。\n那就是千万别练着练着，就把自己练偏科了。\n要知道，Agent每天遇到的决策需求千奇百怪。\n今天帮你筛选开源项目，明天可能就要判断代码有没有安全漏洞，后天又得给某份合同或采购文件把关。\n如果模型从来只擅长训练时见过的题目，一换场景就掉链子，那可真有点难堪了。\n而Karpo团队在训练中，还真发现了这样的苗头。\n随着训练不断推进，模型的公开测试成绩从73.1涨到了75.1，可在13个陌生领域的评测中，准确率反而从72.1%跌到了70.7%。\n为了破解这个问题，Karpo团队把泛化能力列为训练重点，并引入了RSI（递归自我改进）训练框架。\n它会先训练出多个候选模型，逐一评估，再通过Model Fusion（模型融合），把不同版本的优势集中到一起。\n融合后的模型只有胜过当前模型，才能成功晋级，进入下一轮迭代。\n这一次，团队选中了5个不同的Checkpoint，其中3个来自全参数微调，另外2个来自LoRA微调。\n通过权重平均，把早期模型较好的泛化能力和后期模型更强的专精能力结合起来。\n效果还真不错。融合后，公开测试成绩仍保持在75.1，陌生领域准确率却从70.7%提高到了72.3%，足足回升了1.6个百分点。\n而且，融合完成后，它仍然是一套标准的31B参数模型，结构、参数量和推理开销都没有增加。\n在团队组织的同一套13领域测试中，Karpo最终拿下了72.3%的准确率，超过了此前Decision Index Full榜单前三的KnowLine 31B Gen1（71.5%）、Sieve 31B v3（70.4%）和GLiDE 1.2（69.1%）。\n公开题没丢分，陌生题反而考得更好了。\n对于一个想要嵌进各种Agent工作流、随时接手不同判断任务的决策模型来说，这份不偏科的能力，恐怕比单纯多刷几分更值得关注。\n让Agent少一点犹豫，让开发者多一点自由\nAnyway，实测了一圈下来，最让我印象深刻的，还是Karpo处理那些高频小判断时的利落劲儿。\n如今，决策正在成为AI系统中可以独立分工的一层能力。\n早在今年4月，AWS CEO Matt Garman就在Stratechery访谈中预见过类似趋势：\n未来会有各种模型共存。一些小模型甚至能完成最新OpenAI模型还做不到的事情，而且会越来越小、越来越便宜、越来越快。\nJev的创始人Diogo也表达过类似的判断：\n未来，AI不必事事依赖大模型生成答案。快速决策可以交给专门的模型，复杂推理则由其他模型承担，各司其职。\n而Karpo的出现，又让开发者多了一种实现这套思路的开源选择。\nKarpo发布时，LeahW曾这样概括它的设计理念：\n选下一个工具，不该费一整段话。\n当判断足够快、成本足够低，开发者也就有机会在Agent的搜索、推荐和任务执行流程里，安排更多细致的筛选与检查，而不必事事依赖生成式大模型。\n更有趣的是，Karpo连名字都透着一股潇洒劲儿。\n它取自拉丁语Carpe Diem，意为“把握当下，及时行乐”。\n而开发Karpo的MachinePulse团队，长期深耕的Personal Agent（个人智能体）方向，恰好也在解决咱们日常生活中那些真实又琐碎的小纠结。\n比如，今天喝点什么？下班后想怎样放松？周末附近有什么好玩的？\n有时候，我们脑子里只有一个模模糊糊的念头，连自己想要什么都说不太清楚。\nKarpo想做的，就是把这些模糊的想法变成具体的选择，帮人们少一点纠结，早点出门享受生活。\n△外出游玩时轻点两下手机背面，就能瞬间召唤出Karpo帮咱们检索周围娱乐好去处\n而对开发者群体而言，Carpe Diem如今似乎又多了一层新的意义。\n把琐碎的决策交给Karpo，把宝贵的时间留给自己真正想做的事。\n毕竟，技术进步的意义，不就是让我们能更自由地做自己想做的事吗？\n现在，MachinePulse团队已经同步开源了0.8B、2B、4B、9B、12B和31B共6款Karpo Decision全尺寸模型，大家可以根据实际需求调用~\n而且，这回连专门负责网页动作决策的Karpo Decision 27B Act、浏览器Agent框架karpo-browser，以及配套评测集KBB，也一并开放给了开发者。\n从替Agent拿主意，到让Agent真正上手干活，Karpo把决策模型快、准、省的本事，真正用到了刀刃上。\n体验链接：https://karpo.ai/models/decision/ten-appetites\n仓库指路：\n[1]https://huggingface.co/MachinePulseAI/karpo-decision-31B\n[2]https://github.com/machinepulse-ai/karpo-browserbench\n[3]https://huggingface.co/MachinePulseAI/karpo-decision-27B-act\n[4]https://github.com/machinepulse\n- 中国计算，走出新的登峰之路2026-11-21\n- AI给乐队现场搓MV，这是黑客松还是音乐节啊2026-11-21\n- 8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准2026-11-21\n- 全网疯传！Grok一姐教你如何月提交3000个PR2026-11-21",
       "has_body": true,
       "body_truncated": false,
-      "title_cn": "llm-gemini 0.38.1 修复 Gemini 4 推理档位支持",
-      "what": "Simon Willison 发布 llm-gemini 插件 0.38.1，修复此前遗漏的 Gemini 4 Hydrogen 与 Neon 的 xhigh 推理档位；他对比称 Hydrogen 在 high 与 xhigh 下输出 token 和成本差异明显。",
+      "title_cn": "MachinePulse开源Karpo决策模型与浏览器Agent框架",
+      "what": "MachinePulse AI开源Karpo Decision系列决策模型（0.8B至31B）及浏览器Agent方案karpo-browser，含27B Act模型与KBB评测集。文章称31B模型在Decision Index评测中得分73.9，单次前向推理即可输出候选选项概率。",
       "why": "",
       "for_you": "",
       "degraded": null
@@ -1335,10 +945,10 @@
   ],
   "ai_features": [],
   "stats": {
-    "events": 190,
-    "news": 13,
+    "events": 173,
+    "news": 9,
     "features": 0,
-    "ai": 4,
+    "ai": 3,
     "ai_features": 0,
     "review_candidates": 15,
     "multi_source": 0,
