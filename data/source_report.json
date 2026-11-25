@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-24T10:13:15.203593+00:00",
+  "checked_at": "2026-11-25T08:57:32.234457+00:00",
   "sources": [
     {
       "id": "steam-factorio",
@@ -78,9 +78,9 @@
       "name": "Steam · Dwarf Fortress",
       "platform": "steam",
       "url": "https://store.steampowered.com/news/app/975370/",
-      "state": "empty",
-      "count": 0,
-      "detail": "读取正常，共检查 20 条，收录 0 条；早于最近 72 小时 20 条；本轮最新原文日期 2026-11-10（北京时间）"
+      "state": "ok",
+      "count": 1,
+      "detail": "读取正常，共检查 20 条，收录 1 条；早于最近 72 小时 19 条；本轮最新原文日期 2026-11-25（北京时间）"
     },
     {
       "id": "steam-no-mans-sky",
@@ -223,8 +223,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamedeveloper.com/rss.xml",
       "state": "ok",
-      "count": 3,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 3 条候选"
+      "count": 4,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 4 条候选"
     },
     {
       "id": "web-15489e2ed4",
@@ -232,8 +232,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gamesindustry.biz/feed",
       "state": "ok",
-      "count": 9,
-      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 9 条候选"
+      "count": 13,
+      "detail": "读取 100 条订阅记录；72 小时时间窗内取得 13 条候选"
     },
     {
       "id": "web-9667abeb70",
@@ -259,8 +259,8 @@
       "platform": "网站 / RSS",
       "url": "https://unity.com/blog/rss",
       "state": "ok",
-      "count": 2,
-      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 2 条候选"
+      "count": 5,
+      "detail": "读取 50 条订阅记录；72 小时时间窗内取得 5 条候选"
     },
     {
       "id": "web-70e4da96dc",
@@ -268,8 +268,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.gameres.com/rss.xml",
       "state": "ok",
-      "count": 9,
-      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 9 条候选"
+      "count": 20,
+      "detail": "读取 25 条订阅记录；72 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-be9919cef9",
@@ -286,8 +286,8 @@
       "platform": "网站 / RSS",
       "url": "https://www.chuapp.com/feed",
       "state": "ok",
-      "count": 3,
-      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 3 条候选"
+      "count": 5,
+      "detail": "读取 30 条订阅记录；72 小时时间窗内取得 5 条候选"
     },
     {
       "id": "web-68f622da94",
@@ -314,7 +314,7 @@
       "url": "https://openai.com/news/rss.xml",
       "state": "ok",
       "count": 20,
-      "detail": "读取 1425 条订阅记录；720 小时时间窗内取得 20 条候选"
+      "detail": "读取 1430 条订阅记录；720 小时时间窗内取得 20 条候选"
     },
     {
       "id": "web-0ea3c11e0b",
@@ -376,8 +376,8 @@
       "platform": "网站 / RSS",
       "url": "https://indienova.com/indie-game-news/",
       "state": "ok",
-      "count": 5,
-      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 5 条候选"
+      "count": 6,
+      "detail": "读取 16 篇文章页面；72 小时时间窗内取得 6 条候选"
     },
     {
       "id": "manual-inbox",
@@ -390,9 +390,9 @@
     }
   ],
   "counts": {
-    "raw": 190,
-    "deduplicated": 189,
-    "retained": 189,
+    "raw": 213,
+    "deduplicated": 212,
+    "retained": 212,
     "restricted_withheld": 0
   }
 }
