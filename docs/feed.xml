@@ -4,192 +4,167 @@
 <title>策划日报 · 游戏资讯与设计</title>
 <link>https://vizroi.github.io/daily-ai-digest/</link>
 <atom:link href="https://vizroi.github.io/daily-ai-digest/feed.xml" rel="self" type="application/rss+xml"/>
-<description>游戏资讯、设计分析与开发实践。游戏动态 14 条，策划精选 3 篇，AI 快讯 6 条，AI 精选 0 篇。</description>
+<description>游戏资讯、设计分析与开发实践。游戏动态 14 条，策划精选 2 篇，AI 快讯 4 条，AI 精选 0 篇。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 26 Nov 2026 16:44:00 +0800</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 16:54:49 +0800</lastBuildDate>
 <generator>daily-ai-digest v3</generator>
 <item>
-  <title>机核GPASS冬促12月9日开启，公布节目进度与会员功能更新计划</title>
-  <link>https://www.gcores.com/articles/222773</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-22b0334e2761589f1c3d3cb2</guid>
-  <pubDate>Wed, 25 Nov 2026 10:30:00 +0000</pubDate>
+  <title>《俄罗斯钓鱼4》系统玩法拆解：鱼种、成长、经济与商业化</title>
+  <link>https://www.gameres.com/901203717.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e8e392dae5eee4d92865fd8c</guid>
+  <pubDate>Fri, 27 Nov 2026 00:48:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核宣布GPASS冬季特惠将于12月9日开启，具体优惠与会员专属功能更新届时公布；文中同步了《游戏帝国》最终季、中国单机三十年等节目的制作进度及明年2、3月上线计划。</p><p><small>来源：<a href="https://www.gcores.com/articles/222773">机核</a></small></p><p><small>原文发布：2026-11-25 18:30（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>腾讯互娱发行推广作者dickymai拆解《俄罗斯钓鱼4》下半部分系统：鱼种生态与稀有度、八大技能树与等级资格成就、房屋展示、以消耗和维修构成成本压力的经济系统，以及以会员订阅为主的克制型商业化。</p><p><strong>背景与变化</strong><br>作者按系统逐层归纳设计取舍：鱼种按水温、食性、水层分布；技能点有限迫使差异化定位；经济系统用饵料消耗、维修和鱼价梯度制造稳与赌的决策压力；商业化不卖上钩率等核心数值。</p><p><strong>策划视角</strong><br>可追问：作者称会员不改变钓鱼成功率、长期LTV可能更优，这些判断依据的是官方定价与设计意图，还是缺少留存与付费数据的推断？</p><p><small>来源：<a href="https://www.gameres.com/901203717.html">GameRes</a></small></p><p><small>原文发布：2026-11-27 08:48（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《无人深空》十周年回顾：更新、探险复刻与Steam奖项提名</title>
-  <link>https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852981401</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0c43fe9f428833880b59dba6</guid>
-  <pubDate>Wed, 25 Nov 2026 14:21:05 +0000</pubDate>
+  <title>《龙武》岁末资料片“神机问鼎”公布帮会军演与新区宝库玩法</title>
+  <link>https://www.gameres.com/901203727.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-efb5b68222ff0a76386266db</guid>
+  <pubDate>Fri, 27 Nov 2026 05:42:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：5 Labor of Love nominations without a win. Could our 10th year be the one?</small></p><p>Hello Games发布十周年公告，回顾今年五个大型更新、登陆iOS及获奖情况，并请玩家为Steam“爱的付出”奖提名；同时公布四项探险活动复刻时间表、周边商品、社区作品展示，以及2027年路线图和《Light No Fire》的开发进展。</p><p><small>来源：<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852981401">Steam · No Man&#x27;s Sky</a></small></p><p><small>原文发布：2026-11-25 22:21（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《龙武》岁末资料片“神机问鼎”公布：核心玩法“神机军演”为7天6阶段的帮会对决，按日常活跃与资源消耗计分，设个人、帮会、拍卖与排名四类奖励；另有预备营集结活动，以及新区60级可参与的天帝宝库前置玩法。</p><p><small>来源：<a href="https://www.gameres.com/901203727.html">GameRes</a></small></p><p><small>原文发布：2026-11-27 13:42（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《神鬼寓言》开发者称参考《巫师3》等现代RPG标准</title>
-  <link>https://80.lv/articles/fable-devs-looked-to-the-witcher-3-the-gold-standard-for-rpgs/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-774f618a9f740d49efd1446b</guid>
-  <pubDate>Thu, 26 Nov 2026 08:34:00 +0000</pubDate>
+  <title>《潜渊症》DLC“港以为家”12月2日发布，新增遗族派系</title>
+  <link>https://www.gcores.com/articles/222842</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2265ca202a43137b900c782e</guid>
+  <pubDate>Fri, 27 Nov 2026 04:46:44 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Fable Devs Looked to The Witcher 3, the &quot;Gold Standard&quot; for RPGs</small></p><p>Playground Games联合创始人Ralph Fulton在采访中表示，《神鬼寓言》重启作开发约十年，原因包括新团队、新类型、新IP与新技术；他称2015年《巫师3》重新定义了开放世界动作RPG并成为标杆，《刺客信条》系列也推动了类型演变，仅沿用原三部曲无法满足现代玩家与市场预期。</p><p><small>来源：<a href="https://80.lv/articles/fable-devs-looked-to-the-witcher-3-the-gold-standard-for-rpgs/">80.lv</a> · <a href="https://www.gamesindustry.biz/youd-be-nuts-to-take-on-all-of-that-in-the-first-project-and-yet-here-we-are-how-playground-is-finally-making-good-on-an-all-new-fable">GamesIndustry</a></small></p><p><small>原文发布：2026-11-26 16:34（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《潜渊症》DLC“港以为家”将于12月2日推出，加入玩家可拥有、建造、定制、管理并保卫的前哨站，以及“遗族”派系的故事、NASA朋克美术、奇点反应堆与赛博格技术；同日免费更新为游戏本体增加故事与玩法内容。</p><p><small>来源：<a href="https://www.gcores.com/articles/222842">机核</a></small></p><p><small>原文发布：2026-11-27 12:46（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>卡普空宣布《Exoprimal》将于2027年9月30日停服</title>
-  <link>https://www.gcores.com/articles/222758</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-99ec757d9e0891319e264cc4</guid>
-  <pubDate>Wed, 25 Nov 2026 05:10:35 +0000</pubDate>
+  <title>《枪火重生》DLC“月海弦音”12月8日上线，第九赛季同步开启</title>
+  <link>https://www.gcores.com/articles/222836</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-3801b1182d7dd88dbae2e09c</guid>
+  <pubDate>Fri, 27 Nov 2026 03:43:47 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>卡普空宣布团队对战动作游戏《Exoprimal》将于2027年9月30日停止运营。生存战通行证高级等阶于2026年11月25日停售，游戏本体、可下载内容及其他商品于2027年3月31日从各商店平台下架。</p><p><small>来源：<a href="https://www.gcores.com/articles/222758">机核</a> · <a href="https://80.lv/articles/capcom-s-dinosaur-co-op-shooter-exoprimal-is-shutting-down/">80.lv</a> · <a href="https://www.gamesindustry.biz/capcom-will-shut-down-exoprimal-servers-in-september-2027">GamesIndustry</a></small></p><p><small>原文发布：2026-11-25 13:10（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《枪火重生》开发团队公布DLC“月海弦音”将于12月8日上线，含浪谣、胧两位新英雄与四把新武器；第九赛季“玄符造化”同日免费更新，加入符术与云箓组合、符术商人、特殊挑战、赛季皮肤及第五幕新地图“古燧烛洲”。</p><p><small>来源：<a href="https://www.gcores.com/articles/222836">机核</a></small></p><p><small>原文发布：2026-11-27 11:43（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《明日方舟：终末地》蘑菇版本剧情与真菌设定解读</title>
-  <link>https://www.gcores.com/articles/222807</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-8b49fb529f28698748a1880c</guid>
-  <pubDate>Thu, 26 Nov 2026 08:41:00 +0000</pubDate>
+  <title>Arm NSS技术落地《无限暖暖》3.0移动版</title>
+  <link>https://www.gameres.com/901203725.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c78d12a2c96bf71759f7cd59</guid>
+  <pubDate>Fri, 27 Nov 2026 03:41:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>机核作者结合《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本，梳理E21蘑菇的剧情设定，对照裂褶菌、虫草菌、蜜环菌等现实真菌知识，并分析后日谈支线「醉后狂欢」及游戏对人与自然关系的表达。</p><p><small>来源：<a href="https://www.gcores.com/articles/222807">机核</a></small></p><p><small>原文发布：2026-11-26 16:41（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Arm宣布《无限暖暖》3.0版本已支持Arm神经超级采样技术NSS，通过神经网络将低分辨率画面重建为高分辨率画面，以降低GPU渲染负载。该技术可在五款搭载Mali G2-Ultra NX GPU的移动设备上体验。</p><p><small>来源：<a href="https://www.gameres.com/901203725.html">GameRes</a></small></p><p><small>原文发布：2026-11-27 11:41（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>CDPR称《巫师4》相较《巫师3》的技术跨度可比GTA5到GTA6</title>
-  <link>https://80.lv/articles/the-leap-between-the-witcher-3-the-witcher-4-will-be-similar-to-the-one-between-gta-5-gta-6/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-bb13b4a294d1bbc96731d02a</guid>
-  <pubDate>Thu, 26 Nov 2026 08:25:00 +0000</pubDate>
+  <title>多人合作狩猎模拟《嘎嘎猎杀组》试玩版开放</title>
+  <link>https://www.gcores.com/articles/222829</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-e213a94dea2f9ede465fc352</guid>
+  <pubDate>Fri, 27 Nov 2026 03:01:21 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The Leap Between The Witcher 3 &amp; The Witcher 4 Will Be Similar to The One Between GTA 5 &amp; GTA 6</small></p><p>在CD Projekt Red第三季度财报电话会上，联合CEO Michał Nowakowski表示，《巫师4》距《巫师3》已11年，团队目标是让画面和游戏各方面都显著提升，技术跨度可与GTA5到GTA6相比；他还提到GTA6发售初期约25%玩家转向该作，但PC端未见影响。</p><p><small>来源：<a href="https://80.lv/articles/the-leap-between-the-witcher-3-the-witcher-4-will-be-similar-to-the-one-between-gta-5-gta-6/">80.lv</a></small></p><p><small>原文发布：2026-11-26 16:25（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>Vampire Squid开发、Polden Publishing发行的物理狩猎模拟游戏《嘎嘎猎杀组》试玩版开放，支持1-4人在线组队。玩家扮演鸭子，分工驾驶、射击、装货，用猎物换现金升级枪械与卡车，试玩含森林场景、三种可改装武器和三个Boss。</p><p><small>来源：<a href="https://www.gcores.com/articles/222829">机核</a></small></p><p><small>原文发布：2026-11-27 11:01（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《闪烁之光》7.5周年更新：新UR羲和与万抽福利上线</title>
-  <link>https://www.gameres.com/901203715.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-5c4e426d3b5e0a6b1c768637</guid>
-  <pubDate>Thu, 26 Nov 2026 02:14:00 +0000</pubDate>
+  <title>Rockstar英国员工投票否决IWGB工会承认协议</title>
+  <link>https://80.lv/articles/75-of-participating-rockstar-uk-staff-vote-against-iwgb-recognition/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-15085b56b272ef7de8e9a373</guid>
+  <pubDate>Fri, 27 Nov 2026 07:47:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>《闪烁之光》7.5周年“逐光庆典”于11月26日上线，推出光系UR英雄「羲和」，其机制为反弹伤害与叠加属性；同时开放累计万抽、SP英雄整队领取、卡池降价与金币召唤等福利，并更新美术、减负助手及新玩法。</p><p><small>来源：<a href="https://www.gameres.com/901203715.html">GameRes</a></small></p><p><small>原文发布：2026-11-26 10:14（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：75% of Participating Rockstar UK Staff Vote Against IWGB Recognition</small></p><p>Rockstar英国五处办公室就与IWGB的工会承认协议举行投票，1544人参与、投票率93.2%，75.3%反对、24.7%支持。投票期为11月12日至26日，正值《GTA 6》发售。此前31名员工因涉嫌泄密被解雇，相关劳资仲裁尚未宣判。</p><p><small>来源：<a href="https://80.lv/articles/75-of-participating-rockstar-uk-staff-vote-against-iwgb-recognition/">80.lv</a> · <a href="https://www.gamesindustry.biz/staff-at-grand-theft-auto-maker-rockstar-vote-against-union-recognition-deal">GamesIndustry</a></small></p><p><small>原文发布：2026-11-27 15:47（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>治愈系种花手游《花开时见你》开启预约</title>
-  <link>https://www.gameres.com/901203714.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-592851c2886e5f83de536dd3</guid>
-  <pubDate>Thu, 26 Nov 2026 01:32:00 +0000</pubDate>
+  <title>虚幻引擎6将不再支持蓝图与Actor游戏框架</title>
+  <link>https://www.gamesindustry.biz/unreal-engine-6-wont-include-blueprints-or-actor-gameplay-framework</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2d2803f8db9fbbe7c114c9aa</guid>
+  <pubDate>Wed, 25 Nov 2026 12:43:40 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>GameRes发布的手游《花开时见你》预约宣传稿称，游戏以种花、经营与换装为核心，玩家继承外婆的花园与花店，通过花朵结识客人，并包含魔法幻形、花神与花精灵、宠物派遣和俱乐部轻社交等玩法。</p><p><small>来源：<a href="https://www.gameres.com/901203714.html">GameRes</a></small></p><p><small>原文发布：2026-11-26 09:32（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Unreal Engine 6 won&#x27;t include Blueprints or Actor Gameplay Framework</small></p><p>Epic开发执行副总裁Marcus Wassmer在博客中表示，虚幻引擎6将停用蓝图和Actor游戏框架，改用Verse与Scene Graph框架，并称AI可帮助UE5项目迁移，Fortnite蓝图转Verse已有原型。</p><p><small>来源：<a href="https://www.gamesindustry.biz/unreal-engine-6-wont-include-blueprints-or-actor-gameplay-framework">GamesIndustry</a></small></p><p><small>原文发布：2026-11-25 20:43（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《影之刃零》如何拆解魂系框架并构建武侠爽感</title>
-  <link>https://www.gameres.com/901203707.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-a73ace61b6a349ac22e1d9db</guid>
-  <pubDate>Thu, 26 Nov 2026 00:50:00 +0000</pubDate>
+  <title>Ubisoft&#x27;s Lawyers Said Calling Skull and Bones an AAAA Game Was &quot;Classic Puffery&quot;</title>
+  <link>https://80.lv/articles/ubisoft-s-lawyers-said-calling-skull-and-bones-an-aaaa-game-was-classic-puffery/</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-6f26764e65506793c79d0ebb</guid>
+  <pubDate>Fri, 27 Nov 2026 08:33:00 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>文章分析《影之刃零》在保留魂系箱庭、Boss战与多武器构筑的同时，取消跑尸、精力条与阴人陷阱，围绕杀气资源与高响应防御重写战斗节奏，并指出前后期难度失衡、Boss设计与锁定机制等问题。</p><p><strong>背景与变化</strong><br>作者以制作人梁其伟的访谈和自身试玩为依据，归纳灵游坊用复合状态机、动捕与残影特效降低操作门槛、强化武侠攻防观感的具体取舍。</p><p><strong>策划视角</strong><br>可追问：当角色性能与数值成长不断抬高，Boss设计如何避免沦为被性能掩盖的交互缺口？</p><p><small>来源：<a href="https://www.gameres.com/901203707.html">GameRes</a></small></p><p><small>原文发布：2026-11-26 08:50（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>As the Jacob Himberger v. Ubisoft lawsuit continues to unfold, Ubisoft is trying to defend Yves Guillemot&#x27;s problematic statement.</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="https://80.lv/articles/ubisoft-s-lawyers-said-calling-skull-and-bones-an-aaaa-game-was-classic-puffery/">80.lv</a></small></p><p><small>原文发布：2026-11-27 16:33（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>EA Sports FC 27用AI重现已故解说员约翰·莫特森的声音</title>
-  <link>https://www.gamesindustry.biz/ea-sports-fc-27-adds-ai-recreated-voice-of-late-commentator-john-motson</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-cdd3cef6ff6bec080042de4a</guid>
-  <pubDate>Wed, 25 Nov 2026 20:48:20 +0000</pubDate>
+  <title>分析师：GTA 6首日销量3250万份，主机装机量限制后续增长</title>
+  <link>https://www.gamesindustry.biz/this-was-unlike-anything-else-weve-ever-seen-before-but-gta-6s-success-is-limited-by-the-console-install-base-and-its-future-rests-on-pc</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0e9295c4103d6a86ac0533b8</guid>
+  <pubDate>Thu, 26 Nov 2026 16:53:20 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：EA Sports FC 27 adds AI-recreated voice of late commentator John Motson</small></p><p>EA Sports FC 27将用存档录音与生成式AI重现已故解说员约翰·莫特森的声音，11月26日上线。EA称获其遗孀与儿子许可并付费，但未透露金额；反AI克隆声音组织质疑莫特森生前未同意。</p><p><small>来源：<a href="https://www.gamesindustry.biz/ea-sports-fc-27-adds-ai-recreated-voice-of-late-commentator-john-motson">GamesIndustry</a></small></p><p><small>原文发布：2026-11-26 04:48（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：&quot;This was unlike anything else we&#x27;ve ever seen before&quot; - but GTA 6&#x27;s success is limited by the console install base, and its future rests on PC</small></p><p>GamesIndustry报道，分析师称GTA 6首日售出3250万份、收入37.9亿美元，多家机构预计年底销量可达5000万份以上；但当前主机装机量约1.37亿台，增长空间受限，未公布的PC版被视为主要扩张机会。</p><p><small>来源：<a href="https://www.gamesindustry.biz/this-was-unlike-anything-else-weve-ever-seen-before-but-gta-6s-success-is-limited-by-the-console-install-base-and-its-future-rests-on-pc">GamesIndustry</a></small></p><p><small>原文发布：2026-11-27 00:53（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《Become》开发谈：从3A到微观平台跳跃游戏</title>
-  <link>https://80.lv/articles/the-making-of-become-from-aaa-games-to-a-microscopic-platformer/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-159d13a3a98cd3c6a7a489ba</guid>
-  <pubDate>Wed, 25 Nov 2026 20:31:00 +0000</pubDate>
+  <title>触乐夜话：首次参加WePlay独立游戏展的观察</title>
+  <link>http://www.chuapp.com/article/291791.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-f4f4394963a3377fa17030fa</guid>
+  <pubDate>Thu, 26 Nov 2026 15:38:07 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：The Making of Become: From AAA Games to a Microscopic Platformer</small></p><p>ProtoSeed Games创始人Valentin Wirth讲述《Become》的开发：玩家扮演精子穿越人体生殖系统，团队用UE5.4的Niagara网格粒子与顶点着色器动画呈现最多约50万细胞，以漂浮平台跳跃替代自由游动，并用大面积次表面散射照亮关卡。</p><p><strong>背景与变化</strong><br>作者以原型验证玩法，比较粒子生命、2D boids与Niagara的性能和可控性，选择漂浮平台跳跃降低操作门槛，用几何厚度与体积光塑造视觉，并借地标与视线引导玩家。</p><p><strong>策划视角</strong><br>可研究：在数十万粒子的群体场景中，如何用自定义力场与曲线既保持群体规模，又让玩家始终看清自身位置与可交互目标？</p><p><small>来源：<a href="https://80.lv/articles/the-making-of-become-from-aaa-games-to-a-microscopic-platformer/">80.lv</a></small></p><p><small>原文发布：2026-11-26 04:31（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>作者记录首次参加上海WePlay游戏展的经历，包括场馆指引不清、入场绕行等问题，并观察中小工作室摊位在字体设计、动线、打卡布景、赠品预算和试玩互动上的细节，认为现场玩家更关注试玩而非coser。</p><p><small>来源：<a href="http://www.chuapp.com/article/291791.html">触乐</a></small></p><p><small>原文发布：2026-11-26 23:38（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>报道称育碧要求提案团队说明为何不用生成式AI</title>
-  <link>https://www.gamesindustry.biz/ubisoft-staff-must-justify-not-using-generative-ai-in-pitches-report-claims</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-325dee23f04eae11d5fbaf06</guid>
-  <pubDate>Wed, 25 Nov 2026 20:19:40 +0000</pubDate>
+  <title>DNFU2026嘉年华成都举办，展示DNF宇宙多款产品动向</title>
+  <link>http://www.chuapp.com/article/291793.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2481dd196b279058aca7b11d</guid>
+  <pubDate>Thu, 26 Nov 2026 15:36:22 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Ubisoft staff must justify not using generative AI in pitches, report claims</small></p><p>据Vertical Slice采访多名育碧匿名员工，育碧要求新项目提案说明生成式AI如何加快开发，若不使用需给出详细理由，否则提案不获批。公司近期成立生成式AI子公司Motherbrain，员工称士气低落。</p><p><small>来源：<a href="https://www.gamesindustry.biz/ubisoft-staff-must-justify-not-using-generative-ai-in-pitches-report-claims">GamesIndustry</a></small></p><p><small>原文发布：2026-11-26 04:19（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐作者记录2026年DNFU嘉年华在成都东郊记忆举办，主题为“玩点新动作”。现场设有《地下城与勇士》经典版与《代号Fight》体验区，发布会公布端游、手游进展及《地下城与勇士：卡赞》新武器与国区定制皮肤动向。</p><p><small>来源摘要 · 细节请参见原文。</small></p><p><small>来源：<a href="http://www.chuapp.com/article/291793.html">触乐</a></small></p><p><small>原文发布：2026-11-26 23:36（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>Roblox与英国PRS for Music签署音乐授权协议</title>
-  <link>https://www.gamesindustry.biz/roblox-signs-licensing-deal-with-prs-for-music</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4a418237ed0b2ff97b8ff549</guid>
-  <pubDate>Wed, 25 Nov 2026 18:03:10 +0000</pubDate>
+  <title>Women in Games大使计划过去一年新增近500名成员</title>
+  <link>https://www.gamesindustry.biz/nearly-500-new-members-joined-women-in-games-ambassador-programme-over-the-past-year</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2e380cab03b018d970e28a2b</guid>
+  <pubDate>Thu, 26 Nov 2026 14:59:10 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Roblox signs licensing deal with PRS for Music</small></p><p>Roblox与英国音乐版权组织PRS for Music达成授权协议，覆盖平台上的音乐使用；PRS将从明年起向词曲作者、作曲者和出版商分配版税，具体财务条款未披露。</p><p><small>来源：<a href="https://www.gamesindustry.biz/roblox-signs-licensing-deal-with-prs-for-music">GamesIndustry</a></small></p><p><small>原文发布：2026-11-26 02:03（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p><small>原标题：Nearly 500 new members joined Women in Games Ambassador Programme over the past year</small></p><p>Women in Games发布2025–2026年度个人大使报告，称过去一年新增498名成员，来自71个国家，其中14国首次加入；计划现有来自100个国家的2700多名女性与盟友，并迎来十周年。</p><p><small>来源：<a href="https://www.gamesindustry.biz/nearly-500-new-members-joined-women-in-games-ambassador-programme-over-the-past-year">GamesIndustry</a></small></p><p><small>原文发布：2026-11-26 22:59（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>《崩坏：因缘精灵》三测：CRPG叙事、无缝室内与角色精灵绑定抽卡</title>
-  <link>http://www.chuapp.com/article/291790.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-51182d942c301f93d24a98d2</guid>
-  <pubDate>Wed, 25 Nov 2026 16:33:25 +0000</pubDate>
+  <title>触乐夜话：作者谈随身携带多台娱乐设备的习惯</title>
+  <link>http://www.chuapp.com/article/291789.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ecda55cf90d8cd97b61ef850</guid>
+  <pubDate>Wed, 25 Nov 2026 16:32:28 +0000</pubDate>
   <category>今日游戏日报</category>
-  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐作者体验《崩坏：因缘精灵》三测，介绍属性对话检定与死亡回溯、异色精灵的接近方式、室内外无缝衔接与天气细节，以及角色池与精灵池并行、首次获得心象赠送同行精灵的付费结构。</p><p><small>来源：<a href="http://www.chuapp.com/article/291790.html">触乐</a></small></p><p><small>原文发布：2026-11-26 00:33（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>今日游戏日报</strong></p><p>触乐作者自述出门必带游戏机等娱乐设备：从Switch到Steam Deck，还有改装过的Kindle和装满低配置游戏的笔记本，但折腾完往往很少真正使用，作者把这种准备比作末日求生式的折腾乐趣。</p><p><small>来源：<a href="http://www.chuapp.com/article/291789.html">触乐</a></small></p><p><small>原文发布：2026-11-26 00:32（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>专访：地牢爬行游戏《The King&#x27;s Surveyor》自研RetroEngine</title>
-  <link>https://80.lv/articles/inside-retroengine-the-custom-engine-behind-the-king-s-surveyor/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-062b4c9c52886d2b83293401</guid>
-  <pubDate>Wed, 25 Nov 2026 19:53:00 +0000</pubDate>
+  <title>游戏设计中的时间：从时间感到时间循环的机制分类</title>
+  <link>https://docs.xpaidia.com/ficstruction/undo/timeingamedesign</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-c1140c9950dac4e9a406ff4a</guid>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p><small>原标题：Inside RetroEngine, the Custom Engine Behind The King&#x27;s Surveyor</small></p><p>80.lv采访独立开发者Alexander Rybak，介绍其用C++和Direct3D 12从零编写的RetroEngine，以及首款作品《The King&#x27;s Surveyor》。引擎围绕CRT显示模型设计，渲染、调色板、UI与音频均服务于复古成像。</p><p><strong>设计选择</strong><br>作者以CRT物理特性为出发点，按电子束、荧光粉、荫罩、曲面玻璃的顺序建模，而非叠加滤镜；材质仅保留albedo，并用Spatial Compression与Dimensional Falloff处理远景。</p><p><strong>策划视角</strong><br>可追问：把显示设备模型前置到渲染管线，会如何改变美术制作与性能预算的取舍？</p><p><small>来源：<a href="https://80.lv/articles/inside-retroengine-the-custom-engine-behind-the-king-s-surveyor/">80.lv</a></small></p><p><small>原文发布：2026-11-26 03:53（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong> · 常青阅读</p><p>作者梳理游戏中时间的多种处理方式：作为沉浸手段的时间感、被规定的限时机制、暂停与菜单时间、由事件触发而非真实流逝的世界时间，以及自我流逝、时间循环、时间轴回溯、与现实同步、交互驱动、连续倒流、平行宇宙、拉伸压缩和蒙太奇转换等类型，并列举对应游戏。</p><p><strong>设计选择</strong><br>作者以艺术史和电影中的时间表现为参照，按时间与玩家行动、现实时间的关系对游戏分类，结合具体作品分析机制取舍，如循环带来的内容膨胀、平行时间线易致混乱。</p><p><strong>策划视角</strong><br>可追问：把“世界时间是否独立于玩家行动”作为分类轴，能否解释《星际拓荒》与《时空幻境》在关卡节奏和失败重试上的差异？</p><p><small>来源：<a href="https://docs.xpaidia.com/ficstruction/undo/timeingamedesign">叶梓涛 · 落日间</a></small></p><p><small>原文日期未标</small></p>]]></description>
 </item>
 <item>
-  <title>机核专访《追逐末日之光》制作人JINO：末日设定与五年独立开发</title>
-  <link>https://www.gcores.com/articles/222765</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ce160d481b813f4a591f5072</guid>
-  <pubDate>Wed, 25 Nov 2026 11:28:11 +0000</pubDate>
+  <title>关卡设计通用流程：从预制作到发布的八个阶段</title>
+  <link>https://book.leveldesignbook.com/process/overview</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-31e16bb3f9db1023808d52a1</guid>
   <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong></p><p>韩国独立开发者JINO接受机核采访，谈《追逐末日之光》的创作契机、末日六个月设定与女高中生主角罗妍的由来、2.5D像素美术的制作方式、以环境解谜和平台跳跃替代战斗的设计，以及五年间放弃3D版本、重构故事结构等开发取舍。</p><p><strong>设计选择</strong><br>作者以问答形式呈现JINO的具体选择：用3D素材生成2D像素画面并借光影营造氛围；简化组合谜题、加密检查点以保持叙事节奏；试玩反馈先追问原因再决定调整方式。</p><p><strong>策划视角</strong><br>可研究：当开发者把“玩家觉得烦躁”拆解为线索不足、操作不便或节奏过慢等不同成因时，如何据此区分该改引导、改操作还是改关卡结构？</p><p><small>来源：<a href="https://www.gcores.com/articles/222765">机核</a></small></p><p><small>原文发布：2026-11-25 19:28（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>策划精选</strong> · 常青阅读</p><p><small>原标题：How to make a level</small></p><p>《The Level Design Book》梳理3D关卡设计的通用流程：预制作、战斗设计（可选）、布局、白盒、脚本、灯光、环境美术与发布，并说明各阶段目的及不同项目应如何调整。</p><p><strong>设计选择</strong><br>作者主张按项目类型调整流程：团队项目需更多预制作与文档，战斗/多人地图需更长白盒与试玩，叙事向单人关卡则需反复迭代脚本与美术；并提醒过早进入美术阶段会锁死早期设计错误。</p><p><strong>策划视角</strong><br>可对照文中“叙事向关卡不宜长白盒”的判断，思考：当故事本身仍在变动时，关卡团队应如何安排脚本与美术的迭代顺序，避免返工？</p><p><small>来源：<a href="https://book.leveldesignbook.com/process/overview">The Level Design Book</a></small></p><p><small>原文日期未标</small></p>]]></description>
 </item>
 <item>
-  <title>中国当代艺术场域中的电子游戏作品梳理</title>
-  <link>https://docs.xpaidia.com/ficstruction/undo/contemporaryart</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-2fc64225d170896623898ef9</guid>
-  <category>策划精选</category>
-  <description><![CDATA[<p><strong>策划精选</strong> · 常青阅读</p><p>叶梓涛以艺术家个案梳理1990至2020年中国当代艺术中与电子游戏相关的创作，包括冯梦波、郑国谷、曹斐、顾德新、郑达、陆扬、佩恩恩、关子维、田晓磊等人的作品，并尝试归纳电子游戏在艺术创作中扮演的角色。</p><p><strong>设计选择</strong><br>作者按2010年前后分期，以访谈、网络资料和作品文本分析为方法，将作品归为文化符号、创作材料、艺术实践场所、规则改造、虚实参照、容器、生成艺术与交互等类别，并与西方作品对照。</p><p><strong>策划视角</strong><br>可追问：以“游戏作为材料/容器”等分类梳理艺术实践，是否也能反过来为游戏设计中的叙事与交互选择提供参照？</p><p><small>来源：<a href="https://docs.xpaidia.com/ficstruction/undo/contemporaryart">叶梓涛 · 落日间</a></small></p><p><small>原文日期未标</small></p>]]></description>
-</item>
-<item>
-  <title>科学家为AI代理划定责任边界：17位研究者访谈</title>
-  <link>https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-41364150ceb8c9b4b91551e1</guid>
-  <pubDate>Wed, 25 Nov 2026 18:52:55 +0000</pubDate>
+  <title>llama.cpp推出AMD Ryzen与Radeon基准测试面板</title>
+  <link>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-36450d15c96d17602d1475e6</guid>
+  <pubDate>Thu, 26 Nov 2026 11:37:17 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Where scientists draw the line on AI agents</small></p><p>Ai2博客介绍其访谈17位自然科学、应用科学与社会科学研究者，探讨AI代理在科研中的责任问题，提出科学信任的五个维度——验证、隐私、客观性、问责与透明，并建议由科学家参与定义代理任务、评估标准与安全边界。</p><p><small>来源：<a href="https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents">HuggingFace Blog</a></small></p><p><small>原文发布：2026-11-26 02:52（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</small></p><p>Hugging Face上线llama.cpp×AMD基准测试面板，可按硬件、模型和构建版本查看PP512提示处理与TG128文本生成的吞吐量，并对比量化、追踪构建历史与上下文增长下的生成性能，底层数据公开可复用。</p><p><small>来源：<a href="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench">HuggingFace Blog</a></small></p><p><small>原文发布：2026-11-26 19:37（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>用CUGA构建印度语言语音代理的实践</title>
-  <link>https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-1099c932ea33e5a99c8130f5</guid>
-  <pubDate>Wed, 25 Nov 2026 10:22:09 +0000</pubDate>
+  <title>如何构建、训练与评估多智能体系统：从四个智能体学通信开始</title>
+  <link>https://huggingface.co/blog/training-swarms</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-43bfe142cc4d9fe84add0f80</guid>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：An Indic Voice Agent with CUGA</small></p><p>文章介绍如何以IBM开源代理框架CUGA为核心搭建印度语言语音助手：语音经转写后交给CUGA检索知识库并生成有依据的回答，再转为语音；作者指出跨语言检索是主要难点，并给出改用多语言嵌入模型的修复方法。</p><p><small>来源：<a href="https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga">HuggingFace Blog</a></small></p><p><small>原文发布：2026-11-25 18:22（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems</small></p><p>HuggingFace博客系列第一篇，介绍多智能体系统的构建与训练方法，以四个共享Qwen3-0.6B策略的智能体完成数字排序信息汇总任务为例，用团队奖励和组内归一化优势训练通信，并报告训练成功率与token消耗变化。</p><p><small>来源：<a href="https://huggingface.co/blog/training-swarms">HuggingFace Blog</a></small></p><p><small>原文发布：2026-11-26 08:00（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>sqlite3_rsync：无需本地完整副本的SQLite远程快照复制</title>
-  <link>https://simonwillison.net/2026/Nov/26/sqlite3-rsync/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-0d0d5319a5748e927a5d1ca8</guid>
-  <pubDate>Thu, 26 Nov 2026 06:08:25 +0000</pubDate>
+  <title>蚂蚁灵波发布LingBot-Map 2.0与LingBot-Navi导航模型</title>
+  <link>https://www.qbitai.com/2026/11/513211.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-9be90b2ecf1a4cffdca35d0b</guid>
+  <pubDate>Fri, 27 Nov 2026 04:05:18 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：sqlite3_rsync: Database Remote-Copy Tool For SQLite</small></p><p>介绍SQLite工具sqlite3_rsync：它可通过SSH把数据库快照复制到另一台机器，无需先在本地生成完整副本；同步已有副本时按页哈希只传输差异页，两端差异极大时带宽开销最多多出几个百分点。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/">Simon Willison</a></small></p><p><small>原文发布：2026-11-26 14:08（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>蚂蚁灵波科技发布流式三维重建模型LingBot-Map 2.0，可在模型内部修正长距离建图累积的漂移误差；同时开源带可复用三维空间记忆的导航模型LingBot-Navi，两者代码、权重及511个真实场景数据集均已开源。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/513211.html">量子位</a></small></p><p><small>原文发布：2026-11-27 12:05（北京时间）</small></p>]]></description>
 </item>
 <item>
-  <title>datasette-charts 0.3a0 新增图表标注功能</title>
-  <link>https://simonwillison.net/2026/Nov/25/datasette-charts/</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-80c39ac9eb59db4f62dd808f</guid>
-  <pubDate>Wed, 25 Nov 2026 18:16:50 +0000</pubDate>
+  <title>TabbyML用20个AI代理优化Quickwit，ClickBench热查询成绩提升</title>
+  <link>https://www.qbitai.com/2026/11/513163.html</link>
+  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-ff6a33c70733ec3d54326c27</guid>
+  <pubDate>Fri, 27 Nov 2026 03:53:49 +0000</pubDate>
   <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p><small>原标题：datasette-charts 0.3a0</small></p><p>Simon Willison 发布 datasette-charts 0.3a0，新增图表标注能力，可在图表上添加线条、阴影区域、标签或三者组合，并可在 Datasette Lite 的图表构建界面中调整标注；安装 Datasette Agent 后，该代理也能根据提示生成带标注的图表。</p><p><small>来源：<a href="https://simonwillison.net/2026/Nov/25/datasette-charts/">Simon Willison</a></small></p><p><small>原文发布：2026-11-26 02:16（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>智元灵心平台上线一年：2万用户孵化3万机器人智能体</title>
-  <link>https://www.qbitai.com/2026/11/512715.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-770ccc12dddf86741e1cd326</guid>
-  <pubDate>Wed, 25 Nov 2026 14:32:57 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>智元发布具身智能生态技术体系AIMA及五年不低于20亿元的“元苼”计划，并介绍灵心平台提供智能体创建、知识技能配置、任务编排、3D调试及SDK、MCP等连接能力，称上线一年累计2万+用户、3万+智能体、7万+平台内容。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/512715.html">量子位</a></small></p><p><small>原文发布：2026-11-25 22:32（北京时间）</small></p>]]></description>
-</item>
-<item>
-  <title>九章云极发布物理AI工厂与产业生态联盟</title>
-  <link>https://www.qbitai.com/2026/11/512582.html</link>
-  <guid isPermaLink="false">https://github.com/Vizroi/daily-ai-digest#article-4ab67d8144f932ce043be584</guid>
-  <pubDate>Wed, 25 Nov 2026 14:21:20 +0000</pubDate>
-  <category>AI 快讯</category>
-  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>九章云极在深圳举办物理AI行业峰会，推出面向物理AI的算力基础设施与工具栈Physical AI Factory，发起极光物理AI产业生态联盟并公布两层API开放路线图，同时启动中国算力采购信心指数，并与多方签署战略合作。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/512582.html">量子位</a></small></p><p><small>原文发布：2026-11-25 22:21（北京时间）</small></p>]]></description>
+  <description><![CDATA[<p><strong>AI 快讯</strong></p><p>TabbyML公布一项实验：20个AI代理组成工程团队，在Quickwit上自主开展约350次性能实验，保留6项通过审查的优化；1亿行数据测试中，40条查询的总热查询耗时从40.5秒降至27.9秒，热查询geomean从403毫秒降至304毫秒。</p><p><small>来源：<a href="https://www.qbitai.com/2026/11/513163.html">量子位</a></small></p><p><small>原文发布：2026-11-27 11:53（北京时间）</small></p>]]></description>
 </item>
 </channel>
 </rss>
